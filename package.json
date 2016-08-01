@@ -4,6 +4,7 @@
   "description": "A collection of all public repositories on GitHub that depend on `electron-prebuilt`",
   "main": "index.js",
   "scripts": {
+    "start": "npm run fetch",
     "fetch": "node fetch.js",
     "test": "standard"
   },
