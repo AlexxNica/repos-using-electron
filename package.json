@@ -4,15 +4,24 @@
   "description": "A collection of all the public repositories on GitHub that use Electron",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "standard"
   },
-  "keywords": ["electron", "github", "community"],
+  "keywords": [
+    "electron",
+    "github",
+    "community"
+  ],
   "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
   "license": "MIT",
   "devDependencies": {
     "dotenv": "^2.0.0",
     "github-url-to-object": "^2.2.3",
     "limiter": "^1.1.0",
-    "request": "^2.74.0"
+    "request": "^2.74.0",
+    "standard": "^7.1.2"
+  },
+  "dependencies": {
+    "is-url": "^1.2.2"
   }
 }
