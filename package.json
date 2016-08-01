@@ -1,10 +1,10 @@
 {
   "name": "repos-using-electron",
   "version": "1.0.0",
-  "description": "A collection of all the public repositories on GitHub that use Electron",
+  "description": "A collection of all public repositories on GitHub that depend on `electron-prebuilt`",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "fetch": "node fetch.js",
     "test": "standard"
   },
   "keywords": [
@@ -19,9 +19,10 @@
     "github-url-to-object": "^2.2.3",
     "limiter": "^1.1.0",
     "request": "^2.74.0",
-    "standard": "^7.1.2"
+    "standard": "^7.1.2",
+    "is-url": "^1.2.2"
   },
   "dependencies": {
-    "is-url": "^1.2.2"
+    "require-dir": "^0.3.0"
   }
 }
