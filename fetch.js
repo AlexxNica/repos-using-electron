@@ -6,28 +6,20 @@ const request = require('request')
 const RateLimiter = require('limiter').RateLimiter
 const librariesLimiter = new RateLimiter(1, 1000)
 const githubLimiter = new RateLimiter(1, 1000)
-const gh = require('github-url-to-object')
 const URL = require('url')
 const isURL = require('is-url')
 
-function download () {
+function downloadPackageJSONFiles () {
   for (let page=1; page<500; page++) {
     librariesLimiter.removeTokens(1, function () {
-      let url = getURLForPage(page)
+      let url = getURLForDependentsPage(page)
       request(url, {json: true}, function(err, resp, repos) {
+        // ignore 404s
+        if (err || !repos || repos.error || !Array.isArray(repos)) return
 
-        // crude way to ignore 404s
-        if (!repos || repos.error || !Array.isArray(repos)) return
-
-        repos.forEach(function (repository) {
-          if (!isURL(repository.repository_url)) return
-          let repoParts = gh(repository.repository_url)
-          if (!repoParts) return
-          let {user, repo} = repoParts
-
-          if (!repo || !user) return
-          let pkgURL = getPackageJSONURLForRepository(user, repo)
-
+        repos.forEach(function (repo) {
+          let [user, project] = repo.full_name.split('/')
+          let pkgURL = getURLForPackageJSON(user, project)
 
           githubLimiter.removeTokens(1, function () {
             request(pkgURL, {json: true, headers: {'user-agent': 'repos-using-electron'}}, function(err, resp, packageJSON) {
@@ -36,9 +28,9 @@ function download () {
               let content = Buffer(packageJSON.content, packageJSON.encoding).toString()
 
               content = JSON.parse(content)
-              content._librariesioMetadata = repository
+              content._librariesioMetadata = repo
 
-              let filename = path.join(__dirname, 'repos', `${user}___${repo}.json`)
+              let filename = path.join(__dirname, 'repos', `${user}___${project}.json`)
               console.log('\n\n\n')
               console.log(filename)
               console.log(content)
@@ -51,7 +43,7 @@ function download () {
   }
 }
 
-function getPackageJSONURLForRepository(user, repo) {
+function getURLForPackageJSON(user, repo) {
   return URL.format({
     protocol: 'https:',
     host: 'api.github.com',
@@ -62,11 +54,11 @@ function getPackageJSONURLForRepository(user, repo) {
   })
 }
 
-function getURLForPage(page, perPage) {
+function getURLForDependentsPage(page, perPage) {
   return URL.format({
     protocol: 'https:',
     host: 'libraries.io',
-    pathname: '/api/npm/electron-prebuilt/dependents/',
+    pathname: '/api/npm/electron-prebuilt/dependent_repositories/',
     query: {
       api_key: process.env.LIBRARIES_IO_API_KEY,
       page: page,
@@ -74,6 +66,7 @@ function getURLForPage(page, perPage) {
     }
   })
 }
-if (!process.parent) download()
 
-module.exports = download
+if (!process.parent) downloadPackageJSONFiles()
+
+module.exports = downloadPackageJSONFiles
