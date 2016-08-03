@@ -1,0 +1,52 @@
+{
+  "name": "multichess-desktop",
+  "version": "0.0.1",
+  "description": "Massive Multiplayer Online Chess Game",
+  "main": "index.html",
+  "author": "tbk",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron main.js",
+    "package": "electron-packager ./ MultiChess --platform=linux --arch=all --out ./bin/MultiChess --version 0.36.2 --overwrite –version-string.CompanyName=MultiChess –version-string.ProductName=MultiChess –version-string.ProductVersion=1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.2.0",
+    "electron-prebuilt": "^0.36.2"
+  },
+  "_librariesioMetadata": {
+    "full_name": "multichess/multichess-desktop",
+    "description": "A desktop client for multichess",
+    "fork": false,
+    "created_at": "2016-01-05T20:06:51.000Z",
+    "updated_at": "2016-03-02T17:38:31.025Z",
+    "pushed_at": "2016-01-05T20:50:44.000Z",
+    "homepage": null,
+    "size": 113,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 49089763,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

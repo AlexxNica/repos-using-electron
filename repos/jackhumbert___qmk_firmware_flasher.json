@@ -1,0 +1,75 @@
+{
+  "name": "dfu-programmer",
+  "productName": "QMK Firmware Flasher",
+  "version": "0.5.0",
+  "description": "GUI app to load firmware onto atmega32u4 chips.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "postinstall": "install-app-deps",
+    "pack": "build",
+    "dist": "build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackhumbert/dfu-programmer-app.git"
+  },
+  "keywords": [
+    "dfu-programmer",
+    "dfu",
+    "keyboard",
+    "mechanical keyboard"
+  ],
+  "author": "Jack Humbert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jackhumbert/dfu-programmer-app/issues"
+  },
+  "homepage": "https://github.com/jackhumbert/dfu-programmer-app",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0",
+    "electron-builder": "^3.25.0"
+  },
+  "build": {
+    "app-bundle-id": "com.github.dfu-programmer-app",
+    "app-category-type": "public.app-category.utilities",
+    "win": {
+      "iconUrl": "https://github.com/skullydazed/dfu-programmer-app/blob/master/build/windows.ico?raw=true"
+    }
+  },
+  "_librariesioMetadata": {
+    "full_name": "jackhumbert/qmk_firmware_flasher",
+    "description": "flashing utility for the Atmel AVR USB family",
+    "fork": false,
+    "created_at": "2015-10-31T01:06:57.000Z",
+    "updated_at": "2016-07-28T02:05:48.236Z",
+    "pushed_at": "2016-07-24T06:13:09.000Z",
+    "homepage": "",
+    "size": 1444,
+    "stargazers_count": 14,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 4,
+    "mirror_url": null,
+    "open_issues_count": 6,
+    "default_branch": "master",
+    "subscribers_count": 10,
+    "github_id": 45283910,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

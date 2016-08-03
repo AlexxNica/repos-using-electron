@@ -1,0 +1,82 @@
+{
+  "name": "pomodoro",
+  "version": "2.0.0",
+  "description": "Pomodoro timer build with electron",
+  "license": "MIT",
+  "repository": "https://github.com/G07cha/pomodoro.git",
+  "author": "g07cha",
+  "engines": {
+    "node": ">=4"
+  },
+  "electronVersion": "1.0.1",
+  "scripts": {
+    "pretest": "electron-packager ./ --platform=darwin --arch=x64 --out=dist --overwrite",
+    "test": "ava",
+    "start": "electron .",
+    "package": "build -mw --ia32 --x64"
+  },
+  "dependencies": {
+    "auto-launch": "^2.1.0",
+    "human-readable-time": "^0.2.4",
+    "jquery": "^2.2.4",
+    "menubar": "^5.0.0",
+    "photon": "git+https://github.com/connors/photon.git",
+    "timer-stopwatch": "0.1.6"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "devtron": "^1.2.1",
+    "electron-builder": "^5.12.1",
+    "electron-packager": "^7.3.0",
+    "electron-prebuilt": "^1.2.7",
+    "spectron": "^3.2.6"
+  },
+  "build": {
+    "productName": "Pomodoro",
+    "appId": "com.g07cha.pomodoro",
+    "app-category-type": "public.app-category.productivity",
+    "mac": {
+      "icon": "build/icon.icns"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.ico",
+      "iconUrl": "https://github.com/G07cha/pomodoro/blob/master/icons/icon.ico?raw=true"
+    }
+  },
+  "_librariesioMetadata": {
+    "full_name": "G07cha/pomodoro",
+    "description": "Pomodoro time managment tool build with electron :tomato:",
+    "fork": false,
+    "created_at": "2015-10-02T15:08:40.000Z",
+    "updated_at": "2016-07-13T18:39:52.000Z",
+    "pushed_at": "2016-07-14T07:51:20.000Z",
+    "homepage": "http://g07cha.github.io/pomodoro/",
+    "size": 742,
+    "stargazers_count": 76,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": true,
+    "forks_count": 15,
+    "mirror_url": null,
+    "open_issues_count": 1,
+    "default_branch": "master",
+    "subscribers_count": 7,
+    "github_id": 43559489,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

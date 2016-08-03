@@ -1,0 +1,82 @@
+{
+  "name": "electron-context-menu",
+  "version": "0.4.0",
+  "description": "Context menu for your Electron app",
+  "license": "MIT",
+  "repository": "sindresorhus/electron-context-menu",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "scripts": {
+    "start": "electron fixture.js",
+    "test": "xo"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "electron",
+    "app",
+    "context",
+    "right-click",
+    "menu",
+    "extensible",
+    "save",
+    "image"
+  ],
+  "dependencies": {
+    "electron-dl": "^1.2.0",
+    "electron-is-dev": "^0.1.1"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.6",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ],
+    "rules": {
+      "import/no-extraneous-dependencies": "off"
+    }
+  },
+  "_librariesioMetadata": {
+    "full_name": "sindresorhus/electron-context-menu",
+    "description": "Context menu for your Electron app",
+    "fork": false,
+    "created_at": "2016-06-04T10:36:38.000Z",
+    "updated_at": "2016-07-29T09:35:09.849Z",
+    "pushed_at": "2016-07-21T12:35:19.000Z",
+    "homepage": null,
+    "size": 86,
+    "stargazers_count": 117,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": false,
+    "forks_count": 11,
+    "mirror_url": null,
+    "open_issues_count": 3,
+    "default_branch": "master",
+    "subscribers_count": 6,
+    "github_id": 60405378,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 6,
+    "has_readme": "readme.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "license",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-07-21T13:00:44.061Z",
+    "rank": null
+  }
+}

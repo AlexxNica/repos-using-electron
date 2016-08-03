@@ -1,0 +1,68 @@
+{
+  "name": "electron-sqlite3",
+  "version": "1.0.0",
+  "description": "Example electron app with sqlite3 integration",
+  "repository": "https://github.com/bytheway/electron-sqlite3.git",
+  "main": "main.js",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "sqlite3": "3.1.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.2.1",
+    "electron-prebuilt": "^0.36.4"
+  },
+  "keywords": [
+    "electron",
+    "atom",
+    "sqlite3"
+  ],
+  "bugs": {
+    "url": "https://github.com/bytheway/electron-sqlite3/issues"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . electron-sqlite3 --out=dist --ignore=dist --prune --asar --all --version=0.36.4",
+    "postinstall": "npm run rebuild-sqlite3",
+    "rebuild-sqlite3": "cd node_modules/sqlite3 && npm run prepublish && node-gyp configure --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-darwin-x64 && node-gyp rebuild --target=0.36.4 --arch=x64 --target_platform=darwin --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-darwin-x64",
+    "rebuild-sqlite3-win": "cd node_modules/sqlite3 && npm run prepublish && node-gyp configure --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-win32-x64 && node-gyp node-gyp rebuild --target=0.36.0 --arch=x64 --target_platform=win32 --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-win32-x64"
+  },
+  "author": "Ben Bytheway",
+  "contributors": [],
+  "license": "MIT",
+  "_librariesioMetadata": {
+    "full_name": "bytheway/electron-sqlite3",
+    "description": "Example electron app with sqlite3 integration",
+    "fork": false,
+    "created_at": "2015-07-28T00:08:37.000Z",
+    "updated_at": "2016-06-22T17:12:28.362Z",
+    "pushed_at": "2016-06-16T12:09:34.000Z",
+    "homepage": null,
+    "size": 5,
+    "stargazers_count": 14,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 3,
+    "mirror_url": null,
+    "open_issues_count": 2,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 39804114,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE.md",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

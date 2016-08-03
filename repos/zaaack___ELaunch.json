@@ -1,0 +1,78 @@
+{
+  "name": "ELaunch",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaaack/ELaunch.git"
+  },
+  "keywords": [
+    "launcher",
+    "electron"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaaack/ELaunch/issues"
+  },
+  "homepage": "https://github.com/zaaack/ELaunch#readme",
+  "author": {
+    "email": "zaaack@qq.com",
+    "name": "zaaack"
+  },
+  "scripts": {
+    "start": "electron ./app/index.js",
+    "debug": "electron ./app/index.js --debug",
+    "test": "node test.js",
+    "dev_search": "node-sass --watch --output-style compressed --recursive --output app/browser/search/css --source-map true --source-map-contents app/browser/search/scss",
+    "postinstall": "install-app-deps",
+    "pack": "build --dir",
+    "dist": "build",
+    "dist-all": "build -l -w -m"
+  },
+  "devDependencies": {
+    "electron-builder": "^5.6.2",
+    "electron-packager": "^7.0.4",
+    "electron-prebuilt": "^1.2.3",
+    "electron-rebuild": "^1.1.5",
+    "node-sass": "^3.7.0"
+  },
+  "build": {
+    "appId": "net.open-demo.elaunch",
+    "app-category-type": "public.app-category.productivity"
+  },
+  "_librariesioMetadata": {
+    "full_name": "zaaack/ELaunch",
+    "description": "a launcher based on Electron and inspired by UAfred，now only support linux and macos",
+    "fork": false,
+    "created_at": "2016-06-16T11:33:30.000Z",
+    "updated_at": "2016-07-26T14:32:03.541Z",
+    "pushed_at": "2016-07-05T08:46:52.000Z",
+    "homepage": "",
+    "size": 2761,
+    "stargazers_count": 131,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 9,
+    "mirror_url": null,
+    "open_issues_count": 2,
+    "default_branch": "master",
+    "subscribers_count": 6,
+    "github_id": 61287677,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-06-19T05:05:24.386Z",
+    "rank": null
+  }
+}

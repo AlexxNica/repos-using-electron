@@ -1,0 +1,89 @@
+{
+  "name": "webflight",
+  "version": "0.1.8",
+  "description": "Turns a server into a seed for peer-to-peer content delivery",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha test/tests",
+    "test-mocha": "mocha test/tests/wfstart.js",
+    "test-start": "node test/fixtures/test-website/server.js"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "/test/fixtures/*",
+      "/test/tests/wfstart.js",
+      "/test/tests/addStatusBar/*"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-Webflight/WebFlight.git"
+  },
+  "author": "Team WebFlight",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Team-WebFlight/WebFlight/issues"
+  },
+  "dependencies": {
+    "babel-eslint": "^5.0.0",
+    "casperjs": "^1.1.0-beta5",
+    "cheerio": "^0.20.0",
+    "create-torrent": "^3.22.2",
+    "electron-prebuilt": "^0.37.2",
+    "electron-spawn": "^4.1.1",
+    "expect": "^1.15.2",
+    "express": "^4.13.4",
+    "jquery": "^2.2.1",
+    "lodash": "^4.6.1",
+    "mocha": "^2.4.5",
+    "nodemon": "^1.9.1",
+    "parse-torrent": "^5.7.3",
+    "sha1": "^1.1.1",
+    "webtorrent": "^0.82.1",
+    "xvfb": "^0.2.3"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.6.0",
+    "babelify": "^7.2.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.2.0",
+    "chai-fs": "^0.1.0",
+    "standard": "^6.0.8"
+  },
+  "_librariesioMetadata": {
+    "full_name": "Team-WebFlight/webflight",
+    "description": ":rocket: :bird: Turns a server into a seed for peer-to-peer content delivery",
+    "fork": false,
+    "created_at": "2016-03-04T18:38:42.000Z",
+    "updated_at": "2016-07-28T03:20:16.907Z",
+    "pushed_at": "2016-04-13T17:07:52.000Z",
+    "homepage": "",
+    "size": 25327,
+    "stargazers_count": 21,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 6,
+    "mirror_url": null,
+    "open_issues_count": 1,
+    "default_branch": "master",
+    "subscribers_count": 4,
+    "github_id": 53157511,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 4,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE.md",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-27T18:13:09.899Z",
+    "rank": null
+  }
+}

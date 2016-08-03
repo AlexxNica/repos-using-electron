@@ -1,0 +1,73 @@
+{
+  "name": "electron-input-menu",
+  "version": "2.0.3",
+  "description": "Context menu for electron input elements.",
+  "repository": "parro-it/electron-input-menu",
+  "license": "MIT",
+  "author": "andrea@parro.it",
+  "scripts": {
+    "test": "xo",
+    "start": "electron test.js"
+  },
+  "keywords": [
+    "electron",
+    "input",
+    "contextmenu",
+    "shortcuts"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "js",
+      "features"
+    ]
+  },
+  "devDependencies": {
+    "electron-contextmenu-middleware": "^1.0.0",
+    "electron-prebuilt": "^1.1.1",
+    "xo": "^0.15.1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "xo": {
+    "envs": [
+      "browser",
+      "node"
+    ]
+  },
+  "_librariesioMetadata": {
+    "full_name": "parro-it/electron-input-menu",
+    "description": "Context menu for electron input elements.",
+    "fork": false,
+    "created_at": "2016-03-07T18:05:08.000Z",
+    "updated_at": "2016-06-23T03:22:23.811Z",
+    "pushed_at": "2016-05-24T08:16:01.000Z",
+    "homepage": "",
+    "size": 15,
+    "stargazers_count": 16,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 2,
+    "mirror_url": null,
+    "open_issues_count": 2,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 53347090,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 2,
+    "has_readme": "readme.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "license",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-24T08:24:15.493Z",
+    "rank": null
+  }
+}

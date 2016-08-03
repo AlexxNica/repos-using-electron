@@ -1,0 +1,103 @@
+{
+  "name": "wumei",
+  "productName": "Wumei",
+  "version": "0.0.0",
+  "description": "My badass app",
+  "license": "MIT",
+  "repository": "aiziyuer/wumei",
+  "author": {
+    "name": "private",
+    "email": "ziyu0123456789@gmail.com",
+    "url": "aiziyuer.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "electronVersion": "0.34.0",
+  "scripts": {
+    "test": "xo",
+    "build": "export NODE_ENV='production'; electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion --overwrite",
+    "build-darwin": "export NODE_ENV='production'; electron-packager . wumei --out=dist --ignore='^/dist$' --asar --platform=darwin --arch=all --version=$npm_package_electronVersion --overwrite",
+    "build-sass": "node-sass --include-path src/styles --source-map index.map src/styles/index.scss index.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\""
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app"
+  ],
+  "dependencies": {
+    "electron-debug": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "browser-sync": "^2.13.0",
+    "browser-sync-webpack-plugin": "^1.0.3",
+    "css-loader": "^0.23.1",
+    "dateformat": "^1.0.12",
+    "del": "^2.2.1",
+    "electron-packager": "^7.1.0",
+    "electron-prebuilt": "^1.2.5",
+    "gulp": "^3.9.1",
+    "gulp-env": "^0.4.0",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-print": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-task-listing": "^1.0.1",
+    "gulp-util": "^3.0.7",
+    "node-sass": "^3.3.3",
+    "nodemon": "^1.9.2",
+    "require-dir": "^0.3.0",
+    "sass-loader": "^3.2.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  },
+  "_librariesioMetadata": {
+    "full_name": "aiziyuer/Wumei",
+    "description": null,
+    "fork": false,
+    "created_at": "2016-06-26T06:13:38.000Z",
+    "updated_at": "2016-06-26T06:15:08.768Z",
+    "pushed_at": "2016-06-26T06:14:11.000Z",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 0,
+    "github_id": 61976390,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "readme.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "license",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-06-26T06:15:08.747Z",
+    "rank": null
+  }
+}

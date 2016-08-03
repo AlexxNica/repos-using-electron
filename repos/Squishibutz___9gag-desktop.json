@@ -1,0 +1,56 @@
+{
+  "name": "9gag-desktop",
+  "version": "0.1.0",
+  "main": "main.js",
+  "author": "Guido Schweizer",
+  "description": "desktop version of the famous 9gag",
+  "license": "MIT",
+  "build": {
+    "app-bundle-id": "9gag-desktop",
+    "app-category-type": "desktopapp"
+  },
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "pack": "build",
+    "dist": "build"
+  },
+  "dependencies": {
+    "electron": "^0.36.9",
+    "electron-prebuilt": "^0.36.9"
+  },
+  "_librariesioMetadata": {
+    "full_name": "Squishibutz/9gag-desktop",
+    "description": "Desktop app for 9gag",
+    "fork": false,
+    "created_at": "2016-03-01T21:27:03.000Z",
+    "updated_at": "2016-03-03T18:44:40.000Z",
+    "pushed_at": "2016-03-03T19:26:18.000Z",
+    "homepage": "",
+    "size": 47682,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 1,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 52911218,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-06-29T14:40:48.804Z",
+    "rank": null
+  }
+}

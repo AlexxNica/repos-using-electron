@@ -1,0 +1,60 @@
+{
+  "name": "bounce-app",
+  "version": "0.0.1",
+  "description": "Bounce",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "package": "electron-packager . Bounce --platform=darwin --arch=x64 --icon=bounce.icns --version=1.0.1 --out=./dist --overwrite"
+  },
+  "contributors": [
+    {
+      "name": "Andrei Neacșu",
+      "email": "andrei.neacsu@kalon.ro"
+    },
+    {
+      "name": "Marian Cojoc",
+      "email": "marian.cojoc@kalon.ro"
+    }
+  ],
+  "devDependencies": {
+    "electron-packager": "^7.0.1",
+    "electron-prebuilt": "^1.0.1",
+    "xbox-controller": "^0.7.0"
+  },
+  "_librariesioMetadata": {
+    "full_name": "amneacsu/bounce-app",
+    "description": null,
+    "fork": false,
+    "created_at": "2016-05-13T10:26:26.000Z",
+    "updated_at": "2016-05-13T10:27:13.994Z",
+    "pushed_at": "2016-05-13T10:26:30.000Z",
+    "homepage": null,
+    "size": 30,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 58728907,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-13T10:27:13.973Z",
+    "rank": null
+  }
+}

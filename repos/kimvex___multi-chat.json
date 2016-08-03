@@ -1,0 +1,57 @@
+{
+  "name": "social-chat",
+  "version": "0.1.0",
+  "description": "Aplicacion de escritorio para acceder a chats webs como whatsapp",
+  "main": "app.js",
+  "scripts": {
+    "iniciar": "electron .",
+    "create": "electron-packager ./ \"multi-chat2\" --platform=linux --arch=x64 --version=0.36.0 --ignore=node_modules",
+    "cons": "electron-packager ./ \"multi-chat\" --platform=linux --arch=x64 --version=0.36.0 --ignore='node_modules' && asar pack multi-chat-linux-x64/resources/app multi-chat-linux-x64/resources/app.asar && rm -r multi-chat-linux-x64/resources/app && rm -r multi-chat-linux-x64/resources/default_app",
+    "conswin": "electron-packager ./ \"multi-chat\" --platform=win32 --arch=x64 --version=0.36.0 --ignore='node_modules' && asar pack multi-chat-win32-x64/resources/app multi-chat-win32-x64/resources/app.asar && rm -r multi-chat-win32-x64/resources/app && rm -r multi-chat-win32-x64/resources/default_app"
+  },
+  "author": "Benjamin De la Cruz Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "asar": "^0.8.3",
+    "electron-packager": "^5.1.1"
+  },
+  "devDependencies": {
+    "electron": "^0.4.1",
+    "electron-prebuilt": "^0.36.0"
+  },
+  "_librariesioMetadata": {
+    "full_name": "kimvex/multi-chat",
+    "description": "Una aplicacion creada con Electron, en esta aplicacion puedes usar distintis tipos de chats web",
+    "fork": false,
+    "created_at": "2015-12-14T08:28:14.000Z",
+    "updated_at": "2015-12-14T08:45:56.000Z",
+    "pushed_at": "2015-12-14T09:08:16.000Z",
+    "homepage": null,
+    "size": 4,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 47961707,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

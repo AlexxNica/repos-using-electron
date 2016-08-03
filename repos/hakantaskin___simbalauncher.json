@@ -1,0 +1,96 @@
+{
+  "build": {
+    "appId": "com.example.electron-boilerplate",
+    "app-category-type": "your.app.category.type",
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "resources/windows/icon.ico"
+    },
+    "nsis": {
+      "oneClick": true,
+      "installerHeaderIcon": "resources/windows/setup-icon.ico"
+    },
+    "mac": {
+      "icon": "resources/osx/icon.icns"
+    },
+    "dmg": {
+      "icon": "resources/osx/dmg-icon.icns",
+      "background": "resources/osx/dmg-background.png"
+    }
+  },
+  "directories": {
+    "buildResources": "resources",
+    "app": "build"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "bluebird": "^3.4.1",
+    "chai": "^3.5.0",
+    "electron-builder": "^5.12.1",
+    "electron-mocha": "^2.0.0",
+    "electron-prebuilt": "^1.0.1",
+    "fs-jetpack": "^0.9.0",
+    "gulp": "^3.9.0",
+    "gulp-batch": "^1.0.5",
+    "gulp-less": "^3.0.3",
+    "gulp-plumber": "^1.1.0",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.3.5",
+    "q": "^1.4.1",
+    "rollup": "^0.26.3",
+    "unzip": "^0.1.11",
+    "url": "^0.11.0",
+    "yargs": "^4.2.0"
+  },
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "build": "gulp build",
+    "prerelease": "gulp build --env=production",
+    "release": "build --x64 --publish never",
+    "start": "gulp start",
+    "pretest": "gulp build --env=test",
+    "test": "electron-mocha build --renderer"
+  },
+  "dependencies": {
+    "decompress": "^4.0.0",
+    "download": "^5.0.2",
+    "extract-zip": "^1.5.0"
+  },
+  "_librariesioMetadata": {
+    "full_name": "hakantaskin/simbalauncher",
+    "description": null,
+    "fork": false,
+    "created_at": "2016-08-01T13:01:32.000Z",
+    "updated_at": "2016-08-01T13:09:53.120Z",
+    "pushed_at": "2016-08-01T13:05:28.000Z",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 64667275,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-08-01T13:09:53.098Z",
+    "rank": null
+  }
+}

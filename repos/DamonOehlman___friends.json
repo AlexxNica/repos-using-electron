@@ -1,0 +1,83 @@
+{
+  "name": "friends",
+  "description": "",
+  "version": "0.0.0",
+  "author": [
+    "feross",
+    "maxogden",
+    "mafintosh",
+    "ngoldman",
+    "shama",
+    "jlord",
+    "chrisdickinson"
+  ],
+  "bugs": {
+    "url": "https://github.com/moose-team/friends/issues"
+  },
+  "dependencies": {
+    "electron-prebuilt": "^0.25.1"
+  },
+  "devDependencies": {
+    "atom-shell-packager": "^2.1.1",
+    "nib": "^1.1.0",
+    "standard": "^3.2.1",
+    "stylus": "^0.51.0"
+  },
+  "homepage": "https://github.com/moose-team/friends",
+  "keywords": [],
+  "license": "Public Domain",
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moose-team/friends.git"
+  },
+  "scripts": {
+    "build-css": "stylus -u nib css/app.styl -o app/static/ -c",
+    "package": "npm run build-css && atom-shell-packager app Friends --icon=app/static/Icon.icns",
+    "start": "npm run build-css && electron app",
+    "install": "cd app && npm install",
+    "test": "standard",
+    "watch": "npm run build-css && (npm run watch-css & electron app)",
+    "watch-css": "stylus -u nib css/app.styl -o app/static/ -w"
+  },
+  "standard": {
+    "ignore": [
+      "app/node_modules/**"
+    ]
+  },
+  "_librariesioMetadata": {
+    "full_name": "DamonOehlman/friends",
+    "description": "One True P2P Chat - by Team MOOSE",
+    "fork": true,
+    "created_at": "2015-04-27T09:07:56.000Z",
+    "updated_at": "2015-10-25T11:12:08.014Z",
+    "pushed_at": "2015-04-27T11:30:26.000Z",
+    "homepage": "",
+    "size": 508,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 34656621,
+    "source_name": "moose-team/friends",
+    "license": "Other",
+    "private": false,
+    "github_contributions_count": 7,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

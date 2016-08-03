@@ -1,0 +1,113 @@
+{
+  "name": "matterfront",
+  "version": "1.2.0",
+  "description": "Mattermost frontend app powered by electron",
+  "homepage": "https://github.com/lloeki/matterfront",
+  "author": "Brian Vanderbusch <brian@hackerhappyhour.com> (https://github.com/H3Chief)",
+  "contributors": [
+    "Loic Nageleisen <loic.nageleisen@gmail.com> (http://raptu.re)",
+    "Chris Jaynes (https://github.com/geekytime)"
+  ],
+  "main": "./src/main.js",
+  "scripts": {
+    "build": "npm run js && electron-packager . Matterfront --out=dist --ignore='^/dist$' --asar --platform=all --arch=all --version=$npm_package_electronVersion --app-bundle-id='org.matterfront.app' --app-version=$npm_package_version --helper-bundle-id='org.matterfront.app.helper' --overwrite --icon=resources/mattermost",
+    "js": "webpack",
+    "js-watch": "webpack --watch",
+    "lint": "echo Lint started && eslint ./src --ignore-path .gitignore && echo Lint success",
+    "lint-watch": "watch \"npm run lint -s\" ./src ./test --wait=0",
+    "start": "electron .",
+    "start-watch": "node electron-watch.js",
+    "test": "mocha",
+    "test-watch": "mocha watch"
+  },
+  "electronVersion": "0.36.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lloeki/matterfront"
+  },
+  "keywords": [
+    "Mattermost",
+    "electron"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lloeki/matterfront/issues"
+  },
+  "devDependencies": {
+    "babel-core": "~6.3.13",
+    "babel-loader": "~6.2.0",
+    "babel-preset-react": "~6.3.13",
+    "babel-register": "~6.3.13",
+    "chai": "~3.4.1",
+    "chai-jq": "0.0.9",
+    "chokidar": "^1.4.1",
+    "css-loader": "~0.23.0",
+    "electron-connect": "~0.3.3",
+    "electron-prebuilt": ">=0.36.2",
+    "eslint": "~1.10.2",
+    "ghooks": "~1.0.1",
+    "less": "~2.5.3",
+    "less-loader": "~2.2.2",
+    "lodash.once": "~3.0.1",
+    "mocha": "~2.3.4",
+    "proxyquire": "^1.7.3",
+    "razz": "~1.1.1",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0",
+    "style-loader": "~0.13.0",
+    "watch": "~0.16.0",
+    "webpack": "^1.12.9",
+    "webpack-target-electron-renderer": "^0.3.0",
+    "zepto-node": "~1.0.0"
+  },
+  "dependencies": {
+    "bacon-dispatcher": "~0.9.9",
+    "baconjs": "~0.7.82",
+    "electron-packager": "^5.1.1",
+    "mkdirp": "^0.5.1",
+    "nconf": "~0.8.2",
+    "path-extra": "~3.0.0",
+    "react": "~0.14.3",
+    "react-dom": "~0.14.3"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run lint && npm run test"
+    }
+  },
+  "_librariesioMetadata": {
+    "full_name": "lloeki/matterfront",
+    "description": "Mattermost frontend app for OS X, Windows and Linux",
+    "fork": false,
+    "created_at": "2015-10-26T17:08:43.000Z",
+    "updated_at": "2016-07-25T06:08:30.660Z",
+    "pushed_at": "2016-03-17T09:10:14.000Z",
+    "homepage": "",
+    "size": 466,
+    "stargazers_count": 163,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 41,
+    "mirror_url": null,
+    "open_issues_count": 18,
+    "default_branch": "master",
+    "subscribers_count": 15,
+    "github_id": 44984368,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 10,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE.md",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-27T16:31:12.361Z",
+    "rank": null
+  }
+}

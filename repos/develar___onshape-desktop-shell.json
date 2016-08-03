@@ -1,0 +1,81 @@
+{
+  "private": true,
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "npm install && npm run compile && electron ./app",
+    "compile": "rimraf app/out && tsconfig -i 2 && tsc",
+    "pack": "npm run compile && build --dir",
+    "dist": "npm run compile && build",
+    "release": "npm run compile && build"
+  },
+  "build": {
+    "appId": "org.develar.onshape",
+    "app-category-type": "public.app-category.graphics-design",
+    "dmg": {
+      "contents": [
+        {
+          "x": 410,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 130,
+          "y": 150,
+          "type": "file"
+        }
+      ]
+    },
+    "win": {
+      "remoteReleases": "https://github.com/develar/onshape-desktop-shell"
+    },
+    "linux": {
+      "target": [
+        "deb",
+        "AppImage"
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron-builder": "next",
+    "electron-prebuilt": "1.2.8",
+    "rimraf": "^2.5.3",
+    "tsconfig-glob": "^0.4.3",
+    "typescript": "^1.8.10"
+  },
+  "_librariesioMetadata": {
+    "full_name": "develar/onshape-desktop-shell",
+    "description": "Onshape desktop app (web application shell). Unofficial.",
+    "fork": false,
+    "created_at": "2015-12-15T15:45:26.000Z",
+    "updated_at": "2016-07-27T18:50:59.000Z",
+    "pushed_at": "2016-07-22T09:35:25.000Z",
+    "homepage": "",
+    "size": 560,
+    "stargazers_count": 50,
+    "language": "TypeScript",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": false,
+    "forks_count": 14,
+    "mirror_url": null,
+    "open_issues_count": 2,
+    "default_branch": "master",
+    "subscribers_count": 2,
+    "github_id": 48052620,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE.txt",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

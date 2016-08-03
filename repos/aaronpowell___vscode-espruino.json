@@ -1,0 +1,108 @@
+{
+  "name": "vscode-espruino",
+  "displayName": "Espruino for VSCode",
+  "description": "A VSCode plugin for working with Espruino micro controllers",
+  "version": "0.2.0",
+  "publisher": "aaronpowell",
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "workspaceContains:espruino.json",
+    "onCommand:VSCEspruino.listPorts"
+  ],
+  "main": "./out/src/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "VSCEspruino.listPorts",
+        "title": "Espruino: List Ports"
+      },
+      {
+        "command": "VSCEspruino.connect-disconnect",
+        "title": "Espruino: Connect/Disconnect"
+      },
+      {
+        "command": "VSCEspruino.run-file",
+        "title": "Espruino: Run current file"
+      },
+      {
+        "command": "VSCEspruino.reset",
+        "title": "Espruino: Reset device"
+      },
+      {
+        "command": "VSCEspruino.html-to-js",
+        "title": "Espruino: Convert HTML to JavaScript"
+      }
+    ],
+    "jsonValidation": [
+      {
+        "fileMatch": "espruino.json",
+        "url": "./schemas/espruino.schema.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+    "rebuild:native-modules": "node ./node_modules/electron-rebuild/lib/cli.js --version 0.34.5",
+    "vsce": "./node_modules/.bin/vsce"
+  },
+  "devDependencies": {
+    "typescript": "^1.7.5",
+    "vscode": "0.10.x",
+    "electron-prebuilt": "0.34.5",
+    "electron-rebuild": "^1.0.2",
+    "vsce": "^1.1.0"
+  },
+  "dependencies": {
+    "espruino": "0.0.13",
+    "html-minifier": "^1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaronpowell/vscode-espruino.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aaronpowell/vscode-espruino/issues"
+  },
+  "licenseUrl": "https://github.com/aaronpowell/vscode-espruino/blob/master/LICENSE.md",
+  "_librariesioMetadata": {
+    "full_name": "aaronpowell/vscode-espruino",
+    "description": "A Visual Studio Code plugin for working with Espruino",
+    "fork": false,
+    "created_at": "2015-12-02T11:08:35.000Z",
+    "updated_at": "2016-02-29T10:41:45.276Z",
+    "pushed_at": "2016-02-03T23:56:31.000Z",
+    "homepage": null,
+    "size": 887,
+    "stargazers_count": 0,
+    "language": "TypeScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 47255832,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE.md",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

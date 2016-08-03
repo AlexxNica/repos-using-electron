@@ -1,0 +1,51 @@
+{
+  "name": "electrohype-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "(cd ./source/; npm install)",
+    "build": "electron-packager ./source ElectroHype --platform=darwin --arch=x64 --version=0.36.0 --icon=./assets/electrohype.icns --build-version=1.1.0 --asar --helper-bundle-id=com.jeancharlessisk.electrohype --overwrite"
+  },
+  "author": "Jean-Charles Sisk <jeancharles@paypal.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^5.1.0",
+    "electron-prebuilt": "^0.36.0"
+  },
+  "_librariesioMetadata": {
+    "full_name": "jasisk/electrohype",
+    "description": null,
+    "fork": false,
+    "created_at": "2015-09-23T18:32:50.000Z",
+    "updated_at": "2016-02-29T12:29:18.171Z",
+    "pushed_at": "2015-12-11T20:17:24.000Z",
+    "homepage": null,
+    "size": 829,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 43019463,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

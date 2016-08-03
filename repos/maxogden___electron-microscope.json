@@ -1,0 +1,72 @@
+{
+  "name": "electron-microscope",
+  "description": "Use electron to inspect websites and extract data. useful for automation, testing, web scraping, etc",
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && electron test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxogden/electron-microscope.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/maxogden/electron-microscope/issues"
+  },
+  "homepage": "https://github.com/maxogden/electron-microscope#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "domify": "^1.4.0",
+    "inherits": "^2.0.1",
+    "through2": "^2.0.1"
+  },
+  "standard": {
+    "ignore": [
+      "test/scrapers"
+    ]
+  },
+  "devDependencies": {
+    "concat-stream": "^1.5.1",
+    "electron-prebuilt": "^0.36.7",
+    "pump": "^1.0.1",
+    "standard": "^6.0.4",
+    "tape": "^4.4.0"
+  },
+  "_librariesioMetadata": {
+    "full_name": "maxogden/electron-microscope",
+    "description": "use electron-microscope to inspect websites and extract data",
+    "fork": false,
+    "created_at": "2015-07-05T23:12:57.000Z",
+    "updated_at": "2016-07-02T23:30:30.072Z",
+    "pushed_at": "2016-02-16T19:28:45.000Z",
+    "homepage": "",
+    "size": 49,
+    "stargazers_count": 105,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 10,
+    "mirror_url": null,
+    "open_issues_count": 1,
+    "default_branch": "master",
+    "subscribers_count": 5,
+    "github_id": 38587653,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 2,
+    "has_readme": "readme.md",
+    "has_changelog": null,
+    "has_contributing": "contributing.md",
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-27T17:45:15.821Z",
+    "rank": null
+  }
+}

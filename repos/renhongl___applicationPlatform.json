@@ -1,0 +1,64 @@
+{
+  "name": "ap",
+  "version": "1.0.0",
+  "description": "A applications store for my projects",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-packager . AP --ignore=node_modules/electron-* --platform=win32 --arch=x64 --version=0.37.7 --overwrite --icon=./app/images/ap.ico",
+    "package": "asar pack AP-win32-x64/resources/app AP-win32-x64/resources/app.asar && rm -rf AP-win32-x64/resources/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Store",
+    "Beautiful",
+    "Multifunction"
+  ],
+  "author": "LiangRenHong",
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "electron-prebuilt": ""
+  },
+  "_librariesioMetadata": {
+    "full_name": "renhongl/applicationPlatform",
+    "description": "",
+    "fork": false,
+    "created_at": "2016-04-27T09:17:04.000Z",
+    "updated_at": "2016-04-27T10:58:52.816Z",
+    "pushed_at": "2016-04-27T10:18:42.000Z",
+    "homepage": null,
+    "size": 738,
+    "stargazers_count": 0,
+    "language": "CSS",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 57200477,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-04-27T10:58:52.795Z",
+    "rank": null
+  }
+}

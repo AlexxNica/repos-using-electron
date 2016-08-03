@@ -1,0 +1,83 @@
+{
+  "name": "dashbored-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron --enable-transparent-visuals --disable-gpu main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beatface/dashbored-client.git"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "es6": true,
+      "browser": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+      "res": true,
+      "next": true,
+      "app": true
+    },
+    "rules": {
+      "no-console": 1,
+      "comma-dangle": 0,
+      "no-unused-vars": 1,
+      "no-undef": 1,
+      "no-extra-semi": 1,
+      "no-empty": 1
+    }
+  },
+  "author": "“Emma <“emma.beaton@gmail.com”>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beatface/dashbored-client/issues"
+  },
+  "homepage": "https://github.com/beatface/dashbored-client#readme",
+  "dependencies": {
+    "electron-prebuilt": "^0.37.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  },
+  "_librariesioMetadata": {
+    "full_name": "beatface/dashbored-client",
+    "description": "",
+    "fork": false,
+    "created_at": "2016-03-16T20:01:42.000Z",
+    "updated_at": "2016-05-27T19:34:59.850Z",
+    "pushed_at": "2016-04-08T20:57:19.000Z",
+    "homepage": null,
+    "size": 48,
+    "stargazers_count": 1,
+    "language": "CSS",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 54062569,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-27T19:34:59.828Z",
+    "rank": null
+  }
+}

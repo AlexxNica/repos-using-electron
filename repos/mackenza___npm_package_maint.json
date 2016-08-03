@@ -1,0 +1,62 @@
+{
+  "name": "npm-package-maint",
+  "version": "0.1.0",
+  "description": "Desktop application build with Electron",
+  "repository": "",
+  "scripts": {
+    "postinstall": "install-app-deps"
+  },
+  "dependencies": {
+    "bozon": "^0.4.0",
+    "electron-prebuilt": "1.2.1"
+  },
+  "build": {
+    "app-bundle-id": "your.id",
+    "app-category-type": "your.app.category.type",
+    "win": {
+      "iconUrl": "https://github.com/railsware/bozon/blob/master/lib/templates/images/electron.ico?raw=true"
+    },
+    "osx": {
+      "icon": "resources/icon.icns",
+      "target": "dmg"
+    }
+  },
+  "devDependencies": {
+    "devtron": "^1.2.0"
+  },
+  "_librariesioMetadata": {
+    "full_name": "mackenza/npm_package_maint",
+    "description": null,
+    "fork": false,
+    "created_at": "2016-06-08T01:49:10.000Z",
+    "updated_at": "2016-06-08T03:10:04.224Z",
+    "pushed_at": "2016-06-08T01:49:43.000Z",
+    "homepage": null,
+    "size": 1208,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 60659900,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-06-08T03:10:04.204Z",
+    "rank": null
+  }
+}

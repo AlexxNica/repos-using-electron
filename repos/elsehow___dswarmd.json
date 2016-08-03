@@ -1,0 +1,84 @@
+{
+  "author": "elsehow",
+  "license": "BSD-3-Clause",
+  "main": "lib.js",
+  "bin": {
+    "dswarmd": "./cli.js"
+  },
+  "watch": {
+    "test": "*.js"
+  },
+  "scripts": {
+    "test": "./cli.js -k keys.json -n \"my-device\"",
+    "watch": "npm-watch",
+    "generate-keys": "node -pe \"JSON.stringify(require('ssb-keys').generate())\" > keys.json"
+  },
+  "devDependencies": {
+    "npm-watch": "^0.1.3",
+    "ssb-keys": "^5.0.1"
+  },
+  "dependencies": {
+    "chloride": "^2.1.1",
+    "electron-prebuilt": "^0.37.4",
+    "electron-spawn": "^4.1.1",
+    "hyperkv": "^1.5.2",
+    "is-browser": "^2.0.1",
+    "level": "^1.4.0",
+    "minimist": "^1.2.0",
+    "my-ip-kefir": "^1.0.3",
+    "subleveldown": "^2.1.0",
+    "swarmlog": "^1.4.0"
+  },
+  "name": "dswarmd",
+  "description": "device swarm daemon",
+  "version": "2.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elsehow/dswarmd.git"
+  },
+  "keywords": [
+    "dswarm",
+    "swarmlog",
+    "hyperkv",
+    "dns"
+  ],
+  "bugs": {
+    "url": "https://github.com/elsehow/dswarmd/issues"
+  },
+  "homepage": "https://github.com/elsehow/dswarmd#readme",
+  "_librariesioMetadata": {
+    "full_name": "elsehow/dswarmd",
+    "description": "device swarm daemon",
+    "fork": false,
+    "created_at": "2016-04-03T01:17:49.000Z",
+    "updated_at": "2016-05-27T15:51:38.858Z",
+    "pushed_at": "2016-04-03T18:51:07.000Z",
+    "homepage": null,
+    "size": 10,
+    "stargazers_count": 0,
+    "language": null,
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 2,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 55323883,
+    "source_name": null,
+    "license": "BSD-3-Clause",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-27T15:51:38.832Z",
+    "rank": null
+  }
+}

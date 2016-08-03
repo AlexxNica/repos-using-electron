@@ -1,0 +1,71 @@
+{
+  "name": "electron-base",
+  "productName": "ElectronBase",
+  "version": "0.0.0",
+  "description": "My terrific app",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "ux-dev/electron-base",
+  "author": {
+    "name": "Daniel Bushman",
+    "email": "daniel@uxdev.io",
+    "url": "uxdev.io"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . $npm_package_productName --out=dist --ignore=dist --prune --asar --all --version=0.30.0"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app"
+  ],
+  "dependencies": {
+    "electron-debug": "^0.1.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.30.0"
+  },
+  "_librariesioMetadata": {
+    "full_name": "ux-dev/electron-base",
+    "description": "Minimal groundwork for an Electron app.",
+    "fork": false,
+    "created_at": "2015-08-07T16:40:04.000Z",
+    "updated_at": "2016-03-02T11:42:51.358Z",
+    "pushed_at": "2015-08-07T16:41:52.000Z",
+    "homepage": null,
+    "size": 100,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 40370509,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "readme.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "license",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

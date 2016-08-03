@@ -1,0 +1,55 @@
+{
+  "name": "music-electron",
+  "version": "1.0.0",
+  "description": "music client with electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron main.js",
+    "build": "electron-packager . music --ignore=node_modules/electron-* --platform=win32 --arch=x64 --version=0.36.10 --ignore=node_modules/.bin --ignore=.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^5.2.1",
+    "electron-prebuilt": "^0.36.10"
+  },
+  "dependencies": {
+    "fs": "0.0.2"
+  },
+  "_librariesioMetadata": {
+    "full_name": "steinsphang/music-electron",
+    "description": "",
+    "fork": false,
+    "created_at": "2016-03-11T14:01:11.000Z",
+    "updated_at": "2016-06-16T15:43:54.000Z",
+    "pushed_at": "2016-03-14T03:28:25.000Z",
+    "homepage": null,
+    "size": 41,
+    "stargazers_count": 1,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 53670836,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "name": "magicmirror",
+  "version": "2.0.0",
+  "description": "A modular interface for smart mirrors.",
+  "main": "js/electron.js",
+  "scripts": {
+    "start": "electron js/electron.js",
+    "jscs": "jscs **/**/**/**/*.js",
+    "stylelint": "stylelint css/main.css fonts/roboto.css",
+    "htmlvalidator": "html-validator --file=index.html",
+    "test": "snyk test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichMich/MagicMirror.git"
+  },
+  "keywords": [
+    "magic mirror",
+    "smart mirror",
+    "mirror UI",
+    "modular"
+  ],
+  "author": "Michael Teeuw",
+  "contributors": "https://github.com/MichMich/MagicMirror/graphs/contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MichMich/MagicMirror/issues"
+  },
+  "homepage": "https://github.com/MichMich/MagicMirror#readme",
+  "devDependencies": {
+    "electron-prebuilt": "latest",
+    "grunt": "latest",
+    "grunt-eslint": "latest",
+    "grunt-postcss": "latest",
+    "postcss-reporter": "latest",
+    "stylelint": "latest",
+    "stylelint-config-standard": "latest",
+    "time-grunt": "latest"
+  },
+  "dependencies": {
+    "express": "latest",
+    "feedme": "latest",
+    "iconv-lite": "latest",
+    "moment": "latest",
+    "request": "latest",
+    "snyk": "latest",
+    "socket.io": "latest",
+    "valid-url": "latest",
+    "walk": "latest",
+    "rrule": "latest"
+  },
+  "_librariesioMetadata": {
+    "full_name": "MichMich/MagicMirror",
+    "description": "MagicMirror²",
+    "fork": false,
+    "created_at": "2014-02-19T15:48:09.000Z",
+    "updated_at": "2016-08-01T17:13:07.159Z",
+    "pushed_at": "2016-07-31T15:13:53.000Z",
+    "homepage": "http://michaelteeuw.nl/tagged/magicmirror",
+    "size": 11618,
+    "stargazers_count": 1981,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 709,
+    "mirror_url": null,
+    "open_issues_count": 7,
+    "default_branch": "master",
+    "subscribers_count": 204,
+    "github_id": 16989371,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 32,
+    "has_readme": "README.md",
+    "has_changelog": "CHANGELOG.md",
+    "has_contributing": null,
+    "has_license": "LICENSE.md",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-27T13:24:00.771Z",
+    "rank": null
+  }
+}

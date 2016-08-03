@@ -1,0 +1,90 @@
+{
+  "name": "tos-laimas-compass",
+  "version": "0.0.1",
+  "main": "main.js",
+  "description": "A companion tool for the completionist Revelator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lbotinelly/tos-laimas-compass.git"
+  },
+  "keywords": [
+    "Tree of Savior",
+    "TOS",
+    "add-on"
+  ],
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist",
+    "clean:win": "rimraf dist/win",
+    "start": "electron .",
+    "watch": "./node_modules/.bin/webpack-dev-server",
+    "electron-rebuild": "./node_modules/.bin/electron-rebuild",
+    "pack": "npm run && build",
+    "dist": "npm run && build",
+    "release": "npm run && build",
+    "dist:win64": "./node_modules/.bin/build --platform win32 --arch x64"
+  },
+  "author": "Leo Botinelly <lbotinelly@outlook.com>",
+  "devDependencies": {
+    "electron-packager": "^7.0.1"
+  },
+  "build": {
+    "iconUrl": "(windows only)",
+    "productName": "Laima's Compass"
+  },
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-sanitize": "^1.5.6",
+    "angular-ui-router": "^0.3.0",
+    "bootstrap": "^3.3.6",
+    "chokidar": "^1.4.3",
+    "csv": "^1.1.0",
+    "csvtojson": "^0.5.3",
+    "electron-prebuilt": "^0.37.7",
+    "express": "^4.13.4",
+    "font-awesome": "^4.6.1",
+    "jquery": "^2.2.3",
+    "md5": "^2.1.0",
+    "openlayers": "^3.16.0",
+    "regedit": "^2.2.6",
+    "socket.io": "^1.4.5",
+    "ui-select": "^0.17.1",
+    "xml2js": "^0.4.16"
+  },
+  "_librariesioMetadata": {
+    "full_name": "LeoLombardi/tos-laimas-compass",
+    "description": "A companion tool for the completionist Revelator",
+    "fork": false,
+    "created_at": "2016-04-28T02:15:38.000Z",
+    "updated_at": "2016-06-10T19:14:08.000Z",
+    "pushed_at": "2016-05-28T05:41:17.000Z",
+    "homepage": "",
+    "size": 104817,
+    "stargazers_count": 17,
+    "language": "HTML",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 2,
+    "mirror_url": null,
+    "open_issues_count": 5,
+    "default_branch": "master",
+    "subscribers_count": 7,
+    "github_id": 57263379,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-14T22:37:23.390Z",
+    "rank": null
+  }
+}

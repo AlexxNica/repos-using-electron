@@ -1,0 +1,82 @@
+{
+  "name": "electrogram",
+  "main": "index.js",
+  "version": "0.0.2",
+  "private": true,
+  "author": "Corey Donohoe",
+  "keywords": [
+    "slack",
+    "chat",
+    "electronjs"
+  ],
+  "scripts": {
+    "test": "cake test"
+  },
+  "description": "A Slack Client by a user",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/atmos/electrogram/raw/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atmos/electrogram.git"
+  },
+  "dependencies": {
+    "electron-prebuilt": "~0.27.2",
+    "jquery": "^2.1.4",
+    "react-emoji": "~0.3.2",
+    "react-autolink": "~0.2.0",
+    "coffeelint": "1.10.1",
+    "coffee-react": "~3.2.0",
+    "react": "^0.13.3",
+    "react-tools": "^0.13.3",
+    "reactify": "^1.1.1",
+    "slack-client-atmos": "~1.4.4"
+  },
+  "devDependencies": {
+    "chai": "~1.0.3",
+    "mocha": "~2.2.5",
+    "coffee-script": ">=1.6.3"
+  },
+  "engines": {
+    "node": "^0.10.x",
+    "npm": ">= 1.1.x"
+  },
+  "_librariesioMetadata": {
+    "full_name": "atmos/electrogram",
+    "description": "A slack client with just tabs",
+    "fork": false,
+    "created_at": "2015-06-03T00:14:44.000Z",
+    "updated_at": "2016-06-25T13:59:07.000Z",
+    "pushed_at": "2015-07-10T05:08:24.000Z",
+    "homepage": "",
+    "size": 391,
+    "stargazers_count": 20,
+    "language": "CoffeeScript",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": false,
+    "forks_count": 8,
+    "mirror_url": null,
+    "open_issues_count": 6,
+    "default_branch": "master",
+    "subscribers_count": 7,
+    "github_id": 36769368,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 5,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

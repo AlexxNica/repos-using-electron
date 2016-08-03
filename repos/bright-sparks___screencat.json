@@ -1,0 +1,75 @@
+{
+  "name": "screencat",
+  "version": "2.0.0",
+  "description": "webrtc screensharing with shared mouse and keyboard",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js",
+    "build": "electron-packager . ScreenCat --platform=darwin --arch=x64 --version=0.26.0 --ignore=node_modules/electron-* && cp img/Icon.icns ScreenCat.app/Contents/Resources/atom.icns",
+    "dev": "wzrd remote.js:remote-bundle.js",
+    "test": "standard"
+  },
+  "author": "max ogden",
+  "license": "BSD",
+  "dependencies": {
+    "menubar": "^2.0.4",
+    "nets": "^3.1.0",
+    "simple-peer": "^4.0.4",
+    "ssejson": "^1.2.0",
+    "vkey": "^1.0.0"
+  },
+  "optionalDependencies": {
+    "robotjs": "git+https://github.com/maxogden/robotjs#keyupdown"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "electron-packager": "^4.1.0",
+    "electron-prebuilt": "^0.26.0",
+    "standard": "^3.3.0",
+    "tachyons": "^1.2.0",
+    "wzrd": "^1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/screencat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/screencat/issues"
+  },
+  "homepage": "https://github.com/maxogden/screencat",
+  "_librariesioMetadata": {
+    "full_name": "bright-sparks/screencat",
+    "description": ":cat2: webrtc screensharing atom-shell app for mac os (Alpha)",
+    "fork": true,
+    "created_at": "2015-09-01T07:55:57.000Z",
+    "updated_at": "2016-03-02T03:38:13.386Z",
+    "pushed_at": "2015-08-21T16:04:00.000Z",
+    "homepage": "http://maxogden.github.io/screencat",
+    "size": 2669,
+    "stargazers_count": 0,
+    "language": "CSS",
+    "has_issues": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 41725032,
+    "source_name": "maxogden/screencat",
+    "license": "BSD-2-Clause",
+    "private": false,
+    "github_contributions_count": 7,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

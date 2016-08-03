@@ -1,0 +1,84 @@
+{
+  "name": "my-bricks-sets-desktop",
+  "version": "0.1.1",
+  "description": "Standalone application and web service for LEGO fans to manage their collections of bricks.",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "set NODE_ENV=development & gulp watch",
+    "build": "set NODE_ENV=production & gulp build",
+    "clean": "gulp clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easimonenko/my-bricks-sets-desktop.git"
+  },
+  "keywords": [
+    "Electron",
+    "LEGO",
+    "Desktop",
+    "Application"
+  ],
+  "author": "Evgeniy A. Simonenko <easimonenko@mail.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/easimonenko/my-bricks-sets-desktop/issues"
+  },
+  "homepage": "https://github.com/easimonenko/my-bricks-sets-desktop#readme",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "electron-connect": "^0.3.7",
+    "electron-prebuilt": "^0.36.0",
+    "gulp": "^3.9.1",
+    "gulp-cached": "^1.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.12.1",
+    "gulp-util": "^3.0.7",
+    "merge-stream": "^1.0.0"
+  },
+  "dependencies": {
+    "material-ui": "^0.15.0-alpha.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-tap-event-plugin": "^0.2.2"
+  },
+  "engines": {
+    "node": "5",
+    "npm": "3"
+  },
+  "_librariesioMetadata": {
+    "full_name": "easimonenko/my-bricks-sets-desktop",
+    "description": "Standalone application and web service for LEGO fans to manage their collections of bricks.",
+    "fork": false,
+    "created_at": "2016-03-02T17:09:44.000Z",
+    "updated_at": "2016-03-05T21:50:19.000Z",
+    "pushed_at": "2016-03-12T21:23:03.000Z",
+    "homepage": null,
+    "size": 189,
+    "stargazers_count": 0,
+    "language": "TypeScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 52981143,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": "CHANGELOG.md",
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

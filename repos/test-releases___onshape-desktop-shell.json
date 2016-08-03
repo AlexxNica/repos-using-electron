@@ -1,0 +1,77 @@
+{
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "npm install && npm run compile && electron ./app",
+    "clean": "rimraf dist",
+    "clean:osx": "rimraf dist/Onshape-darwin-x64",
+    "clean:win": "rimraf dist/win",
+    "compile": "rimraf app/out && tsconfig -i 2 && tsc",
+    "pack": "npm run compile && build",
+    "dist": "npm run compile && build",
+    "release": "npm run compile && build",
+    "dist:win64": "./node_modules/.bin/build --platform win32 --arch x64"
+  },
+  "build": {
+    "app-bundle-id": "org.develar.onshape",
+    "app-category-type": "public.app-category.graphics-design",
+    "osx": {
+      "contents": [
+        {
+          "x": 410,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 130,
+          "y": 150,
+          "type": "file"
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron-builder": "next",
+    "electron-prebuilt": "0.37.6",
+    "rimraf": "^2.5.2",
+    "tsconfig-glob": "^0.4.3",
+    "typescript": "^1.8.10"
+  },
+  "_librariesioMetadata": {
+    "full_name": "test-releases/onshape-desktop-shell",
+    "description": "Onshape desktop app (web application shell). Unofficial.",
+    "fork": true,
+    "created_at": "2016-04-17T14:16:14.000Z",
+    "updated_at": "2016-04-17T14:17:14.420Z",
+    "pushed_at": "2016-04-17T06:20:51.000Z",
+    "homepage": "",
+    "size": 469,
+    "stargazers_count": 0,
+    "language": "TypeScript",
+    "has_issues": false,
+    "has_wiki": false,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 56440088,
+    "source_name": "develar/onshape-desktop-shell",
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE.txt",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-04-17T14:17:14.400Z",
+    "rank": null
+  }
+}

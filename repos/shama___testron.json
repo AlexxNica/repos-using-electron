@@ -1,0 +1,75 @@
+{
+  "name": "testron",
+  "version": "1.2.0",
+  "description": "CI your client side tests with Electron",
+  "main": "index.js",
+  "bin": {
+    "testron": "cli.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shama/testron.git"
+  },
+  "keywords": [
+    "test",
+    "client",
+    "side",
+    "runner",
+    "electron",
+    "ci"
+  ],
+  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shama/testron/issues"
+  },
+  "homepage": "https://github.com/shama/testron#readme",
+  "dependencies": {
+    "electron-spawn": "^3.0.0",
+    "minimist": "^1.1.2",
+    "tempfile": "^1.1.1",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.30.0",
+    "tape": "^4.0.1"
+  },
+  "_librariesioMetadata": {
+    "full_name": "shama/testron",
+    "description": ":electric_plug: CI your client side tests with Electron",
+    "fork": false,
+    "created_at": "2015-07-21T01:24:26.000Z",
+    "updated_at": "2016-07-06T18:01:46.000Z",
+    "pushed_at": "2016-07-19T21:10:22.000Z",
+    "homepage": "",
+    "size": 140,
+    "stargazers_count": 66,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 4,
+    "mirror_url": null,
+    "open_issues_count": 3,
+    "default_branch": "master",
+    "subscribers_count": 3,
+    "github_id": 39416997,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-27T13:22:29.940Z",
+    "rank": null
+  }
+}

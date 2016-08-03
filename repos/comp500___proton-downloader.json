@@ -1,0 +1,57 @@
+{
+  "name": "proton-downloader",
+  "version": "1.0.0",
+  "description": "A youtube downloader with a GUI made using Electron.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "pack": "build",
+    "dist": "build",
+    "test": "electron app"
+  },
+  "author": "comp500",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-builder": "^3.14.0",
+    "electron-prebuilt": "^0.37.8"
+  },
+  "build": {
+    "app-bundle-id": "prtdl",
+    "app-category-type": "public.app-category.utilities"
+  },
+  "_librariesioMetadata": {
+    "full_name": "comp500/proton-downloader",
+    "description": "A youtube downloader with a GUI made using Electron.",
+    "fork": false,
+    "created_at": "2016-04-30T07:45:48.000Z",
+    "updated_at": "2016-04-30T07:47:32.905Z",
+    "pushed_at": "2016-04-30T07:46:41.000Z",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 0,
+    "language": null,
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 57432350,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-04-30T07:47:32.885Z",
+    "rank": null
+  }
+}

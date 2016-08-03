@@ -1,0 +1,91 @@
+{
+  "name": "riki",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "test:watch": "npm run test -- --watch"
+  },
+  "dependencies": {
+    "react": "15.2.1",
+    "react-native": "0.29.1",
+    "react-native-router-flux": "^3.32.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^13.2.2",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-react-native": "^1.9.0",
+    "enzyme": "^2.4.1",
+    "fetch-mock": "^5.0.3",
+    "jest-cli": "^13.2.3",
+    "react": "^15.2.1",
+    "react-addons-test-utils": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-native-mock": "^0.2.4",
+    "redux-devtools": "^3.3.1",
+    "redux-mock-store": "^1.1.2",
+    "sinon": "^1.17.4"
+  },
+  "jest": {
+    "haste": {
+      "defaultPlatform": "ios",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "providesModuleNodeModules": [
+        "react-native"
+      ]
+    },
+    "unmockedModulePathPatterns": [
+      "redux-mock-store",
+      "redux-thunk",
+      "fetch-mock",
+      "sinon",
+      "enzyme",
+      "react",
+      "promise",
+      "source-map"
+    ]
+  },
+  "_librariesioMetadata": {
+    "full_name": "astraldragon/riki",
+    "description": "",
+    "fork": false,
+    "created_at": "2015-11-30T02:44:17.000Z",
+    "updated_at": "2015-11-30T02:50:23.000Z",
+    "pushed_at": "2015-11-30T02:53:18.000Z",
+    "homepage": null,
+    "size": 9,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 47091350,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

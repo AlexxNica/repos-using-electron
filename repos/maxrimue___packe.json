@@ -1,0 +1,91 @@
+{
+  "author": "Max Rittmüller",
+  "bin": "lib/run.js",
+  "bugs": {
+    "url": "https://github.com/maxrimue/packe/issues"
+  },
+  "cpu": [
+    "x64",
+    "ia32"
+  ],
+  "dependencies": {
+    "angular": "1.4.8",
+    "angular-animate": "1.4.8",
+    "angular-aria": "1.4.8",
+    "electron-packager": "5.x.x",
+    "angular-material": "0.11.x"
+  },
+  "description": "A GUI app to check and manage global and local dependencies",
+  "devDependencies": {
+    "electron-prebuilt": "0.x.x"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "license": "ISC",
+  "main": "app/app.js",
+  "name": "packe",
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "keywords": [
+    "GUI",
+    "electron",
+    "package.json",
+    "angular",
+    "material",
+    "editor",
+    "UI",
+    "app"
+  ],
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxrimue/packe.git"
+  },
+  "scripts": {
+    "build": "node lib/build.js",
+    "build-force": "node lib/build.js force",
+    "install": "node lib/build.js force",
+    "start": "electron app/app.js",
+    "test": "node lib/build.js"
+  },
+  "version": "0.1.2",
+  "_librariesioMetadata": {
+    "full_name": "maxrimue/packe",
+    "description": "The beautiful way to handle a package.json",
+    "fork": false,
+    "created_at": "2015-11-30T19:47:03.000Z",
+    "updated_at": "2015-12-07T17:45:33.000Z",
+    "pushed_at": "2015-12-13T14:25:35.000Z",
+    "homepage": "",
+    "size": 347,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 1,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 47141953,
+    "source_name": null,
+    "license": "ISC",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "readme.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "license",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

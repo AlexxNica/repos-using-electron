@@ -1,0 +1,83 @@
+{
+  "name": "before-dawn",
+  "productName": "Before Dawn",
+  "version": "0.7.0",
+  "description": "screensaver fun",
+  "author": "Colin Mitchell",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "devDependencies": {
+    "electron-builder": "5.12.1",
+    "electron-prebuilt": "1.2.5"
+  },
+  "build": {
+    "appId": "Before Dawn",
+    "app-category-type": "public.app-category.entertainment",
+    "win": {
+      "verbosity": 1,
+      "perMachine": "false"
+    },
+    "asar": "false",
+    "dmg": {
+      "contents": [
+        {
+          "x": 338,
+          "y": 14,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 192,
+          "y": 14,
+          "type": "file"
+        }
+      ]
+    },
+    "linux": {
+      "arch": 64,
+      "target": "deb",
+      "title": "Before Dawn",
+      "executable": "before-dawn",
+      "comment": "Before Dawn",
+      "maintainer": "Colin Mitchell <colin@muffinlabs.com>"
+    }
+  },
+  "_librariesioMetadata": {
+    "full_name": "muffinista/before-dawn",
+    "description": "A desktop screensaver app using web technologies",
+    "fork": false,
+    "created_at": "2016-01-12T18:29:09.000Z",
+    "updated_at": "2016-07-07T18:36:50.000Z",
+    "pushed_at": "2016-07-16T12:38:44.000Z",
+    "homepage": "",
+    "size": 2933,
+    "stargazers_count": 15,
+    "language": "CSS",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 3,
+    "github_id": 49520328,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE.txt",
+    "has_coc": "code_of_conduct.md",
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

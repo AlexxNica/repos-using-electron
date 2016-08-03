@@ -1,0 +1,50 @@
+{
+  "name": "electron-demo",
+  "private": true,
+  "dependencies": {
+    "leveldown": "^1.4.1",
+    "levelup": "^1.2.1"
+  },
+  "scripts": {
+    "postinstall": "cd node_modules/leveldown && HOME=~/.electron-gyp node-gyp rebuild --target=0.36.10 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron-prebuilt": "0.37.6"
+  },
+  "_librariesioMetadata": {
+    "full_name": "Level/electron-demo",
+    "description": "Demo app loading a leveldb into an electron context",
+    "fork": false,
+    "created_at": "2015-07-14T16:12:27.000Z",
+    "updated_at": "2016-07-30T12:40:34.000Z",
+    "pushed_at": "2016-08-02T23:36:15.000Z",
+    "homepage": null,
+    "size": 21,
+    "stargazers_count": 41,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 8,
+    "mirror_url": null,
+    "open_issues_count": 25,
+    "default_branch": "master",
+    "subscribers_count": 15,
+    "github_id": 39085867,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "name": "devdogs",
+  "productName": "Devdogs",
+  "version": "0.1.11",
+  "description": "DevdoGs, Unofficial Devdocs app for Mac",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "ragingwind/devdogs",
+  "author": {
+    "name": "ragingwind",
+    "email": "ragingwind@gmail.com",
+    "url": "ragingwind.me"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "config": {
+    "ignore": "--ignore='^/res$' --ignore='^/dist$' --ignore='^/node_modules$'",
+    "platform": "--platform=darwin --arch=x64 --prune --asar --icon=res/icon-128.icns",
+    "version": "--version=0.36.3 --app-bundle-id=me.ragingwind.devdocs"
+  },
+  "scripts": {
+    "start": "electron ./",
+    "test": "xo",
+    "clean": "rm -rf build package",
+    "build": "electron-packager . $npm_package_productName --out=./dist --overwrite --app-version=$npm_package_version $npm_package_config_platform $npm_package_config_version $npm_package_config_ignore",
+    "package": "cd dist/${npm_package_productName}-darwin-x64 && zip -ryXq9 ../${npm_package_productName}-${npm_package_version}.zip ${npm_package_productName}.app"
+  },
+  "files": [
+    "index.js",
+    "menu.js",
+    "browser.js",
+    "browser.css"
+  ],
+  "keywords": [
+    "devdogs",
+    "devdocs",
+    "devdocs.io",
+    "electron",
+    "electron-app"
+  ],
+  "devDependencies": {
+    "electron-packager": "5.2.0",
+    "electron-prebuilt": "^0.36.3",
+    "xo": "^0.12.1"
+  },
+  "dependencies": {
+    "configstore": "^1.4.0",
+    "electron-debug": "^0.5.1",
+    "electron-menu-loader": "0.0.3",
+    "electron-shortcut": "^0.4.1",
+    "electron-togglify-window": "^0.1.0",
+    "electron-window-state": "^2.0.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  },
+  "_librariesioMetadata": {
+    "full_name": "ragingwind/devdogs",
+    "description": "DevdoGs, Unofficial Devdocs app",
+    "fork": false,
+    "created_at": "2015-07-11T13:28:46.000Z",
+    "updated_at": "2016-06-27T10:02:11.000Z",
+    "pushed_at": "2016-03-13T22:46:02.000Z",
+    "homepage": "",
+    "size": 231,
+    "stargazers_count": 125,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 14,
+    "mirror_url": null,
+    "open_issues_count": 3,
+    "default_branch": "master",
+    "subscribers_count": 2,
+    "github_id": 38926606,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 3,
+    "has_readme": "readme.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "license",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-27T13:35:10.836Z",
+    "rank": null
+  }
+}

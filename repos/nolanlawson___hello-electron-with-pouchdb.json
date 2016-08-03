@@ -1,0 +1,52 @@
+{
+  "name": "hello-app",
+  "version": "0.1.0",
+  "main": "main.js",
+  "repository": "https://github.com/nolanlawson/hello-electron-with-pouchdb.git",
+  "license": "Apache",
+  "dependencies": {
+    "pouchdb": "5.3.1"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "0.36.10"
+  },
+  "scripts": {
+    "postinstall": "cd node_modules/leveldown && HOME=~/.electron-gyp node-gyp rebuild --target=0.36.10 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
+    "start": "electron ."
+  },
+  "_librariesioMetadata": {
+    "full_name": "nolanlawson/hello-electron-with-pouchdb",
+    "description": "Electron \"hello world\" with PouchDB",
+    "fork": true,
+    "created_at": "2014-09-06T16:00:49.000Z",
+    "updated_at": "2016-07-31T05:57:44.396Z",
+    "pushed_at": "2016-03-09T04:50:35.000Z",
+    "homepage": "",
+    "size": 228,
+    "stargazers_count": 29,
+    "language": "JavaScript",
+    "has_issues": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 3,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 3,
+    "github_id": 23738477,
+    "source_name": "dougnukem/hello-atom",
+    "license": null,
+    "private": false,
+    "github_contributions_count": 4,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

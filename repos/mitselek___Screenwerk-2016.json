@@ -1,0 +1,71 @@
+{
+  "name": "Screenwerk2016",
+  "productName": "Screenwerk 2016",
+  "version": "0.1.1-5",
+  "description": "Screenwerk2016",
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "electron app/main.js",
+    "prestart": "git pull",
+    "start": "electron app/main.js"
+  },
+  "homepage": "https://github.com/mitselek/Screenwerk-2016#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitselek/Screenwerk-2016.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mitselek/Screenwerk-2016/issues"
+  },
+  "keywords": [
+    "Electron",
+    "Screenwerk"
+  ],
+  "author": "Mihkel Putrinš",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
+  },
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "debug": "^2.2.0",
+    "later": "^1.2.0",
+    "request": "^2.72.0",
+    "yamljs": "^0.2.7"
+  },
+  "_librariesioMetadata": {
+    "full_name": "mitselek/Screenwerk-2016",
+    "description": "",
+    "fork": false,
+    "created_at": "2016-05-10T12:36:35.000Z",
+    "updated_at": "2016-06-08T11:09:27.000Z",
+    "pushed_at": "2016-06-08T13:58:33.000Z",
+    "homepage": null,
+    "size": 40097,
+    "stargazers_count": 1,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 5,
+    "default_branch": "master",
+    "subscribers_count": 2,
+    "github_id": 58459979,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 2,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE.md",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-06-08T11:09:44.939Z",
+    "rank": null
+  }
+}

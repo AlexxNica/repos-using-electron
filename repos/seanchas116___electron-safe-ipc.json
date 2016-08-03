@@ -1,0 +1,70 @@
+{
+  "name": "electron-safe-ipc",
+  "version": "0.6.2",
+  "description": "Safe communication between main process and renderer processes in Electron",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "renderer-bundle": "browserify guest.js -o guest-bundle.js -s electronSafeIpc",
+    "pretest": "npm run renderer-bundle",
+    "test": "electron test/webview && electron test/browser-window"
+  },
+  "author": "Ryohei Ikegami <iofg2100@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "chai": "^3.0.0",
+    "electron-prebuilt": "^0.32.3",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {},
+  "keywords": [
+    "electron",
+    "ipc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanchas116/electron-safe-ipc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seanchas116/electron-safe-ipc/issues"
+  },
+  "homepage": "https://github.com/seanchas116/electron-safe-ipc#readme",
+  "_librariesioMetadata": {
+    "full_name": "seanchas116/electron-safe-ipc",
+    "description": "Safe communication between main process and renderer processes in Electron",
+    "fork": false,
+    "created_at": "2015-07-08T05:17:48.000Z",
+    "updated_at": "2016-07-15T01:17:44.268Z",
+    "pushed_at": "2015-11-05T08:53:31.000Z",
+    "homepage": "",
+    "size": 176,
+    "stargazers_count": 15,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 1,
+    "default_branch": "master",
+    "subscribers_count": 2,
+    "github_id": 38733469,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 2,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

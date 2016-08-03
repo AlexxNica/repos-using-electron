@@ -1,0 +1,83 @@
+{
+  "name": "electron",
+  "productName": "Electron",
+  "version": "0.0.0",
+  "description": "My super-duper app",
+  "license": "MIT",
+  "repository": "nhducit/electron",
+  "author": {
+    "name": "nhducit",
+    "email": "nhducit@gmail.com",
+    "url": "github.com/nhducit"
+  },
+  "electronVersion": "0.36.0",
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "cheerio": "^0.20.0",
+    "electron-debug": "^0.5.0",
+    "lodash": "^4.6.1",
+    "request": "^2.69.0",
+    "request-promise": "^2.0.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.36.0",
+    "xo": "^0.12.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  },
+  "_librariesioMetadata": {
+    "full_name": "nhducit/ic4f-electron",
+    "description": "",
+    "fork": false,
+    "created_at": "2016-03-20T17:43:47.000Z",
+    "updated_at": "2016-03-21T07:35:18.615Z",
+    "pushed_at": "2016-03-20T17:43:56.000Z",
+    "homepage": null,
+    "size": 4,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 54331457,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "readme.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "license",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "tsc:w": "tsc -w",
+    "start": "concurrent \"npm run tsc:w\" \"electron main.js\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron/electron-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "angular2"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/electron/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "dependencies": {
+    "angular2": "2.0.0-beta.0",
+    "bootstrap": "^3.3.6",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "systemjs": "0.19.6",
+    "zone.js": "0.5.10"
+  },
+  "devDependencies": {
+    "concurrently": "^1.0.0",
+    "electron-prebuilt": "^0.36.0",
+    "typescript": "^1.7.3"
+  },
+  "_librariesioMetadata": {
+    "full_name": "rmchndrng/electron-angular2-seed",
+    "description": "Seed project for Electron using Angular2 and typescript",
+    "fork": false,
+    "created_at": "2016-04-06T10:44:51.000Z",
+    "updated_at": "2016-05-28T00:14:57.355Z",
+    "pushed_at": "2016-04-06T11:09:21.000Z",
+    "homepage": null,
+    "size": 65,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 55597848,
+    "source_name": null,
+    "license": "CC0-1.0",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE.md",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-28T00:14:57.332Z",
+    "rank": null
+  }
+}

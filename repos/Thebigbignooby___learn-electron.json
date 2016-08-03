@@ -1,0 +1,71 @@
+{
+  "description": "A minimal Electron application",
+  "scripts": {
+    "start": "electron ./app/main.js",
+    "build-all": "electron-packager ./app --all --out dist/",
+    "linux-installer": "electron-installer-debian --src dist/learn-electron-linux-x64/ --dest dist/installers/ --arch amd64",
+    "postinstall": "install-app-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron/electron-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "build": {
+    "app-bundle-id": "learn.electron",
+    "app-category-type": "your.app.category.type",
+    "iconUrl": "(windows only)"
+  },
+  "bugs": {
+    "url": "https://github.com/electron/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "devDependencies": {
+    "electron-builder": "^3.5.1",
+    "electron-installer-debian": "^0.2.0",
+    "electron-packager": "^6.0.2",
+    "electron-prebuilt": "^0.37.0"
+  },
+  "_librariesioMetadata": {
+    "full_name": "Thebigbignooby/learn-electron",
+    "description": "Learning electron basics on a hello world app",
+    "fork": false,
+    "created_at": "2016-04-14T11:38:06.000Z",
+    "updated_at": "2016-05-28T02:02:15.914Z",
+    "pushed_at": "2016-04-18T18:51:09.000Z",
+    "homepage": null,
+    "size": 11,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 56232461,
+    "source_name": null,
+    "license": "CC0-1.0",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE.md",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-28T02:02:15.893Z",
+    "rank": null
+  }
+}

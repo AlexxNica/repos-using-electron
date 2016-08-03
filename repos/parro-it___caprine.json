@@ -1,0 +1,86 @@
+{
+  "name": "caprine",
+  "productName": "Caprine",
+  "version": "1.4.1",
+  "description": "Unofficial Facebook Messenger app",
+  "license": "MIT",
+  "repository": "sindresorhus/caprine",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "maintainers": [
+    {
+      "name": "Oskar Krawczyk",
+      "email": "oskar.krawczyk@gmail.com",
+      "url": "krawczyk.io"
+    },
+    {
+      "name": "Daniel Pham",
+      "email": "pham.dany@gmail.com",
+      "url": "danhp.github.io"
+    }
+  ],
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "npm run build:macos && npm run build:linux && npm run build:windows",
+    "build:macos": "electron-packager . --overwrite --asar --out=dist --ignore='^media$' --prune --platform=darwin --arch=x64 --icon=static/Icon.icns --app-bundle-id=com.sindresorhus.caprine --sign='Developer ID Application: Sindre Sorhus (YG56YK5RN5)' --app-version=$npm_package_version && cd dist/Caprine-darwin-x64 && zip -ryXq9 ../Caprine-osx-${npm_package_version}.zip Caprine.app",
+    "build:linux": "electron-packager . --overwrite --out=dist --ignore='^media$' --prune --platform=linux --arch=x64 --app-bundle-id=com.sindresorhus.caprine --app-version=$npm_package_version && cd dist/Caprine-linux-x64/ && zip -ryq9 ../Caprine-linux-${npm_package_version}.zip *",
+    "build:windows": "electron-packager . --overwrite --asar --out=dist --ignore='^media$' --prune --platform=win32 --arch=ia32 --icon=static/Icon.ico --version-string.ProductName=$npm_package_productName --app-version=$npm_package_version && cd dist/Caprine-win32-ia32 && zip -ryq9 ../Caprine-windows-${npm_package_version}.zip *"
+  },
+  "dependencies": {
+    "electron-config": "^0.1.1",
+    "electron-context-menu": "^0.1.0",
+    "electron-debug": "^1.0.0",
+    "electron-dl": "^1.0.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.0.0",
+    "electron-prebuilt": "^1.2.2",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  },
+  "_librariesioMetadata": {
+    "full_name": "parro-it/caprine",
+    "description": "Unofficial Facebook Messenger app",
+    "fork": true,
+    "created_at": "2015-12-03T21:16:52.000Z",
+    "updated_at": "2015-12-04T07:09:52.178Z",
+    "pushed_at": "2015-11-25T05:37:11.000Z",
+    "homepage": null,
+    "size": 1447,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": false,
+    "has_wiki": false,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 47361077,
+    "source_name": "sindresorhus/caprine",
+    "license": null,
+    "private": false,
+    "github_contributions_count": 6,
+    "has_readme": "readme.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "license",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}
