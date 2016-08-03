@@ -13,6 +13,7 @@ function downloadPackageJSONFiles () {
   for (let page=1; page<500; page++) {
     librariesLimiter.removeTokens(1, function () {
       let url = getURLForDependentsPage(page)
+      console.log(url)
       request(url, {json: true}, function(err, resp, repos) {
         // ignore 404s
         if (err || !repos || repos.error || !Array.isArray(repos)) return
@@ -20,6 +21,7 @@ function downloadPackageJSONFiles () {
         repos.forEach(function (repo) {
           let [user, project] = repo.full_name.split('/')
           let pkgURL = getURLForPackageJSON(user, project)
+          console.log(pkgURL)
 
           githubLimiter.removeTokens(1, function () {
             request(pkgURL, {json: true, headers: {'user-agent': 'repos-using-electron'}}, function(err, resp, packageJSON) {
