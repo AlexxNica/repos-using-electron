@@ -34,7 +34,7 @@ access. Put your keys in a `.env` file:
 ```sh
 touch .env
 echo LIBRARIES_IO_API_KEY=foo
-echo GITHUB_PERSONAL_ACCESS_TOKEN=bar
+echo GITHUB_ACCESS_TOKEN=bar
 ```
 
 Then:
