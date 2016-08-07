@@ -1,0 +1,83 @@
+{
+  "name": "steam-idle",
+  "productName": "SteamIdle",
+  "version": "1.0.0",
+  "description": "A simple application for idling games on Steam.",
+  "license": "MIT",
+  "repository": "Razr9/steam-idle",
+  "author": {
+    "name": "Henrick Martins",
+    "email": "hmartins505@gmail.com",
+    "url": "razr9.github.io"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=0.31.1"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "launcher.js",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app"
+  ],
+  "dependencies": {
+    "electron-debug": "^0.1.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.31.1",
+    "xo": "^0.7.1"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ],
+    "rules": {
+      "prefer-arrow-callback": 0
+    }
+  },
+  "_librariesioMetadata": {
+    "full_name": "Razr9/Steam-Idle",
+    "description": "A simple tool for idling games on Steam.",
+    "fork": false,
+    "created_at": "2015-09-12T22:55:24.000Z",
+    "updated_at": "2016-05-28T01:59:57.823Z",
+    "pushed_at": "2015-10-27T02:09:31.000Z",
+    "homepage": null,
+    "size": 1748,
+    "stargazers_count": 2,
+    "language": "C#",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": true,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 42376090,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "readme.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "license",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-28T01:59:57.801Z",
+    "rank": null
+  }
+}

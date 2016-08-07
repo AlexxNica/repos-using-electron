@@ -1,0 +1,94 @@
+{
+  "name": "random-wallpaper",
+  "productName": "Random-Wallpaper",
+  "version": "0.0.0",
+  "description": "My delightful app",
+  "license": "MIT",
+  "repository": "moollaza/random-wallpaper",
+  "author": {
+    "name": "Zaahir Moolla",
+    "email": "moollaza@fastmail.fm",
+    "url": "zaahir.ca"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "electronVersion": "0.33.3",
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app"
+  ],
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "electron-config": "^0.2.1",
+    "electron-debug": "^0.2.1",
+    "handlebars": "^4.0.3",
+    "holder": "0.0.0",
+    "holderjs": "^1.7.0",
+    "jquery": "^2.1.4",
+    "menubar": "^2.2.1",
+    "request": "^2.64.0",
+    "url": "^0.11.0",
+    "wallpaper": "^1.1.0"
+  },
+  "devDependencies": {
+    "devtron": "^1.2.1",
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.33.3",
+    "xo": "^0.9.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ],
+    "rules": {
+      "import/no-extraneous-dependencies": "off"
+    }
+  },
+  "_librariesioMetadata": {
+    "full_name": "moollaza/random-wallpaper",
+    "description": "Get random wallpapers from multiple sources",
+    "fork": false,
+    "created_at": "2015-10-02T18:23:43.000Z",
+    "updated_at": "2016-04-18T10:23:46.950Z",
+    "pushed_at": "2015-10-08T04:37:00.000Z",
+    "homepage": null,
+    "size": 1212,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 43569005,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "pixelshank",
+  "version": "0.0.2",
+  "description": "An app that support you measure the object length on an image and export it as png.",
+  "main": "./main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-packager ./ PixelShank --platform=darwin --arch=x64 --version=0.35.0 --icon=./img/icon.ico --ignore=design_source  --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.idea --ignore=css/base.scss --asar --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/witmin/PixelShank.git"
+  },
+  "keywords": [
+    "design",
+    "tool",
+    "pixel",
+    "measure",
+    "mark",
+    "png"
+  ],
+  "author": "Millie Lin",
+  "license": "MIT",
+  "homepage": "http://github.com/witmin/PixelShank",
+  "devDependencies": {
+    "electron-packager": "^5.1.1",
+    "electron-prebuilt": "^0.35.0",
+    "p5": "^0.4.19"
+  },
+  "_librariesioMetadata": {
+    "full_name": "witmin/PixelShank",
+    "description": "Add pixel size mark on image and save as .png. Build with p5.js, electron and canvas.",
+    "fork": false,
+    "created_at": "2015-11-24T09:32:19.000Z",
+    "updated_at": "2015-12-14T02:25:11.000Z",
+    "pushed_at": "2015-12-07T07:11:16.000Z",
+    "homepage": "http://millielin.com/posts/pixelshank",
+    "size": 609,
+    "stargazers_count": 6,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 2,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 46781185,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

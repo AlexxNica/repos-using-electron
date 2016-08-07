@@ -1,0 +1,72 @@
+{
+  "name": "detective",
+  "version": "0.0.1",
+  "description": "a statistics-based clue solver",
+  "main": "app.js",
+  "engines": {
+    "node": "0.12.x"
+  },
+  "dependencies": {
+    "alfred": "git+https://git@bitbucket.org/karimsa/alfred.git",
+    "array.prototype.findindex": "^1.0.0",
+    "cutils": "git+https://git@bitbucket.org/vbka/cutils.git",
+    "electron-prebuilt": "^0.27.2",
+    "eventemitter2": "^0.4.14",
+    "express": "^4.12.4",
+    "javascript-astar": "git+https://github.com/bgrins/javascript-astar.git",
+    "natural": "^0.2.1",
+    "next-port": "0.0.4",
+    "q": "^1.4.1",
+    "rimraf": "^2.3.4",
+    "secure-random": "^1.1.1",
+    "socket.io": "^1.3.5",
+    "solver": "0.0.2",
+    "trashcan": "~0.1.2"
+  },
+  "scripts": {
+    "preinstall": "rimraf node_modules",
+    "start": "NODE_ENV=production ./node_modules/.bin/electron .",
+    "test": "NODE_ENV=development ./node_modules/.bin/electron ."
+  },
+  "author": "VBKA",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jsbeautifier": "0.0.8"
+  },
+  "_librariesioMetadata": {
+    "full_name": "vvbka/Detective",
+    "description": "\"AI\" for Clue",
+    "fork": false,
+    "created_at": "2015-07-22T12:57:04.000Z",
+    "updated_at": "2016-04-15T21:18:29.512Z",
+    "pushed_at": "2015-07-22T13:51:00.000Z",
+    "homepage": null,
+    "size": 15556,
+    "stargazers_count": 2,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 2,
+    "github_id": 39506031,
+    "source_name": null,
+    "license": "GPL-2.0",
+    "private": false,
+    "github_contributions_count": 2,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

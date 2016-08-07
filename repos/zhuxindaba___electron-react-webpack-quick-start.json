@@ -1,0 +1,86 @@
+{
+  "name": "electron-react-webpack-quick-start",
+  "version": "0.0.2",
+  "description": "A minimal Electron application with React and Webpack",
+  "main": "main.js",
+  "scripts": {
+    "dev": "npm run build && npm run start",
+    "build": "echo 'Building...' && webpack",
+    "start": "electron build/main.bundle.js",
+    "watch": "./node_modules/.bin/webpack-dev-server --port 8182"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jogleasonjr/electron-react-webpack-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "es6",
+    "es2015",
+    "react",
+    "webpack"
+  ],
+  "author": "John Gleason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jogleasonjr/electron-react-webpack-quick-start/issues"
+  },
+  "homepage": "https://github.com/jogleasonjr/electron-react-webpack-quick-start#readme",
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "electron-prebuilt": "^0.36.0",
+    "eslint": "^2.1.0",
+    "eslint-loader": "^1.2.1",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "_librariesioMetadata": {
+    "full_name": "zhuxindaba/electron-react-webpack-quick-start",
+    "description": "A minimal, cross-platform Electron application with ES2015, React, SCSS, and Webpack. Set breakpoints and debug the main process with Visual Studio Code.",
+    "fork": true,
+    "created_at": "2016-07-20T05:56:57.000Z",
+    "updated_at": "2016-07-20T08:45:07.091Z",
+    "pushed_at": "2016-03-17T18:45:58.000Z",
+    "homepage": "",
+    "size": 424,
+    "stargazers_count": 1,
+    "language": "JavaScript",
+    "has_issues": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 63754302,
+    "source_name": "jogleasonjr/electron-react-webpack-quick-start",
+    "license": null,
+    "private": false,
+    "github_contributions_count": 14,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-07-20T08:45:07.069Z",
+    "rank": null
+  }
+}

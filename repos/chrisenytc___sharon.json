@@ -1,0 +1,85 @@
+{
+  "name": "sharon",
+  "description": "A personal assistant to manage your github account",
+  "version": "0.1.0",
+  "homepage": "https://github.com/chrisenytc/sharon",
+  "author": {
+    "name": "Christopher EnyTC",
+    "email": "chrisenytc@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisenytc/sharon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisenytc/sharon/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/chrisenytc/sharon/blob/master/LICENSE"
+    }
+  ],
+  "main": "main.js",
+  "engines": {
+    "node": ">= 0.10.36",
+    "npm": ">=1.4.28"
+  },
+  "scripts": {
+    "build": "electron-packager . Example --platform=darwin --arch=x64 --version=0.30.3 --ignore=node_modules/electron --icon=Icon.icns",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "angular": "^1.4.7",
+    "angular-ui-router": "^0.2.15",
+    "bootstrap": "^3.3.5",
+    "font-awesome": "^4.4.0",
+    "jquery": "^2.1.4",
+    "menubar": "^2.2.1",
+    "superagent": "^1.4.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.1.0",
+    "electron-prebuilt": "^0.33.7"
+  },
+  "keywords": [
+    "github",
+    "personal",
+    "assistant"
+  ],
+  "_librariesioMetadata": {
+    "full_name": "chrisenytc/sharon",
+    "description": "A personal assistant to manage your github account",
+    "fork": false,
+    "created_at": "2015-10-11T13:26:47.000Z",
+    "updated_at": "2015-12-11T23:15:50.000Z",
+    "pushed_at": "2015-12-11T23:15:48.000Z",
+    "homepage": null,
+    "size": 505,
+    "stargazers_count": 1,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 44053037,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": "CHANGELOG",
+    "has_contributing": "CONTRIBUTING.md",
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

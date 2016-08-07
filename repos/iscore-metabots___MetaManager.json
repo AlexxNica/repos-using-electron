@@ -1,0 +1,63 @@
+{
+  "name": "meta-manager",
+  "version": "1.0.0",
+  "description": "Projet for metabots",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron app/main.js",
+    "package": "electron-packager ./ MetaManager --platform=all --arch=x64 --out ./dist/MetaManager --overwrite"
+  },
+  "author": "Pravez",
+  "devDependencies": {
+    "devtron": "^1.2.0",
+    "electron": "latest",
+    "electron-packager": "^7.0.3",
+    "electron-prebuilt": "1.1.2",
+    "electron-rebuild": "^1.1.5",
+    "spectron": "^3.2.3"
+  },
+  "dependencies": {
+    "bluetooth-serial-port": "^1.2.6",
+    "cannon": "^0.6.2",
+    "jquery": "^3.0.0",
+    "jsonfile": "^2.3.1",
+    "osc": "^2.1.0",
+    "riot": "^2.4.1",
+    "three": "^0.78.0"
+  },
+  "_librariesioMetadata": {
+    "full_name": "iscore-metabots/MetaManager",
+    "description": "Electron app to manage a lot of Bots (Metabots & drones), interfacing with i-score",
+    "fork": false,
+    "created_at": "2016-06-08T08:20:51.000Z",
+    "updated_at": "2016-07-13T08:38:33.407Z",
+    "pushed_at": "2016-07-12T15:39:53.000Z",
+    "homepage": "",
+    "size": 500,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 60681166,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-07-13T08:38:33.385Z",
+    "rank": null
+  }
+}

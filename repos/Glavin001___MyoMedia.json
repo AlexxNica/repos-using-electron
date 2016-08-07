@@ -1,0 +1,74 @@
+{
+  "name": "myomedia",
+  "productName": "MyoMedia",
+  "version": "0.0.0",
+  "description": "Natural interface for your home media centre",
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": "Glavin001/myomedia",
+  "author": {
+    "name": "Glavin Wiechert",
+    "email": "glavin.wiechert@gmail.com",
+    "url": "github.com/Glavin001/MyoMedia"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "debug": "electron --debug=5858 .",
+    "build": "electron-packager . $npm_package_productName --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git --out=dist"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app"
+  ],
+  "devDependencies": {
+    "electron-packager": "^3.3.0",
+    "electron-prebuilt": "^0.25.2"
+  },
+  "dependencies": {
+    "babel-core": "^5.3.1",
+    "myo": "^1.5.0",
+    "node-wit": "git+https://github.com/Glavin001/node-wit.git"
+  },
+  "_librariesioMetadata": {
+    "full_name": "Glavin001/MyoMedia",
+    "description": "Natural interface for your home media centre",
+    "fork": false,
+    "created_at": "2015-05-12T00:40:43.000Z",
+    "updated_at": "2016-02-29T12:57:40.766Z",
+    "pushed_at": "2015-05-13T15:28:21.000Z",
+    "homepage": null,
+    "size": 168,
+    "stargazers_count": 1,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 14,
+    "default_branch": "master",
+    "subscribers_count": 2,
+    "github_id": 35457921,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

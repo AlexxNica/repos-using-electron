@@ -1,0 +1,73 @@
+{
+  "author": {
+    "email": "milesoldenburg@gmail.com",
+    "name": "Miles Oldenburg"
+  },
+  "description": "DartMatrix: Open source darts companion and statistics app",
+  "devDependencies": {
+    "appdmg": "^0.3.5",
+    "del": "^2.2.0",
+    "electron-packager": "^5.2.0",
+    "electron-prebuilt": "^0.36.2",
+    "gulp": "^3.9.0",
+    "gulp-bower": "0.0.11",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-less": "^3.0.5",
+    "jshint": "^2.9.1-rc2",
+    "less-plugin-autoprefix": "^1.5.1",
+    "q": "^1.4.1",
+    "sqlite3": "^3.1.1"
+  },
+  "main": "lib/main.js",
+  "name": "dartmatrix",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/milesoldenburg/dartmatrix.git"
+  },
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "gulp bower && npm run rebuild-sqlite3",
+    "rebuild-sqlite3": "cd node_modules/sqlite3 && npm run prepublish && node-gyp configure --module_name=node_sqlite3 --module_path=../lib/binding/node-v44-darwin-x64 && node-gyp rebuild --target=0.29.1 --arch=x64 --target_platform=darwin --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/node-v44-darwin-x64"
+  },
+  "version": "0.1.0",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "_librariesioMetadata": {
+    "full_name": "milesoldenburg/dartmatrix",
+    "description": "A darts score keeper and stat package",
+    "fork": false,
+    "created_at": "2015-01-23T02:29:12.000Z",
+    "updated_at": "2016-01-31T18:06:11.356Z",
+    "pushed_at": "2016-01-31T17:58:08.000Z",
+    "homepage": null,
+    "size": 1593,
+    "stargazers_count": 3,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 2,
+    "github_id": 29712549,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": "fire-sale",
+  "version": "0.0.1",
+  "description": "A Markdown-to-HTML renderer",
+  "main": "lib/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . 'Fire Sale' --platform=all --arch=all --version=0.36.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevekinney/firesale-tutorial.git"
+  },
+  "keywords": [
+    "electron",
+    "markdown"
+  ],
+  "author": "Steve Kinney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevekinney/firesale-tutorial/issues"
+  },
+  "homepage": "https://github.com/stevekinney/firesale-tutorial#readme",
+  "devDependencies": {
+    "electron-packager": "^5.2.1",
+    "electron-prebuilt": "^0.36.7"
+  },
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "marked": "^0.3.5"
+  },
+  "_librariesioMetadata": {
+    "full_name": "stevekinney/firesale-tutorial",
+    "description": "A tutorial on building a Markdown renderer in Electron.",
+    "fork": false,
+    "created_at": "2016-02-04T16:19:41.000Z",
+    "updated_at": "2016-07-09T16:30:21.405Z",
+    "pushed_at": "2016-05-29T22:40:39.000Z",
+    "homepage": null,
+    "size": 1427,
+    "stargazers_count": 5,
+    "language": "CSS",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 8,
+    "mirror_url": null,
+    "open_issues_count": 2,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 51088283,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 2,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

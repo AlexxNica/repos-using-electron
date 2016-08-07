@@ -1,0 +1,103 @@
+{
+  "name": "Photor",
+  "version": "0.0.1",
+  "description": "atom shell test",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marianboda/atom-shell-tryout.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "run": "./binaries/Electron.app/Contents/MacOS/Electron .",
+    "clean": "(cd ~/Documents/PhotorData && rm -rf preview thumb && sqlite3 db.sqlite \"DELETE FROM file; DELETE FROM dir\")",
+    "electron": "rm -rf binaries/Electron.app && cp -R node_modules/electron-prebuilt/dist/Electron.app binaries",
+    "initdb": "mkdir -p ~/Documents/PhotorData ; rm -f ~/Documents/PhotorData/db.sqlite; sqlite3 ~/Documents/PhotorData/db.sqlite < ./scripts/dbschema.sql"
+  },
+  "jest": {
+    "scriptPreprocessor": "preprocessor.js",
+    "testFileExtensions": [
+      "coffee",
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "coffee",
+      "js"
+    ],
+    "unmockedModulePathPatterns": [
+      "node_modules/react"
+    ]
+  },
+  "author": "Marian Boda",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.2",
+    "browserify": "^11.0.1",
+    "coffee-script": "^1.9.3",
+    "coffeelint": "^1.10.1",
+    "electron-prebuilt": "^1.1.0",
+    "exec": "^0.2.1",
+    "file": "^0.2.2",
+    "flux": "^2.0.3",
+    "gm": "^1.18.1",
+    "gulp": "^3.9.0",
+    "gulp-atom": "^0.1.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-coffeelint": "^0.5.0",
+    "gulp-ruby-sass": "^1.0.5",
+    "gulp-shell": "^0.4.2",
+    "humps": "^0.6.0",
+    "immutable": "^3.7.4",
+    "is-js": "^0.1.1",
+    "lodash": "^4.12.0",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.10.6",
+    "nedb": "^1.1.2",
+    "object-assign": "^3.0.0",
+    "q": "^1.4.1",
+    "react": "^0.14.7",
+    "react-dom": "^15.0.2",
+    "react-router": "^0.13.3",
+    "reflux": "^0.2.12",
+    "sqlite3": "^3.1.3"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.1.3",
+    "xml2js": "^0.4.9"
+  },
+  "_librariesioMetadata": {
+    "full_name": "marianboda/photor",
+    "description": "Photo organizer made with electron, react & reflux",
+    "fork": false,
+    "created_at": "2014-10-09T22:06:01.000Z",
+    "updated_at": "2016-05-27T17:09:00.231Z",
+    "pushed_at": "2016-05-18T22:24:55.000Z",
+    "homepage": "",
+    "size": 1606,
+    "stargazers_count": 2,
+    "language": "CoffeeScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 2,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 25010511,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-27T17:09:00.209Z",
+    "rank": null
+  }
+}

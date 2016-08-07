@@ -1,0 +1,82 @@
+{
+  "name": "virtual-progress-bar",
+  "version": "1.0.0",
+  "description": "virtual-dom progress bar component",
+  "main": "src/virtual-progress-bar.js",
+  "scripts": {
+    "demo": "budo demo/browser.js --open --live",
+    "deploy": "mkdirp example-dist && browserify demo/browser.js | htmlify > example-dist/index.html && gh-pages -d example-dist",
+    "test": "standard && node test/virtual-progress-bar.js && browserify test/virtual-progress-bar.js | testron"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinedufn/virtual-progress-bar.git"
+  },
+  "keywords": [
+    "virtual",
+    "dom",
+    "progress",
+    "bar",
+    "component",
+    "react"
+  ],
+  "author": "Chinedu Francis Nwafili <frankie.nwafili@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chinedufn/virtual-progress-bar/issues"
+  },
+  "homepage": "https://github.com/chinedufn/virtual-progress-bar#readme",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "budo": "^8.0.4",
+    "electron-prebuilt": "^0.36.7",
+    "gh-pages": "^0.9.0",
+    "inline-htmlify": "^2.0.0",
+    "mkdirp": "^0.5.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "standard": "^6.0.4",
+    "tape": "^4.4.0",
+    "testron": "^1.2.0",
+    "virtual-dom": "^2.1.1"
+  },
+  "dependencies": {
+    "preflex": "~1.0.0",
+    "xtend": "^4.0.1"
+  },
+  "_librariesioMetadata": {
+    "full_name": "chinedufn/virtual-progress-bar",
+    "description": "virtual-dom progress bar component",
+    "fork": false,
+    "created_at": "2016-02-11T14:57:12.000Z",
+    "updated_at": "2016-06-10T07:58:12.634Z",
+    "pushed_at": "2016-02-12T10:32:05.000Z",
+    "homepage": "http://chinedufn.github.io/virtual-progress-bar/",
+    "size": 318,
+    "stargazers_count": 5,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": true,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 51521731,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 2,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-27T17:52:47.907Z",
+    "rank": null
+  }
+}

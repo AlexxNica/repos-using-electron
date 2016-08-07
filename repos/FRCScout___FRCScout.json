@@ -1,0 +1,67 @@
+{
+  "name": "FRCScout",
+  "version": "v0.0.0beta",
+  "description": "Scouting application for FIRST Robotics Competition.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . --all --out ~/Desktop/Scout --overwrite --ignore=\\.gitignore",
+    "package-mac": "electron-packager . --platform=darwin --arch=all --out ~/Desktop/Scout --overwrite --ignore=\\.gitignore",
+    "package-win": "electron-packager . --platform=win32 --arch=all --out ~/Desktop/Scout --overwrite --ignore=\\.gitignore",
+    "package-linux": "electron-packager . --platform=linux --arch=all --out ~/Desktop/Scout --overwrite --ignore=\\.gitignore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErikBoesen/FRCScout"
+  },
+  "keywords": [
+    "FRC",
+    "robotics",
+    "scouting"
+  ],
+  "author": "ErikBoesen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ErikBoesen/FRCScout/issues"
+  },
+  "homepage": "https://github.com/ErikBoesen/FRCScout#readme",
+  "devDependencies": {
+    "electron-packager": "^7.3.0",
+    "electron-prebuilt": "^1.2.0"
+  },
+  "_librariesioMetadata": {
+    "full_name": "FRCScout/FRCScout",
+    "description": ":ledger:  Customizable FRC Scouting application for OS X, Windows, and Linux.",
+    "fork": false,
+    "created_at": "2016-07-24T20:13:28.000Z",
+    "updated_at": "2016-07-27T15:44:36.307Z",
+    "pushed_at": "2016-07-27T03:11:47.000Z",
+    "homepage": "",
+    "size": 34,
+    "stargazers_count": 3,
+    "language": "HTML",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 1,
+    "default_branch": "master",
+    "subscribers_count": 2,
+    "github_id": 64083708,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-07-27T15:37:41.166Z",
+    "rank": null
+  }
+}

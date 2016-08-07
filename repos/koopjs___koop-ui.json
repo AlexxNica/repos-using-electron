@@ -1,0 +1,68 @@
+{
+  "name": "koop-ui",
+  "description": "An experimental user interface for Koop",
+  "version": "1.0.0",
+  "author": "Chris Helm",
+  "bugs": {
+    "url": "https://github.com/koopjs/koop-ui/issues"
+  },
+  "devDependencies": {
+    "bower": "^1.5.2",
+    "electron-prebuilt": "^0.30.0",
+    "node-sass": "^3.2.0"
+  },
+  "homepage": "https://github.com/koopjs/koop-ui#readme",
+  "keywords": [
+    "admin",
+    "etl",
+    "feature service",
+    "geojson",
+    "koop"
+  ],
+  "license": "Apache-2.0",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:koopjs/koop-ui.git"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "sass": "node-sass styles/main.scss -o ./styles/css --output-style=compressed",
+    "start": "electron ."
+  },
+  "_librariesioMetadata": {
+    "full_name": "koopjs/koop-ui",
+    "description": "An Electron-based user interface for installations of Koop (experimental).",
+    "fork": false,
+    "created_at": "2015-07-24T03:30:13.000Z",
+    "updated_at": "2016-07-18T16:15:41.614Z",
+    "pushed_at": "2015-08-31T22:41:17.000Z",
+    "homepage": "",
+    "size": 253,
+    "stargazers_count": 3,
+    "language": "CSS",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 6,
+    "github_id": 39609844,
+    "source_name": null,
+    "license": "Other",
+    "private": false,
+    "github_contributions_count": 2,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

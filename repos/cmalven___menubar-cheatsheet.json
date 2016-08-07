@@ -1,0 +1,56 @@
+{
+  "name": "menubar-cheatsheet",
+  "version": "1.0.0",
+  "description": "A cheatsheet for your menu bar, built on Electron",
+  "main": "index.js",
+  "scripts": {
+    "build": "electron-packager . MenubarCheatsheet --out ./builds --platform=darwin --arch=all --version=0.34.1 --icon=Icon.icns --overwrite",
+    "start": "electron ."
+  },
+  "author": "Chris Malven <cmalven@chrismalven.com>",
+  "license": "ISC",
+  "dependencies": {
+    "electron-debug": "^0.2.1",
+    "jquery": "^2.1.4",
+    "menubar": "*"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.1.0",
+    "electron-prebuilt": "0.34.1"
+  },
+  "_librariesioMetadata": {
+    "full_name": "cmalven/menubar-cheatsheet",
+    "description": "A code reference tool for your menubar, built using Electron.",
+    "fork": false,
+    "created_at": "2015-10-26T01:51:47.000Z",
+    "updated_at": "2016-03-02T23:53:55.000Z",
+    "pushed_at": "2016-03-02T23:53:54.000Z",
+    "homepage": null,
+    "size": 1665,
+    "stargazers_count": 1,
+    "language": "CSS",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 2,
+    "github_id": 44939578,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

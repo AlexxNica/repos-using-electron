@@ -1,0 +1,70 @@
+{
+  "name": "dinero-printer",
+  "productName": "Dinero Printer",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "author": "Kenneth Auchenberg",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-packager ./ --platform=darwin --arch=x64 --out=out --icon=./.icons/icon.icns --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auchenberg/dinero-printer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/auchenberg/dinero-printer/issues"
+  },
+  "homepage": "https://github.com/auchenberg/dinero-printer#readme",
+  "dependencies": {
+    "dinero": "^1.0.0",
+    "electron-json-storage": "^2.0.0",
+    "electron-log": "^1.0.15",
+    "get-port": "^2.1.0",
+    "ipp-printer": "^1.0.0",
+    "menubar": "^5.1.0",
+    "moment": "^2.14.1",
+    "os-tmpdir": "^1.0.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.3.0",
+    "electron-prebuilt": "^1.2.7"
+  },
+  "_librariesioMetadata": {
+    "full_name": "auchenberg/dinero-printer",
+    "description": "Virtual printer that forwards the print jobs to Dinero Regnskab",
+    "fork": false,
+    "created_at": "2016-07-25T21:46:08.000Z",
+    "updated_at": "2016-08-06T16:27:28.226Z",
+    "pushed_at": "2016-08-06T16:27:26.000Z",
+    "homepage": "",
+    "size": 146,
+    "stargazers_count": 2,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 1,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 64170021,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-08-06T03:43:47.648Z",
+    "rank": null
+  }
+}

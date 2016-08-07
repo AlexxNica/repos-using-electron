@@ -1,0 +1,78 @@
+{
+  "name": "macaca-electron",
+  "version": "1.0.7",
+  "description": "macaca-electron",
+  "keywords": [
+    "electron",
+    "macaca"
+  ],
+  "main": "./lib/macaca-electron",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/macacajs/macaca-electron.git"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "driver-base": "^0.1.0",
+    "electron-prebuilt": "^0.37.6",
+    "macaca-utils": "~0.1.8",
+    "selenium-atoms": "~1.0.1",
+    "webdriver-dfn-error-code": "^1.0.3",
+    "xlogger": "^1.0.0"
+  },
+  "devDependencies": {
+    "co-mocha": "^1.1.2",
+    "istanbul": "*",
+    "jsdoc": "^3.4.0",
+    "jshint": "*",
+    "minami": "^1.1.1",
+    "mocha": "*",
+    "pre-commit": "1.1.1",
+    "should": "*",
+    "startserver": "^1.2.3"
+  },
+  "scripts": {
+    "test": "make test",
+    "jshint": "make jshint"
+  },
+  "pre-commit": [
+    "jshint"
+  ],
+  "homepage": "https://github.com/macacajs/macaca-electron",
+  "license": "MIT",
+  "_librariesioMetadata": {
+    "full_name": "macacajs/macaca-electron",
+    "description": "Macaca Electron driver",
+    "fork": false,
+    "created_at": "2016-03-29T07:41:52.000Z",
+    "updated_at": "2016-05-31T01:40:40.000Z",
+    "pushed_at": "2016-05-23T12:04:32.000Z",
+    "homepage": "https://macacajs.github.io/macaca",
+    "size": 21,
+    "stargazers_count": 6,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 2,
+    "mirror_url": null,
+    "open_issues_count": 1,
+    "default_branch": "master",
+    "subscribers_count": 3,
+    "github_id": 54956009,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 3,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": "CONTRIBUTING.md",
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-27T14:43:28.196Z",
+    "rank": null
+  }
+}

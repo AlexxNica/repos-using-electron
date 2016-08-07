@@ -1,0 +1,81 @@
+{
+  "name": "keep",
+  "productName": "Keep",
+  "version": "0.0.0",
+  "description": "Desktop app for Google Keep packaged with Electron",
+  "electronVersion": "0.36.0",
+  "files": [
+    "*.js",
+    "assets"
+  ],
+  "scripts": {
+    "start": "electron .",
+    "build:darwin": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --platform=darwin --arch=all --version=$npm_package_electronVersion --icon=assets/icon.icns",
+    "build:linux": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --platform=linux --arch=all --version=$npm_package_electronVersion --icon=assets/icon.png",
+    "build:windows": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --platform=win32 --arch=all --version=$npm_package_electronVersion --icon=assets/icon.ico",
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrepolischuk/keep.git"
+  },
+  "keywords": [
+    "electron-app",
+    "electron",
+    "google",
+    "keep"
+  ],
+  "author": "Andrey Polischuk <andre.polischuk@gmail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/andrepolischuk/keep/issues"
+  },
+  "homepage": "https://github.com/andrepolischuk/keep",
+  "dependencies": {
+    "configstore": "^2.0.0",
+    "electron-debug": "^0.6.0",
+    "object-assign": "^4.0.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^6.0.2",
+    "electron-prebuilt": "^0.37.5",
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^7.0.0",
+    "eslint-plugin-require-path-exists": "^1.1.5"
+  },
+  "_librariesioMetadata": {
+    "full_name": "andrepolischuk/keep",
+    "description": "Desktop app for Google Keep packaged with Electron",
+    "fork": false,
+    "created_at": "2016-03-04T10:10:03.000Z",
+    "updated_at": "2016-08-02T18:16:30.465Z",
+    "pushed_at": "2016-04-15T08:59:39.000Z",
+    "homepage": null,
+    "size": 46,
+    "stargazers_count": 6,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": false,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 3,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 53126523,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

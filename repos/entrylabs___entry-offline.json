@@ -1,0 +1,97 @@
+{
+  "private": true,
+  "scripts": {
+    "clean": "rimraf dist",
+    "pack": "build",
+    "dist": "build",
+    "dist:win": "build --arch ia32",
+    "dist:win64": "build --arch x64",
+    "pack:win": "electron-packager ./dist --platform=win32 --arch=ia32",
+    "dist:osx": "build",
+    "start": "set NODE_ENV=development&&electron -d app",
+    "test": "mocha test/default.js"
+  },
+  "build": {
+    "osx": {
+      "icon": "build/icon.icns",
+      "icon-size": 80,
+      "background": "build/background.png",
+      "contents": [
+        {
+          "x": 240,
+          "y": 380,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 240,
+          "y": 120,
+          "type": "file",
+          "path": "Entry.app"
+        },
+        {
+          "x": 380,
+          "y": 250,
+          "type": "file",
+          "path": "./app/README.md"
+        }
+      ]
+    },
+    "win": {
+      "loadingGif": "build/install-spinner.gif",
+      "title": "Entry",
+      "icon": "./icon/app.ico",
+      "authors": "EntryLabs"
+    },
+    "asar": false,
+    "app-bundle-id": "entry-offline",
+    "app-category-type": "org.play-entry.entry-offline",
+    "iconUrl": "https://raw.githubusercontent.com/entrylabs/entry-hw/feature/electron/build/icon.ico",
+    "icon": "app/icon/app"
+  },
+  "devDependencies": {
+    "appdmg-tf": "^0.3.11",
+    "electron-builder": "^3.25.0",
+    "electron-packager": "^7.0.2",
+    "electron-prebuilt": "1.1.1",
+    "mocha": "^2.5.3",
+    "rimraf": "^2.5.2",
+    "spectron": "^3.2.3"
+  },
+  "dependencies": {},
+  "_librariesioMetadata": {
+    "full_name": "entrylabs/entry-offline",
+    "description": "entry-offline",
+    "fork": false,
+    "created_at": "2015-11-10T08:36:22.000Z",
+    "updated_at": "2016-07-22T05:26:17.226Z",
+    "pushed_at": "2016-07-22T05:25:25.000Z",
+    "homepage": null,
+    "size": 374516,
+    "stargazers_count": 4,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 4,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 4,
+    "github_id": 45898672,
+    "source_name": null,
+    "license": "Apache-2.0",
+    "private": false,
+    "github_contributions_count": 3,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-27T13:07:17.135Z",
+    "rank": null
+  }
+}

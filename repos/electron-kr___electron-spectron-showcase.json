@@ -1,0 +1,81 @@
+{
+  "name": "electron-showcase-spectron",
+  "productName": "ElectronShowcaseForSpectron",
+  "version": "0.0.0",
+  "description": "Show how to use spectron with ava on electron for testing",
+  "license": "MIT",
+  "repository": "electron-kr/electron-showcase-spectron",
+  "author": {
+    "name": "ragingwind",
+    "email": "ragingwind@gmail.com",
+    "url": "ragingwind.me"
+  },
+  "scripts": {
+    "test": "xo && ava --serial",
+    "start": "electron .",
+    "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "dependencies": {
+    "electron-debug": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "devtron": "^1.1.0",
+    "electron-bin-path": "^0.1.0",
+    "electron-packager": "^7.0.0",
+    "electron-prebuilt": "^1.0.1",
+    "spectron": "^3.2.3",
+    "xo": "^0.15.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  },
+  "_librariesioMetadata": {
+    "full_name": "electron-kr/electron-spectron-showcase",
+    "description": "Show how to use electron with spectron",
+    "fork": false,
+    "created_at": "2016-01-07T09:02:54.000Z",
+    "updated_at": "2016-05-18T22:37:29.401Z",
+    "pushed_at": "2016-01-25T22:54:37.000Z",
+    "homepage": "",
+    "size": 5,
+    "stargazers_count": 2,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 2,
+    "github_id": 49193617,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "readme.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "license",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

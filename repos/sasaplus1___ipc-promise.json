@@ -1,0 +1,58 @@
+{
+  "name": "ipc-promise",
+  "version": "0.1.1",
+  "author": "sasa+1 <sasaplus1@gmail.com>",
+  "description": "ipc use as Promises",
+  "main": "./ipc-promise.js",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sasaplus1/ipc-promise.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "minify": "uglifyjs ipc-promise.js --comments '@license' -cm -r ipcPromise -o ./ipc-promise.min.js",
+    "test": "electron ./test/main.js 2>&1 | grep -v 'exit: 0' && true || false"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.27.2",
+    "eslint": "^0.22.1",
+    "uglify-js": "^2.4.23"
+  },
+  "_librariesioMetadata": {
+    "full_name": "sasaplus1/ipc-promise",
+    "description": "ipc use as Promises",
+    "fork": false,
+    "created_at": "2015-06-05T10:55:00.000Z",
+    "updated_at": "2016-05-28T18:26:56.589Z",
+    "pushed_at": "2015-06-08T10:21:35.000Z",
+    "homepage": "",
+    "size": 136,
+    "stargazers_count": 6,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 1,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 36927895,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-27T13:42:44.704Z",
+    "rank": null
+  }
+}

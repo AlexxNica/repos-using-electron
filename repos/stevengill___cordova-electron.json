@@ -1,0 +1,62 @@
+{
+  "name": "cordova-electron",
+  "version": "0.0.1",
+  "description": "Adding electron as a platform for cordova",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron ."
+  },
+  "kewords": [
+    "cordova",
+    "electron",
+    "apache"
+  ],
+  "author": "Steve Gill",
+  "license": "Apache Version 2.0",
+  "dependencies": {
+    "q": "^1.4.0",
+    "shelljs": "^0.4.0",
+    "electron-prebuilt": "^0.27.1"
+  },
+  "bundleDependencies": [
+    "q",
+    "shelljs",
+    "electron-prebuilt"
+  ],
+  "_librariesioMetadata": {
+    "full_name": "stevengill/cordova-electron",
+    "description": "",
+    "fork": false,
+    "created_at": "2015-05-31T00:59:59.000Z",
+    "updated_at": "2016-01-26T16:19:19.000Z",
+    "pushed_at": "2015-05-31T01:02:06.000Z",
+    "homepage": null,
+    "size": 7020,
+    "stargazers_count": 5,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 1,
+    "default_branch": "master",
+    "subscribers_count": 3,
+    "github_id": 36582101,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": "CONTRIBUTING.md",
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

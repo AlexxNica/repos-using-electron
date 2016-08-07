@@ -1,0 +1,75 @@
+{
+  "name": "8d8",
+  "version": "0.0.1",
+  "description": "8D8 has been reprogrammed for sadism",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cssw": "./node_modules/stylus/bin/stylus -w styles/main.styl -o src/css/main.css",
+    "css": "./node_modules/stylus/bin/stylus styles/main.styl -o src/css/main.css",
+    "deps": "cd ./src; npm i --production",
+    "pack": "node ./node_modules/electron-packager/cli.js ./src --all --overwrite --out binaries",
+    "build": "npm run css; npm run deps; npm run pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deomitrus/8D8.git"
+  },
+  "author": "Deomitrus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deomitrus/8D8/issues"
+  },
+  "homepage": "https://github.com/deomitrus/8D8#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "native-dns": "^0.7.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "socket.io": "^1.4.6",
+    "socket.io-client": "^1.4.6",
+    "socketio-wildcard": "^0.3.0",
+    "sudo-prompt": "^5.0.3",
+    "v": "github:deomitrus/v"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.0.3",
+    "electron-prebuilt": "^1.2.3",
+    "stylus": "^0.54.5"
+  },
+  "_librariesioMetadata": {
+    "full_name": "deomitrus/8D8",
+    "description": "8D8 has been reprogrammed for sadism",
+    "fork": false,
+    "created_at": "2016-06-09T16:42:47.000Z",
+    "updated_at": "2016-06-21T00:25:41.012Z",
+    "pushed_at": "2016-06-16T13:38:35.000Z",
+    "homepage": null,
+    "size": 2505,
+    "stargazers_count": 2,
+    "language": "CSS",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 3,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 60790561,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-06-16T18:02:11.548Z",
+    "rank": null
+  }
+}

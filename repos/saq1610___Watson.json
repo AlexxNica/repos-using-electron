@@ -1,0 +1,82 @@
+{
+  "name": "watson",
+  "productName": "Watson",
+  "version": "0.1.0",
+  "description": "Google's Inbox nicely packaged for your desktop, with advanced features.",
+  "license": "MIT",
+  "repository": "user/repo",
+  "author": {
+    "name": "Saqeef Iqbal",
+    "email": "nasirsaqeef2001@gmail.com",
+    "url": "http://saq1610.github.io"
+  },
+  "electronVersion": "0.35.0",
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . Watson --out=dist --ignore='^/dist$' --prune --asar --all --version=0.35.0",
+    "pack": "npm run pack:osx && npm run pack:win",
+    "pack:osx": "npm run build:osx && electron-builder \"dist/osx/Watson.app\" --platform=osx --out=\"dist/osx\" --config=packager.json",
+    "pack:win": "npm run build:win && electron-builder \"dist/win/Watson-win32\" --platform=win --out=\"dist/win\" --config=packager.json"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "dependencies": {
+    "electron-debug": "^0.5.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.35.0",
+    "electron-builder": "^2.3.0",
+    "xo": "^0.11.1"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  },
+  "_librariesioMetadata": {
+    "full_name": "saq1610/Watson",
+    "description": "Google's Inbox, nicely packaged for your desktop with advanced features",
+    "fork": false,
+    "created_at": "2015-11-26T08:05:10.000Z",
+    "updated_at": "2015-11-26T08:20:22.000Z",
+    "pushed_at": "2015-11-27T19:19:24.000Z",
+    "homepage": null,
+    "size": 14418,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 2,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 46547157,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

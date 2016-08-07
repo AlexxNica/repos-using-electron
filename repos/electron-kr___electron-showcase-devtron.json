@@ -1,0 +1,79 @@
+{
+  "name": "electron-showcase-devtron",
+  "productName": "ElectronShowcaseForDevtron",
+  "version": "0.0.0",
+  "description": "Show how to use devtron",
+  "license": "MIT",
+  "repository": "electron-kr/electron-showcase-devtron",
+  "author": {
+    "name": "ragingwind",
+    "email": "ragingwind@gmail.com",
+    "url": "ragingwind.me"
+  },
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "dependencies": {
+    "electron-debug": "^1.0.0",
+    "jquery": "^3.0.0"
+  },
+  "devDependencies": {
+    "devtron": "^1.1.0",
+    "electron-packager": "^7.0.0",
+    "electron-prebuilt": "^1.0.1",
+    "xo": "^0.15.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  },
+  "_librariesioMetadata": {
+    "full_name": "electron-kr/electron-showcase-devtron",
+    "description": null,
+    "fork": false,
+    "created_at": "2016-06-28T05:19:30.000Z",
+    "updated_at": "2016-06-28T06:08:51.414Z",
+    "pushed_at": "2016-06-28T06:08:37.000Z",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 1,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 2,
+    "github_id": 62112207,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "readme.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "license",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-06-28T06:08:51.389Z",
+    "rank": null
+  }
+}

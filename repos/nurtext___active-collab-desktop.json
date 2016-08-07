@@ -1,0 +1,90 @@
+{
+  "name": "active-collab-desktop",
+  "productName": "Active Collab Desktop",
+  "version": "0.7.2",
+  "description": "Unofficial Active Collab Desktop Application",
+  "license": "MIT",
+  "repository": "nurtext/active-collab-desktop",
+  "author": {
+    "name": "Cedric Kastner",
+    "email": "cedric@kastner.wtf",
+    "url": "github.com/nurtext"
+  },
+  "electronVersion": "1.0.1",
+  "main": "main.js",
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "npm run build-osx && npm run build-linux && npm run build-win32 && npm run build-win64",
+    "build-osx": "electron-packager . \"$npm_package_productName\" --overwrite --out=dist --ignore='^/dist$' --ignore='^/media$' --prune --platform=darwin --arch=x64 --icon=media/Icon.icns --app-bundle-id=com.github.nurtext.active-collab-desktop --app-version=$npm_package_version --version=$npm_package_electronVersion && rm -rf \"dist/$npm_package_name-darwin-x64\" && mv \"dist/$npm_package_productName-darwin-x64\" \"dist/$npm_package_name-darwin-x64\" && cd \"dist/$npm_package_name-darwin-x64\" && zip -ryXq9 \"../$npm_package_name-osx-${npm_package_version}.zip\" \"$npm_package_productName.app\"",
+    "build-linux": "electron-packager . \"$npm_package_name\" --overwrite --out=dist --ignore='^/dist$' --ignore='^/media/(?!Icon.png$).*' --prune --platform=linux --arch=x64 --app-bundle-id=com.github.nurtext.active-collab-desktop --app-version=$npm_package_version --version=$npm_package_electronVersion && cd \"dist/$npm_package_name-linux-x64/\" && zip -ryq9 \"../$npm_package_name-linux-$npm_package_version.zip\" *",
+    "build-win32": "electron-packager . \"$npm_package_name\" --overwrite --out=dist --ignore='^/dist$' --ignore='^/media/(?!Icon.ico$).*' --prune --platform=win32 --arch=ia32 --icon=media/Icon.ico --version=$npm_package_electronVersion --version-string.ProductName=\"$npm_package_productName\" --version-string.FileDescription=\"$npm_package_description\" --version-string.LegalCopyright=\"$npm_package_license\" --version-string.ProductVersion=$npm_package_version && cd \"dist/$npm_package_name-win32-ia32/\" && mv $npm_package_name.exe \"$npm_package_productName.exe\" && zip -ryq9 \"../$npm_package_name-win-ia32-$npm_package_version.zip\" *",
+    "build-win64": "electron-packager . \"$npm_package_name\" --overwrite --out=dist --ignore='^/dist$' --ignore='^/media/(?!Icon.ico$).*' --prune --platform=win32 --arch=x64 --icon=media/Icon.ico --version=$npm_package_electronVersion --version-string.ProductName=\"$npm_package_productName\" --version-string.FileDescription=\"$npm_package_description\" --version-string.LegalCopyright=\"$npm_package_license\" --version-string.ProductVersion=$npm_package_version && cd \"dist/$npm_package_name-win32-x64/\" && mv $npm_package_name.exe \"$npm_package_productName.exe\" && zip -ryq9 \"../$npm_package_name-win-x64-$npm_package_version.zip\" *",
+    "build-win": "npm run build-win32 && npm run build-win64"
+  },
+  "files": [
+    "index.js",
+    "browser.js",
+    "menu.js",
+    "media/Icon.icns",
+    "media/Icon.png"
+  ],
+  "keywords": [
+    "electron-app",
+    "active",
+    "collab",
+    "active collab",
+    "collaboration"
+  ],
+  "dependencies": {
+    "electron-debug": "^1.0.0",
+    "electron-dl": "^1.0.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.0.1",
+    "electron-prebuilt": "^1.0.1",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  },
+  "_librariesioMetadata": {
+    "full_name": "nurtext/active-collab-desktop",
+    "description": "Unofficial Active Collab Desktop application based on Electron.",
+    "fork": false,
+    "created_at": "2016-03-21T11:07:50.000Z",
+    "updated_at": "2016-07-19T00:36:21.000Z",
+    "pushed_at": "2016-05-17T13:03:52.000Z",
+    "homepage": "",
+    "size": 537,
+    "stargazers_count": 10,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 4,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 6,
+    "github_id": 54382198,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

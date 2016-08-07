@@ -1,0 +1,76 @@
+{
+  "name": "mongodb-workbench",
+  "productName": "MongoDB Workbench",
+  "version": "0.0.1",
+  "author": "Kyle P. Davis",
+  "description": "A client to make working with MongoDB even better",
+  "license": "MIT",
+  "homepage": "https://KylePDavis.github.io/mongodb-workbench",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KylePDavis/mongodb-workbench.git"
+  },
+  "bugs": "https://github.com/KylePDavis/mongodb-workbench/issues",
+  "keywords": [
+    "mongodb",
+    "workbench",
+    "database",
+    "query",
+    "aggregate",
+    "visualize",
+    "data",
+    "ide",
+    "editor"
+  ],
+  "main": "src/app/main.js",
+  "scripts": {
+    "postinstall": "electron-rebuild  &&  bower install",
+    "test": "eslint src/  &&  jshint src/  &&  jscs src/app/ src/web/{*.js,components,pages}",
+    "start": "electron .",
+    "dist": "electron-packager . \"MongoDB Workbench\" --all --version=0.30.1 --out=dist/ --ignore='^/dist($|/)' --ignore='/\\.DS_Store$' --ignore='\\.sw.$' --prune --asar  &&  (cd dist/;  for D in */;do  D=\"$(basename \"$D\")\";  cp ../README.md ../LICENSE.md \"$D\";  zip -y -r \"$D.zip\" \"$D\";  done)"
+  },
+  "dependencies": {
+    "mongodb": "~2.0.33"
+  },
+  "devDependencies": {
+    "electron-packager": "~5.0.1",
+    "electron-prebuilt": "~0.30.1",
+    "electron-rebuild": "~0.2.5"
+  },
+  "private": true,
+  "_librariesioMetadata": {
+    "full_name": "KylePDavis/mongodb-workbench",
+    "description": "A UI for working with MongoDB databases",
+    "fork": false,
+    "created_at": "2015-06-01T04:15:31.000Z",
+    "updated_at": "2016-03-19T17:01:30.960Z",
+    "pushed_at": "2015-07-30T03:01:09.000Z",
+    "homepage": null,
+    "size": 400,
+    "stargazers_count": 1,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": true,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 36637404,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE.md",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

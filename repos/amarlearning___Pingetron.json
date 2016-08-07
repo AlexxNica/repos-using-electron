@@ -1,0 +1,69 @@
+{
+  "name": "Pingetron",
+  "version": "1.0.0",
+  "description": "Pingetron is a very basic application built using Electron and NodeJs which sends a request to the server and if the server responds, we say internet is working else internet is not working!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . Pingetron"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amarlearning/Pingetron.git"
+  },
+  "keywords": [
+    "Pingetron",
+    "Internet Check",
+    "electron"
+  ],
+  "author": "amarlearning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amarlearning/Pingetron/issues"
+  },
+  "homepage": "https://github.com/amarlearning/Pingetron#readme",
+  "devDependencies": {
+    "electron-packager": "^7.0.2",
+    "electron-prebuilt": "^1.2.0"
+  },
+  "dependencies": {
+    "battery-level": "^2.0.1",
+    "is-online": "^5.1.1",
+    "node-notifier": "^4.6.0"
+  },
+  "_librariesioMetadata": {
+    "full_name": "amarlearning/Pingetron",
+    "description": ":rocket: cross platform desktop app indicator to check whether internet connection is working or not!",
+    "fork": false,
+    "created_at": "2016-05-30T19:16:53.000Z",
+    "updated_at": "2016-06-26T18:35:07.635Z",
+    "pushed_at": "2016-06-11T01:53:13.000Z",
+    "homepage": "",
+    "size": 844,
+    "stargazers_count": 6,
+    "language": "HTML",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 60033374,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-06-01T18:54:50.747Z",
+    "rank": null
+  }
+}

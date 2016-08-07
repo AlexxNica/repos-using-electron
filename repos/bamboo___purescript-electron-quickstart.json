@@ -1,0 +1,65 @@
+{
+  "name": "purescript-electron-quickstart",
+  "version": "1.0.0",
+  "description": "Quick start for a purely PureScript based Electron project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "pulp build --to index.js && electron index.js",
+    "test": "pulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bamboo/purescript-electron-quickstart.git"
+  },
+  "keywords": [
+    "purescript",
+    "electron"
+  ],
+  "author": "Rodrigo B. de Oliveira <rbo@acm.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bamboo/purescript-electron-quickstart/issues"
+  },
+  "homepage": "https://github.com/bamboo/purescript-electron-quickstart#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.6"
+  },
+  "_librariesioMetadata": {
+    "full_name": "bamboo/purescript-electron-quickstart",
+    "description": "Quick start for a purely PureScript based Electron project ",
+    "fork": false,
+    "created_at": "2016-01-11T00:11:50.000Z",
+    "updated_at": "2016-07-13T20:37:55.059Z",
+    "pushed_at": "2016-01-14T23:35:46.000Z",
+    "homepage": null,
+    "size": 7,
+    "stargazers_count": 4,
+    "language": "PureScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 3,
+    "github_id": 49391744,
+    "source_name": null,
+    "license": "Apache-2.0",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

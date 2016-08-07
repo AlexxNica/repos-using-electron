@@ -1,0 +1,109 @@
+{
+  "name": "animatum",
+  "productName": "Animatum",
+  "version": "0.1.0",
+  "description": "A web application providing a cross-platform solution for animating RCT3 custom scenery.",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chances/Animatum-Infinitas"
+  },
+  "keywords": [
+    "js",
+    "ts",
+    "typescript",
+    "webapp",
+    "rct3"
+  ],
+  "author": "Chance Snow <git@chancesnow.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chances/Animatum-Infinitas/issues"
+  },
+  "homepage": "https://github.com/chances/Animatum-Infinitas",
+  "main": "js/main.js",
+  "scripts": {
+    "clean": "find ./js -type f -name '*.js' -delete && find ./dist -type f -name '*.js' -delete && find ./dist -type f -name '*.js.map' -delete && rm css/*.css",
+    "build": "npm run build:css && npm run parser; npm run build:js",
+    "build:js": "tsc; browserify --debug js/client/main.js -o dist/main.js",
+    "build:css": "compass compile",
+    "rebuild": "npm run clean; npm run build",
+    "minify": "uglifyjs --compress --mangle --screw-ie8 -o dist/main.js -- dist/main.js",
+    "minify:debug": "uglifyjs --compress --mangle --screw-ie8 --in-source-map dist/main.js.map --source-map dist/main.js.map -o dist/main.js -- dist/main.js",
+    "watch": "gulp watch",
+    "watch:css": "compass watch",
+    "watch:ts": "tsc -w",
+    "watch:js": "watchify js/client/main.js -o dist/main.js -v",
+    "parser": "./node_modules/.bin/jison parser/parser.jison -o parser/parser.js -m commonjs",
+    "loc": "find ./ts -name '*.ts' -not -name '*.d.ts' | xargs wc -l | tail -1 | awk '{print $1}'",
+    "lint": "gulp tslint",
+    "run": "npm run build; npm run start",
+    "start": "./node_modules/.bin/electron ."
+  },
+  "browserify-shim": {
+    "three": "global:THREE"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "browserify-shim": "^3.8.10",
+    "chalk": "^1.1.1",
+    "del": "^1.1.0",
+    "electron-prebuilt": "^0.33.6",
+    "gulp": "^3.8.10",
+    "gulp-tslint": "^3.4.0",
+    "jison": "^0.4.15",
+    "node-spawn": "0.0.7",
+    "pinkyswear": "^2.2.2",
+    "randomcolor": "^0.4.0",
+    "tsify": "^0.12.2",
+    "tslint": "^2.5.1",
+    "uglify-js": "^2.5.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.4.0"
+  },
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "three-orbit-controls": "^71.1.0"
+  },
+  "_librariesioMetadata": {
+    "full_name": "chances/Animatum-Infinitas",
+    "description": "A web application providing a cross-platform solution for animating RCT3 custom scenery.",
+    "fork": false,
+    "created_at": "2015-10-09T00:25:24.000Z",
+    "updated_at": "2016-05-27T16:20:18.553Z",
+    "pushed_at": "2015-10-30T21:45:59.000Z",
+    "homepage": null,
+    "size": 700,
+    "stargazers_count": 0,
+    "language": "TypeScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 2,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 43923531,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-27T16:20:18.532Z",
+    "rank": null
+  }
+}

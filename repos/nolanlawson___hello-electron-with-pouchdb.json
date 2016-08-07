@@ -1,38 +1,37 @@
 {
-  "name": "hello-app",
-  "version": "0.1.0",
+  "name": "hello-electron-with-pouchdb",
+  "version": "1.0.0",
+  "description": "A minimal Electron application, with PouchDB",
   "main": "main.js",
-  "repository": "https://github.com/nolanlawson/hello-electron-with-pouchdb.git",
-  "license": "Apache",
-  "dependencies": {
-    "pouchdb": "5.3.1"
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "bash postinstall.sh"
   },
   "devDependencies": {
-    "electron-prebuilt": "0.36.10"
+    "electron-prebuilt": "^1.2.0"
   },
-  "scripts": {
-    "postinstall": "cd node_modules/leveldown && HOME=~/.electron-gyp node-gyp rebuild --target=0.36.10 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
-    "start": "electron ."
+  "dependencies": {
+    "pouchdb": "^5.4.5"
   },
   "_librariesioMetadata": {
     "full_name": "nolanlawson/hello-electron-with-pouchdb",
     "description": "Electron \"hello world\" with PouchDB",
     "fork": true,
     "created_at": "2014-09-06T16:00:49.000Z",
-    "updated_at": "2016-07-31T05:57:44.396Z",
-    "pushed_at": "2016-03-09T04:50:35.000Z",
+    "updated_at": "2016-08-07T00:16:08.000Z",
+    "pushed_at": "2016-08-07T01:25:34.000Z",
     "homepage": "",
-    "size": 228,
-    "stargazers_count": 29,
+    "size": 229,
+    "stargazers_count": 33,
     "language": "JavaScript",
-    "has_issues": false,
+    "has_issues": true,
     "has_wiki": true,
     "has_pages": false,
-    "forks_count": 3,
+    "forks_count": 5,
     "mirror_url": null,
-    "open_issues_count": 0,
+    "open_issues_count": 1,
     "default_branch": "master",
-    "subscribers_count": 3,
+    "subscribers_count": 4,
     "github_id": 23738477,
     "source_name": "dougnukem/hello-atom",
     "license": null,

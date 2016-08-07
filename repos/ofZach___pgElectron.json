@@ -1,0 +1,75 @@
+{
+  "name": "projectGenerator",
+  "productName": "projectGenerator",
+  "version": "0.0.1",
+  "description": "repo for testing a gui using electron for the project generator",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "openframeworks/pgelectron",
+  "author": {
+    "name": "zach lieberman",
+    "email": "?",
+    "url": "openframeworks.cc"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . $npm_package_productName --icon=icon/of.icns --out=dist --ignore='dist' --ignore='readme.md' --prune --all --overwrite --version=0.30.0"
+  },
+  "files": [
+    "index.html",
+    "js/*",
+    "css/*",
+    "app/*",
+    "data/*"
+  ],
+  "keywords": [
+    "electron-app"
+  ],
+  "dependencies": {
+    "electron-debug": "^0.1.1",
+    "moniker": "^0.1.2",
+    "walk": "^2.3.9"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.30.0"
+  },
+  "_librariesioMetadata": {
+    "full_name": "ofZach/pgElectron",
+    "description": "repo for testing a gui using electron for the project generator ",
+    "fork": false,
+    "created_at": "2015-08-18T14:49:14.000Z",
+    "updated_at": "2016-05-27T15:18:20.041Z",
+    "pushed_at": "2015-09-09T12:09:27.000Z",
+    "homepage": null,
+    "size": 6548,
+    "stargazers_count": 7,
+    "language": "CSS",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 3,
+    "mirror_url": null,
+    "open_issues_count": 15,
+    "default_branch": "master",
+    "subscribers_count": 3,
+    "github_id": 40977873,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 5,
+    "has_readme": "readme.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "license",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-27T15:18:20.003Z",
+    "rank": null
+  }
+}

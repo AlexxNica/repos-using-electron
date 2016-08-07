@@ -1,0 +1,108 @@
+{
+  "name": "unofficial-desktop-for-ynab",
+  "productName": "Unofficial Desktop for YNAB",
+  "author": "Open Source Community",
+  "version": "0.1.0",
+  "description": "A desktop wrapper for YNAB",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ./app",
+    "debug": "electron --debug=5858 ./app",
+    "node-debugger": "ELECTRON_RUN_AS_NODE=true electron node_modules/node-inspector/bin/inspector.js",
+    "postinstall": "install-app-deps",
+    "pack": "build --dir",
+    "dist": "build",
+    "dist-mac": "build -m --publish onTagOrDraft",
+    "dist-lin-win": "build -lw --publish onTagOrDraft",
+    "clean": "rm -rf dist"
+  },
+  "build": {
+    "appId": "com.toolkit-for-ynab.unofficial-desktop-for-ynab",
+    "app-category-type": "public.app-category.finance",
+    "fileAssociations": [
+      {
+        "ext": "qif",
+        "name": "Quicken Interchange Format"
+      },
+      {
+        "ext": "ofx",
+        "name": "Open Financial Exchange"
+      },
+      {
+        "ext": "csv",
+        "name": "Comma Separated Values"
+      }
+    ],
+    "extend-info": "./build/Add-Info.plist",
+    "dmg": {
+      "contents": [
+        {
+          "x": 410,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 130,
+          "y": 150,
+          "type": "file"
+        }
+      ]
+    },
+    "linux": {
+      "target": [
+        "deb",
+        "AppImage"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toolkit-for-ynab/unofficial-desktop-for-ynab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/toolkit-for-ynab/unofficial-desktop-for-ynab/issues"
+  },
+  "devDependencies": {
+    "electron-builder": "next",
+    "electron-prebuilt": "^1.2.0"
+  },
+  "dependencies": {
+    "yauzl": "^2.6.0"
+  },
+  "_librariesioMetadata": {
+    "full_name": "toolkit-for-ynab/unofficial-desktop-for-ynab",
+    "description": "Unofficial Desktop Wrapper for YNAB using Electron",
+    "fork": false,
+    "created_at": "2016-07-21T12:22:59.000Z",
+    "updated_at": "2016-08-05T02:42:22.000Z",
+    "pushed_at": "2016-08-04T11:43:27.000Z",
+    "homepage": "",
+    "size": 668,
+    "stargazers_count": 5,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": false,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 1,
+    "default_branch": "master",
+    "subscribers_count": 2,
+    "github_id": 63867083,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-07-23T06:52:09.083Z",
+    "rank": null
+  }
+}

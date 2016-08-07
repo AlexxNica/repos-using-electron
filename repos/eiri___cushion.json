@@ -1,0 +1,83 @@
+{
+  "name": "cushion",
+  "productName": "Cushion",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "jdenticon": "^1.3.2",
+    "js-md5": "^0.4.0",
+    "lodash": "^4.6.1",
+    "material-ui": "^0.14.4",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-json-inspector": "^6.1.3",
+    "react-split-pane": "^0.1.25",
+    "react-tap-event-plugin": "^0.2.2",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.2.1",
+    "electron-prebuilt": "^0.37.2"
+  },
+  "engines": {
+    "node": ">=5.9.1"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . $npm_package_productName --out=dist --ignore=dist --prune --asar --icon pillow.icns --platform=darwin --arch=x64 --version=0.37.2"
+  },
+  "files": [
+    "main.js",
+    "app/index.html",
+    "app/index.css"
+  ],
+  "keywords": [
+    "electron-app"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eiri/cushion.git"
+  },
+  "author": "Eric Avdey <eiri@eiri.ca>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/eiri/cushion/issues"
+  },
+  "homepage": "https://github.com/eiri/cushion#readme",
+  "_librariesioMetadata": {
+    "full_name": "eiri/cushion",
+    "description": "",
+    "fork": false,
+    "created_at": "2015-08-17T23:38:59.000Z",
+    "updated_at": "2016-03-27T17:24:23.000Z",
+    "pushed_at": "2016-04-17T23:31:16.000Z",
+    "homepage": null,
+    "size": 80,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": false,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 6,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 40937424,
+    "source_name": null,
+    "license": "Apache-2.0",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

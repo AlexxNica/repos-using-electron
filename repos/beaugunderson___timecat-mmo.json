@@ -1,0 +1,74 @@
+{
+  "name": "timecat-mmo",
+  "version": "1.0.0",
+  "description": "Massively Multiplayer Multicast Timecat: Battle Edition",
+  "main": "timecat-mmo.js",
+  "scripts": {
+    "preinstall": "(! uname -a | grep Darwin) && exit 0; [ -f ~/.electron/electron-v0.27.3-darwin-x64.zip ] && exit 0; npm install mkdirp nugget && mkdirp ~/.electron && nugget http://ferdinand.local:8000/electron-v0.27.3-darwin-x64.zip -d ~/.electron",
+    "start": "electron timecat-mmo.js 2>&1 | silence-chromium"
+  },
+  "keywords": [
+    "timecat",
+    "mmo"
+  ],
+  "author": "Beau Gunderson <beau@beaugunderson.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cat-names": "^1.0.2",
+    "cuid": "^1.2.5",
+    "debug": "^2.2.0",
+    "electron-prebuilt": "^0.27.3",
+    "end-of-stream": "^1.1.0",
+    "jquery": "^2.1.4",
+    "lodash": "^3.9.3",
+    "mdns-swarm": "^5.1.0",
+    "ndjson": "^1.3.0",
+    "silence-chromium": "^2.0.0",
+    "through2": "^2.0.0",
+    "uuid": "^2.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beaugunderson/timecat-mmo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/beaugunderson/timecat-mmo/issues"
+  },
+  "homepage": "https://github.com/beaugunderson/timecat-mmo#readme",
+  "_librariesioMetadata": {
+    "full_name": "beaugunderson/timecat-mmo",
+    "description": "timecat, but an MMO",
+    "fork": false,
+    "created_at": "2015-06-13T01:15:21.000Z",
+    "updated_at": "2015-09-07T07:51:48.906Z",
+    "pushed_at": "2015-06-14T18:00:48.000Z",
+    "homepage": "",
+    "size": 144,
+    "stargazers_count": 7,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 1,
+    "default_branch": "master",
+    "subscribers_count": 3,
+    "github_id": 37352422,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 2,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

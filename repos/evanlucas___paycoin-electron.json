@@ -1,0 +1,80 @@
+{
+  "name": "paycoin-electron",
+  "version": "1.0.0",
+  "description": "Paycoin wallet using electron",
+  "main": "index.js",
+  "dependencies": {
+    "argsplit": "~1.0.1",
+    "bitcoin": "~2.3.0",
+    "crypto-dir": "~1.0.1",
+    "delegate-dom": "0.0.1",
+    "electron-prebuilt": "~0.25.3-2",
+    "inherits": "~2.0.1",
+    "jade": "~1.9.2",
+    "mkdirp": "~0.5.0",
+    "nopt": "~3.0.1",
+    "object-to-argv": "~1.1.0",
+    "read-boost-config": "~1.0.1",
+    "silence-chromium": "~2.0.0",
+    "virtual-dom": "~2.0.1"
+  },
+  "devDependencies": {
+    "asar": "~0.6.1",
+    "electron-packager": "~4.0.2"
+  },
+  "scripts": {
+    "build": "jade views/index.jade",
+    "start": "electron .",
+    "package-osx": "electron-packager . Paycoin --platform=darwin --arch=x64 --version=0.26.0 --icon resources/paycoin.icns --app-bundle-id=com.evanlucas.paycoin --prune --protocol='paycoin' --protocol-name='Paycoin Transaction Protocol'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:evanlucas/paycoin-electron"
+  },
+  "keywords": [
+    "paycoin",
+    "xpy"
+  ],
+  "author": "Evan Lucas <evanlucas@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evanlucas/paycoin-electron/issues"
+  },
+  "homepage": "https://github.com/evanlucas/paycoin-electron",
+  "_librariesioMetadata": {
+    "full_name": "evanlucas/paycoin-electron",
+    "description": "Paycoin wallet using Electron",
+    "fork": false,
+    "created_at": "2015-05-12T21:47:48.000Z",
+    "updated_at": "2016-01-02T02:51:58.516Z",
+    "pushed_at": "2015-07-17T01:04:12.000Z",
+    "homepage": null,
+    "size": 16810,
+    "stargazers_count": 3,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 5,
+    "mirror_url": null,
+    "open_issues_count": 9,
+    "default_branch": "master",
+    "subscribers_count": 2,
+    "github_id": 35514308,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

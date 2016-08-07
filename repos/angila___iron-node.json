@@ -1,0 +1,71 @@
+{
+  "name": "iron-node",
+  "version": "1.2.16",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "iron-node": "./bin/run.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "mocha",
+    "dev": "node_modules/.bin/electron ./app",
+    "bump": "npm version patch && git push && git push --tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-a/iron-node.git"
+  },
+  "author": "Stephan Ahlf <stephan.ahlf@gmail.com> (https://github.com/s-a)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-a/iron-node/issues"
+  },
+  "homepage": "https://github.com/s-a/iron-node#readme",
+  "dependencies": {
+    "electron-prebuilt": "^0.30.2",
+    "markdown": "^0.5.0",
+    "open": "0.0.5",
+    "semver": "^5.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.2",
+    "jshint": "^2.8.0"
+  },
+  "_librariesioMetadata": {
+    "full_name": "angila/iron-node",
+    "description": "Debug Node.js code with Chrome Developer Tools.",
+    "fork": true,
+    "created_at": "2015-07-30T18:20:21.000Z",
+    "updated_at": "2016-04-02T10:34:57.204Z",
+    "pushed_at": "2015-07-30T13:26:22.000Z",
+    "homepage": "http://s-a.github.io/iron-node/",
+    "size": 4149,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 0,
+    "github_id": 39965681,
+    "source_name": "s-a/iron-node",
+    "license": "Other",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": "CONTRIBUTING.md",
+    "has_license": "LICENSE.md",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

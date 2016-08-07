@@ -1,0 +1,76 @@
+{
+  "name": "gief",
+  "productName": "Gief!",
+  "version": "0.1.0",
+  "description": "All your favourite gifs in the menu bar",
+  "author": {
+    "name": "Patrik Affentranger",
+    "email": "hello@patrikaffentranger.me",
+    "url": "http://patrikaffentranger.me"
+  },
+  "engines": {
+    "node": ">=4.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pzi/gief"
+  },
+  "bugs": "https://github.com/pzi/gief/issues",
+  "homepage": "https://github.com/pzi/gief",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "build": "electron-packager . Gief --platform=darwin --arch=x64 --version=1.2.2 --icon=Icon.icns",
+    "start": "electron --js-flags=\"--harmony\" .",
+    "test": "standard"
+  },
+  "keywords": [
+    "gif",
+    "menubar"
+  ],
+  "license": "WTFPL",
+  "dependencies": {
+    "debounce": "^1.0.0",
+    "menubar": "^4.1.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.0.3",
+    "electron-prebuilt": "^1.2.2",
+    "standard": "^7.1.2"
+  },
+  "_librariesioMetadata": {
+    "full_name": "pzi/gief",
+    "description": "All your favourite gifs in the menubar",
+    "fork": false,
+    "created_at": "2015-10-29T16:20:00.000Z",
+    "updated_at": "2016-02-23T15:10:02.000Z",
+    "pushed_at": "2016-07-27T20:12:32.000Z",
+    "homepage": "",
+    "size": 37,
+    "stargazers_count": 1,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 2,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 45195430,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-06-08T10:27:43.952Z",
+    "rank": null
+  }
+}

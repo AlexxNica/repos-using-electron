@@ -1,0 +1,77 @@
+{
+  "name": "betwixt",
+  "version": "0.0.0",
+  "description": "Web Debugging Proxy based on Chrome DevTools Network panel",
+  "main": "main.js",
+  "scripts": {
+    "build": "npm run build:custom -- --platform=all --arch=all",
+    "build:custom": "electron-packager ./ Betwixt --overwrite --ignore ./bin/ --out ./bin/ --version=0.35.0",
+    "build:linux": "npm run build:custom -- --platform=linux --arch=all",
+    "build:osx": "npm run build:custom -- --platform=darwin --arch=x64",
+    "build:win": "npm run build:custom -- --platform=win32 --arch=all",
+    "start": "electron main.js",
+    "test": "jshint main.js lib/ && jscs main.js lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdzwinel/betwixt.git"
+  },
+  "keywords": [
+    "traffic",
+    "proxy"
+  ],
+  "author": "Konrad Dzwinel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kdzwinel/betwixt/issues"
+  },
+  "homepage": "https://github.com/kdzwinel/betwixt",
+  "dependencies": {
+    "agentkeepalive": "^2.0.3",
+    "http-proxy": "^1.12.0",
+    "istextorbinary": "^1.0.2",
+    "chalk": "^1.1.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.1.1",
+    "electron-prebuilt": "^0.34.0",
+    "jscs": "^2.6.0",
+    "jshint": "^2.8.0"
+  },
+  "engine": "node >= 5.0.0",
+  "_librariesioMetadata": {
+    "full_name": "cybernetics/betwixt",
+    "description": ":zap: Web Debugging Proxy based on Chrome DevTools Network panel.",
+    "fork": true,
+    "created_at": "2016-02-05T23:54:25.000Z",
+    "updated_at": "2016-02-14T23:13:30.565Z",
+    "pushed_at": "2015-12-29T12:39:04.000Z",
+    "homepage": "",
+    "size": 1865,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 51181650,
+    "source_name": "kdzwinel/betwixt",
+    "license": null,
+    "private": false,
+    "github_contributions_count": 3,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": "CONTRIBUTING.md",
+    "has_license": "LICENSE.md",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}

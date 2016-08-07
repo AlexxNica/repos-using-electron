@@ -1,0 +1,58 @@
+{
+  "name": "react-electron-carousel",
+  "version": "0.1.0",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anediaz/react-electron-carousel.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-preset-react": "^6.5.0",
+    "electron-prebuilt": "^0.34.1",
+    "nuka-carousel": "^1.0.2",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-slick": "^0.10.0"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/electron .",
+    "transpilate": "babel --presets react src --watch --out-dir build",
+    "build": "./node_modules/.bin/webpack"
+  },
+  "_librariesioMetadata": {
+    "full_name": "anediaz/react-electron-carousel",
+    "description": "First react-electron desktop application that displays a carousel",
+    "fork": false,
+    "created_at": "2016-02-23T21:24:46.000Z",
+    "updated_at": "2016-02-25T04:22:01.281Z",
+    "pushed_at": "2016-02-24T21:48:34.000Z",
+    "homepage": null,
+    "size": 4,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 52392707,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 0,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  }
+}
