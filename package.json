@@ -6,6 +6,7 @@
   "scripts": {
     "start": "npm run discover",
     "discover": "node discover.js",
+    "fill": "node fill.js",
     "test": "standard"
   },
   "keywords": [
@@ -21,6 +22,7 @@
     "github-url-to-object": "^2.2.3",
     "is-url": "^1.2.2",
     "limiter": "^1.1.0",
+    "lodash.sortby": "^4.6.1",
     "object-values": "^1.0.0",
     "path-exists": "^3.0.0",
     "pify": "^2.3.0",

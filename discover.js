@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 require('dotenv').load()
-require('shelljs/global')
 
 const fs = require('fs')
 const path = require('path')
