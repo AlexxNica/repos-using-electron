@@ -33,5 +33,54 @@
     "status": null,
     "last_synced_at": "2016-05-27T14:42:56.835Z",
     "rank": null
+  },
+  "name": "afm",
+  "productName": "afm",
+  "version": "0.0.1",
+  "description": "Default file manager replacment",
+  "license": "MIT",
+  "repository": "user/repo",
+  "author": {
+    "name": "Konstantin Azizov",
+    "email": "azizovkostya97@gmail.com",
+    "url": "https://github.com/G07cha"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "electronVersion": "0.33.0",
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "npm run build-linux && npm run build-osx && npm run build-win",
+    "build-linux": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --overwrite --prune --asar --arch=all --platform=linux --icon=./icon.icns --version=$npm_package_electronVersion",
+    "build-osx": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --overwrite --prune --asar --arch=all --platform=darwin --icon=./icon.icns --version=$npm_package_electronVersion",
+    "build-win": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --overwrite --prune --asar --arch=all --platform=win32 --icon=./icon.ico --version=$npm_package_electronVersion"
+  },
+  "keywords": [
+    "electron-app"
+  ],
+  "dependencies": {
+    "electron-debug": "^0.2.1",
+    "fs-jetpack": "^0.7.0",
+    "human-readable-time": "^0.2.1",
+    "jquery": "^2.1.4",
+    "pretty-bytes": "^2.0.1"
+  },
+  "devDependencies": {
+    "electron-connect": "^0.3.3",
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.33.0",
+    "electron-rebuild": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-inject": "^3.0.0",
+    "xo": "^0.9.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
   }
 }

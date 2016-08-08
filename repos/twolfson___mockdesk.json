@@ -33,5 +33,87 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "mockdesk",
+  "description": "Desktop application for creating mockups",
+  "version": "0.14.2",
+  "homepage": "https://github.com/twolfson/mockdesk",
+  "author": {
+    "name": "Todd Wolfson",
+    "email": "todd@twolfson.com",
+    "url": "http://twolfson.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twolfson/mockdesk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twolfson/mockdesk/issues"
+  },
+  "bin": {
+    "mockdesk": "bin/mockdesk.js"
+  },
+  "main": "lib/mockdesk",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "license": "Proprietary",
+  "scripts": {
+    "develop": "gulp develop",
+    "develop-test": "karma start",
+    "debug-repl": "rc /tmp/repl/mockdesk.sock",
+    "lint": "twolfson-style lint lib/ test/",
+    "start": "node bin/mockdesk.js",
+    "start-develop": "node bin/mockdesk.js --livereload",
+    "test": "npm run test-karma && npm run lint",
+    "test-karma": "karma start --single-run",
+    "test-visual-capture": "VISUAL_TESTS=CAPTURE npm test",
+    "test-visual-compare": "VISUAL_TESTS=COMPARE npm test && test/visual-tests/compare.sh",
+    "test-windows": "npm run test-karma"
+  },
+  "dependencies": {
+    "classnames": "~2.2.3",
+    "commander": "~2.9.0",
+    "delegate": "~3.0.1",
+    "domo": "~0.5.9",
+    "draggabilly": "~2.1.0",
+    "electron-prebuilt": "~0.36.8",
+    "immutable": "~3.7.6",
+    "replify": "~1.2.0",
+    "underscore": "~1.8.3",
+    "winston": "~2.1.1"
+  },
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "foundry": "~4.0.3",
+    "foundry-release-git": "~2.0.2",
+    "foundry-release-npm": "~2.0.2",
+    "gulp": "~3.9.1",
+    "gulp-livereload": "~3.8.1",
+    "image-diff": "~1.5.1",
+    "jscs": "~1.7.3",
+    "jshint": "~2.5.10",
+    "karma": "~1.1.0",
+    "karma-electron": "~4.0.0",
+    "karma-mocha": "~0.2.2",
+    "mkdirp": "~0.5.1",
+    "mocha": "~2.4.5",
+    "repl-client": "~0.3.0",
+    "rimraf": "~2.5.2",
+    "simulant": "~0.2.0",
+    "tween.js": "~16.3.4",
+    "twolfson-style": "~1.6.0"
+  },
+  "keywords": [
+    "mock",
+    "desktop",
+    "mockup"
+  ],
+  "private": true,
+  "foundry": {
+    "releaseCommands": [
+      "foundry-release-git",
+      "foundry-release-npm"
+    ]
   }
 }

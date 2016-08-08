@@ -33,5 +33,40 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "appium-inspector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^0.25.1",
+    "electron-rebuild": "^0.2.2",
+    "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-run": "^1.6.8"
+  },
+  "dependencies": {
+    "angular": "^1.4.0",
+    "angular-animate": "^1.4.0",
+    "angular-aria": "^1.4.0",
+    "angular-file-upload": "^1.6.4",
+    "angular-material": "^0.9.7",
+    "angular-route": "^1.4.0",
+    "angular-tree-dnd": "^3.0.3",
+    "angular-treemendous": "^0.2.4",
+    "angular-ui-layout": "^1.0.5-requirejs",
+    "appium": "^1.4.1",
+    "async": "^1.2.0",
+    "javascript-state-machine": "^2.3.5",
+    "jquery": "^2.1.4",
+    "ng-file-upload": "^5.0.1",
+    "touch": "0.0.3",
+    "xml2js": "^0.4.9"
   }
 }

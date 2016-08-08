@@ -33,5 +33,40 @@
     "status": null,
     "last_synced_at": "2016-04-11T06:03:04.405Z",
     "rank": null
+  },
+  "name": "TaskTray",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "package": "electron-packager . --platform=darwin --arch=x64 --overwrite --icon=pomo\\.icns"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celador/tasktray.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "git+https://github.com/celador/tasktray/issues"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  },
+  "dependencies": {
+    "electron-debug": "^0.6.0",
+    "lame": "^1.2.3",
+    "moment": "^2.12.0",
+    "player": "^0.6.1",
+    "request": "^2.69.0",
+    "request-promise": "^2.0.1",
+    "speaker": "^0.3.0"
   }
 }

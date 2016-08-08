@@ -33,5 +33,34 @@
     "status": null,
     "last_synced_at": "2016-06-26T11:26:08.484Z",
     "rank": null
+  },
+  "name": "devapps",
+  "version": "0.0.3",
+  "description": "List of developer apps",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . DevApps --platform=darwin --arch=x64 --ignore=node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kocisov/devapps.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Electron",
+    "Node",
+    "Dev",
+    "Apps"
+  ],
+  "author": "kocisov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kocisov/devapps/issues"
+  },
+  "homepage": "https://github.com/kocisov/devapps#readme",
+  "devDependencies": {
+    "electron-packager": "^7.1.0",
+    "electron-prebuilt": "^1.2.5"
   }
 }

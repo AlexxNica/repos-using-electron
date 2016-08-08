@@ -33,5 +33,38 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "github-garden",
+  "version": "0.0.1",
+  "description": "A viewer for current own grass color",
+  "engines": {
+    "node": "6.2.0"
+  },
+  "main": "main.js",
+  "scripts": {
+    "start": "$(npm bin)/electron .",
+    "build": "$(npm bin)/electron-packager . github-garden --out dist --platform=darwin --arch=x64 --version=1.2.1 --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https@github.com:skohar/github-garden.git"
+  },
+  "author": "skohar",
+  "bugs": {
+    "url": "https://github.com/skohar/github-garden/issues"
+  },
+  "homepage": "https://github.com/skohar/github-garden#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.9.1",
+    "electron-packager": "^7.0.3",
+    "jquery": "^2.1.4",
+    "menubar": "^4.1.1",
+    "moment": "^2.10.6",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-timer-mixin": "^0.13.3"
   }
 }

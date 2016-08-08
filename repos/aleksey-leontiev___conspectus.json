@@ -33,5 +33,33 @@
     "status": null,
     "last_synced_at": "2016-07-08T16:25:18.960Z",
     "rank": null
+  },
+  "name": "conspectus",
+  "version": "0.0.1",
+  "description": "Note taking app with spaced repetition",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksey-leontiev/conspectus.git"
+  },
+  "keywords": [
+    "notes",
+    "srs",
+    "student",
+    "learn"
+  ],
+  "author": "Aleksey Leontiev",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/aleksey-leontiev/conspectus/issues"
+  },
+  "homepage": "https://github.com/aleksey-leontiev/conspectus#readme",
+  "dependencies": {
+    "electron-is-dev": "^0.1.1",
+    "electron-prebuilt": "^1.2.2"
   }
 }

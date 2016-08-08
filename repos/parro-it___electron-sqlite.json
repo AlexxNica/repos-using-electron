@@ -33,5 +33,81 @@
     "status": null,
     "last_synced_at": "2016-04-14T10:01:13.361Z",
     "rank": null
+  },
+  "name": "electron-sqlite",
+  "version": "0.0.1",
+  "description": "",
+  "repository": "parro-it/electron-sqlite",
+  "license": "MIT",
+  "author": "parro-it",
+  "scripts": {
+    "test": "node test | faucet && eslint .",
+    "start": "electron index.js"
+  },
+  "keywords": [],
+  "babel": {
+    "presets": [
+      "node5",
+      "react"
+    ],
+    "plugins": [
+      "transform-async-to-generator",
+      "syntax-async-functions"
+    ]
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": [
+      "js"
+    ],
+    "env": {
+      "es6": true
+    },
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaVersion": 6,
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "plugins": [
+      "react"
+    ],
+    "rules": {
+      "react/jsx-uses-react": 1,
+      "react/jsx-uses-vars": 1
+    }
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-eslint": "^6.0.0",
+    "babel-plugin-syntax-async-functions": "^6.5.0",
+    "babel-plugin-transform-async-to-generator": "^6.7.4",
+    "babel-preset-node5": "^11.0.1",
+    "babel-preset-react": "^6.5.0",
+    "babel-register": "^6.5.2",
+    "electron-prebuilt": "^0.37.2",
+    "eslint": "^2.5.3",
+    "eslint-config-js": "^5.0.0",
+    "eslint-plugin-react": "^4.2.3",
+    "faucet": "0.0.1",
+    "tape-async": "^2.1.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "debug": "^2.2.0",
+    "electron-window": "^0.6.2",
+    "photon": "github:connors/photon",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-redux": "^4.2.1",
+    "redux": "^3.2.1",
+    "redux-form": "^4.2.0",
+    "redux-submitform-onchange": "^0.2.0",
+    "redux-thunk": "^1.0.3",
+    "sqlite": "0.0.4",
+    "sqlite3": "^3.1.2"
   }
 }

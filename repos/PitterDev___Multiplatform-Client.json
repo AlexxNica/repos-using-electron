@@ -33,5 +33,25 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
-  }
+  },
+  "name": "pitter-nodejs-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "electron-prebuilt": "^0.33.3",
+    "fs": "^0.0.2",
+    "http": "^0.0.0",
+    "jquery": "^2.1.4",
+    "menubar": "^2.2.1",
+    "request": "^2.64.0"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.33.3"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC"
 }

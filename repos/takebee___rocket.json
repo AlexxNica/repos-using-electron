@@ -33,5 +33,44 @@
     "status": null,
     "last_synced_at": "2016-05-28T04:22:59.540Z",
     "rank": null
+  },
+  "name": "rocket",
+  "productName": "Rocket",
+  "version": "1.0.0-beta",
+  "description": "A hackable web browser",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "webpack && webpack-dev-server",
+    "electron-rebuild": "electron-rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takebee/rocket.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takebee/rocket/issues"
+  },
+  "homepage": "https://github.com/takebee/rocket#readme",
+  "dependencies": {
+    "electron-prebuilt": "^0.37.6",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.7.7",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "electron-packager": "^7.0.0",
+    "electron-rebuild": "^1.1.3",
+    "node-libs-browser": "^1.0.0",
+    "node-sass": "^3.5.1",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
   }
 }

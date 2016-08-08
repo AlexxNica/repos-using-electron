@@ -33,5 +33,48 @@
     "status": null,
     "last_synced_at": "2016-05-04T09:24:28.521Z",
     "rank": null
+  },
+  "name": "react-pan-zoom-element",
+  "version": "2.0.1",
+  "description": "React element that allows panning and zooming of child elements.",
+  "main": "build/index.js",
+  "files": "build",
+  "scripts": {
+    "prepublish": "gulp dist",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nathanial/react-pan-zoom-element.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathanial/react-pan-zoom-element/issues"
+  },
+  "homepage": "http://nathanial.github.io/react-pan-zoom-element/",
+  "devDependencies": {
+    "electron-connect": "^0.3.3",
+    "electron-prebuilt": "0.34.2",
+    "gulp": "3.9.0",
+    "gulp-babel": "5.2.0",
+    "gulp-less": "3.0.3",
+    "gulp-preprocess": "^2.0.0",
+    "gulp-sourcemaps": "1.5.2",
+    "gulp-useref": "^3.0.4",
+    "gulp-util": "3.0.6",
+    "gulp-watch": "4.3.4",
+    "merge-stream": "^1.0.0",
+    "react": "0.14.2",
+    "react-dom": "0.14.2",
+    "require-dir": "0.3.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "dependencies": {
+    "react-es6-component": "*",
+    "centered-pan-zoom": "2.0.0"
   }
 }

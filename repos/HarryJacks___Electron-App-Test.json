@@ -33,5 +33,26 @@
     "status": null,
     "last_synced_at": "2016-06-11T23:01:51.255Z",
     "rank": null
-  }
+  },
+  "name": "connections",
+  "version": "1.0.0",
+  "description": "Store simple details quickly about your contacts.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "connections",
+    "contacts"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
+  },
+  "dependencies": {}
 }

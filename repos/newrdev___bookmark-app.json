@@ -33,5 +33,37 @@
     "status": null,
     "last_synced_at": "2016-04-19T14:03:53.312Z",
     "rank": null
+  },
+  "name": "bookmarking-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^2.4.2",
+    "jquery": "^2.2.3",
+    "semantic-ui": "^2.1.8",
+    "vue": "^1.0.21"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.5",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.7.5",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-runtime": "^5.8.38",
+    "css-loader": "^0.23.1",
+    "electron-prebuilt": "^0.37.5",
+    "vue-hot-reload-api": "^1.3.2",
+    "vue-html-loader": "^1.2.2",
+    "vue-loader": "^8.2.2",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
   }
 }

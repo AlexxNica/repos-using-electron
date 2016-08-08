@@ -33,5 +33,16 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "description": "A platformer game",
+  "main": "js/main.js",
+  "name": "Platformer",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "electron js/main.js"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.35.0",
+    "phaser": "latest"
   }
 }

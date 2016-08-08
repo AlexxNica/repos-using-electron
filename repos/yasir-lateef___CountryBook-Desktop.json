@@ -33,5 +33,21 @@
     "status": null,
     "last_synced_at": "2016-05-27T22:07:20.042Z",
     "rank": null
+  },
+  "name": "countrypedia_electron",
+  "version": "1.0.0",
+  "description": "Desktop App for CountryPedia, a simple encyclopedia for countries",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Yasir Lateef",
+  "license": "MIT",
+  "repository": "",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.5"
+  },
+  "dependencies": {
+    "http": "0.0.0"
   }
 }

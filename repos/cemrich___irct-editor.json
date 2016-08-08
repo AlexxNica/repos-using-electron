@@ -33,5 +33,21 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "irct-editor",
+  "version": "0.0.1",
+  "description": "Editor for irct files.",
+  "main": "js/main.js",
+  "scripts": {
+    "start-win": ".\\node_modules\\electron-prebuilt\\dist\\electron.exe .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christine Coenen",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt": "^0.30.0"
+  },
+  "dependencies": {
+    "moment": "^2.10.3"
   }
 }

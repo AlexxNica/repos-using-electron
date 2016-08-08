@@ -33,5 +33,23 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
-  }
+  },
+  "name": "Tracker",
+  "version": "0.0.0",
+  "description": "A Combat Tracker built on top of Atom Electron",
+  "author": "Anthony Porthouse <anthony@porthou.se>",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "electron-compile": "^0.9.2",
+    "electron-prebuilt": "^0.33.1",
+    "eslint": "^1.2.1",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "node-sass": "^3.2.0"
+  },
+  "private": true,
+  "license": "MIT"
 }

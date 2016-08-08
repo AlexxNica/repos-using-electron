@@ -33,5 +33,34 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "score-desktop",
+  "version": "1.0.0",
+  "description": "Score on real time to use on basketball leagues",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulomcnally/score-desktop"
+  },
+  "keywords": [
+    "electron",
+    "score",
+    "realtime"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/paulomcnally/score-desktop/issues"
+  },
+  "homepage": "https://github.com/paulomcnally/score-desktop#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  },
+  "dependencies": {
+    "express": "4.13.4",
+    "socket.io": "1.4.5"
   }
 }

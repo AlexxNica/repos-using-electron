@@ -33,5 +33,22 @@
     "status": null,
     "last_synced_at": "2016-05-28T03:41:04.820Z",
     "rank": null
+  },
+  "name": "PhotoBoard",
+  "version": "1.0.0",
+  "description": "A minimal photo board",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heidgera/photoBoard.git"
+  },
+  "author": "ajhg",
+  "license": "CC0-1.0",
+  "homepage": "https://github.com/heidgera/photoBoard#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.35.0"
   }
 }

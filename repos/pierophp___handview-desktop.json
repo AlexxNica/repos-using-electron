@@ -33,5 +33,50 @@
     "status": null,
     "last_synced_at": "2016-04-20T16:30:36.309Z",
     "rank": null
+  },
+  "name": "HandView",
+  "version": "1.0.1",
+  "description": "Cliente Desktop para o Hand View",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "npm install && electron ./app",
+    "clean": "rimraf dist",
+    "clean:osx": "rimraf dist/HandView-darwin-x64",
+    "clean:win": "rimraf dist/win",
+    "pack": "build",
+    "dist": "build",
+    "release": "build",
+    "dist:win64": "./node_modules/.bin/build --platform win32 --arch x64"
+  },
+  "devDependencies": {
+    "electron-builder": "^5.10.2",
+    "electron-prebuilt": "^1.2.5",
+    "rimraf": "^2.5.2"
+  },
+  "dependencies": {
+    "electron-window-manager": "^1.0.1"
+  },
+  "build": {
+    "appId": "org.handview",
+    "app-category-type": "public.app-category.graphics-design",
+    "iconUrl": "https://raw.githubusercontent.com/pierophp/handview-desktop/master/build/icon.ico",
+    "mac": {
+      "contents": [
+        {
+          "x": 410,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 130,
+          "y": 150,
+          "type": "file"
+        }
+      ]
+    },
+    "win": {
+      "msi": true
+    }
   }
 }

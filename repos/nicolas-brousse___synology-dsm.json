@@ -33,5 +33,23 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "dsm",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "standard",
+    "app": "electron ./",
+    "build": "electron-packager . 'DSM' --platform=darwin --arch=x64 --version=0.28.3 --ignore=node_modules/electron --icon='img/icon.png' --out='dist' --asar=true",
+    "publish": "publish-release --template notes.md --assets Monu.zip"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.33.3",
+    "grunt": "^0.4.5",
+    "grunt-build-atom-shell": "^2.1.1",
+    "grunt-cli": "^0.1.13",
+    "grunt-electron": "^1.0.0",
+    "load-grunt-tasks": "^3.2.0"
   }
 }

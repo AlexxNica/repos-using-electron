@@ -33,5 +33,21 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "fii-desktop",
+  "version": "0.0.0",
+  "description": "Simple desktop application.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron main.js"
+  },
+  "author": "Henrique Lopes",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "electron-prebuilt": "^0.36.8",
+    "sequelize": "^3.19.3",
+    "sqlite3": "^3.1.1"
   }
 }

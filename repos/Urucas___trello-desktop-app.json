@@ -33,5 +33,36 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "trello-desktop-app",
+  "version": "0.0.1",
+  "description": "Desktop app for trello in electron.js",
+  "main": "electron.js",
+  "scripts": {
+    "start": "./bin/cli"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urucas/trello-desktop-app.git"
+  },
+  "bin": {
+    "trello-desktop": "./bin/cli"
+  },
+  "keywords": [
+    "trello",
+    "tasks",
+    "electron",
+    "desktop",
+    "client"
+  ],
+  "author": "Urucas <hello@urucas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Urucas/trello-desktop-app/issues"
+  },
+  "homepage": "https://github.com/Urucas/trello-desktop-app#readme",
+  "dependencies": {
+    "electron-prebuilt": "^0.30.3"
   }
 }

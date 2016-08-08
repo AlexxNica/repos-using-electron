@@ -33,5 +33,38 @@
     "status": null,
     "last_synced_at": "2016-07-14T02:13:26.970Z",
     "rank": null
+  },
+  "name": "electron-seed",
+  "productName": "Electron Seed",
+  "version": "0.1.0",
+  "description": "Electron application starter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scatana/electron-seed.git"
+  },
+  "license": "MIT",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "npm run pack -- --platform=linux,darwin,win32",
+    "build:linux": "npm run pack -- --platform=linux",
+    "build:mac": "npm run pack -- --platform=darwin",
+    "build:windows": "npm run pack -- --platform=win32",
+    "extract-strings": "node ./bin/extract-strings -i src -o src/i18n/strings.pot",
+    "pack": "electron-packager .tmp --version=$npm_package_devDependencies_electronPrebuilt --out=dist --prune --overwrite --arch=x64 --asar",
+    "prepack": "npm install && node ./bin/preprocess -i src -o .tmp",
+    "postpack": "rm -rf .tmp",
+    "start": "DEBUG=1 electron ."
+  },
+  "devDependencies": {
+    "commander": "2.9.0",
+    "electron-packager": "7.3.0",
+    "electron-prebuilt": "1.2.6",
+    "fs-extra": "0.30.0",
+    "jsxgettext": "0.9.0"
+  },
+  "dependencies": {
+    "app-module-path": "1.1.0",
+    "node-gettext": "1.1.0",
+    "winston": "2.2.0"
   }
 }

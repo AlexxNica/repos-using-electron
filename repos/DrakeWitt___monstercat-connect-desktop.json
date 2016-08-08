@@ -33,5 +33,47 @@
     "status": null,
     "last_synced_at": "2016-07-15T05:50:03.742Z",
     "rank": null
+  },
+  "name": "monstercat-connect-deon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/main.js",
+  "scripts": {
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "author": "Drake Witt <dwitt@dranweb.com>",
+  "license": "MIT",
+  "build": {
+    "appId": "co.badkitty.connect-desktop",
+    "app-category-type": "public.app-category.music",
+    "mac": {
+      "icon": "assets/osx/mount.icns",
+      "icon-size": 80
+    },
+    "dmg": {
+      "icon": "assets/osx/mount.icns",
+      "title": "Monstercat Connect (Deon)",
+      "contents": [
+        {
+          "x": 338,
+          "y": 144,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 152,
+          "y": 144,
+          "type": "file"
+        }
+      ]
+    },
+    "win": {
+      "setupIcon": "assets/win/icon.ico",
+      "iconUrl": "assets/win/icon.ico"
+    }
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.7"
   }
 }

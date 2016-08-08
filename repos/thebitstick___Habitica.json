@@ -33,5 +33,18 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "Habitica",
+  "version": "1.0.0",
+  "description": "Electron app for Habitica",
+  "main": "index.js",
+  "repository": "https://git.thebitstick.xyz/thebitstick/Habitica.git",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.7"
   }
 }

@@ -33,5 +33,37 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "NodejsConsoleApp1",
+  "version": "0.0.0",
+  "description": "NodejsConsoleApp1",
+  "main": "boot.js",
+  "author": {
+    "name": "ip",
+    "email": ""
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-beta.8",
+    "bootstrap": "^3.3.4",
+    "electron-prebuilt": "^0.36.0",
+    "electron-proxy-agent": "^1.0.2",
+    "es6-promise": "^3.1.2",
+    "es6-shim": "^0.33.13",
+    "jasmine": "^2.4.1",
+    "jquery": "^2.1.4",
+    "ng2-bootstrap": "^1.0.5",
+    "path-extra": "^3.0.0",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.2",
+    "session": "^0.1.0",
+    "systemjs": "^0.19.23",
+    "typemoq": "0.0.6",
+    "underscore": "^1.8.3",
+    "xmlhttprequest": "1.7.0",
+    "zone.js": "^0.5.15"
+  },
+  "scripts": {
+    "start": "electron boot.js",
+    "test": "./node_modules/.bin/jasmine"
   }
 }

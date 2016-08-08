@@ -33,5 +33,24 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "doklet-electron",
+  "version": "1.0.0",
+  "description": "Desktop application for doklet",
+  "scripts": {
+    "start": "electron ./app Doklet",
+    "build": "electron-packager ./app Doklet --out=dist --ignore=dist --prune --platform=darwin --arch=x64 --version=0.36.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doklet/doklet_electron.git"
+  },
+  "author": "Marcus Nilsson",
+  "bugs": {
+    "url": "https://github.com/Doklet/doklet_electron/issues"
+  },
+  "homepage": "https://github.com/Doklet/doklet_electron#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
   }
 }

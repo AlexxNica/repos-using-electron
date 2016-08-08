@@ -33,5 +33,69 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "gite",
+  "version": "0.0.0",
+  "description": "An Electron app alternative to gitk",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "babel src/main.js --out-file lib/main.js; webpack",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "eslint ./ --ignore-pattern node_modules/ --ignore-pattern lib",
+    "start": "electron lib/main.js",
+    "test": "npm run lint && npm run compile && nyc ava"
+  },
+  "repository": "dustinspecker/gite",
+  "keywords": [],
+  "author": {
+    "name": "Dustin Specker",
+    "email": "DustinSpecker@DustinSpecker.com",
+    "url": "github.com/dustinspecker"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "deku": "^2.0.0-rc16",
+    "deku-prop-types": "^0.4.1",
+    "deku-prop-types-immutable": "^0.2.3",
+    "deku-redux-connect": "^0.1.8",
+    "dscript-deku": "^1.0.0",
+    "immutable": "^3.7.6",
+    "redux": "^3.3.1"
+  },
+  "devDependencies": {
+    "austin": "^0.1.1",
+    "ava": "^0.14.0",
+    "babel-cli": "^6.4.0",
+    "babel-eslint": "^6.0.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "coveralls": "^2.11.6",
+    "electron-prebuilt": "^0.37.3",
+    "eslint": "^2.4.0",
+    "eslint-config-dustinspecker": "^1.1.0",
+    "eslint-plugin-no-use-extend-native": "^0.3.1",
+    "eslint-plugin-xo": "^0.4.0",
+    "json-loader": "^0.5.4",
+    "nyc": "^6.1.1",
+    "proxyquire": "^1.7.4",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "ava": {
+    "files": [
+      "tests/**/*-test.js"
+    ],
+    "require": [
+      "babel-register"
+    ]
+  },
+  "nyc": {
+    "exclude": [
+      "tests"
+    ]
   }
 }

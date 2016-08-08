@@ -33,5 +33,43 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "@kpdecker/linoleum-electron",
+  "version": "1.0.0",
+  "description": "Shared javascript build and testing infrastructure",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpdecker/linoleum-electron.git"
+  },
+  "author": "Kevin Decker <kpdecker@gmail.com> (http://incaseofstairs.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kpdecker/linoleum-electron/issues"
+  },
+  "homepage": "https://github.com/kpdecker/linoleum-electron#readme",
+  "dependencies": {
+    "@kpdecker/linoleum-webpack": "^1.0.0",
+    "electron-prebuilt": "^0.35.4",
+    "gulp-util": "^3.0.6",
+    "istanbul": "kpdecker/istanbul",
+    "mkdirp": "^0.5.1",
+    "mocha": "^2.3.3",
+    "webpack": "^1.12.2"
+  },
+  "devDependencies": {
+    "@kpdecker/linoleum": "^1.0.1",
+    "chai": "^3.3.0",
+    "gulp": "^3.9.0",
+    "sinon": "^1.17.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@kpdecker/eslint-config-linoleum"
+    ],
+    "root": true
   }
 }

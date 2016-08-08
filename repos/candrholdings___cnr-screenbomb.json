@@ -33,5 +33,22 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "cnr-bomberman",
+  "version": "0.2.0",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/candrholdings/cnr-screenbomb.git"
+  },
+  "dependencies": {
+    "async": "^1.2.1",
+    "bluebird": "^3.1.1",
+    "electron-prebuilt": "^0.36.2",
+    "jquery": "^2.1.4",
+    "slack-client": "https://github.com/l12s/node-slack-client.git"
+  },
+  "scripts": {
+    "run": "node ./node_modules/electron-prebuilt/cli.js main.js"
   }
 }

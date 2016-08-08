@@ -33,5 +33,87 @@
     "status": null,
     "last_synced_at": "2016-07-14T21:01:28.773Z",
     "rank": null
+  },
+  "name": "tournamenter-app",
+  "author": {
+    "name": "Ivan Seidel",
+    "email": "ivan@tendadigital.net",
+    "url": "https://github.com/ivanseidel"
+  },
+  "productName": "Tournamenter",
+  "description": "Tournamenter Manager",
+  "homepage": "https://github.com/ivanseidel/TournamenterApp",
+  "repository": "https://github.com/ivanseidel/TournamenterApp",
+  "license": "MIT",
+  "version": "1.2.1",
+  "README": "none",
+  "engines": {
+    "node": "0.12.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "make test",
+    "start": "electron ./",
+    "postinstall": "bower install && bower-installer",
+    "pack": "build --dir",
+    "dist": "build",
+    "release": "build"
+  },
+  "build": {
+    "appId": "com.tournamenter",
+    "asar": false,
+    "app-category-type": "public.app-category.productivity",
+    "mac": {
+      "title": "Tournamenter Manager",
+      "target": [
+        "dmg"
+      ],
+      "icon-size": 120,
+      "icon": "build/icon.icns"
+    },
+    "dmg": {
+      "background": "build/background.png",
+      "contents": [
+        {
+          "x": 610,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 150,
+          "y": 150,
+          "type": "file"
+        }
+      ]
+    },
+    "win": {
+      "target": [
+        "squirrel"
+      ],
+      "iconUrl": "https://raw.githubusercontent.com/ivanseidel/TournamenterApp/master/build/icon.ico",
+      "icon": "build/icon.ico",
+      "msi": false
+    },
+    "linux": {
+      "description": "Tournamenter Manager App"
+    }
+  },
+  "dependencies": {
+    "async": "1.2.1",
+    "chalk": "^1.1.3",
+    "electron": "^0.4.1",
+    "forever-monitor": "^1.7.0",
+    "kerberos": "0.0.21",
+    "lodash": "^4.13.1",
+    "npm": "^3.10.5",
+    "tournamenter": "git+https://github.com/ivanseidel/Tournamenter.git"
+  },
+  "devDependencies": {
+    "bower": "latest",
+    "bower-installer": "latest",
+    "electron-builder": "^5.12.1",
+    "electron-prebuilt": "^1.2.6",
+    "rimraf": "^2.5.3"
   }
 }

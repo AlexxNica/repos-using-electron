@@ -33,5 +33,40 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "meld-launcher-electron",
+  "version": "0.0.1",
+  "description": "Select target by drag & drop and launch Meld (Electron version)",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "babelify": "browserify -t babelify src/jsx/index.jsx -o app/js/bundle.js",
+    "watchify": "watchify -t babelify src/jsx/index.jsx -o app/js/bundle.js -v",
+    "dist:mkdir": "mkdir -p dist",
+    "dist:package": "electron-packager . 'Meld Launcher Electron' --out=dist --ignore='dist|node_modules|resources|src' --icon=resources/icon/nw --platform=darwin --arch=x64 --version=0.32.3 --overwrite",
+    "dist": "npm run babelify && npm run dist:mkdir && npm run dist:package",
+    "clean": "rm -rf dist/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "meld",
+    "diff",
+    "react",
+    "electron"
+  ],
+  "author": "Umi Uyura",
+  "license": "MIT",
+  "dependencies": {
+    "material-ui": "^0.11.1",
+    "react": "^0.13.3",
+    "react-loading": "0.0.7",
+    "react-tap-event-plugin": "^0.1.7"
+  },
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.1.0",
+    "electron-packager": "^5.1.0",
+    "electron-prebuilt": "^0.32.3",
+    "watchify": "^3.4.0"
   }
 }

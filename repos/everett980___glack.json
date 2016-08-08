@@ -33,5 +33,36 @@
     "status": "Removed",
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/electron-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/atom/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/atom/electron-quick-start#readme",
+  "devDependencies": {
+    "electron-prebuilt": "=0.35.4"
+  },
+  "dependencies": {
+    "electron-prebuilt": "^0.36.5",
+    "github-api": "^0.10.7",
+    "superagent": "=1.5.0"
   }
 }

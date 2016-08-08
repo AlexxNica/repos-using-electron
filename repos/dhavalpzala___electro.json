@@ -33,5 +33,31 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "Electro",
+  "version": "0.0.1",
+  "description": "A MongoDB Administration App for Desktop based on Electron",
+  "main": "login.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveenpuglia/electro.git"
+  },
+  "author": "Praveen Puglia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/praveenpuglia/electro/issues"
+  },
+  "homepage": "https://github.com/praveenpuglia/electro#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.5",
+    "electron-prebuilt": "^0.30.2"
+  },
+  "dependencies": {
+    "mongodb": "^2.0.39",
+    "vue": "^0.12.9"
   }
 }

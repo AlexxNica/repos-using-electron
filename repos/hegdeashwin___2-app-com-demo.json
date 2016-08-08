@@ -33,5 +33,32 @@
     "status": null,
     "last_synced_at": "2016-07-09T03:03:12.768Z",
     "rank": null
+  },
+  "name": "2-app-com-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "./node_modules/.bin/electron server/server.js",
+    "client": "./node_modules/.bin/electron client/client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hegdeashwin/2-app-com-demo.git"
+  },
+  "author": "Ashwin Hegde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hegdeashwin/2-app-com-demo/issues"
+  },
+  "homepage": "https://github.com/hegdeashwin/2-app-com-demo#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.6"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3",
+    "socket.io": "^1.4.8",
+    "socket.io-client": "^1.4.8"
   }
 }

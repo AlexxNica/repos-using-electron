@@ -33,5 +33,37 @@
     "status": null,
     "last_synced_at": "2016-04-19T00:28:36.577Z",
     "rank": null
+  },
+  "name": "tetu",
+  "version": "0.1.0",
+  "description": "cross platform secure chat and file sharing",
+  "main": "src/main.js",
+  "license": "unlicense",
+  "private": true,
+  "author": "TetuSecurity",
+  "sripts": {
+    "build": "gulp",
+    "start": "node app.js",
+    "post-install": "bower install"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.2",
+    "gulp": "^3.9.1",
+    "gulp-bower": "^0.0.13",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-electron": "^0.0.10",
+    "gulp-install": "^0.6.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-ng-annotate": "^1.1.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-uncss": "^1.0.4",
+    "gulp-usemin": "^0.3.21",
+    "jshint": "^2.9.1"
+  },
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "keypair": "^1.0.0",
+    "node-uuid": "^1.4.7",
+    "socket.io-client": "^1.4.0"
   }
 }

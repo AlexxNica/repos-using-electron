@@ -33,5 +33,29 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "my-youtube",
+  "version": "1.0.0",
+  "description": "Youtube app made with electron js",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rntdrts/my-youtube.git"
+  },
+  "keywords": [
+    "youtube"
+  ],
+  "author": "Renato Duarte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rntdrts/my-youtube/issues"
+  },
+  "homepage": "https://github.com/rntdrts/my-youtube#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.9"
   }
 }

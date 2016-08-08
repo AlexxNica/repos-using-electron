@@ -33,5 +33,22 @@
     "status": null,
     "last_synced_at": "2016-04-29T22:48:39.528Z",
     "rank": null
+  },
+  "name": "dvrpc-converter",
+  "version": "0.1.0",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron .",
+    "epack": "electron-packager ./ --platform=win32 --arch=ia32 --out=distribution --overwrite --icon=./app/img/icons/convert-icon.ico"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.0.1",
+    "electron-prebuilt": "^0.30.3"
+  },
+  "dependencies": {
+    "fs-extra": "*",
+    "imagesloaded": "^4.1.0",
+    "masonry-layout": "^4.1.0",
+    "pdf2png": "*"
   }
 }

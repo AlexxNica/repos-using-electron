@@ -33,5 +33,32 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
-  }
+  },
+  "name": "electron-sugoiyatsu",
+  "version": "0.1.0",
+  "description": "sugoiyatsu",
+  "main": "init.js",
+  "dependencies": {
+    "electron-compile": "^1.0.0"
+  },
+  "devDependencies": {
+    "electron-compilers": "^1.0.0",
+    "electron-packager": "^5.1.0",
+    "electron-prebuilt": "^0.36.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . electron-sugoiyatsu --platform=win32 --arch=all --version=0.33.0 --overwrite --out=build --asar",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utgw/electron-sugoiyatsu.git"
+  },
+  "author": "utgwkk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/utgw/electron-sugoiyatsu/issues"
+  },
+  "homepage": "https://github.com/utgw/electron-sugoiyatsu#readme"
 }

@@ -33,5 +33,39 @@
     "status": null,
     "last_synced_at": "2016-05-27T13:40:29.706Z",
     "rank": null
+  },
+  "name": "AISTT",
+  "version": "0.1.0",
+  "description": "Android Ios String Translation Tool",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eefret/AISTT.git"
+  },
+  "keywords": [
+    "Electron",
+    "Android",
+    "ios",
+    "String",
+    "Translation",
+    "Tool"
+  ],
+  "author": "Christopher T. Herrera(eefretsoul@gmail.com), Cristian Gomez(cjgm23@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eefret/AISTT/issues"
+  },
+  "homepage": "https://github.com/eefret/AISTT",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.0",
+    "angular": "^1.5.3",
+    "bootstrap": "^3.3.6",
+    "grunt": "^1.0.0",
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-nodeunit": "~1.0.0",
+    "grunt-contrib-uglify": "~1.0.1"
   }
 }

@@ -33,5 +33,18 @@
     "status": null,
     "last_synced_at": "2016-04-22T21:03:08.300Z",
     "rank": null
+  },
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "moon ahmed",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.7"
   }
 }

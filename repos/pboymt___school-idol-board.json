@@ -33,5 +33,61 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
-  }
+  },
+  "name": "school-idol-board",
+  "version": "0.2.0",
+  "description": "Music player build using atom-shell and node.js and tell you who is singing in a playing music. Built for School Idol Project's group, μ's, and other idol group.",
+  "keywords": [
+    "music player",
+    "muse",
+    "school idol"
+  ],
+  "author": {
+    "name": "pboymt",
+    "email": "pboymt@foxmail.com"
+  },
+  "contributors": [
+    "pboymt"
+  ],
+  "homepage": "http://app.selflytv.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pboymt/school-idol-board.git"
+  },
+  "bugs": {
+    "email": "pboymt@foxmail.com"
+  },
+  "license": "GPL-3.0",
+  "main": "./main.js",
+  "scripts": {
+    "install-prebuilt": "npm install --save-dev electron-prebuilt",
+    "install-packager": "npm install --save-dev electron-packager",
+    "start": "electron .",
+    "lrc": "node app/js/lrc2srt.js",
+    "xml": "node app/js/xml2json.js",
+    "md5": "node app/js/md5.js",
+    "pkg": "node pkg.js",
+    "m2a": "node m2a.js",
+    "package": "electron-packager ./ SIB --platform=win32 --arch=ia32 --asar --ignore=build --out=build/release --overwrite --icon=icon2.ico"
+  },
+  "devDependencies": {
+    "asar": "^0.10.0",
+    "cheerio": "^0.20.0",
+    "electron-packager": "^5.2.1",
+    "electron-prebuilt": "^0.37.2",
+    "rcedit": "^0.4.0"
+  },
+  "dependencies": {
+    "qiniu": "^6.1.9"
+  },
+  "os": [
+    "win32",
+    "!linux",
+    "!darwin"
+  ],
+  "cpu": [
+    "ia32",
+    "x64",
+    "!arm"
+  ]
 }

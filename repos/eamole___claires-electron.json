@@ -33,5 +33,38 @@
     "status": null,
     "last_synced_at": "2016-05-28T04:43:38.278Z",
     "rank": null
+  },
+  "name": "mendicity-project",
+  "description": "Putting records from Transmission books into an app",
+  "version": "0.0.1",
+  "main": "main.js",
+  "authors": [
+    "Claire Murray <clairefromcork@gmail.com>"
+  ],
+  "license": "GPL-3.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./start-electron.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.0",
+    "cookie-parser": "~1.4.1",
+    "debug": "~2.2.0",
+    "diskdb": "^0.1.14",
+    "electron-debug": "^0.5.2",
+    "express": "~4.13.4",
+    "express-session": "~1.10.3",
+    "jade": "~1.11.0",
+    "mongo-express": "^0.30.26",
+    "mongodb": "~2.0.55",
+    "monk": "~1.0.1",
+    "morgan": "~1.6.1",
+    "nedb": "^1.8.0",
+    "serve-favicon": "~2.3.0",
+    "sql.js": "^0.3.1",
+    "sqlite3": "^3.1.2"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.9"
   }
 }

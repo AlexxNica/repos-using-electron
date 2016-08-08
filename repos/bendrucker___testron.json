@@ -33,5 +33,43 @@
     "status": null,
     "last_synced_at": "2016-04-19T15:48:14.467Z",
     "rank": null
+  },
+  "name": "testron",
+  "version": "1.2.0",
+  "description": "CI your client side tests with Electron",
+  "main": "index.js",
+  "bin": {
+    "testron": "cli.js"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shama/testron.git"
+  },
+  "keywords": [
+    "test",
+    "client",
+    "side",
+    "runner",
+    "electron",
+    "ci"
+  ],
+  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shama/testron/issues"
+  },
+  "homepage": "https://github.com/shama/testron#readme",
+  "dependencies": {
+    "electron-spawn": "^3.0.0",
+    "minimist": "^1.1.2",
+    "tempfile": "^1.1.1",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.30.0",
+    "tape": "^4.0.1"
   }
 }

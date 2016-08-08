@@ -33,5 +33,26 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "Johnston",
+  "version": "0.1.0",
+  "description": "The Note Editor",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theniceboy/Johnston.git"
+  },
+  "keywords": [
+    "note",
+    "editor"
+  ],
+  "author": "David Chen",
+  "license": "GNU LESSER GENERAL PUBLIC LICENSE V3",
+  "homepage": "https://github.com/theniceboy/Johnston",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.4"
   }
 }

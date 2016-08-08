@@ -33,5 +33,18 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "ElectronExampleOpenFile",
+  "version": "0.0.0",
+  "description": "An example app showing how to open a file from a menu.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Derek Kurth",
+  "license": "CC0",
+  "devDependencies": {
+    "electron-prebuilt": "~0.25.3"
   }
 }

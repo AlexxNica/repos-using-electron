@@ -33,5 +33,17 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "soundmachine-ElectronJS",
+  "version": "0.1.0",
+  "main": "./main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron-prebuilt": "*"
+  },
+  "dependencies": {
+    "nconf": "*"
   }
 }

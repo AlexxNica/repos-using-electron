@@ -33,5 +33,35 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "tjollen",
+  "productName": "Tjollen",
+  "version": "0.0.6",
+  "description": "Simple kiosk app for running fullscreen web apps",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron .",
+    "build": "electron-packager . $npm_package_productName --platform=darwin --arch=x64 --version=0.36.2 --out=dist --icon=./assets/tjollen.icns --overwrite",
+    "version": "npm version patch",
+    "testo": "echo $npm_package_version",
+    "deploy": "npm run version && git push --tags origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unsworn/tjollen"
+  },
+  "keywords": [
+    "kiosk",
+    "web"
+  ],
+  "author": "Unsworn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unsworn/tjollen/issues"
+  },
+  "homepage": "https://github.com/unsworn/tjollen",
+  "devDependencies": {
+    "electron-packager": "^5.2.0",
+    "electron-prebuilt": "^0.36.2"
   }
 }

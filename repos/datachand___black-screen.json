@@ -33,5 +33,81 @@
     "status": null,
     "last_synced_at": "2016-06-09T03:05:01.723Z",
     "rank": null
+  },
+  "name": "black-screen",
+  "productName": "Black Screen",
+  "description": "A terminal emulator for the 21st century.",
+  "version": "0.0.37",
+  "main": "compiled/src/main/Main.js",
+  "author": "Volodymyr Shatskyi <shockone89@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shockone/black-screen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shockone/black-screen/issues"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "keywords": [
+    "terminal",
+    "emulator",
+    "shell",
+    "console"
+  ],
+  "dependencies": {
+    "font-awesome": "4.6.3",
+    "fs-extra": "0.30.0",
+    "fuzzaldrin": "2.1.0",
+    "immutable": "3.8.1",
+    "lodash": "4.13.1",
+    "node-ansiparser": "2.1.0",
+    "pty.js": "shockone/pty.js",
+    "react": "15.1.0",
+    "react-dom": "15.1.0",
+    "rxjs": "5.0.0-beta.8",
+    "tinycolor2": "1.3.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "devtron": "1.2.0",
+    "electron-builder": "4.2.6",
+    "electron-prebuilt": "1.2.1",
+    "mocha": "2.5.3",
+    "npm-check-updates": "2.6.5",
+    "spectron": "3.2.3",
+    "ts-node": "0.8.0",
+    "tslint": "3.10.2",
+    "typescript": "1.9.0-dev.20160601-1.0",
+    "typings": "1.0.4"
+  },
+  "scripts": {
+    "preinstall": "npm prune",
+    "pack": "npm run compile && build",
+    "prerelease": "npm prune --production && npm install --global electron-builder",
+    "release": "build --publish always",
+    "electron": "electron .",
+    "prestart": "npm install && npm run compile",
+    "start": "bash housekeeping/start.sh",
+    "test": "npm run lint && npm run unit-tests && npm run integration-tests",
+    "unit-tests": "ELECTRON_RUN_AS_NODE=1 electron $(which mocha) --require ts-node/register $(find test -name '*_spec.ts')",
+    "integration-tests": "npm run compile && mocha",
+    "update-typings": "typings ls | awk '$2 ~ /.+/ {print $2}' | xargs -I {} typings i '{}' -S -A --source dt",
+    "update-dependencies": "ncu -u",
+    "lint": "tslint `find src -name '*.ts*'`",
+    "cleanup": "rm -rf compiled/src",
+    "copy-html": "mkdir -p compiled/src/views && cp src/views/index.html compiled/src/views",
+    "compile": "npm run cleanup && npm run tsc && npm run copy-html",
+    "tsc": "tsc"
+  },
+  "license": "MIT",
+  "directories": {
+    "app": "."
+  },
+  "build": {
+    "app-bundle-id": "com.github.shockone.black-screen",
+    "app-category-type": "public.app-category.developer-tools"
   }
 }

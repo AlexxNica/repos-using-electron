@@ -33,5 +33,59 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "speedreader",
+  "productName": "SpeedReader",
+  "version": "0.0.0",
+  "description": "A speed reader app for any loaded text.",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": "techmsi/speedreader",
+  "author": {
+    "name": "techmsi",
+    "email": "sophia.idro@gmail.com",
+    "url": "techmsi.github.io"
+  },
+  "electronVersion": "0.36.0",
+  "localModulesPath": "./node_modules/.bin",
+  "appCategory": "public.app-category.productivity",
+  "icon": "media/Icon",
+  "scripts": {
+    "test": "xo",
+    "start": "NODE_ENV=development $npm_package_localModulesPath/electron .",
+    "build": "npm run build-osx && npm run build-linux && npm run build-windows",
+    "build-osx-store": "$npm_package_localModulesPath/electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --ignore='^/media$' --prune --platform=darwin --arch=x64 --icon=$npm_package_icon.icns --app-bundle-id=com.techmsi.speedreader --app-category-type=$npm_package_appCategory --sign='Developer ID Application: Sophie Idromenos ()' --app-version=$npm_package_version --version=$npm_package_electronVersion && cd dist/${npm_package_productName}-darwin-x64 && zip -ryXq9 ../${npm_package_productName}-osx-${npm_package_version}.zip ${npm_package_productName}.app",
+    "build-osx": "$npm_package_localModulesPath/electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --ignore='^/media$' --prune --platform=darwin --arch=x64 --icon=$npm_package_icon.icns --app-category-type=$npm_package_appCategory --app-version=$npm_package_version --version=$npm_package_electronVersion && cd dist/${npm_package_productName}-darwin-x64 && zip -ryXq9 ../${npm_package_productName}-osx-${npm_package_version}.zip ${npm_package_productName}.app",
+    "build-linux": "$npm_package_localModulesPath/electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --ignore='^/media/(?!Icon.png$).*' --prune --platform=linux --arch=x64 --app-bundle-id=com.techmsi.speedreader --app-version=$npm_package_version --version=$npm_package_electronVersion && cd dist/${npm_package_productName}-linux-x64/ && zip -ryq9 ../${npm_package_productName}-linux-\"$npm_package_version\".zip *",
+    "build-windows": "$npm_package_localModulesPath/electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --ignore='^/media/(?!Icon.ico$).*' --prune --platform=win32 --arch=ia32 --icon=$npm_package_icon.ico --version=$npm_package_electronVersion --version-string.ProductName=$npm_package_productName --version-string.ProductVersion=$npm_package_electronVersion && cd dist/${npm_package_productName}-win32-ia32/ && zip -ryq9 ../${npm_package_productName}-windows-\"$npm_package_version\".zip *"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "css/index.css"
+  ],
+  "keywords": [
+    "electron-app",
+    "electron",
+    "speedreader"
+  ],
+  "dependencies": {
+    "electron-debug": "^0.5.0",
+    "fs": "0.0.2",
+    "jquery": "^2.2.0",
+    "lodash": "^4.3.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.36.0",
+    "eslint": "^1.10.3",
+    "xo": "^0.12.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
   }
 }

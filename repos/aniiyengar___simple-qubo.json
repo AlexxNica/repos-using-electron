@@ -33,5 +33,24 @@
     "status": null,
     "last_synced_at": "2016-04-28T18:23:29.467Z",
     "rank": null
+  },
+  "name": "simple-qubo",
+  "version": "1.0.0",
+  "description": "Simple Qubo App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniiyengar/simple-qubo"
+  },
+  "author": "Aniruddh Iyengar",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.0"
+  },
+  "dependencies": {
+    "electron-prebuilt": "^0.37.0"
   }
 }

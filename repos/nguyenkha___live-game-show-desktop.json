@@ -33,5 +33,22 @@
     "status": null,
     "last_synced_at": "2016-07-31T03:09:41.909Z",
     "rank": null
+  },
+  "name": "live-game-show-desktop",
+  "version": "1.0.0",
+  "description": "Live game show streaming",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "LiveGameShow",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0",
+    "fb": "^0.7.3"
+  },
+  "dependencies": {
+    "blob-to-buffer": "^1.2.6",
+    "fb": "^0.7.3",
+    "oauth-electron-facebook": "^0.1.2"
   }
 }

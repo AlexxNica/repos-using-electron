@@ -33,5 +33,21 @@
     "status": null,
     "last_synced_at": "2016-05-27T23:06:14.344Z",
     "rank": null
+  },
+  "name": "isPlainObjectTest",
+  "version": "0.0.1",
+  "description": "isPlainObject test",
+  "productName": "isPlainObject test Application",
+  "identifier": "com.alfer.isplainobject",
+  "author": "Illia Segeda aka ALFer <elf.er.is@gmail.com>",
+  "main": "mainprocess.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "lodash.isplainobject": "^3.2.0"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.33.3"
   }
 }

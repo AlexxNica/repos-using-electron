@@ -33,5 +33,29 @@
     "status": null,
     "last_synced_at": "2016-04-27T11:00:15.513Z",
     "rank": null
+  },
+  "name": "neo4j-electron",
+  "productName": "Neo4j-Electron",
+  "version": "1.0.0",
+  "description": "Neo4j Browser electron app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ducky427/neo4j-electron.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "GitHub",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/ducky427/neo4j-electron#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.7"
   }
 }

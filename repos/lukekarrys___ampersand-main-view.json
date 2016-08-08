@@ -33,5 +33,56 @@
     "status": null,
     "last_synced_at": "2016-08-06T20:23:52.682Z",
     "rank": null
+  },
+  "name": "ampersand-main-view",
+  "description": "A view providing helpers to initialize and manage the main view of your single-page app",
+  "version": "1.0.3",
+  "author": "Luke Karrys <luke@lukekarrys.com>",
+  "browser": "ampersand-main-view.js",
+  "bugs": "https://github.com/lukekarrys/ampersand-main-view/issues",
+  "dependencies": {
+    "ampersand-dom": "^1.5.0",
+    "ampersand-router": "^4.0.0",
+    "ampersand-view": "^10.0.1",
+    "ampersand-view-switcher": "^2.1.0",
+    "local-links": "^1.4.0",
+    "lodash": "^4.14.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "domready": "^1.0.8",
+    "electron-prebuilt": "^1.3.2",
+    "hapi": "^14.1.0",
+    "jshint": "^2.9.2",
+    "moonboots_hapi": "^7.0.0",
+    "precommit-hook": "^3.0.0",
+    "run-browser": "^2.0.2",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0",
+    "tape-run": "^2.1.4"
+  },
+  "homepage": "https://github.com/lukekarrys/ampersand-main-view",
+  "keywords": [
+    "ampersand",
+    "ampersand-router",
+    "ampersand-view"
+  ],
+  "license": "MIT",
+  "main": "ampersand-main-view.js",
+  "pre-commit": [
+    "lint",
+    "test",
+    "validate"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lukekarrys/ampersand-main-view"
+  },
+  "scripts": {
+    "demo": "node sample/server",
+    "lint": "jshint .",
+    "start": "run-browser test/*",
+    "test": "browserify test/*.js | tape-run | tap-spec",
+    "validate": "npm ls"
   }
 }

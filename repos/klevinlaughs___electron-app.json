@@ -33,5 +33,25 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "klevin-electron-app",
+  "version": "0.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/electron-quick-start.git"
+  },
+  "author": "Kelvin Lau",
+  "license": "MIT",
+  "devDependencies": {
+    "asar": "^0.10.0",
+    "electron-prebuilt": "^0.36.0",
+    "fs-jetpack": "^0.7.1",
+    "q": "^1.4.1",
+    "rcedit": "^0.4.0"
   }
 }

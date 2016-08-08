@@ -33,5 +33,51 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "git-it-electron",
+  "version": "1.0.0",
+  "description": "An open source desktop app for learning Git and GitHub",
+  "keywords": [
+    "Git",
+    "GitHub",
+    "Git-it",
+    "tutorial",
+    "guide",
+    "learn",
+    "desktop"
+  ],
+  "productName": "Git-it",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . Git-it --platform=win32,darwin --arch=x64 --version=0.31.2 --icon=assets/git-it --ignore='node_modules/standard'",
+    "build-chals": "node lib/build-challenges.js",
+    "build-pages": "node lib/build-pages.js",
+    "build-all": "npm run build-chals && npm run build-pages",
+    "build-zhtw": "node lib/build-challenges.js zhtw",
+    "test": "standard **/*.js",
+    "pack-mac": "electron-packager . Git-it --platform=darwin --arch=x64 --version=0.31.2 --icon=assets/git-it.icns --ignore='node_modules/standard'",
+    "pack-win": "electron-packager . Git-it --platform=win32 --arch=ia32   --version=0.31.2 --icon=assets/git-it.ico --ignore='node_modules/standard'",
+    "pack-lin": "electron-packager . Git-it --platform=linux --arch=x64   --version=0.31.2 --icon=assets/git-it.png --ignore='node_modules/standard'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlord/git-it-electron.git"
+  },
+  "author": "Jessica Lord",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/jlord/git-it-electron/issues"
+  },
+  "homepage": "https://github.com/jlord/git-it-electron",
+  "devDependencies": {
+    "electron-prebuilt": "^0.33.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "glob": "^5.0.5",
+    "handlebars": "^3.0.3",
+    "request": "^2.57.0",
+    "standard": "^3.7.3"
   }
 }

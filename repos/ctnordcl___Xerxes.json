@@ -33,5 +33,22 @@
     "status": null,
     "last_synced_at": "2016-08-02T22:01:46.797Z",
     "rank": null
+  },
+  "name": "Xerxes",
+  "author": "The Xerxes dev team",
+  "version": "0.0.1",
+  "description": "Cross platform media player built on Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-mac": "electron-packager . Xerxes --platform=darwin --arch=x64 --out=build/",
+    "build-linux32": "electron-packager . Xerxes --platform=linux --arch=ia32 --out=build/",
+    "build-linux64": "electron-packager . Xerxes --platform=linux --arch=x64 --out=build/",
+    "build-win32": "electron-packager . Xerxes --platform=win32 --arch=ia32 --out=build/",
+    "build-win64": "electron-packager . Xerxes --platform=win32 --arch=x64 --out=build/"
+  },
+  "dependencies": {
+    "electron-prebuilt": "*",
+    "electron-packager": "*"
   }
 }

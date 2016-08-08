@@ -33,5 +33,57 @@
     "status": null,
     "last_synced_at": "2016-06-29T07:54:43.921Z",
     "rank": null
+  },
+  "name": "caprine",
+  "productName": "Caprine",
+  "version": "1.4.1",
+  "description": "Unofficial Facebook Messenger app",
+  "license": "MIT",
+  "repository": "sindresorhus/caprine",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "maintainers": [
+    {
+      "name": "Oskar Krawczyk",
+      "email": "oskar.krawczyk@gmail.com",
+      "url": "krawczyk.io"
+    },
+    {
+      "name": "Daniel Pham",
+      "email": "pham.dany@gmail.com",
+      "url": "danhp.github.io"
+    }
+  ],
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "npm run build:macos && npm run build:linux && npm run build:windows",
+    "build:macos": "electron-packager . --overwrite --asar --out=dist --ignore='^media$' --prune --platform=darwin --arch=x64 --icon=static/Icon.icns --app-bundle-id=com.sindresorhus.caprine --sign='Developer ID Application: Sindre Sorhus (YG56YK5RN5)' --app-version=$npm_package_version && cd dist/Caprine-darwin-x64 && zip -ryXq9 ../Caprine-osx-${npm_package_version}.zip Caprine.app",
+    "build:linux": "electron-packager . --overwrite --out=dist --ignore='^media$' --prune --platform=linux --arch=x64 --app-bundle-id=com.sindresorhus.caprine --app-version=$npm_package_version && cd dist/Caprine-linux-x64/ && zip -ryq9 ../Caprine-linux-${npm_package_version}.zip *",
+    "build:windows": "electron-packager . --overwrite --asar --out=dist --ignore='^media$' --prune --platform=win32 --arch=ia32 --icon=static/Icon.ico --version-string.ProductName=$npm_package_productName --app-version=$npm_package_version && cd dist/Caprine-win32-ia32 && zip -ryq9 ../Caprine-windows-${npm_package_version}.zip *"
+  },
+  "dependencies": {
+    "electron-config": "^0.1.1",
+    "electron-context-menu": "^0.1.0",
+    "electron-debug": "^1.0.0",
+    "electron-dl": "^1.0.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.0.0",
+    "electron-prebuilt": "^1.2.5",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ],
+    "rules": {
+      "import/no-extraneous-dependencies": 0
+    }
   }
 }

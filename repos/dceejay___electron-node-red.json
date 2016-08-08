@@ -33,5 +33,60 @@
     "status": null,
     "last_synced_at": "2016-07-12T16:59:57.783Z",
     "rank": null
+  },
+  "name": "electron-node-red",
+  "version": "1.0.7",
+  "description": "Electron Node-RED application starter",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "test": "echo \" Warning: no test specified \"",
+    "clean": "rm -rf ./dist ",
+    "pack": "npm run clean && electron-packager . Node-RED --icon=nodered.icns --all --out=dist",
+    "pack:osx": "electron-packager . Node-RED --icon=nodered.icns --platform=darwin --arch=x64 --out=dist",
+    "pack:win": "electron-packager . Node-RED --icon=nodered.icns --platform=win32 --arch=x64 --out=dist",
+    "pack:win32": "electron-packager . Node-RED --icon=nodered.icns --platform=win32 --arch=ia32 --out=dist",
+    "pack:linux": "electron-packager . Node-RED --icon=nodered.icns --platform=linux --arch=x64 --out=dist",
+    "pack:linux32": "electron-packager . Node-RED --icon=nodered.icns --platform=linux --arch=ia32 --out=dist",
+    "build": "npm run build:osx",
+    "build:osx": "npm run pack && appdmg appdmg.json dist/Node-RED.dmg",
+    "build:linux32": "npm run pack:linux32 && fpm -s dir -t deb -f -n node-red-electron -v 0.13.4 -m conway@uk.ibm.com -a i386 -p dist dist/Node-RED-linux-ia32/",
+    "build:linux": "npm run pack:linux && fpm -s dir -t deb -f -n node-red-electron -v 0.13.4 -m conway@uk.ibm.com -a x86_64 -p dist dist/Node-RED-linux-x64/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dceejay/electron-node-red.git"
+  },
+  "dependencies": {
+    "node-red": "^0.14.5",
+    "node-red-dashboard": "^2.0.0",
+    "node-red-contrib-web-worldmap": "^1.0.13",
+    "node-red-node-geofence": "*",
+    "node-red-node-random": "*",
+    "node-red-node-smooth": "*",
+    "express": "^4.14.0"
+  },
+  "keywords": [
+    "electron",
+    "quick",
+    "start",
+    "node-red"
+  ],
+  "contributors": [
+    {
+      "name": "Dave Conway-Jones"
+    },
+    {
+      "name": "Nathanaël Lécaudé"
+    }
+  ],
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/dceejay/electron-node-red/issues"
+  },
+  "homepage": "https://github.com/dceejay/electron-node-red#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.3",
+    "electron-winstaller": "*"
   }
 }

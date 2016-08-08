@@ -33,5 +33,33 @@
     "status": null,
     "last_synced_at": "2016-06-06T08:03:56.863Z",
     "rank": null
+  },
+  "name": "mdviewer",
+  "version": "1.0.0",
+  "description": "Review all .md files in a directory.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JingeTu/MdViewer.git"
+  },
+  "keywords": [
+    "electron",
+    "markdown"
+  ],
+  "author": "JingeTu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JingeTu/MdViewer/issues"
+  },
+  "homepage": "https://github.com/JingeTu/MdViewer#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "bootstrap-treeview": "^1.2.0",
+    "electron-prebuilt": "^1.2.1",
+    "jquery": "^1.9.1",
+    "markdown-to-html": "^0.0.11"
   }
 }

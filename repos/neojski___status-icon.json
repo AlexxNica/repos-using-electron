@@ -33,5 +33,31 @@
     "status": null,
     "last_synced_at": "2016-05-24T13:44:12.747Z",
     "rank": null
-  }
+  },
+  "name": "status-icon",
+  "version": "0.0.2",
+  "main": "index.js",
+  "dependencies": {
+    "electron-prebuilt": "^1.1.1"
+  },
+  "description": "Easy way of adding tray icon telling you what's the build status",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neojski/status-icon.git"
+  },
+  "keywords": [
+    "status",
+    "icon",
+    "tray"
+  ],
+  "author": "Tomasz Kołodziejski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neojski/status-icon/issues"
+  },
+  "homepage": "https://github.com/neojski/status-icon#readme"
 }

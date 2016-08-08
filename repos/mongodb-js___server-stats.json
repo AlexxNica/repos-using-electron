@@ -33,5 +33,54 @@
     "status": null,
     "last_synced_at": "2016-07-12T19:52:45.129Z",
     "rank": null
+  },
+  "name": "mongodb-server-stats",
+  "description": "MongoDB Server Stats UI Component",
+  "author": "Durran Jordan <durran@gmail.com>",
+  "bugs": "https://github.com/mongodb-js/server-stats/issues",
+  "homepage": "https://github.com/mongodb-js/server-stats",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mongodb-js/server-stats.git"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "mongodb-js"
+  ],
+  "scripts": {
+    "ci": "npm run check && npm test",
+    "test": "mocha --recursive ./test/**/*.test.js",
+    "fmt": "mongodb-js-fmt ./*.js ./test/*.js",
+    "check": "mongodb-js-precommit ./src ./test",
+    "compile": "babel ./src --out-dir ./lib --presets react",
+    "prepublish": "npm run compile",
+    "pretest": "npm run compile",
+    "prestart": "npm run compile",
+    "start": "electron ./test/electron"
+  },
+  "precommit": [
+    "check"
+  ],
+  "dependencies": {
+    "react": "^15.2.0",
+    "react-dom": "^15.2.0",
+    "reflux": "^0.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-react": "^6.11.1",
+    "babel-register": "^6.9.0",
+    "chai": "^3.5.0",
+    "electron-prebuilt": "^1.2.6",
+    "enzyme": "^2.3.0",
+    "eslint-config-mongodb-js": "^2.0.0",
+    "eslint-plugin-react": "^5.2.2",
+    "mocha": "^2.5.3",
+    "mongodb-data-service": "^0.5.0",
+    "mongodb-js-fmt": "^0.0.3",
+    "mongodb-js-precommit": "^0.2.8",
+    "mongodb-runner": "^3.3.2",
+    "pre-commit": "^1.1.3"
   }
 }

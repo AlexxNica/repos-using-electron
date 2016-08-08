@@ -33,5 +33,21 @@
     "status": null,
     "last_synced_at": "2016-04-10T10:22:06.567Z",
     "rank": null
+  },
+  "name": "thoughtfortoday",
+  "version": "1.0.0",
+  "description": "Pulls Thought For Today from your GMAIL account and then creates a beautiful wallpaper for you.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Giri Gaurav Bhatnagar",
+  "license": "ISC",
+  "devDependencies": {
+    "base64url": "^1.0.4",
+    "electron-prebuilt": "^0.30.2",
+    "google-auth-library": "^0.9.6",
+    "googleapis": "^2.1.3"
   }
 }

@@ -33,5 +33,60 @@
     "status": null,
     "last_synced_at": "2016-06-02T23:33:30.698Z",
     "rank": null
+  },
+  "name": "electron-ui-startkit",
+  "description": "electon ui startkit",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "buildapp": "bower install && cd app && npm install --production && cd ..",
+    "workapp": "cd app && npm install && cd ..",
+    "start": "./node_modules/.bin/electron ./app --enable-logging --remote-debugging-port=9222",
+    "dev": "NODE_ENV='development' npm run start",
+    "pack": "npm run pack:osx && npm run pack:win",
+    "pack:osx": "build --platform darwin",
+    "pack:win": "build --platform win32 --arch all",
+    "dist": "npm run dist:osx",
+    "dist:osx": "npm run pack:osx -- -d",
+    "dist:win": "npm run pack:win -- -d",
+    "prerelease:osx": "rm -rf release/osx && mkdirp release/osx",
+    "release:osx": "cp -rv dist/electron-ui-startkit-darwin-x64/*.{dmg,zip} release/osx && PACKAGE_VERSION=$(cat app/package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && echo $PACKAGE_VERSION >> ./release/osx/VERSION",
+    "prerelease:win32": "rm -rf release/win32 && mkdirp release/win32",
+    "release:win32": "cp -v dist/win/{RELEASES,*.nupkg,*.exe} release/win32",
+    "prerelease:win64": "rm -rf release/win64 && mkdirp release/win64",
+    "release:win64": "cp -v dist/win-x64/{RELEASES,*.nupkg,*.exe} release/win64",
+    "release": "npm run release:osx",
+    "deploy": "PACKAGE_VERSION=$(cat app/package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && aws s3 sync release/ s3://electron-ui-startkit/updates/$PACKAGE_VERSION/ --acl public-read && aws s3 sync s3://electron-ui-startkit/updates/$PACKAGE_VERSION/ s3://electron-ui-startkit/updates/latest/ --delete --acl public-read",
+    "all": "npm run dist && npm run release",
+    "mac": "npm run dist:osx",
+    "win": "npm run dist:win"
+  },
+  "author": "andypinet",
+  "devDependencies": {
+    "electron-builder": "^3.20.0",
+    "electron-prebuilt": "^1.0.2"
+  },
+  "build": {
+    "app-bundle-id": "hr.creaticon.electron-ui-startkit",
+    "app-category-type": "public.app-category.productivity",
+    "iconUrl": "file://build/icon.ico",
+    "osx": {
+      "title": "electron-ui-startkit",
+      "background": "build/background.png",
+      "icon": "build/icon.icns",
+      "icon-size": 128,
+      "contents": [
+        {
+          "x": 355,
+          "y": 125,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 155,
+          "y": 125,
+          "type": "file"
+        }
+      ]
+    }
   }
 }

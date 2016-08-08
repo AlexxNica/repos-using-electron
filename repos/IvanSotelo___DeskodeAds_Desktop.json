@@ -33,5 +33,31 @@
     "status": null,
     "last_synced_at": "2016-06-14T19:47:32.256Z",
     "rank": null
+  },
+  "name": "DeskodeAds_Desktop",
+  "version": "1.0.0",
+  "description": "App Deskode Ads",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "package": "electron-packager ./ DeskodeAds --all --out ~/DeskodeAds --version 1.0.0 --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IvanSotelo/DeskodeAds_Desktop.git"
+  },
+  "author": "Deskode",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "nconf": "^0.8.4"
+  },
+  "bugs": {
+    "url": "https://github.com/IvanSotelo/DeskodeAds_Desktop/issues"
+  },
+  "homepage": "http://deskode.com",
+  "devDependencies": {
+    "electron-packager": "^7.0.4",
+    "electron-prebuilt": "^0.37.8"
   }
 }

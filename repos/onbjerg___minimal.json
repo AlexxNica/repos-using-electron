@@ -33,5 +33,42 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "minimal",
+  "version": "1.0.0",
+  "description": "A beautiful and modern IRC client",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/onbjerg/minimal/issues"
+  },
+  "homepage": "https://github.com/onbjerg/minimal#readme",
+  "scripts": {
+    "test": "standard",
+    "start": "electron index.js",
+    "package": "node pkg.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onbjerg/minimal.git"
+  },
+  "keywords": [
+    "irc",
+    "chat",
+    "friends",
+    "discussion",
+    "communication",
+    "minimalism"
+  ],
+  "author": "onbjerg",
+  "license": "GPL-2.0",
+  "devDependencies": {
+    "electron-packager": "^5.0.2",
+    "electron-prebuilt": "^0.30.4",
+    "standard": "^5.1.0"
+  },
+  "dependencies": {
+    "inherits": "^2.0.1",
+    "lodash": "^3.10.1",
+    "virtual-dom": "^2.1.1"
   }
 }

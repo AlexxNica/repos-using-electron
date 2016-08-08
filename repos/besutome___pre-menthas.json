@@ -33,5 +33,28 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
-  }
+  },
+  "name": "pre-menthas",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "electron-packager": "^5.1.1",
+    "electron-prebuilt": "^0.34.2"
+  },
+  "scripts": {
+    "start": "node_modules/.bin/electron .",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/besutome/pre-menthas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/besutome/pre-menthas/issues"
+  },
+  "homepage": "https://github.com/besutome/pre-menthas#readme"
 }

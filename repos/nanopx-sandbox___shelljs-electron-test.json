@@ -33,5 +33,25 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
-  }
+  },
+  "name": "jekyll-electron",
+  "version": "0.0.1",
+  "description": "An electron app for building and serving jekyll projects",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nanopx/electron-react-redux-router5.git"
+  },
+  "homepage": "https://github.com/nanopx/electron-react-redux-router5",
+  "scripts": {
+    "start": "electron .",
+    "start-dev": "NODE_ENV=development electron ."
+  },
+  "author": "nanopx",
+  "license": "MIT",
+  "dependencies": {
+    "electron-prebuilt": "^0.36.7",
+    "shelljs": "^0.6.0"
+  },
+  "devDependencies": {}
 }

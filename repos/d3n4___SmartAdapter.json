@@ -33,5 +33,23 @@
     "status": null,
     "last_synced_at": "2016-05-28T07:33:47.123Z",
     "rank": null
+  },
+  "name": "smartadapter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "electron app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3n4/SmartAdapter.git"
+  },
+  "author": "Mechislav Lipskiy <id110099122@gmail.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/d3n4/SmartAdapter",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
   }
 }

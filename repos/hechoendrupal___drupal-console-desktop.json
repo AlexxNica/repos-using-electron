@@ -33,5 +33,34 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "dcapp",
+  "version": "0.0.1",
+  "description": "A cross platform UI for Drupal Console",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willwh/dcapp.git"
+  },
+  "keywords": [
+    "Electron",
+    "Drupal",
+    "Drupal Console"
+  ],
+  "author": "willwh",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/willwh/dcapp/issues"
+  },
+  "homepage": "https://github.com/willwh/dcapp#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0",
+    "shelljs": "^0.6.0"
+  },
+  "dependencies": {
+    "fix-path": "^1.1.0"
   }
 }

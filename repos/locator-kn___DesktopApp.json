@@ -33,5 +33,50 @@
     "status": null,
     "last_synced_at": "2016-04-10T10:05:10.292Z",
     "rank": null
+  },
+  "name": "Locator-Dashboard",
+  "repository": "https://github.com/locator-kn/dashboard",
+  "version": "0.1.7",
+  "main": "main.js",
+  "license": "ISC",
+  "scripts": {
+    "coverage": "http-server -c-1 -o -p 9875 ./coverage",
+    "posttest": "node_modules/.bin/remap-istanbul -i coverage/coverage-final.json -o coverage -t html",
+    "electron": "./node_modules/.bin/electron main.js"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.13",
+    "electron-gh-releases": "^2.0.2",
+    "es6-shim": "^0.35.0",
+    "gulp-bump": "^2.1.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "systemjs": "0.19.24",
+    "zone.js": "0.6.6"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "del": "^2.2.0",
+    "electron-installer-codesign": "^0.1.1",
+    "electron-packager": "^6.0.1",
+    "electron-prebuilt": "^0.37.3",
+    "electron-release": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-env": "^0.4.0",
+    "gulp-shell": "^0.5.2",
+    "gulp-tslint": "^4.3.4",
+    "gulp-typescript": "^2.12.2",
+    "gulp-watch": "^4.3.5",
+    "gulp-webserver": "^0.9.1",
+    "http-server": "^0.9.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^0.2.3",
+    "karma-coverage": "^0.5.5",
+    "karma-firefox-launcher": "^0.1.7",
+    "karma-jasmine": "^0.3.8",
+    "remap-istanbul": "^0.5.1",
+    "typescript": "^1.8.9",
+    "typings": "^0.7.9"
   }
 }

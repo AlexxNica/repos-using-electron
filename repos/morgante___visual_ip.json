@@ -33,5 +33,37 @@
     "status": null,
     "last_synced_at": "2016-05-12T10:20:13.225Z",
     "rank": null
+  },
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron/electron-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/electron/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.8",
+    "serialport-electron": "1.7.4-electron-0.30.6"
+  },
+  "dependencies": {
+    "firebase": "^2.4.2",
+    "lodash": "^4.11.2",
+    "serialport": "^3.1.2-beta2"
   }
 }

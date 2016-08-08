@@ -33,5 +33,30 @@
     "status": null,
     "last_synced_at": "2016-07-29T19:13:07.581Z",
     "rank": null
+  },
+  "name": "enhanced-electron",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PokemonGo-Enhanced/Enhanced-Electron.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "GitHub",
+  "license": "",
+  "devDependencies": {
+    "electron-prebuilt": "*"
+  },
+  "dependencies": {
+    "enhanced-backend": "github:pokemongo-enhanced/Enhanced-Backend"
   }
 }

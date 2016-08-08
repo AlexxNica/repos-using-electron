@@ -33,5 +33,18 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "quack",
+  "version": "0.0.1",
+  "dependencies": {
+    "net": "*",
+    "osenv": "*",
+    "fs": "*"
+  },
+  "scripts": {
+    "start": "electron client.js"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "0.35.0"
   }
 }

@@ -33,5 +33,28 @@
     "status": null,
     "last_synced_at": "2016-05-27T16:53:51.061Z",
     "rank": null
+  },
+  "name": "timesheet-status",
+  "version": "1.0.0",
+  "description": "Check your ESS timesheet status with ease from your menubar",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "university",
+    "washington",
+    "UW",
+    "ESS",
+    "timesheet status"
+  ],
+  "author": "Hasit Mistry",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.5"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.71.0"
   }
 }

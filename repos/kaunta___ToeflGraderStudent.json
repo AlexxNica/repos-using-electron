@@ -33,5 +33,30 @@
     "status": null,
     "last_synced_at": "2016-05-27T23:43:42.132Z",
     "rank": null
+  },
+  "name": "ToeflGraderStudent",
+  "version": "1.0.0",
+  "description": "Student side to the Toefl Grader",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_osx": "electron-packager --platform=darwin --arch=x64 --version=0.27.2 . ToeflGraderStudent",
+    "build_win32": "electron-packager --platform=win32 --arch=ia32 --version=0.27.2 . ToeflGraderStudent.exe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaunta/ToeflGraderStudent"
+  },
+  "author": "John Lekberg <jclekberg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaunta/ToeflGraderStudent/issues"
+  },
+  "homepage": "https://github.com/kaunta/ToeflGraderStudent",
+  "devDependencies": {
+    "dialog": "^0.1.8",
+    "electron-packager": "^5.1.0",
+    "electron-prebuilt": "^0.33.0"
   }
 }

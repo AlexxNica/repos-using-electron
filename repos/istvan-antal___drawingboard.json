@@ -33,5 +33,41 @@
     "status": null,
     "last_synced_at": "2016-04-27T10:59:00.711Z",
     "rank": null
+  },
+  "name": "timetrack",
+  "version": "1.0.0",
+  "description": "Time tracker application.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/electron-quick-start.git"
+  },
+  "keywords": [
+    "time",
+    "track"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/atom/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/atom/electron-quick-start#readme",
+  "dependencies": {
+    "electron-prebuilt": "^0.36.0",
+    "photon": "https://github.com/connors/photon.git#master",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-redux": "^4.4.5",
+    "redux": "^3.4.0",
+    "ts-loader": "^0.8.1",
+    "tsd": "^0.6.5",
+    "typescript": "^1.8.9",
+    "webpack": "^1.12.14"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.0.1"
   }
 }

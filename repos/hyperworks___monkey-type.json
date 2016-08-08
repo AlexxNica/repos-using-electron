@@ -33,5 +33,41 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
-  }
+  },
+  "name": "typingjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.7.12",
+    "browserify": "^10.2.4",
+    "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-util": "^3.0.5",
+    "jquery": "^2.1.4",
+    "lodash": "^3.9.3",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperworks/monkey-type.git"
+  },
+  "keywords": [
+    "typing",
+    "game",
+    "thai",
+    "learn",
+    "education"
+  ],
+  "devDependencies": {
+    "electron-prebuilt": "^0.34.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron main.js"
+  },
+  "author": "",
+  "license": "ISC"
 }

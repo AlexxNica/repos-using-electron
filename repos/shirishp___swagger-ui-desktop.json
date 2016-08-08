@@ -33,5 +33,31 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "swagger-ui-desktop",
+  "version": "1.0.0",
+  "description": "A Swagger-UI wrapper application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shirishp/swagger-ui-desktop.git"
+  },
+  "keywords": [
+    "swagger",
+    "swagger-ui",
+    "swagger-ui-desktop",
+    "api"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/shirishp/swagger-ui-desktop/issues"
+  },
+  "homepage": "https://github.com/shirishp/swagger-ui-desktop",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
   }
 }

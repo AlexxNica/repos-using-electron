@@ -33,5 +33,24 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
-  }
+  },
+  "name": "inbox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sndrs/Inbox.git"
+  },
+  "author": "Alex Sanders",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sndrs/Inbox/issues"
+  },
+  "homepage": "https://github.com/sndrs/Inbox#readme",
+  "devDependencies": {
+    "electron-packager": "^5.2.1"
+  },
+  "dependencies": {
+    "electron-prebuilt": "^0.36.10"
+  },
+  "description": "Desktop app for Inbox by Gmail that adds OS integration",
+  "version": "0.1.2"
 }

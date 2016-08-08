@@ -33,5 +33,47 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
-  }
+  },
+  "name": "",
+  "productName": "",
+  "version": "0.0.0",
+  "description": "",
+  "repository": "",
+  "homepage": "https://github.com/lw7360/electron-starter#readme",
+  "author": {
+    "name": "Larry Wu",
+    "email": "lw7360@gmail.com",
+    "url": "http://larrywu.com/"
+  },
+  "electronVersion": "0.35.0",
+  "scripts": {
+    "test": "semistandard",
+    "start": "electron .",
+    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "dependencies": {
+    "electron-debug": "^0.5.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.35.0",
+    "semistandard": "^7.0.4"
+  },
+  "semistandard": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  },
+  "license": "MIT"
 }

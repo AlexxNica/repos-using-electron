@@ -33,5 +33,31 @@
     "status": null,
     "last_synced_at": "2016-05-28T03:42:34.811Z",
     "rank": null
+  },
+  "name": "electron-relative-remote-require",
+  "version": "0.0.1",
+  "description": "remote.require an Electron module relative to current one.",
+  "repository": "parro-it/electron-relative-remote-require",
+  "license": "MIT",
+  "author": "parro-it",
+  "scripts": {
+    "test": "ava && xo",
+    "check": "electron fixtures/index.js"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=5"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "electron-prebuilt": "^0.37.6",
+    "execa": "^0.2.2",
+    "xo": "^0.14.0"
+  },
+  "dependencies": {
+    "resolve-from-caller": "^1.0.1"
   }
 }

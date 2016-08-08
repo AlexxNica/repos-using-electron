@@ -33,5 +33,39 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
-  }
+  },
+  "name": "smarttv",
+  "version": "0.1.8",
+  "description": "",
+  "main": "lib.js",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "electron-prebuilt": "^0.36.1",
+    "express": "^4.13.3",
+    "socket.io": "^1.0.0"
+  },
+  "config": {
+    "main-app": "menu"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron electron/index.js",
+    "api": "node electron/index.js",
+    "help": "node electron/help.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mariolamacchia/smarttv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mariolamacchia/smarttv/issues"
+  },
+  "keywords": [
+    "smarttv",
+    "smart-tv",
+    "electron",
+    "tv"
+  ],
+  "author": "Mario Lamacchia <mariolamacchia@gmail.com>",
+  "license": "ISC"
 }

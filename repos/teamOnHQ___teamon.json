@@ -33,5 +33,22 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "teamon",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "cd web && MONGO_URL=mongodb://localhost:27017/teamonly meteor --settings .deploy/local.json --port 4000",
+    "desktop": "cd desktop && MONGO_URL=mongodb://localhost:27017/teamonly meteor --settings .deploy/local.json --port 4010",
+    "mobile": "cd mobile && MONGO_URL=mongodb://localhost:27017/teamonly-mobile meteor --settings .deploy/local.json --port 4020",
+    "deploy": "npm run deploy-web && npm run deploy-mobile",
+    "deploy-web": "cd web/.deploy/production && mupx deploy",
+    "deploy-mobile": "cd mobile/.deploy/production && mupx deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NMGteam/TeamOnly.git"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.35.1"
   }
 }

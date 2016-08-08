@@ -33,5 +33,17 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "openbazaar",
+  "version": "0.0.9",
+  "main": "app.js",
+  "devDependencies": {
+    "electron-prebuilt": "^0.30.0"
+  },
+  "scripts": {
+    "start": "electron app.js --disable-http-cache switch*"
+  },
+  "dependencies": {
+    "jquery-mousewheel": "^3.1.12"
   }
 }

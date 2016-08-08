@@ -33,5 +33,29 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "senSAE",
+  "version": "0.0.1",
+  "description": "A light-weight and generative music visualizer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camerenisonfire/senSAE-electron.git"
+  },
+  "keywords": [
+    "Electron",
+    "generative",
+    "art",
+    "music",
+    "visualizer"
+  ],
+  "author": "camerenisonfire",
+  "license": "CC0-1.0",
+  "homepage": "http://www.sensae.us",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
   }
 }

@@ -33,5 +33,33 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
-  }
+  },
+  "name": "mojibar",
+  "version": "1.2.0",
+  "description": "A menubar app adaptation of Emoji searcher.",
+  "main": "index.js",
+  "dependencies": {
+    "emojilib": "1.0.0",
+    "menubar": "^2.2.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.1",
+    "electron-prebuilt": "^0.29.2",
+    "standard": "^4.5.3"
+  },
+  "scripts": {
+    "app": "electron .",
+    "build": "electron-packager . Mojibar --platform=darwin --arch=x64 --version=0.30.0 --overwrite --icon=mojibar",
+    "test": "standard index.js app/search.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muan/mojibar.git"
+  },
+  "author": "Mu-An Chiou <me@muanchiou.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muan/mojibar/issues"
+  },
+  "homepage": "https://github.com/muan/mojibar#readme"
 }

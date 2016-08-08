@@ -33,5 +33,20 @@
     "status": null,
     "last_synced_at": "2016-06-05T14:51:33.667Z",
     "rank": null
+  },
+  "name": "kankore-viewer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron src/main.js",
+    "crean": "rm -rf packages/kankore-viewer-darwin-x64",
+    "package": "electron-packager . kankore-viewer --out=packages --platform=darwin --arch=x64 --ignore=packages/* --overwrite && open ./packages/kankore-viewer-darwin-x64"
+  },
+  "author": "clngn",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-packager": "^7.0.3",
+    "electron-prebuilt": "^1.1.1"
   }
 }

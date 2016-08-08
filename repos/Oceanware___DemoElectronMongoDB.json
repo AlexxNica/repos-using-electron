@@ -33,5 +33,30 @@
     "status": null,
     "last_synced_at": "2016-07-20T21:01:04.482Z",
     "rank": null
+  },
+  "name": "demoelectronmongodb",
+  "title": "Demo Electron MongoDB",
+  "version": "1.0.0",
+  "description": "Thick client demo app showing Electron and MongoDB working together.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Karl Shifflett",
+  "homepage": "http://oceanware.wordpress.com",
+  "license": "MIT",
+  "keywords": [
+    "electron",
+    "mongodb"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Oceanware/demoelectronmongodb.git"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.5"
+  },
+  "dependencies": {
+    "mongodb": "^2.0.49"
   }
 }

@@ -33,5 +33,20 @@
     "status": null,
     "last_synced_at": "2016-07-02T18:50:37.374Z",
     "rank": null
+  },
+  "name": "utclock",
+  "version": "0.0.1",
+  "description": "UTC Clock for Mac OS X",
+  "dependencies": {
+    "menubar": "*"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.1.0",
+    "electron-prebuilt": "^0.36.0"
+  },
+  "main": "main.js",
+  "scripts": {
+    "build": "electron-packager --overwrite . UTClock --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
+    "start": "electron ."
   }
 }

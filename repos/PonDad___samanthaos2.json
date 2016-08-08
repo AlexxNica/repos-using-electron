@@ -33,5 +33,24 @@
     "status": null,
     "last_synced_at": "2016-05-22T12:55:17.484Z",
     "rank": null
+  },
+  "name": "samanthaos2",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "author": "PonDad",
+  "license": "CC0-1.0",
+  "homepage": "http://pondad.net",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  },
+  "dependencies": {
+    "annyang": "^2.4.0"
   }
 }
