@@ -4,8 +4,8 @@
   "description": "A collection of all public repositories on GitHub that depend on `electron-prebuilt`",
   "main": "index.js",
   "scripts": {
-    "start": "npm run fetch",
-    "fetch": "node fetch.js",
+    "start": "npm run discover",
+    "discover": "node discover.js",
     "test": "standard"
   },
   "keywords": [
@@ -21,6 +21,9 @@
     "github-url-to-object": "^2.2.3",
     "is-url": "^1.2.2",
     "limiter": "^1.1.0",
+    "object-values": "^1.0.0",
+    "path-exists": "^3.0.0",
+    "pify": "^2.3.0",
     "request": "^2.74.0",
     "standard": "^7.1.2"
   },
