@@ -1,0 +1,65 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "walle/gobenchui-gui",
+    "description": "A desktop application for gobenchui",
+    "fork": false,
+    "created_at": "2015-11-22T21:12:58.000Z",
+    "updated_at": "2015-11-22T21:13:28.000Z",
+    "pushed_at": "2015-11-22T21:42:58.000Z",
+    "homepage": null,
+    "size": 12438,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 46680358,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  },
+  "name": "gobenchui-gui",
+  "productName": "Gobenchui GUI",
+  "version": "1.0.0",
+  "description": "GUI for gobenchui",
+  "main": "src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walle/gobenchui-gui.git"
+  },
+  "keywords": [
+    "Electron",
+    "gobenchui"
+  ],
+  "author": "Fredrik Wallgren",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/walle/gobenchui-gui/issues"
+  },
+  "homepage": "https://github.com/walle/gobenchui-gui#readme",
+  "devDependencies": {
+    "rimraf": "^2.3.3",
+    "shelljs": "^0.4.0",
+    "electron-packager": "^5.0.2",
+    "electron-prebuilt": "^0.34.0"
+  },
+  "scripts": {
+    "start": "electron src/main.js"
+  }
+}

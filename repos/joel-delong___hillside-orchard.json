@@ -1,0 +1,54 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "joel-delong/hillside-orchard",
+    "description": "Hillside Orchard website created with Angular and Node js",
+    "fork": false,
+    "created_at": "2015-07-05T06:24:48.000Z",
+    "updated_at": "2016-03-11T19:26:46.250Z",
+    "pushed_at": "2015-08-12T19:20:11.000Z",
+    "homepage": null,
+    "size": 38684,
+    "stargazers_count": 0,
+    "language": "CSS",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 38559205,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  },
+  "name": "hillside-orchard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . MyApp --platform=darwin,win32 --arch=all --version=0.30.0 --overwrite"
+  },
+  "author": "Joel DeLong",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.58.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.1",
+    "electron-prebuilt": "^0.30.0"
+  }
+}

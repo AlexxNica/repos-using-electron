@@ -1,0 +1,86 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "wojtkowiak/meteor-desktop-splash-screen",
+    "description": "A nice splash screen for you Meteor app on desktop!",
+    "fork": false,
+    "created_at": "2016-05-30T21:33:21.000Z",
+    "updated_at": "2016-06-07T21:06:39.877Z",
+    "pushed_at": "2016-06-07T21:06:14.000Z",
+    "homepage": "",
+    "size": 194,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 60040117,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-06-07T21:06:39.855Z",
+    "rank": null
+  },
+  "name": "meteor-desktop-splash-screen",
+  "version": "0.0.20",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "description": "Meteor Desktop splash screen plugin.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npm run build && ava test/functional/**/*.js --source dist/**/* --verbose -s",
+    "test-watch": "npm run build && ava test/functional/**/*.js --source dist/**/* --watch --verbose -s",
+    "prepublish": "npm run build",
+    "build": "babel src --out-dir dist --source-maps inline --copy-files",
+    "build-watch": "babel src --watch --out-dir dist --source-maps inline --copy-files"
+  },
+  "author": "Bartosz Wojtkowiak <bartosz@wojtkowiak.it>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.10.4",
+    "babel-eslint": "^6.1.0",
+    "babel-preset-node6": "^11.0.0",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-import": "^1.9.2",
+    "spectron": "^3.2.3",
+    "shelljs": "^0.7.0",
+    "electron-packager": "^7.1.0",
+    "electron-prebuilt": "^1.2.5",
+    "node-resemble-js": "^0.0.5",
+    "meteor-desktop-plugin-test-suite": "0.0.7"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wojtkowiak/meteor-electron-desktop-client"
+  },
+  "keywords": [
+    "electron",
+    "meteor",
+    "packager",
+    "desktop",
+    "splash",
+    "splashscreen"
+  ],
+  "bugs": {
+    "url": "https://github.com/wojtkowiak/meteor-electron-desktop-client/issues"
+  },
+  "homepage": "https://github.com/wojtkowiak/meteor-electron-desktop-client"
+}
