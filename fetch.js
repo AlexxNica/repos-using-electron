@@ -1,6 +1,7 @@
 require('dotenv').load()
 
 const fs = require('fs')
+const path = require('path')
 const request = require('request')
 const RateLimiter = require('limiter').RateLimiter
 const librariesLimiter = new RateLimiter(1, 1000)
@@ -18,13 +19,14 @@ function downloadPackageJSONFiles () {
         // ignore 404s
         if (err || !repos || repos.error || !Array.isArray(repos)) return
 
-        repos.forEach(function (repoData) {
-          console.log(repoData.full_name)
+        repos.forEach(function (repo) {
+          console.log(repo.full_name)
           githubLimiter.removeTokens(1, function () {
-            getPackageJSON(repoData.full_name, function (err, pkg) {
+            getPackageJSON(repo.full_name, function (err, pkg) {
               if (err) throw err
-              console.log('  ' + repoData.full_name)
-              pkg._librariesioMetadata = repoData
+              pkg._librariesioMetadata = repo
+              let filename = path.join(__dirname, 'repos', `${repo.full_name.replace('/', '___')}.json`)
+              console.log('  ' + filename)
               fs.writeFileSync(filename, JSON.stringify(pkg, null, 2))
             })
           })
