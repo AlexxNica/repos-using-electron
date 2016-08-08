@@ -33,5 +33,76 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "WhatsApp-Desktop-Unofficial",
+  "productName": "WhatsApp-Desktop-Unofficial",
+  "version": "1.0.0",
+  "description": "Unofficial WhatsApp app",
+  "license": "MIT",
+  "repository": "JanBN/WhatsApp-Desktop-Unofficial",
+  "author": {
+    "name": "Jan Pivarcek",
+    "email": "jan.pivarcek@blowingnose.com",
+    "url": "http://blowingnose.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "electronVersion": "0.36.3",
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "npm run build-osx && npm run build-linux && npm run build-windows",
+    "build-osx": "electron-packager . --overwrite --out=dist --ignore='^/dist$' --prune --platform=darwin --arch=x64 --icon=media/logo.icns ",
+    "build-mas": "electron-packager . --overwrite --out=dist --ignore='^/dist$' --prune --platform=mas    --arch=x64 --icon=media/logo.icns ",
+    "build-linux": "electron-packager . --overwrite --out=dist --ignore='^/dist$' --prune --platform=linux  --arch=x64  ",
+    "build-windows": "electron-packager . --overwrite --out=dist --ignore='^/dist$' --prune --platform=win32  --arch=ia32 --icon=media/logo.ico "
+  },
+  "files": [
+    "index.js",
+    "menu.js",
+    "media/logo.icns",
+    "media/logo-tray.png",
+    "media/logo-tray-white.png",
+    "media/logo-tray-blue.png"
+  ],
+  "keywords": [
+    "electron-app",
+    "WhatsApp",
+    "messenger",
+    "chat",
+    "instant",
+    "messaging",
+    "WhatsDesktop"
+  ],
+  "dependencies": {
+    "electron-debug": "^0.2.1",
+    "electron-packager": "^5.2.1",
+    "electron-window-state": "^2.0.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.1.0",
+    "electron-prebuilt": "^0.36.2",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ],
+    "ignores": [
+      "dist/**"
+    ],
+    "space": true,
+    "rules": {
+      "brace-style": [
+        2,
+        "1tbs",
+        {
+          "allowSingleLine": true
+        }
+      ]
+    }
   }
 }

@@ -33,5 +33,42 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "chartbuilder-electron",
+  "productName": "Chartbuilder",
+  "version": "0.2.1",
+  "description": "A desktop version of Quartz's Chartbuilder app.",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "mhkeller/chartbuilder-electron",
+  "author": {
+    "name": "mhkeller",
+    "email": "michael.keller@gmail.com",
+    "url": "github.com/mhkeller"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "init": "npm install && cd ./node_modules/chartbuilder && npm install && npm run build && cd ../.. && ./init.js",
+    "build": "electron-packager . Chartbuilder --out=dist --overwrite --ignore=dist --prune --asar --all --version=0.29.2  --icon='assets/chartbuilder.icns'"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app"
+  ],
+  "dependencies": {
+    "chartbuilder": "ajam/chartbuilder#19723c6c43e3c889b5b1ae1b98250caf07b93b27",
+    "cheerio": "^0.19.0",
+    "electron-debug": "^0.1.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.29.2"
   }
 }

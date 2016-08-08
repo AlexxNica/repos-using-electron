@@ -33,5 +33,20 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "electron-1024",
+  "version": "1.0.0",
+  "description": "A 1024 Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "keywords": [
+    "Electron",
+    "1024"
+  ],
+  "author": "yangxu",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
   }
 }

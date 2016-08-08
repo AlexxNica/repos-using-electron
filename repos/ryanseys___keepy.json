@@ -33,5 +33,27 @@
     "status": null,
     "last_synced_at": "2016-04-11T00:50:22.737Z",
     "rank": null
+  },
+  "name": "keepy",
+  "version": "1.0.0",
+  "description": "A cute little write-only Google Keep app",
+  "main": "keepy.js",
+  "productName": "Keepy",
+  "scripts": {
+    "start": "electron keepy.js",
+    "build-osx": "electron-packager . --out=builds --platform=darwin --arch=x64 --icon=icons/keep.icns --app-category-type=public.app-category.productivity",
+    "build-win": "electron-packager . --out=builds --platform=win --arch=all --icon=icons/keep.ico",
+    "build-lin": "electron-packager . --out=builds --platform=linux --arch=all"
+  },
+  "keywords": [
+    "google",
+    "keep",
+    "simple"
+  ],
+  "author": "Ryan Seys",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "electron-packager": "^6.0.2",
+    "electron-prebuilt": "^0.37.5"
   }
 }

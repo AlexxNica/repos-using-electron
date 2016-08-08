@@ -33,5 +33,28 @@
     "status": null,
     "last_synced_at": "2016-05-27T03:05:07.518Z",
     "rank": null
+  },
+  "name": "ElectronIn15",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "lib/main.js",
+  "scripts": {
+    "start": "electron lib/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanekotic/ElectronIn15.git"
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "author": "kanekotic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kanekotic/ElectronIn15/issues"
+  },
+  "homepage": "https://github.com/kanekotic/ElectronIn15#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.1.3"
   }
 }

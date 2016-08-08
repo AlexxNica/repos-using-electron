@@ -33,5 +33,40 @@
     "status": null,
     "last_synced_at": "2016-07-08T16:25:24.997Z",
     "rank": null
+  },
+  "name": "digital-brain",
+  "version": "0.0.1",
+  "description": "Brain visualization app for creative thinking",
+  "main": "_main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksey-leontiev/digital-brain.git"
+  },
+  "keywords": [
+    "brain",
+    "mindmap",
+    "creative",
+    "thinking"
+  ],
+  "author": "Aleksey Leontiev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleksey-leontiev/digital-brain/issues"
+  },
+  "homepage": "https://github.com/aleksey-leontiev/digital-brain#readme",
+  "devDependencies": {
+    "electron-packager": "^5.1.1",
+    "electron-prebuilt": "^0.34.1"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "jsonfile": "^2.2.3",
+    "merge": "^1.2.0",
+    "pouchdb": "^5.0.0",
+    "shortid": "^2.2.4",
+    "underscore": "^1.8.3"
   }
 }

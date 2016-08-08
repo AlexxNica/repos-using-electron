@@ -33,5 +33,32 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "colorspace",
+  "version": "1.0.0",
+  "description": "color sequences",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "build": "webpack -p --progress",
+    "dev": "webpack --progress --color --watch & electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:destructured/colorspace.git"
+  },
+  "author": "Jen",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "css-loader": "^0.23.0",
+    "electron-prebuilt": "^0.36.0",
+    "electron-rebuild": "^1.1.2",
+    "file-loader": "^0.8.5",
+    "image-webpack-loader": "^1.6.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9"
   }
 }

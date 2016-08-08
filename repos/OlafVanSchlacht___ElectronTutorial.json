@@ -33,5 +33,25 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "electron-app",
+  "version": "0.0.1",
+  "description": "A tutprial app for learning electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlafVanSchlacht/ElectronTutorial.git"
+  },
+  "author": "Julian Biermann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OlafVanSchlacht/ElectronTutorial/issues"
+  },
+  "homepage": "https://github.com/OlafVanSchlacht/ElectronTutorial#readme",
+  "dependencies": {
+    "electron-prebuilt": "^0.37.2"
   }
 }

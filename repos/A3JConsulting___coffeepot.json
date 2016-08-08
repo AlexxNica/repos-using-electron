@@ -33,5 +33,22 @@
     "status": null,
     "last_synced_at": "2016-06-21T07:10:19.334Z",
     "rank": null
+  },
+  "name": "coffepot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "ava tests/*.js --watch --verbose",
+    "start": "electron ./src/app/index.js",
+    "pack": "electron-packager ./src/app/ Coffeepot --platform=darwin --arch=x64 --version=0.35.6 --icon=./src/app/lib/assets/coffee_icon.icns"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "electron-packager": "^5.2.1",
+    "electron-prebuilt": "^0.36.5",
+    "gulp": "^3.9.0"
   }
 }

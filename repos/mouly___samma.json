@@ -1,0 +1,65 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "mouly/samma",
+    "description": "",
+    "fork": false,
+    "created_at": "2015-08-09T23:24:42.000Z",
+    "updated_at": "2016-05-27T13:45:23.830Z",
+    "pushed_at": "2015-08-10T02:57:37.000Z",
+    "homepage": null,
+    "size": 232,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 40454001,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-27T13:45:23.806Z",
+    "rank": null
+  },
+  "name": "samma",
+  "version": "0.0.1",
+  "description": "A wiser timer",
+  "main": "main.js",
+  "dependencies": {
+    "angular": "^1.4.3",
+    "angular-timer": "^1.2.0",
+    "electron-debug": "^0.1.1",
+    "menubar": "^2.0.17"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.1",
+    "electron-prebuilt": "0.30.3"
+  },
+  "scripts": {
+    "build": "electron-packager . samma --platform=darwin --arch=x64 --version=0.30.3 --ignore=node_modules/electron --icon=Icon.icns",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mouly/samma.git"
+  },
+  "author": "mouly kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mouly/samma/issues"
+  },
+  "homepage": "https://github.com/mouly/samma"
+}

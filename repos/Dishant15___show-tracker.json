@@ -33,5 +33,23 @@
     "status": null,
     "last_synced_at": "2016-05-27T18:29:07.284Z",
     "rank": null
+  },
+  "name": "newapp",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./bin/www",
+  "scripts": {
+    "start": "electron ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "body-parser": "~1.13.2",
+    "cheerio": "^0.20.0",
+    "cookie-parser": "~1.3.5",
+    "electron-prebuilt": "^0.37.7",
+    "express": "~4.13.1",
+    "nedb": "^1.8.0",
+    "pug": "latest",
+    "request": "^2.72.0"
   }
 }

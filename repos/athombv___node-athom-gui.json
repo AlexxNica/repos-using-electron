@@ -33,5 +33,60 @@
     "status": null,
     "last_synced_at": "2016-05-18T16:31:46.282Z",
     "rank": null
+  },
+  "version": "0.1.12",
+  "name": "athom-gui",
+  "productName": "Homey",
+  "description": "Homey Desktop Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "lint": "eslint --fix .",
+    "clean": "rm -rf out",
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "sign-exe": "signcode ./out/Homey-win32-ia32/Homey.exe --cert $ATHOM_GUI_CERT_LOCATION --prompt --name 'Homey' --url 'https://www.athom.com'",
+    "sign-installer": "signcode ./out/windows-installer/HomeySetup.exe --cert $ATHOM_GUI_CERT_LOCATION --prompt --name 'Homey' --url 'https://www.athom.com'",
+    "pack-mac": "electron-packager . --asar --overwrite --platform=darwin --arch=x64 --app-version=$npm_package_version --icon=assets/app-icon/Homey.icns --prune=true --out=out --app-bundle-id=com.athom.gui --app-category-type=public.app-category.productivity --osx-sign.identity='3rd Party Mac Developer Application: Athom B.V. (UMR24L9Q8W)'",
+    "pack-win": "electron-packager . Homey --asar  --overwrite --platform=win32 --arch=ia32 --app-version=$npm_package_version --icon=assets/app-icon/Homey.ico --prune=true --out=out --version-string.CompanyName='Athom B.V.' --version-string.FileDescription='Homey' --version-string.ProductName='Homey'",
+    "pack-linux": "electron-packager . --asar --overwrite --platform=linux --arch=x64 --app-version=$npm_package_version --icon=assets/app-icon/png/72.png --prune=true --out=out",
+    "package": "npm run pack-mac && npm run pack-win",
+    "installer": "node ./script/installer.js",
+    "prepare-release": "npm run package && npm run installer",
+    "release": "node ./script/release.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athombv/node-athom-gui.git"
+  },
+  "keywords": [
+    "Homey"
+  ],
+  "author": "Athom B.V.",
+  "contributors": [
+    {
+      "name": "Matjaz Lipus"
+    }
+  ],
+  "homepage": "https://github.com/athombv/node-athom-gui#readme",
+  "devDependencies": {
+    "devtron": "^1.0.0",
+    "electron-installer-dmg": "^0.1.1",
+    "electron-packager": "^7.0.1",
+    "electron-prebuilt": "~1.2.5",
+    "electron-winstaller": "^2.2.0",
+    "eslint": "^2.13.1",
+    "eslint-config-athom": "0.0.3",
+    "mocha": "^2.3.4",
+    "request": "^2.70.0",
+    "rimraf": "^2.5.2",
+    "signcode": "^0.5.0",
+    "spectron": "~3.2.3"
+  },
+  "private": true,
+  "standard": {
+    "env": {
+      "mocha": true
+    }
   }
 }

@@ -33,5 +33,26 @@
     "status": null,
     "last_synced_at": "2016-05-28T01:30:01.774Z",
     "rank": null
+  },
+  "name": "electron-io",
+  "version": "1.0.0",
+  "description": "Build desktop app using electron",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgurdzhian/electron-io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgurdzhian/electron-io/issues"
+  },
+  "homepage": "https://github.com/rgurdzhian/electron-io#readme",
+  "dependencies": {
+    "electron-prebuilt": "^0.33.6"
   }
 }

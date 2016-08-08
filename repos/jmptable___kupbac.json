@@ -33,5 +33,17 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "kupbac",
+  "version": "1.0.0",
+  "description": "Visually compare directory structures.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "author": "Owen Trueblood",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
   }
 }

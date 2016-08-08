@@ -1,0 +1,96 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "aguai/listen1_desktop",
+    "description": "one for all free music in china (Windows, Mac, Linux desktop)",
+    "fork": true,
+    "created_at": "2016-07-20T14:42:29.000Z",
+    "updated_at": "2016-07-21T03:04:35.876Z",
+    "pushed_at": "2016-05-29T02:51:51.000Z",
+    "homepage": "http://listen1.github.io/listen1",
+    "size": 93,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 63789232,
+    "source_name": "listen1/listen1_desktop",
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE.md",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-07-21T03:04:35.828Z",
+    "rank": null
+  },
+  "name": "Listen1",
+  "version": "1.2.0",
+  "description": "One for all free music in China",
+  "main": "app/main.js",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "electron ./app --enable-logging",
+    "dev": "NODE_ENV='development' npm run start",
+    "dist": "build --platform win32 --platform darwin --platform linux --arch all",
+    "dist:osx": "build --platform darwin",
+    "dist:win32": "build --platform win32 --arch ia32",
+    "dist:win64": "build --platform win32 --arch x64",
+    "dist:linux32": "build --platform linux --arch ia32",
+    "dist:linux64": "build --platform linux --arch x64"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/listen1/listen1_desktop.git"
+  },
+  "keywords": [
+    "Electron",
+    "Listen 1"
+  ],
+  "author": "Listen 1 <githublisten1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/listen1/listen1_desktop/issues"
+  },
+  "homepage": "https://github.com/listen1/listen1_desktop#readme",
+  "devDependencies": {
+    "electron-builder": "^3.24.0",
+    "electron-prebuilt": "^1.0.1"
+  },
+  "build": {
+    "app-bundle-id": "com.listen1.listen1",
+    "app-category-type": "public.app-category.productivity",
+    "iconUrl": "https://github.com/listen1/listen1_chrome_extension/raw/master/images/logo.png",
+    "osx": {
+      "title": "Listen 1",
+      "icon": "build/disk.icns",
+      "background": "build/background.png",
+      "icon-size": 80,
+      "contents": [
+        {
+          "x": 448,
+          "y": 344,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 192,
+          "y": 344,
+          "type": "file",
+          "path": "computed path to artifact, do not specify it - will be overwritten"
+        }
+      ]
+    },
+    "win": {}
+  }
+}

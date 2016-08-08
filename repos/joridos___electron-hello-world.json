@@ -33,5 +33,36 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "electron-hello-world",
+  "productName": "ElectronHelloWorld",
+  "version": "0.0.0",
+  "description": "My terrific app",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "joridos/electron-hello-world",
+  "author": {
+    "name": "Joridos",
+    "email": "joridoss@gmail.com",
+    "url": "joridos.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . $npm_package_productName --prune --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app"
+  ],
+  "devDependencies": {
+    "electron-packager": "^3.1.0",
+    "electron-prebuilt": "^0.25.1"
   }
 }

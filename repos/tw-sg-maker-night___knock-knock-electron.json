@@ -33,5 +33,23 @@
     "status": null,
     "last_synced_at": "2016-07-12T13:45:54.537Z",
     "rank": null
+  },
+  "name": "knock-knock-app",
+  "version": "1.0.0",
+  "description": "knock-knock electron app",
+  "dependencies": {
+    "aws-iot-device-sdk": "^1.0.12",
+    "aws-sdk": "^2.4.9",
+    "electron-json-storage": "^2.0.0",
+    "menubar": "^5.1.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.2.0",
+    "electron-prebuilt": "^1.2.5"
+  },
+  "main": "main2.js",
+  "scripts": {
+    "build": "./node_modules/.bin/electron-packager . knock-knock --platform=darwin --arch=x64 --icon=Icon.icns --ignore=node_modules/dev-dependency",
+    "start": "electron ."
   }
 }

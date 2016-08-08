@@ -33,5 +33,30 @@
     "status": null,
     "last_synced_at": "2016-06-22T18:05:45.398Z",
     "rank": null
+  },
+  "name": "quickslot",
+  "version": "0.0.3",
+  "description": "A GUI shortcut for your npm scripts",
+  "main": "lib/entryMain.js",
+  "bin": {
+    "quickslot": "./lib/bin.js"
+  },
+  "scripts": {
+    "start": "electron lib/entryMain.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sillero/quickslot.git"
+  },
+  "keywords": [
+    "Electron",
+    "npm",
+    "scripts"
+  ],
+  "author": "Gustavo Sillero <gustavo@sille.ro>",
+  "license": "MIT",
+  "dependencies": {
+    "electron-prebuilt": "^1.2.0",
+    "reify": "^0.3.3"
   }
 }

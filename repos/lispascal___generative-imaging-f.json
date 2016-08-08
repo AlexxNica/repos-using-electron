@@ -33,5 +33,31 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "generative-imaging-f",
+  "version": "0.1.0",
+  "description": "A Generative Imaging Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lispascal/generative-imaging-f.git"
+  },
+  "keywords": [
+    "Electron",
+    "generative",
+    "imaging",
+    "Conway's Game Of Life",
+    "art"
+  ],
+  "author": "lispascal",
+  "bugs": {
+    "url": "https://github.com/lispascal/generative-imaging-f/issues"
+  },
+  "homepage": "https://github.com/lispascal",
+  "devDependencies": {
+    "electron-prebuilt": "^0.35.0"
   }
 }

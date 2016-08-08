@@ -1,0 +1,57 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "wodog/wodog-translate",
+    "description": "小狗翻译",
+    "fork": false,
+    "created_at": "2016-04-13T09:00:51.000Z",
+    "updated_at": "2016-05-27T21:23:31.997Z",
+    "pushed_at": "2016-04-18T06:31:56.000Z",
+    "homepage": "",
+    "size": 914,
+    "stargazers_count": 0,
+    "language": "HTML",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 56136812,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-27T21:23:31.977Z",
+    "rank": null
+  },
+  "name": "electron-translate",
+  "productName": "小狗翻译",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build-windows": "electron-packager ./ --platform win32 --arch x64",
+    "build-mac": "electron-packager . --platform darwin --arch x64"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.71.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^6.0.2",
+    "electron-prebuilt": "^0.37.5"
+  }
+}

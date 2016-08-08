@@ -33,5 +33,21 @@
     "status": null,
     "last_synced_at": "2016-05-27T12:58:41.091Z",
     "rank": null
+  },
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "install-app-deps",
+    "dist": "build --platform=win32 --arch=ia32"
+  },
+  "build": {
+    "app-bundle-id": "vk.music.player",
+    "app-category-type": "public.app-category.developer-tools",
+    "compression": "maximum"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "electron-builder": "^3.5.2",
+    "electron-prebuilt": "^1.0.1"
   }
 }

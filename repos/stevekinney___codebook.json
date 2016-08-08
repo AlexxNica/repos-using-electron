@@ -33,5 +33,36 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "hackleberry",
+  "version": "0.0.1",
+  "description": "An Electron-powered Markdown viewer that can execute code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevekinney/hackleberry.git"
+  },
+  "keywords": [
+    "electron",
+    "markdown"
+  ],
+  "author": "Steve Kinney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevekinney/hackleberry/issues"
+  },
+  "homepage": "https://github.com/stevekinney/hackleberry#readme",
+  "devDependencies": {
+    "electron-compile": "^1.0.1",
+    "electron-compilers": "^1.0.1",
+    "electron-prebuilt": "^0.34.3",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "marked": "^0.3.5"
   }
 }

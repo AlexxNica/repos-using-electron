@@ -33,5 +33,41 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
-  }
+  },
+  "name": "gitkit-widgets",
+  "version": "0.1.1",
+  "description": "Convenience library for initializing Google Identity Toolkit widgets",
+  "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com)",
+  "contributors": [],
+  "repository": "iceddev/gitkit-widgets",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "index.js",
+    "lib"
+  ],
+  "scripts": {
+    "test": "zuul test/**/*.js --electron"
+  },
+  "dependencies": {
+    "load-script": "^1.0.0",
+    "loads-css": "^1.0.0",
+    "lodash": "^3.9.3"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.28.1",
+    "expect": "^1.6.0",
+    "mocha": "^2.2.5",
+    "zuul": "^3.0.0"
+  },
+  "keywords": [
+    "gitkit",
+    "login",
+    "ui",
+    "widget"
+  ]
 }

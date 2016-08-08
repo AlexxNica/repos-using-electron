@@ -33,5 +33,33 @@
     "status": null,
     "last_synced_at": "2016-05-05T09:47:59.714Z",
     "rank": null
+  },
+  "name": "mReader",
+  "productName": "mReader",
+  "version": "0.1.0",
+  "description": "Open source comic/ebook reader",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrkovec/mReader.git"
+  },
+  "main": "./src/app/init.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "material-ui": "^0.15.0",
+    "pdfjs-dist": "^1.5.278",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-tap-event-plugin": "^1.0.0",
+    "xml2js": "^0.4.16"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
   }
 }

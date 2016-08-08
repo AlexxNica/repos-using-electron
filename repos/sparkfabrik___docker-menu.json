@@ -33,5 +33,34 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "docker-menu",
+  "version": "0.3.0",
+  "private": true,
+  "main": "main.js",
+  "engines": {
+    "node": "4.x"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "standard",
+    "grunt": "grunt"
+  },
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "fix-path": "^1.1.0",
+    "dockerode": "^2.2.3",
+    "lodash": "^3.10.0",
+    "parse-columns": "^1.2.0"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.34.1",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-electron": "^2.0.1",
+    "load-grunt-tasks": "^3.3.0",
+    "standard": "^5.3.1"
   }
 }

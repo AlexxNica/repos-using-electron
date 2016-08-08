@@ -33,5 +33,37 @@
     "status": null,
     "last_synced_at": "2016-05-28T06:50:17.022Z",
     "rank": null
+  },
+  "name": "epdphoto-spider",
+  "version": "0.0.2",
+  "description": "grab photo at epdphoto",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "server": "browser-sync start --server --files=\"*.html, css/**, js/**\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhenyong/epdphoto-spider.git"
+  },
+  "keywords": [
+    "epdphoto",
+    "spider",
+    "grab",
+    "photo"
+  ],
+  "author": "zhenyong (116982086@qq.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhenyong/epdphoto-spider/issues"
+  },
+  "homepage": "https://github.com/zhenyong/epdphoto-spider#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "electron-prebuilt": "^0.37.3"
+  },
+  "dependencies": {
+    "request": "^2.69.0"
   }
 }

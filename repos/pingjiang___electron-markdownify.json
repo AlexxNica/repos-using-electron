@@ -1,0 +1,84 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "pingjiang/electron-markdownify",
+    "description": "A minimal Markdown editor desktop app based on Electron",
+    "fork": true,
+    "created_at": "2016-07-02T03:27:11.000Z",
+    "updated_at": "2016-07-03T03:08:14.863Z",
+    "pushed_at": "2016-06-12T18:13:43.000Z",
+    "homepage": "http://www.amitmerchant.com/electron-markdownify",
+    "size": 8481,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 62432132,
+    "source_name": "amitmerchant1990/electron-markdownify",
+    "license": null,
+    "private": false,
+    "github_contributions_count": 3,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE.md",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-07-03T03:08:14.572Z",
+    "rank": null
+  },
+  "name": "electron-markdownify",
+  "version": "1.1.6",
+  "description": "A minimalist Markdown Editor",
+  "main": "main.js",
+  "productName": "Markdownify",
+  "scripts": {
+    "start": "electron main.js",
+    "build": "rm -rf dist && gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitmerchant1990/markdownify.git",
+    "docs": "https://github.com/amitmerchant1990/electron-markdownify/blob/master/README.md"
+  },
+  "keywords": [
+    "electron",
+    "markdown",
+    "plain",
+    "node",
+    "minimal",
+    "editor",
+    "preview",
+    "html",
+    "desktop"
+  ],
+  "author": "Amit Merchant <bullredeyes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amitmerchant1990/markdownify/issues"
+  },
+  "homepage": "https://github.com/amitmerchant1990/markdownify#readme",
+  "_npmUser": {
+    "name": "amit_merchant",
+    "email": "bullredeyes@gmail.com"
+  },
+  "devDependencies": {
+    "devtron": "^1.1.2",
+    "electron-packager": "^7.0.3",
+    "electron-prebuilt": "^0.36.12",
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "electron-editor-context-menu": "^1.1.1",
+    "showdown": "^1.3.0",
+    "electron-json-storage": "latest",
+    "parse-filepath": "latest"
+  }
+}

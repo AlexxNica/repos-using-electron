@@ -33,5 +33,21 @@
     "status": null,
     "last_synced_at": "2016-06-28T05:13:08.322Z",
     "rank": null
+  },
+  "name": "blazeShot",
+  "private": true,
+  "version": "0.0.11b",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron ."
+  },
+  "dependencies": {
+    "auto-launch": "^2.0.1",
+    "node-notifier": "^4.6.0",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.0.2",
+    "electron-prebuilt": "^1.2.0"
   }
 }

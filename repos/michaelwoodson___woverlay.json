@@ -1,0 +1,72 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "michaelwoodson/woverlay",
+    "description": "WebRTC based overlay network.",
+    "fork": false,
+    "created_at": "2016-04-27T13:37:18.000Z",
+    "updated_at": "2016-07-25T14:15:14.401Z",
+    "pushed_at": "2016-07-01T12:15:31.000Z",
+    "homepage": null,
+    "size": 122,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 57216056,
+    "source_name": null,
+    "license": "ISC",
+    "private": false,
+    "github_contributions_count": 0,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-07-25T14:15:14.380Z",
+    "rank": null
+  },
+  "name": "woverlay",
+  "version": "0.0.13",
+  "description": "WebRTC based overlay network.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelwoodson/woverlay.git"
+  },
+  "keywords": [
+    "webrtc",
+    "overlay"
+  ],
+  "author": "Michael Woodson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelwoodson/woverlay/issues"
+  },
+  "dependencies": {
+    "big-integer": "1.6.15",
+    "compression": "1.6.2",
+    "crypto-js": "3.1.6",
+    "express": "4.14.0",
+    "node-rsa": "0.4.0",
+    "ws": "1.1.1"
+  },
+  "devDependencies": {
+    "browserify": "13.0.1",
+    "electron-prebuilt": "1.2.5",
+    "tape": "4.6.0",
+    "tape-run": "2.1.4"
+  },
+  "homepage": "https://github.com/michaelwoodson/woverlay#readme"
+}

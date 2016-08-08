@@ -33,5 +33,39 @@
     "status": null,
     "last_synced_at": "2016-06-23T17:44:52.420Z",
     "rank": null
-  }
+  },
+  "name": "hadron-ipc",
+  "description": "Simplified IPC for electron apps.",
+  "version": "0.0.8",
+  "scripts": {
+    "fmt": "mongodb-js-fmt",
+    "check": "mongodb-js-precommit",
+    "test": "xvfb-maybe electron-mocha",
+    "ci": "npm run check && npm test"
+  },
+  "dependency-check": {
+    "ignore": [
+      "electron"
+    ]
+  },
+  "homepage": "http://github.com/mongodb-js/hadron-ipc",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mongodb-js/hadron-ipc.git"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "is-electron-renderer": "^2.0.0",
+    "is-promise": "^2.1.0",
+    "lodash": "^4.11.1"
+  },
+  "devDependencies": {
+    "electron-mocha": "^1.2.0",
+    "electron-prebuilt": "^0.37.5",
+    "eslint-config-mongodb-js": "^1.0.6",
+    "mongodb-js-fmt": "^0.0.3",
+    "mongodb-js-precommit": "^0.2.8",
+    "xvfb-maybe": "^0.1.3"
+  },
+  "license": "Apache-2.0"
 }

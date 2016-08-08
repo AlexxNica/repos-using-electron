@@ -1,0 +1,62 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "hinnerkoetting/tunein-recorder",
+    "description": "",
+    "fork": false,
+    "created_at": "2016-06-05T15:46:48.000Z",
+    "updated_at": "2016-06-28T16:46:46.348Z",
+    "pushed_at": "2016-06-28T16:46:43.000Z",
+    "homepage": null,
+    "size": 43,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 60467735,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-06-17T17:57:08.836Z",
+    "rank": null
+  },
+  "name": "tunein-recorder",
+  "version": "0.4.0",
+  "description": "Record tune-in radios",
+  "main": "main.js",
+  "scripts": {
+    "clean": "rimraf target",
+    "start": "cd app && npm start",
+    "build": "cd app && npm run build",
+    "release-zip-packager": "cd app && npm run release && cd .. && electron-zip-packager app --all --out=target/",
+    "release-mac": "rimraf target/tunein-recorder-app-darwin-x64.zip && zip -r -y target/tunein-recorder-app-darwin-x64.zip target/tunein-recorder-app-darwin-x64",
+    "release": "npm run clean && npm install && npm run release-zip-packager && npm run release-mac",
+    "debug": "cd app && npm run debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hinnerkoetting/tunein-recorder/"
+  },
+  "author": "Hinnerk Oetting",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-packager": "^7.0.4",
+    "electron-prebuilt": "^1.2.3",
+    "electron-zip-packager": "1.0.4",
+    "rimraf": "^2.5.2"
+  }
+}

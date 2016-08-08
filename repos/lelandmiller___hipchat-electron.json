@@ -33,5 +33,25 @@
     "status": null,
     "last_synced_at": "2016-04-18T22:36:59.294Z",
     "rank": null
+  },
+  "name": "hipchat-electron",
+  "version": "0.1.0",
+  "description": "An electron wrapper for the HipChat web client",
+  "main": "src/main.js",
+  "repository": "lelandmiller/hipchat-electron",
+  "scripts": {
+    "start": "node index.js",
+    "build": "electron-packager . hipchat-electron --platform=linux --arch=x64 --version=0.36.1 --out=build"
+  },
+  "bin": {
+    "hipchat-electron": "index.js"
+  },
+  "author": "Leland Miller",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "electron-prebuilt": "^0.36.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.2.0"
   }
 }

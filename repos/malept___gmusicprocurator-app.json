@@ -33,5 +33,25 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "gmusicprocurator-app",
+  "productName": "GMusicProcurator",
+  "version": "0.0.1",
+  "description": "Desktop integration app for GMusicProcurator",
+  "repository": "malept/gmusicprocurator-app",
+  "homepage": "https://github.com/malept/gmusicprocurator-app#readme",
+  "author": "Mark Lee",
+  "license": "GPL-3.0+",
+  "main": "src/main.js",
+  "private": true,
+  "devDependencies": {
+    "coffee-script": "^1.9.2",
+    "coffeelint": "^1.10.0",
+    "electron-builder": "^2.0.2",
+    "electron-packager": "^5.2.0, >= 5.2.1",
+    "electron-prebuilt": "^0.36.0"
+  },
+  "engines": {
+    "node": ">=4.0"
   }
 }

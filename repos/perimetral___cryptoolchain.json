@@ -33,5 +33,24 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "cryptoolchain",
+  "version": "0.0.33",
+  "private": true,
+  "description": "Encrypted data manager",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron index.js"
+  },
+  "author": "perimetral",
+  "license": "BSD-4-Clause",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.9"
+  },
+  "dependencies": {
+    "fuse-bindings": "^2.8.1",
+    "leveldown": "^1.4.4",
+    "linvodb3": "^3.13.0",
+    "triplesec": "^3.0.25"
   }
 }

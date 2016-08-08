@@ -33,5 +33,49 @@
     "status": null,
     "last_synced_at": "2016-07-18T14:38:05.992Z",
     "rank": null
+  },
+  "name": "porcelain",
+  "productName": "Porcelain",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "repository": "user/repo",
+  "main": "dist/main.js",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "scripts": {
+    "test": "xo",
+    "start": "electron . --enable-transparent-visuals --disable-gpu ",
+    "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all"
+  },
+  "files": [
+    "dist/all.js",
+    "dist/all.css",
+    "dist/index.html"
+  ],
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "dependencies": {
+    "electron-data": "^1.2.0",
+    "electron-debug": "^1.0.0",
+    "lodash-node": "^3.10.2"
+  },
+  "devDependencies": {
+    "devtron": "^1.1.0",
+    "electron-packager": "^7.0.0",
+    "electron-prebuilt": "^1.0.1",
+    "xo": "^0.15.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
   }
 }

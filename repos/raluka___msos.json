@@ -1,0 +1,90 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "raluka/msos",
+    "description": null,
+    "fork": false,
+    "created_at": "2016-07-19T12:45:35.000Z",
+    "updated_at": "2016-07-19T15:17:11.709Z",
+    "pushed_at": "2016-07-19T15:11:58.000Z",
+    "homepage": null,
+    "size": 38578,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 63693143,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-07-19T15:17:11.686Z",
+    "rank": null
+  },
+  "name": "MSOS-app",
+  "version": "0.0.2",
+  "description": "Greatest desktop application since forever",
+  "main": "main.js",
+  "dependencies": {
+    "pretty-bytes": "^2.0.1"
+  },
+  "devDependencies": {
+    "electron-builder": "^5.12.1",
+    "electron-prebuilt": "^0.35.2",
+    "mkdirp": "~0.5.1"
+  },
+  "build": {
+    "appId": "msos.electron",
+    "app-category-type": "public.app-category.productivity",
+    "dmg": {
+      "title": "MS OS App",
+      "background": "build/background.png",
+      "icon": "build/icon.icns",
+      "icon-size": 128,
+      "contents": [
+        {
+          "x": 355,
+          "y": 125,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 155,
+          "y": 125,
+          "type": "file"
+        }
+      ]
+    },
+    "win": {
+      "remoteReleases": "https://github.com/raluka/msos",
+      "iconUrl": "http://eatodo.s3.amazonaws.com/icon.ico"
+    }
+  },
+  "author": "Me and my Team <no-reply@marleyspoon.com>",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "electron ./app --enable-logging",
+    "dev": "NODE_ENV='development' npm run start",
+    "dist": "build -mwl --x64 --ia32",
+    "prerelease:osx": "rimraf release/osx && mkdirp release/osx",
+    "release:osx": "copyfiles -f dist/mac/*.{dmg,zip} release/osx && PACKAGE_VERSION=$(cat app/package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && echo $PACKAGE_VERSION >> ./release/osx/VERSION",
+    "prerelease:win32": "rimraf release/win32 && mkdirp release/win32",
+    "release:win32": "copyfiles -f dist/win-ia32/{RELEASES,*.nupkg,*.exe} release/win32",
+    "prerelease:win64": "rimraf release/win64 && mkdirp release/win64",
+    "release:win64": "copyfiles -f dist/win/{RELEASES,*.nupkg,*.exe} release/win64",
+    "release": "run-p release:*"
+  }
+}

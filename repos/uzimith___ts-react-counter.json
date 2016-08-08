@@ -33,5 +33,44 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
-  }
+  },
+  "name": "ts-react-counter",
+  "version": "1.0.0",
+  "description": "counter",
+  "main": "index.js",
+  "dependencies": {
+    "electron-prebuilt": "^0.35.0",
+    "express": "^4.13.3",
+    "keymirror": "^0.1.1",
+    "pm2": "^0.15.10",
+    "qs": "^6.0.0",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-redux": "^4.0.0",
+    "redux": "^3.0.4",
+    "redux-thunk": "^1.0.0",
+    "serialize-javascript": "^1.1.2",
+    "typescript": "^1.6.2",
+    "validator": "^4.2.1"
+  },
+  "devDependencies": {
+    "babel": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18",
+    "babelify": "^7.2.0",
+    "coffee-script": "^1.10.0",
+    "dtsm": "^0.13.0",
+    "typescript": "^1.6.2",
+    "watchify": "^3.6.1"
+  },
+  "scripts": {
+    "init": "npm install && dtsm install",
+    "dtsm": "dtsm",
+    "watch:tsc": "tsc -w",
+    "watch:client": "watchify -v -t [ babelify ] build/client.js -o \"public/client.js\" -d",
+    "watch:server": "watchify -v -t [ babelify ] build/server.js --im --no-detect-globals --node -o \"public/server.js\" -d",
+    "server:dev": "node public/server.js",
+    "server:pm2": "pm2-dev run public/server.js"
+  },
+  "author": "",
+  "license": "ISC"
 }

@@ -33,5 +33,31 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "duxbot-client",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "devDependencies": {
+    "electron-prebuilt": "^0.34.1",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-ejs-locals": "0.0.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.4.2",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.3.5",
+    "marked": "^0.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Koen Vendrik <koen@duxilio.com>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "say": "^0.6.0"
   }
 }

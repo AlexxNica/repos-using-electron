@@ -33,5 +33,23 @@
     "status": null,
     "last_synced_at": "2016-05-28T06:31:21.140Z",
     "rank": null
+  },
+  "name": "gitpanel",
+  "version": "0.1.0",
+  "description": "Deploy git repos to cpanel",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "engines": {
+    "atom-shell": "0.25.3"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  },
+  "dependencies": {
+    "ftp": "^0.3.10",
+    "simple-git": "^1.21.0",
+    "walk": "^2.3.9"
   }
 }

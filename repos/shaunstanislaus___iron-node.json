@@ -33,5 +33,31 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "iron-node",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "iron-node": "./bin/run.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "electron ./app",
+    "bump": "npm version patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-a/iron-node.git"
+  },
+  "author": "Stephan Ahlf <stephan.ahlf@gmail.com> (https://github.com/s-a)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-a/iron-node/issues"
+  },
+  "homepage": "https://github.com/s-a/iron-node#readme",
+  "dependencies": {
+    "electron-prebuilt": "^0.30.0"
   }
 }

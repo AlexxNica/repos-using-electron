@@ -33,5 +33,36 @@
     "status": null,
     "last_synced_at": "2016-05-04T10:32:05.440Z",
     "rank": null
+  },
+  "name": "indigo-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "node_modules/istanbul/lib/cli.js cover --root test/src _mocha",
+    "start": "electron .",
+    "test": "mocha -s 1500"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robespier/indigo-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robespier/indigo-client/issues"
+  },
+  "homepage": "https://github.com/robespier/indigo-client#readme",
+  "devDependencies": {
+    "asar": "^0.7.2",
+    "electron-prebuilt": "^0.28.3",
+    "grunt": "^0.4.5",
+    "istanbul": "^0.4.0",
+    "lodash": "^3.10.1",
+    "should": "^7.1.1",
+    "xml2js": "^0.4.15"
+  },
+  "dependencies": {
+    "pdftotextjs": "^0.3.1"
   }
 }

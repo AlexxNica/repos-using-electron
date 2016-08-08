@@ -33,5 +33,21 @@
     "status": null,
     "last_synced_at": "2016-06-29T06:44:47.290Z",
     "rank": null
+  },
+  "name": "ProEase",
+  "description": "H5项目工具",
+  "version": "1.0.0",
+  "author": "董佳礼",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack:win": "electron-packager . ProEase --platform=win32 --arch=ia32 --version=0.36.9 --out=./dist/ --ignore=node_modules/electron-*"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.9",
+    "find": "^0.2.4",
+    "mkdirp": "^0.5.1",
+    "electron-packager": "^5.2.1",
+    "escape-string-regexp": "^1.0.5"
   }
 }

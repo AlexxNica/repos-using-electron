@@ -33,5 +33,30 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "MTWTF",
+  "description": "Monash timetable finder / timetable viewer in tray",
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcpower/mtwtf.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "menubar": "^3.0.0",
+    "request": "^2.69.0",
+    "lodash": "^4.3.0",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.0",
+    "dragula": "^3.6.6",
+    "codemirror": "^5.11.0",
+    "fullcalendar": "^2.6.0"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  },
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
   }
 }

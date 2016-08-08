@@ -33,5 +33,35 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "electron-connect",
+  "version": "0.3.5",
+  "description": "Livereload tools for Electron development",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "electron",
+    "livereload",
+    "gulp"
+  ],
+  "homepage": "https://github.com/Quramy/electron-connect",
+  "repository": "https://github.com/Quramy/electron-connect.git",
+  "author": {
+    "name": "Quramy",
+    "email": "yosuke.kurami@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cross-spawn": "^2.1.4",
+    "lodash": "^3.10.1",
+    "tree-kill": "^1.0.0",
+    "ws": "^1.0.1"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.3",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.1.3"
   }
 }

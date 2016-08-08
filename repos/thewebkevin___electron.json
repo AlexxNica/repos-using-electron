@@ -1,0 +1,61 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "thewebkevin/electron",
+    "description": "This is a test",
+    "fork": false,
+    "created_at": "2015-10-07T16:25:43.000Z",
+    "updated_at": "2016-08-07T04:26:12.639Z",
+    "pushed_at": "2015-10-07T16:36:51.000Z",
+    "homepage": null,
+    "size": 596,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 43829145,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-08-07T04:26:12.615Z",
+    "rank": null
+  },
+  "devDependencies": {
+    "asar": "^0.7.2",
+    "electron-prebuilt": "^0.32.2",
+    "fs-jetpack": "^0.7.0",
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "gulp-util": "^3.0.6",
+    "q": "^1.4.1",
+    "rollup": "^0.16.1",
+    "tree-kill": "^0.1.1",
+    "yargs": "^3.15.0"
+  },
+  "optionalDependencies": {
+    "appdmg": "^0.3.2",
+    "rcedit": "^0.3.0"
+  },
+  "scripts": {
+    "postinstall": "node ./tasks/app_npm_install",
+    "app-install": "node ./tasks/app_npm_install",
+    "build": "./node_modules/.bin/gulp build",
+    "release": "./node_modules/.bin/gulp release --env=production",
+    "start": "node ./tasks/start",
+    "test": "node ./tasks/start --env=test"
+  }
+}

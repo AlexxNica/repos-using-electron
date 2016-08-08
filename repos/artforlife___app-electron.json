@@ -33,5 +33,17 @@
     "status": null,
     "last_synced_at": "2016-07-26T16:38:29.060Z",
     "rank": null
+  },
+  "name": "zen-audio-player-electron",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+    "electron-prebuilt": "^1.2.7",
+    "eslint": "^3.1.1"
+  },
+  "scripts": {
+    "lint": "eslint *.js",
+    "pretest": "npm run lint",
+    "start": "electron ."
   }
 }

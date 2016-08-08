@@ -33,5 +33,34 @@
     "status": null,
     "last_synced_at": "2016-06-03T13:00:37.463Z",
     "rank": null
+  },
+  "name": "windowProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/js/main.js",
+  "scripts": {
+    "start": "electron ./main.js",
+    "build-css": "node-sass --include-path scss ./src/scss/main.scss ./src/public/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "watch-js": "nodemon -e js -x \"npm run start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "1.2.0",
+    "eslint": "2.11.1",
+    "eslint-config-airbnb": "9.0.1",
+    "eslint-plugin-import": "1.8.1",
+    "eslint-plugin-jsx-a11y": "1.2.3",
+    "eslint-plugin-react": "5.1.1",
+    "node-sass": "3.7.0",
+    "nodemon": "1.9.2"
+  },
+  "dependencies": {
+    "react": "15.1.0",
+    "react-dom": "15.1.0",
+    "react-redux": "4.4.5",
+    "redux": "3.5.2"
   }
 }

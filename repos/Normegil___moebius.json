@@ -1,0 +1,89 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "Normegil/moebius",
+    "description": "Command-Line tool to find and download comics (As well as NodeJS module)",
+    "fork": false,
+    "created_at": "2015-10-09T14:41:07.000Z",
+    "updated_at": "2016-04-18T20:49:16.348Z",
+    "pushed_at": "2016-01-15T20:22:00.000Z",
+    "homepage": null,
+    "size": 600,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 43961285,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-04-18T20:49:16.327Z",
+    "rank": null
+  },
+  "name": "moebius",
+  "version": "0.1.2",
+  "description": "Command-Line tool to find and download comics (As well as NodeJS module)",
+  "main": "electron.js",
+  "bin": {
+    "moebius": "bin/moebius"
+  },
+  "scripts": {
+    "start": "./bin/./moebius",
+    "unit-test": "node_modules/tape/bin/tape \"test/**/*.js\" | node_modules/faucet/bin/cmd.js",
+    "lint": "node_modules/jshint/bin/jshint bin lib test && node_modules/jscs/bin/jscs -c test/.jscsrc test && node_modules/jscs/bin/jscs -c .jscsrc lib bin",
+    "test": "npm run lint && npm run unit-test",
+    "push": "git push && git push --tags && npm publish",
+    "preversion": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Normegil/moebius.git"
+  },
+  "keywords": [
+    "comics",
+    "download",
+    "manga"
+  ],
+  "author": "Olivier Ory",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Normegil/moebius/issues"
+  },
+  "homepage": "https://github.com/Normegil/moebius#readme",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "jscs": "^2.3.0",
+    "jshint": "^2.8.0",
+    "proxyquire": "^1.7.3",
+    "sinon": "^1.17.1",
+    "tape": "^4.2.1"
+  },
+  "dependencies": {
+    "bunyan": "^1.5.1",
+    "commander": "^2.9.0",
+    "deep-extend": "^0.4.0",
+    "electron-prebuilt": "^0.36.2",
+    "es6-promise-pool": "^2.4.1",
+    "home-or-tmp": "^2.0.0",
+    "materialize-css": "^0.97.5",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.11.0",
+    "request": "^2.65.0",
+    "string-template": "^0.2.1",
+    "terminal-kit": "^0.21.1"
+  }
+}

@@ -33,5 +33,44 @@
     "status": null,
     "last_synced_at": "2016-06-23T11:27:18.267Z",
     "rank": null
+  },
+  "name": "electron-demo",
+  "version": "1.0.0",
+  "description": "Electron with express",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "packager": "electron-packager ./ electron-demo --all --overwrite --out='./packages'"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Electron",
+    "Express",
+    "Homework"
+  ],
+  "author": "lgabster",
+  "license": "MIT",
+  "devDependencies": {
+    "devtron": "^1.2.1",
+    "electron-prebuilt": "^1.2.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "body-parser": "^1.15.1",
+    "bootstrap": "^3.3.6",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.13.0",
+    "handlebars": "^4.0.5",
+    "jquery": "^2.2.4",
+    "lodash": "^4.13.1",
+    "node-notifier": "^4.6.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "request": "^2.72.0"
   }
 }

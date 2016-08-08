@@ -1,0 +1,51 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "ahmadawais/aacom-electron",
+    "description": "AhmadAwais.com app with electron.",
+    "fork": false,
+    "created_at": "2016-05-31T14:37:25.000Z",
+    "updated_at": "2016-06-01T03:06:03.380Z",
+    "pushed_at": "2016-05-31T14:49:33.000Z",
+    "homepage": null,
+    "size": 1,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 60097343,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-06-01T03:06:03.353Z",
+    "rank": null
+  },
+  "name": "aacom",
+  "version": "1.0.0",
+  "description": "AhmadAwais.com app with electron.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ./ AhmadAwais.com --platform=darwin --arch=x64 --version=0.36.7 --ignore=node_modules/electron-*"
+  },
+  "author": "ahmadawais",
+  "license": "GPL-2.0",
+  "devDependencies": {
+    "electron-packager": "",
+    "electron-prebuilt": ""
+  }
+}

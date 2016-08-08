@@ -1,0 +1,57 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "DangelZM/VkontaktDesktop",
+    "description": "",
+    "fork": false,
+    "created_at": "2016-02-04T10:47:19.000Z",
+    "updated_at": "2016-02-29T12:43:22.639Z",
+    "pushed_at": "2016-02-04T11:06:34.000Z",
+    "homepage": null,
+    "size": 54,
+    "stargazers_count": 0,
+    "language": "HTML",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 51069504,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  },
+  "name": "vkdesktop",
+  "version": "0.5.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-packager . VkDesktop --platform=win32 --arch=x64 --version=0.33.3 --out=./Release --overwrite --ignore=Release --icon=./assets/icons/VkDesktop.ico",
+    "build:linux": "electron-packager . VkDesktop --platform=linux --arch=x64 --version=0.33.3 --out=./Release --overwrite --ignore=Release",
+    "build:mac": "electron-packager . VkDesktop --platform=darwin --arch=x64 --version=0.33.3 --out=./Release --overwrite --ignore=Release --icon=./assets/icons/VkDesktop.icns"
+  },
+  "author": "Ivan Zmerzlyi",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-packager": "^5.1.0",
+    "electron-prebuilt": "^0.30.7"
+  },
+  "dependencies": {
+    "node-notifier": "^4.3.1",
+    "request": "^2.64.0"
+  }
+}

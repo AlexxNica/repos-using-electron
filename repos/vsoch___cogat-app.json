@@ -33,5 +33,25 @@
     "status": null,
     "last_synced_at": "2016-05-28T02:01:53.561Z",
     "rank": null
-  }
+  },
+  "name": "cognitiveatlas",
+  "version": "1.0.0",
+  "description": "visualize tasks, contrasts, and concepts from the Cognitive Atlas",
+  "main": "main.js",
+  "dependencies": {
+    "pretty-bytes": "^2.0.1",
+    "electron-debug": "~0.5.1",
+    "babyparse": "~0.4.3",
+    "neo4j": "~2.0.0-RC2",
+    "async": "~1.5.0"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "~0.36.1",
+    "electron-packager": "~5.2.0"
+  },
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "author": "vsoch",
+  "license": "ISC"
 }

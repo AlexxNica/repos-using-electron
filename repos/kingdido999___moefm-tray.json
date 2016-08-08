@@ -33,5 +33,41 @@
     "status": null,
     "last_synced_at": "2016-04-26T02:33:47.095Z",
     "rank": null
-  }
+  },
+  "name": "moefm-tray",
+  "version": "0.1.0",
+  "description": "moe.fm running on system notification tray.",
+  "main": "main.js",
+  "dependencies": {
+    "moefou": "^0.0.5",
+    "node-notifier": "^4.4.0",
+    "player": "^0.6.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.2.1",
+    "electron-prebuilt": "^0.36.0"
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "build-linux": "electron-packager . MoefmTray --platform=linux --arch=x64 --version=0.36.0",
+    "build-osx": "electron-packager . MoefmTray --platform=darwin --arch=x64 --version=0.36.0",
+    "build-windows": "electron-packager . MoefmTray --platform=win32 --arch=x64 --version=0.36.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingdido999/moefm-tray.git"
+  },
+  "keywords": [
+    "moefm",
+    "萌否电台",
+    "萌否",
+    "music",
+    "electron"
+  ],
+  "author": "Pengcheng Ding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kingdido999/moefm-tray/issues"
+  },
+  "homepage": "https://github.com/kingdido999/moefm-tray#readme"
 }

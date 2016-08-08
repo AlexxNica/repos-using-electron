@@ -33,5 +33,31 @@
     "status": null,
     "last_synced_at": "2016-07-21T11:11:18.511Z",
     "rank": null
+  },
+  "name": "prodax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kier Borromeo <seraphipod@gmail.com> (http://srph.github.io)",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^0.4.1",
+    "lodash": "^4.13.1",
+    "moment": "^2.13.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "electron-prebuilt": "^1.2.3",
+    "node-sass": "^3.8.0",
+    "npm-run-all": "^2.2.0"
   }
 }

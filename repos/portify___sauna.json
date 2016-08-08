@@ -33,5 +33,38 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "sauna",
+  "version": "0.1.0",
+  "description": "A custom Steam client built on Electron",
+  "main": "./src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/portify/sauna.git"
+  },
+  "keywords": [
+    "steam",
+    "chat",
+    "electron",
+    "messaging",
+    "app"
+  ],
+  "author": "port <portification@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/portify/sauna/issues"
+  },
+  "homepage": "https://github.com/portify/sauna#readme",
+  "dependencies": {
+    "immutable": "^3.7.5",
+    "key-path-helpers": "^0.4.0",
+    "marked": "^0.3.5",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "yargs": "^3.30.0"
+  },
+  "devDependencies": {
+    "electron-debug": "^0.5.1",
+    "electron-prebuilt": "^0.35.1"
   }
 }

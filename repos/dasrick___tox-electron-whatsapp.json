@@ -1,0 +1,101 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "dasrick/tox-electron-whatsapp",
+    "description": "Eletronized Desktop App for WhatsApp ...",
+    "fork": false,
+    "created_at": "2016-03-22T12:47:43.000Z",
+    "updated_at": "2016-03-22T19:56:54.000Z",
+    "pushed_at": "2016-04-15T09:57:10.000Z",
+    "homepage": "http://dasrick.github.io/tox-electron-whatsapp",
+    "size": 802,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": true,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 54474526,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  },
+  "name": "tox-electron-whatsapp",
+  "productName": "toxWhatsApp",
+  "version": "0.2.4",
+  "description": "Unofficial WhatsApp Desktop Client for OSX based on electron",
+  "author": "Enrico Hoffmann <dasrick@gmail.com>",
+  "license": "MIT",
+  "main": "main.js",
+  "keywords": [
+    "electron",
+    "whatsapp",
+    "toxWhatsApp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasrick/tox-electron-whatsapp.git"
+  },
+  "homepage": "https://github.com/dasrick/tox-electron-whatsapp#readme",
+  "bugs": {
+    "url": "https://github.com/dasrick/tox-electron-whatsapp/issues"
+  },
+  "electronVersion": "0.37.5",
+  "devDependencies": {
+    "electron-builder": "~3.5.2",
+    "electron-packager": "^6.0.0",
+    "electron-prebuilt": "^0.37.5"
+  },
+  "build": {
+    "app-bundle-id": "de.dasrick.tox-electron-whatsapp",
+    "app-category-type": "public.app-category.social-networking",
+    "osx": {
+      "title": "toxWhatsApp",
+      "icon": "build/icon.icns",
+      "icon-size": 80,
+      "background": "build/background.png",
+      "contents": [
+        {
+          "x": 438,
+          "y": 344,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 192,
+          "y": 344,
+          "type": "file"
+        }
+      ]
+    },
+    "win": {
+      "title": "toxWhatsApp",
+      "icon": "build/icon.ico"
+    }
+  },
+  "scripts": {
+    "start": "electron ./app",
+    "start-dev": "export NODE_ENV=development && electron ./app",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "install-app-deps",
+    "pack": "export CSC_NAME='Developer ID Application: Enrico Hoffmann (M9E3AF4GW4)' && build",
+    "dist": "npm run dist:osx && npm run dist:win64 && npm run dist:linux",
+    "dist:osx": "export CSC_NAME='Developer ID Application: Enrico Hoffmann (M9E3AF4GW4)' && build --platform darwin",
+    "dist:win64": "build --platform win32 --arch x64",
+    "dist:linux": "build --platform linux --arch x64"
+  }
+}

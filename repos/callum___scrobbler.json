@@ -33,5 +33,35 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "scrobbler",
+  "version": "0.0.0",
+  "description": "A minimal Last.fm scrobbler",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callum/scrobbler.git"
+  },
+  "author": "Callum Jefferies",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/callum/scrobbler/issues"
+  },
+  "homepage": "https://github.com/callum/scrobbler#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0",
+    "level-test": "^2.0.1"
+  },
+  "dependencies": {
+    "applescript": "^1.0.0",
+    "deep-equal": "^1.0.1",
+    "lastfmapi": "0.0.6",
+    "level": "^1.4.0",
+    "level-jobs": "^0.6.0",
+    "tape": "^4.4.0"
   }
 }

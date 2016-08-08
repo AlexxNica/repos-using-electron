@@ -1,0 +1,136 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "ManiacsLab/friends",
+    "description": ":tv: P2P chat powered by the web.",
+    "fork": true,
+    "created_at": "2016-04-13T06:47:23.000Z",
+    "updated_at": "2016-05-20T03:38:25.773Z",
+    "pushed_at": "2016-03-25T22:02:35.000Z",
+    "homepage": "http://moose-team.github.io/friends/",
+    "size": 1906,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 56127955,
+    "source_name": "moose-team/friends",
+    "license": null,
+    "private": false,
+    "github_contributions_count": 25,
+    "has_readme": "README.md",
+    "has_changelog": "CHANGELOG.md",
+    "has_contributing": "CONTRIBUTING.md",
+    "has_license": "LICENSE.md",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-20T03:38:25.753Z",
+    "rank": null
+  },
+  "name": "friends",
+  "description": "P2P chat powered by the Web.",
+  "version": "1.0.0",
+  "author": [
+    "feross",
+    "maxogden",
+    "mafintosh",
+    "ngoldman",
+    "shama",
+    "jlord",
+    "chrisdickinson"
+  ],
+  "browser": {
+    "ghsign": false,
+    "github-current-user": false,
+    "leveldown": "level-js"
+  },
+  "browserify": {
+    "transforms": [
+      "brfs"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/moose-team/friends/issues"
+  },
+  "dependencies": {
+    "application-config-path": "^0.1.0",
+    "cat-names": "^1.0.2",
+    "dom-delegate": "^2.0.3",
+    "end-of-stream": "^1.1.0",
+    "friends-swarm": "^2.0.0",
+    "ghsign": "^3.0.1",
+    "github-current-user": "^2.5.0",
+    "highlight.js": "^9.2.0",
+    "inherits": "^2.0.1",
+    "level-js": "^2.2.1",
+    "leveldown": "^1.4.1",
+    "levelup": "^1.2.1",
+    "lodash.uniq": "^4.2.0",
+    "mkdirp": "^0.5.1",
+    "modal-element": "^1.0.0",
+    "moment": "^2.12.0",
+    "rich-message": "^1.0.2",
+    "silence-chromium": "^2.0.0",
+    "simple-get": "^2.0.0",
+    "subleveldown": "^2.0.0",
+    "yo-yo": "^1.1.1"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.5",
+    "brfs": "^1.4.1",
+    "electron-packager": "^5.0.2",
+    "electron-prebuilt": "0.36.10",
+    "nib": "^1.1.0",
+    "node-gyp": "^2.0.2",
+    "rimraf": "^2.3.3",
+    "shelljs": "^0.4.0",
+    "standard": "^6.0.8",
+    "stylus": "^0.52.0",
+    "watchify": "^3.2.1"
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=2.8.3"
+  },
+  "homepage": "https://github.com/moose-team/friends",
+  "keywords": [
+    "chat",
+    "communication",
+    "crypto",
+    "discussion",
+    "friends",
+    "irc",
+    "mad science",
+    "p2p",
+    "peer-to-peer",
+    "replication",
+    "slack",
+    "team chat",
+    "webrtc"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moose-team/friends.git"
+  },
+  "scripts": {
+    "build-css": "stylus -u nib app/style/index.styl -o app/style/bundle.css -c",
+    "prepackage": "npm run build-css",
+    "package": "node pkg.js",
+    "package-all": "npm run package -- --all",
+    "rebuild-leveldb": "cd node_modules/leveldown && set HOME=~/.electron-gyp && node-gyp rebuild --target=$npm_package_devDependencies_electron_prebuilt --arch=x64 --dist-url=https://atom.io/download/atom-shell",
+    "start": "npm run build-css && electron index.js 2>&1 | silence-chromium",
+    "test": "standard",
+    "watch": "npm run build-css && (npm run watch-css & electron index.js 2>&1 | silence-chromium)",
+    "watch-css": "stylus -u nib app/style/index.styl -o app/style/bundle.css -w",
+    "web": "beefy app/web.js:bundle.js"
+  }
+}

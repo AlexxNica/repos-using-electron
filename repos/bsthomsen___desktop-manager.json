@@ -33,5 +33,36 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "desktop-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsthomsen/desktop-manager.git"
+  },
+  "keywords": [
+    "Dektop",
+    "Backgrounds",
+    "Background",
+    "Manager",
+    "500px"
+  ],
+  "author": "Bjørn Thomsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bsthomsen/desktop-manager/issues"
+  },
+  "homepage": "https://github.com/bsthomsen/desktop-manager#readme",
+  "devDependencies": {
+    "electron-packager": "^5.1.1",
+    "electron-prebuilt": "^0.35.2"
+  },
+  "dependencies": {
+    "nconf": "^0.8.2"
   }
 }

@@ -33,5 +33,38 @@
     "status": null,
     "last_synced_at": "2016-06-13T10:40:53.167Z",
     "rank": null
+  },
+  "name": "Neutrino",
+  "version": "0.1.0",
+  "description": "A simple markdown editor built with React JS and Electron",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Granze/Neutrino"
+  },
+  "keywords": [
+    "editor",
+    "react",
+    "electron",
+    "markdown"
+  ],
+  "author": "Maurizio Mangione",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Granze/Neutrino/issues"
+  },
+  "homepage": "https://github.com/Granze/Neutrino",
+  "devDependencies": {
+    "babel": "^5.6.7",
+    "babel-eslint": "^3.1.18",
+    "electron-prebuilt": "^0.28.3",
+    "eslint": "^0.23.0",
+    "eslint-plugin-react": "^2.5.2",
+    "marked": "^0.3.3",
+    "react": "^0.13.3"
+  },
+  "scripts": {
+    "styles": "node-sass -w styles/main.scss styles/main.css",
+    "lint": "eslint -c .eslintrc ./"
   }
 }

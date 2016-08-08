@@ -33,5 +33,29 @@
     "status": null,
     "last_synced_at": "2016-05-28T07:54:54.258Z",
     "rank": null
+  },
+  "name": "doorbell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "node pkg.js",
+    "dev": "wzrd config.js:config-bundle.js",
+    "build": "electron-packager . DoorBell --platform=darwin --arch=x64 --icon=bell.icns --ignore=pkg --version=0.29.1 --out=dist --overwrite=true --app-version=1.0 --ignore=node_modules/electron"
+  },
+  "author": "Miguel Moraleda <miguel@jam3.com>",
+  "license": "MIT",
+  "dependencies": {
+    "auto-launch": "^0.1.18",
+    "dom-select": "0.0.0",
+    "electron": "^0.4.1",
+    "electron-debug": "^0.1.1"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.29.1",
+    "wzrd": "^1.3.1"
   }
 }

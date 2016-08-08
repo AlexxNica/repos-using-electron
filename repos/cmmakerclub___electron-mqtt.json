@@ -1,0 +1,83 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "cmmakerclub/electron-mqtt",
+    "description": "",
+    "fork": false,
+    "created_at": "2015-08-29T11:15:47.000Z",
+    "updated_at": "2016-03-01T14:29:35.262Z",
+    "pushed_at": "2015-08-29T11:16:32.000Z",
+    "homepage": "",
+    "size": 108,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 3,
+    "github_id": 41590947,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 0,
+    "has_readme": "readme.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "license",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  },
+  "name": "app",
+  "productName": "App",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "user/repo",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=0.31.0"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app"
+  ],
+  "dependencies": {
+    "electron-debug": "^0.1.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.31.0",
+    "xo": "^0.7.1"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ],
+    "rules": {
+      "prefer-arrow-callback": 0
+    }
+  }
+}

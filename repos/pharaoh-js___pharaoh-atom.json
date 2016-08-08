@@ -33,5 +33,49 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "pharaoh",
+  "main": "./lib/pharaoh",
+  "version": "0.1.0",
+  "description": "Broacast your code, live.",
+  "activationCommands": {
+    "atom-workspace": [
+      "pharaoh:start",
+      "pharaoh:stop"
+    ]
+  },
+  "repository": "https://github.com/pharaoh-js/pharaoh-atom",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "./node_modules/.bin/electron-rebuild && apm link"
+  },
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.1.0",
+    "event-kit": "^1.1.0",
+    "firebase": "~1.0.5",
+    "space-pen": "^5.1.1"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "keywords": [
+    "firepad",
+    "collaboration",
+    "share",
+    "stream",
+    "live",
+    "pair"
+  ],
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.3",
+    "electron-rebuild": "^1.1.1"
   }
 }

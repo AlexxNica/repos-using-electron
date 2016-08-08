@@ -33,5 +33,21 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "deskhud",
+  "version": "0.0.1",
+  "description": "Make use of the space next to OS X dock.",
+  "main": "deskhud.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "Tianyi Ma <tn.ma@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt": "^0.30.0"
+  },
+  "private": true,
+  "dependencies": {
+    "font-awesome": "^4.4.0"
   }
 }

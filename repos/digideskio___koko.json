@@ -33,5 +33,46 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "Koko",
+  "version": "0.2.0",
+  "description": "Yet another IRC client for me and you",
+  "author": "Jun <me@noraesae.net>",
+  "contributors": [
+    {
+      "name": "Hyunje Alex Jun",
+      "email": "me@noraesae.net"
+    }
+  ],
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noraesae/koko.git"
+  },
+  "bugs": {
+    "url": "https://github.com/noraesae/koko/issues"
+  },
+  "keywords": [
+    "irc",
+    "electron"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "irc": "git://github.com/noraesae/irc",
+    "js-yaml": "^3.3.1",
+    "moment": "^2.10.3",
+    "normalize.css": "^3.0.2",
+    "react": "^0.13.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "asar": "^0.6.1",
+    "browserify": "^9.0.3",
+    "electron-prebuilt": "^0.31.2",
+    "less": "^2.4.0",
+    "typescript": "^1.6.0-dev.20150815"
+  },
+  "scripts": {
+    "test": "make"
   }
 }

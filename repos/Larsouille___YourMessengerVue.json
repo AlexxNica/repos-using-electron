@@ -33,5 +33,28 @@
     "status": null,
     "last_synced_at": "2016-04-23T22:58:51.520Z",
     "rank": null
+  },
+  "name": "yourmessenger",
+  "version": "0.1.0",
+  "description": "Your data, your messenger.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Larsouille/yourmessenger"
+  },
+  "author": "Larsouille",
+  "license": "MIT",
+  "homepage": "https://github.com/Larsouille/yourmessenger",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.12"
+  },
+  "dependencies": {
+    "quick-local-ip": "^1.0.7",
+    "socket.io": "^1.4.5",
+    "vue": "^1.0.20",
+    "vue-router": "^0.7.11"
   }
 }

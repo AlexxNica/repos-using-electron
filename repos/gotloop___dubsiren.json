@@ -33,5 +33,30 @@
     "status": null,
     "last_synced_at": "2016-04-27T12:00:26.110Z",
     "rank": null
+  },
+  "name": "dubsiren",
+  "version": "1.0.0",
+  "description": "A Dub Siren desktop app using Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "mocha"
+  },
+  "author": "jibhaine",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jibhaine/dubsiren.git"
+  },
+  "homepage": "https://github.com/jibhaine/dubsiren",
+  "bugs": "https://github.com/jibhaine/dubsiren/issues",
+  "dependencies": {
+    "flux": "^2.0.3",
+    "lodash": "^3.10.1",
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.1",
+    "electron-prebuilt": "^0.30.4"
   }
 }

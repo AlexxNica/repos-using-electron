@@ -33,5 +33,40 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "bowwow2",
+  "productName": "Bowwow2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ./app",
+    "start-viewer": "budo viewer/index.jsx -v -d --live | garnish"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.2.17",
+    "bluebird": "^2.9.25",
+    "electron-prebuilt": "^0.25.1",
+    "eventemitter3": "^1.0.2",
+    "fireproof": "^2.5.2",
+    "flummox": "^4.0.0-alpha2",
+    "fs-plus": "^2.7.1",
+    "q": "^1.4.0",
+    "react": "^0.13.2",
+    "resemblejs": "^1.2.1"
+  },
+  "devDependencies": {
+    "babelify": "^6.0.2",
+    "budo": "^4.0.0",
+    "garnish": "^2.1.3"
   }
 }

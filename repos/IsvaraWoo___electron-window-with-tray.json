@@ -33,5 +33,26 @@
     "status": null,
     "last_synced_at": "2016-04-29T02:14:46.165Z",
     "rank": null
+  },
+  "name": "electron-window-with-tray",
+  "version": "1.0.0",
+  "description": "A minimal Electron application that open window from tray",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsvaraWoo/electron-window-with-tray.git"
+  },
+  "keywords": [
+    "Electron",
+    "start",
+    "tray"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron-prebuilt": "^0.35.0"
   }
 }

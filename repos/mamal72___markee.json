@@ -1,0 +1,82 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "mamal72/markee",
+    "description": "Simpele electron based markdown viewer/editor",
+    "fork": false,
+    "created_at": "2015-09-29T01:58:29.000Z",
+    "updated_at": "2016-04-26T03:19:14.564Z",
+    "pushed_at": "2015-09-29T02:02:47.000Z",
+    "homepage": null,
+    "size": 136,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 43338652,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "readme.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "license",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-04-26T03:19:14.543Z",
+    "rank": null
+  },
+  "name": "markee",
+  "productName": "Markee",
+  "version": "0.0.1",
+  "description": "A simple markdown viewer/editor",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamal72/markee.git"
+  },
+  "author": {
+    "name": "Mohamad Jahani",
+    "email": "m4m4lj@gmail.com",
+    "url": "github.com/mamal72"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "electronVersion": "0.33.0",
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "electron-app"
+  ],
+  "dependencies": {
+    "electron-debug": "^0.1.1",
+    "marked": "^0.3.5"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.33.0",
+    "xo": "^0.9.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  }
+}

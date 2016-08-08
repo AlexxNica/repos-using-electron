@@ -33,5 +33,24 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
-  }
+  },
+  "name": "chemistry",
+  "version": "0.0.1rc",
+  "description": "An Editor to bring the many OS together",
+  "author": "Jose Ortiz <joselevelsup@gmail.com>",
+  "main": "config/app.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "license": "ISC",
+  "dependencies": {
+    "electron-prebuilt": "^0.36.12",
+    "fs": "0.0.2",
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "shelljs": "^0.5.3"
+  },
+  "devDependencies": {}
 }

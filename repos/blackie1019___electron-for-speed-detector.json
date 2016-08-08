@@ -33,5 +33,47 @@
     "status": null,
     "last_synced_at": "2016-05-31T12:55:19.189Z",
     "rank": null
+  },
+  "name": "electron-speed-detector",
+  "productName": "ElectronSpeedDetector",
+  "version": "0.0.0",
+  "description": "My terrific app",
+  "license": "MIT",
+  "repository": "blackie1019/electron-speed-detector",
+  "author": {
+    "name": "Blackie Tsai",
+    "email": "blackie1019@gmail.com",
+    "url": "test.123.com"
+  },
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all"
+  },
+  "files": [
+    "main.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "dependencies": {
+    "detect-speed": "^1.0.2",
+    "electron-debug": "^1.0.0"
+  },
+  "devDependencies": {
+    "devtron": "^1.1.0",
+    "electron-packager": "^7.0.0",
+    "electron-prebuilt": "^1.0.1",
+    "xo": "^0.15.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
   }
 }

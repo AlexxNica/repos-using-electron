@@ -33,5 +33,39 @@
     "status": null,
     "last_synced_at": "2016-07-17T20:38:22.645Z",
     "rank": null
+  },
+  "name": "kvitter",
+  "version": "0.1.0",
+  "description": "Open-Source Node.js Twitter Client",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "start:dev": "NODE_ENV=development electron .",
+    "build:all": "electron-packager . Kvitter --all --asar --out=build --prune",
+    "build:linux:32": "electron-packager . Kvitter --platform=linux --arch=ia32 --asar --out=build --prune",
+    "build:linux:64": "electron-packager . Kvitter --platform=linux --arch=x64 --asar --out=build --prune",
+    "test": "standard index.js app/stream.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Limero/Kvitter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Limero/Kvitter/issues"
+  },
+  "author": "limero",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "configstore": "^2.0.0",
+    "electron-oauth-twitter": "^1.0.0",
+    "time-ago": "limero/time-ago",
+    "twemoji": "^2.0.5",
+    "twitter": "^1.2.5"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.0.3",
+    "electron-prebuilt": "^1.2.5",
+    "standard": "^7.1.2"
   }
 }

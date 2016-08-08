@@ -33,5 +33,20 @@
     "status": null,
     "last_synced_at": "2016-05-27T15:00:30.894Z",
     "rank": null
+  },
+  "devDependencies": {
+    "david": "7.0.2",
+    "electron-mocha": "2.1.0",
+    "electron-prebuilt": "1.1.0",
+    "standard": "7.1.0"
+  },
+  "scripts": {
+    "david": "david & david -p app/package.json",
+    "postinstall": "cd app && npm install",
+    "start": "electron app",
+    "test": "standard && npm run emocha:renderer",
+    "standard": "standard",
+    "emocha:main": "electron-mocha",
+    "emocha:renderer": "electron-mocha ./test/mocha.js --renderer"
   }
 }

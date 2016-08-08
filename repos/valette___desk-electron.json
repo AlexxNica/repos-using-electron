@@ -1,0 +1,63 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "valette/desk-electron",
+    "description": "",
+    "fork": false,
+    "created_at": "2016-03-30T15:35:08.000Z",
+    "updated_at": "2016-03-30T15:35:38.000Z",
+    "pushed_at": "2016-04-05T23:06:11.000Z",
+    "homepage": null,
+    "size": 35,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 55075150,
+    "source_name": null,
+    "license": "Other",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE.txt",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-04-14T10:04:15.264Z",
+    "rank": null
+  },
+  "name": "desk-electron",
+  "productName": "desk",
+  "description": "electron.js version of DESK",
+  "license": "CECILL-B",
+  "main": "desk.js",
+  "author": "Sebastien Valette <sebastien.valette@creatis.insa-lyon.fr> (http://www.creatis.insa-lyon.fr/~valette)",
+  "version": "0.3.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/valette/desk-electron.git"
+  },
+  "dependencies": {
+    "desk-base": ">0.0.0",
+    "desk-ui": ">0.0.0",
+    "electron-prebuilt": ">0.0.0"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "buildAddons": "node node_modules/desk-ui/source/buildAddons.js",
+    "start": "electron .",
+    "buildLinux": " rm -rf desk-linux-x64* && electron-packager ./ --platform=linux --arch=x64",
+    "bundleLinux": "tar jcvf desk-linux-x64.tar.bz2 desk-linux-x64"
+  }
+}

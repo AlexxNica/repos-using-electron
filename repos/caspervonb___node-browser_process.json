@@ -33,5 +33,20 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
-  }
+  },
+  "name": "browser_process",
+  "version": "1.0.4",
+  "description": "Cross platform browser process creation",
+  "main": "lib/browser_process.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "Casper Beyer <caspervonb@qup.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt": "^0.30.2",
+    "tape": "^4.0.0",
+    "temp": "^0.8.3"
+  },
+  "dependencies": {}
 }

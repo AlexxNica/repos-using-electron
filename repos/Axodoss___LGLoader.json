@@ -33,5 +33,31 @@
     "status": null,
     "last_synced_at": "2016-06-11T07:34:27.177Z",
     "rank": null
+  },
+  "name": "lgloader",
+  "version": "1.0.0",
+  "description": "Load mission for games like Thief, Thief Gold, Thief 2 and System Shock 2",
+  "main": "source/main.js",
+  "scripts": {
+    "start": "electron source/main.js",
+    "build": "electron-packager source LGLoader --platform=all --arch=all",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axodoss/LGLoader.git"
+  },
+  "author": "Lukas Heise",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Axodoss/LGLoader/issues"
+  },
+  "homepage": "https://github.com/Axodoss/LGLoader#readme",
+  "dependencies": {
+    "editor-framework": "^0.6.1",
+    "electron-prebuilt": "^1.2.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.0.3"
   }
 }

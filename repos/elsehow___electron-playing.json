@@ -33,5 +33,38 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
-  }
+  },
+  "name": "spectral-charmer",
+  "version": "0.1.1",
+  "main": "app/main.js",
+  "scripts": {
+    "test": "node test/test.js | tap-spec",
+    "build": "electron-packager . SpectralCharmer --arch=x64 --version=0.35.1 --out dist/ --overwrite --ignore=\"node_modules/(electron-packager|electron-prebuilt)\" --platform",
+    "prepare-mac-build": "./dist/set-mac-icon.sh",
+    "build-linux": "npm run build linux",
+    "build-mac": "npm run build darwin && npm run prepare-mac-build",
+    "start": "electron app/main.js"
+  },
+  "dependencies": {
+    "a-bit-of": "^2.0.3",
+    "compute-stdev": "^1.0.0",
+    "electron-prebuilt": "^0.35.1",
+    "gaze": "^0.5.2",
+    "kefir": "^3.1.0",
+    "lodash": "^3.10.1",
+    "syntax-error": "^1.1.4"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.1.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://elsehow@bitbucket.org/elsehow/electron-playing.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/elsehow/electron-playing#readme",
+  "description": ""
 }

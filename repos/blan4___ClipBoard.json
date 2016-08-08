@@ -33,5 +33,31 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "shared_clipboard",
+  "version": "1.0.0",
+  "description": "Just clipboard sharing between computers. Doesn't need internet. On the top of security. Cross platform.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build-js;electron app --dev",
+    "build-js": "browserify --no-bundle-external app/browser/main.jsx -o app/bundle.js",
+    "build-fat-js": "browserify --bare --im app/browser/main.jsx -o app/bundle.js",
+    "watch-js": "watchify --no-bundle-external app/browser/main.jsx -o app/bundle.js -v",
+    "deps": "browserify --list --node --im app/browser/main.jsx"
+  },
+  "repository": "https://github.com/blan4/ClipBoard",
+  "author": "Ilya Siganov <ilya.blan4@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "electron-packager": "^5.1.1",
+    "electron-prebuilt": "^0.35.4",
+    "fs-extra": "^0.26.2",
+    "gulp": "^3.9.0",
+    "reactify": "^1.1.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.6.1"
   }
 }

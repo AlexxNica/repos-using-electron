@@ -1,0 +1,64 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "johnsusi/electron-clearwater",
+    "description": "Build desktop apps using electron and clearwater-rb",
+    "fork": false,
+    "created_at": "2016-04-28T06:58:00.000Z",
+    "updated_at": "2016-05-11T17:34:44.931Z",
+    "pushed_at": "2016-04-29T12:33:26.000Z",
+    "homepage": null,
+    "size": 129,
+    "stargazers_count": 1,
+    "language": "Ruby",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 57278454,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-11T17:34:44.909Z",
+    "rank": null
+  },
+  "name": "electron-clearwater",
+  "version": "1.0.0",
+  "description": "Build desktop apps using electron and clearwater-rb",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bundle install",
+    "build": "bundle exec ruby -rclearwater -ropal -S opal -I . -c lib/preload.rb > lib/preload.js",
+    "prestart": "bundle exec ruby -rclearwater -ropal -S opal -I . -c lib/preload.rb > lib/preload.js",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "johnsusi/electron-clearwater",
+  "keywords": [
+    "electron",
+    "opal",
+    "clearwater"
+  ],
+  "author": "John Susi <john@susi.se> (https://github.com/johnsusi)",
+  "license": "MIT",
+  "bugs": "https://github.com/johnsusi/electron-clearwater/issues",
+  "homepage": "https://github.com/johnsusi/electron-clearwater#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.7"
+  },
+  "dependencies": {
+    "virtual-dom": "^2.1.1"
+  }
+}

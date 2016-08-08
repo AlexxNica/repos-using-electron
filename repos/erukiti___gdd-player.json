@@ -33,5 +33,26 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "gdd-player",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "electron-prebuilt": "^0.34.1",
+    "node-ffprobe": "^1.2.2",
+    "nodobjc": "git+https://github.com/TooTallNate/NodObjC.git",
+    "rx": "^4.0.6",
+    "webrx": "^1.0.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.1.1"
   }
 }

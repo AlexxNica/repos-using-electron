@@ -33,5 +33,83 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "postem",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/postem.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/postem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/postem/issues"
+  },
+  "version": "1.0.0",
+  "description": "electron app that like tombloo.",
+  "main": "index.js",
+  "bin": {
+    "postem": "bin/cmd.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production gulp build",
+    "start": "NODE_ENV=development electron ."
+  },
+  "keywords": [
+    "electron",
+    "twitter",
+    "hatena"
+  ],
+  "dependencies": {
+    "babel-plugin-transform-es2015-destructuring": "^6.3.15",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.3.16",
+    "babel-plugin-transform-es2015-parameters": "^6.3.26",
+    "babel-preset-react": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "codemirror": "^5.7.0",
+    "codemirror-textlint": "^1.1.0",
+    "electron-authentication-hatena": "^2.0.0",
+    "electron-positioner": "^2.0.3",
+    "electron-template-menu": "^1.0.3",
+    "electron-window-state": "^2.0.0",
+    "express": "^4.13.3",
+    "fs-jetpack": "^0.7.0",
+    "interop-require": "^1.0.0",
+    "js-yaml": "^3.4.6",
+    "material-flux": "^1.3.1",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.10.6",
+    "mousetrap": "^1.5.3",
+    "node-fetch": "^1.3.2",
+    "node-oauth": "^0.1.3",
+    "node-twitter-api": "^1.6.3",
+    "notie": "^2.1.0",
+    "oauth": "^0.9.14",
+    "oauth-signature": "^1.3.1",
+    "qs": "^6.0.1",
+    "react": "^0.14.8",
+    "react-codemirror": "^0.2.0",
+    "react-dom": "^0.14.8",
+    "react-select": "^0.9.1",
+    "request": "^2.63.0",
+    "slugg": "^0.1.2",
+    "spin.js": "^2.3.2",
+    "textlint-rule-preset-japanese": "^1.0.1",
+    "tweet-truncator": "^1.0.3",
+    "twitter": "^1.2.5",
+    "twitter-text": "^1.13.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react-optimize": "^1.0.1",
+    "electron-prebuilt": "^0.36.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-if": "^2.0.0"
   }
 }

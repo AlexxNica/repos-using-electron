@@ -33,5 +33,20 @@
     "status": null,
     "last_synced_at": "2016-05-28T20:20:32.696Z",
     "rank": null
+  },
+  "name": "textmode",
+  "version": "1.0.0",
+  "description": "Blog engine in textmode",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "author": "Owen Trueblood",
+  "license": "MIT",
+  "devDependencies": {
+    "electron-prebuilt": "^1.1.1"
+  },
+  "dependencies": {
+    "async": "^2.0.0-rc.5"
   }
 }

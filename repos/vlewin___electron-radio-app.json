@@ -1,0 +1,75 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "vlewin/electron-radio-app",
+    "description": "My first Electron try application",
+    "fork": false,
+    "created_at": "2016-02-18T21:54:21.000Z",
+    "updated_at": "2016-03-08T08:33:18.961Z",
+    "pushed_at": "2016-03-07T20:59:42.000Z",
+    "homepage": null,
+    "size": 53,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 52041603,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  },
+  "name": "electron-radio-app",
+  "productName": "electron-radio-app",
+  "version": "1.0.0",
+  "description": "Simple radio player",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard",
+    "start": "electron .",
+    "build": "electron-packager . Electron-Tray-Radio --platform=all --arch=x64 --version=0.36.0 --ignore='node_modules/electron-(packager|prebuild)'",
+    "publish": "publish-release --template notes.md --assets electron-radio-app.zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vlewin/electron-radio-app"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "jsdom": "latest",
+    "menubar": "latest",
+    "page": "latest",
+    "ractive": "latest",
+    "store": "latest"
+  },
+  "devDependencies": {
+    "electron-rpc": "latest",
+    "electron-connect": "latest",
+    "electron-packager": "latest",
+    "electron-prebuilt": "latest",
+    "gulp": "latest",
+    "publish-release": "latest",
+    "standard": "latest"
+  },
+  "standard": {
+    "ignore": [
+      "electron-radio-app.app/**"
+    ]
+  }
+}

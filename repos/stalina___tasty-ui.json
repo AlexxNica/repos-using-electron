@@ -1,0 +1,111 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "stalina/tasty-ui",
+    "description": "UI of the tasty test framework : test made Natural",
+    "fork": false,
+    "created_at": "2016-06-01T18:19:33.000Z",
+    "updated_at": "2016-06-14T20:00:41.244Z",
+    "pushed_at": "2016-06-12T09:39:02.000Z",
+    "homepage": null,
+    "size": 270,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 1,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 2,
+    "github_id": 60200693,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-06-14T20:00:41.223Z",
+    "rank": null
+  },
+  "name": "tasty-ui",
+  "version": "1.0.0",
+  "description": "Ui for Tasty It ",
+  "main": "main.js",
+  "scripts": {
+    "start": "./node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron .",
+    "watch": "./node_modules/.bin/webpack-dev-server",
+    "electron-rebuild": "./node_modules/.bin/electron-rebuild",
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stalina/tasty-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stalina/tasty-ui/issues"
+  },
+  "jest": {
+    "scriptPreprocessor": "node_modules/babel-jest",
+    "unmockedModulePathPatterns": [
+      "node_modules/react",
+      "node_modules/react-dom",
+      "node_modules/react-addons-test-utils",
+      "node_modules/fbjs"
+    ],
+    "testDirectoryName": "tests",
+    "testPathIgnorePatterns": [
+      "node_modules",
+      "spec/support"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "react"
+    ]
+  },
+  "homepage": "https://github.com/stalina/tasty-ui#readme",
+  "dependencies": {
+    "electron-prebuilt": "^1.2.1",
+    "gulp-codacy": "^1.0.0",
+    "react": "^15.1.0",
+    "react-bootstrap": "^0.29.4",
+    "react-dom": "^15.1.0",
+    "react-select": "^1.0.0-beta13",
+    "tasty-core": "git+https://github.com/stalina/tasty-core.git"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.9.1",
+    "babel-jest": "^11.0.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-jest": "^12.1.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "electron-connect": "^0.4.2",
+    "fbjs": "^0.8.3",
+    "file-loader": "^0.8.5",
+    "gulp": "^3.9.1",
+    "jest": "^12.1.1",
+    "jest-cli": "^12.1.1",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "mock-require": "^1.3.0",
+    "react-addons-test-utils": "^15.1.0",
+    "style-loader": "^0.13.1",
+    "svg-loader": "0.0.2",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-stream": "^3.2.0"
+  }
+}

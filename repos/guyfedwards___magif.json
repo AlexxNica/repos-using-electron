@@ -33,5 +33,34 @@
     "status": null,
     "last_synced_at": "2016-05-17T09:14:14.315Z",
     "rank": null
+  },
+  "name": "magif",
+  "version": "1.2.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guyfedwards/magif"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ./",
+    "build": "rm -rf magif-darwin-x64 && electron-packager . magif --platform=darwin --arch=x64 && cp -r magif-darwin-x64/magif.app /Applications",
+    "publish": "tar -zcvf magif.tar.gz magif-darwin-x64/magif.app && publish-release --assets magif.tar.gz"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clipboard": "^1.5.10",
+    "menubar": "^4.1.0",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.0.1",
+    "electron-prebuilt": "^0.37.8",
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb-base": "^2.0.0",
+    "eslint-plugin-import": "^1.6.1",
+    "publish-release": "^1.3.1"
   }
 }

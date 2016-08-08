@@ -1,0 +1,62 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "doryphores/cloudplayer",
+    "description": "Yet another SoundCloud player",
+    "fork": false,
+    "created_at": "2015-11-01T19:11:08.000Z",
+    "updated_at": "2016-02-29T10:43:18.193Z",
+    "pushed_at": "2015-11-10T15:36:39.000Z",
+    "homepage": "",
+    "size": 196,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 45353603,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE.md",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  },
+  "name": "cloudplayer",
+  "version": "0.0.1",
+  "description": "Desktop player for soundcloud.com",
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doryphores/cloudplayer"
+  },
+  "scripts": {
+    "start": "npm run build-css -- -m && npm run build-js -- -s && electron app",
+    "package": "npm run build-css && npm run build-js && node scripts/package.js",
+    "build-js": "rimraf app/js && mkdirp app/js && babel src/js --out-dir app/js --stage 0",
+    "build-css": "rimraf app/css && mkdirp app/css && stylus src/stylus/app.styl -o app/css/app.css",
+    "watch": "npm run build-css -- -w -m & npm run build-js -- -w -s"
+  },
+  "author": "Martin Laine",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^5.8.29",
+    "electron-packager": "^5.1.1",
+    "electron-prebuilt": "0.34.3",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.4.3",
+    "stylus": "^0.52.4"
+  }
+}

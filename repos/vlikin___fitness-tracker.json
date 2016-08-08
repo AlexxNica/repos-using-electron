@@ -33,5 +33,37 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "fitness-tracker",
+  "version": "0.0.0",
+  "description": "The fitness tracker project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vlikin/fitness-tracker.git"
+  },
+  "author": "Viktor Likin",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/vlikin/fitness-tracker/issues"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "~0.35.1"
+  },
+  "dependencies": {
+    "gulp": "~3.9.0",
+    "gulp-sourcemaps": "~1.6.0",
+    "gulp-concat": "~2.6.0",
+    "gulp-ng-annotate": "~1.1.0",
+    "gulp-uglify": "~1.5.1",
+    "gulp-plumber": "~1.0.1",
+    "watch": "~0.16.0",
+    "gulp-watch": "~4.3.5",
+    "gulp-jade": "~1.1.0",
+    "electron-debug": "~0.5.1",
+    "gulp-sass": "~2.1.0"
   }
 }

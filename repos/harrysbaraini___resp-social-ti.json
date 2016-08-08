@@ -33,5 +33,23 @@
     "status": null,
     "last_synced_at": "2016-05-27T18:19:46.874Z",
     "rank": null
+  },
+  "name": "resp-social-ti",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "electron-prebuilt": "^0.32.2"
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "asar pack app app.asar"
+  },
+  "dependencies": {
+    "bespoke": "^1.0.0",
+    "bespoke-classes": "^1.0.0",
+    "bespoke-keys": "^1.1.0",
+    "bespoke-progress": "^1.0.0",
+    "bespoke-touch": "^1.0.0",
+    "jquery": "^2.1.4"
   }
 }

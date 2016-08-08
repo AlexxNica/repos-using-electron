@@ -33,5 +33,28 @@
     "status": null,
     "last_synced_at": "2016-06-12T01:52:11.553Z",
     "rank": null
+  },
+  "name": "i-made-this",
+  "version": "0.0.0",
+  "description": "A Bitcore tutorial illustrating how to timestamp files in the blockchain",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bitpay/i-made-this.git"
+  },
+  "keywords": [
+    "bitcore"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitpay/i-made-this/issues"
+  },
+  "homepage": "https://github.com/bitpay/i-made-this",
+  "devDependencies": {
+    "electron-prebuilt": "^0.34.1"
   }
 }

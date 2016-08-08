@@ -33,5 +33,16 @@
     "status": null,
     "last_synced_at": "2016-05-27T15:30:05.869Z",
     "rank": null
+  },
+  "name": "smart-mirror-user-interface",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+    "request-promise": "*",
+    "electron-prebuilt": "*",
+    "electron-safe-ipc": "*"
+  },
+  "scripts": {
+    "start": "node_modules/.bin/electron ."
   }
 }

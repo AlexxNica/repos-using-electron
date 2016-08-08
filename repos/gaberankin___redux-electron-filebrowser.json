@@ -1,0 +1,71 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "gaberankin/redux-electron-filebrowser",
+    "description": "learning redux and electron at the same time!  this one is a file browser",
+    "fork": false,
+    "created_at": "2016-01-30T15:36:53.000Z",
+    "updated_at": "2016-05-28T05:09:38.978Z",
+    "pushed_at": "2016-02-02T21:35:45.000Z",
+    "homepage": null,
+    "size": 530,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 50730874,
+    "source_name": null,
+    "license": "MIT",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-28T05:09:38.957Z",
+    "rank": null
+  },
+  "name": "redux-electron-filebrowser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/electron dist/js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaberankin/redux-electron-filebrowser.git"
+  },
+  "author": "gabe rankin",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-2": "^6.3.13",
+    "electron-prebuilt": "^0.36.5",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-changed": "^1.3.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.1.1",
+    "webpack-stream": "^3.1.0"
+  },
+  "dependencies": {
+    "moment": "^2.11.1",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-redux": "^4.0.6",
+    "redux": "^3.0.5",
+    "redux-thunk": "^1.0.3"
+  }
+}

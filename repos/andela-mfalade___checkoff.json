@@ -33,5 +33,42 @@
     "status": null,
     "last_synced_at": "2016-05-21T12:56:18.246Z",
     "rank": null
+  },
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "dev": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron/electron-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/electron/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.0.1"
+  },
+  "dependencies": {
+    "electron-reload": "^0.3.0",
+    "gray-matter": "^2.0.2",
+    "jade": "^1.11.0",
+    "jquery": "^2.2.4",
+    "lunr": "^0.7.1",
+    "pg": "^4.5.5",
+    "showdown": "^1.4.1",
+    "underscore": "^1.8.3"
   }
 }

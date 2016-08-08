@@ -33,5 +33,45 @@
     "status": null,
     "last_synced_at": "2016-06-16T07:30:12.099Z",
     "rank": null
+  },
+  "name": "skyexams",
+  "productName": "Skyexams",
+  "version": "0.0.0",
+  "description": "My polished app",
+  "license": "MIT",
+  "repository": "vitaminniy/skyexams",
+  "author": {
+    "name": "Udalov Max",
+    "email": "re.udalov@gmail.com"
+  },
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "dependencies": {
+    "electron-debug": "^1.0.0"
+  },
+  "devDependencies": {
+    "devtron": "^1.1.0",
+    "electron-packager": "^7.0.0",
+    "electron-prebuilt": "^1.0.1",
+    "xo": "^0.15.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
   }
 }

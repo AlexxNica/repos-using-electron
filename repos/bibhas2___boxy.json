@@ -33,5 +33,41 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "pack:osx": "electron-packager . Boxy --overwrite --platform=darwin --arch=x64 --version=0.36.7 --icon=assets/boxy.icns --out=dist  --prune --ignore=dist",
+    "build:osx": "npm run pack:osx && electron-builder dist/osx/Boxy.app --platform=osx --out=\"dist/osx\" --config=packager.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/electron-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/atom/electron-quick-start/issues"
+  },
+  "homepage": "https://github.com/atom/electron-quick-start#readme",
+  "devDependencies": {
+    "electron-builder": "^2.7.2",
+    "electron-packager": "^5.2.1",
+    "electron-prebuilt": "^0.36.0"
+  },
+  "dependencies": {
+    "hoxy": "^3.2.0",
+    "jquery": "^2.2.0",
+    "js-beautify": "^1.6.2",
+    "jsonfile": "^2.2.3"
   }
 }

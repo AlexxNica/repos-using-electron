@@ -33,5 +33,24 @@
     "status": null,
     "last_synced_at": "2016-07-25T03:13:01.987Z",
     "rank": null
+  },
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "Simple and basic timer.",
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "bower install && electron .",
+    "start": "electron ."
+  },
+  "keywords": [
+    "timer",
+    "counter",
+    "simple timer",
+    "electron timer"
+  ],
+  "author": "Muhammed Furkan AYDIN",
+  "license": "GPL",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
   }
 }

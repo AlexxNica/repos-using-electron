@@ -33,5 +33,74 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "Twgitter2",
+  "version": "0.0.1-alpha",
+  "description": "2nd version of Twgitter the client for twitter, gitter, and so on.",
+  "main": "twgitter2/core/core.js",
+  "scripts": {
+    "install-": "git apply build-res/node-java-maven-option.patch",
+    "install--": "node_modules\\.bin\\node-java-maven && node_modules\\.bin\\bower install",
+    "start": "node_modules\\electron-prebuilt\\dist\\electron.exe bin",
+    "compile": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/S--Minecraft/Twgitter2.git"
+  },
+  "author": "S <S@mail.minecraft.jp.net>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/S--Minecraft/Twgitter2/issues"
+  },
+  "homepage": "https://github.com/S--Minecraft/Twgitter2",
+  "dependencies": {
+    "fs-extra": "*",
+    "del": "*"
+  },
+  "devDependencies": {
+    "bower": "*",
+    "coffee-script": "1.9.x",
+    "electron-prebuilt": "0.31.x",
+    "require-dir": "*",
+    "node-java-maven": "0.0.8",
+    "gulp": "3.9.x",
+    "gulp-notify": "*",
+    "gulp-plumber": "*",
+    "gulp-changed": "*",
+    "gulp-flatten": "*",
+    "gulp-foreach": "*",
+    "gulp-replace": "*",
+    "gulp-coffee": "*",
+    "gulp-sass": "*",
+    "gulp-haml": "*",
+    "gulp-exec": "*",
+    "gulp-prettify": "*",
+    "run-sequence": "*",
+    "electron-packager": "5.0.x",
+    "main-bower-files": "*",
+    "version-comparison": "*"
+  },
+  "java": {
+    "dependencies": [
+      {
+        "groupId": "org.twitter4j",
+        "artifactId": "twitter4j-core",
+        "version": "4.0.4"
+      },
+      {
+        "groupId": "org.schwering",
+        "artifactId": "irclib",
+        "version": "2.0.0.Alpha3"
+      },
+      {
+        "groupId": "org.json",
+        "artifactId": "json",
+        "version": "20141113"
+      }
+    ],
+    "options": {
+      "localRepository": "lib"
+    }
   }
 }

@@ -33,5 +33,42 @@
     "status": null,
     "last_synced_at": "2016-05-28T14:40:20.016Z",
     "rank": null
+  },
+  "name": "electron-react-es2015-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application with React and ES2015",
+  "main": "main.js",
+  "scripts": {
+    "start": "$(npm bin)/electron main.js",
+    "build": "$(npm bin)/browserify -t babelify -o bundle.js src/main.js",
+    "watch": "$(npm bin)/watchify -t babelify -o bundle.js src/main.js -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gin0606/electron-react-es2015-quick-start.git"
+  },
+  "keywords": [
+    "Electron",
+    "React",
+    "ES2015"
+  ],
+  "author": "gin0606",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/gin0606/electron-react-es2015-quick-start/issues"
+  },
+  "homepage": "https://github.com/gin0606/electron-react-es2015-quick-start#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babelify": "^7.3.0",
+    "electron-prebuilt": "^1.1.2",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.3.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
   }
 }

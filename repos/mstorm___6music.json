@@ -33,5 +33,23 @@
     "status": null,
     "last_synced_at": "2016-08-05T11:58:02.480Z",
     "rank": null
+  },
+  "name": "6music",
+  "version": "0.0.1",
+  "description": "6music radio player",
+  "author": {
+    "name": "Stephen Kwon",
+    "email": "mstorm@mstorm.net",
+    "url": "http://mstorm.net/"
+  },
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "install": "electron-packager `pwd` --platform=darwin --arch=x64 --icon=./app/6music.icns --out ./out --overwrite --prune"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.5.0",
+    "electron-prebuilt": "^1.2.0"
   }
 }

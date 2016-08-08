@@ -1,0 +1,91 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "Sponges/neta",
+    "description": "A modern, decentralized, and customizable chatting client.",
+    "fork": true,
+    "created_at": "2016-05-24T08:42:35.000Z",
+    "updated_at": "2016-05-25T03:06:05.465Z",
+    "pushed_at": "2016-04-24T02:02:32.000Z",
+    "homepage": "",
+    "size": 994,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": false,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 59555971,
+    "source_name": "jamen/neta",
+    "license": null,
+    "private": false,
+    "github_contributions_count": 2,
+    "has_readme": "README.md",
+    "has_changelog": null,
+    "has_contributing": "CONTRIBUTING.md",
+    "has_license": "LICENSE",
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": "2016-05-25T03:06:05.442Z",
+    "rank": null
+  },
+  "name": "neta",
+  "version": "0.0.0",
+  "description": "A modern, decentralized, and customizable chatting client.",
+  "main": "lib",
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp build",
+    "start": "gulp start",
+    "lint": "gulp lint",
+    "watch": "gulp watch",
+    "package": "gulp package"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamen/neta.git"
+  },
+  "keywords": [
+    "chat",
+    "client",
+    "customizable"
+  ],
+  "author": "Jamen Marzonie",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jamen/neta/issues"
+  },
+  "homepage": "https://github.com/jamen/neta#readme",
+  "dependencies": {
+    "classnames": "^2.2.3",
+    "neta-client": "0.0.1",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "react-router": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "del": "^2.2.0",
+    "electron-packager": "^7.0.0",
+    "electron-prebuilt": "^0.37.6",
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb": "^7.0.0",
+    "eslint-config-airbnb-base": "^1.0.2",
+    "eslint-plugin-import": "^1.5.0",
+    "eslint-plugin-jsx-a11y": "^0.6.2",
+    "eslint-plugin-react": "^4.3.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.3.1",
+    "precommit": "^1.2.0"
+  }
+}

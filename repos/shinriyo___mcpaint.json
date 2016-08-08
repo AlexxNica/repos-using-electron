@@ -33,5 +33,30 @@
     "status": null,
     "last_synced_at": "2016-07-10T00:41:44.150Z",
     "rank": null
-  }
+  },
+  "name": "mcpaint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "electron-window-manager": "^1.1.0",
+    "electron-prebuilt": "^1.2.5",
+    "os-locale": "^1.4.0"
+  },
+  "scripts": {
+    "start": "node_modules/.bin/electron .",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinriyo/mcpaint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shinriyo/mcpaint/issues"
+  },
+  "homepage": "https://github.com/shinriyo/mcpaint#readme"
 }

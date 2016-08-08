@@ -33,5 +33,31 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
-  }
+  },
+  "name": "pinguino_uno",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.1.3"
+  },
+  "dependencies": {
+    "electron-prebuilt": "^0.36.7",
+    "serialport": "^2.0.1"
+  },
+  "description": "Practica pinguino_uno",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "electron",
+    "app",
+    "jhonbravo",
+    "pinguino"
+  ],
+  "author": "Jhon Bravo",
+  "license": "MIT"
 }

@@ -33,5 +33,20 @@
     "status": null,
     "last_synced_at": "2016-07-31T15:22:45.698Z",
     "rank": null
+  },
+  "main": "main.js",
+  "name": "easel-e",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "version": "0.0.1",
+  "devDependencies": {
+    "electron-prebuilt": "^1.0.1"
+  },
+  "dependencies": {
+    "fbemitter": "^2.0.2",
+    "font-awesome": "^4.6.3",
+    "immutable": "^3.8.1",
+    "normalize-css": "^2.3.1"
   }
 }

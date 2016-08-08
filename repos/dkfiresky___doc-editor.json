@@ -33,5 +33,36 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "doc-editor",
+  "version": "1.0.0",
+  "description": "Documentation Editor",
+  "main": "src/index.js",
+  "scripts": {
+    "pack": "electron-packager ./src \"Documentation Editor\" --overwrite --out=dist --platform=win32 --arch=x64 --version=0.36.7 --icon=./dist/icon.ico --version-string.ProductName=\"Documentation Editor\" --version-string.FileDescription=\"Documentation Editor\" --asar=true",
+    "src": "electron ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkfiresky/doc-editor.git"
+  },
+  "keywords": [
+    "editor",
+    "documentation"
+  ],
+  "author": "Dmitry Kholodilin <dkfiresky@outlook.com> (https://github.com/dkfiresky)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dkfiresky/doc-editor/issues"
+  },
+  "homepage": "https://github.com/dkfiresky/doc-editor#readme",
+  "devDependencies": {
+    "electron-packager": "5.0.0",
+    "electron-prebuilt": "0.36.7",
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.2",
+    "html-entities": "^1.2.0"
   }
 }

@@ -1,0 +1,67 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "chhsiao90/movie-list",
+    "description": "to show movie list on TV",
+    "fork": false,
+    "created_at": "2015-11-01T04:28:29.000Z",
+    "updated_at": "2015-11-01T04:28:51.000Z",
+    "pushed_at": "2015-11-01T04:30:45.000Z",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 45328175,
+    "source_name": null,
+    "license": null,
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  },
+  "name": "movie-list",
+  "version": "1.0.0",
+  "description": "display tv show list on movie channel",
+  "main": "main.js",
+  "scripts": {
+    "build": "gulp",
+    "resources": "gulp resources",
+    "start": "electron ./"
+  },
+  "keywords": [
+    "react",
+    "react-router"
+  ],
+  "author": "chhsiao90",
+  "license": "ISC",
+  "dependencies": {
+    "crawler": "^0.4.3",
+    "moment": "^2.10.6",
+    "react": "^0.14.0",
+    "react-datepicker": "^0.15.2",
+    "react-router": "^1.0.0-rc3",
+    "react-select": "^0.8.0",
+    "react-transmit": "^3.0.7"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "electron-prebuilt": "^0.34.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.3.0"
+  }
+}

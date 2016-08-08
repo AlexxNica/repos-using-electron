@@ -1,0 +1,132 @@
+{
+  "_librariesioMetadata": {
+    "full_name": "alexweber/snipperino",
+    "description": "Move along now...",
+    "fork": false,
+    "created_at": "2015-07-07T14:12:10.000Z",
+    "updated_at": "2015-07-07T15:25:11.000Z",
+    "pushed_at": "2015-07-19T14:41:24.000Z",
+    "homepage": null,
+    "size": 260,
+    "stargazers_count": 0,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "default_branch": "master",
+    "subscribers_count": 1,
+    "github_id": 38691998,
+    "source_name": null,
+    "license": "Unlicense",
+    "private": false,
+    "github_contributions_count": 1,
+    "has_readme": null,
+    "has_changelog": null,
+    "has_contributing": null,
+    "has_license": null,
+    "has_coc": null,
+    "has_threat_model": null,
+    "has_audit": null,
+    "status": null,
+    "last_synced_at": null,
+    "rank": null
+  },
+  "name": "snipperino",
+  "version": "0.1.0",
+  "description": "A code-snippet manager Electron app built with Aurelia.",
+  "keywords": [
+    "aurelia",
+    "electron-app",
+    "snippet"
+  ],
+  "homepage": "https://github.com/alexweber/snipperino",
+  "bugs": {
+    "url": "https://github.com/alexweber/snipperino/issues"
+  },
+  "license": "Unlicense",
+  "author": "Alex Weber <alexweber15@gmail.com> (http://alexweber.com.br/)",
+  "engines": {
+    "node": ">=0.1.0"
+  },
+  "scripts": {
+    "start": "gulp watch-electron",
+    "build": "electron-packager . $npm_package_productName --prune --asar --platform=darwin --arch=x64 --version=0.28.1",
+    "migrate": "knex migrate:latest",
+    "seed": "knex seed:run"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexweber/snipperino"
+  },
+  "devDependencies": {
+    "aurelia-tools": "^0.1.3",
+    "browser-sync": "^1.8.1",
+    "conventional-changelog": "0.0.11",
+    "del": "^1.1.0",
+    "electron-connect": "^0.2.1",
+    "electron-debug": "^0.1.1",
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.29.1",
+    "gulp": "^3.8.10",
+    "gulp-babel": "^5.1.0",
+    "gulp-bump": "^0.3.1",
+    "gulp-changed": "^1.1.0",
+    "gulp-jshint": "^1.9.0",
+    "gulp-plumber": "^0.6.6",
+    "gulp-protractor": "^0.0.12",
+    "gulp-sass": "^2.0.3",
+    "gulp-scss-lint": "^0.2.0",
+    "gulp-sourcemaps": "^1.3.0",
+    "gulp-yuidoc": "^0.1.2",
+    "jasmine-core": "^2.1.3",
+    "jshint-stylish": "^1.0.0",
+    "karma": "^0.12.28",
+    "karma-babel-preprocessor": "^5.2.1",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-coverage": "^0.3.1",
+    "karma-jasmine": "^0.3.5",
+    "karma-jspm": "^1.1.5",
+    "object.assign": "^1.0.3",
+    "require-dir": "^0.1.0",
+    "run-sequence": "^1.0.2",
+    "vinyl-paths": "^1.0.0",
+    "yargs": "^2.1.1"
+  },
+  "jspm": {
+    "dependencies": {
+      "aurelia-animator-css": "github:aurelia/animator-css@^0.13.0",
+      "aurelia-bootstrapper": "github:aurelia/bootstrapper@^0.14.0",
+      "aurelia-dependency-injection": "github:aurelia/dependency-injection@^0.9.0",
+      "aurelia-framework": "github:aurelia/framework@^0.13.0",
+      "aurelia-http-client": "github:aurelia/http-client@^0.10.0",
+      "aurelia-router": "github:aurelia/router@^0.10.0",
+      "bootstrap": "github:twbs/bootstrap@^3.3.4",
+      "core-js": "npm:core-js@^0.9.18",
+      "css": "github:systemjs/plugin-css@^0.1.11",
+      "font-awesome": "npm:font-awesome@^4.3.0",
+      "highlight.js": "npm:highlight.js@^8.6.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    },
+    "overrides": {
+      "npm:core-js@0.9.18": {
+        "main": "client/shim.min"
+      }
+    }
+  },
+  "dependencies": {
+    "bookshelf": "^0.8.1",
+    "knex": "^0.8.6",
+    "menubar": "^2.0.14",
+    "safe-copy-paste": "^0.4.0",
+    "slug": "^0.9.1",
+    "sqlite3": "^3.0.8"
+  }
+}
