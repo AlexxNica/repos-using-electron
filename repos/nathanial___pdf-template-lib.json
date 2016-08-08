@@ -33,5 +33,44 @@
     "status": null,
     "last_synced_at": "2016-05-28T04:41:05.096Z",
     "rank": null
+  },
+  "name": "pdf-template-lib",
+  "version": "0.0.9",
+  "description": "XML based template language for generating PDFs with pdfkit",
+  "main": "build/index.js",
+  "scripts": {
+    "prepublish": "gulp dist",
+    "start": "electron ."
+  },
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathanial/pdf-template-lib.git"
+  },
+  "dependencies": {
+    "babel-runtime": "5.8.20",
+    "underscore": "1.8.3",
+    "xml2js": "0.4.15",
+    "pdfkit": "0.7.1",
+    "wolfy87-eventemitter": "4.3.0"
+  },
+  "devDependencies": {
+    "jquery": "2.1.4",
+    "jquery-ui": "1.10.5",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.0",
+    "gulp-less": "^3.0.3",
+    "gulp-preprocess": "^2.0.0",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.3.4",
+    "require-dir": "^0.3.0",
+    "electron-connect": "^0.3.3",
+    "electron-prebuilt": "0.34.2",
+    "merge-stream": "^1.0.0",
+    "react": "*",
+    "react-dom": "*",
+    "react-es6-component": "*"
   }
 }

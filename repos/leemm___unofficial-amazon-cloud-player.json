@@ -33,5 +33,28 @@
     "status": null,
     "last_synced_at": "2016-07-06T20:13:21.207Z",
     "rank": null
-  }
+  },
+  "name": "unofficialamazonmusicplayer",
+  "productName": "Unofficial Amazon Player",
+  "description": "Unofficial Amazon Music Player with Last.FM support",
+  "devDependencies": {
+    "electron-builder": "^5.4.2",
+    "electron-prebuilt": "^1.2.3"
+  },
+  "build": {
+    "appId": "co.uk.chewedup.cloud-player",
+    "app-category-type": "public.app-category.music",
+    "iconUrl": "https://s3-eu-west-1.amazonaws.com/unofficial-player/icon.ico",
+    "osx": {}
+  },
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "electron ./app --enable-logging",
+    "dev": "NODE_ENV='development' npm run start",
+    "dist": "npm run dist:osx && npm run dist:win32 && npm run dist:win64",
+    "dist:osx": "build --platform darwin",
+    "dist:win32": "build --platform win32 --arch ia32",
+    "dist:win64": "build --platform win32 --arch x64"
+  },
+  "dependencies": {}
 }

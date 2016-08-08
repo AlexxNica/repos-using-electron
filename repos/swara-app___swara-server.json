@@ -33,5 +33,62 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "swara-server",
+  "version": "0.0.8",
+  "description": "A cross-platform server that catalogs music collections for streaming to the Swara client apps.",
+  "keywords": [
+    "swara",
+    "swara-server",
+    "mp3-streaming",
+    "self-hosted",
+    "nodejs",
+    "meanjs",
+    "electronjs",
+    "music-streaming",
+    "music-library"
+  ],
+  "homepage": "https://github.com/swara-app/swara-server",
+  "bugs": "https://github.com/swara-app/swara-server/issues",
+  "author": {
+    "name": "Floyd Pink",
+    "email": "imbleedingme@googlemail.com",
+    "url": "https://github.com/floydpink"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/swara-app/swara-server.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "asar": "^0.9.1",
+    "concat-files": "~0.1.0",
+    "electron-prebuilt": "^0.36.7",
+    "fs-jetpack": "^0.7.1",
+    "grunt": "~0.4.5",
+    "grunt-bump": "^0.7.0",
+    "grunt-contrib-clean": "~0.7.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-jshint": "~0.12.0",
+    "grunt-hub": "^0.7.0",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+    "load-grunt-tasks": "~3.4.0",
+    "q": "^1.4.1",
+    "time-grunt": "~1.3.0",
+    "yargs": "^3.32.0"
+  },
+  "optionalDependencies": {
+    "appdmg": "^0.3.5",
+    "rcedit": "^0.4.0"
+  },
+  "scripts": {
+    "start": "cd mean-app && electron .",
+    "debug": "cd mean-app && DEBUG_COLORS=1 DEBUG=swara* electron .",
+    "test": "grunt build",
+    "postinstall": "cd mean-app && npm install"
+  },
+  "engines": {
+    "node": ">=0.12.0"
   }
 }
