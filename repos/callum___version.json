@@ -33,5 +33,33 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "version",
+  "version": "0.0.1",
+  "description": "Predictable file versioning",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js",
+    "start": "electron .",
+    "build": "bin/build.sh",
+    "clean": "rm -rf build/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callum/version.git"
+  },
+  "author": "Callum Jefferies",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/callum/version/issues"
+  },
+  "homepage": "https://github.com/callum/version#readme",
+  "devDependencies": {
+    "electron-packager": "^5.2.1",
+    "electron-prebuilt": "^0.36.7",
+    "tape": "^4.4.0"
+  },
+  "dependencies": {
+    "version-filename": "github:callum/version-filename"
   }
 }

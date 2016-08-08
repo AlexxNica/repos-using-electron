@@ -33,5 +33,40 @@
     "status": null,
     "last_synced_at": null,
     "rank": null
+  },
+  "name": "app-node-electron",
+  "version": "0.0.1",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . Taba --ignore=node_modules/electron-*  --platform=win32 --arch=x64 --version=0.28.1 --icon=taba.ico",
+    "build32": "electron-packager . Taba32 --ignore=node_modules/electron-*  --platform=win32 --arch=ia32 --version=0.28.1 --icon=taba.ico",
+    "pack": "asar pack Taba-win32-x64/resources/app Taba-win32/resources/app.asar"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.28.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-run": "^1.6.8"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "client"
+    },
+    "dependencies": {
+      "angular": "github:angular/bower-angular@^1.4.1",
+      "angular-animate": "github:angular/bower-angular-animate@^1.4.1",
+      "moment": "github:moment/moment@^2.10.3",
+      "sachinchoolur/angular-flash": "github:sachinchoolur/angular-flash@^1.1.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  },
+  "dependencies": {
+    "gulp-clean": "^0.3.1"
   }
 }
