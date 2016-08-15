@@ -44,5 +44,33 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-screenshot",
+    "version": "1.0.0",
+    "description": "Using electron to take screenshots of a list of urls",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/widged/electron-screenshot.git"
+    },
+    "keywords": [
+      "electron",
+      "screenshot"
+    ],
+    "author": "Marielle <mlange@widged.com> (http://widged.com)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/widged/electron-screenshot/issues"
+    },
+    "homepage": "https://github.com/widged/electron-screenshot#readme",
+    "dependencies": {
+      "electron-prebuilt": "^0.34.0",
+      "sha1": "^1.1.1"
+    }
+  },
+  "packageStatus": 200
 }

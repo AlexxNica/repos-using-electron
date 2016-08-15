@@ -50,5 +50,44 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "redis-launcher",
+    "productName": "RedisLauncher",
+    "version": "0.0.1",
+    "description": "Redis Launcher",
+    "license": "MIT",
+    "repository": "JonathanPrince/redis-launcher",
+    "author": {
+      "name": "Jonathan Prince",
+      "email": "jonathan.prince@gmail.com",
+      "url": "edgeofconfusion.com"
+    },
+    "scripts": {
+      "test": "",
+      "start": "electron .",
+      "build": "electron-packager . --out=dist --overwrite --arch=x64 --platform=darwin --icon=assets/images/icon.icns"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "redis",
+      "launcher",
+      "redis-server",
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "electron-debug": "^1.0.0"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.0",
+      "electron-packager": "^7.0.0",
+      "electron-prebuilt": "^1.0.1"
+    }
+  },
+  "packageStatus": 200
 }

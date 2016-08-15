@@ -50,5 +50,46 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "RaspiKids",
+    "description": "Raspberry PI GPIO framework for teaching kids programming",
+    "homepage": "https://github.com/mufty/raspikids#readme",
+    "license": "MIT",
+    "main": "ui/main.js",
+    "version": "0.1.7",
+    "dependencies": {
+      "rpi-gpio": "https://github.com/mufty/rpi-gpio.js.git",
+      "merge": "^1.2.0",
+      "d3": "^3.5.17",
+      "electron-prebuilt": "^1.0.1",
+      "bower": "^1.7.9"
+    },
+    "keywords": [
+      "raspberry",
+      "pi",
+      "gpio",
+      "learning",
+      "kids"
+    ],
+    "bin": {
+      "raspi-kids": "bin/main.js",
+      "raspi-kids-wf": "bin/start.js"
+    },
+    "scripts": {
+      "start": "electron ui/main.js",
+      "postinstall": "node_modules/bower/bin/bower install"
+    },
+    "maintainers": [
+      {
+        "email": "gubriansky@sernato.sk",
+        "name": "mufty"
+      }
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mufty/raspikids.git"
+    }
+  },
+  "packageStatus": 200
 }

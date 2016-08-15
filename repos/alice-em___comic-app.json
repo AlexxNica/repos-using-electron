@@ -44,5 +44,46 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "comic-app",
+    "version": "0.0.1",
+    "description": "hopefully a functional reader app built with electron",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/alice-em/comic-app.git"
+    },
+    "keywords": [
+      "comic",
+      "ebook",
+      "pdf"
+    ],
+    "author": "the illustrious alice maldonado",
+    "license": "BSD-2-Clause",
+    "bugs": {
+      "url": "https://github.com/alice-em/comic-app/issues"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.4",
+      "fs": "^0.0.2",
+      "unpack-all": "^0.0.4",
+      "jquery": "^2.2.0",
+      "remote": "~0.2.6",
+      "dialog": "~0.1.8"
+    },
+    "homepage": "https://github.com/alice-em/comic-app#readme",
+    "dependencies": {
+      "electron-prebuilt": "^0.36.4",
+      "unpack-all": "^0.0.4",
+      "fs": "^0.0.2",
+      "jquery": "^2.2.0",
+      "remote": "^0.2.6",
+      "dialog": "^0.1.8"
+    }
+  },
+  "packageStatus": 200
 }

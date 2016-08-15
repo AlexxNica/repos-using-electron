@@ -50,5 +50,46 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-radio-app",
+    "productName": "electron-radio-app",
+    "version": "1.0.0",
+    "description": "Simple radio player",
+    "main": "index.js",
+    "scripts": {
+      "test": "standard",
+      "start": "electron .",
+      "build": "electron-packager . Electron-Tray-Radio --platform=all --arch=x64 --version=0.36.0 --ignore='node_modules/electron-(packager|prebuild)'",
+      "publish": "publish-release --template notes.md --assets electron-radio-app.zip"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/vlewin/electron-radio-app"
+    },
+    "author": "",
+    "license": "BSD-2-Clause",
+    "dependencies": {
+      "jsdom": "latest",
+      "menubar": "latest",
+      "page": "latest",
+      "ractive": "latest",
+      "store": "latest"
+    },
+    "devDependencies": {
+      "electron-rpc": "latest",
+      "electron-connect": "latest",
+      "electron-packager": "latest",
+      "electron-prebuilt": "latest",
+      "gulp": "latest",
+      "publish-release": "latest",
+      "standard": "latest"
+    },
+    "standard": {
+      "ignore": [
+        "electron-radio-app.app/**"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

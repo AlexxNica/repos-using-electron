@@ -50,5 +50,38 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "animetwister",
+    "version": "1.0.0",
+    "description": "AnimeTwist electron wrapper",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "npm run build:macos && npm run build:linux && npm run build:windows",
+      "build:macos": "electron-packager . --overwrite --asar --out=dist --ignore='^node_modules$' --prune --platform=darwin --arch=x64 --app-bundle-id=com.pixeldesu.animetwister",
+      "build:linux": "electron-packager . --overwrite --out=dist --ignore='^node_modules$' --prune --platform=linux --arch=x64 --app-bundle-id=com.pixeldesu.animetwister",
+      "build:windows": "electron-packager . --overwrite --asar --out=dist --ignore='^node_modules$' --prune --platform=win32 --arch=ia32 --version-string.ProductName=$npm_package_productName"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pixeldesu/animetwister.git"
+    },
+    "keywords": [
+      "anime",
+      "animetwister",
+      "Electron"
+    ],
+    "author": "pixeldesu",
+    "license": "aGPLv3",
+    "bugs": {
+      "url": "https://github.com/pixeldesu/animetwister/issues"
+    },
+    "homepage": "https://github.com/pixeldesu/animetwister#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0",
+      "electron-packager": "^7.0.0"
+    }
+  },
+  "packageStatus": 200
 }

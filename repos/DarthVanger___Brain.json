@@ -44,5 +44,21 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Brain",
+    "version": "0.0.0",
+    "description": "Thought managment tool",
+    "main": "main.js",
+    "scripts": {
+      "test": "test"
+    },
+    "author": "DarthVanger",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.13.4",
+      "socket.io": "^1.4.6"
+    }
+  },
+  "packageStatus": 200
 }

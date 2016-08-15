@@ -176,5 +176,53 @@
   },
   "networkCount": 12,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "devdogs",
+    "productName": "Devdogs",
+    "version": "0.1.3",
+    "description": "DevdoGs, Unofficial Devdocs app for Mac",
+    "license": "MIT",
+    "main": "index.js",
+    "repository": "ragingwind/devdogs",
+    "author": {
+      "name": "ragingwind",
+      "email": "ragingwind@gmail.com",
+      "url": "ragingwind.me"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "config": {
+      "ignore": "--ignore='^/res$' --ignore='^/dist$' --ignore='^/node_modules$'",
+      "platform": "--platform=darwin --arch=x64 --prune --asar --icon=res/icon-128.icns",
+      "version": "--version=0.33.0 --app-bundle-id=me.ragingwind.devdocs --app-version=$npm_package_version"
+    },
+    "scripts": {
+      "app": "electron ./",
+      "clean": "rm -rf build package",
+      "build": "electron-packager . $npm_package_productName --out=./dist --overwrite $npm_package_config_platform $npm_package_config_version $npm_package_config_ignore",
+      "package": "cd dist/Devdogs-darwin-x64 && zip -ryXq9 ../Devdogs-${npm_package_version}.zip Devdogs.app"
+    },
+    "files": [
+      "index.js"
+    ],
+    "keywords": [
+      "devdogs",
+      "devdocs",
+      "devdocs.io",
+      "electron",
+      "electron-app"
+    ],
+    "devDependencies": {
+      "cpy": "^3.4.1",
+      "electron-packager": "5.1.0",
+      "electron-prebuilt": "^0.33.0"
+    },
+    "dependencies": {
+      "electron-debug": "^0.2.1",
+      "electron-menu-loader": "0.0.2"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,40 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "private": true,
+    "productName": "brie",
+    "version": "0.0.1",
+    "description": "npm the package manager gui wrapper",
+    "license": "MIT",
+    "repository": "soomtong/brie",
+    "author": {
+      "name": "soomtong",
+      "email": "soomtong@gmail.com"
+    },
+    "engines": {
+      "node": ">=4.0.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "rm -rf build; mkdir -p build; electron-packager . $npm_package_productName --out=build --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git",
+      "start-2nd": "electron --2nd ."
+    },
+    "keywords": [
+      "electron",
+      "starterkit"
+    ],
+    "devDependencies": {
+      "electron-packager": "latest",
+      "electron-prebuilt": "latest"
+    },
+    "dependencies": {
+      "electron-default-menu": "^0.1.1",
+      "node-jsx": "latest",
+      "react": "latest",
+      "react-photonkit": "^0.4.1"
+    }
+  },
+  "packageStatus": 200
 }

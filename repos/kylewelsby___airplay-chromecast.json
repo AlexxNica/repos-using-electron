@@ -44,5 +44,56 @@
   "license": null,
   "networkCount": 2,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "airplay-chromecast",
+    "version": "1.0.0",
+    "description": "Enable nearby Chromecast devices to appear as AirPlay audio devices.",
+    "main": "lib/index.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "mocha test/"
+    },
+    "keywords": [
+      "itunes",
+      "chromecast",
+      "airplay",
+      "streaming",
+      "audio",
+      "mac",
+      "osx"
+    ],
+    "author": "Kyle Welsby <kyle@mekyle.com>",
+    "license": "MIT",
+    "dependencies": {
+      "castv2-client": "^1.1.0",
+      "debug": "^2.2.0",
+      "express": "^4.13.3",
+      "ip": "^1.0.1",
+      "lame": "^1.2.3",
+      "macaddress": "^0.2.8",
+      "mdns": "^2.2.10",
+      "nodetunes": "git@github.com:microadam/nodetunes.git#master",
+      "portastic": "git+https://github.com/kylewelsby/node-portastic.git",
+      "rsvp": "^3.1.0"
+    },
+    "devDependencies": {
+      "chai": "^3.3.0",
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.33.8",
+      "httplike": "^1.0.2",
+      "mocha": "^2.3.3"
+    },
+    "standard": {
+      "globals": [
+        "describe",
+        "xdescribe",
+        "it",
+        "xit",
+        "beforeEach",
+        "afterEach"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

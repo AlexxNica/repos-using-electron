@@ -50,5 +50,20 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "kupbac",
+    "version": "1.0.0",
+    "description": "Visually compare directory structures.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "author": "Owen Trueblood",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "wincesium",
+    "version": "0.0.2",
+    "description": "Map statistics provided by Institute of Sesimology and Volcanology, Faculty of Sciences, Kyushu University",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "173210",
+    "license": "AGPL-3.0",
+    "devDependencies": {
+      "cesium": "^1.20.0",
+      "electron-packager": "^7.0.0",
+      "electron-prebuilt": "^0.37.6",
+      "htmlparser2": "^3.9.0"
+    },
+    "dependencies": {},
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/173210/wincesium.git"
+    },
+    "bugs": {
+      "url": "https://github.com/173210/wincesium/issues"
+    },
+    "homepage": "https://github.com/173210/wincesium#readme"
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,52 @@
   },
   "networkCount": 2,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "MangaReader",
+    "productName": "Manga Reader",
+    "version": "0.0.2",
+    "description": "a mac os x manga reader application",
+    "main": "main.js",
+    "scripts": {
+      "start": "dev=true electron ./asset/main.js",
+      "build": "rm -rf ./asset; gulp"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wing-kai/Manga-Reader.git"
+    },
+    "keywords": [
+      "Electron",
+      "Manga",
+      "Comic",
+      "Reader",
+      "Study"
+    ],
+    "author": "wing-kai",
+    "license": "CC0 1.0 Universal",
+    "bugs": {
+      "url": "https://github.com/wing-kai/Manga-Reader/issues"
+    },
+    "homepage": "https://github.com/wing-kai/Manga-Reader",
+    "devDependencies": {
+      "babel-preset-es2015": "^6.5.0",
+      "babel-preset-react": "^6.5.0",
+      "electron-prebuilt": "^0.36.7",
+      "gulp": "^3.9.0",
+      "gulp-babel": "^6.1.2",
+      "gulp-minify-css": "^1.2.3",
+      "gulp-notify": "^2.2.0",
+      "gulp-plumber": "^1.0.1",
+      "gulp-rename": "^1.2.2"
+    },
+    "dependencies": {
+      "crypto": "0.0.3",
+      "easy-flux": "^0.2.3",
+      "immutable": "^3.7.6",
+      "react": "^0.14.7",
+      "react-dom": "^0.14.7"
+    }
+  },
+  "packageStatus": 200
 }

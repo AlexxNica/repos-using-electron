@@ -44,5 +44,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "skeleton-creator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron .",
+      "build": "electron-packager . CreateSkeleton --platform=win32 --arch=x64 --version-string.CompanyName=CharlieA --version-string.ProductName=CreateSkeleton --version-string.FileVersion=1.1.2 --icon=/skel.ico --version-string.FileDescription=\"Create a Node.js Walking Skeleton\" --version-string.ProductVersion=1.1.2 --version-string.Copyright=\"(C) 2016 CharlieA All rights reserved.\""
+    },
+    "author": "Charlie A",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.2"
+    }
+  },
+  "packageStatus": 200
 }

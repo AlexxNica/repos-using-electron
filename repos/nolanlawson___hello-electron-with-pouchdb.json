@@ -162,5 +162,22 @@
   },
   "networkCount": 49,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hello-electron-with-pouchdb",
+    "version": "1.0.0",
+    "description": "A minimal Electron application, with PouchDB",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "postinstall": "bash postinstall.sh"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "pouchdb": "^5.4.5"
+    }
+  },
+  "packageStatus": 200
 }

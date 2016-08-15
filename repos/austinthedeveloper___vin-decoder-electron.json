@@ -50,5 +50,39 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-vin-decoder",
+    "version": "1.0.0",
+    "description": "A tool to help people decode VINs.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron"
+    ],
+    "author": "DRN",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/austinthedeveloper/vin-decoder-electron/issues"
+    },
+    "homepage": "https://github.com/austinthedeveloper/vin-decoder-electron#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0",
+      "browserify": "^x.x.x",
+      "browserify-shim": "^3.8.10",
+      "grunt": "^0.4.5",
+      "grunt-browserify": "^4.0.1",
+      "grunt-contrib-compass": "^1.0.4",
+      "grunt-contrib-watch": "^0.6.1",
+      "grunt-contrib-copy": "^0.8.2",
+      "grunt-contrib-jshint": "^1.0.0"
+    }
+  },
+  "packageStatus": 200
 }

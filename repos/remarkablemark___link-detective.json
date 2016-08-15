@@ -50,5 +50,45 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "link-detective",
+    "version": "0.0.1",
+    "description": "Detects missing or dead links.",
+    "author": "Mark <mark@remarkablemark.org>",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "test": "mocha",
+      "dev": "NODE_ENV=development electron main.js"
+    },
+    "keywords": [
+      "link detective",
+      "link-detective",
+      "broken link",
+      "dead link",
+      "link rot",
+      "dangling link",
+      "seo",
+      "electron"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/remarkablemark/link-detective"
+    },
+    "dependencies": {
+      "bootstrap": "^3.3.6",
+      "jquery": "^2.2.3",
+      "valid-url": "^1.0.9"
+    },
+    "devDependencies": {
+      "electron-debug": "^0.6.0",
+      "electron-prebuilt": "^0.37.2",
+      "electron-reload": "^0.3.0",
+      "mocha": "^2.4.5",
+      "spectron": "^3.0.0"
+    },
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

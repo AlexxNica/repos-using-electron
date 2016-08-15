@@ -44,5 +44,44 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-tarot",
+    "version": "0.1.0",
+    "main": "main.js",
+    "description": "A little fortunetelling application",
+    "scripts": {
+      "start": "electron .",
+      "test": "test",
+      "watch": "./node_modules/.bin/webpack-dev-server",
+      "electron-rebuild": "./node_modules/.bin/electron-rebuild"
+    },
+    "author": "Summer Smith",
+    "license": "ISC",
+    "dependencies": {
+      "electron-prebuilt": "^0.36.3",
+      "react": "^0.14.6"
+    },
+    "devDependencies": {
+      "babel": "^6.3.26",
+      "babel-core": "^6.4.0",
+      "babel-loader": "^6.2.1",
+      "babel-preset-es2015": "^6.0.12",
+      "babel-preset-react": "^6.0.15",
+      "classnames": "^2.2.3",
+      "css-loader": "^0.23.1",
+      "electron-packager": "^5.2.0",
+      "electron-rebuild": "^1.1.1",
+      "file-loader": "^0.8.5",
+      "less": "^2.5.3",
+      "less-loader": "^2.2.2",
+      "react-dom": "^0.14.6",
+      "style-loader": "^0.13.0",
+      "underscore": "^1.8.3",
+      "url-loader": "^0.5.7",
+      "webpack": "^1.12.11",
+      "webpack-dev-server": "^1.14.1"
+    }
+  },
+  "packageStatus": 200
 }

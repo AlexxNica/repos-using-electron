@@ -44,5 +44,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Demo_Starter",
+    "version": "0.3.1",
+    "main": "index.js",
+    "scripts": {
+      "dev": "electron ./",
+      "clean": "rm -rf ./build",
+      "build": "npm run clean && electron-packager ./ \"Demo Starter\" --out=build --platform=darwin --arch=x64 --version=0.33.3 --icon=assets/drip.icns",
+      "pack": "npm run build && electron-builder \"build/Demo Starter-darwin-x64/Demo Starter.app\" --platform=osx --out=build --config=./packager.json"
+    },
+    "dependencies": {
+      "nconf": "^0.8.1",
+      "webpack": "^1.12.2"
+    },
+    "devDependencies": {
+      "electron-builder": "^2.0.1",
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.30.2",
+      "electron-rebuild": "^0.2.5",
+      "eslint": "^1.1.0"
+    }
+  },
+  "packageStatus": 200
 }

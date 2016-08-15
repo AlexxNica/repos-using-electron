@@ -44,5 +44,70 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "0.0.1",
+    "description": "User interface for Parity",
+    "main": "main.js",
+    "scripts": {
+      "start": "ENVIRONMENT=production electron main.js",
+      "start-dev": "ENVIRONMENT=development electron main.js",
+      "build": "webpack",
+      "watch": "webpack-dev-server --inline --hot --colors --content-base=./build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jesuscript/parity-ui.git"
+    },
+    "author": "Konstantin Kudryavtsev",
+    "license": "GPL-3.0",
+    "devDependencies": {
+      "babel": "^6.5.2",
+      "babel-core": "^6.7.6",
+      "babel-loader": "^6.2.4",
+      "babel-preset-react": "^6.5.0",
+      "coffee-loader": "^0.7.2",
+      "css-loader": "^0.23.1",
+      "electron-compilers": "^3.0.0",
+      "electron-prebuilt": "^0.37.0",
+      "file-loader": "^0.8.5",
+      "less-loader": "^2.2.3",
+      "react": "^15.0.1",
+      "react-dom": "^15.0.1",
+      "style-loader": "^0.13.1",
+      "webpack": "^1.13.0",
+      "webpack-dev-server": "^1.14.1"
+    },
+    "dependencies": {
+      "async": "^2.0.0-rc.3",
+      "body-parser": "^1.15.0",
+      "coffee-script": "^1.10.0",
+      "deep-diff": "^0.3.3",
+      "electron-reload": "^0.3.0",
+      "events": "^1.1.0",
+      "expand-home-dir": "0.0.3",
+      "express": "^4.13.4",
+      "flux": "^2.1.1",
+      "immutable": "^3.8.1",
+      "immutable-diff": "^0.1.1",
+      "jquery": "^2.2.3",
+      "json-loader": "^0.5.4",
+      "keythereum": "^0.2.6",
+      "less": "^2.6.1",
+      "less-loader": "^2.2.3",
+      "lodash": "^4.11.1",
+      "net": "^1.0.2",
+      "numeral": "^1.5.3",
+      "objects": "^0.3.0",
+      "react": "^15.0.1",
+      "react-dom": "^15.0.1",
+      "titlebar": "^1.4.0",
+      "util": "^0.10.3",
+      "web3": "^0.15.3",
+      "web3-raw-provider": "^0.0.5",
+      "bignumber.js": "git+https://github.com/debris/bignumber.js.git#master"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,33 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-aspnet-boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./index.js",
+    "dependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.33.4",
+      "jquery": "^2.1.4"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . dist --platform=win32 --arch=x64 --version=0.33.4  --overwrite",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gitmycode/electron-aspnet-boilerplate.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/gitmycode/electron-aspnet-boilerplate/issues"
+    },
+    "homepage": "https://github.com/gitmycode/electron-aspnet-boilerplate#readme"
+  },
+  "packageStatus": 200
 }

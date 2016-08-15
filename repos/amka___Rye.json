@@ -44,5 +44,25 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "rye",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "Andrey Maksimov",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.5"
+    },
+    "dependencies": {
+      "hg": "^0.2.0",
+      "nodegit": "^0.12.2",
+      "riot": "^2.3.18"
+    }
+  },
+  "packageStatus": 200
 }

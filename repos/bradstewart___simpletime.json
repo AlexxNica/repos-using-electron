@@ -50,5 +50,35 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "simpletime",
+    "version": "0.0.1",
+    "description": "Dead simple time tracking.",
+    "main": "index.js",
+    "scripts": {
+      "start": "NODE_ENV=development electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Brad Stewart",
+    "license": "MIT",
+    "dependencies": {
+      "bootstrap": "3.3.6",
+      "jquery": "2.1.4",
+      "menubar": "3.0.0",
+      "moment": "2.10.6",
+      "vue": "1.0.12"
+    },
+    "devDependencies": {
+      "electron-builder": "2.4.0",
+      "electron-packager": "^5.0.2",
+      "electron-prebuilt": "0.36.1",
+      "electron-rebuild": "^1.0.0"
+    },
+    "devEngines": {
+      "node": "4.x || 5.x",
+      "npm": "2.x || 3.x"
+    }
+  },
+  "packageStatus": 200
 }

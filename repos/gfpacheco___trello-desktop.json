@@ -50,5 +50,42 @@
   },
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "trello-desktop",
+    "productName": "TrelloDesktop",
+    "version": "0.0.0",
+    "description": "My astonishing app",
+    "license": "MIT",
+    "main": "app/index.js",
+    "repository": "gfpacheco/trello-desktop",
+    "author": {
+      "name": "Guilherme Pacheco",
+      "email": "guilherme.f.pacheco@gmail.com",
+      "url": "gfpacheco.com"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore=dist --prune --asar --all --version=0.30.2"
+    },
+    "files": [
+      "app/index.js",
+      "app/index.html",
+      "app/index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "electron-debug": "0.1.1"
+    },
+    "devDependencies": {
+      "electron-packager": "5.0.1",
+      "electron-prebuilt": "0.30.2"
+    }
+  },
+  "packageStatus": 200
 }

@@ -162,5 +162,43 @@
   },
   "networkCount": 68,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "betwixt",
+    "version": "1.0.0",
+    "description": "Web Debugging Proxy based on Chrome DevTools Network panel",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "test": "jshint main.js lib/ plugins/ && jscs main.js lib/ plugins/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kdzwinel/betwixt.git"
+    },
+    "keywords": [
+      "traffic",
+      "proxy"
+    ],
+    "author": "Konrad Dzwinel",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kdzwinel/betwixt/issues"
+    },
+    "homepage": "https://github.com/kdzwinel/betwixt",
+    "dependencies": {
+      "chalk": "^1.1.1",
+      "http-mitm-proxy": "^0.4.0",
+      "istextorbinary": "^1.0.2",
+      "node-static": "^0.7.7"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.1",
+      "electron-prebuilt": "^0.34.0",
+      "jscs": "^2.6.0",
+      "jshint": "^2.8.0"
+    },
+    "engine": "node >= 5.0.0"
+  },
+  "packageStatus": 200
 }

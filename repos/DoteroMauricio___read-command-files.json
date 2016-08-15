@@ -44,5 +44,34 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "app",
+    "version": "1.0.0",
+    "description": "borrar data",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "async": "1.5.0",
+      "bluebird": "3.0.1",
+      "dfm.config": "file:config",
+      "fs-readfile-promise": "2.0.1",
+      "nconf": "0.8.2",
+      "path": "0.12.7",
+      "process-engine": "0.5.3",
+      "prompt": "0.2.14",
+      "read-dir-files": "0.1.1",
+      "read-glob-promise": "2.0.0",
+      "watchman.js": "0.1.1",
+      "winston": "1.1.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "0.34.1"
+    }
+  },
+  "packageStatus": 200
 }

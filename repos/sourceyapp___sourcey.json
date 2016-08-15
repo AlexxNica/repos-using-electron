@@ -58,5 +58,32 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Sourcey",
+    "version": "0.0.1",
+    "description": "A friendly desktop git client for OS X, Linux and Windows.",
+    "keywords": "git client electron atom-shell",
+    "author": {
+      "name": "Daniel Baker",
+      "email": "danbaker@me.com",
+      "twitter": "@coffeedoughnuts"
+    },
+    "scripts": {
+      "start": "SOURCEY_ENV=dev node scripts/dev-start.js",
+      "build": "node scripts/build.js"
+    },
+    "devDependencies": {
+      "babel": "^5.8.20",
+      "babel-core": "^5.8.20",
+      "chokidar": "^1.0.5",
+      "colors": "^1.1.2",
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.2",
+      "glob": "^5.0.14",
+      "moment": "^2.10.6",
+      "rsync": "^0.4.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,40 @@
   },
   "networkCount": 3,
   "subscribersCount": 8,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Hypha",
+    "version": "0.0.1",
+    "description": "A good looking irc client",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "gulp": "gulp"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/algram/hypha.git"
+    },
+    "keywords": [
+      "hypha",
+      "irc",
+      "client",
+      "electron"
+    ],
+    "author": "GitHub",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/algram/hypha/issues"
+    },
+    "homepage": "https://github.com/algram/hypha#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0",
+      "electron-rebuild": "~1.1.2"
+    },
+    "dependencies": {
+      "irc": "~0.4.0",
+      "spellchecker": "~3.2.0"
+    }
+  },
+  "packageStatus": 200
 }

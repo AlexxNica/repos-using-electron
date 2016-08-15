@@ -44,5 +44,22 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "scripts": {
+      "start": "electron src/cli.js"
+    },
+    "dependencies": {
+      "argparse": "^1.0.3",
+      "electron-prebuilt": "^0.35.0",
+      "escape-html": "^1.0.3",
+      "urlcode-json": "0.0.5"
+    },
+    "engines": {
+      "node": ">=4.0.0",
+      "npm": ">=3.0.0"
+    },
+    "private": true
+  },
+  "packageStatus": 200
 }

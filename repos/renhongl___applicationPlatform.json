@@ -44,5 +44,35 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ap",
+    "version": "1.0.0",
+    "description": "A applications store for my projects",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "build": "electron-packager . AP --ignore=node_modules/electron-* --platform=win32 --arch=x64 --version=0.37.7 --overwrite --icon=./app/images/ap.ico",
+      "package": "asar pack AP-win32-x64/resources/app AP-win32-x64/resources/app.asar && rm -rf AP-win32-x64/resources/app"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "keywords": [
+      "Store",
+      "Beautiful",
+      "Multifunction"
+    ],
+    "author": "LiangRenHong",
+    "license": "",
+    "bugs": {
+      "url": ""
+    },
+    "homepage": "",
+    "devDependencies": {
+      "electron-prebuilt": ""
+    }
+  },
+  "packageStatus": 200
 }

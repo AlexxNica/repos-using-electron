@@ -44,5 +44,24 @@
   "license": null,
   "networkCount": 2,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "eow",
+    "version": "0.1.042",
+    "description": "Widgets styled like EVE Online",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron --enable-blink-features=CSSVariables --enable-transparent-visuals --disable-gpu main.js"
+    },
+    "author": "Robert Schuh",
+    "license": "UNLICENSED",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.5"
+    },
+    "dependencies": {
+      "js-git": "^0.7.7",
+      "js-github": "^1.0.0"
+    }
+  },
+  "packageStatus": 200
 }

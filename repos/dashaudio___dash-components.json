@@ -58,5 +58,67 @@
   },
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "dash-components",
+    "version": "0.5.1",
+    "description": "A web component user interface library for Dash products.",
+    "main": "build/components.js",
+    "browser": "build/components.js",
+    "files": [
+      "build/components.js",
+      "build/components.css"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dashaudio/dash-components.git"
+    },
+    "devDependencies": {
+      "babel-core": "^6.10.4",
+      "babel-preset-es2015-rollup": "^1.1.1",
+      "babel-preset-stage-1": "^6.5.0",
+      "chai": "^3.5.0",
+      "cssnano": "^3.7.1",
+      "dash-sdk": "0.0.8",
+      "gulp": "^3.9.1",
+      "gulp-add-src": "^0.2.0",
+      "gulp-connect": "^4.0.0",
+      "gulp-cssnano": "^2.1.2",
+      "gulp-nunjucks-render": "^2.0.0",
+      "gulp-rename": "^1.2.2",
+      "gulp-sass": "^2.3.2",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-token-replace": "^1.0.3",
+      "karma": "^0.13.22",
+      "karma-chai": "^0.1.0",
+      "karma-chrome-launcher": "^1.0.1",
+      "karma-electron": "^3.2.1",
+      "karma-mocha": "^1.0.1",
+      "karma-mocha-reporter": "^2.0.3",
+      "mocha": "^2.4.5",
+      "postcss": "^5.0.21",
+      "rollup": "^0.26.7",
+      "rollup-plugin-babel": "^2.6.1",
+      "rollup-plugin-commonjs": "^3.0.2",
+      "rollup-plugin-json": "^2.0.0",
+      "rollup-plugin-node-builtins": "^1.0.4",
+      "rollup-plugin-node-globals": "^1.0.5",
+      "rollup-plugin-node-resolve": "^1.7.1",
+      "rollup-plugin-sass": "^0.1.0",
+      "rollup-plugin-string": "^1.0.1",
+      "rollup-plugin-uglify": "^1.0.1",
+      "rollup-stream": "^1.10.1",
+      "vinyl-buffer": "^1.0.0",
+      "vinyl-source-stream": "^1.1.0",
+      "webcomponents.js": "^0.7.22"
+    },
+    "scripts": {
+      "start": "gulp serve",
+      "build": "gulp build",
+      "test": "gulp test"
+    },
+    "author": "Dash Product Team",
+    "license": "ISC"
+  },
+  "packageStatus": 200
 }

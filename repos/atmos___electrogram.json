@@ -50,5 +50,53 @@
   },
   "networkCount": 7,
   "subscribersCount": 7,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electrogram",
+    "main": "index.js",
+    "version": "0.0.2",
+    "private": true,
+    "author": "Corey Donohoe",
+    "keywords": [
+      "slack",
+      "chat",
+      "electronjs"
+    ],
+    "scripts": {
+      "test": "cake test"
+    },
+    "description": "A Slack Client by a user",
+    "licenses": [
+      {
+        "type": "MIT",
+        "url": "https://github.com/atmos/electrogram/raw/master/LICENSE"
+      }
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/atmos/electrogram.git"
+    },
+    "dependencies": {
+      "electron-prebuilt": "~0.27.2",
+      "jquery": "^2.1.4",
+      "react-emoji": "~0.3.2",
+      "react-autolink": "~0.2.0",
+      "coffeelint": "1.10.1",
+      "coffee-react": "~3.2.0",
+      "react": "^0.13.3",
+      "react-tools": "^0.13.3",
+      "reactify": "^1.1.1",
+      "slack-client-atmos": "~1.4.4"
+    },
+    "devDependencies": {
+      "chai": "~1.0.3",
+      "mocha": "~2.2.5",
+      "coffee-script": ">=1.6.3"
+    },
+    "engines": {
+      "node": "^0.10.x",
+      "npm": ">= 1.1.x"
+    }
+  },
+  "packageStatus": 200
 }

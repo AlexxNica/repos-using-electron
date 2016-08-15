@@ -44,5 +44,34 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "shanghai",
+    "version": "0.0.1",
+    "description": "A remake of the Mac OS 7 Mahjong game of the same name",
+    "main": "server.js",
+    "dependencies": {},
+    "devDependencies": {
+      "asar": "^0.6.1",
+      "brfs": "^1.4.0",
+      "browserify": "^10.0.0",
+      "coffee-script": "^1.9.2",
+      "coffeeify": "^1.1.0",
+      "electron-prebuilt": "^0.25.2",
+      "jquery": "^2.1.4",
+      "stylus": "^0.51.1",
+      "uglify-js": "^2.4.20"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/alexdavid/shanghai.git"
+    },
+    "author": "Alex David",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/alexdavid/shanghai/issues"
+    },
+    "homepage": "https://github.com/alexdavid/shanghai"
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,42 @@
   },
   "networkCount": 1,
   "subscribersCount": 8,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Shake",
+    "version": "0.3.0",
+    "description": "緊急地震速報のプログラム",
+    "homepage": "http://lumios.xyz/shake",
+    "author": "Lumios",
+    "license": "UNLICENSED",
+    "private": true,
+    "main": "./src/index.js",
+    "keywords": [
+      "earthquake",
+      "earthquake early warning",
+      "emergency alert",
+      "emergency",
+      "public warning",
+      "earthquake warning",
+      "緊急地震速報",
+      "地震速報",
+      "japan",
+      "日本"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lumios/shake.git"
+    },
+    "bugs": {
+      "url": "https://github.com/lumios/shake/issues"
+    },
+    "scripts": {
+      "start": "./src/node_modules/.bin/electron ./src/index.js"
+    },
+    "devDependencies": {
+      "gulp": "^3.9.1",
+      "gulp-electron": "^0.1.1"
+    }
+  },
+  "packageStatus": 200
 }

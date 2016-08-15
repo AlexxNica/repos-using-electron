@@ -50,5 +50,49 @@
   },
   "networkCount": 0,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "named-websocket-proxy",
+    "version": "0.0.0",
+    "description": "Named Websocket Proxy",
+    "main": "background/src/main.js",
+    "bin": "./bin/cli",
+    "scripts": {
+      "start": "./node_modules/.bin/electron .",
+      "build": "./node_modules/.bin/browserify background/src/main.js -o dist/background.js",
+      "dev": "./node_modules/.bin/watchify -v -d background/src/main.js -o dist/background.js",
+      "test": "./node_modules/.bin/mocha --recursive"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "author": "Andrew Nicolaou",
+    "license": "Apache-2",
+    "bugs": {
+      "url": "https://github.com/andrewn/chrome-namedwebsocket-proxy/issues"
+    },
+    "homepage": "https://github.com/andrewn/chrome-namedwebsocket-proxy",
+    "devDependencies": {
+      "browserify": "~9.0.7",
+      "es6-promise": "~2.0.1",
+      "watchify": "~3.1.0",
+      "mocha": "~2.2.1",
+      "chai": "~2.2.0",
+      "ampersand-state": "~4.5.3",
+      "ampersand-collection-lodash-mixin": "~2.0.0",
+      "ampersand-collection": "~1.4.5",
+      "sinon": "~1.14.1",
+      "lodash": "~3.6.0",
+      "node-uuid": "~1.4.3",
+      "multicast-mdns": "andrewn/multicast-dns#chrome-app",
+      "ampersand-events": "~1.1.1",
+      "lodash.assign": "~3.1.0",
+      "chai-as-promised": "~5.0.0",
+      "electron-prebuilt": "~0.25.1",
+      "node-inspector": "~0.10.0",
+      "faye-websocket": "~0.9.4"
+    }
+  },
+  "packageStatus": 200
 }

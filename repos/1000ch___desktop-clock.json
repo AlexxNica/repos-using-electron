@@ -44,5 +44,37 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "desktop-clock",
+    "version": "0.0.0",
+    "description": "Cross-platform Desktop Clock with Electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "debug": "electron --debug .",
+      "build": "node build.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/1000ch/desktop-clock.git"
+    },
+    "keywords": [
+      "electron"
+    ],
+    "author": "1000ch",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/1000ch/desktop-clock/issues"
+    },
+    "homepage": "https://github.com/1000ch/desktop-clock#readme",
+    "dependencies": {
+      "electron-prebuilt": "^0.37.5",
+      "moment": "^2.11.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^6.0.1"
+    }
+  },
+  "packageStatus": 200
 }

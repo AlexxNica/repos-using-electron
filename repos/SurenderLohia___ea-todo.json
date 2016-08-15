@@ -44,5 +44,29 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "eatodo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app/main.js",
+    "scripts": {
+      "start": "electron ./app",
+      "postinstall": "install-app-deps",
+      "pack": "build --target dir",
+      "dist": "build"
+    },
+    "author": "Surender Lohia <surender.lohia.e@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+      "electron-builder": "^4.2.0",
+      "electron-prebuilt": "^1.2.1"
+    },
+    "build": {
+      "app-bundle-id": "hr.creaticon.eatodo",
+      "app-category-type": "public.app-category.productivity",
+      "iconUrl": "http://eatodo.s3.amazonaws.com/icon.ico"
+    }
+  },
+  "packageStatus": 200
 }

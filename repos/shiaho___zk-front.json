@@ -50,5 +50,61 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "zk-front",
+    "productName": "ZkFront",
+    "version": "0.0.1",
+    "description": "My awe-inspiring app",
+    "license": "MIT",
+    "repository": "shiaho/zk-front",
+    "author": {
+      "name": "ksh",
+      "email": "ksx0001@gmail.com",
+      "url": "http://sihao.me"
+    },
+    "electronVersion": "0.36.0",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager  . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --platform=darwin --prune --asar --all --version=$npm_package_electronVersion"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "babel-plugin-transform-react-jsx": "^6.6.5",
+      "bootstrap": "^3.3.6",
+      "bower": "^1.7.2",
+      "brace": "^0.7.0",
+      "dialogs": "^1.1.9",
+      "electron-debug": "^0.5.0",
+      "jquery": "^2.2.0",
+      "react": "^0.14.6",
+      "react-ace": "^3.1.0",
+      "react-contextmenu": "^0.3.0",
+      "react-dom": "^0.14.6",
+      "reflux": "^0.3.0",
+      "zkjs": "^3.4.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.36.0",
+      "xo": "^0.12.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

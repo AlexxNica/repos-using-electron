@@ -50,5 +50,38 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "chatmine",
+    "version": "0.0.12",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 0",
+      "start": "./node_modules/.bin/electron ."
+    },
+    "author": "kongou-ae",
+    "license": "MIT",
+    "devDependencies": {
+      "bcrypt": "^0.8.5",
+      "del": "^2.0.1",
+      "electron-packager": "~5.0.2",
+      "electron-prebuilt": "^0.32.0",
+      "electron-rebuild": "^1.0.0",
+      "gulp": "^3.9.0",
+      "gulp-archiver": "^1.0.0",
+      "gulp-electron": "0.0.9",
+      "gulp-install": "^0.5.0",
+      "gulp-zip": "^3.0.2",
+      "node-gyp": "^3.0.3",
+      "run-sequence": "^1.1.2"
+    },
+    "dependencies": {
+      "bootstrap": "^3.3.6",
+      "cors-anywhere": "^0.2.5",
+      "electron-connect": "^0.4.2",
+      "mithril": "^0.2.0"
+    }
+  },
+  "packageStatus": 200
 }

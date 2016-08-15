@@ -50,5 +50,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "greenlight",
+    "description": "Availability monitor for happy coworkers, based on Electron",
+    "license": "MIT",
+    "repository": "https://github.com/Swop/GreenLight",
+    "version": "0.1.0",
+    "main": "./main.js",
+    "scripts": {
+      "start": "electron .",
+      "debug": "GREENLIGHT_DEBUG=1 electron .",
+      "package": "electron-packager ./ GreenLight --platform=darwin --arch=x64 --out ./dist --version 1.2.1 --overwrite --icon=./app/img/app-icon.icns",
+      "postinstall": "electron-rebuild -v 1.2.1 --pre-gyp-fix --force -m . -w node-hid",
+      "test": "eslint app main.js"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.0.3",
+      "electron-prebuilt": "^1.2.1",
+      "electron-rebuild": "^1.1.5",
+      "eslint": "^2.11.1"
+    },
+    "dependencies": {
+      "nconf": "^0.8.4",
+      "node-hid": "^0.5.1",
+      "node-notifier": "^4.6.0"
+    }
+  },
+  "packageStatus": 200
 }

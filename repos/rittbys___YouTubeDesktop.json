@@ -50,5 +50,39 @@
   },
   "networkCount": 2,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Desktop",
+    "version": "0.3.1",
+    "description": "A desktop YouTube client. Not affiliated with Google.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "package-visual": "electron-packager-interactive",
+      "package-win32": "electron-packager .\\ Desktop --platform=win32 --arch=all --out=%USERPROFILE%\\Desktop\\Desktop --app-copyright=CC0 --icon=dependencies\\Windows\\app_large.ico --app-version=0.3.6 --version=0.37.6 --version-string.FileDescription=Desktop --version-string.OriginalFilename=desktop.exe --version-string.ProductName=Desktop --version-string.InternalName=Desktop  --version-string.LegalCopyright=CC0-1 --overwrite",
+      "package-gnu": "electron-packager .\\ Desktop --platform=all --arch=all --out=%USERPROFILE%\\Desktop\\Desktop --app-copyright=CC0 --icon=dependencies\\OSX\\app_large.icns --app-version=0.3.6 --version=0.37.6 --version-string.FileDescription=Desktop --version-string.OriginalFilename=desktop.exe --version-string.ProductName=Desktop --version-string.InternalName=Desktop  --version-string.LegalCopyright=CC0-1",
+      "package-testing": "electron-packager .\\ Desktop --platform=win32 --arch=x64 --out=%USERPROFILE%\\Desktop\\Desktop --app-copyright=CC0 --icon=dependencies\\Windows\\app_large.ico --app-version=0.3.6 --version=0.37.6 --version-string.FileDescription=Desktop --version-string.OriginalFilename=desktop.exe --version-string.ProductName=Desktop --version-string.InternalName=Desktop --version-string.LegalCopyright=CC0-1 --overwrite",
+      "setup": "electron setup.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rittbys/YouTubeDesktop"
+    },
+    "keywords": [
+      "YouTube",
+      "YouTube Desktop"
+    ],
+    "author": "rittbys",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/rittbys/YouTubeDesktop/issues"
+    },
+    "homepage": "https://github.com/rittbys/YouTubeDesktop#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.0",
+      "fs": "^0.0.2",
+      "coffee-script": "^1.10.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-app",
+    "version": "0.0.0",
+    "description": "This is just a basic Electron app for tinkering purposes.",
+    "main": "main.js",
+    "devDependencies": {
+      "electron-prebuilt": "latest"
+    },
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bdsexton/electron-app"
+    },
+    "author": {
+      "name": "Brian Sexton",
+      "url": "http://briansexton.com/"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bdsexton/electron-app/issues"
+    },
+    "homepage": "https://github.com/bdsexton/electron-app#readme"
+  },
+  "packageStatus": 200
 }

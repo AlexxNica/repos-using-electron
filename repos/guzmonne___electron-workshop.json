@@ -44,5 +44,41 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "e",
+    "version": "1.0.0",
+    "description": "Electron Workshop ===",
+    "main": "main.js",
+    "scripts": {
+      "test": "npm run test:main && npm run test:renderer",
+      "test:main": "electron-mocha ./tests/main/*.spec.js --reporter spec --colors",
+      "test:renderer": "electron-mocha ./tests/renderer/*.spec.js --reporter spec --colors",
+      "start": "electron .",
+      "package:osx": "electron-packager . --platform=darwin --arch=x64",
+      "package:win64": "electron-packager . --platform=win32 --arch=x64",
+      "package:win32": "electron-packager . --platform=win32 --arch=ia32",
+      "package:linux": "electron-packager . --platform=linux --arch=x64"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/guzmonne/electron-workshop.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/guzmonne/electron-workshop/issues"
+    },
+    "homepage": "https://github.com/guzmonne/electron-workshop#readme",
+    "dependencies": {
+      "electron-prebuilt": "^0.37.6"
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "electron-mocha": "^1.2.0",
+      "electron-packager": "^6.0.2",
+      "electron-reload": "^0.2.0"
+    }
+  },
+  "packageStatus": 200
 }

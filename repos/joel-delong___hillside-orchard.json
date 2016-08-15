@@ -44,5 +44,25 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hillside-orchard",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . MyApp --platform=darwin,win32 --arch=all --version=0.30.0 --overwrite"
+    },
+    "author": "Joel DeLong",
+    "license": "MIT",
+    "dependencies": {
+      "request": "^2.58.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.0"
+    }
+  },
+  "packageStatus": 200
 }

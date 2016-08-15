@@ -58,5 +58,30 @@
   },
   "networkCount": 0,
   "subscribersCount": 17,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "jfalcao",
+    "version": "0.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jeKnowledge/jfalcao-v2.git"
+    },
+    "author": "",
+    "license": "BSD-2-Clause",
+    "bugs": {
+      "url": "https://github.com/jeKnowledge/jfalcao-v2/issues"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.2"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^1.1.0"
+    }
+  },
+  "packageStatus": 200
 }

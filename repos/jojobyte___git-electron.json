@@ -44,5 +44,62 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "git-electron",
+    "displayName": "Git Electron",
+    "version": "0.0.1",
+    "description": "Electronified Git",
+    "main": "app/main.js",
+    "private": true,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jojobyte/git-electron.git"
+    },
+    "keywords": [
+      "git"
+    ],
+    "author": "jojobyte",
+    "scripts": {
+      "clean": "rimraf dist",
+      "postinstall": "install-app-deps",
+      "start": "electron .",
+      "pack": "build --dir",
+      "dist": "build"
+    },
+    "build": {
+      "appId": "com.jojobyte.git-electron",
+      "app-category-type": "public.app-category.developer-tools",
+      "compression": "store",
+      "asar": false,
+      "mac": {
+        "protocols": [
+          {
+            "name": "com.jojobyte.git-protocols",
+            "schemes": [
+              "github-windows",
+              "github-mac",
+              "sourcetree"
+            ]
+          }
+        ]
+      },
+      "win": {
+        "msi": false
+      }
+    },
+    "directories": {
+      "app": "app"
+    },
+    "devDependencies": {
+      "electron-builder": "^5.10.5",
+      "electron-prebuilt": "^1.2.7",
+      "rimraf": "^2.5.3"
+    },
+    "engines": {
+      "electron": "1.2.7",
+      "atom-shell": "1.2.7"
+    }
+  },
+  "packageStatus": 200
 }

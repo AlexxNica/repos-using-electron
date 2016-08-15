@@ -50,5 +50,75 @@
   },
   "networkCount": 5,
   "subscribersCount": 5,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-angular-example",
+    "productName": "ElectronAngularExample",
+    "version": "0.0.0",
+    "description": "An example electron app using Angular2",
+    "license": "MIT",
+    "main": "index.js",
+    "repository": {
+      "url": "jimschubert/electron-angular-example"
+    },
+    "author": {
+      "name": "Jim Schubert",
+      "email": "james.schubert@gmail.com",
+      "url": "ipreferjim.com"
+    },
+    "engines": {
+      "node": ">=0.10.0",
+      "npm": "~2.14.7 <3.0.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "debug": "electron --debug-brk=5858 .",
+      "postinstall": "jspm install"
+    },
+    "keywords": [
+      "electron-angular-example"
+    ],
+    "devDependencies": {
+      "del": "^1.1.1",
+      "electron-packager": "^4.2.0",
+      "electron-prebuilt": "^0.26.1",
+      "gulp": "^3.8.11",
+      "gulp-debug": "^2.0.1",
+      "gulp-filter": "^3.0.1",
+      "gulp-if": "^1.2.5",
+      "gulp-inject": "^1.1.1",
+      "gulp-sourcemaps": "^1.3.0",
+      "gulp-task-listing": "^1.0.0",
+      "gulp-tsd": "0.0.4",
+      "gulp-tslint": "^1.4.3",
+      "gulp-typescript": "^2.7.5",
+      "jspm": "^0.15.6",
+      "minimist": "^1.1.1",
+      "require-dir": "^0.3.0",
+      "rimraf": "^2.3.4",
+      "tsd": "^0.5.7",
+      "typescript": "^1.5.0-beta"
+    },
+    "jspm": {
+      "directories": {
+        "baseURL": "client"
+      },
+      "dependencies": {
+        "angular2": "npm:angular2@2.0.0-alpha.25",
+        "es6-shim": "npm:es6-shim@^0.31.2",
+        "mhegazy/typescript": "github:mhegazy/typescript@v1.5-beta2",
+        "reflect-metadata": "npm:reflect-metadata@^0.1.0",
+        "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88"
+      },
+      "devDependencies": {
+        "babel": "npm:babel-core@^5.4.3",
+        "babel-runtime": "npm:babel-runtime@^5.4.3",
+        "core-js": "npm:core-js@^0.9.10",
+        "traceur": "github:jmcriffey/bower-traceur@0.0.88",
+        "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88",
+        "typescript": "github:mhegazy/typescript@v1.5-beta2"
+      }
+    }
+  },
+  "packageStatus": 200
 }

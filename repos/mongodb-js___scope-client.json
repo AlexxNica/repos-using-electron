@@ -64,5 +64,80 @@
   },
   "networkCount": 1,
   "subscribersCount": 11,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "mongodb-scope-client",
+    "description": "A client for mongodb-scope-server that works in the browser or a server.",
+    "version": "0.11.0",
+    "author": "Lucas Hrabovsky <lucas@mongodb.com> (http://imlucas.com)",
+    "homepage": "http://github.com/mongodb-js/scope-client",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/mongodb-js/scope-client.git"
+    },
+    "dependency-check": {
+      "ignore": [
+        "mongodb-datasets"
+      ]
+    },
+    "license": "Apache-2.0",
+    "scripts": {
+      "check": "mongodb-js-precommit",
+      "fmt": "mongodb-js-fmt",
+      "docs": "gulp docs",
+      "ci": "npm test",
+      "ci-evergreen": "npm run start-server && mocha --reporter mocha-evergreen-reporter || npm run stop-server",
+      "test": "npm run start-server && mocha || npm run stop-server",
+      "test-electron": "npm run start-server && electron-mocha || npm run stop-server",
+      "start-server": "node bin/start-server.js",
+      "stop-server": "node bin/stop-server.js",
+      "prestart": "npm run start-server",
+      "start": "zuul --local 3001 --open -- test/*.test.js",
+      "poststart": "npm run start-server"
+    },
+    "precommit": [
+      "check"
+    ],
+    "dependencies": {
+      "ampersand-model": "^8.0.0",
+      "ampersand-state": "5.0.2",
+      "async": "^1.5.2",
+      "debug": "^2.2.0",
+      "event-stream": "^3.3.2",
+      "lodash.omit": "^4.2.1",
+      "lodash.trimright": "^3.0.2",
+      "mississippi": "^1.2.0",
+      "mongodb-connection-model": "^4.0.0",
+      "mongodb-extended-json": "^1.6.3",
+      "mongodb-ns": "^1.0.3",
+      "raf": "^3.2.0",
+      "socket.io-client": "^1.4.5",
+      "socket.io-stream": "0.9.0",
+      "superagent": "^2.0.0"
+    },
+    "devDependencies": {
+      "backbone": "^1.2.3",
+      "bson": "^0.4.23",
+      "del": "^2.2.0",
+      "dox": "^0.8.0",
+      "electron-mocha": "^2.2.0",
+      "electron-prebuilt": "^1.2.3",
+      "eslint-config-mongodb-js": "^2.0.0",
+      "gulp": "^3.9.1",
+      "gulp-util": "^3.0.7",
+      "handlebars": "^4.0.5",
+      "lodash.range": "^3.0.1",
+      "mocha": "^2.4.4",
+      "mocha-evergreen-reporter": "^0.0.7",
+      "mongodb-datasets": "^0.1.5",
+      "mongodb-js-fmt": "^0.0.3",
+      "mongodb-js-precommit": "^0.2.8",
+      "mongodb-runner": "^3.1.15",
+      "mongodb-scope-server": "^0.16.0",
+      "pre-commit": "^1.1.2",
+      "through2": "^2.0.0",
+      "zuul": "^3.9.0"
+    }
+  },
+  "packageStatus": 200
 }

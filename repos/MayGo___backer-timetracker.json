@@ -50,5 +50,55 @@
   },
   "networkCount": 2,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "BackerTimetracker",
+    "version": "2.0.1",
+    "description": "Track your time by monitoring your active windows and idle time",
+    "main": "app/app.js",
+    "scripts": {
+      "test": "echo \"Please use gulp instead.\" && exit 1"
+    },
+    "author": "Maigo Erit <maigo.erit@gmail.com>",
+    "devDependencies": {
+      "electron-connect": "0.4.2",
+      "electron-prebuilt": "^1.2.5",
+      "electron-rebuild": "^1.1.4",
+      "electron-builder": "^3.26.3",
+      "gulp": "^3.9.1",
+      "gulp-sass": "^2.0.3",
+      "node-gyp": "^3.3.1"
+    },
+    "build": {
+      "app-bundle-id": "ee.trimatech.BackerTimetracker",
+      "app-category-type": "public.app-category.productivity",
+      "iconUrl": "shared/img/icon/timetracker_icon.ico",
+      "asar": false,
+      "osx": {
+        "icon": "shared/img/icon/timetracker_icon.icns",
+        "icon-size": 40,
+        "contents": [
+          {
+            "x": 438,
+            "y": 144,
+            "type": "link",
+            "path": "/Applications"
+          },
+          {
+            "x": 192,
+            "y": 144,
+            "type": "file"
+          }
+        ]
+      },
+      "win": {
+        "iconUrl": "https://raw.githubusercontent.com/MayGo/backer-timetracker/master/build/icon.ico",
+        "icon": "https://raw.githubusercontent.com/MayGo/backer-timetracker/master/build/icon.ico"
+      },
+      "linux": {
+        "target": "deb"
+      }
+    }
+  },
+  "packageStatus": 200
 }

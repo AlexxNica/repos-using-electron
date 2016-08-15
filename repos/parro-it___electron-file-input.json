@@ -50,5 +50,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-file-input",
+    "version": "1.0.0",
+    "description": "",
+    "repository": "parro-it/electron-file-input",
+    "license": "MIT",
+    "author": "parro-it",
+    "scripts": {
+      "test": "xo"
+    },
+    "keywords": [],
+    "engines": {
+      "node": ">=5"
+    },
+    "files": [
+      "index.js"
+    ],
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.8",
+      "xo": "^0.14.0"
+    },
+    "dependencies": {
+      "electron-contextmenu-middleware": "^1.0.1",
+      "react": "^15.0.2"
+    }
+  },
+  "packageStatus": 200
 }

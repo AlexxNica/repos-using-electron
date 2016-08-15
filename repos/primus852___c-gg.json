@@ -50,5 +50,56 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "LoLItemSetCreator",
+    "version": "0.1.1",
+    "description": "Create LoL ItemSet with the Champion.GG API",
+    "main": "main.js",
+    "scripts": {
+      "build": "rm -rf dist/ | electron-packager . LoLItemSetCreator --platform win32,mas,darwin --arch all --out dist/ --overwrite --asar",
+      "setupWin32": "electron-installer-windows --config cfgSetup32.json",
+      "setupWin64": "electron-installer-windows --config cfgSetup64.json",
+      "zip": "7z a -t7z dist/packages/darwin_x64.7z dist/LoLItemSetCreator-darwin-x64/ | 7z a -t7z dist/packages/mas_x64.7z dist/LoLItemSetCreator-mas-x64/ | 7z a -t7z dist/packages/windows_x64.7z dist/LoLItemSetCreator-win32-x64/ | 7z a -t7z dist/packages/windows_ia32.7z dist/LoLItemSetCreator-win32-ia32/",
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/primus852/c-gg.git"
+    },
+    "keywords": [
+      "LoL",
+      "Champion.GG",
+      "League",
+      "Legends"
+    ],
+    "author": "PrimuS",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/primus852/c-gg/issues"
+    },
+    "build": {
+      "app-bundle-id": "c.gg",
+      "app-category-type": "lol.apps",
+      "win": {
+        "iconUrl": "https://raw.githubusercontent.com/primus852/c-gg/master/assets/vendor/c-gg/images/logo.png"
+      }
+    },
+    "homepage": "https://github.com/primus852/c-gg/blob/master/README.md",
+    "devDependencies": {
+      "electron-installer-windows": "^0.2.0",
+      "electron-packager": "^7.0.2",
+      "electron-prebuilt": "^1.1.1"
+    },
+    "dependencies": {
+      "app": "^0.1.0",
+      "cheerio": "^0.20.0",
+      "electron-sudo": "^3.0.5",
+      "mkdirp": "^0.5.1",
+      "ncp": "^2.0.0",
+      "open": "^0.0.5",
+      "request": "*"
+    }
+  },
+  "packageStatus": 200
 }

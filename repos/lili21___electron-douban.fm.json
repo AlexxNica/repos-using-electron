@@ -44,5 +44,39 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "douban.fm",
+    "version": "1.0.0",
+    "description": "douban.fm桌面版",
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lili21/electron-douban.fm.git"
+    },
+    "keywords": [
+      "Electron",
+      "douban.fm"
+    ],
+    "author": "li.li",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/lili21/electron-douban.fm/issues"
+    },
+    "homepage": "https://github.com/lili21/electron-douban.fm#readme",
+    "scripts": {
+      "start": "electron main.js",
+      "postinstall": "install-app-deps",
+      "pack": "build",
+      "dist": "build"
+    },
+    "build": {
+      "app-bundle-id": "lili.doubanfm",
+      "app-category-type": "public.app-category.music"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.10"
+    }
+  },
+  "packageStatus": 200
 }

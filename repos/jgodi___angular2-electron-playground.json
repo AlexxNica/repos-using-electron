@@ -44,5 +44,43 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "angular2-electron-playground",
+    "version": "0.0.1",
+    "description": "An Angular2 + Electron application to play around with things!",
+    "main": "index.js",
+    "scripts": {
+      "watch": "rm -rf public/bundle/* && webpack --watch --colors --display-error-details --display-cached",
+      "start": "electron index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/jgodi/angular2-electron-playground.git"
+    },
+    "dependencies": {
+      "@reactivex/rxjs": "5.0.0-alpha.13",
+      "angular2": "2.0.0-alpha.46",
+      "es6-shim": "0.33.13",
+      "reflect-metadata": "^0.1.2",
+      "zone.js": "^0.5.8"
+    },
+    "devDependencies": {
+      "autoprefixer-loader": "^3.1.0",
+      "awesome-typescript-loader": "0.15.9",
+      "concurrently": "^1.0.0",
+      "css-loader": "^0.23.0",
+      "electron-prebuilt": "^0.35.4",
+      "file-loader": "^0.8.5",
+      "node-sass": "^3.4.2",
+      "raw-loader": "^0.5.1",
+      "sass-loader": "^3.1.2",
+      "style-loader": "^0.13.0",
+      "typescript": "1.7.3",
+      "url-loader": "^0.5.7",
+      "util": "^0.10.3",
+      "webpack": "^1.12.9"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,21 @@
   },
   "networkCount": 3,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron_tutorial_one",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron ."
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^0.25.1-1"
+    }
+  },
+  "packageStatus": 200
 }

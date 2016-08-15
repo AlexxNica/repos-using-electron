@@ -44,5 +44,38 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Liliusm",
+    "version": "0.0.1",
+    "description": "A linux live usb make for OSX",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "keywords": [
+      "linux",
+      "live",
+      "usb",
+      "maker",
+      "osx"
+    ],
+    "author": "Outpox",
+    "bugs": {
+      "url": "https://github.com/Outpox/Liliusm/issues"
+    },
+    "homepage": "http://guillaumemigeon.fr",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "electron-sudo": "^3.0.2",
+      "file-size": "^1.0.0",
+      "i18n": "^0.5.0",
+      "jquery": "^2.2.0",
+      "materialize-css": "^0.97.5",
+      "xml2js": "^0.4.16"
+    }
+  },
+  "packageStatus": 200
 }

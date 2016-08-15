@@ -168,5 +168,56 @@
   },
   "networkCount": 157,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "playback",
+    "version": "1.4.0",
+    "description": "Video player build using atom-shell and node.js",
+    "main": "app.js",
+    "dependencies": {
+      "JSONStream": "^0.10.0",
+      "chromecasts": "^1.2.1",
+      "concat-stream": "^1.4.7",
+      "dombo": "^3.2.0",
+      "drag-and-drop-files": "0.0.1",
+      "duplexify": "^3.2.0",
+      "end-of-stream": "^1.1.0",
+      "filereader-stream": "^0.2.0",
+      "minimist": "^1.1.1",
+      "multicast-dns": "^2.0.0",
+      "network-address": "^1.0.0",
+      "pump": "^1.0.0",
+      "range-parser": "^1.0.2",
+      "request": "^2.54.0",
+      "srt-to-vtt": "^1.0.2",
+      "titlebar": "^1.1.0",
+      "webtorrent": "^0.58.0",
+      "ytdl-core": "^0.5.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^4.1.2",
+      "electron-prebuilt": "^0.27.2"
+    },
+    "bin": {
+      "playback": "./app.js"
+    },
+    "scripts": {
+      "start": "electron app.js",
+      "dev": "electron app.js test.mp4",
+      "mac-bundle": "electron-packager . Playback --platform=darwin --arch=x64 --version=0.27.2 --ignore=node_modules/electron-prebuilt && cp info.plist Playback.app/Contents/Info.plist && cp icon.icns Playback.app/Contents/Resources/atom.icns",
+      "win-bundle": "electron-packager . Playback --platform=win32 --arch=ia32 --version=0.27.2 --icon=icon.ico",
+      "linux-64-bundle": "electron-packager . Playback --platform=linux --arch=x64 --version=0.27.2 ignore='node_modules/(electron-packager|electron-prebuilt)'"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mafintosh/playback.git"
+    },
+    "author": "Mathias Buus (@mafintosh)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mafintosh/playback/issues"
+    },
+    "homepage": "https://github.com/mafintosh/playback"
+  },
+  "packageStatus": 200
 }

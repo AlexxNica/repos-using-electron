@@ -50,5 +50,53 @@
   },
   "networkCount": 13,
   "subscribersCount": 7,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-context-menu",
+    "version": "0.4.0",
+    "description": "Context menu for your Electron app",
+    "license": "MIT",
+    "repository": "sindresorhus/electron-context-menu",
+    "author": {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "sindresorhus.com"
+    },
+    "scripts": {
+      "start": "electron fixture.js",
+      "test": "xo"
+    },
+    "files": [
+      "index.js"
+    ],
+    "keywords": [
+      "electron",
+      "app",
+      "context",
+      "right-click",
+      "menu",
+      "extensible",
+      "save",
+      "image"
+    ],
+    "dependencies": {
+      "electron-dl": "^1.2.0",
+      "electron-is-dev": "^0.1.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.6",
+      "xo": "*"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ],
+      "rules": {
+        "import/no-extraneous-dependencies": "off"
+      }
+    }
+  },
+  "packageStatus": 200
 }

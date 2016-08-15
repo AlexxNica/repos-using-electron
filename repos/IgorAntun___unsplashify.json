@@ -50,5 +50,33 @@
   },
   "networkCount": 3,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Unsplashify",
+    "version": "0.5.29",
+    "description": "Use images from Unsplash on your desktop",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Igor Antun <hello@igorantun.com> (https://github.com/IgorAntun)",
+    "contributors": [
+      "Vytor Calixto <vytorcalixto@gmail.com> (https://github.com/VytorCalixto)"
+    ],
+    "license": "MIT",
+    "dependencies": {
+      "fs": "0.0.2",
+      "fs-extra": "~0.18.0",
+      "later": "~1.1.6",
+      "request": "~2.55.0",
+      "superb": "^1.1.4",
+      "wallpaper": "~1.0.0"
+    },
+    "devDependencies": {
+      "electron-debug": "^0.2.0",
+      "electron-prebuilt": "^0.30.1"
+    }
+  },
+  "packageStatus": 200
 }

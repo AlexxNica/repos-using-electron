@@ -44,5 +44,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "build": {
+      "appId": "vsm-singapore",
+      "app-category-type": "public.app-category.graphics-design",
+      "productName": "VSM",
+      "win": {
+        "iconUrl": "http://vsm.sg.demo.ihealthlabs.com/img/ihealth-256.ico",
+        "loadingGif": "./build/ihealth-256.gif",
+        "remoteReleases": "http://vsm.sg.demo.ihealthlabs.com/app/latest"
+      }
+    },
+    "scripts": {
+      "start": "electron .",
+      "postinstall": "install-app-deps",
+      "pack": "build --dir",
+      "dist": "build -w --x64 --ia32"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.6",
+      "underscore": "^1.8.3"
+    },
+    "dependencies": {
+      "electron-build": "0.0.3"
+    }
+  },
+  "packageStatus": 200
 }

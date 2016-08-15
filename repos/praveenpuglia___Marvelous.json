@@ -168,5 +168,59 @@
   },
   "networkCount": 5,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Marvelous",
+    "description": "Markdown editor for the future",
+    "version": "0.0.1",
+    "author": "Team LeanTaaS <leantaas@imaginea.com>",
+    "contributors": [
+      {
+        "name": "Vamsi Chava",
+        "email": "vamsi.chava@imaginea.com"
+      },
+      {
+        "name": "Kiran Danduprolu",
+        "email": "kiran.d@imaginea.com"
+      },
+      {
+        "name": "Sudhir Chokkakula",
+        "email": "sudhir.chokkakula@imaginea.com"
+      },
+      {
+        "name": "Srikanth Pothkanuri",
+        "email": "srikanth.p@imaginea.com"
+      },
+      {
+        "name": "Praveen Puglia",
+        "email": "praveen.puglia@imaginea.com"
+      }
+    ],
+    "bugs": {
+      "url": "https://github.com/hashd/Marvelous/issues"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.29.1",
+      "gulp": "^3.9.0",
+      "gulp-eslint": "^0.15.0",
+      "gulp-zip": "^3.0.2",
+      "mkdirp": "~0.5.1"
+    },
+    "keywords": [
+      "atom-shell",
+      "electron",
+      "markdown",
+      "editor"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "private": true,
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . Marvelous --platform=linux --arch=all --version=0.29.2 --icon=app/img/marvelous.svg --out=./build/ --overwrite && gulp release:linux",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    }
+  },
+  "packageStatus": 200
 }

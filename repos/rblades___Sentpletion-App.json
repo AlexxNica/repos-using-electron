@@ -50,5 +50,33 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "sentpletion",
+    "version": "0.1.0",
+    "description": "Sentence Completion Desktop App",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rblades/Sentpletion-App.git"
+    },
+    "keywords": [
+      "pyschology"
+    ],
+    "author": "Rob Blades",
+    "license": "MIT",
+    "homepage": "https://github.com/rblades/Sentpletion-App",
+    "devDependencies": {
+      "devtron": "^1.1.0",
+      "electron-prebuilt": "1.2.8"
+    },
+    "dependencies": {
+      "nconf": "^0.8.4",
+      "node-notifier": "^4.5.0"
+    }
+  },
+  "packageStatus": 200
 }

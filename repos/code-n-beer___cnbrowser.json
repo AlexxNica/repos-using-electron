@@ -58,5 +58,28 @@
   },
   "networkCount": 0,
   "subscribersCount": 14,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "cnbrowser",
+    "version": "0.1.0",
+    "main": "bootstrapper.js",
+    "description": "Modern browsers suck so I made my own.",
+    "dependencies": {
+      "babel": "^5.8.21",
+      "electron-prebuilt": "^0.30.4",
+      "react": "^0.13.3"
+    },
+    "devDependencies": {
+      "esformatter": "^0.7.3",
+      "esformatter-quotes": "^1.0.3",
+      "eslint-plugin-react": "^3.2.2"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "run": "babel-node node_modules/.bin/electron ."
+    },
+    "author": "dwarfcrank",
+    "license": "WTFPL"
+  },
+  "packageStatus": 200
 }

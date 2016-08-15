@@ -58,5 +58,60 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "twic",
+    "version": "1.0.0",
+    "description": "Awesome Twitter client",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest ./src",
+      "watch": "jest --watch ./src",
+      "lint": "eslint src/",
+      "start": "electron src/index"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/twicapp/app.git"
+    },
+    "keywords": [
+      "twic",
+      "twitter",
+      "client",
+      "awesome"
+    ],
+    "author": "Igor Kalashnikov <igor.kalashnikov@me.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/twicapp/app/issues"
+    },
+    "homepage": "https://github.com/twicapp/app#readme",
+    "dependencies": {
+      "@twic/config": "1.0.1",
+      "@twic/connection": "1.0.1",
+      "@twic/db": "1.0.1",
+      "@twic/eventemitter": "1.0.2",
+      "@twic/i18n": "1.0.0"
+    },
+    "devDependencies": {
+      "babel-jest": "^5.3.0",
+      "coveralls": "^2.11.4",
+      "electron-prebuilt": "0.33.4",
+      "eslint": "^1.5.1",
+      "eslint-config-twic": "1.5.0",
+      "jest-cli": "^0.5.8"
+    },
+    "jest": {
+      "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+      "coverageReporters": [
+        "lcov"
+      ],
+      "preprocessorIgnorePatterns": [
+        "/node_modules/"
+      ],
+      "collectCoverage": true,
+      "verbose": true
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,42 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "whatsapp",
+    "version": "1.0.0",
+    "description": "A aplication unofficial of Whatsapp for LINUX",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/freivincampbell/whatsapp-desktop.git"
+    },
+    "author": {
+      "name": "Freivin Campbell",
+      "email": "freivin12@gmail.com",
+      "url": "http://freivincampbell.github.io"
+    },
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "npm run build-linux",
+      "build-linux": "electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --prune --platform=linux --arch=x64 && cd dist/whatsapp-linux-x64/ && tar -czvf  ../whatsapp-linux-x64.tar.gz * ../whatsapp-linux-x64"
+    },
+    "files": [
+      "main.js",
+      "media/logo.png",
+      "media/notification.png"
+    ],
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "devDependencies": {
+      "electron-packager": "^7.3.0",
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

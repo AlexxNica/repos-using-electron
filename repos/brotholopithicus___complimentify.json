@@ -44,5 +44,26 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "complimentify",
+    "version": "1.0.0",
+    "description": "a simple menubar app displaying a random compliment",
+    "main": "index.js",
+    "author": "James Jarvis",
+    "license": "MIT",
+    "dependencies": {
+      "menubar": "latest"
+    },
+    "scripts": {
+      "bundle": "browserify src/js/app.js -o app.bundle.js",
+      "build": "node_modules/.bin/electron-packager ./ complimentify --platform=darwin --arch=all --version=0.36.12"
+    },
+    "devDependencies": {
+      "browserify": "^13.0.1",
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

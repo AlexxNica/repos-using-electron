@@ -50,5 +50,36 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "timer",
+    "version": "1.0.0",
+    "description": "Simple Timer App",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/feistus/timer.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "Felix",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/feistus/timer/issues"
+    },
+    "devDependencies": {
+      "bootstrap": "^3.3.6",
+      "electron-prebuilt": "^1.2.0",
+      "jquery": "^2.2.4",
+      "jqueryui": "^1.11.1"
+    }
+  },
+  "packageStatus": 200
 }

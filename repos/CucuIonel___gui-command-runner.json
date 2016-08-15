@@ -44,5 +44,22 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "gui-command-runner",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . --platform=win32 --arch=x64 --overwrite"
+    },
+    "author": "Ionel Cucu",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.2"
+    }
+  },
+  "packageStatus": 200
 }

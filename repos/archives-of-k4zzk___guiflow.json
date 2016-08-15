@@ -176,5 +176,42 @@
   },
   "networkCount": 24,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "guiflow",
+    "version": "0.0.1",
+    "description": "a text editor",
+    "main": "index.js",
+    "scripts": {
+      "start": "DEBUG=true $(npm bin)/electron .",
+      "clean": "$(npm bin)/gulp clean",
+      "package": "$(npm bin)/gulp package"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hirokidaichi/guiflow.git"
+    },
+    "author": "hirokidaichi",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/hirokidaichi/guiflow/issues"
+    },
+    "homepage": "https://github.com/hirokidaichi/guiflow",
+    "dependencies": {
+      "dialogs": "^1.1.12",
+      "electron-debug": "^0.5.2",
+      "flumine": "^0.1.8",
+      "sprintf": "^0.1.5",
+      "uiflow": "^1.1.1"
+    },
+    "devDependencies": {
+      "ace-min-noconflict": "^1.1.9",
+      "del": "^2.2.0",
+      "electron-packager": "^6.0.0",
+      "electron-prebuilt": "^0.36.9",
+      "gulp": "^3.9.1",
+      "gulp-zip": "^3.2.0"
+    }
+  },
+  "packageStatus": 200
 }

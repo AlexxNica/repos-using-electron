@@ -58,5 +58,41 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "bee-app",
+    "version": "0.0.1",
+    "description": "",
+    "author": "Ale <ale@songbee.net>",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Songbee/bee-app.git"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "browser",
+        "node"
+      ],
+      "ignores": [
+        "cache/**",
+        "release/**",
+        "dist/**"
+      ],
+      "space": true
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "electron-prebuilt": "0.29.1",
+      "eslint": "^1.0.0",
+      "eslint-config-xo-react": "^0.1.0",
+      "eslint-config-xo-space": "^0.1.0",
+      "eslint-plugin-react": "^3.2.0",
+      "gulp": "^3.9.0",
+      "gulp-uglify": "^1.2.0",
+      "run-sequence": "^1.1.2"
+    }
+  },
+  "packageStatus": 200
 }

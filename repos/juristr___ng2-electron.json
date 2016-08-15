@@ -162,5 +162,29 @@
   },
   "networkCount": 4,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ng2-electron",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/worker.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "tsc && npm run build && electron .",
+      "build": "cp -r src/css dist/css && cp -r src/fonts dist/fonts && cp src/main.html dist/main.html"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron": "^0.4.1",
+      "electron-prebuilt": "^0.34.0",
+      "typescript": "^1.6.2"
+    },
+    "dependencies": {
+      "angular2": "^2.0.0-alpha.46",
+      "css": "^2.2.1",
+      "parse5": "^1.5.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,24 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "roomfinder",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "package": "asar pack RoomFinder-darwin-x64/RoomFinder.app/Contents/Resources/app RoomFinder-darwin-x64/RoomFinder.app/Contents/Resources/app.asar",
+      "build": "electron-packager . RoomFinder --platform=darwin --arch=x64 && cp AppIcon.icns RoomFinder-darwin-x64/RoomFinder.app/Contents/Resources/electron.icns"
+    },
+    "author": "Jonas Voland",
+    "license": "ISC",
+    "devDependencies": {
+      "asar": "^0.11.0",
+      "electron-packager": "^6.0.2",
+      "electron-prebuilt": "^0.37.5"
+    }
+  },
+  "packageStatus": 200
 }

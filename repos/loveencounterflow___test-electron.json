@@ -50,5 +50,35 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "test-electron",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/app.js",
+    "scripts": {
+      "start": "electron .",
+      "pack": "electron-packager . test-electron --platform=darwin,linux --arch=x64 --version=0.30.2 --overwrite --out=releases"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/loveencounterflow/test-electron.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+      "coffee-script": "^1.9.3",
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.2",
+      "electron-rebuild": "^0.2.3",
+      "gulp": "^3.9.0",
+      "gulp-coffee": "^2.3.1",
+      "gulp-sourcemaps": "^1.5.2"
+    },
+    "dependencies": {
+      "cnd": "^1.0.4",
+      "longjohn": "^0.2.7"
+    }
+  },
+  "packageStatus": 200
 }

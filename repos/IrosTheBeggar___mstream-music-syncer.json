@@ -44,5 +44,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "mstream-electron",
+    "version": "0.1.0",
+    "description": "mStream Music Sync App",
+    "main": "main.js",
+    "dependencies": {
+      "graceful-fs": "^4.1.4",
+      "jsftp": "^1.5.3",
+      "jsftp-mkdirp": "^2.0.1",
+      "request": "^2.72.0",
+      "sqlite3": "^3.1.4",
+      "vue": "^1.0.24"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.2.0",
+      "electron-prebuilt": "^1.3.0",
+      "electron-rebuild": "^1.1.5"
+    },
+    "author": "Paul Sori",
+    "contributors": [],
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

@@ -176,5 +176,80 @@
   },
   "networkCount": 33,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ssb-patchwork",
+    "version": "1.1.2",
+    "description": "safe secure sharing",
+    "main": "app/index.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ssbc/patchwork.git"
+    },
+    "scripts": {
+      "start": "electron .",
+      "test": "set -e; for t in api/test/*.js; do node $t; done",
+      "clean": "rm -Rf ./dist",
+      "clean:osx": "rm -Rf ./dist/osx",
+      "clean:win": "rm -Rf ./dist/win",
+      "build": "npm run clean && npm run build:ui && npm run build:osx && npm run build:win",
+      "build:ui": "mkdir -p ./ui/css && lessc ./ui/less/main.less ./ui/css/main.css",
+      "build:icon": "./scripts/make-icns.sh assets/icon1024.png assets/osx/patchwork.icns",
+      "build:osx": "electron-packager ./ Patchwork --out=dist/osx --platform=darwin --arch=x64 --ignore=node_modules/electron* --version=0.33.8 --icon=assets/osx/patchwork.icns",
+      "build:win": "electron-packager ./ Patchwork --out=dist/win --platform=win32 --arch=ia32 --ignore=node_modules/electron* --version=0.33.8 --icon=assets/win/patchwork.ico",
+      "build:nix": "electron-packager ./ patchwork --out=dist/linux --platform=linux --arch=x64 --ignore=node_modules/electron* --version=0.33.8 --icon=assets/osx/patchwork.icns",
+      "pack": "npm run pack:osx && npm run pack:win",
+      "pack:osx": "electron-builder \"dist/osx/Patchwork.app\" --platform=osx --out=\"dist/osx\" --config=packager.json",
+      "pack:win": "electron-builder \"dist/win/Patchwork-win32\" --platform=win --out=\"dist/win\" --config=packager.json",
+      "prepublish": "npm run build:ui"
+    },
+    "author": "Paul Frazee <pfrazee@gmail.com>",
+    "license": "?",
+    "devDependencies": {
+      "electron-builder": "^2.0.0",
+      "electron-packager": "^4.1.3",
+      "less": "~1.7.5",
+      "osenv": "~0.1.0",
+      "rimraf": "~2.2.8",
+      "tape": "~3.0.0"
+    },
+    "dependencies": {
+      "blob-to-buffer": "^1.2.3",
+      "electron-prebuilt": "^0.33.7",
+      "emoji-named-characters": "^1.0.1",
+      "hyperscript": "~1.4.6",
+      "mime-types": "^2.1.3",
+      "multiblob": "^1.5.0",
+      "multicb": "^1.1.0",
+      "muxrpc": "^6.1.1",
+      "nicedate": "~0.0.0",
+      "observable": "^2.1.3",
+      "once": "~1.3.1",
+      "pause-offscreen": "^1.0.0",
+      "phoenix-router": "~1.0.0",
+      "published-working-tree": "~0.0.0",
+      "pull-cat": "^1.1.7",
+      "pull-ipc": "0.0.1",
+      "pull-level": "~1.2.0",
+      "pull-merge": "~1.0.2",
+      "pull-notify": "0.0.0",
+      "pull-paramap": "^1.1.3",
+      "pull-pushable": "^1.1.4",
+      "pull-stream": "^2.27.0",
+      "pull-stream-to-stream": "~1.3.0",
+      "scuttlebot": "~7.3.2",
+      "ssb-config": "^1.0.3",
+      "ssb-keys": "^4.0.3",
+      "ssb-marked": "~0.5.0",
+      "ssb-msg-schemas": "~5.0.0",
+      "ssb-msgs": "~5.1.0",
+      "ssb-ref": "~2.2.0",
+      "stream-to-pull-stream": "^1.6.1",
+      "suggest-box": "~1.1.6"
+    },
+    "bin": {
+      "patchwork": "./bin.js"
+    }
+  },
+  "packageStatus": 200
 }

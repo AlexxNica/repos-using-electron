@@ -50,5 +50,86 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "gulp-mocha-electron",
+    "version": "1.0.0",
+    "description": "Run client-side Mocha tests in Electron",
+    "license": "MIT",
+    "repository": "mrmlnc/gulp-mocha-electron",
+    "author": {
+      "name": "Denis Malinochkin",
+      "url": "canonium.com"
+    },
+    "engines": {
+      "node": ">=4.0.0"
+    },
+    "scripts": {
+      "test": "xo && mocha --timeout=20000"
+    },
+    "files": [
+      "index.js"
+    ],
+    "keywords": [
+      "gulpplugin",
+      "mocha",
+      "electron",
+      "test",
+      "tests"
+    ],
+    "dependencies": {
+      "cross-spawn": "^4.0.0",
+      "electron-mocha": "^2.2.0",
+      "object-to-spawn-args": "^1.1.0",
+      "gulp-util": "^3.0.7",
+      "requireg": "^0.1.5",
+      "through2": "^2.0.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.2",
+      "mocha": "^2.5.3",
+      "test-console": "^1.0.0",
+      "xo": "^0.15.1"
+    },
+    "xo": {
+      "rules": {
+        "indent": [
+          2,
+          2,
+          {
+            "SwitchCase": 1
+          }
+        ],
+        "no-var": 2,
+        "prefer-const": [
+          2,
+          {
+            "destructuring": "all"
+          }
+        ],
+        "arrow-parens": [
+          2,
+          "always"
+        ],
+        "object-curly-spacing": [
+          2,
+          "always"
+        ],
+        "babel/object-curly-spacing": 0,
+        "space-before-function-paren": [
+          2,
+          "never"
+        ],
+        "generator-star-spacing": [
+          2,
+          "after"
+        ]
+      },
+      "envs": [
+        "node",
+        "mocha"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

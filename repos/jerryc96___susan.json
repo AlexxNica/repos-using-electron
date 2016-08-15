@@ -44,5 +44,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "client",
+    "version": "0.1.0",
+    "main": "main.js",
+    "license": "Apache",
+    "dependencies": {
+      "pouchdb": "^4.0.3"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "0.33.3"
+    },
+    "scripts": {
+      "postinstall": "cd node_modules/pouchdb/node_modules/leveldown && HOME=~/.electron-gyp node-gyp rebuild --target=0.33.3 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
+      "start": "electron ."
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,45 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "time-shifter",
+    "version": "1.0.0",
+    "description": "Todo list app with time shifting capabilities",
+    "main": "main.js",
+    "directories": {
+      "doc": "doc"
+    },
+    "scripts": {
+      "build": "webpack",
+      "serve": "webpack-dev-server --inline --hot",
+      "devtools": "electron devtools.js",
+      "start:dev": "electron . --dev",
+      "start": "npm run build && electron ."
+    },
+    "author": "Volcomix",
+    "license": "ISC",
+    "dependencies": {
+      "lodash": "latest",
+      "material-design-lite": "latest",
+      "material-ui": "latest",
+      "moment": "latest",
+      "react": "latest",
+      "react-dom": "latest",
+      "react-redux": "latest",
+      "react-tap-event-plugin": "latest",
+      "redux": "latest"
+    },
+    "devDependencies": {
+      "electron-devtools-installer": "latest",
+      "electron-prebuilt": "latest",
+      "react-hot-loader": "latest",
+      "source-map-loader": "latest",
+      "ts-loader": "latest",
+      "typescript": "latest",
+      "webpack": "latest",
+      "webpack-dev-server": "latest"
+    }
+  },
+  "packageStatus": 200
 }

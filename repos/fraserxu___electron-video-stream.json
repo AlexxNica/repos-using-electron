@@ -50,5 +50,36 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-video-stream",
+    "version": "0.0.2",
+    "description": "Use electron to capture video",
+    "main": "index.js",
+    "scripts": {
+      "build": "browserify caller.js | uglifyjs -c > caller.bundle.js",
+      "watch": "watchify caller.js -o caller.bundle.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fraserxu/electron-video-stream.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/fraserxu/electron-video-stream/issues"
+    },
+    "homepage": "https://github.com/fraserxu/electron-video-stream#readme",
+    "dependencies": {
+      "electron-prebuilt": "^0.32.3",
+      "meow": "^3.3.0",
+      "peerjs": "^0.3.14"
+    },
+    "devDependencies": {
+      "browserify": "^11.1.0",
+      "uglifyify": "^3.0.1",
+      "watchify": "^3.4.0"
+    }
+  },
+  "packageStatus": 200
 }

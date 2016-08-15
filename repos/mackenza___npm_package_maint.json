@@ -50,5 +50,33 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "npm-package-maint",
+    "version": "0.1.0",
+    "description": "Desktop application build with Electron",
+    "repository": "",
+    "scripts": {
+      "postinstall": "install-app-deps"
+    },
+    "dependencies": {
+      "bozon": "^0.4.0",
+      "electron-prebuilt": "1.2.1"
+    },
+    "build": {
+      "app-bundle-id": "your.id",
+      "app-category-type": "your.app.category.type",
+      "win": {
+        "iconUrl": "https://github.com/railsware/bozon/blob/master/lib/templates/images/electron.ico?raw=true"
+      },
+      "osx": {
+        "icon": "resources/icon.icns",
+        "target": "dmg"
+      }
+    },
+    "devDependencies": {
+      "devtron": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

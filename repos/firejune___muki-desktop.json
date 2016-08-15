@@ -44,5 +44,82 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "muki-desktop",
+    "productName": "Muki",
+    "version": "0.3.48",
+    "description": "Sequenced Music Player",
+    "license": "MIT",
+    "homepage": "http://muki.io",
+    "keywords": [
+      "desktop",
+      "electron",
+      "electron-app",
+      "muki"
+    ],
+    "main": "index.js",
+    "bin": {
+      "muki": "./scripts/cmd.js"
+    },
+    "bugs": {
+      "url": "https://github.com/firejune/muki-desktop/issues"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/firejune/muki-desktop.git"
+    },
+    "author": {
+      "name": "Joon Kyoung",
+      "email": "to@firejune.com",
+      "url": "http://firejune.com"
+    },
+    "dependencies": {
+      "configstore": "*",
+      "jquery": "2.x",
+      "jszip": "^2.x",
+      "midievents": "^1.0.1",
+      "midifile": "^1.0.4",
+      "mkdirp": "^0.5.1",
+      "multiline": "^1.0.2",
+      "nprogress": "^0.2.0",
+      "rimraf": "^2.5.2",
+      "path-exists": "^3.0.0",
+      "vivus": "^0.3.1",
+      "winreg": "^1.2.1"
+    },
+    "devDependencies": {
+      "babel-core": "^6.9.1",
+      "babel-eslint": "^6.0.4",
+      "devtron": "^1.1.2",
+      "electron-prebuilt": "^1.2.0",
+      "eslint": "^2.11.0",
+      "eslint-config-airbnb": "^9.0.1",
+      "eslint-config-standard": "^5.3.1",
+      "eslint-plugin-import": "^1.8.1",
+      "eslint-plugin-jsx-a11y": "^1.2.2",
+      "eslint-plugin-promise": "^1.3.1",
+      "eslint-plugin-react": "^5.1.1",
+      "eslint-plugin-standard": "^1.3.2"
+    },
+    "optionalDependencies": {
+      "appdmg": "^0.4.5",
+      "cross-zip": "^2.1.3",
+      "electron-packager": "^7.0.2",
+      "electron-osx-sign": "^0.3.1",
+      "electron-winstaller": "^2.3.0",
+      "gh-release": "^2.0.3",
+      "run-series": "^1.1.4",
+      "minimist": "^1.2.0",
+      "nobin-debian-installer": "^0.0.10",
+      "plist": "^1.2.0"
+    },
+    "scripts": {
+      "start": "electron . development",
+      "lint": "eslint src",
+      "build": "npm install && npm prune && npm dedupe && node ./scripts/build.js",
+      "clean": "node ./scripts/clean.js"
+    }
+  },
+  "packageStatus": 200
 }

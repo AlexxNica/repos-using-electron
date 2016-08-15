@@ -44,5 +44,18 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "QuickPass",
+    "version": "0.1.0",
+    "main": "main.js",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.7",
+      "electron-rebuild": "^1.1.5"
+    },
+    "dependencies": {
+      "ospasta": "^1.0.0"
+    }
+  },
+  "packageStatus": 200
 }

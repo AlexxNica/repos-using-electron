@@ -50,5 +50,49 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-development-kit",
+    "version": "0.0.1",
+    "description": "Easily Test, Build and Distribute Electron Apps",
+    "author": "Dylan Byth",
+    "private": true,
+    "homepage": "https://github.com/ddwag1/electron-development-kit",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ddwag1/electron-development-kit.git"
+    },
+    "bugs": {
+      "url": "https://github.com/ddwag1/electron-development-kit/issues"
+    },
+    "main": "main.js",
+    "devDependencies": {
+      "electron-prebuilt": "~1.0.2",
+      "electron-packager": "~7.0.1",
+      "electron-builder": "^3.23.0"
+    },
+    "dependencies": {
+      "jquery": "^2.2.3"
+    },
+    "scripts": {
+      "open": "electron .",
+      "build": "sh scripts/build.sh",
+      "build:options": "epi",
+      "dist": "build",
+      "_comment postinstall": "install-app-deps"
+    },
+    "build": {
+      "app-bundle-id": "0.0.1",
+      "app-category-type": "typeName",
+      "osx": {
+        "background": "build/background.jpg"
+      },
+      "win": {
+        "iconUrl": "http://www.example.com/favicon.ico",
+        "loadingGif": "build/loading.gif",
+        "noMsi": false
+      }
+    }
+  },
+  "packageStatus": 200
 }

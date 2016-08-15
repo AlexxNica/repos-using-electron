@@ -44,5 +44,45 @@
   "license": null,
   "networkCount": 7,
   "subscribersCount": 10,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "dat-app",
+    "version": "1.0.0",
+    "description": "an app for dat",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron app.js",
+      "mac-bundle": "electron-packager . --prune Dat --platform=darwin --arch=x64 --version=0.35.5 --ignore=node_modules/electron-prebuilt && cp info.plist Dat-darwin-x64/Dat.app/Contents/Info.plist && cp icon.icns Dat-darwin-x64/Dat.app/Contents/Resources/atom.icns",
+      "win-bundle": "electron-packager . --prune Dat --platform=win32 --arch=ia32 --version=0.35.5 --ignore=node_modules/electron-prebuilt,Dat-darwin-x64"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/karissa/dat-app.git"
+    },
+    "author": "Karissa McKelvey <karissa@karissamck.com> (http://karissamck.com/)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/karissa/dat-app/issues"
+    },
+    "homepage": "https://github.com/karissa/dat-app#readme",
+    "dependencies": {
+      "csjs-inject": "^1.0.0",
+      "dat-server": "github:karissa/dat-server",
+      "debug": "^2.2.0",
+      "drag-and-drop-files": "0.0.1",
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.35.5",
+      "electron-rpc": "^1.0.3",
+      "menubar": "^4.0.2",
+      "mkdirp": "^0.5.1",
+      "node-notifier": "^4.4.0",
+      "os-homedir": "^1.0.1",
+      "register-multicast-dns": "^1.1.0",
+      "run-parallel": "^1.1.4",
+      "xtend": "^4.0.1",
+      "yo-yo": "^1.1.1"
+    }
+  },
+  "packageStatus": 200
 }

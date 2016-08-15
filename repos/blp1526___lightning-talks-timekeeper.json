@@ -50,5 +50,42 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "lightning-talks-timekeeper",
+    "version": "1.0.0",
+    "description": "A lightning talks timekeeper application for OSX",
+    "main": "main.js",
+    "scripts": {
+      "app": "electron .",
+      "build": "electron-packager . lightning-talks-timekeeper --out=dist --platform=darwin --arch=x64 --version=0.36.1 --overwrite",
+      "test": "mocha --recursive --reporter spec test",
+      "tree": "tree -a -I '.git|node_modules'",
+      "watch": "mocha --recursive --reporter spec --watch test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/blp1526/lightning-talks-timekeeper.git"
+    },
+    "author": "Shingo Kawamura",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/blp1526/lightning-talks-timekeeper/issues"
+    },
+    "homepage": "https://github.com/blp1526/lightning-talks-timekeeper#readme",
+    "devDependencies": {
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.36.1",
+      "mocha": "^2.3.4"
+    },
+    "eslintConfig": {
+      "env": {
+        "es6": true
+      }
+    },
+    "dependencies": {
+      "pluralize": "^1.2.1"
+    }
+  },
+  "packageStatus": 200
 }

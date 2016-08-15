@@ -50,5 +50,51 @@
   },
   "networkCount": 6,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "paycoin-electron",
+    "version": "1.0.0",
+    "description": "Paycoin wallet using electron",
+    "main": "index.js",
+    "dependencies": {
+      "argsplit": "~1.0.1",
+      "bitcoin": "~2.3.0",
+      "crypto-dir": "~1.0.1",
+      "delegate-dom": "0.0.1",
+      "electron-prebuilt": "~0.25.3-2",
+      "inherits": "~2.0.1",
+      "jade": "~1.9.2",
+      "mkdirp": "~0.5.0",
+      "nopt": "~3.0.1",
+      "object-to-argv": "~1.1.0",
+      "read-boost-config": "~1.0.1",
+      "silence-chromium": "~2.0.0",
+      "virtual-dom": "~2.0.1"
+    },
+    "devDependencies": {
+      "asar": "~0.6.1",
+      "electron-packager": "~4.0.2"
+    },
+    "scripts": {
+      "build": "jade views/index.jade",
+      "start": "electron .",
+      "package-osx": "electron-packager . Paycoin --platform=darwin --arch=x64 --version=0.26.0 --icon resources/paycoin.icns --app-bundle-id=com.evanlucas.paycoin --prune --protocol='paycoin' --protocol-name='Paycoin Transaction Protocol'",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:evanlucas/paycoin-electron"
+    },
+    "keywords": [
+      "paycoin",
+      "xpy"
+    ],
+    "author": "Evan Lucas <evanlucas@me.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/evanlucas/paycoin-electron/issues"
+    },
+    "homepage": "https://github.com/evanlucas/paycoin-electron"
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,34 @@
   },
   "networkCount": 0,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "binford-teamtimer",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "test": "electron main.v2.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/symetics/binford-teamtimer.git"
+    },
+    "keywords": [
+      "Electron",
+      "Symetics",
+      "Timer"
+    ],
+    "author": "Symetics<info@symetics.com>",
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.0"
+    },
+    "dependencies": {
+      "menubar": "^2.3.0",
+      "moment": "^2.10.6",
+      "photon": "https://github.com/connors/photon",
+      "redux": "^3.0.4"
+    }
+  },
+  "packageStatus": 200
 }

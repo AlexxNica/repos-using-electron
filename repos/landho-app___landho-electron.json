@@ -64,5 +64,25 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "landho",
+    "productName": "LandHo",
+    "icon": "icon.png",
+    "version": "0.0.1",
+    "description": "",
+    "main": "main.js",
+    "dependencies": {
+      "pretty-bytes": "^2.0.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.2"
+    },
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "author": "Thomas Brüggemann",
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

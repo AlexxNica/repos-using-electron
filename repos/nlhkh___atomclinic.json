@@ -50,5 +50,49 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "atomclinic",
+    "version": "1.0.0",
+    "description": "clinic app written in electron",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "NODE_ENV=development electron .",
+      "cleanup": "rm -rf atomclinic-*-x64",
+      "pack:darwin": "electron-packager . atomclinic --platform=darwin --arch=x64 --version=0.33.0 --ignore=electron-*,.git*,rcedit --asar --icon=icons/noun_38389_cc.icns",
+      "pack:linux": "electron-packager . atomclinic --platform=linux --arch=x64 --version=0.33.0 --ignore=electron-*,.git*,rcedit --asar",
+      "pack:win": "electron-packager . atomclinic --platform=win32 --arch=x64 --version=0.33.0 --ignore=electron-*,.git*,rcedit --asar --icon=icons/noun_38389_cc.ico",
+      "pack:all": "npm run cleanup && npm run pack:darwin && npm run pack:linux && npm run pack:win",
+      "rebuild": "electron-rebuild"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nlhkh/atomclinic.git"
+    },
+    "author": "Kha Nguyen <nlhkha@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nlhkh/atomclinic/issues"
+    },
+    "homepage": "https://github.com/nlhkh/atomclinic#readme",
+    "dependencies": {
+      "alt": "^0.17.3",
+      "babel": "^5.8.23",
+      "nedb": "^1.2.0",
+      "numeral": "^1.5.3",
+      "react": "^0.13.3",
+      "react-portal": "^0.7.0",
+      "react-router": "^0.13.3",
+      "skeleton-css": "^2.0.4",
+      "underscore": "^1.8.3"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.33.0",
+      "electron-rebuild": "^1.0.0",
+      "rcedit": "^0.3.0"
+    }
+  },
+  "packageStatus": 200
 }

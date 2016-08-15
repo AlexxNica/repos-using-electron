@@ -50,5 +50,22 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ironmongo",
+    "version": "0.0.0",
+    "dependencies": {
+      "asyncblock": "2.2.5",
+      "configstore": "1.4.0",
+      "nimrod": "https://github.com/vkarpov15/nimrod-new/archive/master.tar.gz",
+      "vue": "1.0.11"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "0.33.2",
+      "gulp": "3.9.0",
+      "gulp-stylus": "2.1.1",
+      "stylus": "0.53.0"
+    }
+  },
+  "packageStatus": 200
 }

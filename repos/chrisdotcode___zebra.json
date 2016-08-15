@@ -44,5 +44,37 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "zebra",
+    "version": "0.0.0",
+    "description": "A modern, open-source IRC client.",
+    "main": "main.js",
+    "bin": "./main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chrisdotcode/zebra.git"
+    },
+    "keywords": [
+      "irc",
+      "zebra"
+    ],
+    "author": "Chris Blake <chris@code.sc> (https://code.sc)",
+    "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/chrisdotcode/zebra/issues"
+    },
+    "homepage": "https://github.com/chrisdotcode/zebra#readme",
+    "devDependencies": {
+      "bootstrap": "^3.3.6",
+      "cone": "^1.0.1",
+      "electron-prebuilt": "^0.35.0",
+      "handlebars": "^4.0.5",
+      "irc": "^0.4.0"
+    }
+  },
+  "packageStatus": 200
 }

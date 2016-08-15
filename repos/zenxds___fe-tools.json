@@ -44,5 +44,68 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "FE-Tools",
+    "version": "0.1.4",
+    "release": "0.1.4",
+    "description": "FE Tools",
+    "main": "index.js",
+    "scripts": {
+      "test": "npm run test",
+      "start": "./node_modules/.bin/electron .",
+      "build": "webpack --watch",
+      "pack": "electron-packager . --platform=mas --arch=x64 --prune --icon=app.icns --out=release --overwrite --app-version=0.1.4"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zenxds/fe-tools",
+      "package": "https://raw.githubusercontent.com/zenxds/fe-tools/master/package.json",
+      "releases": "https://github.com/zenxds/fe-tools/releases"
+    },
+    "keywords": [
+      "GUI",
+      "electron",
+      "fe",
+      "tools"
+    ],
+    "author": {
+      "name": "dongshuang.xds",
+      "email": "dongshuang.xds@alibaba-inc.com"
+    },
+    "license": "ISC",
+    "devDependencies": {
+      "babel-core": "~6.9.1",
+      "babel-loader": "~6.2.4",
+      "babel-preset-es2015": "~6.9.0",
+      "css-loader": "~0.23.1",
+      "electron-prebuilt": "~1.2.2",
+      "gulp": "~3.9.1",
+      "json-loader": "~0.5.4",
+      "style-loader": "~0.13.1",
+      "stylus": "~0.54.5",
+      "stylus-loader": "~2.1.1",
+      "vue-hot-reload-api": "~1.3.2",
+      "vue-html-loader": "~1.2.2",
+      "vue-loader": "~8.5.2",
+      "vue-style-loader": "~1.0.0",
+      "webpack": "~1.13.1",
+      "webpack-dev-server": "~1.14.1"
+    },
+    "dependencies": {
+      "clean-css": "~3.4.18",
+      "extend": "~3.0.0",
+      "html-minifier": "~2.1.5",
+      "iconv-lite": "~0.4.13",
+      "jquery": "~3.0.0",
+      "js-beautify": "~1.6.3",
+      "mime": "~1.3.4",
+      "moment": "~2.13.0",
+      "normalize.css": "~4.1.1",
+      "toastr": "~2.1.2",
+      "vue": "^1.0.24",
+      "vue-router": "^0.7.13"
+    }
+  },
+  "packageStatus": 200
 }

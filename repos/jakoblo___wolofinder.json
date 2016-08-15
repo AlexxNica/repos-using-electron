@@ -44,5 +44,51 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "wolofinder",
+    "productName": "Wolo Finder",
+    "version": "0.0.0",
+    "main": "./app/js/main.js",
+    "typescript": {
+      "definition": "tools/typings/tsd.d.ts"
+    },
+    "dependencies": {
+      "appdirectory": "*",
+      "calendar": "*",
+      "chokidar": "*",
+      "classnames": "*",
+      "codemirror": "*",
+      "filesize": "*",
+      "fs-extra": "*",
+      "gulp-google-webfonts": "*",
+      "jquery": "*",
+      "mammoth": "*",
+      "marked": "github:chjj/marked",
+      "merge2": "*",
+      "mv": "*",
+      "nconf": "*",
+      "rc-tooltip": "*",
+      "react": "*",
+      "react-addons-create-fragment": "*",
+      "react-addons-css-transition-group": "*",
+      "react-dom": "*",
+      "react-hotkeys": "*",
+      "react-resize-sensor": "*",
+      "trash": "*",
+      "underscore": "*"
+    },
+    "devDependencies": {
+      "devtron": "*",
+      "electron-connect": "*",
+      "electron-prebuilt": "*",
+      "electron-react-devtools": "*",
+      "gulp": "*",
+      "gulp-git": "*",
+      "gulp-sass": "*",
+      "gulp-sourcemaps": "*",
+      "gulp-typescript": "*"
+    }
+  },
+  "packageStatus": 200
 }

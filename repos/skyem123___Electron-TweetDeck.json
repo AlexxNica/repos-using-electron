@@ -50,5 +50,21 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Electron-TweetDeck",
+    "version": "0.0.1",
+    "description": "A very simple Electron based program that puts TweetDeck in its own window because the old and obsolete official client broke.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.0"
+    },
+    "dependencies": {
+      "open": "0.0.5"
+    }
+  },
+  "packageStatus": 200
 }

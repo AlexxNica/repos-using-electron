@@ -50,5 +50,37 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "astral",
+    "main": "main.js",
+    "version": "1.0.0",
+    "description": "AST editor for JavaScript",
+    "scripts": {
+      "test": "standard && ava",
+      "start": "electron ."
+    },
+    "author": "Joonatan Vuorinen",
+    "license": "ISC",
+    "devDependencies": {
+      "ava": "^0.15.2",
+      "cz-conventional-changelog": "^1.1.6",
+      "electron-prebuilt": "^1.2.5",
+      "standard": "^7.1.2"
+    },
+    "dependencies": {
+      "esprima": "^2.7.2",
+      "shortid": "^2.2.6"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/natancodes/astral.git"
+    },
+    "config": {
+      "commitizen": {
+        "path": "./node_modules/cz-conventional-changelog"
+      }
+    }
+  },
+  "packageStatus": 200
 }

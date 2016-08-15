@@ -44,5 +44,27 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "9gag-desktop",
+    "version": "0.1.0",
+    "main": "main.js",
+    "author": "Guido Schweizer",
+    "description": "desktop version of the famous 9gag",
+    "license": "MIT",
+    "build": {
+      "app-bundle-id": "9gag-desktop",
+      "app-category-type": "desktopapp"
+    },
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "pack": "build",
+      "dist": "build"
+    },
+    "dependencies": {
+      "electron": "^0.36.9",
+      "electron-prebuilt": "^0.36.9"
+    }
+  },
+  "packageStatus": 200
 }

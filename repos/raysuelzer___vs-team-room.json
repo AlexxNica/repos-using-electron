@@ -44,5 +44,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "vs-team-room",
+    "version": "0.0.1",
+    "description": "Visual Studio Team Room Native Application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [
+      "visual studio team room"
+    ],
+    "author": "Ray Suelzer <rsuelzer@gmail.com>",
+    "license": "MIT",
+    "homepage": "",
+    "dependencies": {},
+    "devDependencies": {
+      "electron-prebuilt": "^0.28.3"
+    },
+    "bugs": {
+      "url": ""
+    }
+  },
+  "packageStatus": 200
 }

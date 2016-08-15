@@ -50,5 +50,30 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "stratos",
+    "version": "0.1.0",
+    "description": "Electron Frontend for Orb",
+    "main": "index.js",
+    "scripts": {
+      "start": "./node_modules/.bin/Electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AlexSteele/stratos.git"
+    },
+    "keywords": [
+      "text",
+      "editor"
+    ],
+    "author": "Alex Steele",
+    "license": "MIT",
+    "homepage": "https://github.com/AlexSteele/stratos#readme",
+    "dependencies": {
+      "electron-prebuilt": "^1.2.3"
+    }
+  },
+  "packageStatus": 200
 }

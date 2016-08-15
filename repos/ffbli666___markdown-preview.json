@@ -50,5 +50,38 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Markdown_Preview",
+    "version": "0.1.0",
+    "description": "A simple markdown preview",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "build_mac": "electron-packager . MarkApp --platform=darwin --arch=x64 --version=0.36.0 --icon=markdown.icns --asar=true --ignore=node_modules/electron-* ",
+      "build_win32": "electron-packager . MarkApp --platform=win32 --arch=x64 --version=0.36.0 --icon=markdown.ico --asar=true --ignore=node_modules/electron-* ",
+      "build_linux": "electron-packager . MarkApp --platform=linux --arch=x64 --version=0.36.0 --asar=true --ignore=node_modules/electron-* "
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ffbli666/markdown-preview.git"
+    },
+    "keywords": [
+      "Electron",
+      "markdown",
+      "preview"
+    ],
+    "author": "ffbli",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ffbli666/markdown-preview/issues"
+    },
+    "homepage": "https://github.com/ffbli666/markdown-preview",
+    "devDependencies": {
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,43 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "selemene",
+    "version": "0.1.0",
+    "main": "main.js",
+    "homepage": "https://github.com/mozamimy/selemene",
+    "author": {
+      "name": "Moza USANE",
+      "email": "mozamimy@quellencode.org"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mozamimy/selemene.git"
+    },
+    "bugs": {
+      "url": "https://github.com/mozamimy/selemene/issues"
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "x.x",
+      "electron-packager": "x.x",
+      "gulp": "x.x",
+      "gulp-babel": "x.x",
+      "gulp-load-plugins": "x.x",
+      "gulp-sass": "x.x",
+      "babel-preset-es2015": "x.x",
+      "node-rest-client": "x.x",
+      "copy-paste": "x.x"
+    },
+    "peerDependencies": {
+      "electron-prebuilt": "x.x",
+      "node-rest-client": "x.x"
+    },
+    "scripts": {
+      "build": "electron-packager . selemene --platform=darwin,win32,linux --arch=x64",
+      "compile": "gulp compile"
+    }
+  },
+  "packageStatus": 200
 }

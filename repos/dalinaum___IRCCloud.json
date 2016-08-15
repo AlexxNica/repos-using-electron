@@ -44,5 +44,38 @@
   "license": null,
   "networkCount": 11,
   "subscribersCount": 9,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "private": true,
+    "name": "IRCCloud",
+    "version": "0.9.0",
+    "description": "An unofficial cross-platform IRCCloud app.",
+    "keywords": [
+      "IRCCloud, electron"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dalinaum/IRCCloud.git"
+    },
+    "author": {
+      "name": "LYK",
+      "email": "dalinaum@gmail.com"
+    },
+    "main": "main.js",
+    "bin": {
+      "irccloud": "./start.js"
+    },
+    "scripts": {
+      "start": "./start.js",
+      "build": "rm -rf dist; mkdir dist; ./build-all $npm_package_name $npm_package_version",
+      "test": "rm -rf dist; mkdir dist; ./build-all $npm_package_name $npm_package_version"
+    },
+    "devDependencies": {
+      "configstore": "^1.4.0",
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.36.2",
+      "grunt-electron": "^2.0.1"
+    }
+  },
+  "packageStatus": 200
 }

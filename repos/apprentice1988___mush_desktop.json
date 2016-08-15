@@ -50,5 +50,27 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "mush_desktop",
+    "version": "0.1",
+    "description": "desktop version of mush app",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:apprentice1988/mush_desktop.git"
+    },
+    "keywords": [
+      "mush",
+      "desktop"
+    ],
+    "author": "Michael Ji zilongji@gmail.com",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

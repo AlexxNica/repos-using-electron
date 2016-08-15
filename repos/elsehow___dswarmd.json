@@ -50,5 +50,55 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "author": "elsehow",
+    "license": "BSD-3-Clause",
+    "main": "lib.js",
+    "bin": {
+      "dswarmd": "./cli.js"
+    },
+    "watch": {
+      "test": "*.js"
+    },
+    "scripts": {
+      "test": "./cli.js -k keys.json -n \"my-device\"",
+      "watch": "npm-watch",
+      "generate-keys": "node -pe \"JSON.stringify(require('ssb-keys').generate())\" > keys.json"
+    },
+    "devDependencies": {
+      "npm-watch": "^0.1.3",
+      "ssb-keys": "^5.0.1"
+    },
+    "dependencies": {
+      "chloride": "^2.1.1",
+      "electron-prebuilt": "^0.37.4",
+      "electron-spawn": "^4.1.1",
+      "hyperkv": "^1.5.2",
+      "is-browser": "^2.0.1",
+      "level": "^1.4.0",
+      "minimist": "^1.2.0",
+      "my-ip-kefir": "^1.0.3",
+      "subleveldown": "^2.1.0",
+      "swarmlog": "^1.4.0"
+    },
+    "name": "dswarmd",
+    "description": "device swarm daemon",
+    "version": "2.0.0",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/elsehow/dswarmd.git"
+    },
+    "keywords": [
+      "dswarm",
+      "swarmlog",
+      "hyperkv",
+      "dns"
+    ],
+    "bugs": {
+      "url": "https://github.com/elsehow/dswarmd/issues"
+    },
+    "homepage": "https://github.com/elsehow/dswarmd#readme"
+  },
+  "packageStatus": 200
 }

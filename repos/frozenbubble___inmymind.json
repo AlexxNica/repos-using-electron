@@ -44,5 +44,40 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "inmymind",
+    "version": "0.0.1",
+    "description": "Cross platform mind mapping tool built with electron",
+    "main": "app.js",
+    "scripts": {
+      "start": "electron src/shell.js",
+      "build": "webpack --progress --profile --colors --display-error-details --display-cached",
+      "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "commanderclash",
+    "license": "MIT",
+    "devDependencies": {
+      "devtron": "^1.2.1",
+      "electron-debug": "^1.0.1",
+      "electron-prebuilt": "^1.2.7",
+      "jasmine-core": "^2.4.1",
+      "ts-loader": "^0.8.2",
+      "tsc": "^1.20150623.0",
+      "typescript": "^1.8.10",
+      "webpack": "^1.13.1",
+      "webpack-dev-server": "^1.14.1"
+    },
+    "dependencies": {
+      "angular2": "^2.0.0-beta.17",
+      "bootstrap": "^3.3.6",
+      "es6-shim": "^0.35.0",
+      "jquery": "1.9.1",
+      "reflect-metadata": "^0.1.2",
+      "rxjs": "^5.0.0-beta.6",
+      "zone.js": "^0.6.12"
+    }
+  },
+  "packageStatus": 200
 }

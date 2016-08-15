@@ -50,5 +50,34 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "desk-electron",
+    "productName": "desk",
+    "description": "electron.js version of DESK",
+    "license": "CECILL-B",
+    "main": "desk.js",
+    "author": "Sebastien Valette <sebastien.valette@creatis.insa-lyon.fr> (http://www.creatis.insa-lyon.fr/~valette)",
+    "version": "0.3.0",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/valette/desk-electron.git"
+    },
+    "dependencies": {
+      "desk-base": ">0.0.0",
+      "desk-ui": ">0.0.0",
+      "electron-prebuilt": ">0.0.0"
+    },
+    "optionalDependencies": {},
+    "engines": {
+      "node": "*"
+    },
+    "scripts": {
+      "buildAddons": "node node_modules/desk-ui/source/buildAddons.js",
+      "start": "electron .",
+      "buildLinux": " rm -rf desk-linux-x64* && electron-packager ./ --platform=linux --arch=x64",
+      "bundleLinux": "tar jcvf desk-linux-x64.tar.bz2 desk-linux-x64"
+    }
+  },
+  "packageStatus": 200
 }

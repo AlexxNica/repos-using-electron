@@ -44,5 +44,26 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "codecuts",
+    "version": "1.0.0",
+    "description": "Save and share your code snippets with the world!",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.36.0",
+      "tongo": "*",
+      "express": "4.x",
+      "express-session": "*",
+      "serve-favicon": "*",
+      "body-parser": "*",
+      "mime": "latest",
+      "passport": "latest",
+      "passport-local": "latest"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,33 @@
   },
   "networkCount": 2,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hashire",
+    "version": "1.0.1",
+    "description": "",
+    "bin": {
+      "hashire": "bin/hashire"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sassy/hasire"
+    },
+    "keywords": [
+      "momoclo",
+      "momoiroclover"
+    ],
+    "author": {
+      "name": "Satoshi Watanabe",
+      "email": "sassy.watanabe@gmail.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "electron-prebuilt": "^0.31.1"
+    }
+  },
+  "packageStatus": 200
 }

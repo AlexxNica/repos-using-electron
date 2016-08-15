@@ -50,5 +50,50 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "bbcradio",
+    "productName": "BBC-Radio",
+    "version": "0.1.0",
+    "description": "",
+    "license": "MIT",
+    "repository": "tiagomachado/electron-bbc-radio",
+    "author": {
+      "name": "Tiago Machado",
+      "email": "tmachadoacm@gmail.com"
+    },
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "npm run build:linux && npm run build:windows",
+      "build:linux": "electron-packager . --overwrite --out=dist  --prune --platform=linux --arch=x64 --app-bundle-id=com.tiagomachado.bbcradio --app-version=$npm_package_version && cd dist/BBC-Radio-linux-x64/ && zip -ryq9 ../BBC-Radio-linux-${npm_package_version}.zip *",
+      "build:windows": "electron-packager . --overwrite --asar --out=dist  --prune --platform=win32 --arch=ia32 --icon=img/icon.ico --version-string.ProductName=$npm_package_productName --app-version=$npm_package_version && cd dist/BBC-Radio-win32-ia32 && zip -ryq9 ../BBC-Radio-windows-${npm_package_version}.zip *"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "electron-debug": "^1.0.0"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.0",
+      "electron-packager": "^7.0.0",
+      "electron-prebuilt": "^1.0.1",
+      "xo": "^0.15.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

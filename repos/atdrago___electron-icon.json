@@ -50,5 +50,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ElectronIcon",
+    "version": "0.1.0",
+    "description": "An app for making icons using CSS.",
+    "main": "lib/main.js",
+    "repository": "https://github.com/atdrago/electron-icon.git",
+    "license": "MIT",
+    "scripts": {
+      "start": "export NODE_ENV=development && export ELECTRON_ENABLE_LOGGING=true && electron ."
+    },
+    "author": "Adam Drago <atdrago+electron-icon@gmail.com>",
+    "dependencies": {
+      "electron-window": "^0.8.0",
+      "icon-gen": "^1.0.4",
+      "jimp": "^0.2.24"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.3"
+    },
+    "engines": {
+      "node": ">=6.x"
+    },
+    "os": [
+      "darwin"
+    ]
+  },
+  "packageStatus": 200
 }

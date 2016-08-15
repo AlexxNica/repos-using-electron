@@ -44,5 +44,34 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "get-hyped",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron src/main.js",
+      "test": "npm run test:lint",
+      "test:lint": "eslint src/ --ext .js --cache"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "eslint": "^2.11.1",
+      "eslint-config-airbnb": "^9.0.1",
+      "eslint-plugin-import": "^1.7.0",
+      "eslint-plugin-jsx-a11y": "^1.2.0",
+      "eslint-plugin-react": "^5.0.1",
+      "stylelint": "^6.5.1",
+      "stylelint-config-standard": "^8.0.0"
+    },
+    "dependencies": {
+      "electron": "^0.4.1",
+      "electron-prebuilt": "^1.2.2",
+      "hypem-stream": "^1.0.1"
+    }
+  },
+  "packageStatus": 200
 }

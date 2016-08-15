@@ -50,5 +50,40 @@
   },
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Teleprompter",
+    "email": "javier.cordero@upr.edu",
+    "version": "2.0.17",
+    "description": "The most complete and professional free software teleprompter app on the web.",
+    "author": "Javier O. Cordero Pérez <javier.cordero@upr.edu>",
+    "contributors": [
+      "Victor A. Ortiz Alvarado <va2ron1@gmail.com>",
+      "Rafael Sierra <rafael.sierra2@upr.edu>",
+      "Keyvan Pérez <keyvan.perez2@gmail.com>"
+    ],
+    "license": "GPL3",
+    "homepage": "https://github.com/imaginaryfilms/Teleprompter",
+    "main": "main.js",
+    "devDependencies": {
+      "electron-builder": "^3.1.2",
+      "electron-prebuilt": "^0.37.2"
+    },
+    "build": {
+      "app-bundle-id": "hr.creaticon.eatodo",
+      "app-category-type": "public.app-category.productivity",
+      "iconUrl": "http://eatodo.s3.amazonaws.com/icon.ico"
+    },
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "start": "electron ./app --enable-logging",
+      "dev": "NODE_ENV='development' npm run start",
+      "dist": "npm run dist:osx && npm run dist:win32 && npm run dist:win64 && npm run dist:linux",
+      "dist:osx": "build --platform darwin",
+      "dist:win32": "build --platform win32 --arch ia32",
+      "dist:win64": "build --platform win32 --arch x64",
+      "dist:linux": "build --platform linux"
+    }
+  },
+  "packageStatus": 200
 }

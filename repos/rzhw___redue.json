@@ -50,5 +50,48 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "redue",
+    "version": "0.1.0",
+    "description": "An alternative desktop client for @dueapp",
+    "main": "main.js",
+    "scripts": {
+      "tsc": "tsc",
+      "tsc:w": "tsc -w",
+      "electron": "electron main.js",
+      "sass:w": "node-sass --watch scss/styles.scss --output app/",
+      "start": "concurrent \"npm run tsc:w\" \"npm run sass:w\" \"npm run electron\""
+    },
+    "author": "Richard Wang",
+    "license": "MIT",
+    "homepage": "https://github.com/rzhw/redue",
+    "dependencies": {
+      "angular2": "2.0.0-beta.0",
+      "angular2-moment": "^0.2.1",
+      "bootstrap": "4.0.0-alpha.2",
+      "bplist-parser": "~0.1.1",
+      "chokidar": "^1.4.2",
+      "es6-promise": "^3.0.2",
+      "es6-shim": "^0.33.3",
+      "jquery": "~2.2.0",
+      "reflect-metadata": "0.1.2",
+      "rxjs": "5.0.0-beta.0",
+      "simple-plist": "~0.0.4",
+      "systemjs": "0.19.6",
+      "tether": "~1.1.1",
+      "zone.js": "0.5.10",
+      "node-notifier": "^4.4.0"
+    },
+    "devDependencies": {
+      "clang-format": "^1.0.32",
+      "concurrently": "^1.0.0",
+      "electron-prebuilt": "^0.36.0",
+      "gulp": "^3.8.8",
+      "gulp-clang-format": "^1.0.23",
+      "typescript": "^1.7.3",
+      "node-sass": "^3.4.2"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,38 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "adb-tcp-quick-app",
+    "version": "0.0.1",
+    "description": "A taskbar application to quickly (dis)connect an android device to adb over wifi",
+    "main": "app.js",
+    "scripts": {
+      "start": "./bin/cli.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Urucas/adb-tcp-quick-app.git"
+    },
+    "keywords": [
+      "android",
+      "adb",
+      "usb",
+      "wifi"
+    ],
+    "author": "Urucas <hello@urucas.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Urucas/adb-tcp-quick-app/issues"
+    },
+    "homepage": "https://github.com/Urucas/adb-tcp-quick-app#readme",
+    "dependencies": {
+      "angular": "^1.4.7",
+      "bootstrap": "^3.3.5",
+      "electron-prebuilt": "^0.34.3",
+      "font-awesome": "^4.4.0",
+      "menubar": "^2.3.0"
+    }
+  },
+  "packageStatus": 200
 }

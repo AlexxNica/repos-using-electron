@@ -50,5 +50,40 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-log-parser",
+    "version": "1.1.0",
+    "description": "センターサーバーのログを解析し、モニターID毎に分割します。",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "node build.js"
+    },
+    "keywords": [],
+    "author": "Kazunori Kimura <kazunori.kimura.js@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+      "co": "^4.6.0",
+      "fs-extra-promise": "^0.3.1",
+      "glob": "^7.0.3",
+      "jconv": "^0.1.5",
+      "jquery": "^2.2.3",
+      "knockout": "^3.4.0",
+      "moment": "^2.13.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.37.6"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Kazunori-Kimura/electron-log-parser.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Kazunori-Kimura/electron-log-parser/issues"
+    },
+    "homepage": "https://github.com/Kazunori-Kimura/electron-log-parser#readme"
+  },
+  "packageStatus": 200
 }

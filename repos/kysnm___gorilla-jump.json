@@ -44,5 +44,36 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "@kysnm/gorilla-jump",
+    "version": "0.0.1",
+    "description": "my first electron application",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron .",
+      "postinstall": "electron-rebuild",
+      "build": "electron-packager . GorillaJump --platform=darwin --arch=x64 --version=0.35.0 --ignore='node_modules/(electron-packager|electron-prebuilt)' --out=build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kysnm/gorilla-jump.git"
+    },
+    "author": "kysnm <tokyoincidents.g@gmail.com> (http://kysnm.hatenablog.com/)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kysnm/gorilla-jump/issues"
+    },
+    "homepage": "https://github.com/kysnm/gorilla-jump#readme",
+    "devDependencies": {
+      "electron-packager": "^5.1.1",
+      "electron-prebuilt": "^0.35.1",
+      "electron-rebuild": "^1.0.2"
+    },
+    "dependencies": {
+      "phaser": "^2.4.4"
+    }
+  },
+  "packageStatus": 200
 }

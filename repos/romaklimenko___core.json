@@ -50,5 +50,41 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "core",
+    "version": "0.0.3",
+    "description": "⚛",
+    "devDependencies": {
+      "bootstrap": "*",
+      "browserify": "*",
+      "del": "*",
+      "electron-prebuilt": "*",
+      "gulp": "*",
+      "gulp-less": "*",
+      "immutable": "*",
+      "react": "*",
+      "react-dom": "*",
+      "react-redux": "*",
+      "redux": "*",
+      "superagent": "*",
+      "tape": "*"
+    },
+    "main": "main.js",
+    "scripts": {
+      "start": "electron dist",
+      "test": "tape \"scripts/**/*test.js\""
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/romaklimenko/core.git"
+    },
+    "author": "romaklimenko",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/romaklimenko/core/issues"
+    },
+    "homepage": "https://github.com/romaklimenko/core#readme"
+  },
+  "packageStatus": 200
 }

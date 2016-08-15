@@ -44,5 +44,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "debigulator",
+    "version": "1.0.0",
+    "description": "Drag and drop interface to run files through ImageMagick",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "build-osx": "electron-packager . Debigulator --platform=darwin --arch=x64 --version 0.34.1 --out=dist",
+      "build-win": "electron-packager . Debigulator --platform=win32 --arch=x64 --version 0.34.1 --out=dist",
+      "build-linux": "electron-packager . Debigulator --platform=linux --arch=x64 --version 0.34.1 --out=dist"
+    },
+    "author": "Mark Gallagher / Houseology <mark.gallagher@houseology.com>",
+    "dependencies": {
+      "fix-path": "^1.1.0",
+      "glob": "^5.0.0",
+      "mkdirp": "^0.5.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.34.0"
+    }
+  },
+  "packageStatus": 200
 }

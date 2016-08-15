@@ -44,5 +44,29 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electronic-weibo",
+    "productName": "电子微博",
+    "version": "1.0.0",
+    "description": "微博桌面版",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "app": "NODE_ENV=development electron .",
+      "build:osx": "electron-packager . --overwrite --asar --out dist --prune --platform=darwin --arch=x64 --ignore='^/media/(?!Icon.icns$).*' --icon=media/weibo.icns  --app-version=$npm_package_version",
+      "build:win": "electron-packager . --overwrite --asar --out dist --prune --platform=win32 --arch=ia32 --ignore='^/media/(?!Icon.icns$).*' --icon=media/weibo.ico  --app-version=$npm_package_version"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-packager": "^7.0.1",
+      "electron-prebuilt": "^0.37.7"
+    },
+    "dependencies": {
+      "electron-debug": "^0.7.0",
+      "electron-dl": "^0.2.0"
+    }
+  },
+  "packageStatus": 200
 }

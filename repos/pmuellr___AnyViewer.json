@@ -50,5 +50,44 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "AnyViewer",
+    "version": "1.0.3",
+    "description": "a desktop Markdown viewer app built on Electron",
+    "author": "pmuellr",
+    "main": "./lib/AnyViewer",
+    "scripts": {
+      "cake": "cake",
+      "build": "cake build",
+      "watch": "cake watch"
+    },
+    "homepage": "https://github.com/pmuellr/AnyViewer",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/pmuellr/AnyViewer.git"
+    },
+    "dependencies": {
+      "devtron": "1.1.x",
+      "debug": "2.2.x",
+      "highlight.js": "9.3.x",
+      "jquery": "2.2.x",
+      "marked": "0.3.x",
+      "mkdirp": "0.5.x",
+      "tempfile": "1.1.x",
+      "throttle-debounce": "1.0.x",
+      "underscore": "1.8.x",
+      "vinyl": "1.1.x"
+    },
+    "devDependencies": {
+      "babel": "6.5.x",
+      "cakex": "0.1.x",
+      "coffee-script": "1.10.x",
+      "electron-prebuilt": "1.0.x",
+      "eslint": "2.9.x",
+      "plist": "1.2.x"
+    }
+  },
+  "packageStatus": 200
 }

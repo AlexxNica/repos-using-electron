@@ -64,5 +64,36 @@
   },
   "networkCount": 0,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "beer-app",
+    "version": "1.0.0",
+    "description": "Minimal app written in Angular + Electron to for search your favourite beers!",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nephilahacks/beersearch.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "beer"
+    ],
+    "author": "Nephila",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nephilahacks/beersearch/issues"
+    },
+    "homepage": "https://github.com/nephilahacks/beersearch",
+    "devDependencies": {
+      "bower": "^1.6.5",
+      "electron-prebuilt": "^0.34.0"
+    }
+  },
+  "packageStatus": 200
 }

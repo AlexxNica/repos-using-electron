@@ -64,5 +64,50 @@
   },
   "networkCount": 1,
   "subscribersCount": 9,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "camuskit-danmaku",
+    "productName": "Camuskit.Danmaku",
+    "version": "0.0.1",
+    "description": "CamusKit.Danmaku",
+    "license": "MIT",
+    "repository": "mulab/camuskit-danmaku",
+    "author": {
+      "name": "TennyZhuang",
+      "email": "zty0826@gmail.com",
+      "url": "lab.mu"
+    },
+    "electronVersion": "1.2.3",
+    "scripts": {
+      "postinstall": "bower install",
+      "test": "xo",
+      "start": "electron .",
+      "debug": "electron . debug",
+      "build": "electron-packager . --out=dist --ignore='^/dist$' --prune --asar --all"
+    },
+    "keywords": [
+      "electron-app",
+      "electron",
+      "danmaku"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.5.0",
+      "socket.io": "^1.4.8"
+    },
+    "devDependencies": {
+      "bower": "^1.7.9",
+      "electron-packager": "^7.1.0",
+      "electron-prebuilt": "^1.2.5",
+      "eslint": "^2.13.1",
+      "xo": "^0.12.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

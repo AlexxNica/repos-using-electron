@@ -58,5 +58,16 @@
   },
   "networkCount": 2,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "example-apps",
+    "version": "1.0.0",
+    "description": "Editor Framework App Examples",
+    "author": "Johnny Wu",
+    "dependencies": {
+      "electron-prebuilt": "1.x",
+      "editor-Framework": "0.x"
+    }
+  },
+  "packageStatus": 200
 }

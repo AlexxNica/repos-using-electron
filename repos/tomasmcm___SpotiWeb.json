@@ -50,5 +50,50 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "SpotiWeb",
+    "version": "0.4.0",
+    "description": "Electron wrapper of play.spotify.com",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js dev",
+      "package": "npm run package:mac && npm run package:win && npm run package:linux",
+      "package:mac": "electron-packager ./ SpotiWeb --platform=darwin --arch=all --version=1.1.1 --app-version=$npm_package_version --build-version=$npm_package_version --out=./releases --asar=true --asar-unpack-dir=plugins --overwrite=true --icon=./assets/icon.icns --ignore=\"releases|dist|npm-debug.log|node_modules/(electron-(builder|packager|prebuilt)|devtron)|plugins/PepperFlashPlayer-(win32.dll|linux.so)\"",
+      "package:win": "electron-packager ./ SpotiWeb --platform=win32 --arch=ia32 --version=1.1.1 --app-version=$npm_package_version --build-version=$npm_package_version --out=./releases --asar=true --asar-unpack-dir=plugins --overwrite=true --icon=./assets/icon.icns --ignore=\"releases|dist|npm-debug.log|node_modules/(electron-(builder|packager|prebuilt)|devtron)|plugins/PepperFlashPlayer-(mac.plugin|linux.so)\"",
+      "package:linux": "electron-packager ./ SpotiWeb --platform=linux --arch=all --version=1.1.1 --app-version=$npm_package_version --build-version=$npm_package_version --out=./releases --asar=true --asar-unpack-dir=plugins --overwrite=true --icon=./assets/icon.icns --ignore=\"releases|dist|npm-debug.log|node_modules/(electron-(builder|packager|prebuilt)|devtron)|plugins/PepperFlashPlayer-(mac.plugin|win32.dll)\"",
+      "zip:mac": "./mac.sh",
+      "zip:win": "./win.sh",
+      "zip:linux": "./linux.sh",
+      "zip": "npm run zip:mac && npm run zip:win && npm run zip:linux",
+      "build:mac": "npm run package:mac && npm run zip:mac",
+      "build:win": "npm run package:win && npm run zip:win",
+      "build:linux": "npm run package:linux && npm run zip:linux",
+      "build": "npm run build:mac && npm run build:win && npm run build:linux"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tomasmcm/SpotiWeb.git"
+    },
+    "keywords": [
+      "Electron",
+      "Spotify",
+      "Web"
+    ],
+    "author": "tomasmcm",
+    "license": "CC0-1.0",
+    "homepage": "https://github.com/tomasmcm/SpotiWeb",
+    "dependencies": {
+      "electron-packager": "^7.0.2",
+      "electron-prebuilt": "^1.1.1",
+      "events": "^1.1.0",
+      "got": "^6.3.0",
+      "path": "^0.12.7",
+      "semver": "^5.1.0"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.2"
+    }
+  },
+  "packageStatus": 200
 }

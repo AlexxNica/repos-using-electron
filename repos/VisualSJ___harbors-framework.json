@@ -44,5 +44,22 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "harbors-framework",
+    "version": "1.0.0",
+    "description": "=.=",
+    "main": "index.js",
+    "scripts": {
+      "start": "node utils/start.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "VisualSJ",
+    "license": "ISC",
+    "dependencies": {
+      "electron-prebuilt": "^1.3.1",
+      "vue": "^1.0.26"
+    }
+  },
+  "packageStatus": 200
 }

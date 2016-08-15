@@ -50,5 +50,20 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "harmonic-manager",
+    "version": "0.1.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "Ademílson F. Tonato <ademilsonft@outlook.com> (https:twitter.com/ftonato)",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.28.3"
+    }
+  },
+  "packageStatus": 200
 }

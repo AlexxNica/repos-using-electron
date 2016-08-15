@@ -44,5 +44,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "vkdesktop",
+    "version": "0.5.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "build:win": "electron-packager . VkDesktop --platform=win32 --arch=x64 --version=0.33.3 --out=./Release --overwrite --ignore=Release --icon=./assets/icons/VkDesktop.ico",
+      "build:linux": "electron-packager . VkDesktop --platform=linux --arch=x64 --version=0.33.3 --out=./Release --overwrite --ignore=Release",
+      "build:mac": "electron-packager . VkDesktop --platform=darwin --arch=x64 --version=0.33.3 --out=./Release --overwrite --ignore=Release --icon=./assets/icons/VkDesktop.icns"
+    },
+    "author": "Ivan Zmerzlyi",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.30.7"
+    },
+    "dependencies": {
+      "node-notifier": "^4.3.1",
+      "request": "^2.64.0"
+    }
+  },
+  "packageStatus": 200
 }

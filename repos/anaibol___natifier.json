@@ -44,5 +44,40 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "natifier",
+    "version": "1.0.3",
+    "description": "Google Maps",
+    "main": ".",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/anaibol/natifier.git"
+    },
+    "keywords": [],
+    "author": "GitHub",
+    "license": "",
+    "bugs": {
+      "url": "https://github.com/anaibol/natifier/issues"
+    },
+    "preferGlobal": true,
+    "bin": {
+      "natifier": "./bin/index.js"
+    },
+    "homepage": "https://github.com/anaibol/natifier#readme",
+    "devDependencies": {
+      "babel-preset-es2015": "^6.3.13",
+      "babel-preset-stage-0": "^6.3.13",
+      "babel-register": "^6.4.3"
+    },
+    "dependencies": {
+      "electron": "0.4.1",
+      "electron-prebuilt": "0.36.12",
+      "yargs": "3.32.0"
+    }
+  },
+  "packageStatus": 200
 }

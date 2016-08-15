@@ -44,5 +44,79 @@
   "license": null,
   "networkCount": 6,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "err",
+    "productName": "Err",
+    "version": "1.0.0",
+    "description": "Electron, react, redux-devtools boilerplate",
+    "license": "MIT",
+    "repository": "https://github.com/tuommii/err.git",
+    "author": {
+      "name": "Miikka",
+      "email": "tuommii@gmail.com"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "babel": {
+      "presets": [
+        "es2015",
+        "stage-0",
+        "react"
+      ]
+    },
+    "electronVersion": "0.35.2",
+    "scripts": {
+      "test": "mocha --compilers js:babel-core/register --recursive",
+      "test:watch": "npm run test --watch",
+      "start": "electron .",
+      "build": "NODE_ENV=production webpack -p --config webpack.config.prod.js",
+      "deploy": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion",
+      "dev": "node_modules/.bin/webpack-dev-server"
+    },
+    "files": [
+      "index.js"
+    ],
+    "keywords": [
+      "electron",
+      "react",
+      "redux",
+      "redux-devtools",
+      "photon",
+      "boilerplate"
+    ],
+    "dependencies": {
+      "react": "0.14.3",
+      "react-dom": "0.14.3",
+      "react-redux": "4.0.0",
+      "redux": "3.0.4",
+      "redux-thunk": "1.0.0"
+    },
+    "devDependencies": {
+      "babel-core": "6.2.1",
+      "babel-loader": "6.2.0",
+      "babel-preset-es2015": "6.1.18",
+      "babel-preset-react": "6.3.13",
+      "babel-preset-stage-0": "6.1.18",
+      "babel-runtime": "6.2.0",
+      "chai": "3.4.1",
+      "electron-packager": "5.1.1",
+      "electron-prebuilt": "0.35.2",
+      "eslint": "1.10.3",
+      "eslint-config-airbnb": "1.0.2",
+      "eslint-plugin-react": "3.11.2",
+      "file-loader": "0.8.5",
+      "mocha": "2.3.4",
+      "redux-devtools": "3.0.0-beta-3",
+      "redux-devtools-dock-monitor": "1.0.0-beta-3",
+      "redux-devtools-log-monitor": "1.0.0-beta-3",
+      "style-loader": "0.13.0",
+      "stylus-loader": "1.4.2",
+      "url-loader": "0.5.7",
+      "webpack": "1.12.9",
+      "webpack-dev-server": "1.14.0"
+    }
+  },
+  "packageStatus": 200
 }

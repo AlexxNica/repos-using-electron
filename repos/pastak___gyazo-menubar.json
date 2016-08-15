@@ -44,5 +44,29 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "gyazo-menubar",
+    "version": "0.0.3",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "build": "electron-packager ./ Gyazo-Menubar --platform=all --arch=all --version=0.33.3 --prune --asar --out=build --ignore=build --overwrite",
+      "build-mac": "electron-packager ./ Gyazo-Menubar --platform=darwin --arch=x64 --version=0.33.3 --prune --asar  --out=build --ignore=build --overwrite"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "gyazo-api": "0.0.3",
+      "menubar": "^2.0.12",
+      "mkdirp": "^0.5.1",
+      "node-localstorage": "^0.5.0",
+      "request-promise": "^0.4.2"
+    },
+    "devDependencies": {
+      "electron-packager": "^4.1.0",
+      "electron-prebuilt": "^0.26.0"
+    }
+  },
+  "packageStatus": 200
 }

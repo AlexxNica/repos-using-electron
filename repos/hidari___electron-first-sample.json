@@ -50,5 +50,26 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-app",
+    "version": "1.0.0",
+    "description": "My first electron app.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node_modules/.bin/electron .",
+      "build:osx": "electron-packager . \"electron-app\" --out=./dist --platform=darwin --arch=x64 --ignore=./dist --overwrite",
+      "build:linux": "electron-packager . \"electron-app\" --out=./dist --platform=linux --arch=x64 --ignore=./dist --overwrite",
+      "build": "npm run build:osx && npm run build:linux",
+      "release": "electron-builder \"dist/electron-app-darwin-x64/electron-app.app\" --platform=osx --out=./dist --config=builder.json"
+    },
+    "author": "Hidari0415",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-builder": "^2.11.0",
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.37.2"
+    }
+  },
+  "packageStatus": 200
 }

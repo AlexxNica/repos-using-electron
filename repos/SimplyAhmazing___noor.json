@@ -44,5 +44,30 @@
   "license": null,
   "networkCount": 2,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "noor",
+    "version": "0.0.0",
+    "description": "App description",
+    "main": "index.js",
+    "scripts": {
+      "test": "./node_modules/mocha/bin/mocha --recursive"
+    },
+    "author": "your-name",
+    "license": "MIT",
+    "devDependencies": {
+      "chai": "^2.3.0",
+      "electron-prebuilt": "^0.24.0",
+      "mocha": "^2.2.5",
+      "webpack": "^1.8.4"
+    },
+    "dependencies": {
+      "bootstrap": "^3.3.4",
+      "debug": "^2.2.0",
+      "domready": "^1.0.7",
+      "jquery": "^2.1.4",
+      "pegjs": "git://github.com/pegjs/pegjs#da57118a43a904f753d44d407994cf0b36358adc"
+    }
+  },
+  "packageStatus": 200
 }

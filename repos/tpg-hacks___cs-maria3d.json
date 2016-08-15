@@ -58,5 +58,22 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "cesiumtest",
+    "version": "1.0.0",
+    "description": "A test of Cesium/Electron",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "cesium": "^1.22.2",
+      "electron-packager": "^7.0.4",
+      "electron-prebuilt": "^1.2.3"
+    }
+  },
+  "packageStatus": 200
 }

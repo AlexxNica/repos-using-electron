@@ -44,5 +44,24 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "blazeShot",
+    "private": true,
+    "version": "0.0.11b",
+    "main": "./src/app.js",
+    "scripts": {
+      "start": "./node_modules/.bin/electron ."
+    },
+    "dependencies": {
+      "auto-launch": "^2.0.1",
+      "node-notifier": "^4.6.0",
+      "request": "^2.72.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.0.2",
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

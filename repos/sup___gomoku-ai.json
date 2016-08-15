@@ -44,5 +44,34 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "gomoku-ai",
+    "version": "1.0.0",
+    "description": "A gomoku game, gui, and minimax-based AI.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/charleslai/gomoku-ai.git"
+    },
+    "keywords": [
+      "gomoku",
+      "ai",
+      "minimax",
+      "pruning"
+    ],
+    "author": "charleslai",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/charleslai/gomoku-ai/issues"
+    },
+    "homepage": "https://github.com/charleslai/gomoku-ai#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

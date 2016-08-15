@@ -44,5 +44,33 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ematrix",
+    "version": "0.1.0",
+    "main": "app/main.js",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sergot/ematrix.git"
+    },
+    "scripts": {
+      "start": "electron app"
+    },
+    "devDependencies": {
+      "asar": "^0.8.2",
+      "bower": "^1.6.5",
+      "electron-prebuilt": "^0.34.2",
+      "fs-jetpack": "^0.7.0",
+      "gulp": "^3.9.0",
+      "q": "^1.4.1",
+      "rcedit": "^0.3.0"
+    },
+    "dependencies": {
+      "gulp-minify-css": "^1.2.1",
+      "gulp-uglify": "^1.4.2",
+      "gulp-usemin": "^0.3.14"
+    }
+  },
+  "packageStatus": 200
 }

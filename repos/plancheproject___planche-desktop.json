@@ -64,5 +64,61 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "PlancheDesktop",
+    "productName": "planche",
+    "version": "1.0.0",
+    "description": "MySQL GUI client tool for wordpress",
+    "keywords": [
+      "MySQL",
+      "GUI",
+      "ExtJS",
+      "wordpress",
+      "plugins"
+    ],
+    "homepage": "https://github.com/plancheproject/planche-desktop",
+    "bugs": {
+      "url": "https://github.com/plancheproject/planche-desktop/issues"
+    },
+    "license": "GPLv3",
+    "author": "Jeong Ju Won <2jw0718@gmail.com>",
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/plancheproject/planche-desktop.git"
+    },
+    "scripts": {
+      "build": "gulp build:sencha",
+      "start": "electron ."
+    },
+    "devDependencies": {
+      "del": "^2.2.0",
+      "electron-json-storage": "^2.0.0",
+      "electron-packager": "^7.0.4",
+      "electron-prebuilt": "^1.2.0",
+      "gulp": "^3.9.1",
+      "gulp-concat": "^2.6.0",
+      "gulp-exec": "^2.1.2",
+      "gulp-jquery": "^1.1.2",
+      "gulp-livereload": "^3.8.1",
+      "gulp-replace": "^0.5.4",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-webserver": "^0.9.1",
+      "jquery": "^2.2.2",
+      "run-sequence": "^1.1.5"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "private": true,
+    "commonSrc": "common_src/",
+    "src": "src/",
+    "extjsSrc": "common_src/ext/",
+    "buildDir": "build/",
+    "appDir": "application/app/",
+    "theme": "gray",
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

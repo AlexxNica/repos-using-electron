@@ -50,5 +50,22 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Dickens",
+    "version": "1.0.0",
+    "description": "The missing notes and highlights manager for Amazon Kindle",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "author": "Shubhro Saha",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "moment": "^2.10.6"
+    }
+  },
+  "packageStatus": 200
 }

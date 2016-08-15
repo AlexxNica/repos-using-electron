@@ -44,5 +44,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "presen-timer",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./entry.js",
+    "scripts": {
+      "build": "webpack",
+      "dev-server": "webpack-dev-server --inline",
+      "packager": "electron-packager ./build ./PresenTimer --platform=win32,darwin --arch=x64 --version=0.35.0 --overwrite",
+      "electron": "electron ./build"
+    },
+    "author": "civic",
+    "license": "MIT",
+    "dependencies": {
+      "bootstrap": "^3.3.5",
+      "mithril": "^0.2.0",
+      "moment": "^2.10.6"
+    },
+    "devDependencies": {
+      "babel-loader": "^5.3.3",
+      "electron-packager": "^5.1.1",
+      "electron-prebuilt": "^0.35.0",
+      "file-loader": "^0.8.4",
+      "webpack": "^1.12.6"
+    }
+  },
+  "packageStatus": 200
 }

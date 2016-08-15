@@ -44,5 +44,37 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "vscode-toolbox",
+    "version": "1.0.0",
+    "description": "Toolbox to customize Visual Studio Code",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bentx/vscode-toolbox.git"
+    },
+    "keywords": [
+      "vscode",
+      "Visual Studio Code",
+      "toolbox",
+      "customize"
+    ],
+    "author": "bentx",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bentx/vscode-toolbox/issues"
+    },
+    "homepage": "https://github.com/bentx/vscode-toolbox#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "bluebird": "^3.3.4"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,50 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-noveljs-boilerplate",
+    "version": "0.3.0",
+    "description": "Create standalone Novel.js adventures!",
+    "main": "app/main.js",
+    "scripts": {
+      "main": "app/main.js"
+    },
+    "author": "Ville Talonpoika <ville@talonpoika.net> (http://nanof.us)",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Nanofus/electron-noveljs-boilerplate.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Nanofus/electron-noveljs-boilerplate/issues"
+    },
+    "keywords": [
+      "electron",
+      "boilerplate",
+      "novel-js",
+      "noveljs",
+      "novel.js",
+      "novel",
+      "text adventure",
+      "game engine",
+      "choose your own adventure",
+      "visual novel",
+      "text game",
+      "game",
+      "adventure",
+      "fiction",
+      "prose",
+      "interactive fiction",
+      "interactive"
+    ],
+    "homepage": "https://github.com/Nanofus/electron-noveljs-boilerplate#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.8"
+    },
+    "dependencies": {
+      "novel-js": "^0.8.1"
+    }
+  },
+  "packageStatus": 200
 }

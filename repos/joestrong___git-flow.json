@@ -44,5 +44,24 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "git-flow",
+    "version": "0.0.1",
+    "description": "Displays git flow diagram for a git repository",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "author": "Joe Strong <joestrong@gmail.com> (https://www.joestrong.co.uk/)",
+    "license": "MIT",
+    "dependencies": {
+      "nodegit": "^0.9.0",
+      "sigma": "^1.0.3"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.5"
+    }
+  },
+  "packageStatus": 200
 }

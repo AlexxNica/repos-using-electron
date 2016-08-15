@@ -50,5 +50,45 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ants",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ivangabriele/ants.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/ivangabriele/ants/issues"
+    },
+    "homepage": "https://github.com/ivangabriele/ants#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "cfenv": "^1.0.3",
+      "defined": "^1.0.0",
+      "minimist": "^1.2.0",
+      "readable-stream": "^2.1.4",
+      "recorderjs": "^1.0.1",
+      "username": "^2.2.0"
+    },
+    "engines": {
+      "node": "6.2.0"
+    }
+  },
+  "packageStatus": 200
 }

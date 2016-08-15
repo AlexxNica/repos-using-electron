@@ -58,5 +58,39 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "scanner",
+    "version": "0.0.1",
+    "description": "Advise on what's adblocking you.",
+    "main": "index.js",
+    "scripts": {
+      "test": "electron-mocha",
+      "testmon": "nodemon --exec '(electron-mocha && growlnotify -n nodemon --image ~/green.png -m good) || (growlnotify -n nodemon --image ~/red.png -m crash && exit 1)'",
+      "coverage": "electron-mocha --require test/coverage && istanbul report lcov",
+      "coverage:upload": "cat ./coverage/lcov.info | coveralls"
+    },
+    "bin": {
+      "scan": "./bin/scan"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "coveralls": "^2.11.9",
+      "electron-mocha": "^2.3.0",
+      "express": "^4.14.0",
+      "glob": "^7.0.5",
+      "istanbul": "^0.4.4",
+      "mocha": "^2.5.3",
+      "nodemon": "^1.9.2",
+      "sinon": "^1.17.4"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^1.2.6",
+      "temp": "^0.8.3",
+      "yargs": "^4.7.1"
+    }
+  },
+  "packageStatus": 200
 }

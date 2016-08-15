@@ -44,5 +44,38 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-tumblr-client",
+    "version": "0.1.2",
+    "description": "A desktop client application for Tumblr. This is built on Electron.",
+    "main": "main.js",
+    "scripts": {
+      "package": "electron-packager ./ electron-tumblr-client --platform=darwin,linux,win32 --arch=x64 --version=0.31.2 --out=pkgs/v0.1.2 --ignore={src,pkgs}/*",
+      "upload": "ghr v0.1.2 pkgs/v0.1.2",
+      "zip": "npm run zip-darwin && npm run zip-linux && npm run zip-win32",
+      "zip-darwin": "cd pkgs/v0.1.2 && zip -r electron-tumblr-client-darwin-x64.zip electron-tumblr-client-darwin-x64",
+      "zip-linux": "cd pkgs/v0.1.2 && zip -r electron-tumblr-client-linux-x64.zip electron-tumblr-client-linux-x64",
+      "zip-win32": "cd pkgs/v0.1.2 && zip -r electron-tumblr-client-win32-x64.zip electron-tumblr-client-win32-x64"
+    },
+    "keywords": [],
+    "author": "yskm",
+    "license": "MIT",
+    "dependencies": {
+      "babel": "^5.8.23",
+      "oauth": "^0.9.13",
+      "purecss": "^0.6.0",
+      "react": "^0.13.3",
+      "semantic-ui-css": "^2.1.4",
+      "tumblr.js": "0.0.5"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.2",
+      "electron-prebuilt": "^0.31.2",
+      "gulp": "^3.9.0",
+      "gulp-babel": "^5.2.1",
+      "gulp-watch": "^4.3.5"
+    }
+  },
+  "packageStatus": 200
 }

@@ -58,5 +58,34 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "meta-manager",
+    "version": "1.0.0",
+    "description": "Projet for metabots",
+    "main": "app/main.js",
+    "scripts": {
+      "start": "electron app/main.js",
+      "package": "electron-packager ./ MetaManager --platform=all --arch=x64 --out ./dist/MetaManager --overwrite"
+    },
+    "author": "Pravez",
+    "devDependencies": {
+      "devtron": "^1.2.0",
+      "electron": "latest",
+      "electron-packager": "^7.0.3",
+      "electron-prebuilt": "1.1.2",
+      "electron-rebuild": "^1.1.5",
+      "spectron": "^3.2.3"
+    },
+    "dependencies": {
+      "bluetooth-serial-port": "^1.2.6",
+      "cannon": "^0.6.2",
+      "jquery": "^3.0.0",
+      "jsonfile": "^2.3.1",
+      "osc": "^2.1.0",
+      "riot": "^2.4.1",
+      "three": "^0.78.0"
+    }
+  },
+  "packageStatus": 200
 }

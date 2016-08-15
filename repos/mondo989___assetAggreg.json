@@ -44,5 +44,23 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "assetAggreg",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^0.25.1"
+    },
+    "dependencies": {
+      "ng-tags-input": "^2.3.0"
+    }
+  },
+  "packageStatus": 200
 }

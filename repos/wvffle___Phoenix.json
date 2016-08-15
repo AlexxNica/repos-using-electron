@@ -162,5 +162,34 @@
   },
   "networkCount": 2,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Phoenix",
+    "version": "1.0.1",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/artur9010/electron-colorchanger.git"
+    },
+    "author": "artur9010",
+    "license": "WTFPL",
+    "bugs": {
+      "url": "https://github.com/artur9010/electron-colorchanger/issues"
+    },
+    "homepage": "https://github.com/artur9010/electron-colorchanger#readme",
+    "dependencies": {
+      "electron-prebuilt": "^1.2.7",
+      "facebook-chat-api": "^1.1.0",
+      "simple-color-picker": "^0.1.0",
+      "waff-query": "^0.5.3"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.3.0"
+    }
+  },
+  "packageStatus": 200
 }

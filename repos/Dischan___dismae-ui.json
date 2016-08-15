@@ -64,5 +64,41 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "dismae-ui",
+    "version": "0.0.9",
+    "description": "User interface to help with dismae game development.",
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "lint": "standard --verbose",
+      "pack": "build",
+      "dist": "build",
+      "app": "electron app",
+      "build-all": "./node_modules/.bin/build --platform all --arch all --dist",
+      "windows": "./node_modules/.bin/build --platform win32 --arch all --dist",
+      "darwin": "./node_modules/.bin/build --platform darwin --arch all --dist",
+      "linux": "./node_modules/.bin/build --platform linux --arch all --dist"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Dischan/dismae-ui.git"
+    },
+    "author": "Dischan",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Dischan/dismae-ui/issues"
+    },
+    "homepage": "https://github.com/Dischan/dismae-ui#readme",
+    "devDependencies": {
+      "electron-builder": "^3.22.1",
+      "electron-prebuilt": "^1.0.2"
+    },
+    "build": {
+      "app-bundle-id": "co.dischan.dismae",
+      "app-category-type": "public.app-category.developer-tools",
+      "productName": "Dismae"
+    }
+  },
+  "packageStatus": 200
 }

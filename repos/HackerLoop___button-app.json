@@ -64,5 +64,25 @@
   },
   "networkCount": 0,
   "subscribersCount": 11,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Button-app",
+    "version": "0.1.0",
+    "description": "The button.pm desktop app",
+    "dependencies": {
+      "menubar": "*",
+      "nconf": "^0.8.4",
+      "request": "*"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.36.0"
+    },
+    "main": "main.js",
+    "scripts": {
+      "build": "electron-packager . Button --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
+      "start": "electron ."
+    }
+  },
+  "packageStatus": 200
 }

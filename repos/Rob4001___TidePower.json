@@ -50,5 +50,50 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tide-power",
+    "version": "0.0.1",
+    "description": "An Electron based IDE for TingBot",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "clean": "rm -rf ./dist",
+      "clean:lin": "rm -rf ./dist/lin",
+      "clean:osx": "rm -rf ./dist/osx",
+      "clean:win": "rm -rf ./dist/win",
+      "pack": "npm run clean && npm run build:osx && npm run build:win && npm run build:lin",
+      "pack:lin": "npm run clean:lin && electron-packager ./ \"TidePower\" --out=dist/lin --platform=linux --arch=x64 --version=0.35.2 --ignore=\"node_modules/(electron-packager|electron-prebuilt)\" --ignore=dist",
+      "pack:osx": "npm run clean:osx && electron-packager ./ \"TidePower\" --out=dist/osx --platform=darwin --arch=x64 --version=0.35.2 --icon=assets/osx/tide.icns --ignore=\"node_modules/(electron-packager|electron-prebuilt)\" --ignore=dist",
+      "pack:win": "npm run clean:win && electron-packager ./ \"TidePower\" --out=dist/win --platform=win32 --arch=ia32 --version=0.35.2 --icon=assets/win/icon.ico --ignore=\"node_modules/(electron-packager|electron-prebuilt)\" --ignore=dist",
+      "build:win": "npm run pack:win && electron-builder \"dist/win/TidePower-win32-ia32\" --platform=win --out=\"dist/win\" --config=builder.json",
+      "build:lin": "npm run pack:lin && tar -zcf dist/lin/TidePower-linux-x64.tar.gz -C dist/lin/ TidePower-linux-x64",
+      "build:osx": "npm run pack:osx && electron-builder \"dist/osx/TidePower-darwin-x64\" --platform=osx --out=\"dist/osx\" --config=builder.json"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Rob4001/TidePower.git"
+    },
+    "keywords": [
+      "Electron",
+      "TingBot"
+    ],
+    "author": "rob4001",
+    "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/Rob4001/TidePower/issues"
+    },
+    "homepage": "https://github.com/Rob4001/TidePower#readme",
+    "devDependencies": {
+      "electron-builder": "^2.3.0",
+      "electron-packager": "^5.1.1"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.35.0",
+      "multicast-dns": "^4.0.0",
+      "ncp": "^2.0.0",
+      "temp": "^0.8.3"
+    }
+  },
+  "packageStatus": 200
 }

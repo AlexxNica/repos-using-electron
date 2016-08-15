@@ -44,5 +44,38 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "quickbay",
+    "version": "1.0.0",
+    "description": "streamlined ebay lister for quickly listing hundreds of items",
+    "main": "root.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "./node_modules/.bin/electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/whmountains/quickbay.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/whmountains/quickbay/issues"
+    },
+    "homepage": "https://github.com/whmountains/quickbay#readme",
+    "devDependencies": {
+      "babel": "^5.8.29",
+      "electron-prebuilt": "^0.34.1",
+      "eslint": "^1.7.3",
+      "eslint-plugin-react": "^3.6.3"
+    },
+    "dependencies": {
+      "chokidar": "^1.2.0",
+      "lodash": "^3.10.1",
+      "react": "^0.14.0",
+      "react-dom": "^0.14.0"
+    }
+  },
+  "packageStatus": 200
 }

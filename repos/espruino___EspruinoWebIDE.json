@@ -64,5 +64,43 @@
   },
   "networkCount": 65,
   "subscribersCount": 26,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "espruino-web-ide",
+    "version": "0.62.0s",
+    "description": "A Terminal and Graphical code Editor for Espruino JavaScript Microcontrollers",
+    "main": "index.js",
+    "bin": {
+      "espruino-web-ide": "./electron-loader.js",
+      "espruino-server": "./server.js"
+    },
+    "scripts": {
+      "start": "electron ./electron-app.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/Espruino/EspruinoWebIDE.git"
+    },
+    "keywords": [
+      "espruino"
+    ],
+    "author": "Gordon Williams <gw@pur3.co.uk> (http://espruino.com)",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/espruino/EspruinoWebIDE/issues"
+    },
+    "homepage": "https://github.com/espruino/EspruinoWebIDE#readme",
+    "dependencies": {
+      "acorn": ">=0.6.0",
+      "bleat": "",
+      "electron-prebuilt": "^0.36.9",
+      "es6-shim": "",
+      "escodegen": "",
+      "esmangle": "",
+      "esprima": "",
+      "serialport": ">=1.2.5"
+    },
+    "devDependencies": {}
+  },
+  "packageStatus": 200
 }

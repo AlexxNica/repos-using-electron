@@ -50,5 +50,55 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "my-bricks-sets-desktop",
+    "version": "0.1.1",
+    "description": "Standalone application and web service for LEGO fans to manage their collections of bricks.",
+    "main": "app/main.js",
+    "scripts": {
+      "start": "set NODE_ENV=development & gulp watch",
+      "build": "set NODE_ENV=production & gulp build",
+      "clean": "gulp clean",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/easimonenko/my-bricks-sets-desktop.git"
+    },
+    "keywords": [
+      "Electron",
+      "LEGO",
+      "Desktop",
+      "Application"
+    ],
+    "author": "Evgeniy A. Simonenko <easimonenko@mail.ru>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/easimonenko/my-bricks-sets-desktop/issues"
+    },
+    "homepage": "https://github.com/easimonenko/my-bricks-sets-desktop#readme",
+    "devDependencies": {
+      "del": "^2.2.0",
+      "electron-connect": "^0.3.7",
+      "electron-prebuilt": "^0.36.0",
+      "gulp": "^3.9.1",
+      "gulp-cached": "^1.1.0",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-typescript": "^2.12.1",
+      "gulp-util": "^3.0.7",
+      "merge-stream": "^1.0.0"
+    },
+    "dependencies": {
+      "material-ui": "^0.15.0-alpha.1",
+      "react": "^0.14.7",
+      "react-dom": "^0.14.7",
+      "react-tap-event-plugin": "^0.2.2"
+    },
+    "engines": {
+      "node": "5",
+      "npm": "3"
+    }
+  },
+  "packageStatus": 200
 }

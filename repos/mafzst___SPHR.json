@@ -50,5 +50,65 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "react-electron",
+    "version": "0.2.0",
+    "description": "An electron desktop app to live reload the Symfony Profiler during development",
+    "author": "Nicolas Perraut <contact@nicolas-perraut.fr>",
+    "contributors": "Nicolas Perraut <contact@nicolas-perraut.fr>",
+    "license": "GNU GPL v3",
+    "keywords": [
+      "symfony",
+      "profiler",
+      "hot reload",
+      "live reload"
+    ],
+    "homepage": "http://projets.nicolas-perraut.fr/SPHR",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mafzst/SPHR"
+    },
+    "bugs": {
+      "url": "https://github.com/mafzst/SPHR/issues"
+    },
+    "main": "main.js",
+    "scripts": {
+      "build": "npm run webpack && npm run inject-scripts-prod",
+      "start": "./node_modules/electron-prebuilt/dist/electron .",
+      "start-dev": "npm run inject-scripts-dev && npm run watch & npm start",
+      "watch": "./node_modules/.bin/webpack-dev-server",
+      "webpack": "./node_modules/.bin/webpack --progress --color",
+      "inject-scripts-prod": "./node_modules/postbuild/postbuild -i public/index.html -o public/built/index.html -r production",
+      "inject-scripts-dev": "./node_modules/postbuild/postbuild -i public/index.html -o public/built/index.html -r dev",
+      "electron-rebuild": "./node_modules/.bin/electron-rebuild"
+    },
+    "devDependencies": {
+      "babel": "^5.6.10",
+      "babel-core": "^5.6.11",
+      "babel-loader": "^5.2.2",
+      "css-loader": "^0.15.1",
+      "electron-packager": "^4.1.3",
+      "electron-rebuild": "^1.0.0",
+      "json-loader": "^0.5.4",
+      "less": "^2.5.1",
+      "less-loader": "^2.2.0",
+      "nan": ">=2.0.0",
+      "node-libs-browser": "^0.5.2",
+      "postbuild": "^1.0.3",
+      "style-loader": "^0.12.3",
+      "webpack": "^1.9.12",
+      "webpack-dev-server": "^1.9.0",
+      "webpack-node-externals": "^1.2.0"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.28.3",
+      "jquery": "^2.2.3",
+      "react": "^0.13.3",
+      "socket.io": "^1.4.6",
+      "socket.io-client": "^1.4.6",
+      "websocket": "^1.0.23"
+    }
+  },
+  "packageStatus": 200
 }

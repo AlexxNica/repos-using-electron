@@ -44,5 +44,56 @@
   "license": null,
   "networkCount": 6,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "csv-viewer",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "wzrd example/index.js:bundle.js -- -t csjs-injectify",
+      "test": "standard && browserify test.js | testron",
+      "build": "browserify example/index.js -o bundle.js",
+      "deploy": "gh-pages-deploy"
+    },
+    "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+    "license": "MIT",
+    "dependencies": {
+      "babyparse": "^0.4.3",
+      "dom-css": "^2.0.0",
+      "global": "^4.3.0",
+      "normalize.css": "^3.0.3",
+      "object-assign": "^4.0.1",
+      "yo-yo": "^1.1.1"
+    },
+    "devDependencies": {
+      "base-router": "^1.1.0",
+      "browserify": "^13.0.0",
+      "csjs": "^1.0.0",
+      "csjs-injectify": "^1.0.0",
+      "dat-browserify": "git+https://github.com/karissa/dat-browserify.git",
+      "electron-prebuilt": "^0.36.9",
+      "font-awesome": "^4.5.0",
+      "gh-pages-deploy": "^0.4.0",
+      "nets": "^3.2.0",
+      "normalize.css": "^3.0.3",
+      "standard": "^6.0.7",
+      "tape": "^4.4.0",
+      "testron": "^1.2.0",
+      "wzrd": "^1.3.1",
+      "yo-yoify": "^1.0.2"
+    },
+    "browserify": {
+      "transform": [
+        "yo-yoify"
+      ]
+    },
+    "gh-pages-deploy": {
+      "prep": [
+        "build"
+      ],
+      "noprompt": false
+    }
+  },
+  "packageStatus": 200
 }

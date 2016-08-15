@@ -44,5 +44,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "dependencies": {},
+    "devDependencies": {
+      "electron-installer-dmg": "^0.1.0",
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.2",
+      "grunt": "^0.4.5",
+      "grunt-browserify": "^4.0.0",
+      "grunt-contrib-clean": "^0.6.0",
+      "grunt-contrib-concat": "^0.5.1",
+      "grunt-contrib-copy": "^0.8.0",
+      "grunt-contrib-htmlmin": "^0.4.0",
+      "grunt-contrib-less": "^1.0.1",
+      "grunt-contrib-watch": "^0.6.1",
+      "grunt-usemin": "^3.0.0",
+      "jit-grunt": "^0.9.1",
+      "menubar": "^2.0.17",
+      "time-grunt": "^1.1.0",
+      "uglifyify": "^3.0.1"
+    },
+    "scripts": {
+      "menubar-build": "electron-packager dist iStället --platform=darwin --arch=x64 --version=0.30.2 --out=.tmp --icon=design/Icon.icns && electron-installer-dmg --out=dist .tmp/iStället-darwin-x64/iStället.app iStaellet",
+      "menubar-start": "electron dist"
+    }
+  },
+  "packageStatus": 200
 }

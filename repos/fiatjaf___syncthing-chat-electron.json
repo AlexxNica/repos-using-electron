@@ -44,5 +44,36 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "syncthing-chat-electron",
+    "version": "0.0.1",
+    "main": "main.js",
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.5"
+    },
+    "dependencies": {
+      "@cycle/core": "^6.0.0",
+      "@cycle/dom": "^9.0.2",
+      "@cycle/isolate": "^1.2.0",
+      "fecha": "^1.2.2",
+      "rx": "^4.0.7"
+    },
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fiatjaf/syncthing-chat-electron.git"
+    },
+    "author": "Giovanni T. Parra",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/fiatjaf/syncthing-chat-electron/issues"
+    },
+    "homepage": "https://github.com/fiatjaf/syncthing-chat-electron#readme",
+    "description": ""
+  },
+  "packageStatus": 200
 }

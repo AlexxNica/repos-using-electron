@@ -44,5 +44,27 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "vue-easyui",
+    "version": "0.3.1",
+    "description": "",
+    "main": "ezModel.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron demo/main.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "moment": "^2.13.0",
+      "vue": "^1.0.21"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.2",
+      "jquery": "^3.0.0",
+      "vue-class-component": "^3.2.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "aacom",
+    "version": "1.0.0",
+    "description": "AhmadAwais.com app with electron.",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager ./ AhmadAwais.com --platform=darwin --arch=x64 --version=0.36.7 --ignore=node_modules/electron-*"
+    },
+    "author": "ahmadawais",
+    "license": "GPL-2.0",
+    "devDependencies": {
+      "electron-packager": "",
+      "electron-prebuilt": ""
+    }
+  },
+  "packageStatus": 200
 }

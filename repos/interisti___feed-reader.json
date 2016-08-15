@@ -50,5 +50,40 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "feed-reader",
+    "version": "0.0.1",
+    "description": "Desktop application for reading rss/atom feeds",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/interisti/feed-reader"
+    },
+    "keywords": [
+      "electron",
+      "rss",
+      "atom",
+      "feed"
+    ],
+    "author": "Nika",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/interisti/feed-reader/issues"
+    },
+    "homepage": "https://github.com/interisti/feed-reader#readme",
+    "main": "./app/app.js",
+    "scripts": {
+      "start": "./node_modules/.bin/electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.3"
+    },
+    "dependencies": {
+      "nedb": "^1.4.0",
+      "pouchdb": "^5.1.0",
+      "pubsub-js": "^1.5.3"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,30 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "slobber-client",
+    "version": "0.0.6",
+    "description": "Node Webkit client for clobber sever",
+    "main": "client.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron client.js",
+      "package_win": "electron-packager . slobber --platform=win32 --arch=x64 --version=1.2.2 --asar --overwrite --asar-unpack \"**/node_modules/node-notifier/vendor/**\" --icon 128.png --appname Slobber"
+    },
+    "author": "Aled Lewis",
+    "license": "MIT",
+    "dependencies": {
+      "slobber-server": ">=0.0.12"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/AledLewis/slobber-client"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.0.3",
+      "electron-prebuilt": "^1.2.2"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,39 @@
   },
   "networkCount": 3,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tokiota-workshop-react",
+    "version": "1.0.0",
+    "description": "React Workshop for Tokiota",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mfmontenegro/tokiota-workshop-react.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://github.com/mfmontenegro/tokiota-workshop-react#readme",
+    "endPoints": {
+      "js_dest": "./app/bundle.js",
+      "js_entry_point": "./src/js/app.js",
+      "js_files": "./src/js/**/*.js",
+      "css_dest": "./app/",
+      "css_files": "./src/stylesheets/**/*.css"
+    },
+    "devDependencies": {
+      "babel-preset-react": "^6.11.0",
+      "babelify": "^7.3.0",
+      "browserify": "^13.0.1",
+      "gulp": "^3.9.1",
+      "gulp-concat-css": "^2.3.0"
+    },
+    "dependencies": {
+      "jquery": "^3.0.0",
+      "react": "^15.1.0",
+      "react-dom": "^15.1.0",
+      "socket.io-client": "^1.4.8"
+    }
+  },
+  "packageStatus": 200
 }

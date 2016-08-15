@@ -44,5 +44,33 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "knowledge-explorer",
+    "version": "0.1.0",
+    "main": "main.js",
+    "scripts": {
+      "start": "npm install && ./node_modules/.bin/electron ."
+    },
+    "dependencies": {
+      "body-parser": "^1.15.0",
+      "crypto": "0.0.3",
+      "d3": "^3.5.12",
+      "dropzone": "^4.2.0",
+      "express": "^4.13.4",
+      "jquery": "^2.1.4",
+      "node-persist": "0.0.8",
+      "querystring": "^0.2.0",
+      "request": "^2.65.0",
+      "select2-browserify": "^3.4.5",
+      "wiki-infobox-parser": "^0.1.11",
+      "xml2js": "^0.4.16"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "*",
+      "electron-rebuild": "*"
+    }
+  },
+  "packageStatus": 200
 }

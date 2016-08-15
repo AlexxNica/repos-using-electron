@@ -50,5 +50,45 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "luigi",
+    "version": "1.1.0",
+    "description": "COT aggregate data expander",
+    "main": "pfu.js",
+    "preferGlobal": "true",
+    "scripts": {
+      "start": "electron luigi.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://ilmente@github.com/ilmente/luigi-data-expander.git"
+    },
+    "bugs": {
+      "url": "https://github.com/ilmente/luigi-data-expander/issues"
+    },
+    "author": {
+      "name": "Alessandro Bellini - ilmente",
+      "email": "hello@ilmente.it",
+      "url": "http://ilmente.it"
+    },
+    "engines": {
+      "node": ">=5.0.0",
+      "npm": ">=3.3.6"
+    },
+    "license": "MIT",
+    "homepage": "https://github.com/ilmente/luigi-data-expander#readme",
+    "dependencies": {
+      "bootstrap": "^3.3.6",
+      "graceful-fs": "^4.1.2",
+      "j": "^0.4.3",
+      "jquery": "^1.11.3",
+      "minimist": "^1.2.0",
+      "ramda": "^0.19.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

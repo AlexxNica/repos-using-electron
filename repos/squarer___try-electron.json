@@ -44,5 +44,30 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-demo",
+    "version": "1.0.0",
+    "description": "electron demo app",
+    "main": "app.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/squarer/try-electron.git"
+    },
+    "author": "squarer <squarerliao@gmail.com> https://github.com/squarer/",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.32.0"
+    },
+    "dependencies": {
+      "bootstrap": "^3.3.5",
+      "datatables": "^1.10.9",
+      "jquery": "^2.1.4",
+      "lowdb": "^0.10.2"
+    }
+  },
+  "packageStatus": 200
 }

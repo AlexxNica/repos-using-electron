@@ -50,5 +50,79 @@
   },
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "react-muli-platform",
+    "version": "0.1.0",
+    "description": "Shared React &amp; React-Native codebase for use on the web, desktop (OSX/Win/Linux), iOS, and Android.",
+    "keywords": [
+      "react",
+      "react-native",
+      "react-component",
+      "electron",
+      "redux",
+      "babel",
+      "webpack"
+    ],
+    "scripts": {
+      "clean": "rm -rf dist",
+      "electron:dev": "./node_modules/.bin/electron ./desktop",
+      "package:ios": "react-native bundle --entry-file ./src/index.ios.js --platform ios --bundle-output ./ios/main.jsbundle",
+      "webpack:dev": "npm run clean && webpack-dev-server",
+      "start": "npm run webpack:dev",
+      "test": "node ./node_modules/karma/bin/karma start",
+      "server": "./node_modules/.bin/webpack-dev-server --config ./webpack.config.dev.js --content-base ./dist/ --port 8080 --inline --hot --progress"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TylerK/react-multi-platform.git"
+    },
+    "author": "Tyler Kelley",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/TylerK/react-multi-platform/issues"
+    },
+    "homepage": "https://github.com/TylerK/react-multi-platform#readme",
+    "dependencies": {
+      "react": "^0.14.2",
+      "react-dom": "^0.14.2",
+      "react-native": "^0.13.2",
+      "react-native-cli": "^0.1.7",
+      "react-router": "^1.0.0"
+    },
+    "devDependencies": {
+      "babel": "^5.8.29",
+      "babel-core": "^5.8.29",
+      "babel-jest": "^5.3.0",
+      "babel-loader": "^5.3.2",
+      "css-loader": "^0.23.0",
+      "electron-prebuilt": "^0.34.3",
+      "eslint": "^1.9.0",
+      "eslint-config-airbnb": "^0.1.0",
+      "eslint-plugin-react": "^3.7.1",
+      "file-loader": "^0.8.4",
+      "html-webpack-plugin": "^1.6.2",
+      "json-loader": "^0.5.3",
+      "karma": "^0.13.15",
+      "karma-chai": "^0.1.0",
+      "karma-chai-as-promised": "^0.1.2",
+      "karma-chai-sinon": "^0.1.5",
+      "karma-coverage": "^0.5.3",
+      "karma-mocha": "^0.2.0",
+      "karma-mocha-reporter": "^1.1.1",
+      "karma-phantomjs-launcher": "^0.2.1",
+      "karma-sinon-chai": "^1.1.0",
+      "karma-sourcemap-loader": "^0.3.6",
+      "karma-webpack": "^1.7.0",
+      "mocha": "^2.3.3",
+      "path": "^0.12.7",
+      "phantomjs": "^1.9.18",
+      "phantomjs-polyfill": "0.0.1",
+      "react-bootstrap": "^0.27.3",
+      "style-loader": "^0.13.0",
+      "webpack": "^1.12.3",
+      "webpack-dev-server": "^1.12.1"
+    }
+  },
+  "packageStatus": 200
 }

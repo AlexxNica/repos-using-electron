@@ -64,5 +64,33 @@
   },
   "networkCount": 1,
   "subscribersCount": 7,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "@busbud/pongdome",
+    "version": "0.1.0",
+    "description": "PongDome shared dependencies and scripts.",
+    "homepage": "https://github.com/busbud/pongdome",
+    "bugs": "https://github.com/busbud/pongdome/issues",
+    "license": "MIT",
+    "author": {
+      "name": "Busbud",
+      "url": "https://www.busbud.com/"
+    },
+    "repository": "busbud/pongdome",
+    "scripts": {
+      "lint": "standard"
+    },
+    "dependencies": {
+      "socket.io": "^1.4.6"
+    },
+    "devDependencies": {
+      "standard": "^7.0.1"
+    },
+    "standard": {
+      "ignore": [
+        "node_modules/"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

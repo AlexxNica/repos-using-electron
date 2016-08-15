@@ -44,5 +44,20 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Duet",
+    "version": "1.0.0",
+    "description": "A cross platformed music player",
+    "dependencies": {},
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.6"
+    },
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "author": "prashanth",
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,21 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "quack",
+    "version": "0.0.1",
+    "dependencies": {
+      "net": "*",
+      "osenv": "*",
+      "fs": "*"
+    },
+    "scripts": {
+      "start": "electron client.js"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "0.35.0"
+    }
+  },
+  "packageStatus": 200
 }

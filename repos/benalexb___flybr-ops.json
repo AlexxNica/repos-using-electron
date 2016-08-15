@@ -44,5 +44,62 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "flybr-ops",
+    "version": "0.0.1",
+    "description": "Inventory, customer, and services tracking",
+    "main": "main.js",
+    "scripts": {
+      "dev": "npm run build && npm run start",
+      "build": "echo 'Building...' && webpack",
+      "start": "electron build/main.bundle.js",
+      "watch": "./node_modules/.bin/webpack-dev-server --port 8182"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/benalexb/flybr-ops.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "es6",
+      "es2015",
+      "react",
+      "webpack"
+    ],
+    "author": "John Gleason",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/benalexb/flybr-ops/issues"
+    },
+    "homepage": "https://github.com/benalexb/flybr-ops#readme",
+    "devDependencies": {
+      "babel-core": "^6.5.2",
+      "babel-loader": "^6.2.2",
+      "babel-preset-es2015": "^6.5.0",
+      "babel-preset-react": "^6.5.0",
+      "css-loader": "^0.23.1",
+      "electron-prebuilt": "^0.36.0",
+      "eslint": "^2.1.0",
+      "eslint-loader": "^1.2.1",
+      "node-sass": "^3.4.2",
+      "sass-loader": "^3.1.2",
+      "style-loader": "^0.13.0",
+      "webpack": "^1.12.14",
+      "webpack-dev-server": "^1.14.1"
+    },
+    "dependencies": {
+      "bootstrap": "^3.3.6",
+      "classnames": "^2.2.4",
+      "react": "^0.14.7",
+      "react-dom": "^0.14.7",
+      "reactable": "^0.13.0",
+      "reflux": "^0.4.1",
+      "lodash": "^4.10.0"
+    }
+  },
+  "packageStatus": 200
 }

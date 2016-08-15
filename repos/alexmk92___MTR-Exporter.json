@@ -50,5 +50,42 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "MTR-Exporter",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/electron/electron-quick-start#readme",
+    "devDependencies": {
+      "electron-packager": "^7.3.0",
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "mssql": "^3.3.0",
+      "parse": "^1.8.5",
+      "react": "^15.1.0",
+      "react-dom": "^15.1.0",
+      "react-router": "^2.0.0-rc5"
+    }
+  },
+  "packageStatus": 200
 }

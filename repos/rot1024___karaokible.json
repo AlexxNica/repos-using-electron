@@ -50,5 +50,52 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "karaokible",
+    "version": "0.0.1",
+    "description": "Let's practice karaoke",
+    "scripts": {
+      "start": "gulp serve",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "install": "cd src && npm i",
+      "postinstall": "gulp workaround",
+      "prod": "electron build/prod",
+      "dist": "gulp dist",
+      "release": "gulp release"
+    },
+    "author": "rot1024",
+    "license": "MIT",
+    "devDependencies": {
+      "archiver": "^0.21.0",
+      "babel-preset-react": "^6.3.13",
+      "del": "^2.2.0",
+      "electron-connect": "^0.3.4",
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "0.36.3",
+      "gulp": "^3.9.0",
+      "gulp-babel": "^6.1.1",
+      "gulp-changed": "^1.3.0",
+      "gulp-espower": "^1.0.2",
+      "gulp-notify": "^2.2.0",
+      "gulp-plumber": "^1.0.1",
+      "gulp-remove-code": "^1.0.2",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-unassert": "^1.0.0",
+      "power-assert": "^1.2.0",
+      "run-sequence": "^1.1.5"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rot1024/karaokible.git"
+    },
+    "keywords": [
+      "karaoke"
+    ],
+    "bugs": {
+      "url": "https://github.com/rot1024/karaokible/issues"
+    },
+    "homepage": "https://github.com/rot1024/karaokible#readme"
+  },
+  "packageStatus": 200
 }

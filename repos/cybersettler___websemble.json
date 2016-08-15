@@ -50,5 +50,60 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "websemble",
+    "version": "0.5.1",
+    "description": "Desktop application framework based on web technology.",
+    "main": "index.js",
+    "scripts": {
+      "lint": "eslint .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "app-root-path": "^1.0.0",
+      "electron-prebuilt": "^0.37.7",
+      "es6-spread": "^0.2.2",
+      "mem-fs": "^1.1.2",
+      "mem-fs-editor": "^2.2.0",
+      "shortid": "^2.2.2",
+      "tv4": "^1.1.12"
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "chalk": "^1.1.3",
+      "conventional-github-releaser": "^1.1.2",
+      "eslint": "^2.9.0",
+      "eslint-config-google": "^0.5.0",
+      "gulp": "^3.9.1",
+      "gulp-bump": "^2.1.0",
+      "gulp-conventional-changelog": "^1.1.0",
+      "gulp-eslint": "^2.0.0",
+      "gulp-git": "^1.7.2",
+      "gulp-mocha": "^2.2.0",
+      "gulp-util": "^3.0.7",
+      "minimist": "^1.2.0",
+      "node-browser-environment": "^1.1.0",
+      "run-sequence": "^1.2.1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/cybersettler/websemble.git"
+    },
+    "keywords": [
+      "electron",
+      "web",
+      "components"
+    ],
+    "eslintConfig": {
+      "extends": "google"
+    },
+    "author": "Javier Escobar <cybersettler@babylonone.com>",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/cybersettler/websemble/issues"
+    },
+    "homepage": "https://github.com/cybersettler/websemble#readme"
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,25 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hoverlay",
+    "version": "0.1.0",
+    "description": "Electron app that serves HTML pages for OBS Browser",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "test"
+    },
+    "author": "William Volin",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.13.4",
+      "swig": "^1.4.2"
+    }
+  },
+  "packageStatus": 200
 }

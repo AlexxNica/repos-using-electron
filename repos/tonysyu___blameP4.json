@@ -44,5 +44,29 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "blameP4",
+    "version": "1.0.0",
+    "description": "Simple client for p4 annotate",
+    "repository": "tonysyu/blameP4",
+    "license": "BSD-3-Clause",
+    "main": "main.js",
+    "bin": {
+      "blameP4": "./bin/main.js"
+    },
+    "scripts": {
+      "start": "./node_modules/.bin/electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Tony S. Yu",
+    "dependencies": {
+      "angular": "^1.4.8",
+      "angular-hotkeys": "^1.6.0",
+      "angular-sanitize": "^1.4.8",
+      "electron-prebuilt": "^0.35.1",
+      "highlight.js": "^9.0.0"
+    }
+  },
+  "packageStatus": 200
 }

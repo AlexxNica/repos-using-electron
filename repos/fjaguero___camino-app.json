@@ -50,5 +50,23 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "camino",
+    "version": "0.0.1",
+    "description": "Roadmap your life",
+    "dependencies": {
+      "menubar": "4.1.0"
+    },
+    "devDependencies": {
+      "electron-packager": "5.2.1",
+      "electron-prebuilt": "0.37.5"
+    },
+    "main": "main.js",
+    "scripts": {
+      "build": "rm -rf ./Camino-darwin-x64 && electron-packager . Camino --platform=darwin --arch=x64 --version=0.37.2 --icon=icon-circle.icns",
+      "start": "electron main.js"
+    }
+  },
+  "packageStatus": 200
 }

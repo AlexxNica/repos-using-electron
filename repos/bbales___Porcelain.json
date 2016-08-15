@@ -44,5 +44,53 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "porcelain",
+    "productName": "Porcelain",
+    "version": "0.1.0",
+    "description": "A simple yet powerful todo-list app.",
+    "author": {
+      "name": "Benjamin Bales",
+      "email": "ben.bales.dev@gmail.com",
+      "url": ""
+    },
+    "license": "MIT",
+    "repository": "https://github.com/bbales/Porcelain",
+    "main": "main.js",
+    "scripts": {
+      "test": "xo",
+      "start": "electron . --enable-transparent-visuals --disable-gpu ",
+      "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all"
+    },
+    "files": [
+      "dist/all.js",
+      "dist/all.css",
+      "dist/index.html",
+      "src/"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "electron-debug": "^1.0.0",
+      "electron-data": "^1.2.0",
+      "lodash-node": "^3.10.2"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.0",
+      "electron-packager": "^7.0.0",
+      "electron-prebuilt": "^1.0.1",
+      "xo": "^0.15.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

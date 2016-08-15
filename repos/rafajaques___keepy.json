@@ -50,5 +50,33 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "keepy",
+    "productName": "Keepy",
+    "version": "0.1.0",
+    "main": "app/main.js",
+    "scripts": {
+      "start": "electron ./app/main.js"
+    },
+    "description": "Google Keep at your tray",
+    "author": "Rafael Jaques <rafael@phpit.com.br>",
+    "keywords": [
+      "Electron",
+      "Google Keep",
+      "Tray app"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/rafajaques/keepy"
+    },
+    "bugs": {
+      "url": "https://github.com/rafajaques/keepy/issues"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.0.2"
+    },
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

@@ -162,5 +162,20 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "zen-audio-player-electron",
+    "version": "0.1.0",
+    "main": "main.js",
+    "dependencies": {
+      "electron-prebuilt": "^1.2.7",
+      "eslint": "^3.1.1"
+    },
+    "scripts": {
+      "lint": "eslint *.js",
+      "pretest": "npm run lint",
+      "start": "electron ."
+    }
+  },
+  "packageStatus": 200
 }

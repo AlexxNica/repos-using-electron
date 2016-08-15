@@ -44,5 +44,60 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ionizer",
+    "version": "2.0.1",
+    "description": "rebuild native node modules against the electron runtime",
+    "main": "lib/main.js",
+    "scripts": {
+      "test": "node test/index.js | faucet",
+      "lint": "jshint .",
+      "validate": "npm ls",
+      "preversion": "git checkout master && git pull && npm ls",
+      "publish-patch": "npm run preversion && npm version patch && git push origin master --tags && npm publish --verbose",
+      "publish-minor": "npm run preversion && npm version minor && git push origin master --tags && npm publish --verbose",
+      "publish-major": "npm run preversion && npm version major && git push origin master --tags && npm publish --verbose"
+    },
+    "bin": {
+      "ionizer": "lib/cli.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/cdaringe/ionizer"
+    },
+    "keywords": [
+      "electron"
+    ],
+    "author": "cdaringe",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/cdaringe/ionizer/issues"
+    },
+    "homepage": "https://github.com/cdaringe/ionizer",
+    "dependencies": {
+      "bluebirdify": "1.1.0",
+      "commander": "2.9.0",
+      "lodash": "3.10.1",
+      "npm": "2.14.14",
+      "rimraf": "2.4.3",
+      "squish-squash": "1.0.3",
+      "winston": "2.1.1"
+    },
+    "devDependencies": {
+      "tape": "4.2.1",
+      "ampersand-app": "1.0.4",
+      "electron-prebuilt": "0.35.4",
+      "faucet": "0.0.1",
+      "http-server": "0.8.5",
+      "mock-npm-install": "1.0.4",
+      "precommit-hook": "3.0.0"
+    },
+    "pre-commit": [
+      "lint",
+      "validate",
+      "test"
+    ]
+  },
+  "packageStatus": 200
 }

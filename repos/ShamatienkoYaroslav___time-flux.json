@@ -44,5 +44,38 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "time-flux",
+    "version": "1.0.0",
+    "description": "App for time tracking",
+    "main": "main.js",
+    "scripts": {
+      "run": "electron .",
+      "build": "gulp",
+      "runbuild": "gulp && electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ShamatienkoYaroslav/time-flux.git"
+    },
+    "keywords": [
+      "Time",
+      "Tracking"
+    ],
+    "author": "Shamatienko Yaroslav",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ShamatienkoYaroslav/time-flux/issues"
+    },
+    "homepage": "https://github.com/ShamatienkoYaroslav/time-flux#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.33.7",
+      "gulp": "^3.9.0",
+      "gulp-jade": "^1.1.0",
+      "gulp-minify-css": "^1.2.1",
+      "gulp-uglify": "^1.4.1"
+    }
+  },
+  "packageStatus": 200
 }

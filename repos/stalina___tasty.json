@@ -50,5 +50,63 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tasty",
+    "version": "0.0.1",
+    "description": "Application test tool made natural",
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/stalina/tasty.git"
+    },
+    "license": "Apache 2.0",
+    "bugs": {
+      "url": "https://github.com/stalina/tasty/issues"
+    },
+    "homepage": "https://github.com/stalina/tasty#readme",
+    "devDependencies": {
+      "chromedriver": "^2.21.2",
+      "electron-prebuilt": "^1.0.1",
+      "gulp": "^3.9.1",
+      "gulp-jasmine": "^2.3.0",
+      "gulp-jshint": "^2.0.1",
+      "gulp-livereload": "^3.8.1",
+      "gulp-run-electron": "^1.2.2",
+      "i": "^0.3.5",
+      "jasmine-core": "^2.4.1",
+      "jasmine-reporters": "^2.1.1",
+      "jshint": "^2.9.2",
+      "jshint-stylish": "^2.2.0",
+      "json-loader": "^0.5.4",
+      "jsx-loader": "^0.13.2",
+      "npm": "^3.9.0",
+      "phantomjs-prebuilt": "^2.1.7",
+      "requirejs": "^2.2.0",
+      "selenium-webdriver": "^2.53.2",
+      "vinyl-source-stream": "^1.1.0",
+      "watchify": "^3.7.0",
+      "webpack": "^1.13.1",
+      "webpack-dev-server": "^1.14.1",
+      "webpack-stream": "^3.2.0"
+    },
+    "dependencies": {
+      "bufferutil": "^1.2.1",
+      "react": "^15.1.0",
+      "react-dom": "^15.1.0",
+      "react-select": "^1.0.0-beta13",
+      "reactify": "^1.1.1",
+      "utf-8-validate": "^1.2.1"
+    },
+    "paths": {
+      "js": "./app/**/*.js",
+      "jsx": "./app/**/*.jsx",
+      "app": "./app/main.jsx"
+    },
+    "dest": {
+      "app": "app.js",
+      "dist": "dist"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "quaver",
+    "version": "0.0.1",
+    "description": "Trying to create an audio player",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron quaver"
+    },
+    "author": "Elio Cro <elio@front.no>",
+    "license": "MIT",
+    "dependencies": {
+      "aac": "^0.1.0",
+      "alac": "^0.1.0",
+      "av": "^0.4.4",
+      "flac.js": "^0.2.1",
+      "mp3": "^0.1.0",
+      "q": "^1.4.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.0"
+    }
+  },
+  "packageStatus": 200
 }

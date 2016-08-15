@@ -50,5 +50,62 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tsukikaze",
+    "version": "0.1.0",
+    "main": "dest/main/tsukikaze.js",
+    "scripts": {
+      "compile": "gulp compile",
+      "package": "electron-zip-packager . tsukikaze --platform=darwin --arch=x64 --version=0.36.1 --icon=./resources/tsukikaze.icns  --overwrite",
+      "start": "gulp start"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sabazusi/tsukikaze.git"
+    },
+    "author": "sabazusi",
+    "config": {
+      "ghooks": {
+        "post_merge": "npm install"
+      }
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/sabazusi/tsukikaze/issues"
+    },
+    "homepage": "https://github.com/sabazusi/tsukikaze#readme",
+    "devDependencies": {
+      "electron-connect": "^0.3.3",
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.33.8",
+      "electron-zip-packager": "^1.0.4",
+      "eslint": "^1.10.3",
+      "eslint-plugin-react": "^3.13.1",
+      "ghooks": "^1.2.0",
+      "gulp": "^3.9.0",
+      "gulp-babel": "^5.2.1",
+      "gulp-concat": "^2.6.0",
+      "gulp-eslint": "^1.1.1",
+      "gulp-load-plugins": "^0.10.0",
+      "gulp-sass": "^2.0.4",
+      "gulp-sym": "0.0.14",
+      "react-modal": "^0.6.1"
+    },
+    "dependencies": {
+      "bootstrap": "^3.3.5",
+      "clipboard-js": "^0.2.0",
+      "electron-window": "^0.6.0",
+      "flux": "^2.1.1",
+      "font-awesome": "^4.4.0",
+      "jsonloader": "^1.0.1",
+      "node-twitter-api": "^1.6.2",
+      "react": "^0.14.3",
+      "react-bootstrap": "^0.28.1",
+      "react-dom": "^0.14.1",
+      "twitter": "^1.2.5",
+      "twitter-text": "^1.13.2"
+    }
+  },
+  "packageStatus": 200
 }

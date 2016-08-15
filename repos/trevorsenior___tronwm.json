@@ -50,5 +50,22 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tronwm",
+    "version": "0.0.0",
+    "main": "electron-start.js",
+    "description": "window manager for the web",
+    "scripts": {
+      "build": "elm-make Main.elm --output build/main.js",
+      "start": "npm run build && electron ."
+    },
+    "author": "Trevor Senior <trevor@tsenior.com>",
+    "license": "GNU GPLv3",
+    "devDependencies": {
+      "electron-prebuilt": "^1.0.2",
+      "elm": "^0.17.0"
+    }
+  },
+  "packageStatus": 200
 }

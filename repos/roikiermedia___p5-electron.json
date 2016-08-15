@@ -44,5 +44,21 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "nodecessing",
+    "version": "1.0.0",
+    "description": "p5.js + the magic of node.js",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "roikiermedia",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.6"
+    }
+  },
+  "packageStatus": 200
 }

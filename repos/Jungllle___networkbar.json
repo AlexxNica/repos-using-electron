@@ -58,5 +58,30 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "networkbar",
+    "version": "0.1.0",
+    "description": "Displays network traffic to help users clearly monitor monthly traffic.",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Jungllle/networkbar.git"
+    },
+    "author": "Gary <gary@jungllle.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Jungllle/networkbar/issues"
+    },
+    "homepage": "https://github.com/Jungllle/networkbar#readme",
+    "devDependencies": {
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.4",
+      "standard": "^5.0.2"
+    },
+    "dependencies": {
+      "menubar": "^2.1.1"
+    }
+  },
+  "packageStatus": 200
 }

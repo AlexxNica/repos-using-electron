@@ -50,5 +50,35 @@
   },
   "networkCount": 1,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ATM",
+    "version": "1.0.0",
+    "description": "A Time Manager",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "preinstall": "npm install -g gulp",
+      "postinstall": "bower install"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/norux/ATM.git"
+    },
+    "author": "The ATM Team",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/norux/ATM/issues"
+    },
+    "homepage": "https://github.com/norux/ATM#readme",
+    "devDependencies": {
+      "bower": "1.7.9",
+      "electron-packager": "7.0.3",
+      "electron-prebuilt": "1.2.1",
+      "gulp": "^3.9.1",
+      "gulp-sass": "^2.3.1",
+      "node-sass": "^3.7.0"
+    }
+  },
+  "packageStatus": 200
 }

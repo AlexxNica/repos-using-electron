@@ -44,5 +44,42 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "process-record",
+    "version": "0.0.1",
+    "description": "To record student's daily performance.",
+    "main": "main.js",
+    "scripts": {
+      "test": "test foo"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git...."
+    },
+    "keywords": [
+      "k",
+      "e",
+      "y",
+      "words"
+    ],
+    "author": "zc1415926",
+    "license": "MIT",
+    "devDependencies": {
+      "asar": "^0.10.0",
+      "electron-prebuilt": "^0.37.2",
+      "fs-jetpack": "^0.7.3",
+      "gulp": "^3.9.1",
+      "q": "^1.4.1",
+      "rcedit": "^0.4.0"
+    },
+    "dependencies": {
+      "angular": "^1.5.3",
+      "angular-route": "^1.5.3",
+      "bootstrap": "^3.3.6",
+      "jquery": "^1.11.3",
+      "mysql": "^2.10.2"
+    }
+  },
+  "packageStatus": 200
 }

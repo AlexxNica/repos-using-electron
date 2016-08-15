@@ -64,5 +64,82 @@
   },
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "unofficial-desktop-for-ynab",
+    "productName": "Unofficial Desktop for YNAB",
+    "author": "Open Source Community",
+    "version": "0.2.0",
+    "description": "A desktop wrapper for YNAB",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ./app",
+      "debug": "electron --debug=5858 ./app",
+      "node-debugger": "ELECTRON_RUN_AS_NODE=true electron node_modules/node-inspector/bin/inspector.js",
+      "postinstall": "install-app-deps",
+      "pack": "build --dir",
+      "dist": "build",
+      "dist-mac": "build -m --publish onTagOrDraft",
+      "dist-lin-win": "build -lw --publish onTagOrDraft",
+      "clean": "rm -rf dist"
+    },
+    "build": {
+      "appId": "com.toolkit-for-ynab.unofficial-desktop-for-ynab",
+      "app-category-type": "public.app-category.finance",
+      "fileAssociations": [
+        {
+          "ext": "qif",
+          "name": "Quicken Interchange Format"
+        },
+        {
+          "ext": "ofx",
+          "name": "Open Financial Exchange"
+        },
+        {
+          "ext": "csv",
+          "name": "Comma Separated Values"
+        }
+      ],
+      "extend-info": "./build/Add-Info.plist",
+      "dmg": {
+        "contents": [
+          {
+            "x": 410,
+            "y": 150,
+            "type": "link",
+            "path": "/Applications"
+          },
+          {
+            "x": 130,
+            "y": 150,
+            "type": "file"
+          }
+        ]
+      },
+      "linux": {
+        "target": [
+          "deb",
+          "AppImage"
+        ]
+      }
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/toolkit-for-ynab/unofficial-desktop-for-ynab.git"
+    },
+    "bugs": {
+      "url": "https://github.com/toolkit-for-ynab/unofficial-desktop-for-ynab/issues"
+    },
+    "devDependencies": {
+      "electron-builder": "^5.23.2",
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "mkdirp": "^0.5.1",
+      "rimraf": "^2.5.4",
+      "typescript": "^1.8.10",
+      "yauzl": "^2.6.0"
+    }
+  },
+  "packageStatus": 200
 }

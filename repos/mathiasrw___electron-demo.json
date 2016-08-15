@@ -50,5 +50,50 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-test",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "app/main.js",
+    "scripts": {
+      "start": "electron .",
+      "postinstall": "install-app-deps",
+      "pack": "build --dir",
+      "dist": "build"
+    },
+    "build": {
+      "appId": "dk.eupry.tempcontrole",
+      "app-category-type": "public.app-category.graphics-design",
+      "dmg": {
+        "contents": [
+          {
+            "x": 410,
+            "y": 150,
+            "type": "link",
+            "path": "/Applications"
+          },
+          {
+            "x": 130,
+            "y": 150,
+            "type": "file"
+          }
+        ]
+      }
+    },
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/electron/electron-quick-start#readme",
+    "devDependencies": {
+      "electron-builder": "^5.12.1",
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "alasql": "^0.2.7"
+    }
+  },
+  "packageStatus": 200
 }

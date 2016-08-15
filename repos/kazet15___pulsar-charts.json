@@ -50,5 +50,33 @@
   },
   "networkCount": 0,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "pulsar-charts",
+    "version": "1.1.0",
+    "description": "pulsar-charts",
+    "main": "bin/start.js",
+    "scripts": {
+      "start": "electron bin/start.js",
+      "release-linux": "electron-packager . --platform=linux --arch=all --out=./dist --ignore='.(git|idea|dist)'",
+      "release-windows": "electron-packager . --platform=win32 --arch=all --out=./dist --ignore='.(git|idea|dist)'"
+    },
+    "author": "kazet",
+    "license": "MIT",
+    "dependencies": {
+      "babel-preset-es2016-node5": "1.1.2",
+      "babel-preset-react": "6.3.13",
+      "babel-preset-stage-0": "6.3.13",
+      "babel-register": "6.4.3",
+      "config": "1.19.0",
+      "electron-prebuilt": "0.36.5",
+      "react": "0.14.6",
+      "react-dom": "0.14.6",
+      "react-stockcharts": "0.3.1"
+    },
+    "devDependencies": {
+      "electron-packager": "5.2.1"
+    }
+  },
+  "packageStatus": 200
 }

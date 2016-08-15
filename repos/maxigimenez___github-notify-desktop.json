@@ -50,5 +50,23 @@
   },
   "networkCount": 2,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "github-desktop-menu",
+    "version": "1.0.0",
+    "description": "Github Mac menu to notify the status of the open issues of a user",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . GithubNotify --ignore=node_modules/electron-prebuilt --icon=icon.icns",
+      "postinstall": "bower install"
+    },
+    "author": "Maxi Gimenez",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-packager": "^3.1.0",
+      "electron-prebuilt": "^0.25.1"
+    }
+  },
+  "packageStatus": 200
 }

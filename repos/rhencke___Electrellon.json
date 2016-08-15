@@ -44,5 +44,30 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electrellon",
+    "version": "1.0.0",
+    "description": "Electron + Trello",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+      "electron-prebuilt": "^0.33.6"
+    },
+    "scripts": {
+      "start": "node_modules/.bin/electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/rhencke/electrellon.git"
+    },
+    "author": "Robert Hencke",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/rhencke/electrellon/issues"
+    },
+    "homepage": "https://github.com/rhencke/electrellon#readme"
+  },
+  "packageStatus": 200
 }

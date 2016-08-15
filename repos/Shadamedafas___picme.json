@@ -44,5 +44,24 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "picme",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.2"
+    },
+    "dependencies": {
+      "imgur": "^0.1.7",
+      "twilio": "^2.8.0"
+    }
+  },
+  "packageStatus": 200
 }

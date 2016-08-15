@@ -44,5 +44,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "my-todo",
+    "version": "1.0.0",
+    "description": "Learning application",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Abu Ali Muhammad Sharjeel",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^0.29.2"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,34 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "pancho-villa",
+    "version": "0.0.0",
+    "description": "Simple HandlebarsJs Viewer and Testes",
+    "main": "app/main.js",
+    "scripts": {
+      "start": "grunt start",
+      "prestart": "npm install",
+      "postinstall": "bower install",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "asar": "^0.11.0",
+      "electron-prebuilt": "^0.37.5",
+      "fs-jetpack": "^0.7.3",
+      "grunt": "^1.0.1",
+      "q": "^1.4.1",
+      "rcedit": "^0.5.0"
+    },
+    "peerDependencies": {
+      "grunt": "˜0.4"
+    },
+    "dependencies": {
+      "electron-debug": "^0.7.0"
+    }
+  },
+  "packageStatus": 200
 }

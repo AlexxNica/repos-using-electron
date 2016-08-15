@@ -44,5 +44,21 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "expense_tracker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "Kit Armstrong",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.7",
+      "sql.js": "^0.2.21"
+    }
+  },
+  "packageStatus": 200
 }

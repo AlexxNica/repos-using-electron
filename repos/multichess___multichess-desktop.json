@@ -64,5 +64,23 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "multichess-desktop",
+    "version": "0.0.1",
+    "description": "Massive Multiplayer Online Chess Game",
+    "main": "index.html",
+    "author": "tbk",
+    "license": "MIT",
+    "scripts": {
+      "start": "electron main.js",
+      "package": "electron-packager ./ MultiChess --platform=linux --arch=all --out ./bin/MultiChess --version 0.36.2 --overwrite –version-string.CompanyName=MultiChess –version-string.ProductName=MultiChess –version-string.ProductVersion=1",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.36.2"
+    }
+  },
+  "packageStatus": 200
 }

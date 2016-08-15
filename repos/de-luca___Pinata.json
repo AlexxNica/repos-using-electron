@@ -50,5 +50,54 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "pinata",
+    "productName": "Pinata",
+    "version": "1.0.0",
+    "description": "Documentation providing menubar mechanism",
+    "license": "BSD-2-Clause",
+    "main": "main.js",
+    "author": {
+      "name": "de-luca",
+      "email": "dev@de-luca.io",
+      "url": "de-luca.io"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/de-luca/Pinata.git"
+    },
+    "config": {
+      "flags": "--prune --asar --overwrite",
+      "version": "--version=0.35.1 --app-bundle-id=io.de-luca.pinata"
+    },
+    "scripts": {
+      "start": "electron ./",
+      "build-all": "npm run build-osx && npm run build-win && npm run build-linux",
+      "build-osx": "electron-packager . $npm_package_productName --platform=darwin --arch=x64 --icon=res/pinata.icns --out=./dist --ignore='^/dist$' --app-version=$npm_package_version $npm_package_config_flags $npm_package_config_version",
+      "build-win": "electron-packager . $npm_package_productName --platform=win32 --arch=x64 --out=./dist --ignore='^/dist$' --app-version=$npm_package_version $npm_package_config_flags $npm_package_config_version",
+      "build-linux": "electron-packager . $npm_package_productName --platform=linux --arch=x64 --out=./dist --ignore='^/dist$' --app-version=$npm_package_version $npm_package_config_flags $npm_package_config_version",
+      "package": "cd dist && zip -ryXq9 ${npm_package_productName}-darwin-x64-${npm_package_version}.zip ${npm_package_productName}-darwin-x64/${npm_package_productName}.app && tar czvf ${npm_package_productName}-linux-x64-${npm_package_version}.tar.gz ${npm_package_productName}-linux-x64 && zip -ryXq9 ${npm_package_productName}-win32-x64-${npm_package_version}.zip ${npm_package_productName}-win32-x64"
+    },
+    "files": [
+      "main.js",
+      "index.js",
+      "index.html",
+      "style/*",
+      "cmd/*",
+      "node_modules/*"
+    ],
+    "devDependencies": {
+      "electron-packager": "^7.0.1",
+      "electron-prebuilt": "^0.37.6"
+    },
+    "dependencies": {
+      "electron-json-config": "^1.1.0",
+      "font-awesome": "^4.6.1",
+      "jquery": "^2.1.4",
+      "lodash": "^4.8.2",
+      "menubar": "^4.1.0"
+    }
+  },
+  "packageStatus": 200
 }

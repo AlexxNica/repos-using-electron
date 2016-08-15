@@ -44,5 +44,25 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "APP_NAME",
+    "version": "1.0.0",
+    "description": "APP_DESCRIPTION",
+    "main": "./app/main.js",
+    "scripts": {
+      "start": "electron ./app/main.js",
+      "preinstall": "node build/nestedInstall",
+      "build": "node ./build/packager.js",
+      "build:win": "node ./build/packager.js win",
+      "build:osx": "node ./build/packager.js osx"
+    },
+    "dependencies": {
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.36.0",
+      "node-icns": "0.0.2",
+      "png2ico": "^0.4.1"
+    }
+  },
+  "packageStatus": 200
 }

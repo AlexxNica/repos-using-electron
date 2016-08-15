@@ -44,5 +44,27 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "gitron",
+    "version": "0.0.1",
+    "description": "Git GUI made with Electron",
+    "main": "index.js",
+    "author": "Thiago Nuic Vidigal",
+    "license": "ISC",
+    "dependencies": {
+      "nodegit": "0.4.1",
+      "electron-prebuilt": "^0.33.0",
+      "angular": "1.4.7",
+      "angular-local-storage": "0.2.2",
+      "angular-ui-router": "0.2.14",
+      "bootstrap": "3.3.5",
+      "jquery": "1.11.3",
+      "ng-dialog": "0.5.5"
+    },
+    "engines": {
+      "atom-shell": "0.33.0"
+    }
+  },
+  "packageStatus": 200
 }

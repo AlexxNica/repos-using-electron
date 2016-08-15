@@ -44,5 +44,36 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "TweetBeat",
+    "version": "0.0.3",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "gulp"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/farnabaz/TweetBeat.git"
+    },
+    "author": "Farnabaz",
+    "dependencies": {
+      "angular": "^1.4.5",
+      "jquery": "^2.1.4",
+      "node-notifier": "^4.2.3",
+      "oauth": "git@github.com:waffleio/node-oauth.git",
+      "socks5-http-client": "^1.0.1",
+      "socks5-https-client": "^1.1.1",
+      "twitter-text": "^1.13.2"
+    },
+    "devDependencies": {
+      "gulp-shell": "^0.5.0",
+      "electron-prebuilt": "^0.31.2",
+      "gulp": "^3.9.0",
+      "gulp-less": "^3.0.3"
+    }
+  },
+  "packageStatus": 200
 }

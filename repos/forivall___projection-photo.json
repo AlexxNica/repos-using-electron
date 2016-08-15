@@ -50,5 +50,53 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "projection-photo",
+    "productName": "ProjectionPhoto",
+    "version": "0.0.1",
+    "description": "Simple app to display a slideshow of photos",
+    "license": "MIT",
+    "repository": "forivall/projection-photo",
+    "author": {
+      "name": "Jordan Klassen",
+      "email": "forivall@gmail.com",
+      "url": "forivall.github.io/projection-photo"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=0.30.4",
+      "watch": "gulp watch"
+    },
+    "main": "lib/main.js",
+    "files": [
+      "lib/creator/index.js",
+      "lib/creator/index.html",
+      "lib/creator/index.css",
+      "lib/creator/ImageFolder.js",
+      "lib/creator/ScreenSelector.js",
+      "lib/presenter/index.html"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.1.1",
+      "exif": "^0.4.0",
+      "jquery": "^2.1.4",
+      "kenburns": "git+https://github.com/forivall/kenburns.git#aspect-ratio",
+      "lodash": "^3.10.1",
+      "react-image-gallery": "^0.4.2",
+      "walk": "^2.3.9"
+    },
+    "devDependencies": {
+      "babel": "^5.8.21",
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.30.4"
+    }
+  },
+  "packageStatus": 200
 }

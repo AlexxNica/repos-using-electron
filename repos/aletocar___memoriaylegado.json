@@ -50,5 +50,48 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "MemoriaYLegado",
+    "productName": "Shoa Memoria y Legado",
+    "version": "1.0.0",
+    "description": "La aplicación es una herramienta pedagógica para apoyar a los docentes al momento de trabajar distintos ejes temáticos relacionados con la historia, los derechos humanos y la convivencia. Tiene como objetivo contribuir a una educación sobre la diversidad y nutrirla de valores como la coexistencia y la tolerancia. Mediante información histórica y fidedigna de primer nivel, combinada con fotos, audiovisuales y testimonios, provee material para complementar las clases y configurar espacios de reflexión interdisciplinarios.",
+    "main": "main.js",
+    "scripts": {
+      "start": "npm install && electron ./app",
+      "pack": "build",
+      "dist": "build",
+      "dist:linux32": "build --platform linux --arch ia32"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/aletocar/memoriaylegado"
+    },
+    "author": "Gal Brenner <galbrenner@gmail.com>, Alejandro Tocar <aletocar@hotmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/aletocar/memoriaylegado/issues"
+    },
+    "homepage": "https://shoamemoriaylegado.com",
+    "build": {
+      "app-bundle-id": "org.proyectoshoa.app",
+      "app-category-type": "public.app-category.graphics-design",
+      "asar": false,
+      "linux": {
+        "synopsis": "La aplicación es una herramienta pedagógica para apoyar a los docentes al momento de trabajar distintos ejes temáticos relacionados con la historia, los derechos humanos y la convivencia. Tiene como objetivo contribuir a una educación sobre la diversidad y nutrirla de valores como la coexistencia y la tolerancia. Mediante información histórica y fidedigna de primer nivel, combinada con fotos, audiovisuales y testimonios, provee material para complementar las clases y configurar espacios de reflexión interdisciplinarios.",
+        "vendor": "Proyecto Shoa"
+      }
+    },
+    "directories": {
+      "output": "app/dist"
+    },
+    "devDependencies": {
+      "electron-builder": "^3.23.0",
+      "electron-prebuilt": "^1.0.2"
+    },
+    "dependencies": {
+      "open": "0.0.5"
+    }
+  },
+  "packageStatus": 200
 }

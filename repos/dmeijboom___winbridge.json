@@ -50,5 +50,29 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "winbridge",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron main.js"
+    },
+    "author": "Dillen Meijboom",
+    "license": "ISC",
+    "dependencies": {
+      "electron-prebuilt": "^0.35.1",
+      "gulp": "^3.9.0",
+      "gulp-concat": "^2.6.0",
+      "gulp-rename": "^1.2.2",
+      "gulp-sass": "^2.1.0",
+      "gulp-typescript": "^2.9.2",
+      "http-proxy": "^1.12.0",
+      "mongodb": "^2.0.49",
+      "server-destroy": "^1.0.1"
+    }
+  },
+  "packageStatus": 200
 }

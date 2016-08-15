@@ -64,5 +64,51 @@
   },
   "networkCount": 4,
   "subscribersCount": 12,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "webuild-menubar",
+    "version": "1.1.0",
+    "description": "a tiny os x menubar app to display the upcoming events and recently updated repos from webuild.sg",
+    "main": "index.js",
+    "scripts": {
+      "zip": "zip -ryXq WeBuildSG.app.zip WeBuildSG.app",
+      "build": "rm -rf WeBuildSG.app && rm -f WeBuildSG.app.zip  && electron-packager . WeBuildSG --platform=darwin --arch=x64 --version=0.26.0 --ignore=node_modules/electron --icon=Icon.icns && npm run zip",
+      "start": "electron .",
+      "test": "jshint index.js --config .jshintrc"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/webuildsg/osx"
+    },
+    "bugs": {
+      "url": "https://github.com/webuildsg/osx/issues"
+    },
+    "keywords": [
+      "electron",
+      "iojs",
+      "osx",
+      "webuild",
+      "events",
+      "repositories"
+    ],
+    "engines": {
+      "iojs": ">=1.8.1"
+    },
+    "os": [
+      "darwin"
+    ],
+    "license": "MIT",
+    "dependencies": {
+      "cron": "^1.0.9",
+      "menubar": "^2.0.14",
+      "moment-timezone": "^0.4.0",
+      "node-notifier": "^4.2.3"
+    },
+    "devDependencies": {
+      "electron-packager": "~4.2.0",
+      "electron-prebuilt": "~0.28.3",
+      "jshint": "^2.8.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "pa11y-test2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yoshi95/pa11y-test2.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/yoshi95/pa11y-test2/issues"
+    },
+    "homepage": "https://github.com/yoshi95/pa11y-test2#readme",
+    "devDependencies": {},
+    "dependencies": {
+      "co": "^4.6.0",
+      "electron-prebuilt": "^0.36.7",
+      "nightmare": "^2.1.3",
+      "pa11y-nightmare": "git+https://github.com/yoshi95/pa11y-nightmare.git#nitemare-port"
+    }
+  },
+  "packageStatus": 200
 }

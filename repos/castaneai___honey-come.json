@@ -44,5 +44,33 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "honey-come",
+    "version": "0.0.1",
+    "description": "hex editor",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/castaneai/honey-come.git"
+    },
+    "keywords": [
+      "hexeditor",
+      "binary"
+    ],
+    "author": "castaneai",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/castaneai/honey-come/issues"
+    },
+    "homepage": "https://github.com/castaneai/honey-come#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.30.1"
+    }
+  },
+  "packageStatus": 200
 }

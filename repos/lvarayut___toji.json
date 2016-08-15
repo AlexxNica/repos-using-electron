@@ -50,5 +50,52 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "toji",
+    "productName": "Toji",
+    "version": "1.0.0",
+    "description": "Toji helps you get an awesome text emoji quickly with a simple shortcut",
+    "license": "MIT",
+    "repository": "lvarayut/toji",
+    "author": {
+      "name": "Varayut Lerdkanlayanawat",
+      "email": "l.varayut@gmail.com",
+      "url": "github.com/lvarayut"
+    },
+    "scripts": {
+      "start": "electron .",
+      "lint": " eslint --ignore-path .gitignore **/*.js",
+      "build": "npm run build:osx && npm run build:linux && npm run build:window",
+      "build:master": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite",
+      "build:osx": "npm run build:master -- --platform=darwin --arch=x64 --icon=app/icons/Icon.icns && cd dist/Toji-darwin-x64 && zip -9rqy ../Toji-osx.zip Toji.app",
+      "build:linux": "npm run build:master -- --platform=linux --arch=x64 && cd dist/Toji-linux-x64 && zip -9rqy ../Toji-linux.zip *",
+      "build:window": "npm run build:master -- --platform=win32 --arch=ia32 --icon=app/icons/Icon.ico && cd dist/Toji-win32-ia32 && zip -9rqy ../Toji-windows.zip *"
+    },
+    "keywords": [
+      "toji",
+      "emoji",
+      "text-faces",
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "auto-launch": "^2.0.1",
+      "cool-ascii-faces": "^1.3.4",
+      "electron-config": "^0.1.1",
+      "electron-debug": "^1.0.0",
+      "menubar": "^4.1.1"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.0",
+      "electron-packager": "^7.0.0",
+      "electron-prebuilt": "^1.0.1",
+      "eslint": "^2.10.2",
+      "eslint-config-airbnb": "^9.0.1",
+      "eslint-plugin-import": "^1.8.0",
+      "eslint-plugin-jsx-a11y": "^1.2.1",
+      "eslint-plugin-react": "^5.1.1"
+    }
+  },
+  "packageStatus": 200
 }

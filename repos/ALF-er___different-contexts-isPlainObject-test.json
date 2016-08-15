@@ -44,5 +44,24 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "isPlainObjectTest",
+    "version": "0.0.1",
+    "description": "isPlainObject test",
+    "productName": "isPlainObject test Application",
+    "identifier": "com.alfer.isplainobject",
+    "author": "Illia Segeda aka ALFer <elf.er.is@gmail.com>",
+    "main": "mainprocess.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "dependencies": {
+      "lodash.isplainobject": "^3.2.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.33.3"
+    }
+  },
+  "packageStatus": 200
 }

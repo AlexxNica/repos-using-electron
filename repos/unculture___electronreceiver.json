@@ -50,5 +50,43 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electronreceiver",
+    "productName": "Electronreceiver",
+    "version": "0.0.0",
+    "description": "My premium app",
+    "license": "MIT",
+    "repository": "unculture/electronreceiver",
+    "author": {
+      "name": "",
+      "email": "",
+      "url": "jamesbrowne.me"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "electronVersion": "0.33.0",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.1.1",
+      "menubar": "^2.2.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.33.0"
+    }
+  },
+  "packageStatus": 200
 }

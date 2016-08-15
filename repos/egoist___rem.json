@@ -44,5 +44,51 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "rem",
+    "version": "1.0.0",
+    "description": "A JavaScript-friendly Alfred alternative for the 90s.",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "NODE_ENV=development electron .",
+      "app": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/egoist/rem.git"
+    },
+    "keywords": [
+      "spotlight",
+      "alfred"
+    ],
+    "author": "EGIOST <0x142857@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/egoist/rem/issues"
+    },
+    "homepage": "https://github.com/egoist/rem#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.6"
+    },
+    "dependencies": {
+      "bgm-fetch": "^1.0.0",
+      "camelcase-keys": "^3.0.0",
+      "cliparoo": "^1.1.1",
+      "co": "^4.6.0",
+      "dir2": "^0.2.0",
+      "lodash.debounce": "^4.0.6",
+      "minimist": "^1.2.0",
+      "mz": "^2.4.0",
+      "native-toast": "^0.2.0",
+      "node-fetch": "^1.5.3",
+      "opn": "^4.0.2",
+      "shelljs": "^0.7.0",
+      "spawn-args": "^0.2.0",
+      "tildify": "^1.2.0",
+      "vue": "^2.0.0-beta.1"
+    }
+  },
+  "packageStatus": 200
 }

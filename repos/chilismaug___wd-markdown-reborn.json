@@ -50,5 +50,37 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "wd-markdown",
+    "version": "0.2.0",
+    "description": "hep me grow to a real lectron app",
+    "main": "main.js",
+    "author": "nobodaddy webdesigner 237",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^1.0.0"
+    },
+    "scripts": {
+      "start": "electron ."
+    },
+    "dependencies": {
+      "ace-builds": "^1.2.2",
+      "marked": "^0.3.5"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chilismaug/wd-markdown-reborn.git"
+    },
+    "keywords": [
+      "ace",
+      "markdown",
+      "electron"
+    ],
+    "bugs": {
+      "url": "https://github.com/chilismaug/wd-markdown-reborn/issues"
+    },
+    "homepage": "https://github.com/chilismaug/wd-markdown-reborn#readme"
+  },
+  "packageStatus": 200
 }

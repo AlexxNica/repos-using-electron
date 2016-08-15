@@ -50,5 +50,47 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "app",
+    "productName": "GMR",
+    "version": "0.0.9",
+    "description": "",
+    "license": "MIT",
+    "repository": "quentinms/GMR-client",
+    "author": {
+      "name": "Quentin Mazars-Simon",
+      "email": "",
+      "url": "quentin.nyc"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "electronVersion": "0.36.8",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build_old": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion",
+      "build": "electron-packager . $npm_package_productName --platform=darwin --arch=x64 --version=$npm_package_electronVersion --overwrite --icon=icon.icns --app-version=$npm_package_version --prune"
+    },
+    "main": "main.js",
+    "keywords": [
+      "electron-app",
+      "Giant Multiplayer Robot",
+      "Civilization"
+    ],
+    "dependencies": {
+      "angular": "1.x",
+      "json-bigint": "0.1.x",
+      "lodash": "4.x",
+      "moment": "2.x",
+      "request": "2.x"
+    },
+    "devDependencies": {
+      "electron-debug": "0.3.x",
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.34.1"
+    }
+  },
+  "packageStatus": 200
 }

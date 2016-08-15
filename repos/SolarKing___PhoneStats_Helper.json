@@ -44,5 +44,34 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "phonestats_helper",
+    "version": "1.0.0",
+    "description": "For UNT CAS ITServices",
+    "main": "native.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SolarKing/PhoneStats_Helper.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/SolarKing/PhoneStats_Helper/issues"
+    },
+    "homepage": "https://github.com/SolarKing/PhoneStats_Helper",
+    "devDependencies": {
+      "gulp": "^3.9.0",
+      "gulp-concat": "^2.6.0",
+      "gulp-connect": "^2.2.0",
+      "gulp-sass": "^2.0.3"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.29.2"
+    }
+  },
+  "packageStatus": 200
 }

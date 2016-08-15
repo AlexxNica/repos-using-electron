@@ -50,5 +50,18 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hertz",
+    "version": "0.0.0",
+    "scripts": {
+      "start": "./node_modules/.bin/electron ./app"
+    },
+    "author": "Vitaly Domnikov",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.24.0"
+    }
+  },
+  "packageStatus": 200
 }

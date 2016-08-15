@@ -44,5 +44,46 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "MageStudio",
+    "version": "0.0.1",
+    "description": "Mage Studio",
+    "main": "main.js",
+    "scripts": {
+      "prestart": "./scripts/haml.sh",
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/marco-ponds/WageEditor"
+    },
+    "keywords": [
+      "Mage",
+      "Editor",
+      "THREE.js",
+      "WebGL",
+      "Game",
+      "Development",
+      "3D",
+      "Canvas",
+      "HTML5"
+    ],
+    "author": "Marco Stagni <marcostagni.com>",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/marco-ponds/WageEditor/issues"
+    },
+    "homepage": "https://github.com/marco-pondst/WageEditor#readme",
+    "devDependencies": {
+      "bower": "*",
+      "connect": "*",
+      "directory-tree": "*",
+      "electron-prebuilt": "^1.2.5",
+      "ncp": "*",
+      "remote": "*",
+      "serve-static": "*"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,45 @@
   },
   "networkCount": 2,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "debug-menu",
+    "version": "0.4.0",
+    "description": "Chrome-like \"inspect element\" context-menu",
+    "repository": "parro-it/debug-menu",
+    "author": "andrea@parro.it",
+    "scripts": {
+      "test": "eslint .",
+      "start": "electron test.js"
+    },
+    "eslintConfig": {
+      "extends": "js",
+      "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+      }
+    },
+    "license": "MIT",
+    "keywords": [
+      "electron",
+      "debug",
+      "inspect",
+      "element"
+    ],
+    "files": [
+      "index.js"
+    ],
+    "devDependencies": {
+      "electron-contextmenu-middleware": "^1.0.1",
+      "electron-prebuilt": "^0.36.7",
+      "eslint": "^1.10.3",
+      "eslint-config-js": "^3.1.0"
+    },
+    "dependencies": {
+      "electron-debug": "^0.7.0",
+      "electron-is-dev": "^0.1.0"
+    }
+  },
+  "packageStatus": 200
 }

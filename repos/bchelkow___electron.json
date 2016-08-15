@@ -44,5 +44,39 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron",
+    "version": "0.0.1",
+    "description": "An example of Electron + React application",
+    "main": "app/bootstraper.js",
+    "scripts": {
+      "start": "gulp",
+      "build": "gulp clean:build",
+      "package": "gulp clean && gulp package"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bchelkow/electron.git"
+    },
+    "dependencies": {
+      "babel-preset-es2015": "^6.9.0",
+      "babel-preset-react": "^6.11.1",
+      "babel-register": "^6.9.0",
+      "codemirror": "^5.16.0",
+      "fs-plus": "^2.9.1",
+      "lodash": "^4.13.1",
+      "react": "*",
+      "react-dom": "^15.2.1"
+    },
+    "devDependencies": {
+      "del": "^2.2.1",
+      "electron-prebuilt": "^1.2.6",
+      "gulp": "^3.9.1",
+      "gulp-electron": "^0.1.3",
+      "gulp-run-electron": "^2.0.0",
+      "gulp-sass": "^2.3.2"
+    }
+  },
+  "packageStatus": 200
 }

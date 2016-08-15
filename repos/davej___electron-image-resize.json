@@ -50,5 +50,44 @@
   },
   "networkCount": 2,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-image-resize",
+    "version": "1.2.2",
+    "description": "Resize images using Electron. Supports all image types that Chromium/Electron supports, outputs to png, jpeg, dataUrl or NativeImage.",
+    "license": "MIT",
+    "repository": "davej/electron-image-resize",
+    "author": {
+      "name": "DaveJ",
+      "email": "dave@davejeffery.com",
+      "url": "twitter.com/DaveJ"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "scripts": {
+      "example": "electron example/simple.js"
+    },
+    "files": [
+      "index.js"
+    ],
+    "keywords": [
+      "electron",
+      "screenshot",
+      "resize",
+      "image",
+      "png",
+      "jpg",
+      "jpeg",
+      "chromium"
+    ],
+    "dependencies": {},
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.6",
+      "eslint": "^2.9.0",
+      "eslint-config-airbnb": "^9.0.1",
+      "eslint-plugin-import": "^1.10.2"
+    }
+  },
+  "packageStatus": 200
 }

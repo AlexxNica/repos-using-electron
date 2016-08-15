@@ -64,5 +64,68 @@
   },
   "networkCount": 4,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "private": true,
+    "scripts": {
+      "clean": "rimraf dist",
+      "pack": "build",
+      "dist": "build",
+      "dist:win": "build --arch ia32",
+      "dist:win64": "build --arch x64",
+      "pack:win": "electron-packager ./dist --platform=win32 --arch=ia32",
+      "dist:osx": "build",
+      "start": "set NODE_ENV=development&&electron -d app",
+      "test": "mocha test/default.js"
+    },
+    "build": {
+      "osx": {
+        "icon": "build/icon.icns",
+        "icon-size": 80,
+        "background": "build/background.png",
+        "contents": [
+          {
+            "x": 240,
+            "y": 380,
+            "type": "link",
+            "path": "/Applications"
+          },
+          {
+            "x": 240,
+            "y": 120,
+            "type": "file",
+            "path": "Entry.app"
+          },
+          {
+            "x": 380,
+            "y": 250,
+            "type": "file",
+            "path": "./app/README.md"
+          }
+        ]
+      },
+      "win": {
+        "loadingGif": "build/install-spinner.gif",
+        "title": "Entry",
+        "icon": "./icon/app.ico",
+        "authors": "EntryLabs"
+      },
+      "asar": false,
+      "app-bundle-id": "entry-offline",
+      "app-category-type": "org.play-entry.entry-offline",
+      "iconUrl": "https://raw.githubusercontent.com/entrylabs/entry-hw/feature/electron/build/icon.ico",
+      "icon": "app/icon/app"
+    },
+    "devDependencies": {
+      "appdmg-tf": "^0.3.11",
+      "electron-builder": "^3.25.0",
+      "electron-packager": "^7.0.2",
+      "electron-prebuilt": "1.1.1",
+      "mocha": "^2.5.3",
+      "rimraf": "^2.5.2",
+      "spectron": "^3.2.3"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

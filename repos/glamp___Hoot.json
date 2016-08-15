@@ -44,5 +44,45 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hoot",
+    "productName": "Hoot",
+    "version": "1.0.0",
+    "appBundleId": "com.lamp.smspapa",
+    "helperBundleId": "com.lamp.smspapa.helper",
+    "description": "An app for sending messages to Papa",
+    "main": "app/main.js",
+    "scripts": {
+      "start": "electron app/main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/glamp/hoot.git"
+    },
+    "keywords": [
+      "Electron",
+      "sms",
+      "papa"
+    ],
+    "author": "Greg Lamp <lamp.greg@gmail.com",
+    "license": "MIT",
+    "devDependencies": {
+      "async": "^1.5.1",
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "0.36.2",
+      "lodash": "^3.10.1",
+      "minimist": "^1.2.0",
+      "mkdirp": "^0.5.1",
+      "rimraf": "^2.5.0"
+    },
+    "dependencies": {
+      "electron-builder": "^2.5.0",
+      "handlebars": "^4.0.5",
+      "jquery": "^2.1.4",
+      "moment": "^2.11.0",
+      "moment-timezone": "^0.5.0"
+    }
+  },
+  "packageStatus": 200
 }

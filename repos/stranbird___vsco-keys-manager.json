@@ -50,5 +50,58 @@
   },
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "vsco-keys-manager",
+    "version": "0.0.1",
+    "description": "A GUI for managing VSCO Keys configurations.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/stranbird/vsco-keys-manager.git"
+    },
+    "keywords": [
+      "VSCOKeys",
+      "gui",
+      "electron"
+    ],
+    "author": "Yuanfei Zhu",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/stranbird/vsco-keys-manager/issues"
+    },
+    "homepage": "https://github.com/stranbird/vsco-keys-manager#readme",
+    "devDependencies": {
+      "babel-core": "^6.4.0",
+      "babel-loader": "^6.2.1",
+      "babel-plugin-add-module-exports": "^0.1.3-alpha",
+      "babel-plugin-transform-class-properties": "^6.4.0",
+      "babel-plugin-transform-decorators-legacy": "^1.3.4",
+      "babel-plugin-transform-dev-warning": "^0.1.0",
+      "babel-preset-es2015": "^6.3.13",
+      "babel-preset-react": "^6.3.13",
+      "babel-preset-stage-1": "^6.3.13",
+      "css-loader": "^0.23.1",
+      "electron-prebuilt": "^0.36.0",
+      "electron-rebuild": "^1.1.1",
+      "file-loader": "^0.8.5",
+      "json-loader": "^0.5.4",
+      "style-loader": "^0.13.0",
+      "url-loader": "^0.5.7",
+      "webpack": "^1.12.11",
+      "webpack-target-electron-renderer": "^0.4.0"
+    },
+    "dependencies": {
+      "glob": "^6.0.4",
+      "lodash": "^4.0.0",
+      "material-ui": "^0.14.2",
+      "react": "^0.14.3",
+      "react-dom": "^0.14.3",
+      "react-tap-event-plugin": "^0.2.1"
+    }
+  },
+  "packageStatus": 200
 }

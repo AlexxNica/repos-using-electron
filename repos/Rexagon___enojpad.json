@@ -44,5 +44,25 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "enojpad",
+    "version": "0.0.1",
+    "description": "Small text editor with code highlight",
+    "main": "js/main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron ."
+    },
+    "window": {
+      "width": 800,
+      "height": 600
+    },
+    "author": "Ivan Kalinin (Rexagon)",
+    "license": "MIT",
+    "dependencies": {
+      "electron-prebuilt": "^1.1.1"
+    }
+  },
+  "packageStatus": 200
 }

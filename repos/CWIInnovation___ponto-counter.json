@@ -58,5 +58,20 @@
   },
   "networkCount": 1,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "test",
+    "version": "0.1.0",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . test  --platform=win32 --arch=x64 --version=0.30.2 --out=build --overwrite",
+      "build-osx": "electron-packager . test  --platform=darwin --arch=x64 --version=0.30.2 --out=build --overwrite"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.33.1"
+    }
+  },
+  "packageStatus": 200
 }

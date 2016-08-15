@@ -50,5 +50,33 @@
   },
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "BuildingBlocks",
+    "version": "0.1.0",
+    "description": "An IDE that links Ace Editor to Blockly",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Austen-G/BuildingBlocks.git"
+    },
+    "keywords": [
+      "Blocly",
+      "Ace",
+      "Electron"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/electron/electron-quick-start#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.8"
+    }
+  },
+  "packageStatus": 200
 }

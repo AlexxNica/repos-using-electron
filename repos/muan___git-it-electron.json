@@ -168,5 +168,39 @@
   },
   "networkCount": 126,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "git-it-electron",
+    "version": "1.0.0",
+    "description": "### A Git-it Desktop App!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "productName": "Git-it",
+    "main": "main.js",
+    "scripts": {
+      "build-chals": "node lib/build-challenges.js",
+      "build-pages": "node lib/build-pages.js",
+      "build-all": "npm run build-chals && npm run build-pages",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jlord/git-it-electron.git"
+    },
+    "author": "Jessica Lord",
+    "license": "BSD",
+    "bugs": {
+      "url": "https://github.com/jlord/git-it-electron/issues"
+    },
+    "homepage": "https://github.com/jlord/git-it-electron",
+    "devDependencies": {
+      "electron-prebuilt": "^0.25.2"
+    },
+    "dependencies": {
+      "cheerio": "^0.19.0",
+      "glob": "^5.0.5",
+      "handlebars": "^3.0.3",
+      "request": "^2.57.0",
+      "standard": "^3.7.3"
+    }
+  },
+  "packageStatus": 200
 }

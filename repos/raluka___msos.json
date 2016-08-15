@@ -44,5 +44,61 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "MSOS-app",
+    "version": "0.0.2",
+    "description": "Greatest desktop application since forever",
+    "main": "main.js",
+    "dependencies": {
+      "pretty-bytes": "^2.0.1"
+    },
+    "devDependencies": {
+      "electron-builder": "^5.12.1",
+      "electron-prebuilt": "^0.35.2",
+      "mkdirp": "~0.5.1"
+    },
+    "build": {
+      "appId": "msos.electron",
+      "app-category-type": "public.app-category.productivity",
+      "dmg": {
+        "title": "MS OS App",
+        "background": "build/background.png",
+        "icon": "build/icon.icns",
+        "icon-size": 128,
+        "contents": [
+          {
+            "x": 355,
+            "y": 125,
+            "type": "link",
+            "path": "/Applications"
+          },
+          {
+            "x": 155,
+            "y": 125,
+            "type": "file"
+          }
+        ]
+      },
+      "win": {
+        "remoteReleases": "https://github.com/raluka/msos",
+        "iconUrl": "http://eatodo.s3.amazonaws.com/icon.ico"
+      }
+    },
+    "author": "Me and my Team <no-reply@marleyspoon.com>",
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "start": "electron ./app --enable-logging",
+      "dev": "NODE_ENV='development' npm run start",
+      "dist": "build -mwl --x64 --ia32",
+      "prerelease:osx": "rimraf release/osx && mkdirp release/osx",
+      "release:osx": "copyfiles -f dist/mac/*.{dmg,zip} release/osx && PACKAGE_VERSION=$(cat app/package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && echo $PACKAGE_VERSION >> ./release/osx/VERSION",
+      "prerelease:win32": "rimraf release/win32 && mkdirp release/win32",
+      "release:win32": "copyfiles -f dist/win-ia32/{RELEASES,*.nupkg,*.exe} release/win32",
+      "prerelease:win64": "rimraf release/win64 && mkdirp release/win64",
+      "release:win64": "copyfiles -f dist/win/{RELEASES,*.nupkg,*.exe} release/win64",
+      "release": "run-p release:*"
+    }
+  },
+  "packageStatus": 200
 }

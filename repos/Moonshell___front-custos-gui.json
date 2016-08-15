@@ -44,5 +44,42 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "front-custos-gui",
+    "version": "1.2.2",
+    "description": "A graphic user interface of Front Custos.",
+    "productName": "Front Custos GUI",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "pack-win64": "electron-packager . FrontCustos --out=../front-custos-gui-dist --icon=./tea-time --platform=win32 --arch=x64 --overwrite=true --ignore=\"(.idea|patches|front-custos/example/dist)\"",
+      "pack": "npm run-script pack-win64"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Moonshell/front-custos-gui.git"
+    },
+    "author": "krimeshu",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Moonshell/front-custos-gui/issues"
+    },
+    "homepage": "https://github.com/Moonshell/front-custos-gui#readme",
+    "dependencies": {
+      "angular": "^1.5.6",
+      "angular-animate": "^1.5.6",
+      "angular-aria": "^1.5.6",
+      "angular-material": "^1.0.9",
+      "angular-messages": "^1.5.6",
+      "angular-mocks": "^1.5.6",
+      "angular-route": "^1.5.6",
+      "angular-sanitize": "^1.5.6",
+      "electron-packager": "^7.0.3",
+      "electron-prebuilt": "^1.2.1",
+      "request-progress": "^2.0.1",
+      "watch": "^0.18.0"
+    }
+  },
+  "packageStatus": 200
 }

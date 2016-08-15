@@ -58,5 +58,38 @@
   },
   "networkCount": 17,
   "subscribersCount": 24,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "installer",
+    "version": "0.1.0",
+    "description": "**Clone and run for a quick way to see an Electron in action.**",
+    "main": "main.js",
+    "dependencies": {
+      "electron-sudo": "^3.0.8",
+      "once": "^1.3.3",
+      "opn": "^4.0.2",
+      "osenv": "^0.1.3",
+      "request": "^2.72.0",
+      "semver": "^5.2.0",
+      "yo-yo": "^1.2.2"
+    },
+    "devDependencies": {
+      "electron-builder": "^5.10.5",
+      "electron-prebuilt": "^1.2.5",
+      "standard": "^7.1.2"
+    },
+    "scripts": {
+      "start": "electron .",
+      "pack": "build --dir",
+      "dist": "build",
+      "test": "standard"
+    },
+    "keywords": [],
+    "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.mikealrogers.com)",
+    "license": "Apache-2.0",
+    "build": {
+      "appId": "org.nodejs.installer"
+    }
+  },
+  "packageStatus": 200
 }

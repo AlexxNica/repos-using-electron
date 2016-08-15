@@ -44,5 +44,48 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "simple-proxy",
+    "productName": "SimpleProxy",
+    "version": "0.0.3",
+    "description": "A simple reverse proxy for OS X.",
+    "license": "MIT",
+    "repository": {
+      "url": "dfmcphee/simple-proxy"
+    },
+    "author": {
+      "name": "Dominic McPhee",
+      "email": "dominic.mcphee@shopify.com",
+      "url": "dfmcphee.com"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "electronVersion": "0.34.0",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --platform=darwin --arch=x64 icon=Icon.icns --ignore='^/dist$' --version=$npm_package_electronVersion --overwrite",
+      "build-release": "electron-packager . $npm_package_productName --out=dist --platform=darwin --arch=x64 icon=Icon.icns --ignore='^/dist$' --version=$npm_package_electronVersion --sign=U7937AY495 --overwrite"
+    },
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "babel": "^5.8.23",
+      "electron-debug": "^0.2.1",
+      "electron-gh-releases": "^1.0.1",
+      "ip": "^1.0.1",
+      "menubar": "^2.2.1",
+      "proxy": "^0.2.3",
+      "react": "^0.14.0",
+      "react-dom": "^0.14.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.34.0"
+    }
+  },
+  "packageStatus": 200
 }

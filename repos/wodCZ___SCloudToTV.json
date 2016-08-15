@@ -44,5 +44,23 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "SCloudTV",
+    "version": "0.0.0",
+    "private": true,
+    "main": "main.js",
+    "dependencies": {
+      "bluebird": "^3.1.1",
+      "jquery": "^2.2.0",
+      "request": "^2.67.0",
+      "soundcloud-resolve": "^1.0.1",
+      "ssdp-js": "^1.0.1",
+      "upnp-mediarenderer-client": "^1.2.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.4"
+    }
+  },
+  "packageStatus": 200
 }

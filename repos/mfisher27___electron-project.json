@@ -44,5 +44,21 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-project",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "Michael Fisher",
+    "repository": "https://github.com/mfisher27/electron-project",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.2"
+    }
+  },
+  "packageStatus": 200
 }

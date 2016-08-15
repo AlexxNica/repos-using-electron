@@ -162,5 +162,28 @@
   },
   "networkCount": 12,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "sample",
+    "appName": "Sample",
+    "version": "0.0.1",
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/benogle/electron-sample.git"
+    },
+    "compileCacheDir": "./compile-cache",
+    "compileDirs": [
+      "src",
+      "styles",
+      "static"
+    ],
+    "devDependencies": {
+      "electron-compile": "*",
+      "electron-prebuilt": "^0.29.2",
+      "husk-cli": "^0.2.0"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

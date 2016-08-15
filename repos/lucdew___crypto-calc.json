@@ -50,5 +50,70 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "crypto-calc",
+    "productName": "Crypto Calc",
+    "version": "0.0.1",
+    "description": "Crypto calculator",
+    "license": "MIT",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/lucdew/crypto-calc"
+    },
+    "author": {
+      "name": "Luc Dewavrin",
+      "url": "https://github.com/lucdew/crypto-calc"
+    },
+    "engines": {
+      "node": ">=4.2.0"
+    },
+    "scripts": {
+      "buildweb": "node_modules/gulp/bin/gulp.js",
+      "postinstall": "node_modules/gulp/bin/gulp.js protractor:install"
+    },
+    "keywords": [
+      "crypto calculator"
+    ],
+    "dependencies": {
+      "angular": "1.4.10",
+      "angular-animate": "1.4.10",
+      "angular-ui-bootstrap": "1.2.5",
+      "bootstrap": "3.3.6",
+      "crypto-js": "3.1.5",
+      "font-awesome": "4.5.0",
+      "jquery": "1.11.3",
+      "jquery-ui-bundle": "1.11.4",
+      "jsrsasign": "4.8.6",
+      "lodash": "^4.6.1",
+      "node-forge": "0.6.39",
+      "spin.js": "2.3.2"
+    },
+    "devDependencies": {
+      "chai": "^3.4.1",
+      "chromedriver": "^2.21.2",
+      "express": "^4.13.3",
+      "gulp": "^3.9.1",
+      "gulp-clean": "^0.3.2",
+      "gulp-mocha": "^2.2.0",
+      "gulp-mocha-phantomjs": "^0.11.0",
+      "gulp-rename": "^1.2.2",
+      "gulp-replace": "^0.5.4",
+      "gulp-util": "^3.0.7",
+      "gulp-zip": "^3.2.0",
+      "js-yaml": "^3.6.1",
+      "json-loader": "^0.5.4",
+      "merge-stream": "^1.0.0",
+      "mocha": "^2.3.4",
+      "protractor": "^3.3.0",
+      "run-sequence": "^1.1.5",
+      "string-replace-webpack-plugin": "0.0.3",
+      "ts-loader": "^0.8.2",
+      "tslint": "^3.3.0",
+      "webpack": "^1.13.0",
+      "yaml-loader": "^0.2.0"
+    }
+  },
+  "packageStatus": 200
 }

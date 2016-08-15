@@ -50,5 +50,36 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "google-photos-desktop",
+    "version": "0.1.0",
+    "description": "Simple desktop application for managing your Google Photos collection",
+    "main": "app.js",
+    "scripts": {
+      "start": "electron app.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/keysh/google-photos-desktop.git"
+    },
+    "keywords": [
+      "google",
+      "photos",
+      "electron",
+      "desktop",
+      "nodejs",
+      "javascript"
+    ],
+    "author": "Jakub Leško",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/keysh/google-photos-desktop/issues"
+    },
+    "homepage": "https://github.com/keysh/google-photos-desktop#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.2"
+    }
+  },
+  "packageStatus": 200
 }

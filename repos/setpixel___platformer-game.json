@@ -44,5 +44,19 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "description": "A platformer game",
+    "main": "js/main.js",
+    "name": "Platformer",
+    "version": "0.0.1",
+    "scripts": {
+      "start": "electron js/main.js"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.0",
+      "phaser": "latest"
+    }
+  },
+  "packageStatus": 200
 }

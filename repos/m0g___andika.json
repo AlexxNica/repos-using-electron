@@ -44,5 +44,33 @@
   "license": null,
   "networkCount": 2,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "andika",
+    "productName": "Andika",
+    "version": "0.1.0",
+    "main": "src/browser.js",
+    "scripts": {
+      "bundle": "rework-npm src/source.css -o static/bundle.css",
+      "start": "./node_modules/electron-prebuilt/dist/electron ./"
+    },
+    "dependencies": {
+      "markdown": "*",
+      "to-markdown": "*",
+      "medium-editor": "*",
+      "rework": "*",
+      "rework-npm": "*",
+      "sanitize-html": "*",
+      "open": "0.0.5"
+    },
+    "devDependencies": {
+      "clean-css": "~2.1.8",
+      "electron-prebuilt": "^0.25.1",
+      "myth": "~1.0.4",
+      "pace": "*",
+      "request": "*",
+      "rework-npm-cli": "~0.1.1"
+    }
+  },
+  "packageStatus": 200
 }

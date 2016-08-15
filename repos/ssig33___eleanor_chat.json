@@ -44,5 +44,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "eleanor",
+    "version": "0.0.1",
+    "main": "app/main.js",
+    "description": "IRC(or other chat)Client built with Electron",
+    "repository": "ssig33/eleanor_chat",
+    "author": "ssig33 <mail@ssig33.com> (http://ssig33.com)",
+    "license": "MIT",
+    "dependencies": {
+      "ws": "^0.7.1",
+      "request": "^2.61.0",
+      "react": "^0.13.3",
+      "moment": "^2.10.6",
+      "jquery": ""
+    },
+    "devDependencies": {
+      "gulp": "3.9.0",
+      "gulp-haml": "",
+      "gulp-babel": "",
+      "gulp-load-plugins": "",
+      "electron-connect": "",
+      "electron-prebuilt": "^0.31.0",
+      "electron-packager": "^5.0.2",
+      "babel": ""
+    }
+  },
+  "packageStatus": 200
 }

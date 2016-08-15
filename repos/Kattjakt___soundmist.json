@@ -50,5 +50,48 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "soundmist",
+    "version": "0.0.1",
+    "description": "A desktop client for Soundcloud",
+    "main": "main.js",
+    "scripts": {
+      "electron": "electron .tmp",
+      "start": "npm run watch-linux",
+      "watch-linux": "gulp start && (npm run electron &) && gulp watch",
+      "watch-windows": "gulp start && START /MIN npm run electron && gulp watch",
+      "build": "gulp start && electron-packager .tmp Soundmist --out=dist --prune --asar --all"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kattjakt/soundmist.git"
+    },
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron-packager": "^7.1.0",
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "angular": "^1.5.7",
+      "angular-animate": "^1.5.7",
+      "angular-aria": "^1.5.7",
+      "angular-material": "^1.1.0-rc.5",
+      "angular-route": "^1.5.7",
+      "angular-ui-router": "^0.3.1",
+      "electron-json-storage": "^2.0.0",
+      "express": "^4.14.0",
+      "font-awesome": "^4.6.3",
+      "gulp": "^3.9.1",
+      "gulp-concat": "^2.6.0",
+      "gulp-jade": "^1.1.0",
+      "gulp-livereload": "^3.8.1",
+      "gulp-sass": "^2.3.2",
+      "gulp-sym": "0.0.14",
+      "gulp-util": "^3.0.7",
+      "request": "^2.72.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "magonote",
+    "version": "1.0.0",
+    "description": "magonote",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/overgoro56/magonote.git"
+    },
+    "keywords": [
+      "magonote"
+    ],
+    "author": "overgoro56",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/overgoro56/magonote/issues"
+    },
+    "homepage": "https://github.com/overgoro56/magonote#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "social-chat",
+    "version": "0.1.0",
+    "description": "Aplicacion de escritorio para acceder a chats webs como whatsapp",
+    "main": "app.js",
+    "scripts": {
+      "iniciar": "electron .",
+      "create": "electron-packager ./ \"multi-chat2\" --platform=linux --arch=x64 --version=0.36.0 --ignore=node_modules",
+      "cons": "electron-packager ./ \"multi-chat\" --platform=linux --arch=x64 --version=0.36.0 --ignore='node_modules' && asar pack multi-chat-linux-x64/resources/app multi-chat-linux-x64/resources/app.asar && rm -r multi-chat-linux-x64/resources/app && rm -r multi-chat-linux-x64/resources/default_app",
+      "conswin": "electron-packager ./ \"multi-chat\" --platform=win32 --arch=x64 --version=0.36.0 --ignore='node_modules' && asar pack multi-chat-win32-x64/resources/app multi-chat-win32-x64/resources/app.asar && rm -r multi-chat-win32-x64/resources/app && rm -r multi-chat-win32-x64/resources/default_app"
+    },
+    "author": "Benjamin De la Cruz Martinez",
+    "license": "ISC",
+    "dependencies": {
+      "asar": "^0.8.3",
+      "electron-packager": "^5.1.1"
+    },
+    "devDependencies": {
+      "electron": "^0.4.1",
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

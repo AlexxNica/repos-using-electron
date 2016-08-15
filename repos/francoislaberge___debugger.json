@@ -44,5 +44,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "debugger",
+    "version": "0.35.0",
+    "description": "Easily debug node scripts and Electron renderer processes",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "postinstall": "node bin/postinstall.js"
+    },
+    "bin": {
+      "debugger": "./bin/debugger.js"
+    },
+    "dependencies": {
+      "electron-prebuilt": "1.0.2",
+      "lodash": "3.10.1",
+      "mkdirp": "^0.5.1"
+    },
+    "author": "Francois Laberge <francoislaberge@gmail.com>",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/francoislaberge/debugger"
+    },
+    "bugs": {
+      "url": "https://github.com/francoislaberge/debugger/issues"
+    }
+  },
+  "packageStatus": 200
 }

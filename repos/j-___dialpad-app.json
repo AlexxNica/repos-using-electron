@@ -44,5 +44,20 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "dialpad-app",
+    "version": "0.1.0",
+    "description": "Simulate a cell phone dialpad",
+    "main": "index.js",
+    "author": "Jamie Hoeks <j@skeoh.com>",
+    "license": "MIT",
+    "scripts": {
+      "start": "electron ."
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.33.4"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,35 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "org.vi7.protonmail",
+    "title": "ProtonMail Client (Unofficial)",
+    "version": "0.0.2",
+    "description": "An Electron app that hosts the wildly popular ProtonMail service.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [
+      "electron",
+      "protonmail",
+      "encryption",
+      "encrypted",
+      "email"
+    ],
+    "author": "Cranite",
+    "license": "ISC",
+    "dependencies": {
+      "appdirectory": "^0.1.0",
+      "homedir": "^0.6.0",
+      "jquery": "^2.2.1",
+      "junk": "^1.0.2",
+      "open": "0.0.5"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.1"
+    }
+  },
+  "packageStatus": 200
 }

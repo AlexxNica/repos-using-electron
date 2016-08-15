@@ -50,5 +50,23 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ephemera",
+    "version": "0.0.3",
+    "description": "Instant messaging using the IRC protocol",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron ."
+    },
+    "author": "Jerome Ludmann",
+    "license": "MIT",
+    "dependencies": {
+      "angular": "^1.5.3",
+      "electron-prebuilt": "^1.0.1",
+      "iconv-lite": "^0.4.13"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,49 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "i3-config",
+    "version": "1.0.0",
+    "description": "A graphical editor for i3 configurations",
+    "main": "src/main.js",
+    "scripts": {
+      "start": "electron src/main.js",
+      "test": "./node_modules/mocha/bin/mocha test/**/*.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/t3dodson/i3-config.git"
+    },
+    "keywords": [
+      "i3"
+    ],
+    "author": "Tom Dodson",
+    "contributors": [
+      {
+        "name": "Tom Dodson"
+      },
+      {
+        "name": "Kevin Garsjo"
+      },
+      {
+        "name": "Dan Wilson"
+      }
+    ],
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/t3dodson/i3-config/issues"
+    },
+    "homepage": "https://github.com/t3dodson/i3-config#readme",
+    "devDependencies": {
+      "backbone": "^1.2.3",
+      "chai": "^3.4.1",
+      "electron-prebuilt": "^0.34.2",
+      "jade": "^1.11.0",
+      "jquery": "^2.1.4",
+      "mocha": "^2.3.3",
+      "underscore": "^1.8.3"
+    }
+  },
+  "packageStatus": 200
 }

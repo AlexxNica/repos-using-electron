@@ -44,5 +44,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "kappa-electron",
+    "version": "0.1.0",
+    "description": "HTML5 Twitch.tv Player",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "author": "fostertheweb",
+    "license": "MIT",
+    "homepage": "",
+    "devDependencies": {
+      "devtron": "^1.0.1",
+      "electron-prebuilt": "^1.0.1"
+    },
+    "dependencies": {
+      "hls.js": "^0.5.30",
+      "m3u8": "0.0.7",
+      "node-fetch": "^1.5.2"
+    }
+  },
+  "packageStatus": 200
 }

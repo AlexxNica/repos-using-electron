@@ -50,5 +50,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "angular-electron",
+    "version": "1.0.0",
+    "description": "Study using Atom`s Electron and Angularjs",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "./node_modules/.bin/electron ./app"
+    },
+    "keywords": [
+      "electron",
+      "angularjs"
+    ],
+    "author": "Davi Alves",
+    "license": "MIT",
+    "devDependencies": {
+      "asar": "^0.8.0",
+      "electron-prebuilt": "^0.34.0",
+      "fs-jetpack": "^0.7.0",
+      "q": "^1.4.1",
+      "rcedit": "^0.3.0"
+    },
+    "dependencies": {
+      "babel": "^5.8.23"
+    }
+  },
+  "packageStatus": 200
 }

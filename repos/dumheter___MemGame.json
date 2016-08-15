@@ -50,5 +50,41 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "run": "watchify src/Main.jsx -v -t [ babelify --presets [ react ] ] -o js/Main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/electron/electron-quick-start#readme",
+    "devDependencies": {
+      "babel-preset-react": "^6.5.0",
+      "babelify": "^7.3.0",
+      "electron-prebuilt": "^1.2.0",
+      "react": "^15.1.0",
+      "react-dom": "^15.1.0",
+      "reflux": "^0.4.1",
+      "watchify": "^3.7.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,40 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "writers_studio",
+    "version": "0.0.59",
+    "description": "A tool for writers",
+    "main": "main.js",
+    "scripts": {
+      "test": "test.js",
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Phalanstere/WritersStudio.git"
+    },
+    "keywords": [
+      "writer",
+      "authoring"
+    ],
+    "author": "phalanstere <burckhardt@ludicmedia.de> (https://github.com/Phalanstere)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Phalanstere/WritersStudio/issues"
+    },
+    "homepage": "https://github.com/Phalanstere/WritersStudio#readme",
+    "dependencies": {
+      "electron-menus": "^0.1.0",
+      "jquery": "^1.8.0",
+      "motives": "^0.0.59",
+      "open": "^0.0.5",
+      "textract": "^1.2.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.1"
+    }
+  },
+  "packageStatus": 200
 }

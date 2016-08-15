@@ -44,5 +44,41 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "served",
+    "version": "0.1.0",
+    "description": "Create simple HTTP servers for any directory.",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "./node_modules/.bin/electron .",
+      "package": "./node_modules/.bin/electron-packager . Served --all --version=0.36.4 --ignore=dist --out=dist"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/enjalot/served.git"
+    },
+    "keywords": [
+      "http",
+      "http-server",
+      "server"
+    ],
+    "author": "Ian Johnson",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/enjalot/served/issues"
+    },
+    "homepage": "https://github.com/enjalot/served#readme",
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.4"
+    },
+    "dependencies": {
+      "d3": "^3.5.12",
+      "express": "^4.13.3",
+      "serve-index": "^1.7.2"
+    }
+  },
+  "packageStatus": 200
 }

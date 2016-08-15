@@ -162,5 +162,45 @@
   },
   "networkCount": 15,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-screenshot-service",
+    "main": "src/index.js",
+    "description": "Take screenshots using electron",
+    "version": "2.1.0",
+    "author": "Fabrice Weinberg <Fabrice@weinberg.me>",
+    "repository": "https://github.com/FWeinb/electron-screenshot-service",
+    "license": "MIT",
+    "scripts": {
+      "postinstall": "npm install --prefix ./electron-service",
+      "test": "./node_modules/mocha/bin/mocha test"
+    },
+    "files": [
+      "electron-service",
+      "example",
+      "src",
+      "test",
+      "LICENSE",
+      "README.md"
+    ],
+    "dependencies": {
+      "axon": "^2.0.2",
+      "bluebird": "^2.9.34",
+      "electron-prebuilt": "0.36.6",
+      "cross-spawn-async": "^2.1.0"
+    },
+    "devDependencies": {
+      "is-png": "^1.0.0",
+      "xo": "^0.12.0",
+      "mocha": "^2.2.4",
+      "pngparse": "^2.0.1"
+    },
+    "xo": {
+      "esnext": false,
+      "envs": [
+        "node"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

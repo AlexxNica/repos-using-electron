@@ -162,5 +162,23 @@
   },
   "networkCount": 49,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hello-app",
+    "version": "0.1.0",
+    "main": "main.js",
+    "repository": "https://github.com/nolanlawson/hello-electron-with-pouchdb.git",
+    "license": "Apache",
+    "dependencies": {
+      "pouchdb": "5.3.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "0.36.10"
+    },
+    "scripts": {
+      "postinstall": "cd node_modules/leveldown && HOME=~/.electron-gyp node-gyp rebuild --target=0.36.10 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
+      "start": "electron ."
+    }
+  },
+  "packageStatus": 200
 }

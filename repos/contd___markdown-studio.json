@@ -50,5 +50,59 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "markdown-studio",
+    "version": "1.1.0",
+    "main": "app/main.js",
+    "license": "MIT",
+    "readme": "README.md",
+    "private": true,
+    "author": {
+      "name": "Jason Kumpf",
+      "email": "jason@kumpf.io",
+      "url": "https://kumpf.io/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/contd/markdown-studio.git"
+    },
+    "bugs": {
+      "url": "https://github.com/contd/markdown-studio/issues",
+      "email": "jason@kumpf.io"
+    },
+    "keywords": [
+      "electron",
+      "debian"
+    ],
+    "homepage": "https://contd.github.io/markdown-studio",
+    "os": [
+      "darwin",
+      "linux"
+    ],
+    "scripts": {
+      "start": "electron .",
+      "asar": "asar pack markdown-studio app.asar",
+      "clean": "rimraf dist",
+      "exe32": "electron-packager . markdown-studio --platform linux --arch ia32 --out dist/ --ignore \"(dist|node_modules/electron.*)\"",
+      "exe64": "electron-packager . markdown-studio --platform linux --arch x64 --out dist/ --ignore \"(dist|node_modules/electron.*)\"",
+      "deb32": "electron-installer-debian --src dist/markdown-studio-linux-ia32/ --arch i386 --config config.json",
+      "deb64": "electron-installer-debian --src dist/markdown-studio-linux-x64/ --arch amd64 --config config.json",
+      "build": "npm run clean && npm run exe32 && npm run deb32 && npm run exe64 && npm run deb64"
+    },
+    "build": {
+      "appId": "markdown-studio-jpk",
+      "app-category-type": "Utility",
+      "win": {
+        "iconUrl": "resources/Icon.png"
+      }
+    },
+    "devDependencies": {
+      "electron-installer-debian": "^0.3.0",
+      "electron-packager": "*",
+      "electron-prebuilt": "^1.2.5",
+      "rimraf": "*"
+    }
+  },
+  "packageStatus": 200
 }

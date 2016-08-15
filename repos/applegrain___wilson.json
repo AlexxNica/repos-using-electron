@@ -44,5 +44,48 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "wilson",
+    "version": "0.0.1",
+    "description": "A desktop converter",
+    "main": "bootstrapper.js",
+    "scripts": {
+      "start": "electron .",
+      "lint": "eslint src"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/applegrain/wilson.git"
+    },
+    "keywords": [
+      "electron",
+      "converter"
+    ],
+    "author": "Lovisa Svallingson",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/applegrain/wilson/issues"
+    },
+    "homepage": "https://github.com/applegrain/wilson#readme",
+    "devDependencies": {
+      "babel-eslint": "^5.0.0",
+      "electron-prebuilt": "^0.36.7",
+      "eslint": "^2.4.0",
+      "eslint-config-airbnb": "^6.1.0",
+      "eslint-plugin-react": "^4.2.1"
+    },
+    "dependencies": {
+      "babel-preset-es2015": "^6.3.13",
+      "babel-preset-react": "^6.3.13",
+      "babel-register": "^6.3.13",
+      "jquery": "^2.2.1",
+      "marked": "^0.3.5",
+      "randomstring": "^1.1.4",
+      "react": "^0.14.7",
+      "react-dom": "^0.14.7",
+      "request": "^2.69.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -162,5 +162,59 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "punk",
+    "productName": "Punk",
+    "version": "0.1.0",
+    "description": "Alternative cross-platform Steam client for desktop",
+    "main": "dist/js/main.js",
+    "author": {
+      "name": "Michael Scholtz",
+      "email": "michael.scholtz@outlook.com"
+    },
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/scholtzm/punk.git"
+    },
+    "dependencies": {
+      "classnames": "^2.2.3",
+      "flux": "^2.1.1",
+      "font-awesome": "^4.5.0",
+      "moment": "^2.11.1",
+      "node-notifier": "^4.4.0",
+      "object-assign": "^4.0.1",
+      "photon": "github:connors/photon",
+      "react": "^0.14.7",
+      "react-dom": "^0.14.7",
+      "react-linkify": "^0.1.1",
+      "request": "^2.69.0",
+      "shortid": "^2.2.4",
+      "steamid": "^0.3.1",
+      "vapor": "^1.2.0"
+    },
+    "devDependencies": {
+      "babel-preset-react": "^6.3.13",
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "0.35.4",
+      "eslint": "^1.10.3",
+      "eslint-plugin-react": "^3.16.1",
+      "gulp": "^3.9.0",
+      "gulp-babel": "^6.1.2",
+      "gulp-rimraf": "^0.2.0",
+      "gulp-sass": "^2.1.0"
+    },
+    "scripts": {
+      "build": "node_modules/.bin/gulp",
+      "clean": "node_modules/.bin/gulp clean",
+      "lint": "node_modules/.bin/eslint --ignore-path .gitignore .",
+      "start": "node_modules/.bin/electron .",
+      "watch": "node_modules/.bin/gulp watch",
+      "package-osx": "electron-packager . Punk --overwrite --out=package --platform=darwin --arch=x64 --version=0.35.4 --prune --icon=resources/icon.icns --ignore=src --ignore=style",
+      "package-win": "electron-packager . Punk --overwrite --out=package --platform=win32 --arch=ia32 --version=0.35.4 --prune --icon=resources/icon.ico --ignore=src --ignore=style"
+    },
+    "private": true
+  },
+  "packageStatus": 200
 }

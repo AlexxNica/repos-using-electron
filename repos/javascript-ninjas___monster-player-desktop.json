@@ -58,5 +58,35 @@
   },
   "networkCount": 0,
   "subscribersCount": 6,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "productName": "Monster Player",
+    "name": "monster-player-desktop",
+    "version": "0.0.1",
+    "electronVersion": "0.33.0",
+    "description": "Monster Player - Desktop",
+    "main": "app/init.js",
+    "private": "true",
+    "scripts": {
+      "watch": "webpack --watch",
+      "start": "./node_modules/.bin/electron .",
+      "release": "./node_modules/.bin/electron-packager $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+    },
+    "author": "javascript-ninjas",
+    "devDependencies": {},
+    "dependencies": {
+      "babel": "^5.8.23",
+      "babel-loader": "^5.3.2",
+      "electron-prebuilt": "^0.33",
+      "electron-packager": "^5.1.0",
+      "raw-loader": "^0.5.1",
+      "url-loader": "^0.5.6",
+      "style-loader": "latest",
+      "css-loader": "latest",
+      "sass-loader": "latest",
+      "ng-annotate-webpack-plugin": "^0.1.2",
+      "fs-jetpack": "^0.7.0"
+    }
+  },
+  "packageStatus": 200
 }

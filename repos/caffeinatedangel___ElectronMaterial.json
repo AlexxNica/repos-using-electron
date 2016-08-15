@@ -44,5 +44,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-material",
+    "version": "1.0.0",
+    "license": "MIT",
+    "description": "Baseline template for NodeJS+Electron+ngMaterial apps",
+    "main": "app/app.js",
+    "dependencies": {
+      "angular": "^1.4.9",
+      "angular-animate": "^1.4.9",
+      "angular-aria": "^1.4.9",
+      "angular-material": "^1.0.0",
+      "angular-material-icons": "^0.7.0",
+      "angular-messages": "^1.5.3",
+      "angular-route": "^1.5.3",
+      "electron-prebuilt": "^0.37.3",
+      "ng-material-floating-button": "^0.6.2"
+    },
+    "devDependencies": {
+      "angular-mocks": "^1.4.9"
+    },
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "author": "Addison Morrison"
+  },
+  "packageStatus": 200
 }

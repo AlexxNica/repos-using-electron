@@ -44,5 +44,29 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "connections",
+    "version": "1.0.0",
+    "description": "Store simple details quickly about your contacts.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "connections",
+      "contacts"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

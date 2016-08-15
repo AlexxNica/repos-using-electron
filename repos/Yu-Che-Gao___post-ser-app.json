@@ -50,5 +50,34 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "facebook keywords engine",
+    "version": "1.0.0",
+    "description": "facebook article keywords search",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Yu-Che-Gao/post-ser-app.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/Yu-Che-Gao/post-ser-app/issues"
+    },
+    "homepage": "https://github.com/Yu-Che-Gao/post-ser-app#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

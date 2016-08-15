@@ -44,5 +44,21 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "starforge",
+    "version": "1.0.0",
+    "description": "Orbital strategy game",
+    "main": "main.js",
+    "dependencies": {},
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.0"
+    },
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "author": "Tommi Honkala",
+    "license": "ISC"
+  },
+  "packageStatus": 200
 }

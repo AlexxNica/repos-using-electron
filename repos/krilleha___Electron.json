@@ -44,5 +44,32 @@
   "license": null,
   "networkCount": 2,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron",
+    "version": "1.0.0",
+    "description": "electron mithril test",
+    "main": "dist/main.js",
+    "scripts": {
+      "build": "node_modules/.bin/gulp build",
+      "build-watch": "node_modules/.bin/gulp build-watch",
+      "app": "node_modules/.bin/electron dist",
+      "deploy-linux": "node_modules/.bin/electron-packager ./dist testapp --platform=linux --arch=all --version=0.33.6 --out=bin --overwrite --ignore=bin",
+      "deploy-windows": "node_modules/.bin/electron-packager ./dist testapp --platform=win32 --arch=all --version=0.33.6 --out=bin --overwrite --ignore=bin",
+      "deploy-osx": "node_modules/.bin/electron-packager ./dist testapp --platform=darwin --arch=all --version=0.33.6 --out=bin --overwrite --ignore=bin",
+      "deploy": "npm run deploy-linux && npm run deploy-windows && npm run deploy-osx"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.33.6",
+      "gulp": "^3.9.0",
+      "gulp-typescript": "^2.9.2",
+      "mithril": "^0.2.0",
+      "require-dir": "^0.3.0",
+      "tsd": "^0.6.5"
+    }
+  },
+  "packageStatus": 200
 }

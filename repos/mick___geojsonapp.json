@@ -44,5 +44,36 @@
   "license": null,
   "networkCount": 19,
   "subscribersCount": 16,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "geojsonapp",
+    "appname": "geojsonapp",
+    "version": "1.1.0",
+    "description": "preview geojson in an app",
+    "dependencies": {
+      "dnode": "^1.2.0",
+      "electron-prebuilt": "^0.25.1",
+      "geojson-extent": "^0.3.1",
+      "geojson-normalize": "0.0.0",
+      "minimist": "^0.2.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo 'not yet'"
+    },
+    "main": "index.js",
+    "bin": {
+      "geojsonapp": "./bin/cli.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/mick/geojsonapp.git"
+    },
+    "author": "Mick Thompson",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mick/geojsonapp/issues"
+    }
+  },
+  "packageStatus": 200
 }

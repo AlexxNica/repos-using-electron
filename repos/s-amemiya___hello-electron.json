@@ -44,5 +44,17 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hello-electron",
+    "version": "0.1.0",
+    "description": "hello, electron",
+    "main": "src/main.js",
+    "author": "S-Amemiya",
+    "license": "ISC",
+    "dependencies": {
+      "electron-prebuilt": "^0.34.1"
+    }
+  },
+  "packageStatus": 200
 }

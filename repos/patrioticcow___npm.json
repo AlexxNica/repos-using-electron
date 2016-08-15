@@ -44,5 +44,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "npm",
+    "version": "1.0.0",
+    "description": "na",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "Cristi",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^0.30.0",
+      "jquery": "^2.1.4",
+      "npm-check": "^3.2.10"
+    }
+  },
+  "packageStatus": 200
 }

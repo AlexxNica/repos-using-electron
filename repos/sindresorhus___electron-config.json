@@ -50,5 +50,59 @@
   },
   "networkCount": 3,
   "subscribersCount": 6,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-config",
+    "version": "0.2.1",
+    "description": "Simple config handling for your Electron app or module",
+    "license": "MIT",
+    "repository": "sindresorhus/electron-config",
+    "author": {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "sindresorhus.com"
+    },
+    "scripts": {
+      "test": "xo && ava"
+    },
+    "files": [
+      "index.js"
+    ],
+    "keywords": [
+      "electron",
+      "app",
+      "config",
+      "store",
+      "storage",
+      "conf",
+      "configuration",
+      "settings",
+      "preferences",
+      "json",
+      "data",
+      "persist",
+      "persistent",
+      "save"
+    ],
+    "dependencies": {
+      "conf": "^0.11.1"
+    },
+    "devDependencies": {
+      "ava": "*",
+      "electron-prebuilt": "^1.2.6",
+      "execa": "^0.4.0",
+      "xo": "*"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ],
+      "rules": {
+        "import/no-extraneous-dependencies": "off"
+      }
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,27 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "heos-controller",
+    "version": "1.0.0",
+    "description": "Controller for Denon Heos speakers",
+    "repository": "https://github.com/cold-logic/heos-controller",
+    "main": "gulpfile.js",
+    "scripts": {
+      "setup": "npm install;bower install",
+      "start": "electron app",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Christopher Davison",
+    "license": "ISC",
+    "devDependencies": {
+      "coffee-script": "^1.9.3",
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.36.0",
+      "gulp": "^3.9.0",
+      "rimraf": "^2.4.1"
+    }
+  },
+  "packageStatus": 200
 }

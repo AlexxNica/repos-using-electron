@@ -58,5 +58,39 @@
   },
   "networkCount": 0,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "UnofficialAZAEventManager",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/The-Ofek-Foundation/UnofficialAZAEventManager.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "Ramon AZA",
+    "contributors": "Ofek Gila, Ilan Scheinkman",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/The-Ofek-Foundation/UnofficialAZAEventManager/issues"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "jquery": "~2.1.4",
+      "jsdom": "~3.1.2",
+      "express": "~4.13.3"
+    }
+  },
+  "packageStatus": 200
 }

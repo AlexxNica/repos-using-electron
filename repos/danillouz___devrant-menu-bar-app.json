@@ -50,5 +50,77 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "devrant-menu-bar-app",
+    "version": "0.0.1",
+    "description": "A simple menu bar app to read rants.",
+    "main": "src/js/main.js",
+    "scripts": {
+      "test": "mocha --require babel-core/register",
+      "lint": "eslint --color src/ test/ --ext .js*",
+      "clean": "rimraf dist coverage",
+      "build:hot": "NODE_ENV=development npm run clean && node dev.server.js",
+      "build:webpack": "NODE_ENV=production webpack --progress --config webpack.config.prod.js",
+      "build:electron-dev": "NODE_ENV=development electron src/js/main.js",
+      "start": "npm run clean && npm run build:webpack && npm run build:electron-dev"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/danillouz/devrant-menu-bar-app.git"
+    },
+    "keywords": [
+      "devrant",
+      "menu-bar-app",
+      "electron",
+      "react",
+      "redux"
+    ],
+    "author": "Daniel Illouz",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/danillouz/devrant-menu-bar-app/issues"
+    },
+    "homepage": "https://github.com/danillouz/devrant-menu-bar-app#readme",
+    "devDependencies": {
+      "babel-cli": "^6.9.0",
+      "babel-core": "^6.9.1",
+      "babel-loader": "^6.2.4",
+      "babel-plugin-react-transform": "^2.0.2",
+      "babel-plugin-transform-react-display-name": "^6.8.0",
+      "babel-polyfill": "^6.9.1",
+      "babel-preset-es2015": "^6.9.0",
+      "babel-preset-react": "^6.5.0",
+      "babel-preset-stage-0": "^6.5.0",
+      "chai": "^3.5.0",
+      "devtron": "^1.1.2",
+      "electron-prebuilt": "^1.2.0",
+      "enzyme": "^2.3.0",
+      "eslint": "^2.11.1",
+      "eslint-plugin-react": "^5.1.1",
+      "express": "^4.13.4",
+      "isomorphic-fetch": "^2.2.1",
+      "json-loader": "^0.5.4",
+      "material-ui": "^0.15.0",
+      "menubar": "^4.1.1",
+      "mocha": "^2.5.3",
+      "react": "^15.1.0",
+      "react-dom": "^15.1.0",
+      "react-redux": "^4.4.5",
+      "react-router": "^2.4.1",
+      "react-router-redux": "^4.0.4",
+      "react-tap-event-plugin": "^1.0.0",
+      "react-transform-catch-errors": "^1.0.2",
+      "react-transform-hmr": "^1.0.4",
+      "redbox-react": "^1.2.6",
+      "redux": "^3.5.2",
+      "redux-logger": "^2.6.1",
+      "redux-thunk": "^2.1.0",
+      "sinon": "^1.17.4",
+      "webpack": "^1.13.1",
+      "webpack-dev-middleware": "^1.6.1",
+      "webpack-hot-middleware": "^2.10.0"
+    }
+  },
+  "packageStatus": 200
 }

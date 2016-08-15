@@ -44,5 +44,20 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "InstaStats",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "author": "Jerry Haagsma",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0",
+      "superagent": "^1.7.2"
+    }
+  },
+  "packageStatus": 200
 }

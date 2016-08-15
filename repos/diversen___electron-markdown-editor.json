@@ -44,5 +44,60 @@
   "license": null,
   "networkCount": 5,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-markdown-editor",
+    "productName": "ElectronMarkdownEditor",
+    "version": "2.0.1",
+    "electronVersion": "1.3.3",
+    "description": "A markdown editor built with electron, uikit, and markdown-it",
+    "keywords": [
+      "markdown",
+      "editor",
+      "electron",
+      "commonmark",
+      "markdown-it",
+      "uikit"
+    ],
+    "main": "app.js",
+    "bin": {
+      "electron-markdown-editor": "./bin/electron-markdown-editor"
+    },
+    "scripts": {
+      "clean:dist": "rm -rf ./dist",
+      "build": "npm run build:osx && npm run build:win && npm run build:linux",
+      "build:osx": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --overwrite --prune --asar --arch=all --platform=darwin --icon=./resources/icon.icns --version=$npm_package_electronVersion --app-version=$npm_package_version && node scripts/post-build-mac.js",
+      "build:win": "electron-packager . $npm_package_productName --out=dist --arch=all --platform=win32 --ignore='^/dist$' --prune --asar --overwrite --icon=./resources/icon.ico --version=$npm_package_electronVersion --app-version=$npm_package_version",
+      "build:linux": "electron-packager . $npm_package_productName --out=dist --arch=all --platform=linux --ignore='^/dist$' --prune --asar --overwrite --icon=./resources/icon.png --version=$npm_package_electronVersion --app-version=$npm_package_version",
+      "package": "npm run package:win32 && npm run package:win64 && npm run package:osx && npm run package:linux",
+      "package:win64": "electron-builder dist/ElectronMarkdownEditor-win32-x64/ --platform=win --out=dist --config=config.json && mv 'dist/ElectronMarkdownEditor Setup.exe' dist/ElectronMarkdownEditor_Windows64.exe",
+      "package:win32": "electron-builder dist/ElectronMarkdownEditor-win32-ia32/ --platform=win --out=dist --config=config.json && mv 'dist/ElectronMarkdownEditor Setup.exe' dist/ElectronMarkdownEditor_Windows32.exe",
+      "package:osx": "hdiutil create -format UDZO -srcfolder dist/ElectronMarkdownEditor-darwin-x64/ElectronMarkdownEditor.app dist/ElectronMarkdownEditor_Mac.dmg",
+      "package:linux": "cd dist/ && zip -r ElectronMarkdownEditor_Linux_x64.zip ElectronMarkdownEditor-linux-x64 && zip -r ElectronMarkdownEditor_Linux_ia32.zip ElectronMarkdownEditor-linux-ia32 && cd ../"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/diversen/electron-markdown-editor.git"
+    },
+    "author": "Dennis Iversen",
+    "license": "MIT",
+    "dependencies": {
+      "codemirror": "^5.10.0",
+      "electron-debug": "^1.0.1",
+      "electron-prebuilt": "^1.3.3",
+      "electron-window": "0.8.1",
+      "highlightjs": "^8.7.0",
+      "isbinaryfile": "^3.0.0",
+      "jquery": "^2.1.4",
+      "markdown-it-embed-mathjax-highlight": "^1.0.1",
+      "markdown-table-template": "^1.0.1",
+      "mathjax": "^2.5.1",
+      "open": "0.0.5",
+      "plist": "^1.2.0",
+      "relative": "^3.0.2",
+      "translate.js": "^0.4.1",
+      "uikit": "^2.24.3"
+    }
+  },
+  "packageStatus": 200
 }

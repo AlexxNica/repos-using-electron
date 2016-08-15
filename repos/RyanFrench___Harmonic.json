@@ -50,5 +50,21 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Harmonic",
+    "version": "0.1.0",
+    "description": "A cross platform desktop client for google play music - built with electron",
+    "main": "main.js",
+    "author": "Ryan French <http://ryanfrench.co>",
+    "scripts": {
+      "start": "electron .",
+      "debug": "NODE_ENV=debug electron ."
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.2"
+    }
+  },
+  "packageStatus": 200
 }

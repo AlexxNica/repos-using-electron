@@ -168,5 +168,48 @@
   },
   "networkCount": 35,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "poso-dsl-atom",
+    "main": "./lib/main",
+    "version": "0.1.0",
+    "description": "POSO development support in Atom",
+    "engines": {
+      "atom": "*",
+      "node": "*"
+    },
+    "homepage": "http://atom.github.io/language-json",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/atom/language-json.git"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/atom/language-json/issues"
+    },
+    "scripts": {
+      "postinstall": "./node_modules/.bin/electron-rebuild"
+    },
+    "dependencies": {
+      "atom-package-dependencies": "latest",
+      "fuzzaldrin": ">=2.1.0",
+      "atom-message-panel": ">=1.2.4",
+      "poso-dsl-validators": "0.0.1"
+    },
+    "packageDependencies": {
+      "autocomplete-plus": ">=2.5.0"
+    },
+    "providedServices": {
+      "autocomplete.provider": {
+        "versions": {
+          "2.0.0": "autocompleteProvider"
+        }
+      }
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.28.3",
+      "electron-rebuild": "^0.2.2"
+    }
+  },
+  "packageStatus": 200
 }

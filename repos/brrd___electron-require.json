@@ -50,5 +50,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-require",
+    "version": "0.3.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/brrd/electron-require"
+    },
+    "description": "Simplified require in electron applications",
+    "main": "index.js",
+    "scripts": {
+      "test": "electron ./tests"
+    },
+    "keywords": [
+      "electron",
+      "require",
+      "rq"
+    ],
+    "author": "brrd",
+    "license": "MIT",
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "electron-prebuilt": "^1.2.5",
+      "mocha": "^2.5.3"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,29 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "twat",
+    "version": "0.1.0",
+    "description": "A CLI-inspired GUI client for Git.",
+    "homepage": "https://github.com/foldr/twat",
+    "bugs": "https://github.com/foldr/twat/issues",
+    "contributors": [
+      {
+        "name": "Curtis Lusmore",
+        "email": "curtis.lusmore@gmail.com",
+        "url": "https://github.com/CurtisLusmore"
+      }
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/foldr/twat.git"
+    },
+    "main": "main.js",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.9",
+      "parsimmon": "0.7.0"
+    }
+  },
+  "packageStatus": 200
 }

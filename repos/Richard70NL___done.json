@@ -50,5 +50,51 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "done",
+    "version": "0.0.1",
+    "description": "A simple time and activity management application for the desktop.",
+    "main": "main.js",
+    "scripts": {
+      "pretest": "jshint .",
+      "test": "mocha",
+      "prestart": "jshint .",
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Richard70NL/done.git"
+    },
+    "author": "Richard70nl (http://richard70.nl)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Richard70NL/done/issues"
+    },
+    "homepage": "https://github.com/Richard70NL/done#readme",
+    "dependencies": {
+      "rupjs": "0.x",
+      "sqlite3": "3.x"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.3",
+      "jshint": "^2.9.1-rc1",
+      "mocha": "^2.3.3"
+    },
+    "jshintConfig": {
+      "bitwise": true,
+      "curly": true,
+      "eqeqeq": true,
+      "forin": true,
+      "freeze": true,
+      "latedef": true,
+      "nocomma": true,
+      "nonbsp": true,
+      "undef": true,
+      "unused": true,
+      "mocha": true,
+      "node": true
+    }
+  },
+  "packageStatus": 200
 }

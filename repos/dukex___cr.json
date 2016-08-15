@@ -44,5 +44,35 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "cr",
+    "appName": "CR",
+    "version": "0.0.1",
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dukex/cr.git"
+    },
+    "scripts": {
+      "test": "script/test"
+    },
+    "compileCacheDir": "./compile-cache",
+    "compileDirs": [
+      "src"
+    ],
+    "devDependencies": {
+      "electron-compile": "^0.7.4",
+      "electron-jasmine": "^0.1.8",
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.2",
+      "electron-rebuild": "^0.2.5",
+      "react": "^0.13.3",
+      "react-router": "^0.13.3"
+    },
+    "dependencies": {
+      "yargs": "^3.16.1"
+    }
+  },
+  "packageStatus": 200
 }

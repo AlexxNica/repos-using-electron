@@ -58,5 +58,38 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ugnis-test",
+    "version": "1.1.0",
+    "description": "Ugnis test config",
+    "main": "wallaby.conf.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/UgnisSoftware/ugnis-test.git"
+    },
+    "keywords": [
+      "Ugnis",
+      "test",
+      "wallaby"
+    ],
+    "author": "Karolis Masiulis",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/UgnisSoftware/ugnis-test/issues"
+    },
+    "homepage": "https://github.com/UgnisSoftware/ugnis-test#readme",
+    "dependencies": {
+      "electron-prebuilt": "^0.37.5",
+      "enzyme": "^2.2.0",
+      "json-loader": "^0.5.4",
+      "null-loader": "^0.1.1",
+      "react-addons-test-utils": "^15.0.0",
+      "wallaby-webpack": "^0.0.22"
+    }
+  },
+  "packageStatus": 200
 }

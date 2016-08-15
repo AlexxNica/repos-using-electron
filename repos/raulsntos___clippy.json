@@ -44,5 +44,24 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "clippy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "clean": "rm -rf ./dist",
+      "pack": "electron-packager ./ Clippy --all --asar --version=0.35.0 --out=./dist --icon=icon",
+      "build": "npm install && npm run clean && npm run pack"
+    },
+    "author": "Raul Santos <raulsntos@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-packager": "^5.1.1",
+      "electron-prebuilt": "^0.35.0"
+    }
+  },
+  "packageStatus": 200
 }

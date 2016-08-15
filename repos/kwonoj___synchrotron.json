@@ -50,5 +50,33 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "synchrotron",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kwonoj/synchrotron.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kwonoj/synchrotron/issues"
+    },
+    "homepage": "https://github.com/kwonoj/synchrotron#readme",
+    "devDependencies": {
+      "typescript": "^1.7.5"
+    },
+    "dependencies": {
+      "@cycle/core": "^6.0.0",
+      "@cycle/dom": "^8.0.0",
+      "rx": "^4.0.7"
+    }
+  },
+  "packageStatus": 200
 }

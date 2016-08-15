@@ -44,5 +44,29 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-tray-icon-example",
+    "version": "1.0.0",
+    "description": "example showing broken icon on electron",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jstejada/electron-tray-icon-example.git"
+    },
+    "author": "Juan Tejada",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jstejada/electron-tray-icon-example/issues"
+    },
+    "homepage": "https://github.com/jstejada/electron-tray-icon-example#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.29.2"
+    }
+  },
+  "packageStatus": 200
 }

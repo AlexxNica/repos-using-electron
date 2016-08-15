@@ -44,5 +44,18 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "minemods",
+    "version": "0.9.0",
+    "main": "dist/app.js",
+    "dependencies": {
+      "fs-extra": "^0.26.5",
+      "q": "1.4.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.9"
+    }
+  },
+  "packageStatus": 200
 }

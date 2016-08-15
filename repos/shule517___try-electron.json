@@ -44,5 +44,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "try-electron",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/shule517/try-electron.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/shule517/try-electron/issues"
+    },
+    "homepage": "https://github.com/shule517/try-electron#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.4"
+    }
+  },
+  "packageStatus": 200
 }

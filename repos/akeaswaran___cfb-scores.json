@@ -50,5 +50,31 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "cfb-scores",
+    "description": "A small Mac desktop app to keep track of current NCAA college football scores.",
+    "version": "0.1.0",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "package": "asar pack CFBScores-darwin-x64/CFBScores.app/Contents/Resources/app CFBScores-darwin-x64/CFBScores.app/Contents/Resources/app.asar",
+      "build": "rm -rf CFBScores-darwin-x64 && electron-packager . CFBScores --ignore='(/Users/akeaswaran/Documents/Apps/cfb-scores/README.md|/Users/akeaswaran/Documents/Apps/cfb-scores/LICENSE.md|npm-debug.log|.DS_Store)' --platform=darwin --arch=x64 --version=0.36.2 && cp Icon.icns CFBScores-darwin-x64/CFBScores.app/Contents/Resources/atom.icns && npm run package"
+    },
+    "devDependencies": {
+      "asar": "^0.9.0",
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.36.2"
+    },
+    "author": "Akshay Easwaran <akeaswaran@me.com> (http://akeaswaran.me/)",
+    "license": "MIT",
+    "dependencies": {
+      "bootstrap": "^4.0.0-alpha.2",
+      "is-online": "^5.0.1",
+      "jquery": "^2.1.4",
+      "jquery-ui": "^1.10.5",
+      "tether": "^1.1.1"
+    }
+  },
+  "packageStatus": 200
 }

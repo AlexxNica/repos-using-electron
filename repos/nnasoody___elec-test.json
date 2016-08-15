@@ -44,5 +44,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Everalbum",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "dev": "electron ./src",
+      "clean:win": "rm -rf ./dist/win",
+      "build:win": "electron-packager ./src \"everalbum\" --out=dist/win --platform=win32 --arch=ia32 --version=0.35.4 --config=packager.json",
+      "pack:win": "electron-builder \"dist/win/everalbum-win32-ia32\" --platform=win --out=\"dist/win\" --config=packager.json"
+    },
+    "author": "Nima",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-builder": "^2.4.0",
+      "electron-packager": "^5.1.1",
+      "electron-prebuilt": "^0.36.0",
+      "electron-squirrel-startup": "^0.1.4",
+      "grunt": "^0.4.5",
+      "grunt-cli": "^0.1.13",
+      "grunt-electron-builder": "^0.2.1",
+      "grunt-electron-installer": "^1.2.0",
+      "node-inspector": "^0.12.2"
+    }
+  },
+  "packageStatus": 200
 }

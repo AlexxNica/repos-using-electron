@@ -50,5 +50,80 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ride",
+    "version": "0.0.1",
+    "description": "React Editor",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha --compilers js:babel-register tests",
+      "start": "electron index.js",
+      "install-package": "node install-package"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vlad-ignatov/ride.git"
+    },
+    "keywords": [
+      "React",
+      "Editor",
+      "IDE",
+      "Flux",
+      "JSX"
+    ],
+    "author": "Vladimir Ignatov",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/vlad-ignatov/ride/issues"
+    },
+    "homepage": "https://github.com/vlad-ignatov/ride#readme",
+    "devDependencies": {
+      "babel": "^6.1.5",
+      "babel-core": "^6.1.4",
+      "babel-eslint": "^4.1.5",
+      "babel-loader": "^6.1.0",
+      "babel-plugin-syntax-jsx": "^6.1.4",
+      "babel-preset-es2015": "^6.1.4",
+      "babel-preset-react": "^6.1.4",
+      "babel-preset-stage-0": "^6.1.2",
+      "babel-register": "^6.3.13",
+      "chai": "*",
+      "electron-prebuilt": "^0.34.3",
+      "eslint": "^1.9.0",
+      "eslint-plugin-react": "^3.8.0",
+      "file-loader": "^0.8.4",
+      "less": "^2.5.3",
+      "less-loader": "^2.2.1",
+      "mocha": "^2.3.4",
+      "style-loader": "^0.13.0",
+      "url-loader": "^0.5.6",
+      "webpack": "^1.12.4"
+    },
+    "dependencies": {
+      "alt": "^0.17.9",
+      "async": "^1.5.0",
+      "babel-runtime": "^6.1.4",
+      "bluebird": "^3.0.5",
+      "command-palette": "file:../ride-packages/command-palette",
+      "css-loader": "^0.22.0",
+      "jquery": "^2.1.4",
+      "json-loader": "^0.5.3",
+      "react": "^0.14.2",
+      "require-directory": "^2.1.1"
+    },
+    "ride": {
+      "packages": {
+        "command-palette": "^1.0.0"
+      }
+    },
+    "babel": {
+      "plugins": [],
+      "presets": [
+        "es2015"
+      ],
+      "ignore": []
+    }
+  },
+  "packageStatus": 200
 }

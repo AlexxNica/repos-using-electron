@@ -162,5 +162,42 @@
   },
   "networkCount": 613,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "BaseNote",
+    "version": "0.0.1",
+    "description": "Notes - Everywhere",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "babel app/src --watch --out-dir app/js"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "keywords": [
+      "Electron",
+      "Notes",
+      "Project",
+      "CRM"
+    ],
+    "author": "William Stanley",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "babel-cli": "^6.11.4",
+      "babel-plugin-transform-react-jsx": "^6.8.0",
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "jquery": "^3.1.0",
+      "moment": "^2.14.1",
+      "react": "^15.3.0",
+      "react-autosuggest": "^4.0.0",
+      "react-dom": "^15.3.0",
+      "react-quill": "^0.4.1",
+      "react-select": "^1.0.0-beta14"
+    }
+  },
+  "packageStatus": 200
 }

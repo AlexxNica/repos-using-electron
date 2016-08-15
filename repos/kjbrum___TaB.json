@@ -50,5 +50,35 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "TaB",
+    "version": "0.0.1",
+    "description": "A simple app built with Node.js that uses notifications to remind you to take periodic breaks throughout the day.",
+    "author": "Kyle Brumm",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [
+      "notify",
+      "notification",
+      "break",
+      "chill",
+      "calm",
+      "relax",
+      "rest",
+      "health",
+      "eyes"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.25.1"
+    },
+    "dependencies": {
+      "forever-monitor": "^1.5.2",
+      "node-notifier": "^4.2.1"
+    }
+  },
+  "packageStatus": 200
 }

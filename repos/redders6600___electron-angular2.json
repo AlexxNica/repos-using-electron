@@ -50,5 +50,36 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-angular2",
+    "version": "0.1.0",
+    "description": "An angular 2 electron skeleton app",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ./src/run.js",
+      "postinstall": "typings install"
+    },
+    "author": "Ed Hinchliffe",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0",
+      "gulp": "^3.9.1",
+      "gulp-filter": "^3.0.1",
+      "gulp-if": "^2.0.0",
+      "gulp-inject-string": "^1.1.0",
+      "gulp-livereload": "^3.8.1",
+      "gulp-newer": "^1.1.0",
+      "gulp-stylus": "^2.3.0",
+      "gulp-typescript": "^2.12.0",
+      "nib": "^1.1.0",
+      "typings": "^0.6.8"
+    },
+    "dependencies": {
+      "angular2": "^2.0.0-beta.7",
+      "reflect-metadata": "^0.1.2",
+      "rxjs": "^5.0.0-beta.2",
+      "zone.js": "^0.5.15"
+    }
+  },
+  "packageStatus": 200
 }

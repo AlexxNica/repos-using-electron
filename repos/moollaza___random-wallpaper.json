@@ -50,5 +50,65 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "random-wallpaper",
+    "productName": "Random-Wallpaper",
+    "version": "0.0.0",
+    "description": "My delightful app",
+    "license": "MIT",
+    "repository": "moollaza/random-wallpaper",
+    "author": {
+      "name": "Zaahir Moolla",
+      "email": "moollaza@fastmail.fm",
+      "url": "zaahir.ca"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "electronVersion": "0.33.3",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "cheerio": "^0.19.0",
+      "electron-config": "^0.2.1",
+      "electron-debug": "^0.2.1",
+      "handlebars": "^4.0.3",
+      "holder": "0.0.0",
+      "holderjs": "^1.7.0",
+      "jquery": "^2.1.4",
+      "menubar": "^2.2.1",
+      "request": "^2.64.0",
+      "url": "^0.11.0",
+      "wallpaper": "^1.1.0"
+    },
+    "devDependencies": {
+      "devtron": "^1.2.1",
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.33.3",
+      "xo": "^0.9.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ],
+      "rules": {
+        "import/no-extraneous-dependencies": "off"
+      }
+    }
+  },
+  "packageStatus": 200
 }

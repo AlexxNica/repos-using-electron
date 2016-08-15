@@ -44,5 +44,44 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "author": {
+      "email": "milesoldenburg@gmail.com",
+      "name": "Miles Oldenburg"
+    },
+    "description": "DartMatrix: Open source darts companion and statistics app",
+    "devDependencies": {
+      "appdmg": "^0.3.5",
+      "del": "^2.2.0",
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.36.2",
+      "gulp": "^3.9.0",
+      "gulp-bower": "0.0.11",
+      "gulp-jscs": "^3.0.2",
+      "gulp-jshint": "^2.0.0",
+      "gulp-less": "^3.0.5",
+      "jshint": "^2.9.1-rc2",
+      "less-plugin-autoprefix": "^1.5.1",
+      "q": "^1.4.1",
+      "sqlite3": "^3.1.1"
+    },
+    "main": "lib/main.js",
+    "name": "dartmatrix",
+    "private": true,
+    "repository": {
+      "type": "git",
+      "url": "git@github.com/milesoldenburg/dartmatrix.git"
+    },
+    "scripts": {
+      "start": "electron .",
+      "postinstall": "gulp bower && npm run rebuild-sqlite3",
+      "rebuild-sqlite3": "cd node_modules/sqlite3 && npm run prepublish && node-gyp configure --module_name=node_sqlite3 --module_path=../lib/binding/node-v44-darwin-x64 && node-gyp rebuild --target=0.29.1 --arch=x64 --target_platform=darwin --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/node-v44-darwin-x64"
+    },
+    "version": "0.1.0",
+    "dependencies": {
+      "underscore": "^1.8.3"
+    }
+  },
+  "packageStatus": 200
 }

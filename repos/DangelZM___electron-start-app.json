@@ -44,5 +44,21 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-start",
+    "version": "0.0.1",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . ElectronStart --platform=all --arch=all --version=0.33.3",
+      "build:win": "electron-packager . ElectronStart --platform=win32 --arch=x64 --version=0.33.3",
+      "build:mac": "electron-packager . ElectronStart --platform=darwin --arch=x64 --version=0.33.3"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.33.4"
+    }
+  },
+  "packageStatus": 200
 }

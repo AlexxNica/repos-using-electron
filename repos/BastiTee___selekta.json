@@ -50,5 +50,31 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "selekta",
+    "version": "0.2.0",
+    "author": "Basti Tee",
+    "keywords": [],
+    "style": "selekta/style.css",
+    "main": "selekta/index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/BastiTee/selekta.git"
+    },
+    "license": "GPL-3.0",
+    "dependencies": {
+      "electron-prebuilt": "1.0.1",
+      "exif": "^0.6.0",
+      "image-size": "^0.5.0",
+      "imagesloaded": "^4.1.0",
+      "jquery": "^2.2.3",
+      "mkdirp": "^0.5.1",
+      "walk": "^2.3.9"
+    }
+  },
+  "packageStatus": 200
 }

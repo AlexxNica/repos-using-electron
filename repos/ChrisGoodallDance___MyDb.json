@@ -50,5 +50,39 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "MyDb",
+    "version": "1.0.0",
+    "description": "",
+    "main": "Index.html#/model",
+    "window": {
+      "title": "AngularDb",
+      "icon": "",
+      "toolbar": false,
+      "width": 1000,
+      "height": 700,
+      "minWidth": 800,
+      "minHeight": 600
+    },
+    "scripts": {
+      "install": "node ./node_modules/bower/bin/bower install"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "asar": "^0.8.2",
+      "bower": "^1.6.5",
+      "electron-prebuilt": "~0.34.1",
+      "fs-jetpack": "~0.7.0",
+      "gulp": "~3.9.0",
+      "gulp-minify-css": "~1.2.1",
+      "gulp-uglify": "^1.4.2",
+      "gulp-usemin": "~0.3.14",
+      "q": "~1.4.1",
+      "rcedit": "~0.3.0"
+    },
+    "devDependencies": {}
+  },
+  "packageStatus": 200
 }

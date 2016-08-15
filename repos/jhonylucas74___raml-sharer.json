@@ -50,5 +50,55 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "app",
+    "productName": "App",
+    "version": "0.0.0",
+    "description": "",
+    "license": "MIT",
+    "main": "index.js",
+    "repository": "user/repo",
+    "author": {
+      "name": "",
+      "email": "",
+      "url": ""
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=0.31.0"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.1.1",
+      "node-curl": "^0.3.3",
+      "oauth": "^0.9.13"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.31.0",
+      "gulp": "^3.9.0",
+      "gulp-concat": "^2.6.0",
+      "gulp-run": "^1.6.10",
+      "xo": "^0.7.1"
+    },
+    "xo": {
+      "esnext": true,
+      "rules": {
+        "prefer-arrow-callback": 0
+      }
+    }
+  },
+  "packageStatus": 200
 }

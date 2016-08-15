@@ -58,5 +58,38 @@
   },
   "networkCount": 7,
   "subscribersCount": 5,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Aries",
+    "version": "1.0.0",
+    "description": "Default browser for hikari",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/IdeasNeverCease/Aries.git"
+    },
+    "keywords": [
+      "Aries",
+      "browser",
+      "hikari",
+      "mmbn"
+    ],
+    "author": "NetOperatorWibby",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/IdeasNeverCease/Aries/issues"
+    },
+    "homepage": "https://github.com/IdeasNeverCease/Aries#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.0"
+    },
+    "dependencies": {
+      "delete": "^0.2.1",
+      "openssl-wrapper": "^0.2.1"
+    }
+  },
+  "packageStatus": 200
 }

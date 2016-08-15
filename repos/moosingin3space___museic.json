@@ -44,5 +44,32 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "museic",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "app": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/moosingin3space/museic.git"
+    },
+    "author": "",
+    "license": "GPL3",
+    "bugs": {
+      "url": "https://github.com/moosingin3space/museic/issues"
+    },
+    "homepage": "https://github.com/moosingin3space/museic#readme",
+    "dependencies": {
+      "electron-prebuilt": "^0.32.1",
+      "jquery": "^2.1.4",
+      "jquery-ui": "^1.10.5",
+      "node-osc": "^1.1.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,20 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^0.30.4"
+    }
+  },
+  "packageStatus": 200
 }

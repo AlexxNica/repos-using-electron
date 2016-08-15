@@ -50,5 +50,62 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "paypal-github-button",
+    "description": "GitHub styled button for PayPal",
+    "version": "1.0.0",
+    "homepage": "https://github.com/twolfson/paypal-github-button",
+    "author": {
+      "name": "Todd Wolfson",
+      "email": "todd@twolfson.com",
+      "url": "http://twolfson.com/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/twolfson/paypal-github-button.git"
+    },
+    "bugs": {
+      "url": "https://github.com/twolfson/paypal-github-button/issues"
+    },
+    "license": "Unlicense",
+    "engines": {
+      "node": ">= 0.10.0"
+    },
+    "scripts": {
+      "build": "npm run extract-html-info && npm run generate-svg && npm run optimize-svg",
+      "extract-html-info": "electron lib/scripts/extract-html-info.main.js > lib/html-info.json",
+      "generate-svg": "mkdir -p dist && mustache lib/html-info.json lib/button.mustache.svg > dist/button.svg",
+      "optimize-svg": "svgo --disable convertPathData --input dist/button.svg --output dist/button.svg"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "electron-prebuilt": "~0.37.2",
+      "foundry": "~4.3.2",
+      "foundry-release-git": "~2.0.2",
+      "foundry-release-git-semver-branches": "~2.0.0",
+      "foundry-release-npm": "~2.0.2",
+      "mustache": "~2.2.1",
+      "svgo": "~0.6.3",
+      "underscore": "~1.8.3"
+    },
+    "keywords": [],
+    "private": true,
+    "foundry": {
+      "releaseCommands": [
+        {
+          "type": "customCommand",
+          "updateFiles": "npm run build && git add dist"
+        },
+        {
+          "type": "customCommand",
+          "updateFiles": "./update-semver.sh \"$FOUNDRY_VERSION\""
+        },
+        "foundry-release-git",
+        "foundry-release-git-semver-branches",
+        "foundry-release-npm"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,50 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "KFE",
+    "version": "0.0.0",
+    "description": "Knowledge for everyone",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore=dist --prune --asar --all --version=0.30.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/florianorpeliere/KFE"
+    },
+    "author": "",
+    "license": "GNU",
+    "bugs": {
+      "url": "https://github.com/florianorpeliere/KFE/issues"
+    },
+    "homepage": "https://github.com/florianorpeliere/KFE",
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "devDependencies": {
+      "electron-connect": "^0.2.1",
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.30.0",
+      "gulp": "^3.9.0",
+      "gulp-babel": "^5.2.0",
+      "gulp-sass": "^2.0.4",
+      "gulp-useref": "^1.2.0"
+    },
+    "dependencies": {
+      "bluebird": "^2.9.34",
+      "brace": "^0.5.1",
+      "react": "^0.13.3",
+      "react-ace-wrapper": "^1.0.0",
+      "react-router": "^0.13.3"
+    }
+  },
+  "packageStatus": 200
 }

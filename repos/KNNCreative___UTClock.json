@@ -64,5 +64,23 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "utclock",
+    "version": "0.0.1",
+    "description": "UTC Clock for Mac OS X",
+    "dependencies": {
+      "menubar": "*"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.36.0"
+    },
+    "main": "main.js",
+    "scripts": {
+      "build": "electron-packager --overwrite . UTClock --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
+      "start": "electron ."
+    }
+  },
+  "packageStatus": 200
 }

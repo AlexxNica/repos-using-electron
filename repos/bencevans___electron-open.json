@@ -44,5 +44,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-open",
+    "version": "1.0.1",
+    "description": "Open a webpage in an Electron shell",
+    "main": "bin.js",
+    "scripts": {
+      "start": "electron bin.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": "./bin.js",
+    "repository": {
+      "type": "git",
+      "url": "github.com/bencevans/electron-open"
+    },
+    "keywords": [
+      "electron",
+      "url",
+      "open",
+      "cli"
+    ],
+    "author": "Ben Evans <ben@bensbit.co.uk> (http://bensbit.co.uk)",
+    "license": "ISC",
+    "dependencies": {
+      "electron-prebuilt": "0.34.0"
+    }
+  },
+  "packageStatus": 200
 }

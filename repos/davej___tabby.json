@@ -162,5 +162,41 @@
   },
   "networkCount": 23,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tabby",
+    "version": "1.0.0",
+    "description": "a browser with almost no UI",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron index.js",
+      "test": "standard",
+      "build": "electron-packager . Tabby --platform=darwin --arch=x64 --version=0.36.11 --prune --icon=Icon.icns"
+    },
+    "standard": {
+      "ignore": [
+        "meny.js"
+      ]
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "csjs-inject": "^1.0.0",
+      "rainbow-load": "0.0.6",
+      "tld": "0.0.2",
+      "vkey": "^1.0.0",
+      "yo-yo": "^1.1.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.11",
+      "standard": "^6.0.8"
+    },
+    "homepage": "https://github.com/maxogden/tabby",
+    "bugs": {
+      "url": "https://github.com/maxogden/tabby/issues"
+    }
+  },
+  "packageStatus": 200
 }

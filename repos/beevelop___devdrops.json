@@ -162,5 +162,59 @@
   },
   "networkCount": 12,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "devdrops",
+    "productName": "DevDrops",
+    "version": "0.2.0",
+    "description": "DevDrops, Unofficial Devdocs app for Mac",
+    "license": "MIT",
+    "main": "index.js",
+    "repository": "beevelop/devdrops",
+    "author": {
+      "name": "Ben Teichman",
+      "email": "ben.l.teichman@gmail.com"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "config": {
+      "ignore": "--ignore='^/res$' --ignore='^/dist$' --ignore='^/node_modules$'",
+      "platform": "--platform=darwin --arch=x64 --prune --asar --icon=res/icon-128.icns",
+      "version": "--version=0.36.0 --app-bundle-id=com.beevelop.devdrops"
+    },
+    "scripts": {
+      "start": "electron ./",
+      "clean": "rm -rf build package",
+      "build": "electron-packager . $npm_package_productName --out=./dist --overwrite $npm_package_config_platform $npm_package_config_version --app-version=${npm_package_version} $npm_package_config_ignore",
+      "package": "cd dist/${npm_package_productName}-darwin-x64 && zip -ryXq9 ../${npm_package_productName}-${npm_package_version}.zip ${npm_package_productName}.app"
+    },
+    "files": [
+      "index.js",
+      "menu.js",
+      "browser.js",
+      "browser.css"
+    ],
+    "keywords": [
+      "devdrops",
+      "devdocs",
+      "devdocs.io",
+      "electron",
+      "electron-app"
+    ],
+    "devDependencies": {
+      "cpy": "^3.4.1",
+      "electron-packager": "5.2.1",
+      "electron-prebuilt": "^0.33.0"
+    },
+    "dependencies": {
+      "configstore": "^1.4.0",
+      "electron-debug": "^0.5.2",
+      "electron-menu-loader": "0.0.3",
+      "electron-positioner": "^2.0.3",
+      "electron-prebuilt": "^0.36.9",
+      "electron-shortcut": "^0.4.1"
+    }
+  },
+  "packageStatus": 200
 }

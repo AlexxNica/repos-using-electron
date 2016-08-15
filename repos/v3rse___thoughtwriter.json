@@ -50,5 +50,17 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "thoughtwriter",
+    "version": "0.1.0",
+    "main": "main.js",
+    "devDependencies": {
+      "electron-prebuilt": "^0.26.1"
+    },
+    "dependencies": {
+      "medium-editor": "^4.10.2"
+    }
+  },
+  "packageStatus": 200
 }

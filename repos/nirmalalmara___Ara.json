@@ -50,5 +50,34 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ara",
+    "version": "0.1.0",
+    "description": "Automate random things by speech.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nirmalalmara/ara.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "Nirmal Almara",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/nirmalalmara/ara/issues"
+    },
+    "homepage": "https://github.com/nirmalalmara/ara/#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,27 @@
   },
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "mrmagnet",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Yet another torrent client for Windows, Mac and Linux",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "Valery Lyatsevich",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "angular": "^1.4.8",
+      "angular-route": "^1.4.8",
+      "snapsvg": "^0.4.0",
+      "webtorrent": "0.72.1"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,36 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electronic",
+    "version": "0.1.0",
+    "description": "A getting started project using Electron desktop app framework.",
+    "main": "main.js",
+    "scripts": {
+      "lin": "node_modules/.bin/electron app.js",
+      "osx": "node_modules/.bin/electron app.js",
+      "win": "node_modules\\.bin\\electron app.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mstred/electronic.git"
+    },
+    "keywords": [
+      "electronic",
+      "electron",
+      "atom-shell",
+      "getting-started"
+    ],
+    "author": "@mstred",
+    "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/mstred/electronic/issues"
+    },
+    "homepage": "https://github.com/mstred/electronic#readme",
+    "dependencies": {
+      "electron-prebuilt": "^0.37.2"
+    }
+  },
+  "packageStatus": 200
 }

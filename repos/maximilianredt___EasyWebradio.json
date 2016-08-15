@@ -50,5 +50,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "EasyWebradio",
+    "version": "0.1.0",
+    "description": "Very basic and lightweight Webradio Software written in HTML5 & JS based on Electron.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/maximilianredt/EasyWebradio.git"
+    },
+    "keywords": [
+      "Webradio",
+      "leightweight"
+    ],
+    "author": "Maximilian Redt",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/maximilianredt/EasyWebradio/issues"
+    },
+    "homepage": "",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.0"
+    }
+  },
+  "packageStatus": 200
 }

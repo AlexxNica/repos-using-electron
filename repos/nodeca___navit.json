@@ -64,5 +64,38 @@
   },
   "networkCount": 5,
   "subscribersCount": 6,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "navit",
+    "version": "3.0.0",
+    "description": "Wrapper for PhantomJS and SlimerJS to simplify browser tests scripting",
+    "keywords": [
+      "phantomjs",
+      "slimerjs",
+      "testing",
+      "browser"
+    ],
+    "repository": "nodeca/navit",
+    "license": "MIT",
+    "dependencies": {
+      "async": "^1.5.2",
+      "chai": "^3.0.0",
+      "debug": "^2.2.0",
+      "lodash": "^4.0.0",
+      "node-phantom-simple": "^2.0.0",
+      "sliced": "^1.0.1"
+    },
+    "devDependencies": {
+      "basic-auth": "^1.0.4",
+      "electron-prebuilt": "^1.2.3",
+      "eslint": "^2.13.0",
+      "express": "^4.14.0",
+      "mocha": "^2.2.5",
+      "phantomjs-prebuilt": "^2.1.5"
+    },
+    "scripts": {
+      "test": "make test"
+    }
+  },
+  "packageStatus": 200
 }

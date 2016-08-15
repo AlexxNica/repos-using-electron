@@ -50,5 +50,23 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron_desktop_capturer_sample",
+    "version": "0.0.1",
+    "author": "tatsuya itakura",
+    "dependencies": {
+      "react": "^0.14.6",
+      "react-dom": "^0.14.7"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "0.37.2"
+    },
+    "license": "MIT",
+    "main": "src/browser/index.js",
+    "scripts": {
+      "start": "electron ."
+    }
+  },
+  "packageStatus": 200
 }

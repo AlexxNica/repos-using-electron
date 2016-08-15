@@ -44,5 +44,41 @@
   "license": null,
   "networkCount": 6,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "curve",
+    "appName": "Curve",
+    "version": "0.0.1",
+    "main": "main.js",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/benogle/curve-app.git"
+    },
+    "compileCacheDir": "./compile-cache",
+    "compileDirs": [
+      "src"
+    ],
+    "scripts": {
+      "test": "script/test"
+    },
+    "devDependencies": {
+      "electron-compile": "^1.0.0",
+      "electron-compilers": "^1.0.1",
+      "electron-jasmine": "^0.2.0",
+      "electron-packager": "^5.1.1",
+      "electron-prebuilt": "0.34.2",
+      "electron-rebuild": "^1.0.2"
+    },
+    "dependencies": {
+      "atom-keymap": "^6.1.0",
+      "clear-cut": "^2.0.1",
+      "curve": "^0.1.1",
+      "dom-listener": "^0.1.2",
+      "event-kit": "^1.4.1",
+      "object-assign": "^3.0.0",
+      "yargs": "^3.16.1"
+    }
+  },
+  "packageStatus": 200
 }

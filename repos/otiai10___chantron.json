@@ -44,5 +44,21 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "chantron",
+    "version": "0.0.1",
+    "main": "main.js",
+    "devDependencies": {
+      "electron-prebuilt": "0.30.3",
+      "electron-packager": "5.0.1"
+    },
+    "scripts": {
+      "dev": "ELECTRON_ENV=dev electron .",
+      "release": "rm -rf dest; electron-packager . chantron --platform=darwin --arch=x64 --version=0.30.3 --out=builds --icon=assets/img/chantron.icns --overwrite"
+    },
+    "repository": "otiai10/chantron",
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

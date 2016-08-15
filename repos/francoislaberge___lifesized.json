@@ -50,5 +50,43 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "lifesized",
+    "version": "0.10.2",
+    "description": "Display things in life size",
+    "main": "src/lifesized.js",
+    "scripts": {
+      "start": "npm start",
+      "coins": "./node_modules/.bin/electron demos/coins/main.js",
+      "shaqs-hands": "./node_modules/.bin/electron demos/shaqs-hands/main.js",
+      "ruler": "./node_modules/.bin/electron demos/ruler/main.js",
+      "build-apps": "node ./bin/build-apps.js"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "0.33.7"
+    },
+    "author": {
+      "name": "Francois Laberge",
+      "email": "francoislaberge@gmail.com"
+    },
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/francoislaberge/lifesized"
+    },
+    "bugs": {
+      "url": "https://github.com/francoislaberge/lifesized/issues"
+    },
+    "homepage": "https://github.com/francoislaberge/lifesized",
+    "keywords": [
+      "CSS",
+      "Units",
+      "DPI",
+      "PPI",
+      "Pixel",
+      "Ratio"
+    ]
+  },
+  "packageStatus": 200
 }

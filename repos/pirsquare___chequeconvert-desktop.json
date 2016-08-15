@@ -44,5 +44,35 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "chequeconvert-desktop",
+    "version": "0.0.1",
+    "description": "ChequeConvert Desktop App",
+    "keywords": [
+      "cheque",
+      "convert",
+      "chequeconvert",
+      "desktop"
+    ],
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "author": "Ryan Liao <pirsquare.ryan@gmail.com>",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/pirsquare/chequeconvert-desktop.git"
+    },
+    "dependencies": {
+      "chequeconvert": "^0.0.3",
+      "jquery": "^2.1.4"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.0",
+      "electron-packager": "^5.1.1"
+    }
+  },
+  "packageStatus": 200
 }

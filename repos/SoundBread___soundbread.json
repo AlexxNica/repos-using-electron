@@ -58,5 +58,21 @@
   },
   "networkCount": 2,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "soundbread",
+    "version": "0.1.0",
+    "main": "main.js",
+    "dependencies": {
+      "electron": "^0.4.1",
+      "electron-packager": "^7.0.1",
+      "electron-prebuilt": "^0.37.7"
+    },
+    "scripts": {
+      "start": "./node_modules/.bin/electron .",
+      "build": "./node_modules/.bin/electron-packager . --all --out=build"
+    },
+    "productName": "SoundBread"
+  },
+  "packageStatus": 200
 }

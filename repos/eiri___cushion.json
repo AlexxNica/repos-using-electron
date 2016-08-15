@@ -50,5 +50,54 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "cushion",
+    "productName": "Cushion",
+    "version": "0.0.1",
+    "description": "",
+    "main": "main.js",
+    "dependencies": {
+      "jdenticon": "^1.3.2",
+      "js-md5": "^0.4.0",
+      "lodash": "^4.6.1",
+      "material-ui": "^0.14.4",
+      "react": "^0.14.7",
+      "react-dom": "^0.14.7",
+      "react-json-inspector": "^6.1.3",
+      "react-split-pane": "^0.1.25",
+      "react-tap-event-plugin": "^0.2.2",
+      "request": "^2.69.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.37.2"
+    },
+    "engines": {
+      "node": ">=5.9.1"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore=dist --prune --asar --icon pillow.icns --platform=darwin --arch=x64 --version=0.37.2"
+    },
+    "files": [
+      "main.js",
+      "app/index.html",
+      "app/index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/eiri/cushion.git"
+    },
+    "author": "Eric Avdey <eiri@eiri.ca>",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/eiri/cushion/issues"
+    },
+    "homepage": "https://github.com/eiri/cushion#readme"
+  },
+  "packageStatus": 200
 }

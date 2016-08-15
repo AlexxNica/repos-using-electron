@@ -44,5 +44,33 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "元斌塑胶科技KIS",
+    "description": "KIS With Electron app",
+    "version": "1.0.0",
+    "author": "gshenj <gshenj@gmail.com>",
+    "main": "index.js",
+    "bugs": {
+      "url": "https://github.com/gshenj/KIS.NODE/issues"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.0"
+    },
+    "homepage": "https://github.com/gshenj/KIS.NODE",
+    "keywords": [
+      "kis"
+    ],
+    "license": "CC-0",
+    "private": false,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gshenj/KIS.NODE.git"
+    },
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    }
+  },
+  "packageStatus": 200
 }

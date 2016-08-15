@@ -44,5 +44,35 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electrondemo",
+    "version": "1.0.0",
+    "description": "Demo UI using Electron and Angular.js",
+    "main": "src/main.js",
+    "scripts": {
+      "start": "electron src/main.js --debug-brk=5858"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vsaroopchand/ElectronDemo.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "Vishal",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/vsaroopchand/ElectronDemo/issues"
+    },
+    "homepage": "https://github.com/vsaroopchand/ElectronDemo#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.7",
+      "gulp": "^3.9.1"
+    }
+  },
+  "packageStatus": 200
 }

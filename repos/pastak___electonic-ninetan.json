@@ -50,5 +50,43 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electonic-ninetan",
+    "version": "0.0.5",
+    "description": "",
+    "main": "init.js",
+    "scripts": {
+      "run": "electron . --environment development",
+      "build": "./script/compile && electron-packager ./ electonic-ninetan --platform=all --arch=all --version=0.35.2 --asar --out=build --ignore=build --overwrite",
+      "build-mac": "./script/compile && electron-packager ./ electonic-ninetan --platform=darwin --arch=x64 --version=0.35.2 --asar  --out=build --ignore=build --overwrite",
+      "build-linux": "./script/compile && electron-packager ./ electonic-ninetan --platform=linux --arch=x64 --version=0.35.2 --prune --asar  --out=build --ignore=build --overwrite"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/pastak/electonic-ninetan.git"
+    },
+    "author": "pastak",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/pastak/electonic-ninetan/issues"
+    },
+    "homepage": "https://github.com/pastak/electonic-ninetan#readme",
+    "compileCacheDir": "./compile-cache",
+    "devDependencies": {
+      "electron-compilers": "^1.0.0",
+      "electron-prebuilt": "^0.35.2"
+    },
+    "dependencies": {
+      "electron-compile": "^1.0.0",
+      "electron-packager": "^5.1.0",
+      "mkdirp": "^0.5.1",
+      "node-localstorage": "^0.6.0",
+      "react": "^0.14.0",
+      "react-dom": "^0.14.0",
+      "request-promise": "^1.0.1",
+      "yargs": "^3.27.0"
+    }
+  },
+  "packageStatus": 200
 }

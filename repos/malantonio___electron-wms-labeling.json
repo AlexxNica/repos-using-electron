@@ -44,5 +44,40 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "wms-labeling",
+    "version": "0.0.1",
+    "description": "rewriting [University of New Mexico's WMS Labeling PHP application](https://github.com/unm-art) as an Electron desktop application.",
+    "main": "app.js",
+    "dependencies": {
+      "mustache": "^2.1.3",
+      "node-xml": "^1.0.2",
+      "oclc-copy-resource": "^2.0.0",
+      "oclc-wskey": "^2.1.0"
+    },
+    "devDependencies": {
+      "debug": "^2.2.0",
+      "electron-prebuilt": "^0.34.0"
+    },
+    "scripts": {
+      "start": "./node_modules/.bin/electron .",
+      "sync": "node sync-default-settings",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "debug": "DEBUG=labeling:* npm start",
+      "debug:app": "DEBUG=labeling:app npm start",
+      "debug:window": "DEBUG=labeling:window npm start"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/malantonio/node-wms-labeling.git"
+    },
+    "author": "Adam Malantonio <adam.malantonio@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/malantonio/node-wms-labeling/issues"
+    },
+    "homepage": "https://github.com/malantonio/node-wms-labeling#readme"
+  },
+  "packageStatus": 200
 }

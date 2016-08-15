@@ -44,5 +44,25 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "mado",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node_modules/.bin/electron .",
+      "build": "node build.js"
+    },
+    "author": "phi",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-packager": "^5.1.1",
+      "electron-prebuilt": "^0.34.3"
+    },
+    "dependencies": {
+      "vue": "^1.0.10"
+    }
+  },
+  "packageStatus": 200
 }

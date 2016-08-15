@@ -50,5 +50,52 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-shortcut",
+    "version": "0.4.1",
+    "description": "Helper for global shortcut registering",
+    "license": "MIT",
+    "repository": "ragingwind/electron-shortcut",
+    "author": {
+      "name": "ragingwind",
+      "email": "ragingwind@gmail.com",
+      "url": "ragingwind.me"
+    },
+    "engines": {
+      "node": ">=0.4.0"
+    },
+    "scripts": {
+      "test": "xo",
+      "start": "electron ./demo"
+    },
+    "files": [
+      "index.js"
+    ],
+    "keywords": [
+      "electron",
+      "shortcut",
+      "electron-shortcut"
+    ],
+    "devDependencies": {
+      "electron-debug": "^0.2.1",
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.36.1"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    },
+    "jshintConfig": {
+      "esnext": true,
+      "node": true
+    },
+    "dependencies": {
+      "object-assign": "^4.0.1"
+    }
+  },
+  "packageStatus": 200
 }

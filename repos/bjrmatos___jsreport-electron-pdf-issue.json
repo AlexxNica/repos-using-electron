@@ -44,5 +44,30 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "jsreport-playground",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node server.js",
+      "electron-start": "electron electron-app.js",
+      "electron-start-no-protocol": "electron electron-app-no-protocol.js",
+      "bootstrap": "node node_modules/jsreport --init",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "electron-prebuilt": "^0.36.8",
+      "express": "^4.13.4",
+      "jsreport": "^0.13.0",
+      "jsreport-electron-pdf": "1.2.1",
+      "mime-types": "^2.1.10",
+      "request": "2.69.0"
+    }
+  },
+  "packageStatus": 200
 }

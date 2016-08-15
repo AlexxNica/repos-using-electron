@@ -50,5 +50,42 @@
   },
   "networkCount": 2,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "drone-dashboard",
+    "version": "1.0.0",
+    "description": "an OSX application for controlling the Parrot Bebop Drone through keyboard bindings",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "author": "gcwelborn",
+    "license": "UNLICENSED",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.8"
+    },
+    "dependencies": {
+      "jquery": "^2.2.1",
+      "node-bebop": "^0.4.1",
+      "skeleton-css": "^2.0.4"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gcwelborn/drone-dashboard.git"
+    },
+    "keywords": [
+      "Parrot",
+      "Drone",
+      "Bebop",
+      "Controller",
+      "Dashboard",
+      "Github",
+      "Electron"
+    ],
+    "bugs": {
+      "url": "https://github.com/gcwelborn/drone-dashboard/issues"
+    },
+    "homepage": "https://github.com/gcwelborn/drone-dashboard#readme"
+  },
+  "packageStatus": 200
 }

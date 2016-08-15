@@ -50,5 +50,33 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "elec-tester",
+    "description": "Tiny Electron application for quick tests",
+    "version": "0.1.0",
+    "main": "index.js",
+    "bin": {
+      "elec-tester": "bin/launcher"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.30.2",
+      "fs-extra": "^0.22.1"
+    },
+    "author": {
+      "name": "Harri Kovalainen",
+      "email": "hakovala@gmail.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hakovala/elec-tester"
+    },
+    "keywords": [
+      "electron",
+      "browser",
+      "tester"
+    ],
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

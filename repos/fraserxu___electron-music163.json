@@ -50,5 +50,47 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-music163",
+    "version": "0.0.1",
+    "description": "A NetEase Music player that lives in your menubar. ",
+    "main": "index.js",
+    "scripts": {
+      "test": "standard",
+      "build": "browserify app/main.js | uglifyjs -cm > app/bundle.js",
+      "watch": "watchify app/main.js -p browserify-hmr -o app/bundle.js -dv",
+      "start": "electron . & npm run watch"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fraserxu/electron-music163.git"
+    },
+    "keywords": [
+      "electron",
+      "music163",
+      "musicplayer",
+      "mp3"
+    ],
+    "author": "Fraser Xu",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/fraserxu/electron-music163/issues"
+    },
+    "homepage": "https://github.com/fraserxu/electron-music163#readme",
+    "dependencies": {
+      "electron-prebuilt": "^0.31.1",
+      "main-loop": "^3.1.0",
+      "menubar": "^2.1.2",
+      "ud": "^2.0.1",
+      "virtual-dom": "^2.1.1"
+    },
+    "devDependencies": {
+      "browserify": "^11.0.1",
+      "browserify-hmr": "^0.2.1",
+      "uglifyjs": "^2.4.10",
+      "watchify": "^3.4.0"
+    }
+  },
+  "packageStatus": 200
 }

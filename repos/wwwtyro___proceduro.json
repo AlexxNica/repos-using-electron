@@ -50,5 +50,38 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "proceduro",
+    "productName": "proceduro",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "PROCEDURO_RELOAD=1 electron .",
+      "build": "electron-packager . --platform=darwin,win32,linux --arch=x64 --overwrite",
+      "zipmac": "zip -qr proceduro-darwin-x64.zip proceduro-darwin-x64",
+      "zipwin": "zip -qr proceduro-win-x64.zip proceduro-win32-x64",
+      "ziplin": "tar -czf proceduro-linux-x64.tar.gz proceduro-linux-x64",
+      "zip": "npm run zipmac && npm run zipwin && npm run ziplin",
+      "clean": "rm -rf proceduro-*-x64",
+      "dist": "npm run cleanzip && npm run build && npm run zip && npm run clean",
+      "cleanzip": "rm -rf proceduro*.zip proceduro*.gz",
+      "install-builtins": "node npm-install-builtins.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "electron-canvas-to-buffer": "^2.0.0",
+      "glob": "^7.0.5",
+      "underscore": "^1.8.3",
+      "uuid4": "^1.0.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.1.0",
+      "electron-prebuilt": "^1.2.5",
+      "electron-reload": "^1.0.0"
+    }
+  },
+  "packageStatus": 200
 }

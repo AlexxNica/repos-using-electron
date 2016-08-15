@@ -50,5 +50,43 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "devtools",
+    "version": "0.1.0",
+    "description": "you may love this tool as developer",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+      "dev": "electron ./app",
+      "clean": "rm -rf ./dist",
+      "clean:osx": "rm -rf ./dist/osx",
+      "clean:win": "rm -rf ./dist/win",
+      "pack": "npm run clean && npm run pack:osx && npm run pack:win",
+      "pack:osx": "npm run clean:osx && electron-packager ./app \"DevTools\" --out=dist/osx --platform=darwin --arch=x64 --version=0.36.1 --icon=assets/osx/loopline.icns",
+      "pack:win": "npm run clean:win && electron-packager ./app \"DevTools\" --out=dist/win --platform=win32 --arch=ia32 --version=0.36.1 --icon=assets/win/icon.ico",
+      "build": "npm run build:osx && npm run build:win",
+      "build:osx": "npm run pack:osx && electron-builder \"dist/osx/DevTools.app\" --platform=osx --out=\"dist/osx\" --config=builder.json",
+      "build:win": "npm run pack:win && electron-builder \"dist/win/DevTools-win32\" --platform=win --out=\"dist/win\" --config=builder.json"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/naxmefy/devtools.git"
+    },
+    "keywords": [
+      "devtools"
+    ],
+    "author": "naxmefy",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/naxmefy/devtools/issues"
+    },
+    "homepage": "https://github.com/naxmefy/devtools#readme",
+    "dependencies": {
+      "electron-packager": "^4.0.2",
+      "electron-prebuilt": "^0.36.7",
+      "electron-builder": "^2.7.2"
+    }
+  },
+  "packageStatus": 200
 }

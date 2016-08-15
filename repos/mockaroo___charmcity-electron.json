@@ -44,5 +44,29 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "charmcity-electron",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/main/main.js",
+    "scripts": {
+      "start": "electron . --dev"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "brace": "^0.7.0",
+      "electron-prebuilt": "^0.37.2"
+    },
+    "devDependencies": {
+      "gulp": "^3.9.1",
+      "gulp-electron": "0.0.10",
+      "gulp-install": "^0.6.0",
+      "gulp-webpack": "^1.5.0",
+      "rimraf": "^2.5.2",
+      "webpack-target-electron-renderer": "^0.4.0"
+    }
+  },
+  "packageStatus": 200
 }

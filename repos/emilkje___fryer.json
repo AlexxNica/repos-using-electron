@@ -50,5 +50,55 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Fryer",
+    "productName": "Fryer",
+    "version": "0.0.0",
+    "description": "Opinionated desktop application framework",
+    "license": "MIT",
+    "repository": "emilkje/fryer",
+    "author": {
+      "name": "",
+      "email": "",
+      "url": "kjels.no"
+    },
+    "electronVersion": "0.35.0",
+    "scripts": {
+      "test": "xo",
+      "start": "gulp start",
+      "install": "gulp install",
+      "update": "gulp update",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion",
+      "build:win": "electron-packager . %npm_package_productName% --out=dist --ignore='^/dist$' --prune --asar --all --version=%npm_package_electronVersion%"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.5.0"
+    },
+    "devDependencies": {
+      "bower": "^1.7.1",
+      "electron-connect": "^0.3.3",
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.35.0",
+      "gulp": "^3.9.0",
+      "xo": "^0.11.1"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

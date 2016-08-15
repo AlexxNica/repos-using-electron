@@ -64,5 +64,39 @@
   },
   "networkCount": 0,
   "subscribersCount": 6,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tomaquet",
+    "version": "0.0.1",
+    "productName": "tomaquet-app",
+    "description": "productivity boosting app",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager ./ --platform=darwin --arch=x64 --out dist --icon=assets/large_icon.icns",
+      "postinstall": "electron-rebuild --pre-gyp-fix --force"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Typeform/tomaquet.git"
+    },
+    "keywords": [],
+    "author": "Typeform",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/Typeform/tomaquet/issues"
+    },
+    "homepage": "https://github.com/Typeform/tomaquet#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0",
+      "electron-packager": "^7.5.1",
+      "electron-rebuild": "^1.2.0"
+    },
+    "dependencies": {
+      "electron-settings": "^2.1.1",
+      "luxafor-api": "^2.0.0",
+      "time-counter": "^1.0.0"
+    }
+  },
+  "packageStatus": 200
 }

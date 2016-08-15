@@ -50,5 +50,20 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Yamal",
+    "version": "0.1.0",
+    "main": "app.js",
+    "dependencies": {
+      "lowdb": "^0.7.3"
+    },
+    "scripts": {
+      "postinstall": "cd node_modules && mkdir __base && cd __base && echo module.exports = require('path').resolve(__dirname + '/../../') + '/'; > index.js"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.25.2"
+    }
+  },
+  "packageStatus": 200
 }

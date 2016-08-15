@@ -44,5 +44,27 @@
   "license": null,
   "networkCount": 4,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-stream",
+    "version": "3.0.2",
+    "description": "Simple streaming wrapper around electron",
+    "scripts": {
+      "test": "make test"
+    },
+    "repository": "juliangruber/electron-stream",
+    "devDependencies": {
+      "concat-stream": "^1.5.1",
+      "tape": "^4.2.2"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "electron-prebuilt": "^1.0.0",
+      "stream-read": "^1.1.2"
+    },
+    "bin": {
+      "electron-stream": "bin/bin.js"
+    }
+  },
+  "packageStatus": 200
 }

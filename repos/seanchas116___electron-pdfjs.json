@@ -44,5 +44,22 @@
   "license": null,
   "networkCount": 3,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-pdfjs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron ."
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.4"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,25 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ease_pomodoro",
+    "version": "0.0.1",
+    "main": "main.js",
+    "dependencies": {
+      "bootstrap": "^3.3.6",
+      "fontawesome": "^4.5.0",
+      "laravel-elixir": "^5.0.0",
+      "laravel-elixir-vueify": "^1.0.2",
+      "vue": "^1.0.17",
+      "vue-resource": "^0.7.0",
+      "vue-router": "^0.7.11"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.10",
+      "gulp": "^3.9.1",
+      "laravel-elixir": "^5.0.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,38 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tuna-player",
+    "productName": "Tuna Player",
+    "version": "0.1.0",
+    "main": "main.js",
+    "license": "MIT",
+    "repository": "selfrefactor/tuna-player",
+    "scripts": {
+      "start": "electron .",
+      "pack": "electron-packager . --all",
+      "de": "git add . --all&&git commit -m update&&git push"
+    },
+    "dependencies": {
+      "babel-preset-es2015": "*",
+      "babel-preset-react": "*",
+      "babel-register": "*",
+      "body-parser": "*",
+      "express": "*",
+      "find-port": "*",
+      "proud-db": "*",
+      "ramda": "*",
+      "rc-slider": "*",
+      "react": "*",
+      "react-dom": "*",
+      "react-notification": "*",
+      "react-select": "*",
+      "reqwest": "*"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "*"
+    }
+  },
+  "packageStatus": 200
 }

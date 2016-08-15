@@ -44,5 +44,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "bounce-app",
+    "version": "0.0.1",
+    "description": "Bounce",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "package": "electron-packager . Bounce --platform=darwin --arch=x64 --icon=bounce.icns --version=1.0.1 --out=./dist --overwrite"
+    },
+    "contributors": [
+      {
+        "name": "Andrei Neacșu",
+        "email": "andrei.neacsu@kalon.ro"
+      },
+      {
+        "name": "Marian Cojoc",
+        "email": "marian.cojoc@kalon.ro"
+      }
+    ],
+    "devDependencies": {
+      "electron-packager": "^7.0.1",
+      "electron-prebuilt": "^1.0.1",
+      "xbox-controller": "^0.7.0"
+    }
+  },
+  "packageStatus": 200
 }

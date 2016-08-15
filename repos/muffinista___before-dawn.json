@@ -50,5 +50,54 @@
   },
   "networkCount": 1,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "before-dawn",
+    "productName": "Before Dawn",
+    "version": "0.7.0",
+    "description": "screensaver fun",
+    "author": "Colin Mitchell",
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "pack": "build --dir",
+      "dist": "build"
+    },
+    "devDependencies": {
+      "electron-builder": "5.12.1",
+      "electron-prebuilt": "1.2.5"
+    },
+    "build": {
+      "appId": "Before Dawn",
+      "app-category-type": "public.app-category.entertainment",
+      "win": {
+        "verbosity": 1,
+        "perMachine": "false"
+      },
+      "asar": "false",
+      "dmg": {
+        "contents": [
+          {
+            "x": 338,
+            "y": 14,
+            "type": "link",
+            "path": "/Applications"
+          },
+          {
+            "x": 192,
+            "y": 14,
+            "type": "file"
+          }
+        ]
+      },
+      "linux": {
+        "arch": 64,
+        "target": "deb",
+        "title": "Before Dawn",
+        "executable": "before-dawn",
+        "comment": "Before Dawn",
+        "maintainer": "Colin Mitchell <colin@muffinlabs.com>"
+      }
+    }
+  },
+  "packageStatus": 200
 }

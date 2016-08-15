@@ -64,5 +64,53 @@
   },
   "networkCount": 1,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hovercraft",
+    "version": "1.0.1",
+    "description": "trigger different kinds of clicks when the pointer hovers. With support for modifier keys (alt, shift, ctrl etc.)",
+    "main": "main.js",
+    "scripts": {
+      "package": "electron-packager . hovercraft --overwrite --platform=linux --arch=x64 --version=0.36.1 && tar -czvf hovercraft.tar.gz hovercraft-linux-x64",
+      "deploy": "scp -P 30000 hovercraft.tar.gz kitchen-sessions.org:/var/www/hovercraft",
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/shecodes-students/hovercraft.git"
+    },
+    "keywords": [
+      "dwellclick",
+      "hoverclick",
+      "assistive technology",
+      "acessibility",
+      "universal access",
+      "pointing and clicking",
+      "XServer"
+    ],
+    "contributors": [
+      "Julia Friesel <julia.friesel@gmail.com>",
+      "Jan Bölsche <jan@lagomorph.de>",
+      "Leonor Oliveira <leonorfmartins@gmail.com>"
+    ],
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/shecodes-students/hovercraft/issues"
+    },
+    "homepage": "https://github.com/shecodes-students/hovercraft#readme",
+    "devDependencies": {
+      "electron-prebuilt": "0.36.1",
+      "electron-packager": "~5.2.1"
+    },
+    "dependencies": {
+      "deep-equal": "~1.0.1",
+      "node-xtest-bindings": "jfr3000/node-xtest-bindings",
+      "pull-continue": "0.0.1",
+      "pull-generate": "^2.2.0",
+      "pull-stream": "^3.3.2",
+      "rc": "~1.1.6",
+      "xtend": "~4.0.1"
+    }
+  },
+  "packageStatus": 200
 }

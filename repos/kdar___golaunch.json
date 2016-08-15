@@ -50,5 +50,37 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "golaunch",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "author": "Kevin Darlington <kevin@outroot.com>",
+    "scripts": {
+      "start": "node_modules/.bin/electron .",
+      "rebuild": ".\\node_modules\\.bin\\electron-rebuild.cmd"
+    },
+    "private": true,
+    "dependencies": {
+      "concat-stream": "^1.5.1",
+      "install": "^0.4.1",
+      "mithril": "git://github.com/lhorie/mithril.js.git#next",
+      "mousetrap": "^1.5.3",
+      "npm": "^3.5.2",
+      "open": "0.0.5",
+      "semantic-ui-css": "^2.1.8",
+      "toml": "^2.3.0"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.4.0",
+      "babel-plugin-mjsx": "^1.0.3",
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.36.7",
+      "electron-rebuild": "^1.0.2",
+      "gobble": "^0.10.2",
+      "gobble-babel": "^5.5.8"
+    }
+  },
+  "packageStatus": 200
 }

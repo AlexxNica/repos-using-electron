@@ -50,5 +50,37 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-amazon-linkbuilder",
+    "version": "0.0.1",
+    "description": "Amazon Affiliate Link Builder built on Electron with Mithril.js",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/meganii/electron-amazon-linkbuilder.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "meganii",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/meganii/electron-amazon-linkbuilder/issues"
+    },
+    "homepage": "https://github.com/meganii/electron-amazon-linkbuilder#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.0.0",
+      "mithril": "^0.2.4",
+      "config": "^1.20.0",
+      "apac": "1.5.0"
+    }
+  },
+  "packageStatus": 200
 }

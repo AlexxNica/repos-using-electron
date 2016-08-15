@@ -44,5 +44,52 @@
   "license": null,
   "networkCount": 39,
   "subscribersCount": 19,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "pokenurse",
+    "version": "1.1.2",
+    "description": "A tool for Pokémon Go to aid in transferring and evolving Pokémon",
+    "main": "main",
+    "scripts": {
+      "start": "electron .",
+      "buildstats": "node ./generateBaseStats",
+      "buildmac": "electron-packager . PokeNurse --platform=darwin --arch=x64 --icon=imgs/emojioneicon.icns --overwrite",
+      "buildwindows": "electron-packager . PokeNurse --platform=win32 --arch=all --icon=imgs/emojioneicon.ico --overwrite",
+      "buildlinux": "electron-packager . PokeNurse --platform=linux --arch=all --icon=imgs/emojioneicon.ico --overwrite"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/duhminick/PokeNurse.git"
+    },
+    "keywords": [
+      "pokemon",
+      "go"
+    ],
+    "author": "duhminick",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/duhminick/PokeNurse/issues"
+    },
+    "homepage": "https://github.com/duhminick/PokeNurse#readme",
+    "devDependencies": {
+      "electron-packager": "^7.3.0",
+      "electron-prebuilt": "^1.3.1"
+    },
+    "dependencies": {
+      "babel-core": "^6.13.2",
+      "babel-preset-es2015": "^6.13.2",
+      "babel-preset-react": "^6.11.1",
+      "babel-register": "^6.11.6",
+      "bootstrap": "^3.3.7",
+      "datatables.net": "^1.10.12",
+      "datatables.net-bs": "^1.10.12",
+      "electron-devtools-installer": "^2.0.0",
+      "jquery": "^2.2.4",
+      "node-pogo-protos": "^1.1.2",
+      "pogobuf": "^1.4.0",
+      "react": "^15.3.0",
+      "react-dom": "^15.3.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,43 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "twatchr",
+    "version": "0.1.0",
+    "license": "MIT",
+    "main": "app.js",
+    "repository": {},
+    "dependencies": {
+      "gulp-order": "^1.1.1",
+      "twitch-get-stream": "^0.3.2"
+    },
+    "devDependencies": {
+      "bower": "*",
+      "browser-sync": "^2.13.0",
+      "concurrently": "*",
+      "del": "*",
+      "electron-connect": "*",
+      "electron-packager": "*",
+      "electron-prebuilt": "*",
+      "gulp": "*",
+      "gulp-concat": "*",
+      "gulp-inject": "^4.0.0",
+      "gulp-less": "^3.1.0",
+      "gulp-sass": "^2.3.2",
+      "jasmine-core": "*",
+      "jshint": "^2.9.2",
+      "karma": "*",
+      "karma-electron-launcher": "*",
+      "karma-jasmine": "*"
+    },
+    "scripts": {
+      "gulp": "gulp",
+      "bower": "bower",
+      "postinstall": "bower install",
+      "test": "gulp test",
+      "start": "gulp serve"
+    }
+  },
+  "packageStatus": 200
 }

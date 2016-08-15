@@ -64,5 +64,17 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "private": true,
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.0.1"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

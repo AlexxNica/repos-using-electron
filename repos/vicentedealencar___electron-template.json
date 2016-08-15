@@ -162,5 +162,50 @@
   },
   "networkCount": 2,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "yet-another-package",
+    "version": "0.0.1",
+    "description": "",
+    "main": "electron/main.js",
+    "scripts": {
+      "start": "node ./webpack/dev-server.js",
+      "build": "node node_modules/webpack/bin/webpack.js -p --colors --progress --config=./webpack/prod.config.js",
+      "electron": "electron ."
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+      "autoprefixer-loader": "^2.0.0",
+      "babel-core": "^5.6.15",
+      "babel-loader": "^5.3.1",
+      "css-loader": "^0.15.1",
+      "electron-prebuilt": "^0.34.2",
+      "extract-text-webpack-plugin": "^0.8.2",
+      "node-libs-browser": "^0.5.2",
+      "react-hot-loader": "^1.2.7",
+      "style-loader": "^0.12.3",
+      "webpack": "^1.10.1",
+      "webpack-dev-server": "^1.10.1"
+    },
+    "dependencies": {
+      "array.from": "^0.2.0",
+      "belle": "^1.2.2",
+      "deep-equal": "^1.0.1",
+      "invariant": "^2.1.0",
+      "json-loader": "^0.5.2",
+      "pouchdb": "^5.0.0",
+      "react": "^0.14.0",
+      "react-dom": "^0.14.0",
+      "react-redux": "^3.1.0",
+      "react-router": "v1.0.0-beta3",
+      "redux": "3.0.0",
+      "redux-devtools": "^3.0.0-alpha-7",
+      "redux-localstorage": "^1.0.0-rc4",
+      "redux-localstorage-pouchdb": "^0.0.1",
+      "redux-logger": "^2.0.3",
+      "redux-thunk": "^0.1.0"
+    }
+  },
+  "packageStatus": 200
 }

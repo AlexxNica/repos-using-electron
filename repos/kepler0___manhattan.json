@@ -168,5 +168,53 @@
   },
   "networkCount": 527,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "manhattan",
+    "description": "Manhattan Core Module",
+    "author": {
+      "name": "Kepler Sticka-Jones",
+      "email": "kepler+manhattan@stickajones.org",
+      "url": "http://github.com/k2b6s9j"
+    },
+    "version": "0.1.0",
+    "dependencies": {
+      "async": "0.9.x",
+      "body-parser": "1.0.x",
+      "dombo": "^3.2.0",
+      "exo_browser": "0.6.x",
+      "express": "4.0.x",
+      "fs-extra": "0.8.x",
+      "gig.fs": "0.2.x",
+      "method-override": "1.0.x",
+      "mkdirp": "0.3.x",
+      "npm": "1.4.x",
+      "octonode": "0.6.x",
+      "openpgp": "0.6.x",
+      "request": "2.36.x",
+      "semver": "2.2.x",
+      "socket.io": "1.0.x",
+      "tail": "0.3.x",
+      "tar": "0.1.x",
+      "titlebar": "^1.2.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/k2b6s9j/manhattan.git"
+    },
+    "bugs": {
+      "url": "https://github.com/k2b6s9j/manhattan/issues"
+    },
+    "licenses": [
+      {
+        "type": "MIT",
+        "url": "https://github.com/k2b6s9j/manhattan/raw/master/LICENSE"
+      }
+    ],
+    "main": "./main.js",
+    "devDependencies": {
+      "electron-prebuilt": "^0.26.0"
+    }
+  },
+  "packageStatus": 200
 }

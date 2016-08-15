@@ -64,5 +64,45 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "trooptrack-photo-sync",
+    "productName": "TroopTrack Photo Sync",
+    "version": "1.0.0",
+    "description": "Sync your TroopTrack Photo albums to your desktop.",
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/TroopTrack/trooptrack-photo-sync.git"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron .",
+      "watch-elm": "watch './node_modules/elm/binwrappers/elm-make src/*.elm --output=app/js/elm.js' ./src --wait=1 --ignoreDotFiles",
+      "install-elm": "./node_modules/elm/binwrappers/elm-package install",
+      "package": "electron-packager . 'TroopTrack Photo Sync' --platform=win32,darwin --arch=x64,ia32 --version=0.36.7 --app-version=1.0.0 --ignore='elm-stuff/|frog/|toad/' --asar=true --prune=true --overwrite=true --out=frog/ --icon=CameraLogo",
+      "win-installer": "electron-builder 'frog/TroopTrack Photo Sync-win32-x64' --platform=win --config=builder.json --out=toad",
+      "win32-installer": "electron-builder 'frog/TroopTrack Photo Sync-win32-x64' --platform=win --config=builder.json --out=toad",
+      "osx-installer": "electron-builder 'frog/TroopTrack Photo Sync-darwin-x64/TroopTrack Photo Sync.app' --platform=osx --config=builder.json --out=toad --sign=`cat .osx-cert`"
+    },
+    "author": "TroopTrack, LLC",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.1",
+      "elm": "^0.16.0",
+      "watch": "^0.17.1"
+    },
+    "dependencies": {
+      "async": "^1.5.2",
+      "font-awesome": "^4.5.0",
+      "jquery": "^2.2.0",
+      "mkdirp": "^0.5.1",
+      "request": "^2.67.0",
+      "request-progress": "^1.0.2",
+      "toastr": "^2.1.2",
+      "user-home": "^2.0.0"
+    }
+  },
+  "packageStatus": 200
 }

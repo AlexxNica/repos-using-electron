@@ -64,5 +64,42 @@
   },
   "networkCount": 2,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "aufbau",
+    "productName": "Aufbau",
+    "version": "0.4.0",
+    "description": "A desktop app to view and use a hand-curated, artisanal selection of local web apps",
+    "license": "MIT",
+    "main": "index.js",
+    "repository": "ajam/aufbau",
+    "author": {
+      "name": "Michael Keller",
+      "email": "michael.keller@gmail.com",
+      "url": "github.com/ajam/aufbau"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . Aufbau --out=aufbau-dist --ignore=aufbau-dist --asar --all --version=0.30.4 --overwrite --icon=assets/main.icns",
+      "install-apps": "./install-apps.js",
+      "postinstall": "npm run install-apps"
+    },
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "chalk": "^1.1.0",
+      "electron-debug": "^0.1.1",
+      "queue-async": "^1.0.7",
+      "shelljs": "^0.5.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.30.4"
+    }
+  },
+  "packageStatus": 200
 }

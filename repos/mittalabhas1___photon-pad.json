@@ -50,5 +50,25 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "photon-pad",
+    "version": "0.0.1",
+    "description": "A minimal notes taking application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
+    "keywords": [],
+    "author": "Abhas Mittal <mittalabhas1@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.0"
+    }
+  },
+  "packageStatus": 200
 }

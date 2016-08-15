@@ -50,5 +50,21 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electro-app",
+    "version": "0.1.0",
+    "productName": "electro App",
+    "main": "main.js",
+    "description": "A minimal Electron application",
+    "devDependencies": {
+      "electron-packager": "^7.0.1",
+      "electron-prebuilt": "^0.37.7"
+    },
+    "scripts": {
+      "start": "electron .",
+      "packMac": "electron-packager . --platform=mas --version=0.37.7 --out=dist/ --arch=all --overwrite --icon=img/electron.icns"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,48 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "collider",
+    "version": "0.0.1",
+    "description": "simplified tests for electron apps",
+    "repository": "parro-it/collider",
+    "license": "MIT",
+    "author": "parro-it",
+    "scripts": {
+      "test": "eslint . && electron src/cli.js test/index.js | faucet",
+      "lint": "eslint .",
+      "relib": "electron-rebuild",
+      "doc": "jsdoc2md src/window.js > doc/collider-window.md"
+    },
+    "keywords": [
+      "electron",
+      "test",
+      "tool"
+    ],
+    "engines": {
+      "node": ">=5"
+    },
+    "eslintConfig": {
+      "extends": "js"
+    },
+    "devDependencies": {
+      "co": "^4.6.0",
+      "tape": "^4.2.2"
+    },
+    "files": [
+      "src"
+    ],
+    "main": "src/index.js",
+    "bin": {
+      "collider": "src/cli.js"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.35.1",
+      "node-uuid": "^1.4.7",
+      "serialize-error": "^1.1.0",
+      "yargs": "^3.30.0"
+    }
+  },
+  "packageStatus": 200
 }

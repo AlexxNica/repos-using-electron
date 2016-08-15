@@ -50,5 +50,41 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-multiple-windows-demo",
+    "description": "An example electron app showing how to manage multiple windows.",
+    "version": "1.0.0-alpha",
+    "author": "Nate Goldman <nate@ngoldman.me> (http://ngoldman.me/)",
+    "bugs": {
+      "url": "https://github.com/ngoldman/electron-multiple-windows-demo/issues"
+    },
+    "dependencies": {
+      "minimist": "^1.2.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.9",
+      "standard": "^6.0.7"
+    },
+    "homepage": "https://github.com/ngoldman/electron-multiple-windows-demo#readme",
+    "keywords": [
+      "electron",
+      "many",
+      "multiple",
+      "tutorial",
+      "windows"
+    ],
+    "license": "ISC",
+    "main": "index.js",
+    "private": true,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ngoldman/electron-multiple-windows-demo.git"
+    },
+    "scripts": {
+      "start": "electron .",
+      "test": "standard"
+    }
+  },
+  "packageStatus": 200
 }

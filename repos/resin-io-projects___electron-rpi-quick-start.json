@@ -176,5 +176,35 @@
   },
   "networkCount": 613,
   "subscribersCount": 6,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application on Raspberry Pi",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/resin-io-projects/electron-rpi-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/resin-io-projects/electron-rpi-quick-start/issues"
+    },
+    "homepage": "https://github.com/atom/electron-quick-start#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.10"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

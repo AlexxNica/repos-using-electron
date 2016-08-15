@@ -44,5 +44,35 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "rip",
+    "version": "1.0.0",
+    "description": "A simple rest client",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/frangelli/rip.git"
+    },
+    "keywords": [
+      "rip",
+      "restinpeace",
+      "rest",
+      "client"
+    ],
+    "author": "Leonardo Frangelli",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/frangelli/rip/issues"
+    },
+    "homepage": "https://github.com/frangelli/rip#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.33.6"
+    }
+  },
+  "packageStatus": 200
 }

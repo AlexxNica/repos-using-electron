@@ -44,5 +44,43 @@
   "license": null,
   "networkCount": 12,
   "subscribersCount": 5,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-microscope",
+    "description": "Use electron to inspect websites and extract data. useful for automation, testing, web scraping, etc",
+    "version": "2.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "standard && electron test/test.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/maxogden/electron-microscope.git"
+    },
+    "author": "",
+    "license": "BSD-2-Clause",
+    "bugs": {
+      "url": "https://github.com/maxogden/electron-microscope/issues"
+    },
+    "homepage": "https://github.com/maxogden/electron-microscope#readme",
+    "dependencies": {
+      "debug": "^2.2.0",
+      "domify": "^1.4.0",
+      "inherits": "^2.0.1",
+      "through2": "^2.0.1"
+    },
+    "standard": {
+      "ignore": [
+        "test/scrapers"
+      ]
+    },
+    "devDependencies": {
+      "concat-stream": "^1.5.1",
+      "electron-prebuilt": "^0.36.7",
+      "pump": "^1.0.1",
+      "standard": "^6.0.4",
+      "tape": "^4.4.0"
+    }
+  },
+  "packageStatus": 200
 }

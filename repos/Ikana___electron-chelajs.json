@@ -44,5 +44,34 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-chelajs",
+    "version": "1.0.0",
+    "description": "presentacion para chelajs desarrollada en electron",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ./app.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Ikana/electron-chelajs.git"
+    },
+    "keywords": [
+      "electron",
+      "chelajs"
+    ],
+    "author": "roderik",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Ikana/electron-chelajs/issues"
+    },
+    "homepage": "https://github.com/Ikana/electron-chelajs#readme",
+    "dependencies": {
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.36.3",
+      "express": "^4.13.3"
+    }
+  },
+  "packageStatus": 200
 }

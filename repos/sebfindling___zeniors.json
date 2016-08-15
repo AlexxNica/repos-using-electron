@@ -44,5 +44,44 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/atom/electron-quick-start#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.0"
+    },
+    "dependencies": {
+      "curl": "^0.1.4",
+      "curlrequest": "^0.5.3",
+      "format": "^0.2.1",
+      "gm": "^1.21.1",
+      "jquery": "^2.1.4",
+      "jsdom": "^7.0.2",
+      "lwip": "0.0.8",
+      "request": "^2.65.0"
+    }
+  },
+  "packageStatus": 200
 }

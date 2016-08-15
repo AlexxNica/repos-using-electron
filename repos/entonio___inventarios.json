@@ -44,5 +44,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "inventarios",
+    "version": "1.0.0",
+    "description": "App PI",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/entonio/inventarios.git"
+    },
+    "keywords": [
+      "PI"
+    ],
+    "author": "António Pedro Marques",
+    "license": "UNLICENSED",
+    "bugs": {
+      "url": "https://github.com/entonio/inventarios/issues"
+    },
+    "homepage": "https://github.com/entonio/inventarios#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.0"
+    }
+  },
+  "packageStatus": 200
 }

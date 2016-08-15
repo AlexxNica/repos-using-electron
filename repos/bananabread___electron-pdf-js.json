@@ -168,5 +168,45 @@
   },
   "networkCount": 44,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-pdf-js",
+    "version": "0.2.1",
+    "description": "A fork of the original electron-pdf package to add in additional features such as enabling javascript, debug mode and allowing use of insecure external content.",
+    "main": "index.js",
+    "scripts": {
+      "test": "standard"
+    },
+    "bin": {
+      "electron-pdf-js": "cli.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bananabread/electron-pdf.git"
+    },
+    "keywords": [
+      "electron",
+      "electron-tool",
+      "pdf"
+    ],
+    "author": "Ben Hargreaves",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bananabread/electron-pdf/issues"
+    },
+    "homepage": "https://github.com/bananabread/electron-pdf",
+    "devDependencies": {
+      "standard": "^5.1.0"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.32.0",
+      "github-markdown-css": "^2.0.9",
+      "highlight.js": "^8.7.0",
+      "marked": "^0.3.5",
+      "meow": "^3.3.0",
+      "object-assign": "^3.0.0",
+      "uuid": "^2.0.1"
+    }
+  },
+  "packageStatus": 200
 }

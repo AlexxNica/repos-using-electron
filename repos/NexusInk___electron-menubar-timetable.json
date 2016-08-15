@@ -162,5 +162,52 @@
   },
   "networkCount": 2,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "TimeTable",
+    "version": "1.5.38",
+    "description": "Get your TimeTable in your menubar!",
+    "author": "Willyb321",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/willyb321/electron-menubar-timetable"
+    },
+    "bugs": {
+      "url": "https://github.com/willyb321/electron-menubar-timetable/issues"
+    },
+    "main": "./main.js",
+    "scripts": {
+      "lint": "standard",
+      "build": "electron-zip-packager . --platform=darwin --arch=x64 --icon=./TimeTable.icns --prune --app-version=${npm_package_version}",
+      "pretest": "echo pls work",
+      "test": "mocha",
+      "posttest": "npm run lint && echo yay it worked",
+      "electron": "electron .",
+      "deps": "ncu -u -a",
+      "prestart": "npm install",
+      "start": "npm run electron"
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "chai-as-promised": "^5.3.0",
+      "electron-packager": "^7.2.0",
+      "electron-prebuilt": "^1.2.6",
+      "electron-zip-packager": "^2.0.0",
+      "menubar": "^4.1.2",
+      "mocha": "^3.0.0-0",
+      "npm-check-updates": "^2.6.8",
+      "standard": "^7.1.2"
+    },
+    "dependencies": {
+      "electron-config": "^0.2.0",
+      "electron-packager": "^7.0.3",
+      "menubar": "^4.1.2"
+    },
+    "standard": {
+      "ignore": [
+        "test.js"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

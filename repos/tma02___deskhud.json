@@ -50,5 +50,24 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "deskhud",
+    "version": "0.0.1",
+    "description": "Make use of the space next to OS X dock.",
+    "main": "deskhud.js",
+    "scripts": {
+      "test": "electron ."
+    },
+    "author": "Tianyi Ma <tn.ma@outlook.com>",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.30.0"
+    },
+    "private": true,
+    "dependencies": {
+      "font-awesome": "^4.4.0"
+    }
+  },
+  "packageStatus": 200
 }

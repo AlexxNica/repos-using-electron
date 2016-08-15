@@ -50,5 +50,50 @@
   },
   "networkCount": 1,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "atomic-terminal",
+    "version": "0.0.29",
+    "description": "A terminal powered by Electron",
+    "main": "app.js",
+    "directories": {
+      "test": "test"
+    },
+    "dependencies": {
+      "async-kit": "^0.5.8",
+      "child_pty": "^1.0.0",
+      "dom-kit": "0.0.10",
+      "electron-prebuilt": "^0.26.0",
+      "electron-rebuild": "^0.1.4",
+      "string-kit": "^0.1.10",
+      "terminal-kit": "^0.13.1",
+      "tree-kit": "^0.5.5"
+    },
+    "devDependencies": {
+      "expect.js": "^0.3.1",
+      "jshint": "^2.5.6",
+      "mocha": "^1.21.4"
+    },
+    "scripts": {
+      "install": "electron-rebuild",
+      "test": "mocha"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/cronvel/atomic-terminal.git"
+    },
+    "bin": {
+      "atomic-terminal": "./bin/atomic-terminal"
+    },
+    "keywords": [
+      "terminal",
+      "electron"
+    ],
+    "author": "Cédric Ronvel",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/cronvel/atomic-terminal/issues"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,46 @@
   },
   "networkCount": 4,
   "subscribersCount": 10,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "dfu-programmer",
+    "productName": "QMK Firmware Flasher",
+    "version": "0.5.0",
+    "description": "GUI app to load firmware onto atmega32u4 chips.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "postinstall": "install-app-deps",
+      "pack": "build",
+      "dist": "build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jackhumbert/dfu-programmer-app.git"
+    },
+    "keywords": [
+      "dfu-programmer",
+      "dfu",
+      "keyboard",
+      "mechanical keyboard"
+    ],
+    "author": "Jack Humbert",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jackhumbert/dfu-programmer-app/issues"
+    },
+    "homepage": "https://github.com/jackhumbert/dfu-programmer-app",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0",
+      "electron-builder": "^3.25.0"
+    },
+    "build": {
+      "app-bundle-id": "com.github.dfu-programmer-app",
+      "app-category-type": "public.app-category.utilities",
+      "win": {
+        "iconUrl": "https://github.com/skullydazed/dfu-programmer-app/blob/master/build/windows.ico?raw=true"
+      }
+    }
+  },
+  "packageStatus": 200
 }

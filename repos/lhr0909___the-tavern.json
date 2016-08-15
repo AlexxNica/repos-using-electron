@@ -50,5 +50,56 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "the-tavern",
+    "version": "0.0.1",
+    "description": "a chat system for hearthstone",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "webpack && electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lhr0909/the-tavern.git"
+    },
+    "keywords": [
+      "hearthstone",
+      "discord"
+    ],
+    "author": "Simon Liang",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/lhr0909/the-tavern/issues"
+    },
+    "homepage": "https://github.com/lhr0909/the-tavern#readme",
+    "dependencies": {
+      "babel-polyfill": "^6.3.14",
+      "history": "^1.17.0",
+      "lodash": "^4.3.0",
+      "react": "^0.14.7",
+      "react-bootstrap": "^0.28.2",
+      "react-dom": "^0.14.7",
+      "react-router": "^1.0.3",
+      "webpack-target-electron-renderer": "^0.4.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.9",
+      "babel-core": "^6.4.5",
+      "babel-loader": "^6.2.1",
+      "babel-preset-es2015": "^6.3.13",
+      "babel-preset-react": "^6.3.13",
+      "css-loader": "^0.23.1",
+      "html-webpack-plugin": "^2.7.2",
+      "postcss": "^5.0.16",
+      "postcss-cssnext": "^2.4.0",
+      "postcss-loader": "^0.8.1",
+      "precss": "^1.4.0",
+      "style-loader": "^0.13.0",
+      "webpack": "^1.12.12",
+      "webpack-dev-server": "^1.14.1"
+    }
+  },
+  "packageStatus": 200
 }

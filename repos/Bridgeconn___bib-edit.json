@@ -64,5 +64,44 @@
   },
   "networkCount": 1,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "AutographaLite",
+    "version": "0.0.1",
+    "description": "Yet another Bible translation editor.",
+    "main": "app.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "postinstall": "cd node_modules/leveldown && HOME=~/.electron-gyp node-gyp rebuild --target=1.2.0 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
+      "postinstall_windows": "cd node_modules/pouchdb/node_modules/leveldown; node-gyp rebuild --target=1.2.7 --dist-url=https://atom.io/download/atom-shell"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Bridgeconn/bib-edit.git"
+    },
+    "keywords": [
+      "desktop",
+      "Bible Editor",
+      "USFM",
+      "USFM Editor"
+    ],
+    "author": "Bridgeconn",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Bridgeconn/bib-edit/issues"
+    },
+    "homepage": "https://github.com/Bridgeconn/bib-edit#readme",
+    "devDependencies": {
+      "electron-prebuilt": "1.2.7"
+    },
+    "dependencies": {
+      "pouchdb": "5.4.4"
+    },
+    "build": {
+      "appId": "com.autographa.free",
+      "app-category-type": "public.app.category.business"
+    }
+  },
+  "packageStatus": 200
 }

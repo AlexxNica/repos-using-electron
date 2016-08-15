@@ -44,5 +44,48 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "gesture-control",
+    "version": "1.0.0",
+    "description": "Control your computer using hand gestures",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron examples/main.js",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "setup": "npm install examples/detection-server/ && sudo cp -r classifiers /usr/local/bin/ && cp -r classifiers node_modules/electron-prebuilt/dist",
+      "build-test-server": "npm install examples/detection-server/ ",
+      "start-test-server": "node examples/detection-server/server.js "
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com:bobacadodl/gesture-control.git"
+    },
+    "binary": {
+      "module_name": "gesture",
+      "module_path": "./build/Release/",
+      "host": ""
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://github.com/bobacadodl/gesture-control",
+    "dependencies": {
+      "bindings": "^1.2.1",
+      "electron-jade": "^1.3.1",
+      "jquery": "^2.2.3",
+      "lodash": "^4.11.1",
+      "material-design-lite": "^1.1.3",
+      "nan": "^2.1.0",
+      "node-getopt": ">=0.2.3",
+      "node-gyp": "^2.0.1",
+      "node-pre-gyp": "^0.6.7",
+      "robotjs": "^0.4.1",
+      "socket.io-client": "^1.4.5"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.8",
+      "electron-rebuild": "^1.1.3"
+    }
+  },
+  "packageStatus": 200
 }

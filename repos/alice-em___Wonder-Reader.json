@@ -44,5 +44,44 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Wonder-Reader",
+    "version": "0.0.10",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/alice-em/Wonder-Reader.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/alice-em/Wonder-Reader/issues"
+    },
+    "homepage": "https://github.com/alice-em/Wonder-Reader#readme",
+    "dependencies": {
+      "directory-exists": "^1.0.1",
+      "ebook-cover-generator": "0.0.9",
+      "extract-zip": "^1.5.0",
+      "get-folder-size": "^1.0.0",
+      "image-size": "^0.5.0",
+      "jquery": "2.2.x",
+      "jquery-ui": "^1.12.0",
+      "mkdirp": "^0.5.1",
+      "node-unrar": "^0.1.5"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "~1.2.0",
+      "grunt": "^1.0.1",
+      "grunt-contrib-sass": "^1.0.0",
+      "grunt-contrib-watch": "^1.0.0"
+    }
+  },
+  "packageStatus": 200
 }

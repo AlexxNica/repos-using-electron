@@ -58,5 +58,43 @@
   },
   "networkCount": 0,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hells-angel",
+    "version": "0.0.1",
+    "description": "A game where you raise a devil girl",
+    "main": "main.js",
+    "scripts": {
+      "test": "run-s test-backend test-frontend",
+      "test-backend": "electron-mocha test/back",
+      "test-frontend": "electron-mocha --renderer test/front",
+      "start": "electron .",
+      "dev": "electron . -dev"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/d-evelopers/HellsAngel.git"
+    },
+    "keywords": [
+      "spanking",
+      "sim",
+      "game",
+      "electron"
+    ],
+    "author": "/d/evelopers",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/d-evelopers/HellsAngel/issues"
+    },
+    "homepage": "https://github.com/d-evelopers/HellsAngel#readme",
+    "dependencies": {
+      "electron-prebuilt": "^1.2.6"
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "electron-mocha": "^2.3.0",
+      "npm-run-all": "^2.3.0"
+    }
+  },
+  "packageStatus": 200
 }

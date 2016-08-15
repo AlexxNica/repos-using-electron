@@ -64,5 +64,37 @@
   },
   "networkCount": 1,
   "subscribersCount": 6,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "xolvio-jasmine-expect",
+    "version": "1.1.0",
+    "description": "Jasmine expect standalone",
+    "keywords": [
+      "expect",
+      "assert"
+    ],
+    "author": "Jonas Aschenbrenner <jonas@xolv.io> (http://xolv.io)",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xolvio/jasmine-expect"
+    },
+    "homepage": "",
+    "bugs": {
+      "url": "https://github.com/xolvio/jasmine-expect/issues"
+    },
+    "scripts": {
+      "test": "jest"
+    },
+    "main": "index.js",
+    "dependencies": {
+      "jasmine-core": "^2.4.1"
+    },
+    "devDependencies": {
+      "browserify": "^13.0.1",
+      "electron-prebuilt": "^1.0.1",
+      "wallabify": "0.0.14"
+    }
+  },
+  "packageStatus": 200
 }

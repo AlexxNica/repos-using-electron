@@ -58,5 +58,56 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "coffeegrind",
+    "version": "0.1.0",
+    "description": "Lightweight time-keeping app with git integration",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "install": "cd vendor/node-system-idle-time/ && node-gyp rebuild",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/coffeegrind/coffeegrind.git"
+    },
+    "keywords": [
+      "time",
+      "tracking",
+      "keeping",
+      "app",
+      "cross",
+      "platform",
+      "mac",
+      "linux",
+      "windows"
+    ],
+    "author": "Zach Cawthorne, Nick Aversano",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/coffeegrind/coffeegrind/issues"
+    },
+    "homepage": "https://github.com/coffeegrind/coffeegrind#readme",
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.10",
+      "electron-reload": "^0.2.0",
+      "gulp": "^3.9.1",
+      "gulp-autoprefixer": "^3.1.0",
+      "gulp-concat": "^2.6.0",
+      "gulp-load-plugins": "^1.2.0",
+      "gulp-sass": "^2.2.0",
+      "gulp-util": "^3.0.7",
+      "gutil": "^1.6.4",
+      "riot": "^2.3.17"
+    },
+    "dependencies": {
+      "bindings": "^1.2.1",
+      "nan": "^2.2.0",
+      "node-persist": "0.0.11"
+    }
+  },
+  "packageStatus": 200
 }

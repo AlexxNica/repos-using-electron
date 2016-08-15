@@ -50,5 +50,21 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "zm-electron",
+    "version": "1.0.0",
+    "description": "A client for the fix-cpp zmq \"stock-prices\" service",
+    "main": "zmq-client.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ricardo Levano",
+    "license": "MIT",
+    "dependencies": {
+      "electron-prebuilt": "^0.34.3",
+      "zmq": "^2.13.0"
+    }
+  },
+  "packageStatus": 200
 }

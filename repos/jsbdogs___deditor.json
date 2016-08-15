@@ -58,5 +58,44 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "deditor",
+    "main": "index.js",
+    "version": "0.1.0",
+    "description": "deditor thing",
+    "contributors": [
+      {
+        "name": "Javier Carrillo"
+      },
+      {
+        "name": "Jose Martos"
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/stringparser/deditor",
+    "dependencies": {
+      "brace": "^0.8.0",
+      "babel-core": "^5.2.9",
+      "babel-loader": "^5.0.0",
+      "electron-prebuilt": "^1.2.8",
+      "eslint": "^3.1.1",
+      "eslint-plugin-react": "^5.2.2",
+      "gulp": "gulpjs/gulp#4.0",
+      "gulp-autoprefixer": "^3.1.0",
+      "gulp-concat": "^2.6.0",
+      "gulp-less": "^3.1.0",
+      "gulp-load-plugins": "^1.2.4",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-webpack": "^1.5.0",
+      "jsx-loader": "^0.13.2",
+      "react": "^15.2.1",
+      "react-dom": "^15.2.1",
+      "webpack": "^1.13.1"
+    },
+    "scripts": {
+      "start": "electron ."
+    }
+  },
+  "packageStatus": 200
 }

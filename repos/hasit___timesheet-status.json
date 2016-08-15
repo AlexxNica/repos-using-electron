@@ -50,5 +50,31 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "timesheet-status",
+    "version": "1.0.0",
+    "description": "Check your ESS timesheet status with ease from your menubar",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [
+      "university",
+      "washington",
+      "UW",
+      "ESS",
+      "timesheet status"
+    ],
+    "author": "Hasit Mistry",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.5"
+    },
+    "dependencies": {
+      "cheerio": "^0.20.0",
+      "request": "^2.71.0"
+    }
+  },
+  "packageStatus": 200
 }

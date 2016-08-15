@@ -50,5 +50,31 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-angular-typescript",
+    "version": "1.0.0",
+    "main": "main.js",
+    "keywords": [
+      "electron",
+      "angular",
+      "typescript"
+    ],
+    "author": "Sahil Malik",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.2",
+      "angular": "^1.4.8",
+      "typescript": "^1.7.5",
+      "gulp": "^3.5.6",
+      "gulp-typescript": "^2.9.2",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-rimraf": "^0.2.0",
+      "gulp-npm-run": "^0.0.3",
+      "asar": "^0.9.0"
+    },
+    "scripts": {
+      "start": ".\\node_modules\\.bin\\electron package\\main.js"
+    }
+  },
+  "packageStatus": 200
 }

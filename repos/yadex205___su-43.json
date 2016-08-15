@@ -50,5 +50,33 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "SU-43",
+    "description": "Good thing Your Flying a Twitter, en?",
+    "author": "Yadex205",
+    "version": "0.0.1",
+    "main": "app.js",
+    "scripts": {
+      "postinstall": "gulp init"
+    },
+    "dependencies": {
+      "twitter": "^1.2.5"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.29.2",
+      "gulp": "^3.9.0",
+      "gulp-concat": "^2.6.0",
+      "gulp-ejs": "^1.1.0",
+      "gulp-minify-html": "^1.0.3",
+      "gulp-notify": "^2.2.0",
+      "gulp-plumber": "^1.0.1",
+      "gulp-sass": "^2.0.3",
+      "gulp-sourcemaps": "^1.5.2",
+      "gulp-uglify": "^1.2.0",
+      "gulp-webserver": "^0.9.1",
+      "gulp-yaml": "^0.2.4"
+    }
+  },
+  "packageStatus": 200
 }

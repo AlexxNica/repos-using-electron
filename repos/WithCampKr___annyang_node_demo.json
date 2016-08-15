@@ -64,5 +64,34 @@
   },
   "networkCount": 0,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "sample_annyang",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www",
+      "electron": "electron ./build/electron/main.js"
+    },
+    "dependencies": {
+      "annyang": "^2.4.0",
+      "body-parser": "~1.13.2",
+      "cookie-parser": "~1.3.5",
+      "debug": "~2.2.0",
+      "ejs": "~2.3.3",
+      "express": "~4.13.1",
+      "morgan": "~1.6.1",
+      "serve-favicon": "~2.3.0",
+      "socket.io": "^1.4.6"
+    },
+    "devDependencies": {
+      "del": "^2.2.0",
+      "electron-prebuilt": "^1.2.2",
+      "gulp": "^3.9.1",
+      "gulp-express": "^0.3.5",
+      "gulp-shell": "^0.5.2",
+      "gulp-watch": "^4.3.6"
+    }
+  },
+  "packageStatus": 200
 }

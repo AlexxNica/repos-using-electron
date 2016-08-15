@@ -50,5 +50,51 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "src/boot/main.js",
+    "scripts": {
+      "start": "electron src/boot/main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/atom/electron-quick-start#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.0"
+    },
+    "dependencies": {
+      "angular": "^1.4.7",
+      "angular-route": "^1.4.8",
+      "angular-ui-bootstrap": "^0.14.3",
+      "angular-ui-router": "^0.2.15",
+      "bootstrap": "^3.3.5",
+      "coffee-script": "^1.10.0",
+      "d3": "^3.5.9",
+      "font-awesome": "^4.4.0",
+      "jquery": "^2.1.4",
+      "leaflet": "^0.7.7",
+      "moment": "^2.10.6",
+      "openlayers": "^3.10.1",
+      "semantic-ui": "^2.1.6",
+      "semantic-ui-sidebar": "^2.1.6",
+      "turf": "^2.0.2"
+    }
+  },
+  "packageStatus": 200
 }

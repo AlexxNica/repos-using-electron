@@ -44,5 +44,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-email-editor-app",
+    "version": "0.0.1",
+    "description": "A simple, easy-to-use, email template editor built with <3",
+    "main": "app/index.js",
+    "scripts": {
+      "run": "gulp && gulp run"
+    },
+    "author": "Brandon Brown <brandon@brandonb.io>",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.29.2",
+      "gulp": "^3.9.0",
+      "gulp-asar": "0.0.2",
+      "gulp-autoprefixer": "^2.3.1",
+      "gulp-babel": "^5.1.0",
+      "gulp-clean": "^0.3.1",
+      "gulp-less": "^3.0.3",
+      "gulp-rename": "^1.2.2",
+      "gulp-run": "^1.6.8"
+    }
+  },
+  "packageStatus": 200
 }

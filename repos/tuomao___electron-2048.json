@@ -44,5 +44,29 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "2048",
+    "version": "0.0.1",
+    "main": "./main.js",
+    "author": {
+      "name": "tuomao",
+      "email": "a@11211052@163.com",
+      "url": "https://github.com/tuomao"
+    },
+    "scripts": {
+      "start": "electron ."
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.36.9",
+      "electron-debug": "^0.5.2"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tuomao/electron-2048"
+    }
+  },
+  "packageStatus": 200
 }

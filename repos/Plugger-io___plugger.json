@@ -64,5 +64,61 @@
   },
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "windows-tweak-tool",
+    "version": "0.0.1",
+    "description": "Windows Tweak Tool allows you control your system with ease using a GUI (just like GNOME, but better!). Disable weird tracking, remove not wanted services and programs from your Windows 10. https://assembly.com/windows-tweak-tool",
+    "main": "./build/app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "go": "./node_modules/.bin/electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/piqus/windows-tweak-tool.git"
+    },
+    "keywords": [
+      "windows",
+      "tweak",
+      "tool",
+      "win10",
+      "scripts",
+      "customize",
+      "tool"
+    ],
+    "author": "piqus",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/piqus/windows-tweak-tool/issues"
+    },
+    "homepage": "https://github.com/piqus/windows-tweak-tool#readme",
+    "devDependencies": {
+      "coffee-script": "^1.9.3",
+      "electron-prebuilt": "^0.30.4",
+      "glob": "^5.0.14",
+      "gulp": "^3.9.0",
+      "gulp-browserify": "^0.5.1",
+      "gulp-cjsx": "^3.0.0",
+      "gulp-coffee": "^2.3.1",
+      "gulp-flatten": "^0.1.1",
+      "gulp-jade": "^1.1.0",
+      "gulp-rename": "^1.2.2",
+      "gulp-sass": "^2.0.4",
+      "react-hot-loader": "^1.2.9",
+      "webpack": "^1.12.0",
+      "webpack-dev-server": "^1.10.1"
+    },
+    "dependencies": {
+      "express": "^4.13.3",
+      "material-ui": "^0.11.0",
+      "q": "^1.4.1",
+      "react": "^0.13.3",
+      "react-motion": "^0.2.7",
+      "react-router": "^0.13.3",
+      "react-tap-event-plugin": "^0.1.7",
+      "ws": "^0.8.0"
+    }
+  },
+  "packageStatus": 200
 }

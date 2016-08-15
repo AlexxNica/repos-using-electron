@@ -44,5 +44,18 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "matts-log-viewer",
+    "version": "0.0.1",
+    "main": "src/main.js",
+    "devDependencies": {
+      "electron-prebuilt": "^0.26.0"
+    },
+    "dependencies": {
+      "logfmt": "^1.2.0",
+      "through": "^2.3.7"
+    }
+  },
+  "packageStatus": 200
 }

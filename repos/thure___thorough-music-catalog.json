@@ -50,5 +50,28 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "thorough-music-catalog",
+    "version": "1.0.0",
+    "description": "A tool to help music nerds organize their music",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thure/thorough-music-catalog.git"
+    },
+    "author": "Will Shown <w@willshown.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/thure/thorough-music-catalog/issues"
+    },
+    "homepage": "https://github.com/thure/thorough-music-catalog#readme",
+    "dependencies": {
+      "electron-prebuilt": "latest"
+    }
+  },
+  "packageStatus": 200
 }

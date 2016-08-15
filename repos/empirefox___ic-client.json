@@ -44,5 +44,54 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "private": true,
+    "devDependencies": {
+      "asar": ">=0.8.3",
+      "electron-prebuilt": "^0.36.1",
+      "fs-jetpack": ">=0.7.1",
+      "gulp": ">=3.9.0",
+      "gulp-load-plugins": ">=1.1.0",
+      "gulp-rename": ">=1.2.2",
+      "gulp-run": ">=1.6.12",
+      "gulp-sourcemaps": ">=1.6.0",
+      "gulp-stylus": ">=2.1.1",
+      "gulp-util": ">=3.0.7",
+      "jspm": ">=0.16.19",
+      "q": ">=2.0.3",
+      "string": ">=3.3.1",
+      "sync-request": ">=2.1.0",
+      "tree-kill": ">=1.0.0",
+      "yargs": ">=3.31.0"
+    },
+    "optionalDependencies": {
+      "appdmg": ">=0.3.4",
+      "rcedit": ">=0.3.0"
+    },
+    "scripts": {
+      "postinstall": "node ./tasks/app_npm_install",
+      "app-install": "node ./tasks/app_npm_install",
+      "build": "./node_modules/.bin/gulp build",
+      "release": "./node_modules/.bin/gulp release --env=production",
+      "start": "node ./tasks/start",
+      "test": "node ./tasks/start --env=test",
+      "jspm": "jspm"
+    },
+    "jspm": {
+      "directories": {
+        "baseURL": "app"
+      },
+      "dependencies": {
+        "angular2": "npm:angular2@2.0.0-beta.0",
+        "reflect-metadata": "npm:reflect-metadata@^0.1.2",
+        "rxjs": "npm:rxjs@5.0.0-beta.0",
+        "traceur": "github:jmcriffey/bower-traceur@0.0.93",
+        "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.93",
+        "zone.js": "npm:zone.js@0.5.10"
+      },
+      "devDependencies": {}
+    }
+  },
+  "packageStatus": 200
 }

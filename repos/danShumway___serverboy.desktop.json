@@ -50,5 +50,23 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "serverboy.desktop.js",
+    "version": "0.0.1",
+    "description": "Desktop client for local development and testing with Serverboy.js",
+    "main": "src/launcher.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Daniel Shumway",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.30.0"
+    },
+    "dependencies": {
+      "serverboy": "0.0.3"
+    }
+  },
+  "packageStatus": 200
 }

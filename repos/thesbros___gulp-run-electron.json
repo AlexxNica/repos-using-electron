@@ -50,5 +50,43 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "gulp-run-electron",
+    "version": "2.0.0",
+    "description": "Gulp plugin for starting Electron.",
+    "main": "src/index.js",
+    "scripts": {
+      "test": "cd test && gulp"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/thesbros/gulp-run-electron.git"
+    },
+    "keywords": [
+      "gulp",
+      "gulpplugin",
+      "electron",
+      "plugin",
+      "webkit",
+      "iojs"
+    ],
+    "author": "Oden <ops991923 [at] gmail.com>",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/thesbros/gulp-run-electron/issues"
+    },
+    "homepage": "https://github.com/thesbros/gulp-run-electron",
+    "dependencies": {
+      "gulp-util": "^3.0.7",
+      "through2": "^2.0.1"
+    },
+    "peerDependencies": {
+      "electron-prebuilt": "*"
+    },
+    "devDependencies": {
+      "gulp": "^3.9.1"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,58 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-sandbox",
+    "productName": "Electron Sandbox",
+    "version": "0.0.0",
+    "description": "Testing Electron",
+    "license": "MIT",
+    "main": "src/app/scripts/main.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Franky47/electron-sandbox"
+    },
+    "author": {
+      "name": "Francois Best",
+      "email": "francois.best@fortyseveneffects.com",
+      "url": "http://fortyseveneffects.com"
+    },
+    "engines": {
+      "node": ">=0.12.7"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --platform=darwin --arch=x64 --version=0.28.2",
+      "test": "echo Todo: add some tests"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.1.1"
+    },
+    "devDependencies": {
+      "electron-connect": "^0.2.1",
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.29.2",
+      "gulp": "^3.9.0",
+      "gulp-jade": "^1.0.1",
+      "gulp-jscs": "^1.6.0",
+      "gulp-jshint": "^1.11.2",
+      "gulp-plumber": "^1.0.1",
+      "gulp-sass": "^2.0.4",
+      "gulp-svg-symbols": "^0.3.1",
+      "gulp-util": "^3.0.6",
+      "jshint-stylish": "^2.0.1",
+      "minimist": "^1.1.1",
+      "rimraf": "^2.4.2"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,35 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "simple-lims",
+    "version": "0.0.1",
+    "description": "Very simple LIMS software",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/multiservicio/simple-lims.git"
+    },
+    "keywords": [
+      "lims"
+    ],
+    "author": "Pedro Diaz",
+    "license": "GNU v3",
+    "bugs": {
+      "url": "https://github.com/multiservicio/simple-lims/issues"
+    },
+    "homepage": "https://github.com/multiservicio/simple-lims",
+    "devDependencies": {
+      "electron": "^0.4.1",
+      "electron-prebuilt": "^0.33.3"
+    },
+    "dependencies": {
+      "material-design-lite": "^1.0.5"
+    }
+  },
+  "packageStatus": 200
 }

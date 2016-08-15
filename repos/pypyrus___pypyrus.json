@@ -64,5 +64,30 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "pypyrus",
+    "version": "1.0.0",
+    "description": "Pypyrus Notebook",
+    "main": "index.js",
+    "dependencies": {
+      "electron-prebuilt": "^0.34.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.0"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/pypyrus/pypyrus.git"
+    },
+    "keywords": [
+      "notebook"
+    ],
+    "author": "kusno mudiarto",
+    "license": "GNUv2"
+  },
+  "packageStatus": 200
 }

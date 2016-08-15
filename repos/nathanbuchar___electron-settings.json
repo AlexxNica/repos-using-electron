@@ -44,5 +44,65 @@
   "license": null,
   "networkCount": 13,
   "subscribersCount": 7,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-settings",
+    "version": "2.1.1",
+    "description": "A simple persistent user settings manager for Electron.",
+    "main": "index.js",
+    "scripts": {
+      "test": "electron-mocha test && electron-mocha --renderer test"
+    },
+    "keywords": [
+      "electron",
+      "app",
+      "user",
+      "data",
+      "settings",
+      "manager",
+      "config",
+      "json",
+      "storage",
+      "promise",
+      "has",
+      "get",
+      "set",
+      "delete",
+      "reset",
+      "clear"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/nathanbuchar/electron-settings"
+    },
+    "author": "Nathan Buchar <hello@nathanbuchar.com>",
+    "contributors": [
+      {
+        "name": "Nathan Buchar",
+        "email": "hello@nathanbuchar.com",
+        "web": "http://nathanbuchar,com/"
+      },
+      {
+        "name": "Kai Eichinger",
+        "email": "kai.eichinger@outlook.com"
+      }
+    ],
+    "license": "ISC",
+    "dependencies": {
+      "clone": "^1.0.2",
+      "debug": "^2.2.0",
+      "deep-equal": "^1.0.1",
+      "deep-extend": "^0.4.1",
+      "file-exists": "^2.0.0",
+      "fs-extra": "^0.30.0",
+      "key-path-helpers": "^0.4.0"
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "electron-mocha": "^2.3.0",
+      "electron-prebuilt": "^1.2.6",
+      "mocha": "^2.5.3"
+    }
+  },
+  "packageStatus": 200
 }

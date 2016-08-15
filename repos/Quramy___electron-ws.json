@@ -44,5 +44,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-ws",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+      "start": "node ./node_modules/electron-prebuilt/cli.js ."
+    },
+    "author": "Quramy",
+    "license": "ISC",
+    "dependencies": {
+      "ws": "0.8.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "0.31.1"
+    }
+  },
+  "packageStatus": 200
 }

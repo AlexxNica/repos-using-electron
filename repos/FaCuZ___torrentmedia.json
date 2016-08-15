@@ -50,5 +50,51 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "torrentmedia",
+    "version": "0.1.0",
+    "author": "Facundo Zaldo",
+    "license": "MIT",
+    "description": "Cliente de bitorrent con webtorrent",
+    "main": "main.js",
+    "app-id": "com.facuz.torrentmedia",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/FaCuZ/torrentmedia.git"
+    },
+    "scripts": {
+      "start": "gulp",
+      "adminlte": "echo 'Making offline AdminLTE...' && cd node_modules/admin-lte/dist/css/ && sed -i '1i/*' AdminLTE.css",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "Torrent",
+      "Download",
+      "Files"
+    ],
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.2",
+      "gulp": "^3.9.1",
+      "gulp-concat": "^2.6.0",
+      "gulp-file-include": "^0.13.7",
+      "gulp-html-minifier": "^0.1.8",
+      "gulp-remove-html-comments": "^1.0.1",
+      "gulp-rename": "^1.2.2",
+      "gulp-run-electron": "^2.0.0",
+      "gulp-sass": "^2.3.2",
+      "gulp-watch": "^4.3.6"
+    },
+    "dependencies": {
+      "admin-lte": "^2.3.3",
+      "font-awesome": "^4.6.3",
+      "glob": "^7.0.3",
+      "del": "^2.2.0",
+      "humanize-duration": "^3.8.0",
+      "humanize-plus": "^1.8.2",
+      "pixl-xml": "^1.0.6",
+      "webtorrent": "^0.94.1"
+    }
+  },
+  "packageStatus": 200
 }

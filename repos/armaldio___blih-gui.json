@@ -162,5 +162,41 @@
   },
   "networkCount": 2,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "blih-gui",
+    "version": "1.0.0",
+    "description": "An cross-platform application to manage Blih.",
+    "main": "source/main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/IniterWorker/blih-gui.git"
+    },
+    "keywords": [
+      "blih",
+      "gui",
+      "epitech"
+    ],
+    "author": "Walter Bonetti",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/IniterWorker/blih-gui/issues"
+    },
+    "homepage": "https://github.com/IniterWorker/blih-gui#readme",
+    "dependencies": {
+      "gulp-minify-css": "^1.2.4",
+      "gulp-uglify": "^1.5.3",
+      "gulp-usemin": "^0.3.23",
+      "asar": "^0.11.0",
+      "electron-connect": "^0.4.2",
+      "electron-prebuilt": "^1.2.1",
+      "fs-jetpack": "^0.9.1",
+      "gulp": "^3.9.1",
+      "rcedit": "^0.5.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -168,5 +168,41 @@
   },
   "networkCount": 13991,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "2048-sundanese-edition",
+    "version": "1.0.0",
+    "builder": {
+      "win": {
+        "title": "2048 Sundanese Edition",
+        "version": "1.0.0",
+        "publisher": "Hyuwah",
+        "verbosity": 1
+      }
+    },
+    "description": "Another clone of 2048 with Aksara Sunda",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hyuwah/2048-sundanese-edition.git"
+    },
+    "keywords": [
+      "Electron",
+      "2048",
+      "sundanese"
+    ],
+    "author": "Muhammad Wahyudin",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/hyuwah/2048-sundanese-edition/issues"
+    },
+    "homepage": "https://github.com/hyuwah/2048-sundanese-edition#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

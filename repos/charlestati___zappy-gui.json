@@ -44,5 +44,50 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ZappyGUI",
+    "productName": "Zappy GUI",
+    "version": "1.0.0",
+    "description": "Zappy graphical user interface",
+    "private": true,
+    "main": "app/main.js",
+    "scripts": {
+      "start": "electron .",
+      "dev": "electron . --debug",
+      "build": "gulp",
+      "pack-mac": "electron-packager . --asar --asar-unpack=protocol-link.html --overwrite --platform=darwin --arch=x64 --icon=app-icon/mac/app.icns --prune=true --out=out --osx-sign.identity='Developer ID Application: tatibo_c'",
+      "pack-win": "electron-packager . ZappyGUI --asar --asar-unpack=protocol-link.html --overwrite --platform=win32 --arch=ia32 --icon=app-icon/win/app.ico --prune=true --out=out --version-string.CompanyName='tatibo_c' --version-string.FileDescription='Zappy GUI' --version-string.ProductName='Zappy GUI'",
+      "pack-linux": "electron-packager . --asar --asar-unpack=protocol-link.html --overwrite --platform=linux --arch=x64 --icon=app-icon/png/64.png --prune=true --out=out",
+      "package": "npm run pack-mac && npm run pack-win && npm run pack-linux"
+    },
+    "dependencies": {
+      "bluebird": "^3.4.0",
+      "lodash": "^4.13.1",
+      "path": "^0.12.7",
+      "phaser": "^2.5.0"
+    },
+    "devDependencies": {
+      "babel-core": "^6.9.1",
+      "babel-preset-es2015": "^6.9.0",
+      "del": "^2.2.0",
+      "devtron": "^1.2.0",
+      "electron-packager": "^7.1.0",
+      "electron-prebuilt": "^1.2.2",
+      "eslint": "^2.12.0",
+      "eslint-config-airbnb-base": "^3.0.1",
+      "eslint-plugin-import": "^1.8.1",
+      "gulp": "^3.9.1",
+      "gulp-autoprefixer": "^3.1.0",
+      "gulp-cache": "^0.4.5",
+      "gulp-cssnano": "^2.1.2",
+      "gulp-if": "^2.0.1",
+      "gulp-imagemin": "^3.0.1",
+      "gulp-load-plugins": "^1.2.4",
+      "gulp-sass": "^2.3.1",
+      "gulp-size": "^2.1.0",
+      "gulp-sourcemaps": "^1.6.0"
+    }
+  },
+  "packageStatus": 200
 }

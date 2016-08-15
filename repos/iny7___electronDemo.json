@@ -44,5 +44,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electronDemo",
+    "private": true,
+    "version": "0.0.1",
+    "description": "Use cases of electron APIs",
+    "main": "./src/main.js",
+    "scripts": {
+      "start": "electron ./src/main.js",
+      "build": "electron-packager ./src demo --platform=darwin --arch=x64",
+      "rebuild": "electron-packager ./src demo --overwrite --platform=darwin --arch=x64",
+      "lint": "eslint ./src"
+    },
+    "keywords": [
+      "electron"
+    ],
+    "author": "iny",
+    "devDependencies": {
+      "electron-packager": "^7.1.0",
+      "electron-prebuilt": "^1.2.5",
+      "eslint": "^2.2.0"
+    },
+    "dependencies": {
+      "electron": "^0.4.1"
+    }
+  },
+  "packageStatus": 200
 }

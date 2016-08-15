@@ -64,5 +64,27 @@
   },
   "networkCount": 0,
   "subscribersCount": 6,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "feaq-electron",
+    "version": "1.0.0",
+    "description": "A minimal FeatherQ desktop application",
+    "main": "app/main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . FeatherQ && cp app/images/favicon-32x32.png FeatherQ.app/Contents/Resources/favicon-32x32.png"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/reminisense/feaq-electron.git"
+    },
+    "author": "Reminisense",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-builder": "^5.4.2",
+      "electron-packager": "^7.0.4",
+      "electron-prebuilt": "^0.37.8"
+    }
+  },
+  "packageStatus": 200
 }

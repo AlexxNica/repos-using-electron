@@ -50,5 +50,72 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tox-electron-whatsapp",
+    "productName": "toxWhatsApp",
+    "version": "0.2.4",
+    "description": "Unofficial WhatsApp Desktop Client for OSX based on electron",
+    "author": "Enrico Hoffmann <dasrick@gmail.com>",
+    "license": "MIT",
+    "main": "main.js",
+    "keywords": [
+      "electron",
+      "whatsapp",
+      "toxWhatsApp"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dasrick/tox-electron-whatsapp.git"
+    },
+    "homepage": "https://github.com/dasrick/tox-electron-whatsapp#readme",
+    "bugs": {
+      "url": "https://github.com/dasrick/tox-electron-whatsapp/issues"
+    },
+    "electronVersion": "0.37.5",
+    "devDependencies": {
+      "electron-builder": "~3.5.2",
+      "electron-packager": "^6.0.0",
+      "electron-prebuilt": "^0.37.5"
+    },
+    "build": {
+      "app-bundle-id": "de.dasrick.tox-electron-whatsapp",
+      "app-category-type": "public.app-category.social-networking",
+      "osx": {
+        "title": "toxWhatsApp",
+        "icon": "build/icon.icns",
+        "icon-size": 80,
+        "background": "build/background.png",
+        "contents": [
+          {
+            "x": 438,
+            "y": 344,
+            "type": "link",
+            "path": "/Applications"
+          },
+          {
+            "x": 192,
+            "y": 344,
+            "type": "file"
+          }
+        ]
+      },
+      "win": {
+        "title": "toxWhatsApp",
+        "icon": "build/icon.ico"
+      }
+    },
+    "scripts": {
+      "start": "electron ./app",
+      "start-dev": "export NODE_ENV=development && electron ./app",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "postinstall": "install-app-deps",
+      "pack": "export CSC_NAME='Developer ID Application: Enrico Hoffmann (M9E3AF4GW4)' && build",
+      "dist": "npm run dist:osx && npm run dist:win64 && npm run dist:linux",
+      "dist:osx": "export CSC_NAME='Developer ID Application: Enrico Hoffmann (M9E3AF4GW4)' && build --platform darwin",
+      "dist:win64": "build --platform win32 --arch x64",
+      "dist:linux": "build --platform linux --arch x64"
+    }
+  },
+  "packageStatus": 200
 }

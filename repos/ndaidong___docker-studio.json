@@ -50,5 +50,36 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "docker-studio",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "build": "electron-packager . --all"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ndaidong/docker-studio.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/ndaidong/docker-studio/issues"
+    },
+    "homepage": "https://github.com/ndaidong/docker-studio",
+    "devDependencies": {
+      "electron-packager": "^7.0.4",
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

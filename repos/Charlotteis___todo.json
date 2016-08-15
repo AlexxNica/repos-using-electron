@@ -50,5 +50,50 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "todo",
+    "version": "0.1.0",
+    "description": "A TODO app, built in Electron.",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "standard",
+      "build": "electron-packager . --all"
+    },
+    "pre-commit": [
+      "test"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Charlotteis/todo.git"
+    },
+    "keywords": [
+      "todo",
+      "electron",
+      "node"
+    ],
+    "author": "Charlotte Spencer <charlottelaspencer@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Charlotteis/todo/issues"
+    },
+    "homepage": "https://github.com/Charlotteis/todo#readme",
+    "devDependencies": {
+      "devtron": "^1.3.0",
+      "electron-packager": "^7.6.0",
+      "electron-prebuilt": "^1.3.3",
+      "gulp": "^3.9.1",
+      "gulp-clean": "^0.3.2",
+      "gulp-concat-css": "^2.3.0",
+      "gulp-cssmin": "^0.1.7",
+      "gulp-sass": "^2.3.2",
+      "pre-commit": "^1.1.3",
+      "standard": "^7.1.2"
+    },
+    "dependencies": {
+      "electron-debug": "^1.0.1"
+    }
+  },
+  "packageStatus": 200
 }

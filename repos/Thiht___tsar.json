@@ -50,5 +50,39 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tsar",
+    "version": "0.0.1",
+    "description": "The RSS reader that doesn't suck",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Thiht/tsar.git"
+    },
+    "keywords": [
+      "rss",
+      "atom",
+      "feed"
+    ],
+    "author": "Thibaut Rousseau",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Thiht/tsar/issues"
+    },
+    "homepage": "https://github.com/Thiht/tsar#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0",
+      "source-map-loader": "^0.1.5",
+      "ts-loader": "^0.8.2"
+    },
+    "dependencies": {
+      "react": "^15.2.0",
+      "react-dom": "^15.2.0"
+    }
+  },
+  "packageStatus": 200
 }

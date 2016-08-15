@@ -58,5 +58,21 @@
   },
   "networkCount": 8,
   "subscribersCount": 15,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-demo",
+    "private": true,
+    "dependencies": {
+      "leveldown": "^1.4.1",
+      "levelup": "^1.2.1"
+    },
+    "scripts": {
+      "postinstall": "cd node_modules/leveldown && HOME=~/.electron-gyp node-gyp rebuild --target=0.36.10 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
+      "start": "electron ."
+    },
+    "devDependencies": {
+      "electron-prebuilt": "0.37.6"
+    }
+  },
+  "packageStatus": 200
 }

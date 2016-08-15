@@ -44,5 +44,34 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "MaterialExplorer",
+    "version": "v0.1.0",
+    "description": "Flat, modern file explorer.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://www.github.com/atf1999/MaterialExplorer"
+    },
+    "keywords": [
+      "file",
+      "explorer",
+      "manager",
+      "material",
+      "design",
+      "material design"
+    ],
+    "author": "atf1999, ErikBoesen",
+    "license": "MIT",
+    "devDependencies": {
+      "fs-extra": "^0.30.0",
+      "electron-prebuilt": "^1.2.7",
+      "paper-ripple": "^0.2.0"
+    }
+  },
+  "packageStatus": 200
 }

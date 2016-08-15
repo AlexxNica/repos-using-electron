@@ -64,5 +64,31 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "wifiharvester-desktop",
+    "version": "1.0.0",
+    "description": "Wifi heat generator from kismet",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron index.js"
+    },
+    "keywords": [
+      "wifi"
+    ],
+    "repository": {
+      "github": "https://github.com/COSIG/WifiHarvester-DesktopApp"
+    },
+    "author": "Jimmy Mercier-Dionne",
+    "license": "ISC",
+    "dependencies": {
+      "electron-prebuilt": "^0.36.0",
+      "sleep": "^3.0.1",
+      "xml2js": "0.4.16"
+    },
+    "devDependencies": {
+      "xml2js": "0.4.16"
+    }
+  },
+  "packageStatus": 200
 }

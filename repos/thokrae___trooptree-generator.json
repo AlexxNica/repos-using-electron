@@ -50,5 +50,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "trooptree-generator",
+    "version": "1.0.0",
+    "description": "A tool for visualizing troop trees from the game \"Mount & Blade\"",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron build/main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thokrae/trooptree-generator.git"
+    },
+    "keywords": [
+      "Mount & Blade"
+    ],
+    "author": "Thomas Krämer",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/thokrae/trooptree-generator/issues"
+    },
+    "homepage": "https://github.com/thokrae/trooptree-generator#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.8",
+      "jasmine-core": "2.4.1"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,50 @@
   },
   "networkCount": 1,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "omnihearth",
+    "productName": "OmniHearth",
+    "version": "0.0.0",
+    "description": "Hearthstone assistant",
+    "license": "MIT",
+    "main": "./src/browser/main.js",
+    "repository": "hemslo/omnihearth",
+    "author": {
+      "name": "Hemslo Wang",
+      "email": "hemslo.wang@gmail.com",
+      "url": "github.com/hemslo/omnihearth"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git",
+      "test": "node test/"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "devDependencies": {
+      "electron-packager": "^3.3.0",
+      "electron-prebuilt": "^0.25.2"
+    },
+    "dependencies": {
+      "babel": "^5.5.6",
+      "bootstrap": "^3.3.5",
+      "flux-react": "^2.6.6",
+      "gulp": "^3.9.0",
+      "immutable": "^3.7.4",
+      "node-jsx": "^0.13.3",
+      "react": "^0.13.3",
+      "react-tools": "^0.13.3"
+    }
+  },
+  "packageStatus": 200
 }

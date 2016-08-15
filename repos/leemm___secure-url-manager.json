@@ -44,5 +44,30 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "secureurlmanager",
+    "productName": "Secure URL Manager",
+    "description": "URL Manager for Mac OSX via Menubar",
+    "devDependencies": {
+      "electron-builder": "^5.14.2",
+      "electron-prebuilt": "^1.2.8"
+    },
+    "build": {
+      "appId": "co.uk.chewedup.secure-url-manager",
+      "app-category-type": "public.app-category.productivity",
+      "iconUrl": "https://s3-eu-west-1.amazonaws.com/unofficial-player/icon.ico",
+      "osx": {}
+    },
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "start": "electron ./app --enable-logging",
+      "dev": "NODE_ENV='development' npm run start",
+      "dist": "npm run dist:osx"
+    },
+    "dependencies": {
+      "fs-extra": "^0.30.0"
+    }
+  },
+  "packageStatus": 200
 }

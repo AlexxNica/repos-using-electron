@@ -64,5 +64,44 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "invoices.app",
+    "version": "0.1.0",
+    "description": "Electrom App to Create Invoices",
+    "main": "main.js",
+    "scripts": {
+      "test": "live-server --port=3300",
+      "start": "./node_modules/.bin/electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fastercar/invoices.app.git"
+    },
+    "keywords": [
+      "fastercar",
+      "invoices"
+    ],
+    "author": "Alexander J. Salas B. <a.salas@ieee.org>",
+    "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/fastercar/invoices.app/issues"
+    },
+    "homepage": "https://github.com/fastercar/invoices.app#readme",
+    "devDependencies": {
+      "electron-connect": "^0.3.3",
+      "electron-prebuilt": "^0.33.0",
+      "gulp": "^3.9.0"
+    },
+    "dependencies": {
+      "angular": "^1.4.6",
+      "angular-animate": "^1.4.6",
+      "angular-aria": "^1.4.6",
+      "angular-material": "^0.11.0",
+      "electron-jade": "^1.2.2",
+      "gravatar": "^1.3.0",
+      "thinky": "^2.1.6"
+    }
+  },
+  "packageStatus": 200
 }

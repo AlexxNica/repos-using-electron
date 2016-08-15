@@ -50,5 +50,36 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "swagger-spec-to-pdf",
+    "version": "1.0.1",
+    "description": "Dump swagger json spec into pdf document.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/agreatfool/swagger-spec-to-pdf.git"
+    },
+    "maintainers": [
+      {
+        "name": "agreatfool",
+        "email": "nightghost5078@gmail.com"
+      }
+    ],
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/agreatfool/swagger-spec-to-pdf/issues"
+    },
+    "homepage": "https://github.com/agreatfool/swagger-spec-to-pdf#readme",
+    "dependencies": {
+      "argparse": "^1.0.7",
+      "electron-prebuilt": "^0.37.7",
+      "http-server": "^0.9.0",
+      "yaml-js": "^0.1.3"
+    }
+  },
+  "packageStatus": 200
 }

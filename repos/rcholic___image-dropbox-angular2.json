@@ -44,5 +44,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "angular2-electron",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "webpack --progress --profile --colors --display-error-details --display-cached",
+      "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
+      "electron": "electron app"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.4",
+      "ts-loader": "^0.7.2",
+      "typescript": "^1.7.3",
+      "webpack": "^1.12.9",
+      "webpack-dev-server": "^1.14.0"
+    },
+    "dependencies": {
+      "angular2": "2.0.0-alpha.54",
+      "zone.js": "^0.5.10",
+      "bootstrap": "^3.3.6",
+      "gulp": "^3.9.0"
+    },
+    "author": "",
+    "license": "ISC"
+  },
+  "packageStatus": 200
 }

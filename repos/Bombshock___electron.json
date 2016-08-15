@@ -44,5 +44,35 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electro-commander",
+    "version": "0.1.0",
+    "description": "Electro Commander",
+    "main": "main.js",
+    "scripts": {
+      "start": "node start.js",
+      "test": "echo Nope, no tests"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Bombshock/electron.git"
+    },
+    "author": "",
+    "license": "",
+    "dependencies": {
+      "colors": "^1.1.2",
+      "easy-ipc": "latest",
+      "electron-prebuilt": "latest",
+      "grunt": "^0.4.5",
+      "include-all": "latest",
+      "moment": "latest",
+      "open": "latest",
+      "q": "latest",
+      "require-all": "^2.0.0",
+      "sprintf-js": "latest",
+      "winreg": "latest"
+    }
+  },
+  "packageStatus": 200
 }

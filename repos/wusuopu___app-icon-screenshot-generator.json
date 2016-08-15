@@ -44,5 +44,26 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "screnshot-scale",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.8"
+    },
+    "dependencies": {
+      "async": "^1.5.2",
+      "gm": "^1.22.0",
+      "lodash": "^4.11.2",
+      "mkdirp": "^0.5.1"
+    }
+  },
+  "packageStatus": 200
 }

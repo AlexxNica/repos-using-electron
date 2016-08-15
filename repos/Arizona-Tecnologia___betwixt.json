@@ -176,5 +176,48 @@
   },
   "networkCount": 68,
   "subscribersCount": 9,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "betwixt",
+    "version": "0.0.0",
+    "description": "Web Debugging Proxy based on Chrome DevTools Network panel",
+    "main": "main.js",
+    "scripts": {
+      "build": "npm run build:custom -- --platform=all --arch=all",
+      "build:custom": "electron-packager ./ Betwixt --overwrite --ignore ./bin/ --out ./bin/ --version=0.35.0",
+      "build:linux": "npm run build:custom -- --platform=linux --arch=all",
+      "build:osx": "npm run build:custom -- --platform=darwin --arch=x64",
+      "build:win": "npm run build:custom -- --platform=win32 --arch=all",
+      "start": "electron main.js",
+      "test": "jshint main.js lib/ && jscs main.js lib/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kdzwinel/betwixt.git"
+    },
+    "keywords": [
+      "traffic",
+      "proxy"
+    ],
+    "author": "Konrad Dzwinel",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kdzwinel/betwixt/issues"
+    },
+    "homepage": "https://github.com/kdzwinel/betwixt",
+    "dependencies": {
+      "agentkeepalive": "^2.0.3",
+      "http-proxy": "^1.12.0",
+      "istextorbinary": "^1.0.2",
+      "chalk": "^1.1.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.1",
+      "electron-prebuilt": "^0.34.0",
+      "jscs": "^2.6.0",
+      "jshint": "^2.8.0"
+    },
+    "engine": "node >= 5.0.0"
+  },
+  "packageStatus": 200
 }

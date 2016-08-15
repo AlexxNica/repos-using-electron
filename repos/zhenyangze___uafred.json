@@ -44,5 +44,20 @@
   "license": null,
   "networkCount": 11,
   "subscribersCount": 9,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "uafred",
+    "version": "1.0.0",
+    "main": "app/main.js",
+    "author": "zhenyangze@gmail.com",
+    "scripts": {
+      "start": "electron app/main.js",
+      "package": "electron-packager ./ UAfred  --ignore=\"download\" --ignore=\"screenshot\"  --ignore=\"cache\"  --platform=linux --arch=all --icon=\"./app/uafred.png\" --out ./download --overwrite "
+    },
+    "devDependencies": {
+      "electron-packager": "^7.0.2",
+      "electron-prebuilt": "^1.1.0"
+    }
+  },
+  "packageStatus": 200
 }

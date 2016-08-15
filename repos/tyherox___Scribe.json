@@ -44,5 +44,44 @@
   "license": null,
   "networkCount": 2,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "scribe",
+    "version": "0.0.1",
+    "description": "A Customizable Writing Program",
+    "devDependencies": {
+      "babel-preset-react": "^6.11.1",
+      "electron-packager": "^7.0.2",
+      "electron-prebuilt": "^1.2.3",
+      "electron-rebuild": "^1.1.3",
+      "muicss": "^0.6.0"
+    },
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "dependencies": {
+      "interact.js": "^1.2.6",
+      "prosemirror": "^0.8.1",
+      "react": "^15.3.0",
+      "react-dom": "^15.3.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tyherox/Scribe.git"
+    },
+    "keywords": [
+      "Word",
+      "Processor",
+      "Text",
+      "Editor"
+    ],
+    "author": "John Bae",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/tyherox/Scribe/issues"
+    },
+    "homepage": "https://github.com/tyherox/Scribe#readme"
+  },
+  "packageStatus": 200
 }

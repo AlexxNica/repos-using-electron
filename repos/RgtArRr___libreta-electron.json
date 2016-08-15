@@ -50,5 +50,27 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Libreta",
+    "description": "Simple libreta de apuntes",
+    "version": "0.1.5",
+    "main": "main.js",
+    "license": "Apache-2.0",
+    "scripts": {
+      "start": "electron ."
+    },
+    "dependencies": {
+      "jquery": "^2.1.4",
+      "sql.js": "^0.3.2"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/RgtArRr/libreta-electron.git"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "qmlweb-viewer",
+    "version": "0.0.4",
+    "description": "Bringing QmlWeb to your desktop",
+    "license": "MIT",
+    "repository": "qmlweb/qmlweb-viewer",
+    "main": "main.js",
+    "bin": {
+      "qmlweb-viewer": "qmlweb-viewer.js"
+    },
+    "scripts": {
+      "start": "electron ."
+    },
+    "dependencies": {
+      "electron-prebuilt": "^1.2.0",
+      "minimist": "^1.2.0",
+      "qmlweb": "^0.1.0"
+    },
+    "files": [
+      "AUTHORS",
+      "LICENSE",
+      "README.md",
+      "*.html",
+      "*.js"
+    ]
+  },
+  "packageStatus": 200
 }

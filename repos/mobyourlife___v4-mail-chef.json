@@ -64,5 +64,46 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "mail-chef",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Editor de textos para composicao de emails para campanhas de email marketing.",
+    "main": "src/main.js",
+    "scripts": {
+      "start": "electron src/main.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mobyourlife/mail-chef.git"
+    },
+    "keywords": [
+      "text",
+      "editor",
+      "composer",
+      "email",
+      "marketing",
+      "campaigns"
+    ],
+    "author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/mobyourlife/mail-chef/issues"
+    },
+    "homepage": "https://github.com/mobyourlife/mail-chef#readme",
+    "devDependencies": {
+      "bower": "^1.3.3",
+      "electron-prebuilt": "^0.36.0",
+      "gulp": "^3.5.6",
+      "gulp-sass": "^2.0.4",
+      "gulp-concat": "^2.2.0",
+      "gulp-minify-css": "^0.3.0",
+      "gulp-rename": "^1.2.0",
+      "gulp-util": "^2.2.14",
+      "shelljs": "^0.3.0"
+    }
+  },
+  "packageStatus": 200
 }

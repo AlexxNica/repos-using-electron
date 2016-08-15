@@ -64,5 +64,41 @@
   },
   "networkCount": 30,
   "subscribersCount": 20,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "gorescript",
+    "description": "Retro first-person shooter, written in JavaScript using three.js",
+    "version": "1.1.0",
+    "homepage": "http://gorescript.com",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gorescript/gorescript.git"
+    },
+    "author": {
+      "name": "Sergiu Bucur",
+      "email": "sergiu.bucur@outlook.com"
+    },
+    "license": "MIT",
+    "scripts": {
+      "plato": "plato -r -d report src\\game\\js"
+    },
+    "devDependencies": {
+      "archiver": "^0.21.0",
+      "del": "^2.2.0",
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.9",
+      "gulp": "^3.9.0",
+      "gulp-concat-util": "^0.5.4",
+      "gulp-if": "^2.0.0",
+      "gulp-insert": "^0.5.0",
+      "gulp-preprocess": "^2.0.0",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-uglify": "^1.5.1",
+      "gulp-util": "^3.0.7",
+      "require-dir": "^0.3.0",
+      "run-sequence": "^1.1.5"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

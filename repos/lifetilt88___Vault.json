@@ -44,5 +44,25 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electronapp",
+    "version": "1.0.0",
+    "description": "This is a simple, practice electron app.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "Gunnar Norred",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.7"
+    },
+    "dependencies": {
+      "electron-require": "^0.3.0",
+      "firebase": "^3.2.0",
+      "jQuery": "^1.7.4"
+    }
+  },
+  "packageStatus": 200
 }

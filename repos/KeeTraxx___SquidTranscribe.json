@@ -50,5 +50,53 @@
   },
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "squidtranscribe",
+    "productName": "SquidTranscribe",
+    "version": "1.2.4",
+    "description": "Transcription software to ease transcriptionsmof interviews.",
+    "license": "MIT",
+    "main": "index.js",
+    "repository": "keetraxx/squidtranscribe",
+    "author": {
+      "name": "Khôi Tran",
+      "email": "kt@compile.ch",
+      "url": "tran-engineering.ch"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "start": "gulp && electron .",
+      "build": "gulp && electron-packager . SquidTranscribe --icon=fishtranscribe.ico --out=appdist --ignore=appdist --ignore=bower_components --ignore=\"app/\" --ignore=\"node_modules/!(electron-debug|iconv-lite)\" --all --version=0.30.0",
+      "post-install": "bower install",
+      "gulp": "gulp"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "transcription, rich client, electron-app"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.1.1",
+      "iconv-lite": "^0.4.11"
+    },
+    "devDependencies": {
+      "bower": "^1.4.1",
+      "bower-files": "^3.7.2",
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.30.0",
+      "gulp": "^3.9.0",
+      "gulp-concat": "^2.6.0",
+      "gulp-less": "^3.0.3",
+      "gulp-newer": "^0.5.1",
+      "gulp-sourcemaps": "^1.5.2",
+      "gulp-uglify": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

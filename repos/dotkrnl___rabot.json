@@ -44,5 +44,84 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "rabot",
+    "version": "1.0.0",
+    "description": "RaBot is a project aiming at creating a vivid and interactive environment for children to learn computer programming, it's also our project for the course <Software Engineering> and it might be used by JiSuanKe.com for further development.",
+    "scripts": {
+      "server": "grunt serve",
+      "build": "bower install && grunt",
+      "test": "jest",
+      "startelectron": "electron main.js"
+    },
+    "author": "RaBot Group",
+    "license": "BSD-3-Clause",
+    "private": true,
+    "dependencies": {
+      "coffee-script": "^1.10.0",
+      "coffeeify": "^1.1.0",
+      "electron-packager": "^5.1.1",
+      "grunt": "^0.4.5",
+      "grunt-bower": "^0.20.0",
+      "grunt-browserify": "^4.0.1",
+      "grunt-contrib-coffee": "^0.13.0",
+      "grunt-contrib-copy": "^0.8.2",
+      "grunt-contrib-jade": "^0.15.0",
+      "grunt-contrib-sass": "gruntjs/grunt-contrib-sass",
+      "grunt-ssh": "^0.12.8",
+      "grunt-yaml": "^0.4.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.0",
+      "grunt-concurrent": "^2.0.4",
+      "grunt-connect-proxy": "^0.2.0",
+      "grunt-contrib-connect": "^0.11.2",
+      "grunt-contrib-watch": "^0.6.1",
+      "grunt-shell": "^1.1.2",
+      "jest-cli": "^0.8.2"
+    },
+    "jest": {
+      "verbose": "true",
+      "scriptPreprocessor": "jestcoffee.js",
+      "collectCoverage": true,
+      "testFileExtensions": [
+        "coffee",
+        "js"
+      ],
+      "moduleFileExtensions": [
+        "coffee",
+        "js"
+      ],
+      "collectCoverageOnlyFrom": {
+        "frontend/apps/accountactivation/app.coffee": true,
+        "frontend/apps/commons/app.coffee": true,
+        "frontend/apps/play/app.coffee": true,
+        "frontend/apps/register/app.coffee": true,
+        "frontend/apps/updateinfo/app.coffee": true,
+        "frontend/commons/logic/asyncify.coffee": true,
+        "frontend/commons/logic/bootstrap.coffee": true,
+        "frontend/commons/logic/emitter.coffee": true,
+        "frontend/commons/logic/md5.coffee": true,
+        "frontend/commons/logic/worker.coffee": true,
+        "frontend/commons/view.coffee": true,
+        "frontend/models/game.coffee": true,
+        "frontend/models/stage.coffee": true,
+        "frontend/models/user.coffee": true,
+        "frontend/models/userprogress.coffee": true,
+        "frontend/widgets/code-editor/logic/rabot-iced.coffee": true,
+        "frontend/widgets/code-editor/view.coffee": true,
+        "frontend/widgets/game-control-bar/view.coffee": true,
+        "frontend/widgets/game-over-dialog/view.coffee": true,
+        "frontend/widgets/game-scene/logic/element.coffee": true,
+        "frontend/widgets/game-scene/view.coffee": true,
+        "frontend/widgets/game-view/view.coffee": true,
+        "frontend/widgets/level-selector/view.coffee": true,
+        "frontend/widgets/nav-level-selector/view.coffee": true,
+        "frontend/widgets/nav-user-manager/view.coffee": true,
+        "frontend/widgets/view.coffee": true
+      }
+    }
+  },
+  "packageStatus": 200
 }

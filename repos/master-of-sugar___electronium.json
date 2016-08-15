@@ -50,5 +50,31 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electronium",
+    "version": "1.0.0",
+    "description": "This is capture and replay testing tool for web apps.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/master-of-sugar/electronium.git"
+    },
+    "author": "master-of-sugar",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/master-of-sugar/electronium/issues"
+    },
+    "homepage": "https://github.com/master-of-sugar/electronium#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "selenium-webdriver": "^2.53.1"
+    }
+  },
+  "packageStatus": 200
 }

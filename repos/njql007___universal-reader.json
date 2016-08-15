@@ -50,5 +50,26 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "universal-reader",
+    "version": "0.1.0",
+    "description": "This app can parse in any website and you can read them just like reading rss feeds!",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Liang Qu",
+    "license": "UNLICENSED",
+    "repository": "njql007/universal-readers",
+    "dependencies": {
+      "angular2": "^2.0.0-alpha.45"
+    },
+    "devDependencies": {
+      "coffee-script": "^1.10.0",
+      "electron-prebuilt": "^0.34.3"
+    }
+  },
+  "packageStatus": 200
 }

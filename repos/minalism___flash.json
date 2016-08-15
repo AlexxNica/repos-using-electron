@@ -44,5 +44,34 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "flash",
+    "version": "1.0.0",
+    "description": "Flash - Text Editor for programmers",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/minalism/flash"
+    },
+    "keywords": [
+      "best ide",
+      "programmers",
+      "flash",
+      "text Editor"
+    ],
+    "author": "Martin Kirilov",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/minalism/flash/issues"
+    },
+    "homepage": "https://github.com/minalism/flash#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.4"
+    }
+  },
+  "packageStatus": 200
 }

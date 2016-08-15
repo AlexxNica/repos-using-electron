@@ -44,5 +44,47 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "twits",
+    "author": "Taha İPEK",
+    "description": "Yakınımdaki Twitler",
+    "version": "1.0.5",
+    "private": true,
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "npm run build-64 && npm run build-win32 && npm run build-linux32",
+      "build-64": "npm run build-mac && npm run build-win && npm run build-linux",
+      "build-mac": "electron-packager ./ Twits --app-bundle-id=twits --icon=images/appicon.icns --asar --prune --out=build --overwrite=true --platform=darwin --arch=x64 --version=1.2.5 --app-version=1.0.5",
+      "build-win": "electron-packager ./ Twits --app-bundle-id=twits --version-string.FileDescription=Twits --icon=assets/win/logo.ico --asar --prune --out=build --overwrite=true --platform=win32 --arch=x64 --version=1.2.5 --app-version=1.0.5",
+      "build-win32": "electron-packager ./ Twits --app-bundle-id=twits --asar --prune --version-string.FileDescription=Twits --icon=assets/win/logo.ico --out=build --overwrite=true --platform=win32 --arch=ia32 --version=1.2.5 --app-version=1.0.5",
+      "build-linux": "electron-packager ./ Twits --app-bundle-id=twits --asar --prune --out=build --overwrite=true --platform=linux --arch=x64 --version=1.2.5 --app-version=1.0.5",
+      "build-linux32": "electron-packager ./ Twits --app-bundle-id=twits --asar --prune --out=build --overwrite=true --platform=linux --arch=ia32 --version=1.2.5 --app-version=1.0.5"
+    },
+    "dependencies": {
+      "body-parser": "~1.15.1",
+      "cookie-parser": "~1.4.3",
+      "debug": "~2.2.0",
+      "express": "~4.13.4",
+      "jade": "~1.11.0",
+      "morgan": "~1.7.0",
+      "serve-favicon": "~2.3.0"
+    },
+    "devDependencies": {
+      "app": "^0.1.0",
+      "debug": "^2.2.0",
+      "electron": "^0.4.1",
+      "electron-packager": "^7.1.0",
+      "electron-prebuilt": "^1.2.5",
+      "gulp": "^3.9.1",
+      "gulp-concat": "2.6.0",
+      "gulp-electron": "^0.1.3",
+      "gulp-sourcemaps": "1.6.0",
+      "gulp-typescript": "2.10.0",
+      "oauth": "^0.9.14",
+      "twitter": "^1.3.0"
+    }
+  },
+  "packageStatus": 200
 }

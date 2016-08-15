@@ -50,5 +50,47 @@
   },
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-is",
+    "version": "2.1.0",
+    "description": "An 'is' utility for Electron which provides a set of handy functions, with a self-descriptive name.",
+    "main": "is.js",
+    "scripts": {
+      "pretest": "standard",
+      "test": "electron test/test.js"
+    },
+    "keywords": [
+      "platform",
+      "type",
+      "process",
+      "arch",
+      "env",
+      "electron",
+      "os",
+      "release",
+      "is",
+      "main",
+      "renderer"
+    ],
+    "author": "Tomas Della Vedova - @delvedor (http://delved.org)",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/delvedor/electron-is.git"
+    },
+    "bugs": {
+      "url": "https://github.com/delvedor/electron-is/issues"
+    },
+    "homepage": "https://github.com/delvedor/electron-is#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.7",
+      "standard": "^7.1.2"
+    },
+    "dependencies": {
+      "electron-is-dev": "^0.1.1",
+      "semver": "^5.3.0"
+    }
+  },
+  "packageStatus": 200
 }

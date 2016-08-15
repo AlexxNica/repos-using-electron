@@ -50,5 +50,33 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-monero",
+    "version": "0.0.0",
+    "private": true,
+    "main": "main.js",
+    "scripts": {
+      "start": "cd ./src && electron .",
+      "pack": "npm run compile && electron-packager ./ electron-monero --platform=all --arch=all --version=0.36.2 --out=./build --ignore=./build --prune"
+    },
+    "dependencies": {
+      "jquery": "^2.2.0",
+      "mkdirp": "^0.5.1",
+      "monero-nodejs": "^2.0.0",
+      "node-localstorage": "^0.6.0",
+      "portscanner": "^1.0.0",
+      "tar": "^2.2.1",
+      "unzip": "^0.1.11"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.36.2",
+      "eslint": "^1.10.3",
+      "jsdoc": "^3.4.0",
+      "ncp": "^2.0.0",
+      "rimraf": "^2.5.0"
+    }
+  },
+  "packageStatus": 200
 }

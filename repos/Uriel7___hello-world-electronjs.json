@@ -50,5 +50,17 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "sound_machine",
+    "version": "0.1.0",
+    "main": "./main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "devDependencies": {
+      "electron-prebuilt": "~0.30.4"
+    }
+  },
+  "packageStatus": 200
 }

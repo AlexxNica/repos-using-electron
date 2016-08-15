@@ -50,5 +50,35 @@
   },
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "rescuetime-menu-bar",
+    "version": "0.0.2",
+    "description": "A menu bar with productive a days total productive hours from rescuetime.com",
+    "devDependencies": {
+      "auto-launch": "^1.1.1",
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.36.0",
+      "menubar": "^4.0.2",
+      "parse-seconds": "^1.0.0",
+      "rescuetime.js": "0.0.2"
+    },
+    "main": "main.js",
+    "scripts": {
+      "build": "electron-packager . RescueTimeMenuBar --platform=darwin --arch=x64 --version=0.36.0 --overwrite --out=dist/ --icon=rescuetime.icns",
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "TODO"
+    },
+    "keywords": [
+      "rescuetime",
+      "menubar",
+      "productivity"
+    ],
+    "author": "Will Washburn <will.washburn@gmail.com>",
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

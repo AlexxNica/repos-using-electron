@@ -44,5 +44,29 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "mu-cash-pay",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "./node_modules/.bin/electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/brunocarvalhodearaujo/mu-cash-pay.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/brunocarvalhodearaujo/mu-cash-pay/issues"
+    },
+    "homepage": "https://github.com/brunocarvalhodearaujo/mu-cash-pay",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.5"
+    }
+  },
+  "packageStatus": 200
 }

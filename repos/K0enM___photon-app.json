@@ -44,5 +44,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "photon-app",
+    "version": "0.1.0",
+    "description": "Photon test app",
+    "main": "app/index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/K0enM/photon-app.git"
+    },
+    "author": "Koen Molenaar",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/K0enM/photon-app/issues"
+    },
+    "homepage": "https://github.com/K0enM/photon-app",
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.1"
+    }
+  },
+  "packageStatus": 200
 }

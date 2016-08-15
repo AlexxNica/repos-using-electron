@@ -162,5 +162,27 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "timer",
+    "version": "1.0.0",
+    "description": "Simple and basic timer.",
+    "main": "main.js",
+    "scripts": {
+      "postinstall": "bower install && electron .",
+      "start": "electron ."
+    },
+    "keywords": [
+      "timer",
+      "counter",
+      "simple timer",
+      "electron timer"
+    ],
+    "author": "Muhammed Furkan AYDIN",
+    "license": "GPL",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

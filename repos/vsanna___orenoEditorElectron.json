@@ -44,5 +44,26 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "orenoEditorElectron",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.7",
+      "jquery": "^2.2.3"
+    },
+    "dependencies": {
+      "electron-packager": "^7.0.1"
+    }
+  },
+  "packageStatus": 200
 }

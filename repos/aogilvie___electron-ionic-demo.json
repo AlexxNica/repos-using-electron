@@ -44,5 +44,30 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "demo-app",
+    "version": "0.0.1",
+    "description": "A demo app.",
+    "keywords": [
+      "demo",
+      "app"
+    ],
+    "repository": "http://d-caplin-repo01.sbisec.int/ally/demo-app.git",
+    "author": "Ally Ogilvie <alexander.ogilvie@japannext.co.jp>",
+    "dependencies": {
+      "electron-prebuilt": "*"
+    },
+    "devDependencies": {
+      "nodelint": "0.5.2"
+    },
+    "main": "index",
+    "engines": {
+      "node": ">= 0.12.0"
+    },
+    "scripts": {
+      "test": "make lint && make test"
+    }
+  },
+  "packageStatus": 200
 }

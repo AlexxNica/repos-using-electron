@@ -50,5 +50,57 @@
   },
   "networkCount": 5,
   "subscribersCount": 5,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electronify",
+    "version": "2.0.0",
+    "description": "The simplest way to build Electron apps.",
+    "main": "lib/index.js",
+    "directories": {
+      "example": "example"
+    },
+    "scripts": {
+      "test": "electron example"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/IonicaBizau/electronify.git"
+    },
+    "keywords": [
+      "electron",
+      "applications",
+      "desktop"
+    ],
+    "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/IonicaBizau/electronify/issues"
+    },
+    "homepage": "https://github.com/IonicaBizau/electronify#readme",
+    "blah": {
+      "ex_img": "http://i.imgur.com/o5sBv1w.png",
+      "h_img": "http://i.imgur.com/q2L4Qna.png",
+      "title": "Electronify",
+      "description": "[Electron](https://github.com/atom/electron) is amazing! Electronify makes its usage simpler by reusing the same code snippets in common apps."
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.8"
+    },
+    "dependencies": {
+      "ul": "^5.2.2"
+    },
+    "files": [
+      "bin/",
+      "app/",
+      "lib/",
+      "dist/",
+      "src/",
+      "resources/",
+      "menu/",
+      "scripts/",
+      "cli.js",
+      "index.js"
+    ]
+  },
+  "packageStatus": 200
 }

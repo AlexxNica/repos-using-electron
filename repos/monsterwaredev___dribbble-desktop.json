@@ -64,5 +64,43 @@
   },
   "networkCount": 1,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "dribbble-desktop",
+    "version": "1.0.0",
+    "description": "A Dribbble desktop application written in Node.js and Electron",
+    "main": "src/loader.js",
+    "scripts": {
+      "start": "utility/compile-less.bash && electron src/loader.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:monsterwaredev/dribbble-desktop.git"
+    },
+    "keywords": [
+      "Dribbble",
+      "Desktop",
+      "Electron",
+      "Node.JS",
+      "Open-Source"
+    ],
+    "author": "samuelngs <sam@infinitely.io>",
+    "contributors": [
+      {
+        "name": "syn3r6y"
+      }
+    ],
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/monsterwaredev/dribbble-desktop/issues<Paste>"
+    },
+    "homepage": "https://github.com/monsterwaredev/dribbble-desktop#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.0"
+    },
+    "dependencies": {
+      "dribbble-node-api": "monsterwaredev/dribbble-node-api"
+    }
+  },
+  "packageStatus": 200
 }

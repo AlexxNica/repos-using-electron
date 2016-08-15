@@ -50,5 +50,34 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Electron-Curse",
+    "version": "0.0.1",
+    "description": "A minimal Electron application to access Curse Voice",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/markolo25/Electron-Curse-.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "Mark Mendoza",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/markolo25/Electron-Curse-/issues"
+    },
+    "homepage": "https://github.com/markolo25/Electron-Curse-",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.8"
+    }
+  },
+  "packageStatus": 200
 }

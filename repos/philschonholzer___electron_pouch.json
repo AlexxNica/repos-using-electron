@@ -44,5 +44,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hello-app",
+    "version": "0.1.0",
+    "main": "main.js",
+    "repository": "https://github.com/nolanlawson/hello-electron-with-pouchdb.git",
+    "license": "Apache",
+    "dependencies": {
+      "pouchdb": "^4.0.3"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "0.33.0"
+    },
+    "scripts": {
+      "start": "electron ."
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,26 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "soundcloud-shell",
+    "version": "0.1.1",
+    "main": "main.js",
+    "scripts": {
+      "lint": "standard",
+      "start": "ENVIRONMENT=DEV electron .",
+      "package": "electron-packager . --ignore=node_modules --platform=darwin --arch=x64 --overwrite --out=release"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.2.0",
+      "electron-prebuilt": "^1.2.6",
+      "standard": "^7.1.2"
+    },
+    "standard": {
+      "ignore": [
+        "/release/"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

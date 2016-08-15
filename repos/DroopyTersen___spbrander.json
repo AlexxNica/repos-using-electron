@@ -50,5 +50,70 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "spbrander-desktop",
+    "version": "0.0.1",
+    "description": "A desktop application for the SharePoint utility module, spbrander",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "test": "mocha --compilers .jsx:test/jsxCompiler.js",
+      "test:watch": "mocha --watch --reporter min --compilers .jsx:test/jsxCompiler.js",
+      "materialize": "node-sass vendor/materialize/sass/materialize.scss -o vendor/materialize",
+      "sass": "node-sass styles/sass/app.scss -o styles",
+      "sass:watch": "watch \"npm run sass\" styles/sass --interval .1",
+      "lint": "eslint src/** --ignore-pattern *.html",
+      "lint:watch": "watch \"npm run lint --silent\" src --interval .1",
+      "package": "electron-packager --arch=x64 --platform=win32 --out=packages"
+    },
+    "keywords": [
+      "Electron",
+      "SharePoint",
+      "SPBrander",
+      "droopy"
+    ],
+    "author": "Andrew Petersen",
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "clean-css": "^3.4.13",
+      "electron-hot-loader": "^0.8.0",
+      "electron-packager": "^7.2.0",
+      "electron-prebuilt": "^1.2.0",
+      "eslint": "^2.11.1",
+      "eslint-plugin-react": "^5.1.1",
+      "mocha": "^2.5.3",
+      "node-sass": "^3.7.0",
+      "react-tools": "^0.13.3",
+      "watch": "^0.18.0"
+    },
+    "dependencies": {
+      "droopy-events": "0.0.0",
+      "droopy-server": "^1.0.7",
+      "electron": "^0.4.1",
+      "jquery": "^2.2.4",
+      "node-powershell": "1.1.0",
+      "node-uuid": "^1.4.7",
+      "react": "^15.1.0",
+      "react-dom": "^15.1.0",
+      "spbrander": "^1.0.11"
+    },
+    "eslintConfig": {
+      "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+      },
+      "parserOptions": {
+        "ecmaVersion": 7,
+        "ecmaFeatures": {
+          "jsx": true
+        }
+      },
+      "plugins": [
+        "react"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,50 @@
   },
   "networkCount": 4,
   "subscribersCount": 9,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "retro-twitter-client",
+    "private": true,
+    "version": "0.0.12",
+    "main": "app/browser/index.js",
+    "scripts": {
+      "clean": "rm -rf packages/v0.0.12/retro-twitter-client-{darwin,linux,win32}-x64",
+      "compile": "gulp compile",
+      "package": "electron-packager . retro-twitter-client --arch=x64 --out=packages/v0.0.12 --platform=darwin,linux,win32 --version=0.30.6 --ignore={packages,screenshots,src}/*",
+      "release": "npm run zip && npm run clean && npm run upload",
+      "setup": "npm install && brew tap tcnksm/ghr && brew install ghr && npm run compile",
+      "start": "electron .",
+      "upload": "ghr v0.0.12 packages/",
+      "watch": "gulp watch",
+      "zip": "npm run zip-darwin && npm run zip-win32",
+      "zip-darwin": "cd packages/v0.0.12 && zip -r retro-twitter-client-darwin-x64.zip retro-twitter-client-darwin-x64",
+      "zip-win32": "cd packages/v0.0.12 && zip -r retro-twitter-client-win32-x64.zip retro-twitter-client-win32-x64"
+    },
+    "repository": "r7kamura/retro-twitter-client",
+    "author": "Ryo Nakamura <r7kamura@gmail.com> (https://github.com/r7kamura)",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-packager": "^5.0.2",
+      "electron-prebuilt": "^0.30.6",
+      "gulp": "^3.9.0",
+      "gulp-babel": "^5.2.1",
+      "gulp-plumber": "^1.0.1",
+      "gulp-sass": "^2.0.4",
+      "gulp-sym": "0.0.14",
+      "gulp-watch": "^4.3.5"
+    },
+    "dependencies": {
+      "HTML5-Reset": "git://github.com/r7kamura/HTML5-Reset.git",
+      "eventemitter2": "^0.4.14",
+      "font-awesome": "^4.4.0",
+      "lodash": "^3.10.1",
+      "moment": "^2.10.6",
+      "node-twitter-api": "^1.6.0",
+      "qiita-coat": "git://github.com/increments/qiita-coat.git#d751df7df60d0dcd0c97b9dc05c8ab5da3db22e3",
+      "react": "^0.13.3",
+      "twitter": "^1.2.5",
+      "twitter-text": "^1.13.0"
+    }
+  },
+  "packageStatus": 200
 }

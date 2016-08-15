@@ -162,5 +162,43 @@
   },
   "networkCount": 17,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-spawn",
+    "version": "4.1.1",
+    "description": "easy way to run code inside of a headless electron window from the CLI",
+    "main": "index.js",
+    "scripts": {
+      "test": "standard && node test.js"
+    },
+    "bin": {
+      "electron-spawn": "cli.js"
+    },
+    "keywords": [
+      "electron",
+      "atom",
+      "atom-shell",
+      "headless"
+    ],
+    "author": "max ogden",
+    "license": "BSD-2-Clause",
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/maxogden/electron-spawn.git"
+    },
+    "standard": {
+      "ignore": [
+        "cli.js"
+      ]
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.30.0",
+      "npm-execspawn": "^1.2.0"
+    },
+    "devDependencies": {
+      "standard": "^4.5.4",
+      "tape": "^4.0.1"
+    }
+  },
+  "packageStatus": 200
 }

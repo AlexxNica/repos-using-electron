@@ -44,5 +44,20 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "elect-calender",
+    "version": "0.1.0",
+    "description": "a calender using electron",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "Trystan Hendricks",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.4"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,39 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "matchbox-dom",
+    "version": "0.11.1",
+    "description": "Matchbox View and dom library",
+    "main": "index.js",
+    "scripts": {
+      "test": "ELECTRON_PATH=./node_modules/.bin/electron ./node_modules/.bin/electron-mocha --renderer --recursive --bail --ui bdd ./test/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/matchboxjs/matchbox-dom.git"
+    },
+    "keywords": [
+      "matchbox",
+      "dom"
+    ],
+    "author": "tunderdomb",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/matchboxjs/matchbox-dom/issues"
+    },
+    "homepage": "https://github.com/matchboxjs/matchbox-dom#readme",
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "electron-mocha": "^0.8.0",
+      "electron-prebuilt": "^0.36.10"
+    },
+    "dependencies": {
+      "backyard": "^0.1.0",
+      "offspring": "^0.4.0",
+      "stations": "^1.0.0"
+    }
+  },
+  "packageStatus": 200
 }

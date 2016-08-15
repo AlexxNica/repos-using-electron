@@ -168,5 +168,42 @@
   },
   "networkCount": 2,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "mooon",
+    "description": "Displays the moon phase in your staus bar/tray",
+    "version": "1.0.0",
+    "author": "Bret Comnes <bcomnes@gmail.com>",
+    "bugs": {
+      "url": "https://github.com/bcomnes/mooon/issues"
+    },
+    "devDependencies": {
+      "electron-packager": "^4.0.2",
+      "electron-prebuilt": "^0.26.0",
+      "standard": "*",
+      "tap-spec": "*",
+      "tape": "^4.0.0"
+    },
+    "homepage": "https://github.com/bcomnes/mooon",
+    "keywords": [
+      "moon"
+    ],
+    "license": "ISC",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bcomnes/mooon.git"
+    },
+    "scripts": {
+      "test": "tape test/*.js | tap-spec && standard",
+      "start": "electron index.js",
+      "package": "electron-packager ./ Mooon --platform=darwin --arch=x64 --version=0.26.0",
+      "package-future": "electron-packager . Mooon --icon=static/AppIcon.icns"
+    },
+    "dependencies": {
+      "moonmoji": "0.0.5",
+      "node-schedule": "^0.2.6"
+    }
+  },
+  "packageStatus": 200
 }

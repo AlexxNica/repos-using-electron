@@ -50,5 +50,34 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "catalog",
+    "version": "1.0.0",
+    "description": "Catalog fro movies, series and videos.",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/refucktor/catalog.git"
+    },
+    "keywords": [
+      "catalog",
+      "desktop",
+      "app",
+      "nodejs"
+    ],
+    "author": "reFucktor <hmvalcarcel@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/refucktor/catalog/issues"
+    },
+    "homepage": "https://github.com/refucktor/catalog#readme",
+    "dependencies": {
+      "electron-prebuilt": "^0.36.7"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,27 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Calculator",
+    "version": "0.0.1",
+    "description": "A simple calculator application built in Electron.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "Shea Lewis",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kaidesu/calculator"
+    },
+    "bugs": {
+      "url": "https://github.com/kaidesu/calculator/issues"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.30.2"
+    }
+  },
+  "packageStatus": 200
 }

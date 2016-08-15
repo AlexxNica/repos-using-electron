@@ -44,5 +44,22 @@
   "license": null,
   "networkCount": 6,
   "subscribersCount": 5,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-api-demos-main",
+    "version": "0.0.1",
+    "description": "Main process for Electron API demos",
+    "main": "index.js",
+    "scripts": {
+      "start-debug": "electron --debug=5858 .",
+      "start": "electron ."
+    },
+    "author": "Craig Shoemaker <craig@craigshoemaker.net>",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.30.0",
+      "node-inspector": "^0.12.2"
+    }
+  },
+  "packageStatus": 200
 }

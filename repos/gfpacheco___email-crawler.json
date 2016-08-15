@@ -44,5 +44,35 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "email-crawler",
+    "productName": "EmailCrawler",
+    "version": "0.1.1",
+    "description": "Search the web for emails by company name",
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gfpacheco/email-crawler.git"
+    },
+    "scripts": {
+      "start": "electron main.js",
+      "dist": "electron-packager . --platform darwin --arch x64 --out dist --overwrite",
+      "release": "npm run dist && electron-release --app dist/EmailCrawler-darwin-x64/EmailCrawler.app --token"
+    },
+    "keywords": [
+      "email",
+      "crawler"
+    ],
+    "author": "Guilherme Pacheco <guilherme.f.pacheco@gmail.com>",
+    "devDependencies": {
+      "async": "^2.0.0-rc.4",
+      "electron-packager": "^7.0.1",
+      "electron-prebuilt": "^1.0.1",
+      "electron-release": "^2.2.0",
+      "jscs": "^3.0.3",
+      "request": "^2.72.0"
+    }
+  },
+  "packageStatus": 200
 }

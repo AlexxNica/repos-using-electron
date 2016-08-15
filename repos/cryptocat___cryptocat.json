@@ -64,5 +64,36 @@
   },
   "networkCount": 43,
   "subscribersCount": 34,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "CryptocatBuilder",
+    "version": "1.0.0",
+    "description": "Builds Cryptocat.",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/cryptocat/cryptocat"
+    },
+    "author": "Nadim Kobeissi",
+    "license": "GPL-3.0",
+    "homepage": "https://crypto.cat",
+    "devDependencies": {
+      "electron-prebuilt": "latest",
+      "grunt": "latest",
+      "grunt-contrib-jshint": "latest",
+      "grunt-electron": "latest",
+      "grunt-electron-installer": "latest",
+      "grunt-jscs": "latest",
+      "grunt-shell": "latest",
+      "grunt-string-replace": "latest",
+      "jshint": "latest"
+    },
+    "scripts": {
+      "setup": "npm install",
+      "dev": "electron src/app.js",
+      "win": "grunt win",
+      "mac": "grunt mac",
+      "linux": "grunt linux"
+    }
+  },
+  "packageStatus": 200
 }

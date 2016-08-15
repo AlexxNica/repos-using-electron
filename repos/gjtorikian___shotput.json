@@ -50,5 +50,35 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "shotput",
+    "version": "0.0.1",
+    "description": "A tool to help you take screenshots.",
+    "main": "main.js",
+    "devDependencies": {
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.29.2",
+      "jquery": "^2.1.4",
+      "react": "^0.13.3"
+    },
+    "dependencies": {
+      "electron-compile": "^1.0.0"
+    },
+    "scripts": {
+      "app": "electron .",
+      "build": "electron-packager . Shotput --platform=darwin --arch=x64 --version=0.30.0 --overwrite"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gjtorikian/shotput.git"
+    },
+    "author": "Garen J. Torikian <gjtorikian@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/gjtorikian/shotput/issues"
+    },
+    "homepage": "https://github.com/gjtorikian/shotput#readme"
+  },
+  "packageStatus": 200
 }

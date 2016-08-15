@@ -44,5 +44,22 @@
   "license": null,
   "networkCount": 3,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "pokemon",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Pokémon anime chronological metadata",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Mal Graty <mal.graty@googlemail.com>",
+    "license": "ISC",
+    "dependencies": {
+      "electron-prebuilt": "~0.27.3",
+      "markdown-table": "^0.3.2"
+    }
+  },
+  "packageStatus": 200
 }

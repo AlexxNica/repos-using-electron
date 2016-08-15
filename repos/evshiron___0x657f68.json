@@ -44,5 +44,42 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "0x657f68",
+    "version": "0.0.1",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evshiron/0x657f68.git"
+    },
+    "author": "evshiron",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/evshiron/0x657f68/issues"
+    },
+    "homepage": "https://github.com/evshiron/0x657f68#readme",
+    "dependencies": {
+      "@evshiron/node-flow": "^1.1.0",
+      "cheerio": "^0.20.0",
+      "debug": "^2.2.0",
+      "electron-contextmenu-middleware": "^1.0.2",
+      "image-size-stream": "^1.1.0",
+      "request": "^2.72.0",
+      "request-progress": "^2.0.1",
+      "vue": "^1.0.21",
+      "vue-router": "^0.7.13",
+      "vue-strap": "^1.0.7",
+      "vuex": "^0.6.3"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.8"
+    }
+  },
+  "packageStatus": 200
 }

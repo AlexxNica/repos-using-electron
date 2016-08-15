@@ -50,5 +50,68 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "record-a-cast",
+    "description": "Select and record a portion of your desktop",
+    "version": "1.4.1",
+    "homepage": "https://github.com/twolfson/record-a-cast",
+    "author": {
+      "name": "Todd Wolfson",
+      "email": "todd@twolfson.com",
+      "url": "http://twolfson.com/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/twolfson/record-a-cast.git"
+    },
+    "bugs": {
+      "url": "https://github.com/twolfson/record-a-cast/issues"
+    },
+    "bin": {
+      "record-a-cast": "bin/record-a-cast.js"
+    },
+    "main": "lib/record-a-cast",
+    "engines": {
+      "node": ">= 0.10.0"
+    },
+    "license": "Unlicense",
+    "scripts": {
+      "lint": "twolfson-style lint bin/ lib/",
+      "select-geometry": "electron bin/select-geometry",
+      "test": "npm run lint"
+    },
+    "dependencies": {
+      "async": "~1.5.2",
+      "commander": "~2.9.0",
+      "electron-prebuilt": "~0.37.2",
+      "mousetrap": "~1.5.3",
+      "shell-quote": "~1.5.0",
+      "unidragger": "~2.1.0",
+      "which": "~1.2.4"
+    },
+    "devDependencies": {
+      "foundry": "~4.0.3",
+      "foundry-release-git": "~2.0.2",
+      "foundry-release-npm": "~2.0.2",
+      "jscs": "~1.7.3",
+      "jshint": "~2.5.10",
+      "mocha": "~1.11.0",
+      "twolfson-style": "~1.6.0"
+    },
+    "keywords": [
+      "record",
+      "gif",
+      "movie",
+      "screencast",
+      "cast"
+    ],
+    "foundry": {
+      "releaseCommands": [
+        "foundry-release-git",
+        "foundry-release-npm"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

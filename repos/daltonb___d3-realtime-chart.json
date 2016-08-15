@@ -44,5 +44,16 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "theradrive-gui",
+    "version": "0.1.0",
+    "main": "main.js",
+    "dependencies": {
+      "d3": "^3.5.10",
+      "electron-prebuilt": "^0.35.2",
+      "serialport": "^2.0.5"
+    }
+  },
+  "packageStatus": 200
 }

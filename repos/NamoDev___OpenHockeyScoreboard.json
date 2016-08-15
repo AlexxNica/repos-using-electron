@@ -50,5 +50,21 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "OpenHockeyScoreboard",
+    "version": "1.0.0",
+    "description": "The open-source hockey scoreboard for everyone",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "author": "NamoDev",
+    "license": "MIT",
+    "homepage": "https://namodev.com",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.8"
+    }
+  },
+  "packageStatus": 200
 }

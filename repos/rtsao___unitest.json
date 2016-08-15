@@ -50,5 +50,38 @@
   },
   "networkCount": 3,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "unitest",
+    "version": "0.10.3",
+    "description": "Run browser and node tests with coverage reports",
+    "author": "Ryan Tsao <ryan.j.tsao@gmail.com>",
+    "repository": "git@github.com:rtsao/unitest.git",
+    "homepage": "https://github.com/rtsao/unitest",
+    "bugs": "https://github.com/rtsao/unitest/issues",
+    "main": "index.js",
+    "bin": "bin/cli.js",
+    "scripts": {
+      "test": "node test/index.js"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^1.0.0",
+      "exit-code": "^1.0.2",
+      "getport": "^0.1.0",
+      "istanbul": "^0.4.3",
+      "istanbul-reporter-raw-json": "^1.0.1",
+      "merge2": "^1.0.2",
+      "minimist": "^1.2.0",
+      "multistream": "^2.0.5",
+      "run-parallel": "^1.1.6",
+      "tap-finished": "0.0.1",
+      "tap-merge": "^0.3.1"
+    },
+    "devDependencies": {
+      "tap-parser": "~0.2.0",
+      "tape": "^4.4.0"
+    },
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,61 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "magicmirror",
+    "version": "2.0.0",
+    "description": "A modular interface for smart mirrors.",
+    "main": "js/electron.js",
+    "scripts": {
+      "start": "electron js/electron.js",
+      "eslint": "eslint .",
+      "jscs": "jscs **/**/**/**/*.js",
+      "stylelint": "stylelint css/main.css fonts/roboto.css",
+      "htmlvalidator": "html-validator --file=index.html",
+      "test": "snyk test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MichMich/MagicMirror.git"
+    },
+    "keywords": [
+      "magic mirror",
+      "smart mirror",
+      "mirror UI",
+      "modular"
+    ],
+    "author": "Michael Teeuw",
+    "contributors": "https://github.com/MichMich/MagicMirror/graphs/contributors",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/MichMich/MagicMirror/issues"
+    },
+    "homepage": "https://github.com/MichMich/MagicMirror#readme",
+    "devDependencies": {
+      "electron-prebuilt": "latest",
+      "stylelint": "latest",
+      "stylelint-config-standard": "latest",
+      "eslint": "latest",
+      "eslint-config-google": "latest"
+    },
+    "dependencies": {
+      "express": "latest",
+      "feedme": "latest",
+      "ical": "latest",
+      "iconv-lite": "latest",
+      "moment": "latest",
+      "request": "latest",
+      "snyk": "^1.13.2",
+      "socket.io": "latest",
+      "valid-url": "latest",
+      "walk": "latest",
+      "googleapis": "latest",
+      "google-auth-library": "latest"
+    },
+    "eslintConfig": {
+      "extends": "google"
+    }
+  },
+  "packageStatus": 200
 }

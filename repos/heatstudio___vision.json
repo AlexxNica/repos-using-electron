@@ -44,5 +44,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "heatvision",
+    "version": "4.2.98",
+    "description": "Result Differ for HeatStudio",
+    "main": "binary/main.js",
+    "scripts": {
+      "start": "electron binary/main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/karyfoundation/comment"
+    },
+    "keywords": [
+      "Kary Foundation",
+      "HeatStudio"
+    ],
+    "author": "Kary Foundation",
+    "license": "GPLv3.0",
+    "bugs": {
+      "url": "https://github.com/karyfoundationl/comment/issues"
+    },
+    "homepage": "https://www.karyfoundation.org/developer/comment",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

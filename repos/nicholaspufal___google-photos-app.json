@@ -44,5 +44,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "google-photos-app",
+    "version": "1.0.1",
+    "description": "Use Google Photos from your desktop",
+    "main": "main.js",
+    "keywords": [
+      "Google Photos",
+      "desktop",
+      "application",
+      "app"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/nicholaspufal/google-photos-app.git"
+    },
+    "author": "Nicholas Pufal",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-packager": "^7.3.0",
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

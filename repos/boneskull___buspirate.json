@@ -50,5 +50,46 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "buspirate",
+    "productName": "Buspirate",
+    "version": "0.0.0",
+    "description": "My unreal app",
+    "license": "MIT",
+    "repository": "boneskull/buspirate",
+    "author": {
+      "name": "Christopher Hiller",
+      "email": "boneskull@boneskull.com",
+      "url": "boneskull.com"
+    },
+    "electronVersion": "0.35.0",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "bluebird": "^3.0.5",
+      "debug": "^2.2.0",
+      "electron-debug": "^0.5.0",
+      "lodash": "^3.10.1",
+      "serialport": "^2.0.5",
+      "stampit": "^2.1.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.35.0"
+    }
+  },
+  "packageStatus": 200
 }

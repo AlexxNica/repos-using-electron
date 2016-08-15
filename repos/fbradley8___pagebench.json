@@ -50,5 +50,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "PageBench",
+    "version": "1.0.0",
+    "description": "A webpage benchmarking tool built with Electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "build": "node build.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fbradley8/pagebench.git"
+    },
+    "author": "fbradley8",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/fbradley8/pagebench/issues"
+    },
+    "homepage": "https://github.com/fbradley8/pagebench#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.1.2"
+    },
+    "dependencies": {
+      "jquery": "^2.2.4"
+    }
+  },
+  "packageStatus": 200
 }

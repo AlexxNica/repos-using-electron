@@ -44,5 +44,25 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-test",
+    "version": "0.1.0",
+    "description": "desc",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "gisenberg",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^0.27.2",
+      "electron-rebuild": "^0.2.2"
+    },
+    "dependencies": {
+      "difflib": "^0.2.4",
+      "git-utils": "^3.0.1"
+    }
+  },
+  "packageStatus": 200
 }

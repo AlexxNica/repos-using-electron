@@ -44,5 +44,25 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "4chan-Offline",
+    "version": "0.0.2",
+    "description": "4chan unofficial offline browser and downloader",
+    "main": "app.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.1"
+    },
+    "dependencies": {
+      "nedb": "^1.5.0",
+      "request": "^2.67.0"
+    }
+  },
+  "packageStatus": 200
 }

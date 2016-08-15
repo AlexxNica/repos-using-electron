@@ -50,5 +50,46 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-starter",
+    "version": "0.1.0",
+    "description": "A simple starter for electron to support cordova style layout.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "pack": "build --target build",
+      "dist": "gulp && build",
+      "postdist": "install-app-deps",
+      "electron": "electron electron/main.js"
+    },
+    "keywords": [
+      "cordova",
+      "electron"
+    ],
+    "author": "Tyler Pham <tyler@disruptiveart.com>",
+    "license": "MIT",
+    "build": {
+      "app-bundle-id": "com.disruptiveart.electron",
+      "app-category-type": "your.app.category.type",
+      "win": {
+        "iconUrl": "(windows-only) https link to icon"
+      },
+      "osx": {
+        "icon": "./assets/icons/icon.icns"
+      }
+    },
+    "directories": {
+      "output": "release",
+      "app": "build"
+    },
+    "devDependencies": {
+      "del": "^2.2.0",
+      "electron-prebuilt": "^1.2.2",
+      "gulp": "^3.9.1",
+      "gulp-rename": "^1.2.2",
+      "run-sequence": "^1.2.1"
+    }
+  },
+  "packageStatus": 200
 }

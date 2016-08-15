@@ -50,5 +50,30 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "clippy",
+    "version": "0.0.1",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/WartClaes/clippy.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/WartClaes/clippy/issues"
+    },
+    "homepage": "https://github.com/WartClaes/clippy#readme",
+    "dependencies": {
+      "electron-prebuilt": "^0.36.3",
+      "fix-path": "^1.1.0",
+      "shelljs": "^0.5.3"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,59 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "blive",
+    "version": "0.2.0",
+    "description": "Live utilities for live.bilibili.com",
+    "files": [
+      "bin/",
+      "example/",
+      "lib/",
+      "main.js",
+      "README.mkd",
+      "UNLICENSE"
+    ],
+    "main": "main.js",
+    "bin": "bin/blive.js",
+    "dependencies": {
+      "cli": "^0.7",
+      "ent": "^2.2.0",
+      "exoskeleton": "^0.7.0",
+      "hogan.js": "^3.0.2",
+      "jquery": "^2.1",
+      "lodash": "^3.9",
+      "request": "^2.55",
+      "whacko": "^0.18"
+    },
+    "devDependencies": {
+      "electron-packager": "^4.1.2",
+      "electron-prebuilt": "0.28.3",
+      "eslint": "^2.13.0",
+      "eslint-config-airbnb": "^9.0.1",
+      "eslint-plugin-import": "^1.8.1",
+      "eslint-plugin-jsx-a11y": "^1.5.3",
+      "eslint-plugin-react": "^5.2.2",
+      "font-awesome": "^4.3.0",
+      "purecss": "^0.6.0",
+      "shelljs": "^0.5.1",
+      "tap": "^5.7.2"
+    },
+    "preferGlobal": true,
+    "repository": "5long/blive",
+    "scripts": {
+      "build": "node make css",
+      "prepublish": "npm run build",
+      "start": "electron .",
+      "lint": "eslint --fix bin lib ui main.js",
+      "package": "electron-packager . BLive --platform=win32 --arch=ia32 --app-version=0.0.1-dev --version=0.28.3 --out build/"
+    },
+    "author": "Whyme Lyu",
+    "license": "Unlicense",
+    "bugs": {
+      "url": "https://github.com/5long/blive/issues"
+    },
+    "homepage": "https://github.com/5long/blive#readme"
+  },
+  "packageStatus": 200
 }

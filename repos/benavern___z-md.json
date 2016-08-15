@@ -44,5 +44,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "z-md",
+    "version": "0.1.0",
+    "description": "yet an other md editor",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": "https://github.com/benavern/z-md",
+    "author": "BenjaminCaradeuc",
+    "license": "ISC",
+    "devDependencies": {
+      "catdown": "^1.1.0",
+      "catdown-scrollsync": "^1.0.0",
+      "directory-tree": "^0.1.1",
+      "electron-connect": "^0.3.3",
+      "electron-prebuilt": "^0.33.4",
+      "gulp": "^3.9.0",
+      "gulp-concat": "^2.6.0",
+      "gulp-jade": "^1.1.0",
+      "gulp-sass": "^2.0.4",
+      "gulp-uglify": "^1.4.1",
+      "lodash": "^3.10.1"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

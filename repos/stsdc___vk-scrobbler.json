@@ -162,5 +162,63 @@
   },
   "networkCount": 6,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "vk-scrobbler",
+    "version": "2.0.4",
+    "description": "Last.fm Scrobbler for vk.com",
+    "scripts": {
+      "watch": "gulp watch",
+      "copy": "gulp copy",
+      "create_env": "echo '{}' > .env.json",
+      "prebuild": "npm run lint",
+      "build": "gulp build",
+      "build-chrome": "gulp build:chrome",
+      "build-firefox": "gulp build:firefox",
+      "start": "npm run watch",
+      "test": "node ./node_modules/karma/bin/karma start",
+      "lint": "gulp lint"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/huston007/vk-scrobbler.git"
+    },
+    "keywords": [
+      "vk.com",
+      "last.fm",
+      "scrobbler"
+    ],
+    "contributors": [
+      "Andrey Skladchikov",
+      "Stanisław Dac"
+    ],
+    "license": "MIT",
+    "dependencies": {
+      "js-md5": "0.3.0"
+    },
+    "devDependencies": {
+      "chai": "3.5.0",
+      "codecov.io": "^0.1.2",
+      "electron-prebuilt": "^0.37.6",
+      "gulp": "^3.8.11",
+      "gulp-clean": "^0.3.2",
+      "gulp-jshint": "^2.0.1",
+      "gulp-zip": "^3.2.0",
+      "jshint": "^2.7.0",
+      "karma": "^0.13.22",
+      "karma-chrome-launcher": "^0.2",
+      "karma-coverage": "0.5.5",
+      "karma-electron-launcher": "^0.1.0",
+      "karma-mocha": "^0.2",
+      "karma-sinon": "1.0",
+      "karma-sinon-chai": "1.2.0",
+      "lolex": "^1.4.0",
+      "mocha": "^2.2.5",
+      "run-sequence": "^1.2.2",
+      "sinon": "^1.15.4",
+      "sinon-chai": "2.8.0",
+      "sinon-chrome": "0.1.2"
+    }
+  },
+  "packageStatus": 200
 }

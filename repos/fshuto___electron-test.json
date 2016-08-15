@@ -44,5 +44,35 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-test",
+    "version": "0.0.1",
+    "description": "electron test",
+    "main": "index.js",
+    "scripts": {
+      "build": "node_modules/.bin/electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fshuto/electron-test.git"
+    },
+    "keywords": [
+      "node",
+      "electron",
+      "test"
+    ],
+    "author": "Shuto FUJII",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/fshuto/electron-test/issues"
+    },
+    "homepage": "https://github.com/fshuto/electron-test#readme",
+    "devDependencies": {
+      "electron-packager": "^5.1.1",
+      "electron-prebuilt": "^0.35.4"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,23 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "sample",
+    "version": "0.0.0",
+    "description": "electron sample",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "node_modules/.bin/electron .",
+      "release": "node release.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.36.1"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,44 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "my-electron-app",
+    "version": "0.1.0",
+    "main": "main.js",
+    "devDependencies": {
+      "babel": "^5.6.10",
+      "babel-core": "^5.6.11",
+      "babel-loader": "^5.2.2",
+      "css-loader": "^0.15.1",
+      "file-loader": "^0.8.1",
+      "url-loader": "^0.5.5",
+      "electron-packager": "^4.1.3",
+      "electron-rebuild": "^0.2.2",
+      "less": "^2.5.1",
+      "less-loader": "^2.2.0",
+      "node-libs-browser": "^0.5.2",
+      "style-loader": "^0.12.3",
+      "webpack": "^1.9.12",
+      "webpack-dev-server": "^1.9.0"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.36.4",
+      "react": "^0.14.6",
+      "react-dom": "^0.14.6",
+      "flux": "^2.0.1",
+      "fbemitter": "^2.0.0",
+      "medium-editor": "5.13.0",
+      "font-awesome": "4.5.0",
+      "shortid": "2.2.4",
+      "classnames": "2.2.3"
+    },
+    "scripts": {
+      "start": "./node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron .",
+      "debug": "./node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron --debug=5858 .",
+      "watch": "./node_modules/.bin/webpack-dev-server",
+      "electron-rebuild": "./node_modules/.bin/electron-rebuild"
+    }
+  },
+  "packageStatus": 200
 }

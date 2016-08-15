@@ -50,5 +50,44 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "asar-updater",
+    "version": "0.2.6",
+    "description": "Auto update asar file",
+    "main": "index.js",
+    "dependencies": {
+      "got": "^6.3.0",
+      "is-online": "^5.1.2",
+      "semver": "^5.2.0",
+      "unzip": "^0.1.11"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.7",
+      "standard": "^7.1.2"
+    },
+    "scripts": {
+      "lint": "standard \"lib/**/*.js\"",
+      "test": "electron test/main"
+    },
+    "keywords": [
+      "electron",
+      "asar",
+      "updater",
+      "auto-updater",
+      "iceStone",
+      "zce"
+    ],
+    "author": "iceStone <ice@wedn.net> (http://www.wedn.net/)",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zce/asar-updater.git"
+    },
+    "bugs": {
+      "url": "https://github.com/zce/asar-updater/issues"
+    },
+    "homepage": "https://github.com/zce/asar-updater#readme"
+  },
+  "packageStatus": 200
 }

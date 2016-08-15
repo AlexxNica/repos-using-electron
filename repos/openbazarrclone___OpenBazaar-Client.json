@@ -176,5 +176,61 @@
   },
   "networkCount": 148,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "OpenBazaar",
+    "version": "1.1.2",
+    "description": "OpenBazaar Client",
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/OpenBazaar/OpenBazaar-Client.git"
+    },
+    "homepage": "https://openbazaar.org/",
+    "bugs": "https://github.com/OpenBazaar/OpenBazaar-Client/issues/",
+    "license": "MIT",
+    "scripts": {
+      "start": "electron main.js",
+      "test": "exit 0",
+      "lint": "eslint .",
+      "valiquire": "valiquire --redirect valiquire-redirect.js .",
+      "startwithserver": "electron main.js"
+    },
+    "dependencies": {
+      "autolinker": "^0.22.0",
+      "backbone": ">=1.2.1",
+      "backbone.localstorage": "^1.1.16",
+      "chosen": "0.0.2",
+      "cropit": "0.4.5",
+      "ini": "^1.3.4",
+      "is_js": "0.7.4",
+      "jquery": "2.1.4",
+      "jquery-colorbox": "^1.6.3",
+      "jquery-mousewheel": "3.1.13",
+      "medium-editor": "^5.13.0",
+      "moment": "2.10.6",
+      "node-polyglot": "0.4.3",
+      "open": "0.0.5",
+      "qr-encode": "^0.3.0",
+      "request": ">=2.67.0",
+      "safestart": "0.8.0",
+      "sanitize-html": "^1.11.2",
+      "sortablejs": "^1.4.2",
+      "taggle": "1.6.1",
+      "underscore": "1.8.3",
+      "yargs": "^4.1.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "0.37.5",
+      "eslint": "1.9.0",
+      "pre-commit": "^1.1.2",
+      "valiquire": "0.3.0"
+    },
+    "pre-commit": [
+      "valiquire",
+      "lint",
+      "test"
+    ]
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,21 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "DepartSure",
+    "version": "1.0.0",
+    "description": "Know the weather at your airport before you go flying!",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . DepartSure"
+    },
+    "author": "Saivarun Pothuraju",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0",
+      "electron-packager": "^7.0.4"
+    }
+  },
+  "packageStatus": 200
 }

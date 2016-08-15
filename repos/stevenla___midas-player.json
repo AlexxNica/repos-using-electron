@@ -44,5 +44,39 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "midas-player",
+    "version": "0.1.4",
+    "description": "Google Play Music client with Electron",
+    "main": "dist/main.js",
+    "scripts": {
+      "start": "./node_modules/.bin/electron .",
+      "compile": "./node_modules/.bin/gulp",
+      "dev": "./node_modules/.bin/gulp watch",
+      "package-mac": "npm run compile && ./node_modules/.bin/electron-packager . 'Midas Player' --platform=darwin --arch=all --version=0.37.5 --icon=app.icns --build-version=0.1.4 --app-version=0.1.4 --ignore=src --prune --overwrite"
+    },
+    "author": "Steven La <mrstevenla@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+      "connect": "^3.4.1",
+      "electron-json-storage": "^2.0.0",
+      "electron-prebuilt": "^0.37.5",
+      "electron-window-state": "^2.0.0",
+      "gmusic.js": "^4.2.0",
+      "lastfmapi": "^0.1.1"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.3.15",
+      "babel-core": "^6.3.15",
+      "babel-preset-es2015": "^6.3.13",
+      "babel-preset-stage-2": "^6.5.0",
+      "electron-packager": "^6.0.2",
+      "gulp": "^3.9.1",
+      "gulp-babel": "^6.1.2",
+      "gulp-rename": "^1.2.2",
+      "gulp-rimraf": "^0.2.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,38 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "better-translator-electron",
+    "version": "0.1.2",
+    "description": "A native client for Better Translator",
+    "main": "./assets/main.js",
+    "scripts": {
+      "start": "electron ./assets/main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/suminb/better-translator-electron.git"
+    },
+    "keywords": [
+      "Google",
+      "better",
+      "translator",
+      "translation",
+      "translate"
+    ],
+    "author": "Sumin Byeon",
+    "license": "BSD",
+    "bugs": {
+      "url": "https://github.com/suminb/better-translator-electron/issues"
+    },
+    "homepage": "https://github.com/suminb/better-translator-electron#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.1"
+    },
+    "dependencies": {
+      "rollbar": "^0.5.10"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,25 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "romanize-names-desktop",
+    "version": "0.1.1",
+    "description": "",
+    "main": "main.js",
+    "dependencies": {
+      "electron-prebuilt": "^0.31.1",
+      "romanize-names": "^1.0.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.2"
+    },
+    "scripts": {
+      "start": "electron .",
+      "package": "electron-packager . NameTranslate --platform=darwin --arch=x64 --version 0.31.1 --overwrite --icon=name_tag"
+    },
+    "author": "John-Lin <linton.tw@gmail.com> (http://linton.tw)",
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

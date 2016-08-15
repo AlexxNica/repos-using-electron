@@ -44,5 +44,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "GameBin",
+    "version": "0.1.0",
+    "description": "An aggregator of user's games across several platforms",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kjfergu/gamebin.git"
+    },
+    "author": "Kevin Ferguson",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "electron-save-file": "^1.0.2",
+      "xml2js": "^0.4.16"
+    }
+  },
+  "packageStatus": 200
 }

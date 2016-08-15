@@ -44,5 +44,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-background-process",
+    "version": "0.1.0",
+    "description": "Example application to demonstrate background processes in electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "./node_modules/.bin/electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Kyle Smith",
+    "license": "ISC",
+    "dependencies": {
+      "electron-prebuilt": "^0.36.4",
+      "electron-process": "^0.2.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -176,5 +176,106 @@
   },
   "networkCount": 263,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "friends",
+    "description": "p2p chat",
+    "version": "1.0.0",
+    "author": [
+      "feross",
+      "maxogden",
+      "mafintosh",
+      "ngoldman",
+      "shama",
+      "jlord",
+      "chrisdickinson"
+    ],
+    "browser": {
+      "ghsign": false,
+      "github-current-user": false,
+      "leveldown": "level-js"
+    },
+    "bugs": {
+      "url": "https://github.com/moose-team/friends/issues"
+    },
+    "dependencies": {
+      "cat-names": "^1.0.2",
+      "ctype": "^0.5.4",
+      "delegate-dom": "0.0.1",
+      "end-of-stream": "^1.1.0",
+      "friends-swarm": "^1.0.0",
+      "ghlink": "^0.1.2",
+      "ghsign": "^3.0.1",
+      "github-current-user": "^2.4.1",
+      "highlight.js": "^8.5.0",
+      "html-parser": "^0.8.0",
+      "html-to-vdom": "^0.7.0",
+      "inherits": "^2.0.1",
+      "level-js": "^2.2.1",
+      "leveldown": "^1.4.1",
+      "levelup": "^1.2.1",
+      "lodash.uniq": "^3.1.0",
+      "modal-element": "^1.0.0",
+      "moment": "^2.10.2",
+      "rich-message": "^1.0.0",
+      "silence-chromium": "^2.0.0",
+      "simple-get": "^1.4.3",
+      "single-line-log": "^1.0.0",
+      "subleveldown": "^2.0.0",
+      "virtual-dom": "^2.0.1"
+    },
+    "devDependencies": {
+      "beefy": "^2.1.5",
+      "brfs": "^1.4.1",
+      "electron-packager": "^5.0.2",
+      "electron-prebuilt": "^0.31.1",
+      "mkdirp": "^0.5.0",
+      "nib": "^1.1.0",
+      "node-gyp": "^2.0.2",
+      "rimraf": "^2.3.3",
+      "shelljs": "^0.4.0",
+      "standard": "^5.1.1",
+      "stylus": "^0.52.0",
+      "watchify": "^3.2.1"
+    },
+    "homepage": "https://github.com/moose-team/friends",
+    "keywords": [
+      "peer-to-peer",
+      "mad science",
+      "chat",
+      "friends",
+      "p2p",
+      "discussion",
+      "communication",
+      "team chat",
+      "replication",
+      "crypto",
+      "webrtc",
+      "irc",
+      "slack"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/moose-team/friends.git"
+    },
+    "browserify": {
+      "transforms": [
+        "brfs"
+      ]
+    },
+    "scripts": {
+      "build-css": "mkdirp dist && stylus -u nib css/app.styl -o dist/ -c",
+      "package": "node pkg.js",
+      "package-all": "node pkg.js --all",
+      "start": "npm run build-css && electron index.js 2>&1 | silence-chromium",
+      "test": "standard",
+      "watch": "npm run build-css && (npm run watch-css & electron index.js 2>&1 | silence-chromium)",
+      "watch-css": "mkdirp dist && stylus -u nib css/app.styl -o dist/ -w",
+      "web": "beefy web.js:bundle.js",
+      "rebuild-leveldb": "cd node_modules/leveldown && set HOME=~/.electron-gyp && node-gyp rebuild --target=0.31.1 --arch=x64 --dist-url=https://atom.io/download/atom-shell"
+    }
+  },
+  "packageStatus": 200
 }

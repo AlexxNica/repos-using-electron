@@ -44,5 +44,38 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "movie-list",
+    "version": "1.0.0",
+    "description": "display tv show list on movie channel",
+    "main": "main.js",
+    "scripts": {
+      "build": "gulp",
+      "resources": "gulp resources",
+      "start": "electron ./"
+    },
+    "keywords": [
+      "react",
+      "react-router"
+    ],
+    "author": "chhsiao90",
+    "license": "ISC",
+    "dependencies": {
+      "crawler": "^0.4.3",
+      "moment": "^2.10.6",
+      "react": "^0.14.0",
+      "react-datepicker": "^0.15.2",
+      "react-router": "^1.0.0-rc3",
+      "react-select": "^0.8.0",
+      "react-transmit": "^3.0.7"
+    },
+    "devDependencies": {
+      "babel": "^5.8.23",
+      "electron-prebuilt": "^0.34.0",
+      "gulp": "^3.9.0",
+      "gulp-babel": "^5.3.0"
+    }
+  },
+  "packageStatus": 200
 }

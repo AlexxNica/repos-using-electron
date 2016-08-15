@@ -44,5 +44,38 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "angular-electron",
+    "version": "1.0.0",
+    "description": "angular electron app",
+    "main": "main.js",
+    "keywords": [
+      "electron",
+      "desktop",
+      "angularjs"
+    ],
+    "author": "Connie Leung",
+    "license": "ISC",
+    "devDependencies": {
+      "asar": "^0.8.3",
+      "bower": "^1.7.1",
+      "electron-debug": "^0.5.1",
+      "electron-prebuilt": "^0.36.0",
+      "fs-jetpack": "^0.7.0",
+      "gulp": "^3.9.0",
+      "q": "^1.4.1",
+      "rcedit": "^0.3.0"
+    },
+    "dependencies": {
+      "asar": "^0.8.3",
+      "fs-jetpack": "^0.7.1",
+      "gulp-minify-css": "^1.2.2",
+      "gulp-rev": "^6.0.1",
+      "gulp-uglify": "^1.5.1",
+      "gulp-usemin": "^0.3.16",
+      "gulp-util": "^3.0.7"
+    }
+  },
+  "packageStatus": 200
 }

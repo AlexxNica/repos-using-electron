@@ -50,5 +50,40 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "forecast-player",
+    "productName": "ForecastPlayer",
+    "version": "0.0.1",
+    "description": "Forecast Player for SoundCloud",
+    "license": "MIT",
+    "main": "main.js",
+    "repository": "volkert/forecast-player",
+    "author": {
+      "name": "Volker Tietz",
+      "email": "volker.tietz@gmail.com",
+      "url": "github.com/volkert"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "start": "electron ."
+    },
+    "files": [
+      "src/",
+      "web/"
+    ],
+    "keywords": [
+      "electron-app soundcloud forecast"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.1.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^4.1.2",
+      "electron-prebuilt": "^0.28.1"
+    }
+  },
+  "packageStatus": 200
 }

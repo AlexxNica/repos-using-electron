@@ -50,5 +50,58 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "auth2f",
+    "productName": "Auth2f",
+    "version": "0.0.0",
+    "main": "main.js",
+    "description": "2FA token generator",
+    "license": "MIT",
+    "repository": "samirkut/auth2f",
+    "author": {
+      "name": "Samir Kuthiala",
+      "email": "samir.kuthiala@gmail.com",
+      "url": "github.com/samirkut/auth2f"
+    },
+    "electronVersion": "0.36.0",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+    },
+    "files": [
+      "main.js",
+      "app/index.html",
+      "app/index.css"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "angular2": "^2.0.0-beta.7",
+      "bootstrap": "^3.3.6",
+      "electron-debug": "^0.5.0",
+      "electron-edge": "^5.0.1-pre",
+      "es6-promise": "^3.0.2",
+      "es6-shim": "^0.33.3",
+      "reflect-metadata": "0.1.2",
+      "rxjs": "5.0.0-beta.2",
+      "zone.js": "0.5.15"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.36.0",
+      "xo": "^0.12.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,53 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "version": "0.2.1",
+    "private": true,
+    "build": {
+      "app-bundle-id": "xyz.vosswerks.checkin",
+      "app-category-type": "public.app-category.productivity"
+    },
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "dev": "npm run compile:dev && npm run run:dev",
+      "run": "npm run compile && NODE_ENV=production electron ./app",
+      "run:dev": "NODE_ENV=development electron app",
+      "start": "npm install && npm run compile && NODE_ENV=production electron ./app",
+      "clean": "rimraf dist",
+      "clean:osx": "rimraf dist/Checkin-darwin-x64",
+      "clean:win": "rimraf dist/win",
+      "compile:dev": "grunt dev",
+      "compile": "grunt build",
+      "pack": "npm run compile && build",
+      "dist": "npm run compile && build",
+      "release": "npm run compile && build",
+      "dist:osx": "build --platform osx",
+      "dist:win64": "build --platform win32 --arch x64"
+    },
+    "devDependencies": {
+      "devtron": "^1.0.1",
+      "electron-builder": "next",
+      "electron-prebuilt": "1.0.1",
+      "grunt": "latest",
+      "grunt-bower-task": "latest",
+      "grunt-contrib-concat": "latest",
+      "grunt-contrib-copy": "latest",
+      "grunt-contrib-cssmin": "latest",
+      "grunt-contrib-handlebars": "latest",
+      "grunt-contrib-jshint": "latest",
+      "grunt-contrib-nodeunit": "latest",
+      "grunt-contrib-uglify": "latest",
+      "grunt-contrib-watch": "latest",
+      "grunt-execute": "latest",
+      "grunt-exit": "^1.0.0",
+      "grunt-json": "latest",
+      "grunt-node-inspector": "latest",
+      "grunt-shell": "^1.1.2",
+      "matchdep": "latest",
+      "rimraf": "^2.5.2"
+    }
+  },
+  "packageStatus": 200
 }

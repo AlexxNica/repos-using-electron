@@ -58,5 +58,28 @@
   },
   "networkCount": 0,
   "subscribersCount": 5,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "profile-log-visualizer",
+    "version": "1.0.2",
+    "description": "Sharemind profile log visualizer",
+    "main": "app/analyser.js",
+    "author": "n0n",
+    "license": "MIT",
+    "repository": "https://github.com/sharemind-sdk/profile_log_visualizer",
+    "dependencies": {
+      "JSONStream": "^1.0.7",
+      "async": "^1.5.0",
+      "byline-interleave": "^1.1.2",
+      "electron-prebuilt": "^0.36.0",
+      "line-by-line": "^0.1.4",
+      "minimist": "^1.2.0",
+      "tree-traversal": "^1.0.0"
+    },
+    "devDependencies": {
+      "gulp": "^3.9.0",
+      "gulp-less": "^3.0.5"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,59 @@
   },
   "networkCount": 1,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "websci16-hackathon-occupy",
+    "productName": "WebSci16-Hackathon",
+    "description": "Visualizing the Occupy Movement",
+    "version": "0.2.0",
+    "author": "Andreas Gerlach <andi@appelgriebsch.org>",
+    "main": "app/index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/appelgriebsch/occupy-hackathon-websci16.git"
+    },
+    "keywords": [
+      "electron",
+      "boilerplate",
+      "angularjs"
+    ],
+    "config": {
+      "id": "com.appelgriebsch.occupy-hackathon-websci16",
+      "ico": "app/assets/occupy.ico",
+      "icns": "app/assets/occupy.icns",
+      "png": "app/assets/occupy.png"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/appelgriebsch/occupy-hackathon-websci16/issues"
+    },
+    "homepage": "https://github.com/appelgriebsch/occupy-hackathon-websci16#readme",
+    "scripts": {
+      "postinstall": "npm run app-install && npm run electron-version",
+      "start": "electron app/",
+      "app-install": "cd app && npm install --no-optional",
+      "electron-version": "cd build && node -e \"var electron = require('../node_modules/electron-prebuilt/package.json'); console.log(electron.version);\" > electron.version",
+      "clean:build": "rimraf build/*",
+      "build": "npm run clean:build -s && npm run build:linux -s && npm run build:win32 -s && npm run build:osx -s",
+      "build:linux": "npm run package:linux-ia32 -s && npm run package:linux-x64 -s",
+      "build:osx": "npm run package:osx-app -s",
+      "build:win32": "npm run package:win32-ia32 -s && npm run package:win32-x64 -s",
+      "package:linux-ia32": "electron-packager app/ $npm_package_productName --arch ia32 --platform linux --app-version $npm_package_version --app-copyright \"Copyright (c) 2016 $npm_package_author_name\" --asar --icon $npm_package_config_png --prune --out build/",
+      "package:linux-x64": "electron-packager app/ $npm_package_productName --arch x64 --platform linux --app-version $npm_package_version --app-copyright \"Copyright (c) 2016 $npm_package_author_name\" --asar --icon $npm_package_config_png --prune --out build/",
+      "package:osx-app": "electron-packager app/ $npm_package_productName --arch x64 --platform darwin --app-version $npm_package_version --app-copyright \"Copyright (c) 2016 $npm_package_author_name\" --app-bundle-id $npm_package_config_id --asar --icon $npm_package_config_png --prune --out build/",
+      "package:osx-mas": "electron-packager app/ $npm_package_productName --arch x64 --platform mas --app-version $npm_package_version --app-copyright \"Copyright (c) 2016 $npm_package_author_name\" --app-bundle-id $npm_package_config_id --asar --icon $npm_package_config_png --prune --out build/",
+      "package:win32-ia32": "electron-packager app/ $npm_package_productName --arch ia32 --platform win32 --app-version $npm_package_version --app-bundle-id $npm_package_config_id --app-copyright \"Copyright (c) 2016 $npm_package_author_name\" --version-string.CompanyName=\"$npm_package_author_name\" --version-string.ProductName=\"$npm_package_productName\" --version-string.FileDescription=\"$npm_package_description\" --asar --icon $npm_package_config_ico --prune --out build/",
+      "package:win32-x64": "electron-packager app/ $npm_package_productName --arch x64 --platform win32 --app-version $npm_package_version --app-bundle-id $npm_package_config_id --app-copyright \"Copyright (c) 2016 $npm_package_author_name\" --version-string.CompanyName=\"$npm_package_author_name\" --version-string.ProductName=\"$npm_package_productName\" --version-string.FileDescription=\"$npm_package_description\" --asar --icon $npm_package_config_ico --prune --out build/"
+    },
+    "dependencies": {
+      "devtron": "^1.1.0",
+      "electron-packager": "^7.0.0",
+      "electron-prebuilt": "^1.1.0",
+      "node-gyp": "^3.3.0",
+      "rimraf": "^2.5.2",
+      "spectron": "^3.0.0"
+    }
+  },
+  "packageStatus": 200
 }

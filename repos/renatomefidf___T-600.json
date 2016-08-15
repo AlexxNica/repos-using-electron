@@ -44,5 +44,25 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Terminator_T-600",
+    "description": "The first Terminator version with rubber coverage",
+    "version": "0.1.0",
+    "main": "main.js",
+    "author": "Renato Mendes Figueiredo <t600@renatomefi.com.br>",
+    "license": "MIT",
+    "dependencies": {
+      "material-design-lite": "^1.0.2",
+      "child_pty": "^0.5.1",
+      "socket.io": "^1.2.0",
+      "socket.io-stream": "^0.6.0",
+      "terminal.js": "^1.0.3"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.30.3",
+      "jshint": "^2.5.10"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,40 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-app-testing",
+    "version": "0.0.1",
+    "description": "A minimal Electron application demonstrating spectron testing",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . HelloWorld --version=1.2.4 --platform=all --out=build --arch=all --ignore=\"(node_modules|src)\" --overwrite",
+      "test": "node test/app_test.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mdb/electron-app-testing.git"
+    },
+    "keywords": [
+      "Electron",
+      "Spectron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "Mike Ball",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mdb/electron-app-testing/issues"
+    },
+    "homepage": "https://github.com/mdb/electron-app-testing#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0",
+      "spectron": "^3.3.0",
+      "electron-packager": "7.3.0",
+      "pryjs": "^1.0.2"
+    }
+  },
+  "packageStatus": 200
 }

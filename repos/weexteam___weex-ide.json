@@ -64,5 +64,44 @@
   },
   "networkCount": 4,
   "subscribersCount": 9,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "weex-ide",
+    "productName": "Weex IDE",
+    "version": "0.1.2",
+    "description": "A WYSIWYG IDE for Weex",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "pack-app": "electron-packager ./ --platform=darwin --arch=x64 --out=package --overwrite --icon=./assets/weex_icon.icns",
+      "make-dmg": "electron-installer-dmg \"./package/Weex IDE-darwin-x64/Weex IDE.app\" \"Weex IDE\" --out=package --overwrite --icon=./assets/weex_icon.icns --background=./assets/weex_bg.png",
+      "prebuild": "rm -rf ./package/*",
+      "build": "npm run pack-app && npm run make-dmg"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:weexteam/weex-ide.git"
+    },
+    "keywords": [
+      "weex",
+      "IDE",
+      "Electron"
+    ],
+    "author": "Terry King <terrykingcha@gmail.com>",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron-installer-dmg": "^0.1.1",
+      "electron-packager": "^7.0.4",
+      "electron-prebuilt": "^1.2.0",
+      "weex-html5": "^0.2.18"
+    },
+    "dependencies": {
+      "codemirror": "^5.16.0",
+      "finalhandler": "^0.5.0",
+      "local-ip": "^1.0.1",
+      "serve-static": "^1.11.1",
+      "weex-transformer": "^0.3.1"
+    }
+  },
+  "packageStatus": 200
 }

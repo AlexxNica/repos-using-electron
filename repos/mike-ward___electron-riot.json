@@ -50,5 +50,38 @@
   },
   "networkCount": 2,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron src/main.js",
+      "package": "electron-packager . electron-quick-start --platform=win32 --arch=x64 --version=0.36.3 --overwrite"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/atom/electron-quick-start#readme",
+    "devDependencies": {
+      "browser-jsonp": "1.1.2",
+      "electron-packager": "5.2.1",
+      "electron-prebuilt": "0.36.7",
+      "riot": "2.3.15"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "unsplash-menubar-app",
+    "version": "1.1.0",
+    "description": "unsplash menubar electron app",
+    "dependencies": {
+      "auto-launch": "^2.0.1",
+      "menubar": "*",
+      "mkdirp": "^0.5.1",
+      "request": "^2.72.0",
+      "user-home": "^2.0.0",
+      "wallpaper": "^2.1.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.36.0"
+    },
+    "main": "main.js",
+    "scripts": {
+      "build": "electron-packager . Unsplash-wallpaper --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns --overwrite",
+      "start": "electron ."
+    }
+  },
+  "packageStatus": 200
 }

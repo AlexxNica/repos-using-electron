@@ -64,5 +64,42 @@
   },
   "networkCount": 1,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "lunchtray",
+    "version": "1.1.3",
+    "description": "Tray application for makelunch",
+    "main": "index.js",
+    "scripts": {
+      "test": "standard",
+      "build": "npm run build:darwin",
+      "build:darwin": "electron-packager . lunchtray --platform=darwin --arch=x64 --version=0.36.7 --icon=noun_184605.icns",
+      "build:linux": "electron-packager . lunchtray --platform=linux --arch=x64 --version=0.36.7 --icon=noun_184605.icns",
+      "start": "electron ."
+    },
+    "author": "Alan Shaw",
+    "license": "ISC",
+    "dependencies": {
+      "ddp": "^0.11.0",
+      "ddp-ejson": "^0.8.1-3",
+      "handlebars": "^4.0.5",
+      "md5": "^2.0.0",
+      "menubar": "^4.0.2",
+      "moment": "^2.11.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.6",
+      "standard": "^6.0.5"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tableflip/lunchtray.git"
+    },
+    "bugs": {
+      "url": "https://github.com/tableflip/lunchtray/issues"
+    },
+    "homepage": "https://github.com/tableflip/lunchtray#readme"
+  },
+  "packageStatus": 200
 }

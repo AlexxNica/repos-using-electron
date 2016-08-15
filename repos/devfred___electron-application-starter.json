@@ -50,5 +50,30 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-application-starter",
+    "version": "1.0.0",
+    "description": "A starter application using electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "win-bundle": "electron-packager . --platform=win32 --arch=ia32 --version=0.35.4 --icon=icon.ico",
+      "linux-64-bundle": "electron-packager . --platform=linux --arch=x64 --version=0.35.4 ignore='node_modules/(electron-packager|electron-prebuilt)'"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/devfred/electron-application-starter.git"
+    },
+    "keywords": [
+      "electron"
+    ],
+    "author": "Creative Wizardry",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

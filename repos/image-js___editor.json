@@ -64,5 +64,29 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "editor",
+    "version": "1.0.0",
+    "description": "Image editor based on electron",
+    "main": "main.js",
+    "dependencies": {
+      "image-js": "^0.1.8"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.6"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron src/index.js"
+    },
+    "repository": "image-js/editor",
+    "author": "Michaël Zasso",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/image-js/editor/issues"
+    },
+    "homepage": "https://github.com/image-js/editor#readme"
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,37 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "maps-desk",
+    "version": "0.0.2",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "DEVELOPMENT=true electron app/index.js",
+      "build": "electron-packager . MapGame",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "buildosx": "electron-packager ./ Maps --platform=darwin --arch=x64 --version=0.35.4 --out ./dist/Osx --asar  --app-bundle-id Maps --app-version 1.5",
+      "buildwin": "electron-packager ./production-build Footmapp --platform=win32 --arch=x64 --version=0.35.4 --out ./dist/Win --asar  --version-string.CompanyName='Minegra' --version-string.ProductName='Maps' --version-string.FileDescription='Maps' --version-string.OriginalFilename='maps.exe' --version-string.LegalCopyright='Copyright (C) 2015 Minegra'"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/limoragni/maps-desk.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/limoragni/maps-desk/issues"
+    },
+    "homepage": "https://github.com/limoragni/maps-desk#readme",
+    "devDependencies": {
+      "electron-packager": "^4.2.0",
+      "electron-prebuilt": "^0.30.0",
+      "gulp": "^3.8.11",
+      "gulp-babel": "^5.1.0",
+      "gulp-load-plugins": "^0.9.0",
+      "gulp-rename": "^1.2.2"
+    }
+  },
+  "packageStatus": 200
 }

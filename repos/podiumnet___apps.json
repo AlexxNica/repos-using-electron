@@ -64,5 +64,36 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "papps",
+    "version": "1.0.0",
+    "description": "Podium App Installer",
+    "main": "index.js",
+    "bin": {
+      "papps": "./startscript.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/podiumnet/papps.git"
+    },
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [
+      "apps"
+    ],
+    "author": "podium",
+    "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/podiumnet/papps/issues"
+    },
+    "homepage": "https://github.com/podiumnet/papps#readme",
+    "dependencies": {
+      "coffee-script": "^1.10.0",
+      "electron-prebuilt": "^0.34.2",
+      "npm": "^3.3.10"
+    }
+  },
+  "packageStatus": 200
 }

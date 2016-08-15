@@ -182,5 +182,42 @@
   },
   "networkCount": 60,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "iron-node",
+    "version": "1.2.16",
+    "description": "",
+    "main": "index.js",
+    "bin": {
+      "iron-node": "./bin/run.js"
+    },
+    "preferGlobal": true,
+    "scripts": {
+      "test": "mocha",
+      "dev": "node_modules/.bin/electron ./app",
+      "bump": "npm version patch && git push && git push --tags && npm publish"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/s-a/iron-node.git"
+    },
+    "author": "Stephan Ahlf <stephan.ahlf@gmail.com> (https://github.com/s-a)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/s-a/iron-node/issues"
+    },
+    "homepage": "https://github.com/s-a/iron-node#readme",
+    "dependencies": {
+      "electron-prebuilt": "^0.30.2",
+      "markdown": "^0.5.0",
+      "open": "0.0.5",
+      "semver": "^5.0.1"
+    },
+    "devDependencies": {
+      "mocha": "^2.2.5",
+      "should": "^7.0.2",
+      "jshint": "^2.8.0"
+    }
+  },
+  "packageStatus": 200
 }

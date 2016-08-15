@@ -64,5 +64,46 @@
   },
   "networkCount": 7,
   "subscribersCount": 9,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "pack": "build",
+      "dist": "build",
+      "test": "eslint .",
+      "app": "electron ./app"
+    },
+    "build": {
+      "mac": {
+        "target": [
+          "dmg",
+          "zip",
+          "mas"
+        ]
+      },
+      "linux": {
+        "target": [
+          "deb",
+          "AppImage"
+        ]
+      },
+      "dmg": {
+        "icon": ""
+      },
+      "appId": "com.irccloud.desktop",
+      "app-category-type": "public.app-category.productivity",
+      "npmRebuild": false,
+      "extend-info": "Info.plist"
+    },
+    "devDependencies": {
+      "electron-builder": "^5.11.3",
+      "electron-prebuilt": "^1.2.6",
+      "eslint": "^3.0.1",
+      "jshint": "^2.9.1",
+      "tsconfig-glob": "^0.4.1",
+      "typescript": "^1.8.2"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

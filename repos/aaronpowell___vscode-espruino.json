@@ -50,5 +50,79 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "vscode-espruino",
+    "displayName": "Espruino for VSCode",
+    "description": "A VSCode plugin for working with Espruino micro controllers",
+    "version": "0.2.0",
+    "publisher": "aaronpowell",
+    "engines": {
+      "vscode": "^0.10.1"
+    },
+    "categories": [
+      "Other"
+    ],
+    "activationEvents": [
+      "workspaceContains:espruino.json",
+      "onCommand:VSCEspruino.listPorts"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
+      "commands": [
+        {
+          "command": "VSCEspruino.listPorts",
+          "title": "Espruino: List Ports"
+        },
+        {
+          "command": "VSCEspruino.connect-disconnect",
+          "title": "Espruino: Connect/Disconnect"
+        },
+        {
+          "command": "VSCEspruino.run-file",
+          "title": "Espruino: Run current file"
+        },
+        {
+          "command": "VSCEspruino.reset",
+          "title": "Espruino: Reset device"
+        },
+        {
+          "command": "VSCEspruino.html-to-js",
+          "title": "Espruino: Convert HTML to JavaScript"
+        }
+      ],
+      "jsonValidation": [
+        {
+          "fileMatch": "espruino.json",
+          "url": "./schemas/espruino.schema.json"
+        }
+      ]
+    },
+    "scripts": {
+      "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+      "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+      "rebuild:native-modules": "node ./node_modules/electron-rebuild/lib/cli.js --version 0.34.5",
+      "vsce": "./node_modules/.bin/vsce"
+    },
+    "devDependencies": {
+      "typescript": "^1.7.5",
+      "vscode": "0.10.x",
+      "electron-prebuilt": "0.34.5",
+      "electron-rebuild": "^1.0.2",
+      "vsce": "^1.1.0"
+    },
+    "dependencies": {
+      "espruino": "0.0.13",
+      "html-minifier": "^1.1.1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aaronpowell/vscode-espruino.git"
+    },
+    "bugs": {
+      "url": "https://github.com/aaronpowell/vscode-espruino/issues"
+    },
+    "licenseUrl": "https://github.com/aaronpowell/vscode-espruino/blob/master/LICENSE.md"
+  },
+  "packageStatus": 200
 }

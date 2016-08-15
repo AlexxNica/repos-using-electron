@@ -44,5 +44,26 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "logascope",
+    "version": "1.0.0",
+    "description": "Viewer for log files with custom highlighting",
+    "main": "main.js",
+    "author": "Tony S. Yu",
+    "license": "BSD",
+    "dependencies": {
+      "angular": "^1.4.7",
+      "angular-hotkeys": "^1.6.0",
+      "angular-sanitize": "^1.4.7",
+      "electron-prebuilt": "^0.34.3",
+      "highlight.js": "^8.9.1",
+      "tail": "^0.4.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "start": "node_modules/.bin/electron ."
+    }
+  },
+  "packageStatus": 200
 }

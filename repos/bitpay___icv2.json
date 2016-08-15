@@ -58,5 +58,114 @@
   },
   "networkCount": 10,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "dependencies": {
+      "angular2": "2.0.0-beta.15",
+      "angular2-moment": "^0.5.0",
+      "core-js": "^2.2.1",
+      "es6-promise": "3.1.2",
+      "es6-shim": "^0.35.0",
+      "icv2-plugin-client": "file:./lib/icv2-plugin-client",
+      "ionic-angular": "2.0.0-beta.4",
+      "ionic-native": "^1.1.0",
+      "ionicons": "3.0.0-alpha.3",
+      "reflect-metadata": "0.1.2",
+      "rxjs": "5.0.0-beta.2",
+      "zone.js": "0.6.12"
+    },
+    "devDependencies": {
+      "awesome-typescript-loader": "0.17.0-rc.6",
+      "cordova": "^6.1.0",
+      "coveralls": "^2.11.9",
+      "cz-conventional-changelog": "^1.1.5",
+      "del": "2.2.0",
+      "electron-prebuilt": "^0.37.6",
+      "ghooks": "^1.0.3",
+      "gulp": "3.9.1",
+      "gulp-autoprefixer": "^3.1.0",
+      "gulp-sass": "2.2.0",
+      "gulp-watch": "4.3.5",
+      "ionic": "^2.0.0-beta.19",
+      "ionic-gulp-fonts-copy": "^1.0.0",
+      "ionic-gulp-html-copy": "^1.0.0",
+      "ionic-gulp-sass-build": "^1.0.0",
+      "ionic-gulp-scripts-copy": "^1.0.0",
+      "ionic-gulp-webpack": "^1.0.0",
+      "istanbul-instrumenter-loader": "^0.2.0",
+      "karma": "^0.13.21",
+      "karma-chrome-launcher": "^0.2.3",
+      "karma-coverage": "^0.5.3",
+      "karma-jasmine": "^0.3.8",
+      "karma-mocha-reporter": "^2.0.1",
+      "karma-phantomjs-launcher": "^1.0.0",
+      "karma-sourcemap-loader": "^0.3.7",
+      "karma-webpack": "1.7.0",
+      "pre-commit": "^1.1.2",
+      "remap-istanbul": "^0.6.3",
+      "run-sequence": "^1.1.5",
+      "strip-sourcemap-loader": "0.0.1",
+      "typescript": "1.8.10",
+      "validate-commit-msg": "^2.6.1",
+      "webpack": "1.13.0"
+    },
+    "name": "icv2",
+    "description": "icv2",
+    "license": "MIT",
+    "main": "electron.js",
+    "scripts": {
+      "start": "node develop.js",
+      "electron": "electron electron.js",
+      "install": "npm run install-tooling && cordova prepare",
+      "install-tooling": "npm run link-plugin-client && npm run install-hooks && npm run install-starter && npm run install-wallet && npm run install-simserver",
+      "link-plugin-client": "cd lib/icv2-plugin-client && npm link && cd ../../ && npm link icv2-plugin-client",
+      "install-hooks": "cd tooling/hooks && npm install",
+      "install-starter": "cd packaged-plugins/starter && ln -s ../../node_modules/ node_modules && npm install",
+      "install-wallet": "cd packaged-plugins/wallet && ln -s ../../node_modules/ node_modules && npm install",
+      "install-simserver": "cd tooling/simserver && npm install",
+      "serve-app": "ionic serve -p 8105 -r 35735",
+      "serve-starter": "cd packaged-plugins/starter && ionic serve -b -p 8110 -r 35740",
+      "serve-wallet": "cd packaged-plugins/wallet && ionic serve -b -p 8111 -r 35741",
+      "serve-simserver": "node tooling/simserver/proxy.js 8110",
+      "clean": "git clean -dfx",
+      "clean-tsc": "find app lib packaged-plugins/starter/app packaged-plugins/wallet/app -name '*.js' -exec rm {} \\; && find app lib packaged-plugins/starter/app packaged-plugins/wallet/app -name '*.js.map' -exec rm {} \\;",
+      "test": "echo 'Running Tests:' && karma start && tsc && npm run clean-tsc",
+      "watch:test": "karma start --auto-watch --no-single-run",
+      "coverage": "tsc && karma start && npm run map-coverage && npm run clean-tsc",
+      "map-coverage": "remap-istanbul -i coverage/unmapped-json/coverage-final.json -o coverage/report-html -t html && remap-istanbul -i coverage/unmapped-json/coverage-final.json -o coverage/lcov.info -t lcovonly && remap-istanbul -i coverage/unmapped-json/coverage-final.json -o coverage/report.json -t json && remap-istanbul -i coverage/unmapped-json/coverage-final.json -t text-summary -o coverage/report-summary.txt && cat coverage/report-summary.txt && echo ''",
+      "coveralls": "npm run coverage && cat coverage/lcov.info | coveralls"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/bitpay/icv2.git"
+    },
+    "cordovaPlugins": [
+      "cordova-plugin-device",
+      "cordova-plugin-console",
+      "cordova-plugin-whitelist",
+      "cordova-plugin-splashscreen",
+      "cordova-plugin-statusbar",
+      "ionic-plugin-keyboard",
+      "cordova-sqlite-storage"
+    ],
+    "cordovaPlatforms": [
+      "ios"
+    ],
+    "config": {
+      "commitizen": {
+        "path": "./node_modules/cz-conventional-changelog"
+      },
+      "ghooks": {
+        "commit-msg": "validate-commit-msg"
+      },
+      "validate-commit-msg": {
+        "helpMessage": "\nThis project uses commitizen to document changes. Please try:\nnpm install commitizen -g && git cz\n"
+      }
+    },
+    "pre-commit": "coverage",
+    "engines": {
+      "node": ">=4"
+    }
+  },
+  "packageStatus": 200
 }

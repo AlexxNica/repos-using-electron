@@ -64,5 +64,55 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "diamond-file-explorer",
+    "productName": "DiamondFileExplorer",
+    "version": "0.0.0",
+    "description": "My geometric app",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/blamy/diamond-file-explorer.git"
+    },
+    "author": "Brett Lamy <BLamy@calvauto.com> (testing.com)",
+    "electronVersion": "0.35.0",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "bluebird": "^3.0.5",
+      "electron-debug": "^0.5.0",
+      "fs": "0.0.2"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.35.0",
+      "xo": "^0.11.1"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    },
+    "bugs": {
+      "url": "https://github.com/blamy/diamond-file-explorer/issues"
+    },
+    "homepage": "https://github.com/blamy/diamond-file-explorer#readme",
+    "main": "index.js"
+  },
+  "packageStatus": 200
 }

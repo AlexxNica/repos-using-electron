@@ -58,5 +58,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ireport",
+    "version": "1.0.0",
+    "description": "An electron app for awesome reporting of your source code quality",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lazysource/ireport.git"
+    },
+    "author": "Manraj Singh <manrajsinghgrover@gmail.com> (http://manrajsingh.in)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/lazysource/ireport/issues"
+    },
+    "homepage": "https://github.com/lazysource/ireport#readme",
+    "devDependencies": {
+      "electron-prebuilt": "1.2.5"
+    },
+    "dependencies": {
+      "xml2js": "^0.4.17",
+      "electron-json-storage": "^2.0.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,41 @@
   },
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "private": true,
+    "name": "farnsworth-launcher",
+    "version": "0.2.0",
+    "description": "Fullscreen Application Launcher for TVs",
+    "main": "main.js",
+    "scripts": {
+      "clean": "rimraf dist",
+      "postinstall": "install-app-deps",
+      "debug": "npm install && electron --debug --debug-brk ./app",
+      "start": "npm install && electron ./app",
+      "dist": "build --win --osx --linux --x64 && build --win --linux --ia32",
+      "dist:darwin": "build --osx",
+      "dist:win64": "build --win --x64",
+      "dist:win32": "build --win --ia32",
+      "dist:linux64": "build --linux --x64",
+      "dist:linux32": "build --linux --ia32"
+    },
+    "build": {
+      "app-bundle-id": "org.mythicnet.farnsworth",
+      "app-category-type": "public.app-category.utilities",
+      "linux": {
+        "target": [
+          "deb",
+          "rpm",
+          "tar.gz"
+        ]
+      }
+    },
+    "devDependencies": {
+      "electron-builder": "^4.2.2",
+      "electron-prebuilt": "1.2.1",
+      "rimraf": "^2.5.2"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,34 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-desktop-intro",
+    "version": "1.0.0",
+    "description": "electron-desktop-intro",
+    "main": "main.js",
+    "scripts": {
+      "test": "",
+      "start": "electron .",
+      "build": "electron-packager ./ --platform=win32 --arch=x64"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/destromas1/electron-desktop-intro.git"
+    },
+    "author": "Shahjada Talukdar",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/destromas1/electron-desktop-intro/issues"
+    },
+    "homepage": "https://github.com/destromas1/electron-desktop-intro#readme",
+    "devDependencies": {
+      "electron-packager": "^6.0.2",
+      "electron-prebuilt": "^0.37.5"
+    },
+    "dependencies": {
+      "jquery": "^2.2.3"
+    }
+  },
+  "packageStatus": 200
 }

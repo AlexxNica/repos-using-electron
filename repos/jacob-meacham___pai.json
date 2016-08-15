@@ -50,5 +50,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "pai",
+    "version": "0.0.1",
+    "description": "Seamless deck building with Electron",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/jacob-meacham/pai.git"
+    },
+    "author": "jemonjam",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jacob-meacham/pai/issues"
+    },
+    "homepage": "https://github.com/jacob-meacham/pai#readme",
+    "dependencies": {
+      "electron": "^0.4.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.8"
+    }
+  },
+  "packageStatus": 200
 }

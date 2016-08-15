@@ -50,5 +50,27 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "uovo",
+    "author": "Ryan James Spencer",
+    "version": "0.1.0",
+    "main": "./main.js",
+    "scripts": {
+      "start": "electron .",
+      "startl": "electron main.js --enable-transparent-visuals --disable-gpu"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.5",
+      "eslint": "^3.0.1",
+      "eslint-plugin-react": "^5.2.2"
+    },
+    "repository": "https://github.com/justanotherdot/uovo",
+    "dependencies": {
+      "jquery": "^3.0.0",
+      "jquery-ui": "^1.10.5"
+    },
+    "license": "MPL-2.0"
+  },
+  "packageStatus": 200
 }

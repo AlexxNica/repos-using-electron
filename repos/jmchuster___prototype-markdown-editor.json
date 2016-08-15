@@ -44,5 +44,52 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "prototype-markdown-editor",
+    "version": "1.0.0",
+    "description": "Evernote based on markdowny, for developers.",
+    "main": "main.js",
+    "scripts": {
+      "start": "ENVIRONMENT=DEV electron main.js",
+      "//start": "ENVIRONMENT=DEV ./node_modules/.bin/electron .",
+      "build": "./node_modules/.bin/webpack",
+      "watch": "./node_modules/.bin/webpack-dev-server --hot --inline",
+      "osx-package": "./node_modules/.bin/webpack -p && ./node_modules/electron-packager/cli.js ./ ElectronReactSass --out ./bin --platform=darwin --arch=x64 --version=0.34.0 --overwrite --ignore=\"ignore|bin|node_modules\""
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gingenhagen/prototype-markdown-editor.git"
+    },
+    "keywords": [
+      "prototype",
+      "markdown",
+      "notes"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/gingenhagen/prototype-markdown-editor/issues"
+    },
+    "homepage": "https://github.com/gingenhagen/prototype-markdown-editor#readme",
+    "devDependencies": {
+      "babel-core": "^6.5.2",
+      "babel-loader": "^6.2.3",
+      "babel-preset-react": "^6.5.0",
+      "css-loader": "^0.23.1",
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.8",
+      "jQuery": "^1.7.4",
+      "jquery": "^2.2.1",
+      "lodash": "^4.5.1",
+      "node-sass": "^3.4.2",
+      "react": "^0.14.7",
+      "react-dom": "^0.14.7",
+      "sass-loader": "^3.1.2",
+      "style-loader": "^0.13.0",
+      "webpack": "^1.12.14",
+      "webpack-dev-server": "^1.14.1"
+    }
+  },
+  "packageStatus": 200
 }

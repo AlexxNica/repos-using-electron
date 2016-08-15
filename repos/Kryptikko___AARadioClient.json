@@ -44,5 +44,24 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "AARadio",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron .",
+      "postinstall": "bower install"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "bower": "^1.7.9",
+      "electron-prebuilt": "^0.36.5"
+    }
+  },
+  "packageStatus": 200
 }

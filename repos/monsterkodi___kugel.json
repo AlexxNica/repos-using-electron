@@ -44,5 +44,64 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "kugel",
+    "version": "0.0.1",
+    "description": "kugel",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/monsterkodi/kugel.git"
+    },
+    "bugs": {
+      "url": "https://github.com/monsterkodi/kugel/issues"
+    },
+    "dependencies": {
+      "chalk": "^1.1.0",
+      "char-spinner": "^1.0.1",
+      "format": "^0.2.1",
+      "keycode": "^2.1.0",
+      "lodash.assign": "^3.2.0",
+      "lodash.capitalize": "^3.0.0",
+      "lodash.clone": "^3.0.2",
+      "lodash.defaults": "^3.1.2",
+      "lodash.filter": "^3.1.1",
+      "lodash.find": "^3.2.1",
+      "lodash.isempty": "^3.0.4",
+      "lodash.isfunction": "^3.0.6",
+      "lodash.isstring": "^3.0.1",
+      "lodash.remove": "^3.1.0",
+      "lodash.uniq": "^3.2.2",
+      "lodash.zipobject": "^3.0.0",
+      "moment": "^2.10.3",
+      "nedb": "^1.1.2",
+      "node-uuid": "^1.4.3",
+      "opener": "^1.4.1",
+      "term-spinner": "^1.0.0",
+      "three-orbit-controls": "^69.0.4",
+      "underscore.string": "^3.1.1",
+      "walkdir": "0.0.10"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.28.3",
+      "grunt": "^0.4.5",
+      "grunt-bower-concat": "^0.5.0",
+      "grunt-bumpup": "^0.6.2",
+      "grunt-contrib-clean": "^0.6.0",
+      "grunt-contrib-coffee": "^0.13.0",
+      "grunt-contrib-stylus": "^0.21.0",
+      "grunt-contrib-watch": "^0.6.1",
+      "grunt-pepper": "^0.5.5",
+      "grunt-shell": "^1.1.2",
+      "process": "^0.11.1"
+    },
+    "main": "js/kugel.js",
+    "scripts": {
+      "build": "electron-packager . kugel --platform=darwin --arch=x64 --version=0.28.2 --ignore=node_modules/electron --icon=img/appicon.icns",
+      "start": "electron .",
+      "bower": "bower install octicons font-awesome prototype.js three.js stats.js"
+    }
+  },
+  "packageStatus": 200
 }

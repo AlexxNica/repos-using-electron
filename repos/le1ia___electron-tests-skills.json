@@ -44,5 +44,24 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "mocha tests"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "chai": "^3.4.1",
+      "electron-prebuilt": "^0.36.2",
+      "mocha": "^2.4.5",
+      "selenium-webdriver": "^2.48.2",
+      "webdriverio": "^3.4.0"
+    }
+  },
+  "packageStatus": 200
 }

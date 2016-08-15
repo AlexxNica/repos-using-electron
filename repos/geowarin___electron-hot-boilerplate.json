@@ -44,5 +44,63 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-hot-boilerplate",
+    "version": "1.0.0",
+    "description": "An Electron application with hot reload, without webpack",
+    "main": "main.js",
+    "scripts": {
+      "start": "cross-env NODE_ENV=development electron main.js",
+      "test": "mocha",
+      "clean": "gulp clean",
+      "build": "gulp",
+      "pack": "electron-packager . RetroJs --overwrite --platform=darwin --arch=x64 --version=0.36.9 --asar=false --prune --ignore='src' --ignore='release' --ignore='test' --out=release",
+      "package": "npm-run-all clean build pack"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/geowarin/electron-hot-boilerplate.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/geowarin/electron-hot-boilerplate/issues"
+    },
+    "homepage": "https://geowarin.github.com/electron-hot-boilerplate",
+    "devDependencies": {
+      "browserify": "^13.0.0",
+      "cross-env": "^1.0.7",
+      "del": "^2.2.0",
+      "electron-hot-loader": "*",
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.0",
+      "envify": "^3.4.0",
+      "enzyme": "^2.0.0",
+      "expect": "^1.14.0",
+      "gulp": "^3.9.1",
+      "gulp-uglify": "^1.5.3",
+      "gulp-util": "^3.0.7",
+      "mocha": "^2.4.5",
+      "npm-run-all": "^1.5.1",
+      "react-addons-test-utils": "^0.14.7",
+      "react-deep-force-update": "^2.0.1",
+      "react-proxy": "^2.0.3",
+      "reactify": "^1.1.1",
+      "uglify-js": "mishoo/UglifyJS2#harmony",
+      "vinyl-buffer": "^1.0.0",
+      "vinyl-source-stream": "^1.1.0"
+    },
+    "dependencies": {
+      "react": "^0.14.7",
+      "react-dom": "^0.14.7"
+    }
+  },
+  "packageStatus": 200
 }

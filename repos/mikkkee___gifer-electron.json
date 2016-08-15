@@ -50,5 +50,40 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "gifer-electron",
+    "version": "0.1.0",
+    "description": "A GIF maker built with electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mikkkee/gifer-electron.git"
+    },
+    "keywords": [
+      "Electron",
+      "gif",
+      "gifer"
+    ],
+    "author": "Jianfeng",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mikkkee/gifer-electron"
+    },
+    "homepage": "https://github.com/mikkkee/gifer-electron",
+    "devDependencies": {
+      "bind.js": "^1.1.0",
+      "electron-packager": "^7.0.0",
+      "electron-prebuilt": "^0.37.6",
+      "grd": "^1.2.3"
+    },
+    "dependencies": {
+      "bind.js": "^1.1.0",
+      "grd": "^1.2.3"
+    }
+  },
+  "packageStatus": 200
 }

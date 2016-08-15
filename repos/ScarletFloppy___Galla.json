@@ -50,5 +50,34 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Galla",
+    "version": "0.0.1",
+    "description": "A minimal media file viewer",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ScarletFloppy/Galla.git"
+    },
+    "keywords": [
+      "Galla",
+      "Media",
+      "Viewer",
+      "Electron"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/ScarletFloppy/Galla/issues"
+    },
+    "homepage": "https://github.com/ScarletFloppy/Galla#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

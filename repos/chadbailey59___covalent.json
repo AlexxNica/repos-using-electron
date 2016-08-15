@@ -50,5 +50,33 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Covalent",
+    "version": "0.1.1",
+    "description": "An Electron app for Google Hangouts",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chadbailey59/covalent.git"
+    },
+    "keywords": [
+      "Google Hangouts",
+      "Electron"
+    ],
+    "author": "Chad Bailey",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/chadbailey59/covalent/issues"
+    },
+    "homepage": "https://github.com/chadbailey59/covalent",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0",
+      "electron-settings": "^1.0.4"
+    }
+  },
+  "packageStatus": 200
 }

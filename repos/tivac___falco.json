@@ -50,5 +50,52 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "falco",
+    "description": "Electron-powered List-focused Twitter experiment",
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": [
+      "twitter"
+    ],
+    "author": "Pat Cavit <npm@patcavit.com>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tivac/falco.git"
+    },
+    "main": "./src",
+    "dependencies": {
+      "delegated": "^1.1.0",
+      "lazysizes": "^1.5.0",
+      "lodash.debounce": "^4.0.6",
+      "mithril": "^0.2.4",
+      "moment": "^2.13.0",
+      "purecss": "^0.6.0",
+      "rc": "^1.1.6",
+      "twemoji": "^2.0.5",
+      "twitter": "^1.2.5",
+      "twitter-text": "^1.13.4",
+      "updeep": "^0.14.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.3",
+      "eslint": "^3.1.0",
+      "eslint-config-arenanet": "^3.0.0",
+      "jscs": "^2.11.0",
+      "jscs-preset-arenanet": "^1.0.3"
+    },
+    "scripts": {
+      "start": "node_modules\\electron-prebuilt\\dist\\electron.exe .",
+      "debug": "node-inspector && electron --debug-brk=5858 ."
+    },
+    "eslintConfig": {
+      "extends": "arenanet",
+      "env": {
+        "node": true,
+        "browser": true
+      }
+    }
+  },
+  "packageStatus": 200
 }

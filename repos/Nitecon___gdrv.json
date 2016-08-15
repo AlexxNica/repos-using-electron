@@ -50,5 +50,23 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "gDrv",
+    "version": "0.1.0",
+    "description": "gDrv is a google drive cross platform application to interface with google drive and sync data to your local machine.",
+    "dependencies": {},
+    "main": "./app/main.js",
+    "scripts": {
+      "build-js": "bin/build.sh",
+      "start": "sh bin/build.sh && ./dist/gdrv-linux-x64/gdrv"
+    },
+    "author": "Will Hattingh",
+    "license": "BSD-3 Revised",
+    "devDependencies": {
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "*"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "vizu",
+    "displayName": "Vizu",
+    "version": "0.0.1",
+    "main": "main.js",
+    "description": "A Git repository visualization tool.",
+    "repository": "file://.",
+    "license": "MIT",
+    "author": "Julien Kauffmann",
+    "dependencies": {
+      "bootstrap": "^3.3.6",
+      "chokidar": "^1.4.3",
+      "d3": "^3.5.16",
+      "electron-prebuilt": "^0.37.2",
+      "git-exec": "^0.2.1",
+      "jquery": "^2.2.2"
+    },
+    "engines": {
+      "electron": "0.37.2"
+    },
+    "window": {
+      "frame": true,
+      "toolbar": true
+    }
+  },
+  "packageStatus": 200
 }

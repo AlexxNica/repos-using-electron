@@ -176,5 +176,32 @@
   },
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "app-installer",
+    "version": "1.0.0",
+    "description": "Easily install applications for linux, themes, icons and custom scripts.",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/matias-pierobon/app-installer.git"
+    },
+    "keywords": [
+      "app-installer"
+    ],
+    "author": "Matias Pierobon <matias.pierobonm@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/matias-pierobon/app-installer/issues"
+    },
+    "homepage": "https://github.com/matias-pierobon/app-installer#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.0"
+    }
+  },
+  "packageStatus": 200
 }

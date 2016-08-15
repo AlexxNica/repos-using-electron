@@ -44,5 +44,42 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "H-Editor",
+    "version": "1.0.0",
+    "description": "A Markdown Editor",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "keywords": [
+      "Electron",
+      "Markdown",
+      "editor"
+    ],
+    "author": "Hugh",
+    "devDependencies": {
+      "amazeui-react": "^1.0.1",
+      "classnames": "^2.2.3",
+      "css-loader": "^0.23.1",
+      "ejs": "^2.4.1",
+      "file-loader": "^0.8.5",
+      "gulp": "^3.9.1",
+      "gulp-gh-pages": "^0.5.4",
+      "jsx-loader": "^0.13.2",
+      "markdown": "^0.5.0",
+      "marked": "^0.3.5",
+      "material-ui": "^0.15.0-alpha.2",
+      "moment": "^2.12.0",
+      "querystring": "^0.2.0",
+      "react": "^0.14.7",
+      "style-loader": "^0.13.1",
+      "url-loader": "^0.5.7",
+      "watch": "^0.17.1",
+      "webpack": "^1.12.14",
+      "electron-prebuilt": "^0.37.6"
+    }
+  },
+  "packageStatus": 200
 }

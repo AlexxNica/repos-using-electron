@@ -50,5 +50,63 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "mqtt-ws-client",
+    "version": "0.0.1",
+    "description": "MQTT client app for the browser using websockets",
+    "private": true,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/orbitbot/mqtt-ws-client.git"
+    },
+    "author": "Patrik Johnson <patrik@zebros.fi>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/orbitbot/mqtt-ws-client/issues"
+    },
+    "homepage": "https://github.com/orbitbot/mqtt-ws-client#readme",
+    "devDependencies": {
+      "babel-eslint": "^4.1.6",
+      "browser-sync": "^2.10.1",
+      "chai": "^3.4.1",
+      "electron-prebuilt": "^0.36.0",
+      "eslint": "^1.10.3",
+      "eslint-config-airbnb": "^2.1.0",
+      "eslint-plugin-react": "^3.11.3",
+      "gulp": "^3.9.0",
+      "gulp-asset-transform": "^1.6.3",
+      "gulp-concat": "^2.6.0",
+      "gulp-eslint": "^1.1.1",
+      "gulp-help": "^1.6.1",
+      "gulp-if": "^2.0.0",
+      "gulp-load-plugins": "^1.1.0",
+      "gulp-minify-css": "^1.2.2",
+      "gulp-mocha": "^2.2.0",
+      "gulp-msx": "^0.4.0",
+      "gulp-plumber": "^1.0.1",
+      "gulp-rename": "^1.2.2",
+      "gulp-sass": "^2.1.1",
+      "gulp-size": "^2.0.0",
+      "gulp-uglify": "^1.5.1",
+      "karma": "^0.13.15",
+      "karma-chai": "^0.1.0",
+      "karma-coverage": "^0.5.3",
+      "karma-electron-launcher": "^0.1.0",
+      "karma-mocha": "^0.2.1",
+      "karma-mocha-reporter": "^1.1.3",
+      "karma-msx-preprocessor": "^1.0.0",
+      "karma-sinon": "^1.0.4",
+      "mithril-query": "^0.7.8",
+      "mocha": "^2.3.4",
+      "msx": "^0.4.1",
+      "sinon": "^1.17.2"
+    },
+    "dependencies": {
+      "mithril": "^0.2.2-rc.1",
+      "octicons": "^3.3.0",
+      "primer-css": "^2.5.0"
+    }
+  },
+  "packageStatus": 200
 }

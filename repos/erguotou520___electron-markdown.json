@@ -44,5 +44,22 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "MyDown",
+    "version": "0.1.0",
+    "dependencies": {
+      "electron": "^0.4.1",
+      "electron-window": "^0.6.0",
+      "filewatcher": "^3.0.0",
+      "marked": "^0.3.5"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.33.1",
+      "gulp": "^3.9.0",
+      "gulp-clean": "^0.3.1",
+      "gulp-electron": "0.0.9"
+    }
+  },
+  "packageStatus": 200
 }

@@ -58,5 +58,26 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "thewatcher-gui",
+    "version": "0.0.1",
+    "description": "Desktop app for thewatcher.",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "TheDoxMedia",
+    "license": "MIT",
+    "dependencies": {
+      "handlebars": "^4.0.4",
+      "jquery": "^2.1.4",
+      "socket.io-client": "^1.3.7"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0",
+      "electron-packager": "^5.2.0"
+    }
+  },
+  "packageStatus": 200
 }

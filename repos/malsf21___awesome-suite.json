@@ -50,5 +50,28 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "awesome-suite",
+    "version": "1.0.0",
+    "description": "A bunch of fun-ctions by Matthew Wang.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/malsf21/awesome-suite.git"
+    },
+    "author": "Matthew Wang",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/malsf21/awesome-suite/issues"
+    },
+    "homepage": "https://github.com/malsf21/awesome-suite#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

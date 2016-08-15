@@ -44,5 +44,43 @@
   "license": null,
   "networkCount": 3,
   "subscribersCount": 5,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "view-list",
+    "version": "2.1.0",
+    "description": "An infinite scrolling list view element built on a virtual DOM.",
+    "main": "index.js",
+    "scripts": {
+      "start": "budo example.js:bundle.js --live",
+      "gh": "browserify example.js -o bundle.js",
+      "test": "standard --format && browserify test.js | testron"
+    },
+    "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:shama/view-list.git"
+    },
+    "files": [
+      "index.js"
+    ],
+    "dependencies": {
+      "attach-css": "^1.0.0",
+      "base-element": "^3.0.1",
+      "inherits": "^2.0.1",
+      "xtend": "^4.0.0"
+    },
+    "devDependencies": {
+      "browserify": "^13.0.0",
+      "budo": "^4.0.0",
+      "electron-prebuilt": "^0.36.3",
+      "lodash.debounce": "^3.0.3",
+      "standard": "^5.4.1",
+      "tape": "^4.4.0",
+      "testron": "^1.2.0",
+      "through2": "^0.6.5",
+      "virtual-dom": "^2.0.1"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-translate",
+    "productName": "小狗翻译",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron .",
+      "build-windows": "electron-packager ./ --platform win32 --arch x64",
+      "build-mac": "electron-packager . --platform darwin --arch x64"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "request": "^2.71.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^6.0.2",
+      "electron-prebuilt": "^0.37.5"
+    }
+  },
+  "packageStatus": 200
 }

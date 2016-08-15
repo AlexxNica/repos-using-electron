@@ -44,5 +44,36 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "JobTracker",
+    "version": "0.2.6",
+    "description": "An easy-to-use and stylish Job tracking application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "rebuild-sqlite3": "cd node_modules/sqlite3 amp;amp; npm run prepublish amp;amp; node-gyp configure --module_name=node_sqlite3 --module_path=../lib/binding/electron-v1.2-win32-x64 amp;amp; node-gyp rebuild --target=1.2.2 --arch=x64 --target_platform=win32 --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/electron-v1.2-win32-x64"
+    },
+    "keywords": [
+      "JobTracker",
+      "Electron"
+    ],
+    "author": "Vasilis Mourtzis",
+    "license": "MIT 1.0",
+    "dependencies": {
+      "bootstrap": "^3.3.6",
+      "eonasdan-bootstrap-datetimepicker-npm": "^4.17.37",
+      "jquery": "2.2",
+      "jsrender": "^0.9.79",
+      "less": "2.7.1",
+      "moment": "^2.14.1",
+      "sequelize": "^3.20.0",
+      "sqlite": "^2.2.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.3",
+      "spectron": "^3.2.3"
+    }
+  },
+  "packageStatus": 200
 }

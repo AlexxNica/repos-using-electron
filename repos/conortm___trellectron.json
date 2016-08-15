@@ -50,5 +50,25 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "trellectron",
+    "version": "0.0.1",
+    "description": "An Electron wrapper for Trello",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "build": "electron-packager . Trello --platform=darwin --arch=x64 --icon=icon.icns --out=build --overwrite"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/conortm/trellectron.git"
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "electron-packager": "^7.0.2",
+      "electron-prebuilt": "^1.1.2"
+    }
+  },
+  "packageStatus": 200
 }

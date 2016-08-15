@@ -44,5 +44,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electrohype-build",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "prepublish": "(cd ./source/; npm install)",
+      "build": "electron-packager ./source ElectroHype --platform=darwin --arch=x64 --version=0.36.0 --icon=./assets/electrohype.icns --build-version=1.1.0 --asar --helper-bundle-id=com.jeancharlessisk.electrohype --overwrite"
+    },
+    "author": "Jean-Charles Sisk <jeancharles@paypal.com>",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

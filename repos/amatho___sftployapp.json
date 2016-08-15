@@ -50,5 +50,50 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "sftploy",
+    "productName": "SFTPloy",
+    "version": "1.1.0",
+    "description": "Deploy via SFTP",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron app",
+      "test": "eslint",
+      "postinstall": "install-app-deps",
+      "pack": "build --dir",
+      "dist": "build",
+      "bump": "echo \"Enter type for npm version and press [ENTER]: \" && read bump_version && cd app && PACKAGE_VERSION=$(npm --no-git-tag-version version $bump_version) && git add package.json && git commit -m \"Release $PACKAGE_VERSION\" && git tag -a $PACKAGE_VERSION -m \"$PACKAGE_VERSION\""
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/amatho/sftployapp.git"
+    },
+    "author": "Amandus Søve Thorsrud <ama.thorsrud@gmail.com>",
+    "dependencies": {},
+    "devDependencies": {
+      "electron-builder": "^5.22.2",
+      "electron-prebuilt": "^1.2.7",
+      "electron-rebuild": "^1.1.5",
+      "eslint": "^3.2.2",
+      "eslint-config-google": "^0.6.0"
+    },
+    "build": {
+      "appId": "com.amatho.SFTPloy",
+      "app-category-type": "public.app-category.developer-tools",
+      "files": [
+        "**/*"
+      ],
+      "asar": false,
+      "win": {
+        "iconUrl": "https://raw.githubusercontent.com/amatho/sftployapp/master/build/icon.ico"
+      }
+    },
+    "bugs": {
+      "url": "https://github.com/amatho/sftployapp/issues"
+    },
+    "homepage": "https://github.com/amatho/sftployapp#readme",
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

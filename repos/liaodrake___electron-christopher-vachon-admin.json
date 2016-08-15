@@ -50,5 +50,35 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "christopher-vachon-admin",
+    "version": "0.0.0",
+    "description": "an application to admin my blog",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron .",
+      "build": "electron-packager ./ CMVA --platform=darwin --arch=all --version=0.28.2 --asar --overwrite --version-string.ProductName=CMVA"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/liaodrake/electron-christopher-vachon-admin.git"
+    },
+    "author": "Christopher Vachon",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/liaodrake/electron-christopher-vachon-admin/issues"
+    },
+    "homepage": "https://github.com/liaodrake/electron-christopher-vachon-admin",
+    "devDependencies": {
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.29.2",
+      "grunt": "^0.4.5",
+      "grunt-contrib-jade": "^0.15.0",
+      "grunt-contrib-less": "^1.0.1",
+      "grunt-contrib-watch": "^0.6.1"
+    }
+  },
+  "packageStatus": 200
 }

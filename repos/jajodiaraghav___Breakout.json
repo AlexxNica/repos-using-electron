@@ -50,5 +50,26 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Smashing",
+    "version": "1.0.0",
+    "description": "Smashing game in Electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [
+      "Smashing",
+      "Javascript",
+      "Electron",
+      "Desktop App"
+    ],
+    "author": "Raghav Jajodia",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

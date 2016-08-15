@@ -64,5 +64,38 @@
   },
   "networkCount": 0,
   "subscribersCount": 5,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "cocochaneljs",
+    "version": "1.0.0",
+    "description": "Stand alone javascript web designer for designers!",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "pkg": "node packager.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rokyed/cocoChanelJS.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/rokyed/cocoChanelJS/issues"
+    },
+    "homepage": "https://github.com/rokyed/cocoChanelJS#readme",
+    "devDependencies": {
+      "asar": "^0.10.0",
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.7",
+      "jsdoc": "^3.4.0"
+    },
+    "dependencies": {
+      "codemirror": "^5.10.0",
+      "define": "^1.0.1",
+      "js-beautify": "^1.6.2",
+      "underscore": "^1.8.3"
+    }
+  },
+  "packageStatus": 200
 }

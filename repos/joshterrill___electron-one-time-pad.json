@@ -50,5 +50,38 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-one-time-pad",
+    "version": "1.0.1",
+    "description": "A one-time pad cipher written in nodejs for electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/joshterrill.com/electron-one-time-pad.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/joshterrill.com/electron-one-time-pad/issues"
+    },
+    "homepage": "https://github.com/joshterrill.com/electron-one-time-pad#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "one-time-pad": "^1.0.3",
+      "string-random": "^0.1.0"
+    }
+  },
+  "packageStatus": 200
 }

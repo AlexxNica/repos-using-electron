@@ -44,5 +44,52 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "keep",
+    "productName": "Keep",
+    "version": "0.0.0",
+    "description": "Desktop app for Google Keep packaged with Electron",
+    "electronVersion": "0.36.0",
+    "files": [
+      "*.js",
+      "assets"
+    ],
+    "scripts": {
+      "start": "electron .",
+      "build:darwin": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --platform=darwin --arch=all --version=$npm_package_electronVersion --icon=assets/icon.icns",
+      "build:linux": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --platform=linux --arch=all --version=$npm_package_electronVersion --icon=assets/icon.png",
+      "build:windows": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --platform=win32 --arch=all --version=$npm_package_electronVersion --icon=assets/icon.ico",
+      "test": "eslint ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/andrepolischuk/keep.git"
+    },
+    "keywords": [
+      "electron-app",
+      "electron",
+      "google",
+      "keep"
+    ],
+    "author": "Andrey Polischuk <andre.polischuk@gmail.com>",
+    "license": "Unlicense",
+    "bugs": {
+      "url": "https://github.com/andrepolischuk/keep/issues"
+    },
+    "homepage": "https://github.com/andrepolischuk/keep",
+    "dependencies": {
+      "configstore": "^2.0.0",
+      "electron-debug": "^0.6.0",
+      "object-assign": "^4.0.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^6.0.2",
+      "electron-prebuilt": "^0.37.5",
+      "eslint": "^2.7.0",
+      "eslint-config-airbnb": "^7.0.0",
+      "eslint-plugin-require-path-exists": "^1.1.5"
+    }
+  },
+  "packageStatus": 200
 }

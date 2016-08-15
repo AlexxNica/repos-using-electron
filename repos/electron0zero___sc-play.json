@@ -44,5 +44,29 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "sc-play",
+    "version": "0.0.1",
+    "description": "this is a desktop player app for soundcloud written in Electron",
+    "main": "index.js",
+    "scripts": {
+      "test": "test",
+      "start": "electron ."
+    },
+    "keywords": [
+      "soundcloud",
+      "music",
+      "Electronjs"
+    ],
+    "author": "Electron (electron0zero)",
+    "license": "BSD-2-Clause",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "soundcloud": "~3.1.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -50,5 +50,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "finance",
+    "version": "0.1.0",
+    "description": "A simple tool for personal finances",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/H2OOPS/finance.git"
+    },
+    "keywords": [
+      "personal",
+      "finances"
+    ],
+    "author": "Hansel Morales",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/H2OOPS/finance/issues"
+    },
+    "homepage": "https://github.com/H2OOPS/finance#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.2"
+    }
+  },
+  "packageStatus": 200
 }

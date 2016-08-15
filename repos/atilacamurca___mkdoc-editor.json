@@ -50,5 +50,39 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "mkdoc-editor",
+    "productName": "MkdocEditor",
+    "version": "0.0.0",
+    "description": "Standalone Markdown editor that use Pandoc/Texlive to generate LaTeX documents.",
+    "license": "GPLv3",
+    "main": "index.js",
+    "repository": "atilacamurca/mkdoc-editor",
+    "author": {
+      "name": "Átila Camurça",
+      "email": "camurca.home@gmail.com",
+      "url": "github.com/atilacamurca/mkdoc-editor"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "devDependencies": {
+      "electron-packager": "^3.3.0",
+      "electron-prebuilt": "^0.25.2"
+    }
+  },
+  "packageStatus": 200
 }

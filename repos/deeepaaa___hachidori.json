@@ -50,5 +50,30 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hachidori",
+    "productName": "Hachidori",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+      "build-all-all": "npm run build-all-linux && npm run build-all-win",
+      "build-all-linux": "npm run build-linux && npm run pack-linux && npm run linux-installer && npm run zip-linux",
+      "build-all-win": "npm run build-win && npm run pack-win && npm run zip-win",
+      "build-linux": "electron-packager ./ Hachidori --platform=linux --arch=x64 --overwrite --ignore=releases --ignore=node-modules/electron-*",
+      "build-win": "electron-packager ./ Hachidori --platform=win32 --arch=x64 --overwrite --ignore=releases --ignore=node-modules/electron-*",
+      "pack-linux": "asar pack Hachidori-linux-x64/resources/app Hachidori-linux-x64/resources/app.asar && rm -rf Hachidori-linux-x64/resources/app",
+      "pack-win": "asar pack Hachidori-win32-x64/resources/app Hachidori-win32-x64/resources/app.asar && rm -rf Hachidori-win32-x64/resources/app",
+      "linux-installer": "cp INSTALL.sh Hachidori-linux-x64/ && cp hachidori.desktop Hachidori-linux-x64/ && cp images/hachidori.png Hachidori-linux-x64/",
+      "zip-linux": "zip releases/hachidori-linux-x64.zip Hachidori-linux-x64/* -9 -r",
+      "zip-win": "zip releases/hachidori-win32-x64.zip Hachidori-win32-x64/* -9 -r"
+    },
+    "dependencies": {
+      "electron-prebuilt": "~1.1.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "~1.1.3"
+    }
+  },
+  "packageStatus": 200
 }

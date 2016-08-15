@@ -50,5 +50,42 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "bubble-soap",
+    "version": "1.0.0",
+    "description": "",
+    "main": "build/main.js",
+    "devDependencies": {
+      "electron-prebuilt": "^0.29.1",
+      "gulp": "^3.9.0",
+      "gulp-babel": "^5.1.0",
+      "gulp-livereload": "^3.8.0",
+      "gulp-rename": "^1.2.2",
+      "gulp-rimraf": "^0.1.1",
+      "gulp-run": "^1.6.8",
+      "gulp-sass": "^2.0.3",
+      "gulp-sequence": "^0.3.2"
+    },
+    "dependencies": {
+      "highlighter": "0.0.3",
+      "react": "^0.13.3",
+      "request": "^2.58.0",
+      "sanitize-html": "^1.7.0"
+    },
+    "scripts": {
+      "start": "gulp"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/maveonair/bubble-soap.git"
+    },
+    "author": "Fabian Mettler",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/maveonair/bubble-soap/issues"
+    },
+    "homepage": "https://github.com/maveonair/bubble-soap#readme"
+  },
+  "packageStatus": 200
 }

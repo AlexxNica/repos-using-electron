@@ -44,5 +44,33 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "koen",
+    "version": "1.0.0",
+    "description": "Daily english writing training tool",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bbirec/koen.git"
+    },
+    "keywords": [
+      "english",
+      "korean",
+      "electron"
+    ],
+    "author": "Heehong Moon",
+    "homepage": "https://github.com/bbirec/koen",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "lowdb": "^0.12.2",
+      "node-uuid": "^1.4.7"
+    }
+  },
+  "packageStatus": 200
 }

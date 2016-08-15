@@ -168,5 +168,46 @@
   },
   "networkCount": 150,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "screencat",
+    "version": "2.0.0",
+    "description": "webrtc screensharing with shared mouse and keyboard",
+    "main": "app.js",
+    "scripts": {
+      "start": "electron app.js",
+      "build": "electron-packager . ScreenCat --platform=darwin --arch=x64 --version=0.26.0 --ignore=node_modules/electron-* && cp img/Icon.icns ScreenCat.app/Contents/Resources/atom.icns",
+      "dev": "wzrd remote.js:remote-bundle.js",
+      "test": "standard"
+    },
+    "author": "max ogden",
+    "license": "BSD",
+    "dependencies": {
+      "menubar": "^2.0.4",
+      "nets": "^3.1.0",
+      "simple-peer": "^4.0.4",
+      "ssejson": "^1.2.0",
+      "vkey": "^1.0.0"
+    },
+    "optionalDependencies": {
+      "robotjs": "git+https://github.com/maxogden/robotjs#keyupdown"
+    },
+    "devDependencies": {
+      "browserify": "^9.0.3",
+      "electron-packager": "^4.1.0",
+      "electron-prebuilt": "^0.26.0",
+      "standard": "^3.3.0",
+      "tachyons": "^1.2.0",
+      "wzrd": "^1.2.1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/maxogden/screencat.git"
+    },
+    "bugs": {
+      "url": "https://github.com/maxogden/screencat/issues"
+    },
+    "homepage": "https://github.com/maxogden/screencat"
+  },
+  "packageStatus": 200
 }

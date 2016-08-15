@@ -50,5 +50,51 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "mojo",
+    "productName": "Mojo",
+    "version": "0.0.0",
+    "description": "My majestic app",
+    "license": "MIT",
+    "repository": "spiermar/mojo",
+    "author": {
+      "name": "Martin Spier",
+      "email": "spiermar@gmail.com",
+      "url": "overloaded.io"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "electronVersion": "0.33.3",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.2.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.33.3",
+      "xo": "^0.9.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

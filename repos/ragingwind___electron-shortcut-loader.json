@@ -50,5 +50,55 @@
   },
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-shortcut-loader",
+    "version": "0.4.0",
+    "description": "Loading pre-defined shortcuts with custom events and more options",
+    "license": "MIT",
+    "repository": "ragingwind/electron-shortcut-loader",
+    "author": {
+      "name": "ragingwind",
+      "email": "ragingwind@gmail.com",
+      "url": "ragingwind.me"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "scripts": {
+      "test": "xo",
+      "start": "electron ./demo"
+    },
+    "files": [
+      "index.js"
+    ],
+    "keywords": [
+      "electron",
+      "shortcut",
+      "electron-shortcut",
+      "electron-shortcut-loader"
+    ],
+    "dependencies": {
+      "electron-shortcut": "^0.4.1",
+      "object-assign": "^4.0.1"
+    },
+    "devDependencies": {
+      "electron-debug": "^0.2.1",
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.36.1",
+      "xo": "^0.7.1"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    },
+    "jshintConfig": {
+      "esnext": true,
+      "node": true
+    }
+  },
+  "packageStatus": 200
 }

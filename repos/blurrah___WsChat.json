@@ -50,5 +50,67 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "WsChat",
+    "version": "0.1.0",
+    "description": "Websockets Chat application with Electron and React",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/blurrah/WsChat.git"
+    },
+    "keywords": [
+      "League",
+      "Legends",
+      "Electron",
+      "Node",
+      "JavaScript",
+      "XMPP"
+    ],
+    "author": "Boris Besemer",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/blurrah/WsChat/issues"
+    },
+    "homepage": "https://github.com/blurrah/WsChat",
+    "devDependencies": {
+      "electron-prebuilt": "^0.25.3-2",
+      "gulp": "^3.8.11",
+      "gulp-babel": "^5.1.0",
+      "gulp-livereload": "^3.8.0",
+      "gulp-rename": "^1.2.2",
+      "gulp-run": "^1.6.8",
+      "gulp-sass": "^2.0.0",
+      "node-stringprep": "^0.7.0",
+      "node-xmpp-client": "^1.0.0-alpha20",
+      "qbox": "^0.1.7",
+      "xml2js": "^0.4.8",
+      "xtend": "^4.0.0"
+    },
+    "jspm": {
+      "directories": {
+        "baseURL": "browser"
+      },
+      "dependencies": {
+        "alt": "npm:alt@^0.17.0-alpha1",
+        "johnalbin/normalize-scss": "github:johnalbin/normalize-scss@^2.1.3",
+        "react": "npm:react@^0.13.3",
+        "ws": "npm:ws@^0.7.2"
+      },
+      "devDependencies": {
+        "babel": "npm:babel-core@^5.1.13",
+        "babel-runtime": "npm:babel-runtime@^5.1.13",
+        "core-js": "npm:core-js@^0.9.4"
+      }
+    },
+    "dependencies": {
+      "alt": "^0.16.5",
+      "ws": "^0.7.2"
+    }
+  },
+  "packageStatus": 200
 }

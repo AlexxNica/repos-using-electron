@@ -44,5 +44,34 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "creeperpanel-elm",
+    "version": "0.1.0",
+    "description": "Simple control panel for CreeperHost Minecraft Servers implemented in Elm+Electron.",
+    "main": "index.js",
+    "scripts": {
+      "start": "brunch build && electron ."
+    },
+    "keywords": [
+      "elm",
+      "nw",
+      "creeperhost"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/joedski/creeperpanel-elm.git"
+    },
+    "author": "Joseph Sikorski <joedski@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+      "css-brunch": "^1.7.0",
+      "elm": "^1.5.2",
+      "elm-brunch": "^0.2.0",
+      "javascript-brunch": "^1.7.1",
+      "less-brunch": "^1.8.1",
+      "electron-prebuilt": "^0.30.3"
+    }
+  },
+  "packageStatus": 200
 }

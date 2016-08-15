@@ -50,5 +50,47 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "glazba",
+    "version": "0.0.2",
+    "description": "An electron application to manage dev talks",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron . &",
+      "lint": "eslint .",
+      "package": "electron-packager ./ Glazba --all --out ~/Desktop/Glazba --version 0.37.2 --overwrite --icon=./app/img/icon.png"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/skylerto/Glazba.git"
+    },
+    "keywords": [
+      "Electron",
+      "Developer",
+      "Talks"
+    ],
+    "author": "Skyler Layne <skylerclayne@gmail.com> (http://www.skylerlayne.me)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/skylerto/Glazba/issues"
+    },
+    "homepage": "https://github.com/skylerto/Glazba#readme",
+    "dependencies": {
+      "youtube-dl": "1.10.5",
+      "ytdl-core": "0.7.12"
+    },
+    "devDependencies": {
+      "electron-packager": "5.2.1",
+      "electron-prebuilt": "0.37.2",
+      "eslint": "^2.0.0",
+      "eslint-config-airbnb": "6.1.0",
+      "eslint-plugin-react": "4.2.2"
+    },
+    "eslintConfig": {
+      "extends": "airbnb"
+    }
+  },
+  "packageStatus": 200
 }

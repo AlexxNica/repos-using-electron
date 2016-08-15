@@ -50,5 +50,28 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "alarmclock",
+    "version": "1.0.0",
+    "description": "An alarmclock built with Electron",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/keawade/alarmclock.git"
+    },
+    "author": "keawade",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/keawade/alarmclock/issues"
+    },
+    "homepage": "https://github.com/keawade/alarmclock#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.31.1"
+    }
+  },
+  "packageStatus": 200
 }

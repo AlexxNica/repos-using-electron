@@ -44,5 +44,38 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "watch",
+    "version": "1.0.0",
+    "description": "A small watch app in desktop",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vuanhhaogk/Watch.git"
+    },
+    "keywords": [
+      "Watch",
+      "HTML5",
+      "CSS3",
+      "Javascript",
+      "NodeJS",
+      "ElectronJS",
+      "AngularJS"
+    ],
+    "author": "Vu Anh Hao <vuanhhaogk@gmail.com> (https://vuanhhaogk.github.io)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/vuanhhaogk/Watch/issues"
+    },
+    "homepage": "https://github.com/vuanhhaogk/Watch#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

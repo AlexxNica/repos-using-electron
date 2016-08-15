@@ -44,5 +44,78 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "react-redux-electron",
+    "version": "0.2.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron index.js",
+      "hot-server": "node server.js",
+      "start-hot": "cross-env HOT=1 NODE_ENV=development electron index.js",
+      "dev": "concurrently --kill-others \"npm run hot-server\" \"npm run start-hot\"",
+      "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/white87332/react-redux-electron.git"
+    },
+    "keywords": [
+      "Electron",
+      "react",
+      "redux"
+    ],
+    "author": "Tony Jiang",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/white87332/react-redux-electron.git/issues"
+    },
+    "homepage": "https://github.com/white87332/react-redux-electron.git#readme",
+    "dependencies": {
+      "immutable": "^3.8.1",
+      "react": "^15.3.0",
+      "react-addons-css-transition-group": "^15.3.0",
+      "react-dom": "^15.3.0",
+      "react-redux": "^4.4.5",
+      "react-router": "^2.6.1",
+      "react-router-redux": "^4.0.5",
+      "redux": "^3.5.2",
+      "redux-thunk": "^2.1.0"
+    },
+    "devDependencies": {
+      "babel-core": "^6.13.2",
+      "babel-loader": "^6.2.4",
+      "babel-plugin-react-transform": "^2.0.2",
+      "babel-plugin-transform-decorators-legacy": "^1.3.4",
+      "babel-polyfill": "^6.13.0",
+      "babel-preset-es2015": "^6.13.2",
+      "babel-preset-react": "^6.11.1",
+      "babel-preset-stage-0": "^6.5.0",
+      "bundle-loader": "^0.5.4",
+      "concurrently": "^2.2.0",
+      "cross-env": "^1.0.8",
+      "css-loader": "^0.23.1",
+      "electron-debug": "^1.0.1",
+      "electron-packager": "^7.5.1",
+      "electron-prebuilt": "^1.3.3",
+      "express": "^4.14.0",
+      "extract-text-webpack-plugin": "^1.0.1",
+      "file-loader": "^0.8.5",
+      "json-loader": "^0.5.4",
+      "node-libs-browser": "^1.0.0",
+      "node-sass": "^3.8.0",
+      "react-transform-hmr": "^1.0.4",
+      "redux-devtools": "^3.3.1",
+      "redux-devtools-dock-monitor": "^1.1.1",
+      "redux-devtools-log-monitor": "^1.0.11",
+      "sass-loader": "^3.2.3",
+      "style-loader": "^0.13.1",
+      "url-loader": "^0.5.7",
+      "webpack": "^1.13.1",
+      "webpack-dev-middleware": "^1.6.1",
+      "webpack-hot-middleware": "^2.12.2"
+    }
+  },
+  "packageStatus": 200
 }

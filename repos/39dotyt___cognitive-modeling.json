@@ -50,5 +50,60 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "cognitive-modeling",
+    "version": "1.0.1",
+    "description": "Simple cognitive modelling app",
+    "main": "main.js",
+    "scripts": {
+      "postinstall": "typings install",
+      "tsc": "tsc",
+      "tsc:w": "tsc -w",
+      "typings": "typings",
+      "start": "electron main.js",
+      "start-dev": "concurrently \"npm run tsc:w\" \"npm run start\" "
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/39dotyt/cognitive-modeling.git"
+    },
+    "keywords": [
+      "electron",
+      "cognitive",
+      "modelling",
+      "tutorial"
+    ],
+    "author": {
+      "name": "Yurij Mikhalevich",
+      "email": "0@39.yt"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/39dotyt/cognitive-modeling/issues"
+    },
+    "dependencies": {
+      "angular2": "2.0.0-beta.9",
+      "systemjs": "0.19.24",
+      "es6-promise": "^3.0.2",
+      "es6-shim": "^0.33.3",
+      "reflect-metadata": "0.1.2",
+      "rxjs": "5.0.0-beta.2",
+      "zone.js": "0.5.15",
+      "vis": "^4.14.0",
+      "material-design-lite": "^1.1.1",
+      "mathjs": "^2.7.0",
+      "exceljs": "~0.2.4",
+      "ng2-translate": "~1.10.3",
+      "mdl-selectfield": "~0.0.3",
+      "electron-settings": "^1.0.3"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.5",
+      "concurrently": "^2.0.0",
+      "typescript": "^1.8.9",
+      "typings": "^0.7.11"
+    }
+  },
+  "packageStatus": 200
 }

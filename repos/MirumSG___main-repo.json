@@ -64,5 +64,51 @@
   },
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "network-file-monitor",
+    "productName": "NetworkFileMonitor",
+    "version": "0.0.0",
+    "description": "My cat's meow app",
+    "license": "MIT",
+    "main": "app/index.js",
+    "repository": "liakwee/network-file-monitor",
+    "author": {
+      "name": "Lee Liak Wee",
+      "email": "liakwee@mirumagency.com",
+      "url": "liakwee.github.com"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --prune --asar --platform=darwin --arch=x64 --version=0.27.2"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "chokidar": "^1.0.4",
+      "current-path": "^1.0.0",
+      "display-notification": "^1.0.1",
+      "electron-debug": "^0.1.0",
+      "findup-sync": "^0.2.1",
+      "fix-path": "^1.0.0",
+      "get-gulp-tasks": "^1.0.1",
+      "gulp": "^3.6.2",
+      "jsonfile": "^2.2.1",
+      "lodash": "^3.8.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^4.1.2",
+      "electron-prebuilt": "^0.27.2"
+    }
+  },
+  "packageStatus": 200
 }

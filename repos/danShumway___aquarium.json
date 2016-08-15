@@ -50,5 +50,38 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "aquarium",
+    "version": "0.0.1",
+    "description": "Lightweight simulation for running on a Raspberry Pi hooked up to a display monitor.",
+    "main": "./app/main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/danShumway/aquarium.git"
+    },
+    "keywords": [
+      "simulation",
+      "ai",
+      "virtual",
+      "aquarium",
+      "screensaver",
+      "raspberry",
+      "pi"
+    ],
+    "author": "danShumway",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/danShumway/aquarium/issues"
+    },
+    "homepage": "https://github.com/danShumway/aquarium#readme",
+    "dependencies": {
+      "electron-prebuilt": "^0.33.3"
+    }
+  },
+  "packageStatus": 200
 }

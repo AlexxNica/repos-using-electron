@@ -162,5 +162,49 @@
   },
   "networkCount": 2089,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "angular2-electron-starter",
+    "version": "0.0.1",
+    "repository": "none",
+    "license": "MIT",
+    "main": "",
+    "scripts": {
+      "typings-install": "./node_modules/.bin/typings install",
+      "postinstall": "npm run typings-install",
+      "build": "./node_modules/.bin/webpack --inline --colors --progress --display-error-details --display-cached",
+      "build:prod": "./node_modules/.bin/webpack --progress --profile --colors --display-error-details --display-cached --optimize-occurence-order --optimize-dedupe",
+      "build:dist": "npm run build:prod && npm run electron",
+      "start": "./node_modules/.bin/webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 3333  --content-base app",
+      "test": "npm run build && electron app",
+      "electron": "./node_modules/electron-packager/cli.js app App --platform=darwin --arch=all --out=dist --overwrite --version='0.37.5'"
+    },
+    "devDependencies": {
+      "awesome-typescript-loader": "~0.16.2",
+      "css-loader": "^0.23.1",
+      "electron-packager": "^6.0.2",
+      "electron-prebuilt": "^0.35.4",
+      "es6-promise": "3.0.2",
+      "es6-shim": "0.35.0",
+      "extract-text-webpack-plugin": "^1.0.1",
+      "html-loader": "^0.4.3",
+      "node-sass": "^3.4.2",
+      "reflect-metadata": "0.1.2",
+      "sass-loader": "^3.2.0",
+      "source-map-loader": "^0.1.5",
+      "style-loader": "^0.13.1",
+      "typescript": "~1.8.9",
+      "typings": "^0.7.9",
+      "webpack": "^1.12.9",
+      "webpack-dev-server": "^1.14.0",
+      "webpack-merge": "^0.8.4"
+    },
+    "dependencies": {
+      "angular2": "^2.0.0-beta.15",
+      "core-js": "^2.2.0",
+      "rxjs": "5.0.0-beta.2",
+      "zone.js": "~0.6.10"
+    }
+  },
+  "packageStatus": 200
 }

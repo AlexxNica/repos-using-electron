@@ -44,5 +44,24 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron_test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "standard",
+      "start": "electron .",
+      "build": "electron-packager . TryElectron --platform=darwin --arch=x64 --version=0.31.0 --ignore='node_modules/(electron-packager|electron-prebuilt)'"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-packager": "^6.0.2",
+      "electron-prebuilt": "^0.37.5",
+      "standard": "^6.0.8"
+    }
+  },
+  "packageStatus": 200
 }

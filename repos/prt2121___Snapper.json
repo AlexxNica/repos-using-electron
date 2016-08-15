@@ -50,5 +50,33 @@
   },
   "networkCount": 5,
   "subscribersCount": 5,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "snapper",
+    "version": "0.0.1",
+    "main": "main.js",
+    "dependencies": {
+      "adbkit": "^2.4.0",
+      "angular": "^1.5.0",
+      "angular-animate": "^1.5.0",
+      "angular-aria": "^1.5.0",
+      "angular-material": "^1.0.5",
+      "bluebird": "^3.3.1",
+      "moment": "^2.11.2",
+      "rimraf": "^2.5.2",
+      "streampng": "^0.1.8"
+    },
+    "scripts": {
+      "start": "electron .",
+      "clean": "rimraf dist/*",
+      "pkg:linux": "npm run clean && electron-packager . snapper --platform=linux --arch=x64 --version=0.36.7 --overwrite --out=dist",
+      "pkg:osx": "npm run clean && electron-packager . Snapper --platform=darwin --arch=x64 --version=0.36.7 --overwrite --out=dist",
+      "pkg:win": "npm run clean && electron-packager . Snapper --platform=win32 --arch=x64 --version=0.36.7 --overwrite --out=dist"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.7",
+      "electron-packager": "^5.2.1"
+    }
+  },
+  "packageStatus": 200
 }

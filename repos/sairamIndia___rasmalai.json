@@ -44,5 +44,20 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "rasmalai",
+    "version": "1.0.0",
+    "description": "Dessert for your desktop",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^0.30.2"
+    }
+  },
+  "packageStatus": 200
 }

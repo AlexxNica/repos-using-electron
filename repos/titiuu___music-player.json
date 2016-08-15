@@ -44,5 +44,23 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "music-player",
+    "version": "0.1.0",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.7",
+      "standard": "^6.0.4"
+    },
+    "dependencies": {
+      "@cycle/core": "^6.0.2",
+      "@cycle/dom": "^9.0.2",
+      "rx": "^4.0.7"
+    }
+  },
+  "packageStatus": 200
 }

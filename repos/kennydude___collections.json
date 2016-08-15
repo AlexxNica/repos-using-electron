@@ -44,5 +44,23 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "devDependencies": {
+      "electron-prebuilt": "~0.30.4"
+    },
+    "dependencies": {
+      "backbone": "^1.2.1",
+      "backbone.marionette": "^2.4.2",
+      "bootstrap": "^3.3.5",
+      "handlebars": "^3.0.3",
+      "jquery": "^2.1.4",
+      "sqlite3": "^3.0.10",
+      "underscore": "^1.8.3"
+    },
+    "name": "collections",
+    "main": "app.js",
+    "version": "0.0.1"
+  },
+  "packageStatus": 200
 }

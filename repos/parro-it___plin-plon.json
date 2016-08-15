@@ -50,5 +50,44 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "plin-plon",
+    "description": "Signal online presence of your github fellows with an awesome plin-plon",
+    "repository": "https://github.com/parro-it/plin-plon.git",
+    "bugs": {
+      "url": "https://github.com/parro-it/plin-plon/issues"
+    },
+    "version": "0.0.1",
+    "main": "src/index.js",
+    "engines": {
+      "node": ">=4.1"
+    },
+    "author": "parro-it",
+    "scripts": {
+      "test": "test-node",
+      "debug": "debug",
+      "cover": "cover-node",
+      "watch": "watch-node",
+      "release-minor": "release-minor",
+      "release-patch": "release-patch",
+      "lint": "lint",
+      "prepublish": "check"
+    },
+    "eslintConfig": {
+      "extends": "devenv"
+    },
+    "devDependencies": {
+      "electron-debug": "^0.3.1",
+      "tape-async": ">1.0.0"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "electron-detach": "^0.1.0",
+      "electron-prebuilt": "^0.34.2",
+      "gh-got": "^2.2.0",
+      "menubar": "^2.3.0"
+    }
+  },
+  "packageStatus": 200
 }

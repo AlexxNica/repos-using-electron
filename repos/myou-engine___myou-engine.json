@@ -64,5 +64,47 @@
   },
   "networkCount": 2,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "myou-engine",
+    "version": "0.3.9",
+    "description": "Myou is a game engine for web, it features an editor based on Blender.",
+    "main": "./main.js",
+    "scripts": {
+      "build": "webpack"
+    },
+    "dependencies": {
+      "coffee-loader": "^0.7.2",
+      "coffee-script": "^1.10.0",
+      "file-loader": "^0.8.5",
+      "gl-matrix": "^2.3.1",
+      "timsort": "^0.2.1",
+      "whatwg-fetch": "^1.0.0"
+    },
+    "optionalDependencies": {
+      "http-server": "^0.8.5",
+      "url-loader": "^0.5.7",
+      "source-map-loader": "^0.1.5",
+      "raw-loader": "^0.5.1",
+      "json-loader": "^0.5.4",
+      "webpack": "^1.12.11",
+      "shelljs": "^0.5.3"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.7"
+    },
+    "repository": {
+      "type": "git",
+      "url": "ssh://root@pixelements.net/root/repositories/myou-engine.git"
+    },
+    "keywords": [
+      "webgl",
+      "game",
+      "engine",
+      "blender"
+    ],
+    "author": "Alberto Torres Ruiz <kungfoobar@gmail.com> and Julio Manuel López <julio@pixelements.net> (http://pixelements.net)",
+    "license": "SEE LICENSE IN <LICENSE>"
+  },
+  "packageStatus": 200
 }

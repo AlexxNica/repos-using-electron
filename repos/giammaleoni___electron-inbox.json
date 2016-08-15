@@ -44,5 +44,36 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "MyInbox-Electron",
+    "version": "1.0.0",
+    "description": "Inbox utility App",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/giammaleoni/electron-inbox.git"
+    },
+    "keywords": [
+      "Electron",
+      "Inbox",
+      "Gmail"
+    ],
+    "author": "Gianmaria Leoni",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/giammaleoni/electron-inbox/issues"
+    },
+    "homepage": "https://github.com/giammaleoni/electron-inbox#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "electron-google-oauth": "^1.3.1"
+    }
+  },
+  "packageStatus": 200
 }

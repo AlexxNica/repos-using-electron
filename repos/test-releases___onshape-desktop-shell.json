@@ -176,5 +176,48 @@
   },
   "networkCount": 15,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "start": "npm install && npm run compile && electron ./app",
+      "clean": "rimraf dist",
+      "clean:osx": "rimraf dist/Onshape-darwin-x64",
+      "clean:win": "rimraf dist/win",
+      "compile": "rimraf app/out && tsconfig -i 2 && tsc",
+      "pack": "npm run compile && build",
+      "dist": "npm run compile && build",
+      "release": "npm run compile && build",
+      "dist:win64": "./node_modules/.bin/build --platform win32 --arch x64"
+    },
+    "build": {
+      "app-bundle-id": "org.develar.onshape",
+      "app-category-type": "public.app-category.graphics-design",
+      "osx": {
+        "contents": [
+          {
+            "x": 410,
+            "y": 150,
+            "type": "link",
+            "path": "/Applications"
+          },
+          {
+            "x": 130,
+            "y": 150,
+            "type": "file"
+          }
+        ]
+      }
+    },
+    "devDependencies": {
+      "electron-builder": "next",
+      "electron-prebuilt": "0.37.6",
+      "rimraf": "^2.5.2",
+      "tsconfig-glob": "^0.4.3",
+      "typescript": "^1.8.10"
+    }
+  },
+  "packageStatus": 200
 }

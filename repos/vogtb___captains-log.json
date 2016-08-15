@@ -44,5 +44,29 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "captains-log",
+    "description": "Timestamped notes written to a yaml file in the directory of your choice.",
+    "author": "Ben <benjvogt@gmail.com>",
+    "version": "0.1.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/vogtb/captains-log.git"
+    },
+    "bugs": {
+      "url": "https://github.com/vogtb/captains-log/issues"
+    },
+    "main": "main.js",
+    "license": "MIT",
+    "dependencies": {
+      "underscore": "^1.8.3"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.24.0",
+      "node-icns": "0.0.2"
+    }
+  },
+  "packageStatus": 200
 }

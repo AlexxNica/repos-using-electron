@@ -50,5 +50,49 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Put.io-App",
+    "version": "0.0.1",
+    "main": "index.js",
+    "authors": [
+      "Peter Defebvre"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/macpie/Put.io-App"
+    },
+    "private": true,
+    "devDependencies": {
+      "electron-prebuilt": "1.2.0",
+      "grunt": "^1.0.1",
+      "grunt-contrib-clean": "^1.0.0",
+      "grunt-contrib-copy": "^1.0.0",
+      "grunt-contrib-jshint": "^1.0.0",
+      "grunt-contrib-watch": "^1.0.0",
+      "grunt-electron": "^4.0.0",
+      "grunt-shell": "^1.3.0",
+      "jshint-stylish": "^2.2.0",
+      "grunt-bower-concat": "^1.0.0",
+      "grunt-contrib-concat": "^1.0.1",
+      "grunt-contrib-cssmin": "^1.0.1",
+      "grunt-contrib-less": "^1.3.0",
+      "grunt-contrib-uglify": "^1.0.1"
+    },
+    "dependencies": {
+      "bunyan": "^1.8.1",
+      "jsonfile": "^2.3.1",
+      "lodash": "^4.13.1",
+      "nedb": "^1.8.0",
+      "node-uuid": "^1.4.7",
+      "request": "^2.72.0"
+    },
+    "engines": {
+      "node": "~6.1.0"
+    },
+    "scripts": {
+      "start": "grunt shell:electron | ./node_modules/bunyan/bin/bunyan --time local --color -l trace -o short"
+    }
+  },
+  "packageStatus": 200
 }

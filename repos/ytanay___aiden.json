@@ -44,5 +44,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "AIDEN",
+    "productName": "AIDEN",
+    "version": "0.4.1",
+    "description": "Automated Information Distribution for Encrypted Networks",
+    "main": "index.js",
+    "dependencies": {
+      "async": "^1.5.2",
+      "electron-prebuilt": "^0.37.5",
+      "express": "^4.13.3",
+      "lodash": "^3.10.1",
+      "node-rsa": "^0.3.2",
+      "request": "^2.67.0",
+      "shortid": "^2.2.4"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  },
+  "packageStatus": 200
 }

@@ -176,5 +176,50 @@
   },
   "networkCount": 18,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-debug",
+    "version": "0.3.2",
+    "description": "Adds useful debug features to your Electron app",
+    "license": "MIT",
+    "repository": "sindresorhus/electron-debug",
+    "author": {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "sindresorhus.com"
+    },
+    "engines": {
+      "node": ">=0.12.0"
+    },
+    "scripts": {
+      "start": "electron test.js",
+      "test": "xo"
+    },
+    "files": [
+      "index.js",
+      "context-menu.js"
+    ],
+    "keywords": [
+      "electron",
+      "debug",
+      "devtools",
+      "app",
+      "dev"
+    ],
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.1",
+      "xo": "*"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    },
+    "dependencies": {
+      "electron-localshortcut": "^0.3.0"
+    }
+  },
+  "packageStatus": 200
 }

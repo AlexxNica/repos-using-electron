@@ -44,5 +44,36 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "jira-bar",
+    "version": "0.0.0",
+    "description": "Your sprints. On your OS menu bar",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "build_apps": "electron-packager . jira-bar --platform=all --arch=all --version=0.36.0 --overwrite --out=./build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/neonsoftware/jira-bar.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "neonsoftware",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/neonsoftware/jira-bar/issues"
+    },
+    "homepage": "https://github.com/neonsoftware/jira-bar#readme",
+    "devDependencies": {
+      "electron-packager": "*",
+      "electron-prebuilt": "*"
+    }
+  },
+  "packageStatus": 200
 }

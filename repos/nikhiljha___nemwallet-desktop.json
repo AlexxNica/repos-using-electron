@@ -44,5 +44,45 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "nemwallet-desktop",
+    "version": "0.1.5",
+    "description": "NEM Desktop Wallet",
+    "main": "init.js",
+    "scripts": {
+      "pack": "build --dir",
+      "dist": "build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nikhiljha/nemwallet-desktop.git"
+    },
+    "keywords": [
+      "nem",
+      "wallet"
+    ],
+    "author": "Nikhil Jha",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nikhiljha/nemwallet-desktop/issues"
+    },
+    "homepage": "https://github.com/nikhiljha/nemwallet-desktop#readme",
+    "dependencies": {
+      "express": "^4.14.0",
+      "electron-squirrel-startup": "^1.0.0"
+    },
+    "devDependencies": {
+      "electron-builder": "^5.10.5",
+      "electron-prebuilt": "^0.36.10"
+    },
+    "build": {
+      "appId": "nem.wallet",
+      "app-category-type": "finance",
+      "win": {
+        "iconUrl": "https://raw.githubusercontent.com/nikhiljha/nemwallet-desktop/master/nemLogoV2_shieldOnly.ico"
+      }
+    }
+  },
+  "packageStatus": 200
 }

@@ -58,5 +58,59 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "boorium",
+    "version": "0.0.0",
+    "description": "beautiful booru client",
+    "main": "lib/index.js",
+    "scripts": {
+      "test": "standard",
+      "build": "babel -D -d lib src",
+      "buildrun": "npm run build && npm run run",
+      "run": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/boorium/boorium.git"
+    },
+    "keywords": [
+      "booru",
+      "client",
+      "standalone",
+      "electron"
+    ],
+    "author": "ivan k <ivan@sq10.net>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/boorium/boorium/issues"
+    },
+    "homepage": "https://github.com/boorium/boorium#readme",
+    "devDependencies": {
+      "babel-cli": "^6.6.5",
+      "babel-eslint": "^6.0.2",
+      "babel-preset-stage-0": "^6.5.0",
+      "electron-prebuilt": "^0.37.4",
+      "eslint": "^2.7.0",
+      "eslint-plugin-babel": "^3.1.0",
+      "standard": "^6.0.8"
+    },
+    "dependencies": {
+      "babel-preset-es2015-node5": "^1.2.0"
+    },
+    "standard": {
+      "parser": "babel-eslint",
+      "plugins": [
+        "babel"
+      ],
+      "rules": {
+        "arrow-parens": 0,
+        "babel/arrow-parens": [
+          2,
+          "always"
+        ]
+      }
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,36 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "private": true,
+    "scripts": {
+      "start": "./node_modules/.bin/electron ./app/index.js",
+      "build:win64": "./node_modules/.bin/build --platform win32 --arch x64"
+    },
+    "build": {
+      "app-bundle-id": "cz.sikaapp.electron-example",
+      "app-category-type": "public.app-category.graphics-design",
+      "osx": {
+        "contents": [
+          {
+            "x": 410,
+            "y": 150,
+            "type": "link",
+            "path": "/Applications"
+          },
+          {
+            "x": 130,
+            "y": 150,
+            "type": "file"
+          }
+        ]
+      }
+    },
+    "devDependencies": {
+      "electron-builder": "next",
+      "electron-prebuilt": "0.37.8"
+    }
+  },
+  "packageStatus": 200
 }

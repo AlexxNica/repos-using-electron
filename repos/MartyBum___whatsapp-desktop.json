@@ -44,5 +44,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "whatsapp-desktop",
+    "version": "0.1.0",
+    "description": "Desktop experience for WhatsApp",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . whatsapp-desktop --platform=linux --arch=x64 --version=0.36.3 && cp resources/whatsapp1.png whatsapp-desktop-linux-x64/resources/whatsapp1.png"
+    },
+    "author": "M. Alberts",
+    "license": "GNU General Public License v3.0",
+    "devDependencies": {
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.25.2"
+    }
+  },
+  "packageStatus": 200
 }

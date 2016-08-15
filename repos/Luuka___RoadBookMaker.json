@@ -44,5 +44,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "roadBookMaker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Lucas Trebouet",
+    "license": "MIT",
+    "devDependencies": {
+      "angular": "^1.5.2",
+      "angular-route": "^1.5.2",
+      "electron-prebuilt": "^0.37.2",
+      "gulp": "^3.9.1",
+      "gulp-autoprefixer": "^3.1.0",
+      "gulp-cssnano": "^2.1.1",
+      "gulp-less": "^3.0.5",
+      "gulp-rename": "^1.2.2",
+      "ng-dialog": "^0.5.9"
+    },
+    "dependencies": {
+      "html-pdf": "^2.0.1"
+    }
+  },
+  "packageStatus": 200
 }

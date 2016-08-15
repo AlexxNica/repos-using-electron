@@ -44,5 +44,35 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Curator",
+    "version": "1.0.0",
+    "description": "A museum curation game.",
+    "author": "Cassidy Williams",
+    "main": "main.js",
+    "scripts": {
+      "build": "NODE_ENV=production browserify js/app.js | uglifyjs -cm > js/bundle.js",
+      "start": "electron main.js",
+      "watch": "watchify js/app.js -o js/bundle.js -dv"
+    },
+    "license": "CC0-1.0",
+    "browserify": {
+      "transform": [
+        "reactify"
+      ]
+    },
+    "dependencies": {
+      "browserify": "^13.0.0",
+      "react-router": "^2.0.1",
+      "reactify": "^1.1.1",
+      "uglify-js": "^2.6.2",
+      "watchify": "^3.7.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0",
+      "react": "^0.14.7"
+    }
+  },
+  "packageStatus": 200
 }

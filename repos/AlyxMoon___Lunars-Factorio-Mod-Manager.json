@@ -44,5 +44,40 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "lunar-mod-manager",
+    "version": "1.5.1",
+    "description": "An unofficial mod manager for Factorio",
+    "main": "app.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . LunarModManager --platform=win32 --arch=all --version=1.2.0"
+    },
+    "keywords": [
+      "Factorio",
+      "mod",
+      "manager"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/AlyxMoon/Lunars-Factorio-Mod-Manager.git"
+    },
+    "bugs": {
+      "url": "https://github.com/AlyxMoon/Lunars-Factorio-Mod-Manager/issues"
+    },
+    "homepage": "https://github.com/AlyxMoon/Lunars-Factorio-Mod-Manager",
+    "author": "Alyx DeLunar",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-packager": "^7.4.0",
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "async": "^2.0.1",
+      "jszip": "^3.1.1",
+      "request": "^2.74.0"
+    }
+  },
+  "packageStatus": 200
 }

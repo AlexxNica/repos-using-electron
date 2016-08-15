@@ -50,5 +50,55 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "time2leave",
+    "productName": "Time2leave",
+    "version": "0.0.0",
+    "description": "My praiseworthy app",
+    "license": "MIT",
+    "repository": "TrevorS/time2leave",
+    "author": {
+      "name": "Trevor Strieber",
+      "email": "trevor@strieber.org",
+      "url": "github.com/TrevorS/time2leave"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "electronVersion": "0.34.0",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.2.1",
+      "q": "^1.4.1",
+      "request": "^2.65.0",
+      "request-promise": "^1.0.2",
+      "xml2js": "^0.4.13"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.34.0",
+      "xo": "^0.9.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

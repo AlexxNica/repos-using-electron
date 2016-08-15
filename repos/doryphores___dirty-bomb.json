@@ -44,5 +44,52 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "dirty-bomb",
+    "displayName": "Dirty Bomb",
+    "version": "0.0.1",
+    "author": {
+      "name": "Martin Laine"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/doryphores/dirty-bomb.git"
+    },
+    "scripts": {
+      "start": "electron ."
+    },
+    "main": "main.js",
+    "dependencies": {
+      "classnames": "^2.1.1",
+      "codemirror": "^5.2.0",
+      "filewalker": "^0.1.2",
+      "fs-extra": "^0.18.3",
+      "github": "^0.2.4",
+      "immutable": "^3.7.2",
+      "node-forge": "^0.6.26",
+      "node-jsx": "^0.13.3",
+      "nodegit": "^0.4.0",
+      "object-assign": "^2.0.0",
+      "pathwatcher": "^4.4.0",
+      "react": "^0.13.3",
+      "reflux": "^0.2.7",
+      "showdown": "^0.5.0",
+      "stylus": "^0.51.1",
+      "underscore": "^1.8.3"
+    },
+    "devDependencies": {
+      "chai": "^2.2.0",
+      "electron-prebuilt": "^0.24.0",
+      "mocha": "^2.2.4",
+      "rewire": "^2.3.1",
+      "sinon": "^1.14.1",
+      "sinon-chai": "^2.7.0",
+      "temp": "^0.8.1"
+    },
+    "engines": {
+      "electron": "0.24.0"
+    }
+  },
+  "packageStatus": 200
 }

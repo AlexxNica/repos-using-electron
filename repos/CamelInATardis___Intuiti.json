@@ -44,5 +44,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Intuiti",
+    "version": "0.1.1",
+    "description": "A lightweight, easy-to-understand, free, web-based OS that lives on the web.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/CamelInATardis/Intuiti.git"
+    },
+    "keywords": [
+      "Intuiti",
+      "IntuitOS"
+    ],
+    "author": "CamelInATardis",
+    "license": "No License",
+    "bugs": {
+      "url": "https://github.com/CamelInATardis/Intuiti/issues"
+    },
+    "homepage": "https://github.com/CamelInATardis/Intuiti#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.0"
+    }
+  },
+  "packageStatus": 200
 }

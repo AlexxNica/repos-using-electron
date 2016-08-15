@@ -50,5 +50,35 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "juno",
+    "version": "0.1.0",
+    "description": "Give your Jupyter notebooks a window of their own",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "prestart": "riot . tags.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rschroll/juno.git"
+    },
+    "keywords": [
+      "Jupyter",
+      "IPython",
+      "notebook"
+    ],
+    "author": "Robert Schroll",
+    "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/rschroll/juno/issues"
+    },
+    "homepage": "https://github.com/rschroll/juno#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.0",
+      "riot": "~2.2.2"
+    }
+  },
+  "packageStatus": 200
 }

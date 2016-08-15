@@ -44,5 +44,34 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "comikz",
+    "version": "0.1.0",
+    "description": "comix reader",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron ."
+    },
+    "author": "meandave",
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "license": "BSD",
+    "dependencies": {
+      "node-unrar": "^0.1.1",
+      "shell-escape": "^0.2.0",
+      "tachyons": "^4.0.0",
+      "tmp": "0.0.28",
+      "vkey": "^1.0.0"
+    },
+    "devDependencies": {
+      "electron-debug": "^0.5.1",
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

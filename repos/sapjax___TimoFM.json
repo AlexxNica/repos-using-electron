@@ -44,5 +44,36 @@
   "license": null,
   "networkCount": 40,
   "subscribersCount": 19,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "TimoFM",
+    "version": "1.2.1",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "clean": "rm -rf ../dist",
+      "pack:osx": "npm run clean && electron-packager ./ TimoFM --out=../dist/osx --platform=darwin --arch=x64 --version=0.36.7 --icon=assets/images/TimoFM.icns",
+      "pack:linux": "npm run clean && electron-packager ./ TimoFM --out=../dist/linux --platform=linux --arch=x64 --version=0.36.7",
+      "build:osx": "npm run pack:osx && electron-builder \"../dist/osx/TimoFM-darwin-x64/TimoFM.app\" --platform=osx --out=\"../dist/osx\" --config=packager.json",
+      "build:linux": "npm run pack:linux &&  electron-builder \"../dist/linux/TimoFM-linux-x64\" --platform=linux --out=\"../dist/linux\" --config=packager.json"
+    },
+    "download": "http://pan.baidu.com/s/1pJwRql1#path=%252FAPP",
+    "dependencies": {
+      "dbfm-app-sdk": "*",
+      "dbfm-web-sdk": "*",
+      "open": "0.0.5",
+      "request": "^2.44.0"
+    },
+    "devDependencies": {
+      "electron-builder": "^2.6.0",
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.7"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sapjax/TimoFM"
+    },
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

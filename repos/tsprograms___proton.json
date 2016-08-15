@@ -44,5 +44,21 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Proton",
+    "version": "0.0.1",
+    "main": "./main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.0.2"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tsprograms/proton.git"
+    }
+  },
+  "packageStatus": 200
 }

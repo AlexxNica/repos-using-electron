@@ -44,5 +44,26 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "VaultGUI",
+    "version": "0.1.0",
+    "description": "description",
+    "main": "app.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:jonsavage/VaultGUI.git"
+    },
+    "author": "Jon Savage",
+    "devDependencies": {
+      "electron-prebuilt": "~1.2.1",
+      "node-vault": "~>0.5.1",
+      "jquery": "~>3.1.0",
+      "bootstrap": "~>3.3.7"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,41 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "election-skeleton",
+    "version": "0.0.1",
+    "description": "Angular2+Bootstrap Electron Skeleton App",
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/codetunez/electron-skeleton.git"
+    },
+    "scripts": {
+      "build": "webpack --progress --profile --colors --display-error-details --display-cached",
+      "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
+      "electron": "electron main.js"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.0",
+      "es6-shim": "^0.35.0",
+      "ts-loader": "^0.7.2",
+      "webpack": "^1.12.9",
+      "webpack-dev-server": "^1.14.0"
+    },
+    "dependencies": {
+      "angular2": "2.0.0-beta.13",
+      "body-parser": "^1.15.1",
+      "bootstrap": "^3.3.6",
+      "es6-shim": "^0.35.0",
+      "gulp": "^3.9.0",
+      "reflect-metadata": "0.1.2",
+      "rxjs": "5.0.0-beta.2",
+      "typescript": "^1.8.10",
+      "zone.js": "^0.6.11"
+    },
+    "author": "codetunez",
+    "license": "ISC"
+  },
+  "packageStatus": 200
 }

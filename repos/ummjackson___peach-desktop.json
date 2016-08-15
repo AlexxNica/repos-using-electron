@@ -44,5 +44,43 @@
   "license": null,
   "networkCount": 7,
   "subscribersCount": 5,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "peach-desktop",
+    "version": "0.5.0",
+    "description": "Desktop client for peach.cool",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ummjackson/peach-desktop.git"
+    },
+    "main": "app.js",
+    "scripts": {
+      "start": "electron app.js",
+      "compile": "gulp",
+      "build-osx": "electron-packager . 'Peach Desktop' --out=bin --platform=darwin --arch=x64 --version=0.36.4 --icon=icon.icns --prune",
+      "build-linux": "electron-packager . 'Peach Desktop' --out=bin --platform=linux --arch=x64 --version=0.36.4 --icon=icon.icns --prune",
+      "build-win64": "electron-packager . 'Peach Desktop' --out=bin --platform=win32 --arch=x64 --version=0.36.4 --icon=icon.ico --prune",
+      "build-win32": "electron-packager . 'Peach Desktop' --out=bin --platform=win32 --arch=ia32 --version=0.36.4 --icon=icon.ico --prune"
+    },
+    "keywords": [
+      "peach",
+      "social",
+      "desktop"
+    ],
+    "author": "Jackson Palmer (@ummjackson)",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.13.3",
+      "request": "^2.67.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.36.3",
+      "gulp": "^3.9.0",
+      "gulp-concat": "^2.6.0",
+      "gulp-imagemin": "^2.4.0",
+      "gulp-nunjucks": "^2.1.1"
+    }
+  },
+  "packageStatus": 200
 }

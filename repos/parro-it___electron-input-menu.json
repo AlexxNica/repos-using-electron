@@ -50,5 +50,44 @@
   },
   "networkCount": 2,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-input-menu",
+    "version": "2.0.3",
+    "description": "Context menu for electron input elements.",
+    "repository": "parro-it/electron-input-menu",
+    "license": "MIT",
+    "author": "andrea@parro.it",
+    "scripts": {
+      "test": "xo",
+      "start": "electron test.js"
+    },
+    "keywords": [
+      "electron",
+      "input",
+      "contextmenu",
+      "shortcuts"
+    ],
+    "eslintConfig": {
+      "extends": [
+        "js",
+        "features"
+      ]
+    },
+    "devDependencies": {
+      "electron-contextmenu-middleware": "^1.0.0",
+      "electron-prebuilt": "^1.1.1",
+      "xo": "^0.15.1"
+    },
+    "files": [
+      "index.js"
+    ],
+    "xo": {
+      "envs": [
+        "browser",
+        "node"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

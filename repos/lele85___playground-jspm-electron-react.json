@@ -44,5 +44,47 @@
   "license": null,
   "networkCount": 2,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "playground-jspm",
+    "version": "1.0.0",
+    "description": "",
+    "main": "electron-main.js",
+    "scripts": {
+      "test": "node_modules/.bin/karma start karma.config.js",
+      "start": "node_modules/.bin/electron ."
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^0.25.3",
+      "esformatter": "^0.7.0",
+      "expect": "^1.6.0",
+      "jasmine-core": "^2.3.2",
+      "jspm": "^0.15.6",
+      "karma": "^0.12.31",
+      "karma-chrome-launcher": "^0.1.10",
+      "karma-cli": "0.0.4",
+      "karma-electron-launcher": "0.0.2",
+      "karma-jasmine": "^0.3.5",
+      "karma-jspm": "^1.1.5"
+    },
+    "jspm": {
+      "directories": {},
+      "dependencies": {
+        "events": "github:jspm/nodelibs-events@^0.1.0",
+        "flux": "npm:flux@^2.0.3",
+        "fs": "github:jspm/nodelibs-fs@^0.1.2",
+        "glob": "npm:glob@^5.0.9",
+        "node-dir": "npm:node-dir@^0.1.8",
+        "react": "npm:react@^0.13.3"
+      },
+      "devDependencies": {
+        "babel": "npm:babel-core@^5.1.13",
+        "babel-runtime": "npm:babel-runtime@^5.1.13",
+        "core-js": "npm:core-js@^0.9.4"
+      }
+    }
+  },
+  "packageStatus": 200
 }

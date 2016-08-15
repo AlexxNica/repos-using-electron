@@ -58,5 +58,43 @@
   },
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "trellograph",
+    "version": "0.1.0",
+    "description": "Trello notifications for desktop",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "./node_modules/.bin/gulp build"
+    },
+    "keywords": [
+      "trello",
+      "trellograph",
+      "notifications",
+      "tray"
+    ],
+    "author": "Eymen Gunay <eymen@egunay.com>",
+    "license": "ISC",
+    "dependencies": {
+      "angular": "^1.4.8",
+      "convict": "^1.0.1",
+      "dotenv": "^1.2.0",
+      "electron": "^0.4.1",
+      "jquery": "^2.1.4",
+      "lodash": "^3.10.1",
+      "moment": "^2.10.6",
+      "node-persist": "0.0.8"
+    },
+    "devDependencies": {
+      "appdmg": "^0.3.5",
+      "electron-gh-releases": "^2.0.1",
+      "electron-packager": "^5.1.1",
+      "electron-prebuilt": "^0.35.1",
+      "electron-windows-installer": "^1.1.0",
+      "gulp": "^3.9.0",
+      "node-readme": "^0.1.9"
+    }
+  },
+  "packageStatus": 200
 }

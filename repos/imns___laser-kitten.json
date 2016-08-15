@@ -50,5 +50,42 @@
   },
   "networkCount": 2,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "laser-kitten-dev-dependencies",
+    "version": "0.0.3",
+    "description": "Laser Kitten Dev Dependencies",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "rebuild": "sudo ./node_modules/.bin/electron-rebuild",
+      "watch": "gulp build",
+      "release": "gulp release --env=production",
+      "install-native": "node ./tasks/install_native_module"
+    },
+    "author": "Nate Smith",
+    "dependencies": {
+      "appdmg": "^0.3.6",
+      "asar": "^0.10.0",
+      "browserify": "^12.0.1",
+      "chalk": "^1.1.1",
+      "electron-prebuilt": "^0.34.3",
+      "electron-rebuild": "^1.0.2",
+      "electron-window-state": "^2.0.0",
+      "envify": "^3.4.0",
+      "fs-jetpack": "^0.7.1",
+      "gulp": "^3.9.0",
+      "gulp-concat": "^2.6.0",
+      "gulp-less": "^3.0.5",
+      "gulp-plumber": "^1.0.1",
+      "history": "^1.13.1",
+      "moment": "^2.10.6",
+      "reactify": "^1.1.1",
+      "underscore": "^1.8.3",
+      "vinyl-source-stream": "^1.1.0",
+      "watchify": "^3.6.1"
+    },
+    "devDependencies": {}
+  },
+  "packageStatus": 200
 }

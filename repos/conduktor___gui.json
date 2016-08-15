@@ -58,5 +58,51 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "conduktor-gui",
+    "version": "0.0.2",
+    "description": "Desktop GUI for Conduktor",
+    "main": "js/main.js",
+    "scripts": {
+      "test": "grunt test"
+    },
+    "author": "Giles Lavelle",
+    "license": "MIT",
+    "dependencies": {
+      "async": "^0.9.0",
+      "conduktor-constants": "latest",
+      "conduktor-core": "latest",
+      "electron-prebuilt": "^0.25.0",
+      "grunt-coffeelint": "0.0.13",
+      "grunt-contrib-stylus": "^0.21.0",
+      "gutils": "latest",
+      "mkdirp": "^0.5.0",
+      "underscore": "^1.8.3"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/conduktor/gui.git"
+    },
+    "devDependencies": {
+      "browserify-data": "^0.2.0",
+      "coffee-script": "^1.9.0",
+      "coffeeify": "^1.0.0",
+      "grunt": "^0.4.5",
+      "grunt-browserify": "^3.2.1",
+      "grunt-coffeelint": "0.0.13",
+      "grunt-contrib-coffee": "^0.12.0",
+      "grunt-contrib-concat": "^0.5.0",
+      "grunt-contrib-stylus": "^0.20.0",
+      "grunt-contrib-watch": "^0.6.1",
+      "jit-grunt": "^0.9.1",
+      "jstify2": "^0.8.0",
+      "time-grunt": "^1.1.0"
+    },
+    "window": {
+      "title": "Conduktor",
+      "icon": "./img/logo_square.png"
+    }
+  },
+  "packageStatus": 200
 }

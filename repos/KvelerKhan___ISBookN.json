@@ -50,5 +50,25 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ISBookN",
+    "version": "0.2.0",
+    "description": "A simple soft to search books by ISBN",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "author": "Arnaud Morisset",
+    "license": "MIT",
+    "dependencies": {
+      "bootstrap": "3.3.6",
+      "jquery": "2.2.0",
+      "json2csv": "^3.3.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

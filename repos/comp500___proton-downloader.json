@@ -44,5 +44,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "proton-downloader",
+    "version": "1.0.0",
+    "description": "A youtube downloader with a GUI made using Electron.",
+    "main": "index.js",
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "pack": "build",
+      "dist": "build",
+      "test": "electron app"
+    },
+    "author": "comp500",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-builder": "^3.14.0",
+      "electron-prebuilt": "^0.37.8"
+    },
+    "build": {
+      "app-bundle-id": "prtdl",
+      "app-category-type": "public.app-category.utilities"
+    }
+  },
+  "packageStatus": 200
 }
