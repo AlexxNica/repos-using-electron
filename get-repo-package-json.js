@@ -16,14 +16,17 @@ Object.keys(repos).forEach(basename => {
   let repo = require(filename)
 
   // bail if metadata is already present
-  if (repo.status === 404) return
+  if (repo.status === 404 || repo.packageStatus == 404) return
 
   limiter.removeTokens(1, function () {
     getPackageJSON(`${owner}/${name}`, function(err, pkg) {
-      if (err) throw err
-      Object.assign(repo, {packageJSON: pkg})
-      console.log(`${path.basename(filename)} (${repo.status})`)
-      // fs.writeFileSync(filename, JSON.stringify(repo, null, 2))
+      if (err) {
+        Object.assign(repo, {packageStatus: 404})
+      } else {
+        Object.assign(repo, {packageJSON: pkg, packageStatus: 200})
+      }
+      console.log(`${path.basename(filename)} (${repo.packageStatus})`)
+      fs.writeFileSync(filename, JSON.stringify(repo, null, 2))
     })
   })
 })
