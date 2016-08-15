@@ -26,10 +26,12 @@ pify(getTotalDependentCount)(packageName)
           if (err || !repos || repos.error || !Array.isArray(repos)) return
           repos.forEach(function (repo) {
             let filename = path.join(__dirname, 'repos', `${repo.full_name.replace('/', '___')}.json`)
-            let pkg = exists(filename) ? require(filename) : {}
-            pkg._librariesioMetadata = repo
-            fs.writeFileSync(filename, JSON.stringify(pkg, null, 2))
-            console.log('  ' + filename)
+            if (!exists(filename)) {
+              fs.writeFileSync(filename, JSON.stringify({}))
+              console.log(`                    ${repo.full_name} (NEW)`)
+            } else {
+              console.log(`  ${repo.full_name}`)
+            }
           })
         })
       })
