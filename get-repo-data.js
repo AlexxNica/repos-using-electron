@@ -5,22 +5,41 @@ const fs = require('fs')
 const path = require('path')
 const RateLimiter = require('limiter').RateLimiter
 const limiter = new RateLimiter(1, 1000)
-const getPackageJSON = require('get-repo-package-json')
+var Octokat = require('octokat')
+var octo = new Octokat({token: process.env.GITHUB_ACCESS_TOKEN})
+// const getPackageJSON = require('get-repo-package-json')
 const exists = require('path-exists').sync
 
 console.log(`Filling ${Object.keys(repos).length} repos with metadata`)
 
 Object.keys(repos).forEach(basename => {
-  let fullname = basename.replace('___', '/')
+  let [owner, name] = basename.split('___')
   let filename = path.join(__dirname, 'repos', `${basename}.json`)
-  console.log(fullname)
-  fs.writeFileSync(filename, '{}')
+  let repo = require(filename)
 
-  // limiter.removeTokens(1, function () {
-  //   getPackageJSON(fullname, function (err, pkg) {
-  //     if (err) throw err
-  //     let extant = exists(filename) ? require(filename) : {}
-  //     fs.writeFileSync(filename, JSON.stringify(Object.assign({}, extant, pkg), null, 2))
-  //   })
-  // })
+  // bail if metadata is already present
+  if (repo.status) return
+
+  limiter.removeTokens(1, function () {
+    octo.repos(owner, name).fetch()
+      .then(data => {
+        repo = Object.assign(repo, data, {status: 200})
+
+        // remove unhelpful URLs from object
+        Object.keys(repo).forEach(key => {
+          if (key.match(/url$/i)) delete repo[key]
+        })
+
+        saveFile(repo, filename)
+      })
+      .catch(error => {
+        repo = Object.assign(repo, {status: 404})
+        saveFile(repo, filename)
+      })
+  })
 })
+
+function saveFile (repo, filename) {
+  console.log(`${path.basename(filename)} (${repo.status})`)
+  fs.writeFileSync(filename, JSON.stringify(repo, null, 2))
+}
