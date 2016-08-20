@@ -7,8 +7,6 @@ const RateLimiter = require('limiter').RateLimiter
 const limiter = new RateLimiter(1, 1000)
 var Octokat = require('octokat')
 var octo = new Octokat({token: process.env.GITHUB_ACCESS_TOKEN})
-// const getPackageJSON = require('get-repo-package-json')
-const exists = require('path-exists').sync
 
 console.log(`Filling ${Object.keys(repos).length} repos with metadata`)
 
@@ -33,6 +31,7 @@ Object.keys(repos).forEach(basename => {
         saveFile(repo, filename)
       })
       .catch(error => {
+        console.error(error)
         repo = Object.assign(repo, {status: 404})
         saveFile(repo, filename)
       })
