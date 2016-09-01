@@ -1,82 +1,102 @@
 {
+  "id": 36633489,
   "name": "electron-debug",
-  "version": "1.0.1",
+  "fullName": "sindresorhus/electron-debug",
+  "owner": {
+    "login": "sindresorhus",
+    "id": 170270,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/170270?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/sindresorhus",
+    "htmlUrl": "https://github.com/sindresorhus",
+    "followersUrl": "https://api.github.com/users/sindresorhus/followers",
+    "subscriptionsUrl": "https://api.github.com/users/sindresorhus/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/sindresorhus/orgs",
+    "reposUrl": "https://api.github.com/users/sindresorhus/repos",
+    "receivedEventsUrl": "https://api.github.com/users/sindresorhus/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Adds useful debug features to your Electron app",
-  "license": "MIT",
-  "repository": "sindresorhus/electron-debug",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+  "fork": false,
+  "createdAt": "2015-06-01T02:36:20.000Z",
+  "updatedAt": "2016-08-13T08:20:45.000Z",
+  "pushedAt": "2016-06-18T22:10:37.000Z",
+  "homepage": null,
+  "size": 46,
+  "stargazersCount": 201,
+  "watchersCount": 201,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 18,
+  "openIssuesCount": 4,
+  "openIssues": 4,
+  "watchers": 201,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "start": "electron test.js",
-    "test": "xo"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "electron",
-    "debug",
-    "debugging",
-    "devtools",
-    "app",
-    "dev",
-    "development"
-  ],
-  "dependencies": {
-    "electron-is-dev": "^0.1.0",
-    "electron-localshortcut": "^0.6.0"
-  },
-  "devDependencies": {
-    "devtron": "^1.1.0",
-    "electron-prebuilt": "0.37.7",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true,
-    "envs": [
-      "node",
-      "browser"
+  "networkCount": 18,
+  "subscribersCount": 10,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-debug",
+    "version": "1.0.1",
+    "description": "Adds useful debug features to your Electron app",
+    "license": "MIT",
+    "repository": "sindresorhus/electron-debug",
+    "author": {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "sindresorhus.com"
+    },
+    "scripts": {
+      "start": "electron test.js",
+      "test": "xo"
+    },
+    "files": [
+      "index.js"
     ],
-    "rules": {
-      "import/no-extraneous-dependencies": "off"
+    "keywords": [
+      "electron",
+      "debug",
+      "debugging",
+      "devtools",
+      "app",
+      "dev",
+      "development"
+    ],
+    "dependencies": {
+      "electron-is-dev": "^0.1.0",
+      "electron-localshortcut": "^0.6.0"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.0",
+      "electron-prebuilt": "0.37.7",
+      "xo": "*"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ],
+      "rules": {
+        "import/no-extraneous-dependencies": "off"
+      }
     }
   },
-  "_librariesioMetadata": {
-    "full_name": "sindresorhus/electron-debug",
-    "description": "Adds useful debug features to your Electron app",
-    "fork": false,
-    "created_at": "2015-06-01T02:36:20.000Z",
-    "updated_at": "2016-07-24T04:08:09.928Z",
-    "pushed_at": "2016-06-18T22:10:37.000Z",
-    "homepage": null,
-    "size": 46,
-    "stargazers_count": 193,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": false,
-    "has_pages": false,
-    "forks_count": 18,
-    "mirror_url": null,
-    "open_issues_count": 4,
-    "default_branch": "master",
-    "subscribers_count": 10,
-    "github_id": 36633489,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 6,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-18T22:14:24.182Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

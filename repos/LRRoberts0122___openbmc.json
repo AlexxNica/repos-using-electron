@@ -1,52 +1,66 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "LRRoberts0122/openbmc",
-    "description": "Interact with your BMC in a whole new way! OpenBMC makes it easier than ever before to discover endpoints and run methods, all powered by the OpenBMC REST API.",
-    "fork": false,
-    "created_at": "2016-03-28T22:18:48.000Z",
-    "updated_at": "2016-04-15T15:44:38.354Z",
-    "pushed_at": "2016-04-04T07:44:46.000Z",
-    "homepage": null,
-    "size": 111605,
-    "stargazers_count": 2,
-    "language": "HTML",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 5,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 54927513,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+  "id": 54927513,
+  "name": "openbmc",
+  "fullName": "LRRoberts0122/openbmc",
+  "owner": {
+    "login": "LRRoberts0122",
+    "id": 2066489,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2066489?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/LRRoberts0122",
+    "htmlUrl": "https://github.com/LRRoberts0122",
+    "followersUrl": "https://api.github.com/users/LRRoberts0122/followers",
+    "subscriptionsUrl": "https://api.github.com/users/LRRoberts0122/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/LRRoberts0122/orgs",
+    "reposUrl": "https://api.github.com/users/LRRoberts0122/repos",
+    "receivedEventsUrl": "https://api.github.com/users/LRRoberts0122/received_events",
+    "type": "User"
   },
-  "name": "OpenBMC",
-  "version": "0.0.3",
-  "main": "./main.js",
-  "scripts": {
-    "start": "electron ."
+  "private": false,
+  "description": "Interact with your BMC in a whole new way! OpenBMC makes it easier than ever before to discover endpoints and run methods, all powered by the OpenBMC REST API.",
+  "fork": false,
+  "createdAt": "2016-03-28T22:18:48.000Z",
+  "updatedAt": "2016-04-15T15:44:27.000Z",
+  "pushedAt": "2016-04-04T07:44:46.000Z",
+  "homepage": null,
+  "size": 111605,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "openIssuesCount": 5,
+  "openIssues": 5,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.7"
+  "license": null,
+  "networkCount": 2,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "OpenBMC",
+    "version": "0.0.3",
+    "main": "./main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.7"
+    },
+    "dependencies": {
+      "electron-cookies": "^1.1.0",
+      "electronify-server": "^0.1.3",
+      "mime": "^1.3.4",
+      "normalize.css": "^4.0.0"
+    }
   },
-  "dependencies": {
-    "electron-cookies": "^1.1.0",
-    "electronify-server": "^0.1.3",
-    "mime": "^1.3.4",
-    "normalize.css": "^4.0.0"
-  }
+  "packageStatus": 200
 }

@@ -1,79 +1,99 @@
 {
+  "id": 36207070,
   "name": "omnihearth",
-  "productName": "OmniHearth",
-  "version": "0.0.0",
-  "description": "Hearthstone assistant",
-  "license": "MIT",
-  "main": "./src/browser/main.js",
-  "repository": "hemslo/omnihearth",
-  "author": {
-    "name": "Hemslo Wang",
-    "email": "hemslo.wang@gmail.com",
-    "url": "github.com/hemslo/omnihearth"
+  "fullName": "hemslo/omnihearth",
+  "owner": {
+    "login": "hemslo",
+    "id": 982709,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/982709?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/hemslo",
+    "htmlUrl": "https://github.com/hemslo",
+    "followersUrl": "https://api.github.com/users/hemslo/followers",
+    "subscriptionsUrl": "https://api.github.com/users/hemslo/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/hemslo/orgs",
+    "reposUrl": "https://api.github.com/users/hemslo/repos",
+    "receivedEventsUrl": "https://api.github.com/users/hemslo/received_events",
+    "type": "User"
   },
-  "engines": {
-    "node": ">=0.10.0"
+  "private": false,
+  "description": "Hearthstone Assistant",
+  "fork": false,
+  "createdAt": "2015-05-25T03:14:36.000Z",
+  "updatedAt": "2016-07-22T22:49:04.000Z",
+  "pushedAt": "2015-06-27T03:48:05.000Z",
+  "homepage": "",
+  "size": 208,
+  "stargazersCount": 15,
+  "watchersCount": 15,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 15,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git",
-    "test": "node test/"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
-  "keywords": [
-    "electron-app"
-  ],
-  "devDependencies": {
-    "electron-packager": "^3.3.0",
-    "electron-prebuilt": "^0.25.2"
-  },
-  "dependencies": {
-    "babel": "^5.5.6",
-    "bootstrap": "^3.3.5",
-    "flux-react": "^2.6.6",
-    "gulp": "^3.9.0",
-    "immutable": "^3.7.4",
-    "node-jsx": "^0.13.3",
-    "react": "^0.13.3",
-    "react-tools": "^0.13.3"
-  },
-  "_librariesioMetadata": {
-    "full_name": "hemslo/omnihearth",
-    "description": "Hearthstone Assistant",
-    "fork": false,
-    "created_at": "2015-05-25T03:14:36.000Z",
-    "updated_at": "2016-07-21T06:18:02.282Z",
-    "pushed_at": "2015-06-27T03:48:05.000Z",
-    "homepage": "",
-    "size": 208,
-    "stargazers_count": 15,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 2,
-    "default_branch": "master",
-    "subscribers_count": 3,
-    "github_id": 36207070,
-    "source_name": null,
+  "networkCount": 1,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "omnihearth",
+    "productName": "OmniHearth",
+    "version": "0.0.0",
+    "description": "Hearthstone assistant",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "main": "./src/browser/main.js",
+    "repository": "hemslo/omnihearth",
+    "author": {
+      "name": "Hemslo Wang",
+      "email": "hemslo.wang@gmail.com",
+      "url": "github.com/hemslo/omnihearth"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git",
+      "test": "node test/"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "devDependencies": {
+      "electron-packager": "^3.3.0",
+      "electron-prebuilt": "^0.25.2"
+    },
+    "dependencies": {
+      "babel": "^5.5.6",
+      "bootstrap": "^3.3.5",
+      "flux-react": "^2.6.6",
+      "gulp": "^3.9.0",
+      "immutable": "^3.7.4",
+      "node-jsx": "^0.13.3",
+      "react": "^0.13.3",
+      "react-tools": "^0.13.3"
+    }
+  },
+  "packageStatus": 200
 }

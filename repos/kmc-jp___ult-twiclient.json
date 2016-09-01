@@ -1,71 +1,105 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "kmc-jp/ult-twiclient",
-    "description": "さいきょうのついったーくらいあんとをつくる！",
-    "fork": false,
-    "created_at": "2015-10-03T04:57:41.000Z",
-    "updated_at": "2016-04-15T22:50:31.308Z",
-    "pushed_at": "2016-02-24T03:44:28.000Z",
-    "homepage": null,
-    "size": 142,
-    "stargazers_count": 3,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 12,
-    "default_branch": "master",
-    "subscribers_count": 39,
-    "github_id": 43588418,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 3,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 43588418,
   "name": "ult-twiclient",
-  "version": "1.0.0",
-  "description": "ultimate twitter client",
-  "main": "init.js",
-  "dependencies": {
-    "electron-compile": "^1.0.0",
-    "flutter": "0.0.5",
-    "node-twitter-api": "^1.6.1",
-    "request": "^2.65.0",
-    "twitter": "^1.2.5",
-    "twitter-text": "^1.13.2",
-    "vue": "^1.0.13"
+  "fullName": "kmc-jp/ult-twiclient",
+  "owner": {
+    "login": "kmc-jp",
+    "id": 1835833,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1835833?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/kmc-jp",
+    "htmlUrl": "https://github.com/kmc-jp",
+    "followersUrl": "https://api.github.com/users/kmc-jp/followers",
+    "subscriptionsUrl": "https://api.github.com/users/kmc-jp/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/kmc-jp/orgs",
+    "reposUrl": "https://api.github.com/users/kmc-jp/repos",
+    "receivedEventsUrl": "https://api.github.com/users/kmc-jp/received_events",
+    "type": "Organization"
   },
-  "devDependencies": {
-    "electron-compilers": "^1.0.0",
-    "electron-packager": "^5.1.0",
-    "electron-prebuilt": "^0.36.0",
-    "eslint": "^1.10.3"
+  "private": false,
+  "description": "さいきょうのついったーくらいあんとをつくる！",
+  "fork": false,
+  "createdAt": "2015-10-03T04:57:41.000Z",
+  "updatedAt": "2016-06-01T15:44:28.000Z",
+  "pushedAt": "2016-05-26T23:23:08.000Z",
+  "homepage": null,
+  "size": 144,
+  "stargazersCount": 5,
+  "watchersCount": 5,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 12,
+  "openIssues": 12,
+  "watchers": 5,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "start": "electron .",
-    "build": "electron-packager . ult-twiclient --platform=win32 --arch=all --version=0.33.0 --overwrite --out=build --asar",
-    "test": "eslint **/*.js"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kmc-jp/ult-twiclient.git"
+  "organization": {
+    "login": "kmc-jp",
+    "id": 1835833,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1835833?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/kmc-jp",
+    "htmlUrl": "https://github.com/kmc-jp",
+    "followersUrl": "https://api.github.com/users/kmc-jp/followers",
+    "subscriptionsUrl": "https://api.github.com/users/kmc-jp/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/kmc-jp/orgs",
+    "reposUrl": "https://api.github.com/users/kmc-jp/repos",
+    "receivedEventsUrl": "https://api.github.com/users/kmc-jp/received_events",
+    "type": "Organization"
   },
-  "author": "KMC",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kmc-jp/ult-twiclient/issues"
+  "networkCount": 0,
+  "subscribersCount": 37,
+  "status": 200,
+  "packageJSON": {
+    "name": "ult-twiclient",
+    "version": "1.0.0",
+    "description": "ultimate twitter client",
+    "main": "init.js",
+    "dependencies": {
+      "electron-compile": "^1.0.0",
+      "flutter": "0.0.5",
+      "node-twitter-api": "^1.6.1",
+      "request": "^2.65.0",
+      "twitter": "^1.2.5",
+      "twitter-text": "^1.13.2",
+      "vue": "^1.0.13"
+    },
+    "devDependencies": {
+      "electron-compilers": "^1.0.0",
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.36.0",
+      "eslint": "^1.10.3"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . ult-twiclient --platform=win32 --arch=all --version=0.33.0 --overwrite --out=build --asar",
+      "test": "eslint **/*.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kmc-jp/ult-twiclient.git"
+    },
+    "author": "KMC",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kmc-jp/ult-twiclient/issues"
+    },
+    "homepage": "https://github.com/kmc-jp/ult-twiclient#readme"
   },
-  "homepage": "https://github.com/kmc-jp/ult-twiclient#readme"
+  "packageStatus": 200
 }

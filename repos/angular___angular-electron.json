@@ -1,77 +1,105 @@
 {
-  "name": "@angular2/electron",
-  "version": "1.0.0",
-  "description": "Electron Platform for Angular2",
-  "main": "index.js",
-  "scripts": {
-    "clean": "rimraf dist",
-    "typings-install": "typings install",
-    "setup": "npm install --no-optional && npm run typings-install",
-    "setup-demo": "npm install --no-optional angular2@2.0.0-beta.12 es6-promise@^3.1.2 es6-shim@0.35.0 reflect-metadata@0.1.2 rxjs@5.0.0-beta.2 zone.js@^0.6.6",
-    "build": "npm run clean && tsc",
-    "build_demo": "tsc typings/browser.d.ts demo/main.ts demo/app_ui.ts --module commonjs -t es5 --experimentalDecorators --emitDecoratorMetadata",
-    "test": "echo Not supported yet",
-    "demo": "npm run build && npm run build_demo && electron ./demo",
-    "start": "npm run demo"
+  "id": 51412029,
+  "name": "angular-electron",
+  "fullName": "angular/angular-electron",
+  "owner": {
+    "login": "angular",
+    "id": 139426,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/139426?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/angular",
+    "htmlUrl": "https://github.com/angular",
+    "followersUrl": "https://api.github.com/users/angular/followers",
+    "subscriptionsUrl": "https://api.github.com/users/angular/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/angular/orgs",
+    "reposUrl": "https://api.github.com/users/angular/repos",
+    "receivedEventsUrl": "https://api.github.com/users/angular/received_events",
+    "type": "Organization"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/angular/angular-electron.git"
+  "private": false,
+  "description": "Angular2 + Electron",
+  "fork": false,
+  "createdAt": "2016-02-10T00:35:35.000Z",
+  "updatedAt": "2016-08-15T03:37:18.000Z",
+  "pushedAt": "2016-05-23T18:06:40.000Z",
+  "homepage": null,
+  "size": 14,
+  "stargazersCount": 251,
+  "watchersCount": 251,
+  "language": "TypeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 41,
+  "openIssuesCount": 13,
+  "openIssues": 13,
+  "watchers": 251,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "Angular2",
-    "Electron"
-  ],
-  "author": "Rob Wormald <robwormald@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/angular/angular-electron/issues"
+  "license": null,
+  "organization": {
+    "login": "angular",
+    "id": 139426,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/139426?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/angular",
+    "htmlUrl": "https://github.com/angular",
+    "followersUrl": "https://api.github.com/users/angular/followers",
+    "subscriptionsUrl": "https://api.github.com/users/angular/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/angular/orgs",
+    "reposUrl": "https://api.github.com/users/angular/repos",
+    "receivedEventsUrl": "https://api.github.com/users/angular/received_events",
+    "type": "Organization"
   },
-  "homepage": "https://github.com/angular/angular-electron#readme",
-  "devDependencies": {
-    "electron-prebuilt": "^0.37.2",
-    "typescript": "^1.8.9",
-    "rimraf": "^2.5.2"
+  "networkCount": 41,
+  "subscribersCount": 41,
+  "status": 200,
+  "packageJSON": {
+    "name": "@angular2/electron",
+    "version": "1.0.0",
+    "description": "Electron Platform for Angular2",
+    "main": "index.js",
+    "scripts": {
+      "clean": "rimraf dist",
+      "typings-install": "typings install",
+      "setup": "npm install --no-optional && npm run typings-install",
+      "setup-demo": "npm install --no-optional angular2@2.0.0-beta.12 es6-promise@^3.1.2 es6-shim@0.35.0 reflect-metadata@0.1.2 rxjs@5.0.0-beta.2 zone.js@^0.6.6",
+      "build": "npm run clean && tsc",
+      "build_demo": "tsc typings/browser.d.ts demo/main.ts demo/app_ui.ts --module commonjs -t es5 --experimentalDecorators --emitDecoratorMetadata",
+      "test": "echo Not supported yet",
+      "demo": "npm run build && npm run build_demo && electron ./demo",
+      "start": "npm run demo"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/angular/angular-electron.git"
+    },
+    "keywords": [
+      "Angular2",
+      "Electron"
+    ],
+    "author": "Rob Wormald <robwormald@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/angular/angular-electron/issues"
+    },
+    "homepage": "https://github.com/angular/angular-electron#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.2",
+      "typescript": "^1.8.9",
+      "rimraf": "^2.5.2"
+    },
+    "peerDependencies": {
+      "angular2": "2.0.0-beta.12"
+    },
+    "dependencies": {
+      "parse5": "^1.5.1"
+    }
   },
-  "peerDependencies": {
-    "angular2": "2.0.0-beta.12"
-  },
-  "dependencies": {
-    "parse5": "^1.5.1"
-  },
-  "_librariesioMetadata": {
-    "full_name": "angular/angular-electron",
-    "description": "Angular2 + Electron",
-    "fork": false,
-    "created_at": "2016-02-10T00:35:35.000Z",
-    "updated_at": "2016-08-07T16:41:28.911Z",
-    "pushed_at": "2016-05-23T18:06:40.000Z",
-    "homepage": null,
-    "size": 14,
-    "stargazers_count": 247,
-    "language": "TypeScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 40,
-    "mirror_url": null,
-    "open_issues_count": 12,
-    "default_branch": "master",
-    "subscribers_count": 41,
-    "github_id": 51412029,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 3,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "packageStatus": 200
 }

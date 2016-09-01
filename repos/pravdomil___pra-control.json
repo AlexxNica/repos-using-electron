@@ -1,89 +1,103 @@
 {
+  "id": 52278910,
   "name": "pra-control",
-  "version": "1.0.6",
-  "description": "Send awesome gCodes to your machine.",
-  "productName": "PraControl",
-  "companyName": "pravdomil.cz",
-  "keywords": [
-    "gCode",
-    "control",
-    "serial",
-    "awesome",
-    "rembased"
-  ],
-  "author": {
-    "name": "Pravdomil Toman",
-    "email": "info@pravdomil.cz",
-    "url": "http://pravdomil.cz"
+  "fullName": "pravdomil/pra-control",
+  "owner": {
+    "login": "pravdomil",
+    "id": 2387356,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2387356?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/pravdomil",
+    "htmlUrl": "https://github.com/pravdomil",
+    "followersUrl": "https://api.github.com/users/pravdomil/followers",
+    "subscriptionsUrl": "https://api.github.com/users/pravdomil/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/pravdomil/orgs",
+    "reposUrl": "https://api.github.com/users/pravdomil/repos",
+    "receivedEventsUrl": "https://api.github.com/users/pravdomil/received_events",
+    "type": "User"
   },
-  "contributors": [
-    {
+  "private": false,
+  "description": "Send awesome gCodes to your machine.",
+  "fork": false,
+  "createdAt": "2016-02-22T14:26:15.000Z",
+  "updatedAt": "2016-07-29T06:25:14.000Z",
+  "pushedAt": "2016-05-15T11:06:50.000Z",
+  "homepage": "http://pracontrol.pravdomil.cz",
+  "size": 5666,
+  "stargazersCount": 11,
+  "watchersCount": 11,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 11,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "pra-control",
+    "version": "1.0.6",
+    "description": "Send awesome gCodes to your machine.",
+    "productName": "PraControl",
+    "companyName": "pravdomil.cz",
+    "keywords": [
+      "gCode",
+      "control",
+      "serial",
+      "awesome",
+      "rembased"
+    ],
+    "author": {
       "name": "Pravdomil Toman",
       "email": "info@pravdomil.cz",
       "url": "http://pravdomil.cz"
-    }
-  ],
-  "homepage": "http://pracontrol.pravdomil.cz",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pravdomil/pra-control"
-  },
-  "bugs": "https://github.com/pravdomil/pra-control/issues",
-  "featureRequest": "https://github.com/pravdomil/pra-control/issues/new",
-  "donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=PraControl%20beer",
-  "main": "_main/index.js",
-  "scripts": {
-    "start": "electron .",
-    "rebuild": "node distribution/rebuild",
-    "dist": "node distribution/dist"
-  },
-  "dependencies": {
-    "fs-extra-promise": "^0.3.1",
-    "serialport": "^2.0.6",
-    "ncp": "^2.0.0",
-    "request": "^2.69.0",
-    "electron-app-base": "pravdomil/electron-app-base#90fea74eb49cdf35e96b48f196cac5d4c1b81d1a",
-    "web-component-app": "pravdomil/web-component-app#e9f82bbcc56f12fbd8a1e78b7a94a1d217f95f2b",
-    "rembased": "pravdomil/rembased#512a3bf680009b7caab36ec45c8f4a0c88edaed1"
-  },
-  "devDependencies": {
-    "electron-packager": "^7.0.0",
-    "electron-prebuilt": "0.36.12"
-  },
-  "license": "MIT",
-  "_librariesioMetadata": {
-    "full_name": "pravdomil/pra-control",
-    "description": "Send awesome gCodes to your machine.",
-    "fork": false,
-    "created_at": "2016-02-22T14:26:15.000Z",
-    "updated_at": "2016-07-29T06:25:14.000Z",
-    "pushed_at": "2016-05-15T11:06:50.000Z",
+    },
+    "contributors": [
+      {
+        "name": "Pravdomil Toman",
+        "email": "info@pravdomil.cz",
+        "url": "http://pravdomil.cz"
+      }
+    ],
     "homepage": "http://pracontrol.pravdomil.cz",
-    "size": 5666,
-    "stargazers_count": 11,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 52278910,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/pravdomil/pra-control"
+    },
+    "bugs": "https://github.com/pravdomil/pra-control/issues",
+    "featureRequest": "https://github.com/pravdomil/pra-control/issues/new",
+    "donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=PraControl%20beer",
+    "main": "_main/index.js",
+    "scripts": {
+      "start": "electron .",
+      "rebuild": "node distribution/rebuild",
+      "dist": "node distribution/dist"
+    },
+    "dependencies": {
+      "fs-extra-promise": "^0.3.1",
+      "serialport": "^2.0.6",
+      "ncp": "^2.0.0",
+      "request": "^2.69.0",
+      "electron-app-base": "pravdomil/electron-app-base#90fea74eb49cdf35e96b48f196cac5d4c1b81d1a",
+      "web-component-app": "pravdomil/web-component-app#e9f82bbcc56f12fbd8a1e78b7a94a1d217f95f2b",
+      "rembased": "pravdomil/rembased#512a3bf680009b7caab36ec45c8f4a0c88edaed1"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.0.0",
+      "electron-prebuilt": "0.36.12"
+    },
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

@@ -1,68 +1,88 @@
 {
+  "id": 48383862,
   "name": "clipboard-manager",
-  "version": "1.0.0",
-  "description": "A simple clipboard manager",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "fullName": "dmfarcas/clipboard-manager",
+  "owner": {
+    "login": "dmfarcas",
+    "id": 681522,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/681522?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/dmfarcas",
+    "htmlUrl": "https://github.com/dmfarcas",
+    "followersUrl": "https://api.github.com/users/dmfarcas/followers",
+    "subscriptionsUrl": "https://api.github.com/users/dmfarcas/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/dmfarcas/orgs",
+    "reposUrl": "https://api.github.com/users/dmfarcas/repos",
+    "receivedEventsUrl": "https://api.github.com/users/dmfarcas/received_events",
+    "type": "User"
   },
-  "keywords": [
-    "clipboard-manager"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dmfarcas/clipboard-manager"
+  "private": false,
+  "description": "A simple cross platform clipboard manager.",
+  "fork": false,
+  "createdAt": "2015-12-21T17:02:46.000Z",
+  "updatedAt": "2016-06-05T17:03:04.000Z",
+  "pushedAt": "2016-07-05T07:25:23.000Z",
+  "homepage": "",
+  "size": 1640,
+  "stargazersCount": 5,
+  "watchersCount": 5,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 5,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "Dan Farcas <dan@farcas.me>",
-  "license": "GPL-3.0",
-  "dependencies": {
-    "electron-prebuilt": "^0.36.1",
-    "font-awesome": "^4.5.0",
-    "htmlspecialchars": "1.0.5",
-    "jquery": "^2.2.0",
-    "level-js": "^2.2.3",
-    "linvodb3": "^3.13.0",
-    "materialize-css": "0.97.5",
-    "medeadown": "^1.1.8",
-    "moment": "^2.11.0",
-    "node-notifier": "^4.4.0",
-    "qr-image": "^3.1.0",
-    "rimraf": "^2.5.0"
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "featured": true
   },
-  "_librariesioMetadata": {
-    "full_name": "dmfarcas/clipboard-manager",
-    "description": "A simple cross platform clipboard manager.",
-    "fork": false,
-    "created_at": "2015-12-21T17:02:46.000Z",
-    "updated_at": "2016-05-27T22:09:17.762Z",
-    "pushed_at": "2016-05-03T20:25:21.000Z",
-    "homepage": "",
-    "size": 1640,
-    "stargazers_count": 4,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 48383862,
-    "source_name": null,
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "clipboard-manager",
+    "version": "1.0.0",
+    "description": "A simple clipboard manager",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "clipboard-manager"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dmfarcas/clipboard-manager"
+    },
+    "author": "Dan Farcas <dan@farcas.me>",
     "license": "GPL-3.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T22:09:17.742Z",
-    "rank": null
-  }
+    "dependencies": {
+      "electron-prebuilt": "^0.36.1",
+      "font-awesome": "^4.5.0",
+      "htmlspecialchars": "1.0.5",
+      "jquery": "^2.2.0",
+      "level-js": "^2.2.3",
+      "linvodb3": "^3.13.0",
+      "materialize-css": "0.97.5",
+      "medeadown": "^1.1.8",
+      "moment": "^2.11.0",
+      "node-notifier": "^4.4.0",
+      "qr-image": "^3.1.0",
+      "rimraf": "^2.5.0"
+    }
+  },
+  "packageStatus": 200
 }

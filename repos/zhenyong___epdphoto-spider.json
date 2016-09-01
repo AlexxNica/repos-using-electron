@@ -1,69 +1,89 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "zhenyong/epdphoto-spider",
-    "description": "下载e拍得的图片",
-    "fork": false,
-    "created_at": "2016-03-30T05:45:21.000Z",
-    "updated_at": "2016-05-28T06:50:17.043Z",
-    "pushed_at": "2016-04-12T12:47:16.000Z",
-    "homepage": null,
-    "size": 8,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 55035888,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T06:50:17.022Z",
-    "rank": null
-  },
+  "id": 55035888,
   "name": "epdphoto-spider",
-  "version": "0.0.2",
-  "description": "grab photo at epdphoto",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js",
-    "server": "browser-sync start --server --files=\"*.html, css/**, js/**\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "fullName": "zhenyong/epdphoto-spider",
+  "owner": {
+    "login": "zhenyong",
+    "id": 4012276,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4012276?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/zhenyong",
+    "htmlUrl": "https://github.com/zhenyong",
+    "followersUrl": "https://api.github.com/users/zhenyong/followers",
+    "subscriptionsUrl": "https://api.github.com/users/zhenyong/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/zhenyong/orgs",
+    "reposUrl": "https://api.github.com/users/zhenyong/repos",
+    "receivedEventsUrl": "https://api.github.com/users/zhenyong/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zhenyong/epdphoto-spider.git"
+  "private": false,
+  "description": "下载e拍得的图片",
+  "fork": false,
+  "createdAt": "2016-03-30T05:45:21.000Z",
+  "updatedAt": "2016-03-31T07:00:51.000Z",
+  "pushedAt": "2016-04-12T12:47:16.000Z",
+  "homepage": null,
+  "size": 8,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "epdphoto",
-    "spider",
-    "grab",
-    "photo"
-  ],
-  "author": "zhenyong (116982086@qq.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zhenyong/epdphoto-spider/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "homepage": "https://github.com/zhenyong/epdphoto-spider#readme",
-  "devDependencies": {
-    "browser-sync": "^2.11.2",
-    "electron-prebuilt": "^0.37.3"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "epdphoto-spider",
+    "version": "0.0.2",
+    "description": "grab photo at epdphoto",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "server": "browser-sync start --server --files=\"*.html, css/**, js/**\"",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zhenyong/epdphoto-spider.git"
+    },
+    "keywords": [
+      "epdphoto",
+      "spider",
+      "grab",
+      "photo"
+    ],
+    "author": "zhenyong (116982086@qq.com)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/zhenyong/epdphoto-spider/issues"
+    },
+    "homepage": "https://github.com/zhenyong/epdphoto-spider#readme",
+    "devDependencies": {
+      "browser-sync": "^2.11.2",
+      "electron-prebuilt": "^0.37.3"
+    },
+    "dependencies": {
+      "request": "^2.69.0"
+    }
   },
-  "dependencies": {
-    "request": "^2.69.0"
-  }
+  "packageStatus": 200
 }

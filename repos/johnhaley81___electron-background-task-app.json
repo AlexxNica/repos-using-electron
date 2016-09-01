@@ -1,81 +1,101 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "johnhaley81/electron-background-task-app",
-    "description": "Example of running a background task in electron",
-    "fork": false,
-    "created_at": "2015-10-27T22:13:45.000Z",
-    "updated_at": "2016-02-14T08:01:33.000Z",
-    "pushed_at": "2015-11-02T04:09:24.000Z",
-    "homepage": "",
-    "size": 117,
-    "stargazers_count": 3,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 0,
-    "github_id": 45073348,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 45073348,
   "name": "electron-background-task-app",
-  "productName": "electron-background-task-app",
-  "version": "0.0.0",
-  "description": "Shows off how to run a task in the background",
-  "license": "MIT",
-  "repository": "johnhaley81/electron-background-task-app",
-  "author": {
-    "name": "John Haley",
-    "email": "john@haley.io",
-    "url": "johnhaley.io"
+  "fullName": "johnhaley81/electron-background-task-app",
+  "owner": {
+    "login": "johnhaley81",
+    "id": 867780,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/867780?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/johnhaley81",
+    "htmlUrl": "https://github.com/johnhaley81",
+    "followersUrl": "https://api.github.com/users/johnhaley81/followers",
+    "subscriptionsUrl": "https://api.github.com/users/johnhaley81/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/johnhaley81/orgs",
+    "reposUrl": "https://api.github.com/users/johnhaley81/repos",
+    "receivedEventsUrl": "https://api.github.com/users/johnhaley81/received_events",
+    "type": "User"
   },
-  "engines": {
-    "node": ">=4"
+  "private": false,
+  "description": "Example of running a background task in electron",
+  "fork": false,
+  "createdAt": "2015-10-27T22:13:45.000Z",
+  "updatedAt": "2016-07-29T21:14:46.000Z",
+  "pushedAt": "2016-05-11T15:32:22.000Z",
+  "homepage": "",
+  "size": 5,
+  "stargazersCount": 6,
+  "watchersCount": 6,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 6,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "electronVersion": "1.0.1",
-  "scripts": {
-    "test": "xo",
-    "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
-  "keywords": [
-    "electron-app"
-  ],
-  "dependencies": {
-    "electron-debug": "^0.3.0"
+  "networkCount": 2,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-background-task-app",
+    "productName": "electron-background-task-app",
+    "version": "0.0.0",
+    "description": "Shows off how to run a task in the background",
+    "license": "MIT",
+    "repository": "johnhaley81/electron-background-task-app",
+    "author": {
+      "name": "John Haley",
+      "email": "john@haley.io",
+      "url": "johnhaley.io"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "electronVersion": "1.0.1",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.3.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "1.0.1",
+      "spectron": "^3.0.0",
+      "xo": "^0.10.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
   },
-  "devDependencies": {
-    "electron-packager": "^5.0.0",
-    "electron-prebuilt": "1.0.1",
-    "spectron": "^3.0.0",
-    "xo": "^0.10.0"
-  },
-  "xo": {
-    "esnext": true,
-    "envs": [
-      "node",
-      "browser"
-    ]
-  }
+  "packageStatus": 200
 }

@@ -1,51 +1,71 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "tomb0y/wanikani-desktop",
-    "description": "Wanikani (electron) desktop app with included userscripts.",
-    "fork": false,
-    "created_at": "2015-09-21T18:05:33.000Z",
-    "updated_at": "2016-02-29T11:38:09.015Z",
-    "pushed_at": "2015-09-21T18:09:17.000Z",
-    "homepage": null,
-    "size": 160,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 42884283,
-    "source_name": null,
-    "license": "GPL-3.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+  "id": 42884283,
+  "name": "wanikani-desktop",
+  "fullName": "tomb0y/wanikani-desktop",
+  "owner": {
+    "login": "tomb0y",
+    "id": 405732,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/405732?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/tomb0y",
+    "htmlUrl": "https://github.com/tomb0y",
+    "followersUrl": "https://api.github.com/users/tomb0y/followers",
+    "subscriptionsUrl": "https://api.github.com/users/tomb0y/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/tomb0y/orgs",
+    "reposUrl": "https://api.github.com/users/tomb0y/repos",
+    "receivedEventsUrl": "https://api.github.com/users/tomb0y/received_events",
+    "type": "User"
   },
-  "name": "wk-desktop",
-  "version": "1.0.0",
-  "description": "Wanikani desktop app with included userscripts.",
-  "main": "main.js",
-  "dependencies": {
-    "electron-prebuilt": "^0.33.0"
+  "private": false,
+  "description": "Wanikani (electron) desktop app with included userscripts.",
+  "fork": false,
+  "createdAt": "2015-09-21T18:05:33.000Z",
+  "updatedAt": "2015-11-11T08:59:57.000Z",
+  "pushedAt": "2015-09-21T18:09:17.000Z",
+  "homepage": null,
+  "size": 160,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {},
-  "scripts": {
-    "start": "electron .",
-    "package": "electron-packager ./ WaniKani --all --out=../wk-release --version=0.33.0 --ignore=./node_modules"
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "featured": true
   },
-  "author": "tomboy",
-  "license": "GLPv3"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "wk-desktop",
+    "version": "1.0.0",
+    "description": "Wanikani desktop app with included userscripts.",
+    "main": "main.js",
+    "dependencies": {
+      "electron-prebuilt": "^0.33.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "start": "electron .",
+      "package": "electron-packager ./ WaniKani --all --out=../wk-release --version=0.33.0 --ignore=./node_modules"
+    },
+    "author": "tomboy",
+    "license": "GLPv3"
+  },
+  "packageStatus": 200
 }

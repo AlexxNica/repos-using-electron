@@ -1,60 +1,74 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "slang-group/mingalaba",
-    "description": "Unicode text editor",
-    "fork": false,
-    "created_at": "2015-08-14T12:00:34.000Z",
-    "updated_at": "2015-09-05T02:31:30.105Z",
-    "pushed_at": "2015-09-04T02:30:05.000Z",
-    "homepage": "http://slanggroup.org/mingalaba",
-    "size": 165560,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 40712882,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 40712882,
   "name": "mingalaba",
-  "version": "1.2.3",
-  "description": "Unicode strings text editor for developers",
-  "main": "desktop.js",
-  "scripts": {
-    "start": "node server.js",
-    "test": "mocha"
+  "fullName": "mapmeld/mingalaba",
+  "owner": {
+    "login": "mapmeld",
+    "id": 643918,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/643918?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mapmeld",
+    "htmlUrl": "https://github.com/mapmeld",
+    "followersUrl": "https://api.github.com/users/mapmeld/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mapmeld/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mapmeld/orgs",
+    "reposUrl": "https://api.github.com/users/mapmeld/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mapmeld/received_events",
+    "type": "User"
   },
-  "keywords": [
-    "unicode",
-    "i18n",
-    "text"
-  ],
-  "author": "Nick Doiron <ndoiron@mapmeld.com>",
-  "license": "GPL-3.0",
-  "dependencies": {
-    "node-polyglot": "^0.4.3",
-    "node-static": "^0.7.7",
-    "querystring": "^0.2.0"
+  "private": false,
+  "description": "Unicode text editor",
+  "fork": false,
+  "createdAt": "2015-08-14T12:00:34.000Z",
+  "updatedAt": "2015-12-21T10:53:36.000Z",
+  "pushedAt": "2015-09-04T02:30:05.000Z",
+  "homepage": "http://slanggroup.org/mingalaba",
+  "size": 165560,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": true,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-prebuilt": "^0.30.4"
-  }
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "mingalaba",
+    "version": "1.2.3",
+    "description": "Unicode strings text editor for developers",
+    "main": "desktop.js",
+    "scripts": {
+      "start": "node server.js",
+      "test": "mocha"
+    },
+    "keywords": [
+      "unicode",
+      "i18n",
+      "text"
+    ],
+    "author": "Nick Doiron <ndoiron@mapmeld.com>",
+    "license": "GPL-3.0",
+    "dependencies": {
+      "node-polyglot": "^0.4.3",
+      "node-static": "^0.7.7",
+      "querystring": "^0.2.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.30.4"
+    }
+  },
+  "packageStatus": 200
 }

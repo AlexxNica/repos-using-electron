@@ -1,55 +1,69 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "vsanna/orenoEditorElectron",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-04-29T06:45:47.000Z",
-    "updated_at": "2016-08-03T13:21:45.745Z",
-    "pushed_at": "2016-04-29T06:46:07.000Z",
-    "homepage": null,
-    "size": 0,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 57361461,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-29T06:46:58.414Z",
-    "rank": null
-  },
+  "id": 57361461,
   "name": "orenoEditorElectron",
-  "version": "1.0.0",
+  "fullName": "vsanna/orenoEditorElectron",
+  "owner": {
+    "login": "vsanna",
+    "id": 7834445,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7834445?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/vsanna",
+    "htmlUrl": "https://github.com/vsanna",
+    "followersUrl": "https://api.github.com/users/vsanna/followers",
+    "subscriptionsUrl": "https://api.github.com/users/vsanna/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/vsanna/orgs",
+    "reposUrl": "https://api.github.com/users/vsanna/repos",
+    "receivedEventsUrl": "https://api.github.com/users/vsanna/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "electron index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "fork": false,
+  "createdAt": "2016-04-29T06:45:47.000Z",
+  "updatedAt": "2016-08-03T13:21:43.000Z",
+  "pushedAt": "2016-04-29T07:13:08.000Z",
+  "homepage": null,
+  "size": 8,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "electron-prebuilt": "^0.37.7",
-    "jquery": "^2.2.3"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "orenoEditorElectron",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.7",
+      "jquery": "^2.2.3"
+    },
+    "dependencies": {
+      "electron-packager": "^7.0.1"
+    }
   },
-  "dependencies": {
-    "electron-packager": "^7.0.1"
-  }
+  "packageStatus": 200
 }

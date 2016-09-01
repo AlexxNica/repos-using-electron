@@ -1,108 +1,128 @@
 {
+  "id": 44431161,
   "name": "whatsdesktop",
-  "productName": "WhatsDesktop",
-  "version": "1.7.0",
+  "fullName": "mawie81/whatsdesktop",
+  "owner": {
+    "login": "mawie81",
+    "id": 4981109,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4981109?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mawie81",
+    "htmlUrl": "https://github.com/mawie81",
+    "followersUrl": "https://api.github.com/users/mawie81/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mawie81/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mawie81/orgs",
+    "reposUrl": "https://api.github.com/users/mawie81/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mawie81/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Unofficial WhatsApp app",
-  "license": "MIT",
-  "repository": "mawie81/whatsdesktop",
-  "author": {
-    "name": "Marcel Wiehle",
-    "email": "marcel@wiehle.me",
-    "url": "http://marcel.wiehle.me"
+  "fork": false,
+  "createdAt": "2015-10-17T09:27:26.000Z",
+  "updatedAt": "2016-08-09T14:10:38.000Z",
+  "pushedAt": "2016-06-11T06:57:19.000Z",
+  "homepage": "",
+  "size": 4573,
+  "stargazersCount": 140,
+  "watchersCount": 140,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 17,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 140,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "engines": {
-    "node": ">=4"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "electronVersion": "1.2.2",
-  "scripts": {
-    "test": "xo",
-    "start": "electron .",
-    "build": "npm run build-osx && npm run build-linux && npm run build-windows",
-    "build-osx": "electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --prune --platform=darwin --arch=x64 --icon=media/logo.icns --app-bundle-id=me.wiehle.marcel.whatsdesktop  --version=$npm_package_electronVersion && cd dist/WhatsDesktop-darwin-x64 && zip -ryXq9 ../WhatsDesktop-osx-${npm_package_version}.zip WhatsDesktop.app",
-    "build-mas": "electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --prune --platform=mas --arch=x64 --icon=media/logo.icns --app-bundle-id=me.wiehle.marcel.whatsdesktop --app-version=$npm_package_version --version=$npm_package_electronVersion && cd dist/WhatsDesktop-mas-x64 && zip -ryXq9 ../WhatsDesktop-mas-${npm_package_version}.zip WhatsDesktop.app",
-    "build-linux": "electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --prune --platform=linux --arch=x64 --app-bundle-id=me.wiehle.marcel.whatsdesktop --app-version=$npm_package_version --version=$npm_package_electronVersion && cd dist/WhatsDesktop-linux-x64/ && zip -ryq9 ../WhatsDesktop-linux-\"$npm_package_version\".zip *",
-    "build-windows": "electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --prune --platform=win32 --arch=ia32 --icon=media/logo.ico --version=$npm_package_electronVersion --version-string.ProductName=$npm_package_productName --app-version=$npm_package_version && cd dist/WhatsDesktop-win32-ia32/ && zip -ryq9 ../WhatsDesktop-win32-\"$npm_package_version\".zip *"
-  },
-  "files": [
-    "index.js",
-    "menu.js",
-    "media/logo.icns",
-    "media/logo-tray.png",
-    "media/logo-tray-white.png",
-    "media/logo-tray-blue.png"
-  ],
-  "keywords": [
-    "electron-app",
-    "WhatsApp",
-    "messenger",
-    "chat",
-    "instant",
-    "messaging",
-    "WhatsDesktop"
-  ],
-  "dependencies": {
-    "electron-config": "^0.1.1",
-    "electron-debug": "^0.2.1",
-    "electron-window-state": "^3.0.0"
-  },
-  "devDependencies": {
-    "electron-packager": "^7.0.0",
-    "electron-prebuilt": "^1.2.2",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true,
-    "envs": [
-      "node",
-      "browser"
+  "networkCount": 17,
+  "subscribersCount": 6,
+  "status": 200,
+  "packageJSON": {
+    "name": "whatsdesktop",
+    "productName": "WhatsDesktop",
+    "version": "1.7.0",
+    "description": "Unofficial WhatsApp app",
+    "license": "MIT",
+    "repository": "mawie81/whatsdesktop",
+    "author": {
+      "name": "Marcel Wiehle",
+      "email": "marcel@wiehle.me",
+      "url": "http://marcel.wiehle.me"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "electronVersion": "1.2.2",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "npm run build-osx && npm run build-linux && npm run build-windows",
+      "build-osx": "electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --prune --platform=darwin --arch=x64 --icon=media/logo.icns --app-bundle-id=me.wiehle.marcel.whatsdesktop  --version=$npm_package_electronVersion && cd dist/WhatsDesktop-darwin-x64 && zip -ryXq9 ../WhatsDesktop-osx-${npm_package_version}.zip WhatsDesktop.app",
+      "build-mas": "electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --prune --platform=mas --arch=x64 --icon=media/logo.icns --app-bundle-id=me.wiehle.marcel.whatsdesktop --app-version=$npm_package_version --version=$npm_package_electronVersion && cd dist/WhatsDesktop-mas-x64 && zip -ryXq9 ../WhatsDesktop-mas-${npm_package_version}.zip WhatsDesktop.app",
+      "build-linux": "electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --prune --platform=linux --arch=x64 --app-bundle-id=me.wiehle.marcel.whatsdesktop --app-version=$npm_package_version --version=$npm_package_electronVersion && cd dist/WhatsDesktop-linux-x64/ && zip -ryq9 ../WhatsDesktop-linux-\"$npm_package_version\".zip *",
+      "build-windows": "electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --prune --platform=win32 --arch=ia32 --icon=media/logo.ico --version=$npm_package_electronVersion --version-string.ProductName=$npm_package_productName --app-version=$npm_package_version && cd dist/WhatsDesktop-win32-ia32/ && zip -ryq9 ../WhatsDesktop-win32-\"$npm_package_version\".zip *"
+    },
+    "files": [
+      "index.js",
+      "menu.js",
+      "media/logo.icns",
+      "media/logo-tray.png",
+      "media/logo-tray-white.png",
+      "media/logo-tray-blue.png"
     ],
-    "ignores": [
-      "dist/**"
+    "keywords": [
+      "electron-app",
+      "WhatsApp",
+      "messenger",
+      "chat",
+      "instant",
+      "messaging",
+      "WhatsDesktop"
     ],
-    "space": true,
-    "rules": {
-      "brace-style": [
-        2,
-        "1tbs",
-        {
-          "allowSingleLine": true
-        }
-      ]
+    "dependencies": {
+      "electron-config": "^0.1.1",
+      "electron-debug": "^0.2.1",
+      "electron-window-state": "^3.0.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.0.0",
+      "electron-prebuilt": "^1.2.2",
+      "xo": "*"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ],
+      "ignores": [
+        "dist/**"
+      ],
+      "space": true,
+      "rules": {
+        "brace-style": [
+          2,
+          "1tbs",
+          {
+            "allowSingleLine": true
+          }
+        ]
+      }
     }
   },
-  "_librariesioMetadata": {
-    "full_name": "mawie81/whatsdesktop",
-    "description": "Unofficial WhatsApp app",
-    "fork": false,
-    "created_at": "2015-10-17T09:27:26.000Z",
-    "updated_at": "2016-07-25T14:42:29.030Z",
-    "pushed_at": "2016-06-11T06:57:19.000Z",
-    "homepage": "",
-    "size": 4573,
-    "stargazers_count": 138,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 16,
-    "mirror_url": null,
-    "open_issues_count": 2,
-    "default_branch": "master",
-    "subscribers_count": 6,
-    "github_id": 44431161,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "packageStatus": 200
 }

@@ -1,61 +1,81 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "kitsonk/testelectron",
-    "description": "An example TypeScript/Electron application",
-    "fork": false,
-    "created_at": "2016-01-14T17:11:49.000Z",
-    "updated_at": "2016-02-29T10:41:02.668Z",
-    "pushed_at": "2016-01-15T10:33:40.000Z",
-    "homepage": null,
-    "size": 45,
-    "stargazers_count": 0,
-    "language": "TypeScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 49662245,
-    "source_name": null,
-    "license": "BSD-3-Clause",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 49662245,
   "name": "testelectron",
-  "version": "0.0.1",
-  "main": "lib/boot.js",
-  "license": "BSD-3-Clause",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kitsonk/testelectron.git"
+  "fullName": "kitsonk/testelectron",
+  "owner": {
+    "login": "kitsonk",
+    "id": 1282577,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1282577?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/kitsonk",
+    "htmlUrl": "https://github.com/kitsonk",
+    "followersUrl": "https://api.github.com/users/kitsonk/followers",
+    "subscriptionsUrl": "https://api.github.com/users/kitsonk/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/kitsonk/orgs",
+    "reposUrl": "https://api.github.com/users/kitsonk/repos",
+    "receivedEventsUrl": "https://api.github.com/users/kitsonk/received_events",
+    "type": "User"
   },
-  "scripts": {
-    "start": "electron .",
-    "build": "tsc --listFiles"
+  "private": false,
+  "description": "An example TypeScript/Electron application",
+  "fork": false,
+  "createdAt": "2016-01-14T17:11:49.000Z",
+  "updatedAt": "2016-01-14T17:12:20.000Z",
+  "pushedAt": "2016-01-15T10:33:40.000Z",
+  "homepage": null,
+  "size": 45,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "TypeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "dependencies": {
-    "dojo": "1.10.4",
-    "dojo-core": "2.0.0-alpha.1",
-    "dojo-loader": "2.0.0-alpha.4",
-    "restify": "4.0.3"
+  "license": {
+    "key": "bsd-3-clause",
+    "name": "BSD 3-clause \"New\" or \"Revised\" License",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "featured": false
   },
-  "devDependencies": {
-    "dojo-typings": "1.11.0-alpha.1",
-    "electron-prebuilt": "0.36.3",
-    "tslint": "3.2.1",
-    "typescript": "1.7.5"
-  }
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "testelectron",
+    "version": "0.0.1",
+    "main": "lib/boot.js",
+    "license": "BSD-3-Clause",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kitsonk/testelectron.git"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "tsc --listFiles"
+    },
+    "dependencies": {
+      "dojo": "1.10.4",
+      "dojo-core": "2.0.0-alpha.1",
+      "dojo-loader": "2.0.0-alpha.4",
+      "restify": "4.0.3"
+    },
+    "devDependencies": {
+      "dojo-typings": "1.11.0-alpha.1",
+      "electron-prebuilt": "0.36.3",
+      "tslint": "3.2.1",
+      "typescript": "1.7.5"
+    }
+  },
+  "packageStatus": 200
 }

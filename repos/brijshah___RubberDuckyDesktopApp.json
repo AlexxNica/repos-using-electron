@@ -1,58 +1,78 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "brijshah/RubberDuckyDesktopApp",
-    "description": "Cross-Platform Application to be used with the USB Rubber Ducky",
-    "fork": false,
-    "created_at": "2016-03-19T03:58:07.000Z",
-    "updated_at": "2016-04-13T09:33:57.929Z",
-    "pushed_at": "2016-04-11T04:55:41.000Z",
-    "homepage": null,
-    "size": 151,
-    "stargazers_count": 0,
-    "language": "HTML",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 2,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 54246475,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+  "id": 54246475,
+  "name": "Rubber-Ducky-Desktop-App",
+  "fullName": "brijshah/Rubber-Ducky-Desktop-App",
+  "owner": {
+    "login": "brijshah",
+    "id": 3348504,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3348504?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/brijshah",
+    "htmlUrl": "https://github.com/brijshah",
+    "followersUrl": "https://api.github.com/users/brijshah/followers",
+    "subscriptionsUrl": "https://api.github.com/users/brijshah/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/brijshah/orgs",
+    "reposUrl": "https://api.github.com/users/brijshah/repos",
+    "receivedEventsUrl": "https://api.github.com/users/brijshah/received_events",
+    "type": "User"
   },
-  "name": "usb-rubber-ducky",
-  "version": "1.0.0",
-  "description": "desktop app for usb rubber ducky from hak5",
-  "main": "app.js",
-  "scripts": {
-    "start": "electron ."
+  "private": false,
+  "description": "Cross-Platform Application to be used with the USB Rubber Ducky",
+  "fork": false,
+  "createdAt": "2016-03-19T03:58:07.000Z",
+  "updatedAt": "2016-05-26T18:05:20.000Z",
+  "pushedAt": "2016-05-10T22:13:49.000Z",
+  "homepage": null,
+  "size": 345,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "dependencies": {
-    "electron-prebuilt": "^0.37.2",
-    "electron-sudo": "^3.0.3",
-    "fs-extra": "^0.28.0",
-    "is-root": "^1.0.0",
-    "powershell": "^2.0.0"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "devDependencies": {
-    "electron-debug": "^0.2.0",
-    "electron-packager": "^7.0.0",
-    "gulp": "^3.9.0"
+  "networkCount": 2,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "usb-rubber-ducky",
+    "version": "1.0.0",
+    "description": "desktop app for usb rubber ducky from hak5",
+    "main": "app.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.37.2",
+      "electron-sudo": "^3.0.3",
+      "fs-extra": "^0.28.0",
+      "is-root": "^1.0.0",
+      "powershell": "^2.0.0"
+    },
+    "devDependencies": {
+      "electron-debug": "^0.2.0",
+      "electron-packager": "^7.0.0",
+      "gulp": "^3.9.0"
+    },
+    "author": "Brij Shah",
+    "license": "MIT"
   },
-  "author": "Brij Shah",
-  "license": "MIT"
+  "packageStatus": 200
 }

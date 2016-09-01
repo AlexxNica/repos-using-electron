@@ -1,73 +1,93 @@
 {
+  "id": 35398707,
   "name": "electron-electrolysis",
-  "productName": "Electrolysis",
-  "description": "Using Polymer with React on Electron",
-  "license": "MIT",
-  "main": "index.js",
-  "repository": "ragingwind/electron-electrolysis",
-  "author": {
-    "name": "ragingwind",
-    "email": "ragingwind@gmail.com",
-    "url": "ragingwind.me"
+  "fullName": "ragingwind/electron-electrolysis",
+  "owner": {
+    "login": "ragingwind",
+    "id": 124117,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/124117?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/ragingwind",
+    "htmlUrl": "https://github.com/ragingwind",
+    "followersUrl": "https://api.github.com/users/ragingwind/followers",
+    "subscriptionsUrl": "https://api.github.com/users/ragingwind/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/ragingwind/orgs",
+    "reposUrl": "https://api.github.com/users/ragingwind/repos",
+    "receivedEventsUrl": "https://api.github.com/users/ragingwind/received_events",
+    "type": "User"
   },
-  "engines": {
-    "node": ">=0.10.0"
+  "private": false,
+  "description": "Electron experiment with Polymer and React",
+  "fork": false,
+  "createdAt": "2015-05-11T02:54:13.000Z",
+  "updatedAt": "2016-07-12T13:49:34.000Z",
+  "pushedAt": "2015-08-05T00:04:33.000Z",
+  "homepage": "",
+  "size": 140,
+  "stargazersCount": 15,
+  "watchersCount": 15,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 15,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "start": "electron .",
-    "clean": "rm -rf build; mkdir -p build",
-    "build": "electron-packager . $npm_package_productName --out=build --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
-  "keywords": [
-    "electron",
-    "electron-app"
-  ],
-  "devDependencies": {
-    "electron-packager": "^3.3.0",
-    "electron-prebuilt": "^0.25.2"
-  },
-  "dependencies": {
-    "node-jsx": "^0.13.3",
-    "react": "^0.13.3"
-  },
-  "_librariesioMetadata": {
-    "full_name": "ragingwind/electron-electrolysis",
-    "description": "Electron experiment with Polymer and React",
-    "fork": false,
-    "created_at": "2015-05-11T02:54:13.000Z",
-    "updated_at": "2016-07-08T21:24:48.871Z",
-    "pushed_at": "2015-08-05T00:04:33.000Z",
-    "homepage": "",
-    "size": 140,
-    "stargazers_count": 14,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 2,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 3,
-    "github_id": 35398707,
-    "source_name": null,
+  "networkCount": 2,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-electrolysis",
+    "productName": "Electrolysis",
+    "description": "Using Polymer with React on Electron",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "main": "index.js",
+    "repository": "ragingwind/electron-electrolysis",
+    "author": {
+      "name": "ragingwind",
+      "email": "ragingwind@gmail.com",
+      "url": "ragingwind.me"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "clean": "rm -rf build; mkdir -p build",
+      "build": "electron-packager . $npm_package_productName --out=build --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron",
+      "electron-app"
+    ],
+    "devDependencies": {
+      "electron-packager": "^3.3.0",
+      "electron-prebuilt": "^0.25.2"
+    },
+    "dependencies": {
+      "node-jsx": "^0.13.3",
+      "react": "^0.13.3"
+    }
+  },
+  "packageStatus": 200
 }

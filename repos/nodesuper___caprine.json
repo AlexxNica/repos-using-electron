@@ -1,91 +1,243 @@
 {
+  "id": 42990770,
   "name": "caprine",
-  "productName": "Caprine",
-  "version": "0.1.1",
+  "fullName": "nodesuper/caprine",
+  "owner": {
+    "login": "nodesuper",
+    "id": 10443659,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/10443659?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/nodesuper",
+    "htmlUrl": "https://github.com/nodesuper",
+    "followersUrl": "https://api.github.com/users/nodesuper/followers",
+    "subscriptionsUrl": "https://api.github.com/users/nodesuper/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/nodesuper/orgs",
+    "reposUrl": "https://api.github.com/users/nodesuper/repos",
+    "receivedEventsUrl": "https://api.github.com/users/nodesuper/received_events",
+    "type": "Organization"
+  },
+  "private": false,
   "description": "Unofficial Facebook Messenger app",
-  "license": "MIT",
-  "repository": "sindresorhus/caprine",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+  "fork": true,
+  "createdAt": "2015-09-23T09:14:59.000Z",
+  "updatedAt": "2015-09-23T09:15:00.000Z",
+  "pushedAt": "2015-09-21T07:16:53.000Z",
+  "homepage": null,
+  "size": 1442,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": false,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "engines": {
-    "node": ">=4"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "electronVersion": "0.33.0",
-  "scripts": {
-    "test": "xo",
-    "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --ignore='^/media$' --prune --asar --platform=darwin --arch=x64 --icon=media/Icon.icns --app-bundle-id=com.sindresorhus.caprine --sign='Developer ID Application: Sindre Sorhus (YG56YK5RN5)' --app-version=$npm_package_version --version=$npm_package_electronVersion && cd dist/Caprine-darwin-x64 && zip -ryXq9 ../Caprine-${npm_package_version}.zip Caprine.app"
+  "organization": {
+    "login": "nodesuper",
+    "id": 10443659,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/10443659?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/nodesuper",
+    "htmlUrl": "https://github.com/nodesuper",
+    "followersUrl": "https://api.github.com/users/nodesuper/followers",
+    "subscriptionsUrl": "https://api.github.com/users/nodesuper/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/nodesuper/orgs",
+    "reposUrl": "https://api.github.com/users/nodesuper/repos",
+    "receivedEventsUrl": "https://api.github.com/users/nodesuper/received_events",
+    "type": "Organization"
   },
-  "files": [
-    "index.js",
-    "browser.js",
-    "browser.css",
-    "menu.js",
-    "media/Icon.icns"
-  ],
-  "keywords": [
-    "electron-app",
-    "facebook",
-    "messenger",
-    "chat",
-    "instant",
-    "messaging",
-    "caprine"
-  ],
-  "dependencies": {
-    "electron-debug": "^0.2.1"
-  },
-  "devDependencies": {
-    "electron-packager": "^5.1.0",
-    "electron-prebuilt": "^0.33.0",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true,
-    "envs": [
-      "node",
-      "browser"
-    ],
-    "ignores": [
-      "dist/**"
-    ]
-  },
-  "_librariesioMetadata": {
-    "full_name": "nodesuper/caprine",
-    "description": "Unofficial Facebook Messenger app",
-    "fork": true,
-    "created_at": "2015-09-23T09:14:59.000Z",
-    "updated_at": "2016-03-02T10:27:51.112Z",
-    "pushed_at": "2015-09-21T07:16:53.000Z",
-    "homepage": null,
-    "size": 1442,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": false,
-    "has_wiki": false,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 42990770,
-    "source_name": "sindresorhus/caprine",
-    "license": "MIT",
+  "parent": {
+    "id": 42574339,
+    "name": "caprine",
+    "fullName": "sindresorhus/caprine",
+    "owner": {
+      "login": "sindresorhus",
+      "id": 170270,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/170270?v=3",
+      "gravatarId": "",
+      "url": "https://api.github.com/users/sindresorhus",
+      "htmlUrl": "https://github.com/sindresorhus",
+      "followersUrl": "https://api.github.com/users/sindresorhus/followers",
+      "subscriptionsUrl": "https://api.github.com/users/sindresorhus/subscriptions",
+      "organizationsUrl": "https://api.github.com/users/sindresorhus/orgs",
+      "reposUrl": "https://api.github.com/users/sindresorhus/repos",
+      "receivedEventsUrl": "https://api.github.com/users/sindresorhus/received_events",
+      "type": "User"
+    },
     "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "htmlUrl": "https://github.com/sindresorhus/caprine",
+    "description": "Unofficial Facebook Messenger app",
+    "fork": false,
+    "url": "https://api.github.com/repos/sindresorhus/caprine",
+    "forksUrl": "https://api.github.com/repos/sindresorhus/caprine/forks",
+    "teamsUrl": "https://api.github.com/repos/sindresorhus/caprine/teams",
+    "hooksUrl": "https://api.github.com/repos/sindresorhus/caprine/hooks",
+    "eventsUrl": "https://api.github.com/repos/sindresorhus/caprine/events",
+    "tagsUrl": "https://api.github.com/repos/sindresorhus/caprine/tags",
+    "languagesUrl": "https://api.github.com/repos/sindresorhus/caprine/languages",
+    "stargazersUrl": "https://api.github.com/repos/sindresorhus/caprine/stargazers",
+    "contributorsUrl": "https://api.github.com/repos/sindresorhus/caprine/contributors",
+    "subscribersUrl": "https://api.github.com/repos/sindresorhus/caprine/subscribers",
+    "subscriptionUrl": "https://api.github.com/repos/sindresorhus/caprine/subscription",
+    "mergesUrl": "https://api.github.com/repos/sindresorhus/caprine/merges",
+    "downloadsUrl": "https://api.github.com/repos/sindresorhus/caprine/downloads",
+    "deploymentsUrl": "https://api.github.com/repos/sindresorhus/caprine/deployments",
+    "createdAt": "2015-09-16T08:20:12.000Z",
+    "updatedAt": "2016-08-13T02:55:42.000Z",
+    "pushedAt": "2016-08-12T17:55:37.000Z",
+    "gitUrl": "git://github.com/sindresorhus/caprine.git",
+    "sshUrl": "git@github.com:sindresorhus/caprine.git",
+    "cloneUrl": "https://github.com/sindresorhus/caprine.git",
+    "svnUrl": "https://github.com/sindresorhus/caprine",
+    "homepage": null,
+    "size": 2503,
+    "stargazersCount": 1114,
+    "watchersCount": 1114,
+    "language": "JavaScript",
+    "hasIssues": true,
+    "hasDownloads": true,
+    "hasWiki": false,
+    "hasPages": false,
+    "forksCount": 75,
+    "mirrorUrl": null,
+    "openIssuesCount": 20,
+    "openIssues": 20,
+    "watchers": 1114,
+    "defaultBranch": "master"
+  },
+  "source": {
+    "id": 42574339,
+    "name": "caprine",
+    "fullName": "sindresorhus/caprine",
+    "owner": {
+      "login": "sindresorhus",
+      "id": 170270,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/170270?v=3",
+      "gravatarId": "",
+      "url": "https://api.github.com/users/sindresorhus",
+      "htmlUrl": "https://github.com/sindresorhus",
+      "followersUrl": "https://api.github.com/users/sindresorhus/followers",
+      "subscriptionsUrl": "https://api.github.com/users/sindresorhus/subscriptions",
+      "organizationsUrl": "https://api.github.com/users/sindresorhus/orgs",
+      "reposUrl": "https://api.github.com/users/sindresorhus/repos",
+      "receivedEventsUrl": "https://api.github.com/users/sindresorhus/received_events",
+      "type": "User"
+    },
+    "private": false,
+    "htmlUrl": "https://github.com/sindresorhus/caprine",
+    "description": "Unofficial Facebook Messenger app",
+    "fork": false,
+    "url": "https://api.github.com/repos/sindresorhus/caprine",
+    "forksUrl": "https://api.github.com/repos/sindresorhus/caprine/forks",
+    "teamsUrl": "https://api.github.com/repos/sindresorhus/caprine/teams",
+    "hooksUrl": "https://api.github.com/repos/sindresorhus/caprine/hooks",
+    "eventsUrl": "https://api.github.com/repos/sindresorhus/caprine/events",
+    "tagsUrl": "https://api.github.com/repos/sindresorhus/caprine/tags",
+    "languagesUrl": "https://api.github.com/repos/sindresorhus/caprine/languages",
+    "stargazersUrl": "https://api.github.com/repos/sindresorhus/caprine/stargazers",
+    "contributorsUrl": "https://api.github.com/repos/sindresorhus/caprine/contributors",
+    "subscribersUrl": "https://api.github.com/repos/sindresorhus/caprine/subscribers",
+    "subscriptionUrl": "https://api.github.com/repos/sindresorhus/caprine/subscription",
+    "mergesUrl": "https://api.github.com/repos/sindresorhus/caprine/merges",
+    "downloadsUrl": "https://api.github.com/repos/sindresorhus/caprine/downloads",
+    "deploymentsUrl": "https://api.github.com/repos/sindresorhus/caprine/deployments",
+    "createdAt": "2015-09-16T08:20:12.000Z",
+    "updatedAt": "2016-08-13T02:55:42.000Z",
+    "pushedAt": "2016-08-12T17:55:37.000Z",
+    "gitUrl": "git://github.com/sindresorhus/caprine.git",
+    "sshUrl": "git@github.com:sindresorhus/caprine.git",
+    "cloneUrl": "https://github.com/sindresorhus/caprine.git",
+    "svnUrl": "https://github.com/sindresorhus/caprine",
+    "homepage": null,
+    "size": 2503,
+    "stargazersCount": 1114,
+    "watchersCount": 1114,
+    "language": "JavaScript",
+    "hasIssues": true,
+    "hasDownloads": true,
+    "hasWiki": false,
+    "hasPages": false,
+    "forksCount": 75,
+    "mirrorUrl": null,
+    "openIssuesCount": 20,
+    "openIssues": 20,
+    "watchers": 1114,
+    "defaultBranch": "master"
+  },
+  "networkCount": 75,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "caprine",
+    "productName": "Caprine",
+    "version": "0.1.1",
+    "description": "Unofficial Facebook Messenger app",
+    "license": "MIT",
+    "repository": "sindresorhus/caprine",
+    "author": {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "sindresorhus.com"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "electronVersion": "0.33.0",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --ignore='^/media$' --prune --asar --platform=darwin --arch=x64 --icon=media/Icon.icns --app-bundle-id=com.sindresorhus.caprine --sign='Developer ID Application: Sindre Sorhus (YG56YK5RN5)' --app-version=$npm_package_version --version=$npm_package_electronVersion && cd dist/Caprine-darwin-x64 && zip -ryXq9 ../Caprine-${npm_package_version}.zip Caprine.app"
+    },
+    "files": [
+      "index.js",
+      "browser.js",
+      "browser.css",
+      "menu.js",
+      "media/Icon.icns"
+    ],
+    "keywords": [
+      "electron-app",
+      "facebook",
+      "messenger",
+      "chat",
+      "instant",
+      "messaging",
+      "caprine"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.2.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.33.0",
+      "xo": "*"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ],
+      "ignores": [
+        "dist/**"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

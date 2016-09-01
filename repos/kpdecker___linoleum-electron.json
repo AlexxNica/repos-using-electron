@@ -1,75 +1,95 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "kpdecker/linoleum-electron",
-    "description": "Electron build infrastructure for Linoleum projects.",
-    "fork": false,
-    "created_at": "2015-12-03T01:10:48.000Z",
-    "updated_at": "2015-12-03T01:49:52.000Z",
-    "pushed_at": "2015-12-16T15:28:14.000Z",
-    "homepage": null,
-    "size": 70,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 47298573,
-    "source_name": null,
+  "id": 47298573,
+  "name": "linoleum-electron",
+  "fullName": "kpdecker/linoleum-electron",
+  "owner": {
+    "login": "kpdecker",
+    "id": 196390,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/196390?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/kpdecker",
+    "htmlUrl": "https://github.com/kpdecker",
+    "followersUrl": "https://api.github.com/users/kpdecker/followers",
+    "subscriptionsUrl": "https://api.github.com/users/kpdecker/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/kpdecker/orgs",
+    "reposUrl": "https://api.github.com/users/kpdecker/repos",
+    "receivedEventsUrl": "https://api.github.com/users/kpdecker/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "Electron build infrastructure for Linoleum projects.",
+  "fork": false,
+  "createdAt": "2015-12-03T01:10:48.000Z",
+  "updatedAt": "2015-12-03T01:49:52.000Z",
+  "pushedAt": "2015-12-16T15:28:14.000Z",
+  "homepage": null,
+  "size": 70,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "@kpdecker/linoleum-electron",
+    "version": "1.0.0",
+    "description": "Shared javascript build and testing infrastructure",
+    "main": "index.js",
+    "scripts": {
+      "test": "gulp"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kpdecker/linoleum-electron.git"
+    },
+    "author": "Kevin Decker <kpdecker@gmail.com> (http://incaseofstairs.com)",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+    "bugs": {
+      "url": "https://github.com/kpdecker/linoleum-electron/issues"
+    },
+    "homepage": "https://github.com/kpdecker/linoleum-electron#readme",
+    "dependencies": {
+      "@kpdecker/linoleum-webpack": "^1.0.0",
+      "electron-prebuilt": "^0.35.4",
+      "gulp-util": "^3.0.6",
+      "istanbul": "kpdecker/istanbul",
+      "mkdirp": "^0.5.1",
+      "mocha": "^2.3.3",
+      "webpack": "^1.12.2"
+    },
+    "devDependencies": {
+      "@kpdecker/linoleum": "^1.0.1",
+      "chai": "^3.3.0",
+      "gulp": "^3.9.0",
+      "sinon": "^1.17.0"
+    },
+    "eslintConfig": {
+      "extends": [
+        "@kpdecker/eslint-config-linoleum"
+      ],
+      "root": true
+    }
   },
-  "name": "@kpdecker/linoleum-electron",
-  "version": "1.0.0",
-  "description": "Shared javascript build and testing infrastructure",
-  "main": "index.js",
-  "scripts": {
-    "test": "gulp"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kpdecker/linoleum-electron.git"
-  },
-  "author": "Kevin Decker <kpdecker@gmail.com> (http://incaseofstairs.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kpdecker/linoleum-electron/issues"
-  },
-  "homepage": "https://github.com/kpdecker/linoleum-electron#readme",
-  "dependencies": {
-    "@kpdecker/linoleum-webpack": "^1.0.0",
-    "electron-prebuilt": "^0.35.4",
-    "gulp-util": "^3.0.6",
-    "istanbul": "kpdecker/istanbul",
-    "mkdirp": "^0.5.1",
-    "mocha": "^2.3.3",
-    "webpack": "^1.12.2"
-  },
-  "devDependencies": {
-    "@kpdecker/linoleum": "^1.0.1",
-    "chai": "^3.3.0",
-    "gulp": "^3.9.0",
-    "sinon": "^1.17.0"
-  },
-  "eslintConfig": {
-    "extends": [
-      "@kpdecker/eslint-config-linoleum"
-    ],
-    "root": true
-  }
+  "packageStatus": 200
 }

@@ -1,80 +1,114 @@
 {
-  "name": "webuild-menubar",
-  "version": "1.1.0",
-  "description": "a tiny os x menubar app to display the upcoming events and recently updated repos from webuild.sg",
-  "main": "index.js",
-  "scripts": {
-    "zip": "zip -ryXq WeBuildSG.app.zip WeBuildSG.app",
-    "build": "rm -rf WeBuildSG.app && rm -f WeBuildSG.app.zip  && electron-packager . WeBuildSG --platform=darwin --arch=x64 --version=0.26.0 --ignore=node_modules/electron --icon=Icon.icns && npm run zip",
-    "start": "electron .",
-    "test": "jshint index.js --config .jshintrc"
+  "id": 36226917,
+  "name": "osx",
+  "fullName": "webuildsg/osx",
+  "owner": {
+    "login": "webuildsg",
+    "id": 7611825,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7611825?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/webuildsg",
+    "htmlUrl": "https://github.com/webuildsg",
+    "followersUrl": "https://api.github.com/users/webuildsg/followers",
+    "subscriptionsUrl": "https://api.github.com/users/webuildsg/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/webuildsg/orgs",
+    "reposUrl": "https://api.github.com/users/webuildsg/repos",
+    "receivedEventsUrl": "https://api.github.com/users/webuildsg/received_events",
+    "type": "Organization"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/webuildsg/osx"
+  "private": false,
+  "description": ":computer: a tiny os x menubar app to display the upcoming events and recently updated repos",
+  "fork": false,
+  "createdAt": "2015-05-25T11:15:52.000Z",
+  "updatedAt": "2016-05-15T02:37:38.000Z",
+  "pushedAt": "2015-06-28T07:13:35.000Z",
+  "homepage": "https://github.com/webuildsg/osx/releases",
+  "size": 1275,
+  "stargazersCount": 34,
+  "watchersCount": 34,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 4,
+  "openIssuesCount": 3,
+  "openIssues": 3,
+  "watchers": 34,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "bugs": {
-    "url": "https://github.com/webuildsg/osx/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "keywords": [
-    "electron",
-    "iojs",
-    "osx",
-    "webuild",
-    "events",
-    "repositories"
-  ],
-  "engines": {
-    "iojs": ">=1.8.1"
+  "organization": {
+    "login": "webuildsg",
+    "id": 7611825,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7611825?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/webuildsg",
+    "htmlUrl": "https://github.com/webuildsg",
+    "followersUrl": "https://api.github.com/users/webuildsg/followers",
+    "subscriptionsUrl": "https://api.github.com/users/webuildsg/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/webuildsg/orgs",
+    "reposUrl": "https://api.github.com/users/webuildsg/repos",
+    "receivedEventsUrl": "https://api.github.com/users/webuildsg/received_events",
+    "type": "Organization"
   },
-  "os": [
-    "darwin"
-  ],
-  "license": "MIT",
-  "dependencies": {
-    "cron": "^1.0.9",
-    "menubar": "^2.0.14",
-    "moment-timezone": "^0.4.0",
-    "node-notifier": "^4.2.3"
-  },
-  "devDependencies": {
-    "electron-packager": "~4.2.0",
-    "electron-prebuilt": "~0.28.3",
-    "jshint": "^2.8.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "webuildsg/osx",
-    "description": ":computer: a tiny os x menubar app to display the upcoming events and recently updated repos",
-    "fork": false,
-    "created_at": "2015-05-25T11:15:52.000Z",
-    "updated_at": "2016-05-15T02:37:59.179Z",
-    "pushed_at": "2015-06-28T07:13:35.000Z",
-    "homepage": "https://github.com/webuildsg/osx/releases",
-    "size": 1275,
-    "stargazers_count": 33,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 4,
-    "mirror_url": null,
-    "open_issues_count": 3,
-    "default_branch": "master",
-    "subscribers_count": 11,
-    "github_id": 36226917,
-    "source_name": null,
+  "networkCount": 4,
+  "subscribersCount": 12,
+  "status": 200,
+  "packageJSON": {
+    "name": "webuild-menubar",
+    "version": "1.1.0",
+    "description": "a tiny os x menubar app to display the upcoming events and recently updated repos from webuild.sg",
+    "main": "index.js",
+    "scripts": {
+      "zip": "zip -ryXq WeBuildSG.app.zip WeBuildSG.app",
+      "build": "rm -rf WeBuildSG.app && rm -f WeBuildSG.app.zip  && electron-packager . WeBuildSG --platform=darwin --arch=x64 --version=0.26.0 --ignore=node_modules/electron --icon=Icon.icns && npm run zip",
+      "start": "electron .",
+      "test": "jshint index.js --config .jshintrc"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/webuildsg/osx"
+    },
+    "bugs": {
+      "url": "https://github.com/webuildsg/osx/issues"
+    },
+    "keywords": [
+      "electron",
+      "iojs",
+      "osx",
+      "webuild",
+      "events",
+      "repositories"
+    ],
+    "engines": {
+      "iojs": ">=1.8.1"
+    },
+    "os": [
+      "darwin"
+    ],
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 3,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "dependencies": {
+      "cron": "^1.0.9",
+      "menubar": "^2.0.14",
+      "moment-timezone": "^0.4.0",
+      "node-notifier": "^4.2.3"
+    },
+    "devDependencies": {
+      "electron-packager": "~4.2.0",
+      "electron-prebuilt": "~0.28.3",
+      "jshint": "^2.8.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,65 +1,85 @@
 {
+  "id": 38907778,
   "name": "mojibar",
-  "version": "2.2.2",
-  "description": "A menubar app adaptation of Emoji searcher.",
-  "main": "index.js",
-  "dependencies": {
-    "emojilib": "2.0.2",
-    "menubar": "^3.0.0"
+  "fullName": "muan/mojibar",
+  "owner": {
+    "login": "muan",
+    "id": 1153134,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1153134?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/muan",
+    "htmlUrl": "https://github.com/muan",
+    "followersUrl": "https://api.github.com/users/muan/followers",
+    "subscriptionsUrl": "https://api.github.com/users/muan/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/muan/orgs",
+    "reposUrl": "https://api.github.com/users/muan/repos",
+    "receivedEventsUrl": "https://api.github.com/users/muan/received_events",
+    "type": "User"
   },
-  "devDependencies": {
-    "electron-packager": "^5.2.1",
-    "electron-prebuilt": "^0.36.0",
-    "standard": "^4.5.3"
+  "private": false,
+  "description": ":tangerine: Emoji searcher but as a menubar app.",
+  "fork": false,
+  "createdAt": "2015-07-11T00:28:26.000Z",
+  "updatedAt": "2016-08-15T00:34:15.000Z",
+  "pushedAt": "2016-08-03T22:29:51.000Z",
+  "homepage": "",
+  "size": 278,
+  "stargazersCount": 1326,
+  "watchersCount": 1326,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 86,
+  "openIssuesCount": 21,
+  "openIssues": 21,
+  "watchers": 1326,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "app": "electron .",
-    "build": "electron-packager . Mojibar --platform=darwin --arch=x64 --version=0.36.5 --overwrite --icon=mojibar",
-    "test": "standard index.js app/search.js app/settings.js"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/muan/mojibar.git"
-  },
-  "author": "Mu-An Chiou <me@muanchiou.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/muan/mojibar/issues"
-  },
-  "homepage": "https://github.com/muan/mojibar#readme",
-  "_librariesioMetadata": {
-    "full_name": "muan/mojibar",
-    "description": ":tangerine: Emoji searcher but as a menubar app.",
-    "fork": false,
-    "created_at": "2015-07-11T00:28:26.000Z",
-    "updated_at": "2016-08-08T08:05:48.542Z",
-    "pushed_at": "2016-08-03T22:29:51.000Z",
-    "homepage": "",
-    "size": 278,
-    "stargazers_count": 1320,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": false,
-    "has_pages": false,
-    "forks_count": 84,
-    "mirror_url": null,
-    "open_issues_count": 21,
-    "default_branch": "master",
-    "subscribers_count": 30,
-    "github_id": 38907778,
-    "source_name": null,
+  "networkCount": 86,
+  "subscribersCount": 31,
+  "status": 200,
+  "packageJSON": {
+    "name": "mojibar",
+    "version": "2.2.2",
+    "description": "A menubar app adaptation of Emoji searcher.",
+    "main": "index.js",
+    "dependencies": {
+      "emojilib": "2.0.2",
+      "menubar": "^3.0.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.0",
+      "standard": "^4.5.3"
+    },
+    "scripts": {
+      "app": "electron .",
+      "build": "electron-packager . Mojibar --platform=darwin --arch=x64 --version=0.36.5 --overwrite --icon=mojibar",
+      "test": "standard index.js app/search.js app/settings.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/muan/mojibar.git"
+    },
+    "author": "Mu-An Chiou <me@muanchiou.com>",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 9,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "bugs": {
+      "url": "https://github.com/muan/mojibar/issues"
+    },
+    "homepage": "https://github.com/muan/mojibar#readme"
+  },
+  "packageStatus": 200
 }

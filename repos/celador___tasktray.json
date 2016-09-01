@@ -1,72 +1,86 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "celador/tasktray",
-    "description": "Task Tray is a tray app that helps with TaskWarrior",
-    "fork": false,
-    "created_at": "2016-04-11T06:01:01.000Z",
-    "updated_at": "2016-04-11T06:03:04.426Z",
-    "pushed_at": "2016-04-11T06:01:46.000Z",
-    "homepage": null,
-    "size": 298,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 55945806,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 15,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-11T06:03:04.405Z",
-    "rank": null
+  "id": 55945806,
+  "name": "tasktray",
+  "fullName": "celador/tasktray",
+  "owner": {
+    "login": "celador",
+    "id": 4984798,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4984798?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/celador",
+    "htmlUrl": "https://github.com/celador",
+    "followersUrl": "https://api.github.com/users/celador/followers",
+    "subscriptionsUrl": "https://api.github.com/users/celador/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/celador/orgs",
+    "reposUrl": "https://api.github.com/users/celador/repos",
+    "receivedEventsUrl": "https://api.github.com/users/celador/received_events",
+    "type": "User"
   },
-  "name": "TaskTray",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js",
-    "package": "electron-packager . --platform=darwin --arch=x64 --overwrite --icon=pomo\\.icns"
+  "private": false,
+  "description": "Task Tray is a tray app that helps with TaskWarrior",
+  "fork": false,
+  "createdAt": "2016-04-11T06:01:01.000Z",
+  "updatedAt": "2016-05-09T13:55:36.000Z",
+  "pushedAt": "2016-05-09T13:55:35.000Z",
+  "homepage": null,
+  "size": 706,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/celador/tasktray.git"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "TaskTray",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "package": "electron-packager . --platform=darwin --arch=x64 --overwrite --icon=pomo\\.icns"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/celador/tasktray.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "git+https://github.com/celador/tasktray/issues"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "electron-debug": "^0.6.0",
+      "lame": "^1.2.3",
+      "moment": "^2.12.0",
+      "player": "^0.6.1",
+      "request": "^2.69.0",
+      "request-promise": "^2.0.1",
+      "speaker": "^0.3.0"
+    }
   },
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "git+https://github.com/celador/tasktray/issues"
-  },
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.0"
-  },
-  "dependencies": {
-    "electron-debug": "^0.6.0",
-    "lame": "^1.2.3",
-    "moment": "^2.12.0",
-    "player": "^0.6.1",
-    "request": "^2.69.0",
-    "request-promise": "^2.0.1",
-    "speaker": "^0.3.0"
-  }
+  "packageStatus": 200
 }

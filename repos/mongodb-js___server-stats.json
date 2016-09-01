@@ -1,86 +1,120 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "mongodb-js/server-stats",
-    "description": "MongoDB Server Stats React Components",
-    "fork": false,
-    "created_at": "2016-07-06T14:29:36.000Z",
-    "updated_at": "2016-07-06T14:42:48.000Z",
-    "pushed_at": "2016-07-12T19:51:42.000Z",
-    "homepage": null,
-    "size": 20,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": false,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 11,
-    "github_id": 62727457,
-    "source_name": null,
+  "id": 62727457,
+  "name": "server-stats",
+  "fullName": "mongodb-js/server-stats",
+  "owner": {
+    "login": "mongodb-js",
+    "id": 11214950,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11214950?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mongodb-js",
+    "htmlUrl": "https://github.com/mongodb-js",
+    "followersUrl": "https://api.github.com/users/mongodb-js/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mongodb-js/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mongodb-js/orgs",
+    "reposUrl": "https://api.github.com/users/mongodb-js/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mongodb-js/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "description": "MongoDB Server Stats React Components",
+  "fork": false,
+  "createdAt": "2016-07-06T14:29:36.000Z",
+  "updatedAt": "2016-07-06T14:42:48.000Z",
+  "pushedAt": "2016-07-12T20:30:20.000Z",
+  "homepage": null,
+  "size": 20,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "featured": true
+  },
+  "organization": {
+    "login": "mongodb-js",
+    "id": 11214950,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11214950?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mongodb-js",
+    "htmlUrl": "https://github.com/mongodb-js",
+    "followersUrl": "https://api.github.com/users/mongodb-js/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mongodb-js/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mongodb-js/orgs",
+    "reposUrl": "https://api.github.com/users/mongodb-js/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mongodb-js/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 1,
+  "subscribersCount": 11,
+  "status": 200,
+  "packageJSON": {
+    "name": "mongodb-server-stats",
+    "description": "MongoDB Server Stats UI Component",
+    "author": "Durran Jordan <durran@gmail.com>",
+    "bugs": "https://github.com/mongodb-js/server-stats/issues",
+    "homepage": "https://github.com/mongodb-js/server-stats",
+    "version": "0.0.1",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mongodb-js/server-stats.git"
+    },
     "license": "Apache-2.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-12T19:52:45.129Z",
-    "rank": null
+    "keywords": [
+      "mongodb-js"
+    ],
+    "scripts": {
+      "ci": "npm run check && npm test",
+      "test": "mocha --recursive ./test/**/*.test.js",
+      "fmt": "mongodb-js-fmt ./*.js ./test/*.js",
+      "check": "mongodb-js-precommit ./src ./test",
+      "compile": "babel ./src --out-dir ./lib --presets react",
+      "prepublish": "npm run compile",
+      "pretest": "npm run compile",
+      "prestart": "npm run compile",
+      "start": "electron ./test/electron"
+    },
+    "precommit": [
+      "check"
+    ],
+    "dependencies": {
+      "react": "^15.2.0",
+      "react-dom": "^15.2.0",
+      "reflux": "^0.4.1"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.10.1",
+      "babel-preset-react": "^6.11.1",
+      "babel-register": "^6.9.0",
+      "chai": "^3.5.0",
+      "electron-prebuilt": "^1.2.6",
+      "enzyme": "^2.3.0",
+      "eslint-config-mongodb-js": "^2.0.0",
+      "eslint-plugin-react": "^5.2.2",
+      "mocha": "^2.5.3",
+      "mongodb-data-service": "^0.5.0",
+      "mongodb-js-fmt": "^0.0.3",
+      "mongodb-js-precommit": "^0.2.8",
+      "mongodb-runner": "^3.3.2",
+      "pre-commit": "^1.1.3"
+    }
   },
-  "name": "mongodb-server-stats",
-  "description": "MongoDB Server Stats UI Component",
-  "author": "Durran Jordan <durran@gmail.com>",
-  "bugs": "https://github.com/mongodb-js/server-stats/issues",
-  "homepage": "https://github.com/mongodb-js/server-stats",
-  "version": "0.0.1",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mongodb-js/server-stats.git"
-  },
-  "license": "Apache-2.0",
-  "keywords": [
-    "mongodb-js"
-  ],
-  "scripts": {
-    "ci": "npm run check && npm test",
-    "test": "mocha --recursive ./test/**/*.test.js",
-    "fmt": "mongodb-js-fmt ./*.js ./test/*.js",
-    "check": "mongodb-js-precommit ./src ./test",
-    "compile": "babel ./src --out-dir ./lib --presets react",
-    "prepublish": "npm run compile",
-    "pretest": "npm run compile",
-    "prestart": "npm run compile",
-    "start": "electron ./test/electron"
-  },
-  "precommit": [
-    "check"
-  ],
-  "dependencies": {
-    "react": "^15.2.0",
-    "react-dom": "^15.2.0",
-    "reflux": "^0.4.1"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.10.1",
-    "babel-preset-react": "^6.11.1",
-    "babel-register": "^6.9.0",
-    "chai": "^3.5.0",
-    "electron-prebuilt": "^1.2.6",
-    "enzyme": "^2.3.0",
-    "eslint-config-mongodb-js": "^2.0.0",
-    "eslint-plugin-react": "^5.2.2",
-    "mocha": "^2.5.3",
-    "mongodb-data-service": "^0.5.0",
-    "mongodb-js-fmt": "^0.0.3",
-    "mongodb-js-precommit": "^0.2.8",
-    "mongodb-runner": "^3.3.2",
-    "pre-commit": "^1.1.3"
-  }
+  "packageStatus": 200
 }

@@ -1,66 +1,100 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "xolvio/jasmine-expect",
-    "description": "Jasmine expect standalone",
-    "fork": false,
-    "created_at": "2015-08-09T21:32:37.000Z",
-    "updated_at": "2016-05-12T03:05:15.970Z",
-    "pushed_at": "2016-05-12T02:59:56.000Z",
-    "homepage": null,
-    "size": 6,
-    "stargazers_count": 2,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 40451248,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-12T03:05:15.946Z",
-    "rank": null
+  "id": 40451248,
+  "name": "jasmine-expect",
+  "fullName": "xolvio/jasmine-expect",
+  "owner": {
+    "login": "xolvio",
+    "id": 2638034,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2638034?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/xolvio",
+    "htmlUrl": "https://github.com/xolvio",
+    "followersUrl": "https://api.github.com/users/xolvio/followers",
+    "subscriptionsUrl": "https://api.github.com/users/xolvio/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/xolvio/orgs",
+    "reposUrl": "https://api.github.com/users/xolvio/repos",
+    "receivedEventsUrl": "https://api.github.com/users/xolvio/received_events",
+    "type": "Organization"
   },
-  "name": "xolvio-jasmine-expect",
-  "version": "1.1.0",
+  "private": false,
   "description": "Jasmine expect standalone",
-  "keywords": [
-    "expect",
-    "assert"
-  ],
-  "author": "Jonas Aschenbrenner <jonas@xolv.io> (http://xolv.io)",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/xolvio/jasmine-expect"
+  "fork": false,
+  "createdAt": "2015-08-09T21:32:37.000Z",
+  "updatedAt": "2016-05-12T02:54:27.000Z",
+  "pushedAt": "2016-05-12T02:59:56.000Z",
+  "homepage": null,
+  "size": 6,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "homepage": "",
-  "bugs": {
-    "url": "https://github.com/xolvio/jasmine-expect/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "scripts": {
-    "test": "jest"
+  "organization": {
+    "login": "xolvio",
+    "id": 2638034,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2638034?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/xolvio",
+    "htmlUrl": "https://github.com/xolvio",
+    "followersUrl": "https://api.github.com/users/xolvio/followers",
+    "subscriptionsUrl": "https://api.github.com/users/xolvio/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/xolvio/orgs",
+    "reposUrl": "https://api.github.com/users/xolvio/repos",
+    "receivedEventsUrl": "https://api.github.com/users/xolvio/received_events",
+    "type": "Organization"
   },
-  "main": "index.js",
-  "dependencies": {
-    "jasmine-core": "^2.4.1"
+  "networkCount": 1,
+  "subscribersCount": 6,
+  "status": 200,
+  "packageJSON": {
+    "name": "xolvio-jasmine-expect",
+    "version": "1.1.0",
+    "description": "Jasmine expect standalone",
+    "keywords": [
+      "expect",
+      "assert"
+    ],
+    "author": "Jonas Aschenbrenner <jonas@xolv.io> (http://xolv.io)",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xolvio/jasmine-expect"
+    },
+    "homepage": "",
+    "bugs": {
+      "url": "https://github.com/xolvio/jasmine-expect/issues"
+    },
+    "scripts": {
+      "test": "jest"
+    },
+    "main": "index.js",
+    "dependencies": {
+      "jasmine-core": "^2.4.1"
+    },
+    "devDependencies": {
+      "browserify": "^13.0.1",
+      "electron-prebuilt": "^1.0.1",
+      "wallabify": "0.0.14"
+    }
   },
-  "devDependencies": {
-    "browserify": "^13.0.1",
-    "electron-prebuilt": "^1.0.1",
-    "wallabify": "0.0.14"
-  }
+  "packageStatus": 200
 }

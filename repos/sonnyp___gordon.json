@@ -1,71 +1,91 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "sonnyp/gordon",
-    "description": "Application launcher",
-    "fork": false,
-    "created_at": "2015-10-27T19:16:57.000Z",
-    "updated_at": "2016-01-15T19:06:06.000Z",
-    "pushed_at": "2016-07-09T10:35:56.000Z",
-    "homepage": null,
-    "size": 6,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 45064178,
-    "source_name": null,
-    "license": "ISC",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-08T21:40:12.472Z",
-    "rank": null
-  },
+  "id": 45064178,
   "name": "gordon",
-  "version": "1.0.0",
-  "description": "shell",
-  "main": "src/main.js",
-  "private": true,
-  "scripts": {
-    "start": "./node_modules/.bin/electron .",
-    "test": "npm run lint",
-    "lint": "standard"
+  "fullName": "sonnyp/gordon",
+  "owner": {
+    "login": "sonnyp",
+    "id": 19673,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/19673?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/sonnyp",
+    "htmlUrl": "https://github.com/sonnyp",
+    "followersUrl": "https://api.github.com/users/sonnyp/followers",
+    "subscriptionsUrl": "https://api.github.com/users/sonnyp/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/sonnyp/orgs",
+    "reposUrl": "https://api.github.com/users/sonnyp/repos",
+    "receivedEventsUrl": "https://api.github.com/users/sonnyp/received_events",
+    "type": "User"
   },
-  "author": "Sonny Piers <sonny@fastmail.net>",
-  "license": "ISC",
-  "dependencies": {
-    "babel-core": "^6.4.0",
-    "babel-plugin-transform-react-jsx": "^6.4.0",
-    "babel-polyfill": "^6.3.14",
-    "babel-preset-es2015": "^6.3.13",
-    "debug": "^2.2.0",
-    "node-x11-desktop-entry": "^0.1.1",
-    "electron-prebuilt": "^0.36.4"
+  "private": false,
+  "description": "Application launcher",
+  "fork": false,
+  "createdAt": "2015-10-27T19:16:57.000Z",
+  "updatedAt": "2016-01-15T19:06:06.000Z",
+  "pushedAt": "2016-07-09T10:35:56.000Z",
+  "homepage": null,
+  "size": 7,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": "github:sonnyp/gordon",
-  "keywords": [
-    "shell",
-    "application",
-    "launcher",
-    "remote",
-    "control"
-  ],
-  "bugs": "https://github.com/sonnyp/gordon/issues",
-  "homepage": "https://github.com/sonnyp/gordon",
-  "devDependencies": {
-    "standard": "^5.4.1"
-  }
+  "license": {
+    "key": "isc",
+    "name": "ISC License",
+    "spdxId": "ISC",
+    "url": "https://api.github.com/licenses/isc",
+    "featured": false
+  },
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "gordon",
+    "version": "1.0.0",
+    "description": "shell",
+    "main": "src/main.js",
+    "private": true,
+    "scripts": {
+      "start": "./node_modules/.bin/electron .",
+      "test": "npm run lint",
+      "lint": "standard"
+    },
+    "author": "Sonny Piers <sonny@fastmail.net>",
+    "license": "ISC",
+    "dependencies": {
+      "babel-core": "^6.4.0",
+      "babel-plugin-transform-react-jsx": "^6.4.0",
+      "babel-polyfill": "^6.3.14",
+      "babel-preset-es2015": "^6.3.13",
+      "debug": "^2.2.0",
+      "node-x11-desktop-entry": "^0.1.1",
+      "electron-prebuilt": "^0.36.4"
+    },
+    "repository": "github:sonnyp/gordon",
+    "keywords": [
+      "shell",
+      "application",
+      "launcher",
+      "remote",
+      "control"
+    ],
+    "bugs": "https://github.com/sonnyp/gordon/issues",
+    "homepage": "https://github.com/sonnyp/gordon",
+    "devDependencies": {
+      "standard": "^5.4.1"
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,68 +1,82 @@
 {
-  "name": "douban.fm",
-  "version": "1.0.0",
-  "description": "douban.fm桌面版",
-  "main": "main.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lili21/electron-douban.fm.git"
+  "id": 53488014,
+  "name": "electron-douban.fm",
+  "fullName": "lili21/electron-douban.fm",
+  "owner": {
+    "login": "lili21",
+    "id": 4456380,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4456380?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/lili21",
+    "htmlUrl": "https://github.com/lili21",
+    "followersUrl": "https://api.github.com/users/lili21/followers",
+    "subscriptionsUrl": "https://api.github.com/users/lili21/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/lili21/orgs",
+    "reposUrl": "https://api.github.com/users/lili21/repos",
+    "receivedEventsUrl": "https://api.github.com/users/lili21/received_events",
+    "type": "User"
   },
-  "keywords": [
-    "Electron",
-    "douban.fm"
-  ],
-  "author": "li.li",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lili21/electron-douban.fm/issues"
+  "private": false,
+  "description": "Electron application for douban.fm",
+  "fork": false,
+  "createdAt": "2016-03-09T10:09:48.000Z",
+  "updatedAt": "2016-07-24T02:31:13.000Z",
+  "pushedAt": "2016-05-09T08:08:54.000Z",
+  "homepage": null,
+  "size": 50201,
+  "stargazersCount": 8,
+  "watchersCount": 8,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 8,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "homepage": "https://github.com/lili21/electron-douban.fm#readme",
-  "scripts": {
-    "start": "electron main.js",
-    "postinstall": "install-app-deps",
-    "pack": "build",
-    "dist": "build"
+  "license": null,
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "douban.fm",
+    "version": "1.0.0",
+    "description": "douban.fm桌面版",
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lili21/electron-douban.fm.git"
+    },
+    "keywords": [
+      "Electron",
+      "douban.fm"
+    ],
+    "author": "li.li",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/lili21/electron-douban.fm/issues"
+    },
+    "homepage": "https://github.com/lili21/electron-douban.fm#readme",
+    "scripts": {
+      "start": "electron main.js",
+      "postinstall": "install-app-deps",
+      "pack": "build",
+      "dist": "build"
+    },
+    "build": {
+      "app-bundle-id": "lili.doubanfm",
+      "app-category-type": "public.app-category.music"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.10"
+    }
   },
-  "build": {
-    "app-bundle-id": "lili.doubanfm",
-    "app-category-type": "public.app-category.music"
-  },
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.10"
-  },
-  "_librariesioMetadata": {
-    "full_name": "lili21/electron-douban.fm",
-    "description": "Electron application for douban.fm",
-    "fork": false,
-    "created_at": "2016-03-09T10:09:48.000Z",
-    "updated_at": "2016-06-28T07:52:49.047Z",
-    "pushed_at": "2016-03-17T07:36:11.000Z",
-    "homepage": null,
-    "size": 39455,
-    "stargazers_count": 9,
-    "language": "HTML",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 53488014,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-22T03:35:06.068Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

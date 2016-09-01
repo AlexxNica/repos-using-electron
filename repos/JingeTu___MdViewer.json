@@ -1,65 +1,79 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "JingeTu/MdViewer",
-    "description": "Electron app to review .md files in a directory.",
-    "fork": false,
-    "created_at": "2016-06-06T07:58:23.000Z",
-    "updated_at": "2016-06-06T08:03:56.895Z",
-    "pushed_at": "2016-06-06T07:58:24.000Z",
-    "homepage": null,
-    "size": 0,
-    "stargazers_count": 0,
-    "language": null,
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 60507032,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-06T08:03:56.863Z",
-    "rank": null
+  "id": 60509566,
+  "name": "MdViewer",
+  "fullName": "JingeTu/MdViewer",
+  "owner": {
+    "login": "JingeTu",
+    "id": 15942649,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/15942649?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/JingeTu",
+    "htmlUrl": "https://github.com/JingeTu",
+    "followersUrl": "https://api.github.com/users/JingeTu/followers",
+    "subscriptionsUrl": "https://api.github.com/users/JingeTu/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/JingeTu/orgs",
+    "reposUrl": "https://api.github.com/users/JingeTu/repos",
+    "receivedEventsUrl": "https://api.github.com/users/JingeTu/received_events",
+    "type": "User"
   },
-  "name": "mdviewer",
-  "version": "1.0.0",
-  "description": "Review all .md files in a directory.",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js"
+  "private": false,
+  "description": "Electron app to review .md files in a directory.",
+  "fork": false,
+  "createdAt": "2016-06-06T07:58:23.000Z",
+  "updatedAt": "2016-06-06T07:59:25.000Z",
+  "pushedAt": "2016-06-06T07:59:23.000Z",
+  "homepage": null,
+  "size": 4686,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JingeTu/MdViewer.git"
+  "license": null,
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "mdviewer",
+    "version": "1.0.0",
+    "description": "Review all .md files in a directory.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/JingeTu/MdViewer.git"
+    },
+    "keywords": [
+      "electron",
+      "markdown"
+    ],
+    "author": "JingeTu",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/JingeTu/MdViewer/issues"
+    },
+    "homepage": "https://github.com/JingeTu/MdViewer#readme",
+    "devDependencies": {
+      "bootstrap": "^3.3.6",
+      "bootstrap-treeview": "^1.2.0",
+      "electron-prebuilt": "^1.2.1",
+      "jquery": "^1.9.1",
+      "markdown-to-html": "^0.0.11"
+    }
   },
-  "keywords": [
-    "electron",
-    "markdown"
-  ],
-  "author": "JingeTu",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JingeTu/MdViewer/issues"
-  },
-  "homepage": "https://github.com/JingeTu/MdViewer#readme",
-  "devDependencies": {
-    "bootstrap": "^3.3.6",
-    "bootstrap-treeview": "^1.2.0",
-    "electron-prebuilt": "^1.2.1",
-    "jquery": "^1.9.1",
-    "markdown-to-html": "^0.0.11"
-  }
+  "packageStatus": 200
 }

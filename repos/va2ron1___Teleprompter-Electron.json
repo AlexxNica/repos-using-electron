@@ -1,69 +1,89 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "va2ron1/Teleprompter-Electron",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-05-01T17:39:37.000Z",
-    "updated_at": "2016-05-01T19:53:41.159Z",
-    "pushed_at": "2016-05-01T19:52:39.000Z",
-    "homepage": null,
-    "size": 11463,
-    "stargazers_count": 0,
-    "language": null,
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 3,
-    "github_id": 57697038,
-    "source_name": null,
-    "license": "GPL-3.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-01T19:53:41.138Z",
-    "rank": null
+  "id": 57697038,
+  "name": "Teleprompter-Electron",
+  "fullName": "va2ron1/Teleprompter-Electron",
+  "owner": {
+    "login": "va2ron1",
+    "id": 303179,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/303179?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/va2ron1",
+    "htmlUrl": "https://github.com/va2ron1",
+    "followersUrl": "https://api.github.com/users/va2ron1/followers",
+    "subscriptionsUrl": "https://api.github.com/users/va2ron1/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/va2ron1/orgs",
+    "reposUrl": "https://api.github.com/users/va2ron1/repos",
+    "receivedEventsUrl": "https://api.github.com/users/va2ron1/received_events",
+    "type": "User"
   },
-  "name": "Teleprompter",
-  "email": "javier.cordero@upr.edu",
-  "version": "2.0.17",
-  "description": "The most complete and professional free software teleprompter app on the web.",
-  "author": "Javier O. Cordero Pérez <javier.cordero@upr.edu>",
-  "contributors": [
-    "Victor A. Ortiz Alvarado <va2ron1@gmail.com>",
-    "Rafael Sierra <rafael.sierra2@upr.edu>",
-    "Keyvan Pérez <keyvan.perez2@gmail.com>"
-  ],
-  "license": "GPL3",
-  "homepage": "https://github.com/imaginaryfilms/Teleprompter",
-  "main": "main.js",
-  "devDependencies": {
-    "electron-builder": "^3.1.2",
-    "electron-prebuilt": "^0.37.2"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2016-05-01T17:39:37.000Z",
+  "updatedAt": "2016-05-01T17:39:37.000Z",
+  "pushedAt": "2016-05-13T20:10:06.000Z",
+  "homepage": null,
+  "size": 11460,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": null,
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "build": {
-    "app-bundle-id": "hr.creaticon.eatodo",
-    "app-category-type": "public.app-category.productivity",
-    "iconUrl": "http://eatodo.s3.amazonaws.com/icon.ico"
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "featured": true
   },
-  "scripts": {
-    "postinstall": "install-app-deps",
-    "start": "electron ./app --enable-logging",
-    "dev": "NODE_ENV='development' npm run start",
-    "dist": "npm run dist:osx && npm run dist:win32 && npm run dist:win64 && npm run dist:linux",
-    "dist:osx": "build --platform darwin",
-    "dist:win32": "build --platform win32 --arch ia32",
-    "dist:win64": "build --platform win32 --arch x64",
-    "dist:linux": "build --platform linux"
-  }
+  "networkCount": 0,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "Teleprompter",
+    "email": "javier.cordero@upr.edu",
+    "version": "2.0.17",
+    "description": "The most complete and professional free software teleprompter app on the web.",
+    "author": "Javier O. Cordero Pérez <javier.cordero@upr.edu>",
+    "contributors": [
+      "Victor A. Ortiz Alvarado <va2ron1@gmail.com>",
+      "Rafael Sierra <rafael.sierra2@upr.edu>",
+      "Keyvan Pérez <keyvan.perez2@gmail.com>"
+    ],
+    "license": "GPL3",
+    "homepage": "https://github.com/imaginaryfilms/Teleprompter",
+    "main": "main.js",
+    "devDependencies": {
+      "electron-builder": "^3.1.2",
+      "electron-prebuilt": "^0.37.2"
+    },
+    "build": {
+      "app-bundle-id": "hr.creaticon.eatodo",
+      "app-category-type": "public.app-category.productivity",
+      "iconUrl": "http://eatodo.s3.amazonaws.com/icon.ico"
+    },
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "start": "electron ./app --enable-logging",
+      "dev": "NODE_ENV='development' npm run start",
+      "dist": "npm run dist:osx && npm run dist:win32 && npm run dist:win64 && npm run dist:linux",
+      "dist:osx": "build --platform darwin",
+      "dist:win32": "build --platform win32 --arch ia32",
+      "dist:win64": "build --platform win32 --arch x64",
+      "dist:linux": "build --platform linux"
+    }
+  },
+  "packageStatus": 200
 }

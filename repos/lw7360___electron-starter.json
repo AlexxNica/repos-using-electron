@@ -1,79 +1,99 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "lw7360/electron-starter",
-    "description": "",
-    "fork": false,
-    "created_at": "2015-11-26T19:44:31.000Z",
-    "updated_at": "2015-12-07T03:20:34.381Z",
-    "pushed_at": "2015-12-06T05:32:13.000Z",
-    "homepage": null,
-    "size": 5,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 46944198,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+  "id": 46944198,
+  "name": "electron-starter",
+  "fullName": "lw7360/electron-starter",
+  "owner": {
+    "login": "lw7360",
+    "id": 1806683,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1806683?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/lw7360",
+    "htmlUrl": "https://github.com/lw7360",
+    "followersUrl": "https://api.github.com/users/lw7360/followers",
+    "subscriptionsUrl": "https://api.github.com/users/lw7360/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/lw7360/orgs",
+    "reposUrl": "https://api.github.com/users/lw7360/repos",
+    "receivedEventsUrl": "https://api.github.com/users/lw7360/received_events",
+    "type": "User"
   },
-  "name": "",
-  "productName": "",
-  "version": "0.0.0",
+  "private": false,
   "description": "",
-  "repository": "",
-  "homepage": "https://github.com/lw7360/electron-starter#readme",
-  "author": {
-    "name": "Larry Wu",
-    "email": "lw7360@gmail.com",
-    "url": "http://larrywu.com/"
+  "fork": false,
+  "createdAt": "2015-11-26T19:44:31.000Z",
+  "updatedAt": "2015-12-06T05:32:14.000Z",
+  "pushedAt": "2015-12-06T05:32:13.000Z",
+  "homepage": null,
+  "size": 5,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "electronVersion": "0.35.0",
-  "scripts": {
-    "test": "semistandard",
-    "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
-  "keywords": [
-    "electron-app",
-    "electron"
-  ],
-  "dependencies": {
-    "electron-debug": "^0.5.0"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "",
+    "productName": "",
+    "version": "0.0.0",
+    "description": "",
+    "repository": "",
+    "homepage": "https://github.com/lw7360/electron-starter#readme",
+    "author": {
+      "name": "Larry Wu",
+      "email": "lw7360@gmail.com",
+      "url": "http://larrywu.com/"
+    },
+    "electronVersion": "0.35.0",
+    "scripts": {
+      "test": "semistandard",
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.5.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.35.0",
+      "semistandard": "^7.0.4"
+    },
+    "semistandard": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    },
+    "license": "MIT"
   },
-  "devDependencies": {
-    "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.35.0",
-    "semistandard": "^7.0.4"
-  },
-  "semistandard": {
-    "esnext": true,
-    "envs": [
-      "node",
-      "browser"
-    ]
-  },
-  "license": "MIT"
+  "packageStatus": 200
 }

@@ -1,76 +1,96 @@
 {
-  "name": "app",
-  "productName": "GMR",
-  "version": "0.0.9",
-  "description": "",
-  "license": "MIT",
-  "repository": "quentinms/GMR-client",
-  "author": {
-    "name": "Quentin Mazars-Simon",
-    "email": "",
-    "url": "quentin.nyc"
+  "id": 46766397,
+  "name": "GMR-client",
+  "fullName": "quentinms/GMR-client",
+  "owner": {
+    "login": "quentinms",
+    "id": 928878,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/928878?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/quentinms",
+    "htmlUrl": "https://github.com/quentinms",
+    "followersUrl": "https://api.github.com/users/quentinms/followers",
+    "subscriptionsUrl": "https://api.github.com/users/quentinms/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/quentinms/orgs",
+    "reposUrl": "https://api.github.com/users/quentinms/repos",
+    "receivedEventsUrl": "https://api.github.com/users/quentinms/received_events",
+    "type": "User"
   },
-  "engines": {
-    "node": ">=4"
+  "private": false,
+  "description": "A Giant Multiplayer Robot Client for OS X ",
+  "fork": false,
+  "createdAt": "2015-11-24T04:16:13.000Z",
+  "updatedAt": "2016-02-15T18:15:37.000Z",
+  "pushedAt": "2016-03-04T04:00:51.000Z",
+  "homepage": null,
+  "size": 330,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "electronVersion": "0.36.8",
-  "scripts": {
-    "test": "xo",
-    "start": "electron .",
-    "build_old": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion",
-    "build": "electron-packager . $npm_package_productName --platform=darwin --arch=x64 --version=$npm_package_electronVersion --overwrite --icon=icon.icns --app-version=$npm_package_version --prune"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "main": "main.js",
-  "keywords": [
-    "electron-app",
-    "Giant Multiplayer Robot",
-    "Civilization"
-  ],
-  "dependencies": {
-    "angular": "1.x",
-    "json-bigint": "0.1.x",
-    "lodash": "4.x",
-    "moment": "2.x",
-    "request": "2.x"
-  },
-  "devDependencies": {
-    "electron-debug": "0.3.x",
-    "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.34.1"
-  },
-  "_librariesioMetadata": {
-    "full_name": "quentinms/GMR-client",
-    "description": "A Giant Multiplayer Robot Client for OS X ",
-    "fork": false,
-    "created_at": "2015-11-24T04:16:13.000Z",
-    "updated_at": "2015-11-24T04:17:04.647Z",
-    "pushed_at": "2015-11-24T04:16:16.000Z",
-    "homepage": null,
-    "size": 244,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 46766397,
-    "source_name": null,
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "app",
+    "productName": "GMR",
+    "version": "0.0.9",
+    "description": "",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "repository": "quentinms/GMR-client",
+    "author": {
+      "name": "Quentin Mazars-Simon",
+      "email": "",
+      "url": "quentin.nyc"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "electronVersion": "0.36.8",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build_old": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion",
+      "build": "electron-packager . $npm_package_productName --platform=darwin --arch=x64 --version=$npm_package_electronVersion --overwrite --icon=icon.icns --app-version=$npm_package_version --prune"
+    },
+    "main": "main.js",
+    "keywords": [
+      "electron-app",
+      "Giant Multiplayer Robot",
+      "Civilization"
+    ],
+    "dependencies": {
+      "angular": "1.x",
+      "json-bigint": "0.1.x",
+      "lodash": "4.x",
+      "moment": "2.x",
+      "request": "2.x"
+    },
+    "devDependencies": {
+      "electron-debug": "0.3.x",
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.34.1"
+    }
+  },
+  "packageStatus": 200
 }

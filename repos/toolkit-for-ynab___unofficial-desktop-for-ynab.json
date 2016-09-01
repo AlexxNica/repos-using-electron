@@ -1,108 +1,145 @@
 {
+  "id": 63867083,
   "name": "unofficial-desktop-for-ynab",
-  "productName": "Unofficial Desktop for YNAB",
-  "author": "Open Source Community",
-  "version": "0.1.0",
-  "description": "A desktop wrapper for YNAB",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron ./app",
-    "debug": "electron --debug=5858 ./app",
-    "node-debugger": "ELECTRON_RUN_AS_NODE=true electron node_modules/node-inspector/bin/inspector.js",
-    "postinstall": "install-app-deps",
-    "pack": "build --dir",
-    "dist": "build",
-    "dist-mac": "build -m --publish onTagOrDraft",
-    "dist-lin-win": "build -lw --publish onTagOrDraft",
-    "clean": "rm -rf dist"
+  "fullName": "toolkit-for-ynab/unofficial-desktop-for-ynab",
+  "owner": {
+    "login": "toolkit-for-ynab",
+    "id": 17663786,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/17663786?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/toolkit-for-ynab",
+    "htmlUrl": "https://github.com/toolkit-for-ynab",
+    "followersUrl": "https://api.github.com/users/toolkit-for-ynab/followers",
+    "subscriptionsUrl": "https://api.github.com/users/toolkit-for-ynab/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/toolkit-for-ynab/orgs",
+    "reposUrl": "https://api.github.com/users/toolkit-for-ynab/repos",
+    "receivedEventsUrl": "https://api.github.com/users/toolkit-for-ynab/received_events",
+    "type": "Organization"
   },
-  "build": {
-    "appId": "com.toolkit-for-ynab.unofficial-desktop-for-ynab",
-    "app-category-type": "public.app-category.finance",
-    "fileAssociations": [
-      {
-        "ext": "qif",
-        "name": "Quicken Interchange Format"
-      },
-      {
-        "ext": "ofx",
-        "name": "Open Financial Exchange"
-      },
-      {
-        "ext": "csv",
-        "name": "Comma Separated Values"
-      }
-    ],
-    "extend-info": "./build/Add-Info.plist",
-    "dmg": {
-      "contents": [
+  "private": false,
+  "description": "Unofficial Desktop Wrapper for YNAB using Electron",
+  "fork": false,
+  "createdAt": "2016-07-21T12:22:59.000Z",
+  "updatedAt": "2016-08-05T02:42:22.000Z",
+  "pushedAt": "2016-08-08T13:12:56.000Z",
+  "homepage": "",
+  "size": 718,
+  "stargazersCount": 5,
+  "watchersCount": 5,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 5,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "organization": {
+    "login": "toolkit-for-ynab",
+    "id": 17663786,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/17663786?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/toolkit-for-ynab",
+    "htmlUrl": "https://github.com/toolkit-for-ynab",
+    "followersUrl": "https://api.github.com/users/toolkit-for-ynab/followers",
+    "subscriptionsUrl": "https://api.github.com/users/toolkit-for-ynab/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/toolkit-for-ynab/orgs",
+    "reposUrl": "https://api.github.com/users/toolkit-for-ynab/repos",
+    "receivedEventsUrl": "https://api.github.com/users/toolkit-for-ynab/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 1,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "unofficial-desktop-for-ynab",
+    "productName": "Unofficial Desktop for YNAB",
+    "author": "Open Source Community",
+    "version": "0.2.0",
+    "description": "A desktop wrapper for YNAB",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ./app",
+      "debug": "electron --debug=5858 ./app",
+      "node-debugger": "ELECTRON_RUN_AS_NODE=true electron node_modules/node-inspector/bin/inspector.js",
+      "postinstall": "install-app-deps",
+      "pack": "build --dir",
+      "dist": "build",
+      "dist-mac": "build -m --publish onTagOrDraft",
+      "dist-lin-win": "build -lw --publish onTagOrDraft",
+      "clean": "rm -rf dist"
+    },
+    "build": {
+      "appId": "com.toolkit-for-ynab.unofficial-desktop-for-ynab",
+      "app-category-type": "public.app-category.finance",
+      "fileAssociations": [
         {
-          "x": 410,
-          "y": 150,
-          "type": "link",
-          "path": "/Applications"
+          "ext": "qif",
+          "name": "Quicken Interchange Format"
         },
         {
-          "x": 130,
-          "y": 150,
-          "type": "file"
+          "ext": "ofx",
+          "name": "Open Financial Exchange"
+        },
+        {
+          "ext": "csv",
+          "name": "Comma Separated Values"
         }
-      ]
+      ],
+      "extend-info": "./build/Add-Info.plist",
+      "dmg": {
+        "contents": [
+          {
+            "x": 410,
+            "y": 150,
+            "type": "link",
+            "path": "/Applications"
+          },
+          {
+            "x": 130,
+            "y": 150,
+            "type": "file"
+          }
+        ]
+      },
+      "linux": {
+        "target": [
+          "deb",
+          "AppImage"
+        ]
+      }
     },
-    "linux": {
-      "target": [
-        "deb",
-        "AppImage"
-      ]
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/toolkit-for-ynab/unofficial-desktop-for-ynab.git"
+    },
+    "bugs": {
+      "url": "https://github.com/toolkit-for-ynab/unofficial-desktop-for-ynab/issues"
+    },
+    "devDependencies": {
+      "electron-builder": "^5.23.2",
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "mkdirp": "^0.5.1",
+      "rimraf": "^2.5.4",
+      "typescript": "^1.8.10",
+      "yauzl": "^2.6.0"
     }
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/toolkit-for-ynab/unofficial-desktop-for-ynab.git"
-  },
-  "bugs": {
-    "url": "https://github.com/toolkit-for-ynab/unofficial-desktop-for-ynab/issues"
-  },
-  "devDependencies": {
-    "electron-builder": "next",
-    "electron-prebuilt": "^1.2.0"
-  },
-  "dependencies": {
-    "yauzl": "^2.6.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "toolkit-for-ynab/unofficial-desktop-for-ynab",
-    "description": "Unofficial Desktop Wrapper for YNAB using Electron",
-    "fork": false,
-    "created_at": "2016-07-21T12:22:59.000Z",
-    "updated_at": "2016-08-05T02:42:22.000Z",
-    "pushed_at": "2016-08-08T13:12:56.000Z",
-    "homepage": "",
-    "size": 717,
-    "stargazers_count": 5,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": false,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 2,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 63867083,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-23T06:52:09.083Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

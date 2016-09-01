@@ -1,74 +1,94 @@
 {
-  "name": "devdocs-electron",
-  "version": "1.0.0",
-  "description": "An electrion wrapper for devdocs",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js"
+  "id": 49632248,
+  "name": "devdocs-native",
+  "fullName": "kaze13/devdocs-native",
+  "owner": {
+    "login": "kaze13",
+    "id": 4462576,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4462576?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/kaze13",
+    "htmlUrl": "https://github.com/kaze13",
+    "followersUrl": "https://api.github.com/users/kaze13/followers",
+    "subscriptionsUrl": "https://api.github.com/users/kaze13/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/kaze13/orgs",
+    "reposUrl": "https://api.github.com/users/kaze13/repos",
+    "receivedEventsUrl": "https://api.github.com/users/kaze13/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kaze13/devdocs-electron.git"
+  "private": false,
+  "description": "A native API Documentation Browser based on Devdocs & Electron",
+  "fork": false,
+  "createdAt": "2016-01-14T08:07:23.000Z",
+  "updatedAt": "2016-07-23T17:39:53.000Z",
+  "pushedAt": "2016-01-18T02:32:59.000Z",
+  "homepage": "",
+  "size": 1514,
+  "stargazersCount": 9,
+  "watchersCount": 9,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 3,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 9,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "Electron",
-    "devdocs"
-  ],
-  "author": "kaze13",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kaze13/devdocs-electron/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "homepage": "https://github.com/kaze13/devdocs-electron/issues",
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.0",
-    "babel-core": "^5.6.18",
-    "babel-loader": "^5.1.4",
-    "babel-plugin-react-transform": "^1.1.0",
-    "raw-loader": "^0.5.1",
-    "style-loader": "^0.12.3",
-    "webpack": "^1.9.11"
-  },
-  "dependencies": {
-    "material-ui": "^0.14.2",
-    "react": "^0.14.6",
-    "react-dom": "^0.14.6",
-    "react-tap-event-plugin": "^0.2.1",
-    "webpack-target-electron-renderer": "^0.4.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "kaze13/devdocs-native",
-    "description": "A native API Documentation Browser based on Devdocs & Electron",
-    "fork": false,
-    "created_at": "2016-01-14T08:07:23.000Z",
-    "updated_at": "2016-06-09T05:04:34.000Z",
-    "pushed_at": "2016-01-18T02:32:59.000Z",
-    "homepage": "",
-    "size": 1514,
-    "stargazers_count": 8,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 2,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 49632248,
-    "source_name": null,
+  "networkCount": 3,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "devdocs-electron",
+    "version": "1.0.0",
+    "description": "An electrion wrapper for devdocs",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kaze13/devdocs-electron.git"
+    },
+    "keywords": [
+      "Electron",
+      "devdocs"
+    ],
+    "author": "kaze13",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-18T20:48:52.686Z",
-    "rank": null
-  }
+    "bugs": {
+      "url": "https://github.com/kaze13/devdocs-electron/issues"
+    },
+    "homepage": "https://github.com/kaze13/devdocs-electron/issues",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0",
+      "babel-core": "^5.6.18",
+      "babel-loader": "^5.1.4",
+      "babel-plugin-react-transform": "^1.1.0",
+      "raw-loader": "^0.5.1",
+      "style-loader": "^0.12.3",
+      "webpack": "^1.9.11"
+    },
+    "dependencies": {
+      "material-ui": "^0.14.2",
+      "react": "^0.14.6",
+      "react-dom": "^0.14.6",
+      "react-tap-event-plugin": "^0.2.1",
+      "webpack-target-electron-renderer": "^0.4.0"
+    }
+  },
+  "packageStatus": 200
 }

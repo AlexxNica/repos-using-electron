@@ -1,77 +1,91 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "pfan123/svgtool",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-06-24T06:19:33.000Z",
-    "updated_at": "2016-06-27T10:04:12.824Z",
-    "pushed_at": "2016-06-27T09:20:27.000Z",
-    "homepage": null,
-    "size": 0,
-    "stargazers_count": 0,
-    "language": "HTML",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 61861412,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-27T10:04:12.801Z",
-    "rank": null
-  },
+  "id": 61861412,
   "name": "svgtool",
-  "version": "1.0.0",
-  "main": "main.js",
-  "dependencies": {
-    "cheerio": "^0.20.0",
-    "clean-css": "^3.4.18",
-    "html-minifier": "^2.1.4",
-    "electron-builder": "^5.6.2",
-    "electron-packager": "^7.0.4",
-    "electron-prebuilt": "^1.2.4",
-    "electron-winstaller": "^2.3.1",
-    "rimraf": "^2.5.2"
+  "fullName": "pfan123/svgtool",
+  "owner": {
+    "login": "pfan123",
+    "id": 7833110,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7833110?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/pfan123",
+    "htmlUrl": "https://github.com/pfan123",
+    "followersUrl": "https://api.github.com/users/pfan123/followers",
+    "subscriptionsUrl": "https://api.github.com/users/pfan123/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/pfan123/orgs",
+    "reposUrl": "https://api.github.com/users/pfan123/repos",
+    "receivedEventsUrl": "https://api.github.com/users/pfan123/received_events",
+    "type": "User"
   },
-  "scripts": {
-    "dev": "electron .",
-    "clean": "rm -rf ./dist",
-    "clean:osx": "rm -rf ./dist/osx",
-    "clean:win": "rm -rf ./dist/win",
-    "packager": "npm run clean && npm run packager:osx && npm run packager:win",
-    "packager:osx": "npm run clean:osx && electron-packager . \"svgtool\" --out=./dist/osx --platform=darwin --arch=x64 --version=1.2.4 --icon=./static/images/icon.icns --ignore=.git --ignore=dist --ignore=.sass-cache --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --prune",
-    "packager:win": "npm run clean:win && electron-packager . \"svgtool\" --out=./dist/win --platform=win32 --arch=x64 --version=1.2.4 --icon=./static/images/icon.ico --ignore=.git --ignore=dist --ignore=.sass-cache --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --prune",
-    "pack": "build --target dir",
-    "dist": "rimraf dist && build"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2016-06-24T06:19:33.000Z",
+  "updatedAt": "2016-06-27T09:14:26.000Z",
+  "pushedAt": "2016-06-27T10:12:12.000Z",
+  "homepage": null,
+  "size": 161154,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "build": {
-    "appId": "svgtool.id",
-    "app-category-type": "svgtool.app.category.type",
-    "win": {
-      "iconUrl": "http://jdc.jd.com/svg/static/images/icon.ico"
-    }
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "svgtool",
+    "version": "1.0.0",
+    "main": "main.js",
+    "dependencies": {
+      "cheerio": "^0.20.0",
+      "clean-css": "^3.4.18",
+      "html-minifier": "^2.1.4",
+      "electron-builder": "^5.6.2",
+      "electron-packager": "^7.0.4",
+      "electron-prebuilt": "^1.2.4",
+      "electron-winstaller": "^2.3.1",
+      "rimraf": "^2.5.2"
+    },
+    "scripts": {
+      "dev": "electron .",
+      "clean": "rm -rf ./dist",
+      "clean:osx": "rm -rf ./dist/osx",
+      "clean:win": "rm -rf ./dist/win",
+      "packager": "npm run clean && npm run packager:osx && npm run packager:win",
+      "packager:osx": "npm run clean:osx && electron-packager . \"svgtool\" --out=./dist/osx --platform=darwin --arch=x64 --version=1.2.4 --icon=./static/images/icon.icns --ignore=.git --ignore=dist --ignore=.sass-cache --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --prune",
+      "packager:win": "npm run clean:win && electron-packager . \"svgtool\" --out=./dist/win --platform=win32 --arch=x64 --version=1.2.4 --icon=./static/images/icon.ico --ignore=.git --ignore=dist --ignore=.sass-cache --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --prune",
+      "pack": "build --target dir",
+      "dist": "rimraf dist && build"
+    },
+    "build": {
+      "appId": "svgtool.id",
+      "app-category-type": "svgtool.app.category.type",
+      "win": {
+        "iconUrl": "http://jdc.jd.com/svg/static/images/icon.ico"
+      }
+    },
+    "description": "svgtool",
+    "devDependencies": {},
+    "keywords": [
+      "electron",
+      "svgtool",
+      "smybols"
+    ],
+    "author": "@pfan",
+    "license": "ISC"
   },
-  "description": "svgtool",
-  "devDependencies": {},
-  "keywords": [
-    "electron",
-    "svgtool",
-    "smybols"
-  ],
-  "author": "@pfan",
-  "license": "ISC"
+  "packageStatus": 200
 }

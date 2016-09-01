@@ -1,75 +1,109 @@
 {
-  "scripts": {
-    "postinstall": "install-app-deps",
-    "pack": "build",
-    "dist": "build",
-    "test": "eslint .",
-    "app": "electron ./app"
+  "id": 38375092,
+  "name": "irccloud-desktop",
+  "fullName": "irccloud/irccloud-desktop",
+  "owner": {
+    "login": "irccloud",
+    "id": 912711,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/912711?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/irccloud",
+    "htmlUrl": "https://github.com/irccloud",
+    "followersUrl": "https://api.github.com/users/irccloud/followers",
+    "subscriptionsUrl": "https://api.github.com/users/irccloud/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/irccloud/orgs",
+    "reposUrl": "https://api.github.com/users/irccloud/repos",
+    "receivedEventsUrl": "https://api.github.com/users/irccloud/received_events",
+    "type": "Organization"
   },
-  "build": {
-    "mac": {
-      "target": [
-        "dmg",
-        "zip",
-        "mas"
-      ]
-    },
-    "linux": {
-      "target": [
-        "deb",
-        "AppImage"
-      ]
-    },
-    "dmg": {
-      "icon": ""
-    },
-    "appId": "com.irccloud.desktop",
-    "app-category-type": "public.app-category.productivity",
-    "npmRebuild": false,
-    "extend-info": "Info.plist"
+  "private": false,
+  "description": "IRCCloud Desktop App",
+  "fork": false,
+  "createdAt": "2015-07-01T14:16:34.000Z",
+  "updatedAt": "2016-08-06T11:30:02.000Z",
+  "pushedAt": "2016-08-09T21:42:47.000Z",
+  "homepage": "",
+  "size": 423,
+  "stargazersCount": 34,
+  "watchersCount": 34,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 7,
+  "openIssuesCount": 17,
+  "openIssues": 17,
+  "watchers": 34,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-builder": "^5.11.3",
-    "electron-prebuilt": "^1.2.6",
-    "eslint": "^3.0.1",
-    "jshint": "^2.9.1",
-    "tsconfig-glob": "^0.4.1",
-    "typescript": "^1.8.2"
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "featured": true
   },
-  "dependencies": {},
-  "_librariesioMetadata": {
-    "full_name": "irccloud/irccloud-desktop",
-    "description": "IRCCloud Desktop App",
-    "fork": false,
-    "created_at": "2015-07-01T14:16:34.000Z",
-    "updated_at": "2016-08-06T11:30:02.000Z",
-    "pushed_at": "2016-08-03T23:03:25.000Z",
-    "homepage": "",
-    "size": 423,
-    "stargazers_count": 34,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 6,
-    "mirror_url": null,
-    "open_issues_count": 16,
-    "default_branch": "master",
-    "subscribers_count": 9,
-    "github_id": 38375092,
-    "source_name": null,
-    "license": "Apache-2.0",
-    "private": false,
-    "github_contributions_count": 3,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.txt",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "organization": {
+    "login": "irccloud",
+    "id": 912711,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/912711?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/irccloud",
+    "htmlUrl": "https://github.com/irccloud",
+    "followersUrl": "https://api.github.com/users/irccloud/followers",
+    "subscriptionsUrl": "https://api.github.com/users/irccloud/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/irccloud/orgs",
+    "reposUrl": "https://api.github.com/users/irccloud/repos",
+    "receivedEventsUrl": "https://api.github.com/users/irccloud/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 7,
+  "subscribersCount": 9,
+  "status": 200,
+  "packageJSON": {
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "pack": "build",
+      "dist": "build",
+      "test": "eslint .",
+      "app": "electron ./app"
+    },
+    "build": {
+      "mac": {
+        "target": [
+          "dmg",
+          "zip",
+          "mas"
+        ]
+      },
+      "linux": {
+        "target": [
+          "deb",
+          "AppImage"
+        ]
+      },
+      "dmg": {
+        "icon": ""
+      },
+      "appId": "com.irccloud.desktop",
+      "app-category-type": "public.app-category.productivity",
+      "npmRebuild": false,
+      "extend-info": "Info.plist"
+    },
+    "devDependencies": {
+      "electron-builder": "^5.11.3",
+      "electron-prebuilt": "^1.2.6",
+      "eslint": "^3.0.1",
+      "jshint": "^2.9.1",
+      "tsconfig-glob": "^0.4.1",
+      "typescript": "^1.8.2"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

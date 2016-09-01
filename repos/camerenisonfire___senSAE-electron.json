@@ -1,61 +1,75 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "camerenisonfire/senSAE-electron",
-    "description": "A light-weight music visualizer app built in Electron",
-    "fork": false,
-    "created_at": "2016-04-02T09:38:03.000Z",
-    "updated_at": "2016-06-16T07:22:03.303Z",
-    "pushed_at": "2016-04-02T09:55:54.000Z",
-    "homepage": null,
-    "size": 40804,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 55287551,
-    "source_name": null,
+  "id": 55287551,
+  "name": "senSAE-electron",
+  "fullName": "camerenisonfire/senSAE-electron",
+  "owner": {
+    "login": "camerenisonfire",
+    "id": 3248416,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3248416?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/camerenisonfire",
+    "htmlUrl": "https://github.com/camerenisonfire",
+    "followersUrl": "https://api.github.com/users/camerenisonfire/followers",
+    "subscriptionsUrl": "https://api.github.com/users/camerenisonfire/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/camerenisonfire/orgs",
+    "reposUrl": "https://api.github.com/users/camerenisonfire/repos",
+    "receivedEventsUrl": "https://api.github.com/users/camerenisonfire/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "A light-weight music visualizer app built in Electron",
+  "fork": false,
+  "createdAt": "2016-04-02T09:38:03.000Z",
+  "updatedAt": "2016-06-16T07:20:46.000Z",
+  "pushedAt": "2016-04-22T22:14:19.000Z",
+  "homepage": null,
+  "size": 45274,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "senSAE",
+    "version": "0.0.1",
+    "description": "A light-weight and generative music visualizer",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/camerenisonfire/senSAE-electron.git"
+    },
+    "keywords": [
+      "Electron",
+      "generative",
+      "art",
+      "music",
+      "visualizer"
+    ],
+    "author": "camerenisonfire",
     "license": "CC0-1.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+    "homepage": "http://www.sensae.us",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    }
   },
-  "name": "senSAE",
-  "version": "0.0.1",
-  "description": "A light-weight and generative music visualizer",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/camerenisonfire/senSAE-electron.git"
-  },
-  "keywords": [
-    "Electron",
-    "generative",
-    "art",
-    "music",
-    "visualizer"
-  ],
-  "author": "camerenisonfire",
-  "license": "CC0-1.0",
-  "homepage": "http://www.sensae.us",
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.0"
-  }
+  "packageStatus": 200
 }

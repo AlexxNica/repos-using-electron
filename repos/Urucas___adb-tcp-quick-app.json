@@ -1,67 +1,101 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "Urucas/adb-tcp-quick-app",
-    "description": "A taskbar application to quickly (dis)connect an android device to adb over wifi",
-    "fork": false,
-    "created_at": "2015-10-28T16:14:28.000Z",
-    "updated_at": "2016-03-01T11:03:36.033Z",
-    "pushed_at": "2015-11-19T05:54:30.000Z",
-    "homepage": null,
-    "size": 54,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 45125294,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 45125294,
   "name": "adb-tcp-quick-app",
-  "version": "0.0.1",
+  "fullName": "Urucas/adb-tcp-quick-app",
+  "owner": {
+    "login": "Urucas",
+    "id": 4325735,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4325735?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Urucas",
+    "htmlUrl": "https://github.com/Urucas",
+    "followersUrl": "https://api.github.com/users/Urucas/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Urucas/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Urucas/orgs",
+    "reposUrl": "https://api.github.com/users/Urucas/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Urucas/received_events",
+    "type": "Organization"
+  },
+  "private": false,
   "description": "A taskbar application to quickly (dis)connect an android device to adb over wifi",
-  "main": "app.js",
-  "scripts": {
-    "start": "./bin/cli.js"
+  "fork": false,
+  "createdAt": "2015-10-28T16:14:28.000Z",
+  "updatedAt": "2015-11-11T19:00:36.000Z",
+  "pushedAt": "2015-11-19T05:54:30.000Z",
+  "homepage": null,
+  "size": 54,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Urucas/adb-tcp-quick-app.git"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "keywords": [
-    "android",
-    "adb",
-    "usb",
-    "wifi"
-  ],
-  "author": "Urucas <hello@urucas.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Urucas/adb-tcp-quick-app/issues"
+  "organization": {
+    "login": "Urucas",
+    "id": 4325735,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4325735?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Urucas",
+    "htmlUrl": "https://github.com/Urucas",
+    "followersUrl": "https://api.github.com/users/Urucas/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Urucas/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Urucas/orgs",
+    "reposUrl": "https://api.github.com/users/Urucas/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Urucas/received_events",
+    "type": "Organization"
   },
-  "homepage": "https://github.com/Urucas/adb-tcp-quick-app#readme",
-  "dependencies": {
-    "angular": "^1.4.7",
-    "bootstrap": "^3.3.5",
-    "electron-prebuilt": "^0.34.3",
-    "font-awesome": "^4.4.0",
-    "menubar": "^2.3.0"
-  }
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "adb-tcp-quick-app",
+    "version": "0.0.1",
+    "description": "A taskbar application to quickly (dis)connect an android device to adb over wifi",
+    "main": "app.js",
+    "scripts": {
+      "start": "./bin/cli.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Urucas/adb-tcp-quick-app.git"
+    },
+    "keywords": [
+      "android",
+      "adb",
+      "usb",
+      "wifi"
+    ],
+    "author": "Urucas <hello@urucas.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Urucas/adb-tcp-quick-app/issues"
+    },
+    "homepage": "https://github.com/Urucas/adb-tcp-quick-app#readme",
+    "dependencies": {
+      "angular": "^1.4.7",
+      "bootstrap": "^3.3.5",
+      "electron-prebuilt": "^0.34.3",
+      "font-awesome": "^4.4.0",
+      "menubar": "^2.3.0"
+    }
+  },
+  "packageStatus": 200
 }

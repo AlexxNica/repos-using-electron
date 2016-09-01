@@ -1,60 +1,74 @@
 {
+  "id": 43532535,
   "name": "inviewer",
-  "version": "0.1.0",
-  "main": "./main.js",
-  "scripts": {
-    "start": "electron .",
-    "clean": "rm -rf ../dist",
-    "clean:osx": "rm -rf ../dist/osx",
-    "clean:win": "rm -rf ../dist/win",
-    "build": "npm run clean && npm run build:win",
-    "build:win": "npm run clean:win && electron-packager ./ 'inViewer' --platform=win32 --arch=ia32 --out=../dist/win --version=0.33.3 --ignore=\"node_modules/(electron-packager|electron-prebuilt|electron-builder)\"",
-    "build:osx": "npm run clean:osx && electron-packager ./ 'inViewer' --platform=darwin --arch=x64 --out=../dist/osx --version=0.33.3 --ignore=\"node_modules/(electron-packager|electron-prebuilt|electron-builder)\"",
-    "pack": "npm run pack:osx && npm run pack:win",
-    "pack:win": "npm run build:win && electron-builder \"../dist/win/inViewer-win32-ia32\" --platform=win --out=\"../dist/win\" --config=config.json",
-    "pack:osx": "npm run build:osx"
+  "fullName": "mudpuddle/inviewer",
+  "owner": {
+    "login": "mudpuddle",
+    "id": 507413,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/507413?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mudpuddle",
+    "htmlUrl": "https://github.com/mudpuddle",
+    "followersUrl": "https://api.github.com/users/mudpuddle/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mudpuddle/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mudpuddle/orgs",
+    "reposUrl": "https://api.github.com/users/mudpuddle/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mudpuddle/received_events",
+    "type": "User"
   },
-  "devDependencies": {
-    "electron-packager": "^5.0.1",
-    "electron-prebuilt": "^0.30.3",
-    "electron-builder": "^2.0.0"
+  "private": false,
+  "description": "small electron app for viewing webpages, in particular prototypes developed using inVision app.",
+  "fork": false,
+  "createdAt": "2015-10-02T02:36:29.000Z",
+  "updatedAt": "2015-10-02T23:08:00.000Z",
+  "pushedAt": "2015-12-16T23:25:05.000Z",
+  "homepage": null,
+  "size": 166,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "dependencies": {
-    "nconf": "^0.7.2"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "inviewer",
+    "version": "0.1.0",
+    "main": "./main.js",
+    "scripts": {
+      "start": "electron .",
+      "clean": "rm -rf ../dist",
+      "clean:osx": "rm -rf ../dist/osx",
+      "clean:win": "rm -rf ../dist/win",
+      "build": "npm run clean && npm run build:win",
+      "build:win": "npm run clean:win && electron-packager ./ 'inViewer' --platform=win32 --arch=ia32 --out=../dist/win --version=0.33.3 --ignore=\"node_modules/(electron-packager|electron-prebuilt|electron-builder)\"",
+      "build:osx": "npm run clean:osx && electron-packager ./ 'inViewer' --platform=darwin --arch=x64 --out=../dist/osx --version=0.33.3 --ignore=\"node_modules/(electron-packager|electron-prebuilt|electron-builder)\"",
+      "pack": "npm run pack:osx && npm run pack:win",
+      "pack:win": "npm run build:win && electron-builder \"../dist/win/inViewer-win32-ia32\" --platform=win --out=\"../dist/win\" --config=config.json",
+      "pack:osx": "npm run build:osx"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.3",
+      "electron-builder": "^2.0.0"
+    },
+    "dependencies": {
+      "nconf": "^0.7.2"
+    }
   },
-  "_librariesioMetadata": {
-    "full_name": "mudpuddle/inviewer",
-    "description": "small electron app for viewing webpages, in particular prototypes developed using inVision app.",
-    "fork": false,
-    "created_at": "2015-10-02T02:36:29.000Z",
-    "updated_at": "2016-05-28T06:21:40.857Z",
-    "pushed_at": "2015-12-16T23:25:05.000Z",
-    "homepage": null,
-    "size": 166,
-    "stargazers_count": 1,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 43532535,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T06:21:40.837Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

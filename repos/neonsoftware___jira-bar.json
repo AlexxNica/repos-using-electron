@@ -1,65 +1,79 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "neonsoftware/jira-bar",
-    "description": "Your sprints. On your OS Menu bar.",
-    "fork": false,
-    "created_at": "2015-12-13T14:38:44.000Z",
-    "updated_at": "2015-12-13T19:29:04.000Z",
-    "pushed_at": "2015-12-13T20:14:54.000Z",
-    "homepage": "http://neonsoftware.github.io/jira-bar/",
-    "size": 11,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 47922819,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 47922819,
   "name": "jira-bar",
-  "version": "0.0.0",
-  "description": "Your sprints. On your OS menu bar",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js",
-    "build_apps": "electron-packager . jira-bar --platform=all --arch=all --version=0.36.0 --overwrite --out=./build"
+  "fullName": "neonsoftware/jira-bar",
+  "owner": {
+    "login": "neonsoftware",
+    "id": 9502999,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/9502999?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/neonsoftware",
+    "htmlUrl": "https://github.com/neonsoftware",
+    "followersUrl": "https://api.github.com/users/neonsoftware/followers",
+    "subscriptionsUrl": "https://api.github.com/users/neonsoftware/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/neonsoftware/orgs",
+    "reposUrl": "https://api.github.com/users/neonsoftware/repos",
+    "receivedEventsUrl": "https://api.github.com/users/neonsoftware/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/neonsoftware/jira-bar.git"
+  "private": false,
+  "description": "Your sprints. On your OS Menu bar.",
+  "fork": false,
+  "createdAt": "2015-12-13T14:38:44.000Z",
+  "updatedAt": "2016-01-24T19:16:10.000Z",
+  "pushedAt": "2016-01-24T19:16:09.000Z",
+  "homepage": "http://neonsoftware.github.io/jira-bar/",
+  "size": 11,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
-  ],
-  "author": "neonsoftware",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/neonsoftware/jira-bar/issues"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "jira-bar",
+    "version": "0.0.0",
+    "description": "Your sprints. On your OS menu bar",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "build_apps": "electron-packager . jira-bar --platform=all --arch=all --version=0.36.0 --overwrite --out=./build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/neonsoftware/jira-bar.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "neonsoftware",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/neonsoftware/jira-bar/issues"
+    },
+    "homepage": "https://github.com/neonsoftware/jira-bar#readme",
+    "devDependencies": {
+      "electron-packager": "*",
+      "electron-prebuilt": "*"
+    }
   },
-  "homepage": "https://github.com/neonsoftware/jira-bar#readme",
-  "devDependencies": {
-    "electron-packager": "*",
-    "electron-prebuilt": "*"
-  }
+  "packageStatus": 200
 }

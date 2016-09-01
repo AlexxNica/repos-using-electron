@@ -1,67 +1,87 @@
 {
-  "name": "fire-sale",
-  "version": "0.0.1",
-  "description": "A Markdown-to-HTML renderer",
-  "main": "lib/main.js",
-  "scripts": {
-    "start": "electron .",
-    "build": "electron-packager . 'Fire Sale' --platform=all --arch=all --version=0.36.8"
+  "id": 51088283,
+  "name": "firesale-tutorial",
+  "fullName": "stevekinney/firesale-tutorial",
+  "owner": {
+    "login": "stevekinney",
+    "id": 251000,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/251000?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/stevekinney",
+    "htmlUrl": "https://github.com/stevekinney",
+    "followersUrl": "https://api.github.com/users/stevekinney/followers",
+    "subscriptionsUrl": "https://api.github.com/users/stevekinney/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/stevekinney/orgs",
+    "reposUrl": "https://api.github.com/users/stevekinney/repos",
+    "receivedEventsUrl": "https://api.github.com/users/stevekinney/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stevekinney/firesale-tutorial.git"
+  "private": false,
+  "description": "A tutorial on building a Markdown renderer in Electron.",
+  "fork": false,
+  "createdAt": "2016-02-04T16:19:41.000Z",
+  "updatedAt": "2016-07-09T16:29:38.000Z",
+  "pushedAt": "2016-07-04T16:10:28.000Z",
+  "homepage": null,
+  "size": 1441,
+  "stargazersCount": 6,
+  "watchersCount": 6,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 8,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 6,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "electron",
-    "markdown"
-  ],
-  "author": "Steve Kinney",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/stevekinney/firesale-tutorial/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "homepage": "https://github.com/stevekinney/firesale-tutorial#readme",
-  "devDependencies": {
-    "electron-packager": "^5.2.1",
-    "electron-prebuilt": "^0.36.7"
-  },
-  "dependencies": {
-    "jquery": "^2.2.0",
-    "marked": "^0.3.5"
-  },
-  "_librariesioMetadata": {
-    "full_name": "stevekinney/firesale-tutorial",
-    "description": "A tutorial on building a Markdown renderer in Electron.",
-    "fork": false,
-    "created_at": "2016-02-04T16:19:41.000Z",
-    "updated_at": "2016-07-09T16:30:21.405Z",
-    "pushed_at": "2016-05-29T22:40:39.000Z",
-    "homepage": null,
-    "size": 1427,
-    "stargazers_count": 5,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 8,
-    "mirror_url": null,
-    "open_issues_count": 2,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 51088283,
-    "source_name": null,
+  "networkCount": 8,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "fire-sale",
+    "version": "0.0.1",
+    "description": "A Markdown-to-HTML renderer",
+    "main": "lib/main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . 'Fire Sale' --platform=all --arch=all --version=0.36.8"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/stevekinney/firesale-tutorial.git"
+    },
+    "keywords": [
+      "electron",
+      "markdown"
+    ],
+    "author": "Steve Kinney",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "bugs": {
+      "url": "https://github.com/stevekinney/firesale-tutorial/issues"
+    },
+    "homepage": "https://github.com/stevekinney/firesale-tutorial#readme",
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.7"
+    },
+    "dependencies": {
+      "jquery": "^2.2.0",
+      "marked": "^0.3.5"
+    }
+  },
+  "packageStatus": 200
 }

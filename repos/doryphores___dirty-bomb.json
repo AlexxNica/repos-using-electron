@@ -1,81 +1,95 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "doryphores/dirty-bomb",
-    "description": "",
-    "fork": false,
-    "created_at": "2015-03-02T22:40:42.000Z",
-    "updated_at": "2016-02-29T10:43:17.627Z",
-    "pushed_at": "2015-06-09T21:09:26.000Z",
-    "homepage": null,
-    "size": 1616,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 31567326,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 31567326,
   "name": "dirty-bomb",
-  "displayName": "Dirty Bomb",
-  "version": "0.0.1",
-  "author": {
-    "name": "Martin Laine"
+  "fullName": "doryphores/dirty-bomb",
+  "owner": {
+    "login": "doryphores",
+    "id": 23947,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/23947?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/doryphores",
+    "htmlUrl": "https://github.com/doryphores",
+    "followersUrl": "https://api.github.com/users/doryphores/followers",
+    "subscriptionsUrl": "https://api.github.com/users/doryphores/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/doryphores/orgs",
+    "reposUrl": "https://api.github.com/users/doryphores/repos",
+    "receivedEventsUrl": "https://api.github.com/users/doryphores/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/doryphores/dirty-bomb.git"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2015-03-02T22:40:42.000Z",
+  "updatedAt": "2015-05-23T11:36:48.000Z",
+  "pushedAt": "2015-06-09T21:09:26.000Z",
+  "homepage": null,
+  "size": 1616,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "start": "electron ."
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "dirty-bomb",
+    "displayName": "Dirty Bomb",
+    "version": "0.0.1",
+    "author": {
+      "name": "Martin Laine"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/doryphores/dirty-bomb.git"
+    },
+    "scripts": {
+      "start": "electron ."
+    },
+    "main": "main.js",
+    "dependencies": {
+      "classnames": "^2.1.1",
+      "codemirror": "^5.2.0",
+      "filewalker": "^0.1.2",
+      "fs-extra": "^0.18.3",
+      "github": "^0.2.4",
+      "immutable": "^3.7.2",
+      "node-forge": "^0.6.26",
+      "node-jsx": "^0.13.3",
+      "nodegit": "^0.4.0",
+      "object-assign": "^2.0.0",
+      "pathwatcher": "^4.4.0",
+      "react": "^0.13.3",
+      "reflux": "^0.2.7",
+      "showdown": "^0.5.0",
+      "stylus": "^0.51.1",
+      "underscore": "^1.8.3"
+    },
+    "devDependencies": {
+      "chai": "^2.2.0",
+      "electron-prebuilt": "^0.24.0",
+      "mocha": "^2.2.4",
+      "rewire": "^2.3.1",
+      "sinon": "^1.14.1",
+      "sinon-chai": "^2.7.0",
+      "temp": "^0.8.1"
+    },
+    "engines": {
+      "electron": "0.24.0"
+    }
   },
-  "main": "main.js",
-  "dependencies": {
-    "classnames": "^2.1.1",
-    "codemirror": "^5.2.0",
-    "filewalker": "^0.1.2",
-    "fs-extra": "^0.18.3",
-    "github": "^0.2.4",
-    "immutable": "^3.7.2",
-    "node-forge": "^0.6.26",
-    "node-jsx": "^0.13.3",
-    "nodegit": "^0.4.0",
-    "object-assign": "^2.0.0",
-    "pathwatcher": "^4.4.0",
-    "react": "^0.13.3",
-    "reflux": "^0.2.7",
-    "showdown": "^0.5.0",
-    "stylus": "^0.51.1",
-    "underscore": "^1.8.3"
-  },
-  "devDependencies": {
-    "chai": "^2.2.0",
-    "electron-prebuilt": "^0.24.0",
-    "mocha": "^2.2.4",
-    "rewire": "^2.3.1",
-    "sinon": "^1.14.1",
-    "sinon-chai": "^2.7.0",
-    "temp": "^0.8.1"
-  },
-  "engines": {
-    "electron": "0.24.0"
-  }
+  "packageStatus": 200
 }

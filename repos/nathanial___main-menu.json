@@ -1,81 +1,101 @@
 {
+  "id": 47438628,
   "name": "main-menu",
-  "version": "1.0.11",
-  "description": "Desktop style main menu.",
-  "main": "build/index.js",
-  "files": "build",
-  "scripts": {
-    "prepublish": "gulp dist",
-    "start": "electron ."
+  "fullName": "nathanial/main-menu",
+  "owner": {
+    "login": "nathanial",
+    "id": 18703,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/18703?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/nathanial",
+    "htmlUrl": "https://github.com/nathanial",
+    "followersUrl": "https://api.github.com/users/nathanial/followers",
+    "subscriptionsUrl": "https://api.github.com/users/nathanial/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/nathanial/orgs",
+    "reposUrl": "https://api.github.com/users/nathanial/repos",
+    "receivedEventsUrl": "https://api.github.com/users/nathanial/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/nathanial/main-menu.git"
+  "private": false,
+  "description": "Desktop style main menu in React. ",
+  "fork": false,
+  "createdAt": "2015-12-05T02:22:45.000Z",
+  "updatedAt": "2016-01-25T22:08:15.000Z",
+  "pushedAt": "2016-04-30T08:32:18.000Z",
+  "homepage": null,
+  "size": 29,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nathanial/main-menu/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "homepage": "https://github.com/nathanial/main-menu#readme",
-  "devDependencies": {
-    "electron-connect": "^0.3.3",
-    "electron-prebuilt": "0.34.2",
-    "gulp": "3.9.0",
-    "gulp-babel": "5.2.0",
-    "gulp-less": "3.0.3",
-    "gulp-preprocess": "^2.0.0",
-    "gulp-sourcemaps": "1.5.2",
-    "gulp-useref": "^3.0.4",
-    "gulp-util": "3.0.6",
-    "gulp-watch": "4.3.4",
-    "merge-stream": "^1.0.0",
-    "react": "0.14.2",
-    "react-dom": "0.14.2"
-  },
-  "peerDependencies": {
-    "react": "*",
-    "react-dom": "*"
-  },
-  "dependencies": {
-    "mousetrap": "1.5.3",
-    "react-es6-component": "*",
-    "require-dir": "0.3.0",
-    "underscore": "1.8.3"
-  },
-  "_librariesioMetadata": {
-    "full_name": "nathanial/main-menu",
-    "description": "Desktop style main menu in React. ",
-    "fork": false,
-    "created_at": "2015-12-05T02:22:45.000Z",
-    "updated_at": "2016-04-30T08:40:27.615Z",
-    "pushed_at": "2016-04-30T08:32:18.000Z",
-    "homepage": null,
-    "size": 29,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 47438628,
-    "source_name": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "main-menu",
+    "version": "1.0.11",
+    "description": "Desktop style main menu.",
+    "main": "build/index.js",
+    "files": "build",
+    "scripts": {
+      "prepublish": "gulp dist",
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/nathanial/main-menu.git"
+    },
+    "author": "",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-30T08:40:27.595Z",
-    "rank": null
-  }
+    "bugs": {
+      "url": "https://github.com/nathanial/main-menu/issues"
+    },
+    "homepage": "https://github.com/nathanial/main-menu#readme",
+    "devDependencies": {
+      "electron-connect": "^0.3.3",
+      "electron-prebuilt": "0.34.2",
+      "gulp": "3.9.0",
+      "gulp-babel": "5.2.0",
+      "gulp-less": "3.0.3",
+      "gulp-preprocess": "^2.0.0",
+      "gulp-sourcemaps": "1.5.2",
+      "gulp-useref": "^3.0.4",
+      "gulp-util": "3.0.6",
+      "gulp-watch": "4.3.4",
+      "merge-stream": "^1.0.0",
+      "react": "0.14.2",
+      "react-dom": "0.14.2"
+    },
+    "peerDependencies": {
+      "react": "*",
+      "react-dom": "*"
+    },
+    "dependencies": {
+      "mousetrap": "1.5.3",
+      "react-es6-component": "*",
+      "require-dir": "0.3.0",
+      "underscore": "1.8.3"
+    }
+  },
+  "packageStatus": 200
 }

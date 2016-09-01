@@ -1,72 +1,86 @@
 {
+  "id": 34636488,
   "name": "view-list",
-  "version": "2.1.0",
-  "description": "An infinite scrolling list view element built on a virtual DOM.",
-  "main": "index.js",
-  "scripts": {
-    "start": "budo example.js:bundle.js --live",
-    "gh": "browserify example.js -o bundle.js",
-    "test": "standard --format && browserify test.js | testron"
+  "fullName": "shama/view-list",
+  "owner": {
+    "login": "shama",
+    "id": 99604,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/99604?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/shama",
+    "htmlUrl": "https://github.com/shama",
+    "followersUrl": "https://api.github.com/users/shama/followers",
+    "subscriptionsUrl": "https://api.github.com/users/shama/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/shama/orgs",
+    "reposUrl": "https://api.github.com/users/shama/repos",
+    "receivedEventsUrl": "https://api.github.com/users/shama/received_events",
+    "type": "User"
   },
-  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:shama/view-list.git"
+  "private": false,
+  "description": ":scroll: An infinite scrolling list view element built on a virtual DOM.",
+  "fork": false,
+  "createdAt": "2015-04-26T23:39:01.000Z",
+  "updatedAt": "2016-08-04T07:14:54.000Z",
+  "pushedAt": "2016-01-14T19:57:28.000Z",
+  "homepage": "http://shama.github.io/view-list",
+  "size": 153,
+  "stargazersCount": 18,
+  "watchersCount": 18,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 3,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 18,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "files": [
-    "index.js"
-  ],
-  "dependencies": {
-    "attach-css": "^1.0.0",
-    "base-element": "^3.0.1",
-    "inherits": "^2.0.1",
-    "xtend": "^4.0.0"
+  "license": null,
+  "networkCount": 3,
+  "subscribersCount": 5,
+  "status": 200,
+  "packageJSON": {
+    "name": "view-list",
+    "version": "2.1.0",
+    "description": "An infinite scrolling list view element built on a virtual DOM.",
+    "main": "index.js",
+    "scripts": {
+      "start": "budo example.js:bundle.js --live",
+      "gh": "browserify example.js -o bundle.js",
+      "test": "standard --format && browserify test.js | testron"
+    },
+    "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:shama/view-list.git"
+    },
+    "files": [
+      "index.js"
+    ],
+    "dependencies": {
+      "attach-css": "^1.0.0",
+      "base-element": "^3.0.1",
+      "inherits": "^2.0.1",
+      "xtend": "^4.0.0"
+    },
+    "devDependencies": {
+      "browserify": "^13.0.0",
+      "budo": "^4.0.0",
+      "electron-prebuilt": "^0.36.3",
+      "lodash.debounce": "^3.0.3",
+      "standard": "^5.4.1",
+      "tape": "^4.4.0",
+      "testron": "^1.2.0",
+      "through2": "^0.6.5",
+      "virtual-dom": "^2.0.1"
+    }
   },
-  "devDependencies": {
-    "browserify": "^13.0.0",
-    "budo": "^4.0.0",
-    "electron-prebuilt": "^0.36.3",
-    "lodash.debounce": "^3.0.3",
-    "standard": "^5.4.1",
-    "tape": "^4.4.0",
-    "testron": "^1.2.0",
-    "through2": "^0.6.5",
-    "virtual-dom": "^2.0.1"
-  },
-  "_librariesioMetadata": {
-    "full_name": "shama/view-list",
-    "description": ":scroll: An infinite scrolling list view element built on a virtual DOM.",
-    "fork": false,
-    "created_at": "2015-04-26T23:39:01.000Z",
-    "updated_at": "2016-05-27T15:40:42.484Z",
-    "pushed_at": "2016-01-14T19:57:28.000Z",
-    "homepage": "http://shama.github.io/view-list",
-    "size": 153,
-    "stargazers_count": 17,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "forks_count": 3,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 5,
-    "github_id": 34636488,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 3,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T15:40:42.456Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

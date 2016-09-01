@@ -1,61 +1,81 @@
 {
-  "name": "ElectronIcon",
-  "version": "0.1.0",
-  "description": "An app for making icons using CSS.",
-  "main": "lib/main.js",
-  "repository": "https://github.com/atdrago/electron-icon.git",
-  "license": "MIT",
-  "scripts": {
-    "start": "export NODE_ENV=development && export ELECTRON_ENABLE_LOGGING=true && electron ."
+  "id": 58818988,
+  "name": "electron-icon",
+  "fullName": "atdrago/electron-icon",
+  "owner": {
+    "login": "atdrago",
+    "id": 144225,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/144225?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/atdrago",
+    "htmlUrl": "https://github.com/atdrago",
+    "followersUrl": "https://api.github.com/users/atdrago/followers",
+    "subscriptionsUrl": "https://api.github.com/users/atdrago/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/atdrago/orgs",
+    "reposUrl": "https://api.github.com/users/atdrago/repos",
+    "receivedEventsUrl": "https://api.github.com/users/atdrago/received_events",
+    "type": "User"
   },
-  "author": "Adam Drago <atdrago+electron-icon@gmail.com>",
-  "dependencies": {
-    "electron-window": "^0.8.0",
-    "icon-gen": "^1.0.4",
-    "jimp": "^0.2.24"
+  "private": false,
+  "description": "An app for making icons from CSS",
+  "fork": false,
+  "createdAt": "2016-05-14T16:48:27.000Z",
+  "updatedAt": "2016-06-22T16:47:41.000Z",
+  "pushedAt": "2016-07-02T17:55:35.000Z",
+  "homepage": "",
+  "size": 2594,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-prebuilt": "^1.2.3"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "engines": {
-    "node": ">=6.x"
-  },
-  "os": [
-    "darwin"
-  ],
-  "_librariesioMetadata": {
-    "full_name": "atdrago/electron-icon",
-    "description": "An app for making icons from CSS",
-    "fork": false,
-    "created_at": "2016-05-14T16:48:27.000Z",
-    "updated_at": "2016-06-26T15:54:09.182Z",
-    "pushed_at": "2016-06-25T22:46:34.000Z",
-    "homepage": "",
-    "size": 1703,
-    "stargazers_count": 2,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 58818988,
-    "source_name": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "ElectronIcon",
+    "version": "0.1.0",
+    "description": "An app for making icons using CSS.",
+    "main": "lib/main.js",
+    "repository": "https://github.com/atdrago/electron-icon.git",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-17T04:03:55.057Z",
-    "rank": null
-  }
+    "scripts": {
+      "start": "export NODE_ENV=development && export ELECTRON_ENABLE_LOGGING=true && electron ."
+    },
+    "author": "Adam Drago <atdrago+electron-icon@gmail.com>",
+    "dependencies": {
+      "electron-window": "^0.8.0",
+      "icon-gen": "^1.0.4",
+      "jimp": "^0.2.24"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.3"
+    },
+    "engines": {
+      "node": ">=6.x"
+    },
+    "os": [
+      "darwin"
+    ]
+  },
+  "packageStatus": 200
 }

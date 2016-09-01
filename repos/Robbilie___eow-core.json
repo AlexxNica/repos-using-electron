@@ -1,53 +1,67 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "Robbilie/eow-core",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-02-02T18:14:58.000Z",
-    "updated_at": "2016-02-02T18:20:54.000Z",
-    "pushed_at": "2016-06-26T12:20:18.000Z",
-    "homepage": null,
-    "size": 111,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 2,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 50941189,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-26T04:40:05.125Z",
-    "rank": null
+  "id": 50941189,
+  "name": "eow-core",
+  "fullName": "Robbilie/eow-core",
+  "owner": {
+    "login": "Robbilie",
+    "id": 406176,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/406176?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Robbilie",
+    "htmlUrl": "https://github.com/Robbilie",
+    "followersUrl": "https://api.github.com/users/Robbilie/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Robbilie/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Robbilie/orgs",
+    "reposUrl": "https://api.github.com/users/Robbilie/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Robbilie/received_events",
+    "type": "User"
   },
-  "name": "eow",
-  "version": "0.1.042",
-  "description": "Widgets styled like EVE Online",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron --enable-blink-features=CSSVariables --enable-transparent-visuals --disable-gpu main.js"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2016-02-02T18:14:58.000Z",
+  "updatedAt": "2016-02-02T18:20:54.000Z",
+  "pushedAt": "2016-06-28T13:46:16.000Z",
+  "homepage": null,
+  "size": 114,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "Robert Schuh",
-  "license": "UNLICENSED",
-  "devDependencies": {
-    "electron-prebuilt": "^0.37.5"
+  "license": null,
+  "networkCount": 2,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "eow",
+    "version": "0.1.042",
+    "description": "Widgets styled like EVE Online",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron --enable-blink-features=CSSVariables --enable-transparent-visuals --disable-gpu main.js"
+    },
+    "author": "Robert Schuh",
+    "license": "UNLICENSED",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.5"
+    },
+    "dependencies": {
+      "js-git": "^0.7.7",
+      "js-github": "^1.0.0"
+    }
   },
-  "dependencies": {
-    "js-git": "^0.7.7",
-    "js-github": "^1.0.0"
-  }
+  "packageStatus": 200
 }

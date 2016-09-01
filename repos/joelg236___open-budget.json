@@ -1,67 +1,87 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "joelg236/open-budget",
-    "description": "YNAB4 inspired native budget setting & monitoring app w/ focus on FI",
-    "fork": false,
-    "created_at": "2016-06-05T19:17:31.000Z",
-    "updated_at": "2016-06-11T19:16:52.605Z",
-    "pushed_at": "2016-06-11T19:08:27.000Z",
-    "homepage": null,
-    "size": 20,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": false,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 3,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 60476555,
-    "source_name": null,
-    "license": "GPL-3.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-11T19:11:28.216Z",
-    "rank": null
-  },
+  "id": 60476555,
   "name": "open-budget",
-  "version": "0.0.0",
+  "fullName": "joelgallant/open-budget",
+  "owner": {
+    "login": "joelgallant",
+    "id": 1429994,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1429994?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/joelgallant",
+    "htmlUrl": "https://github.com/joelgallant",
+    "followersUrl": "https://api.github.com/users/joelgallant/followers",
+    "subscriptionsUrl": "https://api.github.com/users/joelgallant/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/joelgallant/orgs",
+    "reposUrl": "https://api.github.com/users/joelgallant/repos",
+    "receivedEventsUrl": "https://api.github.com/users/joelgallant/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "YNAB4 inspired native budget setting & monitoring app w/ focus on FI",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js",
-    "lint": "standard",
-    "test": "tape tests/**/*.js"
+  "fork": false,
+  "createdAt": "2016-06-05T19:17:31.000Z",
+  "updatedAt": "2016-06-09T17:38:46.000Z",
+  "pushedAt": "2016-06-26T20:02:20.000Z",
+  "homepage": null,
+  "size": 24,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 4,
+  "openIssues": 4,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/joelg236/open-budget.git"
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "featured": true
   },
-  "keywords": [],
-  "author": "Joel Gallant",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/joelg236/open-budget/issues"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "open-budget",
+    "version": "0.0.0",
+    "description": "YNAB4 inspired native budget setting & monitoring app w/ focus on FI",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "lint": "standard",
+      "test": "tape tests/**/*.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/joelg236/open-budget.git"
+    },
+    "keywords": [],
+    "author": "Joel Gallant",
+    "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/joelg236/open-budget/issues"
+    },
+    "homepage": "https://github.com/joelg236/open-budget#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.2",
+      "standard": "^7.0.0",
+      "tape": "^4.6"
+    },
+    "dependencies": {
+      "electron-config": "^0.1.1",
+      "electron-pug": "^1.5.1",
+      "electron-stylus": "^0.1.1"
+    }
   },
-  "homepage": "https://github.com/joelg236/open-budget#readme",
-  "devDependencies": {
-    "electron-prebuilt": "^1.2.2",
-    "standard": "^7.0.0",
-    "tape": "^4.6"
-  },
-  "dependencies": {
-    "electron-config": "^0.1.1",
-    "electron-pug": "^1.5.1",
-    "electron-stylus": "^0.1.1"
-  }
+  "packageStatus": 200
 }

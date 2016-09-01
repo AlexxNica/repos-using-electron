@@ -1,73 +1,93 @@
 {
+  "id": 53660023,
   "name": "electron-image-resize",
-  "version": "1.2.2",
+  "fullName": "davej/electron-image-resize",
+  "owner": {
+    "login": "davej",
+    "id": 26971,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/26971?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/davej",
+    "htmlUrl": "https://github.com/davej",
+    "followersUrl": "https://api.github.com/users/davej/followers",
+    "subscriptionsUrl": "https://api.github.com/users/davej/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/davej/orgs",
+    "reposUrl": "https://api.github.com/users/davej/repos",
+    "receivedEventsUrl": "https://api.github.com/users/davej/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Resize images using Electron. Supports all image types that Chromium/Electron supports, outputs to png, jpeg, dataUrl or NativeImage.",
-  "license": "MIT",
-  "repository": "davej/electron-image-resize",
-  "author": {
-    "name": "DaveJ",
-    "email": "dave@davejeffery.com",
-    "url": "twitter.com/DaveJ"
+  "fork": false,
+  "createdAt": "2016-03-11T10:40:16.000Z",
+  "updatedAt": "2016-07-19T11:13:52.000Z",
+  "pushedAt": "2016-07-06T14:30:47.000Z",
+  "homepage": null,
+  "size": 157,
+  "stargazersCount": 5,
+  "watchersCount": 5,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 5,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "engines": {
-    "node": ">=4"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "scripts": {
-    "example": "electron example/simple.js"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "electron",
-    "screenshot",
-    "resize",
-    "image",
-    "png",
-    "jpg",
-    "jpeg",
-    "chromium"
-  ],
-  "dependencies": {},
-  "devDependencies": {
-    "electron-prebuilt": "^1.2.6",
-    "eslint": "^2.9.0",
-    "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-import": "^1.10.2"
-  },
-  "_librariesioMetadata": {
-    "full_name": "davej/electron-image-resize",
+  "networkCount": 2,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-image-resize",
+    "version": "1.2.2",
     "description": "Resize images using Electron. Supports all image types that Chromium/Electron supports, outputs to png, jpeg, dataUrl or NativeImage.",
-    "fork": false,
-    "created_at": "2016-03-11T10:40:16.000Z",
-    "updated_at": "2016-07-06T14:33:40.372Z",
-    "pushed_at": "2016-07-06T14:30:47.000Z",
-    "homepage": null,
-    "size": 162,
-    "stargazers_count": 4,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 2,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 3,
-    "github_id": 53660023,
-    "source_name": null,
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-06T14:33:40.349Z",
-    "rank": null
-  }
+    "repository": "davej/electron-image-resize",
+    "author": {
+      "name": "DaveJ",
+      "email": "dave@davejeffery.com",
+      "url": "twitter.com/DaveJ"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "scripts": {
+      "example": "electron example/simple.js"
+    },
+    "files": [
+      "index.js"
+    ],
+    "keywords": [
+      "electron",
+      "screenshot",
+      "resize",
+      "image",
+      "png",
+      "jpg",
+      "jpeg",
+      "chromium"
+    ],
+    "dependencies": {},
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.6",
+      "eslint": "^2.9.0",
+      "eslint-config-airbnb": "^9.0.1",
+      "eslint-plugin-import": "^1.10.2"
+    }
+  },
+  "packageStatus": 200
 }

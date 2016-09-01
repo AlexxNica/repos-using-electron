@@ -1,71 +1,91 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "juliancantillo/electron_notes",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-02-12T14:22:30.000Z",
-    "updated_at": "2016-05-28T02:23:23.798Z",
-    "pushed_at": "2016-02-12T21:54:25.000Z",
-    "homepage": null,
-    "size": 558,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 51592022,
-    "source_name": null,
+  "id": 51592022,
+  "name": "electron_notes",
+  "fullName": "juliancantillo/electron_notes",
+  "owner": {
+    "login": "juliancantillo",
+    "id": 1072454,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1072454?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/juliancantillo",
+    "htmlUrl": "https://github.com/juliancantillo",
+    "followersUrl": "https://api.github.com/users/juliancantillo/followers",
+    "subscriptionsUrl": "https://api.github.com/users/juliancantillo/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/juliancantillo/orgs",
+    "reposUrl": "https://api.github.com/users/juliancantillo/repos",
+    "receivedEventsUrl": "https://api.github.com/users/juliancantillo/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2016-02-12T14:22:30.000Z",
+  "updatedAt": "2016-02-12T14:23:20.000Z",
+  "pushedAt": "2016-02-12T21:54:25.000Z",
+  "homepage": null,
+  "size": 558,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "cc0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "spdxId": "CC0-1.0",
+    "url": "https://api.github.com/licenses/cc0-1.0",
+    "featured": false
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "test": "karma init karma.conf.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
     "license": "CC0-1.0",
-    "private": false,
-    "github_contributions_count": 14,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T02:23:23.777Z",
-    "rank": null
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/atom/electron-quick-start#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0",
+      "jasmine": "^2.4.1",
+      "karma": "^0.13.19",
+      "karma-chrome-launcher": "^0.2.2",
+      "karma-firefox-launcher": "^0.1.7",
+      "karma-ie-launcher": "^0.2.0",
+      "karma-jasmine": "^0.3.7",
+      "karma-requirejs": "^0.2.4"
+    }
   },
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js",
-    "test": "karma init karma.conf.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/atom/electron-quick-start.git"
-  },
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/atom/electron-quick-start/issues"
-  },
-  "homepage": "https://github.com/atom/electron-quick-start#readme",
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.0",
-    "jasmine": "^2.4.1",
-    "karma": "^0.13.19",
-    "karma-chrome-launcher": "^0.2.2",
-    "karma-firefox-launcher": "^0.1.7",
-    "karma-ie-launcher": "^0.2.0",
-    "karma-jasmine": "^0.3.7",
-    "karma-requirejs": "^0.2.4"
-  }
+  "packageStatus": 200
 }

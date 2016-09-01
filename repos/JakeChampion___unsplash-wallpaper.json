@@ -1,57 +1,71 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "JakeChampion/unsplash-wallpaper",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-05-18T20:59:09.000Z",
-    "updated_at": "2016-05-18T21:00:26.000Z",
-    "pushed_at": "2016-05-19T21:29:48.000Z",
-    "homepage": null,
-    "size": 94,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 59150838,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-18T21:03:09.848Z",
-    "rank": null
+  "id": 59150838,
+  "name": "unsplash-wallpaper",
+  "fullName": "JakeChampion/unsplash-wallpaper",
+  "owner": {
+    "login": "JakeChampion",
+    "id": 1569131,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1569131?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/JakeChampion",
+    "htmlUrl": "https://github.com/JakeChampion",
+    "followersUrl": "https://api.github.com/users/JakeChampion/followers",
+    "subscriptionsUrl": "https://api.github.com/users/JakeChampion/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/JakeChampion/orgs",
+    "reposUrl": "https://api.github.com/users/JakeChampion/repos",
+    "receivedEventsUrl": "https://api.github.com/users/JakeChampion/received_events",
+    "type": "User"
   },
-  "name": "unsplash-menubar-app",
-  "version": "1.1.0",
-  "description": "unsplash menubar electron app",
-  "dependencies": {
-    "auto-launch": "^2.0.1",
-    "menubar": "*",
-    "mkdirp": "^0.5.1",
-    "request": "^2.72.0",
-    "user-home": "^2.0.0",
-    "wallpaper": "^2.1.1"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2016-05-18T20:59:09.000Z",
+  "updatedAt": "2016-06-09T08:01:01.000Z",
+  "pushedAt": "2016-05-19T21:29:48.000Z",
+  "homepage": null,
+  "size": 94,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-packager": "^5.1.0",
-    "electron-prebuilt": "^0.36.0"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "unsplash-menubar-app",
+    "version": "1.1.0",
+    "description": "unsplash menubar electron app",
+    "dependencies": {
+      "auto-launch": "^2.0.1",
+      "menubar": "*",
+      "mkdirp": "^0.5.1",
+      "request": "^2.72.0",
+      "user-home": "^2.0.0",
+      "wallpaper": "^2.1.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.36.0"
+    },
+    "main": "main.js",
+    "scripts": {
+      "build": "electron-packager . Unsplash-wallpaper --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns --overwrite",
+      "start": "electron ."
+    }
   },
-  "main": "main.js",
-  "scripts": {
-    "build": "electron-packager . Unsplash-wallpaper --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns --overwrite",
-    "start": "electron ."
-  }
+  "packageStatus": 200
 }

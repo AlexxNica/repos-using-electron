@@ -1,72 +1,92 @@
 {
+  "id": 54805892,
   "name": "selemene",
-  "version": "0.1.0",
-  "main": "main.js",
-  "homepage": "https://github.com/mozamimy/selemene",
-  "author": {
-    "name": "Moza USANE",
-    "email": "mozamimy@quellencode.org"
+  "fullName": "mozamimy/selemene",
+  "owner": {
+    "login": "mozamimy",
+    "id": 1119006,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1119006?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mozamimy",
+    "htmlUrl": "https://github.com/mozamimy",
+    "followersUrl": "https://api.github.com/users/mozamimy/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mozamimy/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mozamimy/orgs",
+    "reposUrl": "https://api.github.com/users/mozamimy/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mozamimy/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mozamimy/selemene.git"
+  "private": false,
+  "description": "Your inventory of animated gifs for LGTM.",
+  "fork": false,
+  "createdAt": "2016-03-27T00:36:10.000Z",
+  "updatedAt": "2016-05-05T01:41:18.000Z",
+  "pushedAt": "2016-04-29T02:37:25.000Z",
+  "homepage": "",
+  "size": 24,
+  "stargazersCount": 5,
+  "watchersCount": 5,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 5,
+  "defaultBranch": "develop",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "bugs": {
-    "url": "https://github.com/mozamimy/selemene/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "license": "MIT",
-  "devDependencies": {
-    "electron-prebuilt": "x.x",
-    "electron-packager": "x.x",
-    "gulp": "x.x",
-    "gulp-babel": "x.x",
-    "gulp-load-plugins": "x.x",
-    "gulp-sass": "x.x",
-    "babel-preset-es2015": "x.x",
-    "node-rest-client": "x.x",
-    "copy-paste": "x.x"
-  },
-  "peerDependencies": {
-    "electron-prebuilt": "x.x",
-    "node-rest-client": "x.x"
-  },
-  "scripts": {
-    "build": "electron-packager . selemene --platform=darwin,win32,linux --arch=x64",
-    "compile": "gulp compile"
-  },
-  "_librariesioMetadata": {
-    "full_name": "mozamimy/selemene",
-    "description": "Your inventory of animated gif for LGTM.",
-    "fork": false,
-    "created_at": "2016-03-27T00:36:10.000Z",
-    "updated_at": "2016-05-05T01:41:19.992Z",
-    "pushed_at": "2016-04-26T14:40:20.000Z",
-    "homepage": null,
-    "size": 22,
-    "stargazers_count": 5,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "develop",
-    "subscribers_count": 1,
-    "github_id": 54805892,
-    "source_name": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "selemene",
+    "version": "0.1.0",
+    "main": "main.js",
+    "homepage": "https://github.com/mozamimy/selemene",
+    "author": {
+      "name": "Moza USANE",
+      "email": "mozamimy@quellencode.org"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mozamimy/selemene.git"
+    },
+    "bugs": {
+      "url": "https://github.com/mozamimy/selemene/issues"
+    },
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.txt",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "devDependencies": {
+      "electron-prebuilt": "x.x",
+      "electron-packager": "x.x",
+      "gulp": "x.x",
+      "gulp-babel": "x.x",
+      "gulp-load-plugins": "x.x",
+      "gulp-sass": "x.x",
+      "babel-preset-es2015": "x.x",
+      "node-rest-client": "x.x",
+      "copy-paste": "x.x"
+    },
+    "peerDependencies": {
+      "electron-prebuilt": "x.x",
+      "node-rest-client": "x.x"
+    },
+    "scripts": {
+      "build": "electron-packager . selemene --platform=darwin,win32,linux --arch=x64",
+      "compile": "gulp compile"
+    }
+  },
+  "packageStatus": 200
 }

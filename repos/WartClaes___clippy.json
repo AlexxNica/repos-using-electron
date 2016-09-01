@@ -1,59 +1,79 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "WartClaes/clippy",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-01-11T18:24:37.000Z",
-    "updated_at": "2016-05-28T00:39:52.514Z",
-    "pushed_at": "2016-01-11T20:03:27.000Z",
-    "homepage": null,
-    "size": 39711,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 49445340,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T00:39:52.493Z",
-    "rank": null
-  },
+  "id": 49445340,
   "name": "clippy",
-  "version": "0.0.1",
+  "fullName": "WartClaes/clippy",
+  "owner": {
+    "login": "WartClaes",
+    "id": 636133,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/636133?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/WartClaes",
+    "htmlUrl": "https://github.com/WartClaes",
+    "followersUrl": "https://api.github.com/users/WartClaes/followers",
+    "subscriptionsUrl": "https://api.github.com/users/WartClaes/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/WartClaes/orgs",
+    "reposUrl": "https://api.github.com/users/WartClaes/repos",
+    "receivedEventsUrl": "https://api.github.com/users/WartClaes/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js"
+  "fork": false,
+  "createdAt": "2016-01-11T18:24:37.000Z",
+  "updatedAt": "2016-01-11T21:42:24.000Z",
+  "pushedAt": "2016-01-11T20:03:27.000Z",
+  "homepage": null,
+  "size": 39711,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WartClaes/clippy.git"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/WartClaes/clippy/issues"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "clippy",
+    "version": "0.0.1",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/WartClaes/clippy.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/WartClaes/clippy/issues"
+    },
+    "homepage": "https://github.com/WartClaes/clippy#readme",
+    "dependencies": {
+      "electron-prebuilt": "^0.36.3",
+      "fix-path": "^1.1.0",
+      "shelljs": "^0.5.3"
+    }
   },
-  "homepage": "https://github.com/WartClaes/clippy#readme",
-  "dependencies": {
-    "electron-prebuilt": "^0.36.3",
-    "fix-path": "^1.1.0",
-    "shelljs": "^0.5.3"
-  }
+  "packageStatus": 200
 }

@@ -1,85 +1,105 @@
 {
-  "name": "tilectron",
-  "version": "0.0.5",
-  "description": "Tiling window browser built on Electron",
-  "main": "build/browser/main.js",
-  "bin": {
-    "tilectron": "./bin/cli.js"
+  "id": 44115417,
+  "name": "Tilectron",
+  "fullName": "rhysd/Tilectron",
+  "owner": {
+    "login": "rhysd",
+    "id": 823277,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/823277?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/rhysd",
+    "htmlUrl": "https://github.com/rhysd",
+    "followersUrl": "https://api.github.com/users/rhysd/followers",
+    "subscriptionsUrl": "https://api.github.com/users/rhysd/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/rhysd/orgs",
+    "reposUrl": "https://api.github.com/users/rhysd/repos",
+    "receivedEventsUrl": "https://api.github.com/users/rhysd/received_events",
+    "type": "User"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "private": false,
+  "description": "Tiling window browser built on Electron.",
+  "fork": false,
+  "createdAt": "2015-10-12T15:12:04.000Z",
+  "updatedAt": "2016-05-09T00:20:18.000Z",
+  "pushedAt": "2015-11-07T17:09:26.000Z",
+  "homepage": null,
+  "size": 364,
+  "stargazersCount": 15,
+  "watchersCount": 15,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 15,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rhysd/Tilectron.git"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "keywords": [
-    "browser",
-    "electron",
-    "tile",
-    "window"
-  ],
-  "author": "rhysd <lin90162@yahoo.co.jp>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rhysd/Tilectron/issues"
-  },
-  "homepage": "https://github.com/rhysd/Tilectron#readme",
-  "dependencies": {
-    "dexie": "^1.2.0",
-    "electron-cookies": "^1.1.0",
-    "font-awesome": "^4.4.0",
-    "immutable": "^3.7.5",
-    "mousetrap": "^1.5.3",
-    "react": "^0.14.2",
-    "react-dom": "^0.14.2",
-    "react-redux": "^3.1.0",
-    "redux": "^3.0.2"
-  },
-  "devDependencies": {
-    "babelify": "^6.3.0",
-    "browserify": "^11.2.0",
-    "chai": "^3.4.0",
-    "electron-mocha": "^0.5.1",
-    "electron-prebuilt": "^0.33.7",
-    "eslint": "^1.8.0",
-    "eslint-plugin-mocha": "^1.0.0",
-    "react-addons-test-utils": "^0.14.2",
-    "typescript": "^1.6.2"
-  },
-  "_librariesioMetadata": {
-    "full_name": "rhysd/Tilectron",
-    "description": "Tiling window browser built on Electron.",
-    "fork": false,
-    "created_at": "2015-10-12T15:12:04.000Z",
-    "updated_at": "2016-05-27T18:31:23.670Z",
-    "pushed_at": "2015-11-07T17:09:26.000Z",
-    "homepage": null,
-    "size": 364,
-    "stargazers_count": 15,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 2,
-    "mirror_url": null,
-    "open_issues_count": 2,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 44115417,
-    "source_name": null,
+  "networkCount": 2,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "tilectron",
+    "version": "0.0.5",
+    "description": "Tiling window browser built on Electron",
+    "main": "build/browser/main.js",
+    "bin": {
+      "tilectron": "./bin/cli.js"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rhysd/Tilectron.git"
+    },
+    "keywords": [
+      "browser",
+      "electron",
+      "tile",
+      "window"
+    ],
+    "author": "rhysd <lin90162@yahoo.co.jp>",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.txt",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T18:31:23.649Z",
-    "rank": null
-  }
+    "bugs": {
+      "url": "https://github.com/rhysd/Tilectron/issues"
+    },
+    "homepage": "https://github.com/rhysd/Tilectron#readme",
+    "dependencies": {
+      "dexie": "^1.2.0",
+      "electron-cookies": "^1.1.0",
+      "font-awesome": "^4.4.0",
+      "immutable": "^3.7.5",
+      "mousetrap": "^1.5.3",
+      "react": "^0.14.2",
+      "react-dom": "^0.14.2",
+      "react-redux": "^3.1.0",
+      "redux": "^3.0.2"
+    },
+    "devDependencies": {
+      "babelify": "^6.3.0",
+      "browserify": "^11.2.0",
+      "chai": "^3.4.0",
+      "electron-mocha": "^0.5.1",
+      "electron-prebuilt": "^0.33.7",
+      "eslint": "^1.8.0",
+      "eslint-plugin-mocha": "^1.0.0",
+      "react-addons-test-utils": "^0.14.2",
+      "typescript": "^1.6.2"
+    }
+  },
+  "packageStatus": 200
 }

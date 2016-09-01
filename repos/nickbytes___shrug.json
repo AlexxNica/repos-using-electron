@@ -1,52 +1,66 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "nickbytes/shrug",
-    "description": "Menubar app for ¯\\_(ツ)_/¯",
-    "fork": false,
-    "created_at": "2015-09-11T21:56:32.000Z",
-    "updated_at": "2016-04-05T09:12:01.389Z",
-    "pushed_at": "2015-09-27T17:30:17.000Z",
-    "homepage": null,
-    "size": 35296,
-    "stargazers_count": 1,
-    "language": "Objective-C",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 42334096,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 0,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+  "id": 42334096,
+  "name": "shrug",
+  "fullName": "nickbytes/shrug",
+  "owner": {
+    "login": "nickbytes",
+    "id": 3009331,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3009331?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/nickbytes",
+    "htmlUrl": "https://github.com/nickbytes",
+    "followersUrl": "https://api.github.com/users/nickbytes/followers",
+    "subscriptionsUrl": "https://api.github.com/users/nickbytes/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/nickbytes/orgs",
+    "reposUrl": "https://api.github.com/users/nickbytes/repos",
+    "receivedEventsUrl": "https://api.github.com/users/nickbytes/received_events",
+    "type": "User"
   },
-  "name": "shrug-menubar-app",
-  "version": "1.0.0",
-  "description": "Shrug menubar electron app",
-  "dependencies": {
-    "menubar": "*"
+  "private": false,
+  "description": "Menubar app for ¯\\_(ツ)_/¯",
+  "fork": false,
+  "createdAt": "2015-09-11T21:56:32.000Z",
+  "updatedAt": "2016-08-08T22:23:12.000Z",
+  "pushedAt": "2015-09-27T17:30:17.000Z",
+  "homepage": null,
+  "size": 35296,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "Objective-C",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-packager": "^5.0.1",
-    "electron-prebuilt": "0.30.3"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "shrug-menubar-app",
+    "version": "1.0.0",
+    "description": "Shrug menubar electron app",
+    "dependencies": {
+      "menubar": "*"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "0.30.3"
+    },
+    "main": "main.js",
+    "scripts": {
+      "build": "electron-packager . Shrug --platform=darwin --arch=x64 --version=0.30.3 --ignore=node_modules/electron --icon=Icon.icns",
+      "start": "electron ."
+    }
   },
-  "main": "main.js",
-  "scripts": {
-    "build": "electron-packager . Shrug --platform=darwin --arch=x64 --version=0.30.3 --ignore=node_modules/electron --icon=Icon.icns",
-    "start": "electron ."
-  }
+  "packageStatus": 200
 }

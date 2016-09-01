@@ -1,61 +1,81 @@
 {
-  "name": "filewatcher",
-  "version": "0.0.1",
-  "description": "monitor de arquivos",
-  "main": "main.js",
-  "scripts": {
-    "start": "npm install && electron ./app",
-    "pack": "build",
-    "dist": "build"
+  "id": 55091626,
+  "name": "electron-filewatcher",
+  "fullName": "warnoleto/electron-filewatcher",
+  "owner": {
+    "login": "warnoleto",
+    "id": 2466713,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2466713?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/warnoleto",
+    "htmlUrl": "https://github.com/warnoleto",
+    "followersUrl": "https://api.github.com/users/warnoleto/followers",
+    "subscriptionsUrl": "https://api.github.com/users/warnoleto/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/warnoleto/orgs",
+    "reposUrl": "https://api.github.com/users/warnoleto/repos",
+    "receivedEventsUrl": "https://api.github.com/users/warnoleto/received_events",
+    "type": "User"
   },
-  "author": "warley noleto",
-  "license": "ISC",
-  "build": {
-    "win": {
-      "noMsi": true
+  "private": false,
+  "description": "desktop app using electron node package to monitor files in folders",
+  "fork": false,
+  "createdAt": "2016-03-30T19:32:41.000Z",
+  "updatedAt": "2016-04-26T19:58:42.000Z",
+  "pushedAt": "2016-08-04T17:54:12.000Z",
+  "homepage": null,
+  "size": 387,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 1,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "filewatcher",
+    "version": "0.0.1",
+    "description": "monitor de arquivos",
+    "main": "main.js",
+    "scripts": {
+      "start": "npm install && electron ./app",
+      "pack": "build",
+      "dist": "build"
+    },
+    "author": "warley noleto",
+    "license": "ISC",
+    "build": {
+      "win": {
+        "noMsi": true
+      }
+    },
+    "devDependencies": {
+      "electron-builder": "^2.10.1",
+      "electron-prebuilt": "^0.37.2"
+    },
+    "dependencies": {
+      "xml4js": "^0.1.3",
+      "xsd-schema-validator": "^0.3.1"
     }
   },
-  "devDependencies": {
-    "electron-builder": "^2.10.1",
-    "electron-prebuilt": "^0.37.2"
-  },
-  "dependencies": {
-    "xml4js": "^0.1.3",
-    "xsd-schema-validator": "^0.3.1"
-  },
-  "_librariesioMetadata": {
-    "full_name": "warnoleto/electron-filewatcher",
-    "description": "desktop app using electron node package to monitor files in folders",
-    "fork": false,
-    "created_at": "2016-03-30T19:32:41.000Z",
-    "updated_at": "2016-03-30T20:28:48.947Z",
-    "pushed_at": "2016-03-30T20:24:33.000Z",
-    "homepage": null,
-    "size": 385,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 0,
-    "github_id": 55091626,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "packageStatus": 200
 }

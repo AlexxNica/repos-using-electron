@@ -1,63 +1,77 @@
 {
-  "name": "MediaGallery",
-  "version": "1.0.0",
-  "description": "An Electron-based image and video viewer",
-  "main": "main.js",
-  "scripts": {
-    "build": "tsc",
-    "prestart": "npm run build",
-    "start": "electron main.js",
-    "dist-win32-x64": "npm run build && electron-packager . --out=dist --platform=win32 --arch=x64 --overwrite",
-    "dist-all": "npm run build && electron-packager . --out=dist --platform=all --arch=all --overwrite"
+  "id": 58825352,
+  "name": "MediaGallery-electron",
+  "fullName": "steve-perkins/MediaGallery-electron",
+  "owner": {
+    "login": "steve-perkins",
+    "id": 3734297,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3734297?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/steve-perkins",
+    "htmlUrl": "https://github.com/steve-perkins",
+    "followersUrl": "https://api.github.com/users/steve-perkins/followers",
+    "subscriptionsUrl": "https://api.github.com/users/steve-perkins/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/steve-perkins/orgs",
+    "reposUrl": "https://api.github.com/users/steve-perkins/repos",
+    "receivedEventsUrl": "https://api.github.com/users/steve-perkins/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+TODO"
-  },
-  "keywords": [],
-  "author": "Steve Perkins",
-  "license": "MIT",
-  "bugs": {
-    "url": ""
-  },
+  "private": false,
+  "description": "A media viewer desktop application, written to explore Electron and TypeScript development.",
+  "fork": false,
+  "createdAt": "2016-05-14T19:06:05.000Z",
+  "updatedAt": "2016-08-13T07:49:24.000Z",
+  "pushedAt": "2016-05-29T21:18:17.000Z",
   "homepage": "",
-  "devDependencies": {
-    "electron-prebuilt": "^1.0.1",
-    "electron-packager": "^7.0.1"
+  "size": 86,
+  "stargazersCount": 13,
+  "watchersCount": 13,
+  "language": "TypeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 3,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 13,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "_librariesioMetadata": {
-    "full_name": "steve-perkins/MediaGallery-electron",
-    "description": "A media viewer desktop application, written to explore Electron and TypeScript development.",
-    "fork": false,
-    "created_at": "2016-05-14T19:06:05.000Z",
-    "updated_at": "2016-08-02T17:42:46.528Z",
-    "pushed_at": "2016-05-29T21:18:17.000Z",
+  "license": null,
+  "networkCount": 3,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "MediaGallery",
+    "version": "1.0.0",
+    "description": "An Electron-based image and video viewer",
+    "main": "main.js",
+    "scripts": {
+      "build": "tsc",
+      "prestart": "npm run build",
+      "start": "electron main.js",
+      "dist-win32-x64": "npm run build && electron-packager . --out=dist --platform=win32 --arch=x64 --overwrite",
+      "dist-all": "npm run build && electron-packager . --out=dist --platform=all --arch=all --overwrite"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+TODO"
+    },
+    "keywords": [],
+    "author": "Steve Perkins",
+    "license": "MIT",
+    "bugs": {
+      "url": ""
+    },
     "homepage": "",
-    "size": 86,
-    "stargazers_count": 11,
-    "language": "TypeScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 3,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 58825352,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-29T15:34:19.545Z",
-    "rank": null
-  }
+    "devDependencies": {
+      "electron-prebuilt": "^1.0.1",
+      "electron-packager": "^7.0.1"
+    }
+  },
+  "packageStatus": 200
 }

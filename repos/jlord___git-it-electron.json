@@ -1,84 +1,104 @@
 {
+  "id": 35256589,
   "name": "git-it-electron",
-  "version": "4.2.0",
-  "description": "An open source desktop app for learning Git and GitHub",
-  "keywords": [
-    "Git",
-    "GitHub",
-    "Git-it",
-    "tutorial",
-    "guide",
-    "learn",
-    "desktop"
-  ],
-  "productName": "Git-it",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-    "test": "standard **/*.js",
-    "build-chals": "node lib/build-challenges.js",
-    "build-pages": "node lib/build-pages.js",
-    "build-zhtw": "node lib/build-challenges.js zhtw",
-    "build-ja": "node lib/build-challenges.js ja",
-    "build-all": "npm run build-chals && npm run build-pages && npm run build-zhtw && npm run build-ja",
-    "pack-mac": "electron-packager . Git-it --platform=darwin --arch=x64   --icon=assets/git-it.icns --overwrite --ignore=/out/ --ignore=assets/PortableGit --prune=true --out=out",
-    "pack-lin": "electron-packager . Git-it --platform=linux  --arch=x64   --icon=assets/git-it.png  --overwrite --ignore=/out/ --ignore=assets/PortableGit --prune=true --out=out",
-    "pack-win": "electron-packager . Git-it --platform=win32  --arch=ia32  --icon=assets/git-it.ico  --overwrite --ignore=/out/ --prune=true --out=out "
+  "fullName": "jlord/git-it-electron",
+  "owner": {
+    "login": "jlord",
+    "id": 1305617,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1305617?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/jlord",
+    "htmlUrl": "https://github.com/jlord",
+    "followersUrl": "https://api.github.com/users/jlord/followers",
+    "subscriptionsUrl": "https://api.github.com/users/jlord/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/jlord/orgs",
+    "reposUrl": "https://api.github.com/users/jlord/repos",
+    "receivedEventsUrl": "https://api.github.com/users/jlord/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jlord/git-it-electron.git"
+  "private": false,
+  "description": ":computer: :mortar_board: A Git-it Desktop App",
+  "fork": false,
+  "createdAt": "2015-05-08T03:27:37.000Z",
+  "updatedAt": "2016-08-15T01:18:46.000Z",
+  "pushedAt": "2016-08-08T16:29:24.000Z",
+  "homepage": "",
+  "size": 86068,
+  "stargazersCount": 658,
+  "watchersCount": 658,
+  "language": "Perl",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 126,
+  "openIssuesCount": 16,
+  "openIssues": 16,
+  "watchers": 658,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "Jessica Lord",
-  "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/jlord/git-it-electron/issues"
+  "license": {
+    "key": "bsd-2-clause",
+    "name": "BSD 2-clause \"Simplified\" License",
+    "spdxId": "BSD-2-Clause",
+    "url": "https://api.github.com/licenses/bsd-2-clause",
+    "featured": false
   },
-  "homepage": "https://github.com/jlord/git-it-electron",
-  "devDependencies": {
-    "electron-packager": "^7.0.0",
-    "electron-prebuilt": "^1.2.6",
-    "standard": "^5.4.1"
-  },
-  "dependencies": {
-    "cheerio": "^0.19.0",
-    "glob": "^5.0.5",
-    "handlebars": "^3.0.3",
-    "request": "^2.57.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "jlord/git-it-electron",
-    "description": ":computer: :mortar_board: A Git-it Desktop App",
-    "fork": false,
-    "created_at": "2015-05-08T03:27:37.000Z",
-    "updated_at": "2016-08-07T04:25:32.812Z",
-    "pushed_at": "2016-07-08T04:32:53.000Z",
-    "homepage": "",
-    "size": 86072,
-    "stargazers_count": 647,
-    "language": "Perl",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 124,
-    "mirror_url": null,
-    "open_issues_count": 15,
-    "default_branch": "master",
-    "subscribers_count": 44,
-    "github_id": 35256589,
-    "source_name": null,
+  "networkCount": 126,
+  "subscribersCount": 45,
+  "status": 200,
+  "packageJSON": {
+    "name": "git-it-electron",
+    "version": "4.2.0",
+    "description": "An open source desktop app for learning Git and GitHub",
+    "keywords": [
+      "Git",
+      "GitHub",
+      "Git-it",
+      "tutorial",
+      "guide",
+      "learn",
+      "desktop"
+    ],
+    "productName": "Git-it",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "standard **/*.js",
+      "build-chals": "node lib/build-challenges.js",
+      "build-pages": "node lib/build-pages.js",
+      "build-zhtw": "node lib/build-challenges.js zhtw",
+      "build-ja": "node lib/build-challenges.js ja",
+      "build-all": "npm run build-chals && npm run build-pages && npm run build-zhtw && npm run build-ja",
+      "pack-mac": "electron-packager . Git-it --platform=darwin --arch=x64   --icon=assets/git-it.icns --overwrite --ignore=/out/ --ignore=assets/PortableGit --prune=true --out=out",
+      "pack-lin": "electron-packager . Git-it --platform=linux  --arch=x64   --icon=assets/git-it.png  --overwrite --ignore=/out/ --ignore=assets/PortableGit --prune=true --out=out",
+      "pack-win": "electron-packager . Git-it --platform=win32  --arch=ia32  --icon=assets/git-it.ico  --overwrite --ignore=/out/ --prune=true --out=out "
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jlord/git-it-electron.git"
+    },
+    "author": "Jessica Lord",
     "license": "BSD-2-Clause",
-    "private": false,
-    "github_contributions_count": 14,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": "CONTRIBUTING.md",
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "bugs": {
+      "url": "https://github.com/jlord/git-it-electron/issues"
+    },
+    "homepage": "https://github.com/jlord/git-it-electron",
+    "devDependencies": {
+      "electron-packager": "^7.0.0",
+      "electron-prebuilt": "^1.2.6",
+      "standard": "^5.4.1"
+    },
+    "dependencies": {
+      "cheerio": "^0.19.0",
+      "glob": "^5.0.5",
+      "handlebars": "^3.0.3",
+      "request": "^2.57.0"
+    }
+  },
+  "packageStatus": 200
 }

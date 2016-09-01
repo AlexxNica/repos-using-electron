@@ -1,66 +1,80 @@
 {
-  "name": "docker-menu",
-  "version": "0.3.0",
-  "private": true,
-  "main": "main.js",
-  "engines": {
-    "node": "4.x"
+  "id": 44616222,
+  "name": "menubar-docker",
+  "fullName": "rdsubhas/menubar-docker",
+  "owner": {
+    "login": "rdsubhas",
+    "id": 1570745,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1570745?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/rdsubhas",
+    "htmlUrl": "https://github.com/rdsubhas",
+    "followersUrl": "https://api.github.com/users/rdsubhas/followers",
+    "subscriptionsUrl": "https://api.github.com/users/rdsubhas/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/rdsubhas/orgs",
+    "reposUrl": "https://api.github.com/users/rdsubhas/repos",
+    "receivedEventsUrl": "https://api.github.com/users/rdsubhas/received_events",
+    "type": "User"
   },
-  "scripts": {
-    "start": "electron .",
-    "test": "standard",
-    "grunt": "grunt"
+  "private": false,
+  "description": "Menubar app for Docker built on Electron",
+  "fork": false,
+  "createdAt": "2015-10-20T15:34:20.000Z",
+  "updatedAt": "2016-06-28T08:23:58.000Z",
+  "pushedAt": "2015-10-30T09:48:09.000Z",
+  "homepage": null,
+  "size": 677,
+  "stargazersCount": 101,
+  "watchersCount": 101,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 6,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 101,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "dependencies": {
-    "bluebird": "^2.10.2",
-    "fix-path": "^1.1.0",
-    "dockerode": "^2.2.3",
-    "lodash": "^3.10.0",
-    "parse-columns": "^1.2.0"
+  "license": null,
+  "networkCount": 6,
+  "subscribersCount": 7,
+  "status": 200,
+  "packageJSON": {
+    "name": "docker-menu",
+    "version": "0.3.0",
+    "private": true,
+    "main": "main.js",
+    "engines": {
+      "node": "4.x"
+    },
+    "scripts": {
+      "start": "electron .",
+      "test": "standard",
+      "grunt": "grunt"
+    },
+    "dependencies": {
+      "bluebird": "^2.10.2",
+      "fix-path": "^1.1.0",
+      "dockerode": "^2.2.3",
+      "lodash": "^3.10.0",
+      "parse-columns": "^1.2.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.1",
+      "grunt": "^0.4.5",
+      "grunt-cli": "^0.1.13",
+      "grunt-contrib-clean": "^0.6.0",
+      "grunt-contrib-copy": "^0.8.2",
+      "grunt-electron": "^2.0.1",
+      "load-grunt-tasks": "^3.3.0",
+      "standard": "^5.3.1"
+    }
   },
-  "devDependencies": {
-    "electron-prebuilt": "^0.34.1",
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-copy": "^0.8.2",
-    "grunt-electron": "^2.0.1",
-    "load-grunt-tasks": "^3.3.0",
-    "standard": "^5.3.1"
-  },
-  "_librariesioMetadata": {
-    "full_name": "rdsubhas/menubar-docker",
-    "description": "Menubar app for Docker built on Electron",
-    "fork": false,
-    "created_at": "2015-10-20T15:34:20.000Z",
-    "updated_at": "2016-06-26T23:45:55.000Z",
-    "pushed_at": "2015-10-30T09:48:09.000Z",
-    "homepage": null,
-    "size": 677,
-    "stargazers_count": 99,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": false,
-    "has_pages": false,
-    "forks_count": 6,
-    "mirror_url": null,
-    "open_issues_count": 2,
-    "default_branch": "master",
-    "subscribers_count": 7,
-    "github_id": 44616222,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 3,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "packageStatus": 200
 }

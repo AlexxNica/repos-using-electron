@@ -1,71 +1,87 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "alice-em/Wonder-Reader",
-    "description": "Comic Book Reader application -- In Development",
-    "fork": false,
-    "created_at": "2016-03-15T17:09:55.000Z",
-    "updated_at": "2016-07-26T19:15:22.073Z",
-    "pushed_at": "2016-07-26T18:45:59.000Z",
-    "homepage": "",
-    "size": 959,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 53963428,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-26T19:15:22.050Z",
-    "rank": null
-  },
+  "id": 53963428,
   "name": "Wonder-Reader",
-  "version": "0.0.9",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron index.js"
+  "fullName": "alice-em/Wonder-Reader",
+  "owner": {
+    "login": "alice-em",
+    "id": 14299528,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/14299528?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/alice-em",
+    "htmlUrl": "https://github.com/alice-em",
+    "followersUrl": "https://api.github.com/users/alice-em/followers",
+    "subscriptionsUrl": "https://api.github.com/users/alice-em/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/alice-em/orgs",
+    "reposUrl": "https://api.github.com/users/alice-em/repos",
+    "receivedEventsUrl": "https://api.github.com/users/alice-em/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alice-em/Wonder-Reader.git"
+  "private": false,
+  "description": "Comic Book Reader application -- In Development",
+  "fork": false,
+  "createdAt": "2016-03-15T17:09:55.000Z",
+  "updatedAt": "2016-07-19T17:13:18.000Z",
+  "pushedAt": "2016-08-12T21:22:16.000Z",
+  "homepage": "",
+  "size": 7209,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alice-em/Wonder-Reader/issues"
+  "license": null,
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "Wonder-Reader",
+    "version": "0.0.10",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/alice-em/Wonder-Reader.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/alice-em/Wonder-Reader/issues"
+    },
+    "homepage": "https://github.com/alice-em/Wonder-Reader#readme",
+    "dependencies": {
+      "directory-exists": "^1.0.1",
+      "ebook-cover-generator": "0.0.9",
+      "extract-zip": "^1.5.0",
+      "get-folder-size": "^1.0.0",
+      "image-size": "^0.5.0",
+      "jquery": "2.2.x",
+      "jquery-ui": "^1.12.0",
+      "mkdirp": "^0.5.1",
+      "node-unrar": "^0.1.5"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "~1.2.0",
+      "grunt": "^1.0.1",
+      "grunt-contrib-sass": "^1.0.0",
+      "grunt-contrib-watch": "^1.0.0"
+    }
   },
-  "homepage": "https://github.com/alice-em/Wonder-Reader#readme",
-  "dependencies": {
-    "ebook-cover-generator": "0.0.9",
-    "extract-zip": "^1.5.0",
-    "image-size": "^0.5.0",
-    "jquery": "2.2.x",
-    "jquery-ui": "^1.12.0",
-    "mkdirp": "^0.5.1",
-    "node-unrar": "^0.1.5"
-  },
-  "devDependencies": {
-    "electron-prebuilt": "~1.2.0",
-    "grunt": "^1.0.1",
-    "grunt-contrib-sass": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0"
-  }
+  "packageStatus": 200
 }

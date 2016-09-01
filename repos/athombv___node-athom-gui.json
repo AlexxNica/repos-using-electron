@@ -1,92 +1,120 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "athombv/node-athom-gui",
-    "description": "Homey Desktop App",
-    "fork": false,
-    "created_at": "2016-05-18T11:45:53.000Z",
-    "updated_at": "2016-07-31T16:30:13.068Z",
-    "pushed_at": "2016-07-16T23:22:08.000Z",
-    "homepage": "https://nuts.athom.com",
-    "size": 2773,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 2,
-    "mirror_url": null,
-    "open_issues_count": 2,
-    "default_branch": "master",
-    "subscribers_count": 3,
-    "github_id": 59110557,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 0,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-18T16:31:46.282Z",
-    "rank": null
+  "id": 59110557,
+  "name": "node-athom-gui",
+  "fullName": "athombv/node-athom-gui",
+  "owner": {
+    "login": "athombv",
+    "id": 8502422,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8502422?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/athombv",
+    "htmlUrl": "https://github.com/athombv",
+    "followersUrl": "https://api.github.com/users/athombv/followers",
+    "subscriptionsUrl": "https://api.github.com/users/athombv/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/athombv/orgs",
+    "reposUrl": "https://api.github.com/users/athombv/repos",
+    "receivedEventsUrl": "https://api.github.com/users/athombv/received_events",
+    "type": "Organization"
   },
-  "version": "0.1.12",
-  "name": "athom-gui",
-  "productName": "Homey",
-  "description": "Homey Desktop Application",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-    "lint": "eslint --fix .",
-    "clean": "rm -rf out",
-    "pretest": "npm run lint",
-    "test": "mocha",
-    "sign-exe": "signcode ./out/Homey-win32-ia32/Homey.exe --cert $ATHOM_GUI_CERT_LOCATION --prompt --name 'Homey' --url 'https://www.athom.com'",
-    "sign-installer": "signcode ./out/windows-installer/HomeySetup.exe --cert $ATHOM_GUI_CERT_LOCATION --prompt --name 'Homey' --url 'https://www.athom.com'",
-    "pack-mac": "electron-packager . --asar --overwrite --platform=darwin --arch=x64 --app-version=$npm_package_version --icon=assets/app-icon/Homey.icns --prune=true --out=out --app-bundle-id=com.athom.gui --app-category-type=public.app-category.productivity --osx-sign.identity='3rd Party Mac Developer Application: Athom B.V. (UMR24L9Q8W)'",
-    "pack-win": "electron-packager . Homey --asar  --overwrite --platform=win32 --arch=ia32 --app-version=$npm_package_version --icon=assets/app-icon/Homey.ico --prune=true --out=out --version-string.CompanyName='Athom B.V.' --version-string.FileDescription='Homey' --version-string.ProductName='Homey'",
-    "pack-linux": "electron-packager . --asar --overwrite --platform=linux --arch=x64 --app-version=$npm_package_version --icon=assets/app-icon/png/72.png --prune=true --out=out",
-    "package": "npm run pack-mac && npm run pack-win",
-    "installer": "node ./script/installer.js",
-    "prepare-release": "npm run package && npm run installer",
-    "release": "node ./script/release.js"
+  "private": false,
+  "description": "Homey Desktop App",
+  "fork": false,
+  "createdAt": "2016-05-18T11:45:53.000Z",
+  "updatedAt": "2016-05-30T13:00:50.000Z",
+  "pushedAt": "2016-07-16T23:22:08.000Z",
+  "homepage": "https://nuts.athom.com",
+  "size": 2773,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/athombv/node-athom-gui.git"
+  "license": null,
+  "organization": {
+    "login": "athombv",
+    "id": 8502422,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8502422?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/athombv",
+    "htmlUrl": "https://github.com/athombv",
+    "followersUrl": "https://api.github.com/users/athombv/followers",
+    "subscriptionsUrl": "https://api.github.com/users/athombv/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/athombv/orgs",
+    "reposUrl": "https://api.github.com/users/athombv/repos",
+    "receivedEventsUrl": "https://api.github.com/users/athombv/received_events",
+    "type": "Organization"
   },
-  "keywords": [
-    "Homey"
-  ],
-  "author": "Athom B.V.",
-  "contributors": [
-    {
-      "name": "Matjaz Lipus"
+  "networkCount": 2,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "version": "0.1.12",
+    "name": "athom-gui",
+    "productName": "Homey",
+    "description": "Homey Desktop Application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "lint": "eslint --fix .",
+      "clean": "rm -rf out",
+      "pretest": "npm run lint",
+      "test": "mocha",
+      "sign-exe": "signcode ./out/Homey-win32-ia32/Homey.exe --cert $ATHOM_GUI_CERT_LOCATION --prompt --name 'Homey' --url 'https://www.athom.com'",
+      "sign-installer": "signcode ./out/windows-installer/HomeySetup.exe --cert $ATHOM_GUI_CERT_LOCATION --prompt --name 'Homey' --url 'https://www.athom.com'",
+      "pack-mac": "electron-packager . --asar --overwrite --platform=darwin --arch=x64 --app-version=$npm_package_version --icon=assets/app-icon/Homey.icns --prune=true --out=out --app-bundle-id=com.athom.gui --app-category-type=public.app-category.productivity --osx-sign.identity='3rd Party Mac Developer Application: Athom B.V. (UMR24L9Q8W)'",
+      "pack-win": "electron-packager . Homey --asar  --overwrite --platform=win32 --arch=ia32 --app-version=$npm_package_version --icon=assets/app-icon/Homey.ico --prune=true --out=out --version-string.CompanyName='Athom B.V.' --version-string.FileDescription='Homey' --version-string.ProductName='Homey'",
+      "pack-linux": "electron-packager . --asar --overwrite --platform=linux --arch=x64 --app-version=$npm_package_version --icon=assets/app-icon/png/72.png --prune=true --out=out",
+      "package": "npm run pack-mac && npm run pack-win",
+      "installer": "node ./script/installer.js",
+      "prepare-release": "npm run package && npm run installer",
+      "release": "node ./script/release.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/athombv/node-athom-gui.git"
+    },
+    "keywords": [
+      "Homey"
+    ],
+    "author": "Athom B.V.",
+    "contributors": [
+      {
+        "name": "Matjaz Lipus"
+      }
+    ],
+    "homepage": "https://github.com/athombv/node-athom-gui#readme",
+    "devDependencies": {
+      "devtron": "^1.0.0",
+      "electron-installer-dmg": "^0.1.1",
+      "electron-packager": "^7.0.1",
+      "electron-prebuilt": "~1.2.5",
+      "electron-winstaller": "^2.2.0",
+      "eslint": "^2.13.1",
+      "eslint-config-athom": "0.0.3",
+      "mocha": "^2.3.4",
+      "request": "^2.70.0",
+      "rimraf": "^2.5.2",
+      "signcode": "^0.5.0",
+      "spectron": "~3.2.3"
+    },
+    "private": true,
+    "standard": {
+      "env": {
+        "mocha": true
+      }
     }
-  ],
-  "homepage": "https://github.com/athombv/node-athom-gui#readme",
-  "devDependencies": {
-    "devtron": "^1.0.0",
-    "electron-installer-dmg": "^0.1.1",
-    "electron-packager": "^7.0.1",
-    "electron-prebuilt": "~1.2.5",
-    "electron-winstaller": "^2.2.0",
-    "eslint": "^2.13.1",
-    "eslint-config-athom": "0.0.3",
-    "mocha": "^2.3.4",
-    "request": "^2.70.0",
-    "rimraf": "^2.5.2",
-    "signcode": "^0.5.0",
-    "spectron": "~3.2.3"
   },
-  "private": true,
-  "standard": {
-    "env": {
-      "mocha": true
-    }
-  }
+  "packageStatus": 200
 }

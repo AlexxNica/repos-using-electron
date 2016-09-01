@@ -1,62 +1,76 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "GitMyCode/electron-aspnet-boilerplate",
-    "description": "",
-    "fork": false,
-    "created_at": "2015-07-25T17:54:03.000Z",
-    "updated_at": "2016-05-28T09:22:57.685Z",
-    "pushed_at": "2015-10-04T05:02:58.000Z",
-    "homepage": null,
-    "size": 5612,
-    "stargazers_count": 0,
-    "language": "C#",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 39696565,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T09:22:57.659Z",
-    "rank": null
-  },
+  "id": 39696565,
   "name": "electron-aspnet-boilerplate",
-  "version": "1.0.0",
+  "fullName": "GitMyCode/electron-aspnet-boilerplate",
+  "owner": {
+    "login": "GitMyCode",
+    "id": 3288428,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3288428?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/GitMyCode",
+    "htmlUrl": "https://github.com/GitMyCode",
+    "followersUrl": "https://api.github.com/users/GitMyCode/followers",
+    "subscriptionsUrl": "https://api.github.com/users/GitMyCode/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/GitMyCode/orgs",
+    "reposUrl": "https://api.github.com/users/GitMyCode/repos",
+    "receivedEventsUrl": "https://api.github.com/users/GitMyCode/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "",
-  "main": "./index.js",
-  "dependencies": {
-    "electron-packager": "^5.1.0",
-    "electron-prebuilt": "^0.33.4",
-    "jquery": "^2.1.4"
+  "fork": false,
+  "createdAt": "2015-07-25T17:54:03.000Z",
+  "updatedAt": "2015-07-25T22:52:27.000Z",
+  "pushedAt": "2015-10-04T05:02:58.000Z",
+  "homepage": null,
+  "size": 5612,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "C#",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {},
-  "scripts": {
-    "start": "electron .",
-    "build": "electron-packager . dist --platform=win32 --arch=x64 --version=0.33.4  --overwrite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-aspnet-boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./index.js",
+    "dependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.33.4",
+      "jquery": "^2.1.4"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . dist --platform=win32 --arch=x64 --version=0.33.4  --overwrite",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gitmycode/electron-aspnet-boilerplate.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/gitmycode/electron-aspnet-boilerplate/issues"
+    },
+    "homepage": "https://github.com/gitmycode/electron-aspnet-boilerplate#readme"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gitmycode/electron-aspnet-boilerplate.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gitmycode/electron-aspnet-boilerplate/issues"
-  },
-  "homepage": "https://github.com/gitmycode/electron-aspnet-boilerplate#readme"
+  "packageStatus": 200
 }

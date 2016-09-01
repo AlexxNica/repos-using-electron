@@ -1,66 +1,94 @@
 {
+  "id": 39422931,
   "name": "electron-jasmine",
-  "appName": "ElectronJasmine",
-  "version": "0.2.0",
-  "main": "main.js",
-  "license": "MIT",
-  "bin": {
-    "electron-jasmine": "cli.sh"
+  "fullName": "electron-archive/electron-jasmine",
+  "owner": {
+    "login": "electron-archive",
+    "id": 18036468,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/18036468?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/electron-archive",
+    "htmlUrl": "https://github.com/electron-archive",
+    "followersUrl": "https://api.github.com/users/electron-archive/followers",
+    "subscriptionsUrl": "https://api.github.com/users/electron-archive/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/electron-archive/orgs",
+    "reposUrl": "https://api.github.com/users/electron-archive/repos",
+    "receivedEventsUrl": "https://api.github.com/users/electron-archive/received_events",
+    "type": "Organization"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/benogle/electron-jasmine.git"
+  "private": false,
+  "description": "Run your jasmine specs in electron",
+  "fork": false,
+  "createdAt": "2015-07-21T03:57:29.000Z",
+  "updatedAt": "2016-07-12T22:33:16.000Z",
+  "pushedAt": "2016-02-20T16:15:49.000Z",
+  "homepage": null,
+  "size": 32,
+  "stargazersCount": 12,
+  "watchersCount": 12,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "openIssuesCount": 4,
+  "openIssues": 4,
+  "watchers": 12,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": true,
+    "push": true,
+    "pull": true
   },
-  "scripts": {
-    "test": "./cli.sh ./spec"
+  "license": null,
+  "organization": {
+    "login": "electron-archive",
+    "id": 18036468,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/18036468?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/electron-archive",
+    "htmlUrl": "https://github.com/electron-archive",
+    "followersUrl": "https://api.github.com/users/electron-archive/followers",
+    "subscriptionsUrl": "https://api.github.com/users/electron-archive/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/electron-archive/orgs",
+    "reposUrl": "https://api.github.com/users/electron-archive/repos",
+    "receivedEventsUrl": "https://api.github.com/users/electron-archive/received_events",
+    "type": "Organization"
   },
-  "devDependencies": {
-    "electron-compile": "^1.0.0",
-    "electron-compilers": "^1.0.1",
-    "electron-prebuilt": "^0.34.2"
+  "networkCount": 2,
+  "subscribersCount": 6,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-jasmine",
+    "appName": "ElectronJasmine",
+    "version": "0.2.0",
+    "main": "main.js",
+    "license": "MIT",
+    "bin": {
+      "electron-jasmine": "cli.sh"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/benogle/electron-jasmine.git"
+    },
+    "scripts": {
+      "test": "./cli.sh ./spec"
+    },
+    "devDependencies": {
+      "electron-compile": "^1.0.0",
+      "electron-compilers": "^1.0.1",
+      "electron-prebuilt": "^0.34.2"
+    },
+    "dependencies": {
+      "async": "^1.4.0",
+      "jasmine": "^2.3.1",
+      "yargs": "^3.15.0"
+    },
+    "peerDependencies": {
+      "electron-compile": "1.x",
+      "electron-prebuilt": "0.x"
+    }
   },
-  "dependencies": {
-    "async": "^1.4.0",
-    "jasmine": "^2.3.1",
-    "yargs": "^3.15.0"
-  },
-  "peerDependencies": {
-    "electron-compile": "1.x",
-    "electron-prebuilt": "0.x"
-  },
-  "_librariesioMetadata": {
-    "full_name": "electron-archive/electron-jasmine",
-    "description": "Run your jasmine specs in electron",
-    "fork": false,
-    "created_at": "2015-07-21T03:57:29.000Z",
-    "updated_at": "2016-07-12T22:33:44.098Z",
-    "pushed_at": "2016-02-20T16:15:49.000Z",
-    "homepage": null,
-    "size": 32,
-    "stargazers_count": 13,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 3,
-    "mirror_url": null,
-    "open_issues_count": 4,
-    "default_branch": "master",
-    "subscribers_count": 6,
-    "github_id": 39422931,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": "CONTRIBUTING.md",
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T17:19:31.068Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

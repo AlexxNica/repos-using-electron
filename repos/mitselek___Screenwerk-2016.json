@@ -1,71 +1,91 @@
 {
-  "name": "Screenwerk2016",
-  "productName": "Screenwerk 2016",
-  "version": "0.1.1-5",
-  "description": "Screenwerk2016",
-  "main": "main.js",
-  "scripts": {
-    "postinstall": "electron app/main.js",
-    "prestart": "git pull",
-    "start": "electron app/main.js"
+  "id": 58459979,
+  "name": "Screenwerk-2016",
+  "fullName": "mitselek/Screenwerk-2016",
+  "owner": {
+    "login": "mitselek",
+    "id": 873710,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/873710?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mitselek",
+    "htmlUrl": "https://github.com/mitselek",
+    "followersUrl": "https://api.github.com/users/mitselek/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mitselek/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mitselek/orgs",
+    "reposUrl": "https://api.github.com/users/mitselek/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mitselek/received_events",
+    "type": "User"
   },
-  "homepage": "https://github.com/mitselek/Screenwerk-2016#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mitselek/Screenwerk-2016.git"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2016-05-10T12:36:35.000Z",
+  "updatedAt": "2016-06-08T11:09:27.000Z",
+  "pushedAt": "2016-08-02T09:15:07.000Z",
+  "homepage": null,
+  "size": 40101,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "bugs": {
-    "url": "https://github.com/mitselek/Screenwerk-2016/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "keywords": [
-    "Electron",
-    "Screenwerk"
-  ],
-  "author": "Mihkel Putrinš",
-  "license": "MIT",
-  "devDependencies": {
-    "electron-prebuilt": "^1.2.0"
-  },
-  "dependencies": {
-    "async": "^2.0.0-rc.5",
-    "debug": "^2.2.0",
-    "later": "^1.2.0",
-    "request": "^2.72.0",
-    "yamljs": "^0.2.7"
-  },
-  "_librariesioMetadata": {
-    "full_name": "mitselek/Screenwerk-2016",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-05-10T12:36:35.000Z",
-    "updated_at": "2016-06-08T11:09:27.000Z",
-    "pushed_at": "2016-06-08T13:58:33.000Z",
-    "homepage": null,
-    "size": 40097,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 5,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 58459979,
-    "source_name": null,
+  "networkCount": 1,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "Screenwerk2016",
+    "productName": "Screenwerk 2016",
+    "version": "0.1.1-5",
+    "description": "Screenwerk2016",
+    "main": "main.js",
+    "scripts": {
+      "postinstall": "electron app/main.js",
+      "prestart": "git pull",
+      "start": "electron app/main.js"
+    },
+    "homepage": "https://github.com/mitselek/Screenwerk-2016#readme",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mitselek/Screenwerk-2016.git"
+    },
+    "bugs": {
+      "url": "https://github.com/mitselek/Screenwerk-2016/issues"
+    },
+    "keywords": [
+      "Electron",
+      "Screenwerk"
+    ],
+    "author": "Mihkel Putrinš",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-08T11:09:44.939Z",
-    "rank": null
-  }
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "async": "^2.0.0-rc.5",
+      "debug": "^2.2.0",
+      "later": "^1.2.0",
+      "request": "^2.72.0",
+      "yamljs": "^0.2.7"
+    }
+  },
+  "packageStatus": 200
 }

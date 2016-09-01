@@ -1,77 +1,99 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "Hermanya/listenable-browser",
-    "description": null,
-    "fork": false,
-    "created_at": "2016-07-30T21:12:24.000Z",
-    "updated_at": "2016-07-31T01:00:26.000Z",
-    "pushed_at": "2016-07-31T20:31:33.000Z",
-    "homepage": "https://github.com/Hermanya/listenable-browser/releases/tag/v1.1.0",
-    "size": 12,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 64564287,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-30T21:13:08.205Z",
-    "rank": null
-  },
+  "id": 64564287,
   "name": "listenable-browser",
-  "productName": "Listenable Browser",
-  "version": "1.1.0",
-  "description": "screen readers suck",
-  "config": {
-    "focus_shortcut": "CommandOrControl+B"
+  "fullName": "Hermanya/listenable-browser",
+  "owner": {
+    "login": "Hermanya",
+    "id": 2906365,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2906365?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Hermanya",
+    "htmlUrl": "https://github.com/Hermanya",
+    "followersUrl": "https://api.github.com/users/Hermanya/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Hermanya/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Hermanya/orgs",
+    "reposUrl": "https://api.github.com/users/Hermanya/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Hermanya/received_events",
+    "type": "User"
   },
-  "main": "how_to/RUNME.js",
-  "scripts": {
-    "start": "electron .",
-    "test": "jest --coverage",
-    "prebuild": "npm run test",
-    "build": "npm run build:macos && npm run build:linux",
-    "build:macos": "electron-packager . --overwrite --asar --out=executables --ignore='^media$' --prune --platform=darwin --arch=x64 --app-bundle-id=io.github.hermanya --app-version=$npm_package_version && cd \"executables/${npm_package_productName}-darwin-x64\" && zip -ryXq9 ../${npm_package_name}-osx-${npm_package_version}.zip \"${npm_package_productName}.app\"",
-    "build:linux": "electron-packager . --overwrite --out=executables --ignore='^media$' --prune --platform=linux --arch=x64 --app-bundle-id=io.github.hermanya --app-version=$npm_package_version && cd \"executables/${npm_package_productName}-linux-x64\" && zip -ryq9 ../${npm_package_name}-linux-${npm_package_version}.zip *",
-    "build:windows": "electron-packager . --overwrite --asar --out=executables --ignore='^media$' --prune --platform=win32 --arch=ia32 --version-string.ProductName=$npm_package_productName --app-version=$npm_package_version && cd executables/${npm_package_name}-win32-ia32 && zip -ryq9 ../${npm_package_name}-windows-${npm_package_version}.zip *"
+  "private": false,
+  "description": null,
+  "fork": false,
+  "createdAt": "2016-07-30T21:12:24.000Z",
+  "updatedAt": "2016-07-31T01:00:26.000Z",
+  "pushedAt": "2016-08-15T04:27:39.000Z",
+  "homepage": "https://github.com/Hermanya/listenable-browser/releases/tag/v1.1.0",
+  "size": 61,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hermanya/listenable-browser.git"
+  "license": null,
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "listenable-browser",
+    "productName": "Listenable Browser",
+    "version": "1.1.0",
+    "description": "screen readers suck",
+    "config": {
+      "focus_shortcut": "CommandOrControl+B"
+    },
+    "main": "how_to/RUNME.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "jest --coverage",
+      "build": "npm run build:macos && npm run build:linux",
+      "build:macos": "electron-packager . --overwrite --asar --out=executables --ignore='^media$' --prune --platform=darwin --arch=x64 --app-bundle-id=io.github.hermanya --app-version=$npm_package_version && cd \"executables/${npm_package_productName}-darwin-x64\" && zip -ryXq9 ../${npm_package_name}-osx-${npm_package_version}.zip \"${npm_package_productName}.app\"",
+      "build:linux": "electron-packager . --overwrite --out=executables --ignore='^media$' --prune --platform=linux --arch=x64 --app-bundle-id=io.github.hermanya --app-version=$npm_package_version && cd \"executables/${npm_package_productName}-linux-x64\" && zip -ryq9 ../${npm_package_name}-linux-${npm_package_version}.zip *",
+      "build:windows": "electron-packager . --overwrite --asar --out=executables --ignore='^media$' --prune --platform=win32 --arch=ia32 --version-string.ProductName=$npm_package_productName --app-version=$npm_package_version && cd executables/${npm_package_name}-win32-ia32 && zip -ryq9 ../${npm_package_name}-windows-${npm_package_version}.zip *"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hermanya/listenable-browser.git"
+    },
+    "author": "Herman Starikov",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/hermanya/listenable-browser/issues"
+    },
+    "homepage": "https://github.com/hermanya/listenable-browser#readme",
+    "devDependencies": {
+      "babel-eslint": "^6.1.2",
+      "coveralls": "^2.11.12",
+      "electron": "^1.3.2",
+      "electron-packager": "^7.5.1",
+      "electron-prebuilt": "^1.2.0",
+      "eslint": "3.1.1",
+      "eslint-loader": "1.4.1",
+      "jest-cli": "^14.0.0"
+    },
+    "dependencies": {
+      "babel-eslint": "^6.1.2",
+      "play-sound": "0.0.9",
+      "say": "^0.9.0"
+    },
+    "jest": {
+      "testRegex": "./how_to/test/.*.js",
+      "testPathIgnorePatterns": [
+        "/node_modules/",
+        "/executables/"
+      ]
+    }
   },
-  "author": "Herman Starikov",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hermanya/listenable-browser/issues"
-  },
-  "homepage": "https://github.com/hermanya/listenable-browser#readme",
-  "devDependencies": {
-    "coveralls": "^2.11.12",
-    "electron": "^1.3.1",
-    "electron-packager": "^7.3.0",
-    "electron-prebuilt": "^1.2.0",
-    "jest-cli": "^14.0.0"
-  },
-  "dependencies": {
-    "say": "^0.9.0"
-  },
-  "jest": {
-    "testRegex": "./how_to/test/.*.js"
-  }
+  "packageStatus": 200
 }

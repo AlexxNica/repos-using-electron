@@ -1,57 +1,71 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "danreeves/surgeapp",
-    "description": "",
-    "fork": false,
-    "created_at": "2015-04-01T23:19:55.000Z",
-    "updated_at": "2016-02-29T13:22:13.468Z",
-    "pushed_at": "2015-06-18T13:32:57.000Z",
-    "homepage": null,
-    "size": 1709,
-    "stargazers_count": 2,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 9,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 33278121,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 33278121,
   "name": "surgeapp",
-  "version": "0.0.0",
+  "fullName": "danreeves/surgeapp",
+  "owner": {
+    "login": "danreeves",
+    "id": 1973559,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1973559?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/danreeves",
+    "htmlUrl": "https://github.com/danreeves",
+    "followersUrl": "https://api.github.com/users/danreeves/followers",
+    "subscriptionsUrl": "https://api.github.com/users/danreeves/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/danreeves/orgs",
+    "reposUrl": "https://api.github.com/users/danreeves/repos",
+    "receivedEventsUrl": "https://api.github.com/users/danreeves/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "",
-  "dependencies": {
-    "es6-promise": "^2.1.0",
-    "jquery": "^2.1.4",
-    "menubar": "2.0.10",
-    "nexpect": "^0.5.0",
-    "suppose": "^0.3.0",
-    "surge": "^0.12.0"
+  "fork": false,
+  "createdAt": "2015-04-01T23:19:55.000Z",
+  "updatedAt": "2015-07-23T04:25:09.000Z",
+  "pushedAt": "2015-06-18T13:32:57.000Z",
+  "homepage": null,
+  "size": 1709,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 9,
+  "openIssues": 9,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-packager": "^4.1.2",
-    "electron-prebuilt": "^0.27.3"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "surgeapp",
+    "version": "0.0.0",
+    "description": "",
+    "dependencies": {
+      "es6-promise": "^2.1.0",
+      "jquery": "^2.1.4",
+      "menubar": "2.0.10",
+      "nexpect": "^0.5.0",
+      "suppose": "^0.3.0",
+      "surge": "^0.12.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^4.1.2",
+      "electron-prebuilt": "^0.27.3"
+    },
+    "main": "main.js",
+    "scripts": {
+      "build": "electron-packager ./ Surge --platform=darwin --arch=x64 --version=0.27.3",
+      "start": "electron ."
+    }
   },
-  "main": "main.js",
-  "scripts": {
-    "build": "electron-packager ./ Surge --platform=darwin --arch=x64 --version=0.27.3",
-    "start": "electron ."
-  }
+  "packageStatus": 200
 }

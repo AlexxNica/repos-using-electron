@@ -1,59 +1,73 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "AledLewis/slobber-client",
-    "description": "NW (node-webkit) wrapper round the slobber-server",
-    "fork": false,
-    "created_at": "2015-07-25T14:09:49.000Z",
-    "updated_at": "2016-06-10T21:54:29.015Z",
-    "pushed_at": "2016-06-10T21:54:18.000Z",
-    "homepage": "",
-    "size": 24,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 39688009,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-10T21:54:28.994Z",
-    "rank": null
-  },
+  "id": 39688009,
   "name": "slobber-client",
-  "version": "0.0.6",
-  "description": "Node Webkit client for clobber sever",
-  "main": "client.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron client.js",
-    "package_win": "electron-packager . slobber --platform=win32 --arch=x64 --version=1.2.2 --asar --overwrite --asar-unpack \"**/node_modules/node-notifier/vendor/**\" --icon 128.png --appname Slobber"
+  "fullName": "AledLewis/slobber-client",
+  "owner": {
+    "login": "AledLewis",
+    "id": 1190284,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1190284?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/AledLewis",
+    "htmlUrl": "https://github.com/AledLewis",
+    "followersUrl": "https://api.github.com/users/AledLewis/followers",
+    "subscriptionsUrl": "https://api.github.com/users/AledLewis/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/AledLewis/orgs",
+    "reposUrl": "https://api.github.com/users/AledLewis/repos",
+    "receivedEventsUrl": "https://api.github.com/users/AledLewis/received_events",
+    "type": "User"
   },
-  "author": "Aled Lewis",
-  "license": "MIT",
-  "dependencies": {
-    "slobber-server": ">=0.0.12"
+  "private": false,
+  "description": "NW (node-webkit) wrapper round the slobber-server",
+  "fork": false,
+  "createdAt": "2015-07-25T14:09:49.000Z",
+  "updatedAt": "2016-06-10T21:21:46.000Z",
+  "pushedAt": "2016-06-10T21:54:18.000Z",
+  "homepage": "",
+  "size": 24,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AledLewis/slobber-client"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "slobber-client",
+    "version": "0.0.6",
+    "description": "Node Webkit client for clobber sever",
+    "main": "client.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron client.js",
+      "package_win": "electron-packager . slobber --platform=win32 --arch=x64 --version=1.2.2 --asar --overwrite --asar-unpack \"**/node_modules/node-notifier/vendor/**\" --icon 128.png --appname Slobber"
+    },
+    "author": "Aled Lewis",
+    "license": "MIT",
+    "dependencies": {
+      "slobber-server": ">=0.0.12"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/AledLewis/slobber-client"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.0.3",
+      "electron-prebuilt": "^1.2.2"
+    }
   },
-  "devDependencies": {
-    "electron-packager": "^7.0.3",
-    "electron-prebuilt": "^1.2.2"
-  }
+  "packageStatus": 200
 }

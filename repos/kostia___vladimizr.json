@@ -1,55 +1,69 @@
 {
-  "name": "Vladimizr",
-  "version": "1.0.0",
-  "description": "Vladimizr app",
-  "dependencies": {
-    "menubar": "*",
-    "translit": "0.0.1",
-    "translit-russian": "0.0.2"
+  "id": 44416817,
+  "name": "vladimizr",
+  "fullName": "kostia/vladimizr",
+  "owner": {
+    "login": "kostia",
+    "id": 9946,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/9946?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/kostia",
+    "htmlUrl": "https://github.com/kostia",
+    "followersUrl": "https://api.github.com/users/kostia/followers",
+    "subscriptionsUrl": "https://api.github.com/users/kostia/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/kostia/orgs",
+    "reposUrl": "https://api.github.com/users/kostia/repos",
+    "receivedEventsUrl": "https://api.github.com/users/kostia/received_events",
+    "type": "User"
   },
-  "devDependencies": {
-    "electron": "^0.4.1",
-    "electron-packager": "^5.0.1",
-    "electron-prebuilt": "0.30.3"
+  "private": false,
+  "description": "Super simple menubar app for transliterating from latin to russian",
+  "fork": false,
+  "createdAt": "2015-10-17T00:02:45.000Z",
+  "updatedAt": "2016-04-26T07:25:14.000Z",
+  "pushedAt": "2015-11-08T22:33:22.000Z",
+  "homepage": "https://github.com/kostia/vladimizr",
+  "size": 212,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-    "build": "electron-packager . Vladimizr --platform=darwin --arch=x64 --version=0.30.3 --ignore=node_modules/electron --icon=Icon.icns --overwrite"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "Vladimizr",
+    "version": "1.0.0",
+    "description": "Vladimizr app",
+    "dependencies": {
+      "menubar": "*",
+      "translit": "0.0.1",
+      "translit-russian": "0.0.2"
+    },
+    "devDependencies": {
+      "electron": "^0.4.1",
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "0.30.3"
+    },
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . Vladimizr --platform=darwin --arch=x64 --version=0.30.3 --ignore=node_modules/electron --icon=Icon.icns --overwrite"
+    }
   },
-  "_librariesioMetadata": {
-    "full_name": "kostia/vladimizr",
-    "description": "Super simple menubar app for transliterating from latin to russian",
-    "fork": false,
-    "created_at": "2015-10-17T00:02:45.000Z",
-    "updated_at": "2016-02-29T10:53:17.973Z",
-    "pushed_at": "2015-11-08T22:33:22.000Z",
-    "homepage": "https://github.com/kostia/vladimizr",
-    "size": 212,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": false,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 0,
-    "github_id": 44416817,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "packageStatus": 200
 }

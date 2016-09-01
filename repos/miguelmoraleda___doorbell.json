@@ -1,61 +1,81 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "miguelmoraleda/doorbell",
-    "description": "DoorBell is simple application that allow you to put your computer on an \"Busy\" mode, so people around you get noticed you are busy.",
-    "fork": false,
-    "created_at": "2015-07-06T02:19:04.000Z",
-    "updated_at": "2016-05-28T07:54:54.283Z",
-    "pushed_at": "2015-07-07T13:21:25.000Z",
-    "homepage": "",
-    "size": 544,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 38592942,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 0,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T07:54:54.258Z",
-    "rank": null
-  },
+  "id": 38592942,
   "name": "doorbell",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "electron .",
-    "package": "node pkg.js",
-    "dev": "wzrd config.js:config-bundle.js",
-    "build": "electron-packager . DoorBell --platform=darwin --arch=x64 --icon=bell.icns --ignore=pkg --version=0.29.1 --out=dist --overwrite=true --app-version=1.0 --ignore=node_modules/electron"
+  "fullName": "miguelmoraleda/doorbell",
+  "owner": {
+    "login": "miguelmoraleda",
+    "id": 166628,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/166628?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/miguelmoraleda",
+    "htmlUrl": "https://github.com/miguelmoraleda",
+    "followersUrl": "https://api.github.com/users/miguelmoraleda/followers",
+    "subscriptionsUrl": "https://api.github.com/users/miguelmoraleda/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/miguelmoraleda/orgs",
+    "reposUrl": "https://api.github.com/users/miguelmoraleda/repos",
+    "receivedEventsUrl": "https://api.github.com/users/miguelmoraleda/received_events",
+    "type": "User"
   },
-  "author": "Miguel Moraleda <miguel@jam3.com>",
-  "license": "MIT",
-  "dependencies": {
-    "auto-launch": "^0.1.18",
-    "dom-select": "0.0.0",
-    "electron": "^0.4.1",
-    "electron-debug": "^0.1.1"
+  "private": false,
+  "description": "DoorBell is simple application that allow you to put your computer on an \"Busy\" mode, so people around you get noticed you are busy.",
+  "fork": false,
+  "createdAt": "2015-07-06T02:19:04.000Z",
+  "updatedAt": "2015-07-06T23:32:05.000Z",
+  "pushedAt": "2015-07-07T13:21:25.000Z",
+  "homepage": "",
+  "size": 544,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "browserify": "^10.2.4",
-    "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.29.1",
-    "wzrd": "^1.3.1"
-  }
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "doorbell",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "package": "node pkg.js",
+      "dev": "wzrd config.js:config-bundle.js",
+      "build": "electron-packager . DoorBell --platform=darwin --arch=x64 --icon=bell.icns --ignore=pkg --version=0.29.1 --out=dist --overwrite=true --app-version=1.0 --ignore=node_modules/electron"
+    },
+    "author": "Miguel Moraleda <miguel@jam3.com>",
+    "license": "MIT",
+    "dependencies": {
+      "auto-launch": "^0.1.18",
+      "dom-select": "0.0.0",
+      "electron": "^0.4.1",
+      "electron-debug": "^0.1.1"
+    },
+    "devDependencies": {
+      "browserify": "^10.2.4",
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.29.1",
+      "wzrd": "^1.3.1"
+    }
+  },
+  "packageStatus": 200
 }

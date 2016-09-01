@@ -1,80 +1,100 @@
 {
+  "id": 42951473,
   "name": "standup",
-  "productName": "Standup",
-  "version": "0.0.0",
-  "description": "My bee&#39;s knees app",
-  "license": "MIT",
-  "repository": "8bitDesigner/standup",
-  "author": {
-    "name": "Paul Sweeney",
-    "email": "paul@8-bitdesign.com",
-    "url": "github.com/8bitDesigner"
+  "fullName": "8bitDesigner/standup",
+  "owner": {
+    "login": "8bitDesigner",
+    "id": 139790,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/139790?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/8bitDesigner",
+    "htmlUrl": "https://github.com/8bitDesigner",
+    "followersUrl": "https://api.github.com/users/8bitDesigner/followers",
+    "subscriptionsUrl": "https://api.github.com/users/8bitDesigner/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/8bitDesigner/orgs",
+    "reposUrl": "https://api.github.com/users/8bitDesigner/repos",
+    "receivedEventsUrl": "https://api.github.com/users/8bitDesigner/received_events",
+    "type": "User"
   },
-  "engines": {
-    "node": ">=4"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2015-09-22T18:03:38.000Z",
+  "updatedAt": "2016-02-02T18:32:51.000Z",
+  "pushedAt": "2016-02-03T03:28:15.000Z",
+  "homepage": null,
+  "size": 6,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "electronVersion": "0.33.0",
-  "scripts": {
-    "test": "xo",
-    "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
-  "keywords": [
-    "electron-app"
-  ],
-  "dependencies": {
-    "electron-debug": "^0.1.1"
-  },
-  "devDependencies": {
-    "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.33.0",
-    "xo": "^0.9.0"
-  },
-  "xo": {
-    "esnext": true,
-    "envs": [
-      "node",
-      "browser"
-    ]
-  },
-  "_librariesioMetadata": {
-    "full_name": "8bitDesigner/standup",
-    "description": "",
-    "fork": false,
-    "created_at": "2015-09-22T18:03:38.000Z",
-    "updated_at": "2016-02-02T18:32:51.000Z",
-    "pushed_at": "2016-02-03T03:28:15.000Z",
-    "homepage": null,
-    "size": 6,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 42951473,
-    "source_name": null,
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "standup",
+    "productName": "Standup",
+    "version": "0.0.0",
+    "description": "My bee&#39;s knees app",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "repository": "8bitDesigner/standup",
+    "author": {
+      "name": "Paul Sweeney",
+      "email": "paul@8-bitdesign.com",
+      "url": "github.com/8bitDesigner"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "electronVersion": "0.33.0",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.1.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.33.0",
+      "xo": "^0.9.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

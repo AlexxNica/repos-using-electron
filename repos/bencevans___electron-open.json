@@ -1,61 +1,75 @@
 {
+  "id": 41260431,
   "name": "electron-open",
-  "version": "1.0.1",
+  "fullName": "bencevans/electron-open",
+  "owner": {
+    "login": "bencevans",
+    "id": 638535,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/638535?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/bencevans",
+    "htmlUrl": "https://github.com/bencevans",
+    "followersUrl": "https://api.github.com/users/bencevans/followers",
+    "subscriptionsUrl": "https://api.github.com/users/bencevans/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/bencevans/orgs",
+    "reposUrl": "https://api.github.com/users/bencevans/repos",
+    "receivedEventsUrl": "https://api.github.com/users/bencevans/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Open a webpage in an Electron shell",
-  "main": "bin.js",
-  "scripts": {
-    "start": "electron bin.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "fork": false,
+  "createdAt": "2015-08-23T17:51:59.000Z",
+  "updatedAt": "2015-11-18T03:19:41.000Z",
+  "pushedAt": "2016-01-15T08:11:11.000Z",
+  "homepage": "",
+  "size": 14,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 17,
+  "openIssues": 17,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "bin": "./bin.js",
-  "repository": {
-    "type": "git",
-    "url": "github.com/bencevans/electron-open"
-  },
-  "keywords": [
-    "electron",
-    "url",
-    "open",
-    "cli"
-  ],
-  "author": "Ben Evans <ben@bensbit.co.uk> (http://bensbit.co.uk)",
-  "license": "ISC",
-  "dependencies": {
-    "electron-prebuilt": "0.34.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "bencevans/electron-open",
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-open",
+    "version": "1.0.1",
     "description": "Open a webpage in an Electron shell",
-    "fork": false,
-    "created_at": "2015-08-23T17:51:59.000Z",
-    "updated_at": "2015-11-28T03:49:21.762Z",
-    "pushed_at": "2015-11-27T02:34:49.000Z",
-    "homepage": "",
-    "size": 9,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 6,
-    "default_branch": "master",
-    "subscribers_count": 0,
-    "github_id": 41260431,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "main": "bin.js",
+    "scripts": {
+      "start": "electron bin.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": "./bin.js",
+    "repository": {
+      "type": "git",
+      "url": "github.com/bencevans/electron-open"
+    },
+    "keywords": [
+      "electron",
+      "url",
+      "open",
+      "cli"
+    ],
+    "author": "Ben Evans <ben@bensbit.co.uk> (http://bensbit.co.uk)",
+    "license": "ISC",
+    "dependencies": {
+      "electron-prebuilt": "0.34.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,56 +1,76 @@
 {
+  "id": 48060742,
   "name": "mrmagnet",
-  "version": "1.0.0",
-  "private": true,
+  "fullName": "laverix/mrmagnet",
+  "owner": {
+    "login": "laverix",
+    "id": 864218,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/864218?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/laverix",
+    "htmlUrl": "https://github.com/laverix",
+    "followersUrl": "https://api.github.com/users/laverix/followers",
+    "subscriptionsUrl": "https://api.github.com/users/laverix/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/laverix/orgs",
+    "reposUrl": "https://api.github.com/users/laverix/repos",
+    "receivedEventsUrl": "https://api.github.com/users/laverix/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Yet another torrent client for Windows, Mac and Linux",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron ."
+  "fork": false,
+  "createdAt": "2015-12-15T18:15:28.000Z",
+  "updatedAt": "2016-07-24T09:21:33.000Z",
+  "pushedAt": "2016-01-26T11:36:26.000Z",
+  "homepage": null,
+  "size": 23674,
+  "stargazersCount": 5,
+  "watchersCount": 5,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 5,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "Valery Lyatsevich",
-  "license": "MIT",
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.0"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "dependencies": {
-    "angular": "^1.4.8",
-    "angular-route": "^1.4.8",
-    "snapsvg": "^0.4.0",
-    "webtorrent": "0.72.1"
-  },
-  "_librariesioMetadata": {
-    "full_name": "valeryx/mrmagnet",
+  "networkCount": 1,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "mrmagnet",
+    "version": "1.0.0",
+    "private": true,
     "description": "Yet another torrent client for Windows, Mac and Linux",
-    "fork": false,
-    "created_at": "2015-12-15T18:15:28.000Z",
-    "updated_at": "2016-07-24T09:21:58.615Z",
-    "pushed_at": "2016-01-26T11:36:26.000Z",
-    "homepage": null,
-    "size": 23674,
-    "stargazers_count": 5,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 48060742,
-    "source_name": null,
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "Valery Lyatsevich",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-24T09:21:58.593Z",
-    "rank": null
-  }
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "angular": "^1.4.8",
+      "angular-route": "^1.4.8",
+      "snapsvg": "^0.4.0",
+      "webtorrent": "0.72.1"
+    }
+  },
+  "packageStatus": 200
 }

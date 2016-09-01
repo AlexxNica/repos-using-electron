@@ -1,85 +1,105 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "beatfreaker/subtitledownloader",
-    "description": ":desktop_computer: A desktop app to download subtitles",
-    "fork": false,
-    "created_at": "2016-03-03T17:25:58.000Z",
-    "updated_at": "2016-03-08T10:42:21.000Z",
-    "pushed_at": "2016-03-04T02:21:07.000Z",
-    "homepage": null,
-    "size": 81,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 53069373,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 53069373,
   "name": "subtitledownloader",
-  "version": "0.1.1",
-  "description": "A painless Subtitle downloader",
-  "author": {
-    "name": "Chintan Radia",
-    "email": "radiachints1512@gmail.com",
-    "url": "http://beatfreaker.github.io/"
+  "fullName": "beatfreaker/subtitledownloader",
+  "owner": {
+    "login": "beatfreaker",
+    "id": 4180238,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4180238?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/beatfreaker",
+    "htmlUrl": "https://github.com/beatfreaker",
+    "followersUrl": "https://api.github.com/users/beatfreaker/followers",
+    "subscriptionsUrl": "https://api.github.com/users/beatfreaker/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/beatfreaker/orgs",
+    "reposUrl": "https://api.github.com/users/beatfreaker/repos",
+    "receivedEventsUrl": "https://api.github.com/users/beatfreaker/received_events",
+    "type": "User"
   },
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js",
-    "build-windows32-exe": "electron-builder dist/SubtitleDownloader-win32-ia32 --platform=win --out=build/",
-    "build-windows64-exe": "electron-builder dist/SubtitleDownloader-win32-x64 --platform=win --out=build/",
-    "build-windows32": "electron-packager . SubtitleDownloader --overwrite --asar=true --out=dist --prune --platform=win32 --arch=ia32 --icon=resources/app.ico --version=0.35.6 --version-string.ProductName=SubtitleDownloader --version-string.ProductVersion=0.35.6",
-    "build-windows64": "electron-packager . SubtitleDownloader --overwrite --asar=true --out=dist --prune --platform=win32 --arch=x64 --icon=resources/app.ico --version=0.35.6 --version-string.ProductName=SubtitleDownloader --version-string.ProductVersion=0.35.6"
+  "private": false,
+  "description": ":desktop_computer: A desktop app to download subtitles",
+  "fork": false,
+  "createdAt": "2016-03-03T17:25:58.000Z",
+  "updatedAt": "2016-06-20T12:26:45.000Z",
+  "pushedAt": "2016-03-04T02:21:07.000Z",
+  "homepage": "",
+  "size": 81,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/beatfreaker/subtitledownloader.git"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "keywords": [
-    "Electron",
-    "subtitle",
-    "downloader",
-    "moveis",
-    "tv series"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/beatfreaker/subtitledownloader/issues"
-  },
-  "homepage": "https://github.com/beatfreaker/subtitledownloader",
-  "devDependencies": {
-    "electron-packager": "^5.1.0",
-    "electron-prebuilt": "^0.36.0"
-  },
-  "dependencies": {
-    "subdownloader": "^2.0.1"
-  },
-  "builder": {
-    "win": {
-      "title": "Subtitle Downloader",
-      "version": "0.1.1",
-      "publisher": "Chintan Radia",
-      "icon": "resources/app.ico",
-      "verbosity": 1
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "subtitledownloader",
+    "version": "0.1.1",
+    "description": "A painless Subtitle downloader",
+    "author": {
+      "name": "Chintan Radia",
+      "email": "radiachints1512@gmail.com",
+      "url": "http://beatfreaker.github.io/"
+    },
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "build-windows32-exe": "electron-builder dist/SubtitleDownloader-win32-ia32 --platform=win --out=build/",
+      "build-windows64-exe": "electron-builder dist/SubtitleDownloader-win32-x64 --platform=win --out=build/",
+      "build-windows32": "electron-packager . SubtitleDownloader --overwrite --asar=true --out=dist --prune --platform=win32 --arch=ia32 --icon=resources/app.ico --version=0.35.6 --version-string.ProductName=SubtitleDownloader --version-string.ProductVersion=0.35.6",
+      "build-windows64": "electron-packager . SubtitleDownloader --overwrite --asar=true --out=dist --prune --platform=win32 --arch=x64 --icon=resources/app.ico --version=0.35.6 --version-string.ProductName=SubtitleDownloader --version-string.ProductVersion=0.35.6"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/beatfreaker/subtitledownloader.git"
+    },
+    "keywords": [
+      "Electron",
+      "subtitle",
+      "downloader",
+      "moveis",
+      "tv series"
+    ],
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/beatfreaker/subtitledownloader/issues"
+    },
+    "homepage": "https://github.com/beatfreaker/subtitledownloader",
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "subdownloader": "^2.0.1"
+    },
+    "builder": {
+      "win": {
+        "title": "Subtitle Downloader",
+        "version": "0.1.1",
+        "publisher": "Chintan Radia",
+        "icon": "resources/app.ico",
+        "verbosity": 1
+      }
     }
-  }
+  },
+  "packageStatus": 200
 }

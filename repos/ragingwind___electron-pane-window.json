@@ -1,81 +1,101 @@
 {
+  "id": 45052579,
   "name": "electron-pane-window",
-  "version": "0.0.1",
+  "fullName": "ragingwind/electron-pane-window",
+  "owner": {
+    "login": "ragingwind",
+    "id": 124117,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/124117?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/ragingwind",
+    "htmlUrl": "https://github.com/ragingwind",
+    "followersUrl": "https://api.github.com/users/ragingwind/followers",
+    "subscriptionsUrl": "https://api.github.com/users/ragingwind/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/ragingwind/orgs",
+    "reposUrl": "https://api.github.com/users/ragingwind/repos",
+    "receivedEventsUrl": "https://api.github.com/users/ragingwind/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Create a pane style window, no frame, no titlebar, stick the window on the sides of screen",
-  "license": "MIT",
-  "repository": "ragingwind/electron-pane-window",
-  "author": {
-    "name": "ragingwind",
-    "email": "ragingwind@gmail.com",
-    "url": "ragingwind.me"
+  "fork": false,
+  "createdAt": "2015-10-27T16:02:50.000Z",
+  "updatedAt": "2016-03-02T07:20:46.000Z",
+  "pushedAt": "2015-10-27T16:10:17.000Z",
+  "homepage": null,
+  "size": 128,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "engines": {
-    "node": ">=4"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "scripts": {
-    "test": "xo && ava",
-    "start": "electron ./demo"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "electron",
-    "pane",
-    "electron-pane-window"
-  ],
-  "dependencies": {
-    "object-assign": "^4.0.1"
-  },
-  "devDependencies": {
-    "electron-debug": "^0.2.1",
-    "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.34.0",
-    "xo": "^0.7.1"
-  },
-  "xo": {
-    "esnext": true,
-    "envs": [
-      "node"
-    ]
-  },
-  "jshintConfig": {
-    "esnext": true,
-    "node": true
-  },
-  "_librariesioMetadata": {
-    "full_name": "ragingwind/electron-pane-window",
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-pane-window",
+    "version": "0.0.1",
     "description": "Create a pane style window, no frame, no titlebar, stick the window on the sides of screen",
-    "fork": false,
-    "created_at": "2015-10-27T16:02:50.000Z",
-    "updated_at": "2016-03-02T07:20:46.000Z",
-    "pushed_at": "2015-10-27T16:10:17.000Z",
-    "homepage": null,
-    "size": 128,
-    "stargazers_count": 2,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 45052579,
-    "source_name": null,
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T16:57:54.716Z",
-    "rank": null
-  }
+    "repository": "ragingwind/electron-pane-window",
+    "author": {
+      "name": "ragingwind",
+      "email": "ragingwind@gmail.com",
+      "url": "ragingwind.me"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "scripts": {
+      "test": "xo && ava",
+      "start": "electron ./demo"
+    },
+    "files": [
+      "index.js"
+    ],
+    "keywords": [
+      "electron",
+      "pane",
+      "electron-pane-window"
+    ],
+    "dependencies": {
+      "object-assign": "^4.0.1"
+    },
+    "devDependencies": {
+      "electron-debug": "^0.2.1",
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.34.0",
+      "xo": "^0.7.1"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node"
+      ]
+    },
+    "jshintConfig": {
+      "esnext": true,
+      "node": true
+    }
+  },
+  "packageStatus": 200
 }

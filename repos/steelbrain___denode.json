@@ -1,66 +1,86 @@
 {
+  "id": 56305048,
   "name": "denode",
-  "version": "1.6.3",
+  "fullName": "steelbrain/denode",
+  "owner": {
+    "login": "steelbrain",
+    "id": 4278113,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4278113?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/steelbrain",
+    "htmlUrl": "https://github.com/steelbrain",
+    "followersUrl": "https://api.github.com/users/steelbrain/followers",
+    "subscriptionsUrl": "https://api.github.com/users/steelbrain/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/steelbrain/orgs",
+    "reposUrl": "https://api.github.com/users/steelbrain/repos",
+    "receivedEventsUrl": "https://api.github.com/users/steelbrain/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Debug node apps like a pro",
-  "bin": {
-    "denode": "./index.js"
+  "fork": false,
+  "createdAt": "2016-04-15T08:41:37.000Z",
+  "updatedAt": "2016-08-13T11:26:28.000Z",
+  "pushedAt": "2016-07-14T20:16:59.000Z",
+  "homepage": null,
+  "size": 64,
+  "stargazersCount": 93,
+  "watchersCount": 93,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 4,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 93,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/steelbrain/denode.git"
-  },
-  "keywords": [
-    "electron",
-    "node",
-    "debug",
-    "profile"
-  ],
-  "productName": "DeNode",
-  "author": "steelbrain",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/steelbrain/denode/issues"
-  },
-  "homepage": "https://github.com/steelbrain/denode#readme",
-  "dependencies": {
-    "electron-prebuilt": "^0.37.8"
-  },
-  "_librariesioMetadata": {
-    "full_name": "steelbrain/denode",
+  "networkCount": 4,
+  "subscribersCount": 5,
+  "status": 200,
+  "packageJSON": {
+    "name": "denode",
+    "version": "1.6.3",
     "description": "Debug node apps like a pro",
-    "fork": false,
-    "created_at": "2016-04-15T08:41:37.000Z",
-    "updated_at": "2016-07-31T18:02:20.383Z",
-    "pushed_at": "2016-07-14T20:16:59.000Z",
-    "homepage": null,
-    "size": 64,
-    "stargazers_count": 92,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 4,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 5,
-    "github_id": 56305048,
-    "source_name": null,
+    "bin": {
+      "denode": "./index.js"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/steelbrain/denode.git"
+    },
+    "keywords": [
+      "electron",
+      "node",
+      "debug",
+      "profile"
+    ],
+    "productName": "DeNode",
+    "author": "steelbrain",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 3,
-    "has_readme": "README.md",
-    "has_changelog": "CHANGELOG.md",
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-14T20:24:39.549Z",
-    "rank": null
-  }
+    "bugs": {
+      "url": "https://github.com/steelbrain/denode/issues"
+    },
+    "homepage": "https://github.com/steelbrain/denode#readme",
+    "dependencies": {
+      "electron-prebuilt": "^0.37.8"
+    }
+  },
+  "packageStatus": 200
 }

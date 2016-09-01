@@ -1,60 +1,80 @@
 {
+  "id": 46671896,
   "name": "electron-editor-example",
-  "version": "1.0.0",
+  "fullName": "mjaniszew/electron-editor-example",
+  "owner": {
+    "login": "mjaniszew",
+    "id": 701365,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/701365?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mjaniszew",
+    "htmlUrl": "https://github.com/mjaniszew",
+    "followersUrl": "https://api.github.com/users/mjaniszew/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mjaniszew/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mjaniszew/orgs",
+    "reposUrl": "https://api.github.com/users/mjaniszew/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mjaniszew/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Simple code editor example build with Ace and Electron",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron .",
-    "build": "electron-packager . MyEditor --out=./build --platform=darwin --arch=x64 --version=0.35.1 --asar --overwrite --ignore=\"node_modules|build\""
+  "fork": false,
+  "createdAt": "2015-11-22T17:43:40.000Z",
+  "updatedAt": "2016-03-28T08:53:46.000Z",
+  "pushedAt": "2015-12-09T23:14:05.000Z",
+  "homepage": null,
+  "size": 153,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mjaniszew/electron-editor-example.git"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "author": "Michal Janiszewski",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mjaniszew/electron-editor-example/issues"
-  },
-  "homepage": "https://github.com/mjaniszew/electron-editor-example#readme",
-  "devDependencies": {
-    "electron-packager": "^5.1.1",
-    "electron-prebuilt": "^0.35.1"
-  },
-  "_librariesioMetadata": {
-    "full_name": "mjaniszew/electron-editor-example",
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-editor-example",
+    "version": "1.0.0",
     "description": "Simple code editor example build with Ace and Electron",
-    "fork": false,
-    "created_at": "2015-11-22T17:43:40.000Z",
-    "updated_at": "2016-03-28T08:56:04.299Z",
-    "pushed_at": "2015-12-09T23:14:05.000Z",
-    "homepage": null,
-    "size": 153,
-    "stargazers_count": 2,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 46671896,
-    "source_name": null,
+    "main": "src/index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron .",
+      "build": "electron-packager . MyEditor --out=./build --platform=darwin --arch=x64 --version=0.35.1 --asar --overwrite --ignore=\"node_modules|build\""
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mjaniszew/electron-editor-example.git"
+    },
+    "author": "Michal Janiszewski",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "bugs": {
+      "url": "https://github.com/mjaniszew/electron-editor-example/issues"
+    },
+    "homepage": "https://github.com/mjaniszew/electron-editor-example#readme",
+    "devDependencies": {
+      "electron-packager": "^5.1.1",
+      "electron-prebuilt": "^0.35.1"
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,71 +1,85 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "myxvisual/dl-flickr",
-    "description": "Donload Flickr Author Index Photos",
-    "fork": false,
-    "created_at": "2016-03-21T07:49:48.000Z",
-    "updated_at": "2016-03-21T07:49:58.000Z",
-    "pushed_at": "2016-03-21T07:49:56.000Z",
-    "homepage": null,
-    "size": 4,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 54369419,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 54369419,
   "name": "dl-flickr",
-  "version": "1.0.0",
-  "description": "Download Flickr Author Photos Tool",
-  "main": "main.js",
-  "scripts": {
-    "test": "node build/app.js",
-    "start": "electron main.js",
-    "watch-js": "./node_modules/.bin/babel src -d build --experimental -w"
+  "fullName": "myxvisual/dl-flickr",
+  "owner": {
+    "login": "myxvisual",
+    "id": 13671219,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/13671219?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/myxvisual",
+    "htmlUrl": "https://github.com/myxvisual",
+    "followersUrl": "https://api.github.com/users/myxvisual/followers",
+    "subscriptionsUrl": "https://api.github.com/users/myxvisual/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/myxvisual/orgs",
+    "reposUrl": "https://api.github.com/users/myxvisual/repos",
+    "receivedEventsUrl": "https://api.github.com/users/myxvisual/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": ""
+  "private": false,
+  "description": "Donload Flickr Author Index Photos",
+  "fork": false,
+  "createdAt": "2016-03-21T07:49:48.000Z",
+  "updatedAt": "2016-03-21T07:49:58.000Z",
+  "pushedAt": "2016-03-28T14:45:44.000Z",
+  "homepage": null,
+  "size": 479,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "Flickr"
-  ],
-  "author": "myvisual",
-  "license": "ISC",
-  "dependencies": {
-    "babel-cli": "^6.6.5",
-    "babel-preset-es2015": "^6.6.0",
-    "babel-preset-react": "^6.5.0",
-    "colors": "^1.1.2",
-    "eslint": "^2.4.0",
-    "eslint-config-airbnb": "^6.1.0",
-    "mkdirp": "^0.5.1",
-    "npm-run-all": "^1.6.0",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
-    "sync-request": "^3.0.0"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "dl-flickr",
+    "version": "1.0.0",
+    "description": "Download Flickr Author Photos Tool",
+    "main": "main.js",
+    "scripts": {
+      "test": "node build/app.js",
+      "start": "electron main.js",
+      "watch-js": "./node_modules/.bin/babel src -d build --experimental -w"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "keywords": [
+      "Flickr"
+    ],
+    "author": "myvisual",
+    "license": "ISC",
+    "dependencies": {
+      "babel-cli": "^6.6.5",
+      "babel-preset-es2015": "^6.6.0",
+      "babel-preset-react": "^6.5.0",
+      "colors": "^1.1.2",
+      "eslint": "^2.4.0",
+      "eslint-config-airbnb": "^6.1.0",
+      "mkdirp": "^0.5.1",
+      "npm-run-all": "^1.6.0",
+      "react": "^0.14.7",
+      "react-dom": "^0.14.7",
+      "sync-request": "^3.0.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.2"
+    }
   },
-  "devDependencies": {
-    "electron-prebuilt": "^0.37.2"
-  }
+  "packageStatus": 200
 }

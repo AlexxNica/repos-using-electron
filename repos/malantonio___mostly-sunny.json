@@ -1,63 +1,83 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "malantonio/mostly-sunny",
-    "description": "weather app",
-    "fork": false,
-    "created_at": "2015-09-20T21:19:30.000Z",
-    "updated_at": "2016-02-29T14:05:24.247Z",
-    "pushed_at": "2015-11-17T13:47:57.000Z",
-    "homepage": "",
-    "size": 758,
-    "stargazers_count": 0,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 42830042,
-    "source_name": null,
+  "id": 42830042,
+  "name": "mostly-sunny",
+  "fullName": "malantonio/mostly-sunny",
+  "owner": {
+    "login": "malantonio",
+    "id": 2744987,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2744987?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/malantonio",
+    "htmlUrl": "https://github.com/malantonio",
+    "followersUrl": "https://api.github.com/users/malantonio/followers",
+    "subscriptionsUrl": "https://api.github.com/users/malantonio/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/malantonio/orgs",
+    "reposUrl": "https://api.github.com/users/malantonio/repos",
+    "receivedEventsUrl": "https://api.github.com/users/malantonio/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "weather app",
+  "fork": false,
+  "createdAt": "2015-09-20T21:19:30.000Z",
+  "updatedAt": "2015-09-26T14:19:04.000Z",
+  "pushedAt": "2015-11-17T13:47:57.000Z",
+  "homepage": "",
+  "size": 758,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "main": "app.js",
+    "version": "0.1.0",
+    "description": "An Electron-based task bar weather application",
+    "scripts": {
+      "start": "./node_modules/.bin/electron .",
+      "clean": "rm -rf dist",
+      "pack": "npm run clean && ./node_modules/.bin/electron-packager ./ 'Mostly Sunny' --platform=darwin --arch=x64 --version=0.33.0 --icon=icons/logo-transparent-no-text.icns --ignore=\"(node_modules/(electron-packager|electron-prebuilt))|local/settings.json\" --out=dist/osx",
+      "open-dist": "open ./dist/osx/'Mostly Sunny-darwin-x64'/'Mostly Sunny.app'"
+    },
+    "dependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.33.0",
+      "menubar": "^2.2.1"
+    },
+    "devDependencies": {
+      "debug": "^2.2.0"
+    },
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/malantonio/mostly-sunny"
+    },
+    "author": "Adam Malantonio <adam.malantonio@gmail.com>",
+    "bugs": {
+      "url": "https://github.com/malantonio/mostly-sunny/issues"
+    }
   },
-  "main": "app.js",
-  "version": "0.1.0",
-  "description": "An Electron-based task bar weather application",
-  "scripts": {
-    "start": "./node_modules/.bin/electron .",
-    "clean": "rm -rf dist",
-    "pack": "npm run clean && ./node_modules/.bin/electron-packager ./ 'Mostly Sunny' --platform=darwin --arch=x64 --version=0.33.0 --icon=icons/logo-transparent-no-text.icns --ignore=\"(node_modules/(electron-packager|electron-prebuilt))|local/settings.json\" --out=dist/osx",
-    "open-dist": "open ./dist/osx/'Mostly Sunny-darwin-x64'/'Mostly Sunny.app'"
-  },
-  "dependencies": {
-    "electron-packager": "^5.1.0",
-    "electron-prebuilt": "^0.33.0",
-    "menubar": "^2.2.1"
-  },
-  "devDependencies": {
-    "debug": "^2.2.0"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/malantonio/mostly-sunny"
-  },
-  "author": "Adam Malantonio <adam.malantonio@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/malantonio/mostly-sunny/issues"
-  }
+  "packageStatus": 200
 }

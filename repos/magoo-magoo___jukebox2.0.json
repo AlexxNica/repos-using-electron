@@ -1,80 +1,100 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "magoo-magoo/jukebox2.0",
-    "description": "the next generation jukebox",
-    "fork": false,
-    "created_at": "2015-11-14T15:58:35.000Z",
-    "updated_at": "2015-11-14T20:11:47.000Z",
-    "pushed_at": "2015-11-21T00:27:34.000Z",
-    "homepage": null,
-    "size": 6,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 46180959,
-    "source_name": null,
+  "id": 46180959,
+  "name": "jukebox2.0",
+  "fullName": "magoo-magoo/jukebox2.0",
+  "owner": {
+    "login": "magoo-magoo",
+    "id": 10101941,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/10101941?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/magoo-magoo",
+    "htmlUrl": "https://github.com/magoo-magoo",
+    "followersUrl": "https://api.github.com/users/magoo-magoo/followers",
+    "subscriptionsUrl": "https://api.github.com/users/magoo-magoo/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/magoo-magoo/orgs",
+    "reposUrl": "https://api.github.com/users/magoo-magoo/repos",
+    "receivedEventsUrl": "https://api.github.com/users/magoo-magoo/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "the next generation jukebox",
+  "fork": false,
+  "createdAt": "2015-11-14T15:58:35.000Z",
+  "updatedAt": "2015-11-14T20:11:47.000Z",
+  "pushedAt": "2015-11-21T00:27:34.000Z",
+  "homepage": null,
+  "size": 6,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "jukebox2-0",
+    "productName": "Jukebox20",
+    "version": "0.0.0",
+    "description": "My awesome app",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+    "repository": "magoo-magoo/jukebox2-0",
+    "author": {
+      "name": "magoo",
+      "email": "magoo@bogoss.com",
+      "url": "github.com/magoo-magoo"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "electronVersion": "0.33.0",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.1.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.35.0",
+      "xo": "^0.9.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
   },
-  "name": "jukebox2-0",
-  "productName": "Jukebox20",
-  "version": "0.0.0",
-  "description": "My awesome app",
-  "license": "MIT",
-  "repository": "magoo-magoo/jukebox2-0",
-  "author": {
-    "name": "magoo",
-    "email": "magoo@bogoss.com",
-    "url": "github.com/magoo-magoo"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "electronVersion": "0.33.0",
-  "scripts": {
-    "test": "xo",
-    "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
-  },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
-  "keywords": [
-    "electron-app"
-  ],
-  "dependencies": {
-    "electron-debug": "^0.1.1"
-  },
-  "devDependencies": {
-    "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.35.0",
-    "xo": "^0.9.0"
-  },
-  "xo": {
-    "esnext": true,
-    "envs": [
-      "node",
-      "browser"
-    ]
-  }
+  "packageStatus": 200
 }

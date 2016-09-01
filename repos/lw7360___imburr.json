@@ -1,88 +1,102 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "lw7360/imburr",
-    "description": "",
-    "fork": false,
-    "created_at": "2015-10-25T08:53:46.000Z",
-    "updated_at": "2016-04-19T07:40:10.256Z",
-    "pushed_at": "2015-11-11T05:17:17.000Z",
-    "homepage": null,
-    "size": 320,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 44902775,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-19T07:40:10.236Z",
-    "rank": null
-  },
+  "id": 44902775,
   "name": "imburr",
-  "productName": "Imburr",
-  "version": "0.0.1",
-  "description": "Easy imgur uploads",
-  "license": "MIT",
-  "repository": "lw7360/imburr",
-  "author": {
-    "name": "Larry Wu",
-    "email": "lw7360@gmail.com",
-    "url": "http://larrywu.com/"
+  "fullName": "lw7360/imburr",
+  "owner": {
+    "login": "lw7360",
+    "id": 1806683,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1806683?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/lw7360",
+    "htmlUrl": "https://github.com/lw7360",
+    "followersUrl": "https://api.github.com/users/lw7360/followers",
+    "subscriptionsUrl": "https://api.github.com/users/lw7360/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/lw7360/orgs",
+    "reposUrl": "https://api.github.com/users/lw7360/repos",
+    "receivedEventsUrl": "https://api.github.com/users/lw7360/received_events",
+    "type": "User"
   },
-  "engines": {
-    "node": ">=4"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2015-10-25T08:53:46.000Z",
+  "updatedAt": "2015-11-01T21:43:02.000Z",
+  "pushedAt": "2015-11-11T05:17:17.000Z",
+  "homepage": null,
+  "size": 320,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "electronVersion": "0.34.1",
-  "main": "app.js",
-  "scripts": {
-    "test": "semistandard",
-    "start": "electron .",
-    "mac-bundle": "electron-packager . $npm_package_productName --platform=darwin --arch=x64 --icon=icon.icns --out=dist --ignore='^/dist$' --prune --asar --version=$npm_package_electronVersion",
-    "win-bundle": "electron-packager . $npm_package_productName --platform=win32 --arch=ia32 --out=dist --ignore='^/dist$' --prune --asar --version=$npm_package_electronVersion",
-    "linux-64-bundle": "electron-packager . $npm_package_productName --platform=linux --arch=x64 --icon=icon.icns --out=dist --ignore='^/dist$' --prune --asar --version=$npm_package_electronVersion"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "imburr",
+    "productName": "Imburr",
+    "version": "0.0.1",
+    "description": "Easy imgur uploads",
+    "license": "MIT",
+    "repository": "lw7360/imburr",
+    "author": {
+      "name": "Larry Wu",
+      "email": "lw7360@gmail.com",
+      "url": "http://larrywu.com/"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "electronVersion": "0.34.1",
+    "main": "app.js",
+    "scripts": {
+      "test": "semistandard",
+      "start": "electron .",
+      "mac-bundle": "electron-packager . $npm_package_productName --platform=darwin --arch=x64 --icon=icon.icns --out=dist --ignore='^/dist$' --prune --asar --version=$npm_package_electronVersion",
+      "win-bundle": "electron-packager . $npm_package_productName --platform=win32 --arch=ia32 --out=dist --ignore='^/dist$' --prune --asar --version=$npm_package_electronVersion",
+      "linux-64-bundle": "electron-packager . $npm_package_productName --platform=linux --arch=x64 --icon=icon.icns --out=dist --ignore='^/dist$' --prune --asar --version=$npm_package_electronVersion"
+    },
+    "files": [
+      "app.js",
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "baconjs": "^0.7.79",
+      "electron-debug": "^0.3.0",
+      "jquery": "^2.1.4",
+      "open": "0.0.5",
+      "titlebar": "^1.4.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.34.1",
+      "semistandard": "^7.0.2"
+    },
+    "semistandard": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
   },
-  "files": [
-    "app.js",
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
-  "keywords": [
-    "electron-app"
-  ],
-  "dependencies": {
-    "baconjs": "^0.7.79",
-    "electron-debug": "^0.3.0",
-    "jquery": "^2.1.4",
-    "open": "0.0.5",
-    "titlebar": "^1.4.0"
-  },
-  "devDependencies": {
-    "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.34.1",
-    "semistandard": "^7.0.2"
-  },
-  "semistandard": {
-    "esnext": true,
-    "envs": [
-      "node",
-      "browser"
-    ]
-  }
+  "packageStatus": 200
 }

@@ -1,64 +1,78 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "dukex/cr",
-    "description": "Making code review easy (app made with electron+react)",
-    "fork": false,
-    "created_at": "2015-07-21T03:58:35.000Z",
-    "updated_at": "2015-09-24T02:41:15.075Z",
-    "pushed_at": "2015-09-23T00:15:17.000Z",
-    "homepage": "http://dukex.io/cr",
-    "size": 400,
-    "stargazers_count": 0,
-    "language": "CoffeeScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 3,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 39422968,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 4,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 39422968,
   "name": "cr",
-  "appName": "CR",
-  "version": "0.0.1",
-  "main": "main.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dukex/cr.git"
+  "fullName": "dukex/cr",
+  "owner": {
+    "login": "dukex",
+    "id": 91538,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/91538?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/dukex",
+    "htmlUrl": "https://github.com/dukex",
+    "followersUrl": "https://api.github.com/users/dukex/followers",
+    "subscriptionsUrl": "https://api.github.com/users/dukex/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/dukex/orgs",
+    "reposUrl": "https://api.github.com/users/dukex/repos",
+    "receivedEventsUrl": "https://api.github.com/users/dukex/received_events",
+    "type": "User"
   },
-  "scripts": {
-    "test": "script/test"
+  "private": false,
+  "description": "Making code review easy (app made with electron+react)",
+  "fork": false,
+  "createdAt": "2015-07-21T03:58:35.000Z",
+  "updatedAt": "2015-08-11T10:35:30.000Z",
+  "pushedAt": "2015-09-23T00:15:17.000Z",
+  "homepage": "http://dukex.io/cr",
+  "size": 400,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CoffeeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 0,
+  "openIssuesCount": 3,
+  "openIssues": 3,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "compileCacheDir": "./compile-cache",
-  "compileDirs": [
-    "src"
-  ],
-  "devDependencies": {
-    "electron-compile": "^0.7.4",
-    "electron-jasmine": "^0.1.8",
-    "electron-packager": "^5.0.1",
-    "electron-prebuilt": "^0.30.2",
-    "electron-rebuild": "^0.2.5",
-    "react": "^0.13.3",
-    "react-router": "^0.13.3"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "cr",
+    "appName": "CR",
+    "version": "0.0.1",
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dukex/cr.git"
+    },
+    "scripts": {
+      "test": "script/test"
+    },
+    "compileCacheDir": "./compile-cache",
+    "compileDirs": [
+      "src"
+    ],
+    "devDependencies": {
+      "electron-compile": "^0.7.4",
+      "electron-jasmine": "^0.1.8",
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.2",
+      "electron-rebuild": "^0.2.5",
+      "react": "^0.13.3",
+      "react-router": "^0.13.3"
+    },
+    "dependencies": {
+      "yargs": "^3.16.1"
+    }
   },
-  "dependencies": {
-    "yargs": "^3.16.1"
-  }
+  "packageStatus": 200
 }

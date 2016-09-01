@@ -1,53 +1,73 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "cemrich/irct-editor",
-    "description": "",
-    "fork": false,
-    "created_at": "2015-08-03T14:20:04.000Z",
-    "updated_at": "2016-02-29T13:01:35.288Z",
-    "pushed_at": "2015-08-03T15:11:48.000Z",
-    "homepage": null,
-    "size": 140,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 40128826,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 40128826,
   "name": "irct-editor",
-  "version": "0.0.1",
-  "description": "Editor for irct files.",
-  "main": "js/main.js",
-  "scripts": {
-    "start-win": ".\\node_modules\\electron-prebuilt\\dist\\electron.exe .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "fullName": "cemrich/irct-editor",
+  "owner": {
+    "login": "cemrich",
+    "id": 403202,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/403202?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/cemrich",
+    "htmlUrl": "https://github.com/cemrich",
+    "followersUrl": "https://api.github.com/users/cemrich/followers",
+    "subscriptionsUrl": "https://api.github.com/users/cemrich/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/cemrich/orgs",
+    "reposUrl": "https://api.github.com/users/cemrich/repos",
+    "receivedEventsUrl": "https://api.github.com/users/cemrich/received_events",
+    "type": "User"
   },
-  "author": "Christine Coenen",
-  "license": "MIT",
-  "devDependencies": {
-    "electron-prebuilt": "^0.30.0"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2015-08-03T14:20:04.000Z",
+  "updatedAt": "2015-08-03T14:23:56.000Z",
+  "pushedAt": "2015-08-03T15:11:48.000Z",
+  "homepage": null,
+  "size": 140,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "dependencies": {
-    "moment": "^2.10.3"
-  }
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "irct-editor",
+    "version": "0.0.1",
+    "description": "Editor for irct files.",
+    "main": "js/main.js",
+    "scripts": {
+      "start-win": ".\\node_modules\\electron-prebuilt\\dist\\electron.exe .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Christine Coenen",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.30.0"
+    },
+    "dependencies": {
+      "moment": "^2.10.3"
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,80 +1,100 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "ageekymonk/transport-planner",
-    "description": "",
-    "fork": false,
-    "created_at": "2015-11-25T05:09:07.000Z",
-    "updated_at": "2015-11-25T05:17:19.000Z",
-    "pushed_at": "2015-12-04T20:52:21.000Z",
-    "homepage": null,
-    "size": 387,
-    "stargazers_count": 0,
-    "language": "CoffeeScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 46838785,
-    "source_name": null,
-    "license": "GPL-2.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+  "id": 46838785,
+  "name": "hackathon-transport-planner",
+  "fullName": "ageekymonk/hackathon-transport-planner",
+  "owner": {
+    "login": "ageekymonk",
+    "id": 271647,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/271647?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/ageekymonk",
+    "htmlUrl": "https://github.com/ageekymonk",
+    "followersUrl": "https://api.github.com/users/ageekymonk/followers",
+    "subscriptionsUrl": "https://api.github.com/users/ageekymonk/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/ageekymonk/orgs",
+    "reposUrl": "https://api.github.com/users/ageekymonk/repos",
+    "receivedEventsUrl": "https://api.github.com/users/ageekymonk/received_events",
+    "type": "User"
   },
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "src/boot/main.js",
-  "scripts": {
-    "start": "electron src/boot/main.js"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2015-11-25T05:09:07.000Z",
+  "updatedAt": "2016-07-15T21:01:47.000Z",
+  "pushedAt": "2015-12-04T20:52:21.000Z",
+  "homepage": null,
+  "size": 387,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CoffeeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/atom/electron-quick-start.git"
+  "license": {
+    "key": "gpl-2.0",
+    "name": "GNU General Public License v2.0",
+    "spdxId": "GPL-2.0",
+    "url": "https://api.github.com/licenses/gpl-2.0",
+    "featured": false
   },
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
-  ],
-  "author": "GitHub",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/atom/electron-quick-start/issues"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "src/boot/main.js",
+    "scripts": {
+      "start": "electron src/boot/main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/atom/electron-quick-start#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.0"
+    },
+    "dependencies": {
+      "angular": "^1.4.7",
+      "angular-route": "^1.4.8",
+      "angular-ui-bootstrap": "^0.14.3",
+      "angular-ui-router": "^0.2.15",
+      "bootstrap": "^3.3.5",
+      "coffee-script": "^1.10.0",
+      "d3": "^3.5.9",
+      "font-awesome": "^4.4.0",
+      "jquery": "^2.1.4",
+      "leaflet": "^0.7.7",
+      "moment": "^2.10.6",
+      "openlayers": "^3.10.1",
+      "semantic-ui": "^2.1.6",
+      "semantic-ui-sidebar": "^2.1.6",
+      "turf": "^2.0.2"
+    }
   },
-  "homepage": "https://github.com/atom/electron-quick-start#readme",
-  "devDependencies": {
-    "electron-prebuilt": "^0.34.0"
-  },
-  "dependencies": {
-    "angular": "^1.4.7",
-    "angular-route": "^1.4.8",
-    "angular-ui-bootstrap": "^0.14.3",
-    "angular-ui-router": "^0.2.15",
-    "bootstrap": "^3.3.5",
-    "coffee-script": "^1.10.0",
-    "d3": "^3.5.9",
-    "font-awesome": "^4.4.0",
-    "jquery": "^2.1.4",
-    "leaflet": "^0.7.7",
-    "moment": "^2.10.6",
-    "openlayers": "^3.10.1",
-    "semantic-ui": "^2.1.6",
-    "semantic-ui-sidebar": "^2.1.6",
-    "turf": "^2.0.2"
-  }
+  "packageStatus": 200
 }

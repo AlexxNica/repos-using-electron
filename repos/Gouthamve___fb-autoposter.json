@@ -1,71 +1,91 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "Gouthamve/fb-autoposter",
-    "description": "Autopost in Fb groups using the electron App",
-    "fork": false,
-    "created_at": "2016-04-24T13:55:52.000Z",
-    "updated_at": "2016-04-24T13:57:21.160Z",
-    "pushed_at": "2016-04-24T13:56:42.000Z",
-    "homepage": null,
-    "size": 155,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 56974311,
-    "source_name": null,
+  "id": 56974311,
+  "name": "fb-autoposter",
+  "fullName": "Gouthamve/fb-autoposter",
+  "owner": {
+    "login": "Gouthamve",
+    "id": 7354143,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7354143?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Gouthamve",
+    "htmlUrl": "https://github.com/Gouthamve",
+    "followersUrl": "https://api.github.com/users/Gouthamve/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Gouthamve/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Gouthamve/orgs",
+    "reposUrl": "https://api.github.com/users/Gouthamve/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Gouthamve/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "Autopost in Fb groups using the electron App",
+  "fork": false,
+  "createdAt": "2016-04-24T13:55:52.000Z",
+  "updatedAt": "2016-04-24T17:23:11.000Z",
+  "pushedAt": "2016-04-24T13:56:42.000Z",
+  "homepage": null,
+  "size": 155,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "cc0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "spdxId": "CC0-1.0",
+    "url": "https://api.github.com/licenses/cc0-1.0",
+    "featured": false
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "webpack --watch & sass --watch css/main.scss:build/main.css & electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
     "license": "CC0-1.0",
-    "private": false,
-    "github_contributions_count": 15,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-24T13:57:21.139Z",
-    "rank": null
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/electron/electron-quick-start#readme",
+    "devDependencies": {
+      "babel-core": "^6.7.7",
+      "babel-loader": "^6.2.4",
+      "babel-preset-es2015": "^6.6.0",
+      "electron-prebuilt": "^0.37.0",
+      "html-loader": "^0.4.3",
+      "webpack": "^1.13.0"
+    },
+    "dependencies": {
+      "jquery": "^2.2.3"
+    }
   },
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
-  "scripts": {
-    "start": "webpack --watch & sass --watch css/main.scss:build/main.css & electron main.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
-  },
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
-  },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
-  "devDependencies": {
-    "babel-core": "^6.7.7",
-    "babel-loader": "^6.2.4",
-    "babel-preset-es2015": "^6.6.0",
-    "electron-prebuilt": "^0.37.0",
-    "html-loader": "^0.4.3",
-    "webpack": "^1.13.0"
-  },
-  "dependencies": {
-    "jquery": "^2.2.3"
-  }
+  "packageStatus": 200
 }

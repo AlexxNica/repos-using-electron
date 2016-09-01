@@ -1,75 +1,89 @@
 {
+  "id": 51929505,
   "name": "travis-comrade",
-  "version": "1.1.4",
-  "description": "Status bar for travis",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron .",
-    "zip": "cd TravisComrade-darwin-x64 && ditto -c -k --sequesterRsrc --keepParent TravisComrade.app TravisComrade.app.zip",
-    "build": "electron-packager . 'TravisComrade' --platform=darwin --arch=x64 --version=0.36.7 --overwrite --icon img/travis.icns",
-    "release": "publish-release --assets TravisComrade-darwin-x64/TravisComrade.app.zip --token $GH_TOKEN"
+  "fullName": "finnp/travis-comrade",
+  "owner": {
+    "login": "finnp",
+    "id": 841788,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/841788?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/finnp",
+    "htmlUrl": "https://github.com/finnp",
+    "followersUrl": "https://api.github.com/users/finnp/followers",
+    "subscriptionsUrl": "https://api.github.com/users/finnp/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/finnp/orgs",
+    "reposUrl": "https://api.github.com/users/finnp/repos",
+    "receivedEventsUrl": "https://api.github.com/users/finnp/received_events",
+    "type": "User"
   },
-  "keywords": [
-    "travis",
-    "helper",
-    "menubar"
-  ],
-  "author": "Finn Pauls",
-  "license": "ISC",
-  "dependencies": {
-    "delegate-dom": "0.0.1",
-    "electron-default-menu": "^0.1.1",
-    "fuzzy": "^0.1.1",
-    "menubar": "^4.0.2",
-    "publish-release": "^1.2.0",
-    "request": "^2.69.0",
-    "virtual-dom": "^2.1.1"
+  "private": false,
+  "description": "Menubar for syncing and activating repositories on Travis",
+  "fork": false,
+  "createdAt": "2016-02-17T14:44:54.000Z",
+  "updatedAt": "2016-02-17T22:31:56.000Z",
+  "pushedAt": "2016-02-17T22:59:45.000Z",
+  "homepage": "https://github.com/finnp/travis-comrade/releases",
+  "size": 91,
+  "stargazersCount": 4,
+  "watchersCount": 4,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 4,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.7"
+  "license": null,
+  "networkCount": 1,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "travis-comrade",
+    "version": "1.1.4",
+    "description": "Status bar for travis",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron .",
+      "zip": "cd TravisComrade-darwin-x64 && ditto -c -k --sequesterRsrc --keepParent TravisComrade.app TravisComrade.app.zip",
+      "build": "electron-packager . 'TravisComrade' --platform=darwin --arch=x64 --version=0.36.7 --overwrite --icon img/travis.icns",
+      "release": "publish-release --assets TravisComrade-darwin-x64/TravisComrade.app.zip --token $GH_TOKEN"
+    },
+    "keywords": [
+      "travis",
+      "helper",
+      "menubar"
+    ],
+    "author": "Finn Pauls",
+    "license": "ISC",
+    "dependencies": {
+      "delegate-dom": "0.0.1",
+      "electron-default-menu": "^0.1.1",
+      "fuzzy": "^0.1.1",
+      "menubar": "^4.0.2",
+      "publish-release": "^1.2.0",
+      "request": "^2.69.0",
+      "virtual-dom": "^2.1.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.7"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/finnp/travis-comrade.git"
+    },
+    "bugs": {
+      "url": "https://github.com/finnp/travis-comrade/issues"
+    },
+    "homepage": "https://github.com/finnp/travis-comrade#readme"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/finnp/travis-comrade.git"
-  },
-  "bugs": {
-    "url": "https://github.com/finnp/travis-comrade/issues"
-  },
-  "homepage": "https://github.com/finnp/travis-comrade#readme",
-  "_librariesioMetadata": {
-    "full_name": "finnp/travis-comrade",
-    "description": "Menubar for syncing and activating repositories on Travis",
-    "fork": false,
-    "created_at": "2016-02-17T14:44:54.000Z",
-    "updated_at": "2016-02-17T22:31:56.000Z",
-    "pushed_at": "2016-02-17T22:59:45.000Z",
-    "homepage": "https://github.com/finnp/travis-comrade/releases",
-    "size": 91,
-    "stargazers_count": 4,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 51929505,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "packageStatus": 200
 }

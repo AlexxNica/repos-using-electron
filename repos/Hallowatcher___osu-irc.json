@@ -1,51 +1,70 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "Hallowatcher/osu-irc",
-    "description": "An IRC client for osu!",
-    "fork": false,
-    "created_at": "2016-08-03T09:54:06.000Z",
-    "updated_at": "2016-08-08T14:34:09.518Z",
-    "pushed_at": "2016-08-07T13:47:03.000Z",
-    "homepage": null,
-    "size": 754,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 18,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 64835080,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-08-05T23:57:51.875Z",
-    "rank": null
-  },
+  "id": 64835080,
   "name": "osu-irc",
-  "version": "0.1.0",
-  "main": "bootstrapper.js",
-  "dependencies": {
-    "irc": "^0.5.0"
+  "fullName": "Hallowatcher/osu-irc",
+  "owner": {
+    "login": "Hallowatcher",
+    "id": 6265839,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6265839?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Hallowatcher",
+    "htmlUrl": "https://github.com/Hallowatcher",
+    "followersUrl": "https://api.github.com/users/Hallowatcher/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Hallowatcher/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Hallowatcher/orgs",
+    "reposUrl": "https://api.github.com/users/Hallowatcher/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Hallowatcher/received_events",
+    "type": "User"
   },
-  "devDependencies": {
-    "electron-prebuilt": "^1.3.2",
-    "eslint": "^3.2.2"
+  "private": false,
+  "description": "An IRC client for osu!",
+  "fork": false,
+  "createdAt": "2016-08-03T09:54:06.000Z",
+  "updatedAt": "2016-08-04T20:47:32.000Z",
+  "pushedAt": "2016-08-10T14:47:13.000Z",
+  "homepage": null,
+  "size": 756,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 19,
+  "openIssues": 19,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Hallowatcher/osu-irc.git"
-  }
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "osu-irc",
+    "version": "0.1.0",
+    "main": "bootstrapper.js",
+    "dependencies": {
+      "bower": "^1.7.9",
+      "electron-prebuilt": "^1.3.2",
+      "irc": "^0.5.0"
+    },
+    "devDependencies": {
+      "eslint": "^3.2.2"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Hallowatcher/osu-irc.git"
+    },
+    "scripts": {
+      "postinstall": "bower install",
+      "start": "electron ."
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,88 +1,108 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "ueqt/aoi-hana",
-    "description": "human in China history",
-    "fork": false,
-    "created_at": "2016-03-09T09:05:13.000Z",
-    "updated_at": "2016-04-13T01:24:45.169Z",
-    "pushed_at": "2016-04-08T11:19:20.000Z",
-    "homepage": null,
-    "size": 73125,
-    "stargazers_count": 2,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 2,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 53483603,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 53483603,
   "name": "aoi-hana",
-  "version": "0.1.1",
-  "description": "A history of human",
-  "main": "main.js",
-  "scripts": {
-    "start": "npm run build:js && npm run build:css && electron main.js --debug=5858 --enable-logging 2>&1 | silence-chromium",
-    "build:css": "stylus -u nib browser/css/app.styl -o static/css/app.css",
-    "build:js": "browserify browser/js/entry.js -o static/js/bundle.js",
-    "release:css": "stylus -u nib browser/css/app.styl -o static/css/app.css -c",
-    "release:js": "browserify browser/js/entry.js | uglifyjs > static/js/bundle.js",
-    "prebuild": "npm run release:css && npm run release:js",
-    "build": "npm run prebuild && ./scripts/build-all.sh",
-    "build:osx": "npm run build:osx64",
-    "build:osx64": "npm run prebuild && ./scripts/build.sh darwin x64",
-    "build:linux32": "npm run prebuild && ./scripts/build.sh linux ia32",
-    "build:linux": "npm run build:linux64",
-    "build:linux64": "npm run prebuild && ./scripts/build.sh linux x64",
-    "build:win": "npm run build:win64",
-    "build:win32": "npm run prebuild && ./scripts/build.sh win32 ia32",
-    "build:win64": "npm run prebuild && ./scripts/build.sh win32 x64"
+  "fullName": "ueqt/aoi-hana",
+  "owner": {
+    "login": "ueqt",
+    "id": 6800801,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6800801?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/ueqt",
+    "htmlUrl": "https://github.com/ueqt",
+    "followersUrl": "https://api.github.com/users/ueqt/followers",
+    "subscriptionsUrl": "https://api.github.com/users/ueqt/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/ueqt/orgs",
+    "reposUrl": "https://api.github.com/users/ueqt/repos",
+    "receivedEventsUrl": "https://api.github.com/users/ueqt/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ueqt/aoi-hana.git"
+  "private": false,
+  "description": "human in China history",
+  "fork": false,
+  "createdAt": "2016-03-09T09:05:13.000Z",
+  "updatedAt": "2016-04-13T03:50:08.000Z",
+  "pushedAt": "2016-04-08T11:19:20.000Z",
+  "homepage": null,
+  "size": 73125,
+  "stargazersCount": 3,
+  "watchersCount": 3,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 3,
+  "openIssues": 3,
+  "watchers": 3,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "Electron",
-    "aoi",
-    "hana",
-    "history"
-  ],
-  "author": "ueqt",
-  "mail": "ueqtxu@gmail.com",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ueqt/aoi-hana/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "homepage": "https://github.com/ueqt/aoi-hana#readme",
-  "dependencies": {
-    "electron-debug": "latest",
-    "nedb": "latest"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "aoi-hana",
+    "version": "0.1.1",
+    "description": "A history of human",
+    "main": "main.js",
+    "scripts": {
+      "start": "npm run build:js && npm run build:css && electron main.js --debug=5858 --enable-logging 2>&1 | silence-chromium",
+      "build:css": "stylus -u nib browser/css/app.styl -o static/css/app.css",
+      "build:js": "browserify browser/js/entry.js -o static/js/bundle.js",
+      "release:css": "stylus -u nib browser/css/app.styl -o static/css/app.css -c",
+      "release:js": "browserify browser/js/entry.js | uglifyjs > static/js/bundle.js",
+      "prebuild": "npm run release:css && npm run release:js",
+      "build": "npm run prebuild && ./scripts/build-all.sh",
+      "build:osx": "npm run build:osx64",
+      "build:osx64": "npm run prebuild && ./scripts/build.sh darwin x64",
+      "build:linux32": "npm run prebuild && ./scripts/build.sh linux ia32",
+      "build:linux": "npm run build:linux64",
+      "build:linux64": "npm run prebuild && ./scripts/build.sh linux x64",
+      "build:win": "npm run build:win64",
+      "build:win32": "npm run prebuild && ./scripts/build.sh win32 ia32",
+      "build:win64": "npm run prebuild && ./scripts/build.sh win32 x64"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ueqt/aoi-hana.git"
+    },
+    "keywords": [
+      "Electron",
+      "aoi",
+      "hana",
+      "history"
+    ],
+    "author": "ueqt",
+    "mail": "ueqtxu@gmail.com",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ueqt/aoi-hana/issues"
+    },
+    "homepage": "https://github.com/ueqt/aoi-hana#readme",
+    "dependencies": {
+      "electron-debug": "latest",
+      "nedb": "latest"
+    },
+    "devDependencies": {
+      "browserify": "latest",
+      "electron-packager": "6.0.0",
+      "electron-prebuilt": "latest",
+      "nib": "latest",
+      "silence-chromium": "latest",
+      "stylus": "latest",
+      "uglifyjs": "latest"
+    }
   },
-  "devDependencies": {
-    "browserify": "latest",
-    "electron-packager": "6.0.0",
-    "electron-prebuilt": "latest",
-    "nib": "latest",
-    "silence-chromium": "latest",
-    "stylus": "latest",
-    "uglifyjs": "latest"
-  }
+  "packageStatus": 200
 }

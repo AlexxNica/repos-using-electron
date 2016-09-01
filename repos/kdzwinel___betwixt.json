@@ -1,73 +1,93 @@
 {
+  "id": 46131737,
   "name": "betwixt",
-  "version": "1.6.1",
-  "description": "Web Debugging Proxy based on Chrome DevTools Network panel",
-  "main": "src/main.js",
-  "scripts": {
-    "start": "electron src/main.js",
-    "test": "jshint src/lib/ src/*.js && jscs src/lib/ src/*.js"
+  "fullName": "kdzwinel/betwixt",
+  "owner": {
+    "login": "kdzwinel",
+    "id": 985504,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/985504?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/kdzwinel",
+    "htmlUrl": "https://github.com/kdzwinel",
+    "followersUrl": "https://api.github.com/users/kdzwinel/followers",
+    "subscriptionsUrl": "https://api.github.com/users/kdzwinel/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/kdzwinel/orgs",
+    "reposUrl": "https://api.github.com/users/kdzwinel/repos",
+    "receivedEventsUrl": "https://api.github.com/users/kdzwinel/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kdzwinel/betwixt.git"
+  "private": false,
+  "description": ":zap: Web Debugging Proxy based on Chrome DevTools Network panel.",
+  "fork": false,
+  "createdAt": "2015-11-13T15:57:32.000Z",
+  "updatedAt": "2016-08-14T11:54:55.000Z",
+  "pushedAt": "2016-07-12T23:00:33.000Z",
+  "homepage": "",
+  "size": 2215,
+  "stargazersCount": 3146,
+  "watchersCount": 3146,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 68,
+  "openIssuesCount": 16,
+  "openIssues": 16,
+  "watchers": 3146,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "traffic",
-    "proxy",
-    "mitm",
-    "devtools"
-  ],
-  "author": "Konrad Dzwinel",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kdzwinel/betwixt/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "homepage": "https://github.com/kdzwinel/betwixt",
-  "dependencies": {
-    "chalk": "^1.1.1",
-    "http-mitm-proxy": "^0.5.0",
-    "istextorbinary": "^2.0.0",
-    "minimist": "^1.2.0"
-  },
-  "devDependencies": {
-    "electron-packager": "^6.0.0",
-    "electron-prebuilt": "^0.36.12",
-    "jscs": "^2.6.0",
-    "jshint": "^2.8.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "kdzwinel/betwixt",
-    "description": ":zap: Web Debugging Proxy based on Chrome DevTools Network panel.",
-    "fork": false,
-    "created_at": "2015-11-13T15:57:32.000Z",
-    "updated_at": "2016-08-06T19:59:49.327Z",
-    "pushed_at": "2016-07-12T23:00:33.000Z",
-    "homepage": "",
-    "size": 2215,
-    "stargazers_count": 3133,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 66,
-    "mirror_url": null,
-    "open_issues_count": 16,
-    "default_branch": "master",
-    "subscribers_count": 77,
-    "github_id": 46131737,
-    "source_name": null,
+  "networkCount": 68,
+  "subscribersCount": 79,
+  "status": 200,
+  "packageJSON": {
+    "name": "betwixt",
+    "version": "1.6.1",
+    "description": "Web Debugging Proxy based on Chrome DevTools Network panel",
+    "main": "src/main.js",
+    "scripts": {
+      "start": "electron src/main.js",
+      "test": "jshint src/lib/ src/*.js && jscs src/lib/ src/*.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kdzwinel/betwixt.git"
+    },
+    "keywords": [
+      "traffic",
+      "proxy",
+      "mitm",
+      "devtools"
+    ],
+    "author": "Konrad Dzwinel",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 3,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": "CONTRIBUTING.md",
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "bugs": {
+      "url": "https://github.com/kdzwinel/betwixt/issues"
+    },
+    "homepage": "https://github.com/kdzwinel/betwixt",
+    "dependencies": {
+      "chalk": "^1.1.1",
+      "http-mitm-proxy": "^0.5.0",
+      "istextorbinary": "^2.0.0",
+      "minimist": "^1.2.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^6.0.0",
+      "electron-prebuilt": "^0.36.12",
+      "jscs": "^2.6.0",
+      "jshint": "^2.8.0"
+    }
+  },
+  "packageStatus": 200
 }

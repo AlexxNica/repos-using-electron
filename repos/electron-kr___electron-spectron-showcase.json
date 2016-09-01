@@ -1,81 +1,69 @@
 {
+  "id": 49193617,
   "name": "electron-showcase-spectron",
-  "productName": "ElectronShowcaseForSpectron",
-  "version": "0.0.0",
-  "description": "Show how to use spectron with ava on electron for testing",
-  "license": "MIT",
-  "repository": "electron-kr/electron-showcase-spectron",
-  "author": {
-    "name": "ragingwind",
-    "email": "ragingwind@gmail.com",
-    "url": "ragingwind.me"
+  "fullName": "electron-kr/electron-showcase-spectron",
+  "owner": {
+    "login": "electron-kr",
+    "id": 12471384,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/12471384?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/electron-kr",
+    "htmlUrl": "https://github.com/electron-kr",
+    "followersUrl": "https://api.github.com/users/electron-kr/followers",
+    "subscriptionsUrl": "https://api.github.com/users/electron-kr/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/electron-kr/orgs",
+    "reposUrl": "https://api.github.com/users/electron-kr/repos",
+    "receivedEventsUrl": "https://api.github.com/users/electron-kr/received_events",
+    "type": "Organization"
   },
-  "scripts": {
-    "test": "xo && ava --serial",
-    "start": "electron .",
-    "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all"
+  "private": false,
+  "description": "Show how to use electron with spectron",
+  "fork": false,
+  "createdAt": "2016-01-07T09:02:54.000Z",
+  "updatedAt": "2016-06-28T05:48:50.000Z",
+  "pushedAt": "2016-06-28T05:53:00.000Z",
+  "homepage": "",
+  "size": 6,
+  "stargazersCount": 4,
+  "watchersCount": 4,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 4,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
-  "keywords": [
-    "electron-app",
-    "electron"
-  ],
-  "dependencies": {
-    "electron-debug": "^1.0.0"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "devDependencies": {
-    "ava": "^0.15.2",
-    "devtron": "^1.1.0",
-    "electron-bin-path": "^0.1.0",
-    "electron-packager": "^7.0.0",
-    "electron-prebuilt": "^1.0.1",
-    "spectron": "^3.2.3",
-    "xo": "^0.15.0"
+  "organization": {
+    "login": "electron-kr",
+    "id": 12471384,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/12471384?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/electron-kr",
+    "htmlUrl": "https://github.com/electron-kr",
+    "followersUrl": "https://api.github.com/users/electron-kr/followers",
+    "subscriptionsUrl": "https://api.github.com/users/electron-kr/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/electron-kr/orgs",
+    "reposUrl": "https://api.github.com/users/electron-kr/repos",
+    "receivedEventsUrl": "https://api.github.com/users/electron-kr/received_events",
+    "type": "Organization"
   },
-  "xo": {
-    "esnext": true,
-    "envs": [
-      "node",
-      "browser"
-    ]
-  },
-  "_librariesioMetadata": {
-    "full_name": "electron-kr/electron-spectron-showcase",
-    "description": "Show how to use electron with spectron",
-    "fork": false,
-    "created_at": "2016-01-07T09:02:54.000Z",
-    "updated_at": "2016-05-18T22:37:29.401Z",
-    "pushed_at": "2016-01-25T22:54:37.000Z",
-    "homepage": "",
-    "size": 5,
-    "stargazers_count": 2,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 49193617,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "networkCount": 1,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageStatus": 404
 }

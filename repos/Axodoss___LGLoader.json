@@ -1,63 +1,83 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "Axodoss/LGLoader",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-06-01T17:53:08.000Z",
-    "updated_at": "2016-06-11T07:34:27.199Z",
-    "pushed_at": "2016-06-04T16:31:42.000Z",
-    "homepage": null,
-    "size": 10,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 60198961,
-    "source_name": null,
+  "id": 60198961,
+  "name": "LGLoader",
+  "fullName": "Axodoss/LGLoader",
+  "owner": {
+    "login": "Axodoss",
+    "id": 3728948,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3728948?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Axodoss",
+    "htmlUrl": "https://github.com/Axodoss",
+    "followersUrl": "https://api.github.com/users/Axodoss/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Axodoss/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Axodoss/orgs",
+    "reposUrl": "https://api.github.com/users/Axodoss/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Axodoss/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2016-06-01T17:53:08.000Z",
+  "updatedAt": "2016-06-04T09:37:32.000Z",
+  "pushedAt": "2016-06-04T16:31:42.000Z",
+  "homepage": null,
+  "size": 10,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "lgloader",
+    "version": "1.0.0",
+    "description": "Load mission for games like Thief, Thief Gold, Thief 2 and System Shock 2",
+    "main": "source/main.js",
+    "scripts": {
+      "start": "electron source/main.js",
+      "build": "electron-packager source LGLoader --platform=all --arch=all",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Axodoss/LGLoader.git"
+    },
+    "author": "Lukas Heise",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-11T07:34:27.177Z",
-    "rank": null
+    "bugs": {
+      "url": "https://github.com/Axodoss/LGLoader/issues"
+    },
+    "homepage": "https://github.com/Axodoss/LGLoader#readme",
+    "dependencies": {
+      "editor-framework": "^0.6.1",
+      "electron-prebuilt": "^1.2.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.0.3"
+    }
   },
-  "name": "lgloader",
-  "version": "1.0.0",
-  "description": "Load mission for games like Thief, Thief Gold, Thief 2 and System Shock 2",
-  "main": "source/main.js",
-  "scripts": {
-    "start": "electron source/main.js",
-    "build": "electron-packager source LGLoader --platform=all --arch=all",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Axodoss/LGLoader.git"
-  },
-  "author": "Lukas Heise",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Axodoss/LGLoader/issues"
-  },
-  "homepage": "https://github.com/Axodoss/LGLoader#readme",
-  "dependencies": {
-    "editor-framework": "^0.6.1",
-    "electron-prebuilt": "^1.2.1"
-  },
-  "devDependencies": {
-    "electron-packager": "^7.0.3"
-  }
+  "packageStatus": 200
 }

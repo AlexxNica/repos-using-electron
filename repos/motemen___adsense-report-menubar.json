@@ -1,60 +1,74 @@
 {
+  "id": 43530144,
   "name": "adsense-report-menubar",
-  "version": "1.0.0",
-  "description": "AdSense performance report in your menubar",
-  "main": "app/main.js",
-  "scripts": {
-    "watch": "tsc --watch --module commonjs --outDir app/ src/*.ts",
-    "compile": "tsc --module commonjs --outDir app/ src/*.ts",
-    "app": "electron .",
-    "setup-dev": "dtsm --insight false install",
-    "dist": "npm run compile && mkdir -p dist && cp -R package.json app res view dist/ && ( cd dist/ && npm install --production ) && electron-packager dist/ 'AdSense Report Menubar' --overwrite --platform darwin --arch=x64 --version=0.33.1 --icon appicon.icns"
+  "fullName": "motemen/adsense-report-menubar",
+  "owner": {
+    "login": "motemen",
+    "id": 8465,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8465?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/motemen",
+    "htmlUrl": "https://github.com/motemen",
+    "followersUrl": "https://api.github.com/users/motemen/followers",
+    "subscriptionsUrl": "https://api.github.com/users/motemen/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/motemen/orgs",
+    "reposUrl": "https://api.github.com/users/motemen/repos",
+    "receivedEventsUrl": "https://api.github.com/users/motemen/received_events",
+    "type": "User"
   },
-  "author": "motemen <https://github.com/motemen>",
-  "license": "MIT",
-  "devDependencies": {
-    "dtsm": "^0.11.0",
-    "electron-packager": "^5.1.0",
-    "electron-prebuilt": "^0.33.1",
-    "typescript": "^1.6.2"
+  "private": false,
+  "description": "AdSense performance report on the menubar",
+  "fork": false,
+  "createdAt": "2015-10-02T01:17:49.000Z",
+  "updatedAt": "2016-03-16T11:25:20.000Z",
+  "pushedAt": "2015-10-05T04:36:15.000Z",
+  "homepage": "",
+  "size": 280,
+  "stargazersCount": 5,
+  "watchersCount": 5,
+  "language": "TypeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 5,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "dependencies": {
-    "googleapis": "^2.1.5",
-    "lodash.assign": "^3.2.0"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "adsense-report-menubar",
+    "version": "1.0.0",
+    "description": "AdSense performance report in your menubar",
+    "main": "app/main.js",
+    "scripts": {
+      "watch": "tsc --watch --module commonjs --outDir app/ src/*.ts",
+      "compile": "tsc --module commonjs --outDir app/ src/*.ts",
+      "app": "electron .",
+      "setup-dev": "dtsm --insight false install",
+      "dist": "npm run compile && mkdir -p dist && cp -R package.json app res view dist/ && ( cd dist/ && npm install --production ) && electron-packager dist/ 'AdSense Report Menubar' --overwrite --platform darwin --arch=x64 --version=0.33.1 --icon appicon.icns"
+    },
+    "author": "motemen <https://github.com/motemen>",
+    "license": "MIT",
+    "devDependencies": {
+      "dtsm": "^0.11.0",
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.33.1",
+      "typescript": "^1.6.2"
+    },
+    "dependencies": {
+      "googleapis": "^2.1.5",
+      "lodash.assign": "^3.2.0"
+    }
   },
-  "_librariesioMetadata": {
-    "full_name": "motemen/adsense-report-menubar",
-    "description": "AdSense performance report on the menubar",
-    "fork": false,
-    "created_at": "2015-10-02T01:17:49.000Z",
-    "updated_at": "2016-03-16T11:25:20.000Z",
-    "pushed_at": "2015-10-05T04:36:15.000Z",
-    "homepage": "",
-    "size": 280,
-    "stargazers_count": 5,
-    "language": "TypeScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 43530144,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "packageStatus": 200
 }

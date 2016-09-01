@@ -1,72 +1,92 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "naxmefy/devtools",
-    "description": "Easy shell or bash scripts - to setup a full working environment for developement or production",
-    "fork": false,
-    "created_at": "2014-03-12T09:21:46.000Z",
-    "updated_at": "2016-02-29T14:11:58.813Z",
-    "pushed_at": "2016-02-11T17:45:14.000Z",
-    "homepage": null,
-    "size": 6,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 17661514,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 17661514,
   "name": "devtools",
-  "version": "0.1.0",
-  "description": "you may love this tool as developer",
-  "private": true,
-  "main": "index.js",
-  "scripts": {
-    "dev": "electron ./app",
-    "clean": "rm -rf ./dist",
-    "clean:osx": "rm -rf ./dist/osx",
-    "clean:win": "rm -rf ./dist/win",
-    "pack": "npm run clean && npm run pack:osx && npm run pack:win",
-    "pack:osx": "npm run clean:osx && electron-packager ./app \"DevTools\" --out=dist/osx --platform=darwin --arch=x64 --version=0.36.1 --icon=assets/osx/loopline.icns",
-    "pack:win": "npm run clean:win && electron-packager ./app \"DevTools\" --out=dist/win --platform=win32 --arch=ia32 --version=0.36.1 --icon=assets/win/icon.ico",
-    "build": "npm run build:osx && npm run build:win",
-    "build:osx": "npm run pack:osx && electron-builder \"dist/osx/DevTools.app\" --platform=osx --out=\"dist/osx\" --config=builder.json",
-    "build:win": "npm run pack:win && electron-builder \"dist/win/DevTools-win32\" --platform=win --out=\"dist/win\" --config=builder.json"
+  "fullName": "naxmefy/devtools",
+  "owner": {
+    "login": "naxmefy",
+    "id": 5736450,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5736450?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/naxmefy",
+    "htmlUrl": "https://github.com/naxmefy",
+    "followersUrl": "https://api.github.com/users/naxmefy/followers",
+    "subscriptionsUrl": "https://api.github.com/users/naxmefy/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/naxmefy/orgs",
+    "reposUrl": "https://api.github.com/users/naxmefy/repos",
+    "receivedEventsUrl": "https://api.github.com/users/naxmefy/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/naxmefy/devtools.git"
+  "private": false,
+  "description": "Easy shell or bash scripts - to setup a full working environment for developement or production",
+  "fork": false,
+  "createdAt": "2014-03-12T09:21:46.000Z",
+  "updatedAt": "2016-02-11T17:45:16.000Z",
+  "pushedAt": "2016-02-11T17:45:14.000Z",
+  "homepage": null,
+  "size": 6,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "devtools"
-  ],
-  "author": "naxmefy",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/naxmefy/devtools/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "homepage": "https://github.com/naxmefy/devtools#readme",
-  "dependencies": {
-    "electron-packager": "^4.0.2",
-    "electron-prebuilt": "^0.36.7",
-    "electron-builder": "^2.7.2"
-  }
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "devtools",
+    "version": "0.1.0",
+    "description": "you may love this tool as developer",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+      "dev": "electron ./app",
+      "clean": "rm -rf ./dist",
+      "clean:osx": "rm -rf ./dist/osx",
+      "clean:win": "rm -rf ./dist/win",
+      "pack": "npm run clean && npm run pack:osx && npm run pack:win",
+      "pack:osx": "npm run clean:osx && electron-packager ./app \"DevTools\" --out=dist/osx --platform=darwin --arch=x64 --version=0.36.1 --icon=assets/osx/loopline.icns",
+      "pack:win": "npm run clean:win && electron-packager ./app \"DevTools\" --out=dist/win --platform=win32 --arch=ia32 --version=0.36.1 --icon=assets/win/icon.ico",
+      "build": "npm run build:osx && npm run build:win",
+      "build:osx": "npm run pack:osx && electron-builder \"dist/osx/DevTools.app\" --platform=osx --out=\"dist/osx\" --config=builder.json",
+      "build:win": "npm run pack:win && electron-builder \"dist/win/DevTools-win32\" --platform=win --out=\"dist/win\" --config=builder.json"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/naxmefy/devtools.git"
+    },
+    "keywords": [
+      "devtools"
+    ],
+    "author": "naxmefy",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/naxmefy/devtools/issues"
+    },
+    "homepage": "https://github.com/naxmefy/devtools#readme",
+    "dependencies": {
+      "electron-packager": "^4.0.2",
+      "electron-prebuilt": "^0.36.7",
+      "electron-builder": "^2.7.2"
+    }
+  },
+  "packageStatus": 200
 }

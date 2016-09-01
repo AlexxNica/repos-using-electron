@@ -1,99 +1,119 @@
 {
-  "name": "silhouette",
-  "productName": "Silhouette",
-  "version": "0.0.0",
-  "description": "My world-class app",
-  "license": "MIT",
-  "main": "index.js",
-  "repository": "annielcook/silhouette",
-  "author": {
-    "name": "Annie Cook Anna Goldberg Jovia Nierenberg",
-    "email": "anniecook@ostby.com",
-    "url": "localhost:1337"
+  "id": 40622437,
+  "name": "Silhouette",
+  "fullName": "annielcook/Silhouette",
+  "owner": {
+    "login": "annielcook",
+    "id": 6455793,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6455793?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/annielcook",
+    "htmlUrl": "https://github.com/annielcook",
+    "followersUrl": "https://api.github.com/users/annielcook/followers",
+    "subscriptionsUrl": "https://api.github.com/users/annielcook/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/annielcook/orgs",
+    "reposUrl": "https://api.github.com/users/annielcook/repos",
+    "receivedEventsUrl": "https://api.github.com/users/annielcook/received_events",
+    "type": "User"
   },
-  "engines": {
-    "node": ">=0.10.0"
+  "private": false,
+  "description": null,
+  "fork": false,
+  "createdAt": "2015-08-12T20:23:48.000Z",
+  "updatedAt": "2016-04-18T14:35:49.000Z",
+  "pushedAt": "2015-08-26T21:37:05.000Z",
+  "homepage": null,
+  "size": 101852,
+  "stargazersCount": 3,
+  "watchersCount": 3,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 3,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "start": "electron .",
-    "build": "electron-packager . Silhouette --platform=darwin --arch=x64 --version=0.25.1 && cp Icon.icns Silhouette-darwin-x64/Silhouette.app/Contents/Resources/atom.icns",
-    "postinstall": "gulp build"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
-  "keywords": [
-    "electron-app"
-  ],
-  "dependencies": {
-    "angular": "^1.4.4",
-    "bluebird": "^2.9.34",
-    "bootstrap": "^3.3.5",
-    "child-process-promise": "^1.1.0",
-    "crypto": "0.0.3",
-    "electron-debug": "^0.1.1",
-    "express": "^4.13.3",
-    "font-awesome": "^4.4.0",
-    "gridfs-stream": "^1.1.1",
-    "gulp": "^3.9.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-livereload": "^3.8.0",
-    "gulp-plumber": "^1.0.1",
-    "gulp-sass": "^2.0.4",
-    "jquery": "^2.1.4",
-    "lodash": "^3.10.1",
-    "mongodb": "^2.0.40",
-    "mongoose": "^4.1.2",
-    "mongoose-crate": "^1.0.10",
-    "mongoose-crate-s3": "^1.1.3",
-    "nedb": "^1.1.3",
-    "node-sass-middleware": "^0.9.0",
-    "nodemon": "^1.4.1",
-    "path": "^0.11.14",
-    "run-sequence": "^1.1.2",
-    "serve-static": "^1.10.0",
-    "ui-router": "0.0.1"
-  },
-  "devDependencies": {
-    "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.30.0",
-    "electron-rebuild": "^0.2.5"
-  },
-  "_librariesioMetadata": {
-    "full_name": "annielcook/Silhouette",
-    "description": null,
-    "fork": false,
-    "created_at": "2015-08-12T20:23:48.000Z",
-    "updated_at": "2016-02-29T17:48:22.000Z",
-    "pushed_at": "2015-08-26T21:37:05.000Z",
-    "homepage": null,
-    "size": 101852,
-    "stargazers_count": 4,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 5,
-    "github_id": 40622437,
-    "source_name": null,
+  "networkCount": 1,
+  "subscribersCount": 4,
+  "status": 200,
+  "packageJSON": {
+    "name": "silhouette",
+    "productName": "Silhouette",
+    "version": "0.0.0",
+    "description": "My world-class app",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 3,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "main": "index.js",
+    "repository": "annielcook/silhouette",
+    "author": {
+      "name": "Annie Cook Anna Goldberg Jovia Nierenberg",
+      "email": "anniecook@ostby.com",
+      "url": "localhost:1337"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . Silhouette --platform=darwin --arch=x64 --version=0.25.1 && cp Icon.icns Silhouette-darwin-x64/Silhouette.app/Contents/Resources/atom.icns",
+      "postinstall": "gulp build"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "angular": "^1.4.4",
+      "bluebird": "^2.9.34",
+      "bootstrap": "^3.3.5",
+      "child-process-promise": "^1.1.0",
+      "crypto": "0.0.3",
+      "electron-debug": "^0.1.1",
+      "express": "^4.13.3",
+      "font-awesome": "^4.4.0",
+      "gridfs-stream": "^1.1.1",
+      "gulp": "^3.9.0",
+      "gulp-concat": "^2.6.0",
+      "gulp-livereload": "^3.8.0",
+      "gulp-plumber": "^1.0.1",
+      "gulp-sass": "^2.0.4",
+      "jquery": "^2.1.4",
+      "lodash": "^3.10.1",
+      "mongodb": "^2.0.40",
+      "mongoose": "^4.1.2",
+      "mongoose-crate": "^1.0.10",
+      "mongoose-crate-s3": "^1.1.3",
+      "nedb": "^1.1.3",
+      "node-sass-middleware": "^0.9.0",
+      "nodemon": "^1.4.1",
+      "path": "^0.11.14",
+      "run-sequence": "^1.1.2",
+      "serve-static": "^1.10.0",
+      "ui-router": "0.0.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.30.0",
+      "electron-rebuild": "^0.2.5"
+    }
+  },
+  "packageStatus": 200
 }

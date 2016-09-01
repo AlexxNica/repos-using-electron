@@ -1,80 +1,94 @@
 {
+  "id": 52651469,
   "name": "bel",
-  "version": "4.4.3",
-  "description": "A simple extension to native elements",
-  "main": "index.js",
-  "scripts": {
-    "start": "wzrd test/index.js:bundle.js",
-    "test": "standard && node test/server.js && browserify test/index.js | testron",
-    "bench": "wzrd bench/index.js:bundle.js"
+  "fullName": "shama/bel",
+  "owner": {
+    "login": "shama",
+    "id": 99604,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/99604?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/shama",
+    "htmlUrl": "https://github.com/shama",
+    "followersUrl": "https://api.github.com/users/shama/followers",
+    "subscriptionsUrl": "https://api.github.com/users/shama/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/shama/orgs",
+    "reposUrl": "https://api.github.com/users/shama/repos",
+    "receivedEventsUrl": "https://api.github.com/users/shama/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/shama/bel"
+  "private": false,
+  "description": ":dragon: A simple library for composable DOM elements using tagged template strings.",
+  "fork": false,
+  "createdAt": "2016-02-27T05:18:55.000Z",
+  "updatedAt": "2016-08-11T22:15:19.000Z",
+  "pushedAt": "2016-08-03T04:18:10.000Z",
+  "homepage": "",
+  "size": 57,
+  "stargazersCount": 133,
+  "watchersCount": 133,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 8,
+  "openIssuesCount": 13,
+  "openIssues": 13,
+  "watchers": 133,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "virtual-dom",
-    "element",
-    "diffhtml"
-  ],
-  "files": [
-    "index.js",
-    "create.js"
-  ],
-  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shama/bel/issues"
+  "license": null,
+  "networkCount": 8,
+  "subscribersCount": 14,
+  "status": 200,
+  "packageJSON": {
+    "name": "bel",
+    "version": "4.4.3",
+    "description": "A simple extension to native elements",
+    "main": "index.js",
+    "scripts": {
+      "start": "wzrd test/index.js:bundle.js",
+      "test": "standard && node test/server.js && browserify test/index.js | testron",
+      "bench": "wzrd bench/index.js:bundle.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/shama/bel"
+    },
+    "keywords": [
+      "virtual-dom",
+      "element",
+      "diffhtml"
+    ],
+    "files": [
+      "index.js",
+      "create.js"
+    ],
+    "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/shama/bel/issues"
+    },
+    "homepage": "https://github.com/shama/bel",
+    "dependencies": {
+      "global": "^4.3.0",
+      "hyperx": "^2.0.2",
+      "on-load": "^3.2.0"
+    },
+    "devDependencies": {
+      "browser-process-hrtime": "^0.1.2",
+      "browserify": "^13.0.0",
+      "electron-prebuilt": "^0.36.9",
+      "morphdom": "^1.4.5",
+      "standard": "^6.0.7",
+      "tape": "^4.6.0",
+      "testron": "^1.2.0",
+      "wzrd": "^1.4.0"
+    }
   },
-  "homepage": "https://github.com/shama/bel",
-  "dependencies": {
-    "global": "^4.3.0",
-    "hyperx": "^2.0.2",
-    "on-load": "^3.2.0"
-  },
-  "devDependencies": {
-    "browser-process-hrtime": "^0.1.2",
-    "browserify": "^13.0.0",
-    "electron-prebuilt": "^0.36.9",
-    "morphdom": "^1.4.5",
-    "standard": "^6.0.7",
-    "tape": "^4.6.0",
-    "testron": "^1.2.0",
-    "wzrd": "^1.4.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "shama/bel",
-    "description": ":dragon: A simple library for composable DOM elements using tagged template strings.",
-    "fork": false,
-    "created_at": "2016-02-27T05:18:55.000Z",
-    "updated_at": "2016-08-05T20:16:08.000Z",
-    "pushed_at": "2016-08-03T04:18:10.000Z",
-    "homepage": "",
-    "size": 57,
-    "stargazers_count": 127,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 8,
-    "mirror_url": null,
-    "open_issues_count": 13,
-    "default_branch": "master",
-    "subscribers_count": 14,
-    "github_id": 52651469,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 3,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-10T18:05:56.865Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

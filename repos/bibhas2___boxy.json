@@ -1,73 +1,94 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "bibhas2/boxy",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-02-22T04:48:50.000Z",
-    "updated_at": "2016-03-06T08:41:08.801Z",
-    "pushed_at": "2016-03-05T02:41:47.000Z",
-    "homepage": null,
-    "size": 2603,
-    "stargazers_count": 0,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 52247872,
-    "source_name": null,
+  "id": 52247872,
+  "name": "boxy",
+  "fullName": "bibhas2/boxy",
+  "owner": {
+    "login": "bibhas2",
+    "id": 1730356,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1730356?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/bibhas2",
+    "htmlUrl": "https://github.com/bibhas2",
+    "followersUrl": "https://api.github.com/users/bibhas2/followers",
+    "subscriptionsUrl": "https://api.github.com/users/bibhas2/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/bibhas2/orgs",
+    "reposUrl": "https://api.github.com/users/bibhas2/repos",
+    "receivedEventsUrl": "https://api.github.com/users/bibhas2/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2016-02-22T04:48:50.000Z",
+  "updatedAt": "2016-02-22T04:50:27.000Z",
+  "pushedAt": "2016-08-11T01:12:34.000Z",
+  "homepage": null,
+  "size": 2625,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "cc0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "spdxId": "CC0-1.0",
+    "url": "https://api.github.com/licenses/cc0-1.0",
+    "featured": false
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "pack:win32": "electron-packager . Boxy --overwrite --platform=win32 --arch=ia32 --version=0.36.7 --icon=assets/boxy.ico --out=dist  --prune --ignore=dist",
+      "pack:osx": "electron-packager . Boxy --overwrite --platform=darwin --arch=x64 --version=0.36.7 --icon=assets/boxy.icns --out=dist  --prune --ignore=dist",
+      "build:osx": "npm run pack:osx && electron-builder dist/osx/Boxy.app --platform=osx --out=\"dist/osx\" --config=packager.json"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
     "license": "CC0-1.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/atom/electron-quick-start#readme",
+    "devDependencies": {
+      "electron-builder": "^2.7.2",
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "hoxy": "^3.2.0",
+      "jquery": "^2.2.0",
+      "js-beautify": "^1.6.2",
+      "jsonfile": "^2.2.3"
+    }
   },
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js",
-    "pack:osx": "electron-packager . Boxy --overwrite --platform=darwin --arch=x64 --version=0.36.7 --icon=assets/boxy.icns --out=dist  --prune --ignore=dist",
-    "build:osx": "npm run pack:osx && electron-builder dist/osx/Boxy.app --platform=osx --out=\"dist/osx\" --config=packager.json"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/atom/electron-quick-start.git"
-  },
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/atom/electron-quick-start/issues"
-  },
-  "homepage": "https://github.com/atom/electron-quick-start#readme",
-  "devDependencies": {
-    "electron-builder": "^2.7.2",
-    "electron-packager": "^5.2.1",
-    "electron-prebuilt": "^0.36.0"
-  },
-  "dependencies": {
-    "hoxy": "^3.2.0",
-    "jquery": "^2.2.0",
-    "js-beautify": "^1.6.2",
-    "jsonfile": "^2.2.3"
-  }
+  "packageStatus": 200
 }

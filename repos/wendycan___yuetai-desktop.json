@@ -1,67 +1,81 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "wendycan/yuetai-desktop",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-02-18T09:28:58.000Z",
-    "updated_at": "2016-02-22T06:28:24.000Z",
-    "pushed_at": "2016-02-24T09:53:06.000Z",
-    "homepage": null,
-    "size": 77,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 51995990,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 51995990,
   "name": "yuetai-desktop",
-  "version": "1.0.0",
+  "fullName": "wendycan/yuetai-desktop",
+  "owner": {
+    "login": "wendycan",
+    "id": 1301338,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1301338?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/wendycan",
+    "htmlUrl": "https://github.com/wendycan",
+    "followersUrl": "https://api.github.com/users/wendycan/followers",
+    "subscriptionsUrl": "https://api.github.com/users/wendycan/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/wendycan/orgs",
+    "reposUrl": "https://api.github.com/users/wendycan/repos",
+    "receivedEventsUrl": "https://api.github.com/users/wendycan/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "",
-  "main": "main.js",
-  "scripts": {
-    "start": "./node_modules/.bin/electron .",
-    "deploy": "./node_modules/.bin/electron-packager . YueTai --platform=darwin --arch=x64 --icon=images/yuetai –-out=dist --overwrite --version-string.ProductName=YueTai --app-version=0.0.1"
+  "fork": false,
+  "createdAt": "2016-02-18T09:28:58.000Z",
+  "updatedAt": "2016-02-22T06:28:24.000Z",
+  "pushedAt": "2016-02-25T07:34:28.000Z",
+  "homepage": null,
+  "size": 79,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wendycan/yuetai-desktop.git"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "yuetai-desktop",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "./node_modules/.bin/electron .",
+      "deploy": "./node_modules/.bin/electron-packager . YueTai --platform=darwin --arch=x64 --icon=images/yuetai –-out=dist --overwrite --version-string.ProductName=YueTai --app-version=0.0.1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wendycan/yuetai-desktop.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/wendycan/yuetai-desktop/issues"
+    },
+    "homepage": "https://github.com/wendycan/yuetai-desktop#readme",
+    "devDependencies": {
+      "coffeeify": "~0.5.2",
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.7",
+      "gulp": "^3.9.0",
+      "gulp-browserify": "https://github.com/deepak1556/gulp-browserify/tarball/master",
+      "gulp-concat": "~2.1.7",
+      "gulp-replace": "^0.5.4",
+      "gulp-sass": "^2.0.4",
+      "jquery": "^2.2.1",
+      "simditor": "^2.3.6"
+    }
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wendycan/yuetai-desktop/issues"
-  },
-  "homepage": "https://github.com/wendycan/yuetai-desktop#readme",
-  "devDependencies": {
-    "coffeeify": "~0.5.2",
-    "electron-packager": "^5.2.1",
-    "electron-prebuilt": "^0.36.7",
-    "gulp": "^3.9.0",
-    "gulp-browserify": "https://github.com/deepak1556/gulp-browserify/tarball/master",
-    "gulp-concat": "~2.1.7",
-    "gulp-replace": "^0.5.4",
-    "gulp-sass": "^2.0.4",
-    "jquery": "^2.2.1",
-    "simditor": "^2.3.6"
-  }
+  "packageStatus": 200
 }

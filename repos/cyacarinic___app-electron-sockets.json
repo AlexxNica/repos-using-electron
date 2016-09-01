@@ -1,52 +1,66 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "cyacarinic/app-electron-sockets",
-    "description": "NodeJS+Electron+SocketIO",
-    "fork": false,
-    "created_at": "2015-09-11T17:36:29.000Z",
-    "updated_at": "2016-05-28T05:09:22.846Z",
-    "pushed_at": "2015-09-11T17:37:13.000Z",
-    "homepage": null,
-    "size": 108,
-    "stargazers_count": 0,
-    "language": "HTML",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 42322975,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 0,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T05:09:22.825Z",
-    "rank": null
+  "id": 42322975,
+  "name": "app-electron-sockets",
+  "fullName": "cyacarinic/app-electron-sockets",
+  "owner": {
+    "login": "cyacarinic",
+    "id": 8764595,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8764595?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/cyacarinic",
+    "htmlUrl": "https://github.com/cyacarinic",
+    "followersUrl": "https://api.github.com/users/cyacarinic/followers",
+    "subscriptionsUrl": "https://api.github.com/users/cyacarinic/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/cyacarinic/orgs",
+    "reposUrl": "https://api.github.com/users/cyacarinic/repos",
+    "receivedEventsUrl": "https://api.github.com/users/cyacarinic/received_events",
+    "type": "User"
   },
-  "name": "app-electron",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "electron ."
+  "private": false,
+  "description": "NodeJS+Electron+SocketIO",
+  "fork": false,
+  "createdAt": "2015-09-11T17:36:29.000Z",
+  "updatedAt": "2015-09-11T17:37:14.000Z",
+  "pushedAt": "2015-09-11T17:37:13.000Z",
+  "homepage": null,
+  "size": 108,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "Claudio Yacarini",
-  "license": "RCP",
-  "devDependencies": {
-    "electron-prebuilt": "^0.32.1"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "app-electron",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "Claudio Yacarini",
+    "license": "RCP",
+    "devDependencies": {
+      "electron-prebuilt": "^0.32.1"
+    },
+    "dependencies": {
+      "socket.io": "^1.3.6"
+    }
   },
-  "dependencies": {
-    "socket.io": "^1.3.6"
-  }
+  "packageStatus": 200
 }

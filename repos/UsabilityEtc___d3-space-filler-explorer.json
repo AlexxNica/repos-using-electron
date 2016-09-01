@@ -1,78 +1,98 @@
 {
+  "id": 42007508,
   "name": "d3-space-filler-explorer",
-  "version": "1.0.0",
-  "description": "An Electron application that visualizes disk space with D3 treemap and pie chart layouts.",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/UsabilityEtc/d3-space-filler-explorer.git"
+  "fullName": "UsabilityEtc/d3-space-filler-explorer",
+  "owner": {
+    "login": "UsabilityEtc",
+    "id": 1482434,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1482434?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/UsabilityEtc",
+    "htmlUrl": "https://github.com/UsabilityEtc",
+    "followersUrl": "https://api.github.com/users/UsabilityEtc/followers",
+    "subscriptionsUrl": "https://api.github.com/users/UsabilityEtc/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/UsabilityEtc/orgs",
+    "reposUrl": "https://api.github.com/users/UsabilityEtc/repos",
+    "receivedEventsUrl": "https://api.github.com/users/UsabilityEtc/received_events",
+    "type": "User"
   },
-  "author": {
-    "name": "Jeffrey Morgan",
-    "email": "usabilityetc@gmail.com",
-    "url": "http://usabilityetc.com"
+  "private": false,
+  "description": "An Electron application that visualizes disk space use with multiple D3 layouts.",
+  "fork": false,
+  "createdAt": "2015-09-06T15:26:18.000Z",
+  "updatedAt": "2016-08-06T09:41:26.000Z",
+  "pushedAt": "2015-10-04T15:58:12.000Z",
+  "homepage": "",
+  "size": 1045,
+  "stargazersCount": 15,
+  "watchersCount": 15,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 4,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 15,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-    "package-osx": "electron-packager ./ SpaceFillerExplorer --platform=darwin --arch=x64 --icon=app/icons/Icon.icns --version=0.30.4 --ignore=node_modules/electron-* --overwrite",
-    "package-linux": "electron-packager ./ SpaceFillerExplorer --platform=linux --arch=x64 --version=0.30.4 --ignore=node_modules/electron-* --overwrite"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "keywords": [
-    "electron",
-    "files",
-    "directories",
-    "visualization",
-    "treemap",
-    "pie chart",
-    "D3"
-  ],
-  "devDependencies": {
-    "electron-packager": "^5.0.1",
-    "electron-prebuilt": "0.30.4",
-    "numeral": "^1.5.3"
-  },
-  "dependencies": {
-    "async": "^1.4.2",
-    "d3": "^3.5.6",
-    "file-size-tree-js": "^1.0.0",
-    "jquery": "^2.1.4",
-    "nodejs-disks": "^0.2.1",
-    "underscore": "^1.8.3"
-  },
-  "_librariesioMetadata": {
-    "full_name": "UsabilityEtc/d3-space-filler-explorer",
-    "description": "An Electron application that visualizes disk space use with multiple D3 layouts.",
-    "fork": false,
-    "created_at": "2015-09-06T15:26:18.000Z",
-    "updated_at": "2016-08-06T09:43:37.732Z",
-    "pushed_at": "2015-10-04T15:58:12.000Z",
-    "homepage": "",
-    "size": 1045,
-    "stargazers_count": 16,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 5,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 4,
-    "github_id": 42007508,
-    "source_name": null,
+  "networkCount": 4,
+  "subscribersCount": 4,
+  "status": 200,
+  "packageJSON": {
+    "name": "d3-space-filler-explorer",
+    "version": "1.0.0",
+    "description": "An Electron application that visualizes disk space with D3 treemap and pie chart layouts.",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/UsabilityEtc/d3-space-filler-explorer.git"
+    },
+    "author": {
+      "name": "Jeffrey Morgan",
+      "email": "usabilityetc@gmail.com",
+      "url": "http://usabilityetc.com"
+    },
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "package-osx": "electron-packager ./ SpaceFillerExplorer --platform=darwin --arch=x64 --icon=app/icons/Icon.icns --version=0.30.4 --ignore=node_modules/electron-* --overwrite",
+      "package-linux": "electron-packager ./ SpaceFillerExplorer --platform=linux --arch=x64 --version=0.30.4 --ignore=node_modules/electron-* --overwrite"
+    },
+    "keywords": [
+      "electron",
+      "files",
+      "directories",
+      "visualization",
+      "treemap",
+      "pie chart",
+      "D3"
+    ],
+    "devDependencies": {
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "0.30.4",
+      "numeral": "^1.5.3"
+    },
+    "dependencies": {
+      "async": "^1.4.2",
+      "d3": "^3.5.6",
+      "file-size-tree-js": "^1.0.0",
+      "jquery": "^2.1.4",
+      "nodejs-disks": "^0.2.1",
+      "underscore": "^1.8.3"
+    }
+  },
+  "packageStatus": 200
 }

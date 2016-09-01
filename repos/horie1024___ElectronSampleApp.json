@@ -1,80 +1,100 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "horie1024/ElectronSampleApp",
-    "description": "",
-    "fork": false,
-    "created_at": "2015-10-16T04:37:52.000Z",
-    "updated_at": "2016-07-31T04:51:13.741Z",
-    "pushed_at": "2015-10-16T04:38:23.000Z",
-    "homepage": null,
-    "size": 112,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 44362557,
-    "source_name": null,
+  "id": 44362557,
+  "name": "ElectronSampleApp",
+  "fullName": "horie1024/ElectronSampleApp",
+  "owner": {
+    "login": "horie1024",
+    "id": 1620566,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1620566?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/horie1024",
+    "htmlUrl": "https://github.com/horie1024",
+    "followersUrl": "https://api.github.com/users/horie1024/followers",
+    "subscriptionsUrl": "https://api.github.com/users/horie1024/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/horie1024/orgs",
+    "reposUrl": "https://api.github.com/users/horie1024/repos",
+    "receivedEventsUrl": "https://api.github.com/users/horie1024/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2015-10-16T04:37:52.000Z",
+  "updatedAt": "2016-07-31T04:51:12.000Z",
+  "pushedAt": "2015-10-16T04:38:23.000Z",
+  "homepage": null,
+  "size": 112,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "testapp",
+    "productName": "Testapp",
+    "version": "0.0.0",
+    "description": "My finest app",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-26T00:44:41.074Z",
-    "rank": null
+    "repository": "horie1024/testapp",
+    "author": {
+      "name": "horie1024",
+      "email": "ryosuke.pic@gmail.com",
+      "url": "github.com/horie1024"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "electronVersion": "0.33.3",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.2.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.33.3",
+      "xo": "^0.9.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
   },
-  "name": "testapp",
-  "productName": "Testapp",
-  "version": "0.0.0",
-  "description": "My finest app",
-  "license": "MIT",
-  "repository": "horie1024/testapp",
-  "author": {
-    "name": "horie1024",
-    "email": "ryosuke.pic@gmail.com",
-    "url": "github.com/horie1024"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "electronVersion": "0.33.3",
-  "scripts": {
-    "test": "xo",
-    "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
-  },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
-  "keywords": [
-    "electron-app"
-  ],
-  "dependencies": {
-    "electron-debug": "^0.2.1"
-  },
-  "devDependencies": {
-    "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.33.3",
-    "xo": "^0.9.0"
-  },
-  "xo": {
-    "esnext": true,
-    "envs": [
-      "node",
-      "browser"
-    ]
-  }
+  "packageStatus": 200
 }

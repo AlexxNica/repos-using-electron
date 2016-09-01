@@ -1,70 +1,84 @@
 {
+  "id": 49293637,
   "name": "locastore",
-  "version": "1.1.0",
-  "description": "A localStorage wrapper that falls back to memory in private browsing mode.",
-  "main": "index.js",
-  "scripts": {
-    "test": "standard && browserify test.js | testron"
+  "fullName": "shama/locastore",
+  "owner": {
+    "login": "shama",
+    "id": 99604,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/99604?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/shama",
+    "htmlUrl": "https://github.com/shama",
+    "followersUrl": "https://api.github.com/users/shama/followers",
+    "subscriptionsUrl": "https://api.github.com/users/shama/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/shama/orgs",
+    "reposUrl": "https://api.github.com/users/shama/repos",
+    "receivedEventsUrl": "https://api.github.com/users/shama/received_events",
+    "type": "User"
   },
-  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shama/locastore.git"
+  "private": false,
+  "description": ":pouch: A localStorage wrapper that falls back to memory in private browsing mode.",
+  "fork": false,
+  "createdAt": "2016-01-08T20:07:07.000Z",
+  "updatedAt": "2016-02-16T08:38:41.000Z",
+  "pushedAt": "2016-01-08T21:49:46.000Z",
+  "homepage": "",
+  "size": 3,
+  "stargazersCount": 5,
+  "watchersCount": 5,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 5,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "localStorage",
-    "local",
-    "storage",
-    "store",
-    "private"
-  ],
-  "devDependencies": {
-    "browserify": "^12.0.1",
-    "electron-prebuilt": "^0.36.3",
-    "standard": "^5.4.1",
-    "tape": "^4.4.0",
-    "testron": "^1.2.0"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "locastore",
+    "version": "1.1.0",
+    "description": "A localStorage wrapper that falls back to memory in private browsing mode.",
+    "main": "index.js",
+    "scripts": {
+      "test": "standard && browserify test.js | testron"
+    },
+    "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/shama/locastore.git"
+    },
+    "files": [
+      "index.js"
+    ],
+    "keywords": [
+      "localStorage",
+      "local",
+      "storage",
+      "store",
+      "private"
+    ],
+    "devDependencies": {
+      "browserify": "^12.0.1",
+      "electron-prebuilt": "^0.36.3",
+      "standard": "^5.4.1",
+      "tape": "^4.4.0",
+      "testron": "^1.2.0"
+    },
+    "dependencies": {
+      "global": "^4.3.0"
+    }
   },
-  "dependencies": {
-    "global": "^4.3.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "shama/locastore",
-    "description": ":pouch: A localStorage wrapper that falls back to memory in private browsing mode.",
-    "fork": false,
-    "created_at": "2016-01-08T20:07:07.000Z",
-    "updated_at": "2016-05-28T07:49:08.217Z",
-    "pushed_at": "2016-01-08T21:49:46.000Z",
-    "homepage": "",
-    "size": 3,
-    "stargazers_count": 5,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 49293637,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T07:49:08.197Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

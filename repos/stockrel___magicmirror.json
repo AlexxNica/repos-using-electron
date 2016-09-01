@@ -1,90 +1,110 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "stockrel/magicmirror",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-04-13T11:10:40.000Z",
-    "updated_at": "2016-05-27T21:26:27.094Z",
-    "pushed_at": "2016-04-18T11:35:16.000Z",
-    "homepage": null,
-    "size": 5023,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 56145012,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 0,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T21:26:27.071Z",
-    "rank": null
-  },
+  "id": 56145012,
   "name": "magicmirror",
-  "version": "2.0.0",
-  "description": "A modular interface for smart mirrors.",
-  "main": "js/electron.js",
-  "scripts": {
-    "start": "electron js/electron.js",
-    "eslint": "eslint .",
-    "jscs": "jscs **/**/**/**/*.js",
-    "stylelint": "stylelint css/main.css fonts/roboto.css",
-    "htmlvalidator": "html-validator --file=index.html",
-    "test": "snyk test"
+  "fullName": "stockrel/magicmirror",
+  "owner": {
+    "login": "stockrel",
+    "id": 17988888,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/17988888?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/stockrel",
+    "htmlUrl": "https://github.com/stockrel",
+    "followersUrl": "https://api.github.com/users/stockrel/followers",
+    "subscriptionsUrl": "https://api.github.com/users/stockrel/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/stockrel/orgs",
+    "reposUrl": "https://api.github.com/users/stockrel/repos",
+    "receivedEventsUrl": "https://api.github.com/users/stockrel/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MichMich/MagicMirror.git"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2016-04-13T11:10:40.000Z",
+  "updatedAt": "2016-04-13T11:52:26.000Z",
+  "pushedAt": "2016-04-18T11:35:16.000Z",
+  "homepage": null,
+  "size": 5023,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "magic mirror",
-    "smart mirror",
-    "mirror UI",
-    "modular"
-  ],
-  "author": "Michael Teeuw",
-  "contributors": "https://github.com/MichMich/MagicMirror/graphs/contributors",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/MichMich/MagicMirror/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "homepage": "https://github.com/MichMich/MagicMirror#readme",
-  "devDependencies": {
-    "electron-prebuilt": "latest",
-    "stylelint": "latest",
-    "stylelint-config-standard": "latest",
-    "eslint": "latest",
-    "eslint-config-google": "latest"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "magicmirror",
+    "version": "2.0.0",
+    "description": "A modular interface for smart mirrors.",
+    "main": "js/electron.js",
+    "scripts": {
+      "start": "electron js/electron.js",
+      "eslint": "eslint .",
+      "jscs": "jscs **/**/**/**/*.js",
+      "stylelint": "stylelint css/main.css fonts/roboto.css",
+      "htmlvalidator": "html-validator --file=index.html",
+      "test": "snyk test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MichMich/MagicMirror.git"
+    },
+    "keywords": [
+      "magic mirror",
+      "smart mirror",
+      "mirror UI",
+      "modular"
+    ],
+    "author": "Michael Teeuw",
+    "contributors": "https://github.com/MichMich/MagicMirror/graphs/contributors",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/MichMich/MagicMirror/issues"
+    },
+    "homepage": "https://github.com/MichMich/MagicMirror#readme",
+    "devDependencies": {
+      "electron-prebuilt": "latest",
+      "stylelint": "latest",
+      "stylelint-config-standard": "latest",
+      "eslint": "latest",
+      "eslint-config-google": "latest"
+    },
+    "dependencies": {
+      "express": "latest",
+      "feedme": "latest",
+      "ical": "latest",
+      "iconv-lite": "latest",
+      "moment": "latest",
+      "request": "latest",
+      "snyk": "^1.13.2",
+      "socket.io": "latest",
+      "valid-url": "latest",
+      "walk": "latest",
+      "googleapis": "latest",
+      "google-auth-library": "latest"
+    },
+    "eslintConfig": {
+      "extends": "google"
+    }
   },
-  "dependencies": {
-    "express": "latest",
-    "feedme": "latest",
-    "ical": "latest",
-    "iconv-lite": "latest",
-    "moment": "latest",
-    "request": "latest",
-    "snyk": "^1.13.2",
-    "socket.io": "latest",
-    "valid-url": "latest",
-    "walk": "latest",
-    "googleapis": "latest",
-    "google-auth-library": "latest"
-  },
-  "eslintConfig": {
-    "extends": "google"
-  }
+  "packageStatus": 200
 }

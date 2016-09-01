@@ -1,74 +1,94 @@
 {
-  "name": "myomedia",
-  "productName": "MyoMedia",
-  "version": "0.0.0",
+  "id": 35457921,
+  "name": "MyoMedia",
+  "fullName": "Glavin001/MyoMedia",
+  "owner": {
+    "login": "Glavin001",
+    "id": 1885333,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1885333?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Glavin001",
+    "htmlUrl": "https://github.com/Glavin001",
+    "followersUrl": "https://api.github.com/users/Glavin001/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Glavin001/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Glavin001/orgs",
+    "reposUrl": "https://api.github.com/users/Glavin001/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Glavin001/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Natural interface for your home media centre",
-  "license": "MIT",
-  "main": "src/index.js",
-  "repository": "Glavin001/myomedia",
-  "author": {
-    "name": "Glavin Wiechert",
-    "email": "glavin.wiechert@gmail.com",
-    "url": "github.com/Glavin001/MyoMedia"
+  "fork": false,
+  "createdAt": "2015-05-12T00:40:43.000Z",
+  "updatedAt": "2015-05-12T21:09:37.000Z",
+  "pushedAt": "2015-05-13T15:28:21.000Z",
+  "homepage": null,
+  "size": 168,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 14,
+  "openIssues": 14,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "engines": {
-    "node": ">=0.10.0"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "scripts": {
-    "start": "electron .",
-    "debug": "electron --debug=5858 .",
-    "build": "electron-packager . $npm_package_productName --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git --out=dist"
-  },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
-  "keywords": [
-    "electron-app"
-  ],
-  "devDependencies": {
-    "electron-packager": "^3.3.0",
-    "electron-prebuilt": "^0.25.2"
-  },
-  "dependencies": {
-    "babel-core": "^5.3.1",
-    "myo": "^1.5.0",
-    "node-wit": "git+https://github.com/Glavin001/node-wit.git"
-  },
-  "_librariesioMetadata": {
-    "full_name": "Glavin001/MyoMedia",
+  "networkCount": 1,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "myomedia",
+    "productName": "MyoMedia",
+    "version": "0.0.0",
     "description": "Natural interface for your home media centre",
-    "fork": false,
-    "created_at": "2015-05-12T00:40:43.000Z",
-    "updated_at": "2016-02-29T12:57:40.766Z",
-    "pushed_at": "2015-05-13T15:28:21.000Z",
-    "homepage": null,
-    "size": 168,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 14,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 35457921,
-    "source_name": null,
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "main": "src/index.js",
+    "repository": "Glavin001/myomedia",
+    "author": {
+      "name": "Glavin Wiechert",
+      "email": "glavin.wiechert@gmail.com",
+      "url": "github.com/Glavin001/MyoMedia"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "debug": "electron --debug=5858 .",
+      "build": "electron-packager . $npm_package_productName --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git --out=dist"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "devDependencies": {
+      "electron-packager": "^3.3.0",
+      "electron-prebuilt": "^0.25.2"
+    },
+    "dependencies": {
+      "babel-core": "^5.3.1",
+      "myo": "^1.5.0",
+      "node-wit": "git+https://github.com/Glavin001/node-wit.git"
+    }
+  },
+  "packageStatus": 200
 }

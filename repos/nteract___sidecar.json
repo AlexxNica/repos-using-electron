@@ -1,82 +1,116 @@
 {
-  "name": "jupyter-sidecar",
-  "version": "0.2.0",
-  "description": "Little side display of Jupyter kernel rich output",
-  "main": "app.js",
-  "bin": {
-    "sidecar": "./app.js"
+  "id": 34836800,
+  "name": "sidecar",
+  "fullName": "nteract/sidecar",
+  "owner": {
+    "login": "nteract",
+    "id": 12401040,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/12401040?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/nteract",
+    "htmlUrl": "https://github.com/nteract",
+    "followersUrl": "https://api.github.com/users/nteract/followers",
+    "subscriptionsUrl": "https://api.github.com/users/nteract/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/nteract/orgs",
+    "reposUrl": "https://api.github.com/users/nteract/repos",
+    "receivedEventsUrl": "https://api.github.com/users/nteract/received_events",
+    "type": "Organization"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rgbkrk/jupyter-sidecar.git"
+  "private": false,
+  "description": ":speedboat: Little side display of Jupyter kernel rich output",
+  "fork": false,
+  "createdAt": "2015-04-30T05:54:11.000Z",
+  "updatedAt": "2016-08-10T20:01:52.000Z",
+  "pushedAt": "2016-02-10T15:51:14.000Z",
+  "homepage": "",
+  "size": 123,
+  "stargazersCount": 62,
+  "watchersCount": 62,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 5,
+  "openIssuesCount": 6,
+  "openIssues": 6,
+  "watchers": 62,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "jupyter",
-    "ipython",
-    "sidecar",
-    "output"
-  ],
-  "author": "Kyle Kelley",
-  "license": "BSD-3-Clause",
-  "bugs": {
-    "url": "https://github.com/rgbkrk/jupyter-sidecar/issues"
+  "license": {
+    "key": "bsd-3-clause",
+    "name": "BSD 3-clause \"New\" or \"Revised\" License",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "featured": false
   },
-  "homepage": "https://github.com/rgbkrk/jupyter-sidecar",
-  "electronVersion": "0.33.0",
-  "dependencies": {
-    "electron-prebuilt": "0.33.0",
-    "jmp": "0.2.0",
-    "jupyter-js-output-area": "0.0.5",
-    "jupyter-paths": "^0.3.1",
-    "node-gyp": "^2.0.1",
-    "watch": "^0.16.0",
-    "zmq": "^2.12.0"
+  "organization": {
+    "login": "nteract",
+    "id": 12401040,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/12401040?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/nteract",
+    "htmlUrl": "https://github.com/nteract",
+    "followersUrl": "https://api.github.com/users/nteract/followers",
+    "subscriptionsUrl": "https://api.github.com/users/nteract/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/nteract/orgs",
+    "reposUrl": "https://api.github.com/users/nteract/repos",
+    "receivedEventsUrl": "https://api.github.com/users/nteract/received_events",
+    "type": "Organization"
   },
-  "scripts": {
-    "start": "electron app.js",
-    "postinstall": "npm run build:zmq",
-    "build:zmq": "HOME=~/.electron-gyp cd node_modules/zmq && node-gyp rebuild --target=0.33.0 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
-    "build:linux": "docker build -t rgbkrk/sidecar .",
-    "build:copy-linux-artifacts": "docker cp `docker run -d rgbkrk/sidecar echo ''`:/srv/sidecar/SideCar-linux-x64.tgz build && cp SideCar.app build/",
-    "build:osx": "electron-packager ./ SideCar --platform=darwin --arch=x64 --version=0.33.0",
-    "release": "npm run build-docker && npm run build-osx && npm run copy-artifacts"
-  },
-  "devDependencies": {
-    "electron-packager": "^4.1.3"
-  },
-  "_librariesioMetadata": {
-    "full_name": "nteract/sidecar",
-    "description": ":speedboat: Little side display of Jupyter kernel rich output",
-    "fork": false,
-    "created_at": "2015-04-30T05:54:11.000Z",
-    "updated_at": "2016-08-07T16:09:58.113Z",
-    "pushed_at": "2016-02-10T15:51:14.000Z",
-    "homepage": "",
-    "size": 123,
-    "stargazers_count": 55,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "forks_count": 5,
-    "mirror_url": null,
-    "open_issues_count": 6,
-    "default_branch": "master",
-    "subscribers_count": 14,
-    "github_id": 34836800,
-    "source_name": null,
+  "networkCount": 5,
+  "subscribersCount": 20,
+  "status": 200,
+  "packageJSON": {
+    "name": "jupyter-sidecar",
+    "version": "0.2.0",
+    "description": "Little side display of Jupyter kernel rich output",
+    "main": "app.js",
+    "bin": {
+      "sidecar": "./app.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/rgbkrk/jupyter-sidecar.git"
+    },
+    "keywords": [
+      "jupyter",
+      "ipython",
+      "sidecar",
+      "output"
+    ],
+    "author": "Kyle Kelley",
     "license": "BSD-3-Clause",
-    "private": false,
-    "github_contributions_count": 3,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "bugs": {
+      "url": "https://github.com/rgbkrk/jupyter-sidecar/issues"
+    },
+    "homepage": "https://github.com/rgbkrk/jupyter-sidecar",
+    "electronVersion": "0.33.0",
+    "dependencies": {
+      "electron-prebuilt": "0.33.0",
+      "jmp": "0.2.0",
+      "jupyter-js-output-area": "0.0.5",
+      "jupyter-paths": "^0.3.1",
+      "node-gyp": "^2.0.1",
+      "watch": "^0.16.0",
+      "zmq": "^2.12.0"
+    },
+    "scripts": {
+      "start": "electron app.js",
+      "postinstall": "npm run build:zmq",
+      "build:zmq": "HOME=~/.electron-gyp cd node_modules/zmq && node-gyp rebuild --target=0.33.0 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
+      "build:linux": "docker build -t rgbkrk/sidecar .",
+      "build:copy-linux-artifacts": "docker cp `docker run -d rgbkrk/sidecar echo ''`:/srv/sidecar/SideCar-linux-x64.tgz build && cp SideCar.app build/",
+      "build:osx": "electron-packager ./ SideCar --platform=darwin --arch=x64 --version=0.33.0",
+      "release": "npm run build-docker && npm run build-osx && npm run copy-artifacts"
+    },
+    "devDependencies": {
+      "electron-packager": "^4.1.3"
+    }
+  },
+  "packageStatus": 200
 }

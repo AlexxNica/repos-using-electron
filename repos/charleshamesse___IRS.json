@@ -1,92 +1,106 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "charleshamesse/IRS",
-    "description": "IR Studio current repo",
-    "fork": false,
-    "created_at": "2016-04-01T21:07:32.000Z",
-    "updated_at": "2016-04-03T14:22:24.403Z",
-    "pushed_at": "2016-04-01T21:10:37.000Z",
-    "homepage": null,
-    "size": 601,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 55262435,
-    "source_name": null,
+  "id": 55262435,
+  "name": "PROJH402-IRS",
+  "fullName": "charleshamesse/PROJH402-IRS",
+  "owner": {
+    "login": "charleshamesse",
+    "id": 10261071,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/10261071?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/charleshamesse",
+    "htmlUrl": "https://github.com/charleshamesse",
+    "followersUrl": "https://api.github.com/users/charleshamesse/followers",
+    "subscriptionsUrl": "https://api.github.com/users/charleshamesse/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/charleshamesse/orgs",
+    "reposUrl": "https://api.github.com/users/charleshamesse/repos",
+    "receivedEventsUrl": "https://api.github.com/users/charleshamesse/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "IR Studio current repo",
+  "fork": false,
+  "createdAt": "2016-04-01T21:07:32.000Z",
+  "updatedAt": "2016-06-02T09:09:56.000Z",
+  "pushedAt": "2016-07-03T21:48:17.000Z",
+  "homepage": null,
+  "size": 1617,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "irstudio",
+    "productName": "IRStudio",
+    "version": "0.0.0",
+    "description": "",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+    "repository": "user/repo",
+    "companyName": "Iridia",
+    "author": {
+      "name": "",
+      "email": "",
+      "url": ""
+    },
+    "electronVersion": "0.37.2",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css",
+      "templates",
+      "assets",
+      "assets/rscripts/explore.R",
+      "assets/rscripts/getEliteCandidates.R",
+      "assets/rscripts/getIraceInfo.R",
+      "assets/rscripts/getIterationCandidates.R",
+      "assets/rscripts/getTestElites.R",
+      "app"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "d3": "^3.5.16",
+      "electron-debug": "^0.5.0",
+      "fix-path": "^2.0.0",
+      "home-dir": "^1.0.0",
+      "mkdirp": "*",
+      "shell-path": "^2.0.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.37.2",
+      "xo": "^0.12.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
   },
-  "name": "irstudio",
-  "productName": "IRStudio",
-  "version": "0.0.0",
-  "description": "",
-  "license": "MIT",
-  "repository": "user/repo",
-  "companyName": "Iridia",
-  "author": {
-    "name": "",
-    "email": "",
-    "url": ""
-  },
-  "electronVersion": "0.37.2",
-  "scripts": {
-    "test": "xo",
-    "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
-  },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css",
-    "templates",
-    "assets",
-    "assets/rscripts/explore.R",
-    "assets/rscripts/getEliteCandidates.R",
-    "assets/rscripts/getIraceInfo.R",
-    "assets/rscripts/getIterationCandidates.R",
-    "assets/rscripts/getTestElites.R",
-    "app"
-  ],
-  "keywords": [
-    "electron-app",
-    "electron"
-  ],
-  "dependencies": {
-    "d3": "^3.5.16",
-    "electron-debug": "^0.5.0",
-    "fix-path": "^2.0.0",
-    "home-dir": "^1.0.0",
-    "mkdirp": "*",
-    "shell-path": "^2.0.0"
-  },
-  "devDependencies": {
-    "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.37.2",
-    "xo": "^0.12.0"
-  },
-  "xo": {
-    "esnext": true,
-    "envs": [
-      "node",
-      "browser"
-    ]
-  }
+  "packageStatus": 200
 }

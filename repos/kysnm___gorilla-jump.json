@@ -1,65 +1,79 @@
 {
-  "name": "@kysnm/gorilla-jump",
-  "version": "0.0.1",
-  "description": "my first electron application",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron .",
-    "postinstall": "electron-rebuild",
-    "build": "electron-packager . GorillaJump --platform=darwin --arch=x64 --version=0.35.0 --ignore='node_modules/(electron-packager|electron-prebuilt)' --out=build"
+  "id": 47009331,
+  "name": "gorilla-jump",
+  "fullName": "kysnm/gorilla-jump",
+  "owner": {
+    "login": "kysnm",
+    "id": 100928,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/100928?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/kysnm",
+    "htmlUrl": "https://github.com/kysnm",
+    "followersUrl": "https://api.github.com/users/kysnm/followers",
+    "subscriptionsUrl": "https://api.github.com/users/kysnm/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/kysnm/orgs",
+    "reposUrl": "https://api.github.com/users/kysnm/repos",
+    "receivedEventsUrl": "https://api.github.com/users/kysnm/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kysnm/gorilla-jump.git"
+  "private": false,
+  "description": null,
+  "fork": false,
+  "createdAt": "2015-11-28T03:57:14.000Z",
+  "updatedAt": "2015-11-29T06:21:52.000Z",
+  "pushedAt": "2015-11-28T12:33:58.000Z",
+  "homepage": null,
+  "size": 9,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "kysnm <tokyoincidents.g@gmail.com> (http://kysnm.hatenablog.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kysnm/gorilla-jump/issues"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "@kysnm/gorilla-jump",
+    "version": "0.0.1",
+    "description": "my first electron application",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron .",
+      "postinstall": "electron-rebuild",
+      "build": "electron-packager . GorillaJump --platform=darwin --arch=x64 --version=0.35.0 --ignore='node_modules/(electron-packager|electron-prebuilt)' --out=build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kysnm/gorilla-jump.git"
+    },
+    "author": "kysnm <tokyoincidents.g@gmail.com> (http://kysnm.hatenablog.com/)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kysnm/gorilla-jump/issues"
+    },
+    "homepage": "https://github.com/kysnm/gorilla-jump#readme",
+    "devDependencies": {
+      "electron-packager": "^5.1.1",
+      "electron-prebuilt": "^0.35.1",
+      "electron-rebuild": "^1.0.2"
+    },
+    "dependencies": {
+      "phaser": "^2.4.4"
+    }
   },
-  "homepage": "https://github.com/kysnm/gorilla-jump#readme",
-  "devDependencies": {
-    "electron-packager": "^5.1.1",
-    "electron-prebuilt": "^0.35.1",
-    "electron-rebuild": "^1.0.2"
-  },
-  "dependencies": {
-    "phaser": "^2.4.4"
-  },
-  "_librariesioMetadata": {
-    "full_name": "kysnm/gorilla-jump",
-    "description": null,
-    "fork": false,
-    "created_at": "2015-11-28T03:57:14.000Z",
-    "updated_at": "2015-11-29T06:22:55.582Z",
-    "pushed_at": "2015-11-28T12:33:58.000Z",
-    "homepage": null,
-    "size": 9,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 47009331,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "packageStatus": 200
 }

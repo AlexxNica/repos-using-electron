@@ -1,85 +1,119 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "codefoxes/firebase-admin",
-    "description": "Firebase Management Cross Platform Application",
-    "fork": false,
-    "created_at": "2016-07-19T09:53:18.000Z",
-    "updated_at": "2016-07-29T16:59:43.717Z",
-    "pushed_at": "2016-07-29T16:58:49.000Z",
-    "homepage": null,
-    "size": 474,
-    "stargazers_count": 0,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 2,
-    "default_branch": "master",
-    "subscribers_count": 4,
-    "github_id": 63682265,
-    "source_name": null,
-    "license": "CC0-1.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-19T13:46:41.399Z",
-    "rank": null
-  },
+  "id": 63682265,
   "name": "firebase-admin",
-  "version": "1.0.0",
+  "fullName": "codefoxes/firebase-admin",
+  "owner": {
+    "login": "codefoxes",
+    "id": 20535022,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/20535022?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/codefoxes",
+    "htmlUrl": "https://github.com/codefoxes",
+    "followersUrl": "https://api.github.com/users/codefoxes/followers",
+    "subscriptionsUrl": "https://api.github.com/users/codefoxes/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/codefoxes/orgs",
+    "reposUrl": "https://api.github.com/users/codefoxes/repos",
+    "receivedEventsUrl": "https://api.github.com/users/codefoxes/received_events",
+    "type": "Organization"
+  },
+  "private": false,
   "description": "Firebase Management Cross Platform Application",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-    "test": "mocha tests"
+  "fork": false,
+  "createdAt": "2016-07-19T09:53:18.000Z",
+  "updatedAt": "2016-07-19T10:37:32.000Z",
+  "pushedAt": "2016-08-10T16:55:43.000Z",
+  "homepage": null,
+  "size": 479,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codefoxes/firebase-admin.git"
+  "license": {
+    "key": "cc0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "spdxId": "CC0-1.0",
+    "url": "https://api.github.com/licenses/cc0-1.0",
+    "featured": false
   },
-  "keywords": [
-    "firebase",
-    "admin",
-    "management"
-  ],
-  "author": "codefoxes",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/codefoxes/firebase-admin/issues"
+  "organization": {
+    "login": "codefoxes",
+    "id": 20535022,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/20535022?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/codefoxes",
+    "htmlUrl": "https://github.com/codefoxes",
+    "followersUrl": "https://api.github.com/users/codefoxes/followers",
+    "subscriptionsUrl": "https://api.github.com/users/codefoxes/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/codefoxes/orgs",
+    "reposUrl": "https://api.github.com/users/codefoxes/repos",
+    "receivedEventsUrl": "https://api.github.com/users/codefoxes/received_events",
+    "type": "Organization"
   },
-  "homepage": "https://github.com/codefoxes/firebase-admin#readme",
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "chai-as-promised": "^5.3.0",
-    "electron-prebuilt": "^1.2.0",
-    "mocha": "^3.0.0",
-    "spectron": "^3.3.0"
-  },
-  "dependencies": {
-    "firebase": "^3.2.0",
-    "graceful-fs": "^4.1.4",
-    "jquery": "^3.1.0",
-    "write-file-atomic": "^1.1.4"
-  },
-  "standard": {
-    "globals": [
-      "electron",
+  "networkCount": 0,
+  "subscribersCount": 5,
+  "status": 200,
+  "packageJSON": {
+    "name": "firebase-admin",
+    "version": "1.0.0",
+    "description": "Firebase Management Cross Platform Application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "mocha tests"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/codefoxes/firebase-admin.git"
+    },
+    "keywords": [
       "firebase",
-      "angular",
-      "$",
-      "jQuery",
-      "fba",
-      "writeFile",
-      "localStorage"
-    ]
-  }
+      "admin",
+      "management"
+    ],
+    "author": "codefoxes",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/codefoxes/firebase-admin/issues"
+    },
+    "homepage": "https://github.com/codefoxes/firebase-admin#readme",
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "chai-as-promised": "^5.3.0",
+      "electron-prebuilt": "^1.2.0",
+      "mocha": "^3.0.0",
+      "spectron": "^3.3.0"
+    },
+    "dependencies": {
+      "firebase": "^3.2.0",
+      "graceful-fs": "^4.1.4",
+      "jquery": "^3.1.0",
+      "write-file-atomic": "^1.1.4"
+    },
+    "standard": {
+      "globals": [
+        "electron",
+        "firebase",
+        "angular",
+        "$",
+        "jQuery",
+        "fba",
+        "writeFile",
+        "localStorage"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

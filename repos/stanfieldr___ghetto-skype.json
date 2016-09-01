@@ -1,77 +1,97 @@
 {
+  "id": 57547935,
   "name": "ghetto-skype",
-  "version": "1.4.1",
-  "productName": "Ghetto Skype",
+  "fullName": "stanfieldr/ghetto-skype",
+  "owner": {
+    "login": "stanfieldr",
+    "id": 7494573,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7494573?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/stanfieldr",
+    "htmlUrl": "https://github.com/stanfieldr",
+    "followersUrl": "https://api.github.com/users/stanfieldr/followers",
+    "subscriptionsUrl": "https://api.github.com/users/stanfieldr/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/stanfieldr/orgs",
+    "reposUrl": "https://api.github.com/users/stanfieldr/repos",
+    "receivedEventsUrl": "https://api.github.com/users/stanfieldr/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Web Skype + Tray Icon + Notifications",
-  "private": true,
-  "main": "app/main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+  "fork": false,
+  "createdAt": "2016-05-01T06:14:23.000Z",
+  "updatedAt": "2016-08-14T21:24:19.000Z",
+  "pushedAt": "2016-08-07T23:32:16.000Z",
+  "homepage": "",
+  "size": 2591,
+  "stargazersCount": 485,
+  "watchersCount": 485,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 19,
+  "openIssuesCount": 26,
+  "openIssues": 26,
+  "watchers": 485,
+  "defaultBranch": "develop",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stanfieldr/ghetto-skype.git"
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "featured": true
   },
-  "keywords": [
-    "web",
-    "skype",
-    "wrapper"
-  ],
-  "author": "Robert Stanfield <robert@stanfield.it>",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/stanfieldr/ghetto-skype/issues"
-  },
-  "homepage": "https://github.com/stanfieldr/ghetto-skype#readme",
-  "devDependencies": {
-    "electron-packager": "^7.0.1",
-    "electron-prebuilt": "^1.3.2",
-    "grunt": "^0.4.0",
-    "grunt-electron-installer": "^2.1.0",
-    "grunt-electron-installer-debian": "^0.3.0",
-    "grunt-electron-installer-redhat": "^0.3.0",
-    "grunt-electron-packager": "0.0.7",
-    "load-grunt-tasks": "^3.5.0"
-  },
-  "dependencies": {
-    "mime": "^1.3.4",
-    "stylus": "^0.54.5",
-    "tmp": "0.0.28"
-  },
-  "_librariesioMetadata": {
-    "full_name": "stanfieldr/ghetto-skype",
+  "networkCount": 19,
+  "subscribersCount": 42,
+  "status": 200,
+  "packageJSON": {
+    "name": "ghetto-skype",
+    "version": "1.4.1",
+    "productName": "Ghetto Skype",
     "description": "Web Skype + Tray Icon + Notifications",
-    "fork": false,
-    "created_at": "2016-05-01T06:14:23.000Z",
-    "updated_at": "2016-08-08T13:18:24.432Z",
-    "pushed_at": "2016-08-07T02:10:21.000Z",
-    "homepage": "",
-    "size": 2590,
-    "stargazers_count": 476,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 19,
-    "mirror_url": null,
-    "open_issues_count": 25,
-    "default_branch": "develop",
-    "subscribers_count": 40,
-    "github_id": 57547935,
-    "source_name": null,
+    "private": true,
+    "main": "app/main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/stanfieldr/ghetto-skype.git"
+    },
+    "keywords": [
+      "web",
+      "skype",
+      "wrapper"
+    ],
+    "author": "Robert Stanfield <robert@stanfield.it>",
     "license": "GPL-3.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-06T05:24:45.437Z",
-    "rank": null
-  }
+    "bugs": {
+      "url": "https://github.com/stanfieldr/ghetto-skype/issues"
+    },
+    "homepage": "https://github.com/stanfieldr/ghetto-skype#readme",
+    "devDependencies": {
+      "electron-packager": "^7.0.1",
+      "electron-prebuilt": "^1.3.2",
+      "grunt": "^0.4.0",
+      "grunt-electron-installer": "^2.1.0",
+      "grunt-electron-installer-debian": "^0.3.0",
+      "grunt-electron-installer-redhat": "^0.3.0",
+      "grunt-electron-packager": "0.0.7",
+      "load-grunt-tasks": "^3.5.0"
+    },
+    "dependencies": {
+      "mime": "^1.3.4",
+      "stylus": "^0.54.5",
+      "tmp": "0.0.28"
+    }
+  },
+  "packageStatus": 200
 }

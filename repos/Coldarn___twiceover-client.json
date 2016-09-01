@@ -1,60 +1,80 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "Coldarn/twiceover-client",
-    "description": "Iterative code review tool supporting cross-iteration diffing and change commenting with syntax highlighting",
-    "fork": false,
-    "created_at": "2015-06-30T04:57:58.000Z",
-    "updated_at": "2016-02-29T12:45:32.330Z",
-    "pushed_at": "2015-10-02T06:19:05.000Z",
-    "homepage": "",
-    "size": 44327,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 9,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 38288660,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 38288660,
   "name": "twiceover-client",
-  "productName": "Twice-Over",
+  "fullName": "Coldarn/twiceover-client",
+  "owner": {
+    "login": "Coldarn",
+    "id": 5455521,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5455521?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Coldarn",
+    "htmlUrl": "https://github.com/Coldarn",
+    "followersUrl": "https://api.github.com/users/Coldarn/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Coldarn/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Coldarn/orgs",
+    "reposUrl": "https://api.github.com/users/Coldarn/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Coldarn/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Iterative code review tool supporting cross-iteration diffing and change commenting with syntax highlighting",
-  "version": "0.3.1",
-  "author": "Collin Arnold",
-  "main": "main.js",
-  "scripts": {
-    "start": "node_modules/.bin/electron ."
+  "fork": false,
+  "createdAt": "2015-06-30T04:57:58.000Z",
+  "updatedAt": "2015-08-16T04:46:19.000Z",
+  "pushedAt": "2015-10-02T06:19:05.000Z",
+  "homepage": "",
+  "size": 44327,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 9,
+  "openIssues": 9,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Coldarn/twiceover-client.git"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "dependencies": {
-    "electron-prebuilt": "^0.33.3"
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "twiceover-client",
+    "productName": "Twice-Over",
+    "description": "Iterative code review tool supporting cross-iteration diffing and change commenting with syntax highlighting",
+    "version": "0.3.1",
+    "author": "Collin Arnold",
+    "main": "main.js",
+    "scripts": {
+      "start": "node_modules/.bin/electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Coldarn/twiceover-client.git"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.33.3"
+    },
+    "devDependencies": {
+      "grunt": "^0.4.5",
+      "grunt-contrib-clean": "^0.6.0",
+      "grunt-contrib-copy": "^0.8.0",
+      "grunt-electron-installer": "^0.37.0",
+      "rcedit": "^0.3.0"
+    }
   },
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-copy": "^0.8.0",
-    "grunt-electron-installer": "^0.37.0",
-    "rcedit": "^0.3.0"
-  }
+  "packageStatus": 200
 }

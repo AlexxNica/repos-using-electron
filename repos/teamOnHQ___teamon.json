@@ -1,54 +1,88 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "teamOnHQ/teamon",
-    "description": "TeamOn is an open-source, mobile-first platform that connects, enables, and empowers teams to build aspiring and adaptive culture.",
-    "fork": false,
-    "created_at": "2016-02-25T01:37:55.000Z",
-    "updated_at": "2016-04-15T23:59:52.885Z",
-    "pushed_at": "2016-02-25T02:33:17.000Z",
-    "homepage": "http://teamon.ly",
-    "size": 829,
-    "stargazers_count": 3,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "develop",
-    "subscribers_count": 4,
-    "github_id": 52487816,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 52487816,
   "name": "teamon",
-  "version": "0.0.1",
-  "scripts": {
-    "start": "cd web && MONGO_URL=mongodb://localhost:27017/teamonly meteor --settings .deploy/local.json --port 4000",
-    "desktop": "cd desktop && MONGO_URL=mongodb://localhost:27017/teamonly meteor --settings .deploy/local.json --port 4010",
-    "mobile": "cd mobile && MONGO_URL=mongodb://localhost:27017/teamonly-mobile meteor --settings .deploy/local.json --port 4020",
-    "deploy": "npm run deploy-web && npm run deploy-mobile",
-    "deploy-web": "cd web/.deploy/production && mupx deploy",
-    "deploy-mobile": "cd mobile/.deploy/production && mupx deploy"
+  "fullName": "teamOnHQ/teamon",
+  "owner": {
+    "login": "teamOnHQ",
+    "id": 15951161,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/15951161?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/teamOnHQ",
+    "htmlUrl": "https://github.com/teamOnHQ",
+    "followersUrl": "https://api.github.com/users/teamOnHQ/followers",
+    "subscriptionsUrl": "https://api.github.com/users/teamOnHQ/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/teamOnHQ/orgs",
+    "reposUrl": "https://api.github.com/users/teamOnHQ/repos",
+    "receivedEventsUrl": "https://api.github.com/users/teamOnHQ/received_events",
+    "type": "Organization"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NMGteam/TeamOnly.git"
+  "private": false,
+  "description": "TeamOn is an open-source, mobile-first platform that connects, enables, and empowers teams to build aspiring and adaptive culture.",
+  "fork": false,
+  "createdAt": "2016-02-25T01:37:55.000Z",
+  "updatedAt": "2016-02-25T02:38:43.000Z",
+  "pushedAt": "2016-02-25T02:33:17.000Z",
+  "homepage": "http://teamon.ly",
+  "size": 829,
+  "stargazersCount": 3,
+  "watchersCount": 3,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 3,
+  "defaultBranch": "develop",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-prebuilt": "^0.35.1"
-  }
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "organization": {
+    "login": "teamOnHQ",
+    "id": 15951161,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/15951161?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/teamOnHQ",
+    "htmlUrl": "https://github.com/teamOnHQ",
+    "followersUrl": "https://api.github.com/users/teamOnHQ/followers",
+    "subscriptionsUrl": "https://api.github.com/users/teamOnHQ/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/teamOnHQ/orgs",
+    "reposUrl": "https://api.github.com/users/teamOnHQ/repos",
+    "receivedEventsUrl": "https://api.github.com/users/teamOnHQ/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 4,
+  "status": 200,
+  "packageJSON": {
+    "name": "teamon",
+    "version": "0.0.1",
+    "scripts": {
+      "start": "cd web && MONGO_URL=mongodb://localhost:27017/teamonly meteor --settings .deploy/local.json --port 4000",
+      "desktop": "cd desktop && MONGO_URL=mongodb://localhost:27017/teamonly meteor --settings .deploy/local.json --port 4010",
+      "mobile": "cd mobile && MONGO_URL=mongodb://localhost:27017/teamonly-mobile meteor --settings .deploy/local.json --port 4020",
+      "deploy": "npm run deploy-web && npm run deploy-mobile",
+      "deploy-web": "cd web/.deploy/production && mupx deploy",
+      "deploy-mobile": "cd mobile/.deploy/production && mupx deploy"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/NMGteam/TeamOnly.git"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.1"
+    }
+  },
+  "packageStatus": 200
 }

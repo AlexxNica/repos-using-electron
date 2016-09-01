@@ -1,64 +1,84 @@
 {
-  "name": "bibteximport",
-  "productName": "Bibtex Import",
-  "description": "An automator for getting references from MathSciNet",
-  "version": "1.0.1",
-  "homepage": "http://focus.github.io/BibtexImport",
-  "main": "lib/main.js",
-  "application": {
-    "name": "Bibtex Import"
+  "id": 36555729,
+  "name": "BibtexImport",
+  "fullName": "Focus/BibtexImport",
+  "owner": {
+    "login": "Focus",
+    "id": 93248,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/93248?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Focus",
+    "htmlUrl": "https://github.com/Focus",
+    "followersUrl": "https://api.github.com/users/Focus/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Focus/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Focus/orgs",
+    "reposUrl": "https://api.github.com/users/Focus/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Focus/received_events",
+    "type": "User"
   },
-  "dependencies": {
-    "bootstrap": "^3.0.0",
-    "jquery": "^2.0.0",
-    "nconf": "^0.8.2",
-    "request": "^2.67.0"
+  "private": false,
+  "description": "Downloads references from MathSciNet",
+  "fork": false,
+  "createdAt": "2015-05-30T11:40:18.000Z",
+  "updatedAt": "2016-02-17T16:14:01.000Z",
+  "pushedAt": "2016-03-07T11:09:18.000Z",
+  "homepage": null,
+  "size": 1244,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CoffeeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.0",
-    "grunt": "^0.4.5",
-    "grunt-contrib-coffee": "^0.13.0",
-    "grunt-contrib-copy": "^0.8.2",
-    "grunt-electron": "^2.0.1",
-    "grunt-electron-builder-wrapper": "^0.1.1",
-    "grunt-electron-debian-installer": "^0.1.0"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "scripts": {
-    "start": "grunt && electron ./"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "bibteximport",
+    "productName": "Bibtex Import",
+    "description": "An automator for getting references from MathSciNet",
+    "version": "1.0.1",
+    "homepage": "http://focus.github.io/BibtexImport",
+    "main": "lib/main.js",
+    "application": {
+      "name": "Bibtex Import"
+    },
+    "dependencies": {
+      "bootstrap": "^3.0.0",
+      "jquery": "^2.0.0",
+      "nconf": "^0.8.2",
+      "request": "^2.67.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0",
+      "grunt": "^0.4.5",
+      "grunt-contrib-coffee": "^0.13.0",
+      "grunt-contrib-copy": "^0.8.2",
+      "grunt-electron": "^2.0.1",
+      "grunt-electron-builder-wrapper": "^0.1.1",
+      "grunt-electron-debian-installer": "^0.1.0"
+    },
+    "scripts": {
+      "start": "grunt && electron ./"
+    }
   },
-  "_librariesioMetadata": {
-    "full_name": "Focus/BibtexImport",
-    "description": "Downloads references from MathSciNet",
-    "fork": false,
-    "created_at": "2015-05-30T11:40:18.000Z",
-    "updated_at": "2015-05-30T11:40:22.000Z",
-    "pushed_at": "2015-12-29T21:56:14.000Z",
-    "homepage": null,
-    "size": 1187,
-    "stargazers_count": 0,
-    "language": "CoffeeScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 36555729,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "packageStatus": 200
 }

@@ -1,82 +1,102 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "sean-clayton/music-app-mockup",
-    "description": "Music app mockup built on Electron and React.js",
-    "fork": false,
-    "created_at": "2015-05-12T12:49:11.000Z",
-    "updated_at": "2015-05-12T13:03:08.000Z",
-    "pushed_at": "2015-05-13T13:48:37.000Z",
-    "homepage": null,
-    "size": 128,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 2,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 35487461,
-    "source_name": null,
-    "license": "ISC",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 35487461,
   "name": "music-app-mockup",
-  "version": "0.0.1",
-  "description": "Music app mockup built on Electron and React",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "fullName": "sean-clayton/music-app-mockup",
+  "owner": {
+    "login": "sean-clayton",
+    "id": 1108160,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1108160?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/sean-clayton",
+    "htmlUrl": "https://github.com/sean-clayton",
+    "followersUrl": "https://api.github.com/users/sean-clayton/followers",
+    "subscriptionsUrl": "https://api.github.com/users/sean-clayton/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/sean-clayton/orgs",
+    "reposUrl": "https://api.github.com/users/sean-clayton/repos",
+    "receivedEventsUrl": "https://api.github.com/users/sean-clayton/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:sean-clayton/music-app-mockup.git"
+  "private": false,
+  "description": "Music app mockup built on Electron and React.js",
+  "fork": false,
+  "createdAt": "2015-05-12T12:49:11.000Z",
+  "updatedAt": "2015-05-12T13:03:08.000Z",
+  "pushedAt": "2015-05-13T13:48:37.000Z",
+  "homepage": null,
+  "size": 128,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "electron",
-    "react"
-  ],
-  "author": "Sean Clayton",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sean-clayton/music-app-mockup/issues"
+  "license": {
+    "key": "isc",
+    "name": "ISC License",
+    "spdxId": "ISC",
+    "url": "https://api.github.com/licenses/isc",
+    "featured": false
   },
-  "homepage": "https://github.com/sean-clayton/music-app-mockup",
-  "dependencies": {
-    "react": "^0.13.3",
-    "superagent": "^1.2.0"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "music-app-mockup",
+    "version": "0.0.1",
+    "description": "Music app mockup built on Electron and React",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:sean-clayton/music-app-mockup.git"
+    },
+    "keywords": [
+      "electron",
+      "react"
+    ],
+    "author": "Sean Clayton",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/sean-clayton/music-app-mockup/issues"
+    },
+    "homepage": "https://github.com/sean-clayton/music-app-mockup",
+    "dependencies": {
+      "react": "^0.13.3",
+      "superagent": "^1.2.0"
+    },
+    "devDependencies": {
+      "asar": "^0.6.1",
+      "babelify": "^6.1.0",
+      "browser-sync": "^2.7.1",
+      "browserify": "^10.1.3",
+      "del": "^1.1.1",
+      "electron-prebuilt": "^0.25.3-2",
+      "gulp": "^3.8.11",
+      "gulp-changed": "^1.2.1",
+      "gulp-copy": "0.0.2",
+      "gulp-csso": "^1.0.0",
+      "gulp-notify": "^2.2.0",
+      "gulp-sass": "^2.0.0",
+      "gulp-shell": "^0.4.1",
+      "gulp-uglify": "^1.2.0",
+      "node-bourbon": "^4.2.2",
+      "node-neat": "^1.7.1-beta1",
+      "vinyl-buffer": "^1.0.0",
+      "vinyl-source-stream": "^1.1.0"
+    }
   },
-  "devDependencies": {
-    "asar": "^0.6.1",
-    "babelify": "^6.1.0",
-    "browser-sync": "^2.7.1",
-    "browserify": "^10.1.3",
-    "del": "^1.1.1",
-    "electron-prebuilt": "^0.25.3-2",
-    "gulp": "^3.8.11",
-    "gulp-changed": "^1.2.1",
-    "gulp-copy": "0.0.2",
-    "gulp-csso": "^1.0.0",
-    "gulp-notify": "^2.2.0",
-    "gulp-sass": "^2.0.0",
-    "gulp-shell": "^0.4.1",
-    "gulp-uglify": "^1.2.0",
-    "node-bourbon": "^4.2.2",
-    "node-neat": "^1.7.1-beta1",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
-  }
+  "packageStatus": 200
 }

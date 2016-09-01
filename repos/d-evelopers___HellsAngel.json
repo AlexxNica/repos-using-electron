@@ -1,72 +1,100 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "d-evelopers/HellsAngel",
-    "description": "Can you tame a devil girl?",
-    "fork": false,
-    "created_at": "2016-01-15T08:24:10.000Z",
-    "updated_at": "2016-04-15T23:47:02.175Z",
-    "pushed_at": "2016-02-18T07:06:04.000Z",
-    "homepage": null,
-    "size": 136,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 3,
-    "github_id": 49706190,
-    "source_name": null,
+  "id": 49706190,
+  "name": "HellsAngel",
+  "fullName": "d-evelopers/HellsAngel",
+  "owner": {
+    "login": "d-evelopers",
+    "id": 16676484,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/16676484?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/d-evelopers",
+    "htmlUrl": "https://github.com/d-evelopers",
+    "followersUrl": "https://api.github.com/users/d-evelopers/followers",
+    "subscriptionsUrl": "https://api.github.com/users/d-evelopers/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/d-evelopers/orgs",
+    "reposUrl": "https://api.github.com/users/d-evelopers/repos",
+    "receivedEventsUrl": "https://api.github.com/users/d-evelopers/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "description": "Can you tame a devil girl?",
+  "fork": false,
+  "createdAt": "2016-01-15T08:24:10.000Z",
+  "updatedAt": "2016-01-15T08:24:37.000Z",
+  "pushedAt": "2016-08-06T20:30:09.000Z",
+  "homepage": null,
+  "size": 163,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "organization": {
+    "login": "d-evelopers",
+    "id": 16676484,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/16676484?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/d-evelopers",
+    "htmlUrl": "https://github.com/d-evelopers",
+    "followersUrl": "https://api.github.com/users/d-evelopers/followers",
+    "subscriptionsUrl": "https://api.github.com/users/d-evelopers/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/d-evelopers/orgs",
+    "reposUrl": "https://api.github.com/users/d-evelopers/repos",
+    "receivedEventsUrl": "https://api.github.com/users/d-evelopers/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 4,
+  "status": 200,
+  "packageJSON": {
+    "name": "hells-angel",
+    "version": "0.0.1",
+    "description": "A game where you raise a devil girl",
+    "main": "main.js",
+    "scripts": {
+      "test": "run-s test-backend test-frontend",
+      "test-backend": "electron-mocha test/back",
+      "test-frontend": "electron-mocha --renderer test/front",
+      "start": "electron .",
+      "dev": "electron . -dev"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/d-evelopers/HellsAngel.git"
+    },
+    "keywords": [
+      "spanking",
+      "sim",
+      "game",
+      "electron"
+    ],
+    "author": "/d/evelopers",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+    "bugs": {
+      "url": "https://github.com/d-evelopers/HellsAngel/issues"
+    },
+    "homepage": "https://github.com/d-evelopers/HellsAngel#readme",
+    "dependencies": {
+      "electron-prebuilt": "^1.2.6"
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "electron-mocha": "^2.3.0",
+      "npm-run-all": "^2.3.0"
+    }
   },
-  "name": "hells-angel",
-  "version": "0.0.1",
-  "description": "A game where you raise a devil girl",
-  "main": "main.js",
-  "scripts": {
-    "test": "run-s test-backend test-frontend",
-    "test-backend": "electron-mocha test/back",
-    "test-frontend": "electron-mocha --renderer test/front",
-    "start": "electron .",
-    "dev": "electron . -dev"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/d-evelopers/HellsAngel.git"
-  },
-  "keywords": [
-    "spanking",
-    "sim",
-    "game",
-    "electron"
-  ],
-  "author": "/d/evelopers",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/d-evelopers/HellsAngel/issues"
-  },
-  "homepage": "https://github.com/d-evelopers/HellsAngel#readme",
-  "dependencies": {
-    "electron-prebuilt": "^1.2.6"
-  },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "electron-mocha": "^2.3.0",
-    "npm-run-all": "^2.3.0"
-  }
+  "packageStatus": 200
 }

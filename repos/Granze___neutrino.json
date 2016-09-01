@@ -1,70 +1,84 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "Granze/neutrino",
-    "description": "A simple Markdown editor built with React.js and Electron",
-    "fork": false,
-    "created_at": "2014-08-15T18:08:24.000Z",
-    "updated_at": "2016-06-13T10:40:53.188Z",
-    "pushed_at": "2015-06-25T12:13:03.000Z",
-    "homepage": "",
-    "size": 963,
-    "stargazers_count": 3,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": false,
-    "has_pages": true,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 22998486,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-13T10:40:53.167Z",
-    "rank": null
+  "id": 22998486,
+  "name": "neutrino",
+  "fullName": "Granze/neutrino",
+  "owner": {
+    "login": "Granze",
+    "id": 1193298,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1193298?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Granze",
+    "htmlUrl": "https://github.com/Granze",
+    "followersUrl": "https://api.github.com/users/Granze/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Granze/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Granze/orgs",
+    "reposUrl": "https://api.github.com/users/Granze/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Granze/received_events",
+    "type": "User"
   },
-  "name": "Neutrino",
-  "version": "0.1.0",
-  "description": "A simple markdown editor built with React JS and Electron",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Granze/Neutrino"
+  "private": false,
+  "description": "A simple Markdown editor built with React.js and Electron",
+  "fork": false,
+  "createdAt": "2014-08-15T18:08:24.000Z",
+  "updatedAt": "2016-07-21T03:55:07.000Z",
+  "pushedAt": "2015-06-25T12:13:03.000Z",
+  "homepage": "",
+  "size": 963,
+  "stargazersCount": 4,
+  "watchersCount": 4,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": true,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 4,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "editor",
-    "react",
-    "electron",
-    "markdown"
-  ],
-  "author": "Maurizio Mangione",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Granze/Neutrino/issues"
+  "license": null,
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "Neutrino",
+    "version": "0.1.0",
+    "description": "A simple markdown editor built with React JS and Electron",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Granze/Neutrino"
+    },
+    "keywords": [
+      "editor",
+      "react",
+      "electron",
+      "markdown"
+    ],
+    "author": "Maurizio Mangione",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Granze/Neutrino/issues"
+    },
+    "homepage": "https://github.com/Granze/Neutrino",
+    "devDependencies": {
+      "babel": "^5.6.7",
+      "babel-eslint": "^3.1.18",
+      "electron-prebuilt": "^0.28.3",
+      "eslint": "^0.23.0",
+      "eslint-plugin-react": "^2.5.2",
+      "marked": "^0.3.3",
+      "react": "^0.13.3"
+    },
+    "scripts": {
+      "styles": "node-sass -w styles/main.scss styles/main.css",
+      "lint": "eslint -c .eslintrc ./"
+    }
   },
-  "homepage": "https://github.com/Granze/Neutrino",
-  "devDependencies": {
-    "babel": "^5.6.7",
-    "babel-eslint": "^3.1.18",
-    "electron-prebuilt": "^0.28.3",
-    "eslint": "^0.23.0",
-    "eslint-plugin-react": "^2.5.2",
-    "marked": "^0.3.3",
-    "react": "^0.13.3"
-  },
-  "scripts": {
-    "styles": "node-sass -w styles/main.scss styles/main.css",
-    "lint": "eslint -c .eslintrc ./"
-  }
+  "packageStatus": 200
 }

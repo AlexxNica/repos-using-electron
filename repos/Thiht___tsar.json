@@ -1,68 +1,88 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "Thiht/tsar",
-    "description": "The RSS reader that doesn't suck",
-    "fork": false,
-    "created_at": "2016-07-05T12:03:04.000Z",
-    "updated_at": "2016-07-05T12:26:39.631Z",
-    "pushed_at": "2016-07-05T12:03:22.000Z",
-    "homepage": null,
-    "size": 0,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 62633488,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-05T12:26:39.607Z",
-    "rank": null
-  },
+  "id": 62633488,
   "name": "tsar",
-  "version": "0.0.1",
+  "fullName": "Thiht/tsar",
+  "owner": {
+    "login": "Thiht",
+    "id": 2796344,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2796344?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Thiht",
+    "htmlUrl": "https://github.com/Thiht",
+    "followersUrl": "https://api.github.com/users/Thiht/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Thiht/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Thiht/orgs",
+    "reposUrl": "https://api.github.com/users/Thiht/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Thiht/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "The RSS reader that doesn't suck",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron ."
+  "fork": false,
+  "createdAt": "2016-07-05T12:03:04.000Z",
+  "updatedAt": "2016-07-05T12:03:23.000Z",
+  "pushedAt": "2016-07-15T13:21:10.000Z",
+  "homepage": null,
+  "size": 3,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Thiht/tsar.git"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "keywords": [
-    "rss",
-    "atom",
-    "feed"
-  ],
-  "author": "Thibaut Rousseau",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Thiht/tsar/issues"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "tsar",
+    "version": "0.0.1",
+    "description": "The RSS reader that doesn't suck",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Thiht/tsar.git"
+    },
+    "keywords": [
+      "rss",
+      "atom",
+      "feed"
+    ],
+    "author": "Thibaut Rousseau",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Thiht/tsar/issues"
+    },
+    "homepage": "https://github.com/Thiht/tsar#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0",
+      "source-map-loader": "^0.1.5",
+      "ts-loader": "^0.8.2"
+    },
+    "dependencies": {
+      "react": "^15.2.0",
+      "react-dom": "^15.2.0"
+    }
   },
-  "homepage": "https://github.com/Thiht/tsar#readme",
-  "devDependencies": {
-    "electron-prebuilt": "^1.2.0",
-    "source-map-loader": "^0.1.5",
-    "ts-loader": "^0.8.2"
-  },
-  "dependencies": {
-    "react": "^15.2.0",
-    "react-dom": "^15.2.0"
-  }
+  "packageStatus": 200
 }

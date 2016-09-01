@@ -1,95 +1,109 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "chrisgervang/Reflectrum",
-    "description": "A new smart mirror design.",
-    "fork": false,
-    "created_at": "2015-12-03T17:48:56.000Z",
-    "updated_at": "2016-05-04T15:55:30.000Z",
-    "pushed_at": "2016-05-04T08:34:26.000Z",
-    "homepage": "https://hackaday.io/project/9026-reflectrum",
-    "size": 62613,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 2,
-    "mirror_url": null,
-    "open_issues_count": 8,
-    "default_branch": "master",
-    "subscribers_count": 3,
-    "github_id": 47349462,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 3,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T18:03:59.503Z",
-    "rank": null
-  },
+  "id": 47349462,
   "name": "reflectrum",
-  "version": "0.0.2",
-  "description": "A compact, pressentable wall computer built into a mirror",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js"
+  "fullName": "chrisgervang/reflectrum",
+  "owner": {
+    "login": "chrisgervang",
+    "id": 2461547,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2461547?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/chrisgervang",
+    "htmlUrl": "https://github.com/chrisgervang",
+    "followersUrl": "https://api.github.com/users/chrisgervang/followers",
+    "subscriptionsUrl": "https://api.github.com/users/chrisgervang/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/chrisgervang/orgs",
+    "reposUrl": "https://api.github.com/users/chrisgervang/repos",
+    "receivedEventsUrl": "https://api.github.com/users/chrisgervang/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chrisgervang/SmartMirror.git"
+  "private": false,
+  "description": "A new smart mirror design.",
+  "fork": false,
+  "createdAt": "2015-12-03T17:48:56.000Z",
+  "updatedAt": "2016-05-04T15:55:30.000Z",
+  "pushedAt": "2016-08-02T03:30:41.000Z",
+  "homepage": "https://hackaday.io/project/9026-reflectrum",
+  "size": 63798,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "openIssuesCount": 8,
+  "openIssues": 8,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "Electron",
-    "raspberry pi",
-    "wireless",
-    "morning",
-    "routine"
-  ],
-  "author": "Chris Gervang",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/chrisgervang/SmartMirror/issues"
-  },
-  "homepage": "https://github.com/chrisgervang/SmartMirror#readme",
-  "dependencies": {
-    "request-promise": "*",
-    "electron-prebuilt": "*"
-  },
-  "jspm": {
+  "license": null,
+  "networkCount": 2,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "reflectrum",
+    "version": "0.0.2",
+    "description": "A compact, pressentable wall computer built into a mirror",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chrisgervang/SmartMirror.git"
+    },
+    "keywords": [
+      "Electron",
+      "raspberry pi",
+      "wireless",
+      "morning",
+      "routine"
+    ],
+    "author": "Chris Gervang",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chrisgervang/SmartMirror/issues"
+    },
+    "homepage": "https://github.com/chrisgervang/SmartMirror#readme",
     "dependencies": {
-      "casesandberg/reactcss": "github:casesandberg/reactcss@1.0.0",
-      "classnames": "npm:classnames@^2.2.3",
-      "css": "github:systemjs/plugin-css@^0.1.20",
-      "fbemitter": "npm:fbemitter@^2.0.2",
-      "lodash": "npm:lodash@^3.10.1",
-      "maxdow/skycons": "github:maxdow/skycons@master",
-      "merge": "npm:merge@^1.2.0",
-      "moment": "npm:moment@^2.11.2",
-      "react": "npm:react@^0.14.6",
-      "react-addons": "npm:react-addons@^0.9.1-deprecated",
-      "react-addons-create-fragment": "npm:react-addons-create-fragment@^0.14.6",
-      "react-dom": "npm:react-dom@^0.14.6",
-      "react-redux": "npm:react-redux@^4.4.0",
-      "react-router": "npm:react-router@^1.0.3",
-      "reactcss": "github:casesandberg/reactcss@1.0.0",
-      "redux": "npm:redux@^3.3.1",
-      "whatwg-fetch": "npm:whatwg-fetch@^0.10.1"
+      "request-promise": "*",
+      "electron-prebuilt": "*"
+    },
+    "jspm": {
+      "dependencies": {
+        "casesandberg/reactcss": "github:casesandberg/reactcss@1.0.0",
+        "classnames": "npm:classnames@^2.2.3",
+        "css": "github:systemjs/plugin-css@^0.1.20",
+        "fbemitter": "npm:fbemitter@^2.0.2",
+        "lodash": "npm:lodash@^3.10.1",
+        "maxdow/skycons": "github:maxdow/skycons@master",
+        "merge": "npm:merge@^1.2.0",
+        "moment": "npm:moment@^2.11.2",
+        "react": "npm:react@^0.14.6",
+        "react-addons": "npm:react-addons@^0.9.1-deprecated",
+        "react-addons-create-fragment": "npm:react-addons-create-fragment@^0.14.6",
+        "react-dom": "npm:react-dom@^0.14.6",
+        "react-redux": "npm:react-redux@^4.4.0",
+        "react-router": "npm:react-router@^1.0.3",
+        "reactcss": "github:casesandberg/reactcss@1.0.0",
+        "redux": "npm:redux@^3.3.1",
+        "whatwg-fetch": "npm:whatwg-fetch@^0.10.1"
+      },
+      "devDependencies": {
+        "babel": "npm:babel-core@^5.8.24",
+        "babel-runtime": "npm:babel-runtime@^5.8.24",
+        "clean-css": "npm:clean-css@^3.4.10",
+        "core-js": "npm:core-js@^1.1.4"
+      }
     },
     "devDependencies": {
-      "babel": "npm:babel-core@^5.8.24",
-      "babel-runtime": "npm:babel-runtime@^5.8.24",
-      "clean-css": "npm:clean-css@^3.4.10",
-      "core-js": "npm:core-js@^1.1.4"
+      "jspm": "^0.16.23"
     }
   },
-  "devDependencies": {
-    "jspm": "^0.16.23"
-  }
+  "packageStatus": 200
 }

@@ -1,54 +1,67 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "taran-gill/Checklist",
-    "description": "Desktop application that allows you to organize your commitments!",
-    "fork": false,
-    "created_at": "2016-08-02T15:54:21.000Z",
-    "updated_at": "2016-08-05T19:14:41.000Z",
-    "pushed_at": "2016-08-07T02:21:26.000Z",
-    "homepage": "",
-    "size": 2311,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 64771022,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-08-07T02:21:19.768Z",
-    "rank": null
+  "id": 64771022,
+  "name": "ThreeDaysAway",
+  "fullName": "taran-gill/ThreeDaysAway",
+  "owner": {
+    "login": "taran-gill",
+    "id": 18533760,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/18533760?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/taran-gill",
+    "htmlUrl": "https://github.com/taran-gill",
+    "followersUrl": "https://api.github.com/users/taran-gill/followers",
+    "subscriptionsUrl": "https://api.github.com/users/taran-gill/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/taran-gill/orgs",
+    "reposUrl": "https://api.github.com/users/taran-gill/repos",
+    "receivedEventsUrl": "https://api.github.com/users/taran-gill/received_events",
+    "type": "User"
   },
-  "name": "electron-app",
-  "version": "1.0.0",
-  "description": "Created by Taran Gill, undergraduate student of the Department of the Electrical and Computer Engineering at McMaster University.",
-  "main": "init.js",
-  "dependencies": {
-    "electron-open-link-in-browser": "^1.0.2",
-    "jsonfile": "^2.3.1",
-    "pretty-bytes": "^2.0.1"
+  "private": false,
+  "description": "Desktop application that allows you to organize your commitments!",
+  "fork": false,
+  "createdAt": "2016-08-02T15:54:21.000Z",
+  "updatedAt": "2016-08-12T01:48:21.000Z",
+  "pushedAt": "2016-08-12T02:05:37.000Z",
+  "homepage": "",
+  "size": 2325,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-prebuilt": "^0.35.2"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "threedaysaway",
+    "version": "1.0.0",
+    "description": "By Taran Gill, ECE student at McMaster University",
+    "main": "browser.js",
+    "dependencies": {
+      "pretty-bytes": "^2.0.1",
+      "angular": "1.4.8"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.2"
+    },
+    "scripts": {
+      "start": "electron browser.js"
+    },
+    "author": "Taran Gill",
+    "license": "MIT"
   },
-  "scripts": {
-    "start": "electron main.js"
-  },
-  "author": "Taran Gill",
-  "license": "MIT"
+  "packageStatus": 200
 }

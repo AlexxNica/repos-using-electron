@@ -1,51 +1,71 @@
 {
-  "name": "sound_machine",
-  "version": "0.1.0",
-  "main": "./main.js",
-  "scripts": {
-    "start": "electron .",
-    "package": "electron-packager ./ SoundMachine --all --out ~/Desktop/SoundMachine --version 0.30.2 --overwrite --icon=./app/img/app-icon.icns"
+  "id": 40200279,
+  "name": "sound-machine-electron-guide",
+  "fullName": "bojzi/sound-machine-electron-guide",
+  "owner": {
+    "login": "bojzi",
+    "id": 54692,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/54692?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/bojzi",
+    "htmlUrl": "https://github.com/bojzi",
+    "followersUrl": "https://api.github.com/users/bojzi/followers",
+    "subscriptionsUrl": "https://api.github.com/users/bojzi/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/bojzi/orgs",
+    "reposUrl": "https://api.github.com/users/bojzi/repos",
+    "receivedEventsUrl": "https://api.github.com/users/bojzi/received_events",
+    "type": "User"
   },
-  "devDependencies": {
-    "electron-packager": "^5.0.1",
-    "electron-prebuilt": "^0.30.3"
+  "private": false,
+  "description": "Accompanying repository for the Electron guide",
+  "fork": false,
+  "createdAt": "2015-08-04T17:58:16.000Z",
+  "updatedAt": "2016-08-14T21:48:32.000Z",
+  "pushedAt": "2016-08-02T22:00:24.000Z",
+  "homepage": null,
+  "size": 3534,
+  "stargazersCount": 130,
+  "watchersCount": 130,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 59,
+  "openIssuesCount": 5,
+  "openIssues": 5,
+  "watchers": 130,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "dependencies": {
-    "nconf": "^0.7.2"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "_librariesioMetadata": {
-    "full_name": "bojzi/sound-machine-electron-guide",
-    "description": "Accompanying repository for the Electron guide",
-    "fork": false,
-    "created_at": "2015-08-04T17:58:16.000Z",
-    "updated_at": "2016-08-03T05:59:35.750Z",
-    "pushed_at": "2016-08-02T22:00:24.000Z",
-    "homepage": null,
-    "size": 3534,
-    "stargazers_count": 127,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 55,
-    "mirror_url": null,
-    "open_issues_count": 5,
-    "default_branch": "master",
-    "subscribers_count": 4,
-    "github_id": 40200279,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "networkCount": 59,
+  "subscribersCount": 4,
+  "status": 200,
+  "packageJSON": {
+    "name": "sound_machine",
+    "version": "0.1.0",
+    "main": "./main.js",
+    "scripts": {
+      "start": "electron .",
+      "package": "electron-packager ./ SoundMachine --all --out ~/Desktop/SoundMachine --version 0.30.2 --overwrite --icon=./app/img/app-icon.icns"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.3"
+    },
+    "dependencies": {
+      "nconf": "^0.7.2"
+    }
+  },
+  "packageStatus": 200
 }

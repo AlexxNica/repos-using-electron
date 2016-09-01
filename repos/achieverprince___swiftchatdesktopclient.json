@@ -1,79 +1,99 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "achieverprince/swiftchatdesktopclient",
-    "description": "Desktop Client for SwiftChat",
-    "fork": false,
-    "created_at": "2016-05-31T12:30:03.000Z",
-    "updated_at": "2016-05-31T12:38:17.000Z",
-    "pushed_at": "2016-05-31T12:38:16.000Z",
-    "homepage": null,
-    "size": 12,
-    "stargazers_count": 0,
-    "language": "HTML",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 60087609,
-    "source_name": null,
+  "id": 60087609,
+  "name": "swiftchatdesktopclient",
+  "fullName": "achieverprince/swiftchatdesktopclient",
+  "owner": {
+    "login": "achieverprince",
+    "id": 881066,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/881066?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/achieverprince",
+    "htmlUrl": "https://github.com/achieverprince",
+    "followersUrl": "https://api.github.com/users/achieverprince/followers",
+    "subscriptionsUrl": "https://api.github.com/users/achieverprince/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/achieverprince/orgs",
+    "reposUrl": "https://api.github.com/users/achieverprince/repos",
+    "receivedEventsUrl": "https://api.github.com/users/achieverprince/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "Desktop Client for SwiftChat",
+  "fork": false,
+  "createdAt": "2016-05-31T12:30:03.000Z",
+  "updatedAt": "2016-05-31T12:38:17.000Z",
+  "pushedAt": "2016-05-31T12:38:16.000Z",
+  "homepage": null,
+  "size": 12,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "swiftchat",
+    "productName": "Swiftchat",
+    "version": "1.0.0",
+    "description": "My epic app",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-31T12:55:20.526Z",
-    "rank": null
+    "repository": "achieverprince/swiftchat",
+    "author": {
+      "name": "Jeba Prince",
+      "email": "jebaprince@swiftant.com",
+      "url": "swiftchat.swiftant.com"
+    },
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all",
+      "buildwin": "electron-packager . --platform=win32 --out=dist --arch=x64 --app-version=$npm_package_version --prune --asar --version-string.FileVersion=1.0.0"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "electron-debug": "^1.0.0"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.0",
+      "electron-packager": "^7.0.0",
+      "electron-prebuilt": "^1.0.1",
+      "xo": "^0.15.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
   },
-  "name": "swiftchat",
-  "productName": "Swiftchat",
-  "version": "1.0.0",
-  "description": "My epic app",
-  "license": "MIT",
-  "repository": "achieverprince/swiftchat",
-  "author": {
-    "name": "Jeba Prince",
-    "email": "jebaprince@swiftant.com",
-    "url": "swiftchat.swiftant.com"
-  },
-  "scripts": {
-    "test": "xo",
-    "start": "electron .",
-    "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all",
-    "buildwin": "electron-packager . --platform=win32 --out=dist --arch=x64 --app-version=$npm_package_version --prune --asar --version-string.FileVersion=1.0.0"
-  },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
-  "keywords": [
-    "electron-app",
-    "electron"
-  ],
-  "dependencies": {
-    "electron-debug": "^1.0.0"
-  },
-  "devDependencies": {
-    "devtron": "^1.1.0",
-    "electron-packager": "^7.0.0",
-    "electron-prebuilt": "^1.0.1",
-    "xo": "^0.15.0"
-  },
-  "xo": {
-    "esnext": true,
-    "envs": [
-      "node",
-      "browser"
-    ]
-  }
+  "packageStatus": 200
 }

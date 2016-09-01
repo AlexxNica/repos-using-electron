@@ -1,62 +1,76 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "bbirec/koen",
-    "description": "매일매일 한글을 영어로 바꾸는 연습을 해보자",
-    "fork": false,
-    "created_at": "2016-01-30T20:37:09.000Z",
-    "updated_at": "2016-04-26T01:13:39.957Z",
-    "pushed_at": "2016-02-02T13:21:20.000Z",
-    "homepage": null,
-    "size": 536,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 50743855,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-26T01:13:39.937Z",
-    "rank": null
-  },
+  "id": 50743855,
   "name": "koen",
-  "version": "1.0.0",
-  "description": "Daily english writing training tool",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js"
+  "fullName": "bbirec/koen",
+  "owner": {
+    "login": "bbirec",
+    "id": 865812,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/865812?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/bbirec",
+    "htmlUrl": "https://github.com/bbirec",
+    "followersUrl": "https://api.github.com/users/bbirec/followers",
+    "subscriptionsUrl": "https://api.github.com/users/bbirec/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/bbirec/orgs",
+    "reposUrl": "https://api.github.com/users/bbirec/repos",
+    "receivedEventsUrl": "https://api.github.com/users/bbirec/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bbirec/koen.git"
+  "private": false,
+  "description": "매일매일 한글을 영어로 바꾸는 연습을 해보자",
+  "fork": false,
+  "createdAt": "2016-01-30T20:37:09.000Z",
+  "updatedAt": "2016-01-30T20:37:29.000Z",
+  "pushedAt": "2016-02-02T13:21:20.000Z",
+  "homepage": null,
+  "size": 536,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "english",
-    "korean",
-    "electron"
-  ],
-  "author": "Heehong Moon",
-  "homepage": "https://github.com/bbirec/koen",
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.0"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "koen",
+    "version": "1.0.0",
+    "description": "Daily english writing training tool",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bbirec/koen.git"
+    },
+    "keywords": [
+      "english",
+      "korean",
+      "electron"
+    ],
+    "author": "Heehong Moon",
+    "homepage": "https://github.com/bbirec/koen",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "lowdb": "^0.12.2",
+      "node-uuid": "^1.4.7"
+    }
   },
-  "dependencies": {
-    "lowdb": "^0.12.2",
-    "node-uuid": "^1.4.7"
-  }
+  "packageStatus": 200
 }

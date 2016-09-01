@@ -1,53 +1,81 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "Some-Team/vk_music",
-    "description": "VK Music Player",
-    "fork": false,
-    "created_at": "2016-04-15T09:17:17.000Z",
-    "updated_at": "2016-05-27T12:58:41.113Z",
-    "pushed_at": "2016-05-12T13:20:07.000Z",
-    "homepage": "",
-    "size": 170,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": false,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 27,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 56307537,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T12:58:41.091Z",
-    "rank": null
+  "id": 56307537,
+  "name": "vk_music",
+  "fullName": "Some-Team/vk_music",
+  "owner": {
+    "login": "Some-Team",
+    "id": 18752812,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/18752812?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Some-Team",
+    "htmlUrl": "https://github.com/Some-Team",
+    "followersUrl": "https://api.github.com/users/Some-Team/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Some-Team/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Some-Team/orgs",
+    "reposUrl": "https://api.github.com/users/Some-Team/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Some-Team/received_events",
+    "type": "Organization"
   },
-  "main": "app/main.js",
-  "scripts": {
-    "start": "electron .",
-    "postinstall": "install-app-deps",
-    "dist": "build --platform=win32 --arch=ia32"
+  "private": false,
+  "description": "VK Music Player",
+  "fork": false,
+  "createdAt": "2016-04-15T09:17:17.000Z",
+  "updatedAt": "2016-04-30T16:13:57.000Z",
+  "pushedAt": "2016-05-12T13:20:07.000Z",
+  "homepage": "",
+  "size": 170,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 27,
+  "openIssues": 27,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "build": {
-    "app-bundle-id": "vk.music.player",
-    "app-category-type": "public.app-category.developer-tools",
-    "compression": "maximum"
+  "license": null,
+  "organization": {
+    "login": "Some-Team",
+    "id": 18752812,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/18752812?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Some-Team",
+    "htmlUrl": "https://github.com/Some-Team",
+    "followersUrl": "https://api.github.com/users/Some-Team/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Some-Team/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Some-Team/orgs",
+    "reposUrl": "https://api.github.com/users/Some-Team/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Some-Team/received_events",
+    "type": "Organization"
   },
-  "devDependencies": {
-    "bower": "^1.7.9",
-    "electron-builder": "^3.5.2",
-    "electron-prebuilt": "^1.0.1"
-  }
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "main": "app/main.js",
+    "scripts": {
+      "start": "electron .",
+      "postinstall": "install-app-deps",
+      "dist": "build --platform=win32 --arch=ia32"
+    },
+    "build": {
+      "app-bundle-id": "vk.music.player",
+      "app-category-type": "public.app-category.developer-tools",
+      "compression": "maximum"
+    },
+    "devDependencies": {
+      "bower": "^1.7.9",
+      "electron-builder": "^3.5.2",
+      "electron-prebuilt": "^1.0.1"
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,59 +1,79 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "colinbdclark/infusion-electron",
-    "description": "Infusion component wrappers for Atom Electron",
-    "fork": false,
-    "created_at": "2015-10-17T18:54:34.000Z",
-    "updated_at": "2016-05-27T15:42:14.946Z",
-    "pushed_at": "2016-01-17T08:34:02.000Z",
-    "homepage": null,
-    "size": 19,
-    "stargazers_count": 3,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 3,
-    "mirror_url": null,
-    "open_issues_count": 3,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 44450070,
-    "source_name": null,
-    "license": "BSD-3-Clause",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.txt",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T15:42:14.924Z",
-    "rank": null
-  },
+  "id": 44450070,
   "name": "infusion-electron",
+  "fullName": "colinbdclark/infusion-electron",
+  "owner": {
+    "login": "colinbdclark",
+    "id": 558076,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/558076?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/colinbdclark",
+    "htmlUrl": "https://github.com/colinbdclark",
+    "followersUrl": "https://api.github.com/users/colinbdclark/followers",
+    "subscriptionsUrl": "https://api.github.com/users/colinbdclark/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/colinbdclark/orgs",
+    "reposUrl": "https://api.github.com/users/colinbdclark/repos",
+    "receivedEventsUrl": "https://api.github.com/users/colinbdclark/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Infusion component wrappers for Atom Electron",
-  "version": "0.2.0",
-  "main": "index.js",
-  "author": "Colin Clark",
-  "license": "BSD-3-Clause",
-  "repository": "git://github.com/colinbdclark/infusion-electron.git",
-  "bugs": "http://github.com/colinbdclark/infusion-electron/issues",
-  "homepage": "http://github.com/colinbdclark/infusion-electron",
-  "readmeFilename": "README.md",
-  "dependencies": {
-    "infusion": "2.0.0-dev.20151024T031903Z.3da18aa",
-    "dedupe-infusion": "1.0.0",
-    "electron-prebuilt": "0.34.0"
+  "fork": false,
+  "createdAt": "2015-10-17T18:54:34.000Z",
+  "updatedAt": "2016-04-07T16:08:57.000Z",
+  "pushedAt": "2016-07-29T21:58:54.000Z",
+  "homepage": null,
+  "size": 19,
+  "stargazersCount": 3,
+  "watchersCount": 3,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 3,
+  "openIssuesCount": 4,
+  "openIssues": 4,
+  "watchers": 3,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "grunt-contrib-jshint": "0.9.0",
-    "grunt": "0.4.5"
+  "license": {
+    "key": "bsd-3-clause",
+    "name": "BSD 3-clause \"New\" or \"Revised\" License",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "featured": false
   },
-  "scripts": {
-    "dedupe-infusion": "node -e \"require('dedupe-infusion')();\""
-  }
+  "networkCount": 3,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "infusion-electron",
+    "description": "Infusion component wrappers for Atom Electron",
+    "version": "0.2.0",
+    "main": "index.js",
+    "author": "Colin Clark",
+    "license": "BSD-3-Clause",
+    "repository": "git://github.com/colinbdclark/infusion-electron.git",
+    "bugs": "http://github.com/colinbdclark/infusion-electron/issues",
+    "homepage": "http://github.com/colinbdclark/infusion-electron",
+    "readmeFilename": "README.md",
+    "dependencies": {
+      "infusion": "2.0.0-dev.20151024T031903Z.3da18aa",
+      "dedupe-infusion": "1.0.0",
+      "electron-prebuilt": "0.34.0"
+    },
+    "devDependencies": {
+      "grunt-contrib-jshint": "0.9.0",
+      "grunt": "0.4.5"
+    },
+    "scripts": {
+      "dedupe-infusion": "node -e \"require('dedupe-infusion')();\""
+    }
+  },
+  "packageStatus": 200
 }

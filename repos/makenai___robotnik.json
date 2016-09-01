@@ -1,115 +1,129 @@
 {
+  "id": 16635851,
   "name": "robotnik",
-  "version": "0.3.0",
-  "description": "Robotnik is a visual programming library for nodebots.",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "node utils/installcheck.js",
-    "postinstall": "gulp",
-    "start": "node_modules/.bin/electron .",
-    "webserver": "node webserver.js",
-    "dev": "node_modules/.bin/parallelshell \"node_modules/.bin/gulp watch\" \"node_modules/.bin/nodemon webserver.js\""
+  "fullName": "makenai/robotnik",
+  "owner": {
+    "login": "makenai",
+    "id": 11425,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11425?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/makenai",
+    "htmlUrl": "https://github.com/makenai",
+    "followersUrl": "https://api.github.com/users/makenai/followers",
+    "subscriptionsUrl": "https://api.github.com/users/makenai/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/makenai/orgs",
+    "reposUrl": "https://api.github.com/users/makenai/repos",
+    "receivedEventsUrl": "https://api.github.com/users/makenai/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/makenai/robotnik.git"
+  "private": false,
+  "description": "Drag and drop robotics educational library starring Johnny Five and Blockly (crowd goes wild)",
+  "fork": false,
+  "createdAt": "2014-02-08T04:34:51.000Z",
+  "updatedAt": "2016-06-17T16:52:17.000Z",
+  "pushedAt": "2016-07-04T12:32:33.000Z",
+  "homepage": null,
+  "size": 27898,
+  "stargazersCount": 37,
+  "watchersCount": 37,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 10,
+  "openIssuesCount": 11,
+  "openIssues": 11,
+  "watchers": 37,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": {
-    "name": "Pawel Szymczykowski",
-    "email": "makenai@gmail.com"
-  },
-  "contributors": [
-    {
-      "name": "Brian Genisio",
-      "email": "<BrianGenisio@Gmail.com"
+  "license": null,
+  "networkCount": 10,
+  "subscribersCount": 12,
+  "status": 200,
+  "packageJSON": {
+    "name": "robotnik",
+    "version": "0.3.0",
+    "description": "Robotnik is a visual programming library for nodebots.",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "preinstall": "node utils/installcheck.js",
+      "postinstall": "gulp",
+      "start": "node_modules/.bin/electron .",
+      "webserver": "node webserver.js",
+      "dev": "node_modules/.bin/parallelshell \"node_modules/.bin/gulp watch\" \"node_modules/.bin/nodemon webserver.js\""
     },
-    {
-      "name": "David Resseguie",
-      "email": "david@resseguie.com"
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/makenai/robotnik.git"
     },
-    {
-      "name": "Linda Nichols"
+    "author": {
+      "name": "Pawel Szymczykowski",
+      "email": "makenai@gmail.com"
     },
-    {
-      "name": "Andrew Fisher",
-      "email": "ajfisher.td@gmail.com"
+    "contributors": [
+      {
+        "name": "Brian Genisio",
+        "email": "<BrianGenisio@Gmail.com"
+      },
+      {
+        "name": "David Resseguie",
+        "email": "david@resseguie.com"
+      },
+      {
+        "name": "Linda Nichols"
+      },
+      {
+        "name": "Andrew Fisher",
+        "email": "ajfisher.td@gmail.com"
+      }
+    ],
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/makenai/robotnik/issues"
+    },
+    "homepage": "https://github.com/makenai/robotnik",
+    "dependencies": {
+      "angular": "^1.3.14",
+      "angular-bootstrap": "^0.12.0",
+      "angular-pouchdb": "^2.0.6",
+      "angular-resource": "^1.3.15",
+      "angular-ui-router": "^0.2.14",
+      "blockly": "git+https://github.com/google/blockly.git#217c681b86b0f2df76c479c9efae62e6e5abcede",
+      "body-parser": "^1.12.3",
+      "bootstrap": "^3.3.6",
+      "browserify": "^9.0.3",
+      "electron-prebuilt": "^0.37.5",
+      "express": "^4.13.4",
+      "font-awesome": "^4.5.0",
+      "intercept-stdout": "^0.1.2",
+      "johnny-five": "^0.9.38",
+      "jquery": "^2.1.4",
+      "js-beautify": "^1.5.5",
+      "lodash": "^4.11.1",
+      "pouchdb": "^3.4.0",
+      "pouchdb-find": "^0.3.4",
+      "serialport": "^2.1.0",
+      "socket.io": "^1.4.5",
+      "strip-ansi": "^3.0.1"
+    },
+    "devDependencies": {
+      "es6ify": "^1.6.0",
+      "gulp": "^3.8.11",
+      "gulp-concat-json": "^1.0.0",
+      "gulp-uglify": "^1.1.0",
+      "gulp-watch": "^4.2.4",
+      "nodemon": "^1.9.1",
+      "parallelshell": "^2.0.0",
+      "partialify": "^3.1.3",
+      "robotnik-controls": "0.0.1",
+      "vinyl-source-stream": "^1.0.0"
     }
-  ],
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/makenai/robotnik/issues"
   },
-  "homepage": "https://github.com/makenai/robotnik",
-  "dependencies": {
-    "angular": "^1.3.14",
-    "angular-bootstrap": "^0.12.0",
-    "angular-pouchdb": "^2.0.6",
-    "angular-resource": "^1.3.15",
-    "angular-ui-router": "^0.2.14",
-    "blockly": "git+https://github.com/google/blockly.git#217c681b86b0f2df76c479c9efae62e6e5abcede",
-    "body-parser": "^1.12.3",
-    "bootstrap": "^3.3.6",
-    "browserify": "^9.0.3",
-    "electron-prebuilt": "^0.37.5",
-    "express": "^4.13.4",
-    "font-awesome": "^4.5.0",
-    "intercept-stdout": "^0.1.2",
-    "johnny-five": "^0.9.38",
-    "jquery": "^2.1.4",
-    "js-beautify": "^1.5.5",
-    "lodash": "^4.11.1",
-    "pouchdb": "^3.4.0",
-    "pouchdb-find": "^0.3.4",
-    "serialport": "^2.1.0",
-    "socket.io": "^1.4.5",
-    "strip-ansi": "^3.0.1"
-  },
-  "devDependencies": {
-    "es6ify": "^1.6.0",
-    "gulp": "^3.8.11",
-    "gulp-concat-json": "^1.0.0",
-    "gulp-uglify": "^1.1.0",
-    "gulp-watch": "^4.2.4",
-    "nodemon": "^1.9.1",
-    "parallelshell": "^2.0.0",
-    "partialify": "^3.1.3",
-    "robotnik-controls": "0.0.1",
-    "vinyl-source-stream": "^1.0.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "makenai/robotnik",
-    "description": "Drag and drop robotics educational library starring Johnny Five and Blockly (crowd goes wild)",
-    "fork": false,
-    "created_at": "2014-02-08T04:34:51.000Z",
-    "updated_at": "2016-05-31T10:52:08.677Z",
-    "pushed_at": "2016-05-03T12:10:02.000Z",
-    "homepage": null,
-    "size": 27839,
-    "stargazers_count": 36,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "forks_count": 11,
-    "mirror_url": null,
-    "open_issues_count": 16,
-    "default_branch": "master",
-    "subscribers_count": 11,
-    "github_id": 16635851,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 6,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T16:39:22.999Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

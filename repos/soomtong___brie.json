@@ -1,69 +1,89 @@
 {
-  "private": true,
-  "productName": "brie",
-  "version": "0.0.1",
-  "description": "npm the package manager gui wrapper",
-  "license": "MIT",
-  "repository": "soomtong/brie",
-  "author": {
-    "name": "soomtong",
-    "email": "soomtong@gmail.com"
+  "id": 52051513,
+  "name": "brie",
+  "fullName": "soomtong/brie",
+  "owner": {
+    "login": "soomtong",
+    "id": 906974,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/906974?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/soomtong",
+    "htmlUrl": "https://github.com/soomtong",
+    "followersUrl": "https://api.github.com/users/soomtong/followers",
+    "subscriptionsUrl": "https://api.github.com/users/soomtong/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/soomtong/orgs",
+    "reposUrl": "https://api.github.com/users/soomtong/repos",
+    "receivedEventsUrl": "https://api.github.com/users/soomtong/received_events",
+    "type": "User"
   },
-  "engines": {
-    "node": ">=4.0.0"
+  "private": false,
+  "description": "node package manager wrapper by electron",
+  "fork": false,
+  "createdAt": "2016-02-19T01:14:11.000Z",
+  "updatedAt": "2016-02-19T17:36:31.000Z",
+  "pushedAt": "2016-02-19T18:59:51.000Z",
+  "homepage": null,
+  "size": 225,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "start": "electron .",
-    "build": "rm -rf build; mkdir -p build; electron-packager . $npm_package_productName --out=build --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git",
-    "start-2nd": "electron --2nd ."
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "keywords": [
-    "electron",
-    "starterkit"
-  ],
-  "devDependencies": {
-    "electron-packager": "latest",
-    "electron-prebuilt": "latest"
-  },
-  "dependencies": {
-    "electron-default-menu": "^0.1.1",
-    "node-jsx": "latest",
-    "react": "latest",
-    "react-photonkit": "^0.4.1"
-  },
-  "_librariesioMetadata": {
-    "full_name": "soomtong/brie",
-    "description": "node package manager wrapper by electron",
-    "fork": false,
-    "created_at": "2016-02-19T01:14:11.000Z",
-    "updated_at": "2016-02-19T01:14:27.000Z",
-    "pushed_at": "2016-02-19T01:16:18.000Z",
-    "homepage": null,
-    "size": 140,
-    "stargazers_count": 0,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 52051513,
-    "source_name": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "private": true,
+    "productName": "brie",
+    "version": "0.0.1",
+    "description": "npm the package manager gui wrapper",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "repository": "soomtong/brie",
+    "author": {
+      "name": "soomtong",
+      "email": "soomtong@gmail.com"
+    },
+    "engines": {
+      "node": ">=4.0.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "rm -rf build; mkdir -p build; electron-packager . $npm_package_productName --out=build --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git",
+      "start-2nd": "electron --2nd ."
+    },
+    "keywords": [
+      "electron",
+      "starterkit"
+    ],
+    "devDependencies": {
+      "electron-packager": "latest",
+      "electron-prebuilt": "latest"
+    },
+    "dependencies": {
+      "electron-default-menu": "^0.1.1",
+      "node-jsx": "latest",
+      "react": "latest",
+      "react-photonkit": "^0.4.1"
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,69 +1,83 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "airburst/ExCell",
-    "description": "Engine to convert spreadsheets into JavaScript instruction set",
-    "fork": false,
-    "created_at": "2015-09-22T15:59:19.000Z",
-    "updated_at": "2016-06-20T08:48:22.618Z",
-    "pushed_at": "2016-06-16T21:10:43.000Z",
-    "homepage": null,
-    "size": 637,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 42944510,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-20T08:48:22.596Z",
-    "rank": null
+  "id": 42944510,
+  "name": "ExCell",
+  "fullName": "airburst/ExCell",
+  "owner": {
+    "login": "airburst",
+    "id": 2046119,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2046119?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/airburst",
+    "htmlUrl": "https://github.com/airburst",
+    "followersUrl": "https://api.github.com/users/airburst/followers",
+    "subscriptionsUrl": "https://api.github.com/users/airburst/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/airburst/orgs",
+    "reposUrl": "https://api.github.com/users/airburst/repos",
+    "receivedEventsUrl": "https://api.github.com/users/airburst/received_events",
+    "type": "User"
   },
-  "devDependencies": {
-    "asar": "^0.11.0",
-    "chai": "^3.5.0",
-    "electron-mocha": "^2.2.0",
-    "electron-prebuilt": "^1.2.2",
-    "fs-jetpack": "^0.9.0",
-    "gulp": "^3.9.1",
-    "gulp-batch": "^1.0.5",
-    "gulp-less": "^3.0.3",
-    "gulp-plumber": "^1.1.0",
-    "gulp-util": "^3.0.6",
-    "gulp-watch": "^4.3.5",
-    "q": "^1.4.1",
-    "rollup": "^0.26.3",
-    "yargs": "^4.2.0"
+  "private": false,
+  "description": "Engine to convert spreadsheets into JavaScript instruction set",
+  "fork": false,
+  "createdAt": "2015-09-22T15:59:19.000Z",
+  "updatedAt": "2016-06-14T13:41:32.000Z",
+  "pushedAt": "2016-06-16T21:10:43.000Z",
+  "homepage": null,
+  "size": 637,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "optionalDependencies": {
-    "appdmg": "^0.3.2",
-    "rcedit": "^0.5.0"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "devDependencies": {
+      "asar": "^0.11.0",
+      "chai": "^3.5.0",
+      "electron-mocha": "^2.2.0",
+      "electron-prebuilt": "^1.2.2",
+      "fs-jetpack": "^0.9.0",
+      "gulp": "^3.9.1",
+      "gulp-batch": "^1.0.5",
+      "gulp-less": "^3.0.3",
+      "gulp-plumber": "^1.1.0",
+      "gulp-util": "^3.0.6",
+      "gulp-watch": "^4.3.5",
+      "q": "^1.4.1",
+      "rollup": "^0.26.3",
+      "yargs": "^4.2.0"
+    },
+    "optionalDependencies": {
+      "appdmg": "^0.3.2",
+      "rcedit": "^0.5.0"
+    },
+    "scripts": {
+      "postinstall": "cd app && npm install",
+      "build": "gulp build",
+      "release": "gulp release --env=production",
+      "start": "gulp start",
+      "pretest": "gulp build --env=test",
+      "test": "electron-mocha build --renderer",
+      "install-native": "node ./tasks/install_native_module"
+    },
+    "dependencies": {
+      "lodash": "^4.13.1"
+    }
   },
-  "scripts": {
-    "postinstall": "cd app && npm install",
-    "build": "gulp build",
-    "release": "gulp release --env=production",
-    "start": "gulp start",
-    "pretest": "gulp build --env=test",
-    "test": "electron-mocha build --renderer",
-    "install-native": "node ./tasks/install_native_module"
-  },
-  "dependencies": {
-    "lodash": "^4.13.1"
-  }
+  "packageStatus": 200
 }

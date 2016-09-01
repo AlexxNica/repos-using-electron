@@ -1,81 +1,101 @@
 {
+  "id": 49279683,
   "name": "karaokible",
-  "version": "0.0.1",
+  "fullName": "rot1024/karaokible",
+  "owner": {
+    "login": "rot1024",
+    "id": 3888696,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3888696?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/rot1024",
+    "htmlUrl": "https://github.com/rot1024",
+    "followersUrl": "https://api.github.com/users/rot1024/followers",
+    "subscriptionsUrl": "https://api.github.com/users/rot1024/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/rot1024/orgs",
+    "reposUrl": "https://api.github.com/users/rot1024/repos",
+    "receivedEventsUrl": "https://api.github.com/users/rot1024/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Let's practice karaoke",
-  "scripts": {
-    "start": "gulp serve",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "cd src && npm i",
-    "postinstall": "gulp workaround",
-    "prod": "electron build/prod",
-    "dist": "gulp dist",
-    "release": "gulp release"
+  "fork": false,
+  "createdAt": "2016-01-08T15:29:03.000Z",
+  "updatedAt": "2016-05-08T15:05:21.000Z",
+  "pushedAt": "2016-01-10T13:24:16.000Z",
+  "homepage": null,
+  "size": 28,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "rot1024",
-  "license": "MIT",
-  "devDependencies": {
-    "archiver": "^0.21.0",
-    "babel-preset-react": "^6.3.13",
-    "del": "^2.2.0",
-    "electron-connect": "^0.3.4",
-    "electron-packager": "^5.2.0",
-    "electron-prebuilt": "0.36.3",
-    "gulp": "^3.9.0",
-    "gulp-babel": "^6.1.1",
-    "gulp-changed": "^1.3.0",
-    "gulp-espower": "^1.0.2",
-    "gulp-notify": "^2.2.0",
-    "gulp-plumber": "^1.0.1",
-    "gulp-remove-code": "^1.0.2",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-unassert": "^1.0.0",
-    "power-assert": "^1.2.0",
-    "run-sequence": "^1.1.5"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rot1024/karaokible.git"
-  },
-  "keywords": [
-    "karaoke"
-  ],
-  "bugs": {
-    "url": "https://github.com/rot1024/karaokible/issues"
-  },
-  "homepage": "https://github.com/rot1024/karaokible#readme",
-  "_librariesioMetadata": {
-    "full_name": "rot1024/karaokible",
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "karaokible",
+    "version": "0.0.1",
     "description": "Let's practice karaoke",
-    "fork": false,
-    "created_at": "2016-01-08T15:29:03.000Z",
-    "updated_at": "2016-05-28T02:47:01.204Z",
-    "pushed_at": "2016-01-10T13:24:16.000Z",
-    "homepage": null,
-    "size": 28,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 49279683,
-    "source_name": null,
+    "scripts": {
+      "start": "gulp serve",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "install": "cd src && npm i",
+      "postinstall": "gulp workaround",
+      "prod": "electron build/prod",
+      "dist": "gulp dist",
+      "release": "gulp release"
+    },
+    "author": "rot1024",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T02:47:01.184Z",
-    "rank": null
-  }
+    "devDependencies": {
+      "archiver": "^0.21.0",
+      "babel-preset-react": "^6.3.13",
+      "del": "^2.2.0",
+      "electron-connect": "^0.3.4",
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "0.36.3",
+      "gulp": "^3.9.0",
+      "gulp-babel": "^6.1.1",
+      "gulp-changed": "^1.3.0",
+      "gulp-espower": "^1.0.2",
+      "gulp-notify": "^2.2.0",
+      "gulp-plumber": "^1.0.1",
+      "gulp-remove-code": "^1.0.2",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-unassert": "^1.0.0",
+      "power-assert": "^1.2.0",
+      "run-sequence": "^1.1.5"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rot1024/karaokible.git"
+    },
+    "keywords": [
+      "karaoke"
+    ],
+    "bugs": {
+      "url": "https://github.com/rot1024/karaokible/issues"
+    },
+    "homepage": "https://github.com/rot1024/karaokible#readme"
+  },
+  "packageStatus": 200
 }

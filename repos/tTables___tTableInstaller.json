@@ -1,69 +1,103 @@
 {
-  "name": "table-installer",
-  "version": "0.0.1",
-  "description": "tTable Installer app",
-  "main": "app/main.js",
-  "scripts": {
-    "start": "electron app/main.js",
-    "build": "electron-packager app ttableinstaller --platform=win32 --arch=all"
+  "id": 43574034,
+  "name": "tTableInstaller",
+  "fullName": "tTables/tTableInstaller",
+  "owner": {
+    "login": "tTables",
+    "id": 17544907,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/17544907?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/tTables",
+    "htmlUrl": "https://github.com/tTables",
+    "followersUrl": "https://api.github.com/users/tTables/followers",
+    "subscriptionsUrl": "https://api.github.com/users/tTables/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/tTables/orgs",
+    "reposUrl": "https://api.github.com/users/tTables/repos",
+    "receivedEventsUrl": "https://api.github.com/users/tTables/received_events",
+    "type": "Organization"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tTables/tTableInstaller.git"
+  "private": false,
+  "description": "Installer application for tTable - reads timetable files and save to MySQL database",
+  "fork": false,
+  "createdAt": "2015-10-02T20:10:58.000Z",
+  "updatedAt": "2016-04-17T14:37:22.000Z",
+  "pushedAt": "2016-04-22T11:13:16.000Z",
+  "homepage": null,
+  "size": 401,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "Electron",
-    "ttable",
-    "bus",
-    "timetable"
-  ],
-  "author": "Patryk Wychowaniec",
-  "license": "Apache version 2.0",
-  "bugs": {
-    "url": "https://github.com/tTables/tTableInstaller/issues"
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "featured": true
   },
-  "homepage": "https://github.com/tTables/tTableInstaller",
-  "devDependencies": {
-    "electron-packager": "^6.0.2",
-    "electron-prebuilt": "^0.37.0"
+  "organization": {
+    "login": "tTables",
+    "id": 17544907,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/17544907?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/tTables",
+    "htmlUrl": "https://github.com/tTables",
+    "followersUrl": "https://api.github.com/users/tTables/followers",
+    "subscriptionsUrl": "https://api.github.com/users/tTables/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/tTables/orgs",
+    "reposUrl": "https://api.github.com/users/tTables/repos",
+    "receivedEventsUrl": "https://api.github.com/users/tTables/received_events",
+    "type": "Organization"
   },
-  "dependencies": {
-    "mysql": "^2.10.2",
-    "promise-mysql": "^1.3.2"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "table-installer",
+    "version": "0.0.1",
+    "description": "tTable Installer app",
+    "main": "app/main.js",
+    "scripts": {
+      "start": "electron app/main.js",
+      "build": "electron-packager app ttableinstaller --platform=win32 --arch=all"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tTables/tTableInstaller.git"
+    },
+    "keywords": [
+      "Electron",
+      "ttable",
+      "bus",
+      "timetable"
+    ],
+    "author": "Patryk Wychowaniec",
+    "license": "Apache version 2.0",
+    "bugs": {
+      "url": "https://github.com/tTables/tTableInstaller/issues"
+    },
+    "homepage": "https://github.com/tTables/tTableInstaller",
+    "devDependencies": {
+      "electron-packager": "^6.0.2",
+      "electron-prebuilt": "^0.37.0"
+    },
+    "dependencies": {
+      "mysql": "^2.10.2",
+      "promise-mysql": "^1.3.2"
+    }
   },
-  "_librariesioMetadata": {
-    "full_name": "tTables/tTableInstaller",
-    "description": "Installer application for tTable - reads timetable files and save to MySQL database",
-    "fork": false,
-    "created_at": "2015-10-02T20:10:58.000Z",
-    "updated_at": "2016-05-28T04:35:23.804Z",
-    "pushed_at": "2016-04-22T11:13:16.000Z",
-    "homepage": null,
-    "size": 401,
-    "stargazers_count": 0,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 43574034,
-    "source_name": null,
-    "license": "Apache-2.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T04:35:23.783Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

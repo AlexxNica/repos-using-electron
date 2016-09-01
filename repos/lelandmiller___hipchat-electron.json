@@ -1,57 +1,77 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "lelandmiller/hipchat-electron",
-    "description": "Unofficial electron wrapper for the HipChat web client",
-    "fork": false,
-    "created_at": "2015-12-23T23:20:18.000Z",
-    "updated_at": "2016-04-18T22:36:59.319Z",
-    "pushed_at": "2015-12-24T00:05:20.000Z",
-    "homepage": null,
-    "size": 14,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 48515162,
-    "source_name": null,
-    "license": "Other",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-18T22:36:59.294Z",
-    "rank": null
-  },
+  "id": 48515162,
   "name": "hipchat-electron",
-  "version": "0.1.0",
-  "description": "An electron wrapper for the HipChat web client",
-  "main": "src/main.js",
-  "repository": "lelandmiller/hipchat-electron",
-  "scripts": {
-    "start": "node index.js",
-    "build": "electron-packager . hipchat-electron --platform=linux --arch=x64 --version=0.36.1 --out=build"
+  "fullName": "lelandmiller/hipchat-electron",
+  "owner": {
+    "login": "lelandmiller",
+    "id": 3421478,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3421478?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/lelandmiller",
+    "htmlUrl": "https://github.com/lelandmiller",
+    "followersUrl": "https://api.github.com/users/lelandmiller/followers",
+    "subscriptionsUrl": "https://api.github.com/users/lelandmiller/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/lelandmiller/orgs",
+    "reposUrl": "https://api.github.com/users/lelandmiller/repos",
+    "receivedEventsUrl": "https://api.github.com/users/lelandmiller/received_events",
+    "type": "User"
   },
-  "bin": {
-    "hipchat-electron": "index.js"
+  "private": false,
+  "description": "Unofficial electron wrapper for the HipChat web client",
+  "fork": false,
+  "createdAt": "2015-12-23T23:20:18.000Z",
+  "updatedAt": "2015-12-23T23:54:29.000Z",
+  "pushedAt": "2015-12-24T00:05:20.000Z",
+  "homepage": null,
+  "size": 14,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "Leland Miller",
-  "license": "CC0-1.0",
-  "dependencies": {
-    "electron-prebuilt": "^0.36.1"
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spdxId": null,
+    "url": null,
+    "featured": false
   },
-  "devDependencies": {
-    "electron-packager": "^5.2.0"
-  }
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "hipchat-electron",
+    "version": "0.1.0",
+    "description": "An electron wrapper for the HipChat web client",
+    "main": "src/main.js",
+    "repository": "lelandmiller/hipchat-electron",
+    "scripts": {
+      "start": "node index.js",
+      "build": "electron-packager . hipchat-electron --platform=linux --arch=x64 --version=0.36.1 --out=build"
+    },
+    "bin": {
+      "hipchat-electron": "index.js"
+    },
+    "author": "Leland Miller",
+    "license": "CC0-1.0",
+    "dependencies": {
+      "electron-prebuilt": "^0.36.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.2.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,70 +1,90 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "ordinarygithubuser/deskop-mp3-player",
-    "description": "electron music player",
-    "fork": false,
-    "created_at": "2016-03-26T01:17:14.000Z",
-    "updated_at": "2016-04-17T23:21:22.121Z",
-    "pushed_at": "2016-03-26T13:26:11.000Z",
-    "homepage": null,
-    "size": 1632,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 54756459,
-    "source_name": null,
+  "id": 54756459,
+  "name": "deskop-mp3-player",
+  "fullName": "ordinarygithubuser/deskop-mp3-player",
+  "owner": {
+    "login": "ordinarygithubuser",
+    "id": 11198885,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11198885?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/ordinarygithubuser",
+    "htmlUrl": "https://github.com/ordinarygithubuser",
+    "followersUrl": "https://api.github.com/users/ordinarygithubuser/followers",
+    "subscriptionsUrl": "https://api.github.com/users/ordinarygithubuser/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/ordinarygithubuser/orgs",
+    "reposUrl": "https://api.github.com/users/ordinarygithubuser/repos",
+    "receivedEventsUrl": "https://api.github.com/users/ordinarygithubuser/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "electron music player",
+  "fork": false,
+  "createdAt": "2016-03-26T01:17:14.000Z",
+  "updatedAt": "2016-03-26T01:32:22.000Z",
+  "pushedAt": "2016-03-26T13:26:11.000Z",
+  "homepage": null,
+  "size": 1632,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "desktop-mp3-player",
+    "version": "1.2.0",
+    "description": "deskop music player",
+    "main": "main.js",
+    "scripts": {
+      "start": "./node_modules/.bin/electron .",
+      "build": "./node_modules/.bin/webpack",
+      "watch": "./node_modules/.bin/webpack-dev-server --hot --inline"
+    },
+    "devDependencies": {
+      "babel-core": "^5.8.25",
+      "babel-loader": "^5.3.2",
+      "css-loader": "^0.21.0",
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.34.1",
+      "image-webpack-loader": "^1.6.3",
+      "node-sass": "^3.4.2",
+      "sass-loader": "^3.0.0",
+      "style-loader": "^0.13.0",
+      "webpack": "^1.12.2",
+      "webpack-dev-server": "^1.12.1"
+    },
+    "keywords": [
+      "music-player",
+      "desktop",
+      "nodejs"
+    ],
+    "author": "justalex",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+    "dependencies": {
+      "musicmetadata": "^2.0.2",
+      "mva": "^2.1.0"
+    }
   },
-  "name": "desktop-mp3-player",
-  "version": "1.2.0",
-  "description": "deskop music player",
-  "main": "main.js",
-  "scripts": {
-    "start": "./node_modules/.bin/electron .",
-    "build": "./node_modules/.bin/webpack",
-    "watch": "./node_modules/.bin/webpack-dev-server --hot --inline"
-  },
-  "devDependencies": {
-    "babel-core": "^5.8.25",
-    "babel-loader": "^5.3.2",
-    "css-loader": "^0.21.0",
-    "electron-packager": "^5.1.0",
-    "electron-prebuilt": "^0.34.1",
-    "image-webpack-loader": "^1.6.3",
-    "node-sass": "^3.4.2",
-    "sass-loader": "^3.0.0",
-    "style-loader": "^0.13.0",
-    "webpack": "^1.12.2",
-    "webpack-dev-server": "^1.12.1"
-  },
-  "keywords": [
-    "music-player",
-    "desktop",
-    "nodejs"
-  ],
-  "author": "justalex",
-  "license": "MIT",
-  "dependencies": {
-    "musicmetadata": "^2.0.2",
-    "mva": "^2.1.0"
-  }
+  "packageStatus": 200
 }

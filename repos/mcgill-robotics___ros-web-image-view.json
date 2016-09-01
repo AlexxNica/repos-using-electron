@@ -1,58 +1,92 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "mcgill-robotics/ros-web-image-view",
-    "description": "The missing ROS client for web_video_server  ",
-    "fork": false,
-    "created_at": "2016-05-15T23:39:36.000Z",
-    "updated_at": "2016-05-17T04:16:59.163Z",
-    "pushed_at": "2016-05-17T04:15:15.000Z",
-    "homepage": "",
-    "size": 122,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 4,
-    "github_id": 58890269,
-    "source_name": null,
+  "id": 58890269,
+  "name": "ros-web-image-view",
+  "fullName": "mcgill-robotics/ros-web-image-view",
+  "owner": {
+    "login": "mcgill-robotics",
+    "id": 3902669,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3902669?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mcgill-robotics",
+    "htmlUrl": "https://github.com/mcgill-robotics",
+    "followersUrl": "https://api.github.com/users/mcgill-robotics/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mcgill-robotics/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mcgill-robotics/orgs",
+    "reposUrl": "https://api.github.com/users/mcgill-robotics/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mcgill-robotics/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "description": "The missing ROS client for web_video_server  ",
+  "fork": false,
+  "createdAt": "2016-05-15T23:39:36.000Z",
+  "updatedAt": "2016-05-17T04:16:34.000Z",
+  "pushedAt": "2016-05-17T04:15:15.000Z",
+  "homepage": "",
+  "size": 122,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "gpl-2.0",
+    "name": "GNU General Public License v2.0",
+    "spdxId": "GPL-2.0",
+    "url": "https://api.github.com/licenses/gpl-2.0",
+    "featured": false
+  },
+  "organization": {
+    "login": "mcgill-robotics",
+    "id": 3902669,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3902669?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mcgill-robotics",
+    "htmlUrl": "https://github.com/mcgill-robotics",
+    "followersUrl": "https://api.github.com/users/mcgill-robotics/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mcgill-robotics/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mcgill-robotics/orgs",
+    "reposUrl": "https://api.github.com/users/mcgill-robotics/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mcgill-robotics/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 4,
+  "status": 200,
+  "packageJSON": {
+    "name": "web-image-view",
+    "version": "0.1.0",
+    "description": "ROS web_video_server image viewer",
+    "main": "app.js",
+    "scripts": {
+      "start": "electron src/app.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mcgill-robotics/ros-web-image-view.git"
+    },
     "license": "GPL-2.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-17T04:16:59.139Z",
-    "rank": null
+    "bugs": {
+      "url": "https://github.com/mcgill-robotics/ros-web-image-view/issues"
+    },
+    "author": "anassinator",
+    "homepage": "https://github.com/mcgill-robotics/ros-web-image-view",
+    "dependencies": {
+      "electron-prebuilt": "^1.0.1",
+      "yargs": "^4.7.0"
+    }
   },
-  "name": "web-image-view",
-  "version": "0.1.0",
-  "description": "ROS web_video_server image viewer",
-  "main": "app.js",
-  "scripts": {
-    "start": "electron src/app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mcgill-robotics/ros-web-image-view.git"
-  },
-  "license": "GPL-2.0",
-  "bugs": {
-    "url": "https://github.com/mcgill-robotics/ros-web-image-view/issues"
-  },
-  "author": "anassinator",
-  "homepage": "https://github.com/mcgill-robotics/ros-web-image-view",
-  "dependencies": {
-    "electron-prebuilt": "^1.0.1",
-    "yargs": "^4.7.0"
-  }
+  "packageStatus": 200
 }

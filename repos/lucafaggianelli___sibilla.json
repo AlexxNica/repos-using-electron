@@ -1,83 +1,97 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "lucafaggianelli/sibilla",
-    "description": "Organize your shared drives",
-    "fork": false,
-    "created_at": "2016-04-25T20:55:40.000Z",
-    "updated_at": "2016-05-27T15:48:09.289Z",
-    "pushed_at": "2016-05-15T23:30:37.000Z",
-    "homepage": "",
-    "size": 386,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 19,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 57075762,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T15:48:09.268Z",
-    "rank": null
-  },
+  "id": 57075762,
   "name": "sibilla",
-  "description": "Organize shared folders",
-  "version": "0.0.9",
-  "engines": {
-    "node": ">=4.0"
+  "fullName": "lucafaggianelli/sibilla",
+  "owner": {
+    "login": "lucafaggianelli",
+    "id": 4471043,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4471043?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/lucafaggianelli",
+    "htmlUrl": "https://github.com/lucafaggianelli",
+    "followersUrl": "https://api.github.com/users/lucafaggianelli/followers",
+    "subscriptionsUrl": "https://api.github.com/users/lucafaggianelli/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/lucafaggianelli/orgs",
+    "reposUrl": "https://api.github.com/users/lucafaggianelli/repos",
+    "receivedEventsUrl": "https://api.github.com/users/lucafaggianelli/received_events",
+    "type": "User"
   },
-  "main": "main.js",
-  "scripts": {
-    "postinstall": "grunt concat:dist",
-    "start": "electron main.js",
-    "test": "mocha"
+  "private": false,
+  "description": "Organize your shared drives",
+  "fork": false,
+  "createdAt": "2016-04-25T20:55:40.000Z",
+  "updatedAt": "2016-05-03T08:07:16.000Z",
+  "pushedAt": "2016-05-15T23:30:37.000Z",
+  "homepage": "",
+  "size": 386,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 19,
+  "openIssues": 19,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lucafaggianelli/sibilla.git"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "sibilla",
+    "description": "Organize shared folders",
+    "version": "0.0.9",
+    "engines": {
+      "node": ">=4.0"
+    },
+    "main": "main.js",
+    "scripts": {
+      "postinstall": "grunt concat:dist",
+      "start": "electron main.js",
+      "test": "mocha"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lucafaggianelli/sibilla.git"
+    },
+    "author": "Luca Faggianelli",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/lucafaggianelli/sibilla/issues"
+    },
+    "homepage": "https://github.com/lucafaggianelli/sibilla#readme",
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "electron-packager": "^7.0.1",
+      "electron-prebuilt": "^0.37.0",
+      "grunt": "^1.0.1",
+      "grunt-cli": "^1.2.0",
+      "grunt-contrib-compress": "^1.2.0",
+      "grunt-contrib-concat": "^1.0.1",
+      "grunt-contrib-jshint": "^1.0.0",
+      "grunt-contrib-watch": "^1.0.0",
+      "mocha": "^2.4.5"
+    },
+    "dependencies": {
+      "angular": "1.5.x",
+      "angular-flash-alert": "^2.3.0",
+      "angular-loading-bar": "^0.9.0",
+      "angular-resource": "1.5.x",
+      "angular-route": "^1.5.5",
+      "angular-ui-bootstrap": "^1.3.2",
+      "bootstrap": "^3.3.6",
+      "jquery": "~2.2.3",
+      "mime-types": "^2.1.10",
+      "nodejs-disks": "^0.2.1"
+    }
   },
-  "author": "Luca Faggianelli",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/lucafaggianelli/sibilla/issues"
-  },
-  "homepage": "https://github.com/lucafaggianelli/sibilla#readme",
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "electron-packager": "^7.0.1",
-    "electron-prebuilt": "^0.37.0",
-    "grunt": "^1.0.1",
-    "grunt-cli": "^1.2.0",
-    "grunt-contrib-compress": "^1.2.0",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-jshint": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "mocha": "^2.4.5"
-  },
-  "dependencies": {
-    "angular": "1.5.x",
-    "angular-flash-alert": "^2.3.0",
-    "angular-loading-bar": "^0.9.0",
-    "angular-resource": "1.5.x",
-    "angular-route": "^1.5.5",
-    "angular-ui-bootstrap": "^1.3.2",
-    "bootstrap": "^3.3.6",
-    "jquery": "~2.2.3",
-    "mime-types": "^2.1.10",
-    "nodejs-disks": "^0.2.1"
-  }
+  "packageStatus": 200
 }

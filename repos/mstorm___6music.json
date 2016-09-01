@@ -1,55 +1,69 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "mstorm/6music",
-    "description": null,
-    "fork": false,
-    "created_at": "2016-08-05T11:57:00.000Z",
-    "updated_at": "2016-08-05T11:58:02.508Z",
-    "pushed_at": "2016-08-05T11:57:22.000Z",
-    "homepage": null,
-    "size": 0,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 0,
-    "github_id": 65015068,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-08-05T11:58:02.480Z",
-    "rank": null
-  },
+  "id": 65015068,
   "name": "6music",
-  "version": "0.0.1",
-  "description": "6music radio player",
-  "author": {
-    "name": "Stephen Kwon",
-    "email": "mstorm@mstorm.net",
-    "url": "http://mstorm.net/"
+  "fullName": "mstorm/6music",
+  "owner": {
+    "login": "mstorm",
+    "id": 689676,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/689676?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mstorm",
+    "htmlUrl": "https://github.com/mstorm",
+    "followersUrl": "https://api.github.com/users/mstorm/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mstorm/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mstorm/orgs",
+    "reposUrl": "https://api.github.com/users/mstorm/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mstorm/received_events",
+    "type": "User"
   },
-  "private": true,
-  "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-    "install": "electron-packager `pwd` --platform=darwin --arch=x64 --icon=./app/6music.icns --out ./out --overwrite --prune"
+  "private": false,
+  "description": null,
+  "fork": false,
+  "createdAt": "2016-08-05T11:57:00.000Z",
+  "updatedAt": "2016-08-05T11:57:23.000Z",
+  "pushedAt": "2016-08-05T11:57:22.000Z",
+  "homepage": null,
+  "size": 20,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-packager": "^7.5.0",
-    "electron-prebuilt": "^1.2.0"
-  }
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "6music",
+    "version": "0.0.1",
+    "description": "6music radio player",
+    "author": {
+      "name": "Stephen Kwon",
+      "email": "mstorm@mstorm.net",
+      "url": "http://mstorm.net/"
+    },
+    "private": true,
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "install": "electron-packager `pwd` --platform=darwin --arch=x64 --icon=./app/6music.icns --out ./out --overwrite --prune"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.5.0",
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,79 +1,99 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "Toreant/editor",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-03-24T05:11:27.000Z",
-    "updated_at": "2016-03-24T05:40:18.197Z",
-    "pushed_at": "2016-03-24T05:12:29.000Z",
-    "homepage": null,
-    "size": 282,
-    "stargazers_count": 0,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 54616244,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+  "id": 54616244,
+  "name": "editor",
+  "fullName": "Toreant/editor",
+  "owner": {
+    "login": "Toreant",
+    "id": 13035829,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/13035829?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Toreant",
+    "htmlUrl": "https://github.com/Toreant",
+    "followersUrl": "https://api.github.com/users/Toreant/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Toreant/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Toreant/orgs",
+    "reposUrl": "https://api.github.com/users/Toreant/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Toreant/received_events",
+    "type": "User"
   },
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js",
-    "test": "karma start karma.conf.js"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2016-03-24T05:11:27.000Z",
+  "updatedAt": "2016-03-24T05:12:31.000Z",
+  "pushedAt": "2016-03-24T14:18:54.000Z",
+  "homepage": null,
+  "size": 293,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/atom/electron-quick-start.git"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/atom/electron-quick-start/issues"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "test": "karma start karma.conf.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/atom/electron-quick-start#readme",
+    "devDependencies": {
+      "babel-plugin-transform-es2015-modules-umd": "^6.6.5",
+      "babel-preset-es2015": "^6.6.0",
+      "babel-register": "^6.7.2",
+      "chai": "^3.5.0",
+      "electron-prebuilt": "^0.36.0",
+      "karma": "^0.13.22",
+      "karma-babel-preprocessor": "^6.0.1",
+      "karma-chai": "^0.1.0",
+      "karma-chrome-launcher": "^0.2.2",
+      "karma-mocha": "^0.2.2",
+      "karma-mocha-reporter": "^2.0.0",
+      "mocha": "^2.4.5"
+    },
+    "dependencies": {
+      "jquery": "^2.2.2",
+      "underscore": "^1.8.3"
+    }
   },
-  "homepage": "https://github.com/atom/electron-quick-start#readme",
-  "devDependencies": {
-    "babel-plugin-transform-es2015-modules-umd": "^6.6.5",
-    "babel-preset-es2015": "^6.6.0",
-    "babel-register": "^6.7.2",
-    "chai": "^3.5.0",
-    "electron-prebuilt": "^0.36.0",
-    "karma": "^0.13.22",
-    "karma-babel-preprocessor": "^6.0.1",
-    "karma-chai": "^0.1.0",
-    "karma-chrome-launcher": "^0.2.2",
-    "karma-mocha": "^0.2.2",
-    "karma-mocha-reporter": "^2.0.0",
-    "mocha": "^2.4.5"
-  },
-  "dependencies": {
-    "jquery": "^2.2.2",
-    "underscore": "^1.8.3"
-  }
+  "packageStatus": 200
 }

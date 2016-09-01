@@ -1,68 +1,82 @@
 {
+  "id": 37473730,
   "name": "electron-connect",
-  "version": "0.4.3",
-  "description": "Livereload tools for Electron development",
-  "main": "index.js",
-  "scripts": {
-    "test": "gulp test"
+  "fullName": "Quramy/electron-connect",
+  "owner": {
+    "login": "Quramy",
+    "id": 1262998,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1262998?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Quramy",
+    "htmlUrl": "https://github.com/Quramy",
+    "followersUrl": "https://api.github.com/users/Quramy/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Quramy/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Quramy/orgs",
+    "reposUrl": "https://api.github.com/users/Quramy/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Quramy/received_events",
+    "type": "User"
   },
-  "keywords": [
-    "electron",
-    "livereload",
-    "gulp"
-  ],
-  "homepage": "https://github.com/Quramy/electron-connect",
-  "repository": "https://github.com/Quramy/electron-connect.git",
-  "author": {
-    "name": "Quramy",
-    "email": "yosuke.kurami@gmail.com"
+  "private": false,
+  "description": "Livereload tool for Electron",
+  "fork": false,
+  "createdAt": "2015-06-15T15:28:04.000Z",
+  "updatedAt": "2016-08-08T01:40:05.000Z",
+  "pushedAt": "2016-08-13T08:14:33.000Z",
+  "homepage": "https://www.npmjs.com/package/electron-connect",
+  "size": 61,
+  "stargazersCount": 163,
+  "watchersCount": 163,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 29,
+  "openIssuesCount": 9,
+  "openIssues": 9,
+  "watchers": 163,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "license": "MIT",
-  "dependencies": {
-    "cross-spawn": "^3.0.1",
-    "lodash": "^4.11.1",
-    "tree-kill": "^1.0.0",
-    "ws": "^1.1.0"
+  "license": null,
+  "networkCount": 29,
+  "subscribersCount": 9,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-connect",
+    "version": "0.4.4",
+    "description": "Livereload tools for Electron development",
+    "main": "index.js",
+    "scripts": {
+      "test": "gulp test"
+    },
+    "keywords": [
+      "electron",
+      "livereload",
+      "gulp"
+    ],
+    "homepage": "https://github.com/Quramy/electron-connect",
+    "repository": "https://github.com/Quramy/electron-connect.git",
+    "author": {
+      "name": "Quramy",
+      "email": "yosuke.kurami@gmail.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "cross-spawn": "^4.0.0",
+      "lodash": "^4.13.1",
+      "tree-kill": "^1.1.0",
+      "ws": "^1.1.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.1",
+      "gulp": "^3.9.1",
+      "gulp-mocha": "^2.2.0",
+      "spectron": "^3.2.2"
+    }
   },
-  "devDependencies": {
-    "electron-prebuilt": "^1.0.0",
-    "gulp": "^3.9.1",
-    "gulp-mocha": "^2.2.0",
-    "spectron": "^3.0.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "Quramy/electron-connect",
-    "description": "Livereload tool for Electron",
-    "fork": false,
-    "created_at": "2015-06-15T15:28:04.000Z",
-    "updated_at": "2016-08-04T22:13:18.000Z",
-    "pushed_at": "2016-06-10T07:40:10.000Z",
-    "homepage": "https://www.npmjs.com/package/electron-connect",
-    "size": 56,
-    "stargazers_count": 162,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 29,
-    "mirror_url": null,
-    "open_issues_count": 17,
-    "default_branch": "master",
-    "subscribers_count": 9,
-    "github_id": 37473730,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 9,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T14:47:36.414Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

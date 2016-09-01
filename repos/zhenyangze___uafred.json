@@ -1,49 +1,63 @@
 {
+  "id": 59170024,
   "name": "uafred",
-  "version": "1.0.0",
-  "main": "app/main.js",
-  "author": "zhenyangze@gmail.com",
-  "scripts": {
-    "start": "electron app/main.js",
-    "package": "electron-packager ./ UAfred  --ignore=\"download\" --ignore=\"screenshot\"  --ignore=\"cache\"  --platform=linux --arch=all --icon=\"./app/uafred.png\" --out ./download --overwrite "
+  "fullName": "zhenyangze/uafred",
+  "owner": {
+    "login": "zhenyangze",
+    "id": 15710584,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/15710584?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/zhenyangze",
+    "htmlUrl": "https://github.com/zhenyangze",
+    "followersUrl": "https://api.github.com/users/zhenyangze/followers",
+    "subscriptionsUrl": "https://api.github.com/users/zhenyangze/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/zhenyangze/orgs",
+    "reposUrl": "https://api.github.com/users/zhenyangze/repos",
+    "receivedEventsUrl": "https://api.github.com/users/zhenyangze/received_events",
+    "type": "User"
   },
-  "devDependencies": {
-    "electron-packager": "^7.0.2",
-    "electron-prebuilt": "^1.1.0"
+  "private": false,
+  "description": "afred on ubuntu(use electron)",
+  "fork": false,
+  "createdAt": "2016-05-19T03:14:58.000Z",
+  "updatedAt": "2016-08-11T12:38:11.000Z",
+  "pushedAt": "2016-08-14T06:07:02.000Z",
+  "homepage": null,
+  "size": 142915,
+  "stargazersCount": 67,
+  "watchersCount": 67,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 11,
+  "openIssuesCount": 5,
+  "openIssues": 5,
+  "watchers": 67,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "_librariesioMetadata": {
-    "full_name": "zhenyangze/uafred",
-    "description": "afred on ubuntu(use electron)",
-    "fork": false,
-    "created_at": "2016-05-19T03:14:58.000Z",
-    "updated_at": "2016-08-08T15:21:52.965Z",
-    "pushed_at": "2016-07-04T10:12:00.000Z",
-    "homepage": null,
-    "size": 142915,
-    "stargazers_count": 63,
-    "language": "HTML",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 10,
-    "mirror_url": null,
-    "open_issues_count": 4,
-    "default_branch": "master",
-    "subscribers_count": 9,
-    "github_id": 59170024,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T02:35:42.986Z",
-    "rank": null
-  }
+  "license": null,
+  "networkCount": 11,
+  "subscribersCount": 9,
+  "status": 200,
+  "packageJSON": {
+    "name": "uafred",
+    "version": "1.0.0",
+    "main": "app/main.js",
+    "author": "zhenyangze@gmail.com",
+    "scripts": {
+      "start": "electron app/main.js",
+      "package": "electron-packager ./ UAfred  --ignore=\"download\" --ignore=\"screenshot\"  --ignore=\"cache\"  --platform=linux --arch=all --icon=\"./app/uafred.png\" --out ./download --overwrite "
+    },
+    "devDependencies": {
+      "electron-packager": "^7.0.2",
+      "electron-prebuilt": "^1.1.0"
+    }
+  },
+  "packageStatus": 200
 }

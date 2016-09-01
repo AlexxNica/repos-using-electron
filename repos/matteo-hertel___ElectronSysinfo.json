@@ -1,47 +1,67 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "matteo-hertel/ElectronSysinfo",
-    "description": "System info Electron App",
-    "fork": false,
-    "created_at": "2016-02-07T22:24:22.000Z",
-    "updated_at": "2016-05-28T04:49:28.812Z",
-    "pushed_at": "2016-02-17T23:08:06.000Z",
-    "homepage": null,
-    "size": 22,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 51269428,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T04:49:28.789Z",
-    "rank": null
+  "id": 51269428,
+  "name": "ElectronSysinfo",
+  "fullName": "matteo-hertel/ElectronSysinfo",
+  "owner": {
+    "login": "matteo-hertel",
+    "id": 3579758,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3579758?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/matteo-hertel",
+    "htmlUrl": "https://github.com/matteo-hertel",
+    "followersUrl": "https://api.github.com/users/matteo-hertel/followers",
+    "subscriptionsUrl": "https://api.github.com/users/matteo-hertel/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/matteo-hertel/orgs",
+    "reposUrl": "https://api.github.com/users/matteo-hertel/repos",
+    "receivedEventsUrl": "https://api.github.com/users/matteo-hertel/received_events",
+    "type": "User"
   },
-  "name": "SysInfo",
-  "version": "0.1.0",
-  "main": "main.js",
-  "dependencies": {
-    "electron-prebuilt": "^0.36.7"
+  "private": false,
+  "description": "System info Electron App",
+  "fork": false,
+  "createdAt": "2016-02-07T22:24:22.000Z",
+  "updatedAt": "2016-02-07T23:08:34.000Z",
+  "pushedAt": "2016-02-17T23:08:06.000Z",
+  "homepage": null,
+  "size": 22,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "buildWin": "electron-packager . SysInfo --platform=win32 --arch=x64",
-    "buildMac": "electron-packager . SysInfo --platform=darwin --arch=x64"
-  }
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "SysInfo",
+    "version": "0.1.0",
+    "main": "main.js",
+    "dependencies": {
+      "electron-prebuilt": "^0.36.7"
+    },
+    "scripts": {
+      "buildWin": "electron-packager . SysInfo --platform=win32 --arch=x64",
+      "buildMac": "electron-packager . SysInfo --platform=darwin --arch=x64"
+    }
+  },
+  "packageStatus": 200
 }

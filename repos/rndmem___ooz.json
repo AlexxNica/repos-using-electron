@@ -1,81 +1,101 @@
 {
+  "id": 46191756,
   "name": "ooz",
-  "version": "0.0.1",
+  "fullName": "rndmem/ooz",
+  "owner": {
+    "login": "rndmem",
+    "id": 6962979,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6962979?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/rndmem",
+    "htmlUrl": "https://github.com/rndmem",
+    "followersUrl": "https://api.github.com/users/rndmem/followers",
+    "subscriptionsUrl": "https://api.github.com/users/rndmem/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/rndmem/orgs",
+    "reposUrl": "https://api.github.com/users/rndmem/repos",
+    "receivedEventsUrl": "https://api.github.com/users/rndmem/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "A hackable music player.",
-  "keywords": [
-    "music",
-    "audio",
-    "player",
-    "mp3"
-  ],
-  "homepage": "https://github.com/rndmem/ooz",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rndmem/ooz.git"
+  "fork": false,
+  "createdAt": "2015-11-14T20:54:49.000Z",
+  "updatedAt": "2015-12-09T05:51:31.000Z",
+  "pushedAt": "2015-12-10T05:53:55.000Z",
+  "homepage": "",
+  "size": 116,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "bugs": {
-    "url": "https://github.com/rndmem/ooz/issues"
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "featured": true
   },
-  "main": "electron",
-  "scripts": {
-    "postinstall": "bower i && tsd install",
-    "update": "ncu -u && bcu -u && tsd update -so",
-    "clobber": "rimraf node_modules bower_components typings",
-    "start": "gulp"
-  },
-  "engines": {
-    "node": "5.1.0"
-  },
-  "dependencies": {
-    "minimist": "1.2.0",
-    "normalize.css": "3.0.3",
-    "page": "1.6.4"
-  },
-  "devDependencies": {
-    "bower": "1.7.0",
-    "bower-check-updates": "2.2.3-1",
-    "browser-sync": "2.10.0",
-    "electron-prebuilt": "0.35.4",
-    "eslint": "1.10.3",
-    "gulp": "3.9.0",
-    "npm-check-updates": "2.5.4",
-    "rimraf": "2.4.4",
-    "tsd": "0.6.5"
-  },
-  "license": "GPL-3.0+",
-  "_librariesioMetadata": {
-    "full_name": "rndmem/ooz",
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "ooz",
+    "version": "0.0.1",
     "description": "A hackable music player.",
-    "fork": false,
-    "created_at": "2015-11-14T20:54:49.000Z",
-    "updated_at": "2016-04-18T22:31:35.988Z",
-    "pushed_at": "2015-12-10T05:53:55.000Z",
-    "homepage": "",
-    "size": 116,
-    "stargazers_count": 2,
-    "language": "HTML",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 46191756,
-    "source_name": null,
-    "license": "GPL-3.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license.txt",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-18T22:31:35.962Z",
-    "rank": null
-  }
+    "keywords": [
+      "music",
+      "audio",
+      "player",
+      "mp3"
+    ],
+    "homepage": "https://github.com/rndmem/ooz",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/rndmem/ooz.git"
+    },
+    "bugs": {
+      "url": "https://github.com/rndmem/ooz/issues"
+    },
+    "main": "electron",
+    "scripts": {
+      "postinstall": "bower i && tsd install",
+      "update": "ncu -u && bcu -u && tsd update -so",
+      "clobber": "rimraf node_modules bower_components typings",
+      "start": "gulp"
+    },
+    "engines": {
+      "node": "5.1.0"
+    },
+    "dependencies": {
+      "minimist": "1.2.0",
+      "normalize.css": "3.0.3",
+      "page": "1.6.4"
+    },
+    "devDependencies": {
+      "bower": "1.7.0",
+      "bower-check-updates": "2.2.3-1",
+      "browser-sync": "2.10.0",
+      "electron-prebuilt": "0.35.4",
+      "eslint": "1.10.3",
+      "gulp": "3.9.0",
+      "npm-check-updates": "2.5.4",
+      "rimraf": "2.4.4",
+      "tsd": "0.6.5"
+    },
+    "license": "GPL-3.0+"
+  },
+  "packageStatus": 200
 }

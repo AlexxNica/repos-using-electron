@@ -1,81 +1,109 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "pharaoh-js/pharaoh-atom",
-    "description": "The Atom editor plugin for Pharaoh.",
-    "fork": false,
-    "created_at": "2016-01-07T18:26:40.000Z",
-    "updated_at": "2016-01-16T05:28:58.000Z",
-    "pushed_at": "2016-02-13T10:26:27.000Z",
-    "homepage": "",
-    "size": 122,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": false,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 5,
-    "github_id": 49222373,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+  "id": 49222373,
+  "name": "pharaoh-atom",
+  "fullName": "pharaoh-js/pharaoh-atom",
+  "owner": {
+    "login": "pharaoh-js",
+    "id": 16343603,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/16343603?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/pharaoh-js",
+    "htmlUrl": "https://github.com/pharaoh-js",
+    "followersUrl": "https://api.github.com/users/pharaoh-js/followers",
+    "subscriptionsUrl": "https://api.github.com/users/pharaoh-js/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/pharaoh-js/orgs",
+    "reposUrl": "https://api.github.com/users/pharaoh-js/repos",
+    "receivedEventsUrl": "https://api.github.com/users/pharaoh-js/received_events",
+    "type": "Organization"
   },
-  "name": "pharaoh",
-  "main": "./lib/pharaoh",
-  "version": "0.1.0",
-  "description": "Broacast your code, live.",
-  "activationCommands": {
-    "atom-workspace": [
-      "pharaoh:start",
-      "pharaoh:stop"
-    ]
+  "private": false,
+  "description": "The Atom editor plugin for Pharaoh.",
+  "fork": false,
+  "createdAt": "2016-01-07T18:26:40.000Z",
+  "updatedAt": "2016-01-16T05:28:58.000Z",
+  "pushedAt": "2016-04-11T20:27:17.000Z",
+  "homepage": "",
+  "size": 124,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": "https://github.com/pharaoh-js/pharaoh-atom",
-  "license": "MIT",
-  "scripts": {
-    "postinstall": "./node_modules/.bin/electron-rebuild && apm link"
+  "license": null,
+  "organization": {
+    "login": "pharaoh-js",
+    "id": 16343603,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/16343603?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/pharaoh-js",
+    "htmlUrl": "https://github.com/pharaoh-js",
+    "followersUrl": "https://api.github.com/users/pharaoh-js/followers",
+    "subscriptionsUrl": "https://api.github.com/users/pharaoh-js/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/pharaoh-js/orgs",
+    "reposUrl": "https://api.github.com/users/pharaoh-js/repos",
+    "receivedEventsUrl": "https://api.github.com/users/pharaoh-js/received_events",
+    "type": "Organization"
   },
-  "engines": {
-    "atom": "*",
-    "node": "*"
-  },
-  "dependencies": {
-    "atom-space-pen-views": "^2.1.0",
-    "event-kit": "^1.1.0",
-    "firebase": "~1.0.5",
-    "space-pen": "^5.1.1"
-  },
-  "consumedServices": {
-    "status-bar": {
-      "versions": {
-        "^1.0.0": "consumeStatusBar"
+  "networkCount": 0,
+  "subscribersCount": 5,
+  "status": 200,
+  "packageJSON": {
+    "name": "pharaoh",
+    "main": "./lib/pharaoh",
+    "version": "0.1.0",
+    "description": "Broacast your code, live.",
+    "activationCommands": {
+      "atom-workspace": [
+        "pharaoh:start",
+        "pharaoh:stop"
+      ]
+    },
+    "repository": "https://github.com/pharaoh-js/pharaoh-atom",
+    "license": "MIT",
+    "scripts": {
+      "postinstall": "./node_modules/.bin/electron-rebuild && apm link"
+    },
+    "engines": {
+      "atom": "*",
+      "node": "*"
+    },
+    "dependencies": {
+      "atom-space-pen-views": "^2.1.0",
+      "event-kit": "^1.1.0",
+      "firebase": "~1.0.5",
+      "space-pen": "^5.1.1"
+    },
+    "consumedServices": {
+      "status-bar": {
+        "versions": {
+          "^1.0.0": "consumeStatusBar"
+        }
       }
+    },
+    "keywords": [
+      "firepad",
+      "collaboration",
+      "share",
+      "stream",
+      "live",
+      "pair"
+    ],
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.3",
+      "electron-rebuild": "^1.1.1"
     }
   },
-  "keywords": [
-    "firepad",
-    "collaboration",
-    "share",
-    "stream",
-    "live",
-    "pair"
-  ],
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.3",
-    "electron-rebuild": "^1.1.1"
-  }
+  "packageStatus": 200
 }

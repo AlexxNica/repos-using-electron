@@ -1,68 +1,88 @@
 {
+  "id": 52022760,
   "name": "tokiota-workshop-react",
-  "version": "1.0.0",
+  "fullName": "mfmontenegro/tokiota-workshop-react",
+  "owner": {
+    "login": "mfmontenegro",
+    "id": 8834152,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8834152?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mfmontenegro",
+    "htmlUrl": "https://github.com/mfmontenegro",
+    "followersUrl": "https://api.github.com/users/mfmontenegro/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mfmontenegro/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mfmontenegro/orgs",
+    "reposUrl": "https://api.github.com/users/mfmontenegro/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mfmontenegro/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "React Workshop for Tokiota",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mfmontenegro/tokiota-workshop-react.git"
+  "fork": false,
+  "createdAt": "2016-02-18T16:49:05.000Z",
+  "updatedAt": "2016-06-29T08:04:16.000Z",
+  "pushedAt": "2016-06-27T20:12:26.000Z",
+  "homepage": null,
+  "size": 830,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 3,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "",
-  "license": "ISC",
-  "homepage": "https://github.com/mfmontenegro/tokiota-workshop-react#readme",
-  "endPoints": {
-    "js_dest": "./app/bundle.js",
-    "js_entry_point": "./src/js/app.js",
-    "js_files": "./src/js/**/*.js",
-    "css_dest": "./app/",
-    "css_files": "./src/stylesheets/**/*.css"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "devDependencies": {
-    "babel-preset-react": "^6.11.0",
-    "babelify": "^7.3.0",
-    "browserify": "^13.0.1",
-    "gulp": "^3.9.1",
-    "gulp-concat-css": "^2.3.0"
-  },
-  "dependencies": {
-    "jquery": "^3.0.0",
-    "react": "^15.1.0",
-    "react-dom": "^15.1.0",
-    "socket.io-client": "^1.4.8"
-  },
-  "_librariesioMetadata": {
-    "full_name": "mfmontenegro/tokiota-workshop-react",
+  "networkCount": 3,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "tokiota-workshop-react",
+    "version": "1.0.0",
     "description": "React Workshop for Tokiota",
-    "fork": false,
-    "created_at": "2016-02-18T16:49:05.000Z",
-    "updated_at": "2016-06-28T15:11:09.908Z",
-    "pushed_at": "2016-03-07T18:24:19.000Z",
-    "homepage": null,
-    "size": 693,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 2,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 52022760,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mfmontenegro/tokiota-workshop-react.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://github.com/mfmontenegro/tokiota-workshop-react#readme",
+    "endPoints": {
+      "js_dest": "./app/bundle.js",
+      "js_entry_point": "./src/js/app.js",
+      "js_files": "./src/js/**/*.js",
+      "css_dest": "./app/",
+      "css_files": "./src/stylesheets/**/*.css"
+    },
+    "devDependencies": {
+      "babel-preset-react": "^6.11.0",
+      "babelify": "^7.3.0",
+      "browserify": "^13.0.1",
+      "gulp": "^3.9.1",
+      "gulp-concat-css": "^2.3.0"
+    },
+    "dependencies": {
+      "jquery": "^3.0.0",
+      "react": "^15.1.0",
+      "react-dom": "^15.1.0",
+      "socket.io-client": "^1.4.8"
+    }
+  },
+  "packageStatus": 200
 }

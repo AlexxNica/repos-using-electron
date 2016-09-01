@@ -1,66 +1,100 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "EduMake/logicexplorer",
-    "description": "Explore boolean logic and gates using Pimoroni Explorer Hat and boolean logic expressions input (Level 2 and 3)",
-    "fork": false,
-    "created_at": "2016-06-17T08:32:52.000Z",
-    "updated_at": "2016-06-18T10:59:44.000Z",
-    "pushed_at": "2016-06-19T15:09:10.000Z",
-    "homepage": "",
-    "size": 23,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 9,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 61358567,
-    "source_name": null,
-    "license": "GPL-2.0",
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-18T10:47:05.867Z",
-    "rank": null
-  },
+  "id": 61358567,
   "name": "logicexplorer",
-  "version": "0.0.0",
-  "description": "Program allowing use to explore boolean logic and gates using physical input (Level 2 and 3)",
-  "main": "index.html",
-  "window": {},
-  "scripts": {
-    "start": "node_modules/.bin/electron main.js",
-    "test": "jasmine-node specs/"
+  "fullName": "EduMake/logicexplorer",
+  "owner": {
+    "login": "EduMake",
+    "id": 3767896,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3767896?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/EduMake",
+    "htmlUrl": "https://github.com/EduMake",
+    "followersUrl": "https://api.github.com/users/EduMake/followers",
+    "subscriptionsUrl": "https://api.github.com/users/EduMake/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/EduMake/orgs",
+    "reposUrl": "https://api.github.com/users/EduMake/repos",
+    "receivedEventsUrl": "https://api.github.com/users/EduMake/received_events",
+    "type": "Organization"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/EduMake/logicexplorer.git"
+  "private": false,
+  "description": "Explore boolean logic and gates using Pimoroni Explorer Hat and boolean logic expressions input (Level 2 and 3)",
+  "fork": false,
+  "createdAt": "2016-06-17T08:32:52.000Z",
+  "updatedAt": "2016-06-18T10:59:44.000Z",
+  "pushedAt": "2016-07-18T08:49:28.000Z",
+  "homepage": "",
+  "size": 21,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 9,
+  "openIssues": 9,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "Martyn Eggleton <martyn@edumake.org>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/EduMake/logicexplorer/issues"
+  "license": {
+    "key": "gpl-2.0",
+    "name": "GNU General Public License v2.0",
+    "spdxId": "GPL-2.0",
+    "url": "https://api.github.com/licenses/gpl-2.0",
+    "featured": false
   },
-  "dependencies": {
-    "electron-prebuilt": "^1.2.3",
-    "i2c-bus": "^1.1.0",
-    "knockout": "^3.4.0",
-    "knockout-mapping": "^2.6.0",
-    "rpio": "^0.9.11",
-    "truthmachine": "^1.0.2"
+  "organization": {
+    "login": "EduMake",
+    "id": 3767896,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3767896?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/EduMake",
+    "htmlUrl": "https://github.com/EduMake",
+    "followersUrl": "https://api.github.com/users/EduMake/followers",
+    "subscriptionsUrl": "https://api.github.com/users/EduMake/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/EduMake/orgs",
+    "reposUrl": "https://api.github.com/users/EduMake/repos",
+    "receivedEventsUrl": "https://api.github.com/users/EduMake/received_events",
+    "type": "Organization"
   },
-  "devDependencies": {
-    "electron-rebuild": "^1.1.5"
-  }
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "logicexplorer",
+    "version": "0.0.0",
+    "description": "Program allowing use to explore boolean logic and gates using physical input (Level 2 and 3)",
+    "main": "index.html",
+    "window": {},
+    "scripts": {
+      "start": "node_modules/.bin/electron main.js",
+      "test": "jasmine-node specs/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/EduMake/logicexplorer.git"
+    },
+    "author": "Martyn Eggleton <martyn@edumake.org>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/EduMake/logicexplorer/issues"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^1.2.3",
+      "i2c-bus": "^1.1.0",
+      "knockout": "^3.4.0",
+      "knockout-mapping": "^2.6.0",
+      "rpio": "^0.9.11",
+      "truthmachine": "^1.0.2"
+    },
+    "devDependencies": {
+      "electron-rebuild": "^1.1.5"
+    }
+  },
+  "packageStatus": 200
 }

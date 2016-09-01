@@ -1,71 +1,91 @@
 {
-  "description": "A minimal Electron application",
-  "scripts": {
-    "start": "electron ./app/main.js",
-    "build-all": "electron-packager ./app --all --out dist/",
-    "linux-installer": "electron-installer-debian --src dist/learn-electron-linux-x64/ --dest dist/installers/ --arch amd64",
-    "postinstall": "install-app-deps"
+  "id": 56232461,
+  "name": "learn-electron",
+  "fullName": "Thebigbignooby/learn-electron",
+  "owner": {
+    "login": "Thebigbignooby",
+    "id": 4172090,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4172090?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Thebigbignooby",
+    "htmlUrl": "https://github.com/Thebigbignooby",
+    "followersUrl": "https://api.github.com/users/Thebigbignooby/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Thebigbignooby/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Thebigbignooby/orgs",
+    "reposUrl": "https://api.github.com/users/Thebigbignooby/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Thebigbignooby/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+  "private": false,
+  "description": "Learning electron basics on a hello world app",
+  "fork": false,
+  "createdAt": "2016-04-14T11:38:06.000Z",
+  "updatedAt": "2016-04-14T15:44:10.000Z",
+  "pushedAt": "2016-04-18T18:51:09.000Z",
+  "homepage": null,
+  "size": 11,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
-  "build": {
-    "app-bundle-id": "learn.electron",
-    "app-category-type": "your.app.category.type",
-    "iconUrl": "(windows only)"
+  "license": {
+    "key": "cc0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "spdxId": "CC0-1.0",
+    "url": "https://api.github.com/licenses/cc0-1.0",
+    "featured": false
   },
-  "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
-  },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
-  "devDependencies": {
-    "electron-builder": "^3.5.1",
-    "electron-installer-debian": "^0.2.0",
-    "electron-packager": "^6.0.2",
-    "electron-prebuilt": "^0.37.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "Thebigbignooby/learn-electron",
-    "description": "Learning electron basics on a hello world app",
-    "fork": false,
-    "created_at": "2016-04-14T11:38:06.000Z",
-    "updated_at": "2016-05-28T02:02:15.914Z",
-    "pushed_at": "2016-04-18T18:51:09.000Z",
-    "homepage": null,
-    "size": 11,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 56232461,
-    "source_name": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "description": "A minimal Electron application",
+    "scripts": {
+      "start": "electron ./app/main.js",
+      "build-all": "electron-packager ./app --all --out dist/",
+      "linux-installer": "electron-installer-debian --src dist/learn-electron-linux-x64/ --dest dist/installers/ --arch amd64",
+      "postinstall": "install-app-deps"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
     "license": "CC0-1.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T02:02:15.893Z",
-    "rank": null
-  }
+    "build": {
+      "app-bundle-id": "learn.electron",
+      "app-category-type": "your.app.category.type",
+      "iconUrl": "(windows only)"
+    },
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/electron/electron-quick-start#readme",
+    "devDependencies": {
+      "electron-builder": "^3.5.1",
+      "electron-installer-debian": "^0.2.0",
+      "electron-packager": "^6.0.2",
+      "electron-prebuilt": "^0.37.0"
+    }
+  },
+  "packageStatus": 200
 }

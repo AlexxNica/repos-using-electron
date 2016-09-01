@@ -1,81 +1,115 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "newslynx/newslynx-electron",
-    "description": "A desktop version of newsLynx-app running on Electron.",
-    "fork": false,
-    "created_at": "2015-07-03T05:50:22.000Z",
-    "updated_at": "2015-11-06T10:48:06.000Z",
-    "pushed_at": "2015-09-16T02:14:47.000Z",
-    "homepage": null,
-    "size": 888,
-    "stargazers_count": 3,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 5,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 38474629,
-    "source_name": null,
-    "license": "Other",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T19:50:46.721Z",
-    "rank": null
-  },
+  "id": 38474629,
   "name": "newslynx-electron",
-  "productName": "Newslynx",
-  "version": "0.2.0",
-  "description": "A desktop version of the NewsLynx web app.",
-  "main": "index.js",
-  "repository": "newslynx/newslynx-electron",
-  "author": {
-    "name": "mhkeller",
-    "email": "michael.keller@gmail.com",
-    "url": "newslynx.org"
+  "fullName": "newslynx/newslynx-electron",
+  "owner": {
+    "login": "newslynx",
+    "id": 7109969,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7109969?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/newslynx",
+    "htmlUrl": "https://github.com/newslynx",
+    "followersUrl": "https://api.github.com/users/newslynx/followers",
+    "subscriptionsUrl": "https://api.github.com/users/newslynx/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/newslynx/orgs",
+    "reposUrl": "https://api.github.com/users/newslynx/repos",
+    "receivedEventsUrl": "https://api.github.com/users/newslynx/received_events",
+    "type": "Organization"
   },
-  "engines": {
-    "node": ">=0.10.0"
+  "private": false,
+  "description": "A desktop version of newsLynx-app running on Electron.",
+  "fork": false,
+  "createdAt": "2015-07-03T05:50:22.000Z",
+  "updatedAt": "2015-11-06T10:48:06.000Z",
+  "pushedAt": "2015-09-16T02:14:47.000Z",
+  "homepage": null,
+  "size": 888,
+  "stargazersCount": 3,
+  "watchersCount": 3,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 5,
+  "openIssues": 5,
+  "watchers": 3,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "start": "electron .",
-    "start-https": "NEWSLYNX_ENV=electron-https electron .",
-    "build": "electron-packager . NewsLynx --overwrite --out=newslynx-dist --all --version=0.29.2 --icon='assets/merlynne-ears.icns' --ignore=newslynx-dist --sign='Michael Keller (newslynx.org)'"
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spdxId": null,
+    "url": null,
+    "featured": false
   },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
-  "keywords": [
-    "newslynx",
-    "journalism",
-    "impact",
-    "quantitative",
-    "qualitative",
-    "electron-app"
-  ],
-  "dependencies": {
-    "electron-gh-releases": "^1.0.1",
-    "js-yaml": "^3.3.1",
-    "newslynx": "^1.0.4",
-    "newslynx-app-config": "0.0.1",
-    "underscore": "^1.8.3"
+  "organization": {
+    "login": "newslynx",
+    "id": 7109969,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7109969?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/newslynx",
+    "htmlUrl": "https://github.com/newslynx",
+    "followersUrl": "https://api.github.com/users/newslynx/followers",
+    "subscriptionsUrl": "https://api.github.com/users/newslynx/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/newslynx/orgs",
+    "reposUrl": "https://api.github.com/users/newslynx/repos",
+    "receivedEventsUrl": "https://api.github.com/users/newslynx/received_events",
+    "type": "Organization"
   },
-  "license": "CC-BY-SA-4.0",
-  "devDependencies": {
-    "electron-packager": "5.0.1",
-    "electron-prebuilt": "^0.30.0"
-  }
+  "networkCount": 1,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "newslynx-electron",
+    "productName": "Newslynx",
+    "version": "0.2.0",
+    "description": "A desktop version of the NewsLynx web app.",
+    "main": "index.js",
+    "repository": "newslynx/newslynx-electron",
+    "author": {
+      "name": "mhkeller",
+      "email": "michael.keller@gmail.com",
+      "url": "newslynx.org"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "start-https": "NEWSLYNX_ENV=electron-https electron .",
+      "build": "electron-packager . NewsLynx --overwrite --out=newslynx-dist --all --version=0.29.2 --icon='assets/merlynne-ears.icns' --ignore=newslynx-dist --sign='Michael Keller (newslynx.org)'"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "newslynx",
+      "journalism",
+      "impact",
+      "quantitative",
+      "qualitative",
+      "electron-app"
+    ],
+    "dependencies": {
+      "electron-gh-releases": "^1.0.1",
+      "js-yaml": "^3.3.1",
+      "newslynx": "^1.0.4",
+      "newslynx-app-config": "0.0.1",
+      "underscore": "^1.8.3"
+    },
+    "license": "CC-BY-SA-4.0",
+    "devDependencies": {
+      "electron-packager": "5.0.1",
+      "electron-prebuilt": "^0.30.0"
+    }
+  },
+  "packageStatus": 200
 }

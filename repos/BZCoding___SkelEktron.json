@@ -1,144 +1,178 @@
 {
+  "id": 60834693,
   "name": "SkelEktron",
-  "description": "Unofficial Electron Template Application",
-  "version": "0.0.2",
-  "author": {
-    "name": "Vito Tardia / BZ Coding",
-    "email": "vito@bzcoding.com",
-    "url": "https://bzcoding.com/"
+  "fullName": "BZCoding/SkelEktron",
+  "owner": {
+    "login": "BZCoding",
+    "id": 12712229,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/12712229?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/BZCoding",
+    "htmlUrl": "https://github.com/BZCoding",
+    "followersUrl": "https://api.github.com/users/BZCoding/followers",
+    "subscriptionsUrl": "https://api.github.com/users/BZCoding/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/BZCoding/orgs",
+    "reposUrl": "https://api.github.com/users/BZCoding/repos",
+    "receivedEventsUrl": "https://api.github.com/users/BZCoding/received_events",
+    "type": "Organization"
   },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BZCoding/SkelEktron.git"
+  "private": false,
+  "description": "An unofficial Electron template application",
+  "fork": false,
+  "createdAt": "2016-06-10T08:42:42.000Z",
+  "updatedAt": "2016-08-12T05:08:19.000Z",
+  "pushedAt": "2016-06-29T10:24:17.000Z",
+  "homepage": null,
+  "size": 1548,
+  "stargazersCount": 30,
+  "watchersCount": 30,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 7,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 30,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "main": "main.js",
-  "scripts": {
-    "test": "standard && mocha --recursive",
-    "unit": "standard && mocha test/unit --recursive",
-    "integration": "standard && mocha test/integration --recursive",
-    "coverage": "istanbul cover node_modules/.bin/_mocha -- --recursive",
-    "depcheck": "dependency-check app --entry main.js --unused --no-dev",
-    "lint": "standard",
-    "start": "electron ./app/main",
-    "clean:linux": "rimraf dist/linux",
-    "clean:osx": "rimraf dist/darwin-x64",
-    "clean:win": "rimraf dist/win",
-    "clean": "npm run clean:linux && npm run clean:win && npm run clean:osx",
-    "pack:osx": "build --platform=darwin",
-    "pack:win": "npm run pack:win64 && npm run pack:win32",
-    "pack:win32": "build --platform=win32 --arch=ia32",
-    "pack:win64": "build --platform=win32 --arch=x64",
-    "pack:linux": "npm run pack:lin64 && npm run pack:lin32",
-    "pack:lin32": "build --platform=linux --arch=ia32",
-    "pack:lin64": "build --platform=linux --arch=x64",
-    "pack": "build --platform=all --arch=x64,ia32",
-    "prebuild": "node build/target.js",
-    "postbuild": "node build/target.js --clean",
-    "prebuild:osx": "npm run prebuild",
-    "postbuild:osx": "npm run postbuild",
-    "build:osx": "build --platform=darwin -d",
-    "build:win": "npm run build:win64 && npm run build:win32",
-    "build:win32": "build --platform=win32 --arch=ia32 -d",
-    "build:win64": "build --platform=win32 --arch=x64 -d",
-    "build:linux": "npm run build:lin64 && npm run build:lin32 -d",
-    "build:lin32": "build --platform=linux --arch=ia32 -d",
-    "build:lin64": "build --platform=linux --arch=x64 -d",
-    "build": "build --platform=all --arch=x64,ia32 -d",
-    "postinstall": "install-app-deps"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "standard": {
-    "globals": [
-      "describe",
-      "after",
-      "it",
-      "before",
-      "beforeEach",
-      "afterEach",
-      "rm",
-      "cp"
-    ]
+  "organization": {
+    "login": "BZCoding",
+    "id": 12712229,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/12712229?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/BZCoding",
+    "htmlUrl": "https://github.com/BZCoding",
+    "followersUrl": "https://api.github.com/users/BZCoding/followers",
+    "subscriptionsUrl": "https://api.github.com/users/BZCoding/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/BZCoding/orgs",
+    "reposUrl": "https://api.github.com/users/BZCoding/repos",
+    "receivedEventsUrl": "https://api.github.com/users/BZCoding/received_events",
+    "type": "Organization"
   },
-  "pre-commit": [
-    "lint",
-    "unit"
-  ],
-  "keywords": [
-    "electron-app",
-    "electron"
-  ],
-  "build": {
-    "app-bundle-id": "skelektron",
-    "app-category-type": "public.app-category.business",
-    "osx": {
-      "title": "SkelEktron",
-      "icon-size": 120,
-      "contents": [
-        {
-          "x": 478,
-          "y": 170,
-          "type": "link",
-          "path": "/Applications"
-        },
-        {
-          "x": 130,
-          "y": 170,
-          "type": "file"
-        }
+  "networkCount": 7,
+  "subscribersCount": 4,
+  "status": 200,
+  "packageJSON": {
+    "name": "SkelEktron",
+    "description": "Unofficial Electron Template Application",
+    "version": "0.0.2",
+    "author": {
+      "name": "Vito Tardia / BZ Coding",
+      "email": "vito@bzcoding.com",
+      "url": "https://bzcoding.com/"
+    },
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/BZCoding/SkelEktron.git"
+    },
+    "main": "main.js",
+    "scripts": {
+      "test": "standard && mocha --recursive",
+      "unit": "standard && mocha test/unit --recursive",
+      "integration": "standard && mocha test/integration --recursive",
+      "coverage": "istanbul cover node_modules/.bin/_mocha -- --recursive",
+      "depcheck": "dependency-check app --entry main.js --unused --no-dev",
+      "lint": "standard",
+      "start": "electron ./app/main",
+      "clean:linux": "rimraf dist/linux",
+      "clean:osx": "rimraf dist/darwin-x64",
+      "clean:win": "rimraf dist/win",
+      "clean": "npm run clean:linux && npm run clean:win && npm run clean:osx",
+      "pack:osx": "build --platform=darwin",
+      "pack:win": "npm run pack:win64 && npm run pack:win32",
+      "pack:win32": "build --platform=win32 --arch=ia32",
+      "pack:win64": "build --platform=win32 --arch=x64",
+      "pack:linux": "npm run pack:lin64 && npm run pack:lin32",
+      "pack:lin32": "build --platform=linux --arch=ia32",
+      "pack:lin64": "build --platform=linux --arch=x64",
+      "pack": "build --platform=all --arch=x64,ia32",
+      "prebuild": "node build/target.js",
+      "postbuild": "node build/target.js --clean",
+      "prebuild:osx": "npm run prebuild",
+      "postbuild:osx": "npm run postbuild",
+      "build:osx": "build --platform=darwin -d",
+      "build:win": "npm run build:win64 && npm run build:win32",
+      "build:win32": "build --platform=win32 --arch=ia32 -d",
+      "build:win64": "build --platform=win32 --arch=x64 -d",
+      "build:linux": "npm run build:lin64 && npm run build:lin32 -d",
+      "build:lin32": "build --platform=linux --arch=ia32 -d",
+      "build:lin64": "build --platform=linux --arch=x64 -d",
+      "build": "build --platform=all --arch=x64,ia32 -d",
+      "postinstall": "install-app-deps"
+    },
+    "standard": {
+      "globals": [
+        "describe",
+        "after",
+        "it",
+        "before",
+        "beforeEach",
+        "afterEach",
+        "rm",
+        "cp"
       ]
     },
-    "win": {
-      "msi": false
+    "pre-commit": [
+      "lint",
+      "unit"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "build": {
+      "app-bundle-id": "skelektron",
+      "app-category-type": "public.app-category.business",
+      "osx": {
+        "title": "SkelEktron",
+        "icon-size": 120,
+        "contents": [
+          {
+            "x": 478,
+            "y": 170,
+            "type": "link",
+            "path": "/Applications"
+          },
+          {
+            "x": 130,
+            "y": 170,
+            "type": "file"
+          }
+        ]
+      },
+      "win": {
+        "msi": false
+      }
+    },
+    "devDependencies": {
+      "async": "^1.5",
+      "chai": "^3.5",
+      "chai-as-promised": "5.3.0",
+      "dependency-check": "^2.5",
+      "electron-builder": "^3",
+      "electron-prebuilt": "^1",
+      "istanbul": "^0.4",
+      "mocha": "^2.4",
+      "pre-commit": "^1.1",
+      "rimraf": "^2.5",
+      "shelljs": "^0.7",
+      "spectron": "~3.0.0",
+      "standard": "^7"
     }
   },
-  "devDependencies": {
-    "async": "^1.5",
-    "chai": "^3.5",
-    "chai-as-promised": "5.3.0",
-    "dependency-check": "^2.5",
-    "electron-builder": "^3",
-    "electron-prebuilt": "^1",
-    "istanbul": "^0.4",
-    "mocha": "^2.4",
-    "pre-commit": "^1.1",
-    "rimraf": "^2.5",
-    "shelljs": "^0.7",
-    "spectron": "~3.0.0",
-    "standard": "^7"
-  },
-  "_librariesioMetadata": {
-    "full_name": "BZCoding/SkelEktron",
-    "description": "An unofficial Electron template application",
-    "fork": false,
-    "created_at": "2016-06-10T08:42:42.000Z",
-    "updated_at": "2016-08-02T14:32:47.000Z",
-    "pushed_at": "2016-06-29T10:24:17.000Z",
-    "homepage": null,
-    "size": 1548,
-    "stargazers_count": 27,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 6,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 4,
-    "github_id": 60834693,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": "CONTRIBUTING.md",
-    "has_license": "LICENSE",
-    "has_coc": "CODE_OF_CONDUCT.md",
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-10T13:02:03.876Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

@@ -1,75 +1,95 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "schiz0id/email-hacking-tool",
-    "description": "An elite hacking tool to crack into the email accounts of your victims",
-    "fork": false,
-    "created_at": "2016-06-11T12:29:25.000Z",
-    "updated_at": "2016-06-17T14:33:17.711Z",
-    "pushed_at": "2016-06-11T15:02:28.000Z",
-    "homepage": null,
-    "size": 106,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 60906122,
-    "source_name": null,
-    "license": "GPL-3.0",
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-17T14:33:17.690Z",
-    "rank": null
-  },
+  "id": 60906122,
   "name": "email-hacking-tool",
-  "version": "1.0.0",
+  "fullName": "schiz0id/email-hacking-tool",
+  "owner": {
+    "login": "schiz0id",
+    "id": 19544652,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/19544652?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/schiz0id",
+    "htmlUrl": "https://github.com/schiz0id",
+    "followersUrl": "https://api.github.com/users/schiz0id/followers",
+    "subscriptionsUrl": "https://api.github.com/users/schiz0id/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/schiz0id/orgs",
+    "reposUrl": "https://api.github.com/users/schiz0id/repos",
+    "receivedEventsUrl": "https://api.github.com/users/schiz0id/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "An elite hacking tool to crack into the email accounts of your victims",
-  "main": "main.js",
-  "scripts": {
-    "start": "node_modules/.bin/electron .",
-    "test": "mocha"
+  "fork": false,
+  "createdAt": "2016-06-11T12:29:25.000Z",
+  "updatedAt": "2016-06-11T12:29:42.000Z",
+  "pushedAt": "2016-06-11T15:02:28.000Z",
+  "homepage": null,
+  "size": 106,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/schiz0id/email-hacking-tool.git"
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "featured": true
   },
-  "keywords": [
-    "elite",
-    "hacking",
-    "hacker",
-    "hack",
-    "cracking",
-    "cracker",
-    "crack",
-    "email",
-    "e-mail",
-    "tool"
-  ],
-  "author": "schiz0id",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/schiz0id/email-hacking-tool/issues"
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "email-hacking-tool",
+    "version": "1.0.0",
+    "description": "An elite hacking tool to crack into the email accounts of your victims",
+    "main": "main.js",
+    "scripts": {
+      "start": "node_modules/.bin/electron .",
+      "test": "mocha"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/schiz0id/email-hacking-tool.git"
+    },
+    "keywords": [
+      "elite",
+      "hacking",
+      "hacker",
+      "hack",
+      "cracking",
+      "cracker",
+      "crack",
+      "email",
+      "e-mail",
+      "tool"
+    ],
+    "author": "schiz0id",
+    "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/schiz0id/email-hacking-tool/issues"
+    },
+    "homepage": "https://github.com/schiz0id/email-hacking-tool#readme",
+    "dependencies": {
+      "electron-prebuilt": "^1.2.2"
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "electron-reload": "^1.0.0",
+      "mocha": "^2.5.3"
+    }
   },
-  "homepage": "https://github.com/schiz0id/email-hacking-tool#readme",
-  "dependencies": {
-    "electron-prebuilt": "^1.2.2"
-  },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "electron-reload": "^1.0.0",
-    "mocha": "^2.5.3"
-  }
+  "packageStatus": 200
 }

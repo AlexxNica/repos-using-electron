@@ -1,77 +1,97 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
-  "scripts": {
-    "tsc:w": "tsc -w",
-    "start": "concurrent \"npm run tsc:w\" \"electron main.js\" "
+  "id": 55597848,
+  "name": "electron-angular2-seed",
+  "fullName": "rmchndrng/electron-angular2-seed",
+  "owner": {
+    "login": "rmchndrng",
+    "id": 8801665,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8801665?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/rmchndrng",
+    "htmlUrl": "https://github.com/rmchndrng",
+    "followersUrl": "https://api.github.com/users/rmchndrng/followers",
+    "subscriptionsUrl": "https://api.github.com/users/rmchndrng/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/rmchndrng/orgs",
+    "reposUrl": "https://api.github.com/users/rmchndrng/repos",
+    "receivedEventsUrl": "https://api.github.com/users/rmchndrng/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+  "private": false,
+  "description": "Seed project for Electron using Angular2 and typescript",
+  "fork": false,
+  "createdAt": "2016-04-06T10:44:51.000Z",
+  "updatedAt": "2016-04-06T10:49:22.000Z",
+  "pushedAt": "2016-04-06T11:09:21.000Z",
+  "homepage": null,
+  "size": 65,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "angular2"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
+  "license": {
+    "key": "cc0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "spdxId": "CC0-1.0",
+    "url": "https://api.github.com/licenses/cc0-1.0",
+    "featured": false
   },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
-  "dependencies": {
-    "angular2": "2.0.0-beta.0",
-    "bootstrap": "^3.3.6",
-    "es6-promise": "^3.0.2",
-    "es6-shim": "^0.33.3",
-    "reflect-metadata": "0.1.2",
-    "rxjs": "5.0.0-beta.0",
-    "systemjs": "0.19.6",
-    "zone.js": "0.5.10"
-  },
-  "devDependencies": {
-    "concurrently": "^1.0.0",
-    "electron-prebuilt": "^0.36.0",
-    "typescript": "^1.7.3"
-  },
-  "_librariesioMetadata": {
-    "full_name": "rmchndrng/electron-angular2-seed",
-    "description": "Seed project for Electron using Angular2 and typescript",
-    "fork": false,
-    "created_at": "2016-04-06T10:44:51.000Z",
-    "updated_at": "2016-05-28T00:14:57.355Z",
-    "pushed_at": "2016-04-06T11:09:21.000Z",
-    "homepage": null,
-    "size": 65,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 55597848,
-    "source_name": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "tsc:w": "tsc -w",
+      "start": "concurrent \"npm run tsc:w\" \"electron main.js\" "
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "angular2"
+    ],
+    "author": "GitHub",
     "license": "CC0-1.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T00:14:57.332Z",
-    "rank": null
-  }
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/electron/electron-quick-start#readme",
+    "dependencies": {
+      "angular2": "2.0.0-beta.0",
+      "bootstrap": "^3.3.6",
+      "es6-promise": "^3.0.2",
+      "es6-shim": "^0.33.3",
+      "reflect-metadata": "0.1.2",
+      "rxjs": "5.0.0-beta.0",
+      "systemjs": "0.19.6",
+      "zone.js": "0.5.10"
+    },
+    "devDependencies": {
+      "concurrently": "^1.0.0",
+      "electron-prebuilt": "^0.36.0",
+      "typescript": "^1.7.3"
+    }
+  },
+  "packageStatus": 200
 }

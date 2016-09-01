@@ -1,56 +1,70 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "janne/newsroom-app",
-    "description": "Mynewsdesk Newsroom as a Mac App (because I can), Elm + Electron",
-    "fork": false,
-    "created_at": "2016-05-16T08:57:31.000Z",
-    "updated_at": "2016-05-17T20:37:57.373Z",
-    "pushed_at": "2016-05-17T09:40:23.000Z",
-    "homepage": null,
-    "size": 154,
-    "stargazers_count": 1,
-    "language": "Elm",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 58918104,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-17T20:37:57.352Z",
-    "rank": null
-  },
+  "id": 58918104,
   "name": "newsroom-app",
-  "productName": "Newsroom",
-  "version": "1.0.0",
-  "description": "Mynewsdesk Newsroom for Mac",
-  "main": "main.js",
-  "scripts": {
-    "start": "elm-make src/Main.elm --output elm.js && electron main.js",
-    "packager": "electron-packager . --platform=darwin --arch=x64 --overwrite"
+  "fullName": "janne/newsroom-app",
+  "owner": {
+    "login": "janne",
+    "id": 2682,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2682?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/janne",
+    "htmlUrl": "https://github.com/janne",
+    "followersUrl": "https://api.github.com/users/janne/followers",
+    "subscriptionsUrl": "https://api.github.com/users/janne/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/janne/orgs",
+    "reposUrl": "https://api.github.com/users/janne/repos",
+    "receivedEventsUrl": "https://api.github.com/users/janne/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/janne/newsroom-app.git"
+  "private": false,
+  "description": "Mynewsdesk Newsroom as a Mac App (because I can), Elm + Electron",
+  "fork": false,
+  "createdAt": "2016-05-16T08:57:31.000Z",
+  "updatedAt": "2016-05-17T20:37:51.000Z",
+  "pushedAt": "2016-05-17T09:40:23.000Z",
+  "homepage": null,
+  "size": 154,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "Elm",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "Jan Andersson <jan.andersson@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "electron-packager": "^7.0.1",
-    "electron-prebuilt": "^0.37.8"
-  }
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "newsroom-app",
+    "productName": "Newsroom",
+    "version": "1.0.0",
+    "description": "Mynewsdesk Newsroom for Mac",
+    "main": "main.js",
+    "scripts": {
+      "start": "elm-make src/Main.elm --output elm.js && electron main.js",
+      "packager": "electron-packager . --platform=darwin --arch=x64 --overwrite"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/janne/newsroom-app.git"
+    },
+    "author": "Jan Andersson <jan.andersson@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-packager": "^7.0.1",
+      "electron-prebuilt": "^0.37.8"
+    }
+  },
+  "packageStatus": 200
 }

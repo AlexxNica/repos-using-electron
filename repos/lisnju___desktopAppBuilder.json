@@ -1,60 +1,74 @@
 {
-  "build": {
-    "appId": "vsm-singapore",
-    "app-category-type": "public.app-category.graphics-design",
-    "productName": "VSM",
-    "win": {
-      "iconUrl": "http://vsm.sg.demo.ihealthlabs.com/img/ihealth-256.ico",
-      "loadingGif": "./build/ihealth-256.gif",
-      "remoteReleases": "http://vsm.sg.demo.ihealthlabs.com/app/latest"
+  "id": 63010964,
+  "name": "desktopAppBuilder",
+  "fullName": "lisnju/desktopAppBuilder",
+  "owner": {
+    "login": "lisnju",
+    "id": 3343732,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3343732?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/lisnju",
+    "htmlUrl": "https://github.com/lisnju",
+    "followersUrl": "https://api.github.com/users/lisnju/followers",
+    "subscriptionsUrl": "https://api.github.com/users/lisnju/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/lisnju/orgs",
+    "reposUrl": "https://api.github.com/users/lisnju/repos",
+    "receivedEventsUrl": "https://api.github.com/users/lisnju/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": null,
+  "fork": false,
+  "createdAt": "2016-07-10T17:41:30.000Z",
+  "updatedAt": "2016-07-10T18:50:41.000Z",
+  "pushedAt": "2016-07-11T07:11:01.000Z",
+  "homepage": null,
+  "size": 32,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "build": {
+      "appId": "vsm-singapore",
+      "app-category-type": "public.app-category.graphics-design",
+      "productName": "VSM",
+      "win": {
+        "iconUrl": "http://vsm.sg.demo.ihealthlabs.com/img/ihealth-256.ico",
+        "loadingGif": "./build/ihealth-256.gif",
+        "remoteReleases": "http://vsm.sg.demo.ihealthlabs.com/app/latest"
+      }
+    },
+    "scripts": {
+      "start": "electron .",
+      "postinstall": "install-app-deps",
+      "pack": "build --dir",
+      "dist": "build -w --x64 --ia32"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.6",
+      "underscore": "^1.8.3"
+    },
+    "dependencies": {
+      "electron-build": "0.0.3"
     }
   },
-  "scripts": {
-    "start": "electron .",
-    "postinstall": "install-app-deps",
-    "pack": "build --dir",
-    "dist": "build -w --x64 --ia32"
-  },
-  "devDependencies": {
-    "electron-prebuilt": "^1.2.6",
-    "underscore": "^1.8.3"
-  },
-  "dependencies": {
-    "electron-build": "0.0.3"
-  },
-  "_librariesioMetadata": {
-    "full_name": "lisnju/desktopAppBuilder",
-    "description": null,
-    "fork": false,
-    "created_at": "2016-07-10T17:41:30.000Z",
-    "updated_at": "2016-07-29T00:13:46.767Z",
-    "pushed_at": "2016-07-11T07:11:01.000Z",
-    "homepage": null,
-    "size": 32,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 63010964,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-29T00:13:46.745Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

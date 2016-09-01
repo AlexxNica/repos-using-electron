@@ -1,70 +1,84 @@
 {
+  "id": 49858568,
   "name": "served",
-  "version": "0.1.0",
-  "description": "Create simple HTTP servers for any directory.",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/electron .",
-    "package": "./node_modules/.bin/electron-packager . Served --all --version=0.36.4 --ignore=dist --out=dist"
+  "fullName": "enjalot/served",
+  "owner": {
+    "login": "enjalot",
+    "id": 96189,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/96189?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/enjalot",
+    "htmlUrl": "https://github.com/enjalot",
+    "followersUrl": "https://api.github.com/users/enjalot/followers",
+    "subscriptionsUrl": "https://api.github.com/users/enjalot/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/enjalot/orgs",
+    "reposUrl": "https://api.github.com/users/enjalot/repos",
+    "receivedEventsUrl": "https://api.github.com/users/enjalot/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/enjalot/served.git"
+  "private": false,
+  "description": "Create simple HTTP servers for any directory, no command line necessary",
+  "fork": false,
+  "createdAt": "2016-01-18T07:10:43.000Z",
+  "updatedAt": "2016-07-18T22:58:38.000Z",
+  "pushedAt": "2016-04-22T19:21:20.000Z",
+  "homepage": "http://enjalot.github.io/served/",
+  "size": 1172,
+  "stargazersCount": 25,
+  "watchersCount": 25,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 0,
+  "openIssuesCount": 5,
+  "openIssues": 5,
+  "watchers": 25,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "http",
-    "http-server",
-    "server"
-  ],
-  "author": "Ian Johnson",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/enjalot/served/issues"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "served",
+    "version": "0.1.0",
+    "description": "Create simple HTTP servers for any directory.",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "./node_modules/.bin/electron .",
+      "package": "./node_modules/.bin/electron-packager . Served --all --version=0.36.4 --ignore=dist --out=dist"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/enjalot/served.git"
+    },
+    "keywords": [
+      "http",
+      "http-server",
+      "server"
+    ],
+    "author": "Ian Johnson",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/enjalot/served/issues"
+    },
+    "homepage": "https://github.com/enjalot/served#readme",
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.4"
+    },
+    "dependencies": {
+      "d3": "^3.5.12",
+      "express": "^4.13.3",
+      "serve-index": "^1.7.2"
+    }
   },
-  "homepage": "https://github.com/enjalot/served#readme",
-  "devDependencies": {
-    "electron-packager": "^5.2.1",
-    "electron-prebuilt": "^0.36.4"
-  },
-  "dependencies": {
-    "d3": "^3.5.12",
-    "express": "^4.13.3",
-    "serve-index": "^1.7.2"
-  },
-  "_librariesioMetadata": {
-    "full_name": "enjalot/served",
-    "description": "Create simple HTTP servers for any directory, no command line necessary",
-    "fork": false,
-    "created_at": "2016-01-18T07:10:43.000Z",
-    "updated_at": "2016-04-11T13:01:12.000Z",
-    "pushed_at": "2016-02-04T01:10:18.000Z",
-    "homepage": "http://enjalot.github.io/served/",
-    "size": 1171,
-    "stargazers_count": 23,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 5,
-    "default_branch": "master",
-    "subscribers_count": 3,
-    "github_id": 49858568,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "packageStatus": 200
 }

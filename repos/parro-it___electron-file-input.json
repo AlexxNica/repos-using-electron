@@ -1,61 +1,81 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "parro-it/electron-file-input",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-05-06T19:49:49.000Z",
-    "updated_at": "2016-05-08T07:23:23.014Z",
-    "pushed_at": "2016-05-08T07:18:30.000Z",
-    "homepage": "",
-    "size": 5,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 58231276,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-08T07:23:22.992Z",
-    "rank": null
-  },
+  "id": 58231276,
   "name": "electron-file-input",
-  "version": "1.0.0",
+  "fullName": "parro-it/electron-file-input",
+  "owner": {
+    "login": "parro-it",
+    "id": 11197111,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11197111?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/parro-it",
+    "htmlUrl": "https://github.com/parro-it",
+    "followersUrl": "https://api.github.com/users/parro-it/followers",
+    "subscriptionsUrl": "https://api.github.com/users/parro-it/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/parro-it/orgs",
+    "reposUrl": "https://api.github.com/users/parro-it/repos",
+    "receivedEventsUrl": "https://api.github.com/users/parro-it/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "",
-  "repository": "parro-it/electron-file-input",
-  "license": "MIT",
-  "author": "parro-it",
-  "scripts": {
-    "test": "xo"
+  "fork": false,
+  "createdAt": "2016-05-06T19:49:49.000Z",
+  "updatedAt": "2016-05-06T19:56:02.000Z",
+  "pushedAt": "2016-05-08T07:18:30.000Z",
+  "homepage": "",
+  "size": 5,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [],
-  "engines": {
-    "node": ">=5"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "files": [
-    "index.js"
-  ],
-  "devDependencies": {
-    "electron-prebuilt": "^0.37.8",
-    "xo": "^0.14.0"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-file-input",
+    "version": "1.0.0",
+    "description": "",
+    "repository": "parro-it/electron-file-input",
+    "license": "MIT",
+    "author": "parro-it",
+    "scripts": {
+      "test": "xo"
+    },
+    "keywords": [],
+    "engines": {
+      "node": ">=5"
+    },
+    "files": [
+      "index.js"
+    ],
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.8",
+      "xo": "^0.14.0"
+    },
+    "dependencies": {
+      "electron-contextmenu-middleware": "^1.0.1",
+      "react": "^15.0.2"
+    }
   },
-  "dependencies": {
-    "electron-contextmenu-middleware": "^1.0.1",
-    "react": "^15.0.2"
-  }
+  "packageStatus": 200
 }

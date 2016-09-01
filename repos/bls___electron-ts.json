@@ -1,72 +1,92 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "bls/electron-ts",
-    "description": "Hello World, Electron TypeScript",
-    "fork": false,
-    "created_at": "2016-02-02T23:12:27.000Z",
-    "updated_at": "2016-02-03T01:42:19.000Z",
-    "pushed_at": "2016-02-19T00:24:28.000Z",
-    "homepage": null,
-    "size": 40,
-    "stargazers_count": 0,
-    "language": "TypeScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 50958732,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 50958732,
   "name": "electron-ts",
-  "version": "0.0.1",
-  "description": "Electron + TypeScript",
-  "main": "init.js",
-  "scripts": {
-    "build": "grunt compile",
-    "test": "mocha dist/test",
-    "start": "electron dist/init.js"
+  "fullName": "bls/electron-ts",
+  "owner": {
+    "login": "bls",
+    "id": 203738,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/203738?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/bls",
+    "htmlUrl": "https://github.com/bls",
+    "followersUrl": "https://api.github.com/users/bls/followers",
+    "subscriptionsUrl": "https://api.github.com/users/bls/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/bls/orgs",
+    "reposUrl": "https://api.github.com/users/bls/repos",
+    "receivedEventsUrl": "https://api.github.com/users/bls/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bls/electron-ts.git"
+  "private": false,
+  "description": "Hello World, Electron TypeScript",
+  "fork": false,
+  "createdAt": "2016-02-02T23:12:27.000Z",
+  "updatedAt": "2016-02-03T01:42:19.000Z",
+  "pushedAt": "2016-02-19T00:24:28.000Z",
+  "homepage": null,
+  "size": 40,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "TypeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "electron",
-    "typescript"
-  ],
-  "author": "Blair Strang <Blair.Strang@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bls/electron-ts/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "homepage": "https://github.com/bls/electron-ts#readme",
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.7",
-    "grunt": "^0.4.5",
-    "grunt-contrib-copy": "^0.8.2",
-    "grunt-electron": "^2.0.1",
-    "grunt-ts": "^5.1.0",
-    "grunt-tslint": "^3.0.0",
-    "mocha": "^2.4.5",
-    "tslint": "^3.3.0-dev.2",
-    "typescript": "^1.8.0"
+  "networkCount": 1,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-ts",
+    "version": "0.0.1",
+    "description": "Electron + TypeScript",
+    "main": "init.js",
+    "scripts": {
+      "build": "grunt compile",
+      "test": "mocha dist/test",
+      "start": "electron dist/init.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bls/electron-ts.git"
+    },
+    "keywords": [
+      "electron",
+      "typescript"
+    ],
+    "author": "Blair Strang <Blair.Strang@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bls/electron-ts/issues"
+    },
+    "homepage": "https://github.com/bls/electron-ts#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.7",
+      "grunt": "^0.4.5",
+      "grunt-contrib-copy": "^0.8.2",
+      "grunt-electron": "^2.0.1",
+      "grunt-ts": "^5.1.0",
+      "grunt-tslint": "^3.0.0",
+      "mocha": "^2.4.5",
+      "tslint": "^3.3.0-dev.2",
+      "typescript": "^1.8.0"
+    },
+    "dependencies": {}
   },
-  "dependencies": {}
+  "packageStatus": 200
 }

@@ -1,69 +1,89 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "d11e9/eth0s",
-    "description": "a lighter version of Ethos",
-    "fork": false,
-    "created_at": "2016-04-14T17:31:47.000Z",
-    "updated_at": "2016-05-28T09:29:22.484Z",
-    "pushed_at": "2016-05-26T21:02:44.000Z",
-    "homepage": null,
-    "size": 2030,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 56257192,
-    "source_name": null,
+  "id": 56257192,
+  "name": "eth0s",
+  "fullName": "d11e9/eth0s",
+  "owner": {
+    "login": "d11e9",
+    "id": 8437822,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8437822?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/d11e9",
+    "htmlUrl": "https://github.com/d11e9",
+    "followersUrl": "https://api.github.com/users/d11e9/followers",
+    "subscriptionsUrl": "https://api.github.com/users/d11e9/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/d11e9/orgs",
+    "reposUrl": "https://api.github.com/users/d11e9/repos",
+    "receivedEventsUrl": "https://api.github.com/users/d11e9/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "a lighter version of Ethos",
+  "fork": false,
+  "createdAt": "2016-04-14T17:31:47.000Z",
+  "updatedAt": "2016-06-28T11:50:20.000Z",
+  "pushedAt": "2016-05-26T21:02:44.000Z",
+  "homepage": null,
+  "size": 2030,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "eth0s-build-env",
+    "version": "0.0.1",
+    "description": "Package for building Eth0s",
+    "scripts": {
+      "postinstall": "cd app && npm install",
+      "start": "electron ./app",
+      "package-osx": "electron-packager ./app Eth0s --platform=darwin --arch=x64 --out ./dist --overwrite --icon=app/src/client/images/icon.icns",
+      "package-win": "electron-packager ./app Eth0s --platform=win32 --arch=x64 --out ./dist --tmpdir ./tmp --overwrite",
+      "package": "electron-packager ./app Eth0s --all --out ./dist --overwrite --icon=app/src/client/images/icon.icns",
+      "prepackage-win": "node prepackage-win.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/d11e9/eth0s.git"
+    },
+    "keywords": [
+      "ethereum",
+      "client",
+      "electron",
+      "ipfs"
+    ],
+    "author": "GitHub",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 15,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T09:29:22.464Z",
-    "rank": null
+    "bugs": {
+      "url": "https://github.com/d11e9/eth0s/issues"
+    },
+    "homepage": "https://github.com/d11e9/eth0s#readme",
+    "devDependencies": {
+      "electron-packager": "^7.0.1",
+      "electron-prebuilt": "^0.37.0"
+    },
+    "dependencies": {}
   },
-  "name": "eth0s-build-env",
-  "version": "0.0.1",
-  "description": "Package for building Eth0s",
-  "scripts": {
-    "postinstall": "cd app && npm install",
-    "start": "electron ./app",
-    "package-osx": "electron-packager ./app Eth0s --platform=darwin --arch=x64 --out ./dist --overwrite --icon=app/src/client/images/icon.icns",
-    "package-win": "electron-packager ./app Eth0s --platform=win32 --arch=x64 --out ./dist --tmpdir ./tmp --overwrite",
-    "package": "electron-packager ./app Eth0s --all --out ./dist --overwrite --icon=app/src/client/images/icon.icns",
-    "prepackage-win": "node prepackage-win.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/d11e9/eth0s.git"
-  },
-  "keywords": [
-    "ethereum",
-    "client",
-    "electron",
-    "ipfs"
-  ],
-  "author": "GitHub",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/d11e9/eth0s/issues"
-  },
-  "homepage": "https://github.com/d11e9/eth0s#readme",
-  "devDependencies": {
-    "electron-packager": "^7.0.1",
-    "electron-prebuilt": "^0.37.0"
-  },
-  "dependencies": {}
+  "packageStatus": 200
 }

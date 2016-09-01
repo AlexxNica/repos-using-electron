@@ -1,62 +1,82 @@
 {
-  "name": "Unsplashify",
-  "version": "0.5.29",
-  "description": "Use images from Unsplash on your desktop",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "id": 34003326,
+  "name": "unsplashify",
+  "fullName": "IgorAntun/unsplashify",
+  "owner": {
+    "login": "IgorAntun",
+    "id": 5935946,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5935946?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/IgorAntun",
+    "htmlUrl": "https://github.com/IgorAntun",
+    "followersUrl": "https://api.github.com/users/IgorAntun/followers",
+    "subscriptionsUrl": "https://api.github.com/users/IgorAntun/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/IgorAntun/orgs",
+    "reposUrl": "https://api.github.com/users/IgorAntun/repos",
+    "receivedEventsUrl": "https://api.github.com/users/IgorAntun/received_events",
+    "type": "User"
   },
-  "author": "Igor Antun <hello@igorantun.com> (https://github.com/IgorAntun)",
-  "contributors": [
-    "Vytor Calixto <vytorcalixto@gmail.com> (https://github.com/VytorCalixto)"
-  ],
-  "license": "MIT",
-  "dependencies": {
-    "fs": "0.0.2",
-    "fs-extra": "~0.18.0",
-    "later": "~1.1.6",
-    "request": "~2.55.0",
-    "superb": "^1.1.4",
-    "wallpaper": "~1.0.0"
+  "private": false,
+  "description": "Images from Unsplash straight to your desktop!",
+  "fork": false,
+  "createdAt": "2015-04-15T15:46:28.000Z",
+  "updatedAt": "2016-03-11T14:13:34.000Z",
+  "pushedAt": "2015-11-27T15:53:47.000Z",
+  "homepage": null,
+  "size": 1532,
+  "stargazersCount": 8,
+  "watchersCount": 8,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 3,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 8,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-debug": "^0.2.0",
-    "electron-prebuilt": "^0.30.1"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "_librariesioMetadata": {
-    "full_name": "IgorAntun/unsplashify",
-    "description": "Images from Unsplash straight to your desktop!",
-    "fork": false,
-    "created_at": "2015-04-15T15:46:28.000Z",
-    "updated_at": "2016-03-11T14:13:34.000Z",
-    "pushed_at": "2015-11-27T15:53:47.000Z",
-    "homepage": null,
-    "size": 1532,
-    "stargazers_count": 8,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": false,
-    "has_pages": false,
-    "forks_count": 3,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 3,
-    "github_id": 34003326,
-    "source_name": null,
+  "networkCount": 3,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "Unsplashify",
+    "version": "0.5.29",
+    "description": "Use images from Unsplash on your desktop",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Igor Antun <hello@igorantun.com> (https://github.com/IgorAntun)",
+    "contributors": [
+      "Vytor Calixto <vytorcalixto@gmail.com> (https://github.com/VytorCalixto)"
+    ],
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "dependencies": {
+      "fs": "0.0.2",
+      "fs-extra": "~0.18.0",
+      "later": "~1.1.6",
+      "request": "~2.55.0",
+      "superb": "^1.1.4",
+      "wallpaper": "~1.0.0"
+    },
+    "devDependencies": {
+      "electron-debug": "^0.2.0",
+      "electron-prebuilt": "^0.30.1"
+    }
+  },
+  "packageStatus": 200
 }

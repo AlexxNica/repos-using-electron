@@ -1,82 +1,96 @@
 {
+  "id": 53939359,
   "name": "entu-cms",
-  "productName": "Entu CMS",
-  "version": "0.6.13",
-  "author": "Argo Roots <argo@roots.ee>",
-  "description": "Simple (Jade) filebased CMS",
-  "keywords": [
-    "cms",
-    "static",
-    "html",
-    "jade",
-    "markdown",
-    "yaml"
-  ],
-  "homepage": "https://github.com/argoroots/entu-cms",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/argoroots/entu-cms.git"
+  "fullName": "argoroots/entu-cms",
+  "owner": {
+    "login": "argoroots",
+    "id": 783523,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/783523?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/argoroots",
+    "htmlUrl": "https://github.com/argoroots",
+    "followersUrl": "https://api.github.com/users/argoroots/followers",
+    "subscriptionsUrl": "https://api.github.com/users/argoroots/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/argoroots/orgs",
+    "reposUrl": "https://api.github.com/users/argoroots/repos",
+    "receivedEventsUrl": "https://api.github.com/users/argoroots/received_events",
+    "type": "User"
   },
-  "bugs": {
-    "url": "https://github.com/argoroots/entu-cms/issues"
+  "private": false,
+  "description": "Entu CMS",
+  "fork": false,
+  "createdAt": "2016-03-15T11:33:30.000Z",
+  "updatedAt": "2016-07-26T08:20:35.000Z",
+  "pushedAt": "2016-07-22T06:29:42.000Z",
+  "homepage": "http://cms.entu.eu",
+  "size": 693,
+  "stargazersCount": 3,
+  "watchersCount": 3,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": true,
+  "forksCount": 2,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 3,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js"
+  "license": null,
+  "networkCount": 2,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "entu-cms",
+    "productName": "Entu CMS",
+    "version": "0.6.13",
+    "author": "Argo Roots <argo@roots.ee>",
+    "description": "Simple (Jade) filebased CMS",
+    "keywords": [
+      "cms",
+      "static",
+      "html",
+      "jade",
+      "markdown",
+      "yaml"
+    ],
+    "homepage": "https://github.com/argoroots/entu-cms",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/argoroots/entu-cms.git"
+    },
+    "bugs": {
+      "url": "https://github.com/argoroots/entu-cms/issues"
+    },
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "dependencies": {
+      "chokidar": "^1.6.0",
+      "electron-pug": "^1.5.1",
+      "electron-stylus": "^0.1.1",
+      "fs-extra": "^0.30.0",
+      "html-minifier": "^3.0.1",
+      "jade": "^1.11.0",
+      "js-yaml": "^3.6.1",
+      "jstransformer-markdown-it": "^0.2.3",
+      "jstransformer-uglify-js": "^1.1.1",
+      "markdown-it": "^7.0.0",
+      "mime-types": "^2.1.11",
+      "object-path": "^0.11.1",
+      "stylus": "^0.54.5",
+      "uglify-js": "^2.7.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.8"
+    }
   },
-  "dependencies": {
-    "chokidar": "^1.6.0",
-    "electron-pug": "^1.5.1",
-    "electron-stylus": "^0.1.1",
-    "fs-extra": "^0.30.0",
-    "html-minifier": "^3.0.1",
-    "jade": "^1.11.0",
-    "js-yaml": "^3.6.1",
-    "jstransformer-markdown-it": "^0.2.3",
-    "jstransformer-uglify-js": "^1.1.1",
-    "markdown-it": "^7.0.0",
-    "mime-types": "^2.1.11",
-    "object-path": "^0.11.1",
-    "stylus": "^0.54.5",
-    "uglify-js": "^2.7.0"
-  },
-  "devDependencies": {
-    "electron-prebuilt": "^1.2.8"
-  },
-  "_librariesioMetadata": {
-    "full_name": "argoroots/entu-cms",
-    "description": "Entu CMS",
-    "fork": false,
-    "created_at": "2016-03-15T11:33:30.000Z",
-    "updated_at": "2016-07-26T08:20:35.000Z",
-    "pushed_at": "2016-07-22T06:29:42.000Z",
-    "homepage": "http://cms.entu.eu",
-    "size": 693,
-    "stargazers_count": 3,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": false,
-    "has_pages": true,
-    "forks_count": 2,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 53939359,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-29T07:05:47.271Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

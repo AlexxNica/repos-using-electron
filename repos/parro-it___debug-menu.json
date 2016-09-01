@@ -1,74 +1,94 @@
 {
+  "id": 45754599,
   "name": "debug-menu",
-  "version": "0.4.0",
-  "description": "Chrome-like \"inspect element\" context-menu",
-  "repository": "parro-it/debug-menu",
-  "author": "andrea@parro.it",
-  "scripts": {
-    "test": "eslint .",
-    "start": "electron test.js"
+  "fullName": "parro-it/debug-menu",
+  "owner": {
+    "login": "parro-it",
+    "id": 11197111,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11197111?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/parro-it",
+    "htmlUrl": "https://github.com/parro-it",
+    "followersUrl": "https://api.github.com/users/parro-it/followers",
+    "subscriptionsUrl": "https://api.github.com/users/parro-it/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/parro-it/orgs",
+    "reposUrl": "https://api.github.com/users/parro-it/repos",
+    "receivedEventsUrl": "https://api.github.com/users/parro-it/received_events",
+    "type": "User"
   },
-  "eslintConfig": {
-    "extends": "js",
-    "env": {
-      "browser": true,
-      "node": true,
-      "es6": true
+  "private": false,
+  "description": "Chrome-like debugging context menu for electron.",
+  "fork": false,
+  "createdAt": "2015-11-07T21:07:05.000Z",
+  "updatedAt": "2016-07-29T21:56:00.000Z",
+  "pushedAt": "2016-04-25T20:04:51.000Z",
+  "homepage": "",
+  "size": 21,
+  "stargazersCount": 62,
+  "watchersCount": 62,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 62,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 2,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "debug-menu",
+    "version": "0.4.0",
+    "description": "Chrome-like \"inspect element\" context-menu",
+    "repository": "parro-it/debug-menu",
+    "author": "andrea@parro.it",
+    "scripts": {
+      "test": "eslint .",
+      "start": "electron test.js"
+    },
+    "eslintConfig": {
+      "extends": "js",
+      "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+      }
+    },
+    "license": "MIT",
+    "keywords": [
+      "electron",
+      "debug",
+      "inspect",
+      "element"
+    ],
+    "files": [
+      "index.js"
+    ],
+    "devDependencies": {
+      "electron-contextmenu-middleware": "^1.0.1",
+      "electron-prebuilt": "^0.36.7",
+      "eslint": "^1.10.3",
+      "eslint-config-js": "^3.1.0"
+    },
+    "dependencies": {
+      "electron-debug": "^0.7.0",
+      "electron-is-dev": "^0.1.0"
     }
   },
-  "license": "MIT",
-  "keywords": [
-    "electron",
-    "debug",
-    "inspect",
-    "element"
-  ],
-  "files": [
-    "index.js"
-  ],
-  "devDependencies": {
-    "electron-contextmenu-middleware": "^1.0.1",
-    "electron-prebuilt": "^0.36.7",
-    "eslint": "^1.10.3",
-    "eslint-config-js": "^3.1.0"
-  },
-  "dependencies": {
-    "electron-debug": "^0.7.0",
-    "electron-is-dev": "^0.1.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "parro-it/debug-menu",
-    "description": "Chrome-like debugging context menu for electron.",
-    "fork": false,
-    "created_at": "2015-11-07T21:07:05.000Z",
-    "updated_at": "2016-07-29T21:56:46.809Z",
-    "pushed_at": "2016-04-25T20:04:51.000Z",
-    "homepage": "",
-    "size": 21,
-    "stargazers_count": 57,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 2,
-    "mirror_url": null,
-    "open_issues_count": 2,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 45754599,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 3,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T17:30:56.209Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

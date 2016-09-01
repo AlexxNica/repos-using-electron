@@ -1,68 +1,88 @@
 {
-  "name": "clipmaster-9000",
-  "version": "1.0.0",
-  "description": "A guide to building your first menubar application with Electron. ",
-  "main": "lib/main.js",
-  "scripts": {
-    "start": "electron .",
-    "build": "electron-packager . 'Clipmaster 3000' --platform=all --arch=all --version=0.36.8"
+  "id": 52981385,
+  "name": "clipmaster-9000-tutorial",
+  "fullName": "stevekinney/clipmaster-9000-tutorial",
+  "owner": {
+    "login": "stevekinney",
+    "id": 251000,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/251000?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/stevekinney",
+    "htmlUrl": "https://github.com/stevekinney",
+    "followersUrl": "https://api.github.com/users/stevekinney/followers",
+    "subscriptionsUrl": "https://api.github.com/users/stevekinney/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/stevekinney/orgs",
+    "reposUrl": "https://api.github.com/users/stevekinney/repos",
+    "receivedEventsUrl": "https://api.github.com/users/stevekinney/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stevekinney/clipmaster-9000-tutorial.git"
+  "private": false,
+  "description": "A guide to building your first menubar application with Electron.",
+  "fork": false,
+  "createdAt": "2016-03-02T17:13:02.000Z",
+  "updatedAt": "2016-08-01T02:06:50.000Z",
+  "pushedAt": "2016-03-08T15:12:38.000Z",
+  "homepage": null,
+  "size": 1656,
+  "stargazersCount": 10,
+  "watchersCount": 10,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 10,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "electron",
-    "clipboard"
-  ],
-  "author": "Steve Kinney",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/stevekinney/clipmaster-9000-tutorial/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "homepage": "https://github.com/stevekinney/clipmaster-9000-tutorial#readme",
-  "devDependencies": {
-    "electron-packager": "^5.2.1",
-    "electron-prebuilt": "^0.36.9"
-  },
-  "dependencies": {
-    "jquery": "^2.2.1",
-    "menubar": "^4.0.2",
-    "request": "^2.69.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "stevekinney/clipmaster-9000-tutorial",
-    "description": "A guide to building your first menubar application with Electron.",
-    "fork": false,
-    "created_at": "2016-03-02T17:13:02.000Z",
-    "updated_at": "2016-08-01T02:07:27.286Z",
-    "pushed_at": "2016-03-05T01:31:25.000Z",
-    "homepage": null,
-    "size": 555,
-    "stargazers_count": 5,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 52981385,
-    "source_name": null,
+  "networkCount": 1,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "clipmaster-9000",
+    "version": "1.0.0",
+    "description": "A guide to building your first menubar application with Electron. ",
+    "main": "lib/main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . 'Clipmaster 3000' --platform=all --arch=all --version=0.36.8"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/stevekinney/clipmaster-9000-tutorial.git"
+    },
+    "keywords": [
+      "electron",
+      "clipboard"
+    ],
+    "author": "Steve Kinney",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "bugs": {
+      "url": "https://github.com/stevekinney/clipmaster-9000-tutorial/issues"
+    },
+    "homepage": "https://github.com/stevekinney/clipmaster-9000-tutorial#readme",
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.9"
+    },
+    "dependencies": {
+      "jquery": "^2.2.1",
+      "menubar": "^4.0.2",
+      "request": "^2.69.0"
+    }
+  },
+  "packageStatus": 200
 }

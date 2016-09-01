@@ -1,61 +1,81 @@
 {
-  "devDependencies": {
-    "electron-prebuilt": "^0.26.1",
-    "esperanto": "^0.7.0",
-    "fs-jetpack": "^0.6.4",
-    "gulp": "^3.8.11",
-    "gulp-react": "^3.0.1",
-    "gulp-sass": "^2.0.1",
-    "gulp-util": "^3.0.4",
-    "q": "^1.4.1",
-    "vinyl-map": "^1.0.1",
-    "yargs": "^3.9.1"
+  "id": 36102993,
+  "name": "electron-file-explorer",
+  "fullName": "timotius02/electron-file-explorer",
+  "owner": {
+    "login": "timotius02",
+    "id": 5110237,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5110237?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/timotius02",
+    "htmlUrl": "https://github.com/timotius02",
+    "followersUrl": "https://api.github.com/users/timotius02/followers",
+    "subscriptionsUrl": "https://api.github.com/users/timotius02/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/timotius02/orgs",
+    "reposUrl": "https://api.github.com/users/timotius02/repos",
+    "receivedEventsUrl": "https://api.github.com/users/timotius02/received_events",
+    "type": "User"
   },
-  "optionalDependencies": {
-    "appdmg": "^0.3.1",
-    "rcedit": "^0.3.0"
+  "private": false,
+  "description": "A Hackable File Explorer built using Electron, React, and Flux",
+  "fork": false,
+  "createdAt": "2015-05-23T01:47:39.000Z",
+  "updatedAt": "2016-07-30T16:00:45.000Z",
+  "pushedAt": "2016-03-01T21:22:21.000Z",
+  "homepage": "",
+  "size": 1537,
+  "stargazersCount": 49,
+  "watchersCount": 49,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 13,
+  "openIssuesCount": 3,
+  "openIssues": 3,
+  "watchers": 49,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "postinstall": "cd ./app  &&  npm install",
-    "build": "./node_modules/.bin/gulp build",
-    "release": "./node_modules/.bin/gulp release --env=production",
-    "start": "node ./tasks/start",
-    "test": "node ./tasks/start --env=test"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "dependencies": {},
-  "_librariesioMetadata": {
-    "full_name": "timotius02/electron-file-explorer",
-    "description": "A Hackable File Explorer built using Electron, React, and Flux",
-    "fork": false,
-    "created_at": "2015-05-23T01:47:39.000Z",
-    "updated_at": "2016-07-30T16:00:45.000Z",
-    "pushed_at": "2016-03-01T21:22:21.000Z",
-    "homepage": "",
-    "size": 1537,
-    "stargazers_count": 49,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 13,
-    "mirror_url": null,
-    "open_issues_count": 3,
-    "default_branch": "master",
-    "subscribers_count": 4,
-    "github_id": 36102993,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "networkCount": 13,
+  "subscribersCount": 4,
+  "status": 200,
+  "packageJSON": {
+    "devDependencies": {
+      "electron-prebuilt": "^0.26.1",
+      "esperanto": "^0.7.0",
+      "fs-jetpack": "^0.6.4",
+      "gulp": "^3.8.11",
+      "gulp-react": "^3.0.1",
+      "gulp-sass": "^2.0.1",
+      "gulp-util": "^3.0.4",
+      "q": "^1.4.1",
+      "vinyl-map": "^1.0.1",
+      "yargs": "^3.9.1"
+    },
+    "optionalDependencies": {
+      "appdmg": "^0.3.1",
+      "rcedit": "^0.3.0"
+    },
+    "scripts": {
+      "postinstall": "cd ./app  &&  npm install",
+      "build": "./node_modules/.bin/gulp build",
+      "release": "./node_modules/.bin/gulp release --env=production",
+      "start": "node ./tasks/start",
+      "test": "node ./tasks/start --env=test"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

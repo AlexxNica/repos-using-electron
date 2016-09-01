@@ -1,79 +1,93 @@
 {
+  "id": 49913579,
   "name": "electron-eval",
-  "version": "0.8.0",
+  "fullName": "mappum/electron-eval",
+  "owner": {
+    "login": "mappum",
+    "id": 398285,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/398285?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mappum",
+    "htmlUrl": "https://github.com/mappum",
+    "followersUrl": "https://api.github.com/users/mappum/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mappum/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mappum/orgs",
+    "reposUrl": "https://api.github.com/users/mappum/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mappum/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Run code inside a hidden Electron window",
-  "main": "index.js",
-  "scripts": {
-    "test": "standard src/*.js daemon.js test.js && tap test.js --cov",
-    "test-tap": "tap test.js -Rtap",
-    "test-lcov": "mkdir -p coverage && tap test.js -Rsilent --coverage-report=text-lcov > coverage/lcov.info",
-    "build": "rm -rf lib && babel --presets es2015 src -d lib",
-    "source": "rm -rf lib && ln -s src lib",
-    "prepublish": "npm run build",
-    "publish": "npm run source"
+  "fork": false,
+  "createdAt": "2016-01-18T23:57:54.000Z",
+  "updatedAt": "2016-07-15T17:00:37.000Z",
+  "pushedAt": "2016-08-11T18:09:09.000Z",
+  "homepage": null,
+  "size": 65,
+  "stargazersCount": 17,
+  "watchersCount": 17,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 6,
+  "openIssuesCount": 5,
+  "openIssues": 5,
+  "watchers": 17,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "electron",
-    "eval",
-    "hidden",
-    "spawn"
-  ],
-  "author": "Matt Bell <mappum@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "electron-prebuilt": "^1.2.2",
-    "newline-json": "^0.1.1"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.7.7",
-    "babel-preset-es2015": "^6.6.0",
-    "standard": "^6.0.4",
-    "tap": "^5.1.1"
-  },
-  "optionalDependencies": {
-    "headless": "^1.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mappum/electron-eval.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mappum/electron-eval/issues"
-  },
-  "homepage": "https://github.com/mappum/electron-eval#readme",
-  "_librariesioMetadata": {
-    "full_name": "mappum/electron-eval",
+  "license": null,
+  "networkCount": 6,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-eval",
+    "version": "0.8.0",
     "description": "Run code inside a hidden Electron window",
-    "fork": false,
-    "created_at": "2016-01-18T23:57:54.000Z",
-    "updated_at": "2016-08-07T23:28:06.974Z",
-    "pushed_at": "2016-08-06T01:40:50.000Z",
-    "homepage": null,
-    "size": 63,
-    "stargazers_count": 17,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 6,
-    "mirror_url": null,
-    "open_issues_count": 3,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 49913579,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "main": "index.js",
+    "scripts": {
+      "test": "standard src/*.js daemon.js test.js && tap test.js --cov",
+      "test-tap": "tap test.js -Rtap",
+      "test-lcov": "mkdir -p coverage && tap test.js -Rsilent --coverage-report=text-lcov > coverage/lcov.info",
+      "build": "rm -rf lib && babel --presets es2015 src -d lib",
+      "source": "rm -rf lib && ln -s src lib",
+      "prepublish": "npm run build",
+      "publish": "npm run source"
+    },
+    "keywords": [
+      "electron",
+      "eval",
+      "hidden",
+      "spawn"
+    ],
+    "author": "Matt Bell <mappum@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+      "electron-prebuilt": "^1.2.2",
+      "newline-json": "^0.1.1"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.7.7",
+      "babel-preset-es2015": "^6.6.0",
+      "standard": "^6.0.4",
+      "tap": "^5.1.1"
+    },
+    "optionalDependencies": {
+      "headless": "^1.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mappum/electron-eval.git"
+    },
+    "bugs": {
+      "url": "https://github.com/mappum/electron-eval/issues"
+    },
+    "homepage": "https://github.com/mappum/electron-eval#readme"
+  },
+  "packageStatus": 200
 }

@@ -1,80 +1,100 @@
 {
+  "id": 19857237,
   "name": "yez",
-  "version": "2.1.0",
-  "homepage": "https://github.com/krasimir/yez",
-  "description": "Chrome extension which acts as task runner",
-  "main": "./node/index.js",
-  "author": {
-    "name": "Krasimir Tsonev",
-    "email": "info@krasimirtsonev.com",
-    "url": "http://krasimirtsonev.com"
+  "fullName": "krasimir/yez",
+  "owner": {
+    "login": "krasimir",
+    "id": 528677,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/528677?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/krasimir",
+    "htmlUrl": "https://github.com/krasimir",
+    "followersUrl": "https://api.github.com/users/krasimir/followers",
+    "subscriptionsUrl": "https://api.github.com/users/krasimir/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/krasimir/orgs",
+    "reposUrl": "https://api.github.com/users/krasimir/repos",
+    "receivedEventsUrl": "https://api.github.com/users/krasimir/received_events",
+    "type": "User"
   },
-  "license": "MIT",
-  "dependencies": {
-    "electron-prebuilt": "0.37.6",
-    "http-server": "0.9.0",
-    "open": "0.0.5",
-    "ps-tree": "0.0.3",
-    "socket.io": "0.9.16",
-    "spawn-args": "0.0.2",
-    "yargs": "4.6.0"
+  "private": false,
+  "description": "Chrome extension that acts as terminal and task runner",
+  "fork": false,
+  "createdAt": "2014-05-16T13:23:49.000Z",
+  "updatedAt": "2016-08-09T21:59:39.000Z",
+  "pushedAt": "2016-05-30T04:12:21.000Z",
+  "homepage": "",
+  "size": 4337,
+  "stargazersCount": 253,
+  "watchersCount": 253,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 14,
+  "openIssuesCount": 4,
+  "openIssues": 4,
+  "watchers": 253,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "expect.js": "0.3.1",
-    "grunt": "0.4.1",
-    "grunt-contrib-concat": "0.3.0",
-    "grunt-contrib-watch": "0.4.4"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "keywords": [
-    "chrome",
-    "extension",
-    "task",
-    "runner"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/krasimir/yez.git"
-  },
-  "bin": {
-    "yez": "./node/index.js"
-  },
-  "scripts": {
-    "test": "mocha ./node/tests --reporter spec",
-    "start": "node ./node/index.js"
-  },
-  "_librariesioMetadata": {
-    "full_name": "krasimir/yez",
-    "description": "Chrome extension that acts as terminal and task runner",
-    "fork": false,
-    "created_at": "2014-05-16T13:23:49.000Z",
-    "updated_at": "2016-08-05T00:20:43.205Z",
-    "pushed_at": "2016-05-28T11:34:16.000Z",
-    "homepage": "",
-    "size": 4336,
-    "stargazers_count": 250,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 14,
-    "mirror_url": null,
-    "open_issues_count": 4,
-    "default_branch": "master",
-    "subscribers_count": 15,
-    "github_id": 19857237,
-    "source_name": null,
+  "networkCount": 14,
+  "subscribersCount": 15,
+  "status": 200,
+  "packageJSON": {
+    "name": "yez",
+    "version": "2.1.0",
+    "homepage": "https://github.com/krasimir/yez",
+    "description": "Chrome extension which acts as task runner",
+    "main": "./node/index.js",
+    "author": {
+      "name": "Krasimir Tsonev",
+      "email": "info@krasimirtsonev.com",
+      "url": "http://krasimirtsonev.com"
+    },
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T11:34:25.601Z",
-    "rank": null
-  }
+    "dependencies": {
+      "electron-prebuilt": "0.37.6",
+      "http-server": "0.9.0",
+      "open": "0.0.5",
+      "ps-tree": "0.0.3",
+      "socket.io": "0.9.16",
+      "spawn-args": "0.0.2",
+      "yargs": "4.6.0"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1",
+      "grunt": "0.4.1",
+      "grunt-contrib-concat": "0.3.0",
+      "grunt-contrib-watch": "0.4.4"
+    },
+    "keywords": [
+      "chrome",
+      "extension",
+      "task",
+      "runner"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/krasimir/yez.git"
+    },
+    "bin": {
+      "yez": "./node/index.js"
+    },
+    "scripts": {
+      "test": "mocha ./node/tests --reporter spec",
+      "start": "node ./node/index.js"
+    }
+  },
+  "packageStatus": 200
 }

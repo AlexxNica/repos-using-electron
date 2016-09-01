@@ -1,58 +1,72 @@
 {
+  "id": 41406131,
   "name": "airwave",
-  "version": "0.0.0",
+  "fullName": "mappum/airwave",
+  "owner": {
+    "login": "mappum",
+    "id": 398285,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/398285?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mappum",
+    "htmlUrl": "https://github.com/mappum",
+    "followersUrl": "https://api.github.com/users/mappum/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mappum/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mappum/orgs",
+    "reposUrl": "https://api.github.com/users/mappum/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mappum/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "An SDR application built on Electron",
-  "main": "main.js",
-  "scripts": {
-    "start": "./node_modules/.bin/electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "fork": false,
+  "createdAt": "2015-08-26T05:25:17.000Z",
+  "updatedAt": "2016-02-27T02:37:14.000Z",
+  "pushedAt": "2015-08-26T05:25:32.000Z",
+  "homepage": null,
+  "size": 112,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "Matt Bell <mappum@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "electron-prebuilt": "^0.30.4",
-    "electron-rebuild": "^0.2.5"
-  },
-  "dependencies": {
-    "chroma-js": "^1.1.1",
-    "fft-stream": "0.0.0",
-    "hackrf-stream": "^1.0.1",
-    "pixi.js": "^3.0.7",
-    "stft": "0.0.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "mappum/airwave",
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "airwave",
+    "version": "0.0.0",
     "description": "An SDR application built on Electron",
-    "fork": false,
-    "created_at": "2015-08-26T05:25:17.000Z",
-    "updated_at": "2016-02-27T02:37:14.000Z",
-    "pushed_at": "2015-08-26T05:25:32.000Z",
-    "homepage": null,
-    "size": 112,
-    "stargazers_count": 2,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 41406131,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "main": "main.js",
+    "scripts": {
+      "start": "./node_modules/.bin/electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Matt Bell <mappum@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.30.4",
+      "electron-rebuild": "^0.2.5"
+    },
+    "dependencies": {
+      "chroma-js": "^1.1.1",
+      "fft-stream": "0.0.0",
+      "hackrf-stream": "^1.0.1",
+      "pixi.js": "^3.0.7",
+      "stft": "0.0.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,56 +1,70 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "sndrs/Inbox",
-    "description": "Desktop app for Inbox by Gmail",
-    "fork": false,
-    "created_at": "2015-10-10T12:57:19.000Z",
-    "updated_at": "2016-03-11T19:06:18.000Z",
-    "pushed_at": "2016-03-11T19:26:25.000Z",
-    "homepage": "",
-    "size": 265,
-    "stargazers_count": 3,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": false,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 4,
-    "default_branch": "master",
-    "subscribers_count": 3,
-    "github_id": 44010661,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+  "id": 44010661,
+  "name": "Inbox",
+  "fullName": "sndrs/Inbox",
+  "owner": {
+    "login": "sndrs",
+    "id": 867233,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/867233?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/sndrs",
+    "htmlUrl": "https://github.com/sndrs",
+    "followersUrl": "https://api.github.com/users/sndrs/followers",
+    "subscriptionsUrl": "https://api.github.com/users/sndrs/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/sndrs/orgs",
+    "reposUrl": "https://api.github.com/users/sndrs/repos",
+    "receivedEventsUrl": "https://api.github.com/users/sndrs/received_events",
+    "type": "User"
   },
-  "name": "inbox",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sndrs/Inbox.git"
+  "private": false,
+  "description": "Desktop app for Inbox by Gmail",
+  "fork": false,
+  "createdAt": "2015-10-10T12:57:19.000Z",
+  "updatedAt": "2016-07-28T14:58:31.000Z",
+  "pushedAt": "2016-03-12T15:29:39.000Z",
+  "homepage": "",
+  "size": 272,
+  "stargazersCount": 6,
+  "watchersCount": 6,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 4,
+  "openIssues": 4,
+  "watchers": 6,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "Alex Sanders",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sndrs/Inbox/issues"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "inbox",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sndrs/Inbox.git"
+    },
+    "author": "Alex Sanders",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/sndrs/Inbox/issues"
+    },
+    "homepage": "https://github.com/sndrs/Inbox#readme",
+    "devDependencies": {
+      "electron-packager": "^5.2.1"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.36.10"
+    },
+    "description": "Desktop app for Inbox by Gmail that adds OS integration",
+    "version": "0.1.2"
   },
-  "homepage": "https://github.com/sndrs/Inbox#readme",
-  "devDependencies": {
-    "electron-packager": "^5.2.1"
-  },
-  "dependencies": {
-    "electron-prebuilt": "^0.36.10"
-  },
-  "description": "Desktop app for Inbox by Gmail that adds OS integration",
-  "version": "0.1.2"
+  "packageStatus": 200
 }

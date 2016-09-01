@@ -1,94 +1,108 @@
 {
+  "id": 45360814,
   "name": "electron-settings",
-  "version": "2.1.1",
-  "description": "A simple persistent user settings manager for Electron.",
-  "main": "index.js",
-  "scripts": {
-    "test": "electron-mocha test && electron-mocha --renderer test"
+  "fullName": "nathanbuchar/electron-settings",
+  "owner": {
+    "login": "nathanbuchar",
+    "id": 1815367,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1815367?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/nathanbuchar",
+    "htmlUrl": "https://github.com/nathanbuchar",
+    "followersUrl": "https://api.github.com/users/nathanbuchar/followers",
+    "subscriptionsUrl": "https://api.github.com/users/nathanbuchar/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/nathanbuchar/orgs",
+    "reposUrl": "https://api.github.com/users/nathanbuchar/repos",
+    "receivedEventsUrl": "https://api.github.com/users/nathanbuchar/received_events",
+    "type": "User"
   },
-  "keywords": [
-    "electron",
-    "app",
-    "user",
-    "data",
-    "settings",
-    "manager",
-    "config",
-    "json",
-    "storage",
-    "promise",
-    "has",
-    "get",
-    "set",
-    "delete",
-    "reset",
-    "clear"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nathanbuchar/electron-settings"
+  "private": false,
+  "description": "📝 A simple persistent user settings manager for Electron.",
+  "fork": false,
+  "createdAt": "2015-11-01T22:48:04.000Z",
+  "updatedAt": "2016-08-09T11:36:06.000Z",
+  "pushedAt": "2016-08-12T18:15:54.000Z",
+  "homepage": "https://npmjs.org/package/electron-settings",
+  "size": 141,
+  "stargazersCount": 43,
+  "watchersCount": 43,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 13,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 43,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "Nathan Buchar <hello@nathanbuchar.com>",
-  "contributors": [
-    {
-      "name": "Nathan Buchar",
-      "email": "hello@nathanbuchar.com",
-      "web": "http://nathanbuchar,com/"
+  "license": null,
+  "networkCount": 13,
+  "subscribersCount": 7,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-settings",
+    "version": "2.1.1",
+    "description": "A simple persistent user settings manager for Electron.",
+    "main": "index.js",
+    "scripts": {
+      "test": "electron-mocha test && electron-mocha --renderer test"
     },
-    {
-      "name": "Kai Eichinger",
-      "email": "kai.eichinger@outlook.com"
-    }
-  ],
-  "license": "ISC",
-  "dependencies": {
-    "clone": "^1.0.2",
-    "debug": "^2.2.0",
-    "deep-equal": "^1.0.1",
-    "deep-extend": "^0.4.1",
-    "file-exists": "^2.0.0",
-    "fs-extra": "^0.30.0",
-    "key-path-helpers": "^0.4.0"
-  },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "electron-mocha": "^2.3.0",
-    "electron-prebuilt": "^1.2.6",
-    "mocha": "^2.5.3"
-  },
-  "_librariesioMetadata": {
-    "full_name": "nathanbuchar/electron-settings",
-    "description": "📝 A simple persistent user settings manager for Electron.",
-    "fork": false,
-    "created_at": "2015-11-01T22:48:04.000Z",
-    "updated_at": "2016-08-06T15:20:34.473Z",
-    "pushed_at": "2016-08-03T06:43:27.000Z",
-    "homepage": "https://npmjs.org/package/electron-settings",
-    "size": 114,
-    "stargazers_count": 42,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 12,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 7,
-    "github_id": 45360814,
-    "source_name": null,
+    "keywords": [
+      "electron",
+      "app",
+      "user",
+      "data",
+      "settings",
+      "manager",
+      "config",
+      "json",
+      "storage",
+      "promise",
+      "has",
+      "get",
+      "set",
+      "delete",
+      "reset",
+      "clear"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/nathanbuchar/electron-settings"
+    },
+    "author": "Nathan Buchar <hello@nathanbuchar.com>",
+    "contributors": [
+      {
+        "name": "Nathan Buchar",
+        "email": "hello@nathanbuchar.com",
+        "web": "http://nathanbuchar,com/"
+      },
+      {
+        "name": "Kai Eichinger",
+        "email": "kai.eichinger@outlook.com"
+      }
+    ],
     "license": "ISC",
-    "private": false,
-    "github_contributions_count": 3,
-    "has_readme": "README.md",
-    "has_changelog": "CHANGELOG.md",
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-08-03T06:54:12.410Z",
-    "rank": null
-  }
+    "dependencies": {
+      "clone": "^1.0.2",
+      "debug": "^2.2.0",
+      "deep-equal": "^1.0.1",
+      "deep-extend": "^0.4.1",
+      "file-exists": "^2.0.0",
+      "fs-extra": "^0.30.0",
+      "key-path-helpers": "^0.4.0"
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "electron-mocha": "^2.3.0",
+      "electron-prebuilt": "^1.2.6",
+      "mocha": "^2.5.3"
+    }
+  },
+  "packageStatus": 200
 }

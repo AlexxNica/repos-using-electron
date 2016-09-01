@@ -1,90 +1,110 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "Joezo/kamori",
-    "description": "Unofficial desktop WhatsApp App",
-    "fork": false,
-    "created_at": "2015-09-25T08:55:20.000Z",
-    "updated_at": "2015-11-27T11:19:53.205Z",
-    "pushed_at": "2015-09-25T09:39:45.000Z",
-    "homepage": null,
-    "size": 0,
-    "stargazers_count": 2,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 0,
-    "github_id": 43124400,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 43124400,
   "name": "kamori",
-  "productName": "Kamori",
-  "version": "1.0.0",
-  "description": "Unofficial Desktop WhatsApp app",
-  "license": "MIT",
-  "repository": "joezo/kamori",
-  "author": {
-    "name": "Joe Warren",
-    "email": "joezo156@gmail.com",
-    "url": "joezo.com"
+  "fullName": "Joezo/kamori",
+  "owner": {
+    "login": "Joezo",
+    "id": 2870255,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2870255?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Joezo",
+    "htmlUrl": "https://github.com/Joezo",
+    "followersUrl": "https://api.github.com/users/Joezo/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Joezo/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Joezo/orgs",
+    "reposUrl": "https://api.github.com/users/Joezo/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Joezo/received_events",
+    "type": "User"
   },
-  "engines": {
-    "node": ">=4"
+  "private": false,
+  "description": "Unofficial desktop WhatsApp App",
+  "fork": false,
+  "createdAt": "2015-09-25T08:55:20.000Z",
+  "updatedAt": "2016-04-16T18:33:04.000Z",
+  "pushedAt": "2015-09-25T09:39:45.000Z",
+  "homepage": null,
+  "size": 2680,
+  "stargazersCount": 3,
+  "watchersCount": 3,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 3,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "electronVersion": "0.33.0",
-  "scripts": {
-    "test": "xo",
-    "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --ignore='^/media$' --prune --asar --platform=darwin --arch=x64 --icon=media/Icon.icns --app-bundle-id=com.joezo.kamori --app-version=$npm_package_version --version=$npm_package_electronVersion && cd dist/Kamori-darwin-x64 && zip -ryXq9 ../Kamori-${npm_package_version}.zip Kamori.app"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "files": [
-    "index.js",
-    "browser.js",
-    "browser.css",
-    "menu.js",
-    "media/Icon.icns"
-  ],
-  "keywords": [
-    "electron-app",
-    "whatsapp",
-    "chat",
-    "instant",
-    "messaging",
-    "kamori"
-  ],
-  "dependencies": {
-    "electron-debug": "^0.2.1"
-  },
-  "devDependencies": {
-    "electron-packager": "^5.1.0",
-    "electron-prebuilt": "^0.33.0",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true,
-    "envs": [
-      "node",
-      "browser"
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "kamori",
+    "productName": "Kamori",
+    "version": "1.0.0",
+    "description": "Unofficial Desktop WhatsApp app",
+    "license": "MIT",
+    "repository": "joezo/kamori",
+    "author": {
+      "name": "Joe Warren",
+      "email": "joezo156@gmail.com",
+      "url": "joezo.com"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "electronVersion": "0.33.0",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --ignore='^/media$' --prune --asar --platform=darwin --arch=x64 --icon=media/Icon.icns --app-bundle-id=com.joezo.kamori --app-version=$npm_package_version --version=$npm_package_electronVersion && cd dist/Kamori-darwin-x64 && zip -ryXq9 ../Kamori-${npm_package_version}.zip Kamori.app"
+    },
+    "files": [
+      "index.js",
+      "browser.js",
+      "browser.css",
+      "menu.js",
+      "media/Icon.icns"
     ],
-    "ignores": [
-      "dist/**"
-    ]
-  }
+    "keywords": [
+      "electron-app",
+      "whatsapp",
+      "chat",
+      "instant",
+      "messaging",
+      "kamori"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.2.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.33.0",
+      "xo": "*"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ],
+      "ignores": [
+        "dist/**"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

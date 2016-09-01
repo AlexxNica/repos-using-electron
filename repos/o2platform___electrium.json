@@ -1,63 +1,97 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "o2platform/electrium",
-    "description": "Browser automation based on Electron (similar to Selenium)",
-    "fork": false,
-    "created_at": "2016-05-24T08:46:47.000Z",
-    "updated_at": "2016-06-03T15:24:28.815Z",
-    "pushed_at": "2016-06-03T15:14:07.000Z",
-    "homepage": null,
-    "size": 26,
-    "stargazers_count": 0,
-    "language": "CoffeeScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 2,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 59556289,
-    "source_name": null,
-    "license": "Apache-2.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-03T15:24:28.791Z",
-    "rank": null
-  },
+  "id": 59556289,
   "name": "electrium",
-  "version": "0.0.7",
-  "description": "Browser automation based on Electron (similar to Selenium) ",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha --compilers coffee:coffee-script/register -- recursive test"
+  "fullName": "o2platform/electrium",
+  "owner": {
+    "login": "o2platform",
+    "id": 680354,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/680354?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/o2platform",
+    "htmlUrl": "https://github.com/o2platform",
+    "followersUrl": "https://api.github.com/users/o2platform/followers",
+    "subscriptionsUrl": "https://api.github.com/users/o2platform/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/o2platform/orgs",
+    "reposUrl": "https://api.github.com/users/o2platform/repos",
+    "receivedEventsUrl": "https://api.github.com/users/o2platform/received_events",
+    "type": "Organization"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/o2platform/electrium.git"
+  "private": false,
+  "description": "Browser automation based on Electron (similar to Selenium)",
+  "fork": false,
+  "createdAt": "2016-05-24T08:46:47.000Z",
+  "updatedAt": "2016-05-24T13:59:31.000Z",
+  "pushedAt": "2016-06-03T15:14:07.000Z",
+  "homepage": null,
+  "size": 26,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CoffeeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "Dinis Cruz",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/o2platform/electrium/issues"
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "featured": true
   },
-  "homepage": "https://github.com/o2platform/electrium#readme",
-  "dependencies": {
-    "coffee-script": "^1.10.0",
-    "electron-chromedriver": "~1.2.0",
-    "electron-prebuilt": "~1.2.0",
-    "fluentnode": "*",
-    "mocha": "^2.5.1",
-    "nesh": "^1.6.0",
-    "spectron": "^3.2.0"
-  }
+  "organization": {
+    "login": "o2platform",
+    "id": 680354,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/680354?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/o2platform",
+    "htmlUrl": "https://github.com/o2platform",
+    "followersUrl": "https://api.github.com/users/o2platform/followers",
+    "subscriptionsUrl": "https://api.github.com/users/o2platform/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/o2platform/orgs",
+    "reposUrl": "https://api.github.com/users/o2platform/repos",
+    "receivedEventsUrl": "https://api.github.com/users/o2platform/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "electrium",
+    "version": "0.0.7",
+    "description": "Browser automation based on Electron (similar to Selenium) ",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha --compilers coffee:coffee-script/register -- recursive test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/o2platform/electrium.git"
+    },
+    "author": "Dinis Cruz",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/o2platform/electrium/issues"
+    },
+    "homepage": "https://github.com/o2platform/electrium#readme",
+    "dependencies": {
+      "coffee-script": "^1.10.0",
+      "electron-chromedriver": "~1.2.0",
+      "electron-prebuilt": "~1.2.0",
+      "fluentnode": "*",
+      "mocha": "^2.5.1",
+      "nesh": "^1.6.0",
+      "spectron": "^3.2.0"
+    }
+  },
+  "packageStatus": 200
 }

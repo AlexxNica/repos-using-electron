@@ -1,68 +1,88 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "joridos/electron-hello-world",
-    "description": "Electron Hello World",
-    "fork": false,
-    "created_at": "2015-05-04T18:16:16.000Z",
-    "updated_at": "2015-11-05T15:01:11.864Z",
-    "pushed_at": "2015-05-04T20:13:14.000Z",
-    "homepage": null,
-    "size": 224,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 35051242,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 35051242,
   "name": "electron-hello-world",
-  "productName": "ElectronHelloWorld",
-  "version": "0.0.0",
-  "description": "My terrific app",
-  "license": "MIT",
-  "main": "index.js",
-  "repository": "joridos/electron-hello-world",
-  "author": {
-    "name": "Joridos",
-    "email": "joridoss@gmail.com",
-    "url": "joridos.com"
+  "fullName": "joridos/electron-hello-world",
+  "owner": {
+    "login": "joridos",
+    "id": 3149490,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3149490?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/joridos",
+    "htmlUrl": "https://github.com/joridos",
+    "followersUrl": "https://api.github.com/users/joridos/followers",
+    "subscriptionsUrl": "https://api.github.com/users/joridos/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/joridos/orgs",
+    "reposUrl": "https://api.github.com/users/joridos/repos",
+    "receivedEventsUrl": "https://api.github.com/users/joridos/received_events",
+    "type": "User"
   },
-  "engines": {
-    "node": ">=0.10.0"
+  "private": false,
+  "description": "Electron Hello World",
+  "fork": false,
+  "createdAt": "2015-05-04T18:16:16.000Z",
+  "updatedAt": "2016-04-21T16:12:15.000Z",
+  "pushedAt": "2015-05-04T20:13:14.000Z",
+  "homepage": null,
+  "size": 224,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --prune --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
-  "keywords": [
-    "electron-app"
-  ],
-  "devDependencies": {
-    "electron-packager": "^3.1.0",
-    "electron-prebuilt": "^0.25.1"
-  }
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-hello-world",
+    "productName": "ElectronHelloWorld",
+    "version": "0.0.0",
+    "description": "My terrific app",
+    "license": "MIT",
+    "main": "index.js",
+    "repository": "joridos/electron-hello-world",
+    "author": {
+      "name": "Joridos",
+      "email": "joridoss@gmail.com",
+      "url": "joridos.com"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --prune --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "devDependencies": {
+      "electron-packager": "^3.1.0",
+      "electron-prebuilt": "^0.25.1"
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,73 +1,107 @@
 {
+  "id": 62224954,
   "name": "weex-ide",
-  "productName": "Weex IDE",
-  "version": "0.1.2",
-  "description": "A WYSIWYG IDE for Weex",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-    "pack-app": "electron-packager ./ --platform=darwin --arch=x64 --out=package --overwrite --icon=./assets/weex_icon.icns",
-    "make-dmg": "electron-installer-dmg \"./package/Weex IDE-darwin-x64/Weex IDE.app\" \"Weex IDE\" --out=package --overwrite --icon=./assets/weex_icon.icns --background=./assets/weex_bg.png",
-    "prebuild": "rm -rf ./package/*",
-    "build": "npm run pack-app && npm run make-dmg"
+  "fullName": "weexteam/weex-ide",
+  "owner": {
+    "login": "weexteam",
+    "id": 19679046,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/19679046?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/weexteam",
+    "htmlUrl": "https://github.com/weexteam",
+    "followersUrl": "https://api.github.com/users/weexteam/followers",
+    "subscriptionsUrl": "https://api.github.com/users/weexteam/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/weexteam/orgs",
+    "reposUrl": "https://api.github.com/users/weexteam/repos",
+    "receivedEventsUrl": "https://api.github.com/users/weexteam/received_events",
+    "type": "Organization"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:weexteam/weex-ide.git"
+  "private": false,
+  "description": "A simple IDE for quickly experiencing.",
+  "fork": false,
+  "createdAt": "2016-06-29T12:42:11.000Z",
+  "updatedAt": "2016-08-04T07:59:37.000Z",
+  "pushedAt": "2016-07-18T09:22:51.000Z",
+  "homepage": null,
+  "size": 194,
+  "stargazersCount": 14,
+  "watchersCount": 14,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 4,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 14,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "weex",
-    "IDE",
-    "Electron"
-  ],
-  "author": "Terry King <terrykingcha@gmail.com>",
-  "license": "CC0-1.0",
-  "devDependencies": {
-    "electron-installer-dmg": "^0.1.1",
-    "electron-packager": "^7.0.4",
-    "electron-prebuilt": "^1.2.0",
-    "weex-html5": "^0.2.18"
+  "license": {
+    "key": "cc0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "spdxId": "CC0-1.0",
+    "url": "https://api.github.com/licenses/cc0-1.0",
+    "featured": false
   },
-  "dependencies": {
-    "codemirror": "^5.16.0",
-    "finalhandler": "^0.5.0",
-    "local-ip": "^1.0.1",
-    "serve-static": "^1.11.1",
-    "weex-transformer": "^0.3.1"
+  "organization": {
+    "login": "weexteam",
+    "id": 19679046,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/19679046?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/weexteam",
+    "htmlUrl": "https://github.com/weexteam",
+    "followersUrl": "https://api.github.com/users/weexteam/followers",
+    "subscriptionsUrl": "https://api.github.com/users/weexteam/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/weexteam/orgs",
+    "reposUrl": "https://api.github.com/users/weexteam/repos",
+    "receivedEventsUrl": "https://api.github.com/users/weexteam/received_events",
+    "type": "Organization"
   },
-  "_librariesioMetadata": {
-    "full_name": "weexteam/weex-ide",
-    "description": "A simple IDE for quickly experiencing.",
-    "fork": false,
-    "created_at": "2016-06-29T12:42:11.000Z",
-    "updated_at": "2016-07-22T07:36:27.592Z",
-    "pushed_at": "2016-07-18T09:22:51.000Z",
-    "homepage": null,
-    "size": 193,
-    "stargazers_count": 10,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 2,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 8,
-    "github_id": 62224954,
-    "source_name": null,
+  "networkCount": 4,
+  "subscribersCount": 9,
+  "status": 200,
+  "packageJSON": {
+    "name": "weex-ide",
+    "productName": "Weex IDE",
+    "version": "0.1.2",
+    "description": "A WYSIWYG IDE for Weex",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "pack-app": "electron-packager ./ --platform=darwin --arch=x64 --out=package --overwrite --icon=./assets/weex_icon.icns",
+      "make-dmg": "electron-installer-dmg \"./package/Weex IDE-darwin-x64/Weex IDE.app\" \"Weex IDE\" --out=package --overwrite --icon=./assets/weex_icon.icns --background=./assets/weex_bg.png",
+      "prebuild": "rm -rf ./package/*",
+      "build": "npm run pack-app && npm run make-dmg"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:weexteam/weex-ide.git"
+    },
+    "keywords": [
+      "weex",
+      "IDE",
+      "Electron"
+    ],
+    "author": "Terry King <terrykingcha@gmail.com>",
     "license": "CC0-1.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": "CHANGELOG.md",
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-30T06:26:17.071Z",
-    "rank": null
-  }
+    "devDependencies": {
+      "electron-installer-dmg": "^0.1.1",
+      "electron-packager": "^7.0.4",
+      "electron-prebuilt": "^1.2.0",
+      "weex-html5": "^0.2.18"
+    },
+    "dependencies": {
+      "codemirror": "^5.16.0",
+      "finalhandler": "^0.5.0",
+      "local-ip": "^1.0.1",
+      "serve-static": "^1.11.1",
+      "weex-transformer": "^0.3.1"
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,87 +1,107 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "Franky47/electron-sandbox",
-    "description": "Testing Electron",
-    "fork": false,
-    "created_at": "2015-07-20T17:48:50.000Z",
-    "updated_at": "2016-04-26T02:49:03.728Z",
-    "pushed_at": "2015-07-23T08:28:11.000Z",
-    "homepage": null,
-    "size": 5300,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 39399092,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-26T02:49:03.705Z",
-    "rank": null
-  },
+  "id": 39399092,
   "name": "electron-sandbox",
-  "productName": "Electron Sandbox",
-  "version": "0.0.0",
+  "fullName": "Franky47/electron-sandbox",
+  "owner": {
+    "login": "Franky47",
+    "id": 1174092,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1174092?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Franky47",
+    "htmlUrl": "https://github.com/Franky47",
+    "followersUrl": "https://api.github.com/users/Franky47/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Franky47/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Franky47/orgs",
+    "reposUrl": "https://api.github.com/users/Franky47/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Franky47/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Testing Electron",
-  "license": "MIT",
-  "main": "src/app/scripts/main.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Franky47/electron-sandbox"
+  "fork": false,
+  "createdAt": "2015-07-20T17:48:50.000Z",
+  "updatedAt": "2015-07-20T17:49:59.000Z",
+  "pushedAt": "2015-07-23T08:28:11.000Z",
+  "homepage": null,
+  "size": 5300,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": {
-    "name": "Francois Best",
-    "email": "francois.best@fortyseveneffects.com",
-    "url": "http://fortyseveneffects.com"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "engines": {
-    "node": ">=0.12.7"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-sandbox",
+    "productName": "Electron Sandbox",
+    "version": "0.0.0",
+    "description": "Testing Electron",
+    "license": "MIT",
+    "main": "src/app/scripts/main.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Franky47/electron-sandbox"
+    },
+    "author": {
+      "name": "Francois Best",
+      "email": "francois.best@fortyseveneffects.com",
+      "url": "http://fortyseveneffects.com"
+    },
+    "engines": {
+      "node": ">=0.12.7"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --platform=darwin --arch=x64 --version=0.28.2",
+      "test": "echo Todo: add some tests"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.1.1"
+    },
+    "devDependencies": {
+      "electron-connect": "^0.2.1",
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.29.2",
+      "gulp": "^3.9.0",
+      "gulp-jade": "^1.0.1",
+      "gulp-jscs": "^1.6.0",
+      "gulp-jshint": "^1.11.2",
+      "gulp-plumber": "^1.0.1",
+      "gulp-sass": "^2.0.4",
+      "gulp-svg-symbols": "^0.3.1",
+      "gulp-util": "^3.0.6",
+      "jshint-stylish": "^2.0.1",
+      "minimist": "^1.1.1",
+      "rimraf": "^2.4.2"
+    }
   },
-  "scripts": {
-    "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --platform=darwin --arch=x64 --version=0.28.2",
-    "test": "echo Todo: add some tests"
-  },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
-  "keywords": [
-    "electron-app"
-  ],
-  "dependencies": {
-    "electron-debug": "^0.1.1"
-  },
-  "devDependencies": {
-    "electron-connect": "^0.2.1",
-    "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.29.2",
-    "gulp": "^3.9.0",
-    "gulp-jade": "^1.0.1",
-    "gulp-jscs": "^1.6.0",
-    "gulp-jshint": "^1.11.2",
-    "gulp-plumber": "^1.0.1",
-    "gulp-sass": "^2.0.4",
-    "gulp-svg-symbols": "^0.3.1",
-    "gulp-util": "^3.0.6",
-    "jshint-stylish": "^2.0.1",
-    "minimist": "^1.1.1",
-    "rimraf": "^2.4.2"
-  }
+  "packageStatus": 200
 }

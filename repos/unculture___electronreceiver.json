@@ -1,72 +1,92 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "unculture/electronreceiver",
-    "description": "",
-    "fork": false,
-    "created_at": "2015-09-21T09:33:46.000Z",
-    "updated_at": "2016-05-28T05:50:53.199Z",
-    "pushed_at": "2015-09-21T11:33:45.000Z",
-    "homepage": null,
-    "size": 108,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 42857062,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 0,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T05:50:53.177Z",
-    "rank": null
-  },
+  "id": 42857062,
   "name": "electronreceiver",
-  "productName": "Electronreceiver",
-  "version": "0.0.0",
-  "description": "My premium app",
-  "license": "MIT",
-  "repository": "unculture/electronreceiver",
-  "author": {
-    "name": "",
-    "email": "",
-    "url": "jamesbrowne.me"
+  "fullName": "unculture/electronreceiver",
+  "owner": {
+    "login": "unculture",
+    "id": 600547,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/600547?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/unculture",
+    "htmlUrl": "https://github.com/unculture",
+    "followersUrl": "https://api.github.com/users/unculture/followers",
+    "subscriptionsUrl": "https://api.github.com/users/unculture/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/unculture/orgs",
+    "reposUrl": "https://api.github.com/users/unculture/repos",
+    "receivedEventsUrl": "https://api.github.com/users/unculture/received_events",
+    "type": "User"
   },
-  "engines": {
-    "node": ">=4"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2015-09-21T09:33:46.000Z",
+  "updatedAt": "2015-09-21T11:33:46.000Z",
+  "pushedAt": "2015-09-21T11:33:45.000Z",
+  "homepage": null,
+  "size": 108,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "electronVersion": "0.33.0",
-  "scripts": {
-    "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
-  "keywords": [
-    "electron-app"
-  ],
-  "dependencies": {
-    "electron-debug": "^0.1.1",
-    "menubar": "^2.2.1"
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "electronreceiver",
+    "productName": "Electronreceiver",
+    "version": "0.0.0",
+    "description": "My premium app",
+    "license": "MIT",
+    "repository": "unculture/electronreceiver",
+    "author": {
+      "name": "",
+      "email": "",
+      "url": "jamesbrowne.me"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "electronVersion": "0.33.0",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.1.1",
+      "menubar": "^2.2.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.33.0"
+    }
   },
-  "devDependencies": {
-    "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.33.0"
-  }
+  "packageStatus": 200
 }

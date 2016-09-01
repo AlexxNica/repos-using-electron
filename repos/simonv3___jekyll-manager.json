@@ -1,71 +1,91 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "simonv3/jekyll-manager",
-    "description": "A Jekyll Manager",
-    "fork": false,
-    "created_at": "2016-02-18T11:14:31.000Z",
-    "updated_at": "2016-02-18T16:03:21.000Z",
-    "pushed_at": "2016-02-29T19:22:07.000Z",
-    "homepage": null,
-    "size": 23,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 52002022,
-    "source_name": null,
-    "license": "CC0-1.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 52002022,
   "name": "jekyll-manager",
-  "version": "0.0.1",
-  "description": "An Electron Jekyll Manager",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js"
+  "fullName": "simonv3/jekyll-manager",
+  "owner": {
+    "login": "simonv3",
+    "id": 485583,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/485583?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/simonv3",
+    "htmlUrl": "https://github.com/simonv3",
+    "followersUrl": "https://api.github.com/users/simonv3/followers",
+    "subscriptionsUrl": "https://api.github.com/users/simonv3/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/simonv3/orgs",
+    "reposUrl": "https://api.github.com/users/simonv3/repos",
+    "receivedEventsUrl": "https://api.github.com/users/simonv3/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/simonv3/jekyll-manager.git"
+  "private": false,
+  "description": "A Jekyll Manager",
+  "fork": false,
+  "createdAt": "2016-02-18T11:14:31.000Z",
+  "updatedAt": "2016-06-16T14:01:45.000Z",
+  "pushedAt": "2016-02-29T19:22:07.000Z",
+  "homepage": null,
+  "size": 23,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "Electron",
-    "jekyll",
-    "manager"
-  ],
-  "author": "Simon Vansintjan",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/simonv3/jekyll-manager/issues"
+  "license": {
+    "key": "cc0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "spdxId": "CC0-1.0",
+    "url": "https://api.github.com/licenses/cc0-1.0",
+    "featured": false
   },
-  "homepage": "https://github.com/simonv3/jekyll-manager#readme",
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.0",
-    "electron-connect": "^0.3.7",
-    "gulp": "^3.9.1"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "jekyll-manager",
+    "version": "0.0.1",
+    "description": "An Electron Jekyll Manager",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/simonv3/jekyll-manager.git"
+    },
+    "keywords": [
+      "Electron",
+      "jekyll",
+      "manager"
+    ],
+    "author": "Simon Vansintjan",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/simonv3/jekyll-manager/issues"
+    },
+    "homepage": "https://github.com/simonv3/jekyll-manager#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0",
+      "electron-connect": "^0.3.7",
+      "gulp": "^3.9.1"
+    },
+    "dependencies": {
+      "promise": "^7.1.1",
+      "rimraf": "^2.5.2",
+      "simple-git": "^1.26.2",
+      "walk": "^2.3.9",
+      "watch": "^0.17.1"
+    }
   },
-  "dependencies": {
-    "promise": "^7.1.1",
-    "rimraf": "^2.5.2",
-    "simple-git": "^1.26.2",
-    "walk": "^2.3.9",
-    "watch": "^0.17.1"
-  }
+  "packageStatus": 200
 }

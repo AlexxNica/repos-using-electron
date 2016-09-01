@@ -1,59 +1,73 @@
 {
-  "name": "secureurlmanager",
-  "productName": "Secure URL Manager",
-  "description": "URL Manager for Mac OSX via Menubar",
-  "devDependencies": {
-    "electron-builder": "^5.14.2",
-    "electron-prebuilt": "^1.2.8"
+  "id": 64607678,
+  "name": "secure-url-manager",
+  "fullName": "leemm/secure-url-manager",
+  "owner": {
+    "login": "leemm",
+    "id": 316655,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/316655?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/leemm",
+    "htmlUrl": "https://github.com/leemm",
+    "followersUrl": "https://api.github.com/users/leemm/followers",
+    "subscriptionsUrl": "https://api.github.com/users/leemm/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/leemm/orgs",
+    "reposUrl": "https://api.github.com/users/leemm/repos",
+    "receivedEventsUrl": "https://api.github.com/users/leemm/received_events",
+    "type": "User"
   },
-  "build": {
-    "appId": "co.uk.chewedup.secure-url-manager",
-    "app-category-type": "public.app-category.productivity",
-    "iconUrl": "https://s3-eu-west-1.amazonaws.com/unofficial-player/icon.ico",
-    "osx": {}
+  "private": false,
+  "description": "DO NOT USE",
+  "fork": false,
+  "createdAt": "2016-07-31T18:00:39.000Z",
+  "updatedAt": "2016-07-31T18:01:28.000Z",
+  "pushedAt": "2016-07-31T18:01:27.000Z",
+  "homepage": null,
+  "size": 191,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "postinstall": "install-app-deps",
-    "start": "electron ./app --enable-logging",
-    "dev": "NODE_ENV='development' npm run start",
-    "dist": "npm run dist:osx"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "secureurlmanager",
+    "productName": "Secure URL Manager",
+    "description": "URL Manager for Mac OSX via Menubar",
+    "devDependencies": {
+      "electron-builder": "^5.14.2",
+      "electron-prebuilt": "^1.2.8"
+    },
+    "build": {
+      "appId": "co.uk.chewedup.secure-url-manager",
+      "app-category-type": "public.app-category.productivity",
+      "iconUrl": "https://s3-eu-west-1.amazonaws.com/unofficial-player/icon.ico",
+      "osx": {}
+    },
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "start": "electron ./app --enable-logging",
+      "dev": "NODE_ENV='development' npm run start",
+      "dist": "npm run dist:osx"
+    },
+    "dependencies": {
+      "fs-extra": "^0.30.0"
+    }
   },
-  "dependencies": {
-    "fs-extra": "^0.30.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "leemm/secure-url-manager",
-    "description": "DO NOT USE",
-    "fork": false,
-    "created_at": "2016-07-31T18:00:39.000Z",
-    "updated_at": "2016-07-31T18:02:27.998Z",
-    "pushed_at": "2016-07-31T18:01:27.000Z",
-    "homepage": null,
-    "size": 0,
-    "stargazers_count": 0,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 64607678,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-31T18:02:27.968Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

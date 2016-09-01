@@ -1,76 +1,96 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "nathanial/pdf-template-lib",
-    "description": "Template language for generating PDF files with pdfkit",
-    "fork": false,
-    "created_at": "2016-02-11T04:16:19.000Z",
-    "updated_at": "2016-05-28T04:41:05.117Z",
-    "pushed_at": "2016-02-26T22:32:22.000Z",
-    "homepage": null,
-    "size": 11,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 51493487,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T04:41:05.096Z",
-    "rank": null
-  },
+  "id": 51493487,
   "name": "pdf-template-lib",
-  "version": "0.0.9",
-  "description": "XML based template language for generating PDFs with pdfkit",
-  "main": "build/index.js",
-  "scripts": {
-    "prepublish": "gulp dist",
-    "start": "electron ."
+  "fullName": "nathanial/pdf-template-lib",
+  "owner": {
+    "login": "nathanial",
+    "id": 18703,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/18703?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/nathanial",
+    "htmlUrl": "https://github.com/nathanial",
+    "followersUrl": "https://api.github.com/users/nathanial/followers",
+    "subscriptionsUrl": "https://api.github.com/users/nathanial/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/nathanial/orgs",
+    "reposUrl": "https://api.github.com/users/nathanial/repos",
+    "receivedEventsUrl": "https://api.github.com/users/nathanial/received_events",
+    "type": "User"
   },
-  "files": [
-    "build"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/nathanial/pdf-template-lib.git"
+  "private": false,
+  "description": "Template language for generating PDF files with pdfkit",
+  "fork": false,
+  "createdAt": "2016-02-11T04:16:19.000Z",
+  "updatedAt": "2016-02-11T04:24:43.000Z",
+  "pushedAt": "2016-02-26T22:32:22.000Z",
+  "homepage": null,
+  "size": 11,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "dependencies": {
-    "babel-runtime": "5.8.20",
-    "underscore": "1.8.3",
-    "xml2js": "0.4.15",
-    "pdfkit": "0.7.1",
-    "wolfy87-eventemitter": "4.3.0"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "devDependencies": {
-    "jquery": "2.1.4",
-    "jquery-ui": "1.10.5",
-    "gulp": "^3.9.0",
-    "gulp-babel": "^5.2.0",
-    "gulp-less": "^3.0.3",
-    "gulp-preprocess": "^2.0.0",
-    "gulp-util": "^3.0.6",
-    "gulp-watch": "^4.3.4",
-    "require-dir": "^0.3.0",
-    "electron-connect": "^0.3.3",
-    "electron-prebuilt": "0.34.2",
-    "merge-stream": "^1.0.0",
-    "react": "*",
-    "react-dom": "*",
-    "react-es6-component": "*"
-  }
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "pdf-template-lib",
+    "version": "0.0.9",
+    "description": "XML based template language for generating PDFs with pdfkit",
+    "main": "build/index.js",
+    "scripts": {
+      "prepublish": "gulp dist",
+      "start": "electron ."
+    },
+    "files": [
+      "build"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/nathanial/pdf-template-lib.git"
+    },
+    "dependencies": {
+      "babel-runtime": "5.8.20",
+      "underscore": "1.8.3",
+      "xml2js": "0.4.15",
+      "pdfkit": "0.7.1",
+      "wolfy87-eventemitter": "4.3.0"
+    },
+    "devDependencies": {
+      "jquery": "2.1.4",
+      "jquery-ui": "1.10.5",
+      "gulp": "^3.9.0",
+      "gulp-babel": "^5.2.0",
+      "gulp-less": "^3.0.3",
+      "gulp-preprocess": "^2.0.0",
+      "gulp-util": "^3.0.6",
+      "gulp-watch": "^4.3.4",
+      "require-dir": "^0.3.0",
+      "electron-connect": "^0.3.3",
+      "electron-prebuilt": "0.34.2",
+      "merge-stream": "^1.0.0",
+      "react": "*",
+      "react-dom": "*",
+      "react-es6-component": "*"
+    }
+  },
+  "packageStatus": 200
 }

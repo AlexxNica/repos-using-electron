@@ -1,61 +1,95 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "qmlweb/qmlweb-viewer",
-    "description": "Bringing QmlWeb to your desktop",
-    "fork": false,
-    "created_at": "2016-07-02T00:36:00.000Z",
-    "updated_at": "2016-07-11T06:52:22.746Z",
-    "pushed_at": "2016-07-03T21:49:56.000Z",
-    "homepage": null,
-    "size": 12,
-    "stargazers_count": 3,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 62426817,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-03T21:54:11.121Z",
-    "rank": null
-  },
+  "id": 62426817,
   "name": "qmlweb-viewer",
-  "version": "0.0.4",
+  "fullName": "qmlweb/qmlweb-viewer",
+  "owner": {
+    "login": "qmlweb",
+    "id": 17229645,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/17229645?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/qmlweb",
+    "htmlUrl": "https://github.com/qmlweb",
+    "followersUrl": "https://api.github.com/users/qmlweb/followers",
+    "subscriptionsUrl": "https://api.github.com/users/qmlweb/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/qmlweb/orgs",
+    "reposUrl": "https://api.github.com/users/qmlweb/repos",
+    "receivedEventsUrl": "https://api.github.com/users/qmlweb/received_events",
+    "type": "Organization"
+  },
+  "private": false,
   "description": "Bringing QmlWeb to your desktop",
-  "license": "MIT",
-  "repository": "qmlweb/qmlweb-viewer",
-  "main": "main.js",
-  "bin": {
-    "qmlweb-viewer": "qmlweb-viewer.js"
+  "fork": false,
+  "createdAt": "2016-07-02T00:36:00.000Z",
+  "updatedAt": "2016-07-11T06:51:10.000Z",
+  "pushedAt": "2016-07-10T02:55:13.000Z",
+  "homepage": null,
+  "size": 10,
+  "stargazersCount": 5,
+  "watchersCount": 5,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 5,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "start": "electron ."
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "dependencies": {
-    "electron-prebuilt": "^1.2.0",
-    "minimist": "^1.2.0",
-    "qmlweb": "^0.1.0"
+  "organization": {
+    "login": "qmlweb",
+    "id": 17229645,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/17229645?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/qmlweb",
+    "htmlUrl": "https://github.com/qmlweb",
+    "followersUrl": "https://api.github.com/users/qmlweb/followers",
+    "subscriptionsUrl": "https://api.github.com/users/qmlweb/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/qmlweb/orgs",
+    "reposUrl": "https://api.github.com/users/qmlweb/repos",
+    "receivedEventsUrl": "https://api.github.com/users/qmlweb/received_events",
+    "type": "Organization"
   },
-  "files": [
-    "AUTHORS",
-    "LICENSE",
-    "README.md",
-    "*.html",
-    "*.js"
-  ]
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "qmlweb-viewer",
+    "version": "0.0.4",
+    "description": "Bringing QmlWeb to your desktop",
+    "license": "MIT",
+    "repository": "qmlweb/qmlweb-viewer",
+    "main": "main.js",
+    "bin": {
+      "qmlweb-viewer": "qmlweb-viewer.js"
+    },
+    "scripts": {
+      "start": "electron ."
+    },
+    "dependencies": {
+      "electron-prebuilt": "^1.2.0",
+      "minimist": "^1.2.0",
+      "qmlweb": "^0.1.0"
+    },
+    "files": [
+      "AUTHORS",
+      "LICENSE",
+      "README.md",
+      "*.html",
+      "*.js"
+    ]
+  },
+  "packageStatus": 200
 }

@@ -1,73 +1,101 @@
 {
+  "id": 64087867,
   "name": "deditor",
-  "main": "index.js",
-  "version": "0.1.0",
-  "description": "deditor thing",
-  "contributors": [
-    {
-      "name": "Javier Carrillo"
+  "fullName": "jsbdogs/deditor",
+  "owner": {
+    "login": "jsbdogs",
+    "id": 20668362,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/20668362?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/jsbdogs",
+    "htmlUrl": "https://github.com/jsbdogs",
+    "followersUrl": "https://api.github.com/users/jsbdogs/followers",
+    "subscriptionsUrl": "https://api.github.com/users/jsbdogs/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/jsbdogs/orgs",
+    "reposUrl": "https://api.github.com/users/jsbdogs/repos",
+    "receivedEventsUrl": "https://api.github.com/users/jsbdogs/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "description": "little fingers",
+  "fork": false,
+  "createdAt": "2016-07-24T22:10:19.000Z",
+  "updatedAt": "2016-07-26T18:19:18.000Z",
+  "pushedAt": "2016-07-26T21:30:24.000Z",
+  "homepage": null,
+  "size": 14,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "organization": {
+    "login": "jsbdogs",
+    "id": 20668362,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/20668362?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/jsbdogs",
+    "htmlUrl": "https://github.com/jsbdogs",
+    "followersUrl": "https://api.github.com/users/jsbdogs/followers",
+    "subscriptionsUrl": "https://api.github.com/users/jsbdogs/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/jsbdogs/orgs",
+    "reposUrl": "https://api.github.com/users/jsbdogs/repos",
+    "receivedEventsUrl": "https://api.github.com/users/jsbdogs/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "deditor",
+    "main": "index.js",
+    "version": "0.1.0",
+    "description": "deditor thing",
+    "contributors": [
+      {
+        "name": "Javier Carrillo"
+      },
+      {
+        "name": "Jose Martos"
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/stringparser/deditor",
+    "dependencies": {
+      "brace": "^0.8.0",
+      "babel-core": "^5.2.9",
+      "babel-loader": "^5.0.0",
+      "electron-prebuilt": "^1.2.8",
+      "eslint": "^3.1.1",
+      "eslint-plugin-react": "^5.2.2",
+      "gulp": "gulpjs/gulp#4.0",
+      "gulp-autoprefixer": "^3.1.0",
+      "gulp-concat": "^2.6.0",
+      "gulp-less": "^3.1.0",
+      "gulp-load-plugins": "^1.2.4",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-webpack": "^1.5.0",
+      "jsx-loader": "^0.13.2",
+      "react": "^15.2.1",
+      "react-dom": "^15.2.1",
+      "webpack": "^1.13.1"
     },
-    {
-      "name": "Jose Martos"
+    "scripts": {
+      "start": "electron ."
     }
-  ],
-  "license": "MIT",
-  "homepage": "https://github.com/stringparser/deditor",
-  "dependencies": {
-    "brace": "^0.8.0",
-    "babel-core": "^5.2.9",
-    "babel-loader": "^5.0.0",
-    "electron-prebuilt": "^1.2.8",
-    "eslint": "^3.1.1",
-    "eslint-plugin-react": "^5.2.2",
-    "gulp": "gulpjs/gulp#4.0",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-less": "^3.1.0",
-    "gulp-load-plugins": "^1.2.4",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-webpack": "^1.5.0",
-    "jsx-loader": "^0.13.2",
-    "react": "^15.2.1",
-    "react-dom": "^15.2.1",
-    "webpack": "^1.13.1"
   },
-  "scripts": {
-    "start": "electron ."
-  },
-  "_librariesioMetadata": {
-    "full_name": "jsbdogs/deditor",
-    "description": "little fingers",
-    "fork": false,
-    "created_at": "2016-07-24T22:10:19.000Z",
-    "updated_at": "2016-07-26T18:19:18.000Z",
-    "pushed_at": "2016-07-24T22:18:09.000Z",
-    "homepage": null,
-    "size": 7,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 64087867,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-26T18:21:00.735Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

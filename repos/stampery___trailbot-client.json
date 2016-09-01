@@ -1,54 +1,115 @@
 {
-  "name": "trailbot-client",
-  "version": "0.1.0",
-  "main": "main.js",
-  "dependencies": {
-    "iced-coffee-script": "^108.0.11",
-    "ipc": "0.0.1",
-    "mkdirp": "^0.5.1",
-    "simple-git": "^1.41.0"
+  "id": 63685214,
+  "name": "client",
+  "fullName": "trailbot/client",
+  "owner": {
+    "login": "trailbot",
+    "id": 19817201,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/19817201?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/trailbot",
+    "htmlUrl": "https://github.com/trailbot",
+    "followersUrl": "https://api.github.com/users/trailbot/followers",
+    "subscriptionsUrl": "https://api.github.com/users/trailbot/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/trailbot/orgs",
+    "reposUrl": "https://api.github.com/users/trailbot/repos",
+    "receivedEventsUrl": "https://api.github.com/users/trailbot/received_events",
+    "type": "Organization"
   },
-  "scripts": {
-    "start": "electron .",
-    "start-dev": "DEV=true electron . --ignore-certificate-errors"
+  "private": false,
+  "description": "Trailbot tracks files and logs in your servers and triggers Smart Policies upon unwanted modification.",
+  "fork": false,
+  "createdAt": "2016-07-19T10:39:25.000Z",
+  "updatedAt": "2016-08-14T18:37:29.000Z",
+  "pushedAt": "2016-08-14T18:27:46.000Z",
+  "homepage": "https://trailbot.io",
+  "size": 37,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "CoffeeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 6,
+  "openIssues": 6,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-prebuilt": "^1.2.2",
-    "jquery": "^3.0.0"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "_librariesioMetadata": {
-    "full_name": "stampery/trailbot-client",
-    "description": "Electron desktop client for managing your TrailBot watchers",
-    "fork": false,
-    "created_at": "2016-07-19T10:39:25.000Z",
-    "updated_at": "2016-07-19T13:13:09.643Z",
-    "pushed_at": "2016-07-19T10:41:24.000Z",
-    "homepage": null,
-    "size": 2,
-    "stargazers_count": 0,
-    "language": "CoffeeScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 63685214,
-    "source_name": null,
+  "organization": {
+    "login": "trailbot",
+    "id": 19817201,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/19817201?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/trailbot",
+    "htmlUrl": "https://github.com/trailbot",
+    "followersUrl": "https://api.github.com/users/trailbot/followers",
+    "subscriptionsUrl": "https://api.github.com/users/trailbot/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/trailbot/orgs",
+    "reposUrl": "https://api.github.com/users/trailbot/repos",
+    "receivedEventsUrl": "https://api.github.com/users/trailbot/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 1,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "trailbot-client",
+    "version": "0.2.0",
+    "description": "TrailBot tracks files and logs in your server and triggers smart policies upon unwanted modification.",
+    "keywords": [
+      "siem",
+      "sem",
+      "monitor",
+      "watch",
+      "logs",
+      "trailbot",
+      "audit trail",
+      "integrity",
+      "blockchain"
+    ],
+    "repository": "https://github.com/trailbot/client",
+    "homepage": "https://trailbot.io",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-19T13:13:09.622Z",
-    "rank": null
-  }
+    "author": "Adán Sánchez de Pedro Crespo <adan@stampery.com>",
+    "contributors": [],
+    "dependencies": {
+      "electron-bin": "^0.37.3",
+      "iced-coffee-script": "^108.0.11",
+      "ipc": "0.0.1",
+      "mkdirp": "^0.5.1",
+      "request": "^2.74.0",
+      "simple-git": "^1.41.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.4.0",
+      "electron-prebuilt": "^1.2.2",
+      "jquery": "^3.0.0"
+    },
+    "main": "run.js",
+    "engines": {
+      "node": ">=5.0.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "start-dev": "DEV=true electron . --ignore-certificate-errors",
+      "package": "electron-packager . --all"
+    },
+    "bin": {
+      "trailbot-client": "./run.js"
+    }
+  },
+  "packageStatus": 200
 }

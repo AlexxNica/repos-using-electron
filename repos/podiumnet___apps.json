@@ -1,65 +1,99 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "podiumnet/apps",
-    "description": "Podium Apps Installer",
-    "fork": false,
-    "created_at": "2015-11-04T01:34:16.000Z",
-    "updated_at": "2016-03-02T16:07:26.843Z",
-    "pushed_at": "2015-11-04T01:34:39.000Z",
-    "homepage": null,
-    "size": 232,
-    "stargazers_count": 0,
-    "language": "CoffeeScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 45507382,
-    "source_name": null,
+  "id": 45507382,
+  "name": "apps",
+  "fullName": "podiumnet/apps",
+  "owner": {
+    "login": "podiumnet",
+    "id": 13813885,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/13813885?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/podiumnet",
+    "htmlUrl": "https://github.com/podiumnet",
+    "followersUrl": "https://api.github.com/users/podiumnet/followers",
+    "subscriptionsUrl": "https://api.github.com/users/podiumnet/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/podiumnet/orgs",
+    "reposUrl": "https://api.github.com/users/podiumnet/repos",
+    "receivedEventsUrl": "https://api.github.com/users/podiumnet/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "description": "Podium Apps Installer",
+  "fork": false,
+  "createdAt": "2015-11-04T01:34:16.000Z",
+  "updatedAt": "2015-11-04T01:34:40.000Z",
+  "pushedAt": "2015-11-04T01:34:39.000Z",
+  "homepage": null,
+  "size": 232,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CoffeeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "featured": true
+  },
+  "organization": {
+    "login": "podiumnet",
+    "id": 13813885,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/13813885?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/podiumnet",
+    "htmlUrl": "https://github.com/podiumnet",
+    "followersUrl": "https://api.github.com/users/podiumnet/followers",
+    "subscriptionsUrl": "https://api.github.com/users/podiumnet/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/podiumnet/orgs",
+    "reposUrl": "https://api.github.com/users/podiumnet/repos",
+    "receivedEventsUrl": "https://api.github.com/users/podiumnet/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "papps",
+    "version": "1.0.0",
+    "description": "Podium App Installer",
+    "main": "index.js",
+    "bin": {
+      "papps": "./startscript.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/podiumnet/papps.git"
+    },
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [
+      "apps"
+    ],
+    "author": "podium",
     "license": "GPL-3.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+    "bugs": {
+      "url": "https://github.com/podiumnet/papps/issues"
+    },
+    "homepage": "https://github.com/podiumnet/papps#readme",
+    "dependencies": {
+      "coffee-script": "^1.10.0",
+      "electron-prebuilt": "^0.34.2",
+      "npm": "^3.3.10"
+    }
   },
-  "name": "papps",
-  "version": "1.0.0",
-  "description": "Podium App Installer",
-  "main": "index.js",
-  "bin": {
-    "papps": "./startscript.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/podiumnet/papps.git"
-  },
-  "scripts": {
-    "start": "electron ."
-  },
-  "keywords": [
-    "apps"
-  ],
-  "author": "podium",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/podiumnet/papps/issues"
-  },
-  "homepage": "https://github.com/podiumnet/papps#readme",
-  "dependencies": {
-    "coffee-script": "^1.10.0",
-    "electron-prebuilt": "^0.34.2",
-    "npm": "^3.3.10"
-  }
+  "packageStatus": 200
 }

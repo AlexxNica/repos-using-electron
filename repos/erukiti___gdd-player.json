@@ -1,58 +1,72 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "erukiti/gdd-player",
-    "description": "Gochiusa Driven Development Video Player",
-    "fork": false,
-    "created_at": "2015-10-21T05:21:12.000Z",
-    "updated_at": "2016-02-29T16:05:57.436Z",
-    "pushed_at": "2015-10-30T14:58:31.000Z",
-    "homepage": null,
-    "size": 152,
-    "stargazers_count": 2,
-    "language": "CoffeeScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 44654391,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 44654391,
   "name": "gdd-player",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron src/index.js"
+  "fullName": "erukiti/gdd-player",
+  "owner": {
+    "login": "erukiti",
+    "id": 84027,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/84027?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/erukiti",
+    "htmlUrl": "https://github.com/erukiti",
+    "followersUrl": "https://api.github.com/users/erukiti/followers",
+    "subscriptionsUrl": "https://api.github.com/users/erukiti/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/erukiti/orgs",
+    "reposUrl": "https://api.github.com/users/erukiti/repos",
+    "receivedEventsUrl": "https://api.github.com/users/erukiti/received_events",
+    "type": "User"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "coffee-script": "^1.10.0",
-    "electron-prebuilt": "^0.34.1",
-    "node-ffprobe": "^1.2.2",
-    "nodobjc": "git+https://github.com/TooTallNate/NodObjC.git",
-    "rx": "^4.0.6",
-    "webrx": "^1.0.0"
+  "private": false,
+  "description": "Gochiusa Driven Development Video Player",
+  "fork": false,
+  "createdAt": "2015-10-21T05:21:12.000Z",
+  "updatedAt": "2015-10-21T17:40:49.000Z",
+  "pushedAt": "2015-10-30T14:58:31.000Z",
+  "homepage": null,
+  "size": 152,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "CoffeeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-packager": "^5.1.1"
-  }
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "gdd-player",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron src/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "coffee-script": "^1.10.0",
+      "electron-prebuilt": "^0.34.1",
+      "node-ffprobe": "^1.2.2",
+      "nodobjc": "git+https://github.com/TooTallNate/NodObjC.git",
+      "rx": "^4.0.6",
+      "webrx": "^1.0.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.1"
+    }
+  },
+  "packageStatus": 200
 }

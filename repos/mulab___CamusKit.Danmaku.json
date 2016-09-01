@@ -1,79 +1,113 @@
 {
-  "name": "camuskit-danmaku",
-  "productName": "Camuskit.Danmaku",
-  "version": "0.0.1",
-  "description": "CamusKit.Danmaku",
-  "license": "MIT",
-  "repository": "mulab/camuskit-danmaku",
-  "author": {
-    "name": "TennyZhuang",
-    "email": "zty0826@gmail.com",
-    "url": "lab.mu"
+  "id": 55473480,
+  "name": "CamusKit.Danmaku",
+  "fullName": "mulab/CamusKit.Danmaku",
+  "owner": {
+    "login": "mulab",
+    "id": 3843569,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3843569?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mulab",
+    "htmlUrl": "https://github.com/mulab",
+    "followersUrl": "https://api.github.com/users/mulab/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mulab/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mulab/orgs",
+    "reposUrl": "https://api.github.com/users/mulab/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mulab/received_events",
+    "type": "Organization"
   },
-  "electronVersion": "1.2.3",
-  "scripts": {
-    "postinstall": "bower install",
-    "test": "xo",
-    "start": "electron .",
-    "debug": "electron . debug",
-    "build": "electron-packager . --out=dist --ignore='^/dist$' --prune --asar --all"
+  "private": false,
+  "description": "A danmaku app of CamusKit series.",
+  "fork": false,
+  "createdAt": "2016-04-05T06:30:00.000Z",
+  "updatedAt": "2016-05-25T05:56:42.000Z",
+  "pushedAt": "2016-07-01T02:00:15.000Z",
+  "homepage": null,
+  "size": 40,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "electron-app",
-    "electron",
-    "danmaku"
-  ],
-  "dependencies": {
-    "electron-debug": "^0.5.0",
-    "socket.io": "^1.4.8"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "devDependencies": {
-    "bower": "^1.7.9",
-    "electron-packager": "^7.1.0",
-    "electron-prebuilt": "^1.2.5",
-    "eslint": "^2.13.1",
-    "xo": "^0.12.0"
+  "organization": {
+    "login": "mulab",
+    "id": 3843569,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3843569?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mulab",
+    "htmlUrl": "https://github.com/mulab",
+    "followersUrl": "https://api.github.com/users/mulab/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mulab/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mulab/orgs",
+    "reposUrl": "https://api.github.com/users/mulab/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mulab/received_events",
+    "type": "Organization"
   },
-  "xo": {
-    "esnext": true,
-    "envs": [
-      "node",
-      "browser"
-    ]
-  },
-  "_librariesioMetadata": {
-    "full_name": "mulab/CamusKit.Danmaku",
-    "description": "A danmaku app of CamusKit series.",
-    "fork": false,
-    "created_at": "2016-04-05T06:30:00.000Z",
-    "updated_at": "2016-06-28T22:02:42.382Z",
-    "pushed_at": "2016-06-28T22:02:17.000Z",
-    "homepage": null,
-    "size": 37,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 3,
-    "default_branch": "master",
-    "subscribers_count": 7,
-    "github_id": 55473480,
-    "source_name": null,
+  "networkCount": 1,
+  "subscribersCount": 9,
+  "status": 200,
+  "packageJSON": {
+    "name": "camuskit-danmaku",
+    "productName": "Camuskit.Danmaku",
+    "version": "0.0.1",
+    "description": "CamusKit.Danmaku",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 3,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T03:37:05.721Z",
-    "rank": null
-  }
+    "repository": "mulab/camuskit-danmaku",
+    "author": {
+      "name": "TennyZhuang",
+      "email": "zty0826@gmail.com",
+      "url": "lab.mu"
+    },
+    "electronVersion": "1.2.3",
+    "scripts": {
+      "postinstall": "bower install",
+      "test": "xo",
+      "start": "electron .",
+      "debug": "electron . debug",
+      "build": "electron-packager . --out=dist --ignore='^/dist$' --prune --asar --all"
+    },
+    "keywords": [
+      "electron-app",
+      "electron",
+      "danmaku"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.5.0",
+      "socket.io": "^1.4.8"
+    },
+    "devDependencies": {
+      "bower": "^1.7.9",
+      "electron-packager": "^7.1.0",
+      "electron-prebuilt": "^1.2.5",
+      "eslint": "^2.13.1",
+      "xo": "^0.12.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

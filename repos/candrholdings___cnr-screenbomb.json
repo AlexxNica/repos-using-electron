@@ -1,54 +1,82 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "candrholdings/cnr-screenbomb",
-    "description": "",
-    "fork": false,
-    "created_at": "2015-06-23T08:41:34.000Z",
-    "updated_at": "2016-03-01T18:58:57.172Z",
-    "pushed_at": "2015-12-26T17:32:41.000Z",
-    "homepage": null,
-    "size": 21,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 4,
-    "github_id": 37907313,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+  "id": 37907313,
+  "name": "cnr-screenbomb",
+  "fullName": "candrholdings/cnr-screenbomb",
+  "owner": {
+    "login": "candrholdings",
+    "id": 8736842,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8736842?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/candrholdings",
+    "htmlUrl": "https://github.com/candrholdings",
+    "followersUrl": "https://api.github.com/users/candrholdings/followers",
+    "subscriptionsUrl": "https://api.github.com/users/candrholdings/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/candrholdings/orgs",
+    "reposUrl": "https://api.github.com/users/candrholdings/repos",
+    "receivedEventsUrl": "https://api.github.com/users/candrholdings/received_events",
+    "type": "Organization"
   },
-  "name": "cnr-bomberman",
-  "version": "0.2.0",
-  "main": "main.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/candrholdings/cnr-screenbomb.git"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2015-06-23T08:41:34.000Z",
+  "updatedAt": "2015-12-26T16:07:32.000Z",
+  "pushedAt": "2015-12-26T17:32:41.000Z",
+  "homepage": null,
+  "size": 21,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "dependencies": {
-    "async": "^1.2.1",
-    "bluebird": "^3.1.1",
-    "electron-prebuilt": "^0.36.2",
-    "jquery": "^2.1.4",
-    "slack-client": "https://github.com/l12s/node-slack-client.git"
+  "license": null,
+  "organization": {
+    "login": "candrholdings",
+    "id": 8736842,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8736842?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/candrholdings",
+    "htmlUrl": "https://github.com/candrholdings",
+    "followersUrl": "https://api.github.com/users/candrholdings/followers",
+    "subscriptionsUrl": "https://api.github.com/users/candrholdings/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/candrholdings/orgs",
+    "reposUrl": "https://api.github.com/users/candrholdings/repos",
+    "receivedEventsUrl": "https://api.github.com/users/candrholdings/received_events",
+    "type": "Organization"
   },
-  "scripts": {
-    "run": "node ./node_modules/electron-prebuilt/cli.js main.js"
-  }
+  "networkCount": 0,
+  "subscribersCount": 5,
+  "status": 200,
+  "packageJSON": {
+    "name": "cnr-bomberman",
+    "version": "0.2.0",
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/candrholdings/cnr-screenbomb.git"
+    },
+    "dependencies": {
+      "async": "^1.2.1",
+      "bluebird": "^3.1.1",
+      "electron-prebuilt": "^0.36.2",
+      "jquery": "^2.1.4",
+      "slack-client": "https://github.com/l12s/node-slack-client.git"
+    },
+    "scripts": {
+      "run": "node ./node_modules/electron-prebuilt/cli.js main.js"
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,80 +1,94 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "maru-n/SP360Converter",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-01-13T21:54:31.000Z",
-    "updated_at": "2016-02-28T19:13:53.379Z",
-    "pushed_at": "2016-02-28T19:11:17.000Z",
-    "homepage": null,
-    "size": 1845,
-    "stargazers_count": 0,
-    "language": "C++",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 49604576,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 49604576,
   "name": "SP360Converter",
-  "version": "0.0.9",
-  "description": "Convert movie recored by SP360.",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "module:build": "cd module; node-gyp build",
-    "module:rebuild": "cd module; node-gyp rebuild",
-    "module:clean": "cd module; node-gyp clean",
-    "module:configure": "cd module; node-gyp configure",
-    "postinstall": "install-app-deps",
-    "pack": "build",
-    "dist": "build"
+  "fullName": "maru-n/SP360Converter",
+  "owner": {
+    "login": "maru-n",
+    "id": 1583412,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1583412?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/maru-n",
+    "htmlUrl": "https://github.com/maru-n",
+    "followersUrl": "https://api.github.com/users/maru-n/followers",
+    "subscriptionsUrl": "https://api.github.com/users/maru-n/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/maru-n/orgs",
+    "reposUrl": "https://api.github.com/users/maru-n/repos",
+    "receivedEventsUrl": "https://api.github.com/users/maru-n/received_events",
+    "type": "User"
   },
-  "keywords": [],
-  "author": "Norihiro Maruyama",
-  "license": "",
-  "repository": "",
-  "dependencies": {
-    "diskdb": "^0.1.14",
-    "electron-prebuilt": "^0.36.7"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2016-01-13T21:54:31.000Z",
+  "updatedAt": "2016-01-19T11:08:48.000Z",
+  "pushedAt": "2016-03-18T21:58:50.000Z",
+  "homepage": null,
+  "size": 1865,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "C++",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "build": {
-    "osx": {
-      "icon": "build/icon.icns",
-      "icon-size": 80,
-      "background": "build/background.png",
-      "contents": [
-        {
-          "x": 300,
-          "y": 120,
-          "type": "link",
-          "path": "/Applications"
-        },
-        {
-          "x": 100,
-          "y": 120,
-          "type": "file"
-        }
-      ]
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "SP360Converter",
+    "version": "0.0.9",
+    "description": "Convert movie recored by SP360.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "module:build": "cd module; node-gyp build",
+      "module:rebuild": "cd module; node-gyp rebuild",
+      "module:clean": "cd module; node-gyp clean",
+      "module:configure": "cd module; node-gyp configure",
+      "postinstall": "install-app-deps",
+      "pack": "build",
+      "dist": "build"
+    },
+    "keywords": [],
+    "author": "Norihiro Maruyama",
+    "license": "",
+    "repository": "",
+    "dependencies": {
+      "diskdb": "^0.1.14",
+      "electron-prebuilt": "^0.36.7"
+    },
+    "build": {
+      "osx": {
+        "icon": "build/icon.icns",
+        "icon-size": 80,
+        "background": "build/background.png",
+        "contents": [
+          {
+            "x": 300,
+            "y": 120,
+            "type": "link",
+            "path": "/Applications"
+          },
+          {
+            "x": 100,
+            "y": 120,
+            "type": "file"
+          }
+        ]
+      }
     }
-  }
+  },
+  "packageStatus": 200
 }

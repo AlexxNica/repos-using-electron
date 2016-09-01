@@ -1,69 +1,89 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-    "package": "electron-packager ./ Note --platform=darwin,win32 --arch=x64 --overwrite"
+  "id": 62176283,
+  "name": "Note",
+  "fullName": "satoruhiga/Note",
+  "owner": {
+    "login": "satoruhiga",
+    "id": 43029,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/43029?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/satoruhiga",
+    "htmlUrl": "https://github.com/satoruhiga",
+    "followersUrl": "https://api.github.com/users/satoruhiga/followers",
+    "subscriptionsUrl": "https://api.github.com/users/satoruhiga/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/satoruhiga/orgs",
+    "reposUrl": "https://api.github.com/users/satoruhiga/repos",
+    "receivedEventsUrl": "https://api.github.com/users/satoruhiga/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+  "private": false,
+  "description": null,
+  "fork": false,
+  "createdAt": "2016-06-28T21:44:32.000Z",
+  "updatedAt": "2016-06-30T05:07:16.000Z",
+  "pushedAt": "2016-06-30T04:54:49.000Z",
+  "homepage": null,
+  "size": 185,
+  "stargazersCount": 6,
+  "watchersCount": 6,
+  "language": "JavaScript",
+  "hasIssues": false,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 3,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 6,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
+  "license": {
+    "key": "cc0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "spdxId": "CC0-1.0",
+    "url": "https://api.github.com/licenses/cc0-1.0",
+    "featured": false
   },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
-  "devDependencies": {
-    "electron-packager": "^7.1.0",
-    "electron-prebuilt": "^1.2.0"
-  },
-  "dependencies": {
-    "chokidar": "^1.6.0",
-    "electron-json-storage": "^2.0.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "satoruhiga/Note",
-    "description": null,
-    "fork": false,
-    "created_at": "2016-06-28T21:44:32.000Z",
-    "updated_at": "2016-06-30T05:07:16.000Z",
-    "pushed_at": "2016-06-30T04:54:49.000Z",
-    "homepage": null,
-    "size": 185,
-    "stargazers_count": 6,
-    "language": "JavaScript",
-    "has_issues": false,
-    "has_wiki": false,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 3,
-    "github_id": 62176283,
-    "source_name": null,
+  "networkCount": 3,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "package": "electron-packager ./ Note --platform=darwin,win32 --arch=x64 --overwrite"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
     "license": "CC0-1.0",
-    "private": false,
-    "github_contributions_count": 20,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-29T01:07:52.027Z",
-    "rank": null
-  }
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/electron/electron-quick-start#readme",
+    "devDependencies": {
+      "electron-packager": "^7.1.0",
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "chokidar": "^1.6.0",
+      "electron-json-storage": "^2.0.0"
+    }
+  },
+  "packageStatus": 200
 }

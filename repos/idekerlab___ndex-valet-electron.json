@@ -1,72 +1,106 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "idekerlab/ndex-valet-electron",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-05-28T00:26:16.000Z",
-    "updated_at": "2016-06-15T10:37:02.000Z",
-    "pushed_at": "2016-06-15T12:52:22.000Z",
-    "homepage": null,
-    "size": 1205,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 59869984,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 18,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-03T05:12:10.234Z",
-    "rank": null
-  },
+  "id": 59869984,
   "name": "ndex-valet-electron",
-  "productName": "NDEx-Valet",
-  "version": "1.0.0",
-  "description": "NDEx Valet desktop app using Electron",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js",
-    "build": "./build-all.sh"
+  "fullName": "idekerlab/ndex-valet-electron",
+  "owner": {
+    "login": "idekerlab",
+    "id": 2167664,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2167664?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/idekerlab",
+    "htmlUrl": "https://github.com/idekerlab",
+    "followersUrl": "https://api.github.com/users/idekerlab/followers",
+    "subscriptionsUrl": "https://api.github.com/users/idekerlab/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/idekerlab/orgs",
+    "reposUrl": "https://api.github.com/users/idekerlab/repos",
+    "receivedEventsUrl": "https://api.github.com/users/idekerlab/received_events",
+    "type": "Organization"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/idekerlab/ndex-valet-electron.git"
+  "private": false,
+  "description": "NDEx Valet Electron app",
+  "fork": false,
+  "createdAt": "2016-05-28T00:26:16.000Z",
+  "updatedAt": "2016-06-15T20:10:13.000Z",
+  "pushedAt": "2016-07-05T22:06:45.000Z",
+  "homepage": "",
+  "size": 1524,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "Electron",
-    "cytoscape",
-    "bioinformatics",
-    "graph"
-  ],
-  "author": "Keiichiro Ono",
-  "license": "MIT",
-  "homepage": "https://github.com/idekerlab/ndex-valet-electron#readme",
-  "devDependencies": {
-    "devtron": "^1.2.0",
-    "electron-prebuilt": "^1.2.0",
-    "eslint": "^2.12.0"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "dependencies": {
-    "eslint-plugin-import": "^1.9.2",
-    "eslint-plugin-jsx-a11y": "^1.5.3",
-    "immutable": "^3.8.1",
-    "jsonfile": "^2.3.1",
-    "winston": "^2.2.0",
-    "ws": "^1.1.0"
-  }
+  "organization": {
+    "login": "idekerlab",
+    "id": 2167664,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2167664?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/idekerlab",
+    "htmlUrl": "https://github.com/idekerlab",
+    "followersUrl": "https://api.github.com/users/idekerlab/followers",
+    "subscriptionsUrl": "https://api.github.com/users/idekerlab/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/idekerlab/orgs",
+    "reposUrl": "https://api.github.com/users/idekerlab/repos",
+    "receivedEventsUrl": "https://api.github.com/users/idekerlab/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 1,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "ndex-valet-electron",
+    "productName": "NDEx-Valet",
+    "version": "1.0.0",
+    "description": "NDEx Valet desktop app using Electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "build": "./build-all.sh"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/idekerlab/ndex-valet-electron.git"
+    },
+    "keywords": [
+      "Electron",
+      "cytoscape",
+      "bioinformatics",
+      "graph"
+    ],
+    "author": "Keiichiro Ono",
+    "license": "MIT",
+    "homepage": "https://github.com/idekerlab/ndex-valet-electron#readme",
+    "devDependencies": {
+      "devtron": "^1.2.0",
+      "electron-prebuilt": "^1.2.0",
+      "eslint": "^2.12.0"
+    },
+    "dependencies": {
+      "eslint-plugin-import": "^1.9.2",
+      "eslint-plugin-jsx-a11y": "^1.5.3",
+      "immutable": "^3.8.1",
+      "jsonfile": "^2.3.1",
+      "winston": "^2.2.0",
+      "ws": "^1.1.0"
+    }
+  },
+  "packageStatus": 200
 }

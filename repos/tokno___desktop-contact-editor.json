@@ -1,77 +1,91 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "tokno/desktop-contact-editor",
-    "description": "",
-    "fork": false,
-    "created_at": "2015-12-06T15:40:26.000Z",
-    "updated_at": "2015-12-06T15:41:00.000Z",
-    "pushed_at": "2015-12-16T13:42:33.000Z",
-    "homepage": null,
-    "size": 666,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 47502670,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 0,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+  "id": 47502670,
+  "name": "desktop-contact-editor",
+  "fullName": "tokno/desktop-contact-editor",
+  "owner": {
+    "login": "tokno",
+    "id": 6646139,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6646139?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/tokno",
+    "htmlUrl": "https://github.com/tokno",
+    "followersUrl": "https://api.github.com/users/tokno/followers",
+    "subscriptionsUrl": "https://api.github.com/users/tokno/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/tokno/orgs",
+    "reposUrl": "https://api.github.com/users/tokno/repos",
+    "receivedEventsUrl": "https://api.github.com/users/tokno/received_events",
+    "type": "User"
   },
-  "name": "content-provider-gui",
-  "productName": "ContentProviderGui",
-  "version": "0.0.0",
-  "description": "My beautiful app",
-  "license": "MIT",
-  "repository": "tokno/content-provider-gui",
-  "author": {
-    "name": "Takuya Okuno",
-    "email": "iwashi1629@gmail.com"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2015-12-06T15:40:26.000Z",
+  "updatedAt": "2015-12-06T15:41:00.000Z",
+  "pushedAt": "2015-12-16T13:42:33.000Z",
+  "homepage": null,
+  "size": 666,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "electronVersion": "0.35.0",
-  "scripts": {
-    "test": "xo",
-    "start": "electron ."
+  "license": null,
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "content-provider-gui",
+    "productName": "ContentProviderGui",
+    "version": "0.0.0",
+    "description": "My beautiful app",
+    "license": "MIT",
+    "repository": "tokno/content-provider-gui",
+    "author": {
+      "name": "Takuya Okuno",
+      "email": "iwashi1629@gmail.com"
+    },
+    "electronVersion": "0.35.0",
+    "scripts": {
+      "test": "xo",
+      "start": "electron ."
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.5.0"
+    },
+    "devDependencies": {
+      "bower": "^1.6.9",
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.35.0",
+      "xo": "^0.11.1"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
   },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
-  "keywords": [
-    "electron-app",
-    "electron"
-  ],
-  "dependencies": {
-    "electron-debug": "^0.5.0"
-  },
-  "devDependencies": {
-    "bower": "^1.6.9",
-    "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.35.0",
-    "xo": "^0.11.1"
-  },
-  "xo": {
-    "esnext": true,
-    "envs": [
-      "node",
-      "browser"
-    ]
-  }
+  "packageStatus": 200
 }

@@ -1,64 +1,78 @@
 {
+  "id": 40981238,
   "name": "kitty-detect-app",
-  "appName": "KittyDetect",
-  "version": "0.0.1",
-  "main": "main.js",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/benogle/kitty-detect-app.git"
+  "fullName": "benogle/kitty-detect-app",
+  "owner": {
+    "login": "benogle",
+    "id": 69169,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/69169?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/benogle",
+    "htmlUrl": "https://github.com/benogle",
+    "followersUrl": "https://api.github.com/users/benogle/followers",
+    "subscriptionsUrl": "https://api.github.com/users/benogle/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/benogle/orgs",
+    "reposUrl": "https://api.github.com/users/benogle/repos",
+    "receivedEventsUrl": "https://api.github.com/users/benogle/received_events",
+    "type": "User"
   },
-  "scripts": {
-    "test": "script/test"
+  "private": false,
+  "description": "An important app to detect cat faces",
+  "fork": false,
+  "createdAt": "2015-08-18T15:51:53.000Z",
+  "updatedAt": "2016-07-25T19:29:42.000Z",
+  "pushedAt": "2015-08-19T01:49:30.000Z",
+  "homepage": "",
+  "size": 13280,
+  "stargazersCount": 9,
+  "watchersCount": 9,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 9,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "compileCacheDir": "./compile-cache",
-  "compileDirs": [
-    "src"
-  ],
-  "devDependencies": {
-    "electron-compile": "^0.7.4",
-    "electron-jasmine": "^0.1.8",
-    "electron-packager": "^5.0.1",
-    "electron-prebuilt": "^0.30.2",
-    "electron-rebuild": "^0.2.5"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "kitty-detect-app",
+    "appName": "KittyDetect",
+    "version": "0.0.1",
+    "main": "main.js",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/benogle/kitty-detect-app.git"
+    },
+    "scripts": {
+      "test": "script/test"
+    },
+    "compileCacheDir": "./compile-cache",
+    "compileDirs": [
+      "src"
+    ],
+    "devDependencies": {
+      "electron-compile": "^0.7.4",
+      "electron-jasmine": "^0.1.8",
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.2",
+      "electron-rebuild": "^0.2.5"
+    },
+    "dependencies": {
+      "event-kit": "^1.2.0",
+      "yargs": "^3.16.1"
+    }
   },
-  "dependencies": {
-    "event-kit": "^1.2.0",
-    "yargs": "^3.16.1"
-  },
-  "_librariesioMetadata": {
-    "full_name": "benogle/kitty-detect-app",
-    "description": "An important app to detect cat faces",
-    "fork": false,
-    "created_at": "2015-08-18T15:51:53.000Z",
-    "updated_at": "2015-12-12T12:46:11.314Z",
-    "pushed_at": "2015-08-19T01:49:30.000Z",
-    "homepage": "",
-    "size": 13280,
-    "stargazers_count": 8,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 40981238,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "packageStatus": 200
 }

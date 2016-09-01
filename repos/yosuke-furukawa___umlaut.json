@@ -1,72 +1,86 @@
 {
+  "id": 55334550,
   "name": "umlaut",
-  "version": "0.2.0",
-  "description": "UML previewer on electron",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js",
-    "release:mac": "electron-packager . --platform=darwin --arch=all --out=build/ --overwrite --icon=images/umlaut.icns",
-    "release:win": "electron-packager . --platform=win32 --arch=all --out=build/ --overwrite --icon=images/umlaut.ico",
-    "release": "npm run release:mac && npm run release:win",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "fullName": "yosuke-furukawa/umlaut",
+  "owner": {
+    "login": "yosuke-furukawa",
+    "id": 555645,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/555645?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/yosuke-furukawa",
+    "htmlUrl": "https://github.com/yosuke-furukawa",
+    "followersUrl": "https://api.github.com/users/yosuke-furukawa/followers",
+    "subscriptionsUrl": "https://api.github.com/users/yosuke-furukawa/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/yosuke-furukawa/orgs",
+    "reposUrl": "https://api.github.com/users/yosuke-furukawa/repos",
+    "receivedEventsUrl": "https://api.github.com/users/yosuke-furukawa/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yosuke-furukawa/umlaut.git"
+  "private": false,
+  "description": "UML Previewer on electron",
+  "fork": false,
+  "createdAt": "2016-04-03T07:15:41.000Z",
+  "updatedAt": "2016-06-04T08:41:23.000Z",
+  "pushedAt": "2016-04-05T04:41:20.000Z",
+  "homepage": null,
+  "size": 6391,
+  "stargazersCount": 7,
+  "watchersCount": 7,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 7,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "bugs": {
-    "url": "https://github.com/yosuke-furukawa/umlaut/issues"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "umlaut",
+    "version": "0.2.0",
+    "description": "UML previewer on electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "release:mac": "electron-packager . --platform=darwin --arch=all --out=build/ --overwrite --icon=images/umlaut.icns",
+      "release:win": "electron-packager . --platform=win32 --arch=all --out=build/ --overwrite --icon=images/umlaut.ico",
+      "release": "npm run release:mac && npm run release:win",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yosuke-furukawa/umlaut.git"
+    },
+    "bugs": {
+      "url": "https://github.com/yosuke-furukawa/umlaut/issues"
+    },
+    "homepage": "https://github.com/yosuke-furukawa/umlaut#readme",
+    "keywords": [
+      "electron",
+      "plantuml"
+    ],
+    "author": "yosuke-furukawa",
+    "license": "MIT",
+    "dependencies": {
+      "dialogs": "^1.1.12",
+      "electron-prebuilt": "^0.37.3",
+      "jquery": "^2.2.2",
+      "node-plantuml": "^0.4.4"
+    },
+    "devDependencies": {
+      "electron-gh-releases": "^2.0.2",
+      "electron-packager": "^6.0.0"
+    }
   },
-  "homepage": "https://github.com/yosuke-furukawa/umlaut#readme",
-  "keywords": [
-    "electron",
-    "plantuml"
-  ],
-  "author": "yosuke-furukawa",
-  "license": "MIT",
-  "dependencies": {
-    "dialogs": "^1.1.12",
-    "electron-prebuilt": "^0.37.3",
-    "jquery": "^2.2.2",
-    "node-plantuml": "^0.4.4"
-  },
-  "devDependencies": {
-    "electron-gh-releases": "^2.0.2",
-    "electron-packager": "^6.0.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "yosuke-furukawa/umlaut",
-    "description": "UML Previewer on electron",
-    "fork": false,
-    "created_at": "2016-04-03T07:15:41.000Z",
-    "updated_at": "2016-06-04T08:41:25.076Z",
-    "pushed_at": "2016-04-03T19:27:59.000Z",
-    "homepage": null,
-    "size": 6246,
-    "stargazers_count": 4,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 55334550,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "packageStatus": 200
 }

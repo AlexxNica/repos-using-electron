@@ -1,75 +1,95 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "DisruptiveMind/electron-cordova-starter",
-    "description": "A simple example of running a cordova /www in electron",
-    "fork": false,
-    "created_at": "2016-06-10T04:51:43.000Z",
-    "updated_at": "2016-07-25T08:03:38.378Z",
-    "pushed_at": "2016-06-11T03:33:54.000Z",
-    "homepage": null,
-    "size": 347,
-    "stargazers_count": 0,
-    "language": "HTML",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 60824803,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-25T08:03:38.353Z",
-    "rank": null
+  "id": 60824803,
+  "name": "electron-cordova-starter",
+  "fullName": "DisruptiveMind/electron-cordova-starter",
+  "owner": {
+    "login": "DisruptiveMind",
+    "id": 95763,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/95763?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/DisruptiveMind",
+    "htmlUrl": "https://github.com/DisruptiveMind",
+    "followersUrl": "https://api.github.com/users/DisruptiveMind/followers",
+    "subscriptionsUrl": "https://api.github.com/users/DisruptiveMind/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/DisruptiveMind/orgs",
+    "reposUrl": "https://api.github.com/users/DisruptiveMind/repos",
+    "receivedEventsUrl": "https://api.github.com/users/DisruptiveMind/received_events",
+    "type": "User"
   },
-  "name": "electron-starter",
-  "version": "0.1.0",
-  "description": "A simple starter for electron to support cordova style layout.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "pack": "build --target build",
-    "dist": "gulp && build",
-    "postdist": "install-app-deps",
-    "electron": "electron electron/main.js"
+  "private": false,
+  "description": "A simple example of running a cordova /www in electron",
+  "fork": false,
+  "createdAt": "2016-06-10T04:51:43.000Z",
+  "updatedAt": "2016-06-11T03:28:44.000Z",
+  "pushedAt": "2016-06-11T03:33:54.000Z",
+  "homepage": null,
+  "size": 347,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "cordova",
-    "electron"
-  ],
-  "author": "Tyler Pham <tyler@disruptiveart.com>",
-  "license": "MIT",
-  "build": {
-    "app-bundle-id": "com.disruptiveart.electron",
-    "app-category-type": "your.app.category.type",
-    "win": {
-      "iconUrl": "(windows-only) https link to icon"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-starter",
+    "version": "0.1.0",
+    "description": "A simple starter for electron to support cordova style layout.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "pack": "build --target build",
+      "dist": "gulp && build",
+      "postdist": "install-app-deps",
+      "electron": "electron electron/main.js"
     },
-    "osx": {
-      "icon": "./assets/icons/icon.icns"
+    "keywords": [
+      "cordova",
+      "electron"
+    ],
+    "author": "Tyler Pham <tyler@disruptiveart.com>",
+    "license": "MIT",
+    "build": {
+      "app-bundle-id": "com.disruptiveart.electron",
+      "app-category-type": "your.app.category.type",
+      "win": {
+        "iconUrl": "(windows-only) https link to icon"
+      },
+      "osx": {
+        "icon": "./assets/icons/icon.icns"
+      }
+    },
+    "directories": {
+      "output": "release",
+      "app": "build"
+    },
+    "devDependencies": {
+      "del": "^2.2.0",
+      "electron-prebuilt": "^1.2.2",
+      "gulp": "^3.9.1",
+      "gulp-rename": "^1.2.2",
+      "run-sequence": "^1.2.1"
     }
   },
-  "directories": {
-    "output": "release",
-    "app": "build"
-  },
-  "devDependencies": {
-    "del": "^2.2.0",
-    "electron-prebuilt": "^1.2.2",
-    "gulp": "^3.9.1",
-    "gulp-rename": "^1.2.2",
-    "run-sequence": "^1.2.1"
-  }
+  "packageStatus": 200
 }

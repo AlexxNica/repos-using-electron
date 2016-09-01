@@ -1,67 +1,81 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "whmountains/quickbay",
-    "description": "streamlined ebay lister for quickly listing hundreds of items",
-    "fork": false,
-    "created_at": "2015-10-25T01:19:08.000Z",
-    "updated_at": "2016-04-03T15:22:42.863Z",
-    "pushed_at": "2015-10-25T05:02:52.000Z",
-    "homepage": null,
-    "size": 19040,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 44891701,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 44891701,
   "name": "quickbay",
-  "version": "1.0.0",
+  "fullName": "whmountains/quickbay",
+  "owner": {
+    "login": "whmountains",
+    "id": 8680147,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8680147?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/whmountains",
+    "htmlUrl": "https://github.com/whmountains",
+    "followersUrl": "https://api.github.com/users/whmountains/followers",
+    "subscriptionsUrl": "https://api.github.com/users/whmountains/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/whmountains/orgs",
+    "reposUrl": "https://api.github.com/users/whmountains/repos",
+    "receivedEventsUrl": "https://api.github.com/users/whmountains/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "streamlined ebay lister for quickly listing hundreds of items",
-  "main": "root.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/electron ."
+  "fork": false,
+  "createdAt": "2015-10-25T01:19:08.000Z",
+  "updatedAt": "2015-10-25T01:32:03.000Z",
+  "pushedAt": "2015-10-25T05:02:52.000Z",
+  "homepage": null,
+  "size": 19040,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/whmountains/quickbay.git"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "quickbay",
+    "version": "1.0.0",
+    "description": "streamlined ebay lister for quickly listing hundreds of items",
+    "main": "root.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "./node_modules/.bin/electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/whmountains/quickbay.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/whmountains/quickbay/issues"
+    },
+    "homepage": "https://github.com/whmountains/quickbay#readme",
+    "devDependencies": {
+      "babel": "^5.8.29",
+      "electron-prebuilt": "^0.34.1",
+      "eslint": "^1.7.3",
+      "eslint-plugin-react": "^3.6.3"
+    },
+    "dependencies": {
+      "chokidar": "^1.2.0",
+      "lodash": "^3.10.1",
+      "react": "^0.14.0",
+      "react-dom": "^0.14.0"
+    }
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/whmountains/quickbay/issues"
-  },
-  "homepage": "https://github.com/whmountains/quickbay#readme",
-  "devDependencies": {
-    "babel": "^5.8.29",
-    "electron-prebuilt": "^0.34.1",
-    "eslint": "^1.7.3",
-    "eslint-plugin-react": "^3.6.3"
-  },
-  "dependencies": {
-    "chokidar": "^1.2.0",
-    "lodash": "^3.10.1",
-    "react": "^0.14.0",
-    "react-dom": "^0.14.0"
-  }
+  "packageStatus": 200
 }

@@ -1,88 +1,116 @@
 {
+  "id": 54422998,
   "name": "boorium",
-  "version": "0.0.0",
-  "description": "beautiful booru client",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "standard",
-    "build": "babel -D -d lib src",
-    "buildrun": "npm run build && npm run run",
-    "run": "electron ."
+  "fullName": "boorium/boorium",
+  "owner": {
+    "login": "boorium",
+    "id": 17808962,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/17808962?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/boorium",
+    "htmlUrl": "https://github.com/boorium",
+    "followersUrl": "https://api.github.com/users/boorium/followers",
+    "subscriptionsUrl": "https://api.github.com/users/boorium/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/boorium/orgs",
+    "reposUrl": "https://api.github.com/users/boorium/repos",
+    "receivedEventsUrl": "https://api.github.com/users/boorium/received_events",
+    "type": "Organization"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/boorium/boorium.git"
+  "private": false,
+  "description": "boorus made simple",
+  "fork": false,
+  "createdAt": "2016-03-21T21:10:10.000Z",
+  "updatedAt": "2016-04-06T03:02:00.000Z",
+  "pushedAt": "2016-04-06T03:04:35.000Z",
+  "homepage": "",
+  "size": 238,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "booru",
-    "client",
-    "standalone",
-    "electron"
-  ],
-  "author": "ivan k <ivan@sq10.net>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/boorium/boorium/issues"
+  "license": null,
+  "organization": {
+    "login": "boorium",
+    "id": 17808962,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/17808962?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/boorium",
+    "htmlUrl": "https://github.com/boorium",
+    "followersUrl": "https://api.github.com/users/boorium/followers",
+    "subscriptionsUrl": "https://api.github.com/users/boorium/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/boorium/orgs",
+    "reposUrl": "https://api.github.com/users/boorium/repos",
+    "receivedEventsUrl": "https://api.github.com/users/boorium/received_events",
+    "type": "Organization"
   },
-  "homepage": "https://github.com/boorium/boorium#readme",
-  "devDependencies": {
-    "babel-cli": "^6.6.5",
-    "babel-eslint": "^6.0.2",
-    "babel-preset-stage-0": "^6.5.0",
-    "electron-prebuilt": "^0.37.4",
-    "eslint": "^2.7.0",
-    "eslint-plugin-babel": "^3.1.0",
-    "standard": "^6.0.8"
-  },
-  "dependencies": {
-    "babel-preset-es2015-node5": "^1.2.0"
-  },
-  "standard": {
-    "parser": "babel-eslint",
-    "plugins": [
-      "babel"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "boorium",
+    "version": "0.0.0",
+    "description": "beautiful booru client",
+    "main": "lib/index.js",
+    "scripts": {
+      "test": "standard",
+      "build": "babel -D -d lib src",
+      "buildrun": "npm run build && npm run run",
+      "run": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/boorium/boorium.git"
+    },
+    "keywords": [
+      "booru",
+      "client",
+      "standalone",
+      "electron"
     ],
-    "rules": {
-      "arrow-parens": 0,
-      "babel/arrow-parens": [
-        2,
-        "always"
-      ]
+    "author": "ivan k <ivan@sq10.net>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/boorium/boorium/issues"
+    },
+    "homepage": "https://github.com/boorium/boorium#readme",
+    "devDependencies": {
+      "babel-cli": "^6.6.5",
+      "babel-eslint": "^6.0.2",
+      "babel-preset-stage-0": "^6.5.0",
+      "electron-prebuilt": "^0.37.4",
+      "eslint": "^2.7.0",
+      "eslint-plugin-babel": "^3.1.0",
+      "standard": "^6.0.8"
+    },
+    "dependencies": {
+      "babel-preset-es2015-node5": "^1.2.0"
+    },
+    "standard": {
+      "parser": "babel-eslint",
+      "plugins": [
+        "babel"
+      ],
+      "rules": {
+        "arrow-parens": 0,
+        "babel/arrow-parens": [
+          2,
+          "always"
+        ]
+      }
     }
   },
-  "_librariesioMetadata": {
-    "full_name": "boorium/boorium",
-    "description": "boorus made simple",
-    "fork": false,
-    "created_at": "2016-03-21T21:10:10.000Z",
-    "updated_at": "2016-05-27T19:22:22.654Z",
-    "pushed_at": "2016-04-06T03:04:35.000Z",
-    "homepage": "",
-    "size": 238,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 54422998,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T19:22:22.633Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

@@ -1,82 +1,102 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "forivall/projection-photo",
-    "description": ":clapper: A slideshow application for projector presentation of photos",
-    "fork": false,
-    "created_at": "2015-08-23T08:48:01.000Z",
-    "updated_at": "2016-01-13T22:05:41.119Z",
-    "pushed_at": "2015-08-23T15:56:42.000Z",
-    "homepage": "",
-    "size": 128,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 41242569,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 41242569,
   "name": "projection-photo",
-  "productName": "ProjectionPhoto",
-  "version": "0.0.1",
-  "description": "Simple app to display a slideshow of photos",
-  "license": "MIT",
-  "repository": "forivall/projection-photo",
-  "author": {
-    "name": "Jordan Klassen",
-    "email": "forivall@gmail.com",
-    "url": "forivall.github.io/projection-photo"
+  "fullName": "forivall/projection-photo",
+  "owner": {
+    "login": "forivall",
+    "id": 760204,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/760204?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/forivall",
+    "htmlUrl": "https://github.com/forivall",
+    "followersUrl": "https://api.github.com/users/forivall/followers",
+    "subscriptionsUrl": "https://api.github.com/users/forivall/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/forivall/orgs",
+    "reposUrl": "https://api.github.com/users/forivall/repos",
+    "receivedEventsUrl": "https://api.github.com/users/forivall/received_events",
+    "type": "User"
   },
-  "engines": {
-    "node": ">=0.10.0"
+  "private": false,
+  "description": ":clapper: A slideshow application for projector presentation of photos",
+  "fork": false,
+  "createdAt": "2015-08-23T08:48:01.000Z",
+  "updatedAt": "2015-08-24T19:41:00.000Z",
+  "pushedAt": "2015-08-23T15:56:42.000Z",
+  "homepage": "",
+  "size": 128,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=0.30.4",
-    "watch": "gulp watch"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "main": "lib/main.js",
-  "files": [
-    "lib/creator/index.js",
-    "lib/creator/index.html",
-    "lib/creator/index.css",
-    "lib/creator/ImageFolder.js",
-    "lib/creator/ScreenSelector.js",
-    "lib/presenter/index.html"
-  ],
-  "keywords": [
-    "electron-app"
-  ],
-  "dependencies": {
-    "electron-debug": "^0.1.1",
-    "exif": "^0.4.0",
-    "jquery": "^2.1.4",
-    "kenburns": "git+https://github.com/forivall/kenburns.git#aspect-ratio",
-    "lodash": "^3.10.1",
-    "react-image-gallery": "^0.4.2",
-    "walk": "^2.3.9"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "projection-photo",
+    "productName": "ProjectionPhoto",
+    "version": "0.0.1",
+    "description": "Simple app to display a slideshow of photos",
+    "license": "MIT",
+    "repository": "forivall/projection-photo",
+    "author": {
+      "name": "Jordan Klassen",
+      "email": "forivall@gmail.com",
+      "url": "forivall.github.io/projection-photo"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=0.30.4",
+      "watch": "gulp watch"
+    },
+    "main": "lib/main.js",
+    "files": [
+      "lib/creator/index.js",
+      "lib/creator/index.html",
+      "lib/creator/index.css",
+      "lib/creator/ImageFolder.js",
+      "lib/creator/ScreenSelector.js",
+      "lib/presenter/index.html"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.1.1",
+      "exif": "^0.4.0",
+      "jquery": "^2.1.4",
+      "kenburns": "git+https://github.com/forivall/kenburns.git#aspect-ratio",
+      "lodash": "^3.10.1",
+      "react-image-gallery": "^0.4.2",
+      "walk": "^2.3.9"
+    },
+    "devDependencies": {
+      "babel": "^5.8.21",
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.30.4"
+    }
   },
-  "devDependencies": {
-    "babel": "^5.8.21",
-    "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.30.4"
-  }
+  "packageStatus": 200
 }

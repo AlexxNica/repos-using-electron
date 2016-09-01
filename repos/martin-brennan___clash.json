@@ -1,82 +1,96 @@
 {
+  "id": 39610236,
   "name": "clash",
-  "version": "0.0.1",
-  "description": "a obsessive music tagging application",
-  "main": "dist/sys/main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "fullName": "martin-brennan/clash",
+  "owner": {
+    "login": "martin-brennan",
+    "id": 920448,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/920448?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/martin-brennan",
+    "htmlUrl": "https://github.com/martin-brennan",
+    "followersUrl": "https://api.github.com/users/martin-brennan/followers",
+    "subscriptionsUrl": "https://api.github.com/users/martin-brennan/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/martin-brennan/orgs",
+    "reposUrl": "https://api.github.com/users/martin-brennan/repos",
+    "receivedEventsUrl": "https://api.github.com/users/martin-brennan/received_events",
+    "type": "User"
   },
-  "keywords": [
-    "music",
-    "tagging",
-    "electron",
-    "application",
-    "cross-platform",
-    "organisation"
-  ],
-  "author": "Martin Brennan <mjrbrennan@gmail.com>",
-  "license": "ISC",
-  "devDependencies": {
-    "babel": "5.6.23",
-    "electron-prebuilt": "0.30.0",
-    "gulp": "3.9.0",
-    "gulp-babel": "5.1.0",
-    "gulp-sass": "2.0.4",
-    "jspm": "0.15.7"
+  "private": false,
+  "description": "a cross platform mp3 tagging application built on electron",
+  "fork": false,
+  "createdAt": "2015-07-24T03:39:59.000Z",
+  "updatedAt": "2015-07-24T03:42:16.000Z",
+  "pushedAt": "2015-08-14T10:56:58.000Z",
+  "homepage": null,
+  "size": 160,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "jspm": {
-    "directories": {},
-    "dependencies": {
-      "lodash": "npm:lodash@^3.10.0",
-      "react": "npm:react@^0.14.0-beta1",
-      "react-dom": "npm:react-dom@^0.14.0-beta1"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "clash",
+    "version": "0.0.1",
+    "description": "a obsessive music tagging application",
+    "main": "dist/sys/main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "keywords": [
+      "music",
+      "tagging",
+      "electron",
+      "application",
+      "cross-platform",
+      "organisation"
+    ],
+    "author": "Martin Brennan <mjrbrennan@gmail.com>",
+    "license": "ISC",
     "devDependencies": {
-      "babel": "npm:babel-core@^5.1.13",
-      "babel-runtime": "npm:babel-runtime@^5.1.13",
-      "core-js": "npm:core-js@^0.9.4"
+      "babel": "5.6.23",
+      "electron-prebuilt": "0.30.0",
+      "gulp": "3.9.0",
+      "gulp-babel": "5.1.0",
+      "gulp-sass": "2.0.4",
+      "jspm": "0.15.7"
+    },
+    "jspm": {
+      "directories": {},
+      "dependencies": {
+        "lodash": "npm:lodash@^3.10.0",
+        "react": "npm:react@^0.14.0-beta1",
+        "react-dom": "npm:react-dom@^0.14.0-beta1"
+      },
+      "devDependencies": {
+        "babel": "npm:babel-core@^5.1.13",
+        "babel-runtime": "npm:babel-runtime@^5.1.13",
+        "core-js": "npm:core-js@^0.9.4"
+      }
+    },
+    "dependencies": {
+      "lodash": "^3.10.0",
+      "musicmetadata": "^2.0.0"
+    },
+    "jshintConfig": {
+      "esnext": true
     }
   },
-  "dependencies": {
-    "lodash": "^3.10.0",
-    "musicmetadata": "^2.0.0"
-  },
-  "jshintConfig": {
-    "esnext": true
-  },
-  "_librariesioMetadata": {
-    "full_name": "martin-brennan/clash",
-    "description": "a cross platform mp3 tagging application built on electron",
-    "fork": false,
-    "created_at": "2015-07-24T03:39:59.000Z",
-    "updated_at": "2015-09-07T08:59:03.996Z",
-    "pushed_at": "2015-08-14T10:56:58.000Z",
-    "homepage": null,
-    "size": 160,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 39610236,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "packageStatus": 200
 }

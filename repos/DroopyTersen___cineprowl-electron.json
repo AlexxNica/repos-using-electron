@@ -1,68 +1,88 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "DroopyTersen/cineprowl-electron",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-01-18T23:07:44.000Z",
-    "updated_at": "2016-02-29T13:21:11.546Z",
-    "pushed_at": "2016-01-18T23:09:48.000Z",
-    "homepage": null,
-    "size": 1229,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 49911424,
-    "source_name": null,
+  "id": 49911424,
+  "name": "cineprowl-electron",
+  "fullName": "DroopyTersen/cineprowl-electron",
+  "owner": {
+    "login": "DroopyTersen",
+    "id": 4020046,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4020046?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/DroopyTersen",
+    "htmlUrl": "https://github.com/DroopyTersen",
+    "followersUrl": "https://api.github.com/users/DroopyTersen/followers",
+    "subscriptionsUrl": "https://api.github.com/users/DroopyTersen/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/DroopyTersen/orgs",
+    "reposUrl": "https://api.github.com/users/DroopyTersen/repos",
+    "receivedEventsUrl": "https://api.github.com/users/DroopyTersen/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2016-01-18T23:07:44.000Z",
+  "updatedAt": "2016-01-18T23:09:50.000Z",
+  "pushedAt": "2016-01-18T23:09:48.000Z",
+  "homepage": null,
+  "size": 1229,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "cc0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "spdxId": "CC0-1.0",
+    "url": "https://api.github.com/licenses/cc0-1.0",
+    "featured": false
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
     "license": "CC0-1.0",
-    "private": false,
-    "github_contributions_count": 13,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/atom/electron-quick-start#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "droopy-binding": "^1.4.0",
+      "droopy-http": "0.0.1",
+      "moment": "^2.11.1"
+    }
   },
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/atom/electron-quick-start.git"
-  },
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/atom/electron-quick-start/issues"
-  },
-  "homepage": "https://github.com/atom/electron-quick-start#readme",
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.0"
-  },
-  "dependencies": {
-    "droopy-binding": "^1.4.0",
-    "droopy-http": "0.0.1",
-    "moment": "^2.11.1"
-  }
+  "packageStatus": 200
 }

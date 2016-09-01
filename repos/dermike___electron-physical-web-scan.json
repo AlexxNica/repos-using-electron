@@ -1,64 +1,84 @@
 {
+  "id": 43970062,
   "name": "electron-physical-web-scan",
-  "version": "0.2.8",
-  "description": "Electron app for Mac OSX to scan for Physical Web (Eddystone) beacons",
-  "main": "main.js",
-  "scripts": {
-    "package": "node ./node_modules/electron-packager/cli.js ./ PhysicalWebScan --platform=darwin --arch=x64 --version=1.2.1 --ignore=node_modules/electron-rebuild --asar --icon=icon.icns",
-    "rebuild": "node ./node_modules/.bin/electron-rebuild",
-    "electron": "node ./node_modules/electron-prebuilt/cli.js ."
+  "fullName": "dermike/electron-physical-web-scan",
+  "owner": {
+    "login": "dermike",
+    "id": 4582134,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4582134?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/dermike",
+    "htmlUrl": "https://github.com/dermike",
+    "followersUrl": "https://api.github.com/users/dermike/followers",
+    "subscriptionsUrl": "https://api.github.com/users/dermike/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/dermike/orgs",
+    "reposUrl": "https://api.github.com/users/dermike/repos",
+    "receivedEventsUrl": "https://api.github.com/users/dermike/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/dermike/electron-physical-web-scan.git"
+  "private": false,
+  "description": "Mac OSX desktop client app to scan for Physical Web (Eddystone) bluetooth beacons",
+  "fork": false,
+  "createdAt": "2015-10-09T17:25:00.000Z",
+  "updatedAt": "2016-07-18T20:45:25.000Z",
+  "pushedAt": "2016-06-08T07:55:26.000Z",
+  "homepage": "",
+  "size": 211,
+  "stargazersCount": 15,
+  "watchersCount": 15,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 15,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "electron",
-    "physical web"
-  ],
-  "author": "Mikael Jergefelt",
-  "license": "ISC",
-  "devDependencies": {
-    "electron-packager": "7.0.3",
-    "electron-prebuilt": "1.2.1",
-    "electron-rebuild": "1.1.5"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "dependencies": {
-    "noble": "1.6.0"
+  "networkCount": 0,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-physical-web-scan",
+    "version": "0.2.8",
+    "description": "Electron app for Mac OSX to scan for Physical Web (Eddystone) beacons",
+    "main": "main.js",
+    "scripts": {
+      "package": "node ./node_modules/electron-packager/cli.js ./ PhysicalWebScan --platform=darwin --arch=x64 --version=1.2.1 --ignore=node_modules/electron-rebuild --asar --icon=icon.icns",
+      "rebuild": "node ./node_modules/.bin/electron-rebuild",
+      "electron": "node ./node_modules/electron-prebuilt/cli.js ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/dermike/electron-physical-web-scan.git"
+    },
+    "keywords": [
+      "electron",
+      "physical web"
+    ],
+    "author": "Mikael Jergefelt",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-packager": "7.0.3",
+      "electron-prebuilt": "1.2.1",
+      "electron-rebuild": "1.1.5"
+    },
+    "dependencies": {
+      "noble": "1.6.0"
+    }
   },
-  "_librariesioMetadata": {
-    "full_name": "dermike/electron-physical-web-scan",
-    "description": "Mac OSX desktop app to scan for Physical Web (Eddystone) bluetooth beacons",
-    "fork": false,
-    "created_at": "2015-10-09T17:25:00.000Z",
-    "updated_at": "2016-06-11T01:53:30.465Z",
-    "pushed_at": "2016-03-29T08:38:40.000Z",
-    "homepage": null,
-    "size": 207,
-    "stargazers_count": 11,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 43970062,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "packageStatus": 200
 }

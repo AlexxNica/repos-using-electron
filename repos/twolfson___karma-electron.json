@@ -1,110 +1,130 @@
 {
+  "id": 53098616,
   "name": "karma-electron",
+  "fullName": "twolfson/karma-electron",
+  "owner": {
+    "login": "twolfson",
+    "id": 902488,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/902488?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/twolfson",
+    "htmlUrl": "https://github.com/twolfson",
+    "followersUrl": "https://api.github.com/users/twolfson/followers",
+    "subscriptionsUrl": "https://api.github.com/users/twolfson/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/twolfson/orgs",
+    "reposUrl": "https://api.github.com/users/twolfson/repos",
+    "receivedEventsUrl": "https://api.github.com/users/twolfson/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Karma launcher and preprocessor for Electron",
-  "version": "4.0.0",
-  "homepage": "https://github.com/twolfson/karma-electron",
-  "author": {
-    "name": "Todd Wolfson",
-    "email": "todd@twolfson.com",
-    "url": "http://twolfson.com/"
+  "fork": false,
+  "createdAt": "2016-03-04T01:47:19.000Z",
+  "updatedAt": "2016-07-29T08:15:42.000Z",
+  "pushedAt": "2016-06-26T20:28:08.000Z",
+  "homepage": "",
+  "size": 102,
+  "stargazersCount": 13,
+  "watchersCount": 13,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 5,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 13,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/twolfson/karma-electron.git"
+  "license": {
+    "key": "unlicense",
+    "name": "The Unlicense",
+    "spdxId": "Unlicense",
+    "url": "https://api.github.com/licenses/unlicense",
+    "featured": false
   },
-  "bugs": {
-    "url": "https://github.com/twolfson/karma-electron/issues"
-  },
-  "main": "lib/index",
-  "engines": {
-    "node": ">= 0.10.0"
-  },
-  "license": "Unlicense",
-  "scripts": {
-    "precheck": "twolfson-style precheck lib/ test/",
-    "lint": "twolfson-style lint lib/ test/",
-    "test": "npm run test-karma-all && npm run lint",
-    "test-karma-all": "npm run test-karma-single-run && npm run test-karma-failure && npm run test-karma-uncaught-exception && npm run test-karma-karma && npm run test-karma-phantomjs && npm run test-karma-eof-comment && npm run test-karma-source-map",
-    "test-karma-continuous": "karma start test/integration-test/karma.conf.js --no-single-run",
-    "test-karma-eof-comment": "cross-env TEST_TYPE=EOF_COMMENT karma start test/integration-test/karma.conf.js --single-run",
-    "test-karma-karma-comment": "# DEV: We run `test-karma-karma` twice to verify no user-data-dir is leaking",
-    "test-karma-karma": "cross-env TEST_TYPE=KARMA karma start test/integration-test/karma.conf.js --single-run && cross-env TEST_TYPE=KARMA karma start test/integration-test/karma.conf.js --single-run",
-    "test-karma-failure": "node bin/verify-failure.js TEST_TYPE=FAILURE karma start test/integration-test/karma.conf.js --single-run",
-    "test-karma-phantomjs": "cross-env TEST_TYPE=PHANTOMJS karma start test/integration-test/karma.conf.js --single-run --browsers PhantomJS",
-    "test-karma-single-run": "karma start test/integration-test/karma.conf.js --single-run",
-    "test-karma-source-map": "cross-env TEST_TYPE=SOURCE_MAP karma start test/integration-test/karma.conf.js --single-run",
-    "test-karma-uncaught-exception": "node bin/verify-failure.js TEST_TYPE=UNCAUGHT_EXCEPTION karma start test/integration-test/karma.conf.js --single-run",
-    "test-windows": "npm run test-karma-all"
-  },
-  "dependencies": {
-    "commander": "~2.9.0",
-    "convert-source-map": "~1.2.0",
-    "js-string-escape": "~1.0.0",
-    "minstache": "~1.2.0",
-    "xtend": "~4.0.1"
-  },
-  "devDependencies": {
-    "collections": "~3.0.0",
-    "cross-env": "~1.0.7",
-    "electron-prebuilt": "~0.37.4",
-    "foundry": "~4.0.3",
-    "foundry-release-git": "~2.0.2",
-    "foundry-release-npm": "~2.0.2",
-    "jscs": "~1.7.3",
-    "jshint": "~2.5.10",
-    "karma": "~1.1.0",
-    "karma-mocha": "~0.2.2",
-    "karma-phantomjs-launcher": "~1.0.0",
-    "mocha": "~1.11.0",
-    "phantomjs-prebuilt": "~2.1.5",
-    "request": "~2.72.0",
-    "twolfson-style": "~1.6.0"
-  },
-  "keywords": [
-    "karma-plugin",
-    "karma-launcher",
-    "karma-preprocessor",
-    "electron"
-  ],
-  "foundry": {
-    "releaseCommands": [
-      "foundry-release-git",
-      "foundry-release-npm"
-    ]
-  },
-  "_librariesioMetadata": {
-    "full_name": "twolfson/karma-electron",
+  "networkCount": 5,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "karma-electron",
     "description": "Karma launcher and preprocessor for Electron",
-    "fork": false,
-    "created_at": "2016-03-04T01:47:19.000Z",
-    "updated_at": "2016-07-29T08:16:52.002Z",
-    "pushed_at": "2016-06-26T20:28:08.000Z",
-    "homepage": "",
-    "size": 102,
-    "stargazers_count": 14,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 4,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 53098616,
-    "source_name": null,
+    "version": "4.0.0",
+    "homepage": "https://github.com/twolfson/karma-electron",
+    "author": {
+      "name": "Todd Wolfson",
+      "email": "todd@twolfson.com",
+      "url": "http://twolfson.com/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/twolfson/karma-electron.git"
+    },
+    "bugs": {
+      "url": "https://github.com/twolfson/karma-electron/issues"
+    },
+    "main": "lib/index",
+    "engines": {
+      "node": ">= 0.10.0"
+    },
     "license": "Unlicense",
-    "private": false,
-    "github_contributions_count": 3,
-    "has_readme": "README.md",
-    "has_changelog": "CHANGELOG.md",
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-26T20:35:03.617Z",
-    "rank": null
-  }
+    "scripts": {
+      "precheck": "twolfson-style precheck lib/ test/",
+      "lint": "twolfson-style lint lib/ test/",
+      "test": "npm run test-karma-all && npm run lint",
+      "test-karma-all": "npm run test-karma-single-run && npm run test-karma-failure && npm run test-karma-uncaught-exception && npm run test-karma-karma && npm run test-karma-phantomjs && npm run test-karma-eof-comment && npm run test-karma-source-map",
+      "test-karma-continuous": "karma start test/integration-test/karma.conf.js --no-single-run",
+      "test-karma-eof-comment": "cross-env TEST_TYPE=EOF_COMMENT karma start test/integration-test/karma.conf.js --single-run",
+      "test-karma-karma-comment": "# DEV: We run `test-karma-karma` twice to verify no user-data-dir is leaking",
+      "test-karma-karma": "cross-env TEST_TYPE=KARMA karma start test/integration-test/karma.conf.js --single-run && cross-env TEST_TYPE=KARMA karma start test/integration-test/karma.conf.js --single-run",
+      "test-karma-failure": "node bin/verify-failure.js TEST_TYPE=FAILURE karma start test/integration-test/karma.conf.js --single-run",
+      "test-karma-phantomjs": "cross-env TEST_TYPE=PHANTOMJS karma start test/integration-test/karma.conf.js --single-run --browsers PhantomJS",
+      "test-karma-single-run": "karma start test/integration-test/karma.conf.js --single-run",
+      "test-karma-source-map": "cross-env TEST_TYPE=SOURCE_MAP karma start test/integration-test/karma.conf.js --single-run",
+      "test-karma-uncaught-exception": "node bin/verify-failure.js TEST_TYPE=UNCAUGHT_EXCEPTION karma start test/integration-test/karma.conf.js --single-run",
+      "test-windows": "npm run test-karma-all"
+    },
+    "dependencies": {
+      "commander": "~2.9.0",
+      "convert-source-map": "~1.2.0",
+      "js-string-escape": "~1.0.0",
+      "minstache": "~1.2.0",
+      "xtend": "~4.0.1"
+    },
+    "devDependencies": {
+      "collections": "~3.0.0",
+      "cross-env": "~1.0.7",
+      "electron-prebuilt": "~0.37.4",
+      "foundry": "~4.0.3",
+      "foundry-release-git": "~2.0.2",
+      "foundry-release-npm": "~2.0.2",
+      "jscs": "~1.7.3",
+      "jshint": "~2.5.10",
+      "karma": "~1.1.0",
+      "karma-mocha": "~0.2.2",
+      "karma-phantomjs-launcher": "~1.0.0",
+      "mocha": "~1.11.0",
+      "phantomjs-prebuilt": "~2.1.5",
+      "request": "~2.72.0",
+      "twolfson-style": "~1.6.0"
+    },
+    "keywords": [
+      "karma-plugin",
+      "karma-launcher",
+      "karma-preprocessor",
+      "electron"
+    ],
+    "foundry": {
+      "releaseCommands": [
+        "foundry-release-git",
+        "foundry-release-npm"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

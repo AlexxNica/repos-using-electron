@@ -1,69 +1,83 @@
 {
+  "id": 36986642,
   "name": "msc",
-  "version": "0.1.0",
+  "fullName": "arnarg/msc",
+  "owner": {
+    "login": "arnarg",
+    "id": 1291396,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1291396?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/arnarg",
+    "htmlUrl": "https://github.com/arnarg",
+    "followersUrl": "https://api.github.com/users/arnarg/followers",
+    "subscriptionsUrl": "https://api.github.com/users/arnarg/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/arnarg/orgs",
+    "reposUrl": "https://api.github.com/users/arnarg/repos",
+    "receivedEventsUrl": "https://api.github.com/users/arnarg/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "A simple mpd client",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron dest/"
+  "fork": false,
+  "createdAt": "2015-06-06T16:19:49.000Z",
+  "updatedAt": "2016-05-25T05:56:39.000Z",
+  "pushedAt": "2015-08-06T21:03:35.000Z",
+  "homepage": null,
+  "size": 1468,
+  "stargazersCount": 3,
+  "watchersCount": 3,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 3,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "mpd"
-  ],
-  "author": "Arnar Gauti Ingason <granra@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "electron-prebuilt": "^0.27.2",
-    "gulp": "^3.9.0",
-    "gulp-electron": "0.0.5",
-    "gulp-install": "^0.4.0",
-    "gulp-jshint": "^1.11.0",
-    "gulp-less": "^3.0.3",
-    "gulp-react": "^3.0.1",
-    "gulp-run-electron": "^1.1.1"
-  },
-  "dependencies": {
-    "album-cover": "0.0.3",
-    "font-awesome": "^4.3.0",
-    "jquery": "^2.1.4",
-    "keymirror": "^0.1.1",
-    "mpd": "^1.3.0",
-    "nconf": "^0.7.1",
-    "object-assign": "^3.0.0",
-    "react": "^0.13.3"
-  },
-  "_librariesioMetadata": {
-    "full_name": "arnarg/msc",
+  "license": null,
+  "networkCount": 1,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "msc",
+    "version": "0.1.0",
     "description": "A simple mpd client",
-    "fork": false,
-    "created_at": "2015-06-06T16:19:49.000Z",
-    "updated_at": "2016-05-27T01:20:34.106Z",
-    "pushed_at": "2015-08-06T21:03:35.000Z",
-    "homepage": null,
-    "size": 1468,
-    "stargazers_count": 3,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 36986642,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T01:20:34.078Z",
-    "rank": null
-  }
+    "main": "main.js",
+    "scripts": {
+      "start": "electron dest/"
+    },
+    "keywords": [
+      "mpd"
+    ],
+    "author": "Arnar Gauti Ingason <granra@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.27.2",
+      "gulp": "^3.9.0",
+      "gulp-electron": "0.0.5",
+      "gulp-install": "^0.4.0",
+      "gulp-jshint": "^1.11.0",
+      "gulp-less": "^3.0.3",
+      "gulp-react": "^3.0.1",
+      "gulp-run-electron": "^1.1.1"
+    },
+    "dependencies": {
+      "album-cover": "0.0.3",
+      "font-awesome": "^4.3.0",
+      "jquery": "^2.1.4",
+      "keymirror": "^0.1.1",
+      "mpd": "^1.3.0",
+      "nconf": "^0.7.1",
+      "object-assign": "^3.0.0",
+      "react": "^0.13.3"
+    }
+  },
+  "packageStatus": 200
 }

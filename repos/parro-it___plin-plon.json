@@ -1,73 +1,93 @@
 {
+  "id": 45559897,
   "name": "plin-plon",
-  "description": "Signal online presence of your github fellows with an awesome plin-plon",
-  "repository": "https://github.com/parro-it/plin-plon.git",
-  "bugs": {
-    "url": "https://github.com/parro-it/plin-plon/issues"
+  "fullName": "parro-it/plin-plon",
+  "owner": {
+    "login": "parro-it",
+    "id": 11197111,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11197111?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/parro-it",
+    "htmlUrl": "https://github.com/parro-it",
+    "followersUrl": "https://api.github.com/users/parro-it/followers",
+    "subscriptionsUrl": "https://api.github.com/users/parro-it/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/parro-it/orgs",
+    "reposUrl": "https://api.github.com/users/parro-it/repos",
+    "receivedEventsUrl": "https://api.github.com/users/parro-it/received_events",
+    "type": "User"
   },
-  "version": "0.0.1",
-  "main": "src/index.js",
-  "engines": {
-    "node": ">=4.1"
+  "private": false,
+  "description": ":bell: Signal online presence of your github fellows with an awesome plin-plon.",
+  "fork": false,
+  "createdAt": "2015-11-04T18:45:52.000Z",
+  "updatedAt": "2015-11-04T18:53:22.000Z",
+  "pushedAt": "2015-11-04T21:32:17.000Z",
+  "homepage": "",
+  "size": 128,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "parro-it",
-  "scripts": {
-    "test": "test-node",
-    "debug": "debug",
-    "cover": "cover-node",
-    "watch": "watch-node",
-    "release-minor": "release-minor",
-    "release-patch": "release-patch",
-    "lint": "lint",
-    "prepublish": "check"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "eslintConfig": {
-    "extends": "devenv"
-  },
-  "devDependencies": {
-    "electron-debug": "^0.3.1",
-    "tape-async": ">1.0.0"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "electron-detach": "^0.1.0",
-    "electron-prebuilt": "^0.34.2",
-    "gh-got": "^2.2.0",
-    "menubar": "^2.3.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "parro-it/plin-plon",
-    "description": ":bell: Signal online presence of your github fellows with an awesome plin-plon.",
-    "fork": false,
-    "created_at": "2015-11-04T18:45:52.000Z",
-    "updated_at": "2016-04-19T07:39:15.871Z",
-    "pushed_at": "2015-11-04T21:32:17.000Z",
-    "homepage": "",
-    "size": 128,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 45559897,
-    "source_name": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "plin-plon",
+    "description": "Signal online presence of your github fellows with an awesome plin-plon",
+    "repository": "https://github.com/parro-it/plin-plon.git",
+    "bugs": {
+      "url": "https://github.com/parro-it/plin-plon/issues"
+    },
+    "version": "0.0.1",
+    "main": "src/index.js",
+    "engines": {
+      "node": ">=4.1"
+    },
+    "author": "parro-it",
+    "scripts": {
+      "test": "test-node",
+      "debug": "debug",
+      "cover": "cover-node",
+      "watch": "watch-node",
+      "release-minor": "release-minor",
+      "release-patch": "release-patch",
+      "lint": "lint",
+      "prepublish": "check"
+    },
+    "eslintConfig": {
+      "extends": "devenv"
+    },
+    "devDependencies": {
+      "electron-debug": "^0.3.1",
+      "tape-async": ">1.0.0"
+    },
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-19T07:39:15.850Z",
-    "rank": null
-  }
+    "dependencies": {
+      "electron-detach": "^0.1.0",
+      "electron-prebuilt": "^0.34.2",
+      "gh-got": "^2.2.0",
+      "menubar": "^2.3.0"
+    }
+  },
+  "packageStatus": 200
 }

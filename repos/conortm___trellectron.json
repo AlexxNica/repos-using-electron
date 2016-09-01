@@ -1,54 +1,74 @@
 {
+  "id": 59769531,
   "name": "trellectron",
-  "version": "0.0.1",
+  "fullName": "conortm/trellectron",
+  "owner": {
+    "login": "conortm",
+    "id": 10085,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/10085?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/conortm",
+    "htmlUrl": "https://github.com/conortm",
+    "followersUrl": "https://api.github.com/users/conortm/followers",
+    "subscriptionsUrl": "https://api.github.com/users/conortm/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/conortm/orgs",
+    "reposUrl": "https://api.github.com/users/conortm/repos",
+    "receivedEventsUrl": "https://api.github.com/users/conortm/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "An Electron wrapper for Trello",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js",
-    "build": "electron-packager . Trello --platform=darwin --arch=x64 --icon=icon.icns --out=build --overwrite"
+  "fork": false,
+  "createdAt": "2016-05-26T17:24:01.000Z",
+  "updatedAt": "2016-05-26T18:47:34.000Z",
+  "pushedAt": "2016-05-26T21:10:11.000Z",
+  "homepage": null,
+  "size": 116,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/conortm/trellectron.git"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "license": "MIT",
-  "devDependencies": {
-    "electron-packager": "^7.0.2",
-    "electron-prebuilt": "^1.1.2"
-  },
-  "_librariesioMetadata": {
-    "full_name": "conortm/trellectron",
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "trellectron",
+    "version": "0.0.1",
     "description": "An Electron wrapper for Trello",
-    "fork": false,
-    "created_at": "2016-05-26T17:24:01.000Z",
-    "updated_at": "2016-05-26T21:10:43.964Z",
-    "pushed_at": "2016-05-26T21:10:11.000Z",
-    "homepage": null,
-    "size": 116,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 0,
-    "github_id": 59769531,
-    "source_name": null,
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "build": "electron-packager . Trello --platform=darwin --arch=x64 --icon=icon.icns --out=build --overwrite"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/conortm/trellectron.git"
+    },
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-26T21:10:43.939Z",
-    "rank": null
-  }
+    "devDependencies": {
+      "electron-packager": "^7.0.2",
+      "electron-prebuilt": "^1.1.2"
+    }
+  },
+  "packageStatus": 200
 }

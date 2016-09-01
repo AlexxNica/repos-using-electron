@@ -1,59 +1,73 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "aogilvie/electron-ionic-demo",
-    "description": "A demo using electronjs and ionic",
-    "fork": false,
-    "created_at": "2015-08-10T00:53:47.000Z",
-    "updated_at": "2015-12-12T10:32:04.000Z",
-    "pushed_at": "2015-08-10T01:11:51.000Z",
-    "homepage": null,
-    "size": 2696,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 0,
-    "github_id": 40456049,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 0,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+  "id": 40456049,
+  "name": "electron-ionic-demo",
+  "fullName": "aogilvie/electron-ionic-demo",
+  "owner": {
+    "login": "aogilvie",
+    "id": 970364,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/970364?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/aogilvie",
+    "htmlUrl": "https://github.com/aogilvie",
+    "followersUrl": "https://api.github.com/users/aogilvie/followers",
+    "subscriptionsUrl": "https://api.github.com/users/aogilvie/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/aogilvie/orgs",
+    "reposUrl": "https://api.github.com/users/aogilvie/repos",
+    "receivedEventsUrl": "https://api.github.com/users/aogilvie/received_events",
+    "type": "User"
   },
-  "name": "demo-app",
-  "version": "0.0.1",
-  "description": "A demo app.",
-  "keywords": [
-    "demo",
-    "app"
-  ],
-  "repository": "http://d-caplin-repo01.sbisec.int/ally/demo-app.git",
-  "author": "Ally Ogilvie <alexander.ogilvie@japannext.co.jp>",
-  "dependencies": {
-    "electron-prebuilt": "*"
+  "private": false,
+  "description": "A demo using electronjs and ionic",
+  "fork": false,
+  "createdAt": "2015-08-10T00:53:47.000Z",
+  "updatedAt": "2015-12-12T10:32:04.000Z",
+  "pushedAt": "2015-08-10T01:11:51.000Z",
+  "homepage": null,
+  "size": 2696,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "nodelint": "0.5.2"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "demo-app",
+    "version": "0.0.1",
+    "description": "A demo app.",
+    "keywords": [
+      "demo",
+      "app"
+    ],
+    "repository": "http://d-caplin-repo01.sbisec.int/ally/demo-app.git",
+    "author": "Ally Ogilvie <alexander.ogilvie@japannext.co.jp>",
+    "dependencies": {
+      "electron-prebuilt": "*"
+    },
+    "devDependencies": {
+      "nodelint": "0.5.2"
+    },
+    "main": "index",
+    "engines": {
+      "node": ">= 0.12.0"
+    },
+    "scripts": {
+      "test": "make lint && make test"
+    }
   },
-  "main": "index",
-  "engines": {
-    "node": ">= 0.12.0"
-  },
-  "scripts": {
-    "test": "make lint && make test"
-  }
+  "packageStatus": 200
 }

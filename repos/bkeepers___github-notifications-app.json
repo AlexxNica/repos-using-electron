@@ -1,51 +1,65 @@
 {
-  "name": "github-notifications",
-  "version": "0.1.0",
-  "main": "main.js",
-  "scripts": {
-    "start": "script/run"
+  "id": 35120082,
+  "name": "github-notifications-app",
+  "fullName": "bkeepers/github-notifications-app",
+  "owner": {
+    "login": "bkeepers",
+    "id": 173,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/173?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/bkeepers",
+    "htmlUrl": "https://github.com/bkeepers",
+    "followersUrl": "https://api.github.com/users/bkeepers/followers",
+    "subscriptionsUrl": "https://api.github.com/users/bkeepers/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/bkeepers/orgs",
+    "reposUrl": "https://api.github.com/users/bkeepers/repos",
+    "receivedEventsUrl": "https://api.github.com/users/bkeepers/received_events",
+    "type": "User"
   },
-  "dependencies": {
-    "coffee-script": "*",
-    "coffee-cache": "*"
+  "private": false,
+  "description": "A native wrapper around https://notifications.githubapp.com",
+  "fork": false,
+  "createdAt": "2015-05-05T19:39:41.000Z",
+  "updatedAt": "2015-05-05T19:39:59.000Z",
+  "pushedAt": "2015-05-05T19:39:59.000Z",
+  "homepage": null,
+  "size": 96,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-prebuilt": "~0.25.2",
-    "electron-packager": "~3.2.0"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "github-notifications",
+    "version": "0.1.0",
+    "main": "main.js",
+    "scripts": {
+      "start": "script/run"
+    },
+    "dependencies": {
+      "coffee-script": "*",
+      "coffee-cache": "*"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "~0.25.2",
+      "electron-packager": "~3.2.0"
+    }
   },
-  "_librariesioMetadata": {
-    "full_name": "bkeepers/github-notifications-app",
-    "description": "A native wrapper around https://notifications.githubapp.com",
-    "fork": false,
-    "created_at": "2015-05-05T19:39:41.000Z",
-    "updated_at": "2015-05-05T19:39:59.000Z",
-    "pushed_at": "2015-05-05T19:39:59.000Z",
-    "homepage": null,
-    "size": 96,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 0,
-    "github_id": 35120082,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "packageStatus": 200
 }

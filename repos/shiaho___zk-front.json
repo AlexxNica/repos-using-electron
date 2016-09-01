@@ -1,90 +1,110 @@
 {
+  "id": 52339154,
   "name": "zk-front",
-  "productName": "ZkFront",
-  "version": "0.0.1",
-  "description": "My awe-inspiring app",
-  "license": "MIT",
-  "repository": "shiaho/zk-front",
-  "author": {
-    "name": "ksh",
-    "email": "ksx0001@gmail.com",
-    "url": "http://sihao.me"
+  "fullName": "shiaho/zk-front",
+  "owner": {
+    "login": "shiaho",
+    "id": 8654182,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8654182?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/shiaho",
+    "htmlUrl": "https://github.com/shiaho",
+    "followersUrl": "https://api.github.com/users/shiaho/followers",
+    "subscriptionsUrl": "https://api.github.com/users/shiaho/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/shiaho/orgs",
+    "reposUrl": "https://api.github.com/users/shiaho/repos",
+    "receivedEventsUrl": "https://api.github.com/users/shiaho/received_events",
+    "type": "User"
   },
-  "electronVersion": "0.36.0",
-  "scripts": {
-    "test": "xo",
-    "start": "electron .",
-    "build": "electron-packager  . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --platform=darwin --prune --asar --all --version=$npm_package_electronVersion"
+  "private": false,
+  "description": "Zookeeper GUI client with electron&react",
+  "fork": false,
+  "createdAt": "2016-02-23T07:16:36.000Z",
+  "updatedAt": "2016-02-23T07:17:37.000Z",
+  "pushedAt": "2016-03-08T09:51:13.000Z",
+  "homepage": null,
+  "size": 894,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
-  "keywords": [
-    "electron-app",
-    "electron"
-  ],
-  "dependencies": {
-    "babel-plugin-transform-react-jsx": "^6.6.5",
-    "bootstrap": "^3.3.6",
-    "bower": "^1.7.2",
-    "brace": "^0.7.0",
-    "dialogs": "^1.1.9",
-    "electron-debug": "^0.5.0",
-    "jquery": "^2.2.0",
-    "react": "^0.14.6",
-    "react-ace": "^3.1.0",
-    "react-contextmenu": "^0.3.0",
-    "react-dom": "^0.14.6",
-    "reflux": "^0.3.0",
-    "zkjs": "^3.4.1"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "devDependencies": {
-    "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.36.0",
-    "xo": "^0.12.0"
-  },
-  "xo": {
-    "esnext": true,
-    "envs": [
-      "node",
-      "browser"
-    ]
-  },
-  "_librariesioMetadata": {
-    "full_name": "shiaho/zk-front",
-    "description": "Zookeeper GUI client with electron&react",
-    "fork": false,
-    "created_at": "2016-02-23T07:16:36.000Z",
-    "updated_at": "2016-02-23T07:17:37.000Z",
-    "pushed_at": "2016-03-07T11:08:20.000Z",
-    "homepage": null,
-    "size": 892,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 52339154,
-    "source_name": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "zk-front",
+    "productName": "ZkFront",
+    "version": "0.0.1",
+    "description": "My awe-inspiring app",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "repository": "shiaho/zk-front",
+    "author": {
+      "name": "ksh",
+      "email": "ksx0001@gmail.com",
+      "url": "http://sihao.me"
+    },
+    "electronVersion": "0.36.0",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager  . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --platform=darwin --prune --asar --all --version=$npm_package_electronVersion"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "babel-plugin-transform-react-jsx": "^6.6.5",
+      "bootstrap": "^3.3.6",
+      "bower": "^1.7.2",
+      "brace": "^0.7.0",
+      "dialogs": "^1.1.9",
+      "electron-debug": "^0.5.0",
+      "jquery": "^2.2.0",
+      "react": "^0.14.6",
+      "react-ace": "^3.1.0",
+      "react-contextmenu": "^0.3.0",
+      "react-dom": "^0.14.6",
+      "reflux": "^0.3.0",
+      "zkjs": "^3.4.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.36.0",
+      "xo": "^0.12.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

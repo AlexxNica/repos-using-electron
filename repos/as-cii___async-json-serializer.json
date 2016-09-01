@@ -1,86 +1,100 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "as-cii/async-json-serializer",
-    "description": null,
-    "fork": false,
-    "created_at": "2016-02-24T10:06:41.000Z",
-    "updated_at": "2016-04-17T20:12:26.493Z",
-    "pushed_at": "2016-02-25T07:49:04.000Z",
-    "homepage": null,
-    "size": 5,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 0,
-    "github_id": 52432786,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-17T20:12:26.467Z",
-    "rank": null
-  },
+  "id": 52432786,
   "name": "async-json-serializer",
-  "version": "0.0.2",
-  "description": "A library to serialize a JSON object across multiple async callbacks.",
-  "main": "src/async-json-serializer.js",
-  "scripts": {
-    "test": "mocha ./test/helpers/setup test/*",
-    "tdd": "electron-mocha --renderer --interactive --recursive ./test/helpers/setup  test/",
-    "prepublish": "npm run standard && npm run clean",
-    "standard": "standard",
-    "clean": "rm -rf dist",
-    "ci": "npm run standard && npm run test"
+  "fullName": "as-cii/async-json-serializer",
+  "owner": {
+    "login": "as-cii",
+    "id": 482957,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/482957?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/as-cii",
+    "htmlUrl": "https://github.com/as-cii",
+    "followersUrl": "https://api.github.com/users/as-cii/followers",
+    "subscriptionsUrl": "https://api.github.com/users/as-cii/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/as-cii/orgs",
+    "reposUrl": "https://api.github.com/users/as-cii/repos",
+    "receivedEventsUrl": "https://api.github.com/users/as-cii/received_events",
+    "type": "User"
   },
-  "standard": {
-    "parser": "babel-eslint",
-    "global": [
-      "describe",
-      "it",
-      "assert",
-      "beforeEach"
-    ]
+  "private": false,
+  "description": null,
+  "fork": false,
+  "createdAt": "2016-02-24T10:06:41.000Z",
+  "updatedAt": "2016-02-25T07:41:43.000Z",
+  "pushedAt": "2016-02-25T07:49:04.000Z",
+  "homepage": null,
+  "size": 5,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "json",
-    "async",
-    "stringify",
-    "serialize"
-  ],
-  "author": "Antonio Scandurra <me@as-cii.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "babel-eslint": "^4.0.5",
-    "chai": "^2.0.0",
-    "electron-mocha": "git://github.com/nathansobo/electron-mocha.git#interactive-option",
-    "electron-prebuilt": "0.36.8",
-    "mocha": "^2.3.4",
-    "random-seed": "^0.3.0",
-    "standard": "^4.5.4"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "async-json-serializer",
+    "version": "0.0.2",
+    "description": "A library to serialize a JSON object across multiple async callbacks.",
+    "main": "src/async-json-serializer.js",
+    "scripts": {
+      "test": "mocha ./test/helpers/setup test/*",
+      "tdd": "electron-mocha --renderer --interactive --recursive ./test/helpers/setup  test/",
+      "prepublish": "npm run standard && npm run clean",
+      "standard": "standard",
+      "clean": "rm -rf dist",
+      "ci": "npm run standard && npm run test"
+    },
+    "standard": {
+      "parser": "babel-eslint",
+      "global": [
+        "describe",
+        "it",
+        "assert",
+        "beforeEach"
+      ]
+    },
+    "keywords": [
+      "json",
+      "async",
+      "stringify",
+      "serialize"
+    ],
+    "author": "Antonio Scandurra <me@as-cii.com>",
+    "license": "MIT",
+    "devDependencies": {
+      "babel-eslint": "^4.0.5",
+      "chai": "^2.0.0",
+      "electron-mocha": "git://github.com/nathansobo/electron-mocha.git#interactive-option",
+      "electron-prebuilt": "0.36.8",
+      "mocha": "^2.3.4",
+      "random-seed": "^0.3.0",
+      "standard": "^4.5.4"
+    },
+    "directories": {
+      "test": "test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/as-cii/async-json-serializer.git"
+    },
+    "bugs": {
+      "url": "https://github.com/as-cii/async-json-serializer/issues"
+    },
+    "homepage": "https://github.com/as-cii/async-json-serializer#readme"
   },
-  "directories": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/as-cii/async-json-serializer.git"
-  },
-  "bugs": {
-    "url": "https://github.com/as-cii/async-json-serializer/issues"
-  },
-  "homepage": "https://github.com/as-cii/async-json-serializer#readme"
+  "packageStatus": 200
 }

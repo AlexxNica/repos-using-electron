@@ -1,62 +1,82 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "sassy/hashire",
-    "description": "play \"走れ!\" video in command line.",
-    "fork": false,
-    "created_at": "2015-08-31T16:00:00.000Z",
-    "updated_at": "2016-05-27T13:43:49.760Z",
-    "pushed_at": "2015-09-10T05:50:13.000Z",
-    "homepage": "",
-    "size": 236,
-    "stargazers_count": 1,
-    "language": "HTML",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 2,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 41685616,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 3,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T13:43:49.728Z",
-    "rank": null
-  },
+  "id": 41685616,
   "name": "hashire",
-  "version": "1.0.1",
-  "description": "",
-  "bin": {
-    "hashire": "bin/hashire"
+  "fullName": "sassy/hashire",
+  "owner": {
+    "login": "sassy",
+    "id": 459739,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/459739?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/sassy",
+    "htmlUrl": "https://github.com/sassy",
+    "followersUrl": "https://api.github.com/users/sassy/followers",
+    "subscriptionsUrl": "https://api.github.com/users/sassy/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/sassy/orgs",
+    "reposUrl": "https://api.github.com/users/sassy/repos",
+    "receivedEventsUrl": "https://api.github.com/users/sassy/received_events",
+    "type": "User"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "private": false,
+  "description": "play \"走れ!\" video in command line.",
+  "fork": false,
+  "createdAt": "2015-08-31T16:00:00.000Z",
+  "updatedAt": "2015-09-17T07:29:40.000Z",
+  "pushedAt": "2015-09-10T05:50:13.000Z",
+  "homepage": "",
+  "size": 236,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sassy/hasire"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "keywords": [
-    "momoclo",
-    "momoiroclover"
-  ],
-  "author": {
-    "name": "Satoshi Watanabe",
-    "email": "sassy.watanabe@gmail.com"
+  "networkCount": 2,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "hashire",
+    "version": "1.0.1",
+    "description": "",
+    "bin": {
+      "hashire": "bin/hashire"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sassy/hasire"
+    },
+    "keywords": [
+      "momoclo",
+      "momoiroclover"
+    ],
+    "author": {
+      "name": "Satoshi Watanabe",
+      "email": "sassy.watanabe@gmail.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "electron-prebuilt": "^0.31.1"
+    }
   },
-  "license": "MIT",
-  "dependencies": {
-    "electron-prebuilt": "^0.31.1"
-  }
+  "packageStatus": 200
 }

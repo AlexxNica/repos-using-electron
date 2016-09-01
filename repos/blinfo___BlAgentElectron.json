@@ -1,72 +1,106 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "blinfo/BlAgentElectron",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-01-25T18:21:32.000Z",
-    "updated_at": "2016-04-02T09:44:22.549Z",
-    "pushed_at": "2016-03-14T08:02:32.000Z",
-    "homepage": null,
-    "size": 247,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "develop",
-    "subscribers_count": 14,
-    "github_id": 50371049,
-    "source_name": null,
-    "license": "CC0-1.0",
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+  "id": 50371049,
+  "name": "BlAgentElectron",
+  "fullName": "blinfo/BlAgentElectron",
+  "owner": {
+    "login": "blinfo",
+    "id": 6410446,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6410446?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/blinfo",
+    "htmlUrl": "https://github.com/blinfo",
+    "followersUrl": "https://api.github.com/users/blinfo/followers",
+    "subscriptionsUrl": "https://api.github.com/users/blinfo/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/blinfo/orgs",
+    "reposUrl": "https://api.github.com/users/blinfo/repos",
+    "receivedEventsUrl": "https://api.github.com/users/blinfo/received_events",
+    "type": "Organization"
   },
-  "name": "bl-agent-electron",
-  "version": "1.0.0",
-  "description": "BL Agent App",
-  "main": "./index.js",
-  "scripts": {
-    "start": "electron .",
-    "clean": "rm -rf ./dist",
-    "clean:osx": "rm -rf ./dist/osx",
-    "clean:win": "rm -rf ./dist/win",
-    "pack": "npm run clean && npm run pack:osx && npm run pack:win",
-    "pack:osx": "npm run clean:osx && electron-packager . \"BLAgent\" --out=dist/osx --platform=darwin --arch=x64 --version=0.36.1 --icon=assets/osx/mount.icns",
-    "pack:win": "npm run clean:win && electron-packager . \"BLAgent\" --out=dist/win --platform=win32 --arch=ia32 --version=0.36.1 --icon=assets/win/mount.ico",
-    "build": "npm run build:osx && npm run build:win",
-    "build:osx": "npm run pack:osx && electron-builder \"dist/osx/BLAgent.app\" --platform=osx --out=\"dist/osx\" --config=builder.json",
-    "build:win": "npm run pack:win && electron-builder \"dist/win/BLAgent-win32\" --platform=win --out=\"dist/win\" --config=builder.json"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2016-01-25T18:21:32.000Z",
+  "updatedAt": "2016-01-25T18:24:08.000Z",
+  "pushedAt": "2016-03-14T08:02:32.000Z",
+  "homepage": null,
+  "size": 247,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "develop",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/blinfo/BlAgentElectron.git"
+  "license": {
+    "key": "cc0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "spdxId": "CC0-1.0",
+    "url": "https://api.github.com/licenses/cc0-1.0",
+    "featured": false
   },
-  "keywords": [],
-  "author": "GitHub",
-  "license": "",
-  "bugs": {
-    "url": ""
+  "organization": {
+    "login": "blinfo",
+    "id": 6410446,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6410446?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/blinfo",
+    "htmlUrl": "https://github.com/blinfo",
+    "followersUrl": "https://api.github.com/users/blinfo/followers",
+    "subscriptionsUrl": "https://api.github.com/users/blinfo/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/blinfo/orgs",
+    "reposUrl": "https://api.github.com/users/blinfo/repos",
+    "receivedEventsUrl": "https://api.github.com/users/blinfo/received_events",
+    "type": "Organization"
   },
-  "homepage": "",
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.5"
+  "networkCount": 0,
+  "subscribersCount": 14,
+  "status": 200,
+  "packageJSON": {
+    "name": "bl-agent-electron",
+    "version": "1.0.0",
+    "description": "BL Agent App",
+    "main": "./index.js",
+    "scripts": {
+      "start": "electron .",
+      "clean": "rm -rf ./dist",
+      "clean:osx": "rm -rf ./dist/osx",
+      "clean:win": "rm -rf ./dist/win",
+      "pack": "npm run clean && npm run pack:osx && npm run pack:win",
+      "pack:osx": "npm run clean:osx && electron-packager . \"BLAgent\" --out=dist/osx --platform=darwin --arch=x64 --version=0.36.1 --icon=assets/osx/mount.icns",
+      "pack:win": "npm run clean:win && electron-packager . \"BLAgent\" --out=dist/win --platform=win32 --arch=ia32 --version=0.36.1 --icon=assets/win/mount.ico",
+      "build": "npm run build:osx && npm run build:win",
+      "build:osx": "npm run pack:osx && electron-builder \"dist/osx/BLAgent.app\" --platform=osx --out=\"dist/osx\" --config=builder.json",
+      "build:win": "npm run pack:win && electron-builder \"dist/win/BLAgent-win32\" --platform=win --out=\"dist/win\" --config=builder.json"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/blinfo/BlAgentElectron.git"
+    },
+    "keywords": [],
+    "author": "GitHub",
+    "license": "",
+    "bugs": {
+      "url": ""
+    },
+    "homepage": "",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.5"
+    },
+    "dependencies": {
+      "node-notifier": "^4.4.0",
+      "electron-builder": "^2.6.0",
+      "electron-packager": "^5.2.1"
+    }
   },
-  "dependencies": {
-    "node-notifier": "^4.4.0",
-    "electron-builder": "^2.6.0",
-    "electron-packager": "^5.2.1"
-  }
+  "packageStatus": 200
 }

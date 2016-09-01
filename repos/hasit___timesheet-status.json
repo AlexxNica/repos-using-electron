@@ -1,60 +1,80 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "hasit/timesheet-status",
-    "description": "Check your UW ESS timesheet status with ease from your menubar",
-    "fork": false,
-    "created_at": "2016-04-16T13:38:10.000Z",
-    "updated_at": "2016-05-27T16:53:51.083Z",
-    "pushed_at": "2016-04-16T23:50:52.000Z",
-    "homepage": "",
-    "size": 116701,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 2,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 56385460,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T16:53:51.061Z",
-    "rank": null
-  },
+  "id": 56385460,
   "name": "timesheet-status",
-  "version": "1.0.0",
-  "description": "Check your ESS timesheet status with ease from your menubar",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron ."
+  "fullName": "hasit/timesheet-status",
+  "owner": {
+    "login": "hasit",
+    "id": 1553055,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1553055?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/hasit",
+    "htmlUrl": "https://github.com/hasit",
+    "followersUrl": "https://api.github.com/users/hasit/followers",
+    "subscriptionsUrl": "https://api.github.com/users/hasit/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/hasit/orgs",
+    "reposUrl": "https://api.github.com/users/hasit/repos",
+    "receivedEventsUrl": "https://api.github.com/users/hasit/received_events",
+    "type": "User"
   },
-  "keywords": [
-    "university",
-    "washington",
-    "UW",
-    "ESS",
-    "timesheet status"
-  ],
-  "author": "Hasit Mistry",
-  "license": "MIT",
-  "devDependencies": {
-    "electron-prebuilt": "^0.37.5"
+  "private": false,
+  "description": "Check your UW ESS timesheet status with ease from your menubar",
+  "fork": false,
+  "createdAt": "2016-04-16T13:38:10.000Z",
+  "updatedAt": "2016-05-09T09:43:20.000Z",
+  "pushedAt": "2016-04-16T23:50:52.000Z",
+  "homepage": "",
+  "size": 116701,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "dependencies": {
-    "cheerio": "^0.20.0",
-    "request": "^2.71.0"
-  }
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "timesheet-status",
+    "version": "1.0.0",
+    "description": "Check your ESS timesheet status with ease from your menubar",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [
+      "university",
+      "washington",
+      "UW",
+      "ESS",
+      "timesheet status"
+    ],
+    "author": "Hasit Mistry",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.5"
+    },
+    "dependencies": {
+      "cheerio": "^0.20.0",
+      "request": "^2.71.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,56 +1,84 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "Doklet/doklet_electron",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-01-05T17:45:16.000Z",
-    "updated_at": "2016-03-02T17:55:47.226Z",
-    "pushed_at": "2016-01-05T20:27:04.000Z",
-    "homepage": null,
-    "size": 2,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 49082265,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+  "id": 49082265,
+  "name": "doklet_electron",
+  "fullName": "Doklet/doklet_electron",
+  "owner": {
+    "login": "Doklet",
+    "id": 7962185,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7962185?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Doklet",
+    "htmlUrl": "https://github.com/Doklet",
+    "followersUrl": "https://api.github.com/users/Doklet/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Doklet/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Doklet/orgs",
+    "reposUrl": "https://api.github.com/users/Doklet/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Doklet/received_events",
+    "type": "Organization"
   },
-  "name": "doklet-electron",
-  "version": "1.0.0",
-  "description": "Desktop application for doklet",
-  "scripts": {
-    "start": "electron ./app Doklet",
-    "build": "electron-packager ./app Doklet --out=dist --ignore=dist --prune --platform=darwin --arch=x64 --version=0.36.0"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2016-01-05T17:45:16.000Z",
+  "updatedAt": "2016-01-05T20:27:04.000Z",
+  "pushedAt": "2016-01-05T20:27:04.000Z",
+  "homepage": null,
+  "size": 2,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Doklet/doklet_electron.git"
+  "license": null,
+  "organization": {
+    "login": "Doklet",
+    "id": 7962185,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7962185?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Doklet",
+    "htmlUrl": "https://github.com/Doklet",
+    "followersUrl": "https://api.github.com/users/Doklet/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Doklet/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Doklet/orgs",
+    "reposUrl": "https://api.github.com/users/Doklet/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Doklet/received_events",
+    "type": "Organization"
   },
-  "author": "Marcus Nilsson",
-  "bugs": {
-    "url": "https://github.com/Doklet/doklet_electron/issues"
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "doklet-electron",
+    "version": "1.0.0",
+    "description": "Desktop application for doklet",
+    "scripts": {
+      "start": "electron ./app Doklet",
+      "build": "electron-packager ./app Doklet --out=dist --ignore=dist --prune --platform=darwin --arch=x64 --version=0.36.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Doklet/doklet_electron.git"
+    },
+    "author": "Marcus Nilsson",
+    "bugs": {
+      "url": "https://github.com/Doklet/doklet_electron/issues"
+    },
+    "homepage": "https://github.com/Doklet/doklet_electron#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    }
   },
-  "homepage": "https://github.com/Doklet/doklet_electron#readme",
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.0"
-  }
+  "packageStatus": 200
 }

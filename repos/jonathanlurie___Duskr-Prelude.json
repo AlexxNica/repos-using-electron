@@ -1,62 +1,82 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "jonathanlurie/Duskr-Prelude",
-    "description": "A image header generator using EXIF.",
-    "fork": false,
-    "created_at": "2016-05-30T22:14:18.000Z",
-    "updated_at": "2016-05-31T01:17:08.502Z",
-    "pushed_at": "2016-05-31T01:16:39.000Z",
-    "homepage": null,
-    "size": 539,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 60041873,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-31T01:17:08.480Z",
-    "rank": null
+  "id": 60041873,
+  "name": "Duskr-Prelude",
+  "fullName": "jonathanlurie/Duskr-Prelude",
+  "owner": {
+    "login": "jonathanlurie",
+    "id": 1303310,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1303310?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/jonathanlurie",
+    "htmlUrl": "https://github.com/jonathanlurie",
+    "followersUrl": "https://api.github.com/users/jonathanlurie/followers",
+    "subscriptionsUrl": "https://api.github.com/users/jonathanlurie/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/jonathanlurie/orgs",
+    "reposUrl": "https://api.github.com/users/jonathanlurie/repos",
+    "receivedEventsUrl": "https://api.github.com/users/jonathanlurie/received_events",
+    "type": "User"
   },
-  "name": "duskr-prelude",
-  "version": "0.1.0",
+  "private": false,
   "description": "A image header generator using EXIF.",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js"
+  "fork": false,
+  "createdAt": "2016-05-30T22:14:18.000Z",
+  "updatedAt": "2016-05-30T22:37:21.000Z",
+  "pushedAt": "2016-06-03T13:29:46.000Z",
+  "homepage": null,
+  "size": 548,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jonathanlurie/Duskr-Prelude.git"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "author": "Jonathan Lurie / Duskr",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jonathanlurie/Duskr-Prelude/issues"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "duskr-prelude",
+    "version": "0.1.0",
+    "description": "A image header generator using EXIF.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jonathanlurie/Duskr-Prelude.git"
+    },
+    "author": "Jonathan Lurie / Duskr",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jonathanlurie/Duskr-Prelude/issues"
+    },
+    "homepage": "http://duskr.co/prelude",
+    "dependencies": {
+      "electron-drag": "^1.1.0",
+      "electron-prebuilt": "^1.2.0",
+      "glob": "^7.0.3",
+      "handlebars": "^4.0.5",
+      "jquery": ">=2.2.0",
+      "piexifjs": ">=1.0.0"
+    }
   },
-  "homepage": "http://duskr.co/prelude",
-  "dependencies": {
-    "electron-drag": "^1.1.0",
-    "electron-prebuilt": "^1.2.0",
-    "glob": "^7.0.3",
-    "handlebars": "^4.0.5",
-    "jquery": ">=2.2.0",
-    "piexifjs": ">=1.0.0"
-  }
+  "packageStatus": 200
 }

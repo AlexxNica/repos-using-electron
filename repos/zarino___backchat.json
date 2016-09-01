@@ -1,74 +1,88 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "zarino/backchat",
-    "description": "A hackable IRC client for Mac OS X, built with Electron (atom-shell), HTML and JavaScript",
-    "fork": false,
-    "created_at": "2015-05-01T09:42:59.000Z",
-    "updated_at": "2015-11-02T19:49:44.156Z",
-    "pushed_at": "2015-08-14T07:06:05.000Z",
-    "homepage": "",
-    "size": 536,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 10,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 34897018,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 34897018,
   "name": "backchat",
-  "productName": "Backchat",
-  "version": "0.0.1",
-  "description": "A hackable IRC app",
-  "main": "./src/server/main.js",
-  "author": "Zarino Zappia",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zarino/backchat.git"
+  "fullName": "zarino/backchat",
+  "owner": {
+    "login": "zarino",
+    "id": 739624,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/739624?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/zarino",
+    "htmlUrl": "https://github.com/zarino",
+    "followersUrl": "https://api.github.com/users/zarino/followers",
+    "subscriptionsUrl": "https://api.github.com/users/zarino/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/zarino/orgs",
+    "reposUrl": "https://api.github.com/users/zarino/repos",
+    "receivedEventsUrl": "https://api.github.com/users/zarino/received_events",
+    "type": "User"
   },
-  "bugs": {
-    "url": "https://github.com/zarino/backchat/issues"
+  "private": false,
+  "description": "A hackable IRC client for Mac OS X, built with Electron (atom-shell), HTML and JavaScript",
+  "fork": false,
+  "createdAt": "2015-05-01T09:42:59.000Z",
+  "updatedAt": "2015-11-29T02:42:22.000Z",
+  "pushedAt": "2015-08-14T07:06:05.000Z",
+  "homepage": "",
+  "size": 536,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 10,
+  "openIssues": 10,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "private": true,
-  "dependencies": {
-    "autolinker": "^0.18.1",
-    "fs-extra": "^0.22.1",
-    "irc": "~0.3.11",
-    "spellchecker": "^2.2.1",
-    "underscore-plus": "^1.6.1"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "backchat",
+    "productName": "Backchat",
+    "version": "0.0.1",
+    "description": "A hackable IRC app",
+    "main": "./src/server/main.js",
+    "author": "Zarino Zappia",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zarino/backchat.git"
+    },
+    "bugs": {
+      "url": "https://github.com/zarino/backchat/issues"
+    },
+    "private": true,
+    "dependencies": {
+      "autolinker": "^0.18.1",
+      "fs-extra": "^0.22.1",
+      "irc": "~0.3.11",
+      "spellchecker": "^2.2.1",
+      "underscore-plus": "^1.6.1"
+    },
+    "devDependencies": {
+      "acorn": "^1.0.3",
+      "chromedriver": "^2.15.0",
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.2",
+      "electron-rebuild": "^0.2.5",
+      "ircdjs": "git://github.com/alexyoung/ircd.js",
+      "mocha": "~1.18.0",
+      "promise": "^7.0.1",
+      "selenium-webdriver": "~2.45.1"
+    },
+    "scripts": {
+      "test": "scripts/build && BACKCHAT_DEBUG=True mocha test",
+      "start": "scripts/start",
+      "build": "scripts/build"
+    }
   },
-  "devDependencies": {
-    "acorn": "^1.0.3",
-    "chromedriver": "^2.15.0",
-    "electron-packager": "^5.0.1",
-    "electron-prebuilt": "^0.30.2",
-    "electron-rebuild": "^0.2.5",
-    "ircdjs": "git://github.com/alexyoung/ircd.js",
-    "mocha": "~1.18.0",
-    "promise": "^7.0.1",
-    "selenium-webdriver": "~2.45.1"
-  },
-  "scripts": {
-    "test": "scripts/build && BACKCHAT_DEBUG=True mocha test",
-    "start": "scripts/start",
-    "build": "scripts/build"
-  }
+  "packageStatus": 200
 }

@@ -1,85 +1,105 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "katacarbix/Letterbox",
-    "description": "Free, open-source, and lightweight email client.",
-    "fork": false,
-    "created_at": "2015-12-08T04:32:05.000Z",
-    "updated_at": "2016-01-27T03:53:40.000Z",
-    "pushed_at": "2016-03-01T21:21:41.000Z",
-    "homepage": "",
-    "size": 97540,
-    "stargazers_count": 0,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 47598664,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+  "id": 47598664,
+  "name": "Letterbox",
+  "fullName": "katacarbix/Letterbox",
+  "owner": {
+    "login": "katacarbix",
+    "id": 1340784,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1340784?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/katacarbix",
+    "htmlUrl": "https://github.com/katacarbix",
+    "followersUrl": "https://api.github.com/users/katacarbix/followers",
+    "subscriptionsUrl": "https://api.github.com/users/katacarbix/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/katacarbix/orgs",
+    "reposUrl": "https://api.github.com/users/katacarbix/repos",
+    "receivedEventsUrl": "https://api.github.com/users/katacarbix/received_events",
+    "type": "User"
   },
-  "name": "letterbox",
-  "version": "0.0.1",
-  "description": "A fast and lightweight email client that lets you manage your messages how you want.",
-  "contributors": [
-    {
-      "name": "Charter Jacobson (katacarbix)",
-      "email": "me@katacarbix.xyz"
+  "private": false,
+  "description": "Project canceled.",
+  "fork": false,
+  "createdAt": "2015-12-08T04:32:05.000Z",
+  "updatedAt": "2016-06-13T19:22:10.000Z",
+  "pushedAt": "2016-06-13T19:21:20.000Z",
+  "homepage": "",
+  "size": 97674,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mpl-2.0",
+    "name": "Mozilla Public License 2.0",
+    "spdxId": "MPL-2.0",
+    "url": "https://api.github.com/licenses/mpl-2.0",
+    "featured": false
+  },
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "letterbox",
+    "version": "0.0.1",
+    "description": "A fast and lightweight email client that lets you manage your messages how you want.",
+    "contributors": [
+      {
+        "name": "Charter Jacobson (katacarbix)",
+        "email": "me@katacarbix.xyz"
+      }
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/katacarbix/Letterbox.git"
+    },
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+      "start": "electron index.js"
+    },
+    "window": {
+      "title": "Letterbox",
+      "width": 1000,
+      "height": 640,
+      "min-width": 721,
+      "min-height": 300
+    },
+    "dependencies": {
+      "dropzone": "^4.3.0",
+      "emailjs-imap-client": "",
+      "emailjs-mime-builder": "",
+      "emailjs-mime-parser": "",
+      "emailjs-smtp-client": "",
+      "fs-extra": "^0.30.0",
+      "googleapis": "^2.1.7",
+      "hammerjs": "",
+      "jquery": "",
+      "moment": "^2.10.6",
+      "nconf": "",
+      "titlebar": "git://github.com/katacarbix/titlebar"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.35.0",
+      "electron-rebuild": "^1.0.2",
+      "grunt": "~0.4.5",
+      "grunt-contrib-compass": "~0.7.0",
+      "grunt-contrib-concat": "~0.3.0",
+      "grunt-contrib-watch": "~0.5.3"
     }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/katacarbix/Letterbox.git"
   },
-  "private": true,
-  "main": "index.js",
-  "scripts": {
-    "start": "electron index.js"
-  },
-  "window": {
-    "title": "Letterbox",
-    "width": 1000,
-    "height": 640,
-    "min-width": 721,
-    "min-height": 300
-  },
-  "dependencies": {
-    "dropzone": "^4.3.0",
-    "emailjs-imap-client": "",
-    "emailjs-mime-builder": "",
-    "emailjs-mime-parser": "",
-    "emailjs-smtp-client": "",
-    "fs-extra": "^0.30.0",
-    "googleapis": "^2.1.7",
-    "hammerjs": "",
-    "jquery": "",
-    "moment": "^2.10.6",
-    "nconf": "",
-    "titlebar": "git://github.com/katacarbix/titlebar"
-  },
-  "devDependencies": {
-    "electron-packager": "^5.2.0",
-    "electron-prebuilt": "^0.35.0",
-    "electron-rebuild": "^1.0.2",
-    "grunt": "~0.4.5",
-    "grunt-contrib-compass": "~0.7.0",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-watch": "~0.5.3"
-  }
+  "packageStatus": 200
 }

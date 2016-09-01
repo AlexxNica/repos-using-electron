@@ -1,58 +1,92 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "image-js/editor",
-    "description": "Image editor based on electron",
-    "fork": false,
-    "created_at": "2015-10-23T17:48:57.000Z",
-    "updated_at": "2016-03-01T20:16:55.871Z",
-    "pushed_at": "2016-01-30T10:31:05.000Z",
-    "homepage": null,
-    "size": 6,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 44829059,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 44829059,
   "name": "editor",
-  "version": "1.0.0",
+  "fullName": "image-js/editor",
+  "owner": {
+    "login": "image-js",
+    "id": 12996949,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/12996949?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/image-js",
+    "htmlUrl": "https://github.com/image-js",
+    "followersUrl": "https://api.github.com/users/image-js/followers",
+    "subscriptionsUrl": "https://api.github.com/users/image-js/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/image-js/orgs",
+    "reposUrl": "https://api.github.com/users/image-js/repos",
+    "receivedEventsUrl": "https://api.github.com/users/image-js/received_events",
+    "type": "Organization"
+  },
+  "private": false,
   "description": "Image editor based on electron",
-  "main": "main.js",
-  "dependencies": {
-    "image-js": "^0.1.8"
+  "fork": false,
+  "createdAt": "2015-10-23T17:48:57.000Z",
+  "updatedAt": "2016-01-29T18:15:07.000Z",
+  "pushedAt": "2016-01-30T10:31:05.000Z",
+  "homepage": null,
+  "size": 6,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.6"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron src/index.js"
+  "organization": {
+    "login": "image-js",
+    "id": 12996949,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/12996949?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/image-js",
+    "htmlUrl": "https://github.com/image-js",
+    "followersUrl": "https://api.github.com/users/image-js/followers",
+    "subscriptionsUrl": "https://api.github.com/users/image-js/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/image-js/orgs",
+    "reposUrl": "https://api.github.com/users/image-js/repos",
+    "receivedEventsUrl": "https://api.github.com/users/image-js/received_events",
+    "type": "Organization"
   },
-  "repository": "image-js/editor",
-  "author": "Michaël Zasso",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/image-js/editor/issues"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "editor",
+    "version": "1.0.0",
+    "description": "Image editor based on electron",
+    "main": "main.js",
+    "dependencies": {
+      "image-js": "^0.1.8"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.6"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron src/index.js"
+    },
+    "repository": "image-js/editor",
+    "author": "Michaël Zasso",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/image-js/editor/issues"
+    },
+    "homepage": "https://github.com/image-js/editor#readme"
   },
-  "homepage": "https://github.com/image-js/editor#readme"
+  "packageStatus": 200
 }

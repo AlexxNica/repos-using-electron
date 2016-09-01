@@ -1,67 +1,81 @@
 {
+  "id": 33487855,
   "name": "kyoku",
-  "version": "0.0.6",
+  "fullName": "cheeaun/kyoku",
+  "owner": {
+    "login": "cheeaun",
+    "id": 2296,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2296?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/cheeaun",
+    "htmlUrl": "https://github.com/cheeaun",
+    "followersUrl": "https://api.github.com/users/cheeaun/followers",
+    "subscriptionsUrl": "https://api.github.com/users/cheeaun/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/cheeaun/orgs",
+    "reposUrl": "https://api.github.com/users/cheeaun/repos",
+    "receivedEventsUrl": "https://api.github.com/users/cheeaun/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "A tiny app that shows iTunes current playing song on Mac menu bar",
-  "main": "app.js",
-  "keywords": [
-    "electron-app",
-    "itunes",
-    "mac",
-    "menu",
-    "menubar",
-    "song"
-  ],
-  "author": "Lim Chee Aun <cheeaun@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "user-home": "~2.0.0"
+  "fork": false,
+  "createdAt": "2015-04-06T15:02:15.000Z",
+  "updatedAt": "2016-08-12T00:22:31.000Z",
+  "pushedAt": "2016-07-08T10:42:19.000Z",
+  "homepage": null,
+  "size": 57,
+  "stargazersCount": 63,
+  "watchersCount": 63,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 3,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 63,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cheeaun/kyoku"
-  },
-  "devDependencies": {
-    "electron-packager": "~7.0.1",
-    "electron-prebuilt": "~1.0.1"
-  },
-  "scripts": {
-    "start": "electron .",
-    "package": "electron-packager . Kyoku --overwrite --prune --platform=darwin --arch=x64 --version=0.34.0 --ignore=.DS_Store --ignore=icons --ignore=Kyoku.app --ignore=node_modules/.bin --app-version=$npm_package_version --icon=icons/music-note.icns",
-    "zip": "cd Kyoku-darwin-x64 && zip -ryXq Kyoku.app.zip Kyoku.app"
-  },
-  "_librariesioMetadata": {
-    "full_name": "cheeaun/kyoku",
+  "license": null,
+  "networkCount": 3,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "kyoku",
+    "version": "0.0.6",
     "description": "A tiny app that shows iTunes current playing song on Mac menu bar",
-    "fork": false,
-    "created_at": "2015-04-06T15:02:15.000Z",
-    "updated_at": "2016-07-24T03:44:39.399Z",
-    "pushed_at": "2016-07-08T10:42:19.000Z",
-    "homepage": null,
-    "size": 57,
-    "stargazers_count": 63,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 3,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 33487855,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 3,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "main": "app.js",
+    "keywords": [
+      "electron-app",
+      "itunes",
+      "mac",
+      "menu",
+      "menubar",
+      "song"
+    ],
+    "author": "Lim Chee Aun <cheeaun@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+      "user-home": "~2.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/cheeaun/kyoku"
+    },
+    "devDependencies": {
+      "electron-packager": "~7.0.1",
+      "electron-prebuilt": "~1.0.1"
+    },
+    "scripts": {
+      "start": "electron .",
+      "package": "electron-packager . Kyoku --overwrite --prune --platform=darwin --arch=x64 --version=0.34.0 --ignore=.DS_Store --ignore=icons --ignore=Kyoku.app --ignore=node_modules/.bin --app-version=$npm_package_version --icon=icons/music-note.icns",
+      "zip": "cd Kyoku-darwin-x64 && zip -ryXq Kyoku.app.zip Kyoku.app"
+    }
+  },
+  "packageStatus": 200
 }

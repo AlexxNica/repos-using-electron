@@ -1,83 +1,97 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "Linko91/api-docs-gen",
-    "description": "api docs generator",
-    "fork": false,
-    "created_at": "2016-05-16T07:56:29.000Z",
-    "updated_at": "2016-05-18T08:58:24.440Z",
-    "pushed_at": "2016-05-18T08:58:18.000Z",
-    "homepage": null,
-    "size": 565,
-    "stargazers_count": 0,
-    "language": "HTML",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 58914094,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-18T08:58:24.419Z",
-    "rank": null
-  },
+  "id": 64748060,
   "name": "api-docs-gen",
-  "productName": "ApiDocsGen",
-  "version": "1.2.0",
+  "fullName": "Linko91/api-docs-gen",
+  "owner": {
+    "login": "Linko91",
+    "id": 3787142,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3787142?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Linko91",
+    "htmlUrl": "https://github.com/Linko91",
+    "followersUrl": "https://api.github.com/users/Linko91/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Linko91/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Linko91/orgs",
+    "reposUrl": "https://api.github.com/users/Linko91/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Linko91/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "RESTfull services docs generator",
-  "license": "MIT",
-  "repository": "Linko91/api-docs-gen",
-  "author": {
-    "name": "",
-    "email": "",
-    "url": "github.com/Linko91"
+  "fork": false,
+  "createdAt": "2016-08-02T10:33:33.000Z",
+  "updatedAt": "2016-08-02T10:34:55.000Z",
+  "pushedAt": "2016-08-03T08:13:42.000Z",
+  "homepage": null,
+  "size": 3226,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "test": "xo",
-    "start": "electron .",
-    "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all",
-    "wizard": "epi"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "api-docs-gen",
+    "productName": "ApiDocsGen",
+    "version": "1.2.0",
+    "description": "RESTfull services docs generator",
+    "license": "MIT",
+    "repository": "Linko91/api-docs-gen",
+    "author": {
+      "name": "",
+      "email": "",
+      "url": "github.com/Linko91"
+    },
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all",
+      "wizard": "epi"
+    },
+    "files": [
+      "index.js",
+      "index.html"
+    ],
+    "keywords": [
+      "api",
+      "docs",
+      "api-docs",
+      "api-docs-generator"
+    ],
+    "dependencies": {
+      "electron-config": "^0.2.1",
+      "electron-context-menu": "^0.4.0",
+      "electron-debug": "^1.0.1"
+    },
+    "devDependencies": {
+      "devtron": "^1.2.1",
+      "electron-packager": "^7.4.0",
+      "electron-prebuilt": "^1.3.1",
+      "electron-packager-interactive": "^0.0.7",
+      "xo": "^0.16.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
   },
-  "files": [
-    "index.js",
-    "index.html"
-  ],
-  "keywords": [
-    "api",
-    "docs",
-    "api-docs",
-    "api-docs-generator"
-  ],
-  "dependencies": {
-    "electron-config": "^0.2.1",
-    "electron-context-menu": "^0.4.0",
-    "electron-debug": "^1.0.1"
-  },
-  "devDependencies": {
-    "devtron": "^1.2.1",
-    "electron-packager": "^7.4.0",
-    "electron-prebuilt": "^1.3.1",
-    "electron-packager-interactive": "^0.0.7",
-    "xo": "^0.16.0"
-  },
-  "xo": {
-    "esnext": true,
-    "envs": [
-      "node",
-      "browser"
-    ]
-  }
+  "packageStatus": 200
 }

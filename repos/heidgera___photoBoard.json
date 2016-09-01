@@ -1,54 +1,74 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "heidgera/photoBoard",
-    "description": "breakroom photoboard",
-    "fork": false,
-    "created_at": "2016-04-15T19:03:49.000Z",
-    "updated_at": "2016-05-28T03:41:04.848Z",
-    "pushed_at": "2016-04-15T21:53:39.000Z",
-    "homepage": null,
-    "size": 9,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 56343368,
-    "source_name": null,
+  "id": 56343368,
+  "name": "photoBoard",
+  "fullName": "heidgera/photoBoard",
+  "owner": {
+    "login": "heidgera",
+    "id": 827498,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/827498?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/heidgera",
+    "htmlUrl": "https://github.com/heidgera",
+    "followersUrl": "https://api.github.com/users/heidgera/followers",
+    "subscriptionsUrl": "https://api.github.com/users/heidgera/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/heidgera/orgs",
+    "reposUrl": "https://api.github.com/users/heidgera/repos",
+    "receivedEventsUrl": "https://api.github.com/users/heidgera/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "breakroom photoboard",
+  "fork": false,
+  "createdAt": "2016-04-15T19:03:49.000Z",
+  "updatedAt": "2016-04-15T19:04:00.000Z",
+  "pushedAt": "2016-04-15T21:53:39.000Z",
+  "homepage": null,
+  "size": 9,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "cc0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "spdxId": "CC0-1.0",
+    "url": "https://api.github.com/licenses/cc0-1.0",
+    "featured": false
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "PhotoBoard",
+    "version": "1.0.0",
+    "description": "A minimal photo board",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/heidgera/photoBoard.git"
+    },
+    "author": "ajhg",
     "license": "CC0-1.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T03:41:04.820Z",
-    "rank": null
+    "homepage": "https://github.com/heidgera/photoBoard#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.0"
+    }
   },
-  "name": "PhotoBoard",
-  "version": "1.0.0",
-  "description": "A minimal photo board",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/heidgera/photoBoard.git"
-  },
-  "author": "ajhg",
-  "license": "CC0-1.0",
-  "homepage": "https://github.com/heidgera/photoBoard#readme",
-  "devDependencies": {
-    "electron-prebuilt": "^0.35.0"
-  }
+  "packageStatus": 200
 }

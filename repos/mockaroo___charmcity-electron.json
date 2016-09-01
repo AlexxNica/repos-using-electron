@@ -1,58 +1,72 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "mockaroo/charmcity-electron",
-    "description": "A simple text editor built with Electron and Ace shown at charmCityJS.",
-    "fork": false,
-    "created_at": "2016-03-15T01:38:46.000Z",
-    "updated_at": "2016-04-05T02:34:48.000Z",
-    "pushed_at": "2016-04-06T02:49:31.000Z",
-    "homepage": "",
-    "size": 211,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 53905282,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 53905282,
   "name": "charmcity-electron",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/main/main.js",
-  "scripts": {
-    "start": "electron . --dev"
+  "fullName": "mockaroo/charmcity-electron",
+  "owner": {
+    "login": "mockaroo",
+    "id": 1361595,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1361595?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mockaroo",
+    "htmlUrl": "https://github.com/mockaroo",
+    "followersUrl": "https://api.github.com/users/mockaroo/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mockaroo/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mockaroo/orgs",
+    "reposUrl": "https://api.github.com/users/mockaroo/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mockaroo/received_events",
+    "type": "User"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "brace": "^0.7.0",
-    "electron-prebuilt": "^0.37.2"
+  "private": false,
+  "description": "A simple text editor built with Electron and Ace shown at charmCityJS.",
+  "fork": false,
+  "createdAt": "2016-03-15T01:38:46.000Z",
+  "updatedAt": "2016-04-05T02:34:48.000Z",
+  "pushedAt": "2016-05-11T14:20:49.000Z",
+  "homepage": "",
+  "size": 211,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-electron": "0.0.10",
-    "gulp-install": "^0.6.0",
-    "gulp-webpack": "^1.5.0",
-    "rimraf": "^2.5.2",
-    "webpack-target-electron-renderer": "^0.4.0"
-  }
+  "license": null,
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "charmcity-electron",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/main/main.js",
+    "scripts": {
+      "start": "electron . --dev"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "brace": "^0.7.0",
+      "electron-prebuilt": "^0.37.2"
+    },
+    "devDependencies": {
+      "gulp": "^3.9.1",
+      "gulp-electron": "0.0.10",
+      "gulp-install": "^0.6.0",
+      "gulp-webpack": "^1.5.0",
+      "rimraf": "^2.5.2",
+      "webpack-target-electron-renderer": "^0.4.0"
+    }
+  },
+  "packageStatus": 200
 }

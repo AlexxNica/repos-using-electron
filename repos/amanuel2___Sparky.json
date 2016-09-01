@@ -1,58 +1,72 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "amanuel2/Sparky",
-    "description": "Desktop app that serves as a chat room with a collab editor",
-    "fork": false,
-    "created_at": "2016-02-19T03:21:01.000Z",
-    "updated_at": "2016-03-20T01:41:20.000Z",
-    "pushed_at": "2016-03-20T01:39:57.000Z",
-    "homepage": "https://github.com/amanuel2/Sparky",
-    "size": 195,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 52058227,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+  "id": 52058227,
+  "name": "Sparky",
+  "fullName": "amanuel2/Sparky",
+  "owner": {
+    "login": "amanuel2",
+    "id": 16020076,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/16020076?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/amanuel2",
+    "htmlUrl": "https://github.com/amanuel2",
+    "followersUrl": "https://api.github.com/users/amanuel2/followers",
+    "subscriptionsUrl": "https://api.github.com/users/amanuel2/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/amanuel2/orgs",
+    "reposUrl": "https://api.github.com/users/amanuel2/repos",
+    "receivedEventsUrl": "https://api.github.com/users/amanuel2/received_events",
+    "type": "User"
   },
-  "name": "appjstut",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "appjs": "^0.0.20"
+  "private": false,
+  "description": "Desktop app that serves as a chat room with a collab editor",
+  "fork": false,
+  "createdAt": "2016-02-19T03:21:01.000Z",
+  "updatedAt": "2016-05-16T11:27:11.000Z",
+  "pushedAt": "2016-03-20T01:39:57.000Z",
+  "homepage": "https://github.com/amanuel2/Sparky",
+  "size": 195,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "alertifyjs": "^1.6.1",
-    "electron-packager": "^5.2.1",
-    "electron-prebuilt": "^0.36.7",
-    "express": "^4.13.4",
-    "express-mysql-session": "^1.0.0-rc.0",
-    "mysql": "^2.10.2"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "appjstut",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+      "appjs": "^0.0.20"
+    },
+    "devDependencies": {
+      "alertifyjs": "^1.6.1",
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.7",
+      "express": "^4.13.4",
+      "express-mysql-session": "^1.0.0-rc.0",
+      "mysql": "^2.10.2"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . Sparky --platform=win32 --arch=x64 --version=0.28.2"
+    },
+    "author": "Amanuel Bogale <abogale2@gmail.com> (Coming Soon)",
+    "license": "MIT"
   },
-  "scripts": {
-    "start": "electron .",
-    "build": "electron-packager . Sparky --platform=win32 --arch=x64 --version=0.28.2"
-  },
-  "author": "Amanuel Bogale <abogale2@gmail.com> (Coming Soon)",
-  "license": "MIT"
+  "packageStatus": 200
 }

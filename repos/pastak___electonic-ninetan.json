@@ -1,72 +1,92 @@
 {
+  "id": 44653324,
   "name": "electonic-ninetan",
-  "version": "0.0.5",
-  "description": "",
-  "main": "init.js",
-  "scripts": {
-    "run": "electron . --environment development",
-    "build": "./script/compile && electron-packager ./ electonic-ninetan --platform=all --arch=all --version=0.35.2 --asar --out=build --ignore=build --overwrite",
-    "build-mac": "./script/compile && electron-packager ./ electonic-ninetan --platform=darwin --arch=x64 --version=0.35.2 --asar  --out=build --ignore=build --overwrite",
-    "build-linux": "./script/compile && electron-packager ./ electonic-ninetan --platform=linux --arch=x64 --version=0.35.2 --prune --asar  --out=build --ignore=build --overwrite"
+  "fullName": "pastak/electonic-ninetan",
+  "owner": {
+    "login": "pastak",
+    "id": 191533,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/191533?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/pastak",
+    "htmlUrl": "https://github.com/pastak",
+    "followersUrl": "https://api.github.com/users/pastak/followers",
+    "subscriptionsUrl": "https://api.github.com/users/pastak/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/pastak/orgs",
+    "reposUrl": "https://api.github.com/users/pastak/repos",
+    "receivedEventsUrl": "https://api.github.com/users/pastak/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/pastak/electonic-ninetan.git"
+  "private": false,
+  "description": "forecast Info from http://sx9.jp/ on menubar",
+  "fork": false,
+  "createdAt": "2015-10-21T04:48:32.000Z",
+  "updatedAt": "2015-11-30T17:00:10.000Z",
+  "pushedAt": "2015-11-30T16:02:47.000Z",
+  "homepage": "",
+  "size": 17,
+  "stargazersCount": 4,
+  "watchersCount": 4,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 4,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "pastak",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pastak/electonic-ninetan/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "homepage": "https://github.com/pastak/electonic-ninetan#readme",
-  "compileCacheDir": "./compile-cache",
-  "devDependencies": {
-    "electron-compilers": "^1.0.0",
-    "electron-prebuilt": "^0.35.2"
-  },
-  "dependencies": {
-    "electron-compile": "^1.0.0",
-    "electron-packager": "^5.1.0",
-    "mkdirp": "^0.5.1",
-    "node-localstorage": "^0.6.0",
-    "react": "^0.14.0",
-    "react-dom": "^0.14.0",
-    "request-promise": "^1.0.1",
-    "yargs": "^3.27.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "pastak/electonic-ninetan",
-    "description": "forecast Info from http://sx9.jp/ on menubar",
-    "fork": false,
-    "created_at": "2015-10-21T04:48:32.000Z",
-    "updated_at": "2015-11-30T17:00:10.000Z",
-    "pushed_at": "2015-11-30T16:02:47.000Z",
-    "homepage": "",
-    "size": 17,
-    "stargazers_count": 4,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 44653324,
-    "source_name": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electonic-ninetan",
+    "version": "0.0.5",
+    "description": "",
+    "main": "init.js",
+    "scripts": {
+      "run": "electron . --environment development",
+      "build": "./script/compile && electron-packager ./ electonic-ninetan --platform=all --arch=all --version=0.35.2 --asar --out=build --ignore=build --overwrite",
+      "build-mac": "./script/compile && electron-packager ./ electonic-ninetan --platform=darwin --arch=x64 --version=0.35.2 --asar  --out=build --ignore=build --overwrite",
+      "build-linux": "./script/compile && electron-packager ./ electonic-ninetan --platform=linux --arch=x64 --version=0.35.2 --prune --asar  --out=build --ignore=build --overwrite"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/pastak/electonic-ninetan.git"
+    },
+    "author": "pastak",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "bugs": {
+      "url": "https://github.com/pastak/electonic-ninetan/issues"
+    },
+    "homepage": "https://github.com/pastak/electonic-ninetan#readme",
+    "compileCacheDir": "./compile-cache",
+    "devDependencies": {
+      "electron-compilers": "^1.0.0",
+      "electron-prebuilt": "^0.35.2"
+    },
+    "dependencies": {
+      "electron-compile": "^1.0.0",
+      "electron-packager": "^5.1.0",
+      "mkdirp": "^0.5.1",
+      "node-localstorage": "^0.6.0",
+      "react": "^0.14.0",
+      "react-dom": "^0.14.0",
+      "request-promise": "^1.0.1",
+      "yargs": "^3.27.0"
+    }
+  },
+  "packageStatus": 200
 }

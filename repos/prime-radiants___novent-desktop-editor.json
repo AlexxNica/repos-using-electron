@@ -1,64 +1,92 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "prime-radiants/novent-desktop-editor",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-03-03T11:34:46.000Z",
-    "updated_at": "2016-03-08T08:39:27.514Z",
-    "pushed_at": "2016-03-07T21:53:08.000Z",
-    "homepage": null,
-    "size": 856,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 53045647,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+  "id": 53045647,
+  "name": "novent-desktop-editor",
+  "fullName": "PrimeRadiants/novent-desktop-editor",
+  "owner": {
+    "login": "PrimeRadiants",
+    "id": 12949975,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/12949975?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/PrimeRadiants",
+    "htmlUrl": "https://github.com/PrimeRadiants",
+    "followersUrl": "https://api.github.com/users/PrimeRadiants/followers",
+    "subscriptionsUrl": "https://api.github.com/users/PrimeRadiants/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/PrimeRadiants/orgs",
+    "reposUrl": "https://api.github.com/users/PrimeRadiants/repos",
+    "receivedEventsUrl": "https://api.github.com/users/PrimeRadiants/received_events",
+    "type": "Organization"
   },
-  "name": "novent-desktop-reader",
-  "version": "0.0.1",
-  "description": "A Novent Desktop Reader based on Electron",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2016-03-03T11:34:46.000Z",
+  "updatedAt": "2016-03-03T11:35:54.000Z",
+  "pushedAt": "2016-04-11T15:56:24.000Z",
+  "homepage": null,
+  "size": 1013,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/prime-radiants/novent-desktop-reader"
+  "license": null,
+  "organization": {
+    "login": "PrimeRadiants",
+    "id": 12949975,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/12949975?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/PrimeRadiants",
+    "htmlUrl": "https://github.com/PrimeRadiants",
+    "followersUrl": "https://api.github.com/users/PrimeRadiants/followers",
+    "subscriptionsUrl": "https://api.github.com/users/PrimeRadiants/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/PrimeRadiants/orgs",
+    "reposUrl": "https://api.github.com/users/PrimeRadiants/repos",
+    "receivedEventsUrl": "https://api.github.com/users/PrimeRadiants/received_events",
+    "type": "Organization"
   },
-  "keywords": [
-    "Novent",
-    "Prime-Radiants"
-  ],
-  "author": "Shanira",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/prime-radiants/novent-desktop-reader/issues"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "novent-desktop-reader",
+    "version": "0.0.1",
+    "description": "A Novent Desktop Reader based on Electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/prime-radiants/novent-desktop-reader"
+    },
+    "keywords": [
+      "Novent",
+      "Prime-Radiants"
+    ],
+    "author": "Shanira",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/prime-radiants/novent-desktop-reader/issues"
+    },
+    "homepage": "https://github.com/prime-radiants/novent-desktop-reader",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "fs-extra": "^0.26.5"
+    }
   },
-  "homepage": "https://github.com/prime-radiants/novent-desktop-reader",
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.0"
-  },
-  "dependencies": {
-    "fs-extra": "^0.26.5"
-  }
+  "packageStatus": 200
 }

@@ -1,128 +1,142 @@
 {
+  "id": 45007075,
   "name": "ionic-electron-core",
-  "version": "0.1.0",
-  "description": "ionic-electron-core: An Ionic/Electron project",
-  "main": "www/main.js",
-  "dependencies": {
-    "babelify": "^6.4.0",
-    "browserify": "^11.2.0",
-    "browserify-ngannotate": "^1.0.1",
-    "browserify-shim": "^3.8.10",
-    "electron-prebuilt": "^0.34.1",
-    "gulp": "^3.5.6",
-    "gulp-angular-templatecache": "^1.8.0",
-    "gulp-babel": "^5.3.0",
-    "gulp-concat": "^2.2.0",
-    "gulp-jade": "^1.1.0",
-    "gulp-minify-css": "^0.3.0",
-    "gulp-minify-html": "^1.0.4",
-    "gulp-rename": "^1.2.0",
-    "gulp-rimraf": "^0.2.0",
-    "gulp-sass": "^2.0.4",
-    "gulp-streamify": "^1.0.2",
-    "gulp-uglify": "^1.4.2",
-    "gulp-util": "^2.2.14",
-    "run-sequence": "^1.1.4",
-    "vinyl-source-stream": "^1.1.0"
+  "fullName": "codewithmichael/ionic-electron-core",
+  "owner": {
+    "login": "codewithmichael",
+    "id": 2614473,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2614473?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/codewithmichael",
+    "htmlUrl": "https://github.com/codewithmichael",
+    "followersUrl": "https://api.github.com/users/codewithmichael/followers",
+    "subscriptionsUrl": "https://api.github.com/users/codewithmichael/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/codewithmichael/orgs",
+    "reposUrl": "https://api.github.com/users/codewithmichael/repos",
+    "receivedEventsUrl": "https://api.github.com/users/codewithmichael/received_events",
+    "type": "User"
   },
-  "devDependencies": {
-    "bower": "^1.3.3",
-    "shelljs": "^0.3.0"
+  "private": false,
+  "description": "Ionic + Electron application project core",
+  "fork": false,
+  "createdAt": "2015-10-27T00:39:32.000Z",
+  "updatedAt": "2016-07-12T15:34:10.000Z",
+  "pushedAt": "2015-10-29T22:07:43.000Z",
+  "homepage": "",
+  "size": 1980,
+  "stargazersCount": 4,
+  "watchersCount": 4,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 4,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "cordovaPlugins": [
-    "cordova-plugin-device",
-    "cordova-plugin-console",
-    "cordova-plugin-whitelist",
-    "cordova-plugin-splashscreen",
-    "cordova-plugin-statusbar",
-    "ionic-plugin-keyboard"
-  ],
-  "cordovaPlatforms": [
-    "ios"
-  ],
-  "browserify": {
-    "transform": [
-      [
-        "babelify",
-        {
-          "ignore": "bower_components",
-          "compact": false,
-          "comments": true
-        }
-      ],
-      "browserify-ngannotate",
-      "browserify-shim"
-    ]
-  },
-  "browser": {
-    "angular": "./bower_components/angular/angular.js",
-    "angular-animate": "./bower_components/angular-animate/angular-animate.js",
-    "angular-sanitize": "./bower_components/angular-sanitize/angular-sanitize.js",
-    "angular-ui-router": "./bower_components/angular-ui-router/release/angular-ui-router.js",
-    "ionic": "./bower_components/ionic/js/ionic.js",
-    "ionic-angular": "./bower_components/ionic/js/ionic-angular.js"
-  },
-  "browserify-shim": {
-    "angular": "angular",
-    "angular-animate": {
-      "depends": [
-        "angular"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "ionic-electron-core",
+    "version": "0.1.0",
+    "description": "ionic-electron-core: An Ionic/Electron project",
+    "main": "www/main.js",
+    "dependencies": {
+      "babelify": "^6.4.0",
+      "browserify": "^11.2.0",
+      "browserify-ngannotate": "^1.0.1",
+      "browserify-shim": "^3.8.10",
+      "electron-prebuilt": "^0.34.1",
+      "gulp": "^3.5.6",
+      "gulp-angular-templatecache": "^1.8.0",
+      "gulp-babel": "^5.3.0",
+      "gulp-concat": "^2.2.0",
+      "gulp-jade": "^1.1.0",
+      "gulp-minify-css": "^0.3.0",
+      "gulp-minify-html": "^1.0.4",
+      "gulp-rename": "^1.2.0",
+      "gulp-rimraf": "^0.2.0",
+      "gulp-sass": "^2.0.4",
+      "gulp-streamify": "^1.0.2",
+      "gulp-uglify": "^1.4.2",
+      "gulp-util": "^2.2.14",
+      "run-sequence": "^1.1.4",
+      "vinyl-source-stream": "^1.1.0"
+    },
+    "devDependencies": {
+      "bower": "^1.3.3",
+      "shelljs": "^0.3.0"
+    },
+    "cordovaPlugins": [
+      "cordova-plugin-device",
+      "cordova-plugin-console",
+      "cordova-plugin-whitelist",
+      "cordova-plugin-splashscreen",
+      "cordova-plugin-statusbar",
+      "ionic-plugin-keyboard"
+    ],
+    "cordovaPlatforms": [
+      "ios"
+    ],
+    "browserify": {
+      "transform": [
+        [
+          "babelify",
+          {
+            "ignore": "bower_components",
+            "compact": false,
+            "comments": true
+          }
+        ],
+        "browserify-ngannotate",
+        "browserify-shim"
       ]
     },
-    "angular-sanitize": {
-      "depends": [
-        "angular"
-      ]
+    "browser": {
+      "angular": "./bower_components/angular/angular.js",
+      "angular-animate": "./bower_components/angular-animate/angular-animate.js",
+      "angular-sanitize": "./bower_components/angular-sanitize/angular-sanitize.js",
+      "angular-ui-router": "./bower_components/angular-ui-router/release/angular-ui-router.js",
+      "ionic": "./bower_components/ionic/js/ionic.js",
+      "ionic-angular": "./bower_components/ionic/js/ionic-angular.js"
     },
-    "angular-ui-router": {
-      "depends": [
-        "angular"
-      ]
-    },
-    "ionic": "ionic",
-    "ionic-angular": {
-      "depends": [
-        "angular",
-        "angular-animate",
-        "angular-sanitize",
-        "angular-ui-router",
-        "ionic"
-      ]
+    "browserify-shim": {
+      "angular": "angular",
+      "angular-animate": {
+        "depends": [
+          "angular"
+        ]
+      },
+      "angular-sanitize": {
+        "depends": [
+          "angular"
+        ]
+      },
+      "angular-ui-router": {
+        "depends": [
+          "angular"
+        ]
+      },
+      "ionic": "ionic",
+      "ionic-angular": {
+        "depends": [
+          "angular",
+          "angular-animate",
+          "angular-sanitize",
+          "angular-ui-router",
+          "ionic"
+        ]
+      }
     }
   },
-  "_librariesioMetadata": {
-    "full_name": "codewithmichael/ionic-electron-core",
-    "description": "",
-    "fork": false,
-    "created_at": "2015-10-27T00:39:32.000Z",
-    "updated_at": "2016-07-12T15:34:15.670Z",
-    "pushed_at": "2015-10-29T22:07:43.000Z",
-    "homepage": null,
-    "size": 1980,
-    "stargazers_count": 4,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 45007075,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "packageStatus": 200
 }

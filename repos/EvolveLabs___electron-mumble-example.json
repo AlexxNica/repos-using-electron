@@ -1,68 +1,96 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "EvolveLabs/electron-mumble-example",
-    "description": "An example app for electron-mumble",
-    "fork": false,
-    "created_at": "2015-06-25T20:09:15.000Z",
-    "updated_at": "2015-06-25T20:58:57.000Z",
-    "pushed_at": "2015-07-09T20:26:36.000Z",
-    "homepage": null,
-    "size": 152,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 3,
-    "github_id": 38071488,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 38071488,
   "name": "electron-mumble-example",
-  "version": "1.0.0",
-  "description": "An example app for the use of the electron-mumble module",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "fullName": "EvolveLabs/electron-mumble-example",
+  "owner": {
+    "login": "EvolveLabs",
+    "id": 11398428,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11398428?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/EvolveLabs",
+    "htmlUrl": "https://github.com/EvolveLabs",
+    "followersUrl": "https://api.github.com/users/EvolveLabs/followers",
+    "subscriptionsUrl": "https://api.github.com/users/EvolveLabs/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/EvolveLabs/orgs",
+    "reposUrl": "https://api.github.com/users/EvolveLabs/repos",
+    "receivedEventsUrl": "https://api.github.com/users/EvolveLabs/received_events",
+    "type": "Organization"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/evolvelabs/electron-mumble-example.git"
+  "private": false,
+  "description": "An example app for electron-mumble",
+  "fork": false,
+  "createdAt": "2015-06-25T20:09:15.000Z",
+  "updatedAt": "2015-06-25T20:58:57.000Z",
+  "pushedAt": "2015-07-09T20:26:36.000Z",
+  "homepage": null,
+  "size": 152,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "electron",
-    "mumble"
-  ],
-  "author": "Justin Chase <justin@evolvelabs.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/evolvelabs/electron-mumble-example/issues"
+  "license": null,
+  "organization": {
+    "login": "EvolveLabs",
+    "id": 11398428,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11398428?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/EvolveLabs",
+    "htmlUrl": "https://github.com/EvolveLabs",
+    "followersUrl": "https://api.github.com/users/EvolveLabs/followers",
+    "subscriptionsUrl": "https://api.github.com/users/EvolveLabs/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/EvolveLabs/orgs",
+    "reposUrl": "https://api.github.com/users/EvolveLabs/repos",
+    "receivedEventsUrl": "https://api.github.com/users/EvolveLabs/received_events",
+    "type": "Organization"
   },
-  "homepage": "https://github.com/evolvelabs/electron-mumble-example#readme",
-  "devDependencies": {
-    "electron-prebuilt": "^0.28.3"
+  "networkCount": 1,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-mumble-example",
+    "version": "1.0.0",
+    "description": "An example app for the use of the electron-mumble module",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evolvelabs/electron-mumble-example.git"
+    },
+    "keywords": [
+      "electron",
+      "mumble"
+    ],
+    "author": "Justin Chase <justin@evolvelabs.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/evolvelabs/electron-mumble-example/issues"
+    },
+    "homepage": "https://github.com/evolvelabs/electron-mumble-example#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.28.3"
+    },
+    "dependencies": {
+      "electron-mumble": "^0.1.6",
+      "angular": "^1.4.1",
+      "angular-bootstrap": "^0.12.0",
+      "angular-ui-router": "^0.2.15",
+      "bootstrap": "^3.3.5"
+    }
   },
-  "dependencies": {
-    "electron-mumble": "^0.1.6",
-    "angular": "^1.4.1",
-    "angular-bootstrap": "^0.12.0",
-    "angular-ui-router": "^0.2.15",
-    "bootstrap": "^3.3.5"
-  }
+  "packageStatus": 200
 }

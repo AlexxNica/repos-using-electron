@@ -1,56 +1,70 @@
 {
+  "id": 45107603,
   "name": "electron-stream",
-  "version": "3.0.2",
-  "description": "Simple streaming wrapper around electron",
-  "scripts": {
-    "test": "make test"
+  "fullName": "juliangruber/electron-stream",
+  "owner": {
+    "login": "juliangruber",
+    "id": 10247,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/10247?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/juliangruber",
+    "htmlUrl": "https://github.com/juliangruber",
+    "followersUrl": "https://api.github.com/users/juliangruber/followers",
+    "subscriptionsUrl": "https://api.github.com/users/juliangruber/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/juliangruber/orgs",
+    "reposUrl": "https://api.github.com/users/juliangruber/repos",
+    "receivedEventsUrl": "https://api.github.com/users/juliangruber/received_events",
+    "type": "User"
   },
-  "repository": "juliangruber/electron-stream",
-  "devDependencies": {
-    "concat-stream": "^1.5.1",
-    "tape": "^4.2.2"
+  "private": false,
+  "description": "Streaming wrapper around electron",
+  "fork": false,
+  "createdAt": "2015-10-28T11:22:19.000Z",
+  "updatedAt": "2016-08-11T03:27:31.000Z",
+  "pushedAt": "2016-08-10T11:15:45.000Z",
+  "homepage": null,
+  "size": 32,
+  "stargazersCount": 61,
+  "watchersCount": 61,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 4,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 61,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "license": "MIT",
-  "dependencies": {
-    "electron-prebuilt": "^1.0.0",
-    "stream-read": "^1.1.2"
+  "license": null,
+  "networkCount": 4,
+  "subscribersCount": 4,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-stream",
+    "version": "3.0.2",
+    "description": "Simple streaming wrapper around electron",
+    "scripts": {
+      "test": "make test"
+    },
+    "repository": "juliangruber/electron-stream",
+    "devDependencies": {
+      "concat-stream": "^1.5.1",
+      "tape": "^4.2.2"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "electron-prebuilt": "^1.0.0",
+      "stream-read": "^1.1.2"
+    },
+    "bin": {
+      "electron-stream": "bin/bin.js"
+    }
   },
-  "bin": {
-    "electron-stream": "bin/bin.js"
-  },
-  "_librariesioMetadata": {
-    "full_name": "juliangruber/electron-stream",
-    "description": "Streaming wrapper around electron",
-    "fork": false,
-    "created_at": "2015-10-28T11:22:19.000Z",
-    "updated_at": "2016-05-22T10:52:52.883Z",
-    "pushed_at": "2016-05-22T10:50:34.000Z",
-    "homepage": null,
-    "size": 32,
-    "stargazers_count": 58,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 3,
-    "mirror_url": null,
-    "open_issues_count": 2,
-    "default_branch": "master",
-    "subscribers_count": 4,
-    "github_id": 45107603,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 5,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-22T10:52:52.860Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

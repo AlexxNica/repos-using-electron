@@ -1,63 +1,98 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "lesspass/desktop",
-    "description": "desktop application for lesspass",
-    "fork": false,
-    "created_at": "2016-07-05T13:34:22.000Z",
-    "updated_at": "2016-07-05T13:35:38.895Z",
-    "pushed_at": "2016-07-05T13:34:57.000Z",
-    "homepage": null,
-    "size": 0,
-    "stargazers_count": 0,
-    "language": "HTML",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 62639394,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-05T13:35:38.870Z",
-    "rank": null
+  "id": 62639394,
+  "name": "desktop",
+  "fullName": "lesspass/desktop",
+  "owner": {
+    "login": "lesspass",
+    "id": 17266927,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/17266927?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/lesspass",
+    "htmlUrl": "https://github.com/lesspass",
+    "followersUrl": "https://api.github.com/users/lesspass/followers",
+    "subscriptionsUrl": "https://api.github.com/users/lesspass/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/lesspass/orgs",
+    "reposUrl": "https://api.github.com/users/lesspass/repos",
+    "receivedEventsUrl": "https://api.github.com/users/lesspass/received_events",
+    "type": "Organization"
   },
-  "name": "lesspass-desktop",
-  "version": "1.0.0",
-  "description": "lesspass app",
-  "main": "main.js",
-  "productName": "LessPass",
-  "scripts": {
-    "build": "gulp",
-    "build:linux": "electron-packager ./ --platform=linux --arch=x64 --icon=images/icon.ico --ignore=node_modules --ignore=build --overwrite && python zip.py",
-    "build:windows": "electron-packager ./ --platform=win32 --arch=x64 --icon=images/icon.ico --ignore=node_modules --ignore=build --overwrite && python zip.py",
-    "start": "electron .",
-    "aws": "node aws.js"
+  "private": false,
+  "description": "desktop application for lesspass",
+  "fork": false,
+  "createdAt": "2016-07-05T13:34:22.000Z",
+  "updatedAt": "2016-07-05T13:34:58.000Z",
+  "pushedAt": "2016-08-09T19:28:25.000Z",
+  "homepage": null,
+  "size": 234,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "Guillaume Vincent <guillaume@oslab.fr>",
-  "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
-  "devDependencies": {
-    "aws-sdk": "^2.4.6",
-    "electron-packager": "^7.2.0",
-    "electron-prebuilt": "^1.2.0",
-    "gulp": "^3.9.1"
+  "organization": {
+    "login": "lesspass",
+    "id": 17266927,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/17266927?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/lesspass",
+    "htmlUrl": "https://github.com/lesspass",
+    "followersUrl": "https://api.github.com/users/lesspass/followers",
+    "subscriptionsUrl": "https://api.github.com/users/lesspass/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/lesspass/orgs",
+    "reposUrl": "https://api.github.com/users/lesspass/repos",
+    "receivedEventsUrl": "https://api.github.com/users/lesspass/received_events",
+    "type": "Organization"
   },
-  "dependencies": {
-    "lesspass-pure": "^1.1.2"
-  }
+  "networkCount": 1,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "lesspass-desktop",
+    "version": "1.0.0",
+    "description": "lesspass app",
+    "main": "main.js",
+    "productName": "LessPass",
+    "scripts": {
+      "build": "gulp",
+      "build:linux": "electron-packager ./ --platform=linux --arch=x64 --icon=images/icon.ico --ignore=node_modules --ignore=build --overwrite && python zip.py",
+      "build:windows": "electron-packager ./ --platform=win32 --arch=x64 --icon=images/icon.ico --ignore=node_modules --ignore=build --overwrite && python zip.py",
+      "build:osx": "electron-packager ./ LessPass --platform=darwin --arch=x64 --icon=images/icon.icns --ignore=node_modules --ignore=build --overwrite",
+      "start": "electron .",
+      "aws": "node aws.js"
+    },
+    "author": "Guillaume Vincent <guillaume@oslab.fr>",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/electron/electron-quick-start#readme",
+    "devDependencies": {
+      "aws-sdk": "^2.4.6",
+      "electron-packager": "^7.2.0",
+      "electron-prebuilt": "^1.2.0",
+      "gulp": "^3.9.1"
+    },
+    "dependencies": {
+      "lesspass-pure": "^1.1.2"
+    }
+  },
+  "packageStatus": 200
 }

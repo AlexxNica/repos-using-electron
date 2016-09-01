@@ -1,88 +1,108 @@
 {
+  "id": 62600154,
   "name": "markdown-studio",
-  "version": "1.1.0",
-  "main": "app/main.js",
-  "license": "MIT",
-  "readme": "README.md",
-  "private": true,
-  "author": {
-    "name": "Jason Kumpf",
-    "email": "jason@kumpf.io",
-    "url": "https://kumpf.io/"
+  "fullName": "contd/markdown-studio",
+  "owner": {
+    "login": "contd",
+    "id": 14170277,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/14170277?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/contd",
+    "htmlUrl": "https://github.com/contd",
+    "followersUrl": "https://api.github.com/users/contd/followers",
+    "subscriptionsUrl": "https://api.github.com/users/contd/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/contd/orgs",
+    "reposUrl": "https://api.github.com/users/contd/repos",
+    "receivedEventsUrl": "https://api.github.com/users/contd/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/contd/markdown-studio.git"
-  },
-  "bugs": {
-    "url": "https://github.com/contd/markdown-studio/issues",
-    "email": "jason@kumpf.io"
-  },
-  "keywords": [
-    "electron",
-    "debian"
-  ],
+  "private": false,
+  "description": "Markdown Editing and Organization Studio App",
+  "fork": false,
+  "createdAt": "2016-07-05T02:33:40.000Z",
+  "updatedAt": "2016-07-05T02:36:06.000Z",
+  "pushedAt": "2016-07-05T03:46:17.000Z",
   "homepage": "https://contd.github.io/markdown-studio",
-  "os": [
-    "darwin",
-    "linux"
-  ],
-  "scripts": {
-    "start": "electron .",
-    "asar": "asar pack markdown-studio app.asar",
-    "clean": "rimraf dist",
-    "exe32": "electron-packager . markdown-studio --platform linux --arch ia32 --out dist/ --ignore \"(dist|node_modules/electron.*)\"",
-    "exe64": "electron-packager . markdown-studio --platform linux --arch x64 --out dist/ --ignore \"(dist|node_modules/electron.*)\"",
-    "deb32": "electron-installer-debian --src dist/markdown-studio-linux-ia32/ --arch i386 --config config.json",
-    "deb64": "electron-installer-debian --src dist/markdown-studio-linux-x64/ --arch amd64 --config config.json",
-    "build": "npm run clean && npm run exe32 && npm run deb32 && npm run exe64 && npm run deb64"
+  "size": 3622,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "build": {
-    "appId": "markdown-studio-jpk",
-    "app-category-type": "Utility",
-    "win": {
-      "iconUrl": "resources/Icon.png"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "markdown-studio",
+    "version": "1.1.0",
+    "main": "app/main.js",
+    "license": "MIT",
+    "readme": "README.md",
+    "private": true,
+    "author": {
+      "name": "Jason Kumpf",
+      "email": "jason@kumpf.io",
+      "url": "https://kumpf.io/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/contd/markdown-studio.git"
+    },
+    "bugs": {
+      "url": "https://github.com/contd/markdown-studio/issues",
+      "email": "jason@kumpf.io"
+    },
+    "keywords": [
+      "electron",
+      "debian"
+    ],
+    "homepage": "https://contd.github.io/markdown-studio",
+    "os": [
+      "darwin",
+      "linux"
+    ],
+    "scripts": {
+      "start": "electron .",
+      "asar": "asar pack markdown-studio app.asar",
+      "clean": "rimraf dist",
+      "exe32": "electron-packager . markdown-studio --platform linux --arch ia32 --out dist/ --ignore \"(dist|node_modules/electron.*)\"",
+      "exe64": "electron-packager . markdown-studio --platform linux --arch x64 --out dist/ --ignore \"(dist|node_modules/electron.*)\"",
+      "deb32": "electron-installer-debian --src dist/markdown-studio-linux-ia32/ --arch i386 --config config.json",
+      "deb64": "electron-installer-debian --src dist/markdown-studio-linux-x64/ --arch amd64 --config config.json",
+      "build": "npm run clean && npm run exe32 && npm run deb32 && npm run exe64 && npm run deb64"
+    },
+    "build": {
+      "appId": "markdown-studio-jpk",
+      "app-category-type": "Utility",
+      "win": {
+        "iconUrl": "resources/Icon.png"
+      }
+    },
+    "devDependencies": {
+      "electron-installer-debian": "^0.3.0",
+      "electron-packager": "*",
+      "electron-prebuilt": "^1.2.5",
+      "rimraf": "*"
     }
   },
-  "devDependencies": {
-    "electron-installer-debian": "^0.3.0",
-    "electron-packager": "*",
-    "electron-prebuilt": "^1.2.5",
-    "rimraf": "*"
-  },
-  "_librariesioMetadata": {
-    "full_name": "contd/markdown-studio",
-    "description": "Markdown Editing and Organization Studio App",
-    "fork": false,
-    "created_at": "2016-07-05T02:33:40.000Z",
-    "updated_at": "2016-07-27T08:55:23.176Z",
-    "pushed_at": "2016-07-05T03:46:17.000Z",
-    "homepage": "https://contd.github.io/markdown-studio",
-    "size": 3622,
-    "stargazers_count": 0,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 62600154,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-27T08:55:23.156Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

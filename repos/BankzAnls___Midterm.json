@@ -1,82 +1,96 @@
 {
-  "name": "harry",
-  "version": "2.2.0",
-  "license": "MIT",
-  "main": "lib/nightmare.js",
-  "scripts": {
-    "test": "make test",
-    "start": "node index.js"
+  "id": 54745177,
+  "name": "Midterm",
+  "fullName": "BankzAnls/Midterm",
+  "owner": {
+    "login": "BankzAnls",
+    "id": 15376373,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/15376373?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/BankzAnls",
+    "htmlUrl": "https://github.com/BankzAnls",
+    "followersUrl": "https://api.github.com/users/BankzAnls/followers",
+    "subscriptionsUrl": "https://api.github.com/users/BankzAnls/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/BankzAnls/orgs",
+    "reposUrl": "https://api.github.com/users/BankzAnls/repos",
+    "receivedEventsUrl": "https://api.github.com/users/BankzAnls/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/segmentio/nightmare.git"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2016-03-25T20:15:53.000Z",
+  "updatedAt": "2016-03-25T21:23:07.000Z",
+  "pushedAt": "2016-03-26T07:17:41.000Z",
+  "homepage": null,
+  "size": 4078,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "bossbossk20",
-  "keywords": [
-    "nightmare",
-    "electron"
-  ],
-  "standard": {
-    "ignore": [
-      "lib"
-    ]
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "harry",
+    "version": "2.2.0",
+    "license": "MIT",
+    "main": "lib/nightmare.js",
+    "scripts": {
+      "test": "make test",
+      "start": "node index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/segmentio/nightmare.git"
+    },
+    "author": "bossbossk20",
+    "keywords": [
+      "nightmare",
+      "electron"
+    ],
+    "standard": {
+      "ignore": [
+        "lib"
+      ]
+    },
+    "description": "A high-level browser automation library.",
+    "dependencies": {
+      "debug": "^2.2.0",
+      "deep-defaults": "^1.0.3",
+      "defaults": "^1.0.2",
+      "electron-prebuilt": "^0.36.7",
+      "enqueue": "^1.0.2",
+      "function-source": "^0.1.0",
+      "jsesc": "^0.5.0",
+      "minstache": "^1.2.0",
+      "mkdirp": "^0.5.1",
+      "object-assign": "^4.0.1",
+      "once": "^1.3.3",
+      "rimraf": "^2.4.3",
+      "sliced": "1.0.1",
+      "standard": "^6.0.8"
+    },
+    "devDependencies": {
+      "chai": "^3.4.1",
+      "express": "^4.13.3",
+      "mocha-generators": "^1.2.0",
+      "mocha": "^2.3.0"
+    }
   },
-  "description": "A high-level browser automation library.",
-  "dependencies": {
-    "debug": "^2.2.0",
-    "deep-defaults": "^1.0.3",
-    "defaults": "^1.0.2",
-    "electron-prebuilt": "^0.36.7",
-    "enqueue": "^1.0.2",
-    "function-source": "^0.1.0",
-    "jsesc": "^0.5.0",
-    "minstache": "^1.2.0",
-    "mkdirp": "^0.5.1",
-    "object-assign": "^4.0.1",
-    "once": "^1.3.3",
-    "rimraf": "^2.4.3",
-    "sliced": "1.0.1",
-    "standard": "^6.0.8"
-  },
-  "devDependencies": {
-    "chai": "^3.4.1",
-    "express": "^4.13.3",
-    "mocha-generators": "^1.2.0",
-    "mocha": "^2.3.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "BankzAnls/Midterm",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-03-25T20:15:53.000Z",
-    "updated_at": "2016-03-26T19:12:19.969Z",
-    "pushed_at": "2016-03-26T07:17:41.000Z",
-    "homepage": null,
-    "size": 4078,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 54745177,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "packageStatus": 200
 }

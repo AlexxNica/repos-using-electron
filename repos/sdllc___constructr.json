@@ -1,116 +1,144 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "sdllc/constructr",
-    "description": "Electron-based R Shell",
-    "fork": false,
-    "created_at": "2016-06-22T20:07:10.000Z",
-    "updated_at": "2016-07-30T21:37:28.887Z",
-    "pushed_at": "2016-07-30T13:48:15.000Z",
-    "homepage": "http://constructr-project.com",
-    "size": 2481,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 61748089,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-24T17:51:14.287Z",
-    "rank": null
-  },
+  "id": 61748089,
   "name": "constructr",
-  "productName": "ConstructR",
-  "version": "0.8.2",
-  "description": "Electron-based R shell",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sdllc/constructr.git"
+  "fullName": "sdllc/constructr",
+  "owner": {
+    "login": "sdllc",
+    "id": 16868596,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/16868596?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/sdllc",
+    "htmlUrl": "https://github.com/sdllc",
+    "followersUrl": "https://api.github.com/users/sdllc/followers",
+    "subscriptionsUrl": "https://api.github.com/users/sdllc/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/sdllc/orgs",
+    "reposUrl": "https://api.github.com/users/sdllc/repos",
+    "receivedEventsUrl": "https://api.github.com/users/sdllc/received_events",
+    "type": "Organization"
   },
-  "author": {
-    "name": "Structured Data LLC",
-    "email": "info@riskamp.com"
+  "private": false,
+  "description": "Electron-based R Shell",
+  "fork": false,
+  "createdAt": "2016-06-22T20:07:10.000Z",
+  "updatedAt": "2016-06-22T23:08:29.000Z",
+  "pushedAt": "2016-07-30T13:48:15.000Z",
+  "homepage": "http://constructr-project.com",
+  "size": 2481,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "homepage": "https://constructr-project.com/shell",
-  "license": "MIT",
-  "main": "app/main.js",
-  "scripts": {
-    "start": "electron app/main.js",
-    "dist": "build"
+  "license": null,
+  "organization": {
+    "login": "sdllc",
+    "id": 16868596,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/16868596?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/sdllc",
+    "htmlUrl": "https://github.com/sdllc",
+    "followersUrl": "https://api.github.com/users/sdllc/followers",
+    "subscriptionsUrl": "https://api.github.com/users/sdllc/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/sdllc/orgs",
+    "reposUrl": "https://api.github.com/users/sdllc/repos",
+    "receivedEventsUrl": "https://api.github.com/users/sdllc/received_events",
+    "type": "Organization"
   },
-  "build": {
-    "asar": true,
-    "asar-unpack": "**/*.R",
-    "asar-unpack-dir": "**/{R-3.*,node_modules/controlr,library,R}/**/*",
-    "win": {
-      "iconUrl": "https://raw.githubusercontent.com/sdllc/constructr/master/build/icon.ico"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "constructr",
+    "productName": "ConstructR",
+    "version": "0.8.2",
+    "description": "Electron-based R shell",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sdllc/constructr.git"
     },
-    "linux": {
-      "depends": [
-        "r-base-core",
-        "r-base",
-        "r-recommended",
-        "libappindicator1",
-        "libnotify-bin"
-      ],
-      "fpm": [
-        "--deb-priority",
-        "optional",
-        "--category",
-        "devel"
-      ]
+    "author": {
+      "name": "Structured Data LLC",
+      "email": "info@riskamp.com"
+    },
+    "homepage": "https://constructr-project.com/shell",
+    "license": "MIT",
+    "main": "app/main.js",
+    "scripts": {
+      "start": "electron app/main.js",
+      "dist": "build"
+    },
+    "build": {
+      "asar": true,
+      "asar-unpack": "**/*.R",
+      "asar-unpack-dir": "**/{R-3.*,node_modules/controlr,library,R}/**/*",
+      "win": {
+        "iconUrl": "https://raw.githubusercontent.com/sdllc/constructr/master/build/icon.ico"
+      },
+      "linux": {
+        "depends": [
+          "r-base-core",
+          "r-base",
+          "r-recommended",
+          "libappindicator1",
+          "libnotify-bin"
+        ],
+        "fpm": [
+          "--deb-priority",
+          "optional",
+          "--category",
+          "devel"
+        ]
+      }
+    },
+    "dependencies": {
+      "chokidar": "^1.4.3",
+      "cmjs-shell": "^0.3.0",
+      "controlr": "^1.4.7",
+      "electron-squirrel-startup": "^1.0.0",
+      "electron-window-state": "^3.0.3",
+      "pubsub-js": "^1.5.3",
+      "untildify": "^3.0.2",
+      "xml": "^1.0.1"
+    },
+    "devDependencies": {
+      "bower": "^1.7.9",
+      "del": "^2.2.0",
+      "electron-builder": "^3.25.0",
+      "electron-prebuilt": "^1.2.3",
+      "extract-zip": "^1.5.0",
+      "gulp": "^3.9.1",
+      "gulp-add-src": "^0.2.0",
+      "gulp-concat": "^2.6.0",
+      "gulp-cssnano": "^2.1.2",
+      "gulp-htmlmin": "^2.0.0",
+      "gulp-if": "^2.0.0",
+      "gulp-livereload": "^3.8.1",
+      "gulp-postcss": "^6.1.0",
+      "gulp-rename": "^1.2.2",
+      "gulp-run": "^1.6.12",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-uglify": "^1.5.3",
+      "gulp-util": "^3.0.7",
+      "lodash.assign": "^4.0.7",
+      "postcss-import": "^8.1.0",
+      "request": "^2.72.0",
+      "vinyl-buffer": "^1.0.0",
+      "vinyl-source-stream": "^1.1.0",
+      "webpack": "^1.12.14",
+      "webpack-stream": "^3.1.0"
     }
   },
-  "dependencies": {
-    "chokidar": "^1.4.3",
-    "cmjs-shell": "^0.3.0",
-    "controlr": "^1.4.7",
-    "electron-squirrel-startup": "^1.0.0",
-    "electron-window-state": "^3.0.3",
-    "pubsub-js": "^1.5.3",
-    "untildify": "^3.0.2",
-    "xml": "^1.0.1"
-  },
-  "devDependencies": {
-    "bower": "^1.7.9",
-    "del": "^2.2.0",
-    "electron-builder": "^3.25.0",
-    "electron-prebuilt": "^1.2.3",
-    "extract-zip": "^1.5.0",
-    "gulp": "^3.9.1",
-    "gulp-add-src": "^0.2.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-cssnano": "^2.1.2",
-    "gulp-htmlmin": "^2.0.0",
-    "gulp-if": "^2.0.0",
-    "gulp-livereload": "^3.8.1",
-    "gulp-postcss": "^6.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-run": "^1.6.12",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-uglify": "^1.5.3",
-    "gulp-util": "^3.0.7",
-    "lodash.assign": "^4.0.7",
-    "postcss-import": "^8.1.0",
-    "request": "^2.72.0",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0",
-    "webpack": "^1.12.14",
-    "webpack-stream": "^3.1.0"
-  }
+  "packageStatus": 200
 }

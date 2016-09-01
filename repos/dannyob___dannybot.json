@@ -1,85 +1,105 @@
 {
+  "id": 47744548,
   "name": "dannybot",
-  "version": "1.0.0",
-  "description": "My status dashboard, now a desktop app c/o electron.",
-  "main": "src/main.js",
-  "scripts": {
-    "start": "electron .",
-    "test": "NODE_ENV=test mocha --compilers js:babel/register --recursive --require ./test/setup.js $(find test -name '*.spec.js')",
-    "test-watch": "npm test -- --watch",
-    "lint": "eslint src/**/*.js test/**/*.js",
-    "pretest": "npm run lint"
+  "fullName": "dannyob/dannybot",
+  "owner": {
+    "login": "dannyob",
+    "id": 227660,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/227660?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/dannyob",
+    "htmlUrl": "https://github.com/dannyob",
+    "followersUrl": "https://api.github.com/users/dannyob/followers",
+    "subscriptionsUrl": "https://api.github.com/users/dannyob/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/dannyob/orgs",
+    "reposUrl": "https://api.github.com/users/dannyob/repos",
+    "receivedEventsUrl": "https://api.github.com/users/dannyob/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dannyob/dannybot.git"
+  "private": false,
+  "description": "A status bot app written in javascript using Electron.",
+  "fork": false,
+  "createdAt": "2015-12-10T07:12:56.000Z",
+  "updatedAt": "2016-01-11T04:49:05.000Z",
+  "pushedAt": "2016-03-13T08:10:48.000Z",
+  "homepage": null,
+  "size": 156,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "Danny",
-    "bot",
-    "todo",
-    "statistics",
-    "quantified"
-  ],
-  "author": "Danny O'Brien <danny@spesh.com> (http://www.spesh.com/danny/)",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/dannyob/dannybot/issues"
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "featured": true
   },
-  "homepage": "https://github.com/dannyob/dannybot#README.md",
-  "devDependencies": {
-    "babel": "^5.8.23",
-    "babel-core": "^5.8.23",
-    "babel-eslint": "^4.1.1",
-    "babel-loader": "^5.3.2",
-    "babel-preset-stage-0": "^6.3.13",
-    "babel-register": "^6.3.13",
-    "chai": "^3.4.1",
-    "chai-as-promised": "^5.2.0",
-    "electron-prebuilt": "^0.35.4"
-  },
-  "dependencies": {
-    "electron-json-storage": "^2.0.0",
-    "menubar": "^2.3.0",
-    "q": "^1.4.1",
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3",
-    "sqlite3": "^3.1.1",
-    "underscore": "^1.8.3"
-  },
-  "_librariesioMetadata": {
-    "full_name": "dannyob/dannybot",
-    "description": "A status bot app written in javascript using Electron.",
-    "fork": false,
-    "created_at": "2015-12-10T07:12:56.000Z",
-    "updated_at": "2015-12-18T08:57:52.000Z",
-    "pushed_at": "2015-12-18T08:49:34.000Z",
-    "homepage": null,
-    "size": 142,
-    "stargazers_count": 1,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 47744548,
-    "source_name": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "dannybot",
+    "version": "1.0.0",
+    "description": "My status dashboard, now a desktop app c/o electron.",
+    "main": "src/main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "NODE_ENV=test mocha --compilers js:babel/register --recursive --require ./test/setup.js $(find test -name '*.spec.js')",
+      "test-watch": "npm test -- --watch",
+      "lint": "eslint src/**/*.js test/**/*.js",
+      "pretest": "npm run lint"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dannyob/dannybot.git"
+    },
+    "keywords": [
+      "Danny",
+      "bot",
+      "todo",
+      "statistics",
+      "quantified"
+    ],
+    "author": "Danny O'Brien <danny@spesh.com> (http://www.spesh.com/danny/)",
     "license": "GPL-3.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "bugs": {
+      "url": "https://github.com/dannyob/dannybot/issues"
+    },
+    "homepage": "https://github.com/dannyob/dannybot#README.md",
+    "devDependencies": {
+      "babel": "^5.8.23",
+      "babel-core": "^5.8.23",
+      "babel-eslint": "^4.1.1",
+      "babel-loader": "^5.3.2",
+      "babel-preset-stage-0": "^6.3.13",
+      "babel-register": "^6.3.13",
+      "chai": "^3.4.1",
+      "chai-as-promised": "^5.2.0",
+      "electron-prebuilt": "^0.35.4"
+    },
+    "dependencies": {
+      "electron-json-storage": "^2.0.0",
+      "menubar": "^2.3.0",
+      "q": "^1.4.1",
+      "react": "^0.14.3",
+      "react-dom": "^0.14.3",
+      "sqlite3": "^3.1.1",
+      "underscore": "^1.8.3"
+    }
+  },
+  "packageStatus": 200
 }

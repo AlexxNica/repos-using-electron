@@ -1,62 +1,82 @@
 {
-  "name": "ustream",
-  "version": "1.0.0",
+  "id": 55327595,
+  "name": "stream",
+  "fullName": "ayushajain/stream",
+  "owner": {
+    "login": "ayushajain",
+    "id": 11602967,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11602967?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/ayushajain",
+    "htmlUrl": "https://github.com/ayushajain",
+    "followersUrl": "https://api.github.com/users/ayushajain/followers",
+    "subscriptionsUrl": "https://api.github.com/users/ayushajain/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/ayushajain/orgs",
+    "reposUrl": "https://api.github.com/users/ayushajain/repos",
+    "receivedEventsUrl": "https://api.github.com/users/ayushajain/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Stream/Download youtube and soundcloud music",
-  "main": "app.js",
-  "dependencies": {
-    "menubar": "^4.1.0"
+  "fork": false,
+  "createdAt": "2016-04-03T03:22:19.000Z",
+  "updatedAt": "2016-04-03T03:48:25.000Z",
+  "pushedAt": "2016-04-03T03:48:23.000Z",
+  "homepage": null,
+  "size": 1,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-packager": "^5.1.0",
-    "electron-prebuilt": "^0.36.0"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "scripts": {
-    "build": "electron-packager . Ustream --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
-    "start": "electron ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ayushajain/stream.git"
-  },
-  "author": "Ayush Jain <ayush@techlabeducation.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ayushajain/stream/issues"
-  },
-  "homepage": "https://github.com/ayushajain/stream#readme",
-  "_librariesioMetadata": {
-    "full_name": "ayushajain/stream",
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "ustream",
+    "version": "1.0.0",
     "description": "Stream/Download youtube and soundcloud music",
-    "fork": false,
-    "created_at": "2016-04-03T03:22:19.000Z",
-    "updated_at": "2016-04-04T03:08:39.031Z",
-    "pushed_at": "2016-04-03T03:48:23.000Z",
-    "homepage": null,
-    "size": 1,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 55327595,
-    "source_name": null,
+    "main": "app.js",
+    "dependencies": {
+      "menubar": "^4.1.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.36.0"
+    },
+    "scripts": {
+      "build": "electron-packager . Ustream --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ayushajain/stream.git"
+    },
+    "author": "Ayush Jain <ayush@techlabeducation.com>",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "bugs": {
+      "url": "https://github.com/ayushajain/stream/issues"
+    },
+    "homepage": "https://github.com/ayushajain/stream#readme"
+  },
+  "packageStatus": 200
 }

@@ -1,74 +1,108 @@
 {
+  "id": 26530756,
   "name": "contenteditable-placeholder",
-  "version": "1.0.2",
+  "fullName": "micnews/contenteditable-placeholder",
+  "owner": {
+    "login": "micnews",
+    "id": 7944468,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7944468?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/micnews",
+    "htmlUrl": "https://github.com/micnews",
+    "followersUrl": "https://api.github.com/users/micnews/followers",
+    "subscriptionsUrl": "https://api.github.com/users/micnews/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/micnews/orgs",
+    "reposUrl": "https://api.github.com/users/micnews/repos",
+    "receivedEventsUrl": "https://api.github.com/users/micnews/received_events",
+    "type": "Organization"
+  },
+  "private": false,
   "description": "Add a placeholder to contenteditable-elements (using CSS)",
-  "main": "placeholder.js",
-  "scripts": {
-    "lint": "semistandard",
-    "test": "browserify test.js | testron && npm run lint"
+  "fork": false,
+  "createdAt": "2014-11-12T10:25:47.000Z",
+  "updatedAt": "2016-01-25T15:20:58.000Z",
+  "pushedAt": "2015-10-24T21:06:24.000Z",
+  "homepage": null,
+  "size": 148,
+  "stargazersCount": 4,
+  "watchersCount": 4,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 4,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/micnews/contenteditable-placeholder"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "author": "David Björklund <david.bjorklund@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/micnews/contenteditable-placeholder/issues"
+  "organization": {
+    "login": "micnews",
+    "id": 7944468,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7944468?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/micnews",
+    "htmlUrl": "https://github.com/micnews",
+    "followersUrl": "https://api.github.com/users/micnews/followers",
+    "subscriptionsUrl": "https://api.github.com/users/micnews/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/micnews/orgs",
+    "reposUrl": "https://api.github.com/users/micnews/repos",
+    "receivedEventsUrl": "https://api.github.com/users/micnews/received_events",
+    "type": "Organization"
   },
-  "homepage": "https://github.com/micnews/contenteditable-placeholder",
-  "dependencies": {
-    "brfs": "^1.2.0",
-    "dom-events": "^0.1.1",
-    "insert-css": "^0.2.0",
-    "mutation-observer": "^1.0.2"
-  },
-  "devDependencies": {
-    "browserify": "^11.2.0",
-    "electron-prebuilt": "^0.34.1",
-    "element": "^0.1.4",
-    "semistandard": "^7.0.2",
-    "tape": "^4.2.2",
-    "testron": "^1.2.0"
-  },
-  "browserify": {
-    "transform": [
-      "brfs"
-    ]
-  },
-  "_librariesioMetadata": {
-    "full_name": "micnews/contenteditable-placeholder",
+  "networkCount": 0,
+  "subscribersCount": 22,
+  "status": 200,
+  "packageJSON": {
+    "name": "contenteditable-placeholder",
+    "version": "1.0.2",
     "description": "Add a placeholder to contenteditable-elements (using CSS)",
-    "fork": false,
-    "created_at": "2014-11-12T10:25:47.000Z",
-    "updated_at": "2016-05-28T03:19:14.040Z",
-    "pushed_at": "2015-10-24T21:06:24.000Z",
-    "homepage": null,
-    "size": 148,
-    "stargazers_count": 4,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 21,
-    "github_id": 26530756,
-    "source_name": null,
+    "main": "placeholder.js",
+    "scripts": {
+      "lint": "semistandard",
+      "test": "browserify test.js | testron && npm run lint"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/micnews/contenteditable-placeholder"
+    },
+    "author": "David Björklund <david.bjorklund@gmail.com>",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T03:19:14.018Z",
-    "rank": null
-  }
+    "bugs": {
+      "url": "https://github.com/micnews/contenteditable-placeholder/issues"
+    },
+    "homepage": "https://github.com/micnews/contenteditable-placeholder",
+    "dependencies": {
+      "brfs": "^1.2.0",
+      "dom-events": "^0.1.1",
+      "insert-css": "^0.2.0",
+      "mutation-observer": "^1.0.2"
+    },
+    "devDependencies": {
+      "browserify": "^11.2.0",
+      "electron-prebuilt": "^0.34.1",
+      "element": "^0.1.4",
+      "semistandard": "^7.0.2",
+      "tape": "^4.2.2",
+      "testron": "^1.2.0"
+    },
+    "browserify": {
+      "transform": [
+        "brfs"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

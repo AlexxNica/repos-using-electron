@@ -1,62 +1,90 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "PokemonGo-Enhanced/Enhanced-Electron",
-    "description": "The executable build for Enhanced",
-    "fork": false,
-    "created_at": "2016-07-28T20:27:36.000Z",
-    "updated_at": "2016-07-29T23:31:48.022Z",
-    "pushed_at": "2016-07-28T20:34:21.000Z",
-    "homepage": null,
-    "size": 248,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 2,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 64426010,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 20,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-29T19:13:07.581Z",
-    "rank": null
+  "id": 64426010,
+  "name": "Enhanced-Electron",
+  "fullName": "PokemonGo-Enhanced/Enhanced-Electron",
+  "owner": {
+    "login": "PokemonGo-Enhanced",
+    "id": 20595859,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/20595859?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/PokemonGo-Enhanced",
+    "htmlUrl": "https://github.com/PokemonGo-Enhanced",
+    "followersUrl": "https://api.github.com/users/PokemonGo-Enhanced/followers",
+    "subscriptionsUrl": "https://api.github.com/users/PokemonGo-Enhanced/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/PokemonGo-Enhanced/orgs",
+    "reposUrl": "https://api.github.com/users/PokemonGo-Enhanced/repos",
+    "receivedEventsUrl": "https://api.github.com/users/PokemonGo-Enhanced/received_events",
+    "type": "Organization"
   },
-  "name": "enhanced-electron",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron ."
+  "private": false,
+  "description": "The executable build for Enhanced",
+  "fork": false,
+  "createdAt": "2016-07-28T20:27:36.000Z",
+  "updatedAt": "2016-07-29T23:31:21.000Z",
+  "pushedAt": "2016-07-28T20:34:21.000Z",
+  "homepage": null,
+  "size": 248,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PokemonGo-Enhanced/Enhanced-Electron.git"
+  "license": null,
+  "organization": {
+    "login": "PokemonGo-Enhanced",
+    "id": 20595859,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/20595859?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/PokemonGo-Enhanced",
+    "htmlUrl": "https://github.com/PokemonGo-Enhanced",
+    "followersUrl": "https://api.github.com/users/PokemonGo-Enhanced/followers",
+    "subscriptionsUrl": "https://api.github.com/users/PokemonGo-Enhanced/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/PokemonGo-Enhanced/orgs",
+    "reposUrl": "https://api.github.com/users/PokemonGo-Enhanced/repos",
+    "receivedEventsUrl": "https://api.github.com/users/PokemonGo-Enhanced/received_events",
+    "type": "Organization"
   },
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
-  ],
-  "author": "GitHub",
-  "license": "",
-  "devDependencies": {
-    "electron-prebuilt": "*"
+  "networkCount": 1,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "enhanced-electron",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/PokemonGo-Enhanced/Enhanced-Electron.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "",
+    "devDependencies": {
+      "electron-prebuilt": "*"
+    },
+    "dependencies": {
+      "enhanced-backend": "github:pokemongo-enhanced/Enhanced-Backend"
+    }
   },
-  "dependencies": {
-    "enhanced-backend": "github:pokemongo-enhanced/Enhanced-Backend"
-  }
+  "packageStatus": 200
 }

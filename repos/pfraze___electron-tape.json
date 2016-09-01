@@ -1,62 +1,76 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "pfraze/electron-tape",
-    "description": "Tape testing harness for electron apps",
-    "fork": false,
-    "created_at": "2015-08-15T21:49:46.000Z",
-    "updated_at": "2016-04-24T07:44:45.993Z",
-    "pushed_at": "2015-08-15T22:02:16.000Z",
-    "homepage": null,
-    "size": 116,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 2,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 40787155,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-24T07:44:45.972Z",
-    "rank": null
-  },
+  "id": 40787155,
   "name": "electron-tape",
-  "version": "1.0.0",
+  "fullName": "pfrazee/electron-tape",
+  "owner": {
+    "login": "pfrazee",
+    "id": 1270099,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1270099?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/pfrazee",
+    "htmlUrl": "https://github.com/pfrazee",
+    "followersUrl": "https://api.github.com/users/pfrazee/followers",
+    "subscriptionsUrl": "https://api.github.com/users/pfrazee/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/pfrazee/orgs",
+    "reposUrl": "https://api.github.com/users/pfrazee/repos",
+    "receivedEventsUrl": "https://api.github.com/users/pfrazee/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Tape testing harness for electron apps",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "fork": false,
+  "createdAt": "2015-08-15T21:49:46.000Z",
+  "updatedAt": "2015-08-23T05:25:02.000Z",
+  "pushedAt": "2015-08-15T22:02:16.000Z",
+  "homepage": null,
+  "size": 116,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pfraze/electron-tape.git"
+  "license": null,
+  "networkCount": 2,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-tape",
+    "version": "1.0.0",
+    "description": "Tape testing harness for electron apps",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pfraze/electron-tape.git"
+    },
+    "keywords": [
+      "tape",
+      "electron"
+    ],
+    "author": "Paul Frazee <pfrazee@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/pfraze/electron-tape/issues"
+    },
+    "homepage": "https://github.com/pfraze/electron-tape#readme",
+    "dependencies": {
+      "electron-prebuilt": "^0.28.2",
+      "tape": "~4.0.0"
+    }
   },
-  "keywords": [
-    "tape",
-    "electron"
-  ],
-  "author": "Paul Frazee <pfrazee@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pfraze/electron-tape/issues"
-  },
-  "homepage": "https://github.com/pfraze/electron-tape#readme",
-  "dependencies": {
-    "electron-prebuilt": "^0.28.2",
-    "tape": "~4.0.0"
-  }
+  "packageStatus": 200
 }

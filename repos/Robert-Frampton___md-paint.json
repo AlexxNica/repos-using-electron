@@ -1,68 +1,82 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "Robert-Frampton/md-paint",
-    "description": "View rendered markdown files with github flavored markdown while using your favorite editor",
-    "fork": false,
-    "created_at": "2016-04-28T19:35:57.000Z",
-    "updated_at": "2016-05-03T17:54:40.617Z",
-    "pushed_at": "2016-05-03T17:48:24.000Z",
-    "homepage": null,
-    "size": 5,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 57328666,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-03T17:54:40.593Z",
-    "rank": null
-  },
+  "id": 57328666,
   "name": "md-paint",
-  "version": "1.0.3",
+  "fullName": "Robert-Frampton/md-paint",
+  "owner": {
+    "login": "Robert-Frampton",
+    "id": 2466445,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2466445?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Robert-Frampton",
+    "htmlUrl": "https://github.com/Robert-Frampton",
+    "followersUrl": "https://api.github.com/users/Robert-Frampton/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Robert-Frampton/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Robert-Frampton/orgs",
+    "reposUrl": "https://api.github.com/users/Robert-Frampton/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Robert-Frampton/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "View rendered markdown files with github flavored markdown while using your favorite editor",
-  "main": "app.js",
-  "scripts": {
-    "test": "npm test"
+  "fork": false,
+  "createdAt": "2016-04-28T19:35:57.000Z",
+  "updatedAt": "2016-04-28T19:36:12.000Z",
+  "pushedAt": "2016-05-03T17:48:24.000Z",
+  "homepage": null,
+  "size": 5,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "bin": {
-    "md_paint": "./bin/paint.js"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "md-paint",
+    "version": "1.0.3",
+    "description": "View rendered markdown files with github flavored markdown while using your favorite editor",
+    "main": "app.js",
+    "scripts": {
+      "test": "npm test"
+    },
+    "bin": {
+      "md_paint": "./bin/paint.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Robert-Frampton/md-paint"
+    },
+    "keywords": [
+      "md",
+      "markdown",
+      "preview"
+    ],
+    "author": "Rob Frampton <rob.g.frampton@gmail.com> (https://github.com/Robert-Frampton)",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Robert-Frampton/md-paint/issues"
+    },
+    "homepage": "https://github.com/Robert-Frampton/md-paint",
+    "dependencies": {
+      "electron-prebuilt": "^0.37.7",
+      "github-markdown-css": "^2.2.1",
+      "marked": "^0.3.5",
+      "minimist": "^1.2.0"
+    }
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Robert-Frampton/md-paint"
-  },
-  "keywords": [
-    "md",
-    "markdown",
-    "preview"
-  ],
-  "author": "Rob Frampton <rob.g.frampton@gmail.com> (https://github.com/Robert-Frampton)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Robert-Frampton/md-paint/issues"
-  },
-  "homepage": "https://github.com/Robert-Frampton/md-paint",
-  "dependencies": {
-    "electron-prebuilt": "^0.37.7",
-    "github-markdown-css": "^2.2.1",
-    "marked": "^0.3.5",
-    "minimist": "^1.2.0"
-  }
+  "packageStatus": 200
 }

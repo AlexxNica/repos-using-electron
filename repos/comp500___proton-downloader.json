@@ -1,57 +1,71 @@
 {
+  "id": 57432350,
   "name": "proton-downloader",
-  "version": "1.0.0",
+  "fullName": "comp500/proton-downloader",
+  "owner": {
+    "login": "comp500",
+    "id": 1138417,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1138417?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/comp500",
+    "htmlUrl": "https://github.com/comp500",
+    "followersUrl": "https://api.github.com/users/comp500/followers",
+    "subscriptionsUrl": "https://api.github.com/users/comp500/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/comp500/orgs",
+    "reposUrl": "https://api.github.com/users/comp500/repos",
+    "receivedEventsUrl": "https://api.github.com/users/comp500/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "A youtube downloader with a GUI made using Electron.",
-  "main": "index.js",
-  "scripts": {
-    "postinstall": "install-app-deps",
-    "pack": "build",
-    "dist": "build",
-    "test": "electron app"
+  "fork": false,
+  "createdAt": "2016-04-30T07:45:48.000Z",
+  "updatedAt": "2016-04-30T08:06:18.000Z",
+  "pushedAt": "2016-04-30T08:52:25.000Z",
+  "homepage": null,
+  "size": 13,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "comp500",
-  "license": "ISC",
-  "devDependencies": {
-    "electron-builder": "^3.14.0",
-    "electron-prebuilt": "^0.37.8"
-  },
-  "build": {
-    "app-bundle-id": "prtdl",
-    "app-category-type": "public.app-category.utilities"
-  },
-  "_librariesioMetadata": {
-    "full_name": "comp500/proton-downloader",
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "proton-downloader",
+    "version": "1.0.0",
     "description": "A youtube downloader with a GUI made using Electron.",
-    "fork": false,
-    "created_at": "2016-04-30T07:45:48.000Z",
-    "updated_at": "2016-04-30T07:47:32.905Z",
-    "pushed_at": "2016-04-30T07:46:41.000Z",
-    "homepage": null,
-    "size": 0,
-    "stargazers_count": 0,
-    "language": null,
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 57432350,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-30T07:47:32.885Z",
-    "rank": null
-  }
+    "main": "index.js",
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "pack": "build",
+      "dist": "build",
+      "test": "electron app"
+    },
+    "author": "comp500",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-builder": "^3.14.0",
+      "electron-prebuilt": "^0.37.8"
+    },
+    "build": {
+      "app-bundle-id": "prtdl",
+      "app-category-type": "public.app-category.utilities"
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,53 +1,67 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "ALF-er/different-contexts-isPlainObject-test",
-    "description": "test constructor instanceof constructor issue with different global contexts",
-    "fork": false,
-    "created_at": "2015-10-02T12:35:26.000Z",
-    "updated_at": "2016-05-27T23:06:14.364Z",
-    "pushed_at": "2015-10-02T14:21:15.000Z",
-    "homepage": null,
-    "size": 136,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 43551871,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T23:06:14.344Z",
-    "rank": null
+  "id": 43551871,
+  "name": "different-contexts-isPlainObject-test",
+  "fullName": "ALF-er/different-contexts-isPlainObject-test",
+  "owner": {
+    "login": "ALF-er",
+    "id": 2158067,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2158067?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/ALF-er",
+    "htmlUrl": "https://github.com/ALF-er",
+    "followersUrl": "https://api.github.com/users/ALF-er/followers",
+    "subscriptionsUrl": "https://api.github.com/users/ALF-er/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/ALF-er/orgs",
+    "reposUrl": "https://api.github.com/users/ALF-er/repos",
+    "receivedEventsUrl": "https://api.github.com/users/ALF-er/received_events",
+    "type": "User"
   },
-  "name": "isPlainObjectTest",
-  "version": "0.0.1",
-  "description": "isPlainObject test",
-  "productName": "isPlainObject test Application",
-  "identifier": "com.alfer.isplainobject",
-  "author": "Illia Segeda aka ALFer <elf.er.is@gmail.com>",
-  "main": "mainprocess.js",
-  "scripts": {
-    "start": "electron ."
+  "private": false,
+  "description": "test constructor instanceof constructor issue with different global contexts",
+  "fork": false,
+  "createdAt": "2015-10-02T12:35:26.000Z",
+  "updatedAt": "2015-10-02T14:20:33.000Z",
+  "pushedAt": "2015-10-02T14:21:15.000Z",
+  "homepage": null,
+  "size": 136,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "dependencies": {
-    "lodash.isplainobject": "^3.2.0"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "isPlainObjectTest",
+    "version": "0.0.1",
+    "description": "isPlainObject test",
+    "productName": "isPlainObject test Application",
+    "identifier": "com.alfer.isplainobject",
+    "author": "Illia Segeda aka ALFer <elf.er.is@gmail.com>",
+    "main": "mainprocess.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "dependencies": {
+      "lodash.isplainobject": "^3.2.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.33.3"
+    }
   },
-  "devDependencies": {
-    "electron-prebuilt": "^0.33.3"
-  }
+  "packageStatus": 200
 }

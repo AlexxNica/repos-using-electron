@@ -1,91 +1,105 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "jojobyte/git-electron",
-    "description": null,
-    "fork": false,
-    "created_at": "2016-07-18T22:46:41.000Z",
-    "updated_at": "2016-07-18T23:49:39.862Z",
-    "pushed_at": "2016-07-18T23:06:59.000Z",
-    "homepage": null,
-    "size": 4,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 63642275,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-18T23:49:39.799Z",
-    "rank": null
-  },
+  "id": 63642275,
   "name": "git-electron",
-  "displayName": "Git Electron",
-  "version": "0.0.1",
-  "description": "Electronified Git",
-  "main": "app/main.js",
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jojobyte/git-electron.git"
+  "fullName": "jojobyte/git-electron",
+  "owner": {
+    "login": "jojobyte",
+    "id": 184880,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/184880?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/jojobyte",
+    "htmlUrl": "https://github.com/jojobyte",
+    "followersUrl": "https://api.github.com/users/jojobyte/followers",
+    "subscriptionsUrl": "https://api.github.com/users/jojobyte/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/jojobyte/orgs",
+    "reposUrl": "https://api.github.com/users/jojobyte/repos",
+    "receivedEventsUrl": "https://api.github.com/users/jojobyte/received_events",
+    "type": "User"
   },
-  "keywords": [
-    "git"
-  ],
-  "author": "jojobyte",
-  "scripts": {
-    "clean": "rimraf dist",
-    "postinstall": "install-app-deps",
-    "start": "electron .",
-    "pack": "build --dir",
-    "dist": "build"
+  "private": false,
+  "description": null,
+  "fork": false,
+  "createdAt": "2016-07-18T22:46:41.000Z",
+  "updatedAt": "2016-07-18T22:47:06.000Z",
+  "pushedAt": "2016-07-19T23:27:19.000Z",
+  "homepage": null,
+  "size": 5,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "build": {
-    "appId": "com.jojobyte.git-electron",
-    "app-category-type": "public.app-category.developer-tools",
-    "compression": "store",
-    "asar": false,
-    "mac": {
-      "protocols": [
-        {
-          "name": "com.jojobyte.git-protocols",
-          "schemes": [
-            "github-windows",
-            "github-mac",
-            "sourcetree"
-          ]
-        }
-      ]
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "git-electron",
+    "displayName": "Git Electron",
+    "version": "0.0.1",
+    "description": "Electronified Git",
+    "main": "app/main.js",
+    "private": true,
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jojobyte/git-electron.git"
     },
-    "win": {
-      "msi": false
+    "keywords": [
+      "git"
+    ],
+    "author": "jojobyte",
+    "scripts": {
+      "clean": "rimraf dist",
+      "postinstall": "install-app-deps",
+      "start": "electron .",
+      "pack": "build --dir",
+      "dist": "build"
+    },
+    "build": {
+      "appId": "com.jojobyte.git-electron",
+      "app-category-type": "public.app-category.developer-tools",
+      "compression": "store",
+      "asar": false,
+      "mac": {
+        "protocols": [
+          {
+            "name": "com.jojobyte.git-protocols",
+            "schemes": [
+              "github-windows",
+              "github-mac",
+              "sourcetree"
+            ]
+          }
+        ]
+      },
+      "win": {
+        "msi": false
+      }
+    },
+    "directories": {
+      "app": "app"
+    },
+    "devDependencies": {
+      "electron-builder": "^5.10.5",
+      "electron-prebuilt": "^1.2.7",
+      "rimraf": "^2.5.3"
+    },
+    "engines": {
+      "electron": "1.2.7",
+      "atom-shell": "1.2.7"
     }
   },
-  "directories": {
-    "app": "app"
-  },
-  "devDependencies": {
-    "electron-builder": "^5.10.5",
-    "electron-prebuilt": "^1.2.7",
-    "rimraf": "^2.5.3"
-  },
-  "engines": {
-    "electron": "1.2.7",
-    "atom-shell": "1.2.7"
-  }
+  "packageStatus": 200
 }

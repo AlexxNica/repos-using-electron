@@ -1,81 +1,95 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "zhouanbo/pipelinedog",
-    "description": "A scientific pipeline maker.",
-    "fork": false,
-    "created_at": "2016-02-27T23:56:28.000Z",
-    "updated_at": "2016-05-27T20:36:53.899Z",
-    "pushed_at": "2016-05-20T20:33:16.000Z",
-    "homepage": "pipeline.dog",
-    "size": 4623,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 52694977,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T20:36:53.878Z",
-    "rank": null
-  },
+  "id": 52694977,
   "name": "pipelinedog",
-  "version": "1.0.0",
+  "fullName": "zhouanbo/pipelinedog",
+  "owner": {
+    "login": "zhouanbo",
+    "id": 4448810,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4448810?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/zhouanbo",
+    "htmlUrl": "https://github.com/zhouanbo",
+    "followersUrl": "https://api.github.com/users/zhouanbo/followers",
+    "subscriptionsUrl": "https://api.github.com/users/zhouanbo/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/zhouanbo/orgs",
+    "reposUrl": "https://api.github.com/users/zhouanbo/repos",
+    "receivedEventsUrl": "https://api.github.com/users/zhouanbo/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "A scientific pipeline maker.",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js"
+  "fork": false,
+  "createdAt": "2016-02-27T23:56:28.000Z",
+  "updatedAt": "2016-03-25T15:46:26.000Z",
+  "pushedAt": "2016-08-01T19:01:00.000Z",
+  "homepage": "pipeline.dog",
+  "size": 4606,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "babel": {
-    "presets": [
-      "react",
-      "es2015"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "pipelinedog",
+    "version": "1.0.0",
+    "description": "A scientific pipeline maker.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "babel": {
+      "presets": [
+        "react",
+        "es2015"
+      ],
+      "plugins": []
+    },
+    "dependencies": {
+      "brace": "^0.8.0",
+      "github": "^0.2.4",
+      "jquery": "^2.2.1",
+      "lodash": "^4.6.1",
+      "mkdirp": "^0.5.1",
+      "open": "0.0.5",
+      "react": "^15.0.2",
+      "react-ace": "^3.4.1",
+      "react-dom": "^15.0.2"
+    },
+    "devDependencies": {
+      "babel-preset-es2015": "^6.9.0",
+      "babel-preset-react": "^6.5.0",
+      "electron-prebuilt": "^1.2.2"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zhouanbo/pipelinedog.git"
+    },
+    "keywords": [
+      "PipelineDog",
+      "pipeline"
     ],
-    "plugins": []
+    "author": "Anbo Zhou",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/zhouanbo/pipelinedog/issues"
+    },
+    "homepage": "https://github.com/zhouanbo/pipelinedog#readme"
   },
-  "dependencies": {
-    "brace": "^0.8.0",
-    "github": "^0.2.4",
-    "jquery": "^2.2.1",
-    "lodash": "^4.6.1",
-    "mkdirp": "^0.5.1",
-    "open": "0.0.5",
-    "react": "^15.0.2",
-    "react-ace": "^3.4.1",
-    "react-dom": "^15.0.2"
-  },
-  "devDependencies": {
-    "babel-preset-es2015": "^6.9.0",
-    "babel-preset-react": "^6.5.0",
-    "electron-prebuilt": "^1.2.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zhouanbo/pipelinedog.git"
-  },
-  "keywords": [
-    "PipelineDog",
-    "pipeline"
-  ],
-  "author": "Anbo Zhou",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zhouanbo/pipelinedog/issues"
-  },
-  "homepage": "https://github.com/zhouanbo/pipelinedog#readme"
+  "packageStatus": 200
 }

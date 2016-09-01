@@ -1,57 +1,71 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "dchacke/nasherai",
-    "description": "Real time JavaScript parser and executor",
-    "fork": false,
-    "created_at": "2015-11-23T02:36:03.000Z",
-    "updated_at": "2016-01-18T03:16:56.000Z",
-    "pushed_at": "2016-01-18T03:16:55.000Z",
-    "homepage": null,
-    "size": 115,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 46692232,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 46692232,
   "name": "nasherai",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "electron .",
-    "build": "electron-packager . Nasherai --platform=darwin --arch=x64 --version=0.35.1 --overwrite && cp icon.icns Nasherai-darwin-x64/Nasherai.app/Contents/Resources/atom.icns"
+  "fullName": "dchacke/nasherai",
+  "owner": {
+    "login": "dchacke",
+    "id": 2866749,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2866749?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/dchacke",
+    "htmlUrl": "https://github.com/dchacke",
+    "followersUrl": "https://api.github.com/users/dchacke/followers",
+    "subscriptionsUrl": "https://api.github.com/users/dchacke/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/dchacke/orgs",
+    "reposUrl": "https://api.github.com/users/dchacke/repos",
+    "receivedEventsUrl": "https://api.github.com/users/dchacke/received_events",
+    "type": "User"
   },
-  "author": "Dennis Charles Hackethal",
-  "license": "MIT",
-  "devDependencies": {
-    "electron-packager": "^5.1.1",
-    "electron-prebuilt": "^0.35.1"
+  "private": false,
+  "description": "Real time JavaScript parser and executor",
+  "fork": false,
+  "createdAt": "2015-11-23T02:36:03.000Z",
+  "updatedAt": "2016-01-18T03:16:56.000Z",
+  "pushedAt": "2016-01-18T03:16:55.000Z",
+  "homepage": null,
+  "size": 115,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "dependencies": {
-    "acorn": "^2.6.4",
-    "jshint": "^2.8.0",
-    "objectdiff": "^1.1.0",
-    "walkall": "0.0.5"
-  }
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "nasherai",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . Nasherai --platform=darwin --arch=x64 --version=0.35.1 --overwrite && cp icon.icns Nasherai-darwin-x64/Nasherai.app/Contents/Resources/atom.icns"
+    },
+    "author": "Dennis Charles Hackethal",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-packager": "^5.1.1",
+      "electron-prebuilt": "^0.35.1"
+    },
+    "dependencies": {
+      "acorn": "^2.6.4",
+      "jshint": "^2.8.0",
+      "objectdiff": "^1.1.0",
+      "walkall": "0.0.5"
+    }
+  },
+  "packageStatus": 200
 }

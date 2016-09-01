@@ -1,76 +1,104 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "AskiaADX/ADXStudio",
-    "description": "Create Askia Design Controls & Askia Design Pages easily",
-    "fork": false,
-    "created_at": "2015-06-26T08:05:16.000Z",
-    "updated_at": "2016-03-16T20:30:31.000Z",
-    "pushed_at": "2016-05-06T15:11:08.000Z",
-    "homepage": "http://www.askia.com",
-    "size": 3270,
-    "stargazers_count": 3,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 7,
-    "default_branch": "master",
-    "subscribers_count": 13,
-    "github_id": 38098846,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 38098846,
   "name": "ADXStudio",
-  "version": "0.0.9",
-  "description": "ADXStudio",
-  "main": "app/main.js",
-  "scripts": {
-    "test": "jasmine-node spec/"
+  "fullName": "AskiaADX/ADXStudio",
+  "owner": {
+    "login": "AskiaADX",
+    "id": 11886832,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11886832?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/AskiaADX",
+    "htmlUrl": "https://github.com/AskiaADX",
+    "followersUrl": "https://api.github.com/users/AskiaADX/followers",
+    "subscriptionsUrl": "https://api.github.com/users/AskiaADX/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/AskiaADX/orgs",
+    "reposUrl": "https://api.github.com/users/AskiaADX/repos",
+    "receivedEventsUrl": "https://api.github.com/users/AskiaADX/received_events",
+    "type": "Organization"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AskiaADX/ADXStudio.git"
+  "private": false,
+  "description": "Create Askia Design Controls & Askia Design Pages easily",
+  "fork": false,
+  "createdAt": "2015-06-26T08:05:16.000Z",
+  "updatedAt": "2016-05-20T10:22:28.000Z",
+  "pushedAt": "2016-07-28T09:31:01.000Z",
+  "homepage": "http://www.askia.com",
+  "size": 3317,
+  "stargazersCount": 3,
+  "watchersCount": 3,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 7,
+  "openIssues": 7,
+  "watchers": 3,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "ADX",
-    "ADC",
-    "ASKIA",
-    "Design",
-    "Control"
-  ],
-  "author": "Askia SAS",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AskiaADX/ADXStudio/issues"
+  "license": null,
+  "organization": {
+    "login": "AskiaADX",
+    "id": 11886832,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11886832?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/AskiaADX",
+    "htmlUrl": "https://github.com/AskiaADX",
+    "followersUrl": "https://api.github.com/users/AskiaADX/followers",
+    "subscriptionsUrl": "https://api.github.com/users/AskiaADX/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/AskiaADX/orgs",
+    "reposUrl": "https://api.github.com/users/AskiaADX/repos",
+    "receivedEventsUrl": "https://api.github.com/users/AskiaADX/received_events",
+    "type": "Organization"
   },
-  "homepage": "https://github.com/AskiaADX/ADXStudio",
-  "dependencies": {
-    "adcutil": "^1.1.1",
-    "charset-detector": "0.0.2",
-    "fs.extra": "^1.3.2",
-    "glob": "^6.0.1",
-    "mime-types": "^2.1.8",
-    "node-uuid": "^1.4.7",
-    "nodejs-websocket": "^1.4.1",
-    "wrench": "^1.5.8"
+  "networkCount": 1,
+  "subscribersCount": 15,
+  "status": 200,
+  "packageJSON": {
+    "name": "ADXStudio",
+    "version": "0.0.9",
+    "description": "ADXStudio",
+    "main": "app/main.js",
+    "scripts": {
+      "test": "jasmine-node spec/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/AskiaADX/ADXStudio.git"
+    },
+    "keywords": [
+      "ADX",
+      "ADC",
+      "ASKIA",
+      "Design",
+      "Control"
+    ],
+    "author": "Askia SAS",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/AskiaADX/ADXStudio/issues"
+    },
+    "homepage": "https://github.com/AskiaADX/ADXStudio",
+    "dependencies": {
+      "adcutil": "^1.1.1",
+      "charset-detector": "0.0.2",
+      "fs.extra": "^1.3.2",
+      "glob": "^6.0.1",
+      "mime-types": "^2.1.8",
+      "node-uuid": "^1.4.7",
+      "nodejs-websocket": "^1.4.1",
+      "wrench": "^1.5.8"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.0.1",
+      "electron-prebuilt": "^0.37.8",
+      "jasmine-node": "^1.14.5"
+    }
   },
-  "devDependencies": {
-    "electron-packager": "^7.0.1",
-    "electron-prebuilt": "^0.37.8",
-    "jasmine-node": "^1.14.5"
-  }
+  "packageStatus": 200
 }

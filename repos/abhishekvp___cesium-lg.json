@@ -1,110 +1,91 @@
 {
-  "name": "Cesium-LiquidGalaxy",
-  "version": "1.0.0",
-  "description": "Enabling Cesium for Liquid Galaxy",
-  "homepage": "https://github.com/abhishekvp/cesium-lg",
-  "license": "Apache-2.0",
-  "student": {
-    "name": "Abhishek Potnis",
-    "url": "http://home.iitb.ac.in/~abhishekvpotnis/"
+  "id": 58601754,
+  "name": "cesium-lg",
+  "fullName": "abhishekvp/cesium-lg",
+  "owner": {
+    "login": "abhishekvp",
+    "id": 2259697,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2259697?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/abhishekvp",
+    "htmlUrl": "https://github.com/abhishekvp",
+    "followersUrl": "https://api.github.com/users/abhishekvp/followers",
+    "subscriptionsUrl": "https://api.github.com/users/abhishekvp/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/abhishekvp/orgs",
+    "reposUrl": "https://api.github.com/users/abhishekvp/repos",
+    "receivedEventsUrl": "https://api.github.com/users/abhishekvp/received_events",
+    "type": "User"
   },
-  "mentor": {
-    "name": "Andrew Leahy"
+  "private": false,
+  "description": "Liquid Galaxy GSoC 2016 Project: Enabling Cesium for Liquid Galaxy",
+  "fork": false,
+  "createdAt": "2016-05-12T02:48:49.000Z",
+  "updatedAt": "2016-05-12T03:02:24.000Z",
+  "pushedAt": "2016-08-09T17:10:21.000Z",
+  "homepage": null,
+  "size": 75910,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 14,
+  "openIssues": 14,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "gis",
-    "3D",
-    "geospatial",
-    "map",
-    "globe"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/abhishekvp/cesium-lg.git"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "Cesium-LiquidGalaxy",
+    "version": "1.0.0",
+    "description": "Enabling Cesium for Liquid Galaxy",
+    "homepage": "https://github.com/abhishekvp/cesium-lg",
+    "license": "Apache-2.0",
+    "student": {
+      "name": "Abhishek Potnis",
+      "url": "http://home.iitb.ac.in/~abhishekvpotnis/"
+    },
+    "mentor": {
+      "name": "Andrew Leahy"
+    },
+    "keywords": [
+      "gis",
+      "3D",
+      "geospatial",
+      "map",
+      "globe"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/abhishekvp/cesium-lg.git"
+    },
+    "bugs": {
+      "url": "https://github.com/abhishekvp/cesium-lg/issues",
+      "email": "abhishekvpotnis@gmail.com"
+    },
+    "dependencies": {
+      "requirejs": "2.2.0"
+    },
+    "devDependencies": {
+      "express": "4.13.4",
+      "protobufjs": "*",
+      "request": "2.69.0",
+      "websocket": "*",
+      "ws": "*"
+    },
+    "scripts": {
+      "start": "node server.js"
+    }
   },
-  "bugs": {
-    "url": "https://github.com/abhishekvp/cesium-lg/issues",
-    "email": "abhishekvpotnis@gmail.com"
-  },
-  "dependencies": {
-    "requirejs": "2.2.0"
-  },
-  "devDependencies": {
-    "almond": "0.3.1",
-    "aws-sdk": "2.2.45",
-    "bluebird": "3.3.4",
-    "compressible": "2.0.7",
-    "compression": "1.6.1",
-    "electron-prebuilt": "0.37.2",
-    "event-stream": "3.3.2",
-    "express": "4.13.4",
-    "globby": "4.0.0",
-    "gulp": "3.9.1",
-    "gulp-insert": "0.5.0",
-    "gulp-jshint": "2.0.0",
-    "gulp-rename": "1.2.2",
-    "gulp-replace": "0.5.4",
-    "gulp-zip": "3.0.2",
-    "jasmine-core": "2.4.1",
-    "jsdoc": "3.4.0",
-    "jshint": "2.9.1",
-    "jshint-stylish": "2.1.0",
-    "karma": "0.13.22",
-    "karma-chrome-launcher": "0.2.2",
-    "karma-detect-browsers": "2.0.2",
-    "karma-electron-launcher": "0.1.0",
-    "karma-firefox-launcher": "0.1.7",
-    "karma-ie-launcher": "0.2.0",
-    "karma-jasmine": "0.3.8",
-    "karma-requirejs": "0.2.6",
-    "karma-safari-launcher": "0.1.1",
-    "karma-spec-reporter": "0.0.24",
-    "mime": "1.3.4",
-    "mkdirp": "0.5.1",
-    "protobufjs": "*",
-    "request": "2.69.0",
-    "rimraf": "2.5.2",
-    "strip-comments": "0.3.2",
-    "websocket": "*",
-    "ws": "*",
-    "yargs": "4.3.2"
-  },
-  "scripts": {
-    "start": "node server.js"
-  },
-  "_librariesioMetadata": {
-    "full_name": "abhishekvp/cesium-lg",
-    "description": "Liquid Galaxy GSoC 2016 Project: Enabling Cesium for Liquid Galaxy",
-    "fork": false,
-    "created_at": "2016-05-12T02:48:49.000Z",
-    "updated_at": "2016-08-08T10:40:41.544Z",
-    "pushed_at": "2016-08-04T08:08:50.000Z",
-    "homepage": null,
-    "size": 75936,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 11,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 58601754,
-    "source_name": null,
-    "license": "Other",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-13T12:57:23.662Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

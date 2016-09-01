@@ -1,62 +1,96 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "mongodb-js/hadron-command-registry",
-    "description": "Atom's CommandRegistry extracted to a standalone module.",
-    "fork": false,
-    "created_at": "2016-04-05T23:32:12.000Z",
-    "updated_at": "2016-04-13T19:24:14.872Z",
-    "pushed_at": "2016-04-07T18:23:16.000Z",
-    "homepage": null,
-    "size": 33,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 3,
-    "github_id": 55561046,
-    "source_name": null,
-    "license": "Apache-2.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-13T19:24:14.851Z",
-    "rank": null
-  },
+  "id": 55561046,
   "name": "hadron-command-registry",
+  "fullName": "mongodb-js/hadron-command-registry",
+  "owner": {
+    "login": "mongodb-js",
+    "id": 11214950,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11214950?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mongodb-js",
+    "htmlUrl": "https://github.com/mongodb-js",
+    "followersUrl": "https://api.github.com/users/mongodb-js/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mongodb-js/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mongodb-js/orgs",
+    "reposUrl": "https://api.github.com/users/mongodb-js/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mongodb-js/received_events",
+    "type": "Organization"
+  },
+  "private": false,
   "description": "Atom's CommandRegistry extracted to a standalone module.",
-  "version": "0.1.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "electron-mocha --renderer",
-    "ci": "npm test"
+  "fork": false,
+  "createdAt": "2016-04-05T23:32:12.000Z",
+  "updatedAt": "2016-04-05T23:32:16.000Z",
+  "pushedAt": "2016-04-07T18:23:16.000Z",
+  "homepage": null,
+  "size": 33,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "homepage": "http://github.com/mongodb-js/hadron-command-registry",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mongodb-js/hadron-command-registry.git"
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "featured": true
   },
-  "dependencies": {
-    "clear-cut": "^2.0.1",
-    "event-kit": "^2.0.0",
-    "underscore-plus": "^1.6.6"
+  "organization": {
+    "login": "mongodb-js",
+    "id": 11214950,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11214950?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mongodb-js",
+    "htmlUrl": "https://github.com/mongodb-js",
+    "followersUrl": "https://api.github.com/users/mongodb-js/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mongodb-js/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mongodb-js/orgs",
+    "reposUrl": "https://api.github.com/users/mongodb-js/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mongodb-js/received_events",
+    "type": "Organization"
   },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "chai-spies": "^0.7.1",
-    "electron-mocha": "^1.0.2",
-    "electron-prebuilt": "^0.37.4"
+  "networkCount": 0,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "hadron-command-registry",
+    "description": "Atom's CommandRegistry extracted to a standalone module.",
+    "version": "0.1.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "electron-mocha --renderer",
+      "ci": "npm test"
+    },
+    "homepage": "http://github.com/mongodb-js/hadron-command-registry",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/mongodb-js/hadron-command-registry.git"
+    },
+    "dependencies": {
+      "clear-cut": "^2.0.1",
+      "event-kit": "^2.0.0",
+      "underscore-plus": "^1.6.6"
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "chai-spies": "^0.7.1",
+      "electron-mocha": "^1.0.2",
+      "electron-prebuilt": "^0.37.4"
+    },
+    "license": "Apache-2.0"
   },
-  "license": "Apache-2.0"
+  "packageStatus": 200
 }

@@ -1,71 +1,85 @@
 {
+  "id": 39538096,
   "name": "resize-event",
-  "version": "1.1.0",
+  "fullName": "shama/resize-event",
+  "owner": {
+    "login": "shama",
+    "id": 99604,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/99604?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/shama",
+    "htmlUrl": "https://github.com/shama",
+    "followersUrl": "https://api.github.com/users/shama/followers",
+    "subscriptionsUrl": "https://api.github.com/users/shama/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/shama/orgs",
+    "reposUrl": "https://api.github.com/users/shama/repos",
+    "receivedEventsUrl": "https://api.github.com/users/shama/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Detect resize on an element without polling or iframes",
-  "main": "index.js",
-  "scripts": {
-    "start": "budo example.js",
-    "test": "browserify test.js -o bundle.js && testron bundle.js"
+  "fork": false,
+  "createdAt": "2015-07-23T01:04:54.000Z",
+  "updatedAt": "2015-10-17T11:57:25.000Z",
+  "pushedAt": "2015-07-23T22:57:57.000Z",
+  "homepage": null,
+  "size": 120,
+  "stargazersCount": 7,
+  "watchersCount": 7,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 7,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/shama/resize-event.git"
-  },
-  "keywords": [
-    "resize",
-    "event",
-    "element"
-  ],
-  "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shama/resize-event/issues"
-  },
-  "homepage": "https://github.com/shama/resize-event#readme",
-  "devDependencies": {
-    "browserify": "^11.0.0",
-    "budo": "^4.1.0",
-    "electron-prebuilt": "^0.30.0",
-    "object-assign": "^3.0.0",
-    "tape": "^4.0.1",
-    "testron": "^1.1.0"
-  },
-  "dependencies": {
-    "mutationobserver-shim": "^0.3.1"
-  },
-  "_librariesioMetadata": {
-    "full_name": "shama/resize-event",
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "resize-event",
+    "version": "1.1.0",
     "description": "Detect resize on an element without polling or iframes",
-    "fork": false,
-    "created_at": "2015-07-23T01:04:54.000Z",
-    "updated_at": "2016-04-22T08:11:39.007Z",
-    "pushed_at": "2015-07-23T22:57:57.000Z",
-    "homepage": null,
-    "size": 120,
-    "stargazers_count": 7,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 39538096,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-22T08:11:38.986Z",
-    "rank": null
-  }
+    "main": "index.js",
+    "scripts": {
+      "start": "budo example.js",
+      "test": "browserify test.js -o bundle.js && testron bundle.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/shama/resize-event.git"
+    },
+    "keywords": [
+      "resize",
+      "event",
+      "element"
+    ],
+    "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/shama/resize-event/issues"
+    },
+    "homepage": "https://github.com/shama/resize-event#readme",
+    "devDependencies": {
+      "browserify": "^11.0.0",
+      "budo": "^4.1.0",
+      "electron-prebuilt": "^0.30.0",
+      "object-assign": "^3.0.0",
+      "tape": "^4.0.1",
+      "testron": "^1.1.0"
+    },
+    "dependencies": {
+      "mutationobserver-shim": "^0.3.1"
+    }
+  },
+  "packageStatus": 200
 }

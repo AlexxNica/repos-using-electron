@@ -1,79 +1,99 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "Rob4001/TidePower",
-    "description": "An attempt at a cross-platform IDE for the TingBot",
-    "fork": false,
-    "created_at": "2015-11-29T21:54:01.000Z",
-    "updated_at": "2015-12-14T17:57:22.000Z",
-    "pushed_at": "2016-01-09T22:25:22.000Z",
-    "homepage": null,
-    "size": 1793,
-    "stargazers_count": 2,
-    "language": "HTML",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 47081885,
-    "source_name": null,
+  "id": 47081885,
+  "name": "TidePower",
+  "fullName": "Rob4001/TidePower",
+  "owner": {
+    "login": "Rob4001",
+    "id": 605460,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/605460?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Rob4001",
+    "htmlUrl": "https://github.com/Rob4001",
+    "followersUrl": "https://api.github.com/users/Rob4001/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Rob4001/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Rob4001/orgs",
+    "reposUrl": "https://api.github.com/users/Rob4001/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Rob4001/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "An attempt at a cross-platform IDE for the TingBot",
+  "fork": false,
+  "createdAt": "2015-11-29T21:54:01.000Z",
+  "updatedAt": "2015-12-14T17:57:22.000Z",
+  "pushedAt": "2016-01-09T22:25:22.000Z",
+  "homepage": null,
+  "size": 1793,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "tide-power",
+    "version": "0.0.1",
+    "description": "An Electron based IDE for TingBot",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "clean": "rm -rf ./dist",
+      "clean:lin": "rm -rf ./dist/lin",
+      "clean:osx": "rm -rf ./dist/osx",
+      "clean:win": "rm -rf ./dist/win",
+      "pack": "npm run clean && npm run build:osx && npm run build:win && npm run build:lin",
+      "pack:lin": "npm run clean:lin && electron-packager ./ \"TidePower\" --out=dist/lin --platform=linux --arch=x64 --version=0.35.2 --ignore=\"node_modules/(electron-packager|electron-prebuilt)\" --ignore=dist",
+      "pack:osx": "npm run clean:osx && electron-packager ./ \"TidePower\" --out=dist/osx --platform=darwin --arch=x64 --version=0.35.2 --icon=assets/osx/tide.icns --ignore=\"node_modules/(electron-packager|electron-prebuilt)\" --ignore=dist",
+      "pack:win": "npm run clean:win && electron-packager ./ \"TidePower\" --out=dist/win --platform=win32 --arch=ia32 --version=0.35.2 --icon=assets/win/icon.ico --ignore=\"node_modules/(electron-packager|electron-prebuilt)\" --ignore=dist",
+      "build:win": "npm run pack:win && electron-builder \"dist/win/TidePower-win32-ia32\" --platform=win --out=\"dist/win\" --config=builder.json",
+      "build:lin": "npm run pack:lin && tar -zcf dist/lin/TidePower-linux-x64.tar.gz -C dist/lin/ TidePower-linux-x64",
+      "build:osx": "npm run pack:osx && electron-builder \"dist/osx/TidePower-darwin-x64\" --platform=osx --out=\"dist/osx\" --config=builder.json"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Rob4001/TidePower.git"
+    },
+    "keywords": [
+      "Electron",
+      "TingBot"
+    ],
+    "author": "rob4001",
     "license": "GPL-3.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+    "bugs": {
+      "url": "https://github.com/Rob4001/TidePower/issues"
+    },
+    "homepage": "https://github.com/Rob4001/TidePower#readme",
+    "devDependencies": {
+      "electron-builder": "^2.3.0",
+      "electron-packager": "^5.1.1"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.35.0",
+      "multicast-dns": "^4.0.0",
+      "ncp": "^2.0.0",
+      "temp": "^0.8.3"
+    }
   },
-  "name": "tide-power",
-  "version": "0.0.1",
-  "description": "An Electron based IDE for TingBot",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js",
-    "clean": "rm -rf ./dist",
-    "clean:lin": "rm -rf ./dist/lin",
-    "clean:osx": "rm -rf ./dist/osx",
-    "clean:win": "rm -rf ./dist/win",
-    "pack": "npm run clean && npm run build:osx && npm run build:win && npm run build:lin",
-    "pack:lin": "npm run clean:lin && electron-packager ./ \"TidePower\" --out=dist/lin --platform=linux --arch=x64 --version=0.35.2 --ignore=\"node_modules/(electron-packager|electron-prebuilt)\" --ignore=dist",
-    "pack:osx": "npm run clean:osx && electron-packager ./ \"TidePower\" --out=dist/osx --platform=darwin --arch=x64 --version=0.35.2 --icon=assets/osx/tide.icns --ignore=\"node_modules/(electron-packager|electron-prebuilt)\" --ignore=dist",
-    "pack:win": "npm run clean:win && electron-packager ./ \"TidePower\" --out=dist/win --platform=win32 --arch=ia32 --version=0.35.2 --icon=assets/win/icon.ico --ignore=\"node_modules/(electron-packager|electron-prebuilt)\" --ignore=dist",
-    "build:win": "npm run pack:win && electron-builder \"dist/win/TidePower-win32-ia32\" --platform=win --out=\"dist/win\" --config=builder.json",
-    "build:lin": "npm run pack:lin && tar -zcf dist/lin/TidePower-linux-x64.tar.gz -C dist/lin/ TidePower-linux-x64",
-    "build:osx": "npm run pack:osx && electron-builder \"dist/osx/TidePower-darwin-x64\" --platform=osx --out=\"dist/osx\" --config=builder.json"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rob4001/TidePower.git"
-  },
-  "keywords": [
-    "Electron",
-    "TingBot"
-  ],
-  "author": "rob4001",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/Rob4001/TidePower/issues"
-  },
-  "homepage": "https://github.com/Rob4001/TidePower#readme",
-  "devDependencies": {
-    "electron-builder": "^2.3.0",
-    "electron-packager": "^5.1.1"
-  },
-  "dependencies": {
-    "electron-prebuilt": "^0.35.0",
-    "multicast-dns": "^4.0.0",
-    "ncp": "^2.0.0",
-    "temp": "^0.8.3"
-  }
+  "packageStatus": 200
 }

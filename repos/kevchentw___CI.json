@@ -1,60 +1,80 @@
 {
-  "name": "SpotifyLyrics",
-  "version": "0.0.4",
-  "description": "An small app to show lyrics from spotify",
-  "dependencies": {
-    "menubar": "*",
-    "electron-rpc": "2.0.1",
-    "superagent": "2.1.0",
-    "@jonny/spotify-web-helper": "1.0.4",
-    "remove-accents": "0.3.0",
-    "node-version-compare": "1.0.1"
+  "id": 64954528,
+  "name": "CI",
+  "fullName": "kevchentw/CI",
+  "owner": {
+    "login": "kevchentw",
+    "id": 7800363,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7800363?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/kevchentw",
+    "htmlUrl": "https://github.com/kevchentw",
+    "followersUrl": "https://api.github.com/users/kevchentw/followers",
+    "subscriptionsUrl": "https://api.github.com/users/kevchentw/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/kevchentw/orgs",
+    "reposUrl": "https://api.github.com/users/kevchentw/repos",
+    "receivedEventsUrl": "https://api.github.com/users/kevchentw/received_events",
+    "type": "User"
   },
-  "devDependencies": {
-    "electron-packager": "^5.1.0",
-    "electron-prebuilt": "^0.36.0"
+  "private": false,
+  "description": "CI(詞) shows lyrics that you are currently playing on Spotify.",
+  "fork": false,
+  "createdAt": "2016-08-04T17:33:52.000Z",
+  "updatedAt": "2016-08-08T19:04:21.000Z",
+  "pushedAt": "2016-08-07T16:37:06.000Z",
+  "homepage": "",
+  "size": 1807,
+  "stargazersCount": 7,
+  "watchersCount": 7,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 7,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "main": "main.js",
-  "scripts": {
-    "build": "electron-packager . Example --platform=darwin --arch=x64 --version=0.36.12 --icon=Icon.icns",
-    "start": "electron .",
-    "build_mac": "electron-packager . SpotifyLyrics --platform=darwin --arch=x64 --version=0.36.12 --icon=Icon.icns --overwrite",
-    "build_win32": "electron-packager . SpotifyLyrics --platform=win32 --arch=x64 --version=0.36.12 --icon=Icon.icns --asar=true --overwrite --ignore=node_modules/electron-* ",
-    "build_linux": "electron-packager . SpotifyLyrics --platform=linux --arch=x64 --version=0.36.12 --icon=Icon.icns --asar=true --overwrite --ignore=node_modules/electron-* "
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "_librariesioMetadata": {
-    "full_name": "kevchentw/CI",
-    "description": null,
-    "fork": false,
-    "created_at": "2016-08-04T17:33:52.000Z",
-    "updated_at": "2016-08-08T09:43:58.194Z",
-    "pushed_at": "2016-08-07T15:20:07.000Z",
-    "homepage": null,
-    "size": 1778,
-    "stargazers_count": 6,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 64954528,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-08-05T05:34:04.473Z",
-    "rank": null
-  }
+  "networkCount": 0,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "SpotifyLyrics",
+    "version": "0.0.4",
+    "description": "An small app to show lyrics from spotify",
+    "dependencies": {
+      "menubar": "*",
+      "electron-rpc": "2.0.1",
+      "superagent": "2.1.0",
+      "@jonny/spotify-web-helper": "1.0.4",
+      "remove-accents": "0.3.0",
+      "node-version-compare": "1.0.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.36.0"
+    },
+    "main": "main.js",
+    "scripts": {
+      "build": "electron-packager . Example --platform=darwin --arch=x64 --version=0.36.12 --icon=Icon.icns",
+      "start": "electron .",
+      "build_mac": "electron-packager . SpotifyLyrics --platform=darwin --arch=x64 --version=0.36.12 --icon=Icon.icns --overwrite",
+      "build_win32": "electron-packager . SpotifyLyrics --platform=win32 --arch=x64 --version=0.36.12 --icon=Icon.icns --asar=true --overwrite --ignore=node_modules/electron-* ",
+      "build_linux": "electron-packager . SpotifyLyrics --platform=linux --arch=x64 --version=0.36.12 --icon=Icon.icns --asar=true --overwrite --ignore=node_modules/electron-* "
+    }
+  },
+  "packageStatus": 200
 }

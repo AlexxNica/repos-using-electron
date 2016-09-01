@@ -1,68 +1,82 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "alvinantonius/inventoped",
-    "description": null,
-    "fork": false,
-    "created_at": "2016-07-22T08:49:12.000Z",
-    "updated_at": "2016-07-22T09:11:27.000Z",
-    "pushed_at": "2016-07-23T20:51:09.000Z",
-    "homepage": null,
-    "size": 13049,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 2,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 63938627,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 35,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-22T13:12:19.799Z",
-    "rank": null
+  "id": 63938627,
+  "name": "inventoped",
+  "fullName": "alvinantonius/inventoped",
+  "owner": {
+    "login": "alvinantonius",
+    "id": 2825909,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2825909?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/alvinantonius",
+    "htmlUrl": "https://github.com/alvinantonius",
+    "followersUrl": "https://api.github.com/users/alvinantonius/followers",
+    "subscriptionsUrl": "https://api.github.com/users/alvinantonius/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/alvinantonius/orgs",
+    "reposUrl": "https://api.github.com/users/alvinantonius/repos",
+    "receivedEventsUrl": "https://api.github.com/users/alvinantonius/received_events",
+    "type": "User"
   },
-  "name": "electron-sqlite3",
-  "version": "1.0.0",
-  "description": "Example electron app with sqlite3 integration",
-  "repository": "https://github.com/bytheway/electron-sqlite3.git",
-  "main": "main.js",
-  "dependencies": {
-    "jquery": "^2.1.4",
-    "sqlite3": "3.1.1"
+  "private": false,
+  "description": null,
+  "fork": false,
+  "createdAt": "2016-07-22T08:49:12.000Z",
+  "updatedAt": "2016-07-22T09:11:27.000Z",
+  "pushedAt": "2016-07-24T00:57:40.000Z",
+  "homepage": null,
+  "size": 13168,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-packager": "^5.2.1",
-    "electron-prebuilt": "^0.36.4"
+  "license": null,
+  "networkCount": 2,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-sqlite3",
+    "version": "1.0.0",
+    "description": "Example electron app with sqlite3 integration",
+    "repository": "https://github.com/bytheway/electron-sqlite3.git",
+    "main": "main.js",
+    "dependencies": {
+      "jquery": "^2.1.4",
+      "sqlite3": "3.1.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.4"
+    },
+    "keywords": [
+      "electron",
+      "atom",
+      "sqlite3"
+    ],
+    "bugs": {
+      "url": "https://github.com/bytheway/electron-sqlite3/issues"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . electron-sqlite3 --out=dist --ignore=dist --prune --asar --all --version=0.36.4",
+      "postinstall": "npm run rebuild-sqlite3",
+      "rebuild-sqlite3": "cd node_modules/sqlite3 && npm run prepublish && node-gyp configure --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-darwin-x64 && node-gyp rebuild --target=0.36.4 --arch=x64 --target_platform=darwin --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-darwin-x64",
+      "rebuild-sqlite3-win": "cd node_modules/sqlite3 && npm run prepublish && node-gyp configure --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-win32-x64 && node-gyp node-gyp rebuild --target=0.36.0 --arch=x64 --target_platform=win32 --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-win32-x64"
+    },
+    "author": "Ben Bytheway",
+    "contributors": [],
+    "license": "MIT"
   },
-  "keywords": [
-    "electron",
-    "atom",
-    "sqlite3"
-  ],
-  "bugs": {
-    "url": "https://github.com/bytheway/electron-sqlite3/issues"
-  },
-  "scripts": {
-    "start": "electron .",
-    "build": "electron-packager . electron-sqlite3 --out=dist --ignore=dist --prune --asar --all --version=0.36.4",
-    "postinstall": "npm run rebuild-sqlite3",
-    "rebuild-sqlite3": "cd node_modules/sqlite3 && npm run prepublish && node-gyp configure --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-darwin-x64 && node-gyp rebuild --target=0.36.4 --arch=x64 --target_platform=darwin --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-darwin-x64",
-    "rebuild-sqlite3-win": "cd node_modules/sqlite3 && npm run prepublish && node-gyp configure --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-win32-x64 && node-gyp node-gyp rebuild --target=0.36.0 --arch=x64 --target_platform=win32 --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-win32-x64"
-  },
-  "author": "Ben Bytheway",
-  "contributors": [],
-  "license": "MIT"
+  "packageStatus": 200
 }

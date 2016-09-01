@@ -1,81 +1,115 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "clowdfish/my-patients",
-    "description": "A minimal patient administration solution for small doctor's offices.",
-    "fork": false,
-    "created_at": "2015-11-29T12:54:04.000Z",
-    "updated_at": "2016-01-14T05:34:54.000Z",
-    "pushed_at": "2016-02-16T06:43:26.000Z",
-    "homepage": null,
-    "size": 845,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 6,
-    "default_branch": "develop",
-    "subscribers_count": 0,
-    "github_id": 47063429,
-    "source_name": null,
-    "license": "GPL-2.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 47063429,
   "name": "my-patients",
-  "version": "1.0.1",
+  "fullName": "clowdfish/my-patients",
+  "owner": {
+    "login": "clowdfish",
+    "id": 8157680,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8157680?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/clowdfish",
+    "htmlUrl": "https://github.com/clowdfish",
+    "followersUrl": "https://api.github.com/users/clowdfish/followers",
+    "subscriptionsUrl": "https://api.github.com/users/clowdfish/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/clowdfish/orgs",
+    "reposUrl": "https://api.github.com/users/clowdfish/repos",
+    "receivedEventsUrl": "https://api.github.com/users/clowdfish/received_events",
+    "type": "Organization"
+  },
+  "private": false,
   "description": "A minimal patient administration solution for small doctor's offices.",
-  "main": "main.js",
-  "devDependencies": {
-    "asar": "*",
-    "coffee-script": "^1.10.0",
-    "electron-livereload": "git@github.com:swapzone/electron-livereload.git",
-    "electron-prebuilt": "*",
-    "fs-jetpack": "^0.7.0",
-    "gulp": "^3.9.0",
-    "gulp-angular-templatecache": "^1.8.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-merge": "^0.1.1",
-    "gulp-ng-annotate": "^1.1.0",
-    "gulp-notify": "^2.2.0",
-    "gulp-plumber": "^1.0.1",
-    "gulp-ruby-sass": "^2.0.6",
-    "gulp-sequence": "^0.4.4",
-    "jasmine-core": "^2.4.1",
-    "karma": "^0.13.19",
-    "karma-electron-launcher": "^0.1.0",
-    "karma-jasmine": "^0.3.7",
-    "karma-ng-html2js-preprocessor": "^0.2.0",
-    "q": "^1.4.1",
-    "rcedit": "^0.3.0"
+  "fork": false,
+  "createdAt": "2015-11-29T12:54:04.000Z",
+  "updatedAt": "2016-01-14T05:34:54.000Z",
+  "pushedAt": "2016-02-16T06:43:26.000Z",
+  "homepage": null,
+  "size": 845,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 7,
+  "openIssues": 7,
+  "watchers": 0,
+  "defaultBranch": "develop",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "license": {
+    "key": "gpl-2.0",
+    "name": "GNU General Public License v2.0",
+    "spdxId": "GPL-2.0",
+    "url": "https://api.github.com/licenses/gpl-2.0",
+    "featured": false
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/clowdfish/my-patients.git"
+  "organization": {
+    "login": "clowdfish",
+    "id": 8157680,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8157680?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/clowdfish",
+    "htmlUrl": "https://github.com/clowdfish",
+    "followersUrl": "https://api.github.com/users/clowdfish/followers",
+    "subscriptionsUrl": "https://api.github.com/users/clowdfish/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/clowdfish/orgs",
+    "reposUrl": "https://api.github.com/users/clowdfish/repos",
+    "receivedEventsUrl": "https://api.github.com/users/clowdfish/received_events",
+    "type": "Organization"
   },
-  "keywords": [
-    "AngularJS",
-    "Electron.js"
-  ],
-  "author": "Sascha Gros",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/clowdfish/my-patients/issues"
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "my-patients",
+    "version": "1.0.1",
+    "description": "A minimal patient administration solution for small doctor's offices.",
+    "main": "main.js",
+    "devDependencies": {
+      "asar": "*",
+      "coffee-script": "^1.10.0",
+      "electron-livereload": "git@github.com:swapzone/electron-livereload.git",
+      "electron-prebuilt": "*",
+      "fs-jetpack": "^0.7.0",
+      "gulp": "^3.9.0",
+      "gulp-angular-templatecache": "^1.8.0",
+      "gulp-concat": "^2.6.0",
+      "gulp-merge": "^0.1.1",
+      "gulp-ng-annotate": "^1.1.0",
+      "gulp-notify": "^2.2.0",
+      "gulp-plumber": "^1.0.1",
+      "gulp-ruby-sass": "^2.0.6",
+      "gulp-sequence": "^0.4.4",
+      "jasmine-core": "^2.4.1",
+      "karma": "^0.13.19",
+      "karma-electron-launcher": "^0.1.0",
+      "karma-jasmine": "^0.3.7",
+      "karma-ng-html2js-preprocessor": "^0.2.0",
+      "q": "^1.4.1",
+      "rcedit": "^0.3.0"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/clowdfish/my-patients.git"
+    },
+    "keywords": [
+      "AngularJS",
+      "Electron.js"
+    ],
+    "author": "Sascha Gros",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/clowdfish/my-patients/issues"
+    },
+    "homepage": "https://github.com/clowdfish/my-patients#readme"
   },
-  "homepage": "https://github.com/clowdfish/my-patients#readme"
+  "packageStatus": 200
 }

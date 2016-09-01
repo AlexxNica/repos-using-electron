@@ -1,72 +1,92 @@
 {
+  "id": 53440023,
   "name": "electron-contextmenu-middleware",
-  "version": "1.0.2",
-  "description": "Build `electron` context menus composing multiple middlewares functions.",
-  "repository": "parro-it/electron-contextmenu-middleware",
-  "license": "MIT",
-  "author": "parro-it",
-  "scripts": {
-    "test": "eslint . && node test | faucet || echo failed",
-    "watch": "nodemon --exec 'npm run test || echo failed'",
-    "start": "electron example.js"
+  "fullName": "parro-it/electron-contextmenu-middleware",
+  "owner": {
+    "login": "parro-it",
+    "id": 11197111,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11197111?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/parro-it",
+    "htmlUrl": "https://github.com/parro-it",
+    "followersUrl": "https://api.github.com/users/parro-it/followers",
+    "subscriptionsUrl": "https://api.github.com/users/parro-it/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/parro-it/orgs",
+    "reposUrl": "https://api.github.com/users/parro-it/repos",
+    "receivedEventsUrl": "https://api.github.com/users/parro-it/received_events",
+    "type": "User"
   },
-  "keywords": [],
-  "engines": {
-    "node": ">=4"
+  "private": false,
+  "description": "Build electron context menus composing multiple middlewares functions.",
+  "fork": false,
+  "createdAt": "2016-03-08T19:41:52.000Z",
+  "updatedAt": "2016-06-18T07:35:19.000Z",
+  "pushedAt": "2016-05-11T20:25:08.000Z",
+  "homepage": "",
+  "size": 9,
+  "stargazersCount": 18,
+  "watchersCount": 18,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 18,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "eslintConfig": {
-    "extends": [
-      "js",
-      "features"
-    ]
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.10",
-    "eslint": "^1.10.3",
-    "eslint-config-features": "^1.1.5",
-    "eslint-config-js": "^4.0.0",
-    "faucet": "0.0.1",
-    "tape": "^4.2.2"
-  },
-  "files": [
-    "index.js"
-  ],
-  "dependencies": {
-    "comws": "^2.0.2"
-  },
-  "_librariesioMetadata": {
-    "full_name": "parro-it/electron-contextmenu-middleware",
-    "description": "Build electron context menus composing multiple middlewares functions.",
-    "fork": false,
-    "created_at": "2016-03-08T19:41:52.000Z",
-    "updated_at": "2016-06-18T07:35:50.865Z",
-    "pushed_at": "2016-03-17T20:43:49.000Z",
-    "homepage": "",
-    "size": 14,
-    "stargazers_count": 15,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 53440023,
-    "source_name": null,
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-contextmenu-middleware",
+    "version": "1.0.2",
+    "description": "Build `electron` context menus composing multiple middlewares functions.",
+    "repository": "parro-it/electron-contextmenu-middleware",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-14T16:10:06.502Z",
-    "rank": null
-  }
+    "author": "parro-it",
+    "scripts": {
+      "test": "eslint . && node test | faucet || echo failed",
+      "watch": "nodemon --exec 'npm run test || echo failed'",
+      "start": "electron example.js"
+    },
+    "keywords": [],
+    "engines": {
+      "node": ">=4"
+    },
+    "eslintConfig": {
+      "extends": [
+        "js",
+        "features"
+      ]
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.10",
+      "eslint": "^1.10.3",
+      "eslint-config-features": "^1.1.5",
+      "eslint-config-js": "^4.0.0",
+      "faucet": "0.0.1",
+      "tape": "^4.2.2"
+    },
+    "files": [
+      "index.js"
+    ],
+    "dependencies": {
+      "comws": "^2.0.2"
+    }
+  },
+  "packageStatus": 200
 }

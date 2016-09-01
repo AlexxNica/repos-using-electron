@@ -1,71 +1,91 @@
 {
+  "id": 53233510,
   "name": "drone-dashboard",
-  "version": "1.0.0",
-  "description": "an OSX application for controlling the Parrot Bebop Drone through keyboard bindings",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js"
+  "fullName": "gcwelborn/drone-dashboard",
+  "owner": {
+    "login": "gcwelborn",
+    "id": 5946100,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5946100?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/gcwelborn",
+    "htmlUrl": "https://github.com/gcwelborn",
+    "followersUrl": "https://api.github.com/users/gcwelborn/followers",
+    "subscriptionsUrl": "https://api.github.com/users/gcwelborn/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/gcwelborn/orgs",
+    "reposUrl": "https://api.github.com/users/gcwelborn/repos",
+    "receivedEventsUrl": "https://api.github.com/users/gcwelborn/received_events",
+    "type": "User"
   },
-  "author": "gcwelborn",
-  "license": "UNLICENSED",
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.8"
+  "private": false,
+  "description": "Dashboard and key-bindings for the Parrot bebop drone. Made w/ Electron & jQuery",
+  "fork": false,
+  "createdAt": "2016-03-06T02:22:31.000Z",
+  "updatedAt": "2016-05-22T16:11:56.000Z",
+  "pushedAt": "2016-03-16T23:52:00.000Z",
+  "homepage": "",
+  "size": 5944,
+  "stargazersCount": 4,
+  "watchersCount": 4,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 4,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "dependencies": {
-    "jquery": "^2.2.1",
-    "node-bebop": "^0.4.1",
-    "skeleton-css": "^2.0.4"
+  "license": {
+    "key": "unlicense",
+    "name": "The Unlicense",
+    "spdxId": "Unlicense",
+    "url": "https://api.github.com/licenses/unlicense",
+    "featured": false
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gcwelborn/drone-dashboard.git"
+  "networkCount": 2,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "drone-dashboard",
+    "version": "1.0.0",
+    "description": "an OSX application for controlling the Parrot Bebop Drone through keyboard bindings",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "author": "gcwelborn",
+    "license": "UNLICENSED",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.8"
+    },
+    "dependencies": {
+      "jquery": "^2.2.1",
+      "node-bebop": "^0.4.1",
+      "skeleton-css": "^2.0.4"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gcwelborn/drone-dashboard.git"
+    },
+    "keywords": [
+      "Parrot",
+      "Drone",
+      "Bebop",
+      "Controller",
+      "Dashboard",
+      "Github",
+      "Electron"
+    ],
+    "bugs": {
+      "url": "https://github.com/gcwelborn/drone-dashboard/issues"
+    },
+    "homepage": "https://github.com/gcwelborn/drone-dashboard#readme"
   },
-  "keywords": [
-    "Parrot",
-    "Drone",
-    "Bebop",
-    "Controller",
-    "Dashboard",
-    "Github",
-    "Electron"
-  ],
-  "bugs": {
-    "url": "https://github.com/gcwelborn/drone-dashboard/issues"
-  },
-  "homepage": "https://github.com/gcwelborn/drone-dashboard#readme",
-  "_librariesioMetadata": {
-    "full_name": "gcwelborn/drone-dashboard",
-    "description": "Dashboard and key-bindings for the Parrot bebop drone. Made w/ Electron & jQuery",
-    "fork": false,
-    "created_at": "2016-03-06T02:22:31.000Z",
-    "updated_at": "2016-05-17T12:39:10.481Z",
-    "pushed_at": "2016-03-16T23:52:00.000Z",
-    "homepage": "",
-    "size": 5944,
-    "stargazers_count": 3,
-    "language": "HTML",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 2,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 53233510,
-    "source_name": null,
-    "license": "Unlicense",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "packageStatus": 200
 }

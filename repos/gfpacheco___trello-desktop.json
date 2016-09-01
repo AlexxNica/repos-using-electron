@@ -1,71 +1,91 @@
 {
+  "id": 40338155,
   "name": "trello-desktop",
-  "productName": "TrelloDesktop",
-  "version": "0.0.0",
-  "description": "My astonishing app",
-  "license": "MIT",
-  "main": "app/index.js",
-  "repository": "gfpacheco/trello-desktop",
-  "author": {
-    "name": "Guilherme Pacheco",
-    "email": "guilherme.f.pacheco@gmail.com",
-    "url": "gfpacheco.com"
+  "fullName": "gfpacheco/trello-desktop",
+  "owner": {
+    "login": "gfpacheco",
+    "id": 3705660,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3705660?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/gfpacheco",
+    "htmlUrl": "https://github.com/gfpacheco",
+    "followersUrl": "https://api.github.com/users/gfpacheco/followers",
+    "subscriptionsUrl": "https://api.github.com/users/gfpacheco/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/gfpacheco/orgs",
+    "reposUrl": "https://api.github.com/users/gfpacheco/repos",
+    "receivedEventsUrl": "https://api.github.com/users/gfpacheco/received_events",
+    "type": "User"
   },
-  "engines": {
-    "node": ">=0.10.0"
+  "private": false,
+  "description": "A desktop wrapper for Trello webapp with support for desktop notifications",
+  "fork": false,
+  "createdAt": "2015-08-07T03:00:27.000Z",
+  "updatedAt": "2016-08-09T08:29:16.000Z",
+  "pushedAt": "2015-09-20T23:31:27.000Z",
+  "homepage": null,
+  "size": 160,
+  "stargazersCount": 7,
+  "watchersCount": 7,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 7,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --out=dist --ignore=dist --prune --asar --all --version=0.30.2"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "files": [
-    "app/index.js",
-    "app/index.html",
-    "app/index.css"
-  ],
-  "keywords": [
-    "electron-app"
-  ],
-  "dependencies": {
-    "electron-debug": "0.1.1"
-  },
-  "devDependencies": {
-    "electron-packager": "5.0.1",
-    "electron-prebuilt": "0.30.2"
-  },
-  "_librariesioMetadata": {
-    "full_name": "gfpacheco/trello-desktop",
-    "description": "A desktop wrapper for Trello webapp with support for desktop notifications",
-    "fork": false,
-    "created_at": "2015-08-07T03:00:27.000Z",
-    "updated_at": "2016-05-27T10:43:33.000Z",
-    "pushed_at": "2015-09-20T23:31:27.000Z",
-    "homepage": null,
-    "size": 160,
-    "stargazers_count": 5,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 40338155,
-    "source_name": null,
+  "networkCount": 1,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "trello-desktop",
+    "productName": "TrelloDesktop",
+    "version": "0.0.0",
+    "description": "My astonishing app",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "license",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "main": "app/index.js",
+    "repository": "gfpacheco/trello-desktop",
+    "author": {
+      "name": "Guilherme Pacheco",
+      "email": "guilherme.f.pacheco@gmail.com",
+      "url": "gfpacheco.com"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore=dist --prune --asar --all --version=0.30.2"
+    },
+    "files": [
+      "app/index.js",
+      "app/index.html",
+      "app/index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "electron-debug": "0.1.1"
+    },
+    "devDependencies": {
+      "electron-packager": "5.0.1",
+      "electron-prebuilt": "0.30.2"
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,58 +1,72 @@
 {
-  "name": "proper-pdf",
-  "version": "0.1.0",
-  "description": "Simple Express server to make a PDF",
-  "author": "Andrew Shankie <andrew@properdesign.rs>",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
+  "id": 63772422,
+  "name": "express-electron-pdf",
+  "fullName": "shankiesan/express-electron-pdf",
+  "owner": {
+    "login": "shankiesan",
+    "id": 2608862,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2608862?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/shankiesan",
+    "htmlUrl": "https://github.com/shankiesan",
+    "followersUrl": "https://api.github.com/users/shankiesan/followers",
+    "subscriptionsUrl": "https://api.github.com/users/shankiesan/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/shankiesan/orgs",
+    "reposUrl": "https://api.github.com/users/shankiesan/repos",
+    "receivedEventsUrl": "https://api.github.com/users/shankiesan/received_events",
+    "type": "User"
   },
-  "devDependencies": {
-    "standard": "^6.0.6"
+  "private": false,
+  "description": "Node Express server using Docker for creating PDFs from a URL",
+  "fork": false,
+  "createdAt": "2016-07-20T10:24:17.000Z",
+  "updatedAt": "2016-07-20T10:44:59.000Z",
+  "pushedAt": "2016-07-20T13:06:32.000Z",
+  "homepage": "https://hub.docker.com/r/properdesign/express-electron-pdf/",
+  "size": 291,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "dependencies": {
-    "express": "^4.13.3",
-    "minimist": "^1.2.0",
-    "electron-prebuilt": "^1.2.2",
-    "github-markdown-css": "^2.0.9",
-    "highlight.js": "^9.0.0",
-    "marked": "^0.3.5",
-    "object-assign": "^4.0.1",
-    "uuid": "^2.0.1"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "proper-pdf",
+    "version": "0.1.0",
+    "description": "Simple Express server to make a PDF",
+    "author": "Andrew Shankie <andrew@properdesign.rs>",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "devDependencies": {
+      "standard": "^6.0.6"
+    },
+    "dependencies": {
+      "express": "^4.13.3",
+      "minimist": "^1.2.0",
+      "electron-prebuilt": "^1.2.2",
+      "github-markdown-css": "^2.0.9",
+      "highlight.js": "^9.0.0",
+      "marked": "^0.3.5",
+      "object-assign": "^4.0.1",
+      "uuid": "^2.0.1"
+    }
   },
-  "_librariesioMetadata": {
-    "full_name": "shankiesan/express-electron-pdf",
-    "description": "Node Express server using Docker for creating PDFs from a URL",
-    "fork": false,
-    "created_at": "2016-07-20T10:24:17.000Z",
-    "updated_at": "2016-07-20T10:25:32.037Z",
-    "pushed_at": "2016-07-20T10:25:13.000Z",
-    "homepage": null,
-    "size": 0,
-    "stargazers_count": 0,
-    "language": "Makefile",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 63772422,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-20T10:25:32.012Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

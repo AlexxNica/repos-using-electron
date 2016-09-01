@@ -1,101 +1,135 @@
 {
-  "name": "ElectronAPIDemos",
-  "productName": "Electron API Demos",
-  "version": "1.1.0",
-  "description": "Electron interactive API demos",
-  "private": true,
-  "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-    "dev": "electron . --debug",
-    "lint": "standard",
-    "test": "mocha tests && npm run lint",
-    "sign-exe": "signcode ./out/ElectronAPIDemos-win32-ia32/ElectronAPIDemos.exe --cert ~/electron-api-demos.p12 --prompt --name 'Electron API Demos' --url 'http://electron.atom.io'",
-    "sign-installer": "signcode ./out/windows-installer/ElectronAPIDemosSetup.exe --cert ~/electron-api-demos.p12 --prompt --name 'Electron API Demos' --url 'http://electron.atom.io'",
-    "pack-mac": "electron-packager . --asar --asar-unpack=protocol-link.html --overwrite --platform=darwin --arch=x64 --icon=assets/app-icon/mac/app.icns --prune=true --out=out --osx-sign.identity='Developer ID Application: GitHub' --extend-info=assets/mac/info.plist",
-    "pack-win": "electron-packager . ElectronAPIDemos --asar --asar-unpack=protocol-link.html --overwrite --platform=win32 --arch=ia32 --icon=assets/app-icon/win/app.ico --prune=true --out=out --version-string.CompanyName='GitHub, Inc.' --version-string.FileDescription='Electron API Demos' --version-string.ProductName='Electron API Demos'",
-    "pack-linux": "electron-packager . --asar --asar-unpack=protocol-link.html --overwrite --platform=linux --arch=x64 --icon=assets/app-icon/png/64.png --prune=true --out=out",
-    "package": "npm run pack-mac && npm run pack-win && npm run pack-linux",
-    "installer": "node ./script/installer.js",
-    "windows-store": "node ./script/windows-store.js",
-    "mas": "./script/mas.sh",
-    "prepare-release": "npm run package && npm run sign-exe && npm run installer && npm run sign-installer",
-    "release": "node ./script/release.js"
+  "id": 44402056,
+  "name": "electron-api-demos",
+  "fullName": "electron/electron-api-demos",
+  "owner": {
+    "login": "electron",
+    "id": 13409222,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/13409222?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/electron",
+    "htmlUrl": "https://github.com/electron",
+    "followersUrl": "https://api.github.com/users/electron/followers",
+    "subscriptionsUrl": "https://api.github.com/users/electron/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/electron/orgs",
+    "reposUrl": "https://api.github.com/users/electron/repos",
+    "receivedEventsUrl": "https://api.github.com/users/electron/received_events",
+    "type": "Organization"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/electron/electron-api-demos.git"
+  "private": false,
+  "description": "Explore the Electron APIs",
+  "fork": false,
+  "createdAt": "2015-10-16T17:59:08.000Z",
+  "updatedAt": "2016-08-15T01:16:21.000Z",
+  "pushedAt": "2016-08-10T04:54:19.000Z",
+  "homepage": "http://electron.atom.io/#get-started",
+  "size": 5196,
+  "stargazersCount": 1366,
+  "watchersCount": 1366,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 160,
+  "openIssuesCount": 11,
+  "openIssues": 11,
+  "watchers": 1366,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": true,
+    "push": true,
+    "pull": true
   },
-  "keywords": [
-    "Electron",
-    "API",
-    "demo"
-  ],
-  "author": "GitHub",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/electron/electron-api-demos/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "homepage": "https://github.com/electron/electron-api-demos#readme",
-  "devDependencies": {
-    "chai": "^3.4.1",
-    "chai-as-promised": "^5.1.0",
-    "devtron": "^1.0.0",
-    "electron-packager": "^7.0.1",
-    "electron-prebuilt": "^1.2.6",
-    "electron-windows-store": "^0.3.0",
-    "electron-winstaller": "^2.2.0",
-    "mocha": "^2.3.4",
-    "request": "^2.70.0",
-    "rimraf": "^2.5.2",
-    "signcode": "^0.4.0",
-    "spectron": "~3.2.6",
-    "standard": "^6.0.8"
+  "organization": {
+    "login": "electron",
+    "id": 13409222,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/13409222?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/electron",
+    "htmlUrl": "https://github.com/electron",
+    "followersUrl": "https://api.github.com/users/electron/followers",
+    "subscriptionsUrl": "https://api.github.com/users/electron/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/electron/orgs",
+    "reposUrl": "https://api.github.com/users/electron/repos",
+    "receivedEventsUrl": "https://api.github.com/users/electron/received_events",
+    "type": "Organization"
   },
-  "dependencies": {
-    "electron-json-storage": "^2.0.0",
-    "electron-shortcut-normalizer": "^1.0.0",
-    "glob": "^6.0.4",
-    "highlight.js": "^9.3.0"
-  },
-  "standard": {
-    "env": {
-      "mocha": true
+  "networkCount": 160,
+  "subscribersCount": 94,
+  "status": 200,
+  "packageJSON": {
+    "name": "ElectronAPIDemos",
+    "productName": "Electron API Demos",
+    "version": "1.1.0",
+    "description": "Electron interactive API demos",
+    "private": true,
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "dev": "electron . --debug",
+      "lint": "standard",
+      "test": "mocha tests && npm run lint",
+      "sign-exe": "signcode ./out/ElectronAPIDemos-win32-ia32/ElectronAPIDemos.exe --cert ~/electron-api-demos.p12 --prompt --name 'Electron API Demos' --url 'http://electron.atom.io'",
+      "sign-installer": "signcode ./out/windows-installer/ElectronAPIDemosSetup.exe --cert ~/electron-api-demos.p12 --prompt --name 'Electron API Demos' --url 'http://electron.atom.io'",
+      "pack-mac": "electron-packager . --asar --asar-unpack=protocol-link.html --overwrite --platform=darwin --arch=x64 --icon=assets/app-icon/mac/app.icns --prune=true --out=out --osx-sign.identity='Developer ID Application: GitHub' --extend-info=assets/mac/info.plist",
+      "pack-win": "electron-packager . ElectronAPIDemos --asar --asar-unpack=protocol-link.html --overwrite --platform=win32 --arch=ia32 --icon=assets/app-icon/win/app.ico --prune=true --out=out --version-string.CompanyName='GitHub, Inc.' --version-string.FileDescription='Electron API Demos' --version-string.ProductName='Electron API Demos'",
+      "pack-linux": "electron-packager . --asar --asar-unpack=protocol-link.html --overwrite --platform=linux --arch=x64 --icon=assets/app-icon/png/64.png --prune=true --out=out",
+      "package": "npm run pack-mac && npm run pack-win && npm run pack-linux",
+      "installer": "node ./script/installer.js",
+      "windows-store": "node ./script/windows-store.js",
+      "mas": "./script/mas.sh",
+      "prepare-release": "npm run package && npm run sign-exe && npm run installer && npm run sign-installer",
+      "release": "node ./script/release.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-api-demos.git"
+    },
+    "keywords": [
+      "Electron",
+      "API",
+      "demo"
+    ],
+    "author": "GitHub",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/electron/electron-api-demos/issues"
+    },
+    "homepage": "https://github.com/electron/electron-api-demos#readme",
+    "devDependencies": {
+      "chai": "^3.4.1",
+      "chai-as-promised": "^5.1.0",
+      "devtron": "^1.0.0",
+      "electron-packager": "^7.0.1",
+      "electron-prebuilt": "^1.2.6",
+      "electron-windows-store": "^0.3.0",
+      "electron-winstaller": "^2.2.0",
+      "mocha": "^2.3.4",
+      "request": "^2.70.0",
+      "rimraf": "^2.5.2",
+      "signcode": "^0.4.0",
+      "spectron": "~3.2.6",
+      "standard": "^6.0.8"
+    },
+    "dependencies": {
+      "electron-json-storage": "^2.0.0",
+      "electron-shortcut-normalizer": "^1.0.0",
+      "glob": "^6.0.4",
+      "highlight.js": "^9.3.0"
+    },
+    "standard": {
+      "env": {
+        "mocha": true
+      }
     }
   },
-  "_librariesioMetadata": {
-    "full_name": "electron/electron-api-demos",
-    "description": "Explore the Electron APIs",
-    "fork": false,
-    "created_at": "2015-10-16T17:59:08.000Z",
-    "updated_at": "2016-08-08T10:03:55.653Z",
-    "pushed_at": "2016-08-05T20:58:50.000Z",
-    "homepage": "http://electron.atom.io/#get-started",
-    "size": 5175,
-    "stargazers_count": 1336,
-    "language": "HTML",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 157,
-    "mirror_url": null,
-    "open_issues_count": 13,
-    "default_branch": "master",
-    "subscribers_count": 94,
-    "github_id": 44402056,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 6,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": "CODE_OF_CONDUCT.md",
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-11T07:04:23.038Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

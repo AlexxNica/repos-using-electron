@@ -1,79 +1,99 @@
 {
+  "id": 56316097,
   "name": "SpotiWeb",
-  "version": "0.4.0",
+  "fullName": "tomasmcm/SpotiWeb",
+  "owner": {
+    "login": "tomasmcm",
+    "id": 6323928,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6323928?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/tomasmcm",
+    "htmlUrl": "https://github.com/tomasmcm",
+    "followersUrl": "https://api.github.com/users/tomasmcm/followers",
+    "subscriptionsUrl": "https://api.github.com/users/tomasmcm/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/tomasmcm/orgs",
+    "reposUrl": "https://api.github.com/users/tomasmcm/repos",
+    "receivedEventsUrl": "https://api.github.com/users/tomasmcm/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Electron wrapper of play.spotify.com",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js dev",
-    "package": "npm run package:mac && npm run package:win && npm run package:linux",
-    "package:mac": "electron-packager ./ SpotiWeb --platform=darwin --arch=all --version=1.1.1 --app-version=$npm_package_version --build-version=$npm_package_version --out=./releases --asar=true --asar-unpack-dir=plugins --overwrite=true --icon=./assets/icon.icns --ignore=\"releases|dist|npm-debug.log|node_modules/(electron-(builder|packager|prebuilt)|devtron)|plugins/PepperFlashPlayer-(win32.dll|linux.so)\"",
-    "package:win": "electron-packager ./ SpotiWeb --platform=win32 --arch=ia32 --version=1.1.1 --app-version=$npm_package_version --build-version=$npm_package_version --out=./releases --asar=true --asar-unpack-dir=plugins --overwrite=true --icon=./assets/icon.icns --ignore=\"releases|dist|npm-debug.log|node_modules/(electron-(builder|packager|prebuilt)|devtron)|plugins/PepperFlashPlayer-(mac.plugin|linux.so)\"",
-    "package:linux": "electron-packager ./ SpotiWeb --platform=linux --arch=all --version=1.1.1 --app-version=$npm_package_version --build-version=$npm_package_version --out=./releases --asar=true --asar-unpack-dir=plugins --overwrite=true --icon=./assets/icon.icns --ignore=\"releases|dist|npm-debug.log|node_modules/(electron-(builder|packager|prebuilt)|devtron)|plugins/PepperFlashPlayer-(mac.plugin|win32.dll)\"",
-    "zip:mac": "./mac.sh",
-    "zip:win": "./win.sh",
-    "zip:linux": "./linux.sh",
-    "zip": "npm run zip:mac && npm run zip:win && npm run zip:linux",
-    "build:mac": "npm run package:mac && npm run zip:mac",
-    "build:win": "npm run package:win && npm run zip:win",
-    "build:linux": "npm run package:linux && npm run zip:linux",
-    "build": "npm run build:mac && npm run build:win && npm run build:linux"
+  "fork": false,
+  "createdAt": "2016-04-15T11:45:13.000Z",
+  "updatedAt": "2016-06-19T10:35:39.000Z",
+  "pushedAt": "2016-05-23T11:02:34.000Z",
+  "homepage": null,
+  "size": 27945,
+  "stargazersCount": 3,
+  "watchersCount": 3,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 3,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tomasmcm/SpotiWeb.git"
+  "license": {
+    "key": "cc0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "spdxId": "CC0-1.0",
+    "url": "https://api.github.com/licenses/cc0-1.0",
+    "featured": false
   },
-  "keywords": [
-    "Electron",
-    "Spotify",
-    "Web"
-  ],
-  "author": "tomasmcm",
-  "license": "CC0-1.0",
-  "homepage": "https://github.com/tomasmcm/SpotiWeb",
-  "dependencies": {
-    "electron-packager": "^7.0.2",
-    "electron-prebuilt": "^1.1.1",
-    "events": "^1.1.0",
-    "got": "^6.3.0",
-    "path": "^0.12.7",
-    "semver": "^5.1.0"
-  },
-  "devDependencies": {
-    "devtron": "^1.1.2"
-  },
-  "_librariesioMetadata": {
-    "full_name": "tomasmcm/SpotiWeb",
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "SpotiWeb",
+    "version": "0.4.0",
     "description": "Electron wrapper of play.spotify.com",
-    "fork": false,
-    "created_at": "2016-04-15T11:45:13.000Z",
-    "updated_at": "2016-05-28T03:34:25.563Z",
-    "pushed_at": "2016-05-23T11:02:34.000Z",
-    "homepage": null,
-    "size": 27945,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": false,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 0,
-    "github_id": 56316097,
-    "source_name": null,
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js dev",
+      "package": "npm run package:mac && npm run package:win && npm run package:linux",
+      "package:mac": "electron-packager ./ SpotiWeb --platform=darwin --arch=all --version=1.1.1 --app-version=$npm_package_version --build-version=$npm_package_version --out=./releases --asar=true --asar-unpack-dir=plugins --overwrite=true --icon=./assets/icon.icns --ignore=\"releases|dist|npm-debug.log|node_modules/(electron-(builder|packager|prebuilt)|devtron)|plugins/PepperFlashPlayer-(win32.dll|linux.so)\"",
+      "package:win": "electron-packager ./ SpotiWeb --platform=win32 --arch=ia32 --version=1.1.1 --app-version=$npm_package_version --build-version=$npm_package_version --out=./releases --asar=true --asar-unpack-dir=plugins --overwrite=true --icon=./assets/icon.icns --ignore=\"releases|dist|npm-debug.log|node_modules/(electron-(builder|packager|prebuilt)|devtron)|plugins/PepperFlashPlayer-(mac.plugin|linux.so)\"",
+      "package:linux": "electron-packager ./ SpotiWeb --platform=linux --arch=all --version=1.1.1 --app-version=$npm_package_version --build-version=$npm_package_version --out=./releases --asar=true --asar-unpack-dir=plugins --overwrite=true --icon=./assets/icon.icns --ignore=\"releases|dist|npm-debug.log|node_modules/(electron-(builder|packager|prebuilt)|devtron)|plugins/PepperFlashPlayer-(mac.plugin|win32.dll)\"",
+      "zip:mac": "./mac.sh",
+      "zip:win": "./win.sh",
+      "zip:linux": "./linux.sh",
+      "zip": "npm run zip:mac && npm run zip:win && npm run zip:linux",
+      "build:mac": "npm run package:mac && npm run zip:mac",
+      "build:win": "npm run package:win && npm run zip:win",
+      "build:linux": "npm run package:linux && npm run zip:linux",
+      "build": "npm run build:mac && npm run build:win && npm run build:linux"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tomasmcm/SpotiWeb.git"
+    },
+    "keywords": [
+      "Electron",
+      "Spotify",
+      "Web"
+    ],
+    "author": "tomasmcm",
     "license": "CC0-1.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T03:34:25.541Z",
-    "rank": null
-  }
+    "homepage": "https://github.com/tomasmcm/SpotiWeb",
+    "dependencies": {
+      "electron-packager": "^7.0.2",
+      "electron-prebuilt": "^1.1.1",
+      "events": "^1.1.0",
+      "got": "^6.3.0",
+      "path": "^0.12.7",
+      "semver": "^5.1.0"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.2"
+    }
+  },
+  "packageStatus": 200
 }

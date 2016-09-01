@@ -1,49 +1,63 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "hungmanhle/electron-sandbox",
-    "description": "",
-    "fork": false,
-    "created_at": "2015-12-15T18:51:19.000Z",
-    "updated_at": "2016-04-03T10:46:16.241Z",
-    "pushed_at": "2015-12-16T01:27:25.000Z",
-    "homepage": null,
-    "size": 3421,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 48062474,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+  "id": 48062474,
+  "name": "electron-sandbox",
+  "fullName": "hungmanhle/electron-sandbox",
+  "owner": {
+    "login": "hungmanhle",
+    "id": 6510778,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6510778?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/hungmanhle",
+    "htmlUrl": "https://github.com/hungmanhle",
+    "followersUrl": "https://api.github.com/users/hungmanhle/followers",
+    "subscriptionsUrl": "https://api.github.com/users/hungmanhle/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/hungmanhle/orgs",
+    "reposUrl": "https://api.github.com/users/hungmanhle/repos",
+    "receivedEventsUrl": "https://api.github.com/users/hungmanhle/received_events",
+    "type": "User"
   },
-  "name": "sound_machine",
-  "version": "0.1.0",
-  "main": "./main.js",
-  "scripts": {
-    "start": "electron . "
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2015-12-15T18:51:19.000Z",
+  "updatedAt": "2015-12-15T19:33:38.000Z",
+  "pushedAt": "2015-12-16T01:27:25.000Z",
+  "homepage": null,
+  "size": 3421,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.0"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "sound_machine",
+    "version": "0.1.0",
+    "main": "./main.js",
+    "scripts": {
+      "start": "electron . "
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "nconf": "^0.8.2"
+    }
   },
-  "dependencies": {
-    "nconf": "^0.8.2"
-  }
+  "packageStatus": 200
 }

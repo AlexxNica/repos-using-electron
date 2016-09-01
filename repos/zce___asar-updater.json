@@ -1,73 +1,93 @@
 {
+  "id": 63123519,
   "name": "asar-updater",
-  "version": "0.2.6",
-  "description": "Auto update asar file",
-  "main": "index.js",
-  "dependencies": {
-    "got": "^6.3.0",
-    "is-online": "^5.1.2",
-    "semver": "^5.2.0",
-    "unzip": "^0.1.11"
+  "fullName": "zce/asar-updater",
+  "owner": {
+    "login": "zce",
+    "id": 6166576,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6166576?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/zce",
+    "htmlUrl": "https://github.com/zce",
+    "followersUrl": "https://api.github.com/users/zce/followers",
+    "subscriptionsUrl": "https://api.github.com/users/zce/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/zce/orgs",
+    "reposUrl": "https://api.github.com/users/zce/repos",
+    "receivedEventsUrl": "https://api.github.com/users/zce/received_events",
+    "type": "User"
   },
-  "devDependencies": {
-    "electron-prebuilt": "^1.2.7",
-    "standard": "^7.1.2"
+  "private": false,
+  "description": "An auto updater for electron asar",
+  "fork": false,
+  "createdAt": "2016-07-12T03:32:17.000Z",
+  "updatedAt": "2016-07-14T13:20:44.000Z",
+  "pushedAt": "2016-07-29T06:36:17.000Z",
+  "homepage": null,
+  "size": 2243,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "lint": "standard \"lib/**/*.js\"",
-    "test": "electron test/main"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "keywords": [
-    "electron",
-    "asar",
-    "updater",
-    "auto-updater",
-    "iceStone",
-    "zce"
-  ],
-  "author": "iceStone <ice@wedn.net> (http://www.wedn.net/)",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zce/asar-updater.git"
-  },
-  "bugs": {
-    "url": "https://github.com/zce/asar-updater/issues"
-  },
-  "homepage": "https://github.com/zce/asar-updater#readme",
-  "_librariesioMetadata": {
-    "full_name": "zce/asar-updater",
-    "description": "An auto updater for electron asar",
-    "fork": false,
-    "created_at": "2016-07-12T03:32:17.000Z",
-    "updated_at": "2016-07-29T06:44:47.440Z",
-    "pushed_at": "2016-07-29T06:36:17.000Z",
-    "homepage": null,
-    "size": 2242,
-    "stargazers_count": 2,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 63123519,
-    "source_name": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "asar-updater",
+    "version": "0.2.6",
+    "description": "Auto update asar file",
+    "main": "index.js",
+    "dependencies": {
+      "got": "^6.3.0",
+      "is-online": "^5.1.2",
+      "semver": "^5.2.0",
+      "unzip": "^0.1.11"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.7",
+      "standard": "^7.1.2"
+    },
+    "scripts": {
+      "lint": "standard \"lib/**/*.js\"",
+      "test": "electron test/main"
+    },
+    "keywords": [
+      "electron",
+      "asar",
+      "updater",
+      "auto-updater",
+      "iceStone",
+      "zce"
+    ],
+    "author": "iceStone <ice@wedn.net> (http://www.wedn.net/)",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-29T06:44:47.419Z",
-    "rank": null
-  }
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zce/asar-updater.git"
+    },
+    "bugs": {
+      "url": "https://github.com/zce/asar-updater/issues"
+    },
+    "homepage": "https://github.com/zce/asar-updater#readme"
+  },
+  "packageStatus": 200
 }

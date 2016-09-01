@@ -1,67 +1,81 @@
 {
+  "id": 60203511,
   "name": "vue-electron",
-  "version": "1.0.4",
+  "fullName": "SimulatedGREG/vue-electron",
+  "owner": {
+    "login": "SimulatedGREG",
+    "id": 8327811,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8327811?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/SimulatedGREG",
+    "htmlUrl": "https://github.com/SimulatedGREG",
+    "followersUrl": "https://api.github.com/users/SimulatedGREG/followers",
+    "subscriptionsUrl": "https://api.github.com/users/SimulatedGREG/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/SimulatedGREG/orgs",
+    "reposUrl": "https://api.github.com/users/SimulatedGREG/repos",
+    "receivedEventsUrl": "https://api.github.com/users/SimulatedGREG/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "The vue plugin that attaches electron APIs to the Vue object, making them accessible to all components.",
-  "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
-    "electron-prebuilt": "^1.2.1",
-    "npm-run-all": "^2.1.1"
+  "fork": false,
+  "createdAt": "2016-06-01T19:04:54.000Z",
+  "updatedAt": "2016-08-14T04:46:26.000Z",
+  "pushedAt": "2016-07-12T18:33:38.000Z",
+  "homepage": "",
+  "size": 10,
+  "stargazersCount": 10,
+  "watchersCount": 10,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 10,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "dev": "electron ./electron.js",
-    "start": "npm-run-all --parallel dev webpack",
-    "webpack": "cd app && npm run dev"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SimulatedGREG/vue-electron.git"
-  },
-  "keywords": [
-    "vue",
-    "electron",
-    "api",
-    "wrapper"
-  ],
-  "author": "Greg Holguin <simulatedgreg@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SimulatedGREG/vue-electron/issues"
-  },
-  "homepage": "https://github.com/SimulatedGREG/vue-electron#readme",
-  "_librariesioMetadata": {
-    "full_name": "SimulatedGREG/vue-electron",
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "vue-electron",
+    "version": "1.0.4",
     "description": "The vue plugin that attaches electron APIs to the Vue object, making them accessible to all components.",
-    "fork": false,
-    "created_at": "2016-06-01T19:04:54.000Z",
-    "updated_at": "2016-07-18T02:46:36.945Z",
-    "pushed_at": "2016-07-12T18:33:38.000Z",
-    "homepage": "",
-    "size": 10,
-    "stargazers_count": 7,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 3,
-    "github_id": 60203511,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-07-12T18:43:21.576Z",
-    "rank": null
-  }
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.1",
+      "npm-run-all": "^2.1.1"
+    },
+    "scripts": {
+      "dev": "electron ./electron.js",
+      "start": "npm-run-all --parallel dev webpack",
+      "webpack": "cd app && npm run dev"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SimulatedGREG/vue-electron.git"
+    },
+    "keywords": [
+      "vue",
+      "electron",
+      "api",
+      "wrapper"
+    ],
+    "author": "Greg Holguin <simulatedgreg@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/SimulatedGREG/vue-electron/issues"
+    },
+    "homepage": "https://github.com/SimulatedGREG/vue-electron#readme"
+  },
+  "packageStatus": 200
 }

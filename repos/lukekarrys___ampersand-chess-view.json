@@ -1,82 +1,102 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "lukekarrys/ampersand-chess-view",
-    "description": "An ampersand-view for playing chess games.",
-    "fork": false,
-    "created_at": "2015-01-20T08:36:59.000Z",
-    "updated_at": "2016-08-06T05:52:49.042Z",
-    "pushed_at": "2016-08-06T05:43:20.000Z",
-    "homepage": null,
-    "size": 220,
-    "stargazers_count": 2,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 29519884,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-08-06T05:52:49.021Z",
-    "rank": null
-  },
+  "id": 29519884,
   "name": "ampersand-chess-view",
+  "fullName": "lukekarrys/ampersand-chess-view",
+  "owner": {
+    "login": "lukekarrys",
+    "id": 542108,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/542108?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/lukekarrys",
+    "htmlUrl": "https://github.com/lukekarrys",
+    "followersUrl": "https://api.github.com/users/lukekarrys/followers",
+    "subscriptionsUrl": "https://api.github.com/users/lukekarrys/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/lukekarrys/orgs",
+    "reposUrl": "https://api.github.com/users/lukekarrys/repos",
+    "receivedEventsUrl": "https://api.github.com/users/lukekarrys/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "An ampersand-view for playing chess games.",
-  "version": "1.0.2",
-  "author": "Luke Karrys <luke@lukekarrys.com>",
-  "bugs": "https://github.com/lukekarrys/ampersand-chess-view/issues",
-  "dependencies": {
-    "ampersand-chess-state": "^1.0.1",
-    "ampersand-view": "^10.0.1"
+  "fork": false,
+  "createdAt": "2015-01-20T08:36:59.000Z",
+  "updatedAt": "2016-08-06T05:43:18.000Z",
+  "pushedAt": "2016-08-10T11:15:36.000Z",
+  "homepage": null,
+  "size": 54,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "beefy": "^2.1.8",
-    "browserify": "^13.1.0",
-    "electron-prebuilt": "^1.3.2",
-    "jquery": "^3.1.0",
-    "jshint": "^2.9.2",
-    "precommit-hook": "^3.0.0",
-    "run-browser": "^2.0.2",
-    "tap-spec": "^4.1.1",
-    "tape": "^4.6.0",
-    "tape-run": "^2.1.4"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "homepage": "https://github.com/lukekarrys/ampersand-chess-view",
-  "keywords": [
-    "ampersand",
-    "chess",
-    "chessboard"
-  ],
-  "license": "MIT",
-  "main": "ampersand-chess-view.js",
-  "pre-commit": [
-    "lint",
-    "test",
-    "validate"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/lukekarrys/ampersand-chess-view"
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "ampersand-chess-view",
+    "description": "An ampersand-view for playing chess games.",
+    "version": "1.0.2",
+    "author": "Luke Karrys <luke@lukekarrys.com>",
+    "bugs": "https://github.com/lukekarrys/ampersand-chess-view/issues",
+    "dependencies": {
+      "ampersand-chess-state": "^1.0.1",
+      "ampersand-view": "^10.0.1"
+    },
+    "devDependencies": {
+      "beefy": "^2.1.8",
+      "browserify": "^13.1.0",
+      "electron-prebuilt": "^1.3.2",
+      "jquery": "^3.1.0",
+      "jshint": "^2.9.2",
+      "precommit-hook": "^3.0.0",
+      "run-browser": "^2.0.2",
+      "tap-spec": "^4.1.1",
+      "tape": "^4.6.0",
+      "tape-run": "^2.1.4"
+    },
+    "homepage": "https://github.com/lukekarrys/ampersand-chess-view",
+    "keywords": [
+      "ampersand",
+      "chess",
+      "chessboard"
+    ],
+    "license": "MIT",
+    "main": "ampersand-chess-view.js",
+    "pre-commit": [
+      "lint",
+      "test",
+      "validate"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/lukekarrys/ampersand-chess-view"
+    },
+    "scripts": {
+      "demo": "beefy demo/demo.js --index=demo/index.html",
+      "lint": "jshint .",
+      "start": "run-browser test/* --port 3001",
+      "test": "browserify test/*.js | tape-run | tap-spec",
+      "validate": "npm ls"
+    }
   },
-  "scripts": {
-    "demo": "beefy demo/demo.js --index=demo/index.html",
-    "lint": "jshint .",
-    "start": "run-browser test/* --port 3001",
-    "test": "browserify test/*.js | tape-run | tap-spec",
-    "validate": "npm ls"
-  }
+  "packageStatus": 200
 }

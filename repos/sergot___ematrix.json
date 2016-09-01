@@ -1,62 +1,76 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "sergot/ematrix",
-    "description": "matrix.org client written using electron",
-    "fork": false,
-    "created_at": "2015-10-08T08:18:47.000Z",
-    "updated_at": "2016-04-26T02:35:08.081Z",
-    "pushed_at": "2015-10-31T18:50:06.000Z",
-    "homepage": null,
-    "size": 140,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 43872992,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-26T02:35:08.059Z",
-    "rank": null
-  },
+  "id": 43872992,
   "name": "ematrix",
-  "version": "0.1.0",
-  "main": "app/main.js",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sergot/ematrix.git"
+  "fullName": "sergot/ematrix",
+  "owner": {
+    "login": "sergot",
+    "id": 1027825,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1027825?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/sergot",
+    "htmlUrl": "https://github.com/sergot",
+    "followersUrl": "https://api.github.com/users/sergot/followers",
+    "subscriptionsUrl": "https://api.github.com/users/sergot/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/sergot/orgs",
+    "reposUrl": "https://api.github.com/users/sergot/repos",
+    "receivedEventsUrl": "https://api.github.com/users/sergot/received_events",
+    "type": "User"
   },
-  "scripts": {
-    "start": "electron app"
+  "private": false,
+  "description": "matrix.org client written using electron",
+  "fork": false,
+  "createdAt": "2015-10-08T08:18:47.000Z",
+  "updatedAt": "2015-11-01T13:17:19.000Z",
+  "pushedAt": "2015-10-31T18:50:06.000Z",
+  "homepage": null,
+  "size": 140,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "asar": "^0.8.2",
-    "bower": "^1.6.5",
-    "electron-prebuilt": "^0.34.2",
-    "fs-jetpack": "^0.7.0",
-    "gulp": "^3.9.0",
-    "q": "^1.4.1",
-    "rcedit": "^0.3.0"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "ematrix",
+    "version": "0.1.0",
+    "main": "app/main.js",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sergot/ematrix.git"
+    },
+    "scripts": {
+      "start": "electron app"
+    },
+    "devDependencies": {
+      "asar": "^0.8.2",
+      "bower": "^1.6.5",
+      "electron-prebuilt": "^0.34.2",
+      "fs-jetpack": "^0.7.0",
+      "gulp": "^3.9.0",
+      "q": "^1.4.1",
+      "rcedit": "^0.3.0"
+    },
+    "dependencies": {
+      "gulp-minify-css": "^1.2.1",
+      "gulp-uglify": "^1.4.2",
+      "gulp-usemin": "^0.3.14"
+    }
   },
-  "dependencies": {
-    "gulp-minify-css": "^1.2.1",
-    "gulp-uglify": "^1.4.2",
-    "gulp-usemin": "^0.3.14"
-  }
+  "packageStatus": 200
 }

@@ -1,102 +1,122 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "hvmonteiro/majin",
-    "description": "Majin - Mobile Browser for the Desktop",
-    "fork": false,
-    "created_at": "2016-04-01T19:04:58.000Z",
-    "updated_at": "2016-06-02T14:01:53.024Z",
-    "pushed_at": "2016-06-02T10:34:24.000Z",
-    "homepage": "",
-    "size": 323,
-    "stargazers_count": 2,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 12,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 55255913,
-    "source_name": null,
-    "license": "Other",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 55255913,
   "name": "majin",
-  "productName": "Majin",
-  "version": "0.1.2-0",
-  "description": "Mobile Browser for the Desktop",
-  "main": "majin.js",
-  "scripts": {
-    "start": "electron src/majin.js",
-    "clean": "grunt clean --verbose",
-    "test": "grunt --verbose",
-    "exec-test": "electron src/majin.js --test",
-    "build": "./bin/build.sh all"
+  "fullName": "hvmonteiro/majin",
+  "owner": {
+    "login": "hvmonteiro",
+    "id": 7238281,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7238281?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/hvmonteiro",
+    "htmlUrl": "https://github.com/hvmonteiro",
+    "followersUrl": "https://api.github.com/users/hvmonteiro/followers",
+    "subscriptionsUrl": "https://api.github.com/users/hvmonteiro/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/hvmonteiro/orgs",
+    "reposUrl": "https://api.github.com/users/hvmonteiro/repos",
+    "receivedEventsUrl": "https://api.github.com/users/hvmonteiro/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hvmonteiro/majin.git"
+  "private": false,
+  "description": "Majin - Mobile Browser for the Desktop",
+  "fork": false,
+  "createdAt": "2016-04-01T19:04:58.000Z",
+  "updatedAt": "2016-06-02T14:01:19.000Z",
+  "pushedAt": "2016-07-21T19:02:20.000Z",
+  "homepage": "",
+  "size": 372,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 0,
+  "openIssuesCount": 14,
+  "openIssues": 14,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "majin",
-    "browser",
-    "mobile",
-    "desktop",
-    "tray"
-  ],
-  "author": "Hugo V. Monteiro",
-  "license": "GPL-2.0",
-  "url": "https://github.com/hvmonteiro/majin",
-  "bugs": {
-    "url": "https://github.com/hvmonteiro/majin/issues"
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spdxId": null,
+    "url": null,
+    "featured": false
   },
-  "homepage": "https://root.hugovmonteiro.net/majin",
-  "devDependencies": {
-    "electron-packager": "~7.0.1",
-    "grunt": ">=0.4.1",
-    "grunt-contrib-clean": "^1.0.0",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-jshint": "^1.0.0",
-    "grunt-electron": "^4.0.0",
-    "grunt-exec": "^0.4.7",
-    "grunt-mkdir": "^1.0.0",
-    "grunt-version": "^1.1.1",
-    "grunt-zip": "^0.17.1",
-    "load-grunt-tasks": "^3.5.0"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "majin",
+    "productName": "Majin",
+    "version": "0.1.2-0",
+    "description": "Mobile Browser for the Desktop",
+    "main": "majin.js",
+    "scripts": {
+      "start": "electron src/majin.js",
+      "clean": "grunt clean --verbose",
+      "test": "grunt --verbose",
+      "exec-test": "electron src/majin.js --test",
+      "build": "./bin/build.sh all"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hvmonteiro/majin.git"
+    },
+    "keywords": [
+      "majin",
+      "browser",
+      "mobile",
+      "desktop",
+      "tray"
+    ],
+    "author": "Hugo V. Monteiro",
+    "license": "GPL-2.0",
+    "url": "https://github.com/hvmonteiro/majin",
+    "bugs": {
+      "url": "https://github.com/hvmonteiro/majin/issues"
+    },
+    "homepage": "https://root.hugovmonteiro.net/majin",
+    "devDependencies": {
+      "electron-packager": "~7.0.1",
+      "grunt": ">=0.4.1",
+      "grunt-contrib-clean": "^1.0.0",
+      "grunt-contrib-copy": "^1.0.0",
+      "grunt-contrib-jshint": "^1.0.0",
+      "grunt-electron": "^4.0.0",
+      "grunt-exec": "^0.4.7",
+      "grunt-mkdir": "^1.0.0",
+      "grunt-version": "^1.1.1",
+      "grunt-zip": "^0.17.1",
+      "load-grunt-tasks": "^3.5.0"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.36.12",
+      "menu": "0.2.5",
+      "remote": "^0.2.6",
+      "dialog": "^0.1.8"
+    },
+    "engines": {
+      "node": "^5.10.1",
+      "npm": "2.14.20",
+      "electron-prebuilt": "^0.36.0"
+    },
+    "os": [
+      "darwin",
+      "mas",
+      "linux",
+      "win32"
+    ],
+    "cpu": [
+      "x64",
+      "ia32"
+    ],
+    "private": true
   },
-  "dependencies": {
-    "electron-prebuilt": "^0.36.12",
-    "menu": "0.2.5",
-    "remote": "^0.2.6",
-    "dialog": "^0.1.8"
-  },
-  "engines": {
-    "node": "^5.10.1",
-    "npm": "2.14.20",
-    "electron-prebuilt": "^0.36.0"
-  },
-  "os": [
-    "darwin",
-    "mas",
-    "linux",
-    "win32"
-  ],
-  "cpu": [
-    "x64",
-    "ia32"
-  ],
-  "private": true
+  "packageStatus": 200
 }

@@ -1,60 +1,80 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "master-of-sugar/electronium",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-03-17T03:51:48.000Z",
-    "updated_at": "2016-04-02T09:31:33.552Z",
-    "pushed_at": "2016-03-17T04:10:42.000Z",
-    "homepage": null,
-    "size": 2,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 54086947,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 54086947,
   "name": "electronium",
-  "version": "1.0.0",
-  "description": "This is capture and replay testing tool for web apps.",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron main.js"
+  "fullName": "master-of-sugar/electronium",
+  "owner": {
+    "login": "master-of-sugar",
+    "id": 865716,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/865716?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/master-of-sugar",
+    "htmlUrl": "https://github.com/master-of-sugar",
+    "followersUrl": "https://api.github.com/users/master-of-sugar/followers",
+    "subscriptionsUrl": "https://api.github.com/users/master-of-sugar/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/master-of-sugar/orgs",
+    "reposUrl": "https://api.github.com/users/master-of-sugar/repos",
+    "receivedEventsUrl": "https://api.github.com/users/master-of-sugar/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/master-of-sugar/electronium.git"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2016-03-17T03:51:48.000Z",
+  "updatedAt": "2016-03-17T04:10:43.000Z",
+  "pushedAt": "2016-03-17T04:10:42.000Z",
+  "homepage": null,
+  "size": 2,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "master-of-sugar",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/master-of-sugar/electronium/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "homepage": "https://github.com/master-of-sugar/electronium#readme",
-  "devDependencies": {
-    "electron-prebuilt": "^0.36.0"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electronium",
+    "version": "1.0.0",
+    "description": "This is capture and replay testing tool for web apps.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/master-of-sugar/electronium.git"
+    },
+    "author": "master-of-sugar",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/master-of-sugar/electronium/issues"
+    },
+    "homepage": "https://github.com/master-of-sugar/electronium#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "selenium-webdriver": "^2.53.1"
+    }
   },
-  "dependencies": {
-    "selenium-webdriver": "^2.53.1"
-  }
+  "packageStatus": 200
 }

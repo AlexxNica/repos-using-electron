@@ -1,69 +1,89 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "salomvary/gramin-express",
-    "description": "Sync Strava activities from any Garmin device",
-    "fork": false,
-    "created_at": "2016-02-22T12:46:11.000Z",
-    "updated_at": "2016-04-08T18:27:56.991Z",
-    "pushed_at": "2016-03-31T22:30:23.000Z",
-    "homepage": "http://salomvary.github.io/gramin-express",
-    "size": 80958,
-    "stargazers_count": 3,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": false,
-    "has_pages": true,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 4,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 52272867,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 52272867,
   "name": "gramin-express",
-  "productName": "Gramin Express",
+  "fullName": "salomvary/gramin-express",
+  "owner": {
+    "login": "salomvary",
+    "id": 193923,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/193923?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/salomvary",
+    "htmlUrl": "https://github.com/salomvary",
+    "followersUrl": "https://api.github.com/users/salomvary/followers",
+    "subscriptionsUrl": "https://api.github.com/users/salomvary/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/salomvary/orgs",
+    "reposUrl": "https://api.github.com/users/salomvary/repos",
+    "receivedEventsUrl": "https://api.github.com/users/salomvary/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Sync Strava activities from any Garmin device",
+  "fork": false,
+  "createdAt": "2016-02-22T12:46:11.000Z",
+  "updatedAt": "2016-04-08T18:26:59.000Z",
+  "pushedAt": "2016-04-05T08:39:55.000Z",
   "homepage": "http://salomvary.github.io/gramin-express",
-  "author": {
-    "name": "Márton Salomváry",
-    "email": "salomvary@gmail.com"
+  "size": 124569,
+  "stargazersCount": 3,
+  "watchersCount": 3,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": true,
+  "forksCount": 0,
+  "openIssuesCount": 7,
+  "openIssues": 7,
+  "watchers": 3,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "private": true,
-  "version": "0.0.3",
-  "main": "app/main.js",
-  "engines": {
-    "electron": "^0.37.2"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "engineStrict": true,
-  "scripts": {
-    "eslint": "eslint",
-    "start": "NODE_ENV=development GRAMIN_PROFILE=development electron .",
-    "electron-packager": "electron-packager"
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "gramin-express",
+    "productName": "Gramin Express",
+    "description": "Sync Strava activities from any Garmin device",
+    "homepage": "http://salomvary.github.io/gramin-express",
+    "author": {
+      "name": "Márton Salomváry",
+      "email": "salomvary@gmail.com"
+    },
+    "private": true,
+    "version": "0.0.3",
+    "main": "app/main.js",
+    "engines": {
+      "electron": "^0.37.2"
+    },
+    "engineStrict": true,
+    "scripts": {
+      "eslint": "eslint",
+      "start": "NODE_ENV=development GRAMIN_PROFILE=development electron .",
+      "electron-packager": "electron-packager"
+    },
+    "dependencies": {
+      "moment": "^2.12.0",
+      "react": "^0.14.7",
+      "react-dom": "^0.14.7",
+      "request": "^2.69.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.37.2",
+      "eslint": "^2.2.0",
+      "svg2png": "^1.0.0"
+    }
   },
-  "dependencies": {
-    "moment": "^2.12.0",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
-    "request": "^2.69.0"
-  },
-  "devDependencies": {
-    "electron-packager": "^5.2.1",
-    "electron-prebuilt": "^0.37.2",
-    "eslint": "^2.2.0",
-    "svg2png": "^1.0.0"
-  }
+  "packageStatus": 200
 }

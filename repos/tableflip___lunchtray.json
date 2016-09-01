@@ -1,71 +1,105 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "tableflip/lunchtray",
-    "description": "Tray application for makelunch",
-    "fork": false,
-    "created_at": "2016-01-29T22:52:46.000Z",
-    "updated_at": "2016-04-26T07:46:32.388Z",
-    "pushed_at": "2016-04-15T08:21:06.000Z",
-    "homepage": null,
-    "size": 48,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 5,
-    "github_id": 50696866,
-    "source_name": null,
-    "license": "ISC",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 50696866,
   "name": "lunchtray",
-  "version": "1.1.3",
-  "description": "Tray application for makelunch",
-  "main": "index.js",
-  "scripts": {
-    "test": "standard",
-    "build": "npm run build:darwin",
-    "build:darwin": "electron-packager . lunchtray --platform=darwin --arch=x64 --version=0.36.7 --icon=noun_184605.icns",
-    "build:linux": "electron-packager . lunchtray --platform=linux --arch=x64 --version=0.36.7 --icon=noun_184605.icns",
-    "start": "electron ."
+  "fullName": "tableflip/lunchtray",
+  "owner": {
+    "login": "tableflip",
+    "id": 5347145,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5347145?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/tableflip",
+    "htmlUrl": "https://github.com/tableflip",
+    "followersUrl": "https://api.github.com/users/tableflip/followers",
+    "subscriptionsUrl": "https://api.github.com/users/tableflip/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/tableflip/orgs",
+    "reposUrl": "https://api.github.com/users/tableflip/repos",
+    "receivedEventsUrl": "https://api.github.com/users/tableflip/received_events",
+    "type": "Organization"
   },
-  "author": "Alan Shaw",
-  "license": "ISC",
-  "dependencies": {
-    "ddp": "^0.11.0",
-    "ddp-ejson": "^0.8.1-3",
-    "handlebars": "^4.0.5",
-    "md5": "^2.0.0",
-    "menubar": "^4.0.2",
-    "moment": "^2.11.1"
+  "private": false,
+  "description": ":fork_and_knife: Tray application for makelunch",
+  "fork": false,
+  "createdAt": "2016-01-29T22:52:46.000Z",
+  "updatedAt": "2016-05-17T17:37:43.000Z",
+  "pushedAt": "2016-04-15T08:21:06.000Z",
+  "homepage": "",
+  "size": 48,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "electron-packager": "^5.2.1",
-    "electron-prebuilt": "^0.36.6",
-    "standard": "^6.0.5"
+  "license": {
+    "key": "isc",
+    "name": "ISC License",
+    "spdxId": "ISC",
+    "url": "https://api.github.com/licenses/isc",
+    "featured": false
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tableflip/lunchtray.git"
+  "organization": {
+    "login": "tableflip",
+    "id": 5347145,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5347145?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/tableflip",
+    "htmlUrl": "https://github.com/tableflip",
+    "followersUrl": "https://api.github.com/users/tableflip/followers",
+    "subscriptionsUrl": "https://api.github.com/users/tableflip/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/tableflip/orgs",
+    "reposUrl": "https://api.github.com/users/tableflip/repos",
+    "receivedEventsUrl": "https://api.github.com/users/tableflip/received_events",
+    "type": "Organization"
   },
-  "bugs": {
-    "url": "https://github.com/tableflip/lunchtray/issues"
+  "networkCount": 1,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "lunchtray",
+    "version": "1.1.3",
+    "description": "Tray application for makelunch",
+    "main": "index.js",
+    "scripts": {
+      "test": "standard",
+      "build": "npm run build:darwin",
+      "build:darwin": "electron-packager . lunchtray --platform=darwin --arch=x64 --version=0.36.7 --icon=noun_184605.icns",
+      "build:linux": "electron-packager . lunchtray --platform=linux --arch=x64 --version=0.36.7 --icon=noun_184605.icns",
+      "start": "electron ."
+    },
+    "author": "Alan Shaw",
+    "license": "ISC",
+    "dependencies": {
+      "ddp": "^0.11.0",
+      "ddp-ejson": "^0.8.1-3",
+      "handlebars": "^4.0.5",
+      "md5": "^2.0.0",
+      "menubar": "^4.0.2",
+      "moment": "^2.11.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.6",
+      "standard": "^6.0.5"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tableflip/lunchtray.git"
+    },
+    "bugs": {
+      "url": "https://github.com/tableflip/lunchtray/issues"
+    },
+    "homepage": "https://github.com/tableflip/lunchtray#readme"
   },
-  "homepage": "https://github.com/tableflip/lunchtray#readme"
+  "packageStatus": 200
 }

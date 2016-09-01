@@ -1,56 +1,70 @@
 {
-  "name": "hdd-widget-app",
-  "version": "1.0.0",
-  "description": "HDD widget menubar electron app",
-  "dependencies": {
-    "menubar": "4.1.1",
-    "pretty-bytes": "^2.0.1",
-    "diskusage": "0.1.5"
+  "id": 60393232,
+  "name": "HDD-widget-electronjs",
+  "fullName": "erickadbay/HDD-widget-electronjs",
+  "owner": {
+    "login": "erickadbay",
+    "id": 9994372,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/9994372?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/erickadbay",
+    "htmlUrl": "https://github.com/erickadbay",
+    "followersUrl": "https://api.github.com/users/erickadbay/followers",
+    "subscriptionsUrl": "https://api.github.com/users/erickadbay/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/erickadbay/orgs",
+    "reposUrl": "https://api.github.com/users/erickadbay/repos",
+    "receivedEventsUrl": "https://api.github.com/users/erickadbay/received_events",
+    "type": "User"
   },
-  "devDependencies": {
-    "electron-packager": "^5.1.0",
-    "electron-prebuilt": "^0.36.0"
+  "private": false,
+  "description": "Little widget for OS X and Windows written using Electron.",
+  "fork": false,
+  "createdAt": "2016-06-04T04:30:12.000Z",
+  "updatedAt": "2016-06-18T01:41:16.000Z",
+  "pushedAt": "2016-06-19T03:25:32.000Z",
+  "homepage": "",
+  "size": 156,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "main": "main.js",
-  "scripts": {
-    "build:osx": "electron-packager . HDD-widget --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
-    "build:win": "electron-packager . HDD-widget --platform=win32 --arch=x64 --version=0.36.0",
-    "build:linux": "electron-packager . HDD-widget --platform=linux --arch=x64 --version=0.36.0",
-    "start": "electron ."
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "hdd-widget-app",
+    "version": "1.0.0",
+    "description": "HDD widget menubar electron app",
+    "dependencies": {
+      "menubar": "4.1.1",
+      "pretty-bytes": "^2.0.1",
+      "diskusage": "0.1.5"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.36.0"
+    },
+    "main": "main.js",
+    "scripts": {
+      "build:osx": "electron-packager . HDD-widget --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
+      "build:win": "electron-packager . HDD-widget --platform=win32 --arch=x64 --version=0.36.0",
+      "build:linux": "electron-packager . HDD-widget --platform=linux --arch=x64 --version=0.36.0",
+      "start": "electron ."
+    }
   },
-  "_librariesioMetadata": {
-    "full_name": "erickadbay/HDD-widget-electronjs",
-    "description": "Little widget to show how much disk space is left.",
-    "fork": false,
-    "created_at": "2016-06-04T04:30:12.000Z",
-    "updated_at": "2016-06-04T04:41:12.713Z",
-    "pushed_at": "2016-06-04T04:40:36.000Z",
-    "homepage": null,
-    "size": 129,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 60393232,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-04T04:41:12.692Z",
-    "rank": null
-  }
+  "packageStatus": 200
 }

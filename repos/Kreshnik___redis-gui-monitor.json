@@ -1,65 +1,79 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "Kreshnik/redis-gui-monitor",
-    "description": "A Redis monitor build with Electron",
-    "fork": false,
-    "created_at": "2016-07-27T00:46:03.000Z",
-    "updated_at": "2016-08-02T17:07:42.298Z",
-    "pushed_at": "2016-08-02T14:54:10.000Z",
-    "homepage": "",
-    "size": 524,
-    "stargazers_count": 0,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 1,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 64264802,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-08-02T17:07:42.274Z",
-    "rank": null
-  },
+  "id": 64264802,
   "name": "redis-gui-monitor",
-  "version": "1.0.0",
+  "fullName": "Kreshnik/redis-gui-monitor",
+  "owner": {
+    "login": "Kreshnik",
+    "id": 1788349,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1788349?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Kreshnik",
+    "htmlUrl": "https://github.com/Kreshnik",
+    "followersUrl": "https://api.github.com/users/Kreshnik/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Kreshnik/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Kreshnik/orgs",
+    "reposUrl": "https://api.github.com/users/Kreshnik/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Kreshnik/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "A Redis monitor build with Electron",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron ."
+  "fork": false,
+  "createdAt": "2016-07-27T00:46:03.000Z",
+  "updatedAt": "2016-08-02T14:34:28.000Z",
+  "pushedAt": "2016-08-02T14:54:10.000Z",
+  "homepage": "",
+  "size": 524,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kreshnik/redis-gui-monitor.git"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "redis-gui-monitor",
+    "version": "1.0.0",
+    "description": "A Redis monitor build with Electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Kreshnik/redis-gui-monitor.git"
+    },
+    "keywords": [
+      "Redis",
+      "Redis monitor"
+    ],
+    "author": "Kreshnik Hasanaj",
+    "bugs": {
+      "url": "https://github.com/Kreshnik/redis-gui-monitor/issues"
+    },
+    "homepage": "https://github.com/Kreshnik/redis-gui-monitor",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "babyparse": "^0.4.6",
+      "shelljs": "^0.7.2",
+      "vue": "^1.0.26"
+    }
   },
-  "keywords": [
-    "Redis",
-    "Redis monitor"
-  ],
-  "author": "Kreshnik Hasanaj",
-  "bugs": {
-    "url": "https://github.com/Kreshnik/redis-gui-monitor/issues"
-  },
-  "homepage": "https://github.com/Kreshnik/redis-gui-monitor",
-  "devDependencies": {
-    "electron-prebuilt": "^1.2.0"
-  },
-  "dependencies": {
-    "babyparse": "^0.4.6",
-    "shelljs": "^0.7.2",
-    "vue": "^1.0.26"
-  }
+  "packageStatus": 200
 }

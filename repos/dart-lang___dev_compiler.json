@@ -1,66 +1,100 @@
 {
+  "id": 26764547,
   "name": "dev_compiler",
-  "version": "0.1.24",
-  "description": "Dart Development Compiler",
-  "homepage": "https://github.com/dart-lang/dev_compiler",
-  "bugs": "https://github.com/dart-lang/dev_compiler/issues",
-  "contributors": {
-    "Dart Team": "dev-compiler@dartlang.org"
+  "fullName": "dart-lang/dev_compiler",
+  "owner": {
+    "login": "dart-lang",
+    "id": 1609975,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1609975?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/dart-lang",
+    "htmlUrl": "https://github.com/dart-lang",
+    "followersUrl": "https://api.github.com/users/dart-lang/followers",
+    "subscriptionsUrl": "https://api.github.com/users/dart-lang/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/dart-lang/orgs",
+    "reposUrl": "https://api.github.com/users/dart-lang/repos",
+    "receivedEventsUrl": "https://api.github.com/users/dart-lang/received_events",
+    "type": "Organization"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dart-lang/dev_compiler.git"
+  "private": false,
+  "description": "Experimental Dart to JavaScript compiler designed to create idiomatic, readable JavaScript output.",
+  "fork": false,
+  "createdAt": "2014-11-17T16:02:35.000Z",
+  "updatedAt": "2016-08-14T23:54:16.000Z",
+  "pushedAt": "2016-08-14T22:32:49.000Z",
+  "homepage": "https://pub.dartlang.org/packages/dev_compiler",
+  "size": 28418,
+  "stargazersCount": 133,
+  "watchersCount": 133,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 26,
+  "openIssuesCount": 156,
+  "openIssues": 156,
+  "watchers": 133,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "postinstall": "./node_modules/.bin/webdriver-manager update",
-    "test": "./node_modules/.bin/karma start --single-run"
+  "license": {
+    "key": "bsd-3-clause",
+    "name": "BSD 3-clause \"New\" or \"Revised\" License",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "featured": false
   },
-  "devDependencies": {
-    "chai": "^2.2.0",
-    "electron-prebuilt": "^0.36.0",
-    "karma": "^0.12.31",
-    "karma-chai": "^0.1.0",
-    "karma-chrome-launcher": "^0.1.8",
-    "karma-electron-launcher": "^0.0.5",
-    "karma-mocha": "^0.1.10",
-    "karma-requirejs": "^0.2.2",
-    "mocha": "^2.2.4",
-    "requirejs": "^2.1.17",
-    "webdriver-manager": "8.0.0"
+  "organization": {
+    "login": "dart-lang",
+    "id": 1609975,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1609975?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/dart-lang",
+    "htmlUrl": "https://github.com/dart-lang",
+    "followersUrl": "https://api.github.com/users/dart-lang/followers",
+    "subscriptionsUrl": "https://api.github.com/users/dart-lang/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/dart-lang/orgs",
+    "reposUrl": "https://api.github.com/users/dart-lang/repos",
+    "receivedEventsUrl": "https://api.github.com/users/dart-lang/received_events",
+    "type": "Organization"
   },
-  "_librariesioMetadata": {
-    "full_name": "dart-lang/dev_compiler",
-    "description": "Experimental Dart to JavaScript compiler designed to create idiomatic, readable JavaScript output.",
-    "fork": false,
-    "created_at": "2014-11-17T16:02:35.000Z",
-    "updated_at": "2016-08-05T14:16:58.858Z",
-    "pushed_at": "2016-08-05T14:16:12.000Z",
-    "homepage": "https://pub.dartlang.org/packages/dev_compiler",
-    "size": 28795,
-    "stargazers_count": 130,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "forks_count": 26,
-    "mirror_url": null,
-    "open_issues_count": 161,
-    "default_branch": "master",
-    "subscribers_count": 58,
-    "github_id": 26764547,
-    "source_name": null,
-    "license": "BSD-3-Clause",
-    "private": false,
-    "github_contributions_count": 21,
-    "has_readme": "README.md",
-    "has_changelog": "CHANGELOG.md",
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T13:41:16.025Z",
-    "rank": null
-  }
+  "networkCount": 26,
+  "subscribersCount": 57,
+  "status": 200,
+  "packageJSON": {
+    "name": "dev_compiler",
+    "version": "0.1.24",
+    "description": "Dart Development Compiler",
+    "homepage": "https://github.com/dart-lang/dev_compiler",
+    "bugs": "https://github.com/dart-lang/dev_compiler/issues",
+    "contributors": {
+      "Dart Team": "dev-compiler@dartlang.org"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dart-lang/dev_compiler.git"
+    },
+    "scripts": {
+      "postinstall": "./node_modules/.bin/webdriver-manager update",
+      "test": "./node_modules/.bin/karma start --single-run"
+    },
+    "devDependencies": {
+      "chai": "^2.2.0",
+      "electron-prebuilt": "^0.36.0",
+      "karma": "^0.12.31",
+      "karma-chai": "^0.1.0",
+      "karma-chrome-launcher": "^0.1.8",
+      "karma-electron-launcher": "^0.0.5",
+      "karma-mocha": "^0.1.10",
+      "karma-requirejs": "^0.2.2",
+      "mocha": "^2.2.4",
+      "requirejs": "^2.1.17",
+      "webdriver-manager": "8.0.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,57 +1,71 @@
 {
+  "id": 46270932,
   "name": "karma-electron-launcher-simple-seed",
-  "version": "1.0.0",
-  "main": "main_electron.js",
-  "description": "",
-  "scripts": {
-    "test": "./node_modules/.bin/karma start karma.conf.js",
-    "postinstall": "node -e \"var app_path='../app',app_link_path='node_modules/app',fs=require('fs');fs.exists(app_link_path,function(exists){exists||fs.symlinkSync(app_path,app_link_path,'dir')});\"",
-    "start": "./node_modules/.bin/electron ."
+  "fullName": "lele85/karma-electron-launcher-simple-seed",
+  "owner": {
+    "login": "lele85",
+    "id": 49144,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/49144?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/lele85",
+    "htmlUrl": "https://github.com/lele85",
+    "followersUrl": "https://api.github.com/users/lele85/followers",
+    "subscriptionsUrl": "https://api.github.com/users/lele85/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/lele85/orgs",
+    "reposUrl": "https://api.github.com/users/lele85/repos",
+    "receivedEventsUrl": "https://api.github.com/users/lele85/received_events",
+    "type": "User"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "electron-prebuilt": "0.34.3"
+  "private": false,
+  "description": "Simple electron launcher seed",
+  "fork": false,
+  "createdAt": "2015-11-16T11:37:30.000Z",
+  "updatedAt": "2016-06-15T16:20:49.000Z",
+  "pushedAt": "2015-11-16T11:37:59.000Z",
+  "homepage": null,
+  "size": 0,
+  "stargazersCount": 4,
+  "watchersCount": 4,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 4,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "jasmine-core": "^2.3.4",
-    "karma": "^0.13.15",
-    "karma-electron-launcher": "0.0.3",
-    "karma-jasmine": "^0.3.6"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "karma-electron-launcher-simple-seed",
+    "version": "1.0.0",
+    "main": "main_electron.js",
+    "description": "",
+    "scripts": {
+      "test": "./node_modules/.bin/karma start karma.conf.js",
+      "postinstall": "node -e \"var app_path='../app',app_link_path='node_modules/app',fs=require('fs');fs.exists(app_link_path,function(exists){exists||fs.symlinkSync(app_path,app_link_path,'dir')});\"",
+      "start": "./node_modules/.bin/electron ."
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "electron-prebuilt": "0.34.3"
+    },
+    "devDependencies": {
+      "jasmine-core": "^2.3.4",
+      "karma": "^0.13.15",
+      "karma-electron-launcher": "0.0.3",
+      "karma-jasmine": "^0.3.6"
+    }
   },
-  "_librariesioMetadata": {
-    "full_name": "lele85/karma-electron-launcher-simple-seed",
-    "description": "Simple electron launcher seed",
-    "fork": false,
-    "created_at": "2015-11-16T11:37:30.000Z",
-    "updated_at": "2016-06-15T16:21:51.452Z",
-    "pushed_at": "2015-11-16T11:37:59.000Z",
-    "homepage": null,
-    "size": 0,
-    "stargazers_count": 4,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 46270932,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+  "packageStatus": 200
 }

@@ -1,70 +1,84 @@
 {
+  "id": 54336229,
   "name": "tabby",
-  "version": "1.0.0",
+  "fullName": "maxogden/tabby",
+  "owner": {
+    "login": "maxogden",
+    "id": 39759,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/39759?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/maxogden",
+    "htmlUrl": "https://github.com/maxogden",
+    "followersUrl": "https://api.github.com/users/maxogden/followers",
+    "subscriptionsUrl": "https://api.github.com/users/maxogden/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/maxogden/orgs",
+    "reposUrl": "https://api.github.com/users/maxogden/repos",
+    "receivedEventsUrl": "https://api.github.com/users/maxogden/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "a browser with almost no UI",
-  "main": "index.js",
-  "scripts": {
-    "start": "electron index.js",
-    "test": "standard",
-    "build": "electron-packager . Tabby --platform=darwin --arch=x64 --version=0.36.11 --prune --icon=Icon.icns"
+  "fork": false,
+  "createdAt": "2016-03-20T19:30:52.000Z",
+  "updatedAt": "2016-07-27T19:02:16.000Z",
+  "pushedAt": "2016-07-01T13:57:23.000Z",
+  "homepage": "",
+  "size": 2353,
+  "stargazersCount": 340,
+  "watchersCount": 340,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 23,
+  "openIssuesCount": 17,
+  "openIssues": 17,
+  "watchers": 340,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "standard": {
-    "ignore": [
-      "meny.js"
-    ]
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "csjs-inject": "^1.0.0",
-    "rainbow-load": "0.0.6",
-    "tld": "0.0.2",
-    "vkey": "^1.0.0",
-    "yo-yo": "^1.1.1"
-  },
-  "devDependencies": {
-    "electron-packager": "^5.2.1",
-    "electron-prebuilt": "^0.36.11",
-    "standard": "^6.0.8"
-  },
-  "homepage": "https://github.com/maxogden/tabby",
-  "bugs": {
-    "url": "https://github.com/maxogden/tabby/issues"
-  },
-  "_librariesioMetadata": {
-    "full_name": "maxogden/tabby",
+  "license": null,
+  "networkCount": 23,
+  "subscribersCount": 10,
+  "status": 200,
+  "packageJSON": {
+    "name": "tabby",
+    "version": "1.0.0",
     "description": "a browser with almost no UI",
-    "fork": false,
-    "created_at": "2016-03-20T19:30:52.000Z",
-    "updated_at": "2016-07-24T00:36:50.615Z",
-    "pushed_at": "2016-07-01T13:57:23.000Z",
-    "homepage": "",
-    "size": 2353,
-    "stargazers_count": 343,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 24,
-    "mirror_url": null,
-    "open_issues_count": 17,
-    "default_branch": "master",
-    "subscribers_count": 9,
-    "github_id": 54336229,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 6,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  }
+    "main": "index.js",
+    "scripts": {
+      "start": "electron index.js",
+      "test": "standard",
+      "build": "electron-packager . Tabby --platform=darwin --arch=x64 --version=0.36.11 --prune --icon=Icon.icns"
+    },
+    "standard": {
+      "ignore": [
+        "meny.js"
+      ]
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "csjs-inject": "^1.0.0",
+      "rainbow-load": "0.0.6",
+      "tld": "0.0.2",
+      "vkey": "^1.0.0",
+      "yo-yo": "^1.1.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.11",
+      "standard": "^6.0.8"
+    },
+    "homepage": "https://github.com/maxogden/tabby",
+    "bugs": {
+      "url": "https://github.com/maxogden/tabby/issues"
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,59 +1,79 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "ryanseys/keepy",
-    "description": ":bulb: A cute little write-only Google Keep app",
-    "fork": false,
-    "created_at": "2016-04-11T00:32:16.000Z",
-    "updated_at": "2016-07-13T10:25:44.373Z",
-    "pushed_at": "2016-04-12T18:16:05.000Z",
-    "homepage": "",
-    "size": 137,
-    "stargazers_count": 3,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 1,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 55930144,
-    "source_name": null,
-    "license": "Apache-2.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-04-11T00:50:22.737Z",
-    "rank": null
-  },
+  "id": 55930144,
   "name": "keepy",
-  "version": "1.0.0",
-  "description": "A cute little write-only Google Keep app",
-  "main": "keepy.js",
-  "productName": "Keepy",
-  "scripts": {
-    "start": "electron keepy.js",
-    "build-osx": "electron-packager . --out=builds --platform=darwin --arch=x64 --icon=icons/keep.icns --app-category-type=public.app-category.productivity",
-    "build-win": "electron-packager . --out=builds --platform=win --arch=all --icon=icons/keep.ico",
-    "build-lin": "electron-packager . --out=builds --platform=linux --arch=all"
+  "fullName": "ryanseys/keepy",
+  "owner": {
+    "login": "ryanseys",
+    "id": 163873,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/163873?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/ryanseys",
+    "htmlUrl": "https://github.com/ryanseys",
+    "followersUrl": "https://api.github.com/users/ryanseys/followers",
+    "subscriptionsUrl": "https://api.github.com/users/ryanseys/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/ryanseys/orgs",
+    "reposUrl": "https://api.github.com/users/ryanseys/repos",
+    "receivedEventsUrl": "https://api.github.com/users/ryanseys/received_events",
+    "type": "User"
   },
-  "keywords": [
-    "google",
-    "keep",
-    "simple"
-  ],
-  "author": "Ryan Seys",
-  "license": "Apache-2.0",
-  "devDependencies": {
-    "electron-packager": "^6.0.2",
-    "electron-prebuilt": "^0.37.5"
-  }
+  "private": false,
+  "description": ":bulb: A cute little write-only Google Keep app",
+  "fork": false,
+  "createdAt": "2016-04-11T00:32:16.000Z",
+  "updatedAt": "2016-07-13T10:25:05.000Z",
+  "pushedAt": "2016-04-21T19:50:55.000Z",
+  "homepage": "",
+  "size": 137,
+  "stargazersCount": 4,
+  "watchersCount": 4,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 4,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "featured": true
+  },
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "keepy",
+    "version": "1.0.0",
+    "description": "A cute little write-only Google Keep app",
+    "main": "keepy.js",
+    "productName": "Keepy",
+    "scripts": {
+      "start": "electron keepy.js",
+      "build-osx": "electron-packager . --out=builds --platform=darwin --arch=x64 --icon=icons/keep.icns --app-category-type=public.app-category.productivity",
+      "build-win": "electron-packager . --out=builds --platform=win --arch=all --icon=icons/keep.ico",
+      "build-lin": "electron-packager . --out=builds --platform=linux --arch=all"
+    },
+    "keywords": [
+      "google",
+      "keep",
+      "simple"
+    ],
+    "author": "Ryan Seys",
+    "license": "Apache-2.0",
+    "devDependencies": {
+      "electron-packager": "^6.0.2",
+      "electron-prebuilt": "^0.37.5"
+    }
+  },
+  "packageStatus": 200
 }

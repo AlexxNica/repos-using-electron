@@ -1,56 +1,76 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "hughrawlinson/manoj-simulator",
-    "description": "A simulator for Manoj Nathwani's big LED display",
-    "fork": false,
-    "created_at": "2016-07-23T22:14:01.000Z",
-    "updated_at": "2016-08-05T14:07:13.221Z",
-    "pushed_at": "2016-08-05T14:05:15.000Z",
-    "homepage": null,
-    "size": 5,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 64038132,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-08-05T14:07:13.199Z",
-    "rank": null
-  },
+  "id": 64038132,
   "name": "manoj-simulator",
-  "version": "0.0.3-SNAPSHOT",
+  "fullName": "hughrawlinson/manoj-simulator",
+  "owner": {
+    "login": "hughrawlinson",
+    "id": 829836,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/829836?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/hughrawlinson",
+    "htmlUrl": "https://github.com/hughrawlinson",
+    "followersUrl": "https://api.github.com/users/hughrawlinson/followers",
+    "subscriptionsUrl": "https://api.github.com/users/hughrawlinson/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/hughrawlinson/orgs",
+    "reposUrl": "https://api.github.com/users/hughrawlinson/repos",
+    "receivedEventsUrl": "https://api.github.com/users/hughrawlinson/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "A simulator for Manoj Nathwani's big LED display",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/electron ."
+  "fork": false,
+  "createdAt": "2016-07-23T22:14:01.000Z",
+  "updatedAt": "2016-08-05T14:06:16.000Z",
+  "pushedAt": "2016-08-05T14:05:15.000Z",
+  "homepage": null,
+  "size": 5,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "bin": {
-    "manoj-simulator": "./bin/manoj-simulator"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "author": "Hugh Rawlinson <hugh@codeoclock.net",
-  "license": "MIT",
-  "dependencies": {
-    "electron-prebuilt": "^1.2.8",
-    "gaussian": "^1.1.0",
-    "hapi": "^13.5.0",
-    "ramda": "^0.21.0"
-  }
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "manoj-simulator",
+    "version": "0.0.3-SNAPSHOT",
+    "description": "A simulator for Manoj Nathwani's big LED display",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "./node_modules/.bin/electron ."
+    },
+    "bin": {
+      "manoj-simulator": "./bin/manoj-simulator"
+    },
+    "author": "Hugh Rawlinson <hugh@codeoclock.net",
+    "license": "MIT",
+    "dependencies": {
+      "electron-prebuilt": "^1.2.8",
+      "gaussian": "^1.1.0",
+      "hapi": "^13.5.0",
+      "ramda": "^0.21.0"
+    }
+  },
+  "packageStatus": 200
 }

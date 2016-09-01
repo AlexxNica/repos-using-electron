@@ -1,65 +1,85 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "callum/version",
-    "description": "Predictable file versioning",
-    "fork": false,
-    "created_at": "2016-02-19T01:39:49.000Z",
-    "updated_at": "2016-02-19T01:40:58.000Z",
-    "pushed_at": "2016-02-19T10:36:53.000Z",
-    "homepage": null,
-    "size": 23,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 0,
-    "github_id": 52052778,
-    "source_name": null,
-    "license": "GPL-3.0",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 52052778,
   "name": "version",
-  "version": "0.0.1",
+  "fullName": "callum/version",
+  "owner": {
+    "login": "callum",
+    "id": 1245446,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1245446?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/callum",
+    "htmlUrl": "https://github.com/callum",
+    "followersUrl": "https://api.github.com/users/callum/followers",
+    "subscriptionsUrl": "https://api.github.com/users/callum/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/callum/orgs",
+    "reposUrl": "https://api.github.com/users/callum/repos",
+    "receivedEventsUrl": "https://api.github.com/users/callum/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "Predictable file versioning",
-  "main": "index.js",
-  "scripts": {
-    "test": "tape test/*.js",
-    "start": "electron .",
-    "build": "bin/build.sh",
-    "clean": "rm -rf build/*"
+  "fork": false,
+  "createdAt": "2016-02-19T01:39:49.000Z",
+  "updatedAt": "2016-02-19T01:40:58.000Z",
+  "pushedAt": "2016-02-19T10:36:53.000Z",
+  "homepage": null,
+  "size": 23,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/callum/version.git"
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "featured": true
   },
-  "author": "Callum Jefferies",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/callum/version/issues"
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "version",
+    "version": "0.0.1",
+    "description": "Predictable file versioning",
+    "main": "index.js",
+    "scripts": {
+      "test": "tape test/*.js",
+      "start": "electron .",
+      "build": "bin/build.sh",
+      "clean": "rm -rf build/*"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/callum/version.git"
+    },
+    "author": "Callum Jefferies",
+    "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/callum/version/issues"
+    },
+    "homepage": "https://github.com/callum/version#readme",
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.7",
+      "tape": "^4.4.0"
+    },
+    "dependencies": {
+      "version-filename": "github:callum/version-filename"
+    }
   },
-  "homepage": "https://github.com/callum/version#readme",
-  "devDependencies": {
-    "electron-packager": "^5.2.1",
-    "electron-prebuilt": "^0.36.7",
-    "tape": "^4.4.0"
-  },
-  "dependencies": {
-    "version-filename": "github:callum/version-filename"
-  }
+  "packageStatus": 200
 }

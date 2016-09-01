@@ -1,76 +1,96 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "fraserxu/electron-music163",
-    "description": "A NetEase Music player that lives in your menubar.",
-    "fork": false,
-    "created_at": "2015-08-30T15:02:03.000Z",
-    "updated_at": "2015-09-15T16:29:05.368Z",
-    "pushed_at": "2015-09-05T15:45:48.000Z",
-    "homepage": null,
-    "size": 548,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 41632495,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 41632495,
   "name": "electron-music163",
-  "version": "0.0.1",
-  "description": "A NetEase Music player that lives in your menubar. ",
-  "main": "index.js",
-  "scripts": {
-    "test": "standard",
-    "build": "browserify app/main.js | uglifyjs -cm > app/bundle.js",
-    "watch": "watchify app/main.js -p browserify-hmr -o app/bundle.js -dv",
-    "start": "electron . & npm run watch"
+  "fullName": "fraserxu/electron-music163",
+  "owner": {
+    "login": "fraserxu",
+    "id": 1183541,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1183541?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/fraserxu",
+    "htmlUrl": "https://github.com/fraserxu",
+    "followersUrl": "https://api.github.com/users/fraserxu/followers",
+    "subscriptionsUrl": "https://api.github.com/users/fraserxu/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/fraserxu/orgs",
+    "reposUrl": "https://api.github.com/users/fraserxu/repos",
+    "receivedEventsUrl": "https://api.github.com/users/fraserxu/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fraserxu/electron-music163.git"
+  "private": false,
+  "description": "A NetEase Music player that lives in your menubar.",
+  "fork": false,
+  "createdAt": "2015-08-30T15:02:03.000Z",
+  "updatedAt": "2015-09-05T15:42:47.000Z",
+  "pushedAt": "2015-09-05T15:45:48.000Z",
+  "homepage": null,
+  "size": 548,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "electron",
-    "music163",
-    "musicplayer",
-    "mp3"
-  ],
-  "author": "Fraser Xu",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fraserxu/electron-music163/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "homepage": "https://github.com/fraserxu/electron-music163#readme",
-  "dependencies": {
-    "electron-prebuilt": "^0.31.1",
-    "main-loop": "^3.1.0",
-    "menubar": "^2.1.2",
-    "ud": "^2.0.1",
-    "virtual-dom": "^2.1.1"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-music163",
+    "version": "0.0.1",
+    "description": "A NetEase Music player that lives in your menubar. ",
+    "main": "index.js",
+    "scripts": {
+      "test": "standard",
+      "build": "browserify app/main.js | uglifyjs -cm > app/bundle.js",
+      "watch": "watchify app/main.js -p browserify-hmr -o app/bundle.js -dv",
+      "start": "electron . & npm run watch"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fraserxu/electron-music163.git"
+    },
+    "keywords": [
+      "electron",
+      "music163",
+      "musicplayer",
+      "mp3"
+    ],
+    "author": "Fraser Xu",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/fraserxu/electron-music163/issues"
+    },
+    "homepage": "https://github.com/fraserxu/electron-music163#readme",
+    "dependencies": {
+      "electron-prebuilt": "^0.31.1",
+      "main-loop": "^3.1.0",
+      "menubar": "^2.1.2",
+      "ud": "^2.0.1",
+      "virtual-dom": "^2.1.1"
+    },
+    "devDependencies": {
+      "browserify": "^11.0.1",
+      "browserify-hmr": "^0.2.1",
+      "uglifyjs": "^2.4.10",
+      "watchify": "^3.4.0"
+    }
   },
-  "devDependencies": {
-    "browserify": "^11.0.1",
-    "browserify-hmr": "^0.2.1",
-    "uglifyjs": "^2.4.10",
-    "watchify": "^3.4.0"
-  }
+  "packageStatus": 200
 }

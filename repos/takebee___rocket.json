@@ -1,76 +1,110 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "takebee/rocket",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-04-17T07:56:23.000Z",
-    "updated_at": "2016-05-28T04:22:59.560Z",
-    "pushed_at": "2016-04-21T05:18:44.000Z",
-    "homepage": "",
-    "size": 4,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 56425418,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T04:22:59.540Z",
-    "rank": null
-  },
+  "id": 56425418,
   "name": "rocket",
-  "productName": "Rocket",
-  "version": "1.0.0-beta",
-  "description": "A hackable web browser",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-    "build": "webpack && webpack-dev-server",
-    "electron-rebuild": "electron-rebuild"
+  "fullName": "takebee/rocket",
+  "owner": {
+    "login": "takebee",
+    "id": 18510940,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/18510940?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/takebee",
+    "htmlUrl": "https://github.com/takebee",
+    "followersUrl": "https://api.github.com/users/takebee/followers",
+    "subscriptionsUrl": "https://api.github.com/users/takebee/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/takebee/orgs",
+    "reposUrl": "https://api.github.com/users/takebee/repos",
+    "receivedEventsUrl": "https://api.github.com/users/takebee/received_events",
+    "type": "Organization"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/takebee/rocket.git"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2016-04-17T07:56:23.000Z",
+  "updatedAt": "2016-04-21T07:41:58.000Z",
+  "pushedAt": "2016-04-21T05:18:44.000Z",
+  "homepage": "",
+  "size": 4,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/takebee/rocket/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "homepage": "https://github.com/takebee/rocket#readme",
-  "dependencies": {
-    "electron-prebuilt": "^0.37.6",
-    "react": "^15.0.1",
-    "react-dom": "^15.0.1"
+  "organization": {
+    "login": "takebee",
+    "id": 18510940,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/18510940?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/takebee",
+    "htmlUrl": "https://github.com/takebee",
+    "followersUrl": "https://api.github.com/users/takebee/followers",
+    "subscriptionsUrl": "https://api.github.com/users/takebee/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/takebee/orgs",
+    "reposUrl": "https://api.github.com/users/takebee/repos",
+    "receivedEventsUrl": "https://api.github.com/users/takebee/received_events",
+    "type": "Organization"
   },
-  "devDependencies": {
-    "babel": "^6.5.2",
-    "babel-core": "^6.7.7",
-    "babel-loader": "^6.2.4",
-    "babel-preset-react": "^6.5.0",
-    "css-loader": "^0.23.1",
-    "electron-packager": "^7.0.0",
-    "electron-rebuild": "^1.1.3",
-    "node-libs-browser": "^1.0.0",
-    "node-sass": "^3.5.1",
-    "sass-loader": "^3.2.0",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.13.0",
-    "webpack-dev-server": "^1.14.1"
-  }
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "rocket",
+    "productName": "Rocket",
+    "version": "1.0.0-beta",
+    "description": "A hackable web browser",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "webpack && webpack-dev-server",
+      "electron-rebuild": "electron-rebuild"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/takebee/rocket.git"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/takebee/rocket/issues"
+    },
+    "homepage": "https://github.com/takebee/rocket#readme",
+    "dependencies": {
+      "electron-prebuilt": "^0.37.6",
+      "react": "^15.0.1",
+      "react-dom": "^15.0.1"
+    },
+    "devDependencies": {
+      "babel": "^6.5.2",
+      "babel-core": "^6.7.7",
+      "babel-loader": "^6.2.4",
+      "babel-preset-react": "^6.5.0",
+      "css-loader": "^0.23.1",
+      "electron-packager": "^7.0.0",
+      "electron-rebuild": "^1.1.3",
+      "node-libs-browser": "^1.0.0",
+      "node-sass": "^3.5.1",
+      "sass-loader": "^3.2.0",
+      "style-loader": "^0.13.1",
+      "webpack": "^1.13.0",
+      "webpack-dev-server": "^1.14.1"
+    }
+  },
+  "packageStatus": 200
 }

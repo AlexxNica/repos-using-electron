@@ -1,54 +1,88 @@
 {
+  "id": 41744521,
   "name": "romanize-names-desktop",
-  "version": "0.1.1",
-  "description": "",
-  "main": "main.js",
-  "dependencies": {
-    "electron-prebuilt": "^0.31.1",
-    "romanize-names": "^1.0.1"
+  "fullName": "electronize/romanize-names-desktop",
+  "owner": {
+    "login": "electronize",
+    "id": 13553925,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/13553925?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/electronize",
+    "htmlUrl": "https://github.com/electronize",
+    "followersUrl": "https://api.github.com/users/electronize/followers",
+    "subscriptionsUrl": "https://api.github.com/users/electronize/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/electronize/orgs",
+    "reposUrl": "https://api.github.com/users/electronize/repos",
+    "receivedEventsUrl": "https://api.github.com/users/electronize/received_events",
+    "type": "Organization"
   },
-  "devDependencies": {
-    "electron-packager": "^5.0.2"
+  "private": false,
+  "description": "Romanizing Chinese names on Desktop",
+  "fork": false,
+  "createdAt": "2015-09-01T14:46:56.000Z",
+  "updatedAt": "2015-09-08T08:53:32.000Z",
+  "pushedAt": "2015-09-02T15:37:23.000Z",
+  "homepage": null,
+  "size": 1656,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "start": "electron .",
-    "package": "electron-packager . NameTranslate --platform=darwin --arch=x64 --version 0.31.1 --overwrite --icon=name_tag"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "author": "John-Lin <linton.tw@gmail.com> (http://linton.tw)",
-  "license": "MIT",
-  "_librariesioMetadata": {
-    "full_name": "electronize/romanize-names-desktop",
-    "description": "Romanizing Chinese names on Desktop",
-    "fork": false,
-    "created_at": "2015-09-01T14:46:56.000Z",
-    "updated_at": "2016-05-28T07:05:48.845Z",
-    "pushed_at": "2015-09-02T15:37:23.000Z",
-    "homepage": null,
-    "size": 1656,
-    "stargazers_count": 2,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 41744521,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-28T07:05:48.821Z",
-    "rank": null
-  }
+  "organization": {
+    "login": "electronize",
+    "id": 13553925,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/13553925?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/electronize",
+    "htmlUrl": "https://github.com/electronize",
+    "followersUrl": "https://api.github.com/users/electronize/followers",
+    "subscriptionsUrl": "https://api.github.com/users/electronize/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/electronize/orgs",
+    "reposUrl": "https://api.github.com/users/electronize/repos",
+    "receivedEventsUrl": "https://api.github.com/users/electronize/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "romanize-names-desktop",
+    "version": "0.1.1",
+    "description": "",
+    "main": "main.js",
+    "dependencies": {
+      "electron-prebuilt": "^0.31.1",
+      "romanize-names": "^1.0.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.2"
+    },
+    "scripts": {
+      "start": "electron .",
+      "package": "electron-packager . NameTranslate --platform=darwin --arch=x64 --version 0.31.1 --overwrite --icon=name_tag"
+    },
+    "author": "John-Lin <linton.tw@gmail.com> (http://linton.tw)",
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

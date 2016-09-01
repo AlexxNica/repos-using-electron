@@ -1,77 +1,97 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "aletocar/memoriaylegado",
-    "description": "",
-    "fork": false,
-    "created_at": "2016-05-11T18:26:42.000Z",
-    "updated_at": "2016-05-11T18:29:22.000Z",
-    "pushed_at": "2016-05-11T18:26:42.000Z",
-    "homepage": null,
-    "size": 0,
-    "stargazers_count": 0,
-    "language": null,
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 58569283,
-    "source_name": null,
-    "license": "CC0-1.0",
-    "private": false,
-    "github_contributions_count": 15,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE.md",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-11T18:14:25.397Z",
-    "rank": null
+  "id": 58570236,
+  "name": "memoriaylegado",
+  "fullName": "aletocar/memoriaylegado",
+  "owner": {
+    "login": "aletocar",
+    "id": 6656477,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6656477?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/aletocar",
+    "htmlUrl": "https://github.com/aletocar",
+    "followersUrl": "https://api.github.com/users/aletocar/followers",
+    "subscriptionsUrl": "https://api.github.com/users/aletocar/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/aletocar/orgs",
+    "reposUrl": "https://api.github.com/users/aletocar/repos",
+    "receivedEventsUrl": "https://api.github.com/users/aletocar/received_events",
+    "type": "User"
   },
-  "name": "MemoriaYLegado",
-  "productName": "Shoa Memoria y Legado",
-  "version": "1.0.0",
-  "description": "La aplicación es una herramienta pedagógica para apoyar a los docentes al momento de trabajar distintos ejes temáticos relacionados con la historia, los derechos humanos y la convivencia. Tiene como objetivo contribuir a una educación sobre la diversidad y nutrirla de valores como la coexistencia y la tolerancia. Mediante información histórica y fidedigna de primer nivel, combinada con fotos, audiovisuales y testimonios, provee material para complementar las clases y configurar espacios de reflexión interdisciplinarios.",
-  "main": "main.js",
-  "scripts": {
-    "start": "npm install && electron ./app",
-    "pack": "build",
-    "dist": "build",
-    "dist:linux32": "build --platform linux --arch ia32"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2016-05-11T18:26:42.000Z",
+  "updatedAt": "2016-05-11T18:32:20.000Z",
+  "pushedAt": "2016-05-30T04:01:13.000Z",
+  "homepage": null,
+  "size": 381381,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aletocar/memoriaylegado"
+  "license": {
+    "key": "cc0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "spdxId": "CC0-1.0",
+    "url": "https://api.github.com/licenses/cc0-1.0",
+    "featured": false
   },
-  "author": "Gal Brenner <galbrenner@gmail.com>, Alejandro Tocar <aletocar@hotmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aletocar/memoriaylegado/issues"
-  },
-  "homepage": "https://shoamemoriaylegado.com",
-  "build": {
-    "app-bundle-id": "org.proyectoshoa.app",
-    "app-category-type": "public.app-category.graphics-design",
-    "asar": false,
-    "linux": {
-      "synopsis": "La aplicación es una herramienta pedagógica para apoyar a los docentes al momento de trabajar distintos ejes temáticos relacionados con la historia, los derechos humanos y la convivencia. Tiene como objetivo contribuir a una educación sobre la diversidad y nutrirla de valores como la coexistencia y la tolerancia. Mediante información histórica y fidedigna de primer nivel, combinada con fotos, audiovisuales y testimonios, provee material para complementar las clases y configurar espacios de reflexión interdisciplinarios.",
-      "vendor": "Proyecto Shoa"
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "MemoriaYLegado",
+    "productName": "Shoa Memoria y Legado",
+    "version": "1.0.0",
+    "description": "La aplicación es una herramienta pedagógica para apoyar a los docentes al momento de trabajar distintos ejes temáticos relacionados con la historia, los derechos humanos y la convivencia. Tiene como objetivo contribuir a una educación sobre la diversidad y nutrirla de valores como la coexistencia y la tolerancia. Mediante información histórica y fidedigna de primer nivel, combinada con fotos, audiovisuales y testimonios, provee material para complementar las clases y configurar espacios de reflexión interdisciplinarios.",
+    "main": "main.js",
+    "scripts": {
+      "start": "npm install && electron ./app",
+      "pack": "build",
+      "dist": "build",
+      "dist:linux32": "build --platform linux --arch ia32"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/aletocar/memoriaylegado"
+    },
+    "author": "Gal Brenner <galbrenner@gmail.com>, Alejandro Tocar <aletocar@hotmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/aletocar/memoriaylegado/issues"
+    },
+    "homepage": "https://shoamemoriaylegado.com",
+    "build": {
+      "app-bundle-id": "org.proyectoshoa.app",
+      "app-category-type": "public.app-category.graphics-design",
+      "asar": false,
+      "linux": {
+        "synopsis": "La aplicación es una herramienta pedagógica para apoyar a los docentes al momento de trabajar distintos ejes temáticos relacionados con la historia, los derechos humanos y la convivencia. Tiene como objetivo contribuir a una educación sobre la diversidad y nutrirla de valores como la coexistencia y la tolerancia. Mediante información histórica y fidedigna de primer nivel, combinada con fotos, audiovisuales y testimonios, provee material para complementar las clases y configurar espacios de reflexión interdisciplinarios.",
+        "vendor": "Proyecto Shoa"
+      }
+    },
+    "directories": {
+      "output": "app/dist"
+    },
+    "devDependencies": {
+      "electron-builder": "^3.23.0",
+      "electron-prebuilt": "^1.0.2"
+    },
+    "dependencies": {
+      "open": "0.0.5"
     }
   },
-  "directories": {
-    "output": "app/dist"
-  },
-  "devDependencies": {
-    "electron-builder": "^3.23.0",
-    "electron-prebuilt": "^1.0.2"
-  },
-  "dependencies": {
-    "open": "0.0.5"
-  }
+  "packageStatus": 200
 }

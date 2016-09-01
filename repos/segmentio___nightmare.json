@@ -1,86 +1,114 @@
 {
+  "id": 18477927,
   "name": "nightmare",
-  "version": "2.5.3",
-  "license": "MIT",
-  "main": "lib/nightmare.js",
-  "scripts": {
-    "test": "make test"
+  "fullName": "segmentio/nightmare",
+  "owner": {
+    "login": "segmentio",
+    "id": 819518,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/819518?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/segmentio",
+    "htmlUrl": "https://github.com/segmentio",
+    "followersUrl": "https://api.github.com/users/segmentio/followers",
+    "subscriptionsUrl": "https://api.github.com/users/segmentio/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/segmentio/orgs",
+    "reposUrl": "https://api.github.com/users/segmentio/repos",
+    "receivedEventsUrl": "https://api.github.com/users/segmentio/received_events",
+    "type": "Organization"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/segmentio/nightmare.git"
-  },
-  "author": "Segment",
-  "keywords": [
-    "nightmare",
-    "electron"
-  ],
+  "private": false,
   "description": "A high-level browser automation library.",
-  "dependencies": {
-    "debug": "^2.2.0",
-    "deep-defaults": "^1.0.3",
-    "defaults": "^1.0.2",
-    "electron-prebuilt": "^1.2.5",
-    "enqueue": "^1.0.2",
-    "function-source": "^0.1.0",
-    "jsesc": "^0.5.0",
-    "minstache": "^1.2.0",
-    "mkdirp": "^0.5.1",
-    "object-assign": "^4.0.1",
-    "once": "^1.3.3",
-    "rimraf": "^2.4.3",
-    "sliced": "1.0.1",
-    "split2": "^2.0.1"
+  "fork": false,
+  "createdAt": "2014-04-05T22:19:51.000Z",
+  "updatedAt": "2016-08-14T21:17:30.000Z",
+  "pushedAt": "2016-08-14T15:28:24.000Z",
+  "homepage": "http://nightmarejs.org",
+  "size": 2868,
+  "stargazersCount": 8341,
+  "watchersCount": 8341,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 434,
+  "openIssuesCount": 67,
+  "openIssues": 67,
+  "watchers": 8341,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "devDependencies": {
-    "basic-auth": "^1.0.3",
-    "basic-auth-connect": "^1.0.0",
-    "chai": "^3.4.1",
-    "chai-as-promised": "^5.3.0",
-    "express": "^4.13.3",
-    "mocha": "^2.3.0",
-    "mocha-generators": "^1.2.0",
-    "multer": "1.1.0",
-    "pngjs": "^2.2.0",
-    "serve-static": "^1.10.0",
-    "split": "^1.0.0"
+  "license": null,
+  "organization": {
+    "login": "segmentio",
+    "id": 819518,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/819518?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/segmentio",
+    "htmlUrl": "https://github.com/segmentio",
+    "followersUrl": "https://api.github.com/users/segmentio/followers",
+    "subscriptionsUrl": "https://api.github.com/users/segmentio/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/segmentio/orgs",
+    "reposUrl": "https://api.github.com/users/segmentio/repos",
+    "receivedEventsUrl": "https://api.github.com/users/segmentio/received_events",
+    "type": "Organization"
   },
-  "engines": {
-    "node": ">=4.0.0"
-  },
-  "_librariesioMetadata": {
-    "full_name": "segmentio/nightmare",
-    "description": "A high-level browser automation library.",
-    "fork": false,
-    "created_at": "2014-04-05T22:19:51.000Z",
-    "updated_at": "2016-08-01T17:28:18.564Z",
-    "pushed_at": "2016-07-31T17:13:39.000Z",
-    "homepage": "http://nightmarejs.org",
-    "size": 2877,
-    "stargazers_count": 8177,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 424,
-    "mirror_url": null,
-    "open_issues_count": 85,
-    "default_branch": "master",
-    "subscribers_count": 194,
-    "github_id": 18477927,
-    "source_name": null,
+  "networkCount": 434,
+  "subscribersCount": 193,
+  "status": 200,
+  "packageJSON": {
+    "name": "nightmare",
+    "version": "2.6.1",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 72,
-    "has_readme": "Readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-06-21T03:46:41.739Z",
-    "rank": null
-  }
+    "main": "lib/nightmare.js",
+    "scripts": {
+      "test": "make test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/segmentio/nightmare.git"
+    },
+    "author": "Segment",
+    "keywords": [
+      "nightmare",
+      "electron"
+    ],
+    "description": "A high-level browser automation library.",
+    "dependencies": {
+      "debug": "^2.2.0",
+      "deep-defaults": "^1.0.3",
+      "defaults": "^1.0.2",
+      "electron-prebuilt": "^1.2.5",
+      "enqueue": "^1.0.2",
+      "function-source": "^0.1.0",
+      "jsesc": "^0.5.0",
+      "minstache": "^1.2.0",
+      "mkdirp": "^0.5.1",
+      "object-assign": "^4.0.1",
+      "once": "^1.3.3",
+      "rimraf": "^2.4.3",
+      "sliced": "1.0.1",
+      "split2": "^2.0.1"
+    },
+    "devDependencies": {
+      "basic-auth": "^1.0.3",
+      "basic-auth-connect": "^1.0.0",
+      "chai": "^3.4.1",
+      "chai-as-promised": "^5.3.0",
+      "express": "^4.13.3",
+      "mocha": "^2.3.0",
+      "mocha-generators": "^1.2.0",
+      "multer": "1.1.0",
+      "pngjs": "^2.2.0",
+      "serve-static": "^1.10.0",
+      "split": "^1.0.0"
+    },
+    "engines": {
+      "node": ">=4.0.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -1,64 +1,78 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "dpickett/romnom",
-    "description": "emulation frontend built off of electron",
-    "fork": false,
-    "created_at": "2015-10-05T03:55:28.000Z",
-    "updated_at": "2015-12-06T05:18:32.000Z",
-    "pushed_at": "2015-10-05T03:55:53.000Z",
-    "homepage": null,
-    "size": 2364,
-    "stargazers_count": 1,
-    "language": "CoffeeScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 0,
-    "github_id": 43664363,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": "CONTRIBUTING.md",
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
+  "id": 43664363,
+  "name": "romnom",
+  "fullName": "dpickett/romnom",
+  "owner": {
+    "login": "dpickett",
+    "id": 1082,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1082?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/dpickett",
+    "htmlUrl": "https://github.com/dpickett",
+    "followersUrl": "https://api.github.com/users/dpickett/followers",
+    "subscriptionsUrl": "https://api.github.com/users/dpickett/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/dpickett/orgs",
+    "reposUrl": "https://api.github.com/users/dpickett/repos",
+    "receivedEventsUrl": "https://api.github.com/users/dpickett/received_events",
+    "type": "User"
   },
-  "name": "RomNom",
-  "appName": "RomNom",
-  "version": "0.0.1",
-  "main": "main.js",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dpickett/romnom"
+  "private": false,
+  "description": "emulation frontend built off of electron",
+  "fork": false,
+  "createdAt": "2015-10-05T03:55:28.000Z",
+  "updatedAt": "2015-12-06T05:18:32.000Z",
+  "pushedAt": "2015-10-05T03:55:53.000Z",
+  "homepage": null,
+  "size": 2364,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "CoffeeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "scripts": {
-    "test": "script/test"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "RomNom",
+    "appName": "RomNom",
+    "version": "0.0.1",
+    "main": "main.js",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dpickett/romnom"
+    },
+    "scripts": {
+      "test": "script/test"
+    },
+    "compileCacheDir": "./compile-cache",
+    "compileDirs": [
+      "src"
+    ],
+    "devDependencies": {
+      "electron-compile": "^0.7.4",
+      "electron-jasmine": "^0.1.8",
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "0.30.2",
+      "electron-rebuild": "^0.2.5"
+    },
+    "dependencies": {
+      "jquery": "^2.1.4",
+      "yargs": "^3.16.1"
+    }
   },
-  "compileCacheDir": "./compile-cache",
-  "compileDirs": [
-    "src"
-  ],
-  "devDependencies": {
-    "electron-compile": "^0.7.4",
-    "electron-jasmine": "^0.1.8",
-    "electron-packager": "^5.0.1",
-    "electron-prebuilt": "0.30.2",
-    "electron-rebuild": "^0.2.5"
-  },
-  "dependencies": {
-    "jquery": "^2.1.4",
-    "yargs": "^3.16.1"
-  }
+  "packageStatus": 200
 }

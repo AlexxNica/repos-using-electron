@@ -1,62 +1,82 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "Benoit-Vasseur/time-tracker",
-    "description": "An app to track your time",
-    "fork": false,
-    "created_at": "2015-08-01T11:06:34.000Z",
-    "updated_at": "2016-03-24T08:53:33.959Z",
-    "pushed_at": "2015-09-06T18:01:57.000Z",
-    "homepage": "",
-    "size": 536,
-    "stargazers_count": 1,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": true,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 2,
-    "github_id": 40044106,
-    "source_name": null,
-    "license": "Apache-2.0",
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": "readme.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 40044106,
   "name": "time-tracker",
-  "version": "0.1.0",
+  "fullName": "Benoit-Vasseur/time-tracker",
+  "owner": {
+    "login": "Benoit-Vasseur",
+    "id": 1382663,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1382663?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Benoit-Vasseur",
+    "htmlUrl": "https://github.com/Benoit-Vasseur",
+    "followersUrl": "https://api.github.com/users/Benoit-Vasseur/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Benoit-Vasseur/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Benoit-Vasseur/orgs",
+    "reposUrl": "https://api.github.com/users/Benoit-Vasseur/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Benoit-Vasseur/received_events",
+    "type": "User"
+  },
+  "private": false,
   "description": "An app to track your time",
-  "main": "index.js",
-  "scripts": {
-    "start": "electron ."
+  "fork": false,
+  "createdAt": "2015-08-01T11:06:34.000Z",
+  "updatedAt": "2015-08-05T19:42:46.000Z",
+  "pushedAt": "2015-09-06T18:01:57.000Z",
+  "homepage": "",
+  "size": 536,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Benoit-Vasseur/time-tracker.git"
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "featured": true
   },
-  "author": "Benoit Vasseur",
-  "license": "Apache v2",
-  "bugs": {
-    "url": "https://github.com/Benoit-Vasseur/time-tracker/issues"
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "time-tracker",
+    "version": "0.1.0",
+    "description": "An app to track your time",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Benoit-Vasseur/time-tracker.git"
+    },
+    "author": "Benoit Vasseur",
+    "license": "Apache v2",
+    "bugs": {
+      "url": "https://github.com/Benoit-Vasseur/time-tracker/issues"
+    },
+    "homepage": "https://github.com/Benoit-Vasseur/time-tracker",
+    "devDependencies": {
+      "electron-prebuilt": "^0.30.2",
+      "electron-rebuild": "^0.2.5"
+    },
+    "dependencies": {
+      "freshbooks": "file:my_modules/freshbooks.js",
+      "jsonfile": "^2.2.1"
+    }
   },
-  "homepage": "https://github.com/Benoit-Vasseur/time-tracker",
-  "devDependencies": {
-    "electron-prebuilt": "^0.30.2",
-    "electron-rebuild": "^0.2.5"
-  },
-  "dependencies": {
-    "freshbooks": "file:my_modules/freshbooks.js",
-    "jsonfile": "^2.2.1"
-  }
+  "packageStatus": 200
 }

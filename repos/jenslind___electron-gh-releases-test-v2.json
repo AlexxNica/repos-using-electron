@@ -1,65 +1,79 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "jenslind/electron-gh-releases-test-v2",
-    "description": "",
-    "fork": false,
-    "created_at": "2015-11-20T17:54:13.000Z",
-    "updated_at": "2015-11-20T18:07:35.000Z",
-    "pushed_at": "2015-12-14T12:02:48.000Z",
-    "homepage": null,
-    "size": 9,
-    "stargazers_count": 0,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 46577903,
-    "source_name": null,
-    "license": null,
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": null,
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": null,
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": null,
-    "rank": null
-  },
+  "id": 46577903,
   "name": "electron-gh-releases-test-v2",
-  "version": "1.0.3",
-  "description": "Test app",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build-darwin": "electron-packager . Test --platform=darwin --arch=x64 --version=0.35.1 --overwrite --sign=Jens Lind",
-    "build-win32": "electron-packager . Test --platform=win32 --arch=x64 --version=0.35.1 --overwrite --asar=true"
+  "fullName": "jenslind/electron-gh-releases-test-v2",
+  "owner": {
+    "login": "jenslind",
+    "id": 5213672,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5213672?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/jenslind",
+    "htmlUrl": "https://github.com/jenslind",
+    "followersUrl": "https://api.github.com/users/jenslind/followers",
+    "subscriptionsUrl": "https://api.github.com/users/jenslind/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/jenslind/orgs",
+    "reposUrl": "https://api.github.com/users/jenslind/repos",
+    "receivedEventsUrl": "https://api.github.com/users/jenslind/received_events",
+    "type": "User"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jenslind/electron-gh-releases-test-v2.git"
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2015-11-20T17:54:13.000Z",
+  "updatedAt": "2015-11-20T18:07:35.000Z",
+  "pushedAt": "2015-12-14T12:02:48.000Z",
+  "homepage": null,
+  "size": 9,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jenslind/electron-gh-releases-test-v2/issues"
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-gh-releases-test-v2",
+    "version": "1.0.3",
+    "description": "Test app",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build-darwin": "electron-packager . Test --platform=darwin --arch=x64 --version=0.35.1 --overwrite --sign=Jens Lind",
+      "build-win32": "electron-packager . Test --platform=win32 --arch=x64 --version=0.35.1 --overwrite --asar=true"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jenslind/electron-gh-releases-test-v2.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/jenslind/electron-gh-releases-test-v2/issues"
+    },
+    "homepage": "https://github.com/jenslind/electron-gh-releases-test-v2#readme",
+    "devDependencies": {
+      "electron-packager": "^5.1.1",
+      "electron-prebuilt": "^0.35.1",
+      "grunt": "^0.4.5",
+      "grunt-electron-installer": "^1.1.0"
+    },
+    "dependencies": {
+      "electron-gh-releases": "^2.0.1"
+    }
   },
-  "homepage": "https://github.com/jenslind/electron-gh-releases-test-v2#readme",
-  "devDependencies": {
-    "electron-packager": "^5.1.1",
-    "electron-prebuilt": "^0.35.1",
-    "grunt": "^0.4.5",
-    "grunt-electron-installer": "^1.1.0"
-  },
-  "dependencies": {
-    "electron-gh-releases": "^2.0.1"
-  }
+  "packageStatus": 200
 }

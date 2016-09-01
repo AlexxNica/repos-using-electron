@@ -1,83 +1,117 @@
 {
+  "id": 47418778,
   "name": "line-top-index",
-  "version": "0.2.0",
-  "description": "A data structure to efficiently represent the top position of lines in the presence of fixed-height blocks.",
-  "main": "dist/line-top-index.js",
-  "scripts": {
-    "test": "npm run standard && node_modules/.bin/mocha ./test/helpers/setup  test/*",
-    "tdd": "npm run standard && node_modules/.bin/electron-mocha --renderer --interactive --recursive ./test/helpers/setup  test/",
-    "prepublish": "npm run standard && npm run clean && npm run build",
-    "standard": "node_modules/.bin/standard --recursive src test",
-    "build": "node_modules/.bin/babel src --out-dir dist",
-    "clean": "rm -rf dist"
+  "fullName": "atom/line-top-index",
+  "owner": {
+    "login": "atom",
+    "id": 1089146,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1089146?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/atom",
+    "htmlUrl": "https://github.com/atom",
+    "followersUrl": "https://api.github.com/users/atom/followers",
+    "subscriptionsUrl": "https://api.github.com/users/atom/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/atom/orgs",
+    "reposUrl": "https://api.github.com/users/atom/repos",
+    "receivedEventsUrl": "https://api.github.com/users/atom/received_events",
+    "type": "Organization"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/atom/line-top-index.git"
+  "private": false,
+  "description": null,
+  "fork": false,
+  "createdAt": "2015-12-04T17:22:44.000Z",
+  "updatedAt": "2016-07-12T06:47:06.000Z",
+  "pushedAt": "2016-01-13T17:22:43.000Z",
+  "homepage": null,
+  "size": 55,
+  "stargazersCount": 6,
+  "watchersCount": 6,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 6,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "keywords": [
-    "atom lines data-structure"
-  ],
-  "author": "Nathan Sobo <nathan@github.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nathansobo/atom-patch/issues"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "homepage": "https://github.com/atom/line-top-index",
-  "devDependencies": {
-    "babel": "^5.0.0",
-    "babel-eslint": "^4.0.5",
-    "chai": "^2.0.0",
-    "electron-mocha": "git://github.com/nathansobo/electron-mocha.git#interactive-option",
-    "electron-prebuilt": "^0.30.1",
-    "mocha": "^2.3.4",
-    "random-seed": "^0.2.0",
-    "standard": "^4.5.4"
+  "organization": {
+    "login": "atom",
+    "id": 1089146,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1089146?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/atom",
+    "htmlUrl": "https://github.com/atom",
+    "followersUrl": "https://api.github.com/users/atom/followers",
+    "subscriptionsUrl": "https://api.github.com/users/atom/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/atom/orgs",
+    "reposUrl": "https://api.github.com/users/atom/repos",
+    "receivedEventsUrl": "https://api.github.com/users/atom/received_events",
+    "type": "Organization"
   },
-  "dependencies": {
-    "random-seed": "^0.2.0"
-  },
-  "standard": {
-    "parser": "babel-eslint",
-    "global": [
-      "describe",
-      "it",
-      "assert"
-    ]
-  },
-  "_librariesioMetadata": {
-    "full_name": "atom/line-top-index",
-    "description": null,
-    "fork": false,
-    "created_at": "2015-12-04T17:22:44.000Z",
-    "updated_at": "2016-07-12T06:47:21.895Z",
-    "pushed_at": "2016-01-13T17:22:43.000Z",
-    "homepage": null,
-    "size": 55,
-    "stargazers_count": 5,
-    "language": "JavaScript",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 3,
-    "github_id": 47418778,
-    "source_name": null,
+  "networkCount": 1,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "line-top-index",
+    "version": "0.2.0",
+    "description": "A data structure to efficiently represent the top position of lines in the presence of fixed-height blocks.",
+    "main": "dist/line-top-index.js",
+    "scripts": {
+      "test": "npm run standard && node_modules/.bin/mocha ./test/helpers/setup  test/*",
+      "tdd": "npm run standard && node_modules/.bin/electron-mocha --renderer --interactive --recursive ./test/helpers/setup  test/",
+      "prepublish": "npm run standard && npm run clean && npm run build",
+      "standard": "node_modules/.bin/standard --recursive src test",
+      "build": "node_modules/.bin/babel src --out-dir dist",
+      "clean": "rm -rf dist"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/atom/line-top-index.git"
+    },
+    "keywords": [
+      "atom lines data-structure"
+    ],
+    "author": "Nathan Sobo <nathan@github.com>",
     "license": "MIT",
-    "private": false,
-    "github_contributions_count": 2,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-27T16:27:24.256Z",
-    "rank": null
-  }
+    "bugs": {
+      "url": "https://github.com/nathansobo/atom-patch/issues"
+    },
+    "homepage": "https://github.com/atom/line-top-index",
+    "devDependencies": {
+      "babel": "^5.0.0",
+      "babel-eslint": "^4.0.5",
+      "chai": "^2.0.0",
+      "electron-mocha": "git://github.com/nathansobo/electron-mocha.git#interactive-option",
+      "electron-prebuilt": "^0.30.1",
+      "mocha": "^2.3.4",
+      "random-seed": "^0.2.0",
+      "standard": "^4.5.4"
+    },
+    "dependencies": {
+      "random-seed": "^0.2.0"
+    },
+    "standard": {
+      "parser": "babel-eslint",
+      "global": [
+        "describe",
+        "it",
+        "assert"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

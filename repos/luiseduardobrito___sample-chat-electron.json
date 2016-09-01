@@ -1,82 +1,102 @@
 {
-  "_librariesioMetadata": {
-    "full_name": "luiseduardobrito/sample-chat-electron",
-    "description": "Socket.io based chat server and clients, implemented in NodeJS",
-    "fork": false,
-    "created_at": "2016-03-29T17:21:24.000Z",
-    "updated_at": "2016-05-11T07:55:36.107Z",
-    "pushed_at": "2016-04-24T23:49:27.000Z",
-    "homepage": null,
-    "size": 273645,
-    "stargazers_count": 1,
-    "language": "CSS",
-    "has_issues": true,
-    "has_wiki": true,
-    "has_pages": false,
-    "forks_count": 0,
-    "mirror_url": null,
-    "open_issues_count": 0,
-    "default_branch": "master",
-    "subscribers_count": 1,
-    "github_id": 54995614,
-    "source_name": null,
-    "license": "MIT",
-    "private": false,
-    "github_contributions_count": 1,
-    "has_readme": "README.md",
-    "has_changelog": null,
-    "has_contributing": null,
-    "has_license": "LICENSE",
-    "has_coc": null,
-    "has_threat_model": null,
-    "has_audit": null,
-    "status": null,
-    "last_synced_at": "2016-05-11T07:55:36.085Z",
-    "rank": null
-  },
+  "id": 54995614,
   "name": "sample-chat-electron",
-  "version": "0.0.1",
-  "description": "Socket.io based chat server and client, implemented in NodeJS",
-  "main": "app.js",
-  "scripts": {
-    "start": "node ./node_modules/.bin/electron .",
-    "server": "node ./server",
-    "test": "echo \"Error: no test specified\" && exit 0",
-    "pack:all": "npm run pack:win32 && npm run pack:darwin",
-    "pack:win32": "./node_modules/.bin/electron-packager . --icon=client/icon.ico --overwrite=true --arch=ia32 --platform=win32  --out=build  --version-string.CompanyName=\"Luis Eduardo Brito\" --version-string.ProductName=\"SampleChat\" --version-string.FileDescription=\"A simple socket.io sample backed by Electron platform\" --asar=true",
-    "pack:darwin": "./node_modules/.bin/electron-packager . --icon=./client/icon --overwrite=true --arch=all --platform=darwin --out=build",
-    "dist:all": "npm run dist:darwin",
-    "dist:darwin": "rm build/**.dmg && ./node_modules/.bin/appdmg ./config/appdmg.json build/SampleChat.dmg -v",
-    "postinstall": "./node_modules/.bin/electron-rebuild && ./node_modules/.bin/bower install"
+  "fullName": "luiseduardobrito/sample-chat-electron",
+  "owner": {
+    "login": "luiseduardobrito",
+    "id": 1218520,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1218520?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/luiseduardobrito",
+    "htmlUrl": "https://github.com/luiseduardobrito",
+    "followersUrl": "https://api.github.com/users/luiseduardobrito/followers",
+    "subscriptionsUrl": "https://api.github.com/users/luiseduardobrito/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/luiseduardobrito/orgs",
+    "reposUrl": "https://api.github.com/users/luiseduardobrito/repos",
+    "receivedEventsUrl": "https://api.github.com/users/luiseduardobrito/received_events",
+    "type": "User"
   },
-  "engines": {
-    "node": ">=5.6.0"
+  "private": false,
+  "description": "Socket.io based chat server and clients, implemented in NodeJS",
+  "fork": false,
+  "createdAt": "2016-03-29T17:21:24.000Z",
+  "updatedAt": "2016-08-10T09:19:34.000Z",
+  "pushedAt": "2016-04-24T23:49:27.000Z",
+  "homepage": null,
+  "size": 273645,
+  "stargazersCount": 3,
+  "watchersCount": 3,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 3,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/luiseduardobrito/mc714-1s2016-lista3.git"
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
-  "build": {
-    "app-bundle-id": "me.luiseduardobrito.simplechat",
-    "app-category-type": "public.app-category.social-networking",
-    "iconUrl": "./client/icon.ico"
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "sample-chat-electron",
+    "version": "0.0.1",
+    "description": "Socket.io based chat server and client, implemented in NodeJS",
+    "main": "app.js",
+    "scripts": {
+      "start": "node ./node_modules/.bin/electron .",
+      "server": "node ./server",
+      "test": "echo \"Error: no test specified\" && exit 0",
+      "pack:all": "npm run pack:win32 && npm run pack:darwin",
+      "pack:win32": "./node_modules/.bin/electron-packager . --icon=client/icon.ico --overwrite=true --arch=ia32 --platform=win32  --out=build  --version-string.CompanyName=\"Luis Eduardo Brito\" --version-string.ProductName=\"SampleChat\" --version-string.FileDescription=\"A simple socket.io sample backed by Electron platform\" --asar=true",
+      "pack:darwin": "./node_modules/.bin/electron-packager . --icon=./client/icon --overwrite=true --arch=all --platform=darwin --out=build",
+      "dist:all": "npm run dist:darwin",
+      "dist:darwin": "rm build/**.dmg && ./node_modules/.bin/appdmg ./config/appdmg.json build/SampleChat.dmg -v",
+      "postinstall": "./node_modules/.bin/electron-rebuild && ./node_modules/.bin/bower install"
+    },
+    "engines": {
+      "node": ">=5.6.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/luiseduardobrito/mc714-1s2016-lista3.git"
+    },
+    "build": {
+      "app-bundle-id": "me.luiseduardobrito.simplechat",
+      "app-category-type": "public.app-category.social-networking",
+      "iconUrl": "./client/icon.ico"
+    },
+    "author": "Luis <luiseduardo14@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/luiseduardobrito/mc714-1s2016-lista3/issues"
+    },
+    "homepage": "https://github.com/luiseduardobrito/mc714-1s2016-lista3#readme",
+    "dependencies": {
+      "bower": "^1.7.7",
+      "electron-packager": "^6.0.0",
+      "electron-prebuilt": "^0.37.3",
+      "electron-rebuild": "^1.1.3",
+      "express": "^4.13.4",
+      "hat": "0.0.3",
+      "socket.io": "^1.4.5"
+    },
+    "devDependencies": {
+      "appdmg": "^0.3.6"
+    }
   },
-  "author": "Luis <luiseduardo14@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/luiseduardobrito/mc714-1s2016-lista3/issues"
-  },
-  "homepage": "https://github.com/luiseduardobrito/mc714-1s2016-lista3#readme",
-  "dependencies": {
-    "bower": "^1.7.7",
-    "electron-packager": "^6.0.0",
-    "electron-prebuilt": "^0.37.3",
-    "electron-rebuild": "^1.1.3",
-    "express": "^4.13.4",
-    "hat": "0.0.3",
-    "socket.io": "^1.4.5"
-  },
-  "devDependencies": {
-    "appdmg": "^0.3.6"
-  }
+  "packageStatus": 200
 }
