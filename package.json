@@ -2,13 +2,14 @@
   "name": "repos-using-electron",
   "version": "1.0.0",
   "description": "A collection of all public repositories on GitHub that depend on `electron-prebuilt`",
+  "repository": "https://github.com/zeke/repos-using-electron",
   "main": "index.js",
   "scripts": {
     "start": "npm run discover",
     "discover": "node discover.js",
     "get-repo-data": "node get-repo-data.js",
     "get-repo-package-json": "node get-repo-package-json.js",
-    "test": "standard"
+    "test": "mocha && standard && standard-markdown"
   },
   "keywords": [
     "electron",
@@ -18,20 +19,30 @@
   "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
   "license": "MIT",
   "devDependencies": {
+    "chai": "^3.5.0",
     "dotenv": "^2.0.0",
     "get-repo-package-json": "^1.0.0",
     "github-url-to-object": "^2.2.3",
     "is-url": "^1.2.2",
     "limiter": "^1.1.0",
     "lodash.sortby": "^4.6.1",
+    "mocha": "^3.0.2",
     "object-values": "^1.0.0",
     "octokat": "^0.4.18",
     "path-exists": "^3.0.0",
     "pify": "^2.3.0",
     "request": "^2.74.0",
-    "standard": "^7.1.2"
+    "standard": "^8.0.0-beta.5",
+    "standard-markdown": "^1.2.1",
+    "standard-readme": "^1.0.20"
   },
   "dependencies": {
+    "nice-package": "^1.1.1",
     "require-dir": "^0.3.0"
+  },
+  "standard": {
+    "env": {
+      "mocha": true
+    }
   }
 }
