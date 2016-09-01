@@ -15,7 +15,7 @@ Object.keys(repos).forEach(basename => {
   let repo = require(filename)
 
   // bail if metadata is already present
-  if (repo.status === 404 || repo.packageStatus === 404) return
+  if (repo.status === 404 || repo.packageStatus) return
 
   limiter.removeTokens(1, function () {
     getPackageJSON(`${owner}/${name}`, function (err, pkg) {
