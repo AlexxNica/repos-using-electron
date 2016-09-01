@@ -8,6 +8,11 @@ describe('repos', function () {
     expect(repos.length).to.be.above(4400)
   })
 
+  they('always have a status and packageStatus of 200', function () {
+    expect(repos.every(repo => repo.status === 200)).to.equal(true)
+    expect(repos.every(repo => repo.packageStatus === 200)).to.equal(true)
+  })
+
   they('always have a name', function () {
     expect(repos.every(repo => repo.name.length > 0)).to.equal(true)
   })
