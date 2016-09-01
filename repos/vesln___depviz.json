@@ -1,0 +1,87 @@
+{
+  "id": 14359798,
+  "name": "depviz",
+  "fullName": "vesln/depviz",
+  "owner": {
+    "login": "vesln",
+    "id": 330048,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/330048?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/vesln",
+    "htmlUrl": "https://github.com/vesln",
+    "followersUrl": "https://api.github.com/users/vesln/followers",
+    "subscriptionsUrl": "https://api.github.com/users/vesln/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/vesln/orgs",
+    "reposUrl": "https://api.github.com/users/vesln/repos",
+    "receivedEventsUrl": "https://api.github.com/users/vesln/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "Quick and dirty Node.js module dependency visualization with Graphviz",
+  "fork": false,
+  "createdAt": "2013-11-13T09:35:16.000Z",
+  "updatedAt": "2016-06-11T10:07:22.000Z",
+  "pushedAt": "2016-06-11T10:07:21.000Z",
+  "homepage": null,
+  "size": 11,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "depviz",
+    "version": "0.0.1",
+    "description": "Quick and dirty module dependency visualization with Graphviz.",
+    "main": "./lib/depviz.js",
+    "homepage": "https://github.com/vesln/depviz",
+    "scripts": {
+      "test": "./node_modules/.bin/mocha test/*.test.js",
+      "pretest": "./node_modules/.bin/jshint .",
+      "coverage": "istanbul cover ./node_modules/.bin/_mocha test/*.test.js",
+      "coveralls": "istanbul cover ./node_modules/.bin/_mocha test/*.test.js --report lcovonly && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/vesln/depviz"
+    },
+    "devDependencies": {
+      "mocha": "~1.13.0",
+      "chai": "~1.8.1",
+      "jshint": "~2.3.0",
+      "coveralls": "~2.3.0",
+      "istanbul": "~0.1.44"
+    },
+    "author": "Veselin Todorov <hi@vesln.com>",
+    "license": "MIT",
+    "dependencies": {
+      "superagent": "~0.15.7",
+      "graphviz": "0.0.8",
+      "electron": "~0.4.0",
+      "sherlock": "~1.0.0"
+    }
+  },
+  "packageStatus": 200
+}

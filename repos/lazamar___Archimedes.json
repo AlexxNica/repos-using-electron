@@ -1,0 +1,88 @@
+{
+  "id": 44184828,
+  "name": "Archimedes",
+  "fullName": "lazamar/Archimedes",
+  "owner": {
+    "login": "lazamar",
+    "id": 11493705,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11493705?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/lazamar",
+    "htmlUrl": "https://github.com/lazamar",
+    "followersUrl": "https://api.github.com/users/lazamar/followers",
+    "subscriptionsUrl": "https://api.github.com/users/lazamar/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/lazamar/orgs",
+    "reposUrl": "https://api.github.com/users/lazamar/repos",
+    "receivedEventsUrl": "https://api.github.com/users/lazamar/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "A smart Mirror for the Internet of Things",
+  "fork": false,
+  "createdAt": "2015-10-13T15:12:29.000Z",
+  "updatedAt": "2015-10-20T18:10:21.000Z",
+  "pushedAt": "2016-01-07T03:27:53.000Z",
+  "homepage": null,
+  "size": 4053,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "archimedes",
+    "version": "0.1.0",
+    "description": "A smart mirror for the internet of things.",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "sass scss/main.scss css/main.css; electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lazamar/Archimedes.git"
+    },
+    "keywords": [
+      "Archimedes",
+      "Smart",
+      "Mirror",
+      "Internet",
+      "of",
+      "things",
+      "Raspberry",
+      "Pi",
+      "Electron",
+      "Arm"
+    ],
+    "author": "Marcelo Lazaroni - lazaronijunior@gmail.com",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/lazamar/Archimedes/issues"
+    },
+    "homepage": "https://github.com/lazamar/Archimedes#readme",
+    "devDependencies": {
+      "electron": "^0.4.1",
+      "request": "^2.65.0"
+    },
+    "dependencies": {
+      "moment": "~2.10.6"
+    }
+  },
+  "packageStatus": 200
+}

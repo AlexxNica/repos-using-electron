@@ -1,0 +1,97 @@
+{
+  "id": 20385237,
+  "name": "anavis",
+  "fullName": "learningmedia/anavis",
+  "owner": {
+    "login": "learningmedia",
+    "id": 6445281,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6445281?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/learningmedia",
+    "htmlUrl": "https://github.com/learningmedia",
+    "followersUrl": "https://api.github.com/users/learningmedia/followers",
+    "subscriptionsUrl": "https://api.github.com/users/learningmedia/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/learningmedia/orgs",
+    "reposUrl": "https://api.github.com/users/learningmedia/repos",
+    "receivedEventsUrl": "https://api.github.com/users/learningmedia/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "description": "anavis is a tool to visualize musical form",
+  "fork": false,
+  "createdAt": "2014-06-01T20:04:18.000Z",
+  "updatedAt": "2016-01-17T21:33:37.000Z",
+  "pushedAt": "2016-07-24T20:51:49.000Z",
+  "homepage": null,
+  "size": 2834,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "organization": {
+    "login": "learningmedia",
+    "id": 6445281,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6445281?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/learningmedia",
+    "htmlUrl": "https://github.com/learningmedia",
+    "followersUrl": "https://api.github.com/users/learningmedia/followers",
+    "subscriptionsUrl": "https://api.github.com/users/learningmedia/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/learningmedia/orgs",
+    "reposUrl": "https://api.github.com/users/learningmedia/repos",
+    "receivedEventsUrl": "https://api.github.com/users/learningmedia/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "devDependencies": {
+      "asar": "~0.7.2",
+      "electron-prebuilt": "~0.35.1",
+      "fs-jetpack": "~0.7.0",
+      "gulp": "~3.9.0",
+      "gulp-autoprefixer": "~3.1.0",
+      "gulp-less": "~3.0.3",
+      "gulp-util": "~3.0.6",
+      "q": "~1.4.1",
+      "rollup": "~0.21.0",
+      "rollup-plugin-json": "~2.0.1",
+      "rollup-plugin-string": "~1.0.1",
+      "tree-kill": "~0.1.1",
+      "yargs": "~3.15.0"
+    },
+    "optionalDependencies": {
+      "appdmg": "~0.3.2",
+      "rcedit": "~0.3.0"
+    },
+    "scripts": {
+      "postinstall": "cd app && npm install",
+      "build": "gulp build",
+      "release": "gulp release --env=production",
+      "start": "node ./tasks/start",
+      "test": "node ./tasks/start --env=test"
+    }
+  },
+  "packageStatus": 200
+}

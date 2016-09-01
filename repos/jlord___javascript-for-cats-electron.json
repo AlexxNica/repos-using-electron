@@ -1,0 +1,71 @@
+{
+  "id": 65966486,
+  "name": "javascript-for-cats-electron",
+  "fullName": "jlord/javascript-for-cats-electron",
+  "owner": {
+    "login": "jlord",
+    "id": 1305617,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1305617?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/jlord",
+    "htmlUrl": "https://github.com/jlord",
+    "followersUrl": "https://api.github.com/users/jlord/followers",
+    "subscriptionsUrl": "https://api.github.com/users/jlord/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/jlord/orgs",
+    "reposUrl": "https://api.github.com/users/jlord/repos",
+    "receivedEventsUrl": "https://api.github.com/users/jlord/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": ":cat2: :computer: JavaScript for Cats...on Electron",
+  "fork": false,
+  "createdAt": "2016-08-18T05:00:34.000Z",
+  "updatedAt": "2016-08-28T15:29:48.000Z",
+  "pushedAt": "2016-08-20T05:36:23.000Z",
+  "homepage": "",
+  "size": 6676,
+  "stargazersCount": 14,
+  "watchersCount": 14,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 14,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 2,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "javascript-for-cats-electron",
+    "version": "1.0.0",
+    "productName": "JavaScript for Cats",
+    "description": "JavaScript for Cats on your desktop in Electron.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "pack-all": "npm run pack-mac && npm run pack-lin && npm run pack-win",
+      "pack-mac": "electron-packager . JSforCats --platform=darwin --arch=x64   --icon=images/jsforcats.icns --overwrite --ignore=/out/ --prune=true --out=out",
+      "pack-lin": "electron-packager . JSforCats --platform=linux  --arch=x64   --icon=images/jsforcats.png  --overwrite --ignore=/out/ --prune=true --out=out",
+      "pack-win": "electron-packager . JSforCats --platform=win32  --arch=ia32  --icon=images/jsforcats.ico  --overwrite --ignore=/out/ --prune=true --out=out"
+    },
+    "author": "Max Ogden / Jessica Lord",
+    "license": "BSD",
+    "devDependencies": {
+      "electron": "^1.3.3",
+      "electron-packager": "^7.6.0",
+      "marked": "^0.3.6"
+    }
+  },
+  "packageStatus": 200
+}

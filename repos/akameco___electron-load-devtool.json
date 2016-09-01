@@ -1,0 +1,93 @@
+{
+  "id": 65753987,
+  "name": "electron-load-devtool",
+  "fullName": "akameco/electron-load-devtool",
+  "owner": {
+    "login": "akameco",
+    "id": 4002137,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4002137?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/akameco",
+    "htmlUrl": "https://github.com/akameco",
+    "followersUrl": "https://api.github.com/users/akameco/followers",
+    "subscriptionsUrl": "https://api.github.com/users/akameco/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/akameco/orgs",
+    "reposUrl": "https://api.github.com/users/akameco/repos",
+    "receivedEventsUrl": "https://api.github.com/users/akameco/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "Easily load dev tool for electron",
+  "fork": false,
+  "createdAt": "2016-08-15T18:12:36.000Z",
+  "updatedAt": "2016-08-21T00:26:57.000Z",
+  "pushedAt": "2016-08-24T04:44:56.000Z",
+  "homepage": "",
+  "size": 12,
+  "stargazersCount": 4,
+  "watchersCount": 4,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 4,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-load-devtool",
+    "version": "0.3.0",
+    "description": "Easily load dev-tool for electron",
+    "license": "MIT",
+    "repository": "akameco/electron-load-devtool",
+    "author": {
+      "name": "akameco",
+      "email": "akameco.t@gmail.com",
+      "url": "akameco.github.io"
+    },
+    "scripts": {
+      "start": "electron fixture.js",
+      "test": "xo"
+    },
+    "files": [
+      "index.js"
+    ],
+    "keywords": [
+      "electron",
+      "chrome",
+      "extention"
+    ],
+    "dependencies": {
+      "electron-is-dev": "^0.1.2"
+    },
+    "devDependencies": {
+      "electron": "^1.3.3",
+      "xo": "^0.16.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
+}

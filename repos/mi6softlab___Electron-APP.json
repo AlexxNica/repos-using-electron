@@ -1,0 +1,66 @@
+{
+  "id": 67078357,
+  "name": "Electron-APP",
+  "fullName": "mi6softlab/Electron-APP",
+  "owner": {
+    "login": "mi6softlab",
+    "id": 6600716,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6600716?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mi6softlab",
+    "htmlUrl": "https://github.com/mi6softlab",
+    "followersUrl": "https://api.github.com/users/mi6softlab/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mi6softlab/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mi6softlab/orgs",
+    "reposUrl": "https://api.github.com/users/mi6softlab/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mi6softlab/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "chatAPP",
+  "fork": false,
+  "createdAt": "2016-08-31T22:34:25.000Z",
+  "updatedAt": "2016-08-31T22:37:44.000Z",
+  "pushedAt": "2016-08-31T22:37:42.000Z",
+  "homepage": null,
+  "size": 588,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "test-app",
+    "version": "1.0.0",
+    "description": "This is a test app",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . test-app --platform=win32 --arch=all --ignore=node_modules/electron-* --version=1.0.0 --icon=assets/img/logo.png.icns --out=build/"
+    },
+    "author": "mi6softlab",
+    "license": "ISC",
+    "devDependencies": {
+      "asar": "^0.11.0",
+      "electron-packager": "^7.0.3",
+      "electron-prebuilt": "^1.2.1"
+    }
+  },
+  "packageStatus": 200
+}

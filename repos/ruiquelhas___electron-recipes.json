@@ -1,0 +1,122 @@
+{
+  "id": 66865207,
+  "name": "electron-recipes",
+  "fullName": "ruiquelhas/electron-recipes",
+  "owner": {
+    "login": "ruiquelhas",
+    "id": 413255,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/413255?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/ruiquelhas",
+    "htmlUrl": "https://github.com/ruiquelhas",
+    "followersUrl": "https://api.github.com/users/ruiquelhas/followers",
+    "subscriptionsUrl": "https://api.github.com/users/ruiquelhas/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/ruiquelhas/orgs",
+    "reposUrl": "https://api.github.com/users/ruiquelhas/repos",
+    "receivedEventsUrl": "https://api.github.com/users/ruiquelhas/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "List of recipes as an electron app",
+  "fork": false,
+  "createdAt": "2016-08-29T17:32:48.000Z",
+  "updatedAt": "2016-08-29T21:46:55.000Z",
+  "pushedAt": "2016-09-01T20:32:24.000Z",
+  "homepage": null,
+  "size": 30,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 3,
+  "openIssues": 3,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-recipes",
+    "version": "0.0.0",
+    "description": "List of recipes as an electron app",
+    "keywords": [
+      "electron",
+      "react",
+      "recipes",
+      "redux"
+    ],
+    "homepage": "https://github.com/ruiquelhas/electron-recipes#readme",
+    "bugs": {
+      "url": "https://github.com/ruiquelhas/electron-recipes/issues"
+    },
+    "license": "MIT",
+    "author": "Rui Quelhas <rfpquelhas@gmail.com>",
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ruiquelhas/electron-recipes.git"
+    },
+    "scripts": {
+      "cleanup": "rm -rf dist",
+      "compile": "npm run cleanup && babel src --out-dir dist",
+      "cover": "npm run compile && istanbul cover _mocha -- $npm_package_options_mocha && npm run cleanup",
+      "lint": "standard main.js src/ test/",
+      "poststart": "npm run cleanup",
+      "posttest": "npm run cleanup",
+      "seed": "node ./src/helpers/seeder.js",
+      "start": "npm run compile && ./node_modules/.bin/electron main.js",
+      "test": "npm run compile && NODE_ENV=test mocha $npm_package_options_mocha"
+    },
+    "dependencies": {
+      "leveldown": "^1.4.6",
+      "levelup": "^1.3.2",
+      "react": "^15.3.1",
+      "react-dom": "^15.3.1",
+      "react-redux": "^4.4.5",
+      "redux": "^3.5.2",
+      "redux-thunk": "^2.1.0"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.14.0",
+      "babel-preset-react": "^6.11.1",
+      "babel-register": "^6.14.0",
+      "deep-freeze": "0.0.1",
+      "electron-prebuilt": "1.1.3",
+      "enzyme": "^2.4.1",
+      "faker": "^3.1.0",
+      "istanbul": "^0.4.5",
+      "lodash.times": "^4.3.2",
+      "mocha": "^3.0.2",
+      "pre-commit": "^1.1.3",
+      "react-addons-test-utils": "^15.3.1",
+      "spectron": "^3.3.0",
+      "standard": "^8.0.0"
+    },
+    "engine": {
+      "node": ">=6"
+    },
+    "options": {
+      "mocha": "--compilers js:babel-register --timeout 10000 --recursive test"
+    },
+    "pre-commit": [
+      "lint"
+    ]
+  },
+  "packageStatus": 200
+}

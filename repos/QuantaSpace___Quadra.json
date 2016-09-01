@@ -1,0 +1,101 @@
+{
+  "id": 64101628,
+  "name": "Quadra",
+  "fullName": "QuantaSpace/Quadra",
+  "owner": {
+    "login": "QuantaSpace",
+    "id": 20536826,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/20536826?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/QuantaSpace",
+    "htmlUrl": "https://github.com/QuantaSpace",
+    "followersUrl": "https://api.github.com/users/QuantaSpace/followers",
+    "subscriptionsUrl": "https://api.github.com/users/QuantaSpace/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/QuantaSpace/orgs",
+    "reposUrl": "https://api.github.com/users/QuantaSpace/repos",
+    "receivedEventsUrl": "https://api.github.com/users/QuantaSpace/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "description": "A GTD Application.",
+  "fork": false,
+  "createdAt": "2016-07-25T03:43:36.000Z",
+  "updatedAt": "2016-07-25T13:41:46.000Z",
+  "pushedAt": "2016-07-25T13:41:45.000Z",
+  "homepage": null,
+  "size": 31,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "featured": true
+  },
+  "organization": {
+    "login": "QuantaSpace",
+    "id": 20536826,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/20536826?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/QuantaSpace",
+    "htmlUrl": "https://github.com/QuantaSpace",
+    "followersUrl": "https://api.github.com/users/QuantaSpace/followers",
+    "subscriptionsUrl": "https://api.github.com/users/QuantaSpace/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/QuantaSpace/orgs",
+    "reposUrl": "https://api.github.com/users/QuantaSpace/repos",
+    "receivedEventsUrl": "https://api.github.com/users/QuantaSpace/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "quadra",
+    "version": "0.0.1",
+    "description": "A GTD Application",
+    "main": "src/main.js",
+    "dependencies": {},
+    "devDependencies": {
+      "electron-packager": "^7.3.0",
+      "electron-prebuilt": "^1.2.7",
+      "eslint": "^3.1.1",
+      "eslint-plugin-react": "^5.2.2"
+    },
+    "scripts": {
+      "start": "electron src/main.js",
+      "watch": "stylus -w -c src/windows/styles",
+      "package": "electron-packager . Quadra --platform=darwin --arch=all --version=1.2.7 --icon=quadra.icns --app-bundle-id=quantaspace --ignore=node_modules/eslint/ --ignore=node_modules/eslint-plugin-react/ --ignore=node_modules/.bin/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://Phantr4x@github.com/QuantaSpace/Quadra.git"
+    },
+    "keywords": [
+      "Electron",
+      "GTD"
+    ],
+    "author": "Phantr4x",
+    "license": "GPL-3.0+",
+    "bugs": {
+      "url": "https://github.com/QuantaSpace/Quadra/issues"
+    },
+    "homepage": "https://github.com/QuantaSpace/Quadra#readme"
+  },
+  "packageStatus": 200
+}

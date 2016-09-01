@@ -1,0 +1,83 @@
+{
+  "id": 62014116,
+  "name": "gen",
+  "fullName": "apwan06/gen",
+  "owner": {
+    "login": "apwan06",
+    "id": 7541007,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7541007?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/apwan06",
+    "htmlUrl": "https://github.com/apwan06",
+    "followersUrl": "https://api.github.com/users/apwan06/followers",
+    "subscriptionsUrl": "https://api.github.com/users/apwan06/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/apwan06/orgs",
+    "reposUrl": "https://api.github.com/users/apwan06/repos",
+    "receivedEventsUrl": "https://api.github.com/users/apwan06/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "Online Music Generator",
+  "fork": false,
+  "createdAt": "2016-06-27T00:12:34.000Z",
+  "updatedAt": "2016-08-31T11:58:08.000Z",
+  "pushedAt": "2016-08-27T15:28:45.000Z",
+  "homepage": "https://scoreur.github.io/gen",
+  "size": 199445,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "MusicGenerator",
+    "version": "1.0.0",
+    "description": "A musical Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "coffee -m -c ./coffee/; grunt; grunt app; grunt web"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/apwan06/gen.git"
+    },
+    "keywords": [
+      "Electron",
+      "midi",
+      "score",
+      "generate"
+    ],
+    "author": "apwan06",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/apwan06/gen/issues"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0",
+      "grunt": "1.0.1",
+      "grunt-contrib-concat": "1.0.1",
+      "grunt-contrib-jade": "1.0.0",
+      "grunt-contrib-uglify": "1.0.1",
+      "grunt-jison": "1.3.3"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
+}

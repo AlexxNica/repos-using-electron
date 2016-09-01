@@ -1,0 +1,82 @@
+{
+  "id": 6115943,
+  "name": "geek",
+  "fullName": "logicalparadox/geek",
+  "owner": {
+    "login": "logicalparadox",
+    "id": 58988,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/58988?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/logicalparadox",
+    "htmlUrl": "https://github.com/logicalparadox",
+    "followersUrl": "https://api.github.com/users/logicalparadox/followers",
+    "subscriptionsUrl": "https://api.github.com/users/logicalparadox/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/logicalparadox/orgs",
+    "reposUrl": "https://api.github.com/users/logicalparadox/repos",
+    "receivedEventsUrl": "https://api.github.com/users/logicalparadox/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "Some tools for node geeks.",
+  "fork": false,
+  "createdAt": "2012-10-07T20:19:34.000Z",
+  "updatedAt": "2013-11-04T11:32:29.000Z",
+  "pushedAt": "2013-02-10T23:28:19.000Z",
+  "homepage": null,
+  "size": 148,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "geek",
+    "version": "0.2.4",
+    "description": "Tools for the node geek.",
+    "author": "Jake Luer <jake@alogicalparadox.com> (http://alogicalparadox.com)",
+    "license": "MIT",
+    "keywords": [],
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:logicalparadox/geek.git"
+    },
+    "engines": {
+      "node": "*"
+    },
+    "main": "./index",
+    "scripts": {
+      "test": "mocha"
+    },
+    "bin": {
+      "geek": "./bin/geek"
+    },
+    "dependencies": {
+      "breeze": "0.4.x",
+      "dox": "*",
+      "electron": "0.3.x",
+      "filtr": "0.3.x",
+      "fsagent": "0.3.x"
+    },
+    "devDependencies": {
+      "chai": "*",
+      "mocha": "*"
+    }
+  },
+  "packageStatus": 200
+}

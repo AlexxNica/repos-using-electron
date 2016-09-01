@@ -1,0 +1,98 @@
+{
+  "id": 65510700,
+  "name": "dim",
+  "fullName": "Fiveside/dim",
+  "owner": {
+    "login": "Fiveside",
+    "id": 1858172,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1858172?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Fiveside",
+    "htmlUrl": "https://github.com/Fiveside",
+    "followersUrl": "https://api.github.com/users/Fiveside/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Fiveside/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Fiveside/orgs",
+    "reposUrl": "https://api.github.com/users/Fiveside/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Fiveside/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "Some sort of image viewer.",
+  "fork": false,
+  "createdAt": "2016-08-12T00:32:57.000Z",
+  "updatedAt": "2016-08-12T00:34:00.000Z",
+  "pushedAt": "2016-09-01T01:03:21.000Z",
+  "homepage": null,
+  "size": 53,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "TypeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mpl-2.0",
+    "name": "Mozilla Public License 2.0",
+    "spdxId": "MPL-2.0",
+    "url": "https://api.github.com/licenses/mpl-2.0",
+    "featured": false
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "dim",
+    "version": "0.0.1",
+    "description": "An image viewer",
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/Fiveside/dim.git"
+    },
+    "scripts": {
+      "start": "gulp",
+      "dev": "gulp dev",
+      "setup": "npm i && typings i"
+    },
+    "author": "Erich Healy",
+    "license": "MPL-2.0",
+    "devDependencies": {
+      "del": "^2.2.1",
+      "electron-prebuilt": "^1.3.4",
+      "eslint": "^3.4.0",
+      "gulp": "^3.9.1",
+      "gulp-run-electron": "^2.0.0",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-typescript": "^2.13.6",
+      "tslint": "^3.15.1",
+      "typescript": "^2.0.2",
+      "typings": "^1.3.3"
+    },
+    "dependencies": {
+      "bluebird": "^3.4.4",
+      "classnames": "^2.2.5",
+      "core-decorators": "^0.12.3",
+      "file-url": "^1.1.0",
+      "keypress": "git+https://github.com/dmauro/Keypress.git",
+      "lodash": "^4.15.0",
+      "mobx": "^2.5.0",
+      "mobx-react": "^3.5.5",
+      "natsort": "^1.0.6",
+      "react": "^15.3.1",
+      "react-dom": "^15.3.1",
+      "yauzl": "^2.6.0"
+    }
+  },
+  "packageStatus": 200
+}

@@ -1,0 +1,126 @@
+{
+  "id": 38115255,
+  "name": "telepat-worker",
+  "fullName": "telepat-io/telepat-worker",
+  "owner": {
+    "login": "telepat-io",
+    "id": 12646345,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/12646345?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/telepat-io",
+    "htmlUrl": "https://github.com/telepat-io",
+    "followersUrl": "https://api.github.com/users/telepat-io/followers",
+    "subscriptionsUrl": "https://api.github.com/users/telepat-io/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/telepat-io/orgs",
+    "reposUrl": "https://api.github.com/users/telepat-io/repos",
+    "receivedEventsUrl": "https://api.github.com/users/telepat-io/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "description": "Telepat Workers are responsible for processing requests coming from the API and sending notifications to clients",
+  "fork": false,
+  "createdAt": "2015-06-26T14:23:16.000Z",
+  "updatedAt": "2016-07-22T12:44:28.000Z",
+  "pushedAt": "2016-09-01T13:46:21.000Z",
+  "homepage": "http://telepat.io",
+  "size": 259,
+  "stargazersCount": 34,
+  "watchersCount": 34,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 9,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 34,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spdxId": null,
+    "url": null,
+    "featured": false
+  },
+  "organization": {
+    "login": "telepat-io",
+    "id": 12646345,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/12646345?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/telepat-io",
+    "htmlUrl": "https://github.com/telepat-io",
+    "followersUrl": "https://api.github.com/users/telepat-io/followers",
+    "subscriptionsUrl": "https://api.github.com/users/telepat-io/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/telepat-io/orgs",
+    "reposUrl": "https://api.github.com/users/telepat-io/repos",
+    "receivedEventsUrl": "https://api.github.com/users/telepat-io/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 9,
+  "subscribersCount": 7,
+  "status": 200,
+  "packageJSON": {
+    "name": "telepat-worker",
+    "version": "0.4.1",
+    "description": "Telepat Workers are responsible for processing requests coming from the API and sending notifications to clients",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:telepat-io/telepat-worker.git"
+    },
+    "keywords": [
+      "telepat",
+      "worker",
+      "kafka"
+    ],
+    "author": {
+      "name": "Răzvan Botea",
+      "email": "razvan@telepat.io"
+    },
+    "contributors": [
+      {
+        "name": "Răzvan Botea",
+        "email": "razvan@telepat.io"
+      },
+      {
+        "name": "Gabi Dobocan",
+        "email": "gabi@telepat.io"
+      }
+    ],
+    "engines": {
+      "node": ">=0.12.0"
+    },
+    "bugs": {
+      "url": "https://github.com/telepat-io/telepat-worker/issues"
+    },
+    "license": "Apache-2.0",
+    "dependencies": {
+      "apn": "^1.7.3",
+      "async": "1.5.0",
+      "bfj": "^1.1.0",
+      "clone": "^1.0.2",
+      "colors": "^1.1.0",
+      "electron": "^0.4.1",
+      "hiredis": "^0.4.0",
+      "mandrill-api": "^1.0.41",
+      "microtime-nodejs": "^1.0.0",
+      "node-gcm-service": "^0.2.8",
+      "object-sizeof": "^1.0.6",
+      "redis": "^0.12.1",
+      "socket.io": "1.4.4",
+      "telepat-models": "0.4.1",
+      "underscore": "1.8.3",
+      "uuid": "^2.0.1"
+    }
+  },
+  "packageStatus": 200
+}

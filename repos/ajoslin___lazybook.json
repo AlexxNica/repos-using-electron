@@ -1,0 +1,95 @@
+{
+  "id": 66395406,
+  "name": "lazybook",
+  "fullName": "ajoslin/lazybook",
+  "owner": {
+    "login": "ajoslin",
+    "id": 1265995,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1265995?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/ajoslin",
+    "htmlUrl": "https://github.com/ajoslin",
+    "followersUrl": "https://api.github.com/users/ajoslin/followers",
+    "subscriptionsUrl": "https://api.github.com/users/ajoslin/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/ajoslin/orgs",
+    "reposUrl": "https://api.github.com/users/ajoslin/repos",
+    "receivedEventsUrl": "https://api.github.com/users/ajoslin/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "Experimental Webpack module for a talk",
+  "fork": false,
+  "createdAt": "2016-08-23T19:07:58.000Z",
+  "updatedAt": "2016-08-25T03:54:06.000Z",
+  "pushedAt": "2016-08-31T04:12:23.000Z",
+  "homepage": "",
+  "size": 5,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "lazybook",
+    "main": "index.js",
+    "version": "1.0.1",
+    "description": "Create async-loaded apis that aren't async from the outside",
+    "license": "MIT",
+    "repository": "ajoslin/lazybook",
+    "author": {
+      "name": "Andrew Joslin",
+      "email": "andrewtjoslin@gmail.com",
+      "url": "ajoslin.com"
+    },
+    "scripts": {
+      "test": "standard && webpack && electron dist/bundle.js"
+    },
+    "keywords": [
+      "lazy",
+      "async",
+      "webpack",
+      "systemjs",
+      "load",
+      "facade",
+      "api"
+    ],
+    "devDependencies": {
+      "browserify": "~13.1.0",
+      "electron": "~1.3.4",
+      "hihat": "~2.6.4",
+      "standard": "^7.0.0",
+      "tape": "^4.0.0",
+      "webpack": "~2.1.0-beta.21"
+    },
+    "files": [
+      "*.js",
+      "test/*.js"
+    ],
+    "dependencies": {
+      "assert": "~1.4.1"
+    }
+  },
+  "packageStatus": 200
+}

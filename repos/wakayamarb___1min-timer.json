@@ -1,0 +1,112 @@
+{
+  "id": 66328605,
+  "name": "1min-timer",
+  "fullName": "wakayamarb/1min-timer",
+  "owner": {
+    "login": "wakayamarb",
+    "id": 17941665,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/17941665?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/wakayamarb",
+    "htmlUrl": "https://github.com/wakayamarb",
+    "followersUrl": "https://api.github.com/users/wakayamarb/followers",
+    "subscriptionsUrl": "https://api.github.com/users/wakayamarb/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/wakayamarb/orgs",
+    "reposUrl": "https://api.github.com/users/wakayamarb/repos",
+    "receivedEventsUrl": "https://api.github.com/users/wakayamarb/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "description": "Electron based application sample with tests.",
+  "fork": false,
+  "createdAt": "2016-08-23T03:08:34.000Z",
+  "updatedAt": "2016-08-26T02:37:54.000Z",
+  "pushedAt": "2016-08-27T15:58:19.000Z",
+  "homepage": "",
+  "size": 77070,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "organization": {
+    "login": "wakayamarb",
+    "id": 17941665,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/17941665?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/wakayamarb",
+    "htmlUrl": "https://github.com/wakayamarb",
+    "followersUrl": "https://api.github.com/users/wakayamarb/followers",
+    "subscriptionsUrl": "https://api.github.com/users/wakayamarb/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/wakayamarb/orgs",
+    "reposUrl": "https://api.github.com/users/wakayamarb/repos",
+    "receivedEventsUrl": "https://api.github.com/users/wakayamarb/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 4,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-sample-app",
+    "version": "0.1.1",
+    "description": "Desktop application developmental envvironment sample with Electron.",
+    "main": "main.js",
+    "scripts": {
+      "start": "$(npm bin)/electron ./main.js",
+      "build-darwin": "$(npm bin)/electron-packager . 1min --out=./build --platform=darwin --arch=x64 --overwrite --icon=images/icon.icns",
+      "build-win32": "$(npm bin)/electron-packager . 1min --out=./build --platform=win32 --arch=x64 --overwrite",
+      "build-linux": "$(npm bin)/electron-packager . 1min --out=./build --platform=linux --arch=x64 --overwrite",
+      "build": "echo '[warnning] Win32 build is eliminated from default build settings due to too long build process.' && npm run build-darwin; npm run build-linux",
+      "lint": "$(npm bin)/eslint -c './.eslintrc.json' ./",
+      "icons": "echo '[warnning] This script depends on MacOS with sketch.' && $(npm bin)/gulp icons",
+      "unit-test": "$(npm bin)/mocha --compilers js:babel-register test/**/*_unit.js",
+      "webdriver-update": "$(npm bin)/webdriver-manager update",
+      "e2e-test": "$(npm bin)/protractor protractor.conf.js;",
+      "test": "npm run unit-test && npm run e2e-test"
+    },
+    "author": "KamataRyo",
+    "license": "MIT",
+    "devDependencies": {
+      "babel-cli": "^6.14.0",
+      "babel-plugin-espower": "^2.3.1",
+      "babel-preset-es2015": "^6.14.0",
+      "babel-preset-power-assert": "^1.0.0",
+      "babel-register": "^6.7.2",
+      "chromedriver": "^2.23.1",
+      "electron-packager": "^7.7.0",
+      "electron-prebuilt": "^1.2.7",
+      "eslint": "^3.3.1",
+      "gulp": "^3.9.1",
+      "gulp-iconutil": "^1.2.0",
+      "gulp-sketch": "^1.0.3",
+      "mocha": "^3.0.2",
+      "protractor": "^4.0.4",
+      "should": "^11.1.0"
+    },
+    "directories": {
+      "test": "test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wakayamarb/1min-timer.git"
+    },
+    "bugs": {
+      "url": "https://github.com/wakayamarb/1min-timer/issues"
+    },
+    "homepage": "https://github.com/wakayamarb/1min-timer#readme"
+  },
+  "packageStatus": 200
+}

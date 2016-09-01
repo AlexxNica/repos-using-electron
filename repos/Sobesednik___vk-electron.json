@@ -1,0 +1,98 @@
+{
+  "id": 63705438,
+  "name": "vk-electron",
+  "fullName": "Sobesednik/vk-electron",
+  "owner": {
+    "login": "Sobesednik",
+    "id": 18507473,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/18507473?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Sobesednik",
+    "htmlUrl": "https://github.com/Sobesednik",
+    "followersUrl": "https://api.github.com/users/Sobesednik/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Sobesednik/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Sobesednik/orgs",
+    "reposUrl": "https://api.github.com/users/Sobesednik/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Sobesednik/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "description": "An Electron app to work with VK.com API",
+  "fork": false,
+  "createdAt": "2016-07-19T15:19:40.000Z",
+  "updatedAt": "2016-07-19T15:24:22.000Z",
+  "pushedAt": "2016-07-24T11:14:14.000Z",
+  "homepage": null,
+  "size": 22,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "organization": {
+    "login": "Sobesednik",
+    "id": 18507473,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/18507473?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Sobesednik",
+    "htmlUrl": "https://github.com/Sobesednik",
+    "followersUrl": "https://api.github.com/users/Sobesednik/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Sobesednik/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Sobesednik/orgs",
+    "reposUrl": "https://api.github.com/users/Sobesednik/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Sobesednik/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "vk-electron",
+    "version": "1.0.0",
+    "description": "An electron app to work with VK.com API",
+    "main": "electron-main.js",
+    "dependencies": {
+      "debug": "^2.2.0",
+      "koa": "^1.2.0",
+      "koa-router": "^5.4.0",
+      "koa-static": "^2.0.0",
+      "koa-views": "^4.1.0",
+      "nunjucks": "^2.4.2",
+      "request": "^2.73.0"
+    },
+    "devDependencies": {
+      "bower": "^1.7.9",
+      "electron-packager": "^7.3.0",
+      "electron-prebuilt": "^1.2.7"
+    },
+    "scripts": {
+      "electron": "DEBUG=app:*,electron-vk-oauth2 electron .",
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "postinstall": "bower install",
+      "build": "electron-packager . --platform=darwin --arch=x64 --asar --prune --out build"
+    },
+    "author": "Anton <anton@sobesednik.media>",
+    "license": "MIT"
+  },
+  "packageStatus": 200
+}

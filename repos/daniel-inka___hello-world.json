@@ -1,0 +1,90 @@
+{
+  "id": 64732611,
+  "name": "hello-world",
+  "fullName": "daniel-inka/hello-world",
+  "owner": {
+    "login": "daniel-inka",
+    "id": 11153426,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11153426?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/daniel-inka",
+    "htmlUrl": "https://github.com/daniel-inka",
+    "followersUrl": "https://api.github.com/users/daniel-inka/followers",
+    "subscriptionsUrl": "https://api.github.com/users/daniel-inka/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/daniel-inka/orgs",
+    "reposUrl": "https://api.github.com/users/daniel-inka/repos",
+    "receivedEventsUrl": "https://api.github.com/users/daniel-inka/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "Hello from the other side~",
+  "fork": false,
+  "createdAt": "2016-08-02T06:59:19.000Z",
+  "updatedAt": "2016-08-02T07:14:29.000Z",
+  "pushedAt": "2016-08-02T07:14:28.000Z",
+  "homepage": null,
+  "size": 9238,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "PallyconElectron",
+    "version": "0.1.2",
+    "main": "./app/main.js",
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "start": "electron ./app --enalbe-logging",
+      "test": "electron ./app test1 test2",
+      "dev": "NODE_ENV='development' npm run start",
+      "dist": "npm run dist:osx && npm run dist:win32 && npm run dist:win64",
+      "dist:osx": "build --platform darwin",
+      "dist:win32": "build --platform win32 --arch ia32",
+      "dist:win64": "build --platform win32 --arch x64"
+    },
+    "devDependencies": {
+      "electron-builder": "^5.12.1",
+      "electron-prebuilt": "^1.2.6"
+    },
+    "build": {
+      "appId": "com.pallycon.electron",
+      "app-category-type": "public.app-category.video",
+      "iconUrl": "http://pallycon.com/media/pallycon-icon.ico",
+      "win": {
+        "iconUrl": "http://pallycon.com/media/pallycon-icon.ico"
+      },
+      "extraResources": [
+        "widevine"
+      ],
+      "protocols": [
+        {
+          "name": "PallyconElectron",
+          "schemes": [
+            "pallycon-electron"
+          ]
+        }
+      ]
+    },
+    "dependencies": {
+      "xmlhttprequest": "^1.8.0"
+    }
+  },
+  "packageStatus": 200
+}

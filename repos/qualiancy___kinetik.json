@@ -1,0 +1,94 @@
+{
+  "id": 3417806,
+  "name": "kinetik",
+  "fullName": "qualiancy/kinetik",
+  "owner": {
+    "login": "qualiancy",
+    "id": 1142083,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1142083?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/qualiancy",
+    "htmlUrl": "https://github.com/qualiancy",
+    "followersUrl": "https://api.github.com/users/qualiancy/followers",
+    "subscriptionsUrl": "https://api.github.com/users/qualiancy/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/qualiancy/orgs",
+    "reposUrl": "https://api.github.com/users/qualiancy/repos",
+    "receivedEventsUrl": "https://api.github.com/users/qualiancy/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "description": "A storage-agnostic, tag centric job queue for distributed applications.",
+  "fork": false,
+  "createdAt": "2012-02-11T20:57:25.000Z",
+  "updatedAt": "2016-03-31T12:03:04.000Z",
+  "pushedAt": "2014-01-06T04:45:10.000Z",
+  "homepage": "http://kinetik.qualiancy.com",
+  "size": 376,
+  "stargazersCount": 60,
+  "watchersCount": 60,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 3,
+  "openIssuesCount": 4,
+  "openIssues": 4,
+  "watchers": 60,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "organization": {
+    "login": "qualiancy",
+    "id": 1142083,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1142083?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/qualiancy",
+    "htmlUrl": "https://github.com/qualiancy",
+    "followersUrl": "https://api.github.com/users/qualiancy/followers",
+    "subscriptionsUrl": "https://api.github.com/users/qualiancy/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/qualiancy/orgs",
+    "reposUrl": "https://api.github.com/users/qualiancy/repos",
+    "receivedEventsUrl": "https://api.github.com/users/qualiancy/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 3,
+  "subscribersCount": 4,
+  "status": 200,
+  "packageJSON": {
+    "author": "Jake Luer <jake@alogicalparadox.com>",
+    "name": "kinetik",
+    "description": "A storage-agnostic, tag centric job queue for distributed applications.",
+    "version": "0.3.1",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/qualiancy/kinetik.git"
+    },
+    "main": "./index",
+    "scripts": {
+      "test": "make test"
+    },
+    "engines": {
+      "node": ">= 0.6.0"
+    },
+    "dependencies": {
+      "debug": "*",
+      "electron": "0.2.x",
+      "idris": "0.2.x",
+      "seed": "0.4.x"
+    },
+    "devDependencies": {
+      "mocha": "*",
+      "chai": "*",
+      "chai-spies": "*",
+      "seed-redis": "*",
+      "seed-mongodb": "*"
+    },
+    "optionalDependencies": {}
+  },
+  "packageStatus": 200
+}

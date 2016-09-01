@@ -1,0 +1,69 @@
+{
+  "id": 56536550,
+  "name": "ElectronTemplate",
+  "fullName": "locomain/ElectronTemplate",
+  "owner": {
+    "login": "locomain",
+    "id": 1795993,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1795993?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/locomain",
+    "htmlUrl": "https://github.com/locomain",
+    "followersUrl": "https://api.github.com/users/locomain/followers",
+    "subscriptionsUrl": "https://api.github.com/users/locomain/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/locomain/orgs",
+    "reposUrl": "https://api.github.com/users/locomain/repos",
+    "receivedEventsUrl": "https://api.github.com/users/locomain/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "personal start template ",
+  "fork": false,
+  "createdAt": "2016-04-18T19:38:53.000Z",
+  "updatedAt": "2016-04-18T19:45:34.000Z",
+  "pushedAt": "2016-04-20T20:08:53.000Z",
+  "homepage": null,
+  "size": 1696,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "app",
+    "author": "Angelo",
+    "version": "0.0.0",
+    "main": "app/app.js",
+    "scripts": {
+      "start": "electron .",
+      "package": "asar p ./TemplateApp-win32-x64/resources/app app.asar",
+      "build": "electron-packager . TemplateApp --platform=win32 --arch=all --icon=./app/icon.ico --ignore=node_modules/electron-* --overwrite --app-bundle-id=com.locomain.template --version-string.FileDescription=TemplateApp"
+    },
+    "dependencies": {
+      "electron-prebuilt": "*"
+    },
+    "devDependencies": {
+      "asar": "^0.11.0",
+      "electron-packager": "^6.0.2",
+      "grunt": "^1.0.1",
+      "gulp": "^3.9.1"
+    }
+  },
+  "packageStatus": 200
+}

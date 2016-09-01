@@ -1,0 +1,93 @@
+{
+  "id": 66909739,
+  "name": "reactron",
+  "fullName": "shanewignall/reactron",
+  "owner": {
+    "login": "shanewignall",
+    "id": 10188338,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/10188338?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/shanewignall",
+    "htmlUrl": "https://github.com/shanewignall",
+    "followersUrl": "https://api.github.com/users/shanewignall/followers",
+    "subscriptionsUrl": "https://api.github.com/users/shanewignall/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/shanewignall/orgs",
+    "reposUrl": "https://api.github.com/users/shanewignall/repos",
+    "receivedEventsUrl": "https://api.github.com/users/shanewignall/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "A simple electron/react seed project for SPAs",
+  "fork": false,
+  "createdAt": "2016-08-30T05:33:22.000Z",
+  "updatedAt": "2016-08-30T05:35:25.000Z",
+  "pushedAt": "2016-08-30T05:37:01.000Z",
+  "homepage": null,
+  "size": 25,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "reactron",
+    "version": "1.0.0",
+    "description": "Minimal seed for electron/react single page applications",
+    "main": "index.js",
+    "scripts": {
+      "start": "./node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron .",
+      "watch": "./node_modules/.bin/webpack-dev-server",
+      "electron-rebuild": "./node_modules/.bin/electron-rebuild"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/shanewignall/reactron.git"
+    },
+    "keywords": [
+      "react",
+      "electron",
+      "seed",
+      "boilerplate"
+    ],
+    "author": "Shane Wignall",
+    "license": "ISC",
+    "dependencies": {
+      "electron-prebuilt": "*",
+      "react": "*",
+      "react-bootstrap": "*",
+      "react-dom": "*",
+      "react-router": "*"
+    },
+    "devDependencies": {
+      "babel-cli": "*",
+      "babel-loader": "^6.2.5",
+      "babel-preset-react": "^6.11.1",
+      "css-loader": "*",
+      "electron-packager": "*",
+      "electron-rebuild": "*",
+      "webpack": "*",
+      "webpack-dev-server": "*"
+    },
+    "bugs": {
+      "url": "https://github.com/shanewignall/reactron/issues"
+    },
+    "homepage": "https://github.com/shanewignall/reactron#readme"
+  },
+  "packageStatus": 200
+}

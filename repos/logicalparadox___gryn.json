@@ -1,0 +1,83 @@
+{
+  "id": 4193028,
+  "name": "gryn",
+  "fullName": "logicalparadox/gryn",
+  "owner": {
+    "login": "logicalparadox",
+    "id": 58988,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/58988?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/logicalparadox",
+    "htmlUrl": "https://github.com/logicalparadox",
+    "followersUrl": "https://api.github.com/users/logicalparadox/followers",
+    "subscriptionsUrl": "https://api.github.com/users/logicalparadox/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/logicalparadox/orgs",
+    "reposUrl": "https://api.github.com/users/logicalparadox/repos",
+    "receivedEventsUrl": "https://api.github.com/users/logicalparadox/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "Procfile process management on node.",
+  "fork": false,
+  "createdAt": "2012-05-01T14:36:55.000Z",
+  "updatedAt": "2013-10-09T01:06:09.000Z",
+  "pushedAt": "2013-03-05T23:02:44.000Z",
+  "homepage": "",
+  "size": 159,
+  "stargazersCount": 3,
+  "watchersCount": 3,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 2,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 3,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 2,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "gryn",
+    "version": "0.3.1",
+    "description": "Procfile based process management.",
+    "author": "Jake Luer <jake@alogicalpardox.com> (http://alogicalparadox.com)",
+    "license": "MIT",
+    "contributors": [],
+    "keywords": [
+      "procfile"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:logicalparadox/gryn.git"
+    },
+    "engines": {
+      "node": ">= 0.8.0"
+    },
+    "bin": {
+      "gryn": "./bin/gryn"
+    },
+    "main": "./index",
+    "scripts": {
+      "test": "make test"
+    },
+    "dependencies": {
+      "electron": "0.4.x",
+      "fsagent": "0.4.x",
+      "flynn": "0.2.x"
+    },
+    "devDependencies": {
+      "chai": "*",
+      "mocha": "*"
+    }
+  },
+  "packageStatus": 200
+}

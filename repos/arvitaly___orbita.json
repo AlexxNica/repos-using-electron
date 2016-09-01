@@ -1,0 +1,80 @@
+{
+  "id": 66755089,
+  "name": "orbita",
+  "fullName": "arvitaly/orbita",
+  "owner": {
+    "login": "arvitaly",
+    "id": 2562855,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2562855?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/arvitaly",
+    "htmlUrl": "https://github.com/arvitaly",
+    "followersUrl": "https://api.github.com/users/arvitaly/followers",
+    "subscriptionsUrl": "https://api.github.com/users/arvitaly/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/arvitaly/orgs",
+    "reposUrl": "https://api.github.com/users/arvitaly/repos",
+    "receivedEventsUrl": "https://api.github.com/users/arvitaly/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "Orbita: framework for Atom/Electron with reactive windows controller and nanoservice's support",
+  "fork": false,
+  "createdAt": "2016-08-28T07:17:14.000Z",
+  "updatedAt": "2016-08-28T13:21:56.000Z",
+  "pushedAt": "2016-09-01T10:44:34.000Z",
+  "homepage": "",
+  "size": 44,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "orbita",
+    "version": "1.5.6",
+    "description": "Framework for Atom/Electron with reactive windows controller and nanoservice's support",
+    "main": "index.js",
+    "scripts": {
+      "test": "electron test.js spec/index-spec.js && electron test.js spec/interservices-spec.js && cd bin-test && npm test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/arvitaly/orbita.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/arvitaly/orbita/issues"
+    },
+    "dependencies": {
+      "deep-extend": "^0.4.1",
+      "electron-prebuilt": "0.36.0",
+      "nanoservice": "^0.1.1"
+    },
+    "bin": {
+      "orbita": "./bin-start.js"
+    },
+    "homepage": "https://github.com/arvitaly/orbita#readme",
+    "devDependencies": {
+      "jasmine": "^2.4.1"
+    }
+  },
+  "packageStatus": 200
+}

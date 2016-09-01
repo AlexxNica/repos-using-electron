@@ -1,0 +1,81 @@
+{
+  "id": 66391447,
+  "name": "app-2afc",
+  "fullName": "sofroniewn/app-2afc",
+  "owner": {
+    "login": "sofroniewn",
+    "id": 6531703,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6531703?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/sofroniewn",
+    "htmlUrl": "https://github.com/sofroniewn",
+    "followersUrl": "https://api.github.com/users/sofroniewn/followers",
+    "subscriptionsUrl": "https://api.github.com/users/sofroniewn/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/sofroniewn/orgs",
+    "reposUrl": "https://api.github.com/users/sofroniewn/repos",
+    "receivedEventsUrl": "https://api.github.com/users/sofroniewn/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "Electron app for running a 2AFC experiment",
+  "fork": false,
+  "createdAt": "2016-08-23T18:11:44.000Z",
+  "updatedAt": "2016-08-23T18:11:49.000Z",
+  "pushedAt": "2016-08-23T18:29:02.000Z",
+  "homepage": null,
+  "size": 5,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "app-2afc",
+    "version": "1.0.3",
+    "description": "Electron app for running a 2AFC experiment",
+    "main": "electron main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sofroniewn/app-2afc.git"
+    },
+    "keywords": [
+      "app",
+      "2afc"
+    ],
+    "author": "Nicholas Sofroniew",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/sofroniewn/app-2afc/issues"
+    },
+    "homepage": "https://github.com/sofroniewn/app-2afc#readme",
+    "dependencies": {
+      "device-stream-2choice-stdin": "^1.0.1",
+      "electron": "^1.3.4",
+      "electron-ipc-stream": "^0.2.0",
+      "experiment-stream-2choice-2afc": "^1.0.1",
+      "lightning-line-streaming": "0.0.8",
+      "lightning-stream": "^1.0.0"
+    }
+  },
+  "packageStatus": 200
+}

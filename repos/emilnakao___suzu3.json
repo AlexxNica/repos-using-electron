@@ -1,0 +1,118 @@
+{
+  "id": 41334910,
+  "name": "suzu3",
+  "fullName": "emilnakao/suzu3",
+  "owner": {
+    "login": "emilnakao",
+    "id": 1010806,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1010806?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/emilnakao",
+    "htmlUrl": "https://github.com/emilnakao",
+    "followersUrl": "https://api.github.com/users/emilnakao/followers",
+    "subscriptionsUrl": "https://api.github.com/users/emilnakao/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/emilnakao/orgs",
+    "reposUrl": "https://api.github.com/users/emilnakao/repos",
+    "receivedEventsUrl": "https://api.github.com/users/emilnakao/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "",
+  "fork": false,
+  "createdAt": "2015-08-25T01:04:30.000Z",
+  "updatedAt": "2016-08-08T18:35:38.000Z",
+  "pushedAt": "2016-08-07T19:55:26.000Z",
+  "homepage": null,
+  "size": 13,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "suzu3",
+    "version": "0.0.1",
+    "description": "Sistema de Controle de Presenças",
+    "main": "electronApp.js",
+    "scripts": {
+      "start": "ENV=development electron .",
+      "server": "babel-node devServer.js",
+      "dev": "concurrently -k 'babel-node devServer.js' 'npm start'",
+      "test": "karma"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/emilnakao/suzu3.git"
+    },
+    "keywords": [
+      "suzu",
+      "presence",
+      "control"
+    ],
+    "author": "Emil Nakao",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/emilnakao/suzu3/issues"
+    },
+    "homepage": "https://github.com/emilnakao/suzu3#readme",
+    "dependencies": {
+      "bootstrap": "^3.3.7",
+      "electron": "^1.3.2",
+      "less": "^2.7.1",
+      "react": "^15.3.0",
+      "react-dom": "^15.3.0",
+      "react-router": "^2.6.1"
+    },
+    "devDependencies": {
+      "autoprefixer": "^6.4.0",
+      "babel-cli": "^6.11.4",
+      "babel-core": "^6.13.2",
+      "babel-loader": "^6.2.4",
+      "babel-polyfill": "^6.13.0",
+      "babel-preset-es2015": "^6.13.2",
+      "babel-preset-react": "^6.11.1",
+      "babel-preset-stage-0": "^6.5.0",
+      "concurrently": "^2.2.0",
+      "css-loader": "^0.23.1",
+      "electron-packager": "^7.5.1",
+      "express": "^4.14.0",
+      "file-loader": "^0.9.0",
+      "json-loader": "^0.5.4",
+      "less": "^2.7.1",
+      "less-loader": "^2.2.3",
+      "postcss-loader": "^0.9.1",
+      "source-map-loader": "^0.1.5",
+      "style-loader": "^0.13.1",
+      "ts-loader": "^0.8.2",
+      "typescript": "^1.8.10",
+      "typings": "^1.3.2",
+      "webpack": "^1.13.1",
+      "webpack-dev-middleware": "^1.6.1",
+      "webpack-hot-middleware": "^2.12.2",
+      "webpack-target-electron-renderer": "^0.4.0"
+    }
+  },
+  "packageStatus": 200
+}
