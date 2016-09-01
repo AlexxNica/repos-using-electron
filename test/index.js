@@ -23,6 +23,7 @@ describe('repos', function () {
     const spectron = repos.find(repo => repo.fullName === 'electron/spectron')
 
     expect(spectron.pkg.dependsOn('dev-null')).to.equal(true)
-    expect(spectron.pkg.devDependsOn('dev-null')).to.equal(true)
+    expect(spectron.pkg.devDependsOn('mocha')).to.equal(true)
+    expect(spectron.pkg.somehowDependsOn('split')).to.equal(true)
   })
 })
