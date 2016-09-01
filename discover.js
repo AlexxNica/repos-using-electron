@@ -12,31 +12,34 @@ const limiter = new RateLimiter(1, 1000)
 const URL = require('url')
 const PER_PAGE = 100
 
-let packageName = 'electron-prebuilt'
+// getRepos('electron-prebuilt')
+getRepos('electron')
 
-pify(getTotalDependentCount)(packageName)
-  .then(function (totalDeps) {
-    console.log(`Found ${totalDeps} repos that depend on ${packageName}\n`)
+function getRepos (packageName) {
+  pify(getTotalDependentCount)(packageName)
+    .then(function (totalDeps) {
+      console.log(`Found ${totalDeps} repos that depend on ${packageName}\n`)
 
-    for (let page = 1; page <= (totalDeps / PER_PAGE); page++) {
-      limiter.removeTokens(1, function () {
-        let url = getDependentsPageURL(packageName, page)
-        console.log(url)
-        request(url, {json: true}, function (err, resp, repos) {
-          if (err || !repos || repos.error || !Array.isArray(repos)) return
-          repos.forEach(function (repo) {
-            let filename = path.join(__dirname, 'repos', `${repo.full_name.replace('/', '___')}.json`)
-            if (!exists(filename)) {
-              fs.writeFileSync(filename, JSON.stringify({}))
-              console.log(`                    ${repo.full_name} (NEW)`)
-            } else {
-              console.log(`  ${repo.full_name}`)
-            }
+      for (let page = 1; page <= (totalDeps / PER_PAGE); page++) {
+        limiter.removeTokens(1, function () {
+          let url = getDependentsPageURL(packageName, page)
+          console.log(url)
+          request(url, {json: true}, function (err, resp, repos) {
+            if (err || !repos || repos.error || !Array.isArray(repos)) return
+            repos.forEach(function (repo) {
+              let filename = path.join(__dirname, 'repos', `${repo.full_name.replace('/', '___')}.json`)
+              if (!exists(filename)) {
+                fs.writeFileSync(filename, JSON.stringify({}))
+                console.log(`                    ${repo.full_name} (NEW)`)
+              } else {
+                console.log(`  ${repo.full_name}`)
+              }
+            })
           })
         })
-      })
-    }
-  })
+      }
+    })
+}
 
 function getTotalDependentCount (packageName, callback) {
   let url = getDependentsPageURL(packageName, 1)
