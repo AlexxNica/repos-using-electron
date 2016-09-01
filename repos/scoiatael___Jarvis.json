@@ -44,5 +44,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "devDependencies": {
+      "closurecompiler-externs": "^1.0.4",
+      "electron-builder": "^5.24.1",
+      "electron-prebuilt": "^1.0.1"
+    },
+    "scripts": {
+      "start": "electron app/",
+      "pack": "build --dir",
+      "dist": "build -mwl",
+      "postinstall": "install-app-deps"
+    },
+    "build": {
+      "appId": "io.github.scoiatael.jarvis",
+      "category": "public.app-category.developer-tools",
+      "linux": {
+        "target": [
+          "deb",
+          "rpm",
+          "pacman",
+          "apk",
+          "AppImage"
+        ]
+      }
+    }
+  },
+  "packageStatus": 200
 }

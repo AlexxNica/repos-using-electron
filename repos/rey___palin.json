@@ -44,5 +44,25 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "palin",
+    "productName": "Palin",
+    "version": "0.2.6",
+    "description": "Check if you're online",
+    "main": "main.js",
+    "dependencies": {
+      "net-ping": "^1.1.12"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.36.2"
+    },
+    "scripts": {
+      "build": "electron-packager . Palin --platform=darwin --arch=x64 --version=0.36.2 --icon=images/icon/palin.icns --ignore=/images/icon --overwrite --out=_build",
+      "start": "electron ."
+    },
+    "author": "Rey Dhuny"
+  },
+  "packageStatus": 200
 }

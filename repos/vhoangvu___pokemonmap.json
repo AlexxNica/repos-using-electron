@@ -44,5 +44,24 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "pokemon-go-map",
+    "version": "1.0.0",
+    "description": "Pokemon Go Map",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "package": "electron-packager ./ PokemonMap --all --out ./build --overwrite --icon=./app/img/icon.icns"
+    },
+    "keywords": [
+      "Pokemon Go"
+    ],
+    "author": "vhoangvu@gmail.com",
+    "devDependencies": {
+      "electron-packager": "^7.7.0",
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

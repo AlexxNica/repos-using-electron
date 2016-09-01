@@ -168,5 +168,99 @@
   },
   "networkCount": 424,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-elm-boilerplate",
+    "productName": "ElectronElm",
+    "version": "0.0.1",
+    "description": "Electron application boilerplate based on Elm & Webpack for rapid, statically-typed application development",
+    "main": "main.js",
+    "scripts": {
+      "test": "elm make tests/TestRunner.elm --output tests/tests.js && node tests/tests.js",
+      "test-e2e": "ava test.js",
+      "lint": "standard \"*.js\" \"app/**/*.js\" \"test/**/*.js\" --verbose | snazzy",
+      "hot-server": "node -r babel-register server.js",
+      "build-main": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.electron.js --progress --profile --colors",
+      "build-renderer": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.production.js --progress --profile --colors",
+      "build": "npm run build-main && npm run build-renderer",
+      "start": "cross-env NODE_ENV=production electron ./",
+      "start-hot": "cross-env HOT=1 NODE_ENV=development electron -r babel-register ./main.development",
+      "package": "cross-env NODE_ENV=production node -r babel-register package.js",
+      "package-all": "npm run package -- --all",
+      "postinstall": "node node_modules/fbjs-scripts/node/check-dev-engines.js package.json && elm package install -y",
+      "dev": "concurrently --kill-others \"npm run hot-server\" \"npm run start-hot\""
+    },
+    "bin": {
+      "electron": "./node_modules/.bin/electron"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kaiyote/electron-elm-boilerplate.git"
+    },
+    "author": {
+      "name": "Tim Huddle",
+      "email": "tim.huddle88@gmail.com",
+      "url": "https://github.com/kaiyote"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kaiyote/electron-elm-boilerplate/issues"
+    },
+    "keywords": [
+      "electron",
+      "boilerplate",
+      "webpack",
+      "elm"
+    ],
+    "homepage": "https://github.com/kaiyote/electron-elm-boilerplate#readme",
+    "devDependencies": {
+      "asar": "^0.11.0",
+      "ava": "^0.14.0",
+      "babel-core": "^6.7.6",
+      "babel-eslint": "^6.0.4",
+      "babel-loader": "^6.2.4",
+      "babel-plugin-add-module-exports": "^0.1.2",
+      "babel-plugin-transform-es2015-destructuring": "^6.8.0",
+      "babel-plugin-transform-object-rest-spread": "^6.8.0",
+      "babel-preset-es2015-node6": "^0.2.0",
+      "babel-register": "^6.7.2",
+      "concurrently": "^2.0.0",
+      "cross-env": "^1.0.7",
+      "css-loader": "^0.23.1",
+      "del": "^2.2.0",
+      "devtron": "^1.1.1",
+      "electron-packager": "^7.0.1",
+      "electron-prebuilt": "^1.1.0",
+      "electron-rebuild": "^1.1.3",
+      "elm-css": "^0.5.0",
+      "elm-css-webpack-loader": "github:tcoopman/elm-css-webpack-loader",
+      "elm-hot-loader": "^0.3.1",
+      "elm-webpack-loader": "^3.0.0",
+      "express": "^4.13.4",
+      "extract-text-webpack-plugin": "^1.0.1",
+      "fbjs-scripts": "^0.6.0",
+      "json-loader": "^0.5.4",
+      "minimist": "^1.2.0",
+      "node-libs-browser": "^1.0.0",
+      "snazzy": "^4.0.0",
+      "spectron": "^3.0.0",
+      "standard": "^7.1.0",
+      "style-loader": "^0.13.1",
+      "webpack": "^1.13.0",
+      "webpack-dev-middleware": "^1.6.1",
+      "webpack-hot-middleware": "^2.10.0"
+    },
+    "dependencies": {
+      "electron-debug": "^0.6.0",
+      "font-awesome": "^4.6.1"
+    },
+    "devEngines": {
+      "node": "6.x",
+      "npm": "3.x"
+    },
+    "standard": {
+      "parser": "babel-eslint"
+    }
+  },
+  "packageStatus": 200
 }

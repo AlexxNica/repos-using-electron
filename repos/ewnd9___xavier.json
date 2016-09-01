@@ -50,5 +50,56 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "xavier",
+    "description": "CLI remote control for pages in Google Chrome and music playback in Android",
+    "version": "0.1.0",
+    "bin": {
+      "xavier-server": "lib/server.js",
+      "xavier": "lib/client.js"
+    },
+    "scripts": {
+      "lint": "eslint cli.js 'lib/**/*.js'",
+      "prepush": "npm run lint && npm test",
+      "start": "node cli.js",
+      "test": "ava",
+      "test:watch": "npm run test -- --watch"
+    },
+    "engines": {
+      "node": ">=4.0"
+    },
+    "keywords": [
+      "remote control",
+      "CLI",
+      "chrome",
+      "android"
+    ],
+    "dependencies": {
+      "inquirer-credentials": "^3.0.0",
+      "meow": "^3.7.0",
+      "minimist": "^1.2.0",
+      "node-gcm-ccs": "github:jacobp100/node-gcm-ccs",
+      "node-notifier": "^4.6.0",
+      "object-path": "^0.9.2",
+      "socket.io": "^1.4.6",
+      "update-notifier": "^0.6.0",
+      "uuid": "^2.0.2"
+    },
+    "devDependencies": {
+      "ava": "^0.14.0",
+      "babel-eslint": "^6.0.0",
+      "eslint": "^2.7.0",
+      "husky": "^0.11.3"
+    },
+    "author": "ewnd9 <ewndnine@gmail.com>",
+    "files": [
+      "cli.js",
+      "lib"
+    ],
+    "license": "MIT",
+    "preferGlobal": true,
+    "repository": "ewnd9/xavier"
+  },
+  "packageStatus": 200
 }

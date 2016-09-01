@@ -50,5 +50,52 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "scripts": {
+      "prepublish": "cd app && npm install && cd .. && gulp release",
+      "start": "electron ./app",
+      "debug": "electron --enable-logging ./app -d",
+      "pack": "build --dir",
+      "dist": "npm run prepublish && build --win",
+      "release": "npm run prepublish && build --win"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dannyakakong/powerplandisplay.git"
+    },
+    "os": [
+      "win32"
+    ],
+    "devDependencies": {
+      "electron-builder": "^5.10.1",
+      "electron-prebuilt": "^1.2.5",
+      "gulp": "~3.9.0",
+      "gulp-autoprefixer": "^2.3.1",
+      "gulp-clean": "^0.3.1",
+      "gulp-concat": "~2.5.0",
+      "gulp-csso": "~1.0.0",
+      "gulp-if": "^2.0.0",
+      "gulp-imagemin": "~2.2.0",
+      "gulp-newer": "~1.1.0",
+      "gulp-rename": "~1.2.0",
+      "gulp-replace": "^0.5.4",
+      "gulp-strip-comments": "^2.4.3",
+      "gulp-stylus": "^2.2.0",
+      "gulp-uglify": "~1.1.0",
+      "jeet": "6.1.2",
+      "run-sequence": "^1.1.5",
+      "yargs": "^4.2.0"
+    },
+    "build": {
+      "appId": "uk.ltd.wonderscore.powerplandisplay",
+      "asar": false,
+      "win": {
+        "icon": "src/img/icon.ico",
+        "iconUrl": "https://raw.githubusercontent.com/dannyakakong/PowerPlanDisplay/master/src/img/icon.ico",
+        "msi": true
+      }
+    }
+  },
+  "packageStatus": 200
 }

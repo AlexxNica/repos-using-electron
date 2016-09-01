@@ -50,5 +50,67 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "quercus",
+    "version": "0.0.1",
+    "description": "Quercus is a multiplatform file manager written in web technologies",
+    "main": "index.js",
+    "scripts": {
+      "clean": "rimraf -r build",
+      "test": "standard",
+      "start": "npm run clean && webpack && electron .",
+      "start-watch": "npm run clean && webpack --progress --watch"
+    },
+    "author": "",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bertofer/quercus"
+    },
+    "devDependencies": {
+      "babel-core": "^6.11.4",
+      "babel-loader": "^6.2.4",
+      "babel-plugin-transform-runtime": "^6.12.0",
+      "babel-preset-es2015": "^6.9.0",
+      "babel-preset-react": "^6.11.1",
+      "babel-root-import": "^4.0.1",
+      "babel-runtime": "^6.11.6",
+      "copy-webpack-plugin": "^3.0.1",
+      "css-loader": "^0.23.1",
+      "electron-devtools-installer": "^2.0.0",
+      "electron-prebuilt": "^1.2.8",
+      "file-loader": "^0.9.0",
+      "node-sass": "^3.8.0",
+      "on-build-webpack": "^0.1.0",
+      "rimraf": "^2.5.3",
+      "sass-loader": "^4.0.0",
+      "standard": "^7.1.2",
+      "style-loader": "^0.13.1",
+      "webpack": "^1.13.1"
+    },
+    "dependencies": {
+      "babel-register": "^6.9.0",
+      "bulma": "^0.1.0",
+      "classnames": "^2.2.5",
+      "electron-connect": "^0.4.2",
+      "hint.css": "^2.3.1",
+      "immutable": "^3.8.1",
+      "jsonfile": "^2.3.1",
+      "keypress.js": "^2.1.0-1",
+      "minimatch": "^3.0.3",
+      "mkdirp": "^0.5.1",
+      "react": "^15.2.1",
+      "react-contextmenu": "^1.6.2",
+      "react-dom": "^15.2.1",
+      "react-immutable-proptypes": "^1.7.1",
+      "react-mousetrap": "^0.1.1",
+      "react-redux": "^4.4.5",
+      "react-selectable": "bertofer/react-selectable",
+      "redux": "^3.5.2",
+      "redux-saga": "^0.11.0",
+      "shelljs": "bertofer/shelljs"
+    }
+  },
+  "packageStatus": 200
 }

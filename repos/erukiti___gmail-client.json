@@ -44,5 +44,27 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "gmail",
+    "version": "0.0.1",
+    "description": "",
+    "main": "src/browser/app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron src/browser/app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "Apache Software License 2.0",
+    "dependencies": {
+      "electron-prebuilt": "0.35.0",
+      "gulp": "3.9.0",
+      "gulp-sass": "2.1.0",
+      "rx": "^4.0.7",
+      "uuid-v4": "^0.1.0",
+      "webrx": "^1.4.3"
+    }
+  },
+  "packageStatus": 200
 }

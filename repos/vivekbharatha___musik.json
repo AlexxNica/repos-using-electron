@@ -50,5 +50,45 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "musik",
+    "version": "0.0.1",
+    "description": "A music player application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build-dev": "grunt build && cd dist && npm i --production && npm start",
+      "build-prod": "grunt build && cd dist && npm i --production && npm i archiver && node Craft.js",
+      "clean": "grunt clean"
+    },
+    "author": "VivekBharatha",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/vivekbharatha/musik.git"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.5.1",
+      "electron-prebuilt": "^1.2.0",
+      "grunt": "^1.0.1",
+      "grunt-bower-concat": "^1.0.0",
+      "grunt-contrib-clean": "^1.0.0",
+      "grunt-contrib-concat": "^1.0.1",
+      "grunt-contrib-copy": "^1.0.0",
+      "grunt-contrib-cssmin": "^1.0.1",
+      "grunt-contrib-jshint": "^1.0.0",
+      "grunt-contrib-uglify": "^2.0.0",
+      "grunt-usemin": "^3.1.1",
+      "grunt-wiredep": "^3.0.1",
+      "jshint-stylish": "^2.2.1",
+      "load-grunt-tasks": "^3.5.2"
+    },
+    "dependencies": {
+      "async": "2.0.1",
+      "dexie": "^1.4.1",
+      "musicmetadata": "^2.0.4"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,38 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "lantern",
+    "productName": "Lantern",
+    "version": "0.0.1",
+    "description": "Discover and configure Beacons on a Mac",
+    "main": "main.js",
+    "scripts": {
+      "start": "DEBUG=lantern* electron main.js",
+      "build": "electron-packager . Lantern --out=release --platform=darwin --prune --asar --arch=all --version=0.34.2 --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tomhallam/lantern.git"
+    },
+    "keywords": [],
+    "author": "Tom Hallam",
+    "homepage": "https://github.com/tomhallam/lantern.git#readme",
+    "devDependencies": {
+      "electron-packager": "^5.1.1",
+      "electron-prebuilt": "^0.34.0",
+      "electron-rebuild": "^1.0.2",
+      "gulp-sass": "^2.1.0"
+    },
+    "dependencies": {
+      "async": "^1.5.0",
+      "bleacon": "^0.4.0",
+      "debug": "^2.2.0",
+      "noble": "^1.2.0",
+      "noble-device": "^1.1.0",
+      "photon": "https://github.com/connors/photon"
+    }
+  },
+  "packageStatus": 200
 }

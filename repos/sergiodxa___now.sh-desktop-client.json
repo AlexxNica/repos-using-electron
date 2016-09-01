@@ -44,5 +44,84 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "now.sh-desktop-client",
+    "version": "0.1.0",
+    "description": "An electron.js desktop client for now.sh deployments management",
+    "main": "app/index.js",
+    "scripts": {
+      "prelint": "rm -rf now.sh-darwin-x64",
+      "lint": "eslint app/** ui/**",
+      "pretest": "npm run lint",
+      "test": "nyc ava",
+      "posttest": "npm run report",
+      "report": "nyc report --reporter=html",
+      "start": "NODE_ENV=development DEBUG=* electron .",
+      "prebuild": "npm run test",
+      "build": "electron-packager . --platform=darwin --arch=x64 --version=1.3.3 --ignores=node_modules/electron-* now.sh",
+      "postbuild": "npm run copy-icon",
+      "copy-icon": "cp icon.icns now.sh-darwin-x64/now.sh.app/Contents/Resources/electron.icns",
+      "prepackage": "npm run build",
+      "package": "asar pack now.sh-darwin-x64/now.sh.app/Contents/Resources/app now.sh-darwin-x64/now.sh.app/Contents/Resources/app.asar"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sergiodxa/now.sh-desktop-client.git"
+    },
+    "keywords": [
+      "electron",
+      "now",
+      "zeit",
+      "react",
+      "redux"
+    ],
+    "author": "Sergio Daniel Xalambrí <sergio@xalambri.com.ar> (http://sergio.xalambri.com.ar/)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/sergiodxa/now.sh-desktop-client/issues"
+    },
+    "homepage": "https://github.com/sergiodxa/now.sh-desktop-client#readme",
+    "devDependencies": {
+      "asar": "0.12.1",
+      "ava": "0.16.0",
+      "babel-eslint": "6.1.2",
+      "devtron": "1.3.0",
+      "electron-devtools-installer": "2.0.1",
+      "electron-packager": "7.5.1",
+      "electron-prebuilt": "1.3.3",
+      "electron-react-devtools": "0.3.1",
+      "eslint": "3.3.0",
+      "eslint-config-airbnb": "10.0.1",
+      "eslint-plugin-import": "1.13.0",
+      "eslint-plugin-jsx-a11y": "2.1.0",
+      "eslint-plugin-react": "6.0.0",
+      "nyc": "8.1.0"
+    },
+    "dependencies": {
+      "async-to-gen": "1.0.5",
+      "debug": "2.2.0",
+      "immutable": "3.8.1",
+      "moment": "2.14.1",
+      "now-api": "0.3.0",
+      "react": "15.3.0",
+      "react-dom": "15.3.0",
+      "react-redux": "4.4.5",
+      "redux": "3.5.2",
+      "redux-duck": "1.0.1",
+      "redux-duck-test": "1.0.0",
+      "redux-immutable": "3.0.7"
+    },
+    "ava": {
+      "fail-fast": true,
+      "verbose": true,
+      "watch": false,
+      "files": [
+        "**/**/*.spec.js",
+        "!now.sh-darwin-/**/*"
+      ],
+      "concurrency": 4
+    }
+  },
+  "packageStatus": 200
 }

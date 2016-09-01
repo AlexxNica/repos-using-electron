@@ -44,5 +44,37 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "arduinoexperiment",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/terimyaki/ArduinoExperiment.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/terimyaki/ArduinoExperiment/issues"
+    },
+    "homepage": "https://github.com/terimyaki/ArduinoExperiment#readme",
+    "dependencies": {
+      "d3": "^3.5.6",
+      "johnny-five": "^0.8.85",
+      "through2": "^2.0.0"
+    },
+    "devDependencies": {
+      "bluebird": "^2.9.34",
+      "del": "^1.2.0",
+      "electron-prebuilt": "^0.30.4",
+      "jquery": "^2.1.4",
+      "material-design-lite": "^1.0.2"
+    }
+  },
+  "packageStatus": 200
 }

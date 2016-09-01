@@ -44,5 +44,28 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "halp",
+    "version": "0.0.1",
+    "description": "I don't know what i'm doing",
+    "main": "index.js",
+    "dependencies": {
+      "menubar": "^3.0.0",
+      "moment-timezone": "^0.5.5"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "scripts": {
+      "app": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/notwaldorf/is-mu-an-asleep.git"
+    },
+    "author": "Monica Dinculescu <noms@google.com>",
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

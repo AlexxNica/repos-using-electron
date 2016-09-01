@@ -162,5 +162,48 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "WARG-Ground-Station",
+    "version": "4.1.0",
+    "description": "The WARG ground station that communiciated directly with the data-relay-station",
+    "author": "Univeristy of Waterloo Arial Robotics Group - www.uwarg.com",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/UWARG/WARG-Ground-Station-V2"
+    },
+    "scripts": {
+      "start": "./node_modules/.bin/electron .",
+      "docs": "./node_modules/.bin/jsdoc -c jsdoc.json",
+      "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --recursive"
+    },
+    "license": "ISC",
+    "private": true,
+    "dependencies": {
+      "electron-prebuilt": "^1.1.0",
+      "fast-csv": "^1.0.0",
+      "mkdirp": "^0.5.1",
+      "moment": "^2.10.6",
+      "node-persist": "0.0.11",
+      "node-webkit-fdialogs": "^0.2.7",
+      "root-path": "^0.2.0",
+      "underscore": "^1.8.3"
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "chai-jq": "0.0.9",
+      "ink-docstrap": "^1.1.4",
+      "install": "^0.8.1",
+      "istanbul": "^0.4.3",
+      "jsdoc": "^3.4.0",
+      "jsdom": "^9.4.0",
+      "mocha": "^2.5.3",
+      "mockery": "^1.7.0",
+      "npm": "^3.9.5",
+      "rewire": "^2.5.1",
+      "sinon": "^1.17.4",
+      "sinon-chai": "^2.8.0"
+    }
+  },
+  "packageStatus": 200
 }

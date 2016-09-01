@@ -50,5 +50,20 @@
   },
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "POELadder",
+    "version": "1.0.0",
+    "description": "Path of Exile Ladder",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "Chris Parent",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

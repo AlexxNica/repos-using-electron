@@ -44,5 +44,35 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-keep",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . Electron-Keep --platform=darwin --arch=x64 --version=0.36.0 --prune --asar --out=build --ignore=build --overwrite",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/70-10/electron-keep.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/70-10/electron-keep/issues"
+    },
+    "homepage": "https://github.com/70-10/electron-keep#readme",
+    "devDependencies": {
+      "electron-packager": "5.2.0",
+      "electron-prebuilt": "0.36.0"
+    },
+    "dependencies": {
+      "menubar": "3.0.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,27 @@
   "license": null,
   "networkCount": 15,
   "subscribersCount": 8,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-browser",
+    "version": "1.0.0",
+    "description": "browser ui for electron, written in react",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "electron",
+      "browser",
+      "webview",
+      "react"
+    ],
+    "author": "Paul Frazee <pfrazee@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.28.2"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

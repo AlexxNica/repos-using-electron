@@ -176,5 +176,35 @@
   },
   "networkCount": 654,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "webterm-wrapper",
+    "version": "0.0.1",
+    "description": "A minimal Electron wrapper for web-term",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mangochomp/webterm-wrapper.git"
+    },
+    "keywords": [
+      "Electron",
+      "terminal",
+      "web-term",
+      "webterm",
+      "wrapper"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/mangochomp/webterm-wrapper/issues"
+    },
+    "homepage": "https://github.com/mangochomp/webterm-wrapper#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

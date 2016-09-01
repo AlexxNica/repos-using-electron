@@ -62,6 +62,7 @@
       "test-cov": "npm run lint && npm run cover && npm run mocha-cov && npm run report-cov",
       "start": "electron app/app.js",
       "start-debug": "electron app/app.js --debug --userdata=./userdata",
+      "start-screencast": "electron app/app.js --userdata=./userdata --windowsize=600x400",
       "lint": "eslint app/js",
       "compile": "riot -m ./riot ./app/js/riot",
       "mocha-cov": "electron-mocha --renderer --recursive ./tests/js ./tests/riot --require ./tests/setup-cov.js --reporter tests/coverage",
@@ -76,7 +77,13 @@
     "build": {
       "app-bundle-id": "com.glicer.browser",
       "app-category-type": "public.app-category.productivity",
-      "osx": {
+      "linux": {
+        "fpm": [
+          "--depends",
+          "libappindicator1"
+        ]
+      },
+      "mac": {
         "contents": [
           {
             "x": 410,
@@ -103,12 +110,13 @@
       "app-module-path": "^1.0.6",
       "coveralls": "^2.11.9",
       "devtron": "^1.1.2",
-      "electron-builder": "^5.0.2",
+      "electron-builder": "^6.0.0",
       "electron-mocha": "^1.2.1",
       "electron-prebuilt": "^1.0.0",
       "eslint": "^2.8.0",
       "istanbul": "^0.4.3",
-      "rimraf": "^2.5.2"
+      "rimraf": "^2.5.2",
+      "riot": "^2.3.0"
     }
   },
   "packageStatus": 200

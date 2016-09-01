@@ -47,7 +47,7 @@
   "status": 200,
   "packageJSON": {
     "name": "pra-control",
-    "version": "1.0.6",
+    "version": "2.0.0",
     "description": "Send awesome gCodes to your machine.",
     "productName": "PraControl",
     "companyName": "pravdomil.cz",
@@ -76,7 +76,6 @@
       "url": "https://github.com/pravdomil/pra-control"
     },
     "bugs": "https://github.com/pravdomil/pra-control/issues",
-    "featureRequest": "https://github.com/pravdomil/pra-control/issues/new",
     "donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=PraControl%20beer",
     "main": "_main/index.js",
     "scripts": {
@@ -85,19 +84,19 @@
       "dist": "node distribution/dist"
     },
     "dependencies": {
-      "fs-extra-promise": "^0.3.1",
-      "serialport": "^2.0.6",
+      "serialport": "^4.0.0",
+      "fs-promise": "^0.5.0",
       "ncp": "^2.0.0",
       "request": "^2.69.0",
-      "electron-app-base": "pravdomil/electron-app-base#90fea74eb49cdf35e96b48f196cac5d4c1b81d1a",
-      "web-component-app": "pravdomil/web-component-app#e9f82bbcc56f12fbd8a1e78b7a94a1d217f95f2b",
-      "rembased": "pravdomil/rembased#512a3bf680009b7caab36ec45c8f4a0c88edaed1"
+      "electron-app-base": "pravdomil/electron-app-base",
+      "web-component-app": "pravdomil/web-component-app",
+      "rembased": "pravdomil/rembased"
     },
     "devDependencies": {
       "electron-packager": "^7.0.0",
-      "electron-prebuilt": "0.36.12"
-    },
-    "license": "MIT"
+      "electron-prebuilt": "^1.0.0",
+      "electron-rebuild": "^1.2.0"
+    }
   },
   "packageStatus": 200
 }

@@ -44,5 +44,39 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Polarized",
+    "version": "0.0.6",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/eduardhojbota/Polarized.git"
+    },
+    "author": "Eduard Hojbota",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/eduardhojbota/Polarized/issues"
+    },
+    "homepage": "https://github.com/eduardhojbota/Polarized#readme",
+    "devDependencies": {
+      "coffee-script": "^1.9.3",
+      "electron-connect": "^0.2.3",
+      "electron-prebuilt": "^0.30.3",
+      "gulp": "^3.9.0",
+      "gulp-load-plugins": "^0.10.0",
+      "wiredep": "^2.2.2"
+    },
+    "dependencies": {
+      "gulp-clean": "^0.3.1",
+      "gulp-coffee": "^2.3.1",
+      "gulp-jade": "^1.1.0",
+      "gulp-sass": "^2.0.4"
+    }
+  },
+  "packageStatus": 200
 }

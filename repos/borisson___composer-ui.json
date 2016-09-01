@@ -44,5 +44,28 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "composer-ui",
+    "version": "1.0.0",
+    "description": "A minimal Electron to run composer commands.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/borisson/composer-ui.git"
+    },
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/borisson/composer-ui/issues"
+    },
+    "homepage": "https://github.com/borisson/composer-ui#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

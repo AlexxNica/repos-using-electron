@@ -44,5 +44,42 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "emojiui",
+    "version": "0.5.0",
+    "description": "Emoji GUI in Electron",
+    "main": "main.js",
+    "bin": {
+      "emojiui": "./main.js"
+    },
+    "scripts": {
+      "test": "standard main.js",
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/aviaryan/emojiui.git"
+    },
+    "dependencies": {
+      "node-static": ">=0.7.7"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.1.1",
+      "standard": "^3.0.0"
+    },
+    "keywords": [
+      "emoji",
+      "gui",
+      "electron",
+      "offline"
+    ],
+    "author": "Avi Aryan",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/aviaryan/emojiui/issues"
+    },
+    "homepage": "https://github.com/aviaryan/emojiui#readme"
+  },
+  "packageStatus": 200
 }

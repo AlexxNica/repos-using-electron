@@ -58,5 +58,50 @@
   },
   "networkCount": 0,
   "subscribersCount": 11,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "my-electron-app",
+    "version": "0.1.0",
+    "main": "main.js",
+    "scripts": {
+      "start": "./node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron .",
+      "watch": "./node_modules/.bin/webpack-dev-server",
+      "electron-rebuild": "./node_modules/.bin/electron-rebuild"
+    },
+    "devDependencies": {
+      "babel-loader": "^6.2.0",
+      "babel-plugin-add-module-exports": "^0.2.1",
+      "babel-plugin-react-html-attrs": "^2.0.0",
+      "babel-plugin-transform-class-properties": "^6.3.13",
+      "babel-plugin-transform-decorators-legacy": "^1.3.4",
+      "babel-preset-es2015": "^6.3.13",
+      "babel-preset-react": "^6.3.13",
+      "babel-preset-stage-0": "^6.3.13",
+      "css-loader": "^0.23.1",
+      "electron-packager": "^7.5.1",
+      "electron-rebuild": "^1.2.0",
+      "less": "^2.5.1",
+      "less-loader": "^2.2.0",
+      "node-libs-browser": "^1.0.0",
+      "style-loader": "^0.13.1",
+      "webpack": "^1.9.12",
+      "webpack-dev-server": "^1.9.0"
+    },
+    "dependencies": {
+      "bootstrap": "^3.3.7",
+      "classnames": "^2.2.5",
+      "electron-prebuilt": "^1.3.3",
+      "github": "^2.4.1",
+      "jquery": "^3.1.0",
+      "js-yaml": "^3.6.1",
+      "json-loader": "^0.5.4",
+      "lodash": "^4.15.0",
+      "react": "^15.3.0",
+      "react-autobind": "^1.0.6",
+      "react-dom": "^15.3.0",
+      "react-markdown": "^2.4.2",
+      "request": "^2.74.0"
+    }
+  },
+  "packageStatus": 200
 }

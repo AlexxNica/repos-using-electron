@@ -44,5 +44,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "desktop-audio-player",
+    "description": "Creating a desktop audio app with Electron",
+    "version": "0.0.1",
+    "author": "Romano Firtermaiszter <firtermaiszter.romano@gmail.com>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Romesz/desktop-audio-player.git"
+    },
+    "main": "./app.js",
+    "scripts": {
+      "start": "electron .",
+      "package": "electron-packager ./ desktopAudioApp --platform=win32 --arch=x64 --version=0.30.2 --overwrite"
+    },
+    "keywords": [
+      "Audio player",
+      "Electron",
+      "desktop app"
+    ],
+    "dependencies": {
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.3"
+    },
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

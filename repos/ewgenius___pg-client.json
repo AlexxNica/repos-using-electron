@@ -50,5 +50,42 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "pg-client",
+    "productName": "PgClient",
+    "version": "0.0.0",
+    "description": "My majestic app",
+    "license": "MIT",
+    "main": "app/index.js",
+    "repository": "ewgenius/pg-client",
+    "author": {
+      "name": "ewgeniux",
+      "email": "ewgeniux@gmail.com",
+      "url": "ewgenius.github.io"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "devDependencies": {
+      "electron-packager": "^3.3.0",
+      "electron-prebuilt": "^0.25.2",
+      "gulp": "^3.8.11",
+      "gulp-jade": "^1.0.1",
+      "gulp-sass": "^2.0.1"
+    }
+  },
+  "packageStatus": 200
 }

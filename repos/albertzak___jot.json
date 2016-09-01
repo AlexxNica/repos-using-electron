@@ -44,5 +44,25 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "jotpad",
+    "version": "0.0.1",
+    "license": "MIT",
+    "main": "src/main.js",
+    "devDependencies": {
+      "electron-rebuild": "^0.2.3",
+      "electron-prebuilt": "^0.29.2"
+    },
+    "scripts": {
+      "install": "electron-rebuild",
+      "start": "electron .",
+      "build": "electron-packager . Jotpad --platform=all --arch=all --version=0.29.2 --out=bin/ --overwrite --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=bin/ --ignore=Readme.md --ignore=.git/"
+    },
+    "dependencies": {
+      "mime": "^1.3.4",
+      "temp": "^0.8.3"
+    }
+  },
+  "packageStatus": 200
 }

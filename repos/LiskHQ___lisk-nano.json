@@ -58,5 +58,37 @@
   },
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "lisk-nano",
+    "version": "0.1.0",
+    "description": "Lisk Nano",
+    "homepage": "https://github.com/LiskHQ/lisk-nano",
+    "bugs": "https://github.com/LiskHQ/lisk-nano/issues",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron app",
+      "dist:win": "build --win",
+      "dist:osx": "build --osx",
+      "dist:linux": "build --linux"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/LiskHQ/lisk-nano"
+    },
+    "devDependencies": {
+      "electron-builder": "^5.26.0",
+      "electron-prebuilt": "^1.3.1"
+    },
+    "build": {
+      "appId": "io.lisk.nano",
+      "category": "finance",
+      "productName": "Lisk Nano",
+      "win": {
+        "target": "nsis"
+      }
+    },
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

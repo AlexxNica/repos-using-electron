@@ -44,5 +44,48 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Flip",
+    "version": "0.1.0",
+    "description": "🌯",
+    "main": "client-background.js",
+    "scripts": {
+      "start": "electron .",
+      "client": "npm start",
+      "server": "node server.js",
+      "test": "npm start & npm start & node server.js",
+      "package": "electron-packager . flip --platform=darwin,win32 --arch=x64"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/frazerseymour/-.git"
+    },
+    "keywords": [
+      "🌯"
+    ],
+    "authors": [
+      "Frazer Seymour",
+      "Nathaniel Hudson"
+    ],
+    "license": "WTFPL",
+    "bugs": {
+      "url": "https://github.com/frazerseymour/-/issues"
+    },
+    "homepage": "https://github.com/frazerseymour/-#readme",
+    "dependencies": {
+      "express": "latest",
+      "jquery": "latest",
+      "node-notifier": "latest",
+      "socket.io": "latest"
+    },
+    "devDependencies": {
+      "bower": "latest",
+      "electron-packager": "latest",
+      "electron-prebuilt": "^1.2.0",
+      "grunt": "^1.0.1",
+      "grunt-jscs": "^3.0.1"
+    }
+  },
+  "packageStatus": 200
 }

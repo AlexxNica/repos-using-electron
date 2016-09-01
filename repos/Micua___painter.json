@@ -44,5 +44,37 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "painter",
+    "version": "1.0.0",
+    "description": "Cross platform painter by Electron & Method-Draw",
+    "main": "app/main.js",
+    "scripts": {
+      "test": "./node_modules/.bin/electron ./app"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Micua/painter.git"
+    },
+    "keywords": [
+      "painter",
+      "electron",
+      "draw"
+    ],
+    "author": "iceStone <ice@wedn.net> (http://www.wedn.net/)",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Micua/painter/issues"
+    },
+    "homepage": "https://github.com/Micua/painter#readme",
+    "devDependencies": {
+      "asar": "^0.10.0",
+      "electron-prebuilt": "^0.36.10",
+      "gulp": "^3.9.1",
+      "gulp-clean": "^0.3.2",
+      "gulp-electron": "0.0.10"
+    }
+  },
+  "packageStatus": 200
 }

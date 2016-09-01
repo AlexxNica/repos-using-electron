@@ -44,5 +44,48 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "recto",
+    "version": "1.0.0",
+    "description": "A not quite spreadsheet",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "tap test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/aredridel/recto.git"
+    },
+    "keywords": [
+      "spreadsheet"
+    ],
+    "author": "Aria Stewart <aredridel@dinhe.net>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/aredridel/recto/issues"
+    },
+    "homepage": "https://github.com/aredridel/recto#readme",
+    "babel": {
+      "plugins": [
+        "transform-react-jsx",
+        "transform-react-display-name"
+      ],
+      "presets": [
+        "es2020"
+      ]
+    },
+    "dependencies": {
+      "babel": "^6.5.2",
+      "babel-plugin-transform-react-display-name": "^6.8.0",
+      "babel-plugin-transform-react-jsx": "^6.8.0",
+      "babel-preset-es2020": "^1.0.2",
+      "babel-register": "^6.9.0",
+      "electron-prebuilt": "^1.2.5",
+      "react": "^15.3.1",
+      "react-dom": "^15.1.0"
+    }
+  },
+  "packageStatus": 200
 }

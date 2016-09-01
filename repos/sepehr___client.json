@@ -162,5 +162,52 @@
   },
   "networkCount": 10,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "trailbot-client",
+    "version": "0.2.0",
+    "description": "TrailBot tracks files and logs in your server and triggers smart policies upon unwanted modification.",
+    "keywords": [
+      "siem",
+      "sem",
+      "monitor",
+      "watch",
+      "logs",
+      "trailbot",
+      "audit trail",
+      "integrity",
+      "blockchain"
+    ],
+    "repository": "https://github.com/trailbot/client",
+    "homepage": "https://trailbot.io",
+    "license": "MIT",
+    "author": "Adán Sánchez de Pedro Crespo <adan@stampery.com>",
+    "contributors": [],
+    "dependencies": {
+      "electron-bin": "^0.37.3",
+      "iced-coffee-script": "^108.0.11",
+      "ipc": "0.0.1",
+      "mkdirp": "^0.5.1",
+      "request": "^2.74.0",
+      "simple-git": "^1.41.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.4.0",
+      "electron-prebuilt": "^1.2.2",
+      "jquery": "^3.0.0"
+    },
+    "main": "run.js",
+    "engines": {
+      "node": ">=5.0.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "start-dev": "DEV=true electron . --ignore-certificate-errors",
+      "package": "electron-packager . --all"
+    },
+    "bin": {
+      "trailbot-client": "./run.js"
+    }
+  },
+  "packageStatus": 200
 }

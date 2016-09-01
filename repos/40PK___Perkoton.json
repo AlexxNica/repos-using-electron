@@ -58,5 +58,35 @@
   },
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Perkoton",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app/index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Perkovec",
+    "license": "MIT",
+    "dependencies": {
+      "react": "^15.0.1",
+      "react-dom": "^15.0.1"
+    },
+    "devDependencies": {
+      "electron-compilers": "^3.0.0",
+      "electron-prebuilt": "^0.37.0",
+      "gulp": "^3.9.1",
+      "gulp-autoprefixer": "^3.1.0",
+      "gulp-clean": "^0.3.2",
+      "gulp-clean-css": "^2.0.6",
+      "gulp-concat": "^2.6.0",
+      "gulp-concat-css": "^2.2.0",
+      "gulp-react": "^3.1.0",
+      "gulp-run": "^1.6.12",
+      "gulp-sass": "^2.2.0",
+      "gulp-sass-unicode": "^1.0.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -44,5 +44,38 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-express",
+    "version": "0.1.0",
+    "description": "mStream Server App",
+    "main": "main.js",
+    "dependencies": {
+      "archiver": "^1.0.0",
+      "bcrypt": "^0.8.6",
+      "body-parser": "^1.15.1",
+      "cookie-parser": "^1.4.0",
+      "express": "^4.13.4",
+      "express-session": "^1.12.1",
+      "external-ip": "^0.2.4",
+      "graceful-fs": "^4.1.4",
+      "musicmetadata": "^2.0.3",
+      "nat-pmp": "1.0.0",
+      "nat-upnp": "^1.0.2",
+      "netroute": "^1.0.2",
+      "passport": "^0.3.2",
+      "passport-local": "^1.0.0",
+      "request": "^2.72.0",
+      "sqlite3": "^3.1.4"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.2.0",
+      "electron-prebuilt": "^1.2.6",
+      "electron-rebuild": "^1.1.5"
+    },
+    "author": "Paul Sori",
+    "contributors": [],
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }
