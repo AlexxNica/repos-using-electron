@@ -9,7 +9,8 @@
     "discover": "node discover.js",
     "get-repo-data": "node get-repo-data.js",
     "get-repo-package-json": "node get-repo-package-json.js",
-    "test": "mocha && standard && standard-markdown"
+    "test": "mocha && standard && standard-markdown",
+    "reports": "node reports/dependencies.js > reports/dependencies.md && vmd reports/dependencies.md"
   },
   "keywords": [
     "electron",
@@ -19,10 +20,17 @@
   "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
   "license": "MIT",
   "devDependencies": {
+    "all-the-packages": "^1.0.2",
     "chai": "^3.5.0",
+    "count-array-values": "^1.1.0",
+    "dedent": "^0.6.0",
     "dotenv": "^2.0.0",
+    "fetch-nice-package": "^1.0.1",
     "get-repo-package-json": "^1.0.0",
+    "keyed-array": "^2.1.0",
     "limiter": "^1.1.0",
+    "lodash.flatten": "^4.4.0",
+    "lodash.pick": "^4.4.0",
     "lodash.sortby": "^4.6.1",
     "mocha": "^3.0.2",
     "octokat": "^0.4.18",
@@ -33,6 +41,7 @@
     "standard-markdown": "^1.2.1"
   },
   "dependencies": {
+    "lodash.pick": "^4.4.0",
     "nice-package": "^1.2.0",
     "object-values": "^1.0.0",
     "require-dir": "^0.3.0"
