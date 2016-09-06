@@ -14,14 +14,25 @@ npm install repos-using-electron --save
 
 ## Usage
 
-When you require this module, you get a big object full of repository metadata.
-Each key is in the form `user___repo`, and each value is that repository's
-package.json content, plus extra metadata from libraries.io in the
-`_librariesioMetadata` property.
-
+When you require this module, you get a big array full of repository objects.
 
 ```js
 const repos = require('repos-using-electron')
+```
+
+To find a specific repo:
+
+```js
+const hyperterm = repos.find(repo => repo.fullName === 'zeit/hyperterm')
+```
+
+Each repo has a `pkg` property that is a [nice package](http://ghub.io/nice-package).
+This gives you some convenience functions:
+
+```js
+hyperterm.dependsOn('object-values') // true
+hyperterm.devDependsOn('webpack') // true
+hyperterm.somehowDependsOn('hoarders') // false
 ```
 
 ## Development
