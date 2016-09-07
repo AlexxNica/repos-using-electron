@@ -11,6 +11,7 @@
     "get-repo-package-json": "node get-repo-package-json.js",
     "test": "mocha && standard && standard-markdown",
     "reports": "npm run reports:deps && npm run reports:forks",
+    "reports:contributors": "node reports/contributors.js > reports/contributors.md && vmd reports/contributors.md",
     "reports:deps": "node reports/dependencies.js > reports/dependencies.md && vmd reports/dependencies.md",
     "reports:forks": "node reports/forks.js > reports/forks.md && vmd reports/forks.md"
   },
