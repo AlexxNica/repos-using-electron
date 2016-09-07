@@ -19,9 +19,9 @@ reposByMaintainerCount.forEach(repo => {
 
 console.log(`\n\n## Top Contributors\n\n`)
 let contributors = flatten(repos.map(repo => repo.contributors))
-const contributorCounts = count(contributors, 'user').slice(0, 100)
+const contributorCounts = count(contributors, 'user').slice(0, 250)
 
 contributorCounts.forEach(_ => {
   let {count, user} = _
-  console.log(`1. [${user}](https://github/${user}) _(${count} projects)_`)
+  console.log(`1. [${user}](https://github.com/${user}) _(${count} projects)_`)
 })
