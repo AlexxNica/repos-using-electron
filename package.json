@@ -10,7 +10,9 @@
     "get-repo-data": "node get-repo-data.js",
     "get-repo-package-json": "node get-repo-package-json.js",
     "test": "mocha && standard && standard-markdown",
-    "reports": "node reports/dependencies.js > reports/dependencies.md && vmd reports/dependencies.md"
+    "reports": "npm run reports:deps && npm run reports:forks",
+    "reports:deps": "node reports/dependencies.js > reports/dependencies.md && vmd reports/dependencies.md",
+    "reports:forks": "node reports/forks.js > reports/forks.md && vmd reports/forks.md"
   },
   "keywords": [
     "electron",

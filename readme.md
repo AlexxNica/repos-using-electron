@@ -6,6 +6,13 @@ Uses the [libraries.io](https://libraries.io/api) to find dependent repos,
 and the [GitHub](https://developer.github.com/v3/) API to fetch latest
 `package.json` for each repo.
 
+## The Data
+
+Some of the collected data has been rendered into markdown reports.
+
+- [The most forked Electron apps on GitHub](/reports/forks.md)
+- [Common Dependencies in Electron Apps](/reports/dependencies.md)
+
 ## Installation
 
 ```sh
