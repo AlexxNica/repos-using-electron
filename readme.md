@@ -10,8 +10,10 @@ and the [GitHub](https://developer.github.com/v3/) API to fetch latest
 
 Some of the collected data has been rendered into markdown reports.
 
-- [The most forked Electron apps on GitHub](/reports/forks.md)
-- [Common Dependencies in Electron Apps](/reports/dependencies.md)
+- [Apps by Fork Count](/reports/forks.md)
+- [Apps by Contributor Count](/reports/contributors.md)
+- [Top Contributors](/reports/contributors.md#top-contributors)
+- [Common Dependencies](/reports/dependencies.md)
 
 ## Installation
 

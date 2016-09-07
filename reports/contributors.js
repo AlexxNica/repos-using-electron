@@ -7,7 +7,7 @@ const reposByMaintainerCount = repos
   .sort((a,b) => b.contributors.length - a.contributors.length)
   .slice(0, 250)
 
-console.log(`# Top Electron apps by contributor count\n\n`)
+console.log(`## Top apps by contributor count\n\n`)
 
 reposByMaintainerCount.forEach(repo => {
   let {name, fullName, description} = repo
@@ -17,7 +17,7 @@ reposByMaintainerCount.forEach(repo => {
   console.log(`1. [${name}](https://github.com/${fullName}) - ${description} _(${repo.contributors.length} contributors)_ ${keywords}`)
 })
 
-console.log(`\n\n# Top Electron users by project count\n\n`)
+console.log(`\n\n## Top Contributors\n\n`)
 let contributors = flatten(repos.map(repo => repo.contributors))
 const contributorCounts = count(contributors, 'user').slice(0, 100)
 
