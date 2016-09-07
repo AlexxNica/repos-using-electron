@@ -94,5 +94,9 @@
       "build-linux32": "node build.js && electron-packager ./ 'Glyphr Studio' --app-bundle-id=glyphr-studio-desktop --asar --prune --out=build --overwrite=true --platform=linux --arch=ia32 --version=1.2.7 --app-version=0.1.4 && cd 'build/Glyphr Studio-linux-ia32' && rm -rf LICENSE* version && zip -9 -ry ../Glyphr.Studio-linux-ia32.zip '../Glyphr Studio-linux-ia32' && cd ../../"
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "Autre31415",
+    "kethinov"
+  ]
 }
