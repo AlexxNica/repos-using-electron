@@ -5,7 +5,7 @@ const they = it
 describe('repos', function () {
   it('is an array with hella repos', function () {
     expect(repos).to.be.an('array')
-    expect(repos.length).to.be.above(4800)
+    expect(repos.length).to.be.above(4950)
   })
 
   they('always have a status and packageStatus of 200', function () {
