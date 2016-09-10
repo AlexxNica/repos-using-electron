@@ -5,7 +5,7 @@ const they = it
 describe('repos', function () {
   it('is an array with hella repos', function () {
     expect(repos).to.be.an('array')
-    expect(repos.length).to.be.above(4400)
+    expect(repos.length).to.be.above(4800)
   })
 
   they('always have a status and packageStatus of 200', function () {
@@ -24,11 +24,15 @@ describe('repos', function () {
     })
   })
 
-  they('have some aliases for nice-package convenience methods', function () {
+  they('have nice-package convenience methods', function () {
     const spectron = repos.find(repo => repo.fullName === 'electron/spectron')
 
     expect(spectron.pkg.dependsOn('dev-null')).to.equal(true)
     expect(spectron.pkg.devDependsOn('mocha')).to.equal(true)
     expect(spectron.pkg.somehowDependsOn('split')).to.equal(true)
+  })
+
+  they('all depend on electron or electron-prebuilt', function () {
+    expect(repos.every(repo => repo.pkg.somehowDependsOn('electron') || repo.pkg.somehowDependsOn('electron-prebuilt'))).to.equal(true)
   })
 })
