@@ -6,11 +6,13 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run discover",
-    "discover": "node discover.js",
-    "get-repo-data": "node get-repo-data.js",
-    "get-repo-package-json": "node get-repo-package-json.js",
     "test": "mocha && standard && standard-markdown",
-    "reports": "npm run reports:deps && npm run reports:forks",
+    "collectors": "npm-run-all collectors:*",
+    "collectors:repo-names": "node lib/collectors/repo-names.js",
+    "collectors:repo-data": "node lib/collectors/repo-data.js",
+    "collectors:package-json": "node lib/collectors/package-json.js",
+    "collectors:contributors": "node lib/collectors/contributors.js",
+    "reports": "npm-run-all reports:*",
     "reports:contributors": "node reports/contributors.js > reports/contributors.md && vmd reports/contributors.md",
     "reports:deps": "node reports/dependencies.js > reports/dependencies.md && vmd reports/dependencies.md",
     "reports:forks": "node reports/forks.js > reports/forks.md && vmd reports/forks.md"
