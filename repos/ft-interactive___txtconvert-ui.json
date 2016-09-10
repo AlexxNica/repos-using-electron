@@ -1,0 +1,116 @@
+{
+  "id": 65286715,
+  "name": "txtconvert-ui",
+  "fullName": "ft-interactive/txtconvert-ui",
+  "owner": {
+    "login": "ft-interactive",
+    "id": 2511089,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2511089?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/ft-interactive",
+    "htmlUrl": "https://github.com/ft-interactive",
+    "followersUrl": "https://api.github.com/users/ft-interactive/followers",
+    "subscriptionsUrl": "https://api.github.com/users/ft-interactive/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/ft-interactive/orgs",
+    "reposUrl": "https://api.github.com/users/ft-interactive/repos",
+    "receivedEventsUrl": "https://api.github.com/users/ft-interactive/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "description": "Electron app for processing FT TSV files",
+  "fork": false,
+  "createdAt": "2016-08-09T10:35:39.000Z",
+  "updatedAt": "2016-08-09T10:46:53.000Z",
+  "pushedAt": "2016-08-16T14:54:36.000Z",
+  "homepage": null,
+  "size": 239,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "organization": {
+    "login": "ft-interactive",
+    "id": 2511089,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2511089?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/ft-interactive",
+    "htmlUrl": "https://github.com/ft-interactive",
+    "followersUrl": "https://api.github.com/users/ft-interactive/followers",
+    "subscriptionsUrl": "https://api.github.com/users/ft-interactive/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/ft-interactive/orgs",
+    "reposUrl": "https://api.github.com/users/ft-interactive/repos",
+    "receivedEventsUrl": "https://api.github.com/users/ft-interactive/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 6,
+  "status": 200,
+  "packageJSON": {
+    "name": "txtconvert-ui",
+    "productName": "txt-convert",
+    "version": "1.0.1",
+    "description": "Electron app for processing FT TSV files",
+    "license": "MIT",
+    "repository": "ft-interactive/txtconvert-ui",
+    "author": {
+      "name": "Ændrew Rininsland",
+      "email": "andrew.rininsland@ft.com",
+      "url": "ft.com"
+    },
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . --out=dist --icon ./icon.icns --app-version=$npm_package_version --prune --asar --overwrite --all"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "dropzone": "^4.3.0",
+      "electron-debug": "^1.0.0",
+      "papaparse": "^4.1.2",
+      "text-converter": "github:ft-interactive/txtconverter#1.0.4"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.0",
+      "electron-packager": "^7.0.0",
+      "electron-prebuilt": "^1.0.1",
+      "xo": "^0.15.0"
+    },
+    "xo": {
+      "esnext": true,
+      "space": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
+}

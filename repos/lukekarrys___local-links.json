@@ -1,0 +1,105 @@
+{
+  "id": 22967045,
+  "name": "local-links",
+  "fullName": "lukekarrys/local-links",
+  "owner": {
+    "login": "lukekarrys",
+    "id": 542108,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/542108?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/lukekarrys",
+    "htmlUrl": "https://github.com/lukekarrys",
+    "followersUrl": "https://api.github.com/users/lukekarrys/followers",
+    "subscriptionsUrl": "https://api.github.com/users/lukekarrys/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/lukekarrys/orgs",
+    "reposUrl": "https://api.github.com/users/lukekarrys/repos",
+    "receivedEventsUrl": "https://api.github.com/users/lukekarrys/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "Determine cross-browser if an event or anchor element should be handled locally.",
+  "fork": false,
+  "createdAt": "2014-08-14T20:06:19.000Z",
+  "updatedAt": "2016-09-01T23:55:15.000Z",
+  "pushedAt": "2016-09-02T08:06:31.000Z",
+  "homepage": null,
+  "size": 39,
+  "stargazersCount": 30,
+  "watchersCount": 30,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 4,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 30,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 4,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "local-links",
+    "description": "Determine cross-browser if an event or anchor element should be handled locally.",
+    "version": "1.4.1",
+    "author": "Luke Karrys <luke@lukekarrys.com>",
+    "bugs": {
+      "url": "https://github.com/lukekarrys/local-links/issues"
+    },
+    "devDependencies": {
+      "browserify": "^13.1.0",
+      "electron-prebuilt": "^1.3.2",
+      "git-validate": "^2.1.4",
+      "jquery": "^3.1.0",
+      "lodash.partial": "^4.2.0",
+      "run-browser": "^2.0.2",
+      "standard": "^8.0.0-beta.3",
+      "tap-spec": "^4.1.1",
+      "tape": "^4.6.0",
+      "tape-run": "^2.1.4",
+      "zuul": "^3.10.3",
+      "zuul-ngrok": "^4.0.0"
+    },
+    "homepage": "https://github.com/lukekarrys/local-links",
+    "keywords": [
+      "IE",
+      "links",
+      "local"
+    ],
+    "license": "MIT",
+    "main": "local-links.js",
+    "pre-commit": [
+      "lint",
+      "test",
+      "validate"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:lukekarrys/local-links.git"
+    },
+    "scripts": {
+      "lint": "standard",
+      "start": "run-browser test/index.js",
+      "start-80": "run-browser test/index.js --port 80",
+      "test": "browserify test/index.js | tape-run -b electron | tap-spec",
+      "test-travis": "npm test && npm run zuul",
+      "validate": "npm ls",
+      "zuul": "zuul --ui tape -- test/index.js",
+      "zuul-local": "zuul --local 8080 --ui tape -- test/index.js"
+    }
+  },
+  "packageStatus": 200
+}

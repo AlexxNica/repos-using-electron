@@ -1,0 +1,80 @@
+{
+  "id": 66000900,
+  "name": "gallery",
+  "fullName": "mshamory/gallery",
+  "owner": {
+    "login": "mshamory",
+    "id": 5419935,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5419935?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mshamory",
+    "htmlUrl": "https://github.com/mshamory",
+    "followersUrl": "https://api.github.com/users/mshamory/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mshamory/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mshamory/orgs",
+    "reposUrl": "https://api.github.com/users/mshamory/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mshamory/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "Local photo and image management",
+  "fork": false,
+  "createdAt": "2016-08-18T13:48:46.000Z",
+  "updatedAt": "2016-08-19T06:34:45.000Z",
+  "pushedAt": "2016-09-01T21:01:53.000Z",
+  "homepage": "",
+  "size": 345,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "Gallery",
+    "version": "0.0.0",
+    "description": "Local photo management software",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mshamory/gallery.git"
+    },
+    "main": "index.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "keywords": [
+      "photos",
+      "management",
+      "offline",
+      "images"
+    ],
+    "dependencies": {
+      "electron-prebuilt": "1.x.x",
+      "imagemagick": "^0.1.3",
+      "jquery": "3.1.x",
+      "material-design-icons": "latest",
+      "material-design-lite": "latest",
+      "nedb": "latest",
+      "photoswipe": "^4.1.1",
+      "roboto-fontface": "^0.6.0"
+    },
+    "author": "Mike Shamory",
+    "license": "ISC"
+  },
+  "packageStatus": 200
+}

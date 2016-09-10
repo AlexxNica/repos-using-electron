@@ -1,0 +1,94 @@
+{
+  "id": 67462870,
+  "name": "Desktop",
+  "fullName": "douChat/Desktop",
+  "owner": {
+    "login": "douChat",
+    "id": 22016728,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/22016728?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/douChat",
+    "htmlUrl": "https://github.com/douChat",
+    "followersUrl": "https://api.github.com/users/douChat/followers",
+    "subscriptionsUrl": "https://api.github.com/users/douChat/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/douChat/orgs",
+    "reposUrl": "https://api.github.com/users/douChat/repos",
+    "receivedEventsUrl": "https://api.github.com/users/douChat/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "description": "doChat的桌面客户端［Windows，Mac，Linux］",
+  "fork": false,
+  "createdAt": "2016-09-06T01:36:51.000Z",
+  "updatedAt": "2016-09-06T03:01:24.000Z",
+  "pushedAt": "2016-09-06T02:17:18.000Z",
+  "homepage": null,
+  "size": 46512,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "organization": {
+    "login": "douChat",
+    "id": 22016728,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/22016728?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/douChat",
+    "htmlUrl": "https://github.com/douChat",
+    "followersUrl": "https://api.github.com/users/douChat/followers",
+    "subscriptionsUrl": "https://api.github.com/users/douChat/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/douChat/orgs",
+    "reposUrl": "https://api.github.com/users/douChat/repos",
+    "receivedEventsUrl": "https://api.github.com/users/douChat/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "devDependencies": {
+      "asar": "^0.10.0",
+      "electron-prebuilt": "0.36.10",
+      "fs-jetpack": "^0.7.0",
+      "gulp": "^3.9.0",
+      "gulp-less": "^3.0.3",
+      "gulp-util": "^3.0.6",
+      "q": "^1.4.1",
+      "rollup": "^0.25.4",
+      "tree-kill": "^0.1.1",
+      "yargs": "^4.2.0"
+    },
+    "optionalDependencies": {
+      "appdmg": "^0.3.2",
+      "rcedit": "^0.4.0"
+    },
+    "scripts": {
+      "postinstall": "cd app && npm install",
+      "build": "gulp build",
+      "release": "gulp release --env=production",
+      "start": "node ./tasks/start",
+      "test": "node ./tasks/start --env=test",
+      "install-native": "node ./tasks/install_native_module"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/RocketChat/Rocket.Chat.Electron.git"
+    },
+    "license": "MIT"
+  },
+  "packageStatus": 200
+}

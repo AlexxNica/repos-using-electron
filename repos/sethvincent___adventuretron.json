@@ -1,0 +1,107 @@
+{
+  "id": 62843800,
+  "name": "adventuretron",
+  "fullName": "sethvincent/adventuretron",
+  "owner": {
+    "login": "sethvincent",
+    "id": 164214,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/164214?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/sethvincent",
+    "htmlUrl": "https://github.com/sethvincent",
+    "followersUrl": "https://api.github.com/users/sethvincent/followers",
+    "subscriptionsUrl": "https://api.github.com/users/sethvincent/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/sethvincent/orgs",
+    "reposUrl": "https://api.github.com/users/sethvincent/repos",
+    "receivedEventsUrl": "https://api.github.com/users/sethvincent/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "Create self-guided workshops with electron.",
+  "fork": false,
+  "createdAt": "2016-07-07T23:13:20.000Z",
+  "updatedAt": "2016-09-09T00:45:46.000Z",
+  "pushedAt": "2016-09-09T23:15:19.000Z",
+  "homepage": null,
+  "size": 72,
+  "stargazersCount": 16,
+  "watchersCount": 16,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 6,
+  "openIssues": 6,
+  "watchers": 16,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spdxId": null,
+    "url": null,
+    "featured": false
+  },
+  "networkCount": 1,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "adventuretron",
+    "version": "0.0.4",
+    "description": "Create self-guided workshops using electron",
+    "main": "main.js",
+    "browser": "renderer/index.js",
+    "style": "renderer/css/bundle.css",
+    "scripts": {
+      "build": "browserify renderer/index.js -t sheetify/transform -p [ css-extract -o renderer/css/bundle.css ] -o /dev/null",
+      "watch": "watchify renderer/index.js -t sheetify/transform -p [ css-extract -o renderer/css/bundle.css ] -o /dev/null",
+      "prepublish": "npm run build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sethvincent/adventuretron.git"
+    },
+    "keywords": [
+      "nodeschool",
+      "workshopper",
+      "adventure",
+      "electron"
+    ],
+    "author": "sethvincent",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/sethvincent/adventuretron/issues"
+    },
+    "homepage": "https://github.com/sethvincent/adventuretron#readme",
+    "devDependencies": {
+      "browserify": "^13.1.0",
+      "css-extract": "^1.1.2",
+      "electron-packager": "^7.3.0",
+      "standard": "^7.1.2",
+      "watchify": "^3.7.0"
+    },
+    "dependencies": {
+      "bulk-require": "^1.0.0",
+      "choo": "^3.1.1",
+      "choo-location-electron": "^1.0.1",
+      "choo-log": "^1.1.0",
+      "dom-css": "^2.0.1",
+      "domify": "^1.4.0",
+      "electron-prebuilt": "^1.2.7",
+      "glob": "^7.0.6",
+      "insert-css": "^1.0.0",
+      "interactive-sandbox": "^1.1.0",
+      "marked": "^0.3.6",
+      "sheetify": "^5.1.0",
+      "tachyons": "^4.2.0",
+      "xtend": "^4.0.1"
+    }
+  },
+  "packageStatus": 200
+}

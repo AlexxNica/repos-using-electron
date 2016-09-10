@@ -1,0 +1,86 @@
+{
+  "id": 63793768,
+  "name": "wallet",
+  "fullName": "iotaledger/wallet",
+  "owner": {
+    "login": "iotaledger",
+    "id": 20126597,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/20126597?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/iotaledger",
+    "htmlUrl": "https://github.com/iotaledger",
+    "followersUrl": "https://api.github.com/users/iotaledger/followers",
+    "subscriptionsUrl": "https://api.github.com/users/iotaledger/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/iotaledger/orgs",
+    "reposUrl": "https://api.github.com/users/iotaledger/repos",
+    "receivedEventsUrl": "https://api.github.com/users/iotaledger/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "description": "IOTA Wallet",
+  "fork": false,
+  "createdAt": "2016-07-20T15:44:50.000Z",
+  "updatedAt": "2016-09-06T05:21:43.000Z",
+  "pushedAt": "2016-09-07T11:42:28.000Z",
+  "homepage": null,
+  "size": 128,
+  "stargazersCount": 10,
+  "watchersCount": 10,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 10,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "organization": {
+    "login": "iotaledger",
+    "id": 20126597,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/20126597?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/iotaledger",
+    "htmlUrl": "https://github.com/iotaledger",
+    "followersUrl": "https://api.github.com/users/iotaledger/followers",
+    "subscriptionsUrl": "https://api.github.com/users/iotaledger/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/iotaledger/orgs",
+    "reposUrl": "https://api.github.com/users/iotaledger/repos",
+    "receivedEventsUrl": "https://api.github.com/users/iotaledger/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 1,
+  "subscribersCount": 9,
+  "status": 200,
+  "packageJSON": {
+    "name": "iota",
+    "productName": "IOTA Wallet",
+    "description": "IOTA Wallet",
+    "version": "1.0.3",
+    "main": "app/js/main.js",
+    "scripts": {
+      "prepublish": "cd app && bower install && cd ../ui && bower install",
+      "start": "export NODE_ENV=development || set NODE_ENV=development && electron app/js/main.js"
+    },
+    "author": "IOTA Foundation <info@iotatoken.com>",
+    "homepage": "https://www.iotatoken.com/",
+    "dependencies": {
+      "follow-redirects": "^0.1.0",
+      "fs-extra": "^0.30.0",
+      "glob": "^7.0.3",
+      "pidusage": "^1.0.4",
+      "spawn-args": "^0.1.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.7"
+    }
+  },
+  "packageStatus": 200
+}

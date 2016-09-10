@@ -1,0 +1,138 @@
+{
+  "id": 28201336,
+  "name": "CommandCenter",
+  "fullName": "ExtremeModeration/CommandCenter",
+  "owner": {
+    "login": "ExtremeModeration",
+    "id": 10204023,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/10204023?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/ExtremeModeration",
+    "htmlUrl": "https://github.com/ExtremeModeration",
+    "followersUrl": "https://api.github.com/users/ExtremeModeration/followers",
+    "subscriptionsUrl": "https://api.github.com/users/ExtremeModeration/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/ExtremeModeration/orgs",
+    "reposUrl": "https://api.github.com/users/ExtremeModeration/repos",
+    "receivedEventsUrl": "https://api.github.com/users/ExtremeModeration/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "description": "A desktop application command center. Control stream settings, read chat, and control the bot!",
+  "fork": false,
+  "createdAt": "2014-12-18T20:57:36.000Z",
+  "updatedAt": "2015-06-22T06:29:55.000Z",
+  "pushedAt": "2015-06-28T00:36:41.000Z",
+  "homepage": null,
+  "size": 660,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "organization": {
+    "login": "ExtremeModeration",
+    "id": 10204023,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/10204023?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/ExtremeModeration",
+    "htmlUrl": "https://github.com/ExtremeModeration",
+    "followersUrl": "https://api.github.com/users/ExtremeModeration/followers",
+    "subscriptionsUrl": "https://api.github.com/users/ExtremeModeration/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/ExtremeModeration/orgs",
+    "reposUrl": "https://api.github.com/users/ExtremeModeration/repos",
+    "receivedEventsUrl": "https://api.github.com/users/ExtremeModeration/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "cc",
+    "version": "1.0.0",
+    "description": "ExtremeModeration.tv Command Center",
+    "main": "main.js",
+    "scripts": {
+      "start": "gulp build && electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Steve Good",
+    "license": "ISC",
+    "dependencies": {
+      "dotenv": "^1.2.0",
+      "flux": "^2.0.3",
+      "irc": "^0.3.12",
+      "keymirror": "^0.1.1",
+      "lodash": "^3.9.3",
+      "moment": "^2.10.3",
+      "object-assign": "^3.0.0",
+      "react-bootstrap": "^0.23.4"
+    },
+    "devDependencies": {
+      "bootstrap-styl": "^4.0.4",
+      "bower": "^1.4.1",
+      "browserify": "^10.2.4",
+      "browserify-shim": "^3.8.9",
+      "del": "^1.2.0",
+      "electron-prebuilt": "^0.28.2",
+      "gulp": "^3.9.0",
+      "gulp-asar": "0.0.2",
+      "gulp-autoprefixer": "^2.3.1",
+      "gulp-bower": "0.0.10",
+      "gulp-cache": "^0.2.10",
+      "gulp-clean": "^0.3.1",
+      "gulp-concat": "^2.5.2",
+      "gulp-load-plugins": "^1.0.0-rc.1",
+      "gulp-react": "^3.0.1",
+      "gulp-run-electron": "^1.2.0",
+      "gulp-size": "^1.2.2",
+      "gulp-strip-debug": "^1.0.2",
+      "gulp-stylus": "^2.0.5",
+      "gulp-uglify": "^1.2.0",
+      "gulp-useref": "^1.2.0",
+      "gulp-util": "^3.0.5",
+      "react": "^0.13.3",
+      "react-tools": "^0.13.3",
+      "reactify": "^1.1.1",
+      "strip-debug": "^1.1.1",
+      "vinyl-source-stream": "^1.1.0",
+      "watchify": "^3.2.2"
+    },
+    "browserify": {
+      "transform": [
+        "browserify-shim",
+        [
+          "reactify",
+          {
+            "es6": true
+          }
+        ]
+      ]
+    },
+    "browser": {
+      "jquery": "./bower_components/jquery/dist/jquery.js"
+    },
+    "browserify-shim": {
+      "jquery": "$"
+    }
+  },
+  "packageStatus": 200
+}

@@ -1,0 +1,119 @@
+{
+  "id": 35316798,
+  "name": "corpus",
+  "fullName": "wincent/corpus",
+  "owner": {
+    "login": "wincent",
+    "id": 7074,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7074?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/wincent",
+    "htmlUrl": "https://github.com/wincent",
+    "followersUrl": "https://api.github.com/users/wincent/followers",
+    "subscriptionsUrl": "https://api.github.com/users/wincent/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/wincent/orgs",
+    "reposUrl": "https://api.github.com/users/wincent/repos",
+    "receivedEventsUrl": "https://api.github.com/users/wincent/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "A note-management application for OS X",
+  "fork": false,
+  "createdAt": "2015-05-09T05:41:33.000Z",
+  "updatedAt": "2016-07-22T17:39:38.000Z",
+  "pushedAt": "2016-06-19T08:00:29.000Z",
+  "homepage": null,
+  "size": 1893,
+  "stargazersCount": 9,
+  "watchersCount": 9,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 2,
+  "openIssuesCount": 27,
+  "openIssues": 27,
+  "watchers": 9,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 2,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "corpus",
+    "version": "0.0.1-pre",
+    "description": "A note-management application for OS X.",
+    "main": "dist/browser/main.js",
+    "scripts": {
+      "build": "gulp build",
+      "lint": "gulp lint",
+      "test": "jest",
+      "jest": "jest",
+      "watch": "gulp"
+    },
+    "jest": {
+      "rootDir": "src",
+      "scriptPreprocessor": "<rootDir>/../node_modules/babel-jest/index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/wincent/corpus.git"
+    },
+    "author": "Greg Hurrell",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/wincent/corpus/issues"
+    },
+    "homepage": "https://github.com/wincent/corpus",
+    "dependencies": {
+      "autobind-decorator": "*",
+      "babel-core": "*",
+      "babel-eslint": "*",
+      "babel-jest": "*",
+      "babel-plugin-transform-decorators-legacy": "*",
+      "babel-plugin-transform-react-constant-elements": "*",
+      "babel-plugin-transform-react-inline-elements": "*",
+      "babel-polyfill": "6.5.0",
+      "babel-preset-es2015": "*",
+      "babel-preset-react": "*",
+      "babel-preset-stage-0": "*",
+      "bluebird": "*",
+      "eslint": "*",
+      "eslint-plugin-react": "*",
+      "flux": "*",
+      "gulp": "*",
+      "gulp-babel": "*",
+      "gulp-eslint": "*",
+      "gulp-flowtype": "*",
+      "gulp-minify-html": "*",
+      "gulp-util": "*",
+      "immutable": "*",
+      "jest-cli": "*",
+      "mkdirp": "*",
+      "react": "*",
+      "react-dom": "*",
+      "react-redux": "*",
+      "redux": "*",
+      "redux-saga": "*",
+      "reselect": "*",
+      "simple-debounce": "*",
+      "unpack-content": "*"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "1.2.3"
+    }
+  },
+  "packageStatus": 200
+}
