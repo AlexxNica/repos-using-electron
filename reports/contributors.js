@@ -4,7 +4,7 @@ const repos = require('..')
   .filter(repo => !repo.fork && repo.contributors && repo.contributors.length)
 
 const reposByMaintainerCount = repos
-  .sort((a,b) => b.contributors.length - a.contributors.length)
+  .sort((a, b) => b.contributors.length - a.contributors.length)
   .slice(0, 250)
 
 console.log(`## Top apps by contributor count\n\n`)

@@ -3,7 +3,6 @@ require('dotenv').load()
 const repos = require('require-dir')('./repos')
 const fs = require('fs')
 const path = require('path')
-const URL = require('url')
 const RateLimiter = require('limiter').RateLimiter
 const limiter = new RateLimiter(1, 1000)
 var Octokat = require('octokat')

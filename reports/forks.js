@@ -1,6 +1,6 @@
 const repos = require('..')
   .filter(repo => !repo.fork)
-  .sort((a,b) => b.forksCount - a.forksCount)
+  .sort((a, b) => b.forksCount - a.forksCount)
   .slice(0, 250)
 
 console.log(`# The most forked Electron apps on GitHub\n\n`)
