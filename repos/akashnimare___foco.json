@@ -1,0 +1,105 @@
+{
+  "id": 68073194,
+  "name": "foco",
+  "fullName": "akashnimare/foco",
+  "owner": {
+    "login": "akashnimare",
+    "id": 2263909,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2263909?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/akashnimare",
+    "htmlUrl": "https://github.com/akashnimare",
+    "followersUrl": "https://api.github.com/users/akashnimare/followers",
+    "subscriptionsUrl": "https://api.github.com/users/akashnimare/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/akashnimare/orgs",
+    "reposUrl": "https://api.github.com/users/akashnimare/repos",
+    "receivedEventsUrl": "https://api.github.com/users/akashnimare/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "Stay focused with foco :rocket: [WIP]",
+  "fork": false,
+  "createdAt": "2016-09-13T04:07:52.000Z",
+  "updatedAt": "2016-09-27T14:42:00.000Z",
+  "pushedAt": "2016-09-18T16:11:52.000Z",
+  "homepage": "",
+  "size": 34186,
+  "stargazersCount": 23,
+  "watchersCount": 23,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 7,
+  "openIssues": 7,
+  "watchers": 23,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 4,
+  "status": 200,
+  "packageJSON": {
+    "name": "Foco",
+    "version": "1.3.0",
+    "productName": "Foco",
+    "description": "Stay focused with Foco and boosts productivity 🚀 by creating perfect productive environment.",
+    "author": "Akash Nimare",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/akashnimare/foco"
+    },
+    "bugs": {
+      "url": "https://github.com/akashnimare/foco/issues"
+    },
+    "main": "index.js",
+    "scripts": {
+      "test": "standard",
+      "start": "electron .",
+      "build:dmg": "electron-installer-dmg ./dist/Foco-darwin-x64/Foco.app ./dist/Foco-$npm_package_version",
+      "build:deb": "electron-installer-debian --src dist/Foco-linux-x64 --dest dist/Foco-$npm_package_version --arch amd64",
+      "clean": "rm -Rf ./dist",
+      "build:osx": "npm run clean && electron-packager . Foco --out=dist --ignore=dist --app-version=$npm_package_version --prune --asar --icon=img/Icon.icns --overwrite --platform=darwin --arch=x64 && cd dist/Foco-darwin-x64 && npm run build:dmg && zip -ryXq9 ../Foco-osx-${npm_package_version}.zip Foco.app",
+      "build:linux": "npm run clean && electron-packager . Foco --out=dist --ignore=dist --app-version=$npm_package_version --prune --asar --icon=img/Iconlinux.png --overwrite --platform=linux --arch=x64 && npm run build:deb"
+    },
+    "keywords": [
+      "electron",
+      "productivity",
+      "focus",
+      "menubar",
+      "menu",
+      "mac",
+      "app"
+    ],
+    "homepage": "http://akashnimare.in",
+    "dependencies": {
+      "menubar": "*"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.0.0",
+      "electron-installer-dmg": "*",
+      "electron": "1.3.3",
+      "standard": "*"
+    },
+    "optionalDependencies": {
+      "electron-installer-debian": "*"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "akashnimare"
+  ]
+}

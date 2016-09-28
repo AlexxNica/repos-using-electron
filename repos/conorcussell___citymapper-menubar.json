@@ -1,0 +1,87 @@
+{
+  "id": 69400019,
+  "name": "citymapper-menubar",
+  "fullName": "conorcussell/citymapper-menubar",
+  "owner": {
+    "login": "conorcussell",
+    "id": 4960622,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4960622?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/conorcussell",
+    "htmlUrl": "https://github.com/conorcussell",
+    "followersUrl": "https://api.github.com/users/conorcussell/followers",
+    "subscriptionsUrl": "https://api.github.com/users/conorcussell/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/conorcussell/orgs",
+    "reposUrl": "https://api.github.com/users/conorcussell/repos",
+    "receivedEventsUrl": "https://api.github.com/users/conorcussell/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": null,
+  "fork": false,
+  "createdAt": "2016-09-27T21:25:39.000Z",
+  "updatedAt": "2016-09-28T06:13:49.000Z",
+  "pushedAt": "2016-09-28T06:14:41.000Z",
+  "homepage": null,
+  "size": 335,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "citymapper-menubar",
+    "version": "0.0.1",
+    "description": "A menubar app for Citymapper journey times",
+    "main": "index.js",
+    "dependencies": {
+      "jquery": "^3.1.1",
+      "menubar": "^5.1.0",
+      "open": "0.0.5"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.4.0",
+      "electron-prebuilt": "^1.3.2"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . Mapper --platform=darwin --arch=x64 --version=1.3.2 --overwrite --icon=citymapper"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/conorcussell/citymapper-menubar.git"
+    },
+    "author": "Conor Cussell <contact@conorcussell.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/conorcussell/citymapper-menubar"
+    },
+    "homepage": "https://github.com/muan/citymapper-menubar#readme"
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "conorcussell"
+  ]
+}

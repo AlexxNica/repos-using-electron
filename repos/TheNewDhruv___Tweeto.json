@@ -1,0 +1,100 @@
+{
+  "id": 68286638,
+  "name": "Tweeto",
+  "fullName": "TheNewDhruv/Tweeto",
+  "owner": {
+    "login": "TheNewDhruv",
+    "id": 22215244,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/22215244?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/TheNewDhruv",
+    "htmlUrl": "https://github.com/TheNewDhruv",
+    "followersUrl": "https://api.github.com/users/TheNewDhruv/followers",
+    "subscriptionsUrl": "https://api.github.com/users/TheNewDhruv/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/TheNewDhruv/orgs",
+    "reposUrl": "https://api.github.com/users/TheNewDhruv/repos",
+    "receivedEventsUrl": "https://api.github.com/users/TheNewDhruv/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "A Small And Fast Twitter App/Client.",
+  "fork": false,
+  "createdAt": "2016-09-15T10:58:53.000Z",
+  "updatedAt": "2016-09-15T11:57:08.000Z",
+  "pushedAt": "2016-09-20T11:19:34.000Z",
+  "homepage": "http://TheNewDhruv.com",
+  "size": 560,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "Tweeto",
+    "version": "0.0.3",
+    "description": "A Small And Fast Twitter App/Client.",
+    "main": "main.js",
+    "productName": "Tweeto",
+    "scripts": {
+      "start": "electron main.js",
+      "pack": "electron-packager ./ Tweeto --asar --platform=win32 --icon=res/tweeto20.ico"
+    },
+    "keywords": [
+      "electron",
+      "menubar",
+      "taskbar",
+      "tray",
+      "html",
+      "desktop",
+      "windows",
+      "twitter",
+      "tweet",
+      "TND"
+    ],
+    "author": "Dhruv_Chaturvedi <me@thenewdhruv.com",
+    "license": "TheNewDhruv.com",
+    "bugs": {
+      "url": "http://thenewdhruv.com/Tweeto/issues"
+    },
+    "homepage": "http://thenewdhruv.com/Tweeto/",
+    "_npmUser": {
+      "name": "Dhruv_Chaturvedi",
+      "email": "me@thenewdhruv.com"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.2",
+      "electron-packager": "^8.0.0",
+      "electron-prebuilt": "latest",
+      "gulp": "^3.9.1"
+    },
+    "dependencies": {
+      "menubar": "latest"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "TheNewDhruv"
+  ]
+}

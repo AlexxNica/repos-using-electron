@@ -1,0 +1,77 @@
+{
+  "id": 65179979,
+  "name": "pinger",
+  "fullName": "danijeel/pinger",
+  "owner": {
+    "login": "danijeel",
+    "id": 1218385,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1218385?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/danijeel",
+    "htmlUrl": "https://github.com/danijeel",
+    "followersUrl": "https://api.github.com/users/danijeel/followers",
+    "subscriptionsUrl": "https://api.github.com/users/danijeel/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/danijeel/orgs",
+    "reposUrl": "https://api.github.com/users/danijeel/repos",
+    "receivedEventsUrl": "https://api.github.com/users/danijeel/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": ":battery:",
+  "fork": false,
+  "createdAt": "2016-08-08T06:51:20.000Z",
+  "updatedAt": "2016-08-13T17:42:14.000Z",
+  "pushedAt": "2016-08-08T16:24:08.000Z",
+  "homepage": "",
+  "size": 87,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "cc0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "spdxId": "CC0-1.0",
+    "url": "https://api.github.com/licenses/cc0-1.0",
+    "featured": false
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-ping-graph",
+    "productName": "pinger",
+    "version": "0.0.1",
+    "description": "Electron ping graph",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager ./ electron-pinger --all --out build --overwrite"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.5.1",
+      "electron-prebuilt": "^1.3.2"
+    },
+    "dependencies": {
+      "canvasjs": "^1.8.1",
+      "ping-wrapper2": "0.0.6"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "danijeel"
+  ]
+}
