@@ -13,9 +13,9 @@
     "collectors:package-json": "node lib/collectors/package-json.js",
     "collectors:contributors": "node lib/collectors/contributors.js",
     "reports": "npm-run-all reports:*",
-    "reports:contributors": "node reports/contributors.js > reports/contributors.md && vmd reports/contributors.md",
-    "reports:deps": "node reports/dependencies.js > reports/dependencies.md && vmd reports/dependencies.md",
-    "reports:forks": "node reports/forks.js > reports/forks.md && vmd reports/forks.md"
+    "reports:contributors": "node reports/contributors.js > reports/contributors.md",
+    "reports:deps": "node reports/dependencies.js > reports/dependencies.md",
+    "reports:forks": "node reports/forks.js > reports/forks.md"
   },
   "keywords": [
     "electron",
