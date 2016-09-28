@@ -21,10 +21,11 @@ Promise.all(fetches)
   .then(render)
   .catch(console.error)
 
-function logPackage (pkg) {
+function logPackage (pkg, i) {
+  i = i || 1
   if (!packages[pkg] || typeof packages[pkg] !== 'object') return
   const {name, description} = packages[pkg]
-  console.log(`1. [${name}](http://ghub.io/${name}) - ${description}`)
+  console.log(`${i}. [${name}](http://ghub.io/${name}) - ${description}`)
 }
 
 function render (result) {
