@@ -1,0 +1,90 @@
+{
+  "id": 38041015,
+  "name": "google-translate-menubar",
+  "fullName": "wangzuo/google-translate-menubar",
+  "owner": {
+    "login": "wangzuo",
+    "id": 1039026,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1039026?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/wangzuo",
+    "htmlUrl": "https://github.com/wangzuo",
+    "followersUrl": "https://api.github.com/users/wangzuo/followers",
+    "subscriptionsUrl": "https://api.github.com/users/wangzuo/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/wangzuo/orgs",
+    "reposUrl": "https://api.github.com/users/wangzuo/repos",
+    "receivedEventsUrl": "https://api.github.com/users/wangzuo/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "google translate menubar",
+  "fork": false,
+  "createdAt": "2015-06-25T09:40:59.000Z",
+  "updatedAt": "2015-06-25T09:48:49.000Z",
+  "pushedAt": "2016-10-20T07:16:11.000Z",
+  "homepage": "",
+  "size": 190,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 8,
+  "openIssues": 8,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "isc",
+    "name": "ISC License",
+    "spdxId": "ISC",
+    "url": "https://api.github.com/licenses/isc",
+    "featured": false
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "google-translate-menubar",
+    "version": "2.0.0",
+    "description": "google translate menubar",
+    "main": "main.js",
+    "scripts": {
+      "start": "./node_modules/electron-prebuilt/cli.js .",
+      "build": "./node_modules/electron-packager/cli.js . google-translate-menubar --platform=darwin --arch=x64 --version=0.28.3 --icon=./icons/icon.icns --overwrite --asar"
+    },
+    "author": "Wang Zuo",
+    "license": "ISC",
+    "dependencies": {
+      "menubar": "^2.0.14"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.28.3"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wangzuo/google-translate-menubar.git"
+    },
+    "keywords": [
+      "google",
+      "translate",
+      "menubar"
+    ],
+    "bugs": {
+      "url": "https://github.com/wangzuo/google-translate-menubar/issues"
+    },
+    "homepage": "https://github.com/wangzuo/google-translate-menubar#readme"
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "wangzuo"
+  ]
+}

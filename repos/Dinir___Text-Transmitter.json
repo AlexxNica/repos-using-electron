@@ -1,0 +1,82 @@
+{
+  "id": 57598175,
+  "name": "Text-Transmitter",
+  "fullName": "Dinir/Text-Transmitter",
+  "owner": {
+    "login": "Dinir",
+    "id": 9097044,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/9097044?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Dinir",
+    "htmlUrl": "https://github.com/Dinir",
+    "followersUrl": "https://api.github.com/users/Dinir/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Dinir/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Dinir/orgs",
+    "reposUrl": "https://api.github.com/users/Dinir/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Dinir/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "Text based Twitter client powered by electron.js",
+  "fork": false,
+  "createdAt": "2016-05-01T12:48:59.000Z",
+  "updatedAt": "2016-05-01T12:53:19.000Z",
+  "pushedAt": "2016-10-25T00:40:37.000Z",
+  "homepage": null,
+  "size": 350,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "Text-Transmitter",
+    "version": "0.1.0",
+    "keywords": [
+      "twitter",
+      "twitter client"
+    ],
+    "homepage": "http://dinir.works/",
+    "bugs": {
+      "email": "DinirNertan@gmail.com"
+    },
+    "author": "Dinir Nertan <DinirNertan@gmail.com> (http://dinir.works)",
+    "main": "./main.js",
+    "repository": "Dinir/Text-Transmitter",
+    "scripts": {
+      "start": "./node_modules/.bin/electron .",
+      "buildscripts": "babel js --out-file js/script.js --ignore js/script.js,js/_twit.js",
+      "gencss": "/home/dinir/.gem/ruby/2.3.0/bin/sass --update scss:css",
+      "electron-rebuild": "electron-rebuild"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.14.0",
+      "electron-prebuilt": "^0.37.7"
+    },
+    "dependencies": {
+      "moment": "^2.13.0",
+      "twit": "^2.2.3"
+    },
+    "private": true
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "Dinir"
+  ]
+}

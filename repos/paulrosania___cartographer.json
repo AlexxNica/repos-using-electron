@@ -1,0 +1,103 @@
+{
+  "id": 46826754,
+  "name": "cartographer",
+  "fullName": "paulrosania/cartographer",
+  "owner": {
+    "login": "paulrosania",
+    "id": 1904,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1904?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/paulrosania",
+    "htmlUrl": "https://github.com/paulrosania",
+    "followersUrl": "https://api.github.com/users/paulrosania/followers",
+    "subscriptionsUrl": "https://api.github.com/users/paulrosania/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/paulrosania/orgs",
+    "reposUrl": "https://api.github.com/users/paulrosania/repos",
+    "receivedEventsUrl": "https://api.github.com/users/paulrosania/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "A tile-based map editor",
+  "fork": false,
+  "createdAt": "2015-11-25T00:15:05.000Z",
+  "updatedAt": "2016-05-08T18:09:37.000Z",
+  "pushedAt": "2016-05-08T18:09:36.000Z",
+  "homepage": "https://github.com/paulrosania/cartographer",
+  "size": 177,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "cartographer",
+    "productName": "Cartographer",
+    "version": "0.1.0",
+    "description": "A tile-based map editor",
+    "main": "init.js",
+    "author": "Paul Rosania",
+    "repository": "https://github.com/paulrosania/cartographer",
+    "license": "MIT",
+    "scripts": {
+      "serve": "node_modules/.bin/babel-node scripts/serve.js",
+      "pack": "node_modules/.bin/babel-node scripts/pack.js"
+    },
+    "devDependencies": {
+      "babel": "^5.8.34",
+      "babel-eslint": "^4.1.6",
+      "browser-sync": "^2.10.1",
+      "electron-compilers": "^1.0.1",
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.36.1",
+      "eslint": "^1.10.3",
+      "eslint-config-airbnb": "^2.1.1",
+      "eslint-plugin-react": "^3.12.0",
+      "redux-devtools": "^3.0.0",
+      "redux-devtools-dock-monitor": "^1.0.1",
+      "redux-devtools-log-monitor": "^1.0.1"
+    },
+    "dependencies": {
+      "classnames": "^2.2.1",
+      "color": "^0.10.1",
+      "electron-compile": "^1.0.2",
+      "fs": "0.0.2",
+      "immutable": "^3.7.6",
+      "lodash": "^3.10.1",
+      "path": "^0.12.7",
+      "radium": "^0.15.3",
+      "react": "^0.14.3",
+      "react-art": "^0.14.0",
+      "react-dom": "^0.14.3",
+      "react-redux": "^4.0.2",
+      "redux": "^3.0.5",
+      "redux-thunk": "^1.0.2",
+      "redux-undo": "paulrosania/redux-undo#include-src"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "paulrosania"
+  ]
+}

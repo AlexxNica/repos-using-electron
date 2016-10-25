@@ -1,0 +1,80 @@
+{
+  "id": 59264822,
+  "name": "quest-editor",
+  "fullName": "gamestailer94/quest-editor",
+  "owner": {
+    "login": "gamestailer94",
+    "id": 5803642,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5803642?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/gamestailer94",
+    "htmlUrl": "https://github.com/gamestailer94",
+    "followersUrl": "https://api.github.com/users/gamestailer94/followers",
+    "subscriptionsUrl": "https://api.github.com/users/gamestailer94/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/gamestailer94/orgs",
+    "reposUrl": "https://api.github.com/users/gamestailer94/repos",
+    "receivedEventsUrl": "https://api.github.com/users/gamestailer94/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": null,
+  "fork": false,
+  "createdAt": "2016-05-20T04:27:38.000Z",
+  "updatedAt": "2016-05-20T04:49:53.000Z",
+  "pushedAt": "2016-09-03T12:09:07.000Z",
+  "homepage": null,
+  "size": 1285,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 1,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "build": {
+      "app-bundle-id": "com.gamestailer94.QuestEditor",
+      "app-category-type": "public.app-category.developer-tools",
+      "asar": true,
+      "win": {
+        "iconUrl": "https://raw.githubusercontent.com/gamestailer94/quest-editor/master/build/icon.ico"
+      }
+    },
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "pack": "build --arch all",
+      "dist": "build --arch all",
+      "release": "build",
+      "dist:ia32": "./node_modules/.bin/build --platform win32 --arch ia32"
+    },
+    "devDependencies": {
+      "electron-builder": ">=3.25.0",
+      "electron-prebuilt": ">=1.1.0"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "gamestailer94",
+    "AdriLezaack"
+  ]
+}

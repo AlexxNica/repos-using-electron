@@ -1,0 +1,101 @@
+{
+  "id": 65116637,
+  "name": "roll-call",
+  "fullName": "mikeal/roll-call",
+  "owner": {
+    "login": "mikeal",
+    "id": 579,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/579?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mikeal",
+    "htmlUrl": "https://github.com/mikeal",
+    "followersUrl": "https://api.github.com/users/mikeal/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mikeal/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mikeal/orgs",
+    "reposUrl": "https://api.github.com/users/mikeal/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mikeal/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "☎️ Free and reliable audio calls for everyone w/ browser p2p.",
+  "fork": false,
+  "createdAt": "2016-08-07T05:04:07.000Z",
+  "updatedAt": "2016-10-25T03:18:29.000Z",
+  "pushedAt": "2016-10-23T23:32:48.000Z",
+  "homepage": "https://rollcall.audio",
+  "size": 11266,
+  "stargazersCount": 963,
+  "watchersCount": 963,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 55,
+  "openIssuesCount": 37,
+  "openIssues": 37,
+  "watchers": 963,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 55,
+  "subscribersCount": 40,
+  "status": 200,
+  "packageJSON": {
+    "name": "roll-call",
+    "version": "0.2.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "beefy index.js:bundle.js --index index.html",
+      "build": "browserify index.js > bundle.js",
+      "test": "standard"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mikeal/roll-call.git"
+    },
+    "keywords": [],
+    "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.mikealrogers.com)",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/mikeal/roll-call/issues"
+    },
+    "homepage": "https://github.com/mikeal/roll-call#readme",
+    "dependencies": {
+      "async-load": "^1.0.7",
+      "bel": "^4.4.3",
+      "clipboard": "^1.5.12",
+      "drag-drop": "^2.12.1",
+      "filestream": "^4.1.3",
+      "funky": "^1.4.0",
+      "getusermedia": "^2.0.0",
+      "killa-beez": "^2.4.0",
+      "media-recorder-stream": "^2.1.0",
+      "waudio": "^2.2.0",
+      "xhr": "^2.2.2"
+    },
+    "devDependencies": {
+      "beefy": "^2.1.8",
+      "browserify": "^13.1.0",
+      "standard": "^8.4.0",
+      "watchify": "^3.7.0"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "mikeal",
+    "chromakode",
+    "feross",
+    "vladaspasic",
+    "FotoVerite",
+    "pertrai1",
+    "MarcL",
+    "cheeaun",
+    "RussTheAerialist"
+  ]
+}

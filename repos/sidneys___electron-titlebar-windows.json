@@ -1,0 +1,111 @@
+{
+  "id": 67870017,
+  "name": "electron-titlebar-windows",
+  "fullName": "sidneys/electron-titlebar-windows",
+  "owner": {
+    "login": "sidneys",
+    "id": 1630917,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1630917?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/sidneys",
+    "htmlUrl": "https://github.com/sidneys",
+    "followersUrl": "https://api.github.com/users/sidneys/followers",
+    "subscriptionsUrl": "https://api.github.com/users/sidneys/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/sidneys/orgs",
+    "reposUrl": "https://api.github.com/users/sidneys/repos",
+    "receivedEventsUrl": "https://api.github.com/users/sidneys/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "description": "Adds the Windows 10 ModernUI (Metro)-style titlebars to any Electron-based desktop app.",
+  "fork": false,
+  "createdAt": "2016-09-10T12:35:16.000Z",
+  "updatedAt": "2016-09-10T23:14:51.000Z",
+  "pushedAt": "2016-09-12T03:49:58.000Z",
+  "homepage": null,
+  "size": 171,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-titlebar-windows",
+    "version": "2.1.0",
+    "description": "Add Windows 10-style Modern UI titlebars to Electron-based desktop applications",
+    "license": "MIT",
+    "homepage": "https://sidneys.github.io/electron-titlebar-windows",
+    "author": {
+      "name": "sidneys",
+      "url": "https://github.com/sidneys"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sidneys/electron-titlebar-windows.git"
+    },
+    "bugs": {
+      "url": "https://github.com/sidneys/electron-titlebar-windows/issues"
+    },
+    "engines": {
+      "node": ">=6.0.0"
+    },
+    "scripts": {
+      "demo": "./node_modules/.bin/electron ./app/main.js",
+      "test": "ava"
+    },
+    "os": [
+      "darwin",
+      "win32",
+      "linux"
+    ],
+    "keywords": [
+      "windows",
+      "metro",
+      "titlebar",
+      "win32",
+      "css"
+    ],
+    "dependencies": {
+      "brfs": "^1.4.3",
+      "browserify": "^13.1.0",
+      "defaultcss": "^1.1.1",
+      "dombo": "^3.2.0",
+      "domify": "^1.4.0"
+    },
+    "devDependencies": {
+      "ava": "^0.16.0",
+      "electron-prebuilt": "^1.3.5",
+      "spectron": "^3.3.0"
+    },
+    "main": "index.js",
+    "browserify": {
+      "transform": [
+        "brfs"
+      ]
+    }
+  },
+  "packageStatus": 200,
+  "contributors": []
+}
