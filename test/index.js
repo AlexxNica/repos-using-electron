@@ -8,6 +8,11 @@ describe('repos', function () {
     expect(repos.length).to.be.above(4950)
   })
 
+  it('is sorted by fork count', function () {
+    expect(repos[0].forksCount).to.be.above(2000)
+    expect(repos[repos.length - 1].forksCount).to.equal(0)
+  })
+
   they('always have a status and packageStatus of 200', function () {
     expect(repos.every(repo => repo.status === 200)).to.equal(true)
     expect(repos.every(repo => repo.packageStatus === 200)).to.equal(true)

@@ -6,3 +6,4 @@ module.exports = require('object-values')(require('require-dir')('./repos'))
     return repo.packageStatus === 200 &&
     (repo.pkg.somehowDependsOn('electron') || repo.pkg.somehowDependsOn('electron-prebuilt'))
   })
+  .sort((a, b) => b.forksCount - a.forksCount)
