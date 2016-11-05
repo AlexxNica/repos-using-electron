@@ -39,9 +39,30 @@ Each repo has a `pkg` property that is a [nice package](http://ghub.io/nice-pack
 This gives you some convenience functions:
 
 ```js
-hyperterm.dependsOn('object-values') // true
-hyperterm.devDependsOn('webpack') // true
-hyperterm.somehowDependsOn('hoarders') // false
+hyperterm.pkg.dependsOn('object-values') // true
+hyperterm.pkg.devDependsOn('webpack') // true
+hyperterm.pkg.somehowDependsOn('hoarders') // false
+```
+
+Find the top 30 repos that depend on `electron-builder` (repos are sorted by
+`forksCount` by default):
+
+```js
+repos
+  .filter(repo => repo.pkg.somehowDependsOn('electron-builder'))
+  .slice(0, 30)
+  .map(repo => repo.fullName)
+```
+
+Open those top 30 repos in your browser:
+
+```js
+const open = require('open')
+
+repos
+  .filter(repo => repo.pkg.somehowDependsOn('electron-builder'))
+  .slice(0, 30)
+  .map(repo => open(repo.htmlUrl))
 ```
 
 ## Development
