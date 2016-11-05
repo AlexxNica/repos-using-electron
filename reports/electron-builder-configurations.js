@@ -5,8 +5,8 @@ repos
   .filter(repo => repo.pkg.somehowDependsOn('electron-builder'))
   .filter(repo => repo.pkg.build)
   .forEach(repo => {
-    console.log(dedent
-`### [${repo.fullName}](https://github.com/${repo.fullName}/tree/master/package.json)
+    console.log(dedent`
+### [${repo.fullName}](https://github.com/${repo.fullName}/tree/master/package.json)
 
 > ${repo.pkg.description || repo.description || ''}
 
