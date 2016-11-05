@@ -15,7 +15,8 @@
     "reports": "npm-run-all reports:*",
     "reports:contributors": "node reports/contributors.js > reports/contributors.md",
     "reports:deps": "node reports/dependencies.js > reports/dependencies.md",
-    "reports:forks": "node reports/forks.js > reports/forks.md"
+    "reports:forks": "node reports/forks.js > reports/forks.md",
+    "reports:electron-builder-configurations": "node reports/electron-builder-configurations.js > reports/electron-builder-configurations.md"
   },
   "keywords": [
     "electron",
