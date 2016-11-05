@@ -1,0 +1,135 @@
+{
+  "id": 71944099,
+  "name": "dti",
+  "fullName": "hypermodules/dti",
+  "owner": {
+    "login": "hypermodules",
+    "id": 16354492,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/16354492?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/hypermodules",
+    "htmlUrl": "https://github.com/hypermodules",
+    "followersUrl": "https://api.github.com/users/hypermodules/followers",
+    "subscriptionsUrl": "https://api.github.com/users/hypermodules/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/hypermodules/orgs",
+    "reposUrl": "https://api.github.com/users/hypermodules/repos",
+    "receivedEventsUrl": "https://api.github.com/users/hypermodules/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/hypermodules/dti",
+  "description": "command-line electron devtools installer",
+  "fork": false,
+  "url": "https://api.github.com/repos/hypermodules/dti",
+  "forksUrl": "https://api.github.com/repos/hypermodules/dti/forks",
+  "teamsUrl": "https://api.github.com/repos/hypermodules/dti/teams",
+  "hooksUrl": "https://api.github.com/repos/hypermodules/dti/hooks",
+  "eventsUrl": "https://api.github.com/repos/hypermodules/dti/events",
+  "tagsUrl": "https://api.github.com/repos/hypermodules/dti/tags",
+  "languagesUrl": "https://api.github.com/repos/hypermodules/dti/languages",
+  "stargazersUrl": "https://api.github.com/repos/hypermodules/dti/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/hypermodules/dti/contributors",
+  "subscribersUrl": "https://api.github.com/repos/hypermodules/dti/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/hypermodules/dti/subscription",
+  "mergesUrl": "https://api.github.com/repos/hypermodules/dti/merges",
+  "downloadsUrl": "https://api.github.com/repos/hypermodules/dti/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/hypermodules/dti/deployments",
+  "createdAt": "2016-10-25T22:25:21.000Z",
+  "updatedAt": "2016-11-03T14:49:06.000Z",
+  "pushedAt": "2016-11-01T17:40:41.000Z",
+  "gitUrl": "git://github.com/hypermodules/dti.git",
+  "sshUrl": "git@github.com:hypermodules/dti.git",
+  "cloneUrl": "https://github.com/hypermodules/dti.git",
+  "svnUrl": "https://github.com/hypermodules/dti",
+  "homepage": "https://www.npmjs.com/package/dti",
+  "size": 23,
+  "stargazersCount": 26,
+  "watchersCount": 26,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 26,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "organization": {
+    "login": "hypermodules",
+    "id": 16354492,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/16354492?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/hypermodules",
+    "htmlUrl": "https://github.com/hypermodules",
+    "followersUrl": "https://api.github.com/users/hypermodules/followers",
+    "subscriptionsUrl": "https://api.github.com/users/hypermodules/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/hypermodules/orgs",
+    "reposUrl": "https://api.github.com/users/hypermodules/repos",
+    "receivedEventsUrl": "https://api.github.com/users/hypermodules/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "dti",
+    "version": "1.0.2",
+    "description": "Command-line Electron Developer Tools Installer.",
+    "main": "index.js",
+    "bin": {
+      "dti": "./cli.js"
+    },
+    "scripts": {
+      "test": "dependency-check . && standard | snazzy"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hypermodules/dti.git"
+    },
+    "keywords": [
+      "cli",
+      "electron",
+      "devtools",
+      "developer",
+      "tools",
+      "installer"
+    ],
+    "author": "Bret Comnes",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/hypermodules/dti/issues"
+    },
+    "homepage": "https://github.com/hypermodules/dti#readme",
+    "dependencies": {
+      "devtron": "^1.4.0",
+      "electron": "^1.4.4",
+      "electron-devtools-installer": "^2.0.1",
+      "minimist": "^1.2.0",
+      "run-series": "^1.1.4"
+    },
+    "devDependencies": {
+      "dependency-check": "^2.6.0",
+      "snazzy": "^5.0.0",
+      "standard": "^8.5.0"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "bcomnes",
+    "ungoldman"
+  ]
+}

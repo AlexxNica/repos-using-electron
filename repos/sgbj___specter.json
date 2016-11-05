@@ -1,0 +1,109 @@
+{
+  "id": 71024709,
+  "name": "specter",
+  "fullName": "sgbj/specter",
+  "owner": {
+    "login": "sgbj",
+    "id": 5178445,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5178445?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/sgbj",
+    "htmlUrl": "https://github.com/sgbj",
+    "followersUrl": "https://api.github.com/users/sgbj/followers",
+    "subscriptionsUrl": "https://api.github.com/users/sgbj/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/sgbj/orgs",
+    "reposUrl": "https://api.github.com/users/sgbj/repos",
+    "receivedEventsUrl": "https://api.github.com/users/sgbj/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/sgbj/specter",
+  "description": "Screen recording app built with Electron",
+  "fork": false,
+  "url": "https://api.github.com/repos/sgbj/specter",
+  "forksUrl": "https://api.github.com/repos/sgbj/specter/forks",
+  "teamsUrl": "https://api.github.com/repos/sgbj/specter/teams",
+  "hooksUrl": "https://api.github.com/repos/sgbj/specter/hooks",
+  "eventsUrl": "https://api.github.com/repos/sgbj/specter/events",
+  "tagsUrl": "https://api.github.com/repos/sgbj/specter/tags",
+  "languagesUrl": "https://api.github.com/repos/sgbj/specter/languages",
+  "stargazersUrl": "https://api.github.com/repos/sgbj/specter/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/sgbj/specter/contributors",
+  "subscribersUrl": "https://api.github.com/repos/sgbj/specter/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/sgbj/specter/subscription",
+  "mergesUrl": "https://api.github.com/repos/sgbj/specter/merges",
+  "downloadsUrl": "https://api.github.com/repos/sgbj/specter/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/sgbj/specter/deployments",
+  "createdAt": "2016-10-16T02:02:48.000Z",
+  "updatedAt": "2016-10-16T19:19:32.000Z",
+  "pushedAt": "2016-10-20T02:39:40.000Z",
+  "gitUrl": "git://github.com/sgbj/specter.git",
+  "sshUrl": "git@github.com:sgbj/specter.git",
+  "cloneUrl": "https://github.com/sgbj/specter.git",
+  "svnUrl": "https://github.com/sgbj/specter",
+  "homepage": null,
+  "size": 2015,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "specter",
+    "productName": "specter",
+    "version": "1.0.0",
+    "description": "Screen recording app built with Electron",
+    "main": "main.js",
+    "scripts": {
+      "electron": "electron",
+      "electron-packager": "electron-packager",
+      "gulp": "gulp",
+      "start": "npm run electron .",
+      "build": "npm run electron-packager -- . --all --out=dist",
+      "postinstall": "npm run gulp -- --gulpfile semantic/gulpfile.js build"
+    },
+    "repository": "https://github.com/sgbj/specter",
+    "keywords": [
+      "screen",
+      "recording",
+      "Electron"
+    ],
+    "author": "sgbj",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^1.4.1",
+      "electron-packager": "^8.1.0"
+    },
+    "dependencies": {
+      "jquery": "^3.1.1",
+      "semantic-ui": "^2.2.4"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "sgbj"
+  ]
+}

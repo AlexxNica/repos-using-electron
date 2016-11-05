@@ -1,0 +1,157 @@
+{
+  "id": 68801529,
+  "name": "elite-journal",
+  "fullName": "willyb321/elite-journal",
+  "owner": {
+    "login": "willyb321",
+    "id": 9222609,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/9222609?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/willyb321",
+    "htmlUrl": "https://github.com/willyb321",
+    "followersUrl": "https://api.github.com/users/willyb321/followers",
+    "subscriptionsUrl": "https://api.github.com/users/willyb321/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/willyb321/orgs",
+    "reposUrl": "https://api.github.com/users/willyb321/repos",
+    "receivedEventsUrl": "https://api.github.com/users/willyb321/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/willyb321/elite-journal",
+  "description": "Parsing the Elite: Dangerous journal and putting it into a cool format.",
+  "fork": false,
+  "url": "https://api.github.com/repos/willyb321/elite-journal",
+  "forksUrl": "https://api.github.com/repos/willyb321/elite-journal/forks",
+  "teamsUrl": "https://api.github.com/repos/willyb321/elite-journal/teams",
+  "hooksUrl": "https://api.github.com/repos/willyb321/elite-journal/hooks",
+  "eventsUrl": "https://api.github.com/repos/willyb321/elite-journal/events",
+  "tagsUrl": "https://api.github.com/repos/willyb321/elite-journal/tags",
+  "languagesUrl": "https://api.github.com/repos/willyb321/elite-journal/languages",
+  "stargazersUrl": "https://api.github.com/repos/willyb321/elite-journal/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/willyb321/elite-journal/contributors",
+  "subscribersUrl": "https://api.github.com/repos/willyb321/elite-journal/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/willyb321/elite-journal/subscription",
+  "mergesUrl": "https://api.github.com/repos/willyb321/elite-journal/merges",
+  "downloadsUrl": "https://api.github.com/repos/willyb321/elite-journal/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/willyb321/elite-journal/deployments",
+  "createdAt": "2016-09-21T09:27:40.000Z",
+  "updatedAt": "2016-10-26T00:02:14.000Z",
+  "pushedAt": "2016-11-04T07:04:50.000Z",
+  "gitUrl": "git://github.com/willyb321/elite-journal.git",
+  "sshUrl": "git@github.com:willyb321/elite-journal.git",
+  "cloneUrl": "https://github.com/willyb321/elite-journal.git",
+  "svnUrl": "https://github.com/willyb321/elite-journal",
+  "homepage": "http://willyb321.xyz/elite-journal",
+  "size": 1568,
+  "stargazersCount": 10,
+  "watchersCount": 10,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 2,
+  "mirrorUrl": null,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 10,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 2,
+  "subscribersCount": 4,
+  "status": 200,
+  "packageJSON": {
+    "name": "elite-journal",
+    "productName": "Elite Journal",
+    "version": "1.6.22",
+    "description": "Parsing the elite dangerous journal and putting it in a cool format!",
+    "license": "MIT",
+    "repository": "willyb321/elite-journal",
+    "author": {
+      "name": "willyb321",
+      "email": "wbwilliam7@gmail.com",
+      "url": "tehsuperwilly.tech"
+    },
+    "scripts": {
+      "test": "mocha --reporter mocha-circleci-reporter ./test.js && xo",
+      "start": "electron .",
+      "build": "electron-zip-packager . --out=dist --overwrite --platform=win32 --arch=x64 --prune --asar",
+      "pack": "build --dir",
+      "dist": "build -w --x64",
+      "release": "build -w --x64",
+      "tag": "release-it"
+    },
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "bugsnag": "^1.8.0",
+      "electron-auto-updater": "^0.4.0",
+      "electron-debug": "^1.0.1",
+      "electron-is-dev": "^0.1.2",
+      "fs.extra": "^1.3.2",
+      "jsonfile": "^2.4.0",
+      "line-by-line": "^0.1.5",
+      "node-watch": "^0.4.1",
+      "source-map-support": "^0.4.6",
+      "tableify": "^1.0.0",
+      "underscore": "^1.8.3"
+    },
+    "devDependencies": {
+      "devtron": "^1.4.0",
+      "electron": "^1.4.5",
+      "electron-builder": "^7.18.1",
+      "electron-zip-packager": "^4.0.0",
+      "mocha": "^3.1.2",
+      "mocha-circleci-reporter": "^0.0.2",
+      "release-it": "^2.4.3",
+      "spectron": "^3.4.0",
+      "xo": "^0.17.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ],
+      "ignores": [
+        "test.js"
+      ]
+    },
+    "build": {
+      "appId": "com.willyb321.elite-journal",
+      "nsis": {
+        "oneClick": true
+      },
+      "win": {
+        "target": [
+          "nsis"
+        ],
+        "publish": [
+          "bintray",
+          "github"
+        ],
+        "iconUrl": "https://github.com/willyb321/elite-journal/blob/master/build/icon.ico?raw=true",
+        "remoteReleases": true
+      }
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "willyb321",
+    "greenkeeperio-bot",
+    "invalid-email-address"
+  ]
+}

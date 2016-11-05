@@ -1,0 +1,123 @@
+{
+  "id": 69549658,
+  "name": "dva-gui",
+  "fullName": "dvajs/dva-gui",
+  "owner": {
+    "login": "dvajs",
+    "id": 20552239,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/20552239?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/dvajs",
+    "htmlUrl": "https://github.com/dvajs",
+    "followersUrl": "https://api.github.com/users/dvajs/followers",
+    "subscriptionsUrl": "https://api.github.com/users/dvajs/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/dvajs/orgs",
+    "reposUrl": "https://api.github.com/users/dvajs/repos",
+    "receivedEventsUrl": "https://api.github.com/users/dvajs/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/dvajs/dva-gui",
+  "description": "A gui tool for dva.",
+  "fork": false,
+  "url": "https://api.github.com/repos/dvajs/dva-gui",
+  "forksUrl": "https://api.github.com/repos/dvajs/dva-gui/forks",
+  "teamsUrl": "https://api.github.com/repos/dvajs/dva-gui/teams",
+  "hooksUrl": "https://api.github.com/repos/dvajs/dva-gui/hooks",
+  "eventsUrl": "https://api.github.com/repos/dvajs/dva-gui/events",
+  "tagsUrl": "https://api.github.com/repos/dvajs/dva-gui/tags",
+  "languagesUrl": "https://api.github.com/repos/dvajs/dva-gui/languages",
+  "stargazersUrl": "https://api.github.com/repos/dvajs/dva-gui/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/dvajs/dva-gui/contributors",
+  "subscribersUrl": "https://api.github.com/repos/dvajs/dva-gui/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/dvajs/dva-gui/subscription",
+  "mergesUrl": "https://api.github.com/repos/dvajs/dva-gui/merges",
+  "downloadsUrl": "https://api.github.com/repos/dvajs/dva-gui/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/dvajs/dva-gui/deployments",
+  "createdAt": "2016-09-29T08:55:32.000Z",
+  "updatedAt": "2016-11-03T16:44:11.000Z",
+  "pushedAt": "2016-10-30T09:42:04.000Z",
+  "gitUrl": "git://github.com/dvajs/dva-gui.git",
+  "sshUrl": "git@github.com:dvajs/dva-gui.git",
+  "cloneUrl": "https://github.com/dvajs/dva-gui.git",
+  "svnUrl": "https://github.com/dvajs/dva-gui",
+  "homepage": null,
+  "size": 42561,
+  "stargazersCount": 14,
+  "watchersCount": 14,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 6,
+  "openIssues": 6,
+  "watchers": 14,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "organization": {
+    "login": "dvajs",
+    "id": 20552239,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/20552239?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/dvajs",
+    "htmlUrl": "https://github.com/dvajs",
+    "followersUrl": "https://api.github.com/users/dvajs/followers",
+    "subscriptionsUrl": "https://api.github.com/users/dvajs/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/dvajs/orgs",
+    "reposUrl": "https://api.github.com/users/dvajs/repos",
+    "receivedEventsUrl": "https://api.github.com/users/dvajs/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "dva-gui",
+    "version": "0.1.0",
+    "description": "A gui tool for dva",
+    "main": "dist/main.js",
+    "scripts": {
+      "start": "cross-env env=pro electron ./dist",
+      "package": "cp ./scripts/package.json ./dist/package.json && cross-env env=pro node ./scripts/package.js"
+    },
+    "devDependencies": {
+      "electron": "^1.3.4",
+      "electron-packager": "^8.1.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dvajs/dva-gui"
+    },
+    "homepage": "https://github.com/dvajs/dva-gui",
+    "keywords": [
+      "dva",
+      "gui"
+    ],
+    "author": "ChenCheng <sorrycc@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+      "cross-env": "^3.1.3"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "sorrycc",
+    "ChrisFan",
+    "jaredleechn",
+    "wenshiqi0"
+  ]
+}

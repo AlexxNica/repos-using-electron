@@ -61,7 +61,7 @@
   "status": 200,
   "packageJSON": {
     "name": "pilas-editor",
-    "version": "0.0.43",
+    "version": "0.0.46",
     "description": "Small description for pilas-editor goes here",
     "private": true,
     "directories": {
@@ -81,6 +81,8 @@
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
+      "broccoli-funnel": "^1.0.6",
+      "broccoli-merge-trees": "^1.1.4",
       "electron-packager": "5.2.0",
       "electron-prebuilt": "0.36.2",
       "ember-ajax": "0.7.1",
@@ -97,6 +99,7 @@
       "ember-cli-deploy-ssh-index": "0.2.0",
       "ember-cli-fastclick": "1.1.0",
       "ember-cli-font-awesome": "1.3.0",
+      "ember-cli-github-pages": "0.1.2",
       "ember-cli-htmlbars": "^1.0.1",
       "ember-cli-htmlbars-inline-precompile": "^0.3.1",
       "ember-cli-inject-live-reload": "^1.3.1",
@@ -157,7 +160,8 @@
       }
     },
     "dependencies": {
-      "quick-temp": "^0.1.5"
+      "quick-temp": "^0.1.5",
+      "spritesheet-js": "^1.1.9"
     }
   },
   "packageStatus": 200,

@@ -21,7 +21,7 @@
   "fork": false,
   "createdAt": "2016-04-14T10:27:56.000Z",
   "updatedAt": "2016-06-15T04:53:50.000Z",
-  "pushedAt": "2016-04-14T13:41:57.000Z",
+  "pushedAt": "2016-08-17T00:31:49.000Z",
   "homepage": "https://manta.dodekeract.report",
   "size": 3,
   "stargazersCount": 0,
@@ -32,8 +32,8 @@
   "hasWiki": true,
   "hasPages": false,
   "forksCount": 0,
-  "openIssuesCount": 1,
-  "openIssues": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
   "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
@@ -54,7 +54,8 @@
       "manta-standalone": "source/start.js"
     },
     "scripts": {
-      "start": "electron ."
+      "start": "electron .",
+      "postpublish": "PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag $PACKAGE_VERSION && git push --tags"
     },
     "repository": {
       "type": "git",
@@ -79,7 +80,7 @@
     "homepage": "https://github.com/dodekeract/manta-config-engine-standalone#readme",
     "dependencies": {
       "electron-prebuilt": "^0.37.5",
-      "dota2-manta-config-engine-app": "1.9.6"
+      "dota2-manta-config-engine-app": "^1.9.6"
     },
     "remarkConfig": {
       "plugins": {
@@ -107,6 +108,26 @@
     }
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/dodekeract/manta-config-engine-standalone",
+  "url": "https://api.github.com/repos/dodekeract/manta-config-engine-standalone",
+  "forksUrl": "https://api.github.com/repos/dodekeract/manta-config-engine-standalone/forks",
+  "teamsUrl": "https://api.github.com/repos/dodekeract/manta-config-engine-standalone/teams",
+  "hooksUrl": "https://api.github.com/repos/dodekeract/manta-config-engine-standalone/hooks",
+  "eventsUrl": "https://api.github.com/repos/dodekeract/manta-config-engine-standalone/events",
+  "tagsUrl": "https://api.github.com/repos/dodekeract/manta-config-engine-standalone/tags",
+  "languagesUrl": "https://api.github.com/repos/dodekeract/manta-config-engine-standalone/languages",
+  "stargazersUrl": "https://api.github.com/repos/dodekeract/manta-config-engine-standalone/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/dodekeract/manta-config-engine-standalone/contributors",
+  "subscribersUrl": "https://api.github.com/repos/dodekeract/manta-config-engine-standalone/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/dodekeract/manta-config-engine-standalone/subscription",
+  "mergesUrl": "https://api.github.com/repos/dodekeract/manta-config-engine-standalone/merges",
+  "downloadsUrl": "https://api.github.com/repos/dodekeract/manta-config-engine-standalone/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/dodekeract/manta-config-engine-standalone/deployments",
+  "gitUrl": "git://github.com/dodekeract/manta-config-engine-standalone.git",
+  "sshUrl": "git@github.com:dodekeract/manta-config-engine-standalone.git",
+  "cloneUrl": "https://github.com/dodekeract/manta-config-engine-standalone.git",
+  "svnUrl": "https://github.com/dodekeract/manta-config-engine-standalone",
+  "mirrorUrl": null,
   "contributors": [
     "dodekeract"
   ]

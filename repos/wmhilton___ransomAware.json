@@ -21,9 +21,9 @@
   "fork": false,
   "createdAt": "2016-07-10T00:40:25.000Z",
   "updatedAt": "2016-07-10T03:53:58.000Z",
-  "pushedAt": "2016-08-15T00:08:09.000Z",
+  "pushedAt": "2016-09-05T22:21:19.000Z",
   "homepage": null,
-  "size": 1432,
+  "size": 1438,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -54,26 +54,23 @@
   "packageJSON": {
     "name": "ransomaware",
     "productName": "Ransom Aware",
-    "version": "0.0.12",
+    "version": "0.0.16",
     "description": "Detect ransomware before it does damage.",
     "main": "src/app.js",
     "bin": "src/ransomAware.js",
     "scripts": {
       "start": "electron src/app.js",
       "test": "echo \"Error: no test specified\" && exit 1",
-      "postinstall": "install-app-deps",
-      "pack": "build --dir",
-      "dist": "build --win",
-      "prepublish": "build --win --publish onTagOrDraft"
+      "pack": "build --dir --x64",
+      "dist": "build --win --x64",
+      "release": "build --win --x64 --publish onTagOrDraft"
     },
     "build": {
       "appId": "com.npmjs.package.ransomaware",
       "app-category-type": "public.app-category.utilities",
       "win": {
-        "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Folder-saved-search.svg/240px-Folder-saved-search.svg.png",
-        "remoteReleases": "https://github.com/wmhilton/ransomAware"
-      },
-      "asar": false
+        "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Folder-saved-search.svg/240px-Folder-saved-search.svg.png"
+      }
     },
     "keywords": [],
     "author": "William Hilton <wmhilton@gmail.com>",
@@ -81,17 +78,18 @@
     "dependencies": {
       "electron-gh-releases": "^2.0.4",
       "electron-settings": "^1.1.1",
+      "electron-squirrel-startup": "^1.0.0",
       "ext-list": "^2.2.0",
       "fs-extra": "^0.30.0",
-      "lodash": "^4.14.1",
-      "node-notifier": "^4.6.0",
+      "lodash": "^4.15.0",
+      "node-notifier": "^4.6.1",
       "opener": "^1.4.1",
-      "user-startup": "^0.2.1",
+      "user-startup": "^0.2.2",
       "vue": "^1.0.26"
     },
     "devDependencies": {
-      "electron-builder": "^5.23.2",
-      "electron-prebuilt": "^1.3.2",
+      "electron-builder": "^6.4.1",
+      "electron-prebuilt": "^1.3.4",
       "typescript": "^1.8.10"
     },
     "repository": {
@@ -104,6 +102,26 @@
     "homepage": "https://github.com/wmhilton/ransomAware#readme"
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/wmhilton/ransomAware",
+  "url": "https://api.github.com/repos/wmhilton/ransomAware",
+  "forksUrl": "https://api.github.com/repos/wmhilton/ransomAware/forks",
+  "teamsUrl": "https://api.github.com/repos/wmhilton/ransomAware/teams",
+  "hooksUrl": "https://api.github.com/repos/wmhilton/ransomAware/hooks",
+  "eventsUrl": "https://api.github.com/repos/wmhilton/ransomAware/events",
+  "tagsUrl": "https://api.github.com/repos/wmhilton/ransomAware/tags",
+  "languagesUrl": "https://api.github.com/repos/wmhilton/ransomAware/languages",
+  "stargazersUrl": "https://api.github.com/repos/wmhilton/ransomAware/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/wmhilton/ransomAware/contributors",
+  "subscribersUrl": "https://api.github.com/repos/wmhilton/ransomAware/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/wmhilton/ransomAware/subscription",
+  "mergesUrl": "https://api.github.com/repos/wmhilton/ransomAware/merges",
+  "downloadsUrl": "https://api.github.com/repos/wmhilton/ransomAware/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/wmhilton/ransomAware/deployments",
+  "gitUrl": "git://github.com/wmhilton/ransomAware.git",
+  "sshUrl": "git@github.com:wmhilton/ransomAware.git",
+  "cloneUrl": "https://github.com/wmhilton/ransomAware.git",
+  "svnUrl": "https://github.com/wmhilton/ransomAware",
+  "mirrorUrl": null,
   "contributors": [
     "wmhilton"
   ]

@@ -46,9 +46,9 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "electron-test",
+    "name": "positron-player",
     "version": "1.0.0",
-    "description": "try building electron app",
+    "description": "Simple mp3 player built with electron",
     "main": "main.js",
     "scripts": {
       "start": "webpack --progress --colors ; electron ./",
@@ -68,15 +68,20 @@
       "electron-packager": "^7.4.0",
       "font-awesome": "^4.6.3",
       "html-webpack-plugin": "^2.22.0",
+      "redux-devtools": "^3.3.1",
+      "redux-devtools-dock-monitor": "^1.1.1",
+      "redux-devtools-log-monitor": "^1.0.11",
       "sass-loader": "^4.0.0",
       "style-loader": "^0.13.1",
       "url-loader": "^0.5.7"
     },
     "dependencies": {
+      "audio-metadata": "^0.3.0",
       "css-loader": "^0.23.1",
       "electron-prebuilt": "1.1.x",
       "file-loader": "^0.9.0",
       "font-awesome-webpack": "0.0.4",
+      "jsmediatags": "^3.3.0",
       "lame": "^1.2.4",
       "less": "^2.7.1",
       "less-loader": "^2.2.3",
@@ -85,12 +90,25 @@
       "player": "^0.6.1",
       "react": "^15.2.1",
       "react-dom": "^15.2.1",
+      "react-player": "^0.11.0",
+      "react-redux": "^4.4.5",
+      "react-tap-event-plugin": "^1.0.0",
       "redux": "^3.5.2",
+      "redux-batched-actions": "^0.1.3",
+      "redux-electron-ipc": "^1.1.1",
       "speaker": "^0.3.0",
       "stream-player": "^0.3.0",
       "url-loader": "^0.5.7",
       "webpack": "^1.13.1"
-    }
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ashaman1991/electron-player.git"
+    },
+    "bugs": {
+      "url": "https://github.com/ashaman1991/electron-player/issues"
+    },
+    "homepage": "https://github.com/ashaman1991/electron-player#readme"
   },
   "packageStatus": 200,
   "contributors": [

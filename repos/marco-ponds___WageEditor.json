@@ -17,13 +17,13 @@
     "type": "User"
   },
   "private": false,
-  "description": "",
+  "description": null,
   "fork": false,
   "createdAt": "2015-04-09T07:51:30.000Z",
-  "updatedAt": "2016-08-04T14:49:07.000Z",
-  "pushedAt": "2016-08-04T15:02:45.000Z",
+  "updatedAt": "2016-10-27T22:57:25.000Z",
+  "pushedAt": "2016-10-30T23:42:07.000Z",
   "homepage": null,
-  "size": 7372,
+  "size": 7385,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -51,8 +51,8 @@
     "description": "Mage Studio",
     "main": "main.js",
     "scripts": {
-      "prestart": "./scripts/haml.sh",
-      "start": "electron main.js"
+      "build": "./scripts/haml.sh",
+      "start": "npm run build && electron main.js"
     },
     "repository": {
       "type": "git",
@@ -86,6 +86,26 @@
     }
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/marco-ponds/Mage-Studio",
+  "url": "https://api.github.com/repos/marco-ponds/Mage-Studio",
+  "forksUrl": "https://api.github.com/repos/marco-ponds/Mage-Studio/forks",
+  "teamsUrl": "https://api.github.com/repos/marco-ponds/Mage-Studio/teams",
+  "hooksUrl": "https://api.github.com/repos/marco-ponds/Mage-Studio/hooks",
+  "eventsUrl": "https://api.github.com/repos/marco-ponds/Mage-Studio/events",
+  "tagsUrl": "https://api.github.com/repos/marco-ponds/Mage-Studio/tags",
+  "languagesUrl": "https://api.github.com/repos/marco-ponds/Mage-Studio/languages",
+  "stargazersUrl": "https://api.github.com/repos/marco-ponds/Mage-Studio/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/marco-ponds/Mage-Studio/contributors",
+  "subscribersUrl": "https://api.github.com/repos/marco-ponds/Mage-Studio/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/marco-ponds/Mage-Studio/subscription",
+  "mergesUrl": "https://api.github.com/repos/marco-ponds/Mage-Studio/merges",
+  "downloadsUrl": "https://api.github.com/repos/marco-ponds/Mage-Studio/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/marco-ponds/Mage-Studio/deployments",
+  "gitUrl": "git://github.com/marco-ponds/Mage-Studio.git",
+  "sshUrl": "git@github.com:marco-ponds/Mage-Studio.git",
+  "cloneUrl": "https://github.com/marco-ponds/Mage-Studio.git",
+  "svnUrl": "https://github.com/marco-ponds/Mage-Studio",
+  "mirrorUrl": null,
   "contributors": [
     "marco-ponds"
   ]

@@ -21,9 +21,9 @@
   "fork": false,
   "createdAt": "2015-06-06T09:58:03.000Z",
   "updatedAt": "2016-08-21T09:41:47.000Z",
-  "pushedAt": "2016-08-21T12:03:05.000Z",
+  "pushedAt": "2016-10-10T03:09:06.000Z",
   "homepage": "",
-  "size": 320,
+  "size": 325,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -61,7 +61,7 @@
     },
     "scripts": {
       "lint": "eslint cli.js 'lib/**/*.js'",
-      "prepush": "npm run lint && npm test",
+      "precommit": "npm run lint && npm test",
       "start": "node cli.js",
       "test": "ava",
       "test:watch": "npm run test -- --watch"
@@ -81,10 +81,10 @@
       "minimist": "^1.2.0",
       "node-gcm-ccs": "github:jacobp100/node-gcm-ccs",
       "node-notifier": "^4.6.0",
-      "object-path": "^0.9.2",
-      "socket.io": "^1.4.6",
+      "object-path": "^0.11.2",
+      "socket.io": "^1.4.8",
       "update-notifier": "^0.6.0",
-      "uuid": "^2.0.2"
+      "uuid": "^2.0.3"
     },
     "devDependencies": {
       "ava": "^0.14.0",
@@ -102,6 +102,26 @@
     "repository": "ewnd9/xavier"
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/ewnd9/xavier",
+  "url": "https://api.github.com/repos/ewnd9/xavier",
+  "forksUrl": "https://api.github.com/repos/ewnd9/xavier/forks",
+  "teamsUrl": "https://api.github.com/repos/ewnd9/xavier/teams",
+  "hooksUrl": "https://api.github.com/repos/ewnd9/xavier/hooks",
+  "eventsUrl": "https://api.github.com/repos/ewnd9/xavier/events",
+  "tagsUrl": "https://api.github.com/repos/ewnd9/xavier/tags",
+  "languagesUrl": "https://api.github.com/repos/ewnd9/xavier/languages",
+  "stargazersUrl": "https://api.github.com/repos/ewnd9/xavier/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/ewnd9/xavier/contributors",
+  "subscribersUrl": "https://api.github.com/repos/ewnd9/xavier/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/ewnd9/xavier/subscription",
+  "mergesUrl": "https://api.github.com/repos/ewnd9/xavier/merges",
+  "downloadsUrl": "https://api.github.com/repos/ewnd9/xavier/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/ewnd9/xavier/deployments",
+  "gitUrl": "git://github.com/ewnd9/xavier.git",
+  "sshUrl": "git@github.com:ewnd9/xavier.git",
+  "cloneUrl": "https://github.com/ewnd9/xavier.git",
+  "svnUrl": "https://github.com/ewnd9/xavier",
+  "mirrorUrl": null,
   "contributors": [
     "ewnd9"
   ]

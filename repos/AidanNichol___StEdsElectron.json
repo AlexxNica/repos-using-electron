@@ -1,0 +1,251 @@
+{
+  "id": 70133654,
+  "name": "StEdsElectron",
+  "fullName": "AidanNichol/StEdsElectron",
+  "owner": {
+    "login": "AidanNichol",
+    "id": 7499249,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7499249?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/AidanNichol",
+    "htmlUrl": "https://github.com/AidanNichol",
+    "followersUrl": "https://api.github.com/users/AidanNichol/followers",
+    "subscriptionsUrl": "https://api.github.com/users/AidanNichol/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/AidanNichol/orgs",
+    "reposUrl": "https://api.github.com/users/AidanNichol/repos",
+    "receivedEventsUrl": "https://api.github.com/users/AidanNichol/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/AidanNichol/StEdsElectron",
+  "description": "St. Edwards Walking Club booking system as an Electron App",
+  "fork": false,
+  "url": "https://api.github.com/repos/AidanNichol/StEdsElectron",
+  "forksUrl": "https://api.github.com/repos/AidanNichol/StEdsElectron/forks",
+  "teamsUrl": "https://api.github.com/repos/AidanNichol/StEdsElectron/teams",
+  "hooksUrl": "https://api.github.com/repos/AidanNichol/StEdsElectron/hooks",
+  "eventsUrl": "https://api.github.com/repos/AidanNichol/StEdsElectron/events",
+  "tagsUrl": "https://api.github.com/repos/AidanNichol/StEdsElectron/tags",
+  "languagesUrl": "https://api.github.com/repos/AidanNichol/StEdsElectron/languages",
+  "stargazersUrl": "https://api.github.com/repos/AidanNichol/StEdsElectron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/AidanNichol/StEdsElectron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/AidanNichol/StEdsElectron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/AidanNichol/StEdsElectron/subscription",
+  "mergesUrl": "https://api.github.com/repos/AidanNichol/StEdsElectron/merges",
+  "downloadsUrl": "https://api.github.com/repos/AidanNichol/StEdsElectron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/AidanNichol/StEdsElectron/deployments",
+  "createdAt": "2016-10-06T07:48:19.000Z",
+  "updatedAt": "2016-10-06T14:21:39.000Z",
+  "pushedAt": "2016-11-03T19:35:12.000Z",
+  "gitUrl": "git://github.com/AidanNichol/StEdsElectron.git",
+  "sshUrl": "git@github.com:AidanNichol/StEdsElectron.git",
+  "cloneUrl": "https://github.com/AidanNichol/StEdsElectron.git",
+  "svnUrl": "https://github.com/AidanNichol/StEdsElectron",
+  "homepage": null,
+  "size": 4977,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 6,
+  "openIssues": 6,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "StEdsBookings",
+    "version": "0.1.7",
+    "description": "Electron Application for St. Edwards Fellwalkers booking system",
+    "main": "app/app.js",
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "pack": "build --win --ia32",
+      "dist": "build --win --ia32",
+      "release": "build",
+      "debug": "DEBUG=steds:* electron .",
+      "start": "gulp serve",
+      "deploy": "gulp build && dist",
+      "build:js": "babel -d app/ src/",
+      "watch:js": "npm run build:js -- --watch",
+      "build:css": "postcss -c postcss.json",
+      "watch:css": "npm run build:css -- --watch",
+      "build:package": "babel-node scripts/buildPackage --dest=app",
+      "build:html": "babel-node scripts/buildHtml.js --src=src/*html --dest=app --css=src/styles/*.css",
+      "rollup:js": "rollup -w -c config/dev.js",
+      "copy:assets": "cp -R assets app/assets",
+      "copy:fonts": "cp -R fonts app/fonts",
+      "build:dist": "npm run build:js && npm run build:css && npm run copy:assets && npm run copy:fonts && npm run build:html && npm run build:package",
+      "watch:dist": "npm run watch:js && npm run watch:css && npm run copy:assets && npm run copy:fonts && npm run build:html && npm run build:package",
+      "run:dist": "npm run build:dist && electron app/app.js",
+      "open:dev": "electron app/app.js",
+      "watch:build": "watch 'npm run build:dist' .",
+      "dev": "npm run copy:assets & npm run copy:fonts & npm run build:html & npm run build:package & npm run open:dev & parallelshell 'npm run watch:js' 'npm run watch:css' ",
+      "devm": "parallelshell 'npm run watch:js' 'npm run watch:css' 'npm run open:dev'",
+      "test": "NODE_PATH=src ava"
+    },
+    "build": {
+      "appId": "co.uk.stedwardsfellwalkers.bookings",
+      "win": {
+        "iconUrl": "http://stedwardsfellwalkers.co.uk/favicon.ico",
+        "remoteReleases": "https://github.com/AidanNichol/StEdsElectron",
+        "certificateFile": "../SelfSignedCert.pfx",
+        "certificatePassword": "a1dan!",
+        "target": "NSIS",
+        "publish": [
+          "github"
+        ]
+      }
+    },
+    "ava": {
+      "files": [
+        "test/*.js"
+      ],
+      "source": [
+        "**/*..js",
+        "!dist/**/*"
+      ],
+      "verbose": true,
+      "concurrency": 5,
+      "require": [
+        "babel-register",
+        "ignore-styles"
+      ],
+      "babel": "inherit"
+    },
+    "babel": {
+      "presets": [
+        "es2015",
+        "stage-0",
+        "react"
+      ],
+      "plugins": [
+        [
+          "module-resolver",
+          {
+            "root": [
+              "./src"
+            ],
+            "alias": {
+              "views": "components/views",
+              "containers": "components/containers"
+            }
+          }
+        ]
+      ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/AidanNichol/StEdsElectron.git"
+    },
+    "keywords": [
+      "express",
+      "webpack",
+      "node"
+    ],
+    "author": "Aidan Nichol",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/AidanNichol/StEdsElectron/issues"
+    },
+    "homepage": "https://github.com/AidanNichol/StEdsElectron",
+    "dependencies": {
+      "argv": "0.0.2",
+      "babel-polyfill": "^6.16.0",
+      "babel-runtime": "^6.11.6",
+      "classnames": "^2.2.1",
+      "cookie-parser": "^1.4.3",
+      "cookie-session": "^2.0.0-alpha.1",
+      "debounce": "^1.0.0",
+      "debug": "^2.2.0",
+      "electron-debug": "^1.0.1",
+      "electron-devtools-installer": "^2.0.1",
+      "electron-version": "^1.0.2",
+      "glob-fs": "^0.1.6",
+      "hint.css": "^2.4.0",
+      "icepick": "^1.3.0",
+      "is-online": "^5.1.2",
+      "open": "0.0.5",
+      "pdfkit": "^0.8.0",
+      "pouchdb": "^5.4.5",
+      "pouchdb-auth": "^2.1.1",
+      "pouchdb-authentication": "^0.5.4",
+      "pouchdb-seamless-auth": "^1.0.4",
+      "pouchdb-seed-design": "^0.3.0",
+      "precss": "^1.4.0",
+      "ramda": "^0.22.1",
+      "react": "^15.3.2",
+      "react-dom": "^15.3.2",
+      "react-input-autosize": "^1.1.0",
+      "react-redux": "^4.4.5",
+      "react-select": "^1.0.0-beta14",
+      "react-textarea-autosize": "^4.0.4",
+      "redux": "^3.5.2",
+      "redux-act": "^0.5.0",
+      "redux-devtools": "^3.3.1",
+      "redux-devtools-dock-monitor": "^1.1.1",
+      "redux-devtools-log-monitor": "^1.0.11",
+      "redux-form": "^6.0.2",
+      "redux-logger": "^2.6.1",
+      "redux-saga": "^0.11.1",
+      "reselect": "^2.5.1",
+      "underscore.string": "^3.2.2",
+      "xdate": "^0.8.0"
+    },
+    "devDependencies": {
+      "ava": "^0.16.0",
+      "babel-cli": "^6.18.0",
+      "babel-eslint": "^7.0.0",
+      "babel-plugin-module-resolver": "^2.2.0",
+      "babel-plugin-transform-class-properties": "^6.16.0",
+      "babel-preset-es2015": "^6.16.0",
+      "babel-preset-es2016-node5": "^1.1.2",
+      "babel-preset-react": "^6.16.0",
+      "babel-preset-stage-0": "^6.16.0",
+      "browserify": "^13.1.0",
+      "concurrently": "^2.2.0",
+      "cross-env": "^3.1.2",
+      "cssnano": "^3.8.0",
+      "del": "^2.2.2",
+      "devtron": "^1.4.0",
+      "electron": "^1.4.3",
+      "electron-builder": "^7.14.2",
+      "electron-connect": "^0.6.0",
+      "electron-packager": "^8.1.0",
+      "eslint": "^3.7.1",
+      "eslint-import-resolver-babel-module": "^2.0.1",
+      "eslint-plugin-import": "^2.0.1",
+      "eslint-plugin-no-unused-vars-rest": "^1.0.3",
+      "eslint-plugin-react": "^6.3.0",
+      "glob": "^7.1.1",
+      "ignore-styles": "^5.0.1",
+      "main-bower-files": "^2.13.1",
+      "parallelshell": "^2.0.0",
+      "postcss-cli": "^2.6.0",
+      "postcss-cssnext": "^2.8.0",
+      "postcss-import": "^8.1.2",
+      "postcss-inline-comment": "^3.0.0",
+      "postcss-nested": "^1.0.0",
+      "precss": "^1.4.0",
+      "svgstore": "^1.1.0",
+      "timekeeper": "^0.1.1",
+      "watch": "^1.0.1"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "AidanNichol"
+  ]
+}

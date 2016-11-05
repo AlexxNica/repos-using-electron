@@ -47,26 +47,36 @@
   "status": 200,
   "packageJSON": {
     "name": "tbdemoelectron",
-    "version": "1.0.18",
+    "version": "1.1.0",
     "description": "tb demo electron",
+    "productName": "TB Demo Electron",
     "scripts": {
-      "postinstall": "install-app-deps",
+      "postinstall_old": "install-app-deps",
       "clean": "rimraf dist",
+      "prebuild": "npm run clean",
+      "build": "echo running build..",
+      "test": "echo running tests.. && exit 0",
+      "compile": "npm run build && npm test",
+      "preversion": "npm run compile",
+      "postversion": "git push && git push --tags",
+      "release": "npm run release:patch",
+      "release:major": "npm version major -m \"Release Major Upgrade %s\"",
+      "prerelease:major_old": "cd app && npm version major --no-git-tag-version && git commit -a -m \"Release Major App-Upgrade\"",
+      "release:minor": "npm version minor -m \"Release Minor Upgrade %s\"",
+      "prerelease:minor_old": "cd app && npm version minor --no-git-tag-version && git commit -a -m \"Release Minor App-Upgrade\"",
+      "release:patch": "npm version patch -m \"Release Patch Upgrade %s\"",
+      "prerelease:patch_old": "cd app && npm version patch --no-git-tag-version && git commit -a -m \"Release Patch App-Upgrade\"",
       "start": "electron ./app --enable-logging",
       "dev": "SET NODE_ENV=development && npm run start",
-      "postversion": "git push && git push --tags",
-      "release-patch": "npm version patch",
-      "prerelease-patch": "cd app && npm version patch --no-git-tag-version && git commit -a -m prepatch",
-      "dist-osx": "build --osx --x64 --ia32",
-      "pack-win64": "electron-packager ./app --asar --platform win32 --arch x64 --out dist --overwrite",
-      "prepack-win64": "npm run clean",
-      "dist-win64": "electron-installer-windows --src dist/tbdemoelectron-win32-x64 --dest dist/installers/win32-x64 --config config.json",
-      "predist-win64": " npm run pack-win64",
-      "upload-win64": "node scripts/upload-win64.js"
+      "electron:pack:win": "npm run compile && node scripts/electron-pack-win.js",
+      "electron:dist:win64": "node scripts/electron-dist-win64.js",
+      "electron:upload:win64": "node scripts/electron-upload-win64.js",
+      "electron:dist:win32": "node scripts/electron-dist-win32.js",
+      "electron:upload:win32": "node scripts/electron-upload-win32.js"
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/tboeker/tbelectrondemo.git"
+      "url": "git://github.com/tboeker/tbelectrondemo.git"
     },
     "keywords": [
       "Electron",
@@ -81,26 +91,45 @@
     },
     "homepage": "https://github.com/tboeker/tbelectrondemo",
     "devDependencies": {
-      "electron-builder": "^6.3.1",
-      "electron-packager": "^7.7.0",
-      "electron-prebuilt": "^1.2.0",
-      "electron-installer-windows": "^0.2.0",
-      "fs-plus": "*",
-      "rimraf": "*",
-      "yargs": "*",
-      "publish-release": "*",
+      "electron": "*",
+      "electron-packager": "*",
+      "electron-prebuilt": "*",
+      "electron-winstaller": "*",
       "multi-glob": "*",
-      "gh-release-assets": "*"
+      "pkginfo": "*",
+      "publish-release": "*",
+      "rimraf": "*",
+      "assert": "*",
+      "mkdirp": "*"
     },
     "build": {
-      "appId": "tbdemo.electron.1",
-      "app-category-type": "public.app-category.productivity",
+      "appId": "tb.demo.electron",
+      "category": "public.app-category.productivity",
       "win": {
-        "iconUrl": "https://github.com/favicon.ico",
-        "remoteReleases": "true"
-      }
+        "certificateFile": "tbdemoelectron.pfx",
+        "certificatePassword": "Password",
+        "appIconPath": "./resources/icon.ico",
+        "loadingGif": "./resources/install-spinner.gif",
+        "setupIcon": "./resources/icon.ico",
+        "iconUrl": "https://raw.githubusercontent.com/tboeker/tbelectrondemo/master/resources/icon.ico"
+      },
+      "outDirectory": "./dist",
+      "appDirectory": "./app",
+      "appCopyright": "2016 (C) TB",
+      "companyName": "TB CompanyName",
+      "releaseRepoOwner": "tboeker",
+      "releaseRepoWin64": "tbdemoelectron-win64",
+      "releaseRepoWin32": "tbdemoelectron-win32"
     },
-    "dependencies": {}
+    "dependencies": {
+      "electron-gh-releases": "*",
+      "electron-builder": "*",
+      "electron-is-dev": "*",
+      "electron-prebuilt": "*",
+      "electron-squirrel-startup": "*",
+      "pkginfo": "*",
+      "winston": "*"
+    }
   },
   "packageStatus": 200,
   "contributors": [

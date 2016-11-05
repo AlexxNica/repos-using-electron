@@ -1,0 +1,119 @@
+{
+  "id": 67724430,
+  "name": "menubar-timer",
+  "fullName": "mathiasvr/menubar-timer",
+  "owner": {
+    "login": "mathiasvr",
+    "id": 8664776,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8664776?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mathiasvr",
+    "htmlUrl": "https://github.com/mathiasvr",
+    "followersUrl": "https://api.github.com/users/mathiasvr/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mathiasvr/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mathiasvr/orgs",
+    "reposUrl": "https://api.github.com/users/mathiasvr/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mathiasvr/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/mathiasvr/menubar-timer",
+  "description": "Countdown Timer App built with Electron",
+  "fork": false,
+  "url": "https://api.github.com/repos/mathiasvr/menubar-timer",
+  "forksUrl": "https://api.github.com/repos/mathiasvr/menubar-timer/forks",
+  "teamsUrl": "https://api.github.com/repos/mathiasvr/menubar-timer/teams",
+  "hooksUrl": "https://api.github.com/repos/mathiasvr/menubar-timer/hooks",
+  "eventsUrl": "https://api.github.com/repos/mathiasvr/menubar-timer/events",
+  "tagsUrl": "https://api.github.com/repos/mathiasvr/menubar-timer/tags",
+  "languagesUrl": "https://api.github.com/repos/mathiasvr/menubar-timer/languages",
+  "stargazersUrl": "https://api.github.com/repos/mathiasvr/menubar-timer/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/mathiasvr/menubar-timer/contributors",
+  "subscribersUrl": "https://api.github.com/repos/mathiasvr/menubar-timer/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/mathiasvr/menubar-timer/subscription",
+  "mergesUrl": "https://api.github.com/repos/mathiasvr/menubar-timer/merges",
+  "downloadsUrl": "https://api.github.com/repos/mathiasvr/menubar-timer/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/mathiasvr/menubar-timer/deployments",
+  "createdAt": "2016-09-08T17:18:10.000Z",
+  "updatedAt": "2016-10-05T21:34:47.000Z",
+  "pushedAt": "2016-10-09T00:28:02.000Z",
+  "gitUrl": "git://github.com/mathiasvr/menubar-timer.git",
+  "sshUrl": "git@github.com:mathiasvr/menubar-timer.git",
+  "cloneUrl": "https://github.com/mathiasvr/menubar-timer.git",
+  "svnUrl": "https://github.com/mathiasvr/menubar-timer",
+  "homepage": "",
+  "size": 119,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "menubar-timer",
+    "productName": "Menubar Timer",
+    "version": "0.3.0",
+    "description": "Menubar Countdown Timer App",
+    "main": "src/main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . --extra-resource=resources/Credits.rtf --icon=resources/Icon.icns --platform=darwin --arch=x64 --out=build --tmpdir=false --ignore resources",
+      "makeicon": "iconutil --convert icns resources/Icon.iconset",
+      "test": "standard"
+    },
+    "keywords": [
+      "timer",
+      "countdown",
+      "stopwatch",
+      "menubar",
+      "electron"
+    ],
+    "author": "Mathias Rasmussen <mathiasvr@gmail.com>",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mathiasvr/menubar-timer.git"
+    },
+    "bugs": {
+      "url": "https://github.com/mathiasvr/menubar-timer/issues"
+    },
+    "homepage": "https://github.com/mathiasvr/menubar-timer#readme",
+    "dependencies": {
+      "blob-to-buffer": "^1.2.6",
+      "hhmmss": "^1.0.0",
+      "menubar": "^5.1.0",
+      "tiny-timer": "^1.1.0",
+      "yo-yo": "^1.3.0"
+    },
+    "devDependencies": {
+      "electron": "1.4.3",
+      "electron-packager": "^8.1.0"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "mathiasvr"
+  ]
+}

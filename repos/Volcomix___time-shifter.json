@@ -58,6 +58,7 @@
       "serve": "webpack-dev-server --inline --hot",
       "devtools": "electron devtools.js",
       "start:dev": "electron . --dev",
+      "start:transparent": "electron . --dev --enable-transparent-visuals",
       "start": "npm run build && electron ."
     },
     "author": "Volcomix",

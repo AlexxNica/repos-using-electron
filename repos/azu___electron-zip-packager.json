@@ -1,0 +1,120 @@
+{
+  "id": 39576655,
+  "name": "electron-zip-packager",
+  "fullName": "azu/electron-zip-packager",
+  "owner": {
+    "login": "azu",
+    "id": 19714,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/19714?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/azu",
+    "htmlUrl": "https://github.com/azu",
+    "followersUrl": "https://api.github.com/users/azu/followers",
+    "subscriptionsUrl": "https://api.github.com/users/azu/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/azu/orgs",
+    "reposUrl": "https://api.github.com/users/azu/repos",
+    "receivedEventsUrl": "https://api.github.com/users/azu/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/azu/electron-zip-packager",
+  "description": "A wrapper of electron-packager. Package your electron app and zipped",
+  "fork": false,
+  "url": "https://api.github.com/repos/azu/electron-zip-packager",
+  "forksUrl": "https://api.github.com/repos/azu/electron-zip-packager/forks",
+  "teamsUrl": "https://api.github.com/repos/azu/electron-zip-packager/teams",
+  "hooksUrl": "https://api.github.com/repos/azu/electron-zip-packager/hooks",
+  "eventsUrl": "https://api.github.com/repos/azu/electron-zip-packager/events",
+  "tagsUrl": "https://api.github.com/repos/azu/electron-zip-packager/tags",
+  "languagesUrl": "https://api.github.com/repos/azu/electron-zip-packager/languages",
+  "stargazersUrl": "https://api.github.com/repos/azu/electron-zip-packager/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/azu/electron-zip-packager/contributors",
+  "subscribersUrl": "https://api.github.com/repos/azu/electron-zip-packager/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/azu/electron-zip-packager/subscription",
+  "mergesUrl": "https://api.github.com/repos/azu/electron-zip-packager/merges",
+  "downloadsUrl": "https://api.github.com/repos/azu/electron-zip-packager/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/azu/electron-zip-packager/deployments",
+  "createdAt": "2015-07-23T15:53:08.000Z",
+  "updatedAt": "2016-06-25T06:30:05.000Z",
+  "pushedAt": "2016-11-02T23:29:35.000Z",
+  "gitUrl": "git://github.com/azu/electron-zip-packager.git",
+  "sshUrl": "git@github.com:azu/electron-zip-packager.git",
+  "cloneUrl": "https://github.com/azu/electron-zip-packager.git",
+  "svnUrl": "https://github.com/azu/electron-zip-packager",
+  "homepage": null,
+  "size": 22,
+  "stargazersCount": 11,
+  "watchersCount": 11,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 4,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 11,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 4,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-zip-packager",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/azu/electron-zip-packager.git"
+    },
+    "author": "azu",
+    "email": "azuciao@gmail.com",
+    "homepage": "https://github.com/azu/electron-zip-packager",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/azu/electron-zip-packager/issues"
+    },
+    "version": "4.0.0",
+    "description": "A wrapper of electron-packager. Package your electron app and zipped!",
+    "keywords": [
+      "electron",
+      "zip",
+      "package"
+    ],
+    "main": "lib/archive-zip.js",
+    "files": [
+      "bin",
+      "lib"
+    ],
+    "bin": {
+      "electron-zip-packager": "bin/cmd.js"
+    },
+    "directories": {
+      "test": "test"
+    },
+    "scripts": {
+      "travis-test": "(cd example && npm install && npm run dist)"
+    },
+    "dependencies": {
+      "archiver": "^1.1.0",
+      "electron-packager": "^8.1.0",
+      "minimist": "^1.2.0",
+      "electron": "^1.4.3"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "azu",
+    "willyb321"
+  ]
+}

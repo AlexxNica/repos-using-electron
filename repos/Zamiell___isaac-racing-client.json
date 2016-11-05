@@ -1,0 +1,108 @@
+{
+  "id": 69754923,
+  "name": "isaac-racing-client",
+  "fullName": "Zamiell/isaac-racing-client",
+  "owner": {
+    "login": "Zamiell",
+    "id": 5511220,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5511220?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Zamiell",
+    "htmlUrl": "https://github.com/Zamiell",
+    "followersUrl": "https://api.github.com/users/Zamiell/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Zamiell/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Zamiell/orgs",
+    "reposUrl": "https://api.github.com/users/Zamiell/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Zamiell/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/Zamiell/isaac-racing-client",
+  "description": "The client software Racing+, a Binding of Isaac: Afterbirth+ racing mod",
+  "fork": false,
+  "url": "https://api.github.com/repos/Zamiell/isaac-racing-client",
+  "forksUrl": "https://api.github.com/repos/Zamiell/isaac-racing-client/forks",
+  "teamsUrl": "https://api.github.com/repos/Zamiell/isaac-racing-client/teams",
+  "hooksUrl": "https://api.github.com/repos/Zamiell/isaac-racing-client/hooks",
+  "eventsUrl": "https://api.github.com/repos/Zamiell/isaac-racing-client/events",
+  "tagsUrl": "https://api.github.com/repos/Zamiell/isaac-racing-client/tags",
+  "languagesUrl": "https://api.github.com/repos/Zamiell/isaac-racing-client/languages",
+  "stargazersUrl": "https://api.github.com/repos/Zamiell/isaac-racing-client/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/Zamiell/isaac-racing-client/contributors",
+  "subscribersUrl": "https://api.github.com/repos/Zamiell/isaac-racing-client/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/Zamiell/isaac-racing-client/subscription",
+  "mergesUrl": "https://api.github.com/repos/Zamiell/isaac-racing-client/merges",
+  "downloadsUrl": "https://api.github.com/repos/Zamiell/isaac-racing-client/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/Zamiell/isaac-racing-client/deployments",
+  "createdAt": "2016-10-01T18:10:28.000Z",
+  "updatedAt": "2016-10-29T02:45:45.000Z",
+  "pushedAt": "2016-10-29T02:45:44.000Z",
+  "gitUrl": "git://github.com/Zamiell/isaac-racing-client.git",
+  "sshUrl": "git@github.com:Zamiell/isaac-racing-client.git",
+  "cloneUrl": "https://github.com/Zamiell/isaac-racing-client.git",
+  "svnUrl": "https://github.com/Zamiell/isaac-racing-client",
+  "homepage": "",
+  "size": 2899,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "RacingPlus",
+    "description": "A racing mod for The Binding of Isaac: Afterbirth+.",
+    "scripts": {
+      "start": "electron ./app",
+      "postinstall": "install-app-deps",
+      "pack": "build --dir",
+      "dist": "build"
+    },
+    "build": {
+      "appId": "org.electron.isaacRacingClient",
+      "squirrelWindows": {
+        "iconUrl": "https://github.com/Zamiell/isaac-racing-client/blob/master/build/icon.ico?raw=true",
+        "remoteReleases": true
+      }
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Zamiell/isaac-racing-client.git"
+    },
+    "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/Zamiell/isaac-racing-client/issues"
+    },
+    "homepage": "https://isaacracing.net",
+    "devDependencies": {
+      "electron": "^1.3.4",
+      "electron-builder": "^7.9.0"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "Zamiell"
+  ]
+}

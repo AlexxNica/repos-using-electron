@@ -48,7 +48,7 @@
   "packageJSON": {
     "name": "keysave",
     "productName": "KeySAVe",
-    "version": "1.2.1",
+    "version": "1.2.4",
     "description": "A cross platform KeySAV based on GitHub Electron for all your Generation VI Pokémon decryption needs.",
     "repository": {
       "type": "git",
@@ -104,7 +104,7 @@
       "eslint-plugin-jsx-a11y": "^1.2.2",
       "eslint-plugin-react": "^5.1.1",
       "express": "^4.13.4",
-      "extract-text-webpack-plugin": "^1.0.1",
+      "extract-text-webpack-plugin": "^2.0.0-beta.4",
       "fbjs-scripts": "^0.7.0",
       "file-loader": "^0.8.5",
       "jsdom": "^9.2.0",
@@ -117,11 +117,11 @@
       "redux-devtools-dock-monitor": "^1.1.1",
       "redux-devtools-log-monitor": "^1.0.11",
       "redux-logger": "^2.6.1",
-      "sass-loader": "^3.2.0",
+      "sass-loader": "^4.0.2",
       "selenium-webdriver": "^2.53.2",
       "sinon": "^1.17.4",
       "style-loader": "^0.13.1",
-      "webpack": "2.1.0-beta.13",
+      "webpack": "^2.1.0-beta.22",
       "webpack-dev-server": "^2.1.0-beta.0",
       "webpack-spritesmith": "^0.2.0"
     },
@@ -138,7 +138,7 @@
       "handlebars": "^4.0.5",
       "handlebars-helper-moment": "^0.2.0",
       "immutable": "^3.8.1",
-      "keysavcore": "^0.16.1",
+      "keysavcore": "^0.17.0",
       "lodash": "^4.13.1",
       "lodash.debounce": "^4.0.6",
       "material-ui": "^0.15.0",
@@ -161,6 +161,7 @@
       "redux-thunk": "^2.1.0",
       "reselect": "^2.5.1",
       "sanitize-filename": "^1.6.0",
+      "semver": "^5.3.0",
       "winston": "^2.2.0"
     },
     "serverDependencies": [

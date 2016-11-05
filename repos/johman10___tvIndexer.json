@@ -46,45 +46,33 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "tvIndexer",
-    "description": "Demonstrates spawning Express from Electron and using it to serve content",
-    "version": "0.0.0",
-    "main": "main.js",
-    "authors": [
-      "Johan van Eck <johveck@gmail.com>"
-    ],
-    "private": true,
+    "name": "tv-indexer",
+    "version": "0.0.1",
+    "description": "A tool to index your movies/series",
+    "main": "server.js",
     "scripts": {
-      "start": "nodemon ./start-electron.js",
-      "pack:osx": "electron-packager . tvIndexer --platform=darwin --arch=x64 --version=0.36.0 --out=./dist/osx/",
-      "build:osx": "pack:osx && electron-builder dist/osx/tvIndexer.app --platform=osx --out=./dist/osx/ --config=builder-config.json"
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "rethinkdb --daemon && nodemon --exec 'electron .'"
+    },
+    "author": "Johan van Eck",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^1.3.4",
+      "nodemon": "^1.10.2"
     },
     "dependencies": {
-      "body-parser": "~1.15.0",
-      "cookie-parser": "~1.4.1",
-      "debug": "~2.2.0",
-      "ejs": "^2.3.4",
-      "express": "~4.13.1",
-      "express-ejs-layouts": "^2.0.0",
-      "express-helpers": "^1.3.2",
-      "fs-extra": "^0.30.0",
-      "get-methodoverride": "^0.1.2",
-      "http-request": "^0.7.0",
-      "kerberos": "0.0.21",
-      "method-override": "^2.3.5",
-      "mongoose": "^4.2.9",
-      "mongoose-crate": "^1.0.10",
-      "mongoose-crate-localfs": "^1.1.1",
-      "morgan": "~1.7.0",
-      "node-sass": "^3.4.2",
-      "node-sass-middleware": "^0.9.7",
-      "serve-favicon": "~2.3.0",
-      "tmdbv3": "^0.1.2"
-    },
-    "devDependencies": {
-      "electron-builder": "^3.17.1",
-      "electron-packager": "^7.0.1",
-      "electron-prebuilt": "^0.36.9"
+      "app-module-path": "^1.1.0",
+      "ejs": "^2.5.1",
+      "electron": "^1.3.4",
+      "good": "^7.0.2",
+      "good-console": "^6.1.2",
+      "good-squeeze": "^4.0.0",
+      "hapi": "^15.0.1",
+      "inert": "^4.0.2",
+      "request": "^2.74.0",
+      "rethinkdb": "^2.3.2",
+      "socket.io": "^1.4.8",
+      "vision": "^4.1.0"
     }
   },
   "packageStatus": 200,

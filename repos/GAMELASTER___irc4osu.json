@@ -53,8 +53,8 @@
   "status": 200,
   "packageJSON": {
     "name": "irc4osu",
-    "version": "v0.0.4",
-    "description": "A unofficial IRC client for Osu! game",
+    "version": "0.0.6",
+    "description": "An unofficial IRC client for osu!",
     "main": "app.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
@@ -75,13 +75,13 @@
     },
     "homepage": "https://github.com/GAMELASTER/irc4osu#readme",
     "devDependencies": {
-      "electron-prebuilt": "^1.2.7"
+      "electron": "^1.4.4"
     },
     "dependencies": {
-      "electron-json-storage": "^2.0.0",
+      "electron-json-storage": "^2.0.2",
       "irc": "^0.5.0",
       "node-notifier": "^4.6.0",
-      "request": "^2.73.0"
+      "request": "^2.76.0"
     }
   },
   "packageStatus": 200,

@@ -52,20 +52,20 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "hostanager",
+    "name": "thc",
     "version": "0.0.1",
     "description": "Hosts Manager on your menu bar.",
     "main": "main.js",
     "scripts": {
       "build": "gulp build",
       "watch": "gulp watch",
-      "package": "electron-packager . hostanager --overwrite --platform=darwin --arch=x64 --asar=true --prune --ignore='src' --ignore='coverage'",
+      "package": "electron-packager . thc --overwrite --platform=darwin --arch=x64 --asar=true --prune --ignore='src' --ignore='coverage'",
       "dist": "gulp release && npm run package",
       "start": "electron . –enable-logging"
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/Mulder90/hostanager.git"
+      "url": "git+https://github.com/Mulder90/thc.git"
     },
     "keywords": [
       "hosts"
@@ -73,9 +73,9 @@
     "author": "Lorenzo Cinque",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/Mulder90/hostanager/issues"
+      "url": "https://github.com/Mulder90/thc/issues"
     },
-    "homepage": "https://github.com/Mulder90/hostanager",
+    "homepage": "https://github.com/Mulder90/thc",
     "dependencies": {
       "menubar": "^5.1.0",
       "react": "^15.3.1",

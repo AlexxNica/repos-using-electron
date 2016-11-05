@@ -21,9 +21,9 @@
   "fork": false,
   "createdAt": "2016-08-29T17:32:48.000Z",
   "updatedAt": "2016-08-29T21:46:55.000Z",
-  "pushedAt": "2016-09-01T20:32:24.000Z",
+  "pushedAt": "2016-09-14T20:55:06.000Z",
   "homepage": null,
-  "size": 30,
+  "size": 94,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -32,8 +32,8 @@
   "hasWiki": true,
   "hasPages": false,
   "forksCount": 0,
-  "openIssuesCount": 3,
-  "openIssues": 3,
+  "openIssuesCount": 0,
+  "openIssues": 0,
   "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
@@ -53,8 +53,8 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-recipes",
-    "version": "0.0.0",
-    "description": "List of recipes as an electron app",
+    "version": "0.0.1",
+    "description": "Recipe management app built in electron",
     "keywords": [
       "electron",
       "react",
@@ -76,21 +76,25 @@
       "cleanup": "rm -rf dist",
       "compile": "npm run cleanup && babel src --out-dir dist",
       "cover": "npm run compile && istanbul cover _mocha -- $npm_package_options_mocha && npm run cleanup",
-      "lint": "standard main.js src/ test/",
+      "lint": "standard main.js src/* test/*",
       "poststart": "npm run cleanup",
       "posttest": "npm run cleanup",
-      "seed": "node ./src/helpers/seeder.js",
+      "prepublish": "chmod -R +x ./bin/",
+      "seed": "./bin/seed",
       "start": "npm run compile && ./node_modules/.bin/electron main.js",
-      "test": "npm run compile && NODE_ENV=test mocha $npm_package_options_mocha"
+      "test": "npm run compile && NODE_ENV=test NODE_PATH=. mocha $npm_package_options_mocha"
     },
     "dependencies": {
-      "leveldown": "^1.4.6",
-      "levelup": "^1.3.2",
+      "hoek": "^4.0.2",
+      "level-party": "^3.0.4",
       "react": "^15.3.1",
       "react-dom": "^15.3.1",
       "react-redux": "^4.4.5",
       "redux": "^3.5.2",
-      "redux-thunk": "^2.1.0"
+      "redux-actions": "^0.12.0",
+      "redux-logger": "^2.6.1",
+      "redux-thunk": "^2.1.0",
+      "uuid": "^2.0.2"
     },
     "devDependencies": {
       "babel-cli": "^6.14.0",
@@ -105,6 +109,8 @@
       "mocha": "^3.0.2",
       "pre-commit": "^1.1.3",
       "react-addons-test-utils": "^15.3.1",
+      "redux-mock-store": "^1.2.0",
+      "sinon": "^1.17.5",
       "spectron": "^3.3.0",
       "standard": "^8.0.0"
     },
@@ -112,13 +118,33 @@
       "node": ">=6"
     },
     "options": {
-      "mocha": "--compilers js:babel-register --timeout 10000 --recursive test"
+      "mocha": "--compilers js:babel-register --timeout 20000 --recursive test"
     },
     "pre-commit": [
       "lint"
     ]
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/ruiquelhas/electron-recipes",
+  "url": "https://api.github.com/repos/ruiquelhas/electron-recipes",
+  "forksUrl": "https://api.github.com/repos/ruiquelhas/electron-recipes/forks",
+  "teamsUrl": "https://api.github.com/repos/ruiquelhas/electron-recipes/teams",
+  "hooksUrl": "https://api.github.com/repos/ruiquelhas/electron-recipes/hooks",
+  "eventsUrl": "https://api.github.com/repos/ruiquelhas/electron-recipes/events",
+  "tagsUrl": "https://api.github.com/repos/ruiquelhas/electron-recipes/tags",
+  "languagesUrl": "https://api.github.com/repos/ruiquelhas/electron-recipes/languages",
+  "stargazersUrl": "https://api.github.com/repos/ruiquelhas/electron-recipes/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/ruiquelhas/electron-recipes/contributors",
+  "subscribersUrl": "https://api.github.com/repos/ruiquelhas/electron-recipes/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/ruiquelhas/electron-recipes/subscription",
+  "mergesUrl": "https://api.github.com/repos/ruiquelhas/electron-recipes/merges",
+  "downloadsUrl": "https://api.github.com/repos/ruiquelhas/electron-recipes/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/ruiquelhas/electron-recipes/deployments",
+  "gitUrl": "git://github.com/ruiquelhas/electron-recipes.git",
+  "sshUrl": "git@github.com:ruiquelhas/electron-recipes.git",
+  "cloneUrl": "https://github.com/ruiquelhas/electron-recipes.git",
+  "svnUrl": "https://github.com/ruiquelhas/electron-recipes",
+  "mirrorUrl": null,
   "contributors": [
     "ruiquelhas"
   ]

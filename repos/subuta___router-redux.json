@@ -20,21 +20,21 @@
   "description": "transform route change as redux action.",
   "fork": false,
   "createdAt": "2016-07-31T12:22:23.000Z",
-  "updatedAt": "2016-08-14T09:58:59.000Z",
-  "pushedAt": "2016-08-14T15:17:14.000Z",
+  "updatedAt": "2016-09-17T05:06:25.000Z",
+  "pushedAt": "2016-08-28T10:43:02.000Z",
   "homepage": null,
-  "size": 67,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "size": 71,
+  "stargazersCount": 2,
+  "watchersCount": 2,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 1,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,15 +48,14 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 0,
   "status": 200,
   "packageJSON": {
     "jspm": {
       "name": "router-redux",
       "dependencies": {
-        "babel": "babel-core@^6.11.4",
-        "object-assign": "^4.1.0"
+        "babel": "babel-core@^6.11.4"
       },
       "devDependencies": {
         "plugin-babel": "systemjs-plugin-babel@^0.0.12",
@@ -68,15 +67,23 @@
         "assert": "github:jspm/nodelibs-assert@^0.2.0-alpha",
         "buffer": "github:jspm/nodelibs-buffer@^0.2.0-alpha",
         "child_process": "github:jspm/nodelibs-child_process@^0.2.0-alpha",
+        "constants": "github:jspm/nodelibs-constants@^0.2.0-alpha",
+        "crypto": "github:jspm/nodelibs-crypto@^0.2.0-alpha",
         "events": "github:jspm/nodelibs-events@^0.2.0-alpha",
         "fs": "github:jspm/nodelibs-fs@^0.2.0-alpha",
         "http": "github:jspm/nodelibs-http@^0.2.0-alpha",
+        "https": "github:jspm/nodelibs-https@^0.2.0-alpha",
         "module": "github:jspm/nodelibs-module@^0.2.0-alpha",
+        "os": "github:jspm/nodelibs-os@^0.2.0-alpha",
         "path": "github:jspm/nodelibs-path@^0.2.0-alpha",
         "process": "github:jspm/nodelibs-process@^0.2.0-alpha",
         "stream": "github:jspm/nodelibs-stream@^0.2.0-alpha",
+        "string_decoder": "github:jspm/nodelibs-string_decoder@^0.2.0-alpha",
+        "timers": "github:jspm/nodelibs-timers@^0.2.0-alpha",
         "url": "github:jspm/nodelibs-url@^0.2.0-alpha",
-        "util": "github:jspm/nodelibs-util@^0.2.0-alpha"
+        "util": "github:jspm/nodelibs-util@^0.2.0-alpha",
+        "vm": "github:jspm/nodelibs-vm@^0.2.0-alpha",
+        "zlib": "github:jspm/nodelibs-zlib@^0.2.0-alpha"
       },
       "overrides": {
         "npm:babel-runtime@5.8.38": {
@@ -84,6 +91,15 @@
           "dependencies": {},
           "optionalDependencies": {
             "core-js": "^1.2.0"
+          }
+        },
+        "npm:browserify-zlib@0.1.4": {
+          "dependencies": {
+            "readable-stream": "^2.0.2",
+            "pako": "~0.2.0"
+          },
+          "map": {
+            "_stream_transform": "readable-stream/transform"
           }
         },
         "npm:debug@2.2.0": {
@@ -108,7 +124,7 @@
             "node_modules"
           ]
         },
-        "npm:lodash@4.14.1": {
+        "npm:lodash@4.15.0": {
           "map": {
             "buffer": "@empty",
             "process": "@empty"
@@ -122,7 +138,7 @@
     },
     "name": "router-redux",
     "description": "transform route change as redux action.",
-    "version": "0.9.1",
+    "version": "0.9.3",
     "dependencies": {},
     "devDependencies": {
       "babel-core": "^6.10.4",
@@ -186,6 +202,26 @@
     "homepage": "https://github.com/subuta/router-redux#readme"
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/subuta/router-redux",
+  "url": "https://api.github.com/repos/subuta/router-redux",
+  "forksUrl": "https://api.github.com/repos/subuta/router-redux/forks",
+  "teamsUrl": "https://api.github.com/repos/subuta/router-redux/teams",
+  "hooksUrl": "https://api.github.com/repos/subuta/router-redux/hooks",
+  "eventsUrl": "https://api.github.com/repos/subuta/router-redux/events",
+  "tagsUrl": "https://api.github.com/repos/subuta/router-redux/tags",
+  "languagesUrl": "https://api.github.com/repos/subuta/router-redux/languages",
+  "stargazersUrl": "https://api.github.com/repos/subuta/router-redux/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/subuta/router-redux/contributors",
+  "subscribersUrl": "https://api.github.com/repos/subuta/router-redux/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/subuta/router-redux/subscription",
+  "mergesUrl": "https://api.github.com/repos/subuta/router-redux/merges",
+  "downloadsUrl": "https://api.github.com/repos/subuta/router-redux/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/subuta/router-redux/deployments",
+  "gitUrl": "git://github.com/subuta/router-redux.git",
+  "sshUrl": "git@github.com:subuta/router-redux.git",
+  "cloneUrl": "https://github.com/subuta/router-redux.git",
+  "svnUrl": "https://github.com/subuta/router-redux",
+  "mirrorUrl": null,
   "contributors": [
     "subuta"
   ]

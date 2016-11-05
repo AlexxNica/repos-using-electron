@@ -1,0 +1,96 @@
+{
+  "id": 70245779,
+  "name": "Fiddlings",
+  "fullName": "priithaamer/Fiddlings",
+  "owner": {
+    "login": "priithaamer",
+    "id": 194640,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/194640?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/priithaamer",
+    "htmlUrl": "https://github.com/priithaamer",
+    "followersUrl": "https://api.github.com/users/priithaamer/followers",
+    "subscriptionsUrl": "https://api.github.com/users/priithaamer/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/priithaamer/orgs",
+    "reposUrl": "https://api.github.com/users/priithaamer/repos",
+    "receivedEventsUrl": "https://api.github.com/users/priithaamer/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/priithaamer/Fiddlings",
+  "description": "HTML, CSS and JavaScript debugging tool on desktop.",
+  "fork": false,
+  "url": "https://api.github.com/repos/priithaamer/Fiddlings",
+  "forksUrl": "https://api.github.com/repos/priithaamer/Fiddlings/forks",
+  "teamsUrl": "https://api.github.com/repos/priithaamer/Fiddlings/teams",
+  "hooksUrl": "https://api.github.com/repos/priithaamer/Fiddlings/hooks",
+  "eventsUrl": "https://api.github.com/repos/priithaamer/Fiddlings/events",
+  "tagsUrl": "https://api.github.com/repos/priithaamer/Fiddlings/tags",
+  "languagesUrl": "https://api.github.com/repos/priithaamer/Fiddlings/languages",
+  "stargazersUrl": "https://api.github.com/repos/priithaamer/Fiddlings/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/priithaamer/Fiddlings/contributors",
+  "subscribersUrl": "https://api.github.com/repos/priithaamer/Fiddlings/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/priithaamer/Fiddlings/subscription",
+  "mergesUrl": "https://api.github.com/repos/priithaamer/Fiddlings/merges",
+  "downloadsUrl": "https://api.github.com/repos/priithaamer/Fiddlings/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/priithaamer/Fiddlings/deployments",
+  "createdAt": "2016-10-07T12:46:56.000Z",
+  "updatedAt": "2016-10-25T02:35:10.000Z",
+  "pushedAt": "2016-11-04T20:01:09.000Z",
+  "gitUrl": "git://github.com/priithaamer/Fiddlings.git",
+  "sshUrl": "git@github.com:priithaamer/Fiddlings.git",
+  "cloneUrl": "https://github.com/priithaamer/Fiddlings.git",
+  "svnUrl": "https://github.com/priithaamer/Fiddlings",
+  "homepage": "",
+  "size": 708,
+  "stargazersCount": 4,
+  "watchersCount": 4,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 4,
+  "openIssues": 4,
+  "watchers": 4,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 5,
+  "status": 200,
+  "packageJSON": {
+    "name": "Fiddlings",
+    "version": "1.0.0-pre-2",
+    "description": "Fiddlings.app",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "package:macos": "electron-packager . --platform=darwin",
+      "clean": "rm -rf ./Fiddlings-darwin-x64"
+    },
+    "repository": {
+      "url": "git@github.com:priithaamer/Fiddlings.git",
+      "type": "git"
+    },
+    "author": "Priit Haamer <priit@haamer.ee>",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^1.4.4",
+      "electron-packager": "^8.1.0"
+    },
+    "dependencies": {
+      "codemirror": "^5.20.2"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "priithaamer"
+  ]
+}

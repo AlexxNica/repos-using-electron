@@ -1,7 +1,7 @@
 {
   "id": 52711971,
-  "name": "backer-timetracker",
-  "fullName": "MayGo/backer-timetracker",
+  "name": "tockler",
+  "fullName": "MayGo/tockler",
   "owner": {
     "login": "MayGo",
     "id": 1929299,
@@ -20,21 +20,21 @@
   "description": "Application that tracks your time by monitoring your active windows (only titles) and idle time.",
   "fork": false,
   "createdAt": "2016-02-28T08:32:04.000Z",
-  "updatedAt": "2016-08-05T17:18:28.000Z",
-  "pushedAt": "2016-08-07T16:17:33.000Z",
-  "homepage": null,
-  "size": 713,
-  "stargazersCount": 26,
-  "watchersCount": 26,
+  "updatedAt": "2016-11-01T16:43:22.000Z",
+  "pushedAt": "2016-10-25T13:47:40.000Z",
+  "homepage": "http://trimatech.ee/tockler",
+  "size": 2388,
+  "stargazersCount": 35,
+  "watchersCount": 35,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": true,
-  "forksCount": 2,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 26,
+  "forksCount": 6,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 35,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,33 +48,39 @@
     "url": "https://api.github.com/licenses/gpl-2.0",
     "featured": false
   },
-  "networkCount": 2,
-  "subscribersCount": 2,
+  "networkCount": 6,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
-    "name": "BackerTimetracker",
-    "version": "2.0.1",
-    "description": "Track your time by monitoring your active windows and idle time",
+    "name": "Tockler",
+    "version": "2.2.0",
+    "description": "Automatically track applications usage and working time",
     "main": "app/app.js",
     "scripts": {
-      "test": "echo \"Please use gulp instead.\" && exit 1"
+      "pack": "build --dir",
+      "dist": "build",
+      "postinstall": "install-app-deps",
+      "test": "echo \"Please use gulp instead.\" && exit 1",
+      "rebuild-sqlite-win": "electron-rebuild -f -w sqlite3 && rmdir .\\app\\node_modules\\sqlite3 /s && xcopy .\\node_modules\\sqlite3 .\\app\\node_modules\\sqlite3 /s /e /h",
+      "rebuild-sqlite-osx": "electron-rebuild -f -w sqlite3 && rm -rf ./app/node_modules/sqlite3 && cp -R ./node_modules/sqlite3 ./app/node_modules/sqlite3"
     },
     "author": "Maigo Erit <maigo.erit@gmail.com>",
     "devDependencies": {
-      "electron-connect": "0.4.2",
-      "electron-prebuilt": "^1.2.5",
-      "electron-rebuild": "^1.1.4",
-      "electron-builder": "^3.26.3",
+      "electron-connect": "0.6.0",
+      "electron": "1.4.3",
+      "electron-rebuild": "1.2.1",
+      "electron-builder": "7.13.0",
       "gulp": "^3.9.1",
-      "gulp-sass": "^2.0.3",
-      "node-gyp": "^3.3.1"
+      "gulp-sass": "^2.3.2",
+      "node-gyp": "^3.4.0"
     },
     "build": {
-      "app-bundle-id": "ee.trimatech.BackerTimetracker",
-      "app-category-type": "public.app-category.productivity",
+      "npmRebuild": true,
+      "appId": "ee.trimatech.Tockler",
       "iconUrl": "shared/img/icon/timetracker_icon.ico",
       "asar": false,
-      "osx": {
+      "mac": {
+        "category": "public.app-category.productivity",
         "icon": "shared/img/icon/timetracker_icon.icns",
         "icon-size": 40,
         "contents": [
@@ -92,8 +98,8 @@
         ]
       },
       "win": {
-        "iconUrl": "https://raw.githubusercontent.com/MayGo/backer-timetracker/master/build/icon.ico",
-        "icon": "https://raw.githubusercontent.com/MayGo/backer-timetracker/master/build/icon.ico"
+        "iconUrl": "https://raw.githubusercontent.com/MayGo/tockler/master/build/icon.ico",
+        "icon": "build/icon.ico"
       },
       "linux": {
         "target": "deb"
@@ -101,6 +107,26 @@
     }
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/MayGo/tockler",
+  "url": "https://api.github.com/repos/MayGo/tockler",
+  "forksUrl": "https://api.github.com/repos/MayGo/tockler/forks",
+  "teamsUrl": "https://api.github.com/repos/MayGo/tockler/teams",
+  "hooksUrl": "https://api.github.com/repos/MayGo/tockler/hooks",
+  "eventsUrl": "https://api.github.com/repos/MayGo/tockler/events",
+  "tagsUrl": "https://api.github.com/repos/MayGo/tockler/tags",
+  "languagesUrl": "https://api.github.com/repos/MayGo/tockler/languages",
+  "stargazersUrl": "https://api.github.com/repos/MayGo/tockler/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/MayGo/tockler/contributors",
+  "subscribersUrl": "https://api.github.com/repos/MayGo/tockler/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/MayGo/tockler/subscription",
+  "mergesUrl": "https://api.github.com/repos/MayGo/tockler/merges",
+  "downloadsUrl": "https://api.github.com/repos/MayGo/tockler/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/MayGo/tockler/deployments",
+  "gitUrl": "git://github.com/MayGo/tockler.git",
+  "sshUrl": "git@github.com:MayGo/tockler.git",
+  "cloneUrl": "https://github.com/MayGo/tockler.git",
+  "svnUrl": "https://github.com/MayGo/tockler",
+  "mirrorUrl": null,
   "contributors": [
     "MayGo"
   ]

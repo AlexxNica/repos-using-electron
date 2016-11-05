@@ -69,7 +69,7 @@
     "name": "deck.gl",
     "description": "A suite of 3D-enabled data visualization overlays, suitable for react-map-gl",
     "license": "MIT",
-    "version": "2.4.0",
+    "version": "2.4.10",
     "keywords": [
       "webgl",
       "visualization",
@@ -104,6 +104,7 @@
       "geojson-normalize": "0.0.1",
       "get-pixels": "^3.3.0",
       "gl-matrix": "^2.3.2",
+      "glslify": "^5.0.0",
       "global": "^4.3.0",
       "lodash.flattendeep": "^3.0.2",
       "lodash.isequal": "^3.0.4",
@@ -133,10 +134,9 @@
       "eslint-plugin-react": "^3.13.1",
       "faucet": "0.0.1",
       "gl": "^4.0.1",
-      "glslify": "^5.0.0",
       "immutable": "^3.7.5",
       "jsdom": "^9.2.1",
-      "luma.gl": "^2.4.1",
+      "luma.gl": "^2.5.3",
       "react": "^15.0.2",
       "react-addons-test-utils": "^15.0.2",
       "react-dom": "^15.0.2",
@@ -152,7 +152,7 @@
     "peerDependencies": {
       "react": "0.14.x - 15.x",
       "react-dom": "0.14.x - 15.x",
-      "luma.gl": "^2.4.0"
+      "luma.gl": "^2.5.3"
     },
     "scripts": {
       "build": "npm run build-clean && npm run build-compile && npm run build-script && npm run build-script-min",

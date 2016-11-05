@@ -165,7 +165,7 @@
   "status": 200,
   "packageJSON": {
     "name": "smart-mirror",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "The fairest of them all",
     "main": "main.js",
     "scripts": {
@@ -173,6 +173,7 @@
       "start": "electron main.js ",
       "microphone-debug": "electron scripts/microphone-debug/main.js",
       "train-model": "electron scripts/train-model.js",
+      "track-flight": "electron scripts/track.js",
       "wiredep": "wiredep -s index.html"
     },
     "repository": {
@@ -202,9 +203,9 @@
     "dependencies": {
       "express": "^4.13.4",
       "fitbit-oauth2": "0.0.1",
-      "fs": "0.0.2",
       "hyperion-client": "1.0.3",
-      "electron-json-storage": "2.0.0"
+      "electron-json-storage": "2.0.0",
+      "qrjs": "^0.1.2"
     }
   },
   "packageStatus": 200,

@@ -20,21 +20,21 @@
   "description": "A Powerful, Beautiful, Programmable and Rich Graph Editor for Students, Data Scientists, Mathematicians and anyone who want's to just have fun with graphs!",
   "fork": false,
   "createdAt": "2016-06-08T15:00:18.000Z",
-  "updatedAt": "2016-07-29T14:47:19.000Z",
-  "pushedAt": "2016-08-14T00:53:29.000Z",
+  "updatedAt": "2016-08-17T12:46:56.000Z",
+  "pushedAt": "2016-10-12T14:09:08.000Z",
   "homepage": "",
-  "size": 5675,
-  "stargazersCount": 5,
-  "watchersCount": 5,
+  "size": 6834,
+  "stargazersCount": 6,
+  "watchersCount": 6,
   "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
   "forksCount": 1,
-  "openIssuesCount": 6,
-  "openIssues": 6,
-  "watchers": 5,
+  "openIssuesCount": 7,
+  "openIssues": 7,
+  "watchers": 6,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -66,22 +66,83 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
+    "name": "graph",
+    "productName": "Kary Graph",
+    "author": "Kary Foundation",
+    "main": "main.js",
+    "description": "The most powerful programming environments for graphs!",
+    "homepage": "https://github.com/karyfoundation/graph",
+    "license": "Apache-2.0",
+    "version": "0.1.0",
+    "scripts": {
+      "start": "electron ./_compiled/main.js --enable-logging",
+      "dev": "NODE_ENV='development' npm run start",
+      "dist": "node_modules/.bin/build --mac --x64 --version=1.3.3"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/karyfoundation/graph"
+    },
+    "build": {
+      "appId": "org.karyfoundation.graph",
+      "copyright": "Copyright 2016 by Kary Foundation, Inc. All right reserved.",
+      "dmg": {
+        "contents": [
+          {
+            "x": 410,
+            "y": 220,
+            "type": "link",
+            "path": "/Applications"
+          },
+          {
+            "x": 130,
+            "y": 220,
+            "type": "file"
+          }
+        ]
+      }
+    },
     "dependencies": {
-      "electron-prebuilt": "1.2.3",
-      "electron": "*",
+      "monaco-editor": "^0.5.3",
+      "prismjs": "^1.5.1",
+      "snapsvg": "^0.4.0"
+    },
+    "devDependencies": {
+      "electron-builder": "^5.30.0",
+      "electron-packager": "^7.7.0",
+      "electron-prebuilt": "^1.3.3",
       "fs-extra": "0.30.0",
       "gulp": "3.9.1",
       "gulp-cli": "1.2.1",
-      "less": "2.7.1",
       "gulp-uglify": "1.5.3",
-      "prismjs": "^1.5.1",
+      "less": "2.7.1",
+      "mv": "^2.1.1",
       "sloc": "0.1.10",
-      "snapsvg": "^0.4.0",
       "typescript": "1.8.10",
       "uglifyjs": "2.4.10"
     }
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/karyfoundation/graph",
+  "url": "https://api.github.com/repos/karyfoundation/graph",
+  "forksUrl": "https://api.github.com/repos/karyfoundation/graph/forks",
+  "teamsUrl": "https://api.github.com/repos/karyfoundation/graph/teams",
+  "hooksUrl": "https://api.github.com/repos/karyfoundation/graph/hooks",
+  "eventsUrl": "https://api.github.com/repos/karyfoundation/graph/events",
+  "tagsUrl": "https://api.github.com/repos/karyfoundation/graph/tags",
+  "languagesUrl": "https://api.github.com/repos/karyfoundation/graph/languages",
+  "stargazersUrl": "https://api.github.com/repos/karyfoundation/graph/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/karyfoundation/graph/contributors",
+  "subscribersUrl": "https://api.github.com/repos/karyfoundation/graph/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/karyfoundation/graph/subscription",
+  "mergesUrl": "https://api.github.com/repos/karyfoundation/graph/merges",
+  "downloadsUrl": "https://api.github.com/repos/karyfoundation/graph/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/karyfoundation/graph/deployments",
+  "gitUrl": "git://github.com/karyfoundation/graph.git",
+  "sshUrl": "git@github.com:karyfoundation/graph.git",
+  "cloneUrl": "https://github.com/karyfoundation/graph.git",
+  "svnUrl": "https://github.com/karyfoundation/graph",
+  "mirrorUrl": null,
   "contributors": [
     "pmkary",
     "DeerMichel",

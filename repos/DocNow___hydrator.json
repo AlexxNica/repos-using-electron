@@ -77,7 +77,7 @@
       "test-e2e": "cross-env NODE_ENV=test mocha --compilers js:babel-register --require ./test/setup.js --require co-mocha ./test/e2e.js",
       "lint": "eslint app test *.js",
       "hot-server": "node -r babel-register server.js",
-      "build-dmg": "appdmg dmg.json Hydrator.dmg",
+      "build-dmg": "rm -f Hydrator.dmg; appdmg dmg.json Hydrator.dmg",
       "build-main": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.electron.js --progress --profile --colors",
       "build-renderer": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.production.js --progress --profile --colors",
       "build": "npm run build-main && npm run build-renderer",
@@ -165,6 +165,7 @@
     },
     "dependencies": {
       "css-modules-require-hook": "^4.0.0",
+      "csv-write-stream": "^2.0.0",
       "electron-debug": "^1.0.0",
       "electron-json-storage": "^2.0.0",
       "font-awesome": "^4.6.3",

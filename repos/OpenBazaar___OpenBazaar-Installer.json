@@ -68,7 +68,7 @@
   "packageJSON": {
     "name": "openbazaar",
     "productName": "OpenBazaar",
-    "version": "1.1.4",
+    "version": "1.1.9",
     "description": "Decentralized Peer to Peer Marketplace for Bitcoin",
     "main": "Gruntfile.js",
     "scripts": {
@@ -96,16 +96,17 @@
       "electron-windows-installer": "^1.1.0",
       "grunt": "^0.4.5",
       "grunt-electron-debian-installer": "^0.1.0",
-      "grunt-electron-installer": "^1.2.2",
+      "grunt-electron-installer": "^2.1.0",
       "grunt-electron-installer-debian": "^0.2.0",
       "gulp": "^3.9.0",
       "gulp-util": "^3.0.7"
     },
     "dependencies": {
+      "graceful-fs": "^4.1.1",
       "electron-builder": "^2.5.0",
       "electron-installer-debian": "^0.2.0",
       "electron-packager": "*",
-      "electron-prebuilt": "0.37.7"
+      "electron-prebuilt": "0.37.6"
     }
   },
   "packageStatus": 200,

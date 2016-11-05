@@ -20,12 +20,12 @@
   "description": "Updated issues checker for Redmine",
   "fork": false,
   "createdAt": "2015-12-13T10:58:40.000Z",
-  "updatedAt": "2016-05-10T03:29:28.000Z",
-  "pushedAt": "2016-08-14T13:28:07.000Z",
+  "updatedAt": "2016-11-05T00:42:10.000Z",
+  "pushedAt": "2016-10-18T14:29:15.000Z",
   "homepage": null,
-  "size": 1666,
-  "stargazersCount": 8,
-  "watchersCount": 8,
+  "size": 1742,
+  "stargazersCount": 10,
+  "watchersCount": 10,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 2,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 8,
+  "watchers": 10,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -53,7 +53,7 @@
   "status": 200,
   "packageJSON": {
     "name": "redmine-notifier",
-    "version": "0.6.0",
+    "version": "0.7.1",
     "scripts": {
       "start": "electron ./app/main.js",
       "prepare": "./bin/prepare.sh",
@@ -71,19 +71,19 @@
       "release": "npm run prepare && npm run pack"
     },
     "dependencies": {
-      "node-notifier": "^4.6.0",
-      "notie": "3.9.2"
+      "node-notifier": "^4.6.1",
+      "notie": "3.9.4"
     },
     "devDependencies": {
       "chai": "^3.5.0",
-      "chai-as-promised": "^5.3.0",
+      "chai-as-promised": "^6.0.0",
       "csslint": "^1.0.2",
-      "electron-builder": "~5.24.1",
-      "electron-prebuilt": "1.3.2",
-      "eslint": "^3.2.0",
-      "mocha": "^2.5.3",
-      "spectron": "~3.3.0",
-      "textlint": "^7.1.0",
+      "electron-builder": "~7.0.0",
+      "electron-prebuilt": "1.4.1",
+      "eslint": "^3.8.0",
+      "mocha": "^3.1.0",
+      "spectron": "~3.4.0",
+      "textlint": "^7.1.2",
       "textlint-rule-write-good": "^0.1.4"
     },
     "build": {
@@ -120,6 +120,26 @@
     }
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/emsk/redmine-notifier",
+  "url": "https://api.github.com/repos/emsk/redmine-notifier",
+  "forksUrl": "https://api.github.com/repos/emsk/redmine-notifier/forks",
+  "teamsUrl": "https://api.github.com/repos/emsk/redmine-notifier/teams",
+  "hooksUrl": "https://api.github.com/repos/emsk/redmine-notifier/hooks",
+  "eventsUrl": "https://api.github.com/repos/emsk/redmine-notifier/events",
+  "tagsUrl": "https://api.github.com/repos/emsk/redmine-notifier/tags",
+  "languagesUrl": "https://api.github.com/repos/emsk/redmine-notifier/languages",
+  "stargazersUrl": "https://api.github.com/repos/emsk/redmine-notifier/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/emsk/redmine-notifier/contributors",
+  "subscribersUrl": "https://api.github.com/repos/emsk/redmine-notifier/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/emsk/redmine-notifier/subscription",
+  "mergesUrl": "https://api.github.com/repos/emsk/redmine-notifier/merges",
+  "downloadsUrl": "https://api.github.com/repos/emsk/redmine-notifier/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/emsk/redmine-notifier/deployments",
+  "gitUrl": "git://github.com/emsk/redmine-notifier.git",
+  "sshUrl": "git@github.com:emsk/redmine-notifier.git",
+  "cloneUrl": "https://github.com/emsk/redmine-notifier.git",
+  "svnUrl": "https://github.com/emsk/redmine-notifier",
+  "mirrorUrl": null,
   "contributors": [
     "emsk"
   ]

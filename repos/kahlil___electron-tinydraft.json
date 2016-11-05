@@ -20,13 +20,13 @@
   "description": null,
   "fork": false,
   "createdAt": "2016-08-30T15:44:48.000Z",
-  "updatedAt": "2016-08-30T20:47:57.000Z",
-  "pushedAt": "2016-08-31T14:24:00.000Z",
+  "updatedAt": "2016-09-08T06:02:12.000Z",
+  "pushedAt": "2016-09-13T08:27:25.000Z",
   "homepage": null,
-  "size": 16,
+  "size": 26,
   "stargazersCount": 1,
   "watchersCount": 1,
-  "language": "JavaScript",
+  "language": "CSS",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -55,11 +55,14 @@
     "name": "electron-tinydraft",
     "version": "1.0.0",
     "description": "A desktop app for tiny drafts.",
+    "main": "main.js",
     "scripts": {
-      "start": "run-p electron babel:watch",
+      "start": "npm-run-all scss --parallel electron *:watch",
       "electron": "electron .",
-      "babel": "babel src --out-dir build --source-maps",
-      "babel:watch": "babel src --out-dir build --source-maps --watch"
+      "babel": "babel app --out-dir app-build --source-maps",
+      "babel:watch": "babel app --out-dir app-build --source-maps --watch",
+      "scss": "node-sass scss --output ./app",
+      "scss:watch": "node-sass --watch scss --output ./app"
     },
     "repository": {
       "type": "git",
@@ -78,12 +81,15 @@
       "eslint": "^3.4.0",
       "eslint-config-xo-react": "^0.9.0",
       "eslint-plugin-react": "^6.2.0",
+      "hyperx": "^2.0.4",
       "node-sass": "^3.8.0",
       "npm-run-all": "^3.0.0",
       "xo": "^0.16.0"
     },
     "dependencies": {
       "electron-debug": "^1.0.1",
+      "lodash": "^4.15.0",
+      "ramda": "^0.22.1",
       "react": "^15.3.1",
       "react-dom": "^15.3.1",
       "xstream": "^6.2.0"
@@ -91,6 +97,7 @@
     "xo": {
       "esnext": true,
       "space": true,
+      "semicolon": true,
       "extends": "xo-react",
       "globals": [
         "document"
@@ -118,6 +125,26 @@
     }
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/kahlil/electron-tinydraft",
+  "url": "https://api.github.com/repos/kahlil/electron-tinydraft",
+  "forksUrl": "https://api.github.com/repos/kahlil/electron-tinydraft/forks",
+  "teamsUrl": "https://api.github.com/repos/kahlil/electron-tinydraft/teams",
+  "hooksUrl": "https://api.github.com/repos/kahlil/electron-tinydraft/hooks",
+  "eventsUrl": "https://api.github.com/repos/kahlil/electron-tinydraft/events",
+  "tagsUrl": "https://api.github.com/repos/kahlil/electron-tinydraft/tags",
+  "languagesUrl": "https://api.github.com/repos/kahlil/electron-tinydraft/languages",
+  "stargazersUrl": "https://api.github.com/repos/kahlil/electron-tinydraft/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/kahlil/electron-tinydraft/contributors",
+  "subscribersUrl": "https://api.github.com/repos/kahlil/electron-tinydraft/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/kahlil/electron-tinydraft/subscription",
+  "mergesUrl": "https://api.github.com/repos/kahlil/electron-tinydraft/merges",
+  "downloadsUrl": "https://api.github.com/repos/kahlil/electron-tinydraft/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/kahlil/electron-tinydraft/deployments",
+  "gitUrl": "git://github.com/kahlil/electron-tinydraft.git",
+  "sshUrl": "git@github.com:kahlil/electron-tinydraft.git",
+  "cloneUrl": "https://github.com/kahlil/electron-tinydraft.git",
+  "svnUrl": "https://github.com/kahlil/electron-tinydraft",
+  "mirrorUrl": null,
   "contributors": [
     "kahlil"
   ]
