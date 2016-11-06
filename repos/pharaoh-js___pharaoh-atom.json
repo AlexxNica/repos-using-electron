@@ -62,7 +62,7 @@
   "packageJSON": {
     "name": "pharaoh",
     "main": "./lib/pharaoh",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "description": "Broacast your code, live.",
     "activationCommands": {
       "atom-workspace": [
@@ -80,10 +80,10 @@
       "node": "*"
     },
     "dependencies": {
-      "atom-space-pen-views": "^2.1.0",
-      "event-kit": "^1.1.0",
-      "firebase": "~1.0.5",
-      "space-pen": "^5.1.1"
+      "atom-space-pen-views": "^2.2.0",
+      "event-kit": "^2.2.0",
+      "firebase": "~3.5.1",
+      "space-pen": "^5.1.2"
     },
     "consumedServices": {
       "status-bar": {
@@ -101,8 +101,8 @@
       "pair"
     ],
     "devDependencies": {
-      "electron-prebuilt": "^0.36.3",
-      "electron-rebuild": "^1.1.1"
+      "electron-prebuilt": "^1.3.8",
+      "electron-rebuild": "^1.2.1"
     }
   },
   "packageStatus": 200,

@@ -20,21 +20,21 @@
   "description": "📷  Unofficial Instagram Desktop App",
   "fork": false,
   "createdAt": "2016-08-21T16:33:36.000Z",
-  "updatedAt": "2016-09-01T21:18:05.000Z",
-  "pushedAt": "2016-09-01T18:05:43.000Z",
-  "homepage": null,
-  "size": 3806,
-  "stargazersCount": 882,
-  "watchersCount": 882,
+  "updatedAt": "2016-11-05T03:28:55.000Z",
+  "pushedAt": "2016-11-04T18:11:52.000Z",
+  "homepage": "https://terkelg.github.io/ramme",
+  "size": 5427,
+  "stargazersCount": 1347,
+  "watchersCount": 1347,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": true,
-  "forksCount": 59,
+  "forksCount": 107,
   "openIssuesCount": 8,
   "openIssues": 8,
-  "watchers": 882,
+  "watchers": 1347,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,12 +48,12 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 59,
-  "subscribersCount": 42,
+  "networkCount": 107,
+  "subscribersCount": 55,
   "status": 200,
   "packageJSON": {
     "name": "Ramme",
-    "version": "2.1.0",
+    "version": "2.3.0",
     "description": "Unofficial Instagram Desktop App",
     "license": "MIT",
     "main": "main.js",
@@ -64,21 +64,29 @@
       "url": "terkel.com"
     },
     "scripts": {
-      "start": "electron .",
-      "build": "npm run build:macos && npm run build:linux && npm run build:windows",
+      "start": "npm test && electron .",
+      "test": "standard",
+      "build": "npm test && npm run build64 && npm run build32",
+      "build64": "npm run build:macos && npm run build:linux && npm run build:windows64",
+      "build32": "npm run build:linux32 && npm run build:windows",
       "build:macos": "electron-packager . --overwrite --asar --out=dist --ignore='^media$' --prune --platform=darwin --arch=x64 --icon=static/icon.icns --app-bundle-id=com.terkel.ramme --osx-sign --app-version=$npm_package_version && cd dist/Ramme-darwin-x64 && zip -ryXq9 ../Ramme-osx-${npm_package_version}.zip Ramme.app",
       "build:linux": "electron-packager . --overwrite --out=dist --ignore='^media$' --prune --platform=linux --arch=x64 --app-bundle-id=com.terkel.ramme --app-version=$npm_package_version && cd dist/Ramme-linux-x64/ && zip -ryq9 ../Ramme-linux-${npm_package_version}.zip *",
-      "build:windows": "electron-packager . --overwrite --asar --out=dist --ignore='^media$' --prune --platform=win32 --arch=ia32 --icon=static/icon.ico --version-string.ProductName=$npm_package_productName --app-version=$npm_package_version && cd dist/Ramme-win32-ia32 && zip -ryq9 ../Ramme-windows-${npm_package_version}.zip *"
+      "build:linux32": "electron-packager . --overwrite --out=dist --ignore='^media$' --prune --platform=linux --arch=ia32 --app-bundle-id=com.terkel.ramme --app-version=$npm_package_version && cd dist/Ramme-linux-ia32/ && zip -ryq9 ../Ramme-linux32-${npm_package_version}.zip *",
+      "build:windows": "electron-packager . --overwrite --asar --out=dist --ignore='^media$' --prune --platform=win32 --arch=ia32 --icon=static/icon.ico --version-string.ProductName=$npm_package_productName --app-version=$npm_package_version && cd dist/Ramme-win32-ia32 && zip -ryq9 ../Ramme-windows-${npm_package_version}.zip *",
+      "build:windows64": "electron-packager . --overwrite --asar --out=dist --ignore='^media$' --prune --platform=win32 --arch=x64 --icon=static/icon.ico --version-string.ProductName=$npm_package_productName --app-version=$npm_package_version && cd dist/Ramme-win32-x64 && zip -ryq9 ../Ramme-windows64-${npm_package_version}.zip *"
     },
     "keywords": [
       "Instagram",
-      "Electron"
+      "Electron",
+      "Social",
+      "Client"
     ],
     "devDependencies": {
       "devtron": "^1.3.0",
       "electron": "^1.3.3",
-      "electron-packager": "^7.6.0",
-      "os": "^0.1.1"
+      "electron-packager": "^8.0.0",
+      "os": "^0.1.1",
+      "standard": "^8.0.0"
     },
     "dependencies": {
       "electron-config": "^0.2.1",
@@ -87,12 +95,34 @@
     }
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/terkelg/ramme",
+  "url": "https://api.github.com/repos/terkelg/ramme",
+  "forksUrl": "https://api.github.com/repos/terkelg/ramme/forks",
+  "teamsUrl": "https://api.github.com/repos/terkelg/ramme/teams",
+  "hooksUrl": "https://api.github.com/repos/terkelg/ramme/hooks",
+  "eventsUrl": "https://api.github.com/repos/terkelg/ramme/events",
+  "tagsUrl": "https://api.github.com/repos/terkelg/ramme/tags",
+  "languagesUrl": "https://api.github.com/repos/terkelg/ramme/languages",
+  "stargazersUrl": "https://api.github.com/repos/terkelg/ramme/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/terkelg/ramme/contributors",
+  "subscribersUrl": "https://api.github.com/repos/terkelg/ramme/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/terkelg/ramme/subscription",
+  "mergesUrl": "https://api.github.com/repos/terkelg/ramme/merges",
+  "downloadsUrl": "https://api.github.com/repos/terkelg/ramme/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/terkelg/ramme/deployments",
+  "gitUrl": "git://github.com/terkelg/ramme.git",
+  "sshUrl": "git@github.com:terkelg/ramme.git",
+  "cloneUrl": "https://github.com/terkelg/ramme.git",
+  "svnUrl": "https://github.com/terkelg/ramme",
+  "mirrorUrl": null,
   "contributors": [
     "terkelg",
     "vintagesucks",
+    "VoOoLoX",
     "gingerbeardman",
     "neighborhood999",
     "brejoc",
+    "mckennajones",
     "seanr707"
   ]
 }

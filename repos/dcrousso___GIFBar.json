@@ -1,0 +1,115 @@
+{
+  "id": 68547875,
+  "name": "GIFBar",
+  "fullName": "dcrousso/GIFBar",
+  "owner": {
+    "login": "dcrousso",
+    "id": 4356609,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4356609?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/dcrousso",
+    "htmlUrl": "https://github.com/dcrousso",
+    "followersUrl": "https://api.github.com/users/dcrousso/followers",
+    "subscriptionsUrl": "https://api.github.com/users/dcrousso/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/dcrousso/orgs",
+    "reposUrl": "https://api.github.com/users/dcrousso/repos",
+    "receivedEventsUrl": "https://api.github.com/users/dcrousso/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/dcrousso/GIFBar",
+  "description": "A system tray icon that helps you find the perfect GIF",
+  "fork": false,
+  "url": "https://api.github.com/repos/dcrousso/GIFBar",
+  "forksUrl": "https://api.github.com/repos/dcrousso/GIFBar/forks",
+  "teamsUrl": "https://api.github.com/repos/dcrousso/GIFBar/teams",
+  "hooksUrl": "https://api.github.com/repos/dcrousso/GIFBar/hooks",
+  "eventsUrl": "https://api.github.com/repos/dcrousso/GIFBar/events",
+  "tagsUrl": "https://api.github.com/repos/dcrousso/GIFBar/tags",
+  "languagesUrl": "https://api.github.com/repos/dcrousso/GIFBar/languages",
+  "stargazersUrl": "https://api.github.com/repos/dcrousso/GIFBar/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/dcrousso/GIFBar/contributors",
+  "subscribersUrl": "https://api.github.com/repos/dcrousso/GIFBar/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/dcrousso/GIFBar/subscription",
+  "mergesUrl": "https://api.github.com/repos/dcrousso/GIFBar/merges",
+  "downloadsUrl": "https://api.github.com/repos/dcrousso/GIFBar/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/dcrousso/GIFBar/deployments",
+  "createdAt": "2016-09-18T21:18:47.000Z",
+  "updatedAt": "2016-09-19T23:02:37.000Z",
+  "pushedAt": "2016-10-09T08:51:30.000Z",
+  "gitUrl": "git://github.com/dcrousso/GIFBar.git",
+  "sshUrl": "git@github.com:dcrousso/GIFBar.git",
+  "cloneUrl": "https://github.com/dcrousso/GIFBar.git",
+  "svnUrl": "https://github.com/dcrousso/GIFBar",
+  "homepage": null,
+  "size": 597,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "GIFBar",
+    "productName": "GIFBar",
+    "version": "1.2.2",
+    "description": "A system tray icon that helps you find the perfect GIF",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager --platform=darwin --arch=x64 --icon=assets/Icon.icns --app-bundle-id=com.dcrousso.GIFBar --app-version=$npm_package_version --overwrite --asar --out=dist --ignore=\"^/dist$\" --ignore=\"^/media$\" --prune ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dcrousso/GIFBar.git"
+    },
+    "keywords": [
+      "GIF",
+      "GIFs",
+      "search"
+    ],
+    "author": {
+      "name": "Devin Rousso",
+      "email": "hi@devinrousso.com",
+      "url": "http://devinrousso.com"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dcrousso/GIFBar/issues"
+    },
+    "homepage": "https://github.com/dcrousso/GIFBar#readme",
+    "devDependencies": {
+      "electron": "^1.3.3",
+      "electron-packager": "^7.7.0"
+    },
+    "dependencies": {
+      "electron-debug": "^1.0.0",
+      "electron-dl": "^1.0.0"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "dcrousso"
+  ]
+}

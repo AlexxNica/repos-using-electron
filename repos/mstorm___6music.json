@@ -47,14 +47,18 @@
   "status": 200,
   "packageJSON": {
     "name": "6music",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "6music radio player",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mstorm/6music.git"
+    },
     "author": {
       "name": "Stephen Kwon",
       "email": "mstorm@mstorm.net",
       "url": "http://mstorm.net/"
     },
-    "private": true,
     "main": "main.js",
     "scripts": {
       "start": "electron .",

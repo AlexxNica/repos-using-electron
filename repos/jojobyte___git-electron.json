@@ -21,9 +21,9 @@
   "fork": false,
   "createdAt": "2016-07-18T22:46:41.000Z",
   "updatedAt": "2016-07-18T22:47:06.000Z",
-  "pushedAt": "2016-07-19T23:27:19.000Z",
+  "pushedAt": "2016-08-25T22:53:51.000Z",
   "homepage": null,
-  "size": 5,
+  "size": 7,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -48,7 +48,7 @@
   "packageJSON": {
     "name": "git-electron",
     "displayName": "Git Electron",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Electronified Git",
     "main": "app/main.js",
     "private": true,
@@ -59,19 +59,22 @@
     "keywords": [
       "git"
     ],
-    "author": "jojobyte",
+    "author": "Jordan Hess <jordan.hess@gmail.com>",
     "scripts": {
       "clean": "rimraf dist",
       "postinstall": "install-app-deps",
       "start": "electron .",
       "pack": "build --dir",
-      "dist": "build"
+      "dist": "build",
+      "dev": "webpack-dev-server --inline --hot --port 8888",
+      "xbuild": "cross-env NODE_ENV=production webpack --progress --hide-modules"
     },
     "build": {
       "appId": "com.jojobyte.git-electron",
       "app-category-type": "public.app-category.developer-tools",
       "compression": "store",
       "asar": false,
+      "nodeGypRebuild": false,
       "mac": {
         "protocols": [
           {
@@ -92,17 +95,50 @@
       "app": "app"
     },
     "devDependencies": {
-      "electron-builder": "^5.10.5",
-      "electron-prebuilt": "^1.2.7",
-      "rimraf": "^2.5.3"
+      "babel-core": "^6.0.0",
+      "babel-loader": "^6.0.0",
+      "babel-plugin-transform-runtime": "^6.0.0",
+      "babel-preset-es2015": "^6.0.0",
+      "babel-preset-stage-2": "^6.0.0",
+      "cross-env": "^1.0.6",
+      "css-loader": "^0.23.0",
+      "electron": "^1.3.4",
+      "electron-builder": "next",
+      "file-loader": "^0.8.4",
+      "json-loader": "^0.5.4",
+      "rimraf": "^2.5.3",
+      "url-loader": "^0.5.7",
+      "vue-hot-reload-api": "^1.2.0",
+      "vue-html-loader": "^1.0.0",
+      "vue-loader": "^8.2.1",
+      "vue-style-loader": "^1.0.0",
+      "webpack": "^1.12.2",
+      "webpack-dev-server": "^1.12.0"
     },
     "engines": {
-      "electron": "1.2.7",
-      "atom-shell": "1.2.7"
+      "electron": "1.3.4",
+      "atom-shell": "1.3.4"
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "jojobyte"
-  ]
+  "htmlUrl": "https://github.com/jojobyte/git-electron",
+  "url": "https://api.github.com/repos/jojobyte/git-electron",
+  "forksUrl": "https://api.github.com/repos/jojobyte/git-electron/forks",
+  "teamsUrl": "https://api.github.com/repos/jojobyte/git-electron/teams",
+  "hooksUrl": "https://api.github.com/repos/jojobyte/git-electron/hooks",
+  "eventsUrl": "https://api.github.com/repos/jojobyte/git-electron/events",
+  "tagsUrl": "https://api.github.com/repos/jojobyte/git-electron/tags",
+  "languagesUrl": "https://api.github.com/repos/jojobyte/git-electron/languages",
+  "stargazersUrl": "https://api.github.com/repos/jojobyte/git-electron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/jojobyte/git-electron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/jojobyte/git-electron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/jojobyte/git-electron/subscription",
+  "mergesUrl": "https://api.github.com/repos/jojobyte/git-electron/merges",
+  "downloadsUrl": "https://api.github.com/repos/jojobyte/git-electron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/jojobyte/git-electron/deployments",
+  "gitUrl": "git://github.com/jojobyte/git-electron.git",
+  "sshUrl": "git@github.com:jojobyte/git-electron.git",
+  "cloneUrl": "https://github.com/jojobyte/git-electron.git",
+  "svnUrl": "https://github.com/jojobyte/git-electron",
+  "mirrorUrl": null
 }

@@ -1,0 +1,102 @@
+{
+  "id": 68723323,
+  "name": "NodeTest",
+  "fullName": "qcabrol/NodeTest",
+  "owner": {
+    "login": "qcabrol",
+    "id": 5040536,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5040536?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/qcabrol",
+    "htmlUrl": "https://github.com/qcabrol",
+    "followersUrl": "https://api.github.com/users/qcabrol/followers",
+    "subscriptionsUrl": "https://api.github.com/users/qcabrol/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/qcabrol/orgs",
+    "reposUrl": "https://api.github.com/users/qcabrol/repos",
+    "receivedEventsUrl": "https://api.github.com/users/qcabrol/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/qcabrol/NodeTest",
+  "description": "node js tests for the bioreactor",
+  "fork": false,
+  "url": "https://api.github.com/repos/qcabrol/NodeTest",
+  "forksUrl": "https://api.github.com/repos/qcabrol/NodeTest/forks",
+  "teamsUrl": "https://api.github.com/repos/qcabrol/NodeTest/teams",
+  "hooksUrl": "https://api.github.com/repos/qcabrol/NodeTest/hooks",
+  "eventsUrl": "https://api.github.com/repos/qcabrol/NodeTest/events",
+  "tagsUrl": "https://api.github.com/repos/qcabrol/NodeTest/tags",
+  "languagesUrl": "https://api.github.com/repos/qcabrol/NodeTest/languages",
+  "stargazersUrl": "https://api.github.com/repos/qcabrol/NodeTest/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/qcabrol/NodeTest/contributors",
+  "subscribersUrl": "https://api.github.com/repos/qcabrol/NodeTest/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/qcabrol/NodeTest/subscription",
+  "mergesUrl": "https://api.github.com/repos/qcabrol/NodeTest/merges",
+  "downloadsUrl": "https://api.github.com/repos/qcabrol/NodeTest/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/qcabrol/NodeTest/deployments",
+  "createdAt": "2016-09-20T14:59:27.000Z",
+  "updatedAt": "2016-10-24T12:43:51.000Z",
+  "pushedAt": "2016-11-04T15:45:48.000Z",
+  "gitUrl": "git://github.com/qcabrol/NodeTest.git",
+  "sshUrl": "git@github.com:qcabrol/NodeTest.git",
+  "cloneUrl": "https://github.com/qcabrol/NodeTest.git",
+  "svnUrl": "https://github.com/qcabrol/NodeTest",
+  "homepage": null,
+  "size": 85660,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "serialarduino",
+    "version": "0.0.1",
+    "description": "node interface for at32u4",
+    "main": "src/",
+    "dependencies": {
+      "debug": "^2.2.0",
+      "open-spectro": "0.0.7",
+      "pouchdb": "^6.0.5",
+      "pouchdb-find": "^0.10.3",
+      "serialport": "^4.0.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "1.2.1",
+      "node-gyp": "^3.4.0"
+    },
+    "scripts": {
+      "postinstall": "npm run build-serialport && npm run build-leveldown",
+      "build-serialport": "node node_modules/node-gyp/bin/node-gyp.js rebuild --target=1.2.1 --arch=x64 --directory=./node_modules/serialport --dist-url=https://atom.io/download/atom-shell",
+      "build-leveldown": "node node_modules/node-gyp/bin/node-gyp.js rebuild --target=1.2.1 --arch=x64 --directory=./node_modules/leveldown --dist-url=https://atom.io/download/atom-shell",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron ./src/view"
+    },
+    "keywords": [
+      "serial",
+      "arduino"
+    ],
+    "author": "qcabrol",
+    "license": "MIT"
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "qcabrol"
+  ]
+}

@@ -54,7 +54,7 @@
   "packageJSON": {
     "name": "puzzlevan",
     "productName": "Puzzlevan",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "Pencil puzzle editor by Javascript",
     "main": "main/main.js",
     "directories": {
@@ -72,14 +72,18 @@
       "url": "https://github.com/sabo2/puzzlevan"
     },
     "scripts": {
-      "build": "electron .",
-      "pack": "node pack.js",
+      "debug": "electron . --debug",
+      "start": "electron .",
+      "build": "node pack.js",
       "release": "node pack.js --zip",
       "lint": "jshint *.js main/*.js index/*.js puzzle/ui/*.js popups/*.js"
     },
     "devDependencies": {
-      "electron-packager": "^5.2.1",
-      "electron-prebuilt": "^0.36.11"
+      "electron": "^1.4.4",
+      "electron-packager": "^8.1.0"
+    },
+    "dependencies": {
+      "pzpr": "^0.7.0"
     }
   },
   "packageStatus": 200,

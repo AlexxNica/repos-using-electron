@@ -20,10 +20,10 @@
   "description": "Wechaty for Desktop",
   "fork": false,
   "createdAt": "2016-08-10T05:41:46.000Z",
-  "updatedAt": "2016-09-01T07:42:00.000Z",
-  "pushedAt": "2016-09-01T07:45:40.000Z",
+  "updatedAt": "2016-09-06T15:27:21.000Z",
+  "pushedAt": "2016-09-06T17:32:09.000Z",
   "homepage": "https://www.wechaty.io",
-  "size": 12,
+  "size": 34,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "JavaScript",
@@ -68,17 +68,17 @@
   "packageJSON": {
     "name": "wechaty-electron",
     "version": "0.0.1",
-    "description": "Wechaty on Your Desktop",
+    "description": "Wechaty Desktop",
     "main": "main.js",
     "scripts": {
-      "start": "electron --dev --debug=5858 ./app/",
+      "start": "electron --dev --debug=5858 app",
       "test": "echo test",
       "release": "echo release",
       "dist": "echo dist"
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/zixia/wechaty-electron.git"
+      "url": "git+https://github.com/wechaty/wechaty-electron.git"
     },
     "keywords": [
       "wechaty",
@@ -91,14 +91,34 @@
     "author": "Zhuohuan LI <zixia@zixia.net>",
     "license": "Apache-2.0",
     "bugs": {
-      "url": "https://github.com/zixia/wechaty-electron/issues"
+      "url": "https://github.com/wechaty/wechaty-electron/issues"
     },
-    "homepage": "https://github.com/zixia/wechaty-electron#readme",
+    "homepage": "https://github.com/wechaty/wechaty-electron#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
     }
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/wechaty/wechaty-electron",
+  "url": "https://api.github.com/repos/wechaty/wechaty-electron",
+  "forksUrl": "https://api.github.com/repos/wechaty/wechaty-electron/forks",
+  "teamsUrl": "https://api.github.com/repos/wechaty/wechaty-electron/teams",
+  "hooksUrl": "https://api.github.com/repos/wechaty/wechaty-electron/hooks",
+  "eventsUrl": "https://api.github.com/repos/wechaty/wechaty-electron/events",
+  "tagsUrl": "https://api.github.com/repos/wechaty/wechaty-electron/tags",
+  "languagesUrl": "https://api.github.com/repos/wechaty/wechaty-electron/languages",
+  "stargazersUrl": "https://api.github.com/repos/wechaty/wechaty-electron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/wechaty/wechaty-electron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/wechaty/wechaty-electron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/wechaty/wechaty-electron/subscription",
+  "mergesUrl": "https://api.github.com/repos/wechaty/wechaty-electron/merges",
+  "downloadsUrl": "https://api.github.com/repos/wechaty/wechaty-electron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/wechaty/wechaty-electron/deployments",
+  "gitUrl": "git://github.com/wechaty/wechaty-electron.git",
+  "sshUrl": "git@github.com:wechaty/wechaty-electron.git",
+  "cloneUrl": "https://github.com/wechaty/wechaty-electron.git",
+  "svnUrl": "https://github.com/wechaty/wechaty-electron",
+  "mirrorUrl": null,
   "contributors": [
     "zixia",
     "lijiarui"

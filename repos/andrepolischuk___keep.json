@@ -48,7 +48,7 @@
   "packageJSON": {
     "name": "keep",
     "productName": "Keep",
-    "version": "0.0.0",
+    "version": "0.1.2",
     "description": "Desktop app for Google Keep packaged with Electron",
     "electronVersion": "0.36.0",
     "files": [
@@ -57,9 +57,10 @@
     ],
     "scripts": {
       "start": "electron .",
-      "build:darwin": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --platform=darwin --arch=all --version=$npm_package_electronVersion --icon=assets/icon.icns",
-      "build:linux": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --platform=linux --arch=all --version=$npm_package_electronVersion --icon=assets/icon.png",
-      "build:windows": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --platform=win32 --arch=all --version=$npm_package_electronVersion --icon=assets/icon.ico",
+      "build": "npm run build:macos && npm run build:linux && npm run build:windows",
+      "build:macos": "electron-packager . --overwrite --asar --out=dist --ignore='^/(dist|assets)$' --platform=darwin --arch=x64 --icon=assets/icon.icns --app-bundle-id=com.andrepolischuk.keep && cd dist/Keep-darwin-x64 && zip -ryXq9 ../Keep-macos-${npm_package_version}.zip Keep.app",
+      "build:linux": "electron-packager . --overwrite --out=dist --ignore='^/(dist|assets)$' --platform=linux --arch=x64 --icon=assets/icon.png --app-bundle-id=com.andrepolischuk.keep && cd dist/Keep-linux-x64 && zip -ryq9 ../Keep-linux-${npm_package_version}.zip *",
+      "build:windows": "electron-packager . --overwrite --asar --out=dist --ignore='^/(dist|assets)$' --platform=win32 --arch=ia32 --icon=assets/icon.ico --version-string.ProductName=$npm_package_productName && cd dist/Keep-win32-ia32 && zip -ryq9 ../Keep-windows-${npm_package_version}.zip *",
       "test": "eslint ."
     },
     "repository": {
@@ -79,16 +80,15 @@
     },
     "homepage": "https://github.com/andrepolischuk/keep",
     "dependencies": {
-      "configstore": "^2.0.0",
-      "electron-debug": "^0.6.0",
-      "object-assign": "^4.0.1"
+      "electron-config": "^0.2.1",
+      "electron-debug": "^1.0.1"
     },
     "devDependencies": {
-      "electron-packager": "^6.0.2",
-      "electron-prebuilt": "^0.37.5",
-      "eslint": "^2.7.0",
-      "eslint-config-airbnb": "^7.0.0",
-      "eslint-plugin-require-path-exists": "^1.1.5"
+      "electron": "^1.4.4",
+      "electron-packager": "^8.1.0",
+      "eslint": "^3.4.0",
+      "eslint-config-airbnb-base": "^5.0.3",
+      "eslint-plugin-import": "^1.14.0"
     }
   },
   "packageStatus": 200,

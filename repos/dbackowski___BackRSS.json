@@ -1,0 +1,110 @@
+{
+  "id": 34790998,
+  "name": "BackRSS",
+  "fullName": "dbackowski/BackRSS",
+  "owner": {
+    "login": "dbackowski",
+    "id": 567457,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/567457?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/dbackowski",
+    "htmlUrl": "https://github.com/dbackowski",
+    "followersUrl": "https://api.github.com/users/dbackowski/followers",
+    "subscriptionsUrl": "https://api.github.com/users/dbackowski/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/dbackowski/orgs",
+    "reposUrl": "https://api.github.com/users/dbackowski/repos",
+    "receivedEventsUrl": "https://api.github.com/users/dbackowski/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/dbackowski/BackRSS",
+  "description": "Very simple RSS reader (NodeJS + NeDB + Backbone + Marionette + Electron).",
+  "fork": false,
+  "url": "https://api.github.com/repos/dbackowski/BackRSS",
+  "forksUrl": "https://api.github.com/repos/dbackowski/BackRSS/forks",
+  "teamsUrl": "https://api.github.com/repos/dbackowski/BackRSS/teams",
+  "hooksUrl": "https://api.github.com/repos/dbackowski/BackRSS/hooks",
+  "eventsUrl": "https://api.github.com/repos/dbackowski/BackRSS/events",
+  "tagsUrl": "https://api.github.com/repos/dbackowski/BackRSS/tags",
+  "languagesUrl": "https://api.github.com/repos/dbackowski/BackRSS/languages",
+  "stargazersUrl": "https://api.github.com/repos/dbackowski/BackRSS/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/dbackowski/BackRSS/contributors",
+  "subscribersUrl": "https://api.github.com/repos/dbackowski/BackRSS/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/dbackowski/BackRSS/subscription",
+  "mergesUrl": "https://api.github.com/repos/dbackowski/BackRSS/merges",
+  "downloadsUrl": "https://api.github.com/repos/dbackowski/BackRSS/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/dbackowski/BackRSS/deployments",
+  "createdAt": "2015-04-29T11:52:16.000Z",
+  "updatedAt": "2016-10-24T15:20:40.000Z",
+  "pushedAt": "2016-10-24T15:37:37.000Z",
+  "gitUrl": "git://github.com/dbackowski/BackRSS.git",
+  "sshUrl": "git@github.com:dbackowski/BackRSS.git",
+  "cloneUrl": "https://github.com/dbackowski/BackRSS.git",
+  "svnUrl": "https://github.com/dbackowski/BackRSS",
+  "homepage": "",
+  "size": 641,
+  "stargazersCount": 15,
+  "watchersCount": 15,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 15,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 2,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "BackRSS",
+    "version": "1.0.6",
+    "description": "Simple RSS reader",
+    "main": "electron.js",
+    "scripts": {
+      "start": "NODE_ENV=production electron electron.js",
+      "build": "truncate -s 0 feeds && truncate -s 0 sites && electron-packager ./ --platform=darwin,linux --overwrite --icon=./public/images/icon --arch=x64",
+      "test": "NODE_ENV=test mocha"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dbackowski/BackRSS.git"
+    },
+    "author": "Damian Baćkowski",
+    "license": "MIT",
+    "dependencies": {
+      "async": "^2.1.2",
+      "body-parser": "^1.15.2",
+      "express": "^4.14.0",
+      "feedparser": "^1.1.5",
+      "nedb": "^1.8.0",
+      "request": "^2.75.0",
+      "underscore": "^1.8.3"
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "electron-packager": "8.1.0",
+      "electron": "1.4.4",
+      "supertest": "^2.0.1"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "dbackowski"
+  ]
+}

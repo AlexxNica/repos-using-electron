@@ -20,13 +20,13 @@
   "description": null,
   "fork": false,
   "createdAt": "2016-08-17T15:16:09.000Z",
-  "updatedAt": "2016-08-17T17:18:23.000Z",
-  "pushedAt": "2016-08-23T15:35:25.000Z",
+  "updatedAt": "2016-10-17T07:52:03.000Z",
+  "pushedAt": "2016-10-18T14:28:07.000Z",
   "homepage": null,
-  "size": 238,
+  "size": 740,
   "stargazersCount": 1,
   "watchersCount": 1,
-  "language": "TypeScript",
+  "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -35,7 +35,7 @@
   "openIssuesCount": 3,
   "openIssues": 3,
   "watchers": 1,
-  "defaultBranch": "master",
+  "defaultBranch": "Dev-1.0.0",
   "permissions": {
     "admin": false,
     "push": false,
@@ -51,7 +51,7 @@
     "description": "A minimal Electron application",
     "main": "index.js",
     "scripts": {
-      "start": "Grunt & electron ."
+      "start": "electron ."
     },
     "keywords": [
       "Electron",
@@ -70,12 +70,9 @@
       "grunt": "^1.0.1",
       "grunt-contrib-clean": "^1.0.0",
       "grunt-contrib-copy": "^1.0.0",
-      "grunt-contrib-less": "^1.4.0",
-      "grunt-ts": "^6.0.0-beta.3",
-      "typescript": "^1.8.10",
-      "typings": "^1.3.2"
+      "grunt-contrib-less": "^1.4.0"
     },
-    "globalinstall": {
+    "globalinstallOld": {
       "installWithAdministrator": [
         "less",
         "typescript",
@@ -83,9 +80,32 @@
         "node",
         "npm"
       ]
+    },
+    "dependencies": {
+      "angular-ui-layout": "^1.4.2"
     }
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/bharadwajturlapati/electronPlayGround",
+  "url": "https://api.github.com/repos/bharadwajturlapati/electronPlayGround",
+  "forksUrl": "https://api.github.com/repos/bharadwajturlapati/electronPlayGround/forks",
+  "teamsUrl": "https://api.github.com/repos/bharadwajturlapati/electronPlayGround/teams",
+  "hooksUrl": "https://api.github.com/repos/bharadwajturlapati/electronPlayGround/hooks",
+  "eventsUrl": "https://api.github.com/repos/bharadwajturlapati/electronPlayGround/events",
+  "tagsUrl": "https://api.github.com/repos/bharadwajturlapati/electronPlayGround/tags",
+  "languagesUrl": "https://api.github.com/repos/bharadwajturlapati/electronPlayGround/languages",
+  "stargazersUrl": "https://api.github.com/repos/bharadwajturlapati/electronPlayGround/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/bharadwajturlapati/electronPlayGround/contributors",
+  "subscribersUrl": "https://api.github.com/repos/bharadwajturlapati/electronPlayGround/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/bharadwajturlapati/electronPlayGround/subscription",
+  "mergesUrl": "https://api.github.com/repos/bharadwajturlapati/electronPlayGround/merges",
+  "downloadsUrl": "https://api.github.com/repos/bharadwajturlapati/electronPlayGround/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/bharadwajturlapati/electronPlayGround/deployments",
+  "gitUrl": "git://github.com/bharadwajturlapati/electronPlayGround.git",
+  "sshUrl": "git@github.com:bharadwajturlapati/electronPlayGround.git",
+  "cloneUrl": "https://github.com/bharadwajturlapati/electronPlayGround.git",
+  "svnUrl": "https://github.com/bharadwajturlapati/electronPlayGround",
+  "mirrorUrl": null,
   "contributors": [
     "bharadwajturlapati",
     "yasasvee"

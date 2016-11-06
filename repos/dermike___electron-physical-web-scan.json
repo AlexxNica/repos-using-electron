@@ -1,7 +1,7 @@
 {
   "id": 43970062,
-  "name": "electron-physical-web-scan",
-  "fullName": "dermike/electron-physical-web-scan",
+  "name": "physical-web-scan-app",
+  "fullName": "dermike/physical-web-scan-app",
   "owner": {
     "login": "dermike",
     "id": 4582134,
@@ -20,21 +20,21 @@
   "description": "Mac OSX desktop client app to scan for Physical Web (Eddystone) bluetooth beacons",
   "fork": false,
   "createdAt": "2015-10-09T17:25:00.000Z",
-  "updatedAt": "2016-07-18T20:45:25.000Z",
-  "pushedAt": "2016-06-08T07:55:26.000Z",
+  "updatedAt": "2016-10-23T07:10:36.000Z",
+  "pushedAt": "2016-10-20T16:35:16.000Z",
   "homepage": "",
-  "size": 211,
-  "stargazersCount": 15,
-  "watchersCount": 15,
+  "size": 213,
+  "stargazersCount": 21,
+  "watchersCount": 21,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 15,
+  "watchers": 21,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,7 +48,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
@@ -57,7 +57,7 @@
     "description": "Electron app for Mac OSX to scan for Physical Web (Eddystone) beacons",
     "main": "main.js",
     "scripts": {
-      "package": "node ./node_modules/electron-packager/cli.js ./ PhysicalWebScan --platform=darwin --arch=x64 --version=1.2.1 --ignore=node_modules/electron-rebuild --asar --icon=icon.icns",
+      "package": "node ./node_modules/electron-packager/cli.js ./ PhysicalWebScan --platform=darwin --arch=x64 --version=1.4.0 --ignore=node_modules/electron-rebuild --asar --icon=icon.icns",
       "rebuild": "node ./node_modules/.bin/electron-rebuild",
       "electron": "node ./node_modules/electron-prebuilt/cli.js ."
     },
@@ -72,17 +72,38 @@
     "author": "Mikael Jergefelt",
     "license": "ISC",
     "devDependencies": {
-      "electron-packager": "7.0.3",
-      "electron-prebuilt": "1.2.1",
-      "electron-rebuild": "1.1.5"
+      "electron-packager": "8.0.0",
+      "electron-prebuilt": "1.4.0",
+      "electron-rebuild": "1.2.1"
     },
     "dependencies": {
-      "noble": "1.6.0"
+      "noble": "1.7.0"
     }
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/dermike/physical-web-scan-app",
+  "url": "https://api.github.com/repos/dermike/physical-web-scan-app",
+  "forksUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/forks",
+  "teamsUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/teams",
+  "hooksUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/hooks",
+  "eventsUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/events",
+  "tagsUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/tags",
+  "languagesUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/languages",
+  "stargazersUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/contributors",
+  "subscribersUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/subscription",
+  "mergesUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/merges",
+  "downloadsUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/deployments",
+  "gitUrl": "git://github.com/dermike/physical-web-scan-app.git",
+  "sshUrl": "git@github.com:dermike/physical-web-scan-app.git",
+  "cloneUrl": "https://github.com/dermike/physical-web-scan-app.git",
+  "svnUrl": "https://github.com/dermike/physical-web-scan-app",
+  "mirrorUrl": null,
   "contributors": [
     "dermike",
-    "greenkeeperio-bot"
+    "greenkeeperio-bot",
+    "coliff"
   ]
 }

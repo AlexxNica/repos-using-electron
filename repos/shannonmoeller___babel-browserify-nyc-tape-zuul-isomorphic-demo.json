@@ -1,0 +1,141 @@
+{
+  "id": 69173217,
+  "name": "babel-browserify-nyc-tape-zuul-isomorphic-demo",
+  "fullName": "shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo",
+  "owner": {
+    "login": "shannonmoeller",
+    "id": 155164,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/155164?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/shannonmoeller",
+    "htmlUrl": "https://github.com/shannonmoeller",
+    "followersUrl": "https://api.github.com/users/shannonmoeller/followers",
+    "subscriptionsUrl": "https://api.github.com/users/shannonmoeller/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/shannonmoeller/orgs",
+    "reposUrl": "https://api.github.com/users/shannonmoeller/repos",
+    "receivedEventsUrl": "https://api.github.com/users/shannonmoeller/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo",
+  "description": "A test stack with code coverage for isomorphic JavaScript development using babel, browserify, nyc, tape, and zuul.",
+  "fork": false,
+  "url": "https://api.github.com/repos/shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo",
+  "forksUrl": "https://api.github.com/repos/shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo/forks",
+  "teamsUrl": "https://api.github.com/repos/shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo/teams",
+  "hooksUrl": "https://api.github.com/repos/shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo/hooks",
+  "eventsUrl": "https://api.github.com/repos/shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo/events",
+  "tagsUrl": "https://api.github.com/repos/shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo/tags",
+  "languagesUrl": "https://api.github.com/repos/shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo/languages",
+  "stargazersUrl": "https://api.github.com/repos/shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo/contributors",
+  "subscribersUrl": "https://api.github.com/repos/shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo/subscription",
+  "mergesUrl": "https://api.github.com/repos/shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo/merges",
+  "downloadsUrl": "https://api.github.com/repos/shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo/deployments",
+  "createdAt": "2016-09-25T15:35:26.000Z",
+  "updatedAt": "2016-09-26T16:12:19.000Z",
+  "pushedAt": "2016-09-30T17:53:08.000Z",
+  "gitUrl": "git://github.com/shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo.git",
+  "sshUrl": "git@github.com:shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo.git",
+  "cloneUrl": "https://github.com/shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo.git",
+  "svnUrl": "https://github.com/shannonmoeller/babel-browserify-nyc-tape-zuul-isomorphic-demo",
+  "homepage": "",
+  "size": 5,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "babel-browserify-nyc-tape-zuul-isomorphic-demo",
+    "version": "1.0.0",
+    "description": "A test stack with code coverage for isomorphic JavaScript development using babel, browserify, nyc, tape, and zuul.",
+    "private": true,
+    "main": "dist/foo.js",
+    "files": [
+      "dist"
+    ],
+    "keywords": [],
+    "author": "Shannon Moeller",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+      "babel-cli": "^6.14.0",
+      "babel-plugin-istanbul": "^2.0.1",
+      "babel-plugin-transform-runtime": "^6.15.0",
+      "babel-preset-es2015": "^6.14.0",
+      "babel-preset-stage-2": "^6.13.0",
+      "babel-register": "^6.16.3",
+      "babel-runtime": "^6.11.6",
+      "babelify": "^7.3.0",
+      "blue-tape": "^1.0.0",
+      "browserify": "^13.1.0",
+      "cross-env": "^3.0.0",
+      "nyc": "^8.3.0",
+      "tap-diff": "^0.1.1",
+      "zuul": "^3.11.1"
+    },
+    "optionalDependencies": {
+      "electron": "^1.4.1"
+    },
+    "scripts": {
+      "build": "browserify -o dist/foo.js src/foo.js",
+      "test": "npm run test-node; npm run test-report",
+      "test-browser": "cross-env NODE_ENV=test zuul --local 8081 --ui tape --no-coverage -- './test/**/*.js'",
+      "test-electron": "cross-env NODE_ENV=test zuul --electron --ui tape --no-coverage -- './test/**/*.js'",
+      "test-node": "cross-env NODE_ENV=test nyc -r html blue-tape './test/**/*.js' | tap-diff",
+      "test-report": "cross-env NODE_ENV=test nyc report -r text"
+    },
+    "browserify": {
+      "transform": [
+        "babelify"
+      ]
+    },
+    "babel": {
+      "presets": [
+        "es2015",
+        "stage-2"
+      ],
+      "plugins": [
+        "transform-runtime"
+      ],
+      "env": {
+        "test": {
+          "plugins": [
+            "istanbul"
+          ]
+        }
+      }
+    },
+    "nyc": {
+      "sourceMap": false,
+      "instrument": false,
+      "require": [
+        "babel-register"
+      ]
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "shannonmoeller"
+  ]
+}

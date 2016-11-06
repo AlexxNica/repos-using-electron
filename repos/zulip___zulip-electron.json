@@ -1,0 +1,174 @@
+{
+  "id": 60656871,
+  "name": "zulip-electron",
+  "fullName": "zulip/zulip-electron",
+  "owner": {
+    "login": "zulip",
+    "id": 4921959,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4921959?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/zulip",
+    "htmlUrl": "https://github.com/zulip",
+    "followersUrl": "https://api.github.com/users/zulip/followers",
+    "subscriptionsUrl": "https://api.github.com/users/zulip/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/zulip/orgs",
+    "reposUrl": "https://api.github.com/users/zulip/repos",
+    "receivedEventsUrl": "https://api.github.com/users/zulip/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/zulip/zulip-electron",
+  "description": ":boom: Zulip Desktop Client [WIP]",
+  "fork": false,
+  "url": "https://api.github.com/repos/zulip/zulip-electron",
+  "forksUrl": "https://api.github.com/repos/zulip/zulip-electron/forks",
+  "teamsUrl": "https://api.github.com/repos/zulip/zulip-electron/teams",
+  "hooksUrl": "https://api.github.com/repos/zulip/zulip-electron/hooks",
+  "eventsUrl": "https://api.github.com/repos/zulip/zulip-electron/events",
+  "tagsUrl": "https://api.github.com/repos/zulip/zulip-electron/tags",
+  "languagesUrl": "https://api.github.com/repos/zulip/zulip-electron/languages",
+  "stargazersUrl": "https://api.github.com/repos/zulip/zulip-electron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/zulip/zulip-electron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/zulip/zulip-electron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/zulip/zulip-electron/subscription",
+  "mergesUrl": "https://api.github.com/repos/zulip/zulip-electron/merges",
+  "downloadsUrl": "https://api.github.com/repos/zulip/zulip-electron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/zulip/zulip-electron/deployments",
+  "createdAt": "2016-06-08T00:48:28.000Z",
+  "updatedAt": "2016-10-22T08:58:57.000Z",
+  "pushedAt": "2016-10-31T15:39:50.000Z",
+  "gitUrl": "git://github.com/zulip/zulip-electron.git",
+  "sshUrl": "git@github.com:zulip/zulip-electron.git",
+  "cloneUrl": "https://github.com/zulip/zulip-electron.git",
+  "svnUrl": "https://github.com/zulip/zulip-electron",
+  "homepage": "",
+  "size": 400,
+  "stargazersCount": 23,
+  "watchersCount": 23,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 15,
+  "mirrorUrl": null,
+  "openIssuesCount": 21,
+  "openIssues": 21,
+  "watchers": 23,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "featured": true
+  },
+  "organization": {
+    "login": "zulip",
+    "id": 4921959,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4921959?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/zulip",
+    "htmlUrl": "https://github.com/zulip",
+    "followersUrl": "https://api.github.com/users/zulip/followers",
+    "subscriptionsUrl": "https://api.github.com/users/zulip/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/zulip/orgs",
+    "reposUrl": "https://api.github.com/users/zulip/repos",
+    "receivedEventsUrl": "https://api.github.com/users/zulip/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 15,
+  "subscribersCount": 6,
+  "status": 200,
+  "packageJSON": {
+    "name": "Zulip-Desktop",
+    "productName": "Zulip",
+    "version": "0.4.2",
+    "description": "Zulip Desktop App",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zulip/zulip-electron.git"
+    },
+    "bugs": {
+      "url": "https://github.com/zulip/zulip-electron/issues"
+    },
+    "main": "app/main/index.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "gulp test && xo",
+      "dev": "gulp dev",
+      "build:osx": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --icon=app/resources/Icon.icns --overwrite --platform=darwin --arch=x64",
+      "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all",
+      "travis": "cd ./scripts && ./travis-build-test.sh"
+    },
+    "keywords": [
+      "Zulip",
+      "Group Chat app",
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "configstore": "^2.0.0",
+      "dialogs": "1.1.14",
+      "electron-context-menu": "0.4.0",
+      "electron-debug": "^1.0.0",
+      "electron-dl": "^0.2.0",
+      "electron-localshortcut": "^0.6.1",
+      "node-json-db": "^0.7.2",
+      "request": "^2.74.0",
+      "simple-spellchecker": "0.9.0",
+      "wurl": "^2.1.0"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.0",
+      "electron": "1.4.3",
+      "assert": "^1.4.1",
+      "gulp-mocha": "^3.0.1",
+      "electron-connect": "^0.4.6",
+      "electron-packager": "^7.0.0",
+      "gulp": "^3.9.1",
+      "spectron": "^3.3.0",
+      "xo": "*"
+    },
+    "xo": {
+      "esnext": true,
+      "overrides": [
+        {
+          "files": "app/main/*.js",
+          "rules": {
+            "max-lines": [
+              "warn",
+              350
+            ],
+            "no-warning-comments": 0,
+            "no-else-return": 0
+          }
+        }
+      ],
+      "ignore": [
+        "tests/*.js"
+      ],
+      "envs": [
+        "node",
+        "browser",
+        "mocha"
+      ]
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "akashnimare",
+    "steele",
+    "brainwane",
+    "vikas-parashar",
+    "timabbott",
+    "jedahan",
+    "hackerkid"
+  ]
+}

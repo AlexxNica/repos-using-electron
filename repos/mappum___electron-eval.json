@@ -47,7 +47,7 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-eval",
-    "version": "0.8.0",
+    "version": "0.9.7",
     "description": "Run code inside a hidden Electron window",
     "main": "index.js",
     "scripts": {
@@ -68,8 +68,9 @@
     "author": "Matt Bell <mappum@gmail.com>",
     "license": "MIT",
     "dependencies": {
-      "electron-prebuilt": "^1.2.2",
-      "newline-json": "^0.1.1"
+      "cross-spawn": "^4.0.0",
+      "electron": "^1.4.3",
+      "ndjson": "^1.4.3"
     },
     "devDependencies": {
       "babel-cli": "^6.7.7",
@@ -78,7 +79,7 @@
       "tap": "^5.1.1"
     },
     "optionalDependencies": {
-      "headless": "^1.0.0"
+      "headless": "https://github.com/paulkernfeld/node-headless/tarball/master"
     },
     "repository": {
       "type": "git",

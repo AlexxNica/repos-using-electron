@@ -62,7 +62,8 @@
       "start": "webpack-dev-server --inline --progress --port 8080",
       "test": "karma start",
       "build": "rimraf dist && webpack --config config/webpack.dev.js --progress --profile --bail",
-      "postinstall": "typings install"
+      "postinstall": "typings install",
+      "debug": "rimraf dist && webpack --config config/webpack.dev.js --progress --profile --bail && electron app"
     },
     "author": "Ignacio Burgos",
     "license": "MIT",

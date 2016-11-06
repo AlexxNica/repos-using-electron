@@ -67,10 +67,10 @@
   "status": 200,
   "packageJSON": {
     "name": "landho",
-    "productName": "LandHo",
+    "productName": "Land Ho",
     "icon": "icon.png",
-    "version": "0.0.1",
-    "description": "",
+    "version": "1.0.2",
+    "description": "Offline Sailboat Cruising Guides for all Countries, Worldwide.",
     "main": "main.js",
     "dependencies": {
       "pretty-bytes": "^2.0.1"
@@ -79,10 +79,14 @@
       "electron-prebuilt": "^0.35.2"
     },
     "scripts": {
-      "start": "electron main.js"
+      "start": "electron main.js",
+      "package": "electron-packager ./ LandHo --all --out ./build --version 0.35.2 --overwrite --icon=./icon.icns",
+      "package:mac": "electron-packager ./ LandHo --platform=darwin --arch=all --out ./build --ignore='^/build$' --version 0.35.2 --overwrite --icon=./icon.icns",
+      "package:win": "electron-packager ./ LandHo --platform=win32 --arch=all --out ./build --ignore='^/build$' --version 0.35.2 --overwrite --version-string.CompanyName='Thomas Brüggemann' --version-string.LegalCopyright='Copyright (C) 2016 Thomas Brüggemann' --version-string.FileDescription=$npm_package_productName --version-string.OriginalFilename='LandHo.exe' --version-string.InternalName=$npm_package_productName --version-string.ProductName=$npm_package_productName --version-string.ProductVersion=$npm_package_version --icon=./icon.ico"
     },
     "author": "Thomas Brüggemann",
-    "license": "MIT"
+    "license": "MIT",
+    "homepage": "https://landho-app.com"
   },
   "packageStatus": 200,
   "contributors": [

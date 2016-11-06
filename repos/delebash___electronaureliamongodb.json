@@ -1,0 +1,116 @@
+{
+  "id": 69182923,
+  "name": "electronaureliamongodb",
+  "fullName": "delebash/electronaureliamongodb",
+  "owner": {
+    "login": "delebash",
+    "id": 2220160,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2220160?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/delebash",
+    "htmlUrl": "https://github.com/delebash",
+    "followersUrl": "https://api.github.com/users/delebash/followers",
+    "subscriptionsUrl": "https://api.github.com/users/delebash/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/delebash/orgs",
+    "reposUrl": "https://api.github.com/users/delebash/repos",
+    "receivedEventsUrl": "https://api.github.com/users/delebash/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/delebash/electronaureliamongodb",
+  "description": "Electron Aurelia MongoDB Example",
+  "fork": false,
+  "url": "https://api.github.com/repos/delebash/electronaureliamongodb",
+  "forksUrl": "https://api.github.com/repos/delebash/electronaureliamongodb/forks",
+  "teamsUrl": "https://api.github.com/repos/delebash/electronaureliamongodb/teams",
+  "hooksUrl": "https://api.github.com/repos/delebash/electronaureliamongodb/hooks",
+  "eventsUrl": "https://api.github.com/repos/delebash/electronaureliamongodb/events",
+  "tagsUrl": "https://api.github.com/repos/delebash/electronaureliamongodb/tags",
+  "languagesUrl": "https://api.github.com/repos/delebash/electronaureliamongodb/languages",
+  "stargazersUrl": "https://api.github.com/repos/delebash/electronaureliamongodb/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/delebash/electronaureliamongodb/contributors",
+  "subscribersUrl": "https://api.github.com/repos/delebash/electronaureliamongodb/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/delebash/electronaureliamongodb/subscription",
+  "mergesUrl": "https://api.github.com/repos/delebash/electronaureliamongodb/merges",
+  "downloadsUrl": "https://api.github.com/repos/delebash/electronaureliamongodb/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/delebash/electronaureliamongodb/deployments",
+  "createdAt": "2016-09-25T18:35:28.000Z",
+  "updatedAt": "2016-10-10T15:40:46.000Z",
+  "pushedAt": "2016-09-26T16:56:08.000Z",
+  "gitUrl": "git://github.com/delebash/electronaureliamongodb.git",
+  "sshUrl": "git@github.com:delebash/electronaureliamongodb.git",
+  "cloneUrl": "https://github.com/delebash/electronaureliamongodb.git",
+  "svnUrl": "https://github.com/delebash/electronaureliamongodb",
+  "homepage": null,
+  "size": 14,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "demoelectronaureliamongodb",
+    "title": "Demo Electron ES6, Aurelia MongoDB",
+    "version": "1.0.0",
+    "description": "Thick client demo app showing Electron, ES6, Aurelia, and MongoDB working together.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build-mac": "electron-packager . 'DemoElectronAureliaMongoDB' --platform=darwin --arch=x64 --version=0.35.1 --overwrite --out ./build/mac",
+      "build-win": "electron-packager . 'DemoElectronAureliaMongoDB' --platform=win32 --arch=ia32 --version=0.35.1 --overwrite --out ./build/win"
+    },
+    "author": "Karl Shifflett",
+    "homepage": "http://karlshifflett.wordpress.com",
+    "license": "MIT",
+    "keywords": [
+      "electron",
+      "aurelia",
+      "es6",
+      "mongodb"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Oceanware/demoelectronaureliamongodb.git"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.1",
+      "electron-prebuilt": "^0.35.1"
+    },
+    "jspm": {
+      "directories": {
+        "baseURL": "src"
+      },
+      "dependencies": {
+        "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-beta.1",
+        "aurelia-framework": "npm:aurelia-framework@^1.0.0-beta.1.0.2",
+        "font-awesome": "npm:font-awesome@^4.4.0"
+      },
+      "devDependencies": {
+        "babel": "npm:babel-core@^5.8.24",
+        "babel-runtime": "npm:babel-runtime@^5.8.24",
+        "core-js": "npm:core-js@^1.1.4"
+      }
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "delebash"
+  ]
+}

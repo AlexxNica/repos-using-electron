@@ -21,9 +21,9 @@
   "fork": false,
   "createdAt": "2016-08-17T03:42:43.000Z",
   "updatedAt": "2016-08-17T03:44:30.000Z",
-  "pushedAt": "2016-08-18T05:24:51.000Z",
+  "pushedAt": "2016-10-11T23:02:50.000Z",
   "homepage": null,
-  "size": 17,
+  "size": 22,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -47,13 +47,24 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-local-crash-reporter",
-    "version": "1.0.0",
-    "description": "Breakpad crash report server",
+    "version": "1.0.1",
+    "description": "Simplifies running mini-breakpad-server in local development, alongside your electron app.",
     "main": "index.js",
     "scripts": {
-      "test": "electron test/index.js"
+      "test": "electron test/index.js",
+      "clear": "rm -rf mini-breakpad-server/pool"
     },
-    "author": "",
+    "author": "Cameron Nokes",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ccnokes/electron-local-crash-reporter"
+    },
+    "keywords": [
+      "electron",
+      "crash",
+      "report",
+      "breakpad"
+    ],
     "license": "MIT",
     "dependencies": {
       "adm-zip": "^0.4.7",
@@ -64,10 +75,30 @@
       "semver": "^5.3.0"
     },
     "devDependencies": {
-      "electron-prebuilt": "^1.2.8"
+      "electron-prebuilt": "^1.4.2"
     }
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/ccnokes/electron-local-crash-reporter",
+  "url": "https://api.github.com/repos/ccnokes/electron-local-crash-reporter",
+  "forksUrl": "https://api.github.com/repos/ccnokes/electron-local-crash-reporter/forks",
+  "teamsUrl": "https://api.github.com/repos/ccnokes/electron-local-crash-reporter/teams",
+  "hooksUrl": "https://api.github.com/repos/ccnokes/electron-local-crash-reporter/hooks",
+  "eventsUrl": "https://api.github.com/repos/ccnokes/electron-local-crash-reporter/events",
+  "tagsUrl": "https://api.github.com/repos/ccnokes/electron-local-crash-reporter/tags",
+  "languagesUrl": "https://api.github.com/repos/ccnokes/electron-local-crash-reporter/languages",
+  "stargazersUrl": "https://api.github.com/repos/ccnokes/electron-local-crash-reporter/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/ccnokes/electron-local-crash-reporter/contributors",
+  "subscribersUrl": "https://api.github.com/repos/ccnokes/electron-local-crash-reporter/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/ccnokes/electron-local-crash-reporter/subscription",
+  "mergesUrl": "https://api.github.com/repos/ccnokes/electron-local-crash-reporter/merges",
+  "downloadsUrl": "https://api.github.com/repos/ccnokes/electron-local-crash-reporter/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/ccnokes/electron-local-crash-reporter/deployments",
+  "gitUrl": "git://github.com/ccnokes/electron-local-crash-reporter.git",
+  "sshUrl": "git@github.com:ccnokes/electron-local-crash-reporter.git",
+  "cloneUrl": "https://github.com/ccnokes/electron-local-crash-reporter.git",
+  "svnUrl": "https://github.com/ccnokes/electron-local-crash-reporter",
+  "mirrorUrl": null,
   "contributors": [
     "ccnokes"
   ]

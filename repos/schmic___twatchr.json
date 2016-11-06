@@ -21,9 +21,9 @@
   "fork": false,
   "createdAt": "2016-07-21T22:31:21.000Z",
   "updatedAt": "2016-07-21T22:36:44.000Z",
-  "pushedAt": "2016-07-23T21:50:55.000Z",
+  "pushedAt": "2016-09-13T22:46:22.000Z",
   "homepage": "https://schmic.github.io/twatchr/",
-  "size": 106,
+  "size": 151,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -49,10 +49,9 @@
     "name": "twatchr",
     "version": "0.1.0",
     "license": "MIT",
-    "main": "app.js",
     "repository": {},
     "dependencies": {
-      "gulp-order": "^1.1.1",
+      "electron-json-storage": "^2.0.0",
       "twitch-get-stream": "^0.3.2"
     },
     "devDependencies": {
@@ -63,9 +62,11 @@
       "electron-connect": "*",
       "electron-packager": "*",
       "electron-prebuilt": "*",
+      "eslint": "*",
       "gulp": "*",
       "gulp-concat": "*",
       "gulp-inject": "^4.0.0",
+      "gulp-order": "^1.1.1",
       "gulp-less": "^3.1.0",
       "gulp-sass": "^2.3.2",
       "jasmine-core": "*",
@@ -79,10 +80,30 @@
       "bower": "bower",
       "postinstall": "bower install",
       "test": "gulp test",
-      "start": "gulp serve"
+      "start": "gulp start"
     }
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/schmic/twatchr",
+  "url": "https://api.github.com/repos/schmic/twatchr",
+  "forksUrl": "https://api.github.com/repos/schmic/twatchr/forks",
+  "teamsUrl": "https://api.github.com/repos/schmic/twatchr/teams",
+  "hooksUrl": "https://api.github.com/repos/schmic/twatchr/hooks",
+  "eventsUrl": "https://api.github.com/repos/schmic/twatchr/events",
+  "tagsUrl": "https://api.github.com/repos/schmic/twatchr/tags",
+  "languagesUrl": "https://api.github.com/repos/schmic/twatchr/languages",
+  "stargazersUrl": "https://api.github.com/repos/schmic/twatchr/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/schmic/twatchr/contributors",
+  "subscribersUrl": "https://api.github.com/repos/schmic/twatchr/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/schmic/twatchr/subscription",
+  "mergesUrl": "https://api.github.com/repos/schmic/twatchr/merges",
+  "downloadsUrl": "https://api.github.com/repos/schmic/twatchr/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/schmic/twatchr/deployments",
+  "gitUrl": "git://github.com/schmic/twatchr.git",
+  "sshUrl": "git@github.com:schmic/twatchr.git",
+  "cloneUrl": "https://github.com/schmic/twatchr.git",
+  "svnUrl": "https://github.com/schmic/twatchr",
+  "mirrorUrl": null,
   "contributors": [
     "schmic"
   ]

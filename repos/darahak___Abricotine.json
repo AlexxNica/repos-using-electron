@@ -167,6 +167,7 @@
     "main": "app/index.js",
     "name": "Abricotine",
     "description": "A markdown editor for desktop",
+    "homepage": "http://abricotine.brrd.fr",
     "repository": {
       "type": "git",
       "url": "https://github.com/brrd/Abricotine"
@@ -174,17 +175,19 @@
     "bugs": {
       "url": "https://github.com/brrd/Abricotine/issues"
     },
-    "version": "0.3.3",
+    "version": "0.4.0",
     "keywords": [
       "markdown",
       "text",
       "editor"
     ],
     "scripts": {
+      "deb": "node scripts/deb.js",
       "packager": "node scripts/packager.js",
       "postinstall": "electron-rebuild",
       "start": "electron .",
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "winsetup": "node scripts/winsetup.js"
     },
     "author": {
       "name": "Thomas Brouard",
@@ -197,14 +200,15 @@
       "celldown.js": "latest",
       "codemirror": "^5.15.2",
       "deep-equal": "^1.0.1",
-      "electron-prebuilt": "^0.35.0",
-      "electron-window-state": "^2.0.0",
+      "electron-prebuilt": "^1.2.3",
+      "electron-squirrel-startup": "^1.0.0",
+      "electron-window-state": "^3.0.3",
       "font-awesome": "^4.5.0",
       "glob": "^5.0.14",
       "is-url": "^1.2.1",
       "jquery": "^2.2.4",
       "kramed": "^0.5.3",
-      "langmap": "0.0.9",
+      "langmap": "0.0.13",
       "less": "^2.5.3",
       "mathjax": "^2.6.1",
       "mime": "^1.3.4",
@@ -220,12 +224,17 @@
     },
     "devDependencies": {
       "commander": "^2.9.0",
-      "electron-packager": "^5.2.1",
-      "electron-rebuild": "^1.0.2",
-      "pretty-ms": "^2.1.0"
+      "electron-packager": "^8.1.0",
+      "electron-rebuild": "^1.1.5",
+      "electron-winstaller": "^2.3.4",
+      "pretty-ms": "^2.1.0",
+      "semver": "^5.2.0"
+    },
+    "optionalDependencies": {
+      "electron-installer-debian": "^0.4.0"
     },
     "abricotine": {
-      "schema": 2
+      "schema": 3
     }
   },
   "packageStatus": 200,

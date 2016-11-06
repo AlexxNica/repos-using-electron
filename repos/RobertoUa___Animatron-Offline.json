@@ -53,22 +53,24 @@
     "engines": {
       "node": ">=4"
     },
-    "electronVersion": "0.33.0",
+    "electronVersion": "1.4.0",
     "scripts": {
       "test": "xo",
       "start": "electron .",
-      "build": "electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --ignore='^/media$' --prune --asar --platform=darwin --arch=x64 --icon=Media/Icon.icns --app-version=$npm_package_version --version=$npm_package_electronVersion && cd dist/Animatron-darwin-x64 && zip -ryXq9 ../Animatron-${npm_package_version}.zip Animatron.app"
+      "build": "electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --ignore='^/media$' --prune --asar --platform=darwin --arch=x64 --icon=Media/Icon.icns --app-version=$npm_package_version --version=$npm_package_electronVersion && cd dist/Animatron-darwin-x64 && zip -ryXq9 ../Animatron-${npm_package_version}.zip Animatron.app",
+      "build:macos": "electron-packager . --overwrite --asar --out=dist --ignore='^media$' --prune --platform=darwin --arch=x64 --icon=static/Icon.icns --app-bundle-id=com.sindresorhus.caprine --app-version=$npm_package_version && cd dist/Animatron-darwin-x64 && zip -ryXq9 ../Animatron-osx-${npm_package_version}.zip Animatron.app"
     },
     "files": [
       "main.js",
       "Media/Icon.icns"
     ],
     "dependencies": {
-      "electron-debug": "^0.2.1"
+      "electron-debug": "^1.0.1"
     },
     "devDependencies": {
-      "electron-packager": "^5.1.0",
-      "electron-prebuilt": "^0.33.0",
+      "electron-packager": "^8.0.0",
+      "electron-prebuilt": "^1.4.0",
+      "electron": "^1.4.0",
       "xo": "*"
     },
     "xo": {

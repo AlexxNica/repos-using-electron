@@ -54,7 +54,7 @@
   "packageJSON": {
     "name": "eddystone-beacon-electron-emulator",
     "productName": "Eddystone beacon",
-    "version": "0.1.2",
+    "version": "0.2.0",
     "description": "Eddystone beacon peripheral for Mac",
     "os": [
       "darwin"
@@ -68,11 +68,12 @@
       "url": "ragingwind.me"
     },
     "engines": {
-      "iojs": ">=2.0.0"
+      "node": ">=6"
     },
     "scripts": {
       "start": "electron .",
       "clean": "rm -rf build; mkdir -p build",
+      "postinstall": "electron-rebuild -f -w xpc-connection",
       "build": "electron-packager . $npm_package_productName --icon=components/eddystone-logo.png --out=./build --platform=darwin --arch=all --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git  --version=0.30.4"
     },
     "files": [
@@ -84,14 +85,17 @@
       "electron-app"
     ],
     "devDependencies": {
-      "electron-packager": "^5.0.1",
-      "electron-prebuilt": "^0.30.4"
+      "electron-packager": "^8.0.0",
+      "electron-prebuilt": "^1.4.0",
+      "electron-rebuild": "^1.2.1"
     },
     "dependencies": {
-      "eddystone-beacon": "^1.0.1",
-      "electron-debug": "^0.1.1",
+      "eddystone-beacon": "^1.0.6",
+      "electron-debug": "^1.0.1",
       "node-jsx": "^0.13.3",
-      "react": "^0.13.3"
+      "react": "^15.3.1",
+      "react-addons-css-transition-group": "^15.3.1",
+      "react-dom": "^15.3.1"
     }
   },
   "packageStatus": 200,

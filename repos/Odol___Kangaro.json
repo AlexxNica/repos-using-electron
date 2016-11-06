@@ -21,9 +21,9 @@
   "fork": false,
   "createdAt": "2016-09-29T23:14:51.000Z",
   "updatedAt": "2016-10-04T14:26:41.000Z",
-  "pushedAt": "2016-10-25T04:13:14.000Z",
+  "pushedAt": "2016-11-01T17:59:53.000Z",
   "homepage": null,
-  "size": 5573,
+  "size": 5873,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "CSS",
@@ -55,10 +55,10 @@
       "renderer-prod": "cross-env -NODE_ENV='production' node -r babel-register ./node_modules/webpack/bin/webpack --progress --profile --colors --config webpack.renderer.prod.config.js -w",
       "main-dev": "cross-env -NODE_ENV='development' node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.main.dev.config.js -w",
       "main-prod": "cross-env -NODE_ENV='production' node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.main.prod.config.js -w",
-      "dev": "clear & npm run tasks & npm run renderer-dev & npm run main-dev",
-      "run-dev": "export NODE_ENV=development & electron bin/kangaro-dev --enable-transparent-visuals",
-      "run-prod": "export NODE_ENV=production & electron bin/kangaro",
-      "gyp": "node-gyp rebuild --target=1.4.1 --arch=x64 --dist-url=https://atom.io/download/atom-shell"
+      "run-dev": "cross-env -NODE_ENV='development' & electron program/main/bin/kangaro-dev.js --enable-transparent-visuals",
+      "run-prod": "cross-env -NODE_ENV='production' & electron program/main/bin/kangaro.js",
+      "gyp": "node-gyp rebuild --target=1.4.1 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
+      "dev": "clear & npm run tasks & npm run renderer-dev & npm run main-dev"
     },
     "bin": {
       "server": "./node_modules/.bin/kangaro"
@@ -144,6 +144,26 @@
     }
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/Odol/Kangaro",
+  "url": "https://api.github.com/repos/Odol/Kangaro",
+  "forksUrl": "https://api.github.com/repos/Odol/Kangaro/forks",
+  "teamsUrl": "https://api.github.com/repos/Odol/Kangaro/teams",
+  "hooksUrl": "https://api.github.com/repos/Odol/Kangaro/hooks",
+  "eventsUrl": "https://api.github.com/repos/Odol/Kangaro/events",
+  "tagsUrl": "https://api.github.com/repos/Odol/Kangaro/tags",
+  "languagesUrl": "https://api.github.com/repos/Odol/Kangaro/languages",
+  "stargazersUrl": "https://api.github.com/repos/Odol/Kangaro/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/Odol/Kangaro/contributors",
+  "subscribersUrl": "https://api.github.com/repos/Odol/Kangaro/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/Odol/Kangaro/subscription",
+  "mergesUrl": "https://api.github.com/repos/Odol/Kangaro/merges",
+  "downloadsUrl": "https://api.github.com/repos/Odol/Kangaro/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/Odol/Kangaro/deployments",
+  "gitUrl": "git://github.com/Odol/Kangaro.git",
+  "sshUrl": "git@github.com:Odol/Kangaro.git",
+  "cloneUrl": "https://github.com/Odol/Kangaro.git",
+  "svnUrl": "https://github.com/Odol/Kangaro",
+  "mirrorUrl": null,
   "contributors": [
     "Odol"
   ]

@@ -1,0 +1,119 @@
+{
+  "id": 66555573,
+  "name": "musitop",
+  "fullName": "Shuunen/musitop",
+  "owner": {
+    "login": "Shuunen",
+    "id": 439158,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/439158?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Shuunen",
+    "htmlUrl": "https://github.com/Shuunen",
+    "followersUrl": "https://api.github.com/users/Shuunen/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Shuunen/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Shuunen/orgs",
+    "reposUrl": "https://api.github.com/users/Shuunen/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Shuunen/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/Shuunen/musitop",
+  "description": "Musitop delete music you don't like",
+  "fork": false,
+  "url": "https://api.github.com/repos/Shuunen/musitop",
+  "forksUrl": "https://api.github.com/repos/Shuunen/musitop/forks",
+  "teamsUrl": "https://api.github.com/repos/Shuunen/musitop/teams",
+  "hooksUrl": "https://api.github.com/repos/Shuunen/musitop/hooks",
+  "eventsUrl": "https://api.github.com/repos/Shuunen/musitop/events",
+  "tagsUrl": "https://api.github.com/repos/Shuunen/musitop/tags",
+  "languagesUrl": "https://api.github.com/repos/Shuunen/musitop/languages",
+  "stargazersUrl": "https://api.github.com/repos/Shuunen/musitop/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/Shuunen/musitop/contributors",
+  "subscribersUrl": "https://api.github.com/repos/Shuunen/musitop/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/Shuunen/musitop/subscription",
+  "mergesUrl": "https://api.github.com/repos/Shuunen/musitop/merges",
+  "downloadsUrl": "https://api.github.com/repos/Shuunen/musitop/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/Shuunen/musitop/deployments",
+  "createdAt": "2016-08-25T12:22:06.000Z",
+  "updatedAt": "2016-08-25T15:32:41.000Z",
+  "pushedAt": "2016-10-20T08:35:35.000Z",
+  "gitUrl": "git://github.com/Shuunen/musitop.git",
+  "sshUrl": "git@github.com:Shuunen/musitop.git",
+  "cloneUrl": "https://github.com/Shuunen/musitop.git",
+  "svnUrl": "https://github.com/Shuunen/musitop",
+  "homepage": null,
+  "size": 543,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "agpl-3.0",
+    "name": "GNU Affero General Public License v3.0",
+    "spdxId": "AGPL-3.0",
+    "url": "https://api.github.com/licenses/agpl-3.0",
+    "featured": false
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "musitop",
+    "version": "1.2.0",
+    "description": "Musitop delete music you dont like",
+    "main": "server.js",
+    "dependencies": {
+      "@jxnblk/bikeshed": "^1.0.0-beta.1",
+      "config-prompt": "^1.1.0",
+      "electron": "^1.3.4",
+      "hello-color": "^1.0.1",
+      "minimist": "^1.2.0",
+      "node-notifier": "^4.6.1",
+      "shuffle-array": "^1.0.0",
+      "socket.io": "^1.5.0",
+      "socket.io-client": "^1.5.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js",
+      "client-good": "node client.js --musicIs=good",
+      "client-bad": "node client.js --musicIs=bad",
+      "watch": "nodemon server.js --ext js,html"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Shuunen/musitop.git"
+    },
+    "keywords": [
+      "music",
+      "top",
+      "sort",
+      "delete"
+    ],
+    "author": "Shuunen",
+    "license": "AGPL-3.0",
+    "bugs": {
+      "url": "https://github.com/Shuunen/musitop/issues"
+    },
+    "homepage": "https://github.com/Shuunen/musitop#readme"
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "Shuunen"
+  ]
+}

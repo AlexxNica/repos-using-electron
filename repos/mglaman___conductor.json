@@ -1,0 +1,145 @@
+{
+  "id": 71610078,
+  "name": "conductor",
+  "fullName": "mglaman/conductor",
+  "owner": {
+    "login": "mglaman",
+    "id": 3698644,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3698644?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mglaman",
+    "htmlUrl": "https://github.com/mglaman",
+    "followersUrl": "https://api.github.com/users/mglaman/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mglaman/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mglaman/orgs",
+    "reposUrl": "https://api.github.com/users/mglaman/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mglaman/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/mglaman/conductor",
+  "description": "A Composer user interface built using Electron.",
+  "fork": false,
+  "url": "https://api.github.com/repos/mglaman/conductor",
+  "forksUrl": "https://api.github.com/repos/mglaman/conductor/forks",
+  "teamsUrl": "https://api.github.com/repos/mglaman/conductor/teams",
+  "hooksUrl": "https://api.github.com/repos/mglaman/conductor/hooks",
+  "eventsUrl": "https://api.github.com/repos/mglaman/conductor/events",
+  "tagsUrl": "https://api.github.com/repos/mglaman/conductor/tags",
+  "languagesUrl": "https://api.github.com/repos/mglaman/conductor/languages",
+  "stargazersUrl": "https://api.github.com/repos/mglaman/conductor/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/mglaman/conductor/contributors",
+  "subscribersUrl": "https://api.github.com/repos/mglaman/conductor/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/mglaman/conductor/subscription",
+  "mergesUrl": "https://api.github.com/repos/mglaman/conductor/merges",
+  "downloadsUrl": "https://api.github.com/repos/mglaman/conductor/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/mglaman/conductor/deployments",
+  "createdAt": "2016-10-22T01:48:33.000Z",
+  "updatedAt": "2016-11-05T06:41:28.000Z",
+  "pushedAt": "2016-11-04T16:00:43.000Z",
+  "gitUrl": "git://github.com/mglaman/conductor.git",
+  "sshUrl": "git@github.com:mglaman/conductor.git",
+  "cloneUrl": "https://github.com/mglaman/conductor.git",
+  "svnUrl": "https://github.com/mglaman/conductor",
+  "homepage": null,
+  "size": 2930,
+  "stargazersCount": 89,
+  "watchersCount": 89,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "mirrorUrl": null,
+  "openIssuesCount": 9,
+  "openIssues": 9,
+  "watchers": 89,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 2,
+  "subscribersCount": 9,
+  "status": 200,
+  "packageJSON": {
+    "name": "conductor",
+    "version": "0.1.5",
+    "description": "A Composer user interface",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "pack": "build --dir",
+      "dist": "build",
+      "dist-all": "build -mwl"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mglaman/conductor.git"
+    },
+    "keywords": [
+      "composer",
+      "php"
+    ],
+    "author": "Matt Glaman <nmd.matt@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mglaman/conductor/issues"
+    },
+    "homepage": "https://github.com/mglaman/conductor",
+    "build": {
+      "appId": "com.mglaman.conductor",
+      "productName": "Conductor",
+      "extraResources": [
+        "composer.phar"
+      ],
+      "mac": {
+        "category": "public.app-category.developer-tools"
+      },
+      "win": {
+        "publish": [
+          "github"
+        ]
+      },
+      "linux": {
+        "publish": [
+          "github"
+        ],
+        "target": [
+          "deb",
+          "AppImage"
+        ],
+        "category": "Development",
+        "synopsis": "A Composer user interface"
+      }
+    },
+    "devDependencies": {
+      "electron": "^1.2.0",
+      "electron-builder": "^7.14.2",
+      "autoprefixer": "^6.0.3",
+      "grunt": "^1.0.1",
+      "grunt-contrib-clean": "^1.0.0",
+      "grunt-contrib-watch": "^1.0.0",
+      "grunt-sass": "^1.0.0",
+      "grunt-scss-lint": "^0.3.8",
+      "load-grunt-tasks": "^3.4.0"
+    },
+    "dependencies": {
+      "font-awesome": "^4.6.3",
+      "getcomposer": "^1.3.2"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "mglaman"
+  ]
+}

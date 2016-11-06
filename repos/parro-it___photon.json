@@ -1,3 +1,27 @@
 {
-  "status": 404
+  "status": 404,
+  "packageJSON": {
+    "name": "photon",
+    "version": "0.1.2",
+    "author": "Connor Sears",
+    "keywords": [
+      "photon",
+      "html",
+      "css",
+      "electron"
+    ],
+    "repository": "parro-it/photon",
+    "scripts": {
+      "start": "electron template-app",
+      "build-sass": "node-sass sass/photon.scss dist/css/photon.css",
+      "build-fonts": "mkdir dist/fonts && cp fonts/* dist/fonts",
+      "build": "rm -rf dist && mkdir dist && npm run build-fonts && npm run build-sass"
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^1.4.1",
+      "node-sass": "^3.10.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -20,21 +20,21 @@
   "description": "An unofficial trello desktop app.",
   "fork": false,
   "createdAt": "2015-11-14T18:35:09.000Z",
-  "updatedAt": "2016-08-14T07:24:51.000Z",
-  "pushedAt": "2016-06-18T13:05:52.000Z",
+  "updatedAt": "2016-11-04T19:31:36.000Z",
+  "pushedAt": "2016-10-28T15:03:23.000Z",
   "homepage": "",
-  "size": 589,
-  "stargazersCount": 16,
-  "watchersCount": 16,
+  "size": 595,
+  "stargazersCount": 46,
+  "watchersCount": 46,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 5,
-  "openIssuesCount": 2,
-  "openIssues": 2,
-  "watchers": 16,
+  "forksCount": 8,
+  "openIssuesCount": 7,
+  "openIssues": 7,
+  "watchers": 46,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,8 +48,8 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 5,
-  "subscribersCount": 3,
+  "networkCount": 8,
+  "subscribersCount": 11,
   "status": 200,
   "packageJSON": {
     "name": "trello-desktop",
@@ -73,7 +73,7 @@
       "start": "electron .",
       "build": "npm run build:macos && npm run build:linux && npm run build:windows",
       "build:macos": "electron-packager . --overwrite --asar --out=dist --ignore='^media$' --prune --platform=darwin --arch=x64 --icon=static/Icon.icns --app-bundle-id=com.danielchatfield.trello-desktop --sign='Developer ID Application: Daniel Chatfield (BB2HNG5KBM)' --app-version=$npm_package_version && cd dist/Trello-darwin-x64 && zip -ryXq9 ../Trello-osx-${npm_package_version}.zip Trello.app",
-      "build:linux": "electron-packager . --overwrite --out=dist --ignore='^media$' --prune --platform=linux --arch=x64 --app-bundle-id=com.danielchatfield.trello-desktop --app-version=$npm_package_version && cd dist/Trello-linux-x64/ && zip -ryq9 ../Trello-linux-${npm_package_version}.zip *",
+      "build:linux": "electron-packager . --overwrite --out=dist --ignore='^media$' --prune --platform=linux --arch=x64 --icon=static/Icon.png --app-bundle-id=com.danielchatfield.trello-desktop --app-version=$npm_package_version && cd dist/Trello-linux-x64/ && zip -ryq9 ../Trello-linux-${npm_package_version}.zip *",
       "build:windows": "electron-packager . --overwrite --asar --out=dist --ignore='^media$' --prune --platform=win32 --arch=ia32 --icon=static/Icon.ico --version-string.ProductName=$npm_package_productName --app-version=$npm_package_version && cd dist/Trello-win32-ia32 && zip -ryq9 ../Trello-windows-${npm_package_version}.zip *"
     },
     "files": [
@@ -81,6 +81,7 @@
       "browser.js",
       "browser.css",
       "static/Icon.icns",
+      "static/Icon.png",
       "static/Icon.ico"
     ],
     "keywords": [
@@ -110,7 +111,28 @@
     }
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/danielchatfield/trello-desktop",
+  "url": "https://api.github.com/repos/danielchatfield/trello-desktop",
+  "forksUrl": "https://api.github.com/repos/danielchatfield/trello-desktop/forks",
+  "teamsUrl": "https://api.github.com/repos/danielchatfield/trello-desktop/teams",
+  "hooksUrl": "https://api.github.com/repos/danielchatfield/trello-desktop/hooks",
+  "eventsUrl": "https://api.github.com/repos/danielchatfield/trello-desktop/events",
+  "tagsUrl": "https://api.github.com/repos/danielchatfield/trello-desktop/tags",
+  "languagesUrl": "https://api.github.com/repos/danielchatfield/trello-desktop/languages",
+  "stargazersUrl": "https://api.github.com/repos/danielchatfield/trello-desktop/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/danielchatfield/trello-desktop/contributors",
+  "subscribersUrl": "https://api.github.com/repos/danielchatfield/trello-desktop/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/danielchatfield/trello-desktop/subscription",
+  "mergesUrl": "https://api.github.com/repos/danielchatfield/trello-desktop/merges",
+  "downloadsUrl": "https://api.github.com/repos/danielchatfield/trello-desktop/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/danielchatfield/trello-desktop/deployments",
+  "gitUrl": "git://github.com/danielchatfield/trello-desktop.git",
+  "sshUrl": "git@github.com:danielchatfield/trello-desktop.git",
+  "cloneUrl": "https://github.com/danielchatfield/trello-desktop.git",
+  "svnUrl": "https://github.com/danielchatfield/trello-desktop",
+  "mirrorUrl": null,
   "contributors": [
-    "danielchatfield"
+    "danielchatfield",
+    "PeyTy"
   ]
 }

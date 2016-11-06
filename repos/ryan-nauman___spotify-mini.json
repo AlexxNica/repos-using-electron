@@ -71,6 +71,12 @@
       "dmg": {
         "icon": "resources/osx/dmg-icon.icns",
         "background": "resources/osx/dmg-background.png"
+      },
+      "protocols": {
+        "name": "Bowtie theme installation",
+        "schemes": [
+          "bowtie"
+        ]
       }
     },
     "directories": {
@@ -101,7 +107,9 @@
       "gulp-util": "^3.0.6",
       "gulp-watch": "^4.3.5",
       "mocha": "^3.0.2",
+      "nock": "^8.0.0",
       "rollup": "^0.34.7",
+      "rollup-plugin-typescript": "^0.8.1",
       "source-map-support": "^0.4.2",
       "spectron": "^3.3.0",
       "yargs": "^4.2.0"

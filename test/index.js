@@ -5,7 +5,7 @@ const they = it
 describe('repos', function () {
   it('is an array with hella repos', function () {
     expect(repos).to.be.an('array')
-    expect(repos.length).to.be.above(4950)
+    expect(repos.length).to.be.above(5478)
   })
 
   it('is sorted by fork count', function () {

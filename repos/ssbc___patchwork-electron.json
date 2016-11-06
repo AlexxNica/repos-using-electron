@@ -20,21 +20,21 @@
   "description": "Electron wrapper for Patchwork: run as a desktop app outside the browser",
   "fork": false,
   "createdAt": "2016-01-17T21:05:10.000Z",
-  "updatedAt": "2016-08-07T00:37:12.000Z",
-  "pushedAt": "2016-07-14T01:00:33.000Z",
+  "updatedAt": "2016-10-29T14:40:19.000Z",
+  "pushedAt": "2016-10-29T14:53:59.000Z",
   "homepage": null,
-  "size": 683,
-  "stargazersCount": 14,
-  "watchersCount": 14,
+  "size": 688,
+  "stargazersCount": 18,
+  "watchersCount": 18,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 3,
-  "openIssuesCount": 3,
-  "openIssues": 3,
-  "watchers": 14,
+  "forksCount": 4,
+  "openIssuesCount": 4,
+  "openIssues": 4,
+  "watchers": 18,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -56,17 +56,18 @@
     "receivedEventsUrl": "https://api.github.com/users/ssbc/received_events",
     "type": "Organization"
   },
-  "networkCount": 3,
+  "networkCount": 4,
   "subscribersCount": 6,
   "status": 200,
   "packageJSON": {
     "devDependencies": {
       "asar": "^0.7.2",
-      "electron-prebuilt": "^0.36.0",
+      "electron-prebuilt": "1.4.2",
       "fs-jetpack": "^0.7.0",
       "gulp": "^3.9.0",
       "gulp-less": "^3.0.3",
       "gulp-util": "^3.0.6",
+      "prebuild": "^4.2.2",
       "q": "^1.4.1",
       "rollup": "^0.21.0",
       "tree-kill": "^0.1.1",
@@ -77,18 +78,41 @@
       "rcedit": "^0.3.0"
     },
     "scripts": {
-      "postinstall": "cd app && npm install",
+      "postinstall": "cd app && npm install && cd .. && npm run rebuild",
+      "rebuild": "cd app && npm rebuild --runtime=electron --target=1.4.2 --abi=50 --disturl=https://atom.io/download/atom-shell",
       "release": "gulp release --env=production",
       "start": "node ./tasks/start",
       "test": "node ./tasks/start --env=test"
     },
     "dependencies": {
       "mktemp": "^0.4.0"
-    }
+    },
+    "version": "2.12.0"
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/ssbc/patchwork-electron",
+  "url": "https://api.github.com/repos/ssbc/patchwork-electron",
+  "forksUrl": "https://api.github.com/repos/ssbc/patchwork-electron/forks",
+  "teamsUrl": "https://api.github.com/repos/ssbc/patchwork-electron/teams",
+  "hooksUrl": "https://api.github.com/repos/ssbc/patchwork-electron/hooks",
+  "eventsUrl": "https://api.github.com/repos/ssbc/patchwork-electron/events",
+  "tagsUrl": "https://api.github.com/repos/ssbc/patchwork-electron/tags",
+  "languagesUrl": "https://api.github.com/repos/ssbc/patchwork-electron/languages",
+  "stargazersUrl": "https://api.github.com/repos/ssbc/patchwork-electron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/ssbc/patchwork-electron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/ssbc/patchwork-electron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/ssbc/patchwork-electron/subscription",
+  "mergesUrl": "https://api.github.com/repos/ssbc/patchwork-electron/merges",
+  "downloadsUrl": "https://api.github.com/repos/ssbc/patchwork-electron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/ssbc/patchwork-electron/deployments",
+  "gitUrl": "git://github.com/ssbc/patchwork-electron.git",
+  "sshUrl": "git@github.com:ssbc/patchwork-electron.git",
+  "cloneUrl": "https://github.com/ssbc/patchwork-electron.git",
+  "svnUrl": "https://github.com/ssbc/patchwork-electron",
+  "mirrorUrl": null,
   "contributors": [
     "clehner",
-    "pfrazee"
+    "pfrazee",
+    "mmckegg"
   ]
 }

@@ -67,31 +67,95 @@
   "status": 200,
   "packageJSON": {
     "name": "mycard",
-    "description": "a game platform",
-    "version": "2.0.9",
-    "main": "main.js",
-    "license": "UNLICENSED",
+    "description": "mycard",
+    "author": "zh99998 <zh99998@gmail.com>",
+    "homepage": "https://mycard.moe",
+    "version": "3.0.0-dev.7",
     "repository": "github:mycard/mycard",
+    "scripts": {
+      "pack": "tsc && build --dir",
+      "dist": "tsc && build",
+      "release": "tsc && build",
+      "start": "tsc && electron .",
+      "postinstall": "typings install",
+      "tsc": "tsc",
+      "tsc:w": "tsc -w"
+    },
+    "license": "UNLICENSED",
     "dependencies": {
-      "glob": "latest",
+      "@angular/common": "latest",
+      "@angular/compiler": "latest",
+      "@angular/core": "latest",
+      "@angular/forms": "latest",
+      "@angular/http": "latest",
+      "@angular/platform-browser": "latest",
+      "@angular/platform-browser-dynamic": "latest",
+      "@angular/router": "latest",
+      "@angular/router-deprecated": "latest",
+      "@angular/upgrade": "latest",
+      "angular2-in-memory-web-api": "latest",
+      "aria2": "latest",
+      "bootstrap": "next",
+      "core-js": "latest",
+      "electron-auto-updater": "latest",
+      "electron-sudo": "github:mycard/electron-sudo#patch-1",
+      "font-awesome": "latest",
       "ini": "latest",
       "mkdirp": "latest",
-      "ws": "latest"
-    },
-    "optionalDependencies": {
-      "windows-shortcuts": "latest",
-      "winreg": "latest",
-      "grunt-appdmg": "latest",
-      "grunt-electron-installer": "latest"
+      "ng2-translate": "latest",
+      "raw-socket": "latest",
+      "reflect-metadata": "latest",
+      "regenerator-runtime": "latest",
+      "rxjs": "5.0.0-beta.12",
+      "systemjs": "latest",
+      "tether": "latest",
+      "zone.js": "latest"
     },
     "devDependencies": {
-      "electron-prebuilt": "latest",
-      "grunt": "latest",
-      "grunt-appdmg": "latest",
-      "grunt-contrib-clean": "latest",
-      "grunt-contrib-copy": "latest",
-      "grunt-electron": "latest",
-      "grunt-electron-installer-debian": "^0.2.0"
+      "concurrently": "latest",
+      "electron": "latest",
+      "electron-builder": "latest",
+      "electron-rebuild": "latest",
+      "lite-server": "latest",
+      "typescript": "latest",
+      "typings": "latest"
+    },
+    "build": {
+      "productName": "MyCard",
+      "appId": "com.mycard.mycard",
+      "category": "public.app-category.social-networking",
+      "publish": [
+        {
+          "provider": "generic",
+          "url": "https://wudizhanche.mycard.moe/downloads"
+        },
+        {
+          "provider": "github"
+        }
+      ],
+      "extraResources": [
+        "bin"
+      ],
+      "win": {
+        "target": [
+          "nsis"
+        ]
+      },
+      "dmg": {
+        "contents": [
+          {
+            "x": 448,
+            "y": 344,
+            "type": "link",
+            "path": "/Applications"
+          },
+          {
+            "x": 192,
+            "y": 344,
+            "type": "file"
+          }
+        ]
+      }
     }
   },
   "packageStatus": 200,

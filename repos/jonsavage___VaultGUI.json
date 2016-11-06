@@ -20,12 +20,12 @@
   "description": "A crossplatform desktop app for interacting with a Hashicorp Vault",
   "fork": false,
   "createdAt": "2016-05-20T19:09:55.000Z",
-  "updatedAt": "2016-08-05T20:00:44.000Z",
-  "pushedAt": "2016-08-12T20:04:56.000Z",
+  "updatedAt": "2016-10-28T18:04:15.000Z",
+  "pushedAt": "2016-11-04T21:04:06.000Z",
   "homepage": "",
-  "size": 122948,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 183584,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "CSS",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 0,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -43,7 +43,7 @@
   },
   "license": null,
   "networkCount": 0,
-  "subscribersCount": 1,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
     "name": "VaultGUI",
@@ -51,7 +51,8 @@
     "description": "description",
     "main": "app.js",
     "scripts": {
-      "start": "electron main.js"
+      "start": "electron app.js",
+      "test": "gulp"
     },
     "repository": {
       "type": "git",
@@ -59,13 +60,39 @@
     },
     "author": "Jon Savage",
     "devDependencies": {
+      "bootstrap": "~>3.3.7",
       "electron-prebuilt": "~1.2.1",
-      "node-vault": "~>0.5.1",
+      "gulp": "^3.9.1",
+      "gulp-jshint": "^2.0.1",
       "jquery": "~>3.1.0",
-      "bootstrap": "~>3.3.7"
+      "jshint": "^2.9.3",
+      "node-vault": "~>0.5.1"
+    },
+    "dependencies": {
+      "phantom": "^2.1.17"
     }
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/jonsavage/VaultGUI",
+  "url": "https://api.github.com/repos/jonsavage/VaultGUI",
+  "forksUrl": "https://api.github.com/repos/jonsavage/VaultGUI/forks",
+  "teamsUrl": "https://api.github.com/repos/jonsavage/VaultGUI/teams",
+  "hooksUrl": "https://api.github.com/repos/jonsavage/VaultGUI/hooks",
+  "eventsUrl": "https://api.github.com/repos/jonsavage/VaultGUI/events",
+  "tagsUrl": "https://api.github.com/repos/jonsavage/VaultGUI/tags",
+  "languagesUrl": "https://api.github.com/repos/jonsavage/VaultGUI/languages",
+  "stargazersUrl": "https://api.github.com/repos/jonsavage/VaultGUI/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/jonsavage/VaultGUI/contributors",
+  "subscribersUrl": "https://api.github.com/repos/jonsavage/VaultGUI/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/jonsavage/VaultGUI/subscription",
+  "mergesUrl": "https://api.github.com/repos/jonsavage/VaultGUI/merges",
+  "downloadsUrl": "https://api.github.com/repos/jonsavage/VaultGUI/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/jonsavage/VaultGUI/deployments",
+  "gitUrl": "git://github.com/jonsavage/VaultGUI.git",
+  "sshUrl": "git@github.com:jonsavage/VaultGUI.git",
+  "cloneUrl": "https://github.com/jonsavage/VaultGUI.git",
+  "svnUrl": "https://github.com/jonsavage/VaultGUI",
+  "mirrorUrl": null,
   "contributors": [
     "jonsavage",
     "FGS-JSavage"

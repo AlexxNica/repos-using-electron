@@ -1,31 +1,31 @@
 {
   "id": 60771735,
   "name": "fchat",
-  "fullName": "Kingdaro/fchat",
+  "fullName": "just-nobody/fchat",
   "owner": {
-    "login": "Kingdaro",
+    "login": "just-nobody",
     "id": 19603573,
     "avatarUrl": "https://avatars.githubusercontent.com/u/19603573?v=3",
     "gravatarId": "",
-    "url": "https://api.github.com/users/Kingdaro",
-    "htmlUrl": "https://github.com/Kingdaro",
-    "followersUrl": "https://api.github.com/users/Kingdaro/followers",
-    "subscriptionsUrl": "https://api.github.com/users/Kingdaro/subscriptions",
-    "organizationsUrl": "https://api.github.com/users/Kingdaro/orgs",
-    "reposUrl": "https://api.github.com/users/Kingdaro/repos",
-    "receivedEventsUrl": "https://api.github.com/users/Kingdaro/received_events",
+    "url": "https://api.github.com/users/just-nobody",
+    "htmlUrl": "https://github.com/just-nobody",
+    "followersUrl": "https://api.github.com/users/just-nobody/followers",
+    "subscriptionsUrl": "https://api.github.com/users/just-nobody/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/just-nobody/orgs",
+    "reposUrl": "https://api.github.com/users/just-nobody/repos",
+    "receivedEventsUrl": "https://api.github.com/users/just-nobody/received_events",
     "type": "User"
   },
   "private": false,
-  "description": "",
+  "description": null,
   "fork": false,
   "createdAt": "2016-06-09T12:04:53.000Z",
-  "updatedAt": "2016-07-21T06:22:51.000Z",
-  "pushedAt": "2016-08-11T00:54:40.000Z",
-  "homepage": "http://kingdaro.net/fchat/",
-  "size": 4701,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "updatedAt": "2016-10-13T02:32:59.000Z",
+  "pushedAt": "2016-10-13T19:33:45.000Z",
+  "homepage": "",
+  "size": 5378,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "Vue",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 0,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -47,83 +47,73 @@
   "status": 200,
   "packageJSON": {
     "name": "fchat-next",
-    "version": "0.4.1",
-    "description": "A modernized responsive client for F-Chat",
-    "repository": "https://github.com/Kingdaro/fchat",
-    "author": "Kingdaro",
+    "version": "0.11.0",
+    "description": "a modernized f-chat client",
+    "author": "Kingdaro <kingdaro@gmail.com>",
     "license": "MIT",
-    "devDependencies": {
-      "autoprefixer": "^6.3.7",
-      "babel-core": "^6.10.4",
-      "babel-eslint": "^6.1.0",
-      "babel-loader": "^6.2.4",
-      "babel-plugin-syntax-flow": "^6.8.0",
-      "babel-plugin-transform-flow-strip-types": "^6.8.0",
-      "babel-plugin-transform-runtime": "^6.9.0",
-      "babel-plugin-typecheck": "^3.9.0",
-      "babel-preset-es2015": "^6.9.0",
-      "babel-preset-stage-1": "^6.5.0",
-      "babel-runtime": "^5.8.38",
-      "css-loader": "^0.23.1",
-      "electron-prebuilt": "^1.2.5",
-      "eslint": "^2.13.1",
-      "eslint-config-standard": "^5.3.1",
-      "eslint-plugin-flowtype": "^2.3.0",
-      "eslint-plugin-html": "^1.5.1",
-      "eslint-plugin-promise": "^1.3.2",
-      "eslint-plugin-standard": "^1.3.2",
-      "json-loader": "^0.5.4",
-      "postcss-loader": "^0.9.1",
-      "style-loader": "^0.13.1",
-      "stylus": "^0.54.5",
-      "stylus-loader": "^2.1.1",
-      "vue-hot-reload-api": "^1.3.3",
-      "vue-html-loader": "^1.2.3",
-      "vue-loader": "^7.5.3",
-      "vue-style-loader": "^1.0.0",
-      "webpack": "^1.13.1",
-      "webpack-dev-server": "^1.14.1"
+    "repository": "http://github.com/Kingdaro/fchat",
+    "scripts": {
+      "build": "cross-env NODE_ENV=production webpack",
+      "build:watch": "cross-env NODE_ENV=production webpack --watch",
+      "dev:server": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --progress",
+      "dev": "run-p build:watch dev:server"
     },
     "dependencies": {
-      "vue": "^1.0.26",
-      "vue-resource": "^0.8.0",
-      "vuex": "^1.0.0-rc.2"
+      "bbc.js": "latest",
+      "howler": "latest",
+      "jwerty": "latest",
+      "localforage": "latest",
+      "vue": "latest",
+      "vue-resource": "latest"
     },
-    "babel": {
-      "presets": [
-        "es2015",
-        "stage-1"
-      ],
-      "plugins": [
-        [
-          "typecheck",
-          {
-            "disable": {
-              "production": true
-            }
-          }
-        ],
-        "syntax-flow",
-        "transform-flow-strip-types",
-        "transform-runtime"
-      ]
-    },
-    "eslintConfig": {
-      "parser": "babel-eslint",
-      "extends": "standard",
-      "plugins": [
-        "flowtype",
-        "standard",
-        "html"
-      ],
-      "rules": {
-        "generator-star-spacing": 0,
-        "no-duplicate-imports": 0
-      }
+    "devDependencies": {
+      "babel-core": "latest",
+      "babel-eslint": "latest",
+      "babel-loader": "latest",
+      "babel-plugin-transform-export-extensions": "latest",
+      "babel-plugin-transform-flow-strip-types": "latest",
+      "babel-plugin-transform-object-rest-spread": "latest",
+      "babel-plugin-transform-remove-console": "latest",
+      "babel-preset-babili": "latest",
+      "babel-preset-latest": "latest",
+      "cross-env": "latest",
+      "css-loader": "latest",
+      "eslint": "latest",
+      "eslint-plugin-flowtype": "latest",
+      "eslint-plugin-html": "latest",
+      "file-loader": "latest",
+      "json-loader": "latest",
+      "npm-run-all": "latest",
+      "style-loader": "latest",
+      "stylus": "latest",
+      "stylus-loader": "latest",
+      "vue-loader": "latest",
+      "webpack": "^2.1.0-beta.25",
+      "webpack-dev-server": "^2.1.0-beta.9"
     }
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/just-nobody/fchat",
+  "url": "https://api.github.com/repos/just-nobody/fchat",
+  "forksUrl": "https://api.github.com/repos/just-nobody/fchat/forks",
+  "teamsUrl": "https://api.github.com/repos/just-nobody/fchat/teams",
+  "hooksUrl": "https://api.github.com/repos/just-nobody/fchat/hooks",
+  "eventsUrl": "https://api.github.com/repos/just-nobody/fchat/events",
+  "tagsUrl": "https://api.github.com/repos/just-nobody/fchat/tags",
+  "languagesUrl": "https://api.github.com/repos/just-nobody/fchat/languages",
+  "stargazersUrl": "https://api.github.com/repos/just-nobody/fchat/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/just-nobody/fchat/contributors",
+  "subscribersUrl": "https://api.github.com/repos/just-nobody/fchat/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/just-nobody/fchat/subscription",
+  "mergesUrl": "https://api.github.com/repos/just-nobody/fchat/merges",
+  "downloadsUrl": "https://api.github.com/repos/just-nobody/fchat/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/just-nobody/fchat/deployments",
+  "gitUrl": "git://github.com/just-nobody/fchat.git",
+  "sshUrl": "git@github.com:just-nobody/fchat.git",
+  "cloneUrl": "https://github.com/just-nobody/fchat.git",
+  "svnUrl": "https://github.com/just-nobody/fchat",
+  "mirrorUrl": null,
   "contributors": [
-    "Kingdaro"
+    "just-nobody"
   ]
 }

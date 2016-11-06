@@ -20,21 +20,21 @@
   "description": "Onshape desktop app (web application shell). Unofficial.",
   "fork": false,
   "createdAt": "2015-12-15T15:45:26.000Z",
-  "updatedAt": "2016-08-15T03:45:23.000Z",
-  "pushedAt": "2016-08-12T14:02:25.000Z",
+  "updatedAt": "2016-11-04T06:20:58.000Z",
+  "pushedAt": "2016-11-04T07:09:48.000Z",
   "homepage": "",
-  "size": 561,
-  "stargazersCount": 52,
-  "watchersCount": 52,
+  "size": 608,
+  "stargazersCount": 77,
+  "watchersCount": 77,
   "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": false,
   "hasPages": false,
-  "forksCount": 15,
-  "openIssuesCount": 3,
-  "openIssues": 3,
-  "watchers": 52,
+  "forksCount": 22,
+  "openIssuesCount": 4,
+  "openIssues": 4,
+  "watchers": 77,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,8 +48,8 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 15,
-  "subscribersCount": 3,
+  "networkCount": 22,
+  "subscribersCount": 4,
   "status": 200,
   "packageJSON": {
     "private": true,
@@ -62,28 +62,31 @@
       "release": "npm run compile && build"
     },
     "build": {
-      "asar": false,
       "appId": "org.develar.onshape",
-      "app-category-type": "public.app-category.graphics-design",
+      "category": "public.app-category.graphics-design",
       "dmg": {
         "contents": [
           {
-            "x": 410,
+            "x": 110,
+            "y": 150
+          },
+          {
+            "x": 240,
             "y": 150,
             "type": "link",
             "path": "/Applications"
-          },
-          {
-            "x": 130,
-            "y": 150,
-            "type": "file"
           }
         ]
       },
       "win": {
-        "remoteReleases": "https://github.com/develar/onshape-desktop-shell"
+        "remoteReleases": "https://github.com/develar/onshape-desktop-shell",
+        "publish": [
+          "github",
+          "bintray"
+        ]
       },
       "linux": {
+        "publish": null,
         "target": [
           "deb",
           "AppImage"
@@ -92,12 +95,32 @@
     },
     "devDependencies": {
       "electron-builder": "next",
-      "electron": "1.3.3",
+      "electron": "1.4.3",
       "rimraf": "^2.5.4",
-      "typescript": "^1.8.10"
+      "typescript": "^2.0.3"
     }
   },
   "packageStatus": 200,
+  "htmlUrl": "https://github.com/develar/onshape-desktop-shell",
+  "url": "https://api.github.com/repos/develar/onshape-desktop-shell",
+  "forksUrl": "https://api.github.com/repos/develar/onshape-desktop-shell/forks",
+  "teamsUrl": "https://api.github.com/repos/develar/onshape-desktop-shell/teams",
+  "hooksUrl": "https://api.github.com/repos/develar/onshape-desktop-shell/hooks",
+  "eventsUrl": "https://api.github.com/repos/develar/onshape-desktop-shell/events",
+  "tagsUrl": "https://api.github.com/repos/develar/onshape-desktop-shell/tags",
+  "languagesUrl": "https://api.github.com/repos/develar/onshape-desktop-shell/languages",
+  "stargazersUrl": "https://api.github.com/repos/develar/onshape-desktop-shell/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/develar/onshape-desktop-shell/contributors",
+  "subscribersUrl": "https://api.github.com/repos/develar/onshape-desktop-shell/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/develar/onshape-desktop-shell/subscription",
+  "mergesUrl": "https://api.github.com/repos/develar/onshape-desktop-shell/merges",
+  "downloadsUrl": "https://api.github.com/repos/develar/onshape-desktop-shell/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/develar/onshape-desktop-shell/deployments",
+  "gitUrl": "git://github.com/develar/onshape-desktop-shell.git",
+  "sshUrl": "git@github.com:develar/onshape-desktop-shell.git",
+  "cloneUrl": "https://github.com/develar/onshape-desktop-shell.git",
+  "svnUrl": "https://github.com/develar/onshape-desktop-shell",
+  "mirrorUrl": null,
   "contributors": [
     "develar"
   ]
