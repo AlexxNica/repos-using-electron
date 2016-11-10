@@ -1,4 +1,4 @@
-# repos-using-electron [![Build Status](https://travis-ci.org/zeke/repos-using-electron.svg?branch=master)](https://travis-ci.org/zeke/repos-using-electron)
+# repos-using-electron [![Build Status](https://travis-ci.org/electron/repos-using-electron.svg?branch=master)](https://travis-ci.org/electron/repos-using-electron)
 
 A collection of all public GitHub repositories that depend on `electron`
 or `electron-prebuilt`.
