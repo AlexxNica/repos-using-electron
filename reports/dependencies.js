@@ -3,7 +3,7 @@ const flatten = require('lodash.flatten')
 const fetch = require('fetch-nice-package')
 const keyedArray = require('keyed-array')
 const dedent = require('dedent')
-const limit = 100
+const limit = 200
 const repos = require('..').filter(repo => !repo.fork)
 
 var depNames = flatten(repos.map(repo => repo.pkg.depNames))
@@ -32,7 +32,7 @@ function render (result) {
   console.log(dedent`
     # Common Dependencies in Electron Apps
 
-    The most-used npm package dependencies in all the public repos on Github that
+    The most-used npm package dependencies in all the public GitHub repos that
     depend on \`electron\` or \`electron-prebuilt\`.
     Forks are excluded from this analysis.
   `)

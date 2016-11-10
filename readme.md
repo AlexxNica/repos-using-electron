@@ -1,6 +1,7 @@
 # repos-using-electron [![Build Status](https://travis-ci.org/zeke/repos-using-electron.svg?branch=master)](https://travis-ci.org/zeke/repos-using-electron)
 
-A collection of all public repositories on GitHub that depend on `electron-prebuilt`
+A collection of all public GitHub repositories that depend on `electron`
+or `electron-prebuilt`.
 
 Uses the [libraries.io](https://libraries.io/api) to find dependent repos,
 and the [GitHub](https://developer.github.com/v3/) API to fetch latest
@@ -14,6 +15,7 @@ Some of the collected data has been rendered into markdown reports.
 - [Apps by Contributor Count](/reports/contributors.md)
 - [Top Contributors](/reports/contributors.md#top-contributors)
 - [Common Dependencies](/reports/dependencies.md)
+- [`electron-builder` configurations](/reports/electron-builder-configurations.md)
 
 ## Installation
 
@@ -23,7 +25,7 @@ npm install repos-using-electron --save
 
 ## Usage
 
-When you require this module, you get a big array full of repository objects.
+When you require this module, you get an array of repository objects.
 
 ```js
 const repos = require('repos-using-electron')
