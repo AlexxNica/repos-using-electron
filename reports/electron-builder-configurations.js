@@ -9,7 +9,6 @@ console.log(dedent`
   \`scripts\` stanzas from the repo's \`package.json\`.
 `)
 
-
 repos
   .filter(repo => repo.pkg.somehowDependsOn('electron-builder'))
   .filter(repo => repo.pkg.build)
@@ -27,7 +26,6 @@ repos
 \`\`\`json
   ${JSON.stringify(repo.pkg.scripts, null, 2)}
 \`\`\`
-
 
 \n\n\n`)
   })
