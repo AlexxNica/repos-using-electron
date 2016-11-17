@@ -64,5 +64,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ci-xvfb-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ivarvong/ci-xvfb-test.git"
+    },
+    "author": "Ivar Vong",
+    "license": "MIT",
+    "homepage": "https://github.com/ivarvong/ci-xvfb-test",
+    "dependencies": {
+      "electron-prebuilt": "^0.35.4",
+      "nightmare": "^2.0.8",
+      "vo": "^1.0.3"
+    },
+    "engine": "node 5.1.0"
+  },
+  "packageStatus": 200
 }

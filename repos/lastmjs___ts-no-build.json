@@ -70,5 +70,30 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ts-no-build",
+    "version": "0.0.0",
+    "description": "Write TypeScript without a build process. We will skip the compiler step. Because TypeScript is a superset of JavaScript (ES2015), let's just comment out the TypeScript parts. We'll then be left with ES2015. That will run in all browsers that support ES2015, which hopefully will be most browsers by the time this project gains any popularity.",
+    "scripts": {
+      "start": "tsc strip-ts.ts",
+      "dev": "electron node_modules/scram-engine/main.js index.html -d"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lastmjs/ts-no-build.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/lastmjs/ts-no-build/issues"
+    },
+    "homepage": "https://github.com/lastmjs/ts-no-build#readme",
+    "dependencies": {
+      "electron-prebuilt": "^1.4.1",
+      "scram-engine": "^0.3.2",
+      "typescript": "^2.0.3"
+    }
+  },
+  "packageStatus": 200
 }

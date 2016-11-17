@@ -64,5 +64,39 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "desktopApp",
+    "version": "1.0.0",
+    "description": "a desktop app demo with electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build-win32": "electron-packager . myFirstElectronApp --platform=win32 --overwrite --ignore=node_modules --ignore=.gitignore --ignore=LICENSE.md --ignore=.log --ignore=.md",
+      "build-all": "electron-packager . myFirstElectronApp --all --download.mirror=https://npm.taobao.org/mirrors/electron/ --overwrite --ignore=node_modules/"
+    },
+    "repository": "https://github.com/electron/electron-quick-start",
+    "keywords": [
+      "jaya",
+      "electron demo",
+      "desktop"
+    ],
+    "author": "jaya",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "^1.4.1",
+      "electron-packager": "^8.1.0",
+      "gulp": "^3.9.1",
+      "gulp-concat": "^2.6.0",
+      "gulp-less": "^3.1.0",
+      "gulp-notify": "^2.2.0",
+      "gulp-plumber": "^1.1.0",
+      "gulp-sourcemaps": "^1.6.0"
+    },
+    "dependencies": {
+      "electron-titlebar": "0.0.2",
+      "getmac": "^1.2.1"
+    }
+  },
+  "packageStatus": 200
 }

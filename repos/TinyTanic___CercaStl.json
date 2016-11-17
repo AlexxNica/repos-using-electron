@@ -70,5 +70,47 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "cerca-stl",
+    "version": "0.2.0",
+    "description": "The interface of the 4print printer by 4doit",
+    "main": "main.js",
+    "scripts": {
+      "build": "electron-packager ./ cerca-stl --platform=linux --arch=armv7l --overwrite",
+      "test": ""
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/TinyTanic/CercaStl.git"
+    },
+    "author": "Luca Aguzzoli",
+    "license": "GPLv3",
+    "dependencies": {
+      "asar": "^0.12.3",
+      "axios": "^0.14.0",
+      "bootstrap": "^3.3.7",
+      "electron": "^1.4.2",
+      "nedb": "^1.8.0",
+      "react": "^15.3.0",
+      "react-dom": "^15.3.0",
+      "react-redux": "^4.4.5",
+      "redux": "^3.5.2",
+      "shelljs": "^0.7.4"
+    },
+    "devDependencies": {
+      "babel": "^6.5.2",
+      "babel-cli": "^6.11.4",
+      "babel-preset-es2015": "^6.6.0",
+      "babel-preset-react": "^6.5.0",
+      "gulp": "^3.9.1",
+      "gulp-babel": "^6.1.2",
+      "gulp-cached": "^1.1.0",
+      "gulp-less": "^3.1.0",
+      "gulp-notify": "^2.2.0",
+      "gulp-plumber": "^1.1.0",
+      "gulp-sourcemaps": "^1.6.0"
+    }
+  },
+  "packageStatus": 200
 }

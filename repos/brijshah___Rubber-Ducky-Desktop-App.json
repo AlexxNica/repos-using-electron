@@ -70,5 +70,29 @@
   },
   "networkCount": 2,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "usb-rubber-ducky",
+    "version": "1.0.0",
+    "description": "desktop app for usb rubber ducky from hak5",
+    "main": "app.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.37.2",
+      "electron-sudo": "^3.0.3",
+      "fs-extra": "^0.28.0",
+      "is-root": "^1.0.0",
+      "powershell": "^2.0.0"
+    },
+    "devDependencies": {
+      "electron-debug": "^0.2.0",
+      "electron-packager": "^7.0.0",
+      "gulp": "^3.9.0"
+    },
+    "author": "Brij Shah",
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

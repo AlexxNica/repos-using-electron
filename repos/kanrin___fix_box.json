@@ -70,5 +70,39 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "fix_box",
+    "main": "./main.js",
+    "version": "1.0.3",
+    "description": "A toolbox for webgames",
+    "author": "Orz",
+    "homepage": "https://github.com/kanrin/fix_box",
+    "keywords": [
+      "webgame",
+      "Fix",
+      "Tool"
+    ],
+    "license": "MIT",
+    "scripts": {
+      "start": "electron ."
+    },
+    "devDependencies": {
+      "babel-core": "~6.5.2",
+      "babel-plugin-add-module-exports": "~0.1.2",
+      "babel-plugin-transform-async-to-module-method": "~6.5.2",
+      "babel-preset-es2015-node4": "~2.0.3",
+      "babel-preset-react": "~6.5.0",
+      "babel-preset-stage-0": "~6.5.0",
+      "babel-register": "~6.5.2",
+      "electron-packager": "~5.2.*",
+      "electron-prebuilt": "~0.37.*",
+      "jquery": "~2.2.1",
+      "mysql": "~2.10.*",
+      "node-jsx": "~0.13.3",
+      "react": "~15.0.1",
+      "react-dom": "~15.0.1"
+    }
+  },
+  "packageStatus": 200
 }

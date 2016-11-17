@@ -64,5 +64,36 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "print-hw",
+    "version": "0.0.1",
+    "description": "Hello world app for print from NodeJS",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ipatina/printer-hw.git"
+    },
+    "author": "Ipatina Alina",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ipatina/printer-hw/issues"
+    },
+    "homepage": "https://github.com/ipatina/printer-hw#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.4.0",
+      "electron-rebuild": "^1.2.1"
+    },
+    "dependencies": {
+      "electron": "^1.4.0",
+      "ncp": "^2.0.0",
+      "pdfjs-dist": "^1.5.476",
+      "printer": "^0.2.2",
+      "xml2js": "^0.4.17"
+    }
+  },
+  "packageStatus": 200
 }

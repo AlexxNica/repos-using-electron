@@ -64,5 +64,30 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "bi_tools",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "./node_modules/.bin/electron .",
+      "build": "electron-packager ./ biTools --all --out=dist --overwrite --ignore=dist"
+    },
+    "author": "Houdiini",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.0"
+    },
+    "dependencies": {
+      "angular-nvd3": "^1.0.7",
+      "brain": "^0.7.0",
+      "hierarchical-clustering": "^1.1.0",
+      "machine_learning": "0.0.8",
+      "mongodb": "^2.1.20",
+      "mongoose": "^4.5.0",
+      "random-name": "^0.1.1",
+      "xlsx": "^0.8.0"
+    }
+  },
+  "packageStatus": 200
 }

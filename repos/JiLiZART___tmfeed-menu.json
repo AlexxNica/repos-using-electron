@@ -70,5 +70,66 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tmfeed-menu",
+    "productName": "TM Feed Menu",
+    "version": "1.0.0",
+    "description": "A menu to read TM Feed",
+    "main": "./dist/index.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/JiLiZART/tmfeed-menu.git"
+    },
+    "engines": {
+      "node": "0.12.7",
+      "npm": "2.11.3"
+    },
+    "bugs": {
+      "url": "https://github.com/JiLiZART/tmfeed-menu/issues"
+    },
+    "license": "MIT",
+    "scripts": {
+      "build": "babel src -D -d dist --compact true",
+      "csscomb": "csscomb css/layout.css",
+      "watch": "babel src -D -d dist -w",
+      "test": "standard",
+      "prestart": "npm run build",
+      "start": "electron ./",
+      "debug": "npm run start --debug=5858",
+      "debug-brk": "npm run start --debug-brk=5858",
+      "package": "npm run build && ./script/package.sh",
+      "release": "npm run package"
+    },
+    "author": [
+      "Jingwen Owen Ou",
+      "Nikolay Kost <jilizart@gmail.com>"
+    ],
+    "config": {
+      "electron_version": "0.31.2"
+    },
+    "devDependencies": {
+      "babel": "^5.8.21",
+      "babel-eslint": "^4.0.10",
+      "csscomb": "^3.1.8",
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.33.0",
+      "standard": "^5.1.0"
+    },
+    "dependencies": {
+      "async": "^1.4.2",
+      "electron-rpc": "^1.0.3",
+      "firebase": "^2.2.9",
+      "fs-plus": "^2.8.1",
+      "lodash": "^3.10.1",
+      "lru-cache": "^2.6.5",
+      "menubar": "^2.2.1",
+      "moment": "^2.10.6",
+      "newrelic-winston": "0.0.1",
+      "react": "^0.13.3",
+      "request": "^2.62.0",
+      "winston": "^1.0.1"
+    }
+  },
+  "packageStatus": 200
 }

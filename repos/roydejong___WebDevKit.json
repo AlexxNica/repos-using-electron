@@ -70,5 +70,21 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "webdevkit",
+    "version": "0.1.0",
+    "description": "A web development site manager for Windows",
+    "main": "src/main.js",
+    "scripts": {
+      "start": "electron src/main.js"
+    },
+    "author": "Roy de Jong",
+    "license": "MIT",
+    "homepage": "https://github.com/roydejong/WebDevKit",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

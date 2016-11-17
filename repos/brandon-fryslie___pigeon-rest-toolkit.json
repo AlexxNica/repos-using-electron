@@ -64,5 +64,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "pigeon-rest-toolkit",
+    "version": "0.0.5",
+    "description": "Toolkit for communicating with Rally Software Pigeon's REST API",
+    "main": "index.js",
+    "scripts": {
+      "dev": "./bin/pigeon --debug"
+    },
+    "author": "Brandon Fryslie",
+    "license": "Public Domain",
+    "dependencies": {
+      "coffee-script": "^1.10.0",
+      "colors": "^1.1.2",
+      "es6-promise": "^3.0.2",
+      "lodash": "^3.10.1",
+      "request": "^2.69.0",
+      "unirest": "^0.4.2"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.33.3"
+    }
+  },
+  "packageStatus": 200
 }

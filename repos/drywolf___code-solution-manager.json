@@ -70,5 +70,45 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "code-solution-manager",
+    "displayName": "Code Solution Manager",
+    "description": "Helps you navigate between multiple vscode editor windows / projects.",
+    "version": "0.0.1",
+    "publisher": "DryWolf",
+    "homepage": "https://github.com/drywolf/code-solution-manager/blob/master/README.md",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/drywolf/code-solution-manager.git"
+    },
+    "engines": {
+      "vscode": "^0.10.6"
+    },
+    "categories": [
+      "Other"
+    ],
+    "activationEvents": [
+      "onCommand:extension.solutionmanager.showOpenProjects"
+    ],
+    "main": "./extension-core/out/src/extension",
+    "contributes": {
+      "commands": [
+        {
+          "command": "extension.solutionmanager.showOpenProjects",
+          "title": "Show open editor windows"
+        }
+      ]
+    },
+    "scripts": {
+      "vscode:prepublish": "node ./extension-core/node_modules/vscode/bin/compile -p ./extension-core/",
+      "compile": "node ./extension-core/node_modules/vscode/bin/compile -watch -p ./extension-core/",
+      "postinstall": "node ./extension-core/node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+      "typescript": "^1.7.5",
+      "vscode": "^0.11.0"
+    }
+  },
+  "packageStatus": 200
 }

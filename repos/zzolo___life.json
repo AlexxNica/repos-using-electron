@@ -64,5 +64,53 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "life",
+    "version": "0.0.1",
+    "description": "Management of digital things",
+    "main": "electron.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron ./",
+      "styles": "node-sass --output-style compressed app/styles/main.scss > app/styles/main.css",
+      "watch-styles": "watch -p \"app/styles/**/*.scss\" -c \"npm run styles\"",
+      "js": "babel --source-maps=inline app/js -d app/js-build",
+      "js-fast": "babel app/js -d app/js-build",
+      "watch-js": "watch -p \"app/js/**/*.j*\" -c \"npm run js-fast && npm run js\"",
+      "watch": "concurrently \"npm run watch-styles\" \"npm run watch-js\"",
+      "serve": "concurrently \"npm run start\" \"npm run watch-styles\" \"npm run watch-js\""
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zzolo/life.git"
+    },
+    "author": "Alan Palazzolo",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/zzolo/life/issues"
+    },
+    "homepage": "https://github.com/zzolo/life",
+    "dependencies": {
+      "electron-config": "^0.2.1",
+      "react": "^15.3.2",
+      "react-dom": "^15.3.2",
+      "react-router": "^2.8.1"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.16.0",
+      "babel-plugin-react-html-attrs": "^2.0.0",
+      "babel-plugin-react-require": "^2.1.0",
+      "babel-preset-es2015": "^6.16.0",
+      "babel-preset-react": "^6.16.0",
+      "bootstrap": "^4.0.0-alpha.4",
+      "concurrently": "^3.0.0",
+      "electron-prebuilt": "^1.4.2",
+      "electron-reload": "^1.0.2",
+      "font-awesome": "^4.6.3",
+      "node-sass": "^3.10.1",
+      "watch-cli": "^0.2.1"
+    }
+  },
+  "packageStatus": 200
 }

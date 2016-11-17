@@ -64,5 +64,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ngElectron",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chalasr/ng-electron.git"
+    },
+    "keywords": [
+      "Electron",
+      "AngularJS",
+      "ngRoute",
+      "minimal-starter"
+    ],
+    "author": "Robin CHALAS",
+    "license": "GPL-3.0",
+    "homepage": "https://github.com/chalasr/ng-electron#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -70,5 +70,31 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Anime-Downloader",
+    "version": "0.0.1",
+    "description": "A software for real anime fans.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/Kylart/Anime-downloader",
+    "keywords": [
+      "Anime",
+      "Downloader",
+      "Electron",
+      "software",
+      "development"
+    ],
+    "author": "Kylart",
+    "license": "",
+    "devDependencies": {
+      "electron": "^1.4.1"
+    },
+    "dependencies": {
+      "material-design-lite": "^1.2.1"
+    }
+  },
+  "packageStatus": 200
 }

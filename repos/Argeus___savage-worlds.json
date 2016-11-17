@@ -64,5 +64,24 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "savage-worlds",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "ake",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "jquery": "^3.0.0",
+      "underscore": "^1.8.3"
+    }
+  },
+  "packageStatus": 200
 }

@@ -70,5 +70,40 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Purge",
+    "version": "1.0.0",
+    "description": "Herramienta de purgado",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "demo"
+    ],
+    "author": "javier otero",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "^1.4.1"
+    },
+    "dependencies": {
+      "bootstrap": "^3.3.7",
+      "bulma": "^0.2.3",
+      "jquery": "^3.1.1"
+    },
+    "productName": "purge",
+    "build": {
+      "appId": "purge",
+      "win": {
+        "target": "nsis",
+        "iconUrl": "https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/computer-128.png"
+      }
+    }
+  },
+  "packageStatus": 200
 }

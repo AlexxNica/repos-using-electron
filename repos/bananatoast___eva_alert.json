@@ -64,5 +64,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "eva_alert",
+    "version": "0.1.0",
+    "description": "eva style alerting",
+    "main": "main.js",
+    "license": "MIT",
+    "scripts": {
+      "start": "electron main.js --enable-logging",
+      "build": "node build.js",
+      "pack": "electron-packager . electron-alert --platform=all --arch=x64 --overwrite --out=dist",
+      "pack:darwin": "electron-packager . electron-alert --platform=darwin --arch=x64 --overwrite --out=dist",
+      "pack:linux": "electron-packager . electron-alert --platform=linux --arch=x64 --overwrite --out=dist",
+      "pack:win32": "electron-packager . electron-alert --platform=win32 --arch=x64 --overwrite --out=dist"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.11",
+      "electron-packager": "^5.2.1"
+    },
+    "dependencies": {
+      "@slack/client": "^2.2.1"
+    }
+  },
+  "packageStatus": 200
 }

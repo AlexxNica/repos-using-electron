@@ -70,5 +70,74 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "mpdesktop",
+    "productName": "MPDesktop",
+    "version": "1.0.0",
+    "description": "Desktop MPD client made using Electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "cross-env NODE_ENV=development electron main.js",
+      "server": "node server.js",
+      "watch": "webpack -w",
+      "production": "cross-env NODE_ENV=production webpack",
+      "build:win32": "electron-packager . --platform=win32 --arch=ia32 --out=build --overwrite --prune",
+      "build:win64": "electron-packager . --platform=win32 --arch=x64 --out=build --overwrite --prune"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:Frizz925/MPDesktop"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "Frizz925 <Frizz925@hotmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Frizz925/MPDesktop/issues"
+    },
+    "homepage": "https://github.com/Frizz925/MPDesktop#readme",
+    "devDependencies": {
+      "babel-core": "^6.9.1",
+      "babel-eslint": "^6.0.4",
+      "babel-loader": "^6.2.4",
+      "babel-preset-es2015": "^6.9.0",
+      "babel-preset-react": "^6.5.0",
+      "babel-preset-stage-0": "^6.5.0",
+      "chai": "^3.5.0",
+      "cross-env": "^1.0.8",
+      "css-loader": "^0.23.1",
+      "electron-packager": "^7.0.3",
+      "electron-prebuilt": "^1.2.0",
+      "eslint": "^2.11.1",
+      "eslint-plugin-react": "^5.1.1",
+      "material-ui": "^0.15.0",
+      "radium": "^0.17.1",
+      "react": "^15.1.0",
+      "react-dom": "^15.1.0",
+      "react-hot-loader": "^1.3.0",
+      "react-redux": "^4.4.5",
+      "react-router": "^2.4.1",
+      "react-tap-event-plugin": "^1.0.0",
+      "reactcss": "^1.0.2",
+      "redux": "^3.5.2",
+      "style-loader": "^0.13.1",
+      "webpack": "^1.13.1",
+      "webpack-dev-server": "^1.14.1"
+    },
+    "dependencies": {
+      "axios": "^0.12.0",
+      "fs-promise": "^0.5.0",
+      "normalize-css": "^2.3.1",
+      "moment": "^2.13.0",
+      "immutable": "^3.8.1",
+      "jquery": "^2.2.4",
+      "lodash": "^4.13.1"
+    }
+  },
+  "packageStatus": 200
 }

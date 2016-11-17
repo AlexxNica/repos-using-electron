@@ -70,5 +70,39 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-replace-in-file",
+    "version": "0.0.1",
+    "description": "Electron angular replacer string app",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ./app --enable-logging",
+      "dev": "NODE_ENV='development' npm run start",
+      "dist": "npm run dist:osx && npm run dist:win32 && npm run dist:win64",
+      "dist:osx": "build --platform darwin",
+      "dist:win32": "build --platform win32 --arch ia32",
+      "dist:win64": "build --platform win32 --arch x64"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/11joselu/electron-replace-in-file.git"
+    },
+    "keywords": [
+      "Electron"
+    ],
+    "author": "Jose Cabrera <joselu11cabrera@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/11joselu/electron-replace-in-file/issues"
+    },
+    "homepage": "https://github.com/11joselu/electron-replace-in-file#readme",
+    "dependencies": {
+      "electron-builder": "^3.22.1",
+      "electron-prebuilt": "^1.0.2",
+      "glob": "^7.0.3",
+      "replace-in-file": "^1.0.2"
+    }
+  },
+  "packageStatus": 200
 }

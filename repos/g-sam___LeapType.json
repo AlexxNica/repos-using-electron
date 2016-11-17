@@ -64,5 +64,36 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "LeapType",
+    "version": "1.0.0",
+    "description": "Type with Leap Motion",
+    "main": "main.js",
+    "scripts": {
+      "start": "node_modules/.bin/electron ."
+    },
+    "repository": {
+      "type": "git"
+    },
+    "keywords": [
+      "Leapmotion",
+      "gesture",
+      "type",
+      "keyboard"
+    ],
+    "author": "Sam Galson",
+    "license": "",
+    "homepage": "",
+    "devDependencies": {
+      "electron-prebuilt": "1.2.8",
+      "electron-rebuild": "^1.2.1"
+    },
+    "dependencies": {
+      "electron-settings": "^2.2.1",
+      "leapjs": "https://github.com/g-sam/leapjs/tarball/patched",
+      "robotjs": "^0.4.4"
+    }
+  },
+  "packageStatus": 200
 }

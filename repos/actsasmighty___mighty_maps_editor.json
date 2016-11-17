@@ -84,5 +84,42 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "mighty_maps_editor",
+    "version": "0.0.1",
+    "description": "An editor for mighty maps",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/actsasmighty/mighty_maps_editor.git"
+    },
+    "keywords": [
+      "mighty_maps",
+      "seat_map",
+      "editor",
+      "electron"
+    ],
+    "author": "Michael Sievers",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/actsasmighty/mighty_maps_editor/issues"
+    },
+    "homepage": "https://github.com/actsasmighty/mighty_maps_editor",
+    "devDependencies": {
+      "devtron": "^1.2.1",
+      "electron-debug": "^1.0.1",
+      "electron-packager": "^7.3.0",
+      "electron-prebuilt": "^1.2.0",
+      "electron-reload": "^1.0.0"
+    },
+    "dependencies": {
+      "electron-is-dev": "^0.1.1"
+    }
+  },
+  "packageStatus": 200
 }

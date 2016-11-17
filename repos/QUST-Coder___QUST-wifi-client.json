@@ -84,5 +84,28 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "wifi-client",
+    "version": "1.0.0",
+    "description": "用electron实现的青岛科技大学校园网客户端",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/QUST-Coder/QUST-wifi-client.git"
+    },
+    "author": "Senevan",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/QUST-Coder/QUST-wifi-client/issues"
+    },
+    "homepage": "https://github.com/QUST-Coder/QUST-wifi-client#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.9"
+    }
+  },
+  "packageStatus": 200
 }

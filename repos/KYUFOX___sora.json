@@ -84,5 +84,21 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "sora",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "./node_modules/.bin/electron ."
+    },
+    "author": "Alice Hanaki",
+    "license": "MIT",
+    "dependencies": {
+      "electron": "^1.4.5",
+      "jquery": "^3.1.1"
+    }
+  },
+  "packageStatus": 200
 }

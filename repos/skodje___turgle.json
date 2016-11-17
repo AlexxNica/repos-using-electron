@@ -64,5 +64,29 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "turgle",
+    "productName": "turgle",
+    "version": "0.2.0",
+    "main": "main.js",
+    "description": "A simple game",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/skodje/turgle",
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "demo"
+    ],
+    "author": "Lars Skodje",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "^1.4.1"
+    }
+  },
+  "packageStatus": 200
 }

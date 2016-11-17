@@ -70,5 +70,43 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "doogie-md",
+    "version": "1.0.0",
+    "description": "Markdown Editor App with Live Preview",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "electron ./src/index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/scott-morris/doogie-md.git"
+    },
+    "keywords": [
+      "markdown"
+    ],
+    "author": "Scott Morris <scott.r.morris@gmail.com>",
+    "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/scott-morris/doogie-md/issues"
+    },
+    "homepage": "https://github.com/scott-morris/doogie-md#readme",
+    "dependencies": {
+      "ace-builds": "^1.2.5",
+      "electron": "^1.4.4",
+      "font-awesome": "^4.7.0",
+      "fs-promise": "^0.5.0",
+      "github-markdown-css": "^2.4.1",
+      "highlight.js": "^9.8.0",
+      "lodash": "^4.16.5",
+      "marked": "^0.3.6",
+      "split.js": "^1.0.7"
+    },
+    "devDependencies": {
+      "electron-packager": "^8.2.0"
+    }
+  },
+  "packageStatus": 200
 }

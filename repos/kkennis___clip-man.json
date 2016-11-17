@@ -64,5 +64,39 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "clip-man",
+    "version": "1.0.0",
+    "description": "A dead simple clipboard manager",
+    "main": "main.js",
+    "productName": "Clip Man",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . ClipMan --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "clipboard",
+      "buffer",
+      "desktop",
+      "manager"
+    ],
+    "author": "Kevin Kennis",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-connect": "^0.4.2",
+      "electron-packager": "^7.1.0",
+      "electron-prebuilt": "^1.2.5",
+      "gulp": "^3.9.1"
+    },
+    "dependencies": {
+      "copy-to-clipboard": "^3.0.2",
+      "menubar": "^4.1.2",
+      "pouchdb": "^5.4.4",
+      "pouchdb-find": "^0.10.2",
+      "pouchdb-legacy-utils": "^1.0.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -70,5 +70,49 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "vasp-client",
+    "productName": "VaspClient",
+    "version": "0.0.0",
+    "description": "WebGL based client for VASP (Vector Animation Streaming Protocol)",
+    "license": "MIT",
+    "repository": "mayalekova/vasp-client",
+    "author": {
+      "name": "Maya Lekova",
+      "email": "apokalyptra@gmail.com",
+      "url": "github.com/mayalekova"
+    },
+    "scripts": {
+      "test": "xo",
+      "start": "electron scripts/index.js",
+      "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all"
+    },
+    "files": [
+      "scripts/index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "electron-debug": "^1.0.0"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.0",
+      "electron-packager": "^7.0.0",
+      "electron-prebuilt": "^1.0.1",
+      "xo": "^0.15.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,40 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electrondemo",
+    "version": "0.0.0",
+    "devDependencies": {
+      "Q": "0.0.1",
+      "asar": "^0.11.0",
+      "electron-builder": "^5.12.1",
+      "electron-prebuilt": "^1.2.6",
+      "fs-jetpack": "^0.9.2",
+      "gulp": "^3.9.1",
+      "rcedit": "^0.5.1"
+    },
+    "dependencies": {
+      "gulp-minify-css": "^1.2.4",
+      "gulp-uglify": "^1.5.4",
+      "gulp-usemin": "^0.3.23"
+    },
+    "build": {
+      "appId": "app.demo",
+      "app-category-type": "demo",
+      "win": {
+        "msi": true,
+        "iconUrl": "https://github.com/electron/electron-api-demos/blob/master/assets/app-icon/win/app.ico"
+      }
+    },
+    "directories": {
+      "app": "build"
+    },
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "pack": "build --dir",
+      "dist": "build --ia32"
+    }
+  },
+  "packageStatus": 200
 }

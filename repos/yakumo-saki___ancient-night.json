@@ -70,5 +70,52 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ancient-night",
+    "version": "0.1.0",
+    "description": "retro twitter client",
+    "main": "app/main/app.js",
+    "author": "Saki Yakumo",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/yakumo-saki/ancient-night/issues"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yakumo-saki/ancient-night.git"
+    },
+    "scripts": {
+      "compile": "gulp build",
+      "start": "gulp build && electron .",
+      "debug": "electron --debug .",
+      "package": "npm run package_mac && npm run package_win",
+      "package_circleci": "npm run package_mac && npm run package_win_noicon",
+      "package_mac": "electron-packager . ancient-night --platform=darwin --icon=./app/resources/icons/app.icns --arch=x64 --version=1.0.1 --overwrite --out ./build",
+      "package_win": "electron-packager . ancient-night --platform=win32 --icon=./app/resources/icons/app.ico --arch=x64 --version=1.0.1 --overwrite --out ./build",
+      "package_win_noicon": "electron-packager . ancient-night --platform=win32 --arch=x64 --version=1.0.1 --overwrite --out ./build",
+      "watch": "gulp watch"
+    },
+    "devDependencies": {
+      "del": "^2.2.0",
+      "devtron": "^1.0.1",
+      "electron-packager": "^7.0.0",
+      "electron-prebuilt": "^1.0.1",
+      "gulp": "^3.9.0",
+      "gulp-shell": "^0.5.2",
+      "run-sequence": "^1.1.5",
+      "tsconfig-cli": "^2.0.0"
+    },
+    "dependencies": {
+      "jquery": "^2.2.3",
+      "lodash": "^4.12.0",
+      "log4js": "^0.6.36",
+      "moment": "^2.10.6",
+      "nedb": "^1.8.0",
+      "node-twitter-api": "^1.7.1",
+      "requirejs": "^2.2.0",
+      "uuid": "^2.0.2"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,24 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Lightbulb",
+    "version": "1.0.0",
+    "description": "Lightbox Electron App",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "tgorkin",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.26.0"
+    },
+    "dependencies": {
+      "flickrapi": "^0.3.32",
+      "jquery": "^2.1.4"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,42 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "webpack-web-and-electron-example",
+    "version": "0.0.1",
+    "description": "",
+    "main": "main.js",
+    "devDependencies": {
+      "babel-core": "^6.3.26",
+      "babel-loader": "^6.2.0",
+      "browser-sync": "^2.12.8",
+      "electron-prebuilt": "^1.1.0",
+      "eslint": "^1.10.3",
+      "eslint-config-airbnb": "^2.1.1",
+      "webpack": "^1.13.1",
+      "webpack-dev-middleware": "^1.6.1",
+      "webpack-dev-server": "^1.14.0",
+      "webpack-hot-middleware": "^2.10.0",
+      "webpack-target-electron-renderer": "^0.3.0"
+    },
+    "dependencies": {
+      "electron-debug": "^1.0.0",
+      "is-electron-renderer": "^2.0.0",
+      "minimist": "^1.2.0"
+    },
+    "scripts": {
+      "build-web": "webpack --target web",
+      "build-electron": "webpack --target electron-renderer",
+      "start-web": "node server.js",
+      "start-electron": "electron ./"
+    },
+    "bin": {
+      "webpack": "./node_modules/.bin/webpack",
+      "electron": "./node_modules/.bin/electron"
+    },
+    "author": "",
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

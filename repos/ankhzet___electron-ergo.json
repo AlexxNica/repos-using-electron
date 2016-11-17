@@ -64,5 +64,26 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ergo",
+    "version": "0.0.0",
+    "description": "Ergo manga reader",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.36.4"
+    },
+    "devDependencies": {
+      "jasmine": "^2.4.1",
+      "karma": "^0.13.19",
+      "karma-jasmine": "^0.3.6"
+    },
+    "author": "AnkhZet <ankhzet@gmail.com>",
+    "license": "CC0",
+    "private": true
+  },
+  "packageStatus": 200
 }

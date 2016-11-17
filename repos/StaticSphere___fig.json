@@ -64,5 +64,26 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "fig",
+    "version": "0.1.0",
+    "description": "Fig provides a way to visually edit and maintain client-side tool configuration files (such as NPM).",
+    "scripts": {
+      "prebuild:typescript": "rimraf src/app/**/*.js src/app/**/*.js.map",
+      "build:typescript": "tsc"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/StaticSphere/fig.git"
+    },
+    "author": "Jamie Nordmeyer",
+    "license": "MIT",
+    "devDependencies": {
+      "rimraf": "^2.5.2",
+      "typescript": "^1.8.9"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

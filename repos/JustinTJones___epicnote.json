@@ -64,5 +64,25 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "EpicNote",
+    "version": "0.0.9",
+    "description": "Cross platform note taking application",
+    "main": "js/e_launch.js",
+    "scripts": {
+      "start": "electron js/e_launch.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/justintjones/epicnote"
+    },
+    "author": "Justin T Jones",
+    "license": "AGPL-3.0",
+    "dependencies": {
+      "electron": "*",
+      "medium-editor": "*"
+    }
+  },
+  "packageStatus": 200
 }

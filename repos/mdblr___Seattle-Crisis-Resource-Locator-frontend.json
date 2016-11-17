@@ -64,5 +64,40 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "scrl",
+    "version": "1.0.0",
+    "description": "Seattle Crisis Resources Locator",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .  ",
+      "build": "rm -rf scrl-darwin-x64; electron-packager ./ --platform=darwin --arch=x64 && cp 20160712053858227_easyicon_net_128.icns scrl-darwin-x64/scrl.app/Contents/Resources/electron.icns; open ./scrl-darwin-x64/scrl.app"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mdblr/capstone-frontend.git"
+    },
+    "author": "Max Dobler",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mdblr/capstone-frontend/issues"
+    },
+    "homepage": "https://github.com/mdblr/capstone-frontend#readme",
+    "devDependencies": {
+      "angular": "^1.5.7",
+      "angular-aria": "^1.5.7",
+      "angular-google-maps": "^2.3.3",
+      "angular-material": "^1.1.0-rc.5",
+      "angular-materialize": "^0.1.9",
+      "angular-simple-logger": "^0.1.7",
+      "angular-ui-router": "^0.3.1",
+      "dotenv": "^2.0.0",
+      "electron-packager": "^7.3.0",
+      "electron-prebuilt": "^1.2.6",
+      "lodash": "^4.13.1",
+      "webfontloader": "^1.6.26"
+    }
+  },
+  "packageStatus": 200
 }

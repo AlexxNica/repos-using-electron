@@ -70,5 +70,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tscpe",
+    "version": "0.0.1",
+    "description": "",
+    "main": "bin/index.js",
+    "scripts": {
+      "start": "./node_modules/electron-prebuilt/dist/electron bin/index.js",
+      "trace": "./node_modules/electron-prebuilt/dist/electron --no-sandbox --js-flags=\"--trace-hydrogen --trace-phase=Z --trace-deopt --code-comments --hydrogen-track-positions --redirect-code-traces\" bin/index.js",
+      "test": "ELECTRON_PATH=./node_modules/electron-prebuilt/dist/electron electron-mocha -s 1 ./bin/tests",
+      "test-trace": "ELECTRON_PATH=./node_modules/electron-prebuilt/dist/electron electron-mocha --no-sandbox --js-flags=\"--trace-hydrogen --trace-phase=Z --trace-deopt --code-comments --hydrogen-track-positions --redirect-code-traces\" -s 1 ./bin/tests",
+      "watch": "tsc --watch"
+    },
+    "author": "Phil Lehmkuhl",
+    "license": "GPL-3.0",
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "mocha": "^2.4.5"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.37.8",
+      "eventemitter3": "^1.2.0",
+      "lodash": "^4.11.2",
+      "source-map-support": "^0.4.0",
+      "winston": "^2.2.0"
+    }
+  },
+  "packageStatus": 200
 }

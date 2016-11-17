@@ -70,5 +70,24 @@
   },
   "networkCount": 2,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "bitters",
+    "version": "0.0.0",
+    "description": "IRC client made over 7 days designed to rival Mace's IRC client (https://github.com/J0hnMace/Sham94)",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jacksarick/bitters.git"
+    },
+    "author": "jacksarick",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^1.3.4"
+    }
+  },
+  "packageStatus": 200
 }

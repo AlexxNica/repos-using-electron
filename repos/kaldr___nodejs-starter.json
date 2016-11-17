@@ -70,5 +70,40 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "nodejs-starter",
+    "version": "0.1.0",
+    "main": "lib/main.js",
+    "license": "ISC",
+    "keywords": [
+      "nodejs",
+      "hyer"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ashleygwilliams/my_package.git"
+    },
+    "bugs": {
+      "url": "https://github.com/ashleygwilliams/my_package/issues"
+    },
+    "homepage": "https://github.com/ashleygwilliams/my_package",
+    "dependencies": {
+      "angular": "",
+      "angular-ui-bootstrap": "",
+      "underscore": "",
+      "angular-semantic-ui": ""
+    },
+    "devDependencies": {
+      "electron-prebuilt": "",
+      "grunt": "",
+      "grunt-contrib-uglify": "",
+      "grunt-contrib-qunit": "",
+      "grunt-contrib-concat": "",
+      "grunt-contrib-jshint": "",
+      "grunt-contrib-watch": "",
+      "webpage": ""
+    }
+  },
+  "packageStatus": 200
 }

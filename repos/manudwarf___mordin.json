@@ -70,5 +70,34 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "mordin",
+    "version": "0.0.1",
+    "description": "Had to be me. Someone else might have gotten it wrong.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/manudwarf/mordin.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "Emmanuel Bourgerie <manu@bourgerie.fr>",
+    "license": "Apache",
+    "bugs": {
+      "url": "https://github.com/manudwarf/mordin/issues"
+    },
+    "homepage": "https://github.com/manudwarf/mordin#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

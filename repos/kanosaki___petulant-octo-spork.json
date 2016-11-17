@@ -64,5 +64,30 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hackathon2015natsu",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "arda": "^0.15.1",
+      "electron-prebuilt": "^0.31.2",
+      "react": "^0.13.3"
+    },
+    "devDependencies": {
+      "babel": "^5.8.23",
+      "babelify": "^6.3.0",
+      "browserify": "^11.0.1",
+      "gulp": "^3.9.0",
+      "gulp-tsconfig-update": "^1.0.6"
+    }
+  },
+  "packageStatus": 200
 }

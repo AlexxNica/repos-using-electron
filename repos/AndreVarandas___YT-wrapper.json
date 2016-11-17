@@ -70,5 +70,33 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "youtube-electron-wrapper",
+    "version": "1.0.0",
+    "description": "Just a simple electron wrapper for youtube",
+    "main": "src/main.js",
+    "private": true,
+    "dependencies": {
+      "electron-packager": "^8.1.0",
+      "electron-prebuilt": "^1.4.3"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron .",
+      "build": "electron-packager . Electron-Youtube --out=dist --ignore=dist --prune --asar --all"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AndreVarandas/YT-wrapper.git"
+    },
+    "author": "Andre Varandas",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/AndreVarandas/YT-wrapper/issues"
+    },
+    "homepage": "https://github.com/AndreVarandas/YT-wrapper#readme"
+  },
+  "packageStatus": 200
 }

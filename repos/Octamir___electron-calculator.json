@@ -64,5 +64,21 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-calculator",
+    "version": "1.0.0",
+    "description": "Very minimalistic js calculator",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "devDependencies": {
+      "electron": "^1.4.1"
+    },
+    "dependencies": {
+      "jquery": "^3.1.1"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,37 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "MGSV-shuffle",
+    "version": "1.0.0",
+    "description": "'shuffles' your MGSV helicopter music",
+    "private": true,
+    "main": "src/index.js",
+    "bin": {
+      "MGSV-shuffle": "./bin/MGSV-shuffle-win32-ia32/MGSV-shuffle"
+    },
+    "electronVersion": "0.33.0",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . %npm_package_name% --overwrite --prune --asar --out=bin --platform=win32 --arch=ia32 --icon=src/icon.ico --version=%npm_package_electronVersion% --app-version=%npm_package_version --ignore=node_modules/.bin"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tylergoodman/MGSV-shuffle.git"
+    },
+    "bugs": {
+      "url": "https://github.com/tylergoodman/MGSV-shuffle/issues"
+    },
+    "homepage": "https://github.com/tylergoodman/MGSV-shuffle",
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.33.0"
+    },
+    "dependencies": {
+      "material-ui": "^0.11.1",
+      "react": "^0.13.3"
+    }
+  },
+  "packageStatus": 200
 }

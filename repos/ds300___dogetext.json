@@ -64,5 +64,39 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "dogetext",
+    "version": "0.0.1",
+    "description": "wow. such text. so edit.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ds300/dogetext.git"
+    },
+    "keywords": [
+      "wow",
+      "such",
+      "text",
+      "edit"
+    ],
+    "author": "David Sheldrick",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/ds300/dogetext/issues"
+    },
+    "homepage": "https://github.com/ds300/dogetext",
+    "devDependencies": {
+      "ddom": "0.0.8",
+      "derivable": "0.12.0",
+      "electron-prebuilt": "^0.35.0",
+      "immutable": "^3.7.6",
+      "ts-node": "^0.5.4",
+      "typescript": "^1.7.5"
+    }
+  },
+  "packageStatus": 200
 }

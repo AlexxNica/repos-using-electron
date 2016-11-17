@@ -70,5 +70,50 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/electron/electron-quick-start#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "async": "latest",
+      "body-parser": "^1.15.2",
+      "cheerio": "^0.20.0",
+      "ejs": "^2.5.1",
+      "express": "latest",
+      "jQuery": "latest",
+      "jquery": "^3.1.0",
+      "omdb": "^0.7.0",
+      "request": "^2.74.0",
+      "thepiratebay": "^1.2.0",
+      "torrent-stream": "^1.0.3",
+      "uuid": "^2.0.2",
+      "mime-types": "latest",
+      "vlc-command": "latest"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,24 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "shop.app.dev",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "build-mac": "electron-packager . 'DemoElectronAureliaMongoDB' --platform=darwin --arch=x64 --version=0.35.1 --overwrite --out ./build/mac",
+      "build-win": "electron-packager . 'DemoElectronAureliaMongoDB' --platform=win32 --arch=ia32 --version=0.35.1 --overwrite --out ./build/win"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-packager": "^8.1.0",
+      "electron-prebuilt": "^1.4.2",
+      "electron-reload": "^1.0.2"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tomatime",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://yousfisaad@bitbucket.org/yousfisaad/tamatime.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "homepage": "https://bitbucket.org/yousfisaad/tamatime#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.4.1",
+      "node-notifier": "^4.6.1",
+      "rx": "^4.1.0"
+    },
+    "dependencies": {
+      "electron-positioner": "^3.0.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -70,5 +70,27 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "nexide",
+    "version": "0.0.5",
+    "description": "This is an IDE for NexBrd.",
+    "main": "main.js",
+    "scripts": {
+      "test": "electron ."
+    },
+    "keywords": [
+      "ESP8266"
+    ],
+    "author": "Rohit Gujarathi",
+    "license": "GPL-3.0",
+    "devDependencies": {
+      "electron-prebuilt": "1.1.2",
+      "electron-rebuild": "^1.1.5",
+      "nodemcu-tool": "^1.6.0",
+      "serialport": "^3.1.2"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

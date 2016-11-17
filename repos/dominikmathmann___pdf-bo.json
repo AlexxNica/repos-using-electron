@@ -70,5 +70,53 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "pdf-bo",
+    "version": "1.0.0",
+    "description": "PDF - (b)etter (o)rganized",
+    "main": "main.js",
+    "scripts": {
+      "start": "gulp clean && gulp",
+      "package": "gulp clean && gulp package",
+      "electron": "electron main.js",
+      "electron-package": "electron-packager . pdf-bo --platform=win32 --arch=all --ignore=node_modules"
+    },
+    "repository": {
+      "type": "git",
+      "url": "todo"
+    },
+    "keywords": [
+      "Angular2",
+      "Gedoplan Aktuell"
+    ],
+    "author": "Dominik Mathmann <dominik.mathmann@gedoplan.de>",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.6",
+      "gulp": "^3.9.0",
+      "gulp-connect": "^2.2.0",
+      "gulp-rimraf": "^0.2.0",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-typescript": "^2.10.0",
+      "gulp-util": "^3.0.7",
+      "gulp-watch": "^4.3.5",
+      "systemjs": "^0.19.6",
+      "systemjs-builder": "^0.14.11",
+      "typescript": "^1.7.3"
+    },
+    "dependencies": {
+      "angular2": "2.0.0-beta.12",
+      "bootstrap": "^3.3.6",
+      "font-awesome": "^4.5.0",
+      "fs-jetpack": "^0.8.0",
+      "es6-promise": "3.0.2",
+      "es6-shim": "0.35.0",
+      "reflect-metadata": "0.1.2",
+      "rxjs": "5.0.0-beta.2",
+      "zone.js": "0.6.6",
+      "pdfjs-dist": "^1.4.237"
+    }
+  },
+  "packageStatus": 200
 }

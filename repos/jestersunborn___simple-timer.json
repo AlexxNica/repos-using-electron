@@ -64,5 +64,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "simple-timer",
+    "version": "0.0.1",
+    "description": "Simple timer write on JavaScript and Electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "url": "https://github.com/jestersunborn/simple-timer"
+    },
+    "keywords": [
+      "Electron",
+      "Timer"
+    ],
+    "author": "Jester Sunborn",
+    "license": "",
+    "dependencies": {},
+    "devDependencies": {
+      "electron-prebuilt": "^1.4.5"
+    }
+  },
+  "packageStatus": 200
 }

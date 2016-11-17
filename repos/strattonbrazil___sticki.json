@@ -64,5 +64,24 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "sticki",
+    "version": "0.0.0",
+    "description": "console game",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "BSD-2-Clause",
+    "devDependencies": {
+      "gulp-cli": "~1.2.1",
+      "gulp-electron": "0.0.10",
+      "gulp": "~3.9.1",
+      "deepcopy": "~0.6.1",
+      "electron-prebuilt": "~0.36.10"
+    }
+  },
+  "packageStatus": 200
 }

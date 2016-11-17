@@ -70,5 +70,23 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tutorial-menubar-app",
+    "version": "1.0.0",
+    "description": "A simple Electron tutorial app for the menubar",
+    "license": "MIT",
+    "repository": "github.com/ryanbaer/simple-electron-app",
+    "devDependencies": {
+      "electron-packager": "^8.0.0",
+      "electron-prebuilt": "^1.4.1"
+    },
+    "dependencies": {},
+    "main": "main.js",
+    "scripts": {
+      "build-osx": "electron-packager . Example --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
+      "start": "electron ."
+    }
+  },
+  "packageStatus": 200
 }

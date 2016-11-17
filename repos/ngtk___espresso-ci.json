@@ -64,5 +64,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "espresso-ci",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/ngtk/espresso-ci.git"
+    },
+    "author": "Kent Nagata",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ngtk/espresso-ci/issues"
+    },
+    "homepage": "https://github.com/ngtk/espresso-ci#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.2"
+    }
+  },
+  "packageStatus": 200
 }

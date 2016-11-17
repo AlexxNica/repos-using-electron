@@ -70,5 +70,18 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hero-browser",
+    "version": "0.1.0",
+    "main": "main.js",
+    "dependencies": {
+      "dotenv": "^2.0.0",
+      "md5": "^2.1.0"
+    },
+    "devDependencies": {
+      "electron": "^1.4.4"
+    }
+  },
+  "packageStatus": 200
 }

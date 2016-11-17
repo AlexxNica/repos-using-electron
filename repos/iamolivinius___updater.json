@@ -64,5 +64,48 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "updater",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "postinstall": "typings install",
+      "test": "rimraf coverage && karma start --single-run && npm run coverage",
+      "coverage": "npm run coverage:remap && npm run coverage:report",
+      "coverage:remap": "remap-istanbul -i coverage/coverage.json -o coverage/coverage.json -t json",
+      "coverage:report": "istanbul report html"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "electron": "^1.3.3",
+      "electron-prebuilt": "^1.3.4",
+      "fetch-mock": "^5.1.1",
+      "istanbul": "^0.4.5",
+      "istanbul-instrumenter-loader": "^0.2.0",
+      "karma": "^1.2.0",
+      "karma-chrome-launcher": "^1.0.1",
+      "karma-coverage": "^1.1.1",
+      "karma-electron": "^4.0.0",
+      "karma-mocha": "^1.1.1",
+      "karma-source-map-support": "^1.1.0",
+      "karma-webpack": "^1.8.0",
+      "mocha": "^3.0.2",
+      "remap-istanbul": "^0.6.4",
+      "rimraf": "^2.5.4",
+      "sinon": "^1.17.5",
+      "ts-loader": "^0.8.2",
+      "typescript": "^2.1.0-dev.20160822",
+      "typings": "^1.3.2",
+      "wallaby-webpack": "0.0.23",
+      "webpack": "^1.13.2"
+    },
+    "dependencies": {
+      "whatwg-fetch": "^1.0.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron_ex",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "window": {
+      "toolbar": false,
+      "width": 800,
+      "height": 500
+    },
+    "author": "",
+    "dependencies": {
+      "pretty-bytes": "^2.0.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.2"
+    },
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "license": "ISC"
+  },
+  "packageStatus": 200
 }

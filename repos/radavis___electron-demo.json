@@ -64,5 +64,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-demo",
+    "version": "1.0.0",
+    "description": "Electron demo built from Adam Simpsons slides @ https://speakerdeck.com/asimpson/build-your-own-tools-with-electron-and-react",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/radavis/electron-demo.git"
+    },
+    "keywords": [
+      "electron"
+    ],
+    "author": "Richard Davis",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/radavis/electron-demo/issues"
+    },
+    "homepage": "https://github.com/radavis/electron-demo#readme",
+    "devDependencies": {
+      "electron": "^1.3.4"
+    }
+  },
+  "packageStatus": 200
 }

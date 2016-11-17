@@ -64,5 +64,49 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "my-app",
+    "main": "main.js",
+    "private": true,
+    "productName": "my-app",
+    "version": "1.0.1",
+    "author": "My Company Ltd",
+    "description": "My Application",
+    "dependencies": {
+      "electron-squirrel-startup": "^1.0.0"
+    },
+    "devDependencies": {
+      "7zip-bin-osx": "^1.0.0",
+      "appdmg": "^0.4.5",
+      "electron": "^1.3.4",
+      "electron-builder": "^6.3.0",
+      "electron-packager": "^7.7.0",
+      "electron-prebuilt": "1.3.4",
+      "electron-squirrel-startup": "^1.0.0"
+    },
+    "scripts": {
+      "dev": "electron . --enable-logging",
+      "start": "NODE_ENV=development electron .",
+      "clean": "rm -rf ./dist",
+      "clean:osx": "rm -rf ./dist/osx",
+      "clean:win": "rm -rf ./dist/win",
+      "pack": "npm run clean && npm run pack:osx && npm run pack:win",
+      "pack:osx": "npm run clean:osx && electron-packager . $npm_package_productName --app-version=$npm_package_version --version=1.3.4 --out=dist/osx --ignore=dist --platform=darwin --arch=x64 --icon=osx-icon.icns",
+      "pack:win": "npm run clean:win && electron-packager . $npm_package_productName --app-version=$npm_package_version --version=1.3.4 --out=dist/win --ignore=dist --platform=win32 --arch=x64 --icon=win-icon.ico",
+      "build": "npm run build:osx && npm run build:win",
+      "build:osx": "npm run pack:osx && build dist/osx/my-app-darwin-x64/my-app.app --mac",
+      "build:win": "npm run pack:win && build dist/win/my-app-win32-x64 --win"
+    },
+    "build": {
+      "appId": "my.id",
+      "category": "my.app.category.type",
+      "win": {
+        "iconUrl": "https://raw.githubusercontent.com/zeit/hyperterm/master/build/icon.ico",
+        "icon": "./win-icon.ico",
+        "loadingGif": "./loading.gif"
+      }
+    }
+  },
+  "packageStatus": 200
 }

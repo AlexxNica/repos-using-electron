@@ -64,5 +64,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "MyApp",
+    "main": "main.js",
+    "private": true,
+    "productName": "MyApp",
+    "version": "1.0.1",
+    "author": "My Company Ltd",
+    "description": "MyApp",
+    "devDependencies": {
+      "electron": "^1.4.3",
+      "electron-builder": "^7.14.1"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "build --win",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "build": {
+      "squirrelWindows": {},
+      "win": {}
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ramkrk/JKBrowser.git"
+    }
+  },
+  "packageStatus": 200
 }

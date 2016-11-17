@@ -64,5 +64,19 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Blink",
+    "version": "0.1.0",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "autor": "zkov",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.8",
+      "less": "^2.6.0"
+    }
+  },
+  "packageStatus": 200
 }

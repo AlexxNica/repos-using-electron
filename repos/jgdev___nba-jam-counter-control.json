@@ -64,5 +64,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "nba-game-control",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Joan Peralta <joanperalta13@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+      "dialogs": "^1.1.14",
+      "electron": "^0.4.1",
+      "jquery": "^3.1.0"
+    }
+  },
+  "packageStatus": 200
 }

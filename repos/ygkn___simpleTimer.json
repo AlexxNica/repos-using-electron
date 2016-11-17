@@ -70,5 +70,29 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "simpletimer",
+    "version": "1.0.0",
+    "description": "simple, minimum, light timer.",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ygkn/simpleTimer.git"
+    },
+    "author": "ygkn",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ygkn/simpleTimer/issues"
+    },
+    "homepage": "https://github.com/ygkn/simpleTimer#readme",
+    "devDependencies": {
+      "electron": "^1.4.5",
+      "electron-packager": "^8.2.0"
+    }
+  },
+  "packageStatus": 200
 }

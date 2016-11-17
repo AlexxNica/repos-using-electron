@@ -64,5 +64,20 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "todo-electron",
+    "version": "1.0.0",
+    "description": "TODO with Electron.Atom",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "author": "Diego Humpire",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.9"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,21 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Hack",
+    "version": "0.1.0",
+    "main": "app.js",
+    "dependencies": {
+      "hack-linguist": "^1.0.0",
+      "lowdb": "^0.7.3"
+    },
+    "scripts": {
+      "postinstall": "cd node_modules && mkdir __base && cd __base && echo module.exports = require('path').resolve(__dirname + '/../../') + '/'; > index.js"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.25.2"
+    }
+  },
+  "packageStatus": 200
 }

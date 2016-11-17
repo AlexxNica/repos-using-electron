@@ -64,5 +64,29 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ElectronTute",
+    "version": "1.0.0",
+    "author": "Brameshmadhav S <sbmadhav@gmail.com>",
+    "license": "MIT",
+    "description": "Tutorial app",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . ElectronTute --platform=darwin --arch=x64 --version=0.31.2 --ignore=node_modules/electron-*"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.2",
+      "electron-prebuilt": "^0.31.2",
+      "node-inspector": "^0.12.7",
+      "node-pre-gyp": "git+https://git@github.com/enlight/node-pre-gyp.git#detect-electron-runtime-in-find",
+      "react": "^0.14.7"
+    },
+    "dependencies": {
+      "electron-packager": "^5.2.1",
+      "react": "^0.14.7"
+    }
+  },
+  "packageStatus": 200
 }

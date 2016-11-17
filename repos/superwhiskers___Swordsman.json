@@ -70,5 +70,19 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Swordsman",
+    "version": "0.0.1",
+    "license": "MPL-2.0",
+    "description": "Client interface for KBRPG",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/superwhisker/swordsman.git"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^1.2.6"
+    }
+  },
+  "packageStatus": 200
 }

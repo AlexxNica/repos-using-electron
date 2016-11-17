@@ -70,5 +70,28 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hello-world-electron",
+    "version": "1.0.0",
+    "description": "Hello World desktop app written in electron",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/louiedp3/hello-world-electron.git"
+    },
+    "author": "Louie Perez",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/louiedp3/hello-world-electron/issues"
+    },
+    "homepage": "https://github.com/louiedp3/hello-world-electron#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.2"
+    }
+  },
+  "packageStatus": 200
 }

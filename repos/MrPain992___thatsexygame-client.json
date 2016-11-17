@@ -70,5 +70,33 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "thatsexygame-client",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MrPain992/thatsexygame-client.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/MrPain992/thatsexygame-client/issues"
+    },
+    "homepage": "https://github.com/MrPain992/thatsexygame-client#readme",
+    "dependencies": {
+      "electron-prebuilt": "^1.1.2",
+      "ipc": "0.0.1",
+      "jquery": "^2.2.4",
+      "remote": "^0.2.6",
+      "socket.io": "^1.4.6"
+    }
+  },
+  "packageStatus": 200
 }

@@ -78,5 +78,35 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Quevent",
+    "version": "0.0.1",
+    "description": "A stacked TODO list",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Quevent/Quevent.git"
+    },
+    "keywords": [
+      "quevent",
+      "TODO",
+      "list",
+      "stack",
+      "event"
+    ],
+    "author": "Moulindra Muchumari",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/Quevent/Quevent/issues"
+    },
+    "homepage": "https://github.com/Quevent/Quevent/blob/master/README.md",
+    "devDependencies": {
+      "electron-prebuilt": "^1.0.1"
+    }
+  },
+  "packageStatus": 200
 }

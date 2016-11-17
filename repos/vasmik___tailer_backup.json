@@ -64,5 +64,23 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tailer",
+    "productName": "Tailer",
+    "version": "1.0.0",
+    "main": "./src/main.js",
+    "scripts": {
+      "start": "electron src/main.js"
+    },
+    "author": "Vasily Miktyukov",
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.0"
+    },
+    "dependencies": {
+      "always-tail": "^0.2.0",
+      "tail": "^0.4.0"
+    }
+  },
+  "packageStatus": 200
 }

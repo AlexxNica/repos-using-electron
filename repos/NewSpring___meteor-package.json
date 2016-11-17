@@ -78,5 +78,39 @@
   },
   "networkCount": 0,
   "subscribersCount": 8,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "meteor-package",
+    "version": "0.0.1",
+    "description": "Package meteor for all the things.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/newspring/meteor-package"
+    },
+    "keywords": [
+      "meteor"
+    ],
+    "bin": {
+      "meteor-package": "./bin/meteor-package"
+    },
+    "author": "johnthepink",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/newspring/meteor-package/issues"
+    },
+    "homepage": "https://github.com/newspring/meteor-package",
+    "dependencies": {
+      "bigbuffer": "0.0.5",
+      "electron-prebuilt": "^0.33.3",
+      "fs-sync": "^0.2.6",
+      "meteor-shell": "git://github.com/newspring/meteor-shell",
+      "minimist": "^1.2.0",
+      "underscore": "^1.8.3"
+    }
+  },
+  "packageStatus": 200
 }

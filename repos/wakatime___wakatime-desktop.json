@@ -84,5 +84,34 @@
   },
   "networkCount": 5,
   "subscribersCount": 7,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "wakatime-desktop",
+    "version": "1.0.0",
+    "description": "WakaTime desktop program.",
+    "main": "src/js/main.js",
+    "scripts": {
+      "start": "electron src/js/main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/electron/electron-quick-start#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.1.1"
+    }
+  },
+  "packageStatus": 200
 }

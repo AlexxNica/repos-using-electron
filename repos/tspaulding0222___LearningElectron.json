@@ -64,5 +64,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "proton-template-app",
+    "version": "1.0.0",
+    "description": "A simple template app for Proton",
+    "main": "app.js",
+    "author": "Connor Sears",
+    "scripts": {
+      "start": "./node_modules/.bin/electron ."
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.7"
+    },
+    "dependencies": {
+      "electron-window-manager": "^1.0.1"
+    }
+  },
+  "packageStatus": 200
 }

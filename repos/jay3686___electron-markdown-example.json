@@ -70,5 +70,39 @@
   },
   "networkCount": 2,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-markdown-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "dependencies": {
+      "electron-prebuilt": "^0.37.2",
+      "emojify.js": "^1.1.0",
+      "highlight.js": "^9.2.0",
+      "install": "^0.6.0",
+      "marked": "^0.3.5",
+      "npm": "^3.8.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jay3686/electron-markdown-example.git"
+    },
+    "keywords": [
+      "electron",
+      "markdown"
+    ],
+    "author": "Jay Patel",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/jay3686/electron-markdown-example/issues"
+    },
+    "homepage": "https://github.com/jay3686/electron-markdown-example#readme"
+  },
+  "packageStatus": 200
 }

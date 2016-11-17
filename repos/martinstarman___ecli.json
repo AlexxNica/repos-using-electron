@@ -70,5 +70,16 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ecli",
+    "version": "0.3.0",
+    "bin": {
+      "ecli": "ecli.js"
+    },
+    "dependencies": {
+      "electron": "^1.4.3"
+    }
+  },
+  "packageStatus": 200
 }

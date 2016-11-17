@@ -64,5 +64,59 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-base",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "prod": "webpack",
+      "dev": "webpack --watch",
+      "electron": "electron ."
+    },
+    "author": "Daniel Silva <danfilipesilva@gmail.com> (http://www.dfilipes.com)",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-core": "^6.14.0",
+      "babel-eslint": "^6.1.2",
+      "babel-loader": "^6.2.5",
+      "babel-preset-es2015": "^6.14.0",
+      "babel-preset-es2015-loose": "^8.0.0",
+      "babel-preset-react": "^6.11.1",
+      "babel-preset-stage-1": "^6.13.0",
+      "clean-webpack-plugin": "^0.1.10",
+      "css-loader": "^0.25.0",
+      "electron": "^1.4.0",
+      "eslint": "^3.5.0",
+      "eslint-loader": "^1.5.0",
+      "eslint-plugin-react": "^6.2.2",
+      "extract-text-webpack-plugin": "^1.0.1",
+      "file-loader": "^0.9.0",
+      "html-webpack-plugin": "^2.22.0",
+      "image-webpack-loader": "^2.0.0",
+      "node-sass": "^3.10.0",
+      "purifycss-webpack-plugin": "^2.0.3",
+      "sass-loader": "^4.0.2",
+      "style-loader": "^0.13.1",
+      "url-loader": "^0.5.7",
+      "webpack": "^1.13.2",
+      "webpack-merge": "^0.14.1",
+      "webpack-target-electron-renderer": "^0.4.0",
+      "webpack-validator": "^2.2.7"
+    },
+    "dependencies": {
+      "immutable": "^3.8.1",
+      "react": "^15.3.1",
+      "react-dom": "^15.3.1",
+      "react-redux": "^4.4.5",
+      "react-router": "^2.8.1",
+      "react-router-redux": "^4.0.6",
+      "redux": "^3.6.0",
+      "redux-logger": "^2.6.1",
+      "redux-thunk": "^2.1.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -84,5 +84,26 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "showcase",
+    "version": "0.0.1",
+    "description": "Minimal Electron app to test mox addon modules",
+    "main": "app.js",
+    "scripts": {
+      "start": "electron .",
+      "watchjs": "watchify -d -v -e src/entry.js -o build/showcase.js"
+    },
+    "author": "Jayesh Salvi",
+    "dependencies": {
+      "electron": "^1.4.3",
+      "electron-rebuild": "^1.2.1",
+      "moxcad": "file:///home/jayesh/code/moxspc/cad",
+      "three": "^0.81.2"
+    },
+    "devDependencies": {
+      "watchify": "^3.7.0"
+    }
+  },
+  "packageStatus": 200
 }

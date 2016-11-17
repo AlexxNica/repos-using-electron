@@ -70,5 +70,28 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "myOS",
+    "version": "1.0.0",
+    "description": "Operating System",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "",
+    "keywords": [
+      "Electron"
+    ],
+    "author": "",
+    "license": "UNLICENSED",
+    "devDependencies": {
+      "electron": "^1.4.1"
+    },
+    "dependencies": {
+      "jquery": "^3.1.1",
+      "metro-dist": "^3.0.15"
+    }
+  },
+  "packageStatus": 200
 }

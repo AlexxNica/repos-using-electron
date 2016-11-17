@@ -70,5 +70,53 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "recipe-box",
+    "version": "0.0.1",
+    "description": "Electron Recipe Box App",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "package": "electron-packager ./ recipe-box --all --out ./build --version 1.2.0 --overwrite",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jnmorse/recipe-box.git"
+    },
+    "keywords": [
+      "electron",
+      "react",
+      "fleet",
+      "truck",
+      "tracking"
+    ],
+    "author": "Joseph Morse <tamed.lionheart@gmail.com> (https://github.com/jnmorse)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jnmorse/recipe-box/issues"
+    },
+    "homepage": "https://github.com/jnmorse/recipe-box#readme",
+    "devDependencies": {
+      "babel-eslint": "^6.0.4",
+      "electron-packager": "^7.0.2",
+      "electron-prebuilt": "^1.2.0",
+      "eslint": "^2.11.0",
+      "eslint-plugin-react": "^5.1.1"
+    },
+    "dependencies": {
+      "babel-core": "^6.9.1",
+      "babel-preset-jnmorse": "github:jnmorse/babel-preset-jnmorse#v0.0.1",
+      "babel-register": "^6.9.0",
+      "react": "^15.1.0",
+      "react-dom": "^15.1.0",
+      "react-redux": "^4.4.5",
+      "react-router": "^2.4.1",
+      "redux": "^3.5.2",
+      "redux-configure-store": "file:local-modules/redux-configure-store",
+      "redux-thunk": "^2.1.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,71 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-stub",
+    "productName": "electron-stub",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/awinogradov/electron-stub.git"
+    },
+    "keywords": [
+      "Electron",
+      "start",
+      "tutorial"
+    ],
+    "author": "winogradovaa@gmail.com",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/awinogradov/electron-stub/issues"
+    },
+    "homepage": "https://github.com/awinogradov/electron-stub#readme",
+    "devDependencies": {
+      "bem-core": "^3.0.1",
+      "bem-grid": "^2.3.3",
+      "browser-sync": "^2.12.8",
+      "chai": "^3.5.0",
+      "chai-as-promised": "^5.3.0",
+      "concurrently": "^2.1.0",
+      "devtron": "^1.1.1",
+      "electron-packager": "^7.0.1",
+      "electron-prebuilt": "^1.1.0",
+      "electron-winstaller": "^2.3.0",
+      "enb": "^1.3.0",
+      "enb-bem-techs": "^2.2.1",
+      "enb-bemxjst": "^6.4.1",
+      "enb-js": "^1.1.0",
+      "enb-modules": "^0.2.0",
+      "enb-postcss": "^0.2.1",
+      "mocha": "^2.4.5",
+      "nodemon": "^1.9.2",
+      "postcss-browser-reporter": "^0.5.0",
+      "postcss-cssnext": "^2.5.2",
+      "postcss-csso": "^1.1.2",
+      "postcss-font-magician": "^1.4.0",
+      "postcss-import": "^8.1.2",
+      "postcss-nested": "^1.0.0",
+      "postcss-reporter": "^1.3.3",
+      "postcss-url": "^5.1.2",
+      "spectron": "^3.0.0",
+      "ym": "^0.1.2"
+    },
+    "dependencies": {
+      "electron-json-storage": "^2.0.0",
+      "electron-shortcut-normalizer": "^1.0.0"
+    },
+    "scripts": {
+      "start": "electron index",
+      "build": "enb make",
+      "dev-server": "enb make clean && node dev-server",
+      "hot": "NODE_ENV=HOT electron index",
+      "dev": "npm run build && npm start",
+      "debug": "electron index --debug",
+      "test": "mocha tests"
+    }
+  },
+  "packageStatus": 200
 }

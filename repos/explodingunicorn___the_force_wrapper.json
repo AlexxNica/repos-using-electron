@@ -64,5 +64,26 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "the_force",
+    "version": "1.0.0",
+    "description": "Wrapper for The_Force IDE",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Corey",
+    "license": "ISC",
+    "dependencies": {
+      "electron": "^1.4.1",
+      "express": "^4.14.0"
+    },
+    "devDependencies": {
+      "grunt": "^1.0.1",
+      "grunt-processhtml": "^0.4.1",
+      "grunt-run": "^0.6.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -84,5 +84,73 @@
   },
   "networkCount": 2,
   "subscribersCount": 7,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "coinstac",
+    "version": "2.0.0",
+    "description": "Decentralized Analyses Made Easy",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+      "async": "^2.0.0-rc.6",
+      "eslint": "^3.0.0",
+      "eslint-config-airbnb": "^9.0.1",
+      "eslint-plugin-import": "^1.10.1",
+      "eslint-plugin-jsx-a11y": "^1.5.3",
+      "eslint-plugin-react": "^5.2.2",
+      "cross-spawn": "^4.0.0",
+      "fs-extra": "^0.30.0",
+      "gh-pages": "^0.11.0",
+      "github-markdown-css": "^2.3.0",
+      "jsdoc": "^3.4.0",
+      "lerna": "2.0.0-beta.30",
+      "marked": "^0.3.5",
+      "minami": "^1.1.1",
+      "pre-commit": "^1.1.3",
+      "shelljs": "^0.7.0",
+      "swig-templates": "^2.0.1"
+    },
+    "scripts": {
+      "bootstrap": "lerna bootstrap",
+      "lint": "eslint '**/*.js' '**/bin/*'",
+      "lintfix": "eslint --fix **/*.js",
+      "publish": "lerna publish && node scripts/docs.js",
+      "test": "node scripts/test.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MRN-Code/coinstac.git"
+    },
+    "keywords": [
+      "coins",
+      "coinstac",
+      "analysis",
+      "distributed",
+      "decentralized",
+      "differential",
+      "privacy"
+    ],
+    "author": "NI Development - The Mind Research Network <nidev@mrn.org> (http://coins.mrn.org)",
+    "contributors": [
+      "Chris Dieringer <cdaringe@gmail.org>",
+      "Cory Reed <swashcap@gmail.com>",
+      "Ross Kelly <rkelly@mrn.org>",
+      "Drew Landis <landis.d@gmail.com>",
+      "Sergey Plis <splis@mrn.org>"
+    ],
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/MRN-Code/coinstac/issues"
+    },
+    "homepage": "https://github.com/MRN-Code/coinstac#readme",
+    "pre-commit": {
+      "colors": true,
+      "silent": false,
+      "run": [
+        "lint",
+        "test"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

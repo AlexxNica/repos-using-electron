@@ -70,5 +70,28 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "dedupe-htmlguy",
+    "version": "1.0.0",
+    "description": "File Deduplicator",
+    "main": "index.js",
+    "keywords": [
+      "dedupe",
+      "file",
+      "deduplicate",
+      "deduplicator",
+      "duplicates",
+      "dupe",
+      "dupes"
+    ],
+    "author": "htmlguy",
+    "license": "Unlicense",
+    "repo": "htmlguy/dedupe",
+    "dependencies": {
+      "electron-prebuilt": "^0.36.7",
+      "walk": "^2.3.9"
+    }
+  },
+  "packageStatus": 200
 }

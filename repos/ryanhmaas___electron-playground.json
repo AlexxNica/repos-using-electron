@@ -64,5 +64,19 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-sampler",
+    "version": "0.0.1",
+    "main": "main.js",
+    "devDependencies": {
+      "electron": "^1.4.4",
+      "electron-packager": "^8.1.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . electron-playground --icon=db-logo-test.icns"
+    }
+  },
+  "packageStatus": 200
 }

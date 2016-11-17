@@ -78,5 +78,37 @@
   },
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-screenshot",
+    "version": "0.1.0",
+    "description": "Service to make screenshot of given URL",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "trikadin@mail.ru",
+    "license": "UNLICENSED",
+    "private": true,
+    "devDependencies": {
+      "jscs": "^2.9.0"
+    },
+    "dependencies": {
+      "config": "^1.19.0",
+      "electron-prebuilt": "^0.36.7",
+      "electron-screenshot-app": "^2.1.0",
+      "express": "^4.13.4",
+      "sugar": "^1.4.1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Edadeal/electron-screenshot-rest.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Edadeal/electron-screenshot-rest/issues"
+    },
+    "homepage": "https://github.com/Edadeal/electron-screenshot-rest#readme"
+  },
+  "packageStatus": 200
 }

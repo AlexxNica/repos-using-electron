@@ -70,5 +70,42 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "comrade",
+    "version": "0.0.2",
+    "description": "A general purpose alarm clock computer, similar to a Chumby",
+    "main": "app/main.js",
+    "scripts": {
+      "start": "NODE_ENV=production startx ./node_modules/electron-prebuilt/dist/electron .",
+      "test": "NODE_ENV=development ./node_modules/electron-prebuilt/dist/electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mccollam/comrade"
+    },
+    "keywords": [
+      "comrade",
+      "chumby",
+      "clock"
+    ],
+    "dependencies": {
+      "electron-prebuilt": "1.2.8",
+      "pi-pins": "~1.0.2"
+    },
+    "author": "Ronald McCollam",
+    "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/mccollam/comrade/issues"
+    },
+    "homepage": "https://github.com/mccollam/comrade#readme",
+    "jshintConfig": {
+      "esnext": true,
+      "strict": true
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.5"
+    }
+  },
+  "packageStatus": 200
 }

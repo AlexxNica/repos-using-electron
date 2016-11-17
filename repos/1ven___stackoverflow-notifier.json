@@ -64,5 +64,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "stackoverflow-notifier",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-preset-es2015": "^6.9.0",
+      "babel-preset-react": "^6.11.1",
+      "babel-register": "^6.11.6",
+      "electron-prebuilt": "^1.3.1",
+      "redux-logger": "^2.6.1"
+    },
+    "dependencies": {
+      "babel-polyfill": "^6.9.1",
+      "isomorphic-fetch": "^2.2.1",
+      "react": "^15.3.0",
+      "react-dom": "^15.3.0",
+      "redux": "^3.5.2",
+      "redux-saga": "^0.11.0"
+    }
+  },
+  "packageStatus": 200
 }

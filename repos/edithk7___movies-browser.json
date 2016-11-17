@@ -70,5 +70,18 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "PBBrowser",
+    "version": "0.1.0",
+    "main": "main.js",
+    "dependencies": {
+      "electron-image-resize": "^1.2.4",
+      "open": "^0.0.5"
+    },
+    "devDependencies": {
+      "electron": "^1.4.3"
+    }
+  },
+  "packageStatus": 200
 }

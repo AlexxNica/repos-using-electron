@@ -64,5 +64,26 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "mirror-display",
+    "version": "1.0.0",
+    "description": "Mirror Display app with Electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/GwonHyeok/mirror-display",
+    "keywords": [],
+    "author": "GwonHyeok",
+    "license": "ISC",
+    "devDependencies": {
+      "electron": "^1.4.1"
+    },
+    "dependencies": {
+      "electron-reload": "^1.0.3",
+      "kma-js": "^1.0.4"
+    }
+  },
+  "packageStatus": 200
 }

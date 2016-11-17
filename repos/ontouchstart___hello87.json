@@ -64,5 +64,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hello87",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "./node_modules/.bin/electron-packager app hello87 --platform=all --arch=x64 --version=0.34.2"
+    },
+    "author": "Sam Liu <ontouchstart@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-packager": "^5.1.1",
+      "install": "^0.2.3",
+      "npm": "^3.3.10"
+    }
+  },
+  "packageStatus": 200
 }

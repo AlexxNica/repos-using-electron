@@ -70,5 +70,30 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "cloudmusic-radio",
+    "version": "0.0.0",
+    "description": "Personal radio player for netease cloudmusic",
+    "main": "src/app.js",
+    "author": "Qiu Xiang <xiang.qiu@qq.com>",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/qiuxiang/personal-radio.git"
+    },
+    "scripts": {
+      "start": "electron ."
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.27.3",
+      "less": "^2.5.1",
+      "open": "0.0.5",
+      "react": "^0.13.3",
+      "request": "^2.57.0",
+      "tough-cookie-filestore": "0.0.1",
+      "node-notifier": "~4.2.1"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,50 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ehebel-angular-electron",
+    "version": "0.0.1",
+    "description": "Prueba de construir un pacs",
+    "main": "index.js",
+    "scripts": {
+      "build": "webpack --progress --profile --colors --display-error-details --display-cached",
+      "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
+      "postinstall": "typings install",
+      "start": "electron .",
+      "typings": "typings",
+      "tsc": "tsc",
+      "tsc:w": "tsc -w"
+    },
+    "author": "Esteban Hebel",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^1.4.3",
+      "electron-compilers": "^4.0.1",
+      "es6-shim": "^0.34.0",
+      "ts-loader": "^0.7.2",
+      "typescript": "^2.0.3",
+      "webpack": "^1.12.9",
+      "webpack-dev-server": "^1.14.0"
+    },
+    "dependencies": {
+      "@angular/common": "2.0.0",
+      "@angular/compiler": "2.0.0",
+      "@angular/core": "2.0.0",
+      "@angular/forms": "2.0.0",
+      "@angular/http": "2.0.0",
+      "@angular/platform-browser": "2.0.0",
+      "@angular/platform-browser-dynamic": "2.0.0",
+      "@angular/router": "3.0.0",
+      "bootstrap": "^3.3.7",
+      "angular-in-memory-web-api": "~0.1.5",
+      "core-js": "^2.4.1",
+      "reflect-metadata": "^0.1.8",
+      "electron-compile": "^3.3.6",
+      "rxjs": "5.0.0-beta.12",
+      "ts-helpers": "^1.1.1",
+      "zone.js": "^0.6.23"
+    }
+  },
+  "packageStatus": 200
 }

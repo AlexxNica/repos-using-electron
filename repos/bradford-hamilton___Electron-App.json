@@ -64,5 +64,27 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Electron-Express-App",
+    "version": "1.0.0",
+    "description": "First Electron App with Express",
+    "main": "main.js",
+    "scripts": {
+      "start": "node ./start-electron.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
+    "author": "Bradford Lamson-Scribner",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "jquery": "^2.2.4"
+    }
+  },
+  "packageStatus": 200
 }

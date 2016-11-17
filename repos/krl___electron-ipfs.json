@@ -64,5 +64,44 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-ipfs",
+    "version": "0.1.0",
+    "description": "Ipfs electron",
+    "main": "index.js",
+    "dependencies": {
+      "electron-prebuilt": "0.26.1",
+      "ipfsd-ctl": "0.1.11",
+      "multiaddr": "^0.1.2"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ipfs/electron-ipfs"
+    },
+    "devDependencies": {
+      "pre-commit": "^1.0.6",
+      "standard": "^3.3.2"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "lint": "git diff --name-only --cached --relative | egrep .js$ | xargs --no-run-if-empty standard"
+    },
+    "pre-commit": [
+      "lint"
+    ],
+    "keywords": [
+      "ipfs"
+    ],
+    "author": "Matt Bell <mappum@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ipfs/node-ipfs-api/issues"
+    },
+    "homepage": "https://github.com/ipfs/node-ipfs-api",
+    "directories": {
+      "example": "examples"
+    }
+  },
+  "packageStatus": 200
 }

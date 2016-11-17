@@ -70,5 +70,34 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "dota-mango",
+    "version": "0.1.0",
+    "description": "A stats tracker for Dota 2",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron --debug=5858 ./scripts/index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Flascher/dota-mango.git"
+    },
+    "keywords": [
+      "stats",
+      "dota",
+      "dota2",
+      "track"
+    ],
+    "author": "Flascher",
+    "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/Flascher/dota-mango/issues"
+    },
+    "homepage": "https://github.com/Flascher/dota-mango#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.32.3"
+    }
+  },
+  "packageStatus": 200
 }

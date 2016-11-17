@@ -84,5 +84,39 @@
   },
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Projection",
+    "version": "0.1.0",
+    "description": "Live data viewer",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Orthogonal-Systems/Projection.git"
+    },
+    "keywords": [
+      "Projection",
+      "Origin",
+      "data",
+      "viewer"
+    ],
+    "author": "Matthew Ebert",
+    "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/Orthogonal-Systems/Projection/issues"
+    },
+    "homepage": "https://github.com/Orthogonal-Systems/Projection#readme",
+    "dependencies": {
+      "zmq": "~2.15.3",
+      "jquery": "~3.1.0",
+      "dygraphs": "~1.1.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "~1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

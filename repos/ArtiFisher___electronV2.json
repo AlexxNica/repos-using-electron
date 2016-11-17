@@ -64,5 +64,20 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-app",
+    "main": "app/main.js",
+    "scripts": {
+      "build:src": "rm -rf dist && cp -r node_modules/electron-prebuilt/dist dist && cp -r app dist/resources",
+      "build:asar": "rm -rf dist && cp -r node_modules/electron-prebuilt/dist dist && asar pack app dist/resources/app.asar",
+      "build": "npm run build:src",
+      "start": "start node_modules/electron-prebuilt/dist/electron.exe app/main.js"
+    },
+    "devDependencies": {
+      "asar": "^0.11.0",
+      "electron-prebuilt": "^1.1.0"
+    }
+  },
+  "packageStatus": 200
 }

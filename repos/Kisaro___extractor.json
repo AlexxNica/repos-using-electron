@@ -70,5 +70,19 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "extractor",
+    "version": "0.0.1",
+    "repository": "https://github.com/Kisaro/extractor.git",
+    "main": "index.js",
+    "scripts": {
+      "start": "node_modules/.bin/electron ."
+    },
+    "devDependencies": {
+      "electron-prebuilt": "1.4.x",
+      "request": "*"
+    }
+  },
+  "packageStatus": 200
 }

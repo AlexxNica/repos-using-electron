@@ -64,5 +64,35 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "generate-donation-report",
+    "version": "1.0.0",
+    "description": "Create an excel sheet combining donation and membership information from church windows",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ashwin-jacob/generate-donation-report.git"
+    },
+    "keywords": [
+      "Electron",
+      "church",
+      "windows"
+    ],
+    "author": "ashwin-jacob",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ashwin-jacob/generate-donation-report/issues"
+    },
+    "homepage": "https://github.com/ashwin-jacob/generate-donation-report",
+    "dependencies": {
+      "electron": "^1.4.1",
+      "fast-csv": "^2.2.0",
+      "msexcel-builder": "0.0.2"
+    }
+  },
+  "packageStatus": 200
 }

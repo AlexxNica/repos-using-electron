@@ -64,5 +64,24 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "pic-rank",
+    "version": "0.0.1",
+    "description": "Photo manager that can rank all of photo in it.",
+    "main": "./src/js/main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Domikoapp",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^1.4.3",
+      "filecopy": "^2.1.2",
+      "fs": "0.0.1-security",
+      "sqlite3": "^3.1.6",
+      "typescript": "^2.0.3"
+    }
+  },
+  "packageStatus": 200
 }

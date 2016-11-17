@@ -70,5 +70,35 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Monitor",
+    "version": "1.0.0",
+    "description": "A Node.js-Based IP camera monitor software",
+    "main": "server.js",
+    "scripts": {
+      "start": "electron server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ScarletFloppy/Monitor.git"
+    },
+    "keywords": [
+      "Monitor"
+    ],
+    "author": "ScarletFloppy",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/ScarletFloppy/Monitor/issues"
+    },
+    "homepage": "https://github.com/ScarletFloppy/Monitor#readme",
+    "dependencies": {
+      "electron": "latest",
+      "jquery": "latest",
+      "bootstrap": "latest",
+      "express": "latest",
+      "mjpeg-consumer": "latest"
+    }
+  },
+  "packageStatus": 200
 }

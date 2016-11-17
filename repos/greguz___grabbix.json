@@ -70,5 +70,70 @@
   },
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "grabbix",
+    "version": "0.1.0",
+    "description": "plugin-based comics reader/downloader written with electron",
+    "main": "index.js",
+    "keywords": [
+      "manga",
+      "downloader",
+      "comic",
+      "book",
+      "cbr",
+      "cbz"
+    ],
+    "dependencies": {
+      "async": "^2.0.0-rc.5",
+      "backbone": "^1.3.3",
+      "backbone.marionette": "^2.4.7",
+      "backbone.radio": "^1.0.4",
+      "bluebird": "^3.3.4",
+      "grabbix-mangaeden": "https://github.com/greguz/grabbix-mangaeden.git",
+      "handlebars": "^4.0.5",
+      "i18next": "^2.5.1",
+      "i18next-node-fs-backend": "^0.1.2",
+      "intercom": "^0.5.1",
+      "iso-639-1": "^1.2.1",
+      "jquery": "^2.2.2",
+      "levenshtein": "^1.0.5",
+      "lodash": "^4.11.2",
+      "lokijs": "^1.3.16",
+      "mime-types": "^2.1.11",
+      "mkdirp": "^0.5.1",
+      "moment": "^2.12.0",
+      "needle": "^1.0.0",
+      "opn": "^4.0.1",
+      "os-locale": "^1.4.0",
+      "require-dir": "^0.3.0",
+      "sanitize-filename": "^1.6.0"
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "electron-prebuilt": "^1.2.0",
+      "gulp": "^3.9.1",
+      "gulp-define-module": "^0.1.4",
+      "gulp-handlebars": "^4.0.0",
+      "gulp-imagemin": "^3.0.0",
+      "gulp-less": "^3.1.0",
+      "mocha": "^2.5.3",
+      "mocha-jshint": "^2.3.1"
+    },
+    "scripts": {
+      "build": "mocha && gulp",
+      "start": "gulp && electron .",
+      "test": "mocha"
+    },
+    "author": {
+      "name": "Giacomo Gregoletto",
+      "email": "gregolettogiacomo@gmail.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/greguz/grabbix.git"
+    },
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

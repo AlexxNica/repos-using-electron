@@ -78,5 +78,20 @@
   },
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "magaret",
+    "version": "0.0.1",
+    "main": "src/app.js",
+    "scripts": {
+      "start": "electron app/app.js"
+    },
+    "dependencies": {
+      "async": "^2.1.2",
+      "electron": "^1.4.2",
+      "jsonfile": "^2.4.0",
+      "request": "^2.75.0"
+    }
+  },
+  "packageStatus": 200
 }

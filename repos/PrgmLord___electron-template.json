@@ -64,5 +64,21 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "projectname",
+    "version": "1.0.0",
+    "description": "electron starter template",
+    "main": "e.js",
+    "dependencies": {
+      "electron": "^1.4.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "electron ."
+    },
+    "author": "Foyez",
+    "license": "ISC"
+  },
+  "packageStatus": 200
 }

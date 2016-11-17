@@ -64,5 +64,27 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "programming-challenge",
+    "version": "1.0.0",
+    "description": "Jibo Programming Challenge",
+    "main": "main.js",
+    "scripts": {
+      "test": "mocha tests/*.js"
+    },
+    "author": "Jonathan Ross",
+    "license": "MIT",
+    "dependencies": {
+      "babel": "^5.3.3",
+      "chai": "^3.5.0",
+      "electron-prebuilt": "^0.26.0",
+      "lodash": "^4.13.1",
+      "mocha": "^2.5.3",
+      "react": "^0.13.3",
+      "react-bootstrap": "^0.22.0",
+      "win-spawn": "^2.0.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,20 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron_indeed",
+    "version": "0.0.1",
+    "description": "Electron wrapper for management tool for IoT things.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron . & cd app && npm start"
+    },
+    "author": "Igor Shabat - (a. k. a. infiman)",
+    "license": "MIT",
+    "dependencies": {
+      "electron-prebuilt": "^0.37.2"
+    }
+  },
+  "packageStatus": 200
 }

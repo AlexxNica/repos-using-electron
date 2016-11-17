@@ -70,5 +70,49 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "coloap",
+    "version": "0.0.1",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/totora0155/coloap.git"
+    },
+    "keywords": [
+      "color"
+    ],
+    "author": "nju33",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/totora0155/coloap/issues"
+    },
+    "homepage": "https://github.com/totora0155/coloap#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.6"
+    },
+    "dependencies": {
+      "alertify.js": "^1.0.8",
+      "cheerio": "^0.20.0",
+      "co": "^4.6.0",
+      "color": "^0.11.1",
+      "install": "^0.8.1",
+      "is-color": "^0.2.0",
+      "lodash.filter": "^4.4.0",
+      "lodash.find": "^4.4.0",
+      "lodash.foreach": "^4.3.0",
+      "lodash.groupby": "^4.4.0",
+      "lodash.map": "^4.4.0",
+      "lodash.merge": "^4.4.0",
+      "lodash.template": "^4.2.5",
+      "lodash.templatesettings": "^4.0.1",
+      "node-localstorage": "^1.1.2",
+      "npm": "^3.5.3"
+    }
+  },
+  "packageStatus": 200
 }

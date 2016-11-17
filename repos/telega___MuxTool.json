@@ -70,5 +70,38 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "MuxTool",
+    "productName": "MuxTool",
+    "version": "1.0.1",
+    "description": "A tool to mux audio and video files with ffmpeg",
+    "main": "app.js",
+    "homepage": "http://github.com/telega/MuxTool",
+    "author": {
+      "name": "Thomas Allen",
+      "email": "tom@telega.org",
+      "url": "http://telega.org"
+    },
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "git@github.com:telega/MuxTool.git",
+    "license": "MIT",
+    "dependencies": {
+      "@ffmpeg-installer/ffmpeg": "^1.0.3",
+      "@ffprobe-installer/ffprobe": "^1.0.4",
+      "electron-prebuilt": "^1.4.0",
+      "fluent-ffmpeg": "^2.1.0",
+      "mac-sounds": "^0.1.1",
+      "remote": "^0.2.6"
+    },
+    "devDependencies": {
+      "eslint": "^3.6.1",
+      "eslint-config-standard": "^6.1.0",
+      "eslint-plugin-promise": "^2.0.1",
+      "eslint-plugin-standard": "^2.0.1"
+    }
+  },
+  "packageStatus": 200
 }

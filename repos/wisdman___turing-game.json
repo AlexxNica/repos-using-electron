@@ -70,5 +70,35 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "turing-game",
+    "version": "0.0.1",
+    "description": "Turing test game for RedPepper Agency",
+    "author": "Wisdman <wisdman@ajaw.it>",
+    "license": "MIT",
+    "private": true,
+    "homepage": "https://github.com/wisdman/turing-game#readme",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wisdman/turing-game.git"
+    },
+    "bugs": {
+      "url": "https://github.com/wisdman/turing-game/issues"
+    },
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron .",
+      "dev": "electron . --debug",
+      "fullscreen": "electron . --fullscreen"
+    },
+    "dependencies": {
+      "electron": "*",
+      "netmask": "*",
+      "uuid": "*",
+      "virtual-keyboard": "*"
+    }
+  },
+  "packageStatus": 200
 }

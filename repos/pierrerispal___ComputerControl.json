@@ -70,5 +70,31 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "personnalAssistant",
+    "version": "1.0.0",
+    "description": "An appli with voices commands and stuff",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pierrerispal/personnalAssistant.git"
+    },
+    "keywords": [
+      "Electron"
+    ],
+    "author": "Pierre Rispal",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/pierrerispal/personnalAssistant.git/issues"
+    },
+    "homepage": "https://github.com/pierrerispal/personnalAssistant.git#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

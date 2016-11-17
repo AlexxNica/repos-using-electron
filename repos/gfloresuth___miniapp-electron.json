@@ -64,5 +64,27 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "miniapp",
+    "version": "1.0.0",
+    "description": "Mini App",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron .",
+      "build": "electron-packager . MiniAppDist"
+    },
+    "keywords": [
+      "Mini",
+      "App"
+    ],
+    "author": "Gustavo Adolfo Flores González",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "latest",
+      "electron-packager": "latest"
+    }
+  },
+  "packageStatus": 200
 }

@@ -70,5 +70,43 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "pomodoro",
+    "version": "0.1.0",
+    "main": "main.js",
+    "dependencies": {
+      "d3": "^4.1.1",
+      "electron-prebuilt": "^1.2.8",
+      "functional-red-black-tree": "^1.0.1"
+    },
+    "scripts": {
+      "start": "electron .",
+      "postinstall": "install-app-deps",
+      "pack": "build --dir",
+      "dist": "build"
+    },
+    "build": {
+      "appId": "midas.id",
+      "app-category-type": "public.app-category.productivity",
+      "win": {
+        "iconUrl": "http://www.freeiconspng.com/uploads/timer-icon-0.png"
+      }
+    },
+    "description": "A Pomodoro timer that keep tracks of what you have done.",
+    "devDependencies": {},
+    "keywords": [
+      "pomodoro",
+      "timer",
+      "js",
+      "electron"
+    ],
+    "author": "Midas Lambrichts",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MidasLamb/Pomodoro"
+    }
+  },
+  "packageStatus": 200
 }

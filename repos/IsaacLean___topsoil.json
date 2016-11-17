@@ -64,5 +64,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "topsoil",
+    "version": "0.0.1",
+    "description": "",
+    "main": "topsoil-app.js",
+    "scripts": {
+      "start": "./node_modules/.bin/electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Matthew 'Isaac' Lean",
+    "devDependencies": {
+      "electron": "^1.4.2",
+      "eslint": "^3.7.1",
+      "eslint-plugin-react": "^6.3.0"
+    }
+  },
+  "packageStatus": 200
 }

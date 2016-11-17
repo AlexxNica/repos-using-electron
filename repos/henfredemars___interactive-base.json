@@ -70,5 +70,36 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "interactive-base",
+    "version": "1.0.0",
+    "description": "An base for text-based interactive applications using electron",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "./node_modules/.bin/electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/henfredemars/interactive-base"
+    },
+    "keywords": [
+      "text",
+      "base",
+      "model",
+      "javascript",
+      "node",
+      "electron"
+    ],
+    "author": "",
+    "license": "SEE LICENSE IN ./LICENSE",
+    "dependencies": {
+      "angular": "^1.5.3",
+      "bootstrap": "^3.3.6",
+      "electron-prebuilt": "^0.37.3",
+      "sugar": "^1.4.1"
+    }
+  },
+  "packageStatus": 200
 }

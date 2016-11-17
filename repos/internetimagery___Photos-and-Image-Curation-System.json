@@ -64,5 +64,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "photo_and_image_curation_system",
+    "version": "1.0.0",
+    "description": "Sort through photos in a simple way, maintaining a folder structure suitable for humans.",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron ."
+    },
+    "author": "Jason",
+    "license": "ISC",
+    "devDependencies": {
+      "argparse": "^1.0.2",
+      "electron-prebuilt": "^0.30.4"
+    },
+    "dependencies": {
+      "exif-makernote-fix": "^0.1.0",
+      "findit": "^2.0.0",
+      "font-awesome": "^4.4.0",
+      "graceful-fs": "^4.1.2",
+      "moment": "^2.10.6",
+      "normalize.css": "^3.0.3",
+      "skeleton-css": "^2.0.4",
+      "underscore": "^1.8.3"
+    }
+  },
+  "packageStatus": 200
 }

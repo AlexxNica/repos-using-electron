@@ -64,5 +64,28 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "trello-for-mac",
+    "version": "0.0.1",
+    "description": "Trello for mac via Electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nerdburn/trello-for-mac.git"
+    },
+    "keywords": [
+      "Electron",
+      "Trello"
+    ],
+    "author": "Shawn Adrian",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.8"
+    }
+  },
+  "packageStatus": 200
 }

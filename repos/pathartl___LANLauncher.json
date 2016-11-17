@@ -64,5 +64,36 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "lan-launcher",
+    "version": "1.0.0",
+    "description": "A launcher for LAN games",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "Pat Hartl",
+    "license": "ISC",
+    "devDependencies": {
+      "autoprefixer": "^6.4.0",
+      "electron-prebuilt": "^1.2.0",
+      "grunt": "^1.0.1",
+      "grunt-contrib-watch": "^1.0.0",
+      "grunt-postcss": "^0.8.0",
+      "grunt-sass": "^1.2.0",
+      "grunt-scss-lint": "^0.3.8",
+      "postcss": "^5.1.2"
+    },
+    "dependencies": {
+      "extract-zip": "^1.5.0",
+      "fs": "0.0.2",
+      "handlebars": "^4.0.5",
+      "irc": "^0.5.0",
+      "lodash": "^4.14.2",
+      "request": "^2.74.0",
+      "rimraf": "^2.5.4"
+    }
+  },
+  "packageStatus": 200
 }

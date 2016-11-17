@@ -70,5 +70,21 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "BB8-Desktop-Commander",
+    "version": "0.1.0",
+    "main": "./main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "bootstrap": "^3.3.7",
+      "jquery": "^3.1.0"
+    }
+  },
+  "packageStatus": 200
 }

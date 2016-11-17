@@ -84,5 +84,43 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "resource-monitor",
+    "version": "1.0.0",
+    "description": "Monitor de recursos para Ubuntu",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/umggt/resource-monitor.git"
+    },
+    "keywords": [
+      "ubuntu",
+      "resourcemonitor"
+    ],
+    "author": "Miguel Roman",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/umggt/resource-monitor/issues"
+    },
+    "homepage": "https://github.com/umggt/resource-monitor",
+    "devDependencies": {
+      "angular": "^1.4.0",
+      "angular-ui-router": "^0.2.15",
+      "bootbox": "^4.4.0",
+      "bootstrap": "^3.3.4",
+      "electron-packager": "^4.1.2",
+      "electron-prebuilt": "^0.27.1",
+      "font-awesome": "^4.3.0",
+      "gulp": "^3.8.11",
+      "gulp-run": "^1.6.8",
+      "jquery": "^2.1.4",
+      "mousetrap": "^1.5.2",
+      "toastr": "^2.0.4"
+    }
+  },
+  "packageStatus": 200
 }

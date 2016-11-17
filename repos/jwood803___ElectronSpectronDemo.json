@@ -64,5 +64,36 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-demo",
+    "version": "1.0.0",
+    "description": "A demo Electron application with Spectron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "test:e2e": "./node_modules/mocha/bin/mocha tests/test.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jwood803/ElectronSpectronDemo"
+    },
+    "keywords": [
+      "Electron",
+      "demo"
+    ],
+    "author": "jwood",
+    "bugs": {
+      "url": "https://github.com/jwood803/ElectronSpectronDemo/issues"
+    },
+    "homepage": "https://github.com/jwood803/ElectronSpectronDemo",
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "chai-as-promised": "^5.3.0",
+      "electron": "^1.3.4",
+      "mocha": "^3.0.2",
+      "spectron": "^3.4.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -70,5 +70,34 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "repository": "https://github.com/SkaveRat/headjack",
+    "license": "Apache-2.0",
+    "name": "matrix-headjack",
+    "version": "0.1.0",
+    "main": "bootstrapper.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "dependencies": {
+      "babel": "5.8.29",
+      "es6-promise": "^3.0.2",
+      "matrix-js-sdk": "^0.3.0",
+      "react": "0.14.0",
+      "react-dom": "0.14.0",
+      "reflux": "^0.3.0",
+      "request": "^2.65.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.1",
+      "grunt": "^0.4.5",
+      "grunt-cli": "^0.1.13",
+      "grunt-contrib-imagemin": "^0.9.4",
+      "grunt-sass": "^1.1.0",
+      "load-grunt-tasks": "^3.3.0",
+      "object-assign": "^4.0.1"
+    }
+  },
+  "packageStatus": 200
 }

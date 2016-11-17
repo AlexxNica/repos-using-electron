@@ -70,5 +70,48 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "private": true,
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "build-proto": "protoc ./mathoperation/mathoperation.proto --go_out=plugins=grpc:.",
+      "build-go": "npm-run-all -p build-1 build-2",
+      "build-1": "go build -o go-build/service.exe  -buildmode exe ./go-src/service/main.go",
+      "build-2": "go build -o go-build/communication.exe  -buildmode exe ./go-src/communication/main.go",
+      "build": "npm-run-all -s build-proto build-go",
+      "build-start": "npm-run-all -s build start",
+      "start": "electron src/main.js",
+      "watch": "nodemon --ext go,js,html,proto --watch src --watch go-src --watch protobuf-src --exec npm run build-start -s"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/atom/electron-quick-start#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "color": "^0.11.1",
+      "nodemon": "^1.9.1",
+      "npm-run-all": "^1.6.0",
+      "protocol-buffers": "^3.1.6"
+    }
+  },
+  "packageStatus": 200
 }

@@ -70,5 +70,58 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Apollo",
+    "app_id": "com.noswap.apollo",
+    "version": "0.1.0",
+    "description": "elegant IRC client",
+    "author": {
+      "name": "John Reese",
+      "email": "john@noswap.com",
+      "url": "https://noswap.com"
+    },
+    "company": "noswap.com",
+    "icons": {
+      "default": "images/logobig.png",
+      "windows": "images/logobig.ico",
+      "icon_256x256.png": "images/logobig.png",
+      "icon_128x128@2x.png": "images/logobig.png"
+    },
+    "installer": {
+      "background": "images/dmg-background.png"
+    },
+    "homepage": "https://github.com/jreese/apollo",
+    "keywords": [
+      "irc"
+    ],
+    "license": "MIT",
+    "repository": "jreese/apollo",
+    "bugs": "https://github.com/jreese/apollo/issues",
+    "main": "src/main.js",
+    "bin": {
+      "apollo": "bin/apollo.js"
+    },
+    "scripts": {
+      "build": "node scripts/build.js",
+      "package": "node scripts/package.js",
+      "test": "echo untestable"
+    },
+    "dependencies": {
+      "react": "0.13.x"
+    },
+    "devDependencies": {
+      "babel": "5.6.x",
+      "electron-packager": "5.0.x",
+      "electron-prebuilt": "0.31.2",
+      "grunt": "0.4.x",
+      "grunt-babel": "5.0.x",
+      "grunt-electron-installer": "0.37.x",
+      "wrench": "1.5.x"
+    },
+    "optionalDependencies": {
+      "appdmg": "0.3.x"
+    }
+  },
+  "packageStatus": 200
 }

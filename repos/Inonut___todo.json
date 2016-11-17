@@ -64,5 +64,29 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "todo",
+    "version": "0.0.1",
+    "description": "Simple TODO application built with Electron and AngularJS.",
+    "author": "Dragos",
+    "main": "./config/main.js",
+    "scripts": {
+      "electron": "electron .",
+      "dist": "build  --x64 --win --dir"
+    },
+    "devDependencies": {
+      "copyfiles": "~1.0.0",
+      "electron-builder": "5.12.X",
+      "electron-prebuilt": "~1.2.X",
+      "mkdirp": "~0.5.1",
+      "npm-run-all": "~2.3.0",
+      "rimraf": "~2.5.3"
+    },
+    "build": {
+      "appId": "your.id",
+      "app-category-type": "your.app.category.type"
+    }
+  },
+  "packageStatus": 200
 }

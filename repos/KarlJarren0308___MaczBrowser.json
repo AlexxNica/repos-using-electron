@@ -64,5 +64,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "macz_browser",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/KarlJarren0308/MaczBrowser.git"
+    },
+    "author": "Karl T. Macadangdang <karljarren0308@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/KarlJarren0308/MaczBrowser/issues"
+    },
+    "homepage": "https://github.com/KarlJarren0308/MaczBrowser#readme",
+    "devDependencies": {
+      "electron": "^1.4.3"
+    },
+    "dependencies": {
+      "app": "^0.1.0",
+      "jquery": "^3.1.1"
+    }
+  },
+  "packageStatus": 200
 }

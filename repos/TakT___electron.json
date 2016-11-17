@@ -64,5 +64,28 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "test-electron",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./app/index.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . test-electron --platform=win32 --arch=x64 --version=0.36.5 --out=./releases --overwrite --ignore=releases --ignore=/assets-windows --ignore=/installers"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "domain-info": "0.0.4",
+      "electron-prebuilt": "^0.36.7",
+      "node-whois": "^2.1.3",
+      "whois2array": "0.0.8"
+    },
+    "dependencies": {
+      "jquery": "^2.2.0",
+      "parse-domain": "^0.2.0"
+    }
+  },
+  "packageStatus": 200
 }

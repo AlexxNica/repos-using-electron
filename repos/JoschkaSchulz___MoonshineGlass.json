@@ -64,5 +64,48 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "moonshine-glass",
+    "version": "0.0.1",
+    "description": "A Client for the Moonshine Brewery.",
+    "license": "ISC",
+    "author": "Joschka S.",
+    "main": "app/index.js",
+    "scripts": {
+      "start": "electron ./app"
+    },
+    "dependencies": {
+      "babel": "^5.8.23",
+      "babel-core": "^5.8.25",
+      "electron-prebuilt": "^0.34.0",
+      "gulp": "^3.9.0",
+      "jspm": "^0.16.13",
+      "react": "^0.14.0",
+      "react-dom": "^0.14.0"
+    },
+    "devDependencies": {
+      "babel-core": "^5.8.25",
+      "gulp-babel": "^5.3.0",
+      "gulp-rename": "^1.2.2",
+      "gulp-run": "^1.6.11"
+    },
+    "jspm": {
+      "directories": {
+        "baseURL": "browser"
+      },
+      "dependencies": {
+        "angular": "github:angular/bower-angular@^1.4.7",
+        "angular-ui-router": "github:angular-ui/ui-router@^0.2.15",
+        "electron-json-storage": "npm:electron-json-storage@1.0.0",
+        "underscore": "npm:underscore@1.8.3"
+      },
+      "devDependencies": {
+        "babel": "npm:babel-core@^5.8.24",
+        "babel-runtime": "npm:babel-runtime@^5.8.24",
+        "core-js": "npm:core-js@^1.1.4"
+      }
+    }
+  },
+  "packageStatus": 200
 }

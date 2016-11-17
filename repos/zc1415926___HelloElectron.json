@@ -64,5 +64,30 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hello-electron",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app/main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "bootstrap": "^3.3.5",
+      "browserify": "^13.0.0",
+      "jquery": "^1.11.3",
+      "react": "^0.14.7",
+      "reactify": "^1.1.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.2",
+      "gulp": "^3.9.1",
+      "gulp-util": "^3.0.7",
+      "vinyl-source-stream": "^1.1.0"
+    }
+  },
+  "packageStatus": 200
 }

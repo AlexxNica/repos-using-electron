@@ -70,5 +70,50 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "svg-bits",
+    "version": "1.0.0",
+    "description": "Cross Platform SVG Manager",
+    "main": "main.js",
+    "scripts": {
+      "start": "tsc && electron main.js",
+      "build:ngc": "ngc -p src",
+      "build:tsc": "typings install && tsc"
+    },
+    "repository": "https://github.com/vijayantkatyal/svg-bits",
+    "keywords": [
+      "Electron",
+      "SVG"
+    ],
+    "author": "Vijayant Katyal",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "1.4.3",
+      "typescript": "2.0.3",
+      "typings": "1.4.0"
+    },
+    "dependencies": {
+      "@angular/core": "2.1.0",
+      "@angular/http": "2.1.0",
+      "@angular/platform-server": "2.1.0",
+      "@angular/platform-browser": "2.1.0",
+      "@angular/platform-browser-dynamic": "2.1.0",
+      "@angular/common": "2.1.0",
+      "@angular/compiler": "2.1.0",
+      "@angular/compiler-cli": "2.1.0",
+      "@angular/forms": "2.1.0",
+      "@angular/router": "3.1.0",
+      "reflect-metadata": "0.1.8",
+      "rxjs": "5.0.0-beta.12",
+      "zone.js": "0.6.25",
+      "systemjs": "0.19.39",
+      "core-js": "2.4.1",
+      "electron-json-storage": "2.0.1",
+      "electron-window-state": "3.1.0",
+      "svgo": "0.7.1",
+      "angular2-color-picker": "1.3.0"
+    }
+  },
+  "packageStatus": 200
 }

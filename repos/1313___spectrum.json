@@ -64,5 +64,43 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "spectrum",
+    "version": "0.0.1",
+    "description": "\"The spectrum video player\"",
+    "main": "app/main.js",
+    "scripts": {
+      "build-app": "cd app && npm run build",
+      "prestart": "npm run build-app",
+      "start": "electron app",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "prepack": "npm run build-app",
+      "pack": "build --dir",
+      "dist": "build",
+      "postinstall": "install-app-deps"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/1313/spectrum.git"
+    },
+    "author": "Per Johansson",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/1313/spectrum/issues"
+    },
+    "build": {
+      "appId": "your.id",
+      "category": "your.app.category.type",
+      "win": {
+        "iconUrl": "(windows-only) https link to icon"
+      }
+    },
+    "homepage": "https://github.com/1313/spectrum#readme",
+    "devDependencies": {
+      "electron": "^1.4.0",
+      "electron-builder": "^7.0.0"
+    }
+  },
+  "packageStatus": 200
 }

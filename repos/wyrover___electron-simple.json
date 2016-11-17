@@ -70,5 +70,23 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-boilerplate",
+    "version": "1.0.0",
+    "description": "Electron boilerplate",
+    "scripts": {
+      "start": "electron ./app/main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dbackowski/electron-boilerplate.git"
+    },
+    "author": "Damian Baćkowski",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.9"
+    }
+  },
+  "packageStatus": 200
 }

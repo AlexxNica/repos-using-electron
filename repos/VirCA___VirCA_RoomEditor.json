@@ -64,5 +64,27 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "roomeditor",
+    "version": "1.0.0",
+    "description": "1.0.0",
+    "main": "app.js",
+    "dependencies": {
+      "bootstrap-slider": "^5.2.3",
+      "glob": "^5.0.15",
+      "jquery": "^2.1.4",
+      "js2xmlparser": "^1.0.0",
+      "xmljson": "^0.2.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "scripts": {
+      "start": "electron app.js"
+    },
+    "author": "",
+    "license": "ISC"
+  },
+  "packageStatus": 200
 }

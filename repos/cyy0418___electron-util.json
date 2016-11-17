@@ -64,5 +64,24 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "CyyUtil",
+    "version": "1.0.0",
+    "description": "工具集合",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/electron/electron-quick-start",
+    "keywords": [
+      "Electron"
+    ],
+    "author": "cyy",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^1.4.1"
+    }
+  },
+  "packageStatus": 200
 }

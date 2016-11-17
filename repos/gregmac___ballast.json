@@ -70,5 +70,50 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ballast",
+    "version": "0.1.0",
+    "description": "Displays and keeps up specific web pages on one or more (wall-mounted) displays, with resiliancy to network and server problems.",
+    "main": "main.js",
+    "scripts": {
+      "postinstall": "npm --prefix ./app install ./app",
+      "start": "electron ./app",
+      "dev": "NODE_ENV='development' npm run start",
+      "dist": "gulp",
+      "build-icons": "gulp generate-icons"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gregmac/ballast.git"
+    },
+    "keywords": [
+      "browser",
+      "kiosk",
+      "wallboard",
+      "electron"
+    ],
+    "author": "Greg MacLellean",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/gregmac/ballast/issues"
+    },
+    "homepage": "https://github.com/gregmac/ballast",
+    "devDependencies": {
+      "electron-packager": "^8.0.0",
+      "electron-prebuilt": "^1.2.0",
+      "fs-extra": "^0.30.0",
+      "gulp": "^3.9.1",
+      "gulp-json-modify": "^1.0.2",
+      "icon-gen": "~1.0.5"
+    },
+    "build": {
+      "appId": "ballast",
+      "app-category-type": "public.app-category.productivity",
+      "win": {
+        "iconUrl": "https://raw.githubusercontent.com/gregmac/ballast/master/build/favicon.ico"
+      }
+    }
+  },
+  "packageStatus": 200
 }

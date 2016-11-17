@@ -70,5 +70,53 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "avocado-electro",
+    "version": "0.0.1",
+    "description": "An app to keep track of pending reports",
+    "main": "app/app.js",
+    "scripts": {
+      "start": "electron app/app.js --config=app/db",
+      "test": "mocha tests"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Teloah/avocado-electro.git"
+    },
+    "keywords": [
+      "Avocado Lex",
+      "Reports",
+      "Electron"
+    ],
+    "author": "Andris Klaipins",
+    "license": "GPL-3.0",
+    "jshintConfig": {
+      "esversion": 6,
+      "browser": true,
+      "jquery": true,
+      "node": true,
+      "mocha": true,
+      "undef": true,
+      "unused": true,
+      "eqeqeq": true,
+      "curly": true,
+      "latedef": true,
+      "varstmt": true
+    },
+    "devDependencies": {
+      "chai": "3.5.0",
+      "chai-as-promised": "5.3.0",
+      "grunt": "1.0.1",
+      "grunt-simple-mocha": "0.4.1",
+      "spectron": "~3.2.2"
+    },
+    "dependencies": {
+      "electron-prebuilt": "1.4.3",
+      "electron-reload": "1.0.2",
+      "jquery": "~2.2.4",
+      "yargs": "4.7.1"
+    }
+  },
+  "packageStatus": 200
 }

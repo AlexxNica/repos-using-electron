@@ -64,5 +64,27 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "balckjack",
+    "version": "1.0.0",
+    "description": "There is nothing interesting here",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ./src/view"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DimaPateuk/BlackJack.git"
+    },
+    "license": "ISC",
+    "devDependencies": {
+      "brain": "^0.7.0",
+      "electron": "^1.4.3",
+      "gm": "^1.23.0",
+      "jquery": "^3.1.1",
+      "robotjs": "^0.4.4"
+    }
+  },
+  "packageStatus": 200
 }

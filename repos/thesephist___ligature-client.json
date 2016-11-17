@@ -64,5 +64,29 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ligature-client",
+    "version": "1.0.0",
+    "description": "Native client for Ligature single-user notes application",
+    "main": "main.js",
+    "dependencies": {
+      "electron": "1.4.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "node main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thesephist/ligature-client.git"
+    },
+    "author": "Linus Lee <100479lee@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/thesephist/ligature-client/issues"
+    },
+    "homepage": "https://github.com/thesephist/ligature-client#readme"
+  },
+  "packageStatus": 200
 }

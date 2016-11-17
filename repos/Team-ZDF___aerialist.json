@@ -84,5 +84,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "aerialist",
+    "version": "0.1.0",
+    "description": "Open source ZDF reader built on Electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "node_modules\\electron-prebuilt\\dist\\electron.exe .\\",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "zdf"
+    ],
+    "author": "Tyler Benfield <rtbenfield@gmail.com> (http://tylerbenfield.me/)",
+    "license": "MIT",
+    "dependencies": {
+      "bootstrap": "^3.3.6",
+      "electron-prebuilt": "^1.2.1",
+      "font-awesome": "^4.6.3",
+      "fstream": "^1.0.9",
+      "jquery": "^2.2.4",
+      "jsdom": "^9.2.1",
+      "tar": "^2.2.1",
+      "temp": "^0.8.3"
+    },
+    "repository": "Team-ZDF/aerialist"
+  },
+  "packageStatus": 200
 }

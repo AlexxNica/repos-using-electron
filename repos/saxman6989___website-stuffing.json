@@ -70,5 +70,34 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "website-stuffing",
+    "version": "2.0.0",
+    "description": "For Saving a WebPage.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . website-stuffing --platform=win32 --arch=all --app-version=2.0.0 --icon=app/assets/icon-1.ico --out=dist --overwrite"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/saxman6989/website-stuffing.git"
+    },
+    "author": "Saxman",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/saxman6989/website-stuffing/issues"
+    },
+    "homepage": "https://github.com/saxman6989/website-stuffing",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "node-horseman": "^3.1.1",
+      "phantomjs-prebuilt": "^2.1.7",
+      "validator": "^5.5.0"
+    }
+  },
+  "packageStatus": 200
 }

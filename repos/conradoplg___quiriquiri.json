@@ -70,5 +70,44 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "quiriquiri",
+    "version": "1.0.0",
+    "description": "QuiriQuiri: a Twitter client",
+    "main": "index.js",
+    "scripts": {
+      "test": "./node_modules/.bin/mocha --reporter spec -r test/setup.js",
+      "start": "electron .",
+      "format": "find . -path ./node_modules -prune -o -name '*.js' -print | xargs js-beautify -r -n",
+      "pack": "build --dir",
+      "dist": "build --linux --win --x64"
+    },
+    "author": "Conrado P. L. Gouvea",
+    "license": "MIT",
+    "dependencies": {
+      "electron-json-storage": "^2.0.0",
+      "featherlight": "^1.4.1",
+      "jquery": "^3.1.0",
+      "jquery-ui-dist": "^1.12.1",
+      "jsdom": "^9.5.0",
+      "mashape-oauth": "^0.1.71",
+      "sinon": "^1.17.6",
+      "twemoji": "^2.2.0",
+      "twit": "^2.2.5",
+      "twitter-text": "^1.14.0",
+      "winston": "^2.2.0",
+      "zpad": "^0.5.0"
+    },
+    "devDependencies": {
+      "electron-builder": "^7.14.2",
+      "electron-prebuilt": "^1.2.0",
+      "mocha": "^3.0.2"
+    },
+    "build": {
+      "appId": "net.cryptoland.quiriquiri",
+      "category": "Network"
+    }
+  },
+  "packageStatus": 200
 }

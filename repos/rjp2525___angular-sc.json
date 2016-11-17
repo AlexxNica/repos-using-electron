@@ -70,5 +70,39 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "angular-sc",
+    "version": "0.0.1",
+    "description": "A sample Electron app built with Angular that plays SoundCloud stuff",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "gulp | electron ./dist/client/index.html"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rjp2525/angular-sc.git"
+    },
+    "author": "rjp2525",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/rjp2525/angular-sc/issues"
+    },
+    "homepage": "https://github.com/rjp2525/angular-sc#readme",
+    "devDependencies": {
+      "browser-sync": "^2.16.0",
+      "browserify": "^13.1.0",
+      "electron": "^1.3.6",
+      "gulp-uglify": "^2.0.0",
+      "vinyl-buffer": "^1.0.0",
+      "vinyl-source-stream": "^1.1.0"
+    },
+    "dependencies": {
+      "angular": "^1.5.8",
+      "angular-ui-router": "^1.0.0-beta.2",
+      "gulp": "^3.9.1"
+    }
+  },
+  "packageStatus": 200
 }

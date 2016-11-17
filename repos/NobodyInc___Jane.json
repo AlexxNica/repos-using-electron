@@ -78,5 +78,31 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Jane",
+    "version": "1.0.0",
+    "description": "tba",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nobodyinc/jane.git"
+    },
+    "keywords": [
+      "Jane"
+    ],
+    "author": "Nobody, Inc.",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nobodyinc/jane/issues"
+    },
+    "homepage": "https://github.com/nobodyinc/jane",
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.0"
+    }
+  },
+  "packageStatus": 200
 }

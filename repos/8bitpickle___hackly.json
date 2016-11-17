@@ -64,5 +64,23 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hackly",
+    "version": "0.0.1",
+    "description": "Electron-based OS and container manager for developers, by developers.",
+    "repository": "8bitpickle/hackly",
+    "author": {
+      "name": "Parker Botsford",
+      "email": "8bitpickle@gmail.com",
+      "url": "8bitpickle.github.io"
+    },
+    "main": "main.js",
+    "bugs": "https://github.com/8bitpickle/hackly/issues",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.2"
+    }
+  },
+  "packageStatus": 200
 }

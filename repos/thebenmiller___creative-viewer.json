@@ -64,5 +64,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "creative-viewer",
+    "version": "0.1.0",
+    "description": "Electron viewer for code sketches",
+    "main": "app.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thebenmiller/creative-viewer.git"
+    },
+    "keywords": [
+      "Electron",
+      "Creative Coding"
+    ],
+    "author": "Ben Miller",
+    "license": "",
+    "bugs": {
+      "url": "https://github.com/thebenmiller/creative-viewer/issues"
+    },
+    "homepage": "https://github.com/thebenmiller/creative-viewer/",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

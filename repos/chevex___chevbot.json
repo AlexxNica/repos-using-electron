@@ -64,5 +64,33 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "chevbot",
+    "version": "1.0.0",
+    "description": "Chevcast chat bot for Twitch.",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "alex.ford@codetunnel.com",
+    "license": "MIT",
+    "dependencies": {
+      "config": "^1.19.0",
+      "jquery": "^2.2.1",
+      "lame": "^1.2.3",
+      "minimist": "^1.2.0",
+      "play-sound": "0.0.7",
+      "say": "^0.10.0",
+      "shell-quote": "^1.4.3",
+      "speaker": "^0.2.6",
+      "tmi.js": "0.0.28"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.10",
+      "eslint": "^2.3.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -70,5 +70,31 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "movie_tracker",
+    "version": "1.0.0",
+    "description": "Keep a track of movies and TV shows that you like",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dhamaniasad/movie_tracker.git"
+    },
+    "author": "Asad Dhamani",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dhamaniasad/movie_tracker/issues"
+    },
+    "homepage": "https://github.com/dhamaniasad/movie_tracker",
+    "devDependencies": {
+      "electron-prebuilt": "^0.32.0"
+    },
+    "dependencies": {
+      "got": "^4.2.0"
+    }
+  },
+  "packageStatus": 200
 }

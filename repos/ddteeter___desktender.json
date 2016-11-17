@@ -64,5 +64,61 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "desktender",
+    "version": "0.0.1",
+    "description": "Electron based, pluggable menu bar app to manage standing desk presence and automation",
+    "main": "index.js",
+    "scripts": {
+      "postinstall": "typings install",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "prod:webpack": "webpack --config ./webpack/webpack.prod.js --progress --colors",
+      "dev:webpack": "webpack-dev-server --config ./webpack/webpack.dev.js --profile --progress --colors --hot --inline --content-base ./dist",
+      "typings": "typings",
+      "prod:electron": "electron src/bootstrap/electron/main.prod.js",
+      "dev:electron": "electron src/bootstrap/electron/main.dev.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ddteeter/desktender.git"
+    },
+    "keywords": [
+      "standing_desk",
+      "menu_bar",
+      "electron"
+    ],
+    "author": "heavydutydev.com",
+    "bugs": {
+      "url": "https://github.com/ddteeter/desktender/issues"
+    },
+    "homepage": "https://github.com/ddteeter/desktender#readme",
+    "dependencies": {
+      "@angular/common": "2.0.0-rc.4",
+      "@angular/compiler": "2.0.0-rc.4",
+      "@angular/core": "2.0.0-rc.4",
+      "@angular/forms": "0.2.0",
+      "@angular/http": "2.0.0-rc.4",
+      "@angular/platform-browser": "2.0.0-rc.4",
+      "@angular/platform-browser-dynamic": "2.0.0-rc.4",
+      "@angular/router": "3.0.0-beta.1",
+      "bootstrap": "^3.3.7",
+      "core-js": "^2.4.0",
+      "es6-shim": "^0.35.1",
+      "reflect-metadata": "^0.1.3",
+      "rxjs": "5.0.0-beta.6",
+      "zone.js": "^0.6.12"
+    },
+    "devDependencies": {
+      "awesome-typescript-loader": "^1.1.1",
+      "electron-prebuilt": "^1.2.7",
+      "html-webpack-plugin": "^2.22.0",
+      "tslint": "^3.14.0",
+      "typescript": "^1.8.10",
+      "typings": "^1.0.4",
+      "webpack": "^1.13.1",
+      "webpack-dev-server": "^1.14.1"
+    }
+  },
+  "packageStatus": 200
 }

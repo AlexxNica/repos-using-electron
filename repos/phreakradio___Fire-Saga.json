@@ -64,5 +64,35 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "fire-saga",
+    "version": "1.0.0",
+    "description": "Web based custom Fire Emblem ROM with online support",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/phreakradio/Fire-Saga.git"
+    },
+    "keywords": [
+      "fire",
+      "emblem",
+      "online",
+      "saga"
+    ],
+    "author": "phreakradio",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/phreakradio/Fire-Saga/issues"
+    },
+    "devDependencies": {
+      "electron": "^1.4.4"
+    },
+    "homepage": "https://github.com/phreakradio/Fire-Saga#readme"
+  },
+  "packageStatus": 200
 }

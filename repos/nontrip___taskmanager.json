@@ -64,5 +64,27 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "TaskJS",
+    "version": "1.0.0",
+    "description": "A minimal task manager",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [
+      "Task",
+      "manager",
+      "minimalistic",
+      "productive",
+      "plus"
+    ],
+    "author": "Alexander Kobrin, Kirill Korolyov",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "^1.4.1"
+    }
+  },
+  "packageStatus": 200
 }

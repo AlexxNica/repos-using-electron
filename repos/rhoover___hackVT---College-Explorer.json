@@ -70,5 +70,29 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hackvt",
+    "version": "0.0.1",
+    "description": "College Choice Analysis",
+    "main": "main.js",
+    "scripts": {
+      "sass-compile": "node-sass -r --output-style compact app/sass/main.scss -o app/css/",
+      "sass-compile-critical": "node-sass -r --output-style compressed app/sass/critical.scss -o app/css/",
+      "sass-critical": "app/.bin/critical.sh",
+      "sass-watch": "onchange 'app/sass/**/*' -- npm run sass-compile",
+      "launch": "electron ."
+    },
+    "author": "Robin <robin@moosedog.io>",
+    "license": "ISC",
+    "devDependencies": {
+      "electron": "^1.4.3",
+      "electron-debug": "^1.0.1",
+      "electron-packager": "^8.1.0"
+    },
+    "dependencies": {
+      "firebase": "^3.4.1"
+    }
+  },
+  "packageStatus": 200
 }

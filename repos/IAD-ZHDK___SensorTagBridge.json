@@ -78,5 +78,26 @@
   },
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "sensortag-test",
+    "version": "0.1.0",
+    "main": "app.js",
+    "scripts": {
+      "rebuild": "./node_modules/.bin/electron-rebuild",
+      "package": "electron-packager ./ SensorTagBridge --platform=all --arch=all --out ~/Desktop/SensorTagBridge --version 0.35.4 --overwrite",
+      "package-darwin": "electron-packager ./ SensorTagBridge --platform=darwin --arch=all --out ~/Desktop/SensorTagBridge --version 0.35.4 --overwrite",
+      "run": "./node_modules/.bin/electron ."
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.35.4",
+      "electron-rebuild": "^1.0.2",
+      "node-osc": "^1.1.0",
+      "sensortag": "^1.2.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.1"
+    }
+  },
+  "packageStatus": 200
 }

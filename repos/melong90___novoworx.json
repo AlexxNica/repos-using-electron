@@ -64,5 +64,48 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "NovoWorx",
+    "version": "1.0.0",
+    "description": "NovoWorx",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "Start": "Start . ",
+      "build": "electron-packager . app --platform linux --arch x64 --out dist/",
+      "rpm64": "electron-installer-redhat --src dist/NovoWorx-linux-x64/ --dest dist/installers/ --arch amd64"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/electron/electron-quick-start#readme",
+    "devDependencies": {
+      "asar": "^0.12.3",
+      "electron": "^1.3.4",
+      "electron-installer-redhat": "^0.3.0",
+      "electron-packager": "^8.0.0",
+      "electron-prebuilt": "*",
+      "grunt-build-atom-shell": "^2.1.1",
+      "virtualbox": "^0.1.2"
+    },
+    "dependencies": {
+      "jQuery": "^1.7.4",
+      "jquery": "^3.1.0",
+      "virtualbox": "^0.1.2"
+    }
+  },
+  "packageStatus": 200
 }

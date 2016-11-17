@@ -64,5 +64,33 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "./src/main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/electron/electron-quick-start",
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "demo"
+    ],
+    "author": "Mads Ellersgaard Kalør",
+    "license": "Apache-2.0",
+    "devDependencies": {
+      "electron": "^1.4.1"
+    },
+    "dependencies": {
+      "electron-localshortcut": "^1.0.0",
+      "electron-settings": "^2.2.2",
+      "pdfjs-dist": "^1.6.304"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,54 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "test",
+    "productName": "TEST",
+    "version": "1.0.0",
+    "license": "MIT",
+    "repository": "electrontest",
+    "author": {
+      "name": "sebakerckhof",
+      "email": "seba.kerckhof@gmail.com"
+    },
+    "electronVersion": "1.2.2",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build-all": "electron-packager . TEST --out=build --ignore=.idea --ignore=readme.MD --ignore=build --ignore=.editorconfig --ignore=node_modules/xo --ignore=node_modules/trash --ignore=toolbox --ignore=dist  --prune --asar --all --version=1.2.2",
+      "build-mac": "electron-packager . TEST --platform=darwin --arch=x64 --version=1.2.2 --asar --icon=./resources/icon.icns --out=build --prune --ignore=.idea --ignore=readme.MD --ignore=build --ignore=.editorconfig --ignore=node_modules/xo --ignore=node_modules/trash --ignore=toolbox --ignore=dist",
+      "build-linux": "electron-packager . TEST --platform=linux --arch=x64 --CompanyName=Barco --version=1.2.2 --asar --icon=./resources/icon.icns --out=build --prune --ignore=.idea --ignore=readme.MD --ignore=build --ignore=.editorconfig --ignore=node_modules/xo --ignore=node_modules/trash --ignore=toolbox --ignore=dist",
+      "build-win": "electron-packager . TEST --platform=win32 --arch=x64 --version=1.2.2 --icon=./resources/icon.ico --asar --out=build --prune --ignore=.idea --ignore=readme.MD --ignore=build --ignore=.editorconfig --ignore=node_modules/xo --ignore=node_modules/trash --ignore=toolbox --ignore=dist",
+      "build": "npm run build-win && npm run build-linux && npm run build-mac",
+      "release-mac": "npm run build-mac && mkdir release && cd release && appdmg ../app-dmg.json 'TEST.dmg'"
+    },
+    "main": "src/index.js",
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "electron-debug": "^1.0.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.0.3",
+      "electron-prebuilt": "^1.2.2",
+      "electron-rebuild": "^1.1.4",
+      "trash": "^3.4.1",
+      "xo": "^0.15.1",
+      "js-yaml": "^3.4.1",
+      "lodash": "^3.0.1",
+      "table-parser": "0.0.3",
+      "underscore.string": "^3.2.2"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

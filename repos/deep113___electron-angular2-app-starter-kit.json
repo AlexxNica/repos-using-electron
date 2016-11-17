@@ -64,5 +64,50 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron_angular2_app_starter_kit",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "clean": "rimraf dist",
+      "build": "webpack --progress --profile --colors --display-error-details --display-cached",
+      "postinstall": "typings install",
+      "start": "electron .",
+      "setupbuild": "electron-packager . app --platform=win32 --arch=x64 --out dist/"
+    },
+    "author": "Deepak Yadav",
+    "license": "ISC",
+    "devDependencies": {
+      "es6-shim": "^0.34.0",
+      "ts-loader": "^0.7.2",
+      "typescript": "^1.7.3",
+      "webpack": "^1.12.9",
+      "webpack-dev-server": "^1.14.0",
+      "electron-installer-windows": "*",
+      "electron-packager": "*",
+      "electron-prebuilt": "*",
+      "fs-plus": "*",
+      "rimraf": "*",
+      "yargs": "*"
+    },
+    "dependencies": {
+      "@angular/common": "2.0.0",
+      "@angular/compiler": "2.0.0",
+      "@angular/core": "2.0.0",
+      "@angular/http": "2.0.0",
+      "@angular/forms": "2.0.0",
+      "@angular/platform-browser": "2.0.0",
+      "@angular/platform-browser-dynamic": "2.0.0",
+      "@angular/router": "3.0.0",
+      "angular2-in-memory-web-api": "0.0.10",
+      "docpad-plugin-eco": "^2.1.0",
+      "es6-shim": "^0.35.0",
+      "reflect-metadata": "0.1.2",
+      "rxjs": "5.0.0-beta.6",
+      "zone.js": "^0.6.12"
+    }
+  },
+  "packageStatus": 200
 }

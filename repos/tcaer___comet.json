@@ -64,5 +64,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "project",
+    "version": "1.0.0",
+    "scripts": {
+      "test": "electron main/main.js"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "electron": "^1.4.3"
+    },
+    "devDependencies": {
+      "gulp": "^3.9.1",
+      "gulp-concat": "^2.6.0",
+      "gulp-sass": "^2.3.2"
+    }
+  },
+  "packageStatus": 200
 }

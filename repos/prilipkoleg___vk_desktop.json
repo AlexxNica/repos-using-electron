@@ -64,5 +64,25 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "vk_desktop",
+    "version": "0.0.1",
+    "description": "vk api + polymer",
+    "author": "Oleg Prilipko <prilipkoleg@gmail.com>",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . vk_app --platform=win32 --arch=x64 --version=0.33.3 --out=./release"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.30.7"
+    },
+    "dependencies": {
+      "request": "^2.64.0"
+    },
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

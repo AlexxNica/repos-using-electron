@@ -70,5 +70,22 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "pocket-electron",
+    "description": "nothing yet",
+    "version": "0.0.1",
+    "main": "./main.js",
+    "author": "Matheus Faustino <matheuspfaustino@gmail.com>",
+    "scripts": {
+      "start": "electron ."
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.30.4"
+    },
+    "dependencies": {
+      "request": "^2.60.0"
+    }
+  },
+  "packageStatus": 200
 }

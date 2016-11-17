@@ -64,5 +64,25 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "krakening",
+    "version": "1.0.0",
+    "description": "An unofficial desktop application for kraken.io",
+    "main": "./src/main.js",
+    "scripts": {
+      "start": "electron src/main.js",
+      "build": "electron-packager ./ Krakening --platform=darwin --arch=x64 --overwrite --version=0.35.6 --app-version=0.2 --icon=./src/assets/icons.icns --out=./dist/"
+    },
+    "author": "David Fuller",
+    "license": "ISC",
+    "dependencies": {
+      "kraken": "^0.3.2",
+      "mime": "^1.3.4",
+      "electron-prebuilt": "^0.36.0",
+      "body-parser": "*",
+      "electron-packager": "*"
+    }
+  },
+  "packageStatus": 200
 }

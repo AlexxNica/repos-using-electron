@@ -64,5 +64,20 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "project",
+    "version": "0.1.0",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.0"
+    },
+    "description": "npm install \"electron\"-prebuilt --save-dev"
+  },
+  "packageStatus": 200
 }

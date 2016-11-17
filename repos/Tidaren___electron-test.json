@@ -64,5 +64,39 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "test_electron",
+    "version": "0.1.0",
+    "description": "Playing around with electron",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "test",
+      "electron",
+      "playing",
+      "around"
+    ],
+    "author": "tidaren",
+    "license": "UNLICENSED",
+    "dependencies": {
+      "coffee-script": "^1.10.0",
+      "electron": "^1.4.0",
+      "jquery": "^3.1.0"
+    },
+    "devDependencies": {
+      "coffee-script": "^1.10.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Tidaren/electron-test.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Tidaren/electron-test/issues"
+    },
+    "homepage": "https://github.com/Tidaren/electron-test#readme"
+  },
+  "packageStatus": 200
 }

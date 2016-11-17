@@ -64,5 +64,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "youTubePlayer",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "tecnology": "Node.js",
+    "main": "main.js",
+    "scripts": {
+      "build-osx": "electron-packager . $npm_package_productName --overwrite --prune --platform=darwin --arch=x64 --version=$npm_package_electronVersion --icon=app/images/Icon.icns",
+      "start": "electron main.js"
+    },
+    "keywords": [
+      "Electron",
+      "youTube",
+      "Player"
+    ],
+    "author": "Ricardo Mendes",
+    "dependencies": {
+      "express": "^4.13.1",
+      "nconf": "^0.8.2",
+      "winston": "^2.1.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.0",
+      "electron-packager": "^5.0.1"
+    }
+  },
+  "packageStatus": 200
 }

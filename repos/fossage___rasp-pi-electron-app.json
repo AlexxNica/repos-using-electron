@@ -70,5 +70,48 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tablet-pi",
+    "version": "1.0.0",
+    "description": "A custom tablet interface for the Raspberry Pi",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "watch": "./node_modules/.bin/webpack-dev-server",
+      "electron-rebuild": "./node_modules/.bin/electron-rebuild"
+    },
+    "keywords": [
+      "Electron",
+      "Raspberry-Pi",
+      "tablet"
+    ],
+    "author": "Justin Foss",
+    "license": "CC0-1.0",
+    "dependencies": {
+      "electron-prebuilt": "^0.36.10",
+      "epoll": "^0.1.17",
+      "pi-gpio": "0.0.8",
+      "rpi-gpio": "^0.7.0"
+    },
+    "devDependencies": {
+      "babel": "^6.3.26",
+      "babel-core": "^6.5.2",
+      "babel-helper-get-function-arity": "^6.5.0",
+      "babel-loader": "^6.2.1",
+      "babel-polyfill": "^6.5.0",
+      "babel-preset-es2015": "^6.3.13",
+      "css-loader": "^0.15.1",
+      "electron-packager": "^4.1.3",
+      "electron-rebuild": "^1.1.3",
+      "glob": "^7.0.0",
+      "gsap": "^1.18.2",
+      "node-libs-browser": "^0.5.2",
+      "style-loader": "^0.12.3",
+      "webpack": "^1.12.11",
+      "webpack-dev-server": "^1.9.0",
+      "which": "^1.2.4"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,27 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ElectronClipBoardDemo",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "version": "0.0.1",
+    "description": "ElectronClipBoardDemo",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/saan1984/ElectronClipBoardDemo.git"
+    },
+    "author": "Sandeep Kumar Patel",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^0.28.3"
+    },
+    "dependencies": {
+      "bootstrap": "^3.3.5"
+    }
+  },
+  "packageStatus": 200
 }

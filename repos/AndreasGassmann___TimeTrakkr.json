@@ -64,5 +64,19 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "TimeTrakkr",
+    "version": "0.0.1",
+    "main": "main.js",
+    "scripts": {
+      "start": "./node_modules/.bin/electron ./"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.37.2",
+      "photon": "git://github.com/connors/photon.git",
+      "python-shell": "^0.4.0"
+    }
+  },
+  "packageStatus": 200
 }

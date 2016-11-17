@@ -64,5 +64,41 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "grabtangle-build",
+    "version": "0.0.1",
+    "description": "Grabtangle build dir",
+    "main": "gulpfile.js",
+    "dependencies": {},
+    "devDependencies": {
+      "electron-packager": "^8.0.0",
+      "electron-prebuilt": "^1.4.1",
+      "rimraf": "^2.5.4"
+    },
+    "scripts": {
+      "clean": "rimraf ./grabtangle-* ./dist",
+      "run": "electron --debug=5858 ./app",
+      "prerelease:win": "npm run clean",
+      "prerelease:mac": "rm -rf ./grabtangle-*",
+      "release:win": "electron-packager ./app --platform=win32 --asar",
+      "release:mac": "electron-packager ./app --asar",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DjPale/Grabtangle.git"
+    },
+    "author": "dj_pale",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/DjPale/Grabtangle/issues"
+    },
+    "homepage": "https://github.com/DjPale/Grabtangle#readme",
+    "build": {
+      "appId": "hr.creaticon.eatodo",
+      "app-category-type": "public.app-category.productivity"
+    }
+  },
+  "packageStatus": 200
 }

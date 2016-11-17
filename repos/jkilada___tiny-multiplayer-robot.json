@@ -70,5 +70,24 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tiny-multiplayer-robot",
+    "version": "1.0.0",
+    "description": "A serverless Civilization hotseat game syncing client.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/electron/electron-quick-start",
+    "keywords": [
+      "Civilization"
+    ],
+    "author": "Joseph Kilada",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^1.4.1"
+    }
+  },
+  "packageStatus": 200
 }

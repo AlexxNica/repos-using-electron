@@ -84,5 +84,33 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "example-app-electron",
+    "version": "0.0.1",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AWAKENS-dev/example-app-electron.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/AWAKENS-dev/example-app-electron/issues"
+    },
+    "homepage": "https://github.com/AWAKENS-dev/example-app-electron",
+    "devDependencies": {
+      "electron-log": "^1.0.0",
+      "electron-packager": "^7.3.0",
+      "electron-prebuilt": "^1.2.0",
+      "superagent": "^2.0.0",
+      "vue": "^1.0.26"
+    }
+  },
+  "packageStatus": 200
 }

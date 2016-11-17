@@ -70,5 +70,38 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-media-client",
+    "version": "0.0.1",
+    "description": "A minimal Electron application",
+    "main": "src/main.js",
+    "scripts": {
+      "start": "electron src/main.js",
+      "pack": "electron-packager . Electron-Media-Client --platform=darwin --arch=x64 --version=0.36.0 --overwrite"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "keywords": [
+      "Electron"
+    ],
+    "author": "Sunny(darkowlzz) <me@darkowlzz.space>",
+    "license": "",
+    "bugs": {
+      "url": ""
+    },
+    "homepage": "",
+    "devDependencies": {
+      "debug": "^2.2.0",
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "electron-json-storage": "^2.0.0",
+      "request": "^2.69.0"
+    }
+  },
+  "packageStatus": 200
 }

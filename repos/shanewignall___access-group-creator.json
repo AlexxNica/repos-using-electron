@@ -64,5 +64,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "access-group-creator",
+    "version": "1.0.0",
+    "description": "Creates GSM access groups for Fisheye repositories",
+    "main": "app/main.js",
+    "dependencies": {
+      "electron": "^1.4.6"
+    },
+    "scripts": {
+      "start": "./node_modules/.bin/electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/shanewignall/access-group-creator.git"
+    },
+    "author": "Shane Wignall",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/shanewignall/access-group-creator/issues"
+    },
+    "homepage": "https://github.com/shanewignall/access-group-creator#readme"
+  },
+  "packageStatus": 200
 }

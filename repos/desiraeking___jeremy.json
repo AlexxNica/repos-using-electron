@@ -70,5 +70,61 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "magicmirror",
+    "version": "2.0.0",
+    "description": "A modular interface for smart mirrors.",
+    "main": "js/electron.js",
+    "scripts": {
+      "start": "electron js/electron.js",
+      "jscs": "jscs **/**/**/**/*.js",
+      "stylelint": "stylelint css/main.css fonts/roboto.css",
+      "htmlvalidator": "html-validator --file=index.html",
+      "test": "snyk test",
+      "snyk-protect": "snyk protect",
+      "prepublish": "npm run snyk-protect"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/desiraeking/jeremy.git"
+    },
+    "keywords": [
+      "magic mirror",
+      "smart mirror",
+      "mirror UI",
+      "modular"
+    ],
+    "author": "desiraeking",
+    "contributors": "https://github.com/MichMich/MagicMirror/graphs/contributors",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/desiraeking/jeremy/issues"
+    },
+    "homepage": "https://github.com/desiraeking/jeremy#readme",
+    "devDependencies": {
+      "electron-prebuilt": "latest",
+      "grunt": "latest",
+      "grunt-eslint": "latest",
+      "grunt-postcss": "latest",
+      "postcss-reporter": "latest",
+      "stylelint": "latest",
+      "stylelint-config-standard": "latest",
+      "time-grunt": "latest"
+    },
+    "dependencies": {
+      "express": "^4.14.0",
+      "feedme": "latest",
+      "iconv-lite": "latest",
+      "moment": "latest",
+      "request": "^2.74.0",
+      "rrule": "latest",
+      "snyk": "^1.14.1",
+      "socket.io": "^1.4.6",
+      "valid-url": "latest",
+      "walk": "latest"
+    },
+    "snyk": true
+  },
+  "packageStatus": 200
 }

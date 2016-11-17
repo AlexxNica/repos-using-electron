@@ -64,5 +64,26 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "display",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.1"
+    },
+    "dependencies": {
+      "crtrdg-tty": "^2.0.0",
+      "keypress": "^0.2.1",
+      "lodash": "^4.13.1",
+      "raf": "^3.2.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -70,5 +70,43 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "SocialBrothers",
+    "productName": "Social Brothers",
+    "version": "1.0.0",
+    "description": "Social Brothers",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "build": "build"
+    },
+    "build": {
+      "win": {
+        "iconUrl": "https://assets-cdn.github.com/favicon.ico"
+      }
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MatthijsvandenBosch/Electron_Bootstrap_Template.git"
+    },
+    "keywords": [
+      "Social Brothers",
+      "Electron",
+      "Matthijs",
+      "Dekstop App"
+    ],
+    "author": "Matthijs van den Bosch",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/MatthijsvandenBosch/issues"
+    },
+    "homepage": "https://github.com/MatthijsvandenBosch#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.8",
+      "electron-windows-installer": "^1.4.0",
+      "grunt-electron-installer": "^2.1.0"
+    }
+  },
+  "packageStatus": 200
 }

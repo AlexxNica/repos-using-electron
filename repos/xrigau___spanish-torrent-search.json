@@ -64,5 +64,25 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "spanish-torrent-search",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "license": "Apache-2.0",
+    "devDependencies": {
+      "electron": "^1.4.1"
+    },
+    "dependencies": {
+      "cli-scrape": "^0.1.10",
+      "form-scraper": "0.0.4",
+      "promise": "^7.1.1",
+      "transmission": "^0.4.5",
+      "x-ray": "^2.3.1"
+    }
+  },
+  "packageStatus": 200
 }

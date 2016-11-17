@@ -64,5 +64,34 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "play-app",
+    "version": "1.0.0",
+    "description": "Play and stream your favorite series and movies",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "keywords": [
+      "Series",
+      "Movies",
+      "Streaming",
+      "Torrents",
+      "Tracking"
+    ],
+    "author": "Octopixell",
+    "license": "CC-BY-NC-4.0",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Octopixell/play-app.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Octopixell/play-app/issues"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

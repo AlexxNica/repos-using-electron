@@ -64,5 +64,41 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "filmwatcher",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+      "jquery": "^2.1.4",
+      "node-msg": "^1.2.3",
+      "request": "^2.67.0",
+      "vex-js": "^2.3.3",
+      "xml2json": "^0.9.0"
+    },
+    "devDependencies": {
+      "electron-builder": "^2.4.0",
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.35.2"
+    },
+    "scripts": {
+      "start": "electron index.js",
+      "clean": "rm -rf ./dist",
+      "clean:osx": "rm -rf ./dist/osx",
+      "clean:win": "rm -rf ./dist/win",
+      "clean:linux": "rm -rf ./dist/linux",
+      "build": "npm run clean && npm run build:osx && npm run build:win && npm run build:linux",
+      "build:osx": "npm run clean:osx && electron-packager . \"FilmWatcher\" --out=dist/osx --platform=darwin --arch=x64 --version=0.36.1 --icon=assets/icon.icns",
+      "build:win": "npm run clean:win && electron-packager . \"FilmWatcher\" --out=dist/win --platform=win32 --arch=x64 --version=0.36.1 --icon=assets/icon.ico",
+      "build:linux": "npm run clean:linux && electron-packager . \"FilmWatcher\" --out=dist/linux --platform=linux --arch=x64 --version=0.36.1 --icon=assets/icon.png",
+      "pack": "npm run pack:osx && npm run pack:win && npm run pack:linux",
+      "pack:osx": "npm run build:osx && electron-builder \"dist/osx/FilmWatcher-darwin-x64/FilmWatcher.app\" --platform=osx --out=\"dist/osx\" --config=packager.json",
+      "pack:win": "npm run build:win && electron-builder \"dist/win/FilmWatcher-win32-x64\" --platform=win --out=\"dist/win\" --config=packager.json",
+      "pack:linux": "npm run build:linux && electron-builder \"dist/linux/FilmWatcher-x64\" --platform=linux --out=\"dist/linux\" --config=packager.json"
+    },
+    "author": "tom",
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

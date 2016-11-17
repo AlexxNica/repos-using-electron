@@ -64,5 +64,26 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "BioCrawl",
+    "description": "Crawl a website and determine which media files are not pressent on the media folder",
+    "main": "./main.js",
+    "version": "0.1.0",
+    "license": "",
+    "keywords": [],
+    "author": "Ivan Fuyivara",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . BioCrawl --platform=darwin --arch=x64 --version=0.30.4 --overwrite=true --out=dist"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.4",
+      "jquery": "^2.1.4",
+      "simplecrawler": "latest",
+      "walk": "latest"
+    }
+  },
+  "packageStatus": 200
 }

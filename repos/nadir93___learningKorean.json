@@ -64,5 +64,21 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "learningKorean",
+    "version": "1.0.0",
+    "description": "learningKorean for kid",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "@nadir93",
+    "license": "ISC",
+    "dependencies": {
+      "electron": "^1.4.5",
+      "underscore": "^1.8.3"
+    }
+  },
+  "packageStatus": 200
 }

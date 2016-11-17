@@ -70,5 +70,47 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "earthview-wallpapers",
+    "version": "0.0.5",
+    "description": "",
+    "main": "index.js",
+    "bin": {
+      "earthview-wallpapers": "./bin/cli.js"
+    },
+    "scripts": {
+      "start": "nodemon ./node_modules/electron-prebuilt/cli.js lib/app.js",
+      "test": "mocha ./test --es_staging --recursive --check-leaks --colors",
+      "test:watch": "npm test -- --watch",
+      "cover": "node --es_staging ./node_modules/istanbul/lib/cli.js --include-all-sources cover --root lib _mocha ./test -R --spec -- --recursive",
+      "ci": "npm run cover",
+      "lint": "eslint lib"
+    },
+    "author": "Arjan Frans <arjanfrans.com@gmail.com>",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/arjanfrans/earthview-wallpapers"
+    },
+    "dependencies": {
+      "co": "^4.6.0",
+      "debug": "^2.2.0",
+      "minimist": "^1.2.0",
+      "mkdirp": "^0.5.1",
+      "node-notifier": "^4.5.0",
+      "request": "^2.71.0",
+      "wallpaper": "^2.1.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.6",
+      "nodemon": "^1.9.1",
+      "eslint": "^2.7.0",
+      "coveralls": "^2.11.9",
+      "istanbul": "^0.4.3",
+      "mocha": "^2.4.5",
+      "mocha-lcov-reporter": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

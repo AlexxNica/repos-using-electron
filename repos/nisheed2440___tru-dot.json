@@ -64,5 +64,37 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tru-dot",
+    "version": "1.0.0",
+    "description": "Troubleshoot prototype",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "gulp && electron ."
+    },
+    "keywords": [
+      "gulp",
+      "electron",
+      "ife"
+    ],
+    "author": "Nisheed Jagadish",
+    "license": "ISC",
+    "devDependencies": {
+      "bower": "^1.7.9",
+      "browser-sync": "^2.13.0",
+      "gulp": "^3.9.1",
+      "gulp-inject": "^4.1.0",
+      "gulp-sass": "^2.3.2",
+      "run-sequence": "^1.2.2",
+      "wiredep": "^4.0.0"
+    },
+    "dependencies": {
+      "directory-tree": "^1.0.0",
+      "electron-prebuilt": "^1.2.6",
+      "tone": "^0.7.1"
+    }
+  },
+  "packageStatus": 200
 }

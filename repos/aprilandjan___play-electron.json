@@ -70,5 +70,36 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "./app/main.js",
+    "scripts": {
+      "dev": "cross-env NODE_ENV=dev electron .",
+      "build": "cross-env NODE_ENV=build node release.js"
+    },
+    "repository": "",
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "demo"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "cross-env": "^3.1.2",
+      "electron": "^1.4.1",
+      "mkdirp": "^0.5.1"
+    },
+    "dependencies": {
+      "auto-launch": "^5.0.1",
+      "debounce": "^1.0.0",
+      "electron-packager": "^8.1.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -84,5 +84,39 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "partiu-pos",
+    "productName": "Partiu PDV",
+    "version": "1.0.0",
+    "description": "A Partiu Point of Sale application",
+    "main": "src/main.js",
+    "homepage": "http://www.partiuvantagens.com.br",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . PartiuPDV --platform win32 --arch x64 --out dist/",
+      "pack:osx": "electron-packager . PartiuPDV --out=dist/ --overwrite --platform=darwin --arch=x64 --exe PartiuPDV.exe --icon=resources/icon.icns && npm run codesign",
+      "pack:win32": "electron-packager . PartiuPDV --out=dist/ --overwrite --platform=win32 --arch=ia32 --exe PartiuPDV.exe",
+      "pack:win64": "electron-packager . PartiuPDV --out=dist/ --overwrite --platform=win32 --arch=x64 --exe PartiuPDV.exe --icon=resources/icon.ico --exe PartiuPDV.exe",
+      "setup": "electron-installer-windows --src dist/PartiuPDV-win32-ia32/ --config config.json --exe PartiuPDV.exe --overwrite"
+    },
+    "keywords": [
+      "Partiu Vantagens",
+      "POS",
+      "pos"
+    ],
+    "author": "Arkady Zalkowitsch",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^1.4.1",
+      "electron-installer-windows": "^0.2.0",
+      "electron-winstaller": "^2.3.4"
+    },
+    "dependencies": {
+      "electron-installer-windows": "*",
+      "electron-packager": "*",
+      "electron-prebuilt": "*"
+    }
+  },
+  "packageStatus": 200
 }

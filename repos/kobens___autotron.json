@@ -64,5 +64,74 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "autotron",
+    "version": "0.0.1",
+    "description": "Example for auto-updating apps with electron-builder",
+    "main": "app/index.js",
+    "private": true,
+    "scripts": {
+      "start": "concurrently --kill-others \"npm run dev\" \"electron .\"",
+      "dev": "cross-env BABEL_ENV=development NODE_ENV=development webpack -w",
+      "build": "cross-env BABEL_ENV=production NODE_ENV=production webpack",
+      "postinstall": "install-app-deps",
+      "test": "",
+      "dist:win": "npm run build && build --win --ia32 --x64",
+      "dist:mac": "npm run build && build --mac"
+    },
+    "build": {
+      "appId": "com.rbns.autotron",
+      "productName": "Autotron",
+      "mac": {
+        "category": "public.app-category.developer-tools"
+      },
+      "win": {
+        "target": "nsis"
+      }
+    },
+    "dependencies": {
+      "glamor": "^2.17.12",
+      "is-online": "^5.1.2",
+      "react": "^15.3.2",
+      "react-dom": "^15.3.2"
+    },
+    "devDependencies": {
+      "babel-core": "^6.18.2",
+      "babel-eslint": "^7.0.0",
+      "babel-loader": "^6.2.5",
+      "babel-preset-react-app": "^1.0.0",
+      "concurrently": "^3.1.0",
+      "cross-env": "^3.1.3",
+      "css-loader": "^0.25.0",
+      "electron": "^1.4.5",
+      "electron-builder": "^7.22.0",
+      "eslint": "^3.8.1",
+      "eslint-config-react-app": "^0.3.0",
+      "eslint-plugin-flowtype": "^2.21.0",
+      "eslint-plugin-import": "^2.0.1",
+      "eslint-plugin-jsx-a11y": "^2.2.3",
+      "eslint-plugin-react": "^6.4.1",
+      "extract-text-webpack-plugin": "^2.0.0-beta.4",
+      "json-loader": "^0.5.4",
+      "style-loader": "^0.13.1",
+      "webpack": "^2.1.0-beta.25"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kobens/autotron.git"
+    },
+    "babel": {
+      "presets": [
+        "react-app"
+      ]
+    },
+    "eslintConfig": {
+      "extends": "react-app",
+      "rules": {
+        "import/no-webpack-loader-syntax": "off"
+      }
+    }
+  },
+  "packageStatus": 200
 }

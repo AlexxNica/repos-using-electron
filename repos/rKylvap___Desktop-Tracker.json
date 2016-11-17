@@ -70,5 +70,21 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Desktop-Tracker",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "rKylvap",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.2",
+      "path": "^0.12.7"
+    }
+  },
+  "packageStatus": 200
 }

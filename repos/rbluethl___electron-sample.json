@@ -70,5 +70,25 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-sample",
+    "version": "1.0.0",
+    "description": "Electron sample application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/rbluethl/electron-sample",
+    "keywords": [
+      "Electron",
+      "sample"
+    ],
+    "author": "Ronald Blüthl",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^1.4.1"
+    }
+  },
+  "packageStatus": 200
 }

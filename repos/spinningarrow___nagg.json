@@ -70,5 +70,21 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "nagg",
+    "version": "0.0.0",
+    "description": "Not Another Git GUI",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Sahil Bajaj",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -70,5 +70,52 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "jsterm",
+    "productName": "Jsterm",
+    "version": "0.0.0",
+    "description": "JS Terminal Emulator",
+    "license": "MIT",
+    "main": "index.js",
+    "repository": "schultyy/jsterm",
+    "author": {
+      "name": "Jan Schulte",
+      "email": "hello@unexpected-co.de",
+      "url": "github.com/schultyy/jsterm"
+    },
+    "engines": {
+      "iojs": ">=2.0"
+    },
+    "scripts": {
+      "prestart": "grunt",
+      "start": "electron src/",
+      "build": "electron-packager . $npm_package_productName --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
+    },
+    "files": [
+      "src/index.js",
+      "static/index.html",
+      "static/index.css",
+      "src/browser/index.js"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "devDependencies": {
+      "electron-packager": "^3.3.0",
+      "electron-prebuilt": "^0.25.2",
+      "grunt": "^0.4.5",
+      "grunt-ts": "^4.1",
+      "tsd": "^0.6.0",
+      "typescript": "^1.4"
+    },
+    "dependencies": {
+      "promise": "^7.0.1",
+      "bootstrap": "^3.3.4",
+      "jquery": "^2.1.4",
+      "requirejs": "^2.1.17",
+      "underscore": "^1.8.3"
+    }
+  },
+  "packageStatus": 200
 }

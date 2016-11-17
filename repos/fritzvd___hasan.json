@@ -64,5 +64,53 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hasan",
+    "version": "1.0.0",
+    "description": "hasan is looking for a new country to call home",
+    "main": "main.js",
+    "scripts": {
+      "test": "webpack-dev-server --progress --colors --hot --inline",
+      "start": "webpack ./index.js && electron main"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fritzvd/hasan.git"
+    },
+    "keywords": [
+      "game",
+      "react",
+      "leaflet"
+    ],
+    "author": "fritzvd",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/fritzvd/hasan/issues"
+    },
+    "homepage": "https://github.com/fritzvd/hasan#readme",
+    "devDependencies": {
+      "babel": "^6.5.2",
+      "babel-core": "^6.7.4",
+      "babel-loader": "^6.2.4",
+      "babel-preset-es2015-webpack": "^6.4.0",
+      "css-loader": "^0.23.1",
+      "file-loader": "^0.8.5",
+      "node-sass": "^3.4.2",
+      "sass-loader": "^3.2.0",
+      "style-loader": "^0.13.1",
+      "url-loader": "^0.5.7",
+      "webpack": "^1.12.14",
+      "webpack-dev-server": "^1.14.1"
+    },
+    "dependencies": {
+      "babel-preset-react": "^6.5.0",
+      "electron-prebuilt": "^0.37.4",
+      "leaflet": "^0.7.7",
+      "react": "^0.14.8",
+      "react-dom": "^0.14.8",
+      "skeleton-scss": "^2.0.4"
+    }
+  },
+  "packageStatus": 200
 }

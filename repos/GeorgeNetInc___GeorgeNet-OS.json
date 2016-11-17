@@ -84,5 +84,26 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "georgenet-os",
+    "version": "0.1.0 Beta",
+    "description": "OS built by GeorgeNet",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "GeorgeNet",
+    "license": "CC0-1.0",
+    "homepage": "https://georgenet.gq",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "battery-level": "^2.0.1",
+      "is-charging": "^1.0.0",
+      "wifi-control": "^2.0.0"
+    }
+  },
+  "packageStatus": 200
 }

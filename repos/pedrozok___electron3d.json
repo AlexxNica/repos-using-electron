@@ -64,5 +64,36 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "xkcd-electron",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/main.js",
+    "scripts": {
+      "start": "electron .",
+      "dev": "electron .",
+      "mac-bundle": "electron-packager . xkcd-browser --platform=darwin --arch=x64 --version=0.33.0 --ignore=node_modules/electron-prebuilt && cp icon.icns Angular-Popcorn-Time.app/Contents/Resources/atom.icns",
+      "win-bundle": "electron-packager . xkcd-browser --platform=win32 --arch=ia32 --version=0.33.0 --icon=icon.ico",
+      "linux-64-bundle": "electron-packager . xkcd-browser --platform=linux --arch=x64 --version=0.33.0 ignore='node_modules/(electron-packager|electron-prebuilt)'"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pedrozok/xkcd-electron.git"
+    },
+    "author": "zok",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/pedrozok/xkcd-electron/issues"
+    },
+    "homepage": "https://github.com/pedrozok/xkcd-electron#readme",
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.34.1",
+      "grunt": "^0.4.5",
+      "grunt-electron": "^2.0.1",
+      "load-grunt-tasks": "^3.3.0"
+    }
+  },
+  "packageStatus": 200
 }

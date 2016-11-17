@@ -64,5 +64,45 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "OwnDesk",
+    "version": "1.0.0",
+    "description": "Desktop client for Owncloud",
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ldonis/OwnDesk.git"
+    },
+    "keywords": [
+      "Owncloud"
+    ],
+    "author": "Luis Gdonis <emc2@ldonis.com>",
+    "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/ldonis/OwnDesk/issues"
+    },
+    "homepage": "https://github.com/ldonis/OwnDesk#readme",
+    "dependencies": {
+      "vue": "1.*",
+      "vue-resource": "0.7.*",
+      "vue-router": "0.7.*",
+      "uikit": "2.26.*"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.*",
+      "grunt": "0.4.*",
+      "grunt-contrib-stylus": "0.21.*",
+      "grunt-contrib-concat": "0.1.*",
+      "grunt-contrib-cssmin": "0.6.*",
+      "grunt-contrib-watch": "0.*",
+      "grunt-contrib-copy": "0.*",
+      "grunt-contrib-jade": "0.*"
+    },
+    "scripts": {
+      "build": "grunt deploy",
+      "start": "electron main.js"
+    }
+  },
+  "packageStatus": 200
 }

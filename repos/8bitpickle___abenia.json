@@ -70,5 +70,35 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "abenia",
+    "version": "0.0.1",
+    "Description": "Dwarf Fortress written in Javascript and run in Electron.",
+    "repository": "8bitpickle/abenia",
+    "author": {
+      "name": "Parker Botsford",
+      "email": "8bitpickle@gmail.com",
+      "url": "8bitpickle.github.io"
+    },
+    "main": "app/main.js",
+    "bugs": "https://github.com/8bitpickle/abenia/issues",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.6",
+      "xo": "^0.16.0"
+    },
+    "xo": {
+      "semicolon": false,
+      "rules": {
+        "no-trailing-spaces": 0,
+        "no-warning-comments": 0,
+        "padded-blocks": 0
+      }
+    },
+    "dependencies": {
+      "electron-localshortcut": "^0.6.1"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,21 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "BitcoinStock",
+    "version": "0.1.0",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . BitcoinStock --platform=darwin --arch=x64 --version=1.0.0 --overwrite"
+    },
+    "dependencies": {
+      "request": "^2.74.0"
+    },
+    "devDependencies": {
+      "electron": "^1.3.3"
+    }
+  },
+  "packageStatus": 200
 }

@@ -70,5 +70,39 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "numismata",
+    "version": "0.0.1",
+    "description": "A minimal application for organizing numismatic data",
+    "main": "./main.js",
+    "scripts": {
+      "postinstall": "cd node_modules/pouchdb/node_modules/leveldown && HOME=~/.electron-gyp node-gyp rebuild --target=0.36.3 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/smaugustine/numismata.git"
+    },
+    "keywords": [
+      "Numismata",
+      "coins",
+      "numismatics",
+      "catalogue"
+    ],
+    "author": "Augustine Dickinson",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/smaugustine/numismata/issues"
+    },
+    "dependencies": {
+      "jquery": "^2.2.0",
+      "pouchdb": "^5.2.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.3",
+      "electron-rebuild": "^1.1.1"
+    }
+  },
+  "packageStatus": 200
 }

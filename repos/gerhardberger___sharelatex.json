@@ -70,5 +70,41 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "sharelatex",
+    "productName": "ShareLatex",
+    "version": "1.0.1",
+    "description": "Unofficial ShareLatex app",
+    "scripts": {
+      "lint": "node_modules/.bin/eslint .",
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build:macos": "electron-packager . --overwrite --asar --out=dist --prune --platform=darwin --arch=x64 --icon=static/icon.icns --app-version=$npm_package_version && cd dist/ShareLatex-darwin-x64 && zip -ryXq9 ../ShareLatex-osx-${npm_package_version}.zip ShareLatex.app"
+    },
+    "keywords": [
+      "electron",
+      "share",
+      "latex",
+      "sharelatex"
+    ],
+    "author": {
+      "name": "Gellert Hegyi",
+      "email": "gellihegyi@gmail.com",
+      "url": "https://github.com/gerhardberger"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "electron-config": "^0.2.1",
+      "electron-debug": "^1.0.0"
+    },
+    "devDependencies": {
+      "eslint": "^3.2.2",
+      "eslint-config-standard": "^5.3.5",
+      "eslint-plugin-standard": "^2.0.0",
+      "electron-packager": "^7.0.0",
+      "electron": "^1.3.3"
+    }
+  },
+  "packageStatus": 200
 }

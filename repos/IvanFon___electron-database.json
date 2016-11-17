@@ -70,5 +70,37 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-database",
+    "version": "0.0.1",
+    "description": "A GUI database manager.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/IvanFon/electron-database.git"
+    },
+    "keywords": [
+      "database",
+      "memes",
+      "mongodb",
+      "tingodb"
+    ],
+    "author": "Ivan Fonseca",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/IvanFon/electron-database/issues"
+    },
+    "homepage": "https://github.com/IvanFon/electron-database",
+    "devDependencies": {
+      "electron-prebuilt": "^1.1.1"
+    },
+    "dependencies": {
+      "tingodb": "^0.4.2"
+    }
+  },
+  "packageStatus": 200
 }

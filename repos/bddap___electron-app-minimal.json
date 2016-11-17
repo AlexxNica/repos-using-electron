@@ -64,5 +64,19 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-app-minimal",
+    "version": "0.0.0",
+    "description": "Simple template. Supports naitive node modules.",
+    "scripts": {
+      "start": "electron app",
+      "postinstall": "cd app && npm install && electron-rebuild -m node_modules --pre-gyp-fix"
+    },
+    "dependencies": {
+      "electron": "^1.4.2",
+      "electron-rebuild": "^1.2.1"
+    }
+  },
+  "packageStatus": 200
 }

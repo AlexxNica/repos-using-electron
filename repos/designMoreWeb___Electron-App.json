@@ -70,5 +70,28 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "node_school_app",
+    "version": "1.0.0",
+    "description": "Electron App for node school",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/designMoreWeb/Node_School_App.git"
+    },
+    "author": "Divy Tolia",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/designMoreWeb/Node_School_App/issues"
+    },
+    "homepage": "https://github.com/designMoreWeb/Node_School_App#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.2"
+    }
+  },
+  "packageStatus": 200
 }

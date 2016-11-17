@@ -64,5 +64,43 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "graduation-works-video-player",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "js": "browserify -v -t babelify -o dist/index.js src/js/index.js",
+      "js:watch": "watchify -v -t babelify -o dist/index.js src/js/index.js",
+      "css": "postcss -u postcss-import -u postcss-nested -u postcss-sorting -u autoprefixer -u cssnano -o dist/index.css src/css/index.css",
+      "css:watch": "npm run css -- -w",
+      "server": "http-server dist",
+      "static": "cp -R src/static/ dist/",
+      "start": "npm run js:watch & npm run css:watch & npm run server",
+      "app": "electron --disable-http-cache index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.14.0",
+      "electron": "^1.4.3"
+    },
+    "devDependencies": {
+      "autoprefixer": "^6.5.0",
+      "babel-plugin-transform-es2015-modules-commonjs": "^6.16.0",
+      "babel-preset-react": "^6.16.0",
+      "babelify": "^7.3.0",
+      "browserify": "^13.1.0",
+      "cssnano": "^3.7.7",
+      "postcss-cli": "^2.6.0",
+      "postcss-import": "^8.1.2",
+      "postcss-nested": "^1.0.0",
+      "postcss-sorting": "^1.7.0",
+      "react": "^15.3.2",
+      "react-dom": "^15.3.2",
+      "watchify": "^3.7.0"
+    }
+  },
+  "packageStatus": 200
 }

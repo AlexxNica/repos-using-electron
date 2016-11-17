@@ -64,5 +64,27 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "doooge",
+    "version": "0.1.0",
+    "description": "",
+    "main": "launcher.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build:win": "./node_modules/.bin/electron-packager . --out=./dist --platform=win32 --arch=x64 --overwrite"
+    },
+    "author": "luMinO",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-packager": "^7.7.0",
+      "electron-prebuilt": "^1.3.4"
+    },
+    "dependencies": {
+      "angular": "^1.5.8",
+      "image-size": "^0.5.0"
+    }
+  },
+  "packageStatus": 200
 }

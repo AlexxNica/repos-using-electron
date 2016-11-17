@@ -64,5 +64,36 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "saturn",
+    "version": "0.0.2",
+    "author": {
+      "name": "Andrew Monks",
+      "email": "a@monks.co"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/amonks/saturn"
+    },
+    "devDependencies": {
+      "del": "^1.2.1",
+      "gulp": "^3.9.0",
+      "gulp-babel": "^5.2.1",
+      "gulp-concat": "^2.6.0",
+      "gulp-debug": "^2.1.0",
+      "gulp-declare": "^0.3.0",
+      "gulp-gh-pages": "^0.5.2",
+      "gulp-handlebars": "^4.0.0",
+      "gulp-jade": "^1.1.0",
+      "gulp-plumber": "^1.0.1",
+      "gulp-sass": "^2.0.4",
+      "gulp-sourcemaps": "^1.5.2",
+      "gulp-wrap": "^0.11.0",
+      "jstransformer-marked": "^1.0.1",
+      "marked": "^0.3.5",
+      "mkpath": "^0.1.0"
+    }
+  },
+  "packageStatus": 200
 }

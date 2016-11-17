@@ -64,5 +64,45 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "WebChimera-Electron-quick-start",
+    "description": "Example to run WebChimera on Electron",
+    "version": "0.0.1",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/EduardoMartinezCatala/WebChimera-Electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "WebChimera",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "Eduardo Martinez Catala",
+    "bugs": {
+      "url": "https://github.com/EduardoMartinezCatala/WebChimera-Electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/EduardoMartinezCatala/WebChimera-Electron-quick-start#readme",
+    "dependencies": {
+      "wcjs-player": "^6.0.0",
+      "wcjs-prebuilt": "^3.0.0"
+    },
+    "env": "development",
+    "devDependencies": {
+      "electron": "^1.3.3",
+      "electron-prebuilt": "^1.3.3"
+    },
+    "wcjs-prebuilt": {
+      "runtime": "electron",
+      "runtimeVersion": "v1.3.3",
+      "version": "v0.2.6"
+    }
+  },
+  "packageStatus": 200
 }

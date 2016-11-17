@@ -70,5 +70,43 @@
   },
   "networkCount": 1,
   "subscribersCount": 5,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "busted",
+    "version": "1.0.0",
+    "description": "A node module that detects improper iframe busting code",
+    "main": "busted.js",
+    "scripts": {
+      "test": "mocha",
+      "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nathanchapman/busted.git"
+    },
+    "keywords": [
+      "busted",
+      "iframe",
+      "x-frame-options",
+      "content-security-policy",
+      "clickjacking"
+    ],
+    "tonicExampleFilename": "example.js",
+    "author": "Nathan Chapman <nathanchapman@utexas.edu> (http://nathanchapman.io)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nathanchapman/busted/issues"
+    },
+    "homepage": "https://github.com/nathanchapman/busted#readme",
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "coveralls": "^2.11.9",
+      "istanbul": "^0.4.3",
+      "mocha": "^2.4.5"
+    },
+    "dependencies": {
+      "xhr2": "^0.1.3"
+    }
+  },
+  "packageStatus": 200
 }

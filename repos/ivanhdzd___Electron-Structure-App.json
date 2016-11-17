@@ -70,5 +70,39 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron",
+    "version": "1.0.0",
+    "description": "A minimal Electron application with bower and gulp",
+    "main": "main.js",
+    "scripts": {
+      "start": "gulp && electron .",
+      "postinstall": "bower install"
+    },
+    "keywords": [
+      "Electron",
+      "Desktop",
+      "Web",
+      "App",
+      "Native"
+    ],
+    "author": "IvánHdzD",
+    "license": "CCO",
+    "devDependencies": {
+      "del": "^2.2.1",
+      "electron-prebuilt": "^1.2.0",
+      "gulp": "^3.9.1",
+      "gulp-autoprefixer": "^3.1.0",
+      "gulp-load-plugins": "^1.2.4",
+      "gulp-notify": "^2.2.0",
+      "gulp-plumber": "^1.1.0",
+      "gulp-rename": "^1.2.2",
+      "gulp-sass": "^2.3.2",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-util": "^3.0.7",
+      "wiredep": "^4.0.0"
+    }
+  },
+  "packageStatus": 200
 }

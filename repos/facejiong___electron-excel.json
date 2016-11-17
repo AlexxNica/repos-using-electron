@@ -64,5 +64,30 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-excel",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "./node_modules/.bin/electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/facejiong/electron-excel.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/facejiong/electron-excel/issues"
+    },
+    "homepage": "https://github.com/facejiong/electron-excel#readme",
+    "dependencies": {
+      "electron": "^1.4.4",
+      "xlsx": "^0.8.0"
+    }
+  },
+  "packageStatus": 200
 }

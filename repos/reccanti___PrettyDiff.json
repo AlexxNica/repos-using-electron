@@ -64,5 +64,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "prettydiff",
+    "version": "1.0.0",
+    "description": "A simple, easy-to-use diff tool with a nice-looking UI.",
+    "main": "index.js",
+    "directories": {
+      "test": "tests"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/reccanti/PrettyDiff.git"
+    },
+    "author": "Ben Wilcox",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/reccanti/PrettyDiff/issues"
+    },
+    "homepage": "https://github.com/reccanti/PrettyDiff#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.2"
+    }
+  },
+  "packageStatus": 200
 }

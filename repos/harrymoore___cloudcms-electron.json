@@ -64,5 +64,30 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-sample",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ./app"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+      "Q": "0.0.1",
+      "asar": "^0.11.0",
+      "electron-prebuilt": "^1.2.5",
+      "fs-jetpack": "^0.9.2",
+      "rcedit": "^0.5.0"
+    },
+    "dependencies": {
+      "gulp-minify-css": "^1.2.4",
+      "gulp-uglify": "^1.5.4",
+      "gulp-usemin": "^0.3.23",
+      "q": "^1.4.1"
+    }
+  },
+  "packageStatus": 200
 }

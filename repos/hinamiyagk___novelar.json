@@ -70,5 +70,67 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "novelar",
+    "version": "0.0.1",
+    "description": "Web novel reader",
+    "main": "dest/main.js",
+    "scripts": {
+      "start": "electron .",
+      "clean": "rimraf dest",
+      "build:static": "cpx \"src/**/*.html\" dest",
+      "build:js": "babel src -d dest",
+      "build": "npm-run-all clean -p build:*",
+      "watch": "npm-run-all clean -p \"build:* -- --watch\"",
+      "test": "ava",
+      "lint": "eslint src test",
+      "flow": "flow"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hinamiyagk/novelar.git"
+    },
+    "author": "Hinata",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/hinamiyagk/novelar/issues"
+    },
+    "homepage": "https://github.com/hinamiyagk/novelar#readme",
+    "devDependencies": {
+      "ajv": "^4.8.2",
+      "ava": "^0.16.0",
+      "babel-cli": "^6.16.0",
+      "babel-eslint": "^7.1.0",
+      "babel-plugin-transform-async-to-generator": "^6.16.0",
+      "babel-plugin-transform-es2015-modules-commonjs": "^6.16.0",
+      "babel-plugin-transform-flow-strip-types": "^6.18.0",
+      "babel-plugin-transform-react-jsx": "^6.8.0",
+      "babel-register": "^6.18.0",
+      "cpx": "^1.5.0",
+      "electron": "1.4.6",
+      "eslint": "^3.8.1",
+      "eslint-config-airbnb": "^13.0.0",
+      "eslint-plugin-import": "^2.1.0",
+      "eslint-plugin-jsx-a11y": "^2.2.3",
+      "eslint-plugin-react": "^6.4.1",
+      "flow-bin": "0.35.0",
+      "npm-run-all": "^3.1.1",
+      "rimraf": "^2.5.4"
+    },
+    "dependencies": {
+      "css-select": "^1.2.0",
+      "htmlparser2": "^3.9.2",
+      "pify": "^2.3.0",
+      "preact": "^6.4.0",
+      "superagent": "^2.3.0"
+    },
+    "ava": {
+      "require": [
+        "babel-register"
+      ],
+      "babel": "inherit"
+    }
+  },
+  "packageStatus": 200
 }

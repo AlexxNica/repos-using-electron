@@ -70,5 +70,39 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-typescript-quick-start",
+    "version": "1.0.0",
+    "description": "Clone to try a simple typescript based Electron boilerplate app.",
+    "main": "main.js",
+    "scripts": {
+      "install": "typings i",
+      "watch": "tsc -w",
+      "start": "electron .",
+      "stop": "killall tsc || killall tsc"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/a904guy/electron-typescript-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "typescript",
+      "typings"
+    ],
+    "author": "Andy Hawkins",
+    "license": "CC-by-SA 4.0",
+    "bugs": {
+      "url": "https://github.com/a904guy/electron-typescript-quick-start/issues"
+    },
+    "homepage": "https://github.com/electron/electron-quick-start#readme",
+    "devDependencies": {
+      "electron": "^1.3.5"
+    }
+  },
+  "packageStatus": 200
 }

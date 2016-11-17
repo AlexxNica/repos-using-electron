@@ -64,5 +64,30 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "wysiwyg",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/raggesilver/WYSIWYG.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/raggesilver/WYSIWYG/issues"
+    },
+    "homepage": "https://github.com/raggesilver/WYSIWYG#readme",
+    "dependencies": {
+      "electron-prebuilt": "^1.4.3",
+      "jquery": "^3.1.1",
+      "jquery-ui": "^1.12.1"
+    }
+  },
+  "packageStatus": 200
 }

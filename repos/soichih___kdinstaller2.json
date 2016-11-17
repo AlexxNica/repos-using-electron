@@ -64,5 +64,32 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "kdinstall2",
+    "version": "2.0.10",
+    "description": "Karst Desktop Installer",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/soichih/kdinstall2.git"
+    },
+    "devDependencies": {
+      "electron-packager": "^8.1.0",
+      "electron-winstaller": "^2.3.3"
+    },
+    "dependencies": {
+      "async": "^2.1.2",
+      "electron": "^1.4.4",
+      "node-forge": "^0.6.45",
+      "request": "^2.76.0",
+      "sudo-prompt": "^6.2.0",
+      "thinlinc": "^1.0.7",
+      "whereis": "^0.4.0"
+    }
+  },
+  "packageStatus": 200
 }

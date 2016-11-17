@@ -70,5 +70,29 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "geometric-electron",
+    "version": "1.0.0",
+    "description": "Electron-enabled application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+git@github.com:vbankov/Geometric-Electron.git"
+    },
+    "keywords": [],
+    "author": "Vasilis Bankov",
+    "license": "ICS",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "bootstrap": "^3.3.7",
+      "jquery": "^3.1.0"
+    }
+  },
+  "packageStatus": 200
 }

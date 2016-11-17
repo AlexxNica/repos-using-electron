@@ -70,5 +70,25 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "smartisannote",
+    "version": "1.0.0",
+    "description": "A Smartisan Note client build with electron and web tecnology.",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron ."
+    },
+    "keywords": [
+      "Electron",
+      "Smartisan"
+    ],
+    "author": "HawkinsZhao",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.6"
+    }
+  },
+  "packageStatus": 200
 }

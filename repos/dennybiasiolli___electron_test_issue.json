@@ -64,5 +64,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron_app",
+    "version": "1.0.0",
+    "description": "electron_app",
+    "private": true,
+    "license": "MIT",
+    "main": "electron/main.js",
+    "scripts": {
+      "build": "electron-packager . electron_app --platform=darwin --arch=all --overwrite --ignore='^/(?!(www|electron|package\\.json))' --out=build",
+      "start": "electron ."
+    },
+    "devDependencies": {
+      "electron": "^1.4.3",
+      "electron-packager": "^8.1.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -84,5 +84,38 @@
   },
   "networkCount": 0,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-angular2",
+    "version": "0.0.1",
+    "description": "Using Angular2 to build electron app",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ClubeDosGeeksCoding/electron-angular2.git"
+    },
+    "keywords": [
+      "electron",
+      "angular2",
+      "typescript"
+    ],
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0",
+      "typescript": "*",
+      "systemjs": "*",
+      "angular2": "*",
+      "sqlite-sync": "latest",
+      "jquery": "*"
+    },
+    "author": "@jayralencar (//jayralencar.com.br)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ClubeDosGeeksCoding/electron-angular2/issues"
+    },
+    "homepage": "https://github.com/ClubeDosGeeksCoding/electron-angular2#readme"
+  },
+  "packageStatus": 200
 }

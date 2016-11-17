@@ -70,5 +70,53 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hearts",
+    "productName": "Hearts",
+    "version": "1.0.1",
+    "description": "iTunes hearts for the menubar.",
+    "license": "MIT",
+    "main": "index.js",
+    "repository": "disusered/hearts",
+    "author": {
+      "email": "crosquillas@gmail.com",
+      "name": "Carlos Rosquillas",
+      "url": "carlosanton.io"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "build": "rm -rf $npm_package_productName.app/ && npm run package && npm run icon",
+      "package": "electron-packager . $npm_package_productName --prune --asar --platform=darwin --arch=x64 --version=0.29.1",
+      "icon": "cp ./Icon.icns ./Hearts.app/Contents/Resources/atom.icns",
+      "start": "electron ."
+    },
+    "files": [
+      "index.css",
+      "index.html",
+      "index.js"
+    ],
+    "keywords": [
+      "electron-app",
+      "itunes"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.1.0",
+      "lodash.isequal": "^3.0.4",
+      "menubar": "^2.0.14",
+      "node-notifier": "^4.2.3",
+      "osa": "^2.2.0",
+      "playback": "github:disusered/playback",
+      "q": "^1.4.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^4.2.0",
+      "electron-prebuilt": "^0.29.1",
+      "eslint": "^0.24.0",
+      "jscs": "github:jscs-dev/node-jscs#master"
+    }
+  },
+  "packageStatus": 200
 }

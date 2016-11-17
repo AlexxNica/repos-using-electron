@@ -70,5 +70,108 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ultra-mega-git-tool",
+    "productName": "UltraMegaGitTool",
+    "version": "0.1.0",
+    "description": "A git gui written in Elm using Electron. Cause raisins.",
+    "main": "main.js",
+    "scripts": {
+      "test": "npm run test-elm && npm run lint && npm run test-js",
+      "test-elm": "elm make tests/Elm/TestRunner.elm --output tests/elmTests.js && node tests/elmTests.js",
+      "test-js": "cross-env ELECTRON_RUN_AS_NODE=1 node_modules/.bin/electron node_modules/ava/cli.js --timeout=5s --verbose --require babel-register tests/js/**.test.js",
+      "test-e2e": "ava --verbose test.js",
+      "lint": "standard --verbose | snazzy",
+      "hot-server": "node -r babel-register util/server.js",
+      "build-main": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.electron.js --progress --profile --colors",
+      "build-renderer": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.production.js --progress --profile --colors",
+      "build": "npm run build-main && npm run build-renderer",
+      "start": "cross-env NODE_ENV=production electron ./",
+      "start-hot": "cross-env HOT=1 NODE_ENV=development node util/runHot.js",
+      "package": "cross-env NODE_ENV=production node -r babel-register util/package.js",
+      "package-all": "npm run package -- --all",
+      "postinstall": "node node_modules/fbjs-scripts/node/check-dev-engines.js package.json && elm package install -y",
+      "dev": "concurrently --kill-others \"npm run hot-server\" \"npm run start-hot\""
+    },
+    "bin": {
+      "electron": "./node_modules/.bin/electron"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kaiyote/ultra-mega-git-tool.git"
+    },
+    "author": {
+      "name": "Tim Huddle",
+      "email": "blazhen88@gmail.com",
+      "url": "https://github.com/kaiyote"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kaiyote/ultra-mega-git-tool/issues"
+    },
+    "keywords": [
+      "electron",
+      "boilerplate",
+      "webpack",
+      "elm"
+    ],
+    "homepage": "https://github.com/kaiyote/ultra-mega-git-tool#readme",
+    "devDependencies": {
+      "asar": "^0.11.0",
+      "ava": "^0.15.0",
+      "babel-core": "^6.9.0",
+      "babel-eslint": "^6.0.4",
+      "babel-loader": "^6.2.4",
+      "babel-plugin-add-module-exports": "^0.2.1",
+      "babel-plugin-transform-async-to-generator": "^6.8.0",
+      "babel-plugin-transform-es2015-destructuring": "^6.9.0",
+      "babel-plugin-transform-object-rest-spread": "^6.8.0",
+      "babel-preset-es2015-node6": "^0.2.0",
+      "babel-register": "^6.9.0",
+      "concurrently": "^2.1.0",
+      "cross-env": "^1.0.8",
+      "css-loader": "^0.23.1",
+      "del": "^2.2.0",
+      "devtron": "^1.1.2",
+      "electron-debug": "^1.0.0",
+      "electron-packager": "^7.0.2",
+      "electron-prebuilt": "^1.2.0",
+      "electron-rebuild": "^1.1.4",
+      "elm-css": "^0.5.0",
+      "elm-css-webpack-loader": "github:tcoopman/elm-css-webpack-loader",
+      "elm-hot-loader": "^0.3.2",
+      "elm-webpack-loader": "^3.0.3",
+      "express": "^4.13.4",
+      "extract-text-webpack-plugin": "^1.0.1",
+      "fbjs-scripts": "^0.7.0",
+      "json-loader": "^0.5.4",
+      "minimist": "^1.2.0",
+      "node-libs-browser": "^1.0.0",
+      "snazzy": "^4.0.0",
+      "spawn-auto-restart": "^2.0.1",
+      "spectron": "^3.1.0",
+      "standard": "^7.1.0",
+      "style-loader": "^0.13.1",
+      "uglify-js": "github:mishoo/UglifyJS2#harmony",
+      "wait-on": "^1.5.2",
+      "webpack": "^1.13.1",
+      "webpack-dev-middleware": "^1.6.1",
+      "webpack-hot-middleware": "^2.10.0"
+    },
+    "dependencies": {
+      "chokidar": "^1.5.1",
+      "expand-tilde": "^1.2.1",
+      "font-awesome": "^4.6.3",
+      "nodegit": "^0.13.0"
+    },
+    "devEngines": {
+      "node": "6.x",
+      "npm": "3.x"
+    },
+    "standard": {
+      "parser": "babel-eslint"
+    }
+  },
+  "packageStatus": 200
 }

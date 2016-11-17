@@ -84,5 +84,36 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "draw-a-volume",
+    "version": "1.0.0",
+    "description": "draw an image sequence as a volume",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/draw-a-thing/draw-a-volume.git"
+    },
+    "keywords": [
+      "image",
+      "volume",
+      "3d",
+      "science"
+    ],
+    "author": "freeman-lab",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/draw-a-thing/draw-a-volume/issues"
+    },
+    "homepage": "https://github.com/draw-a-thing/draw-a-volume#readme",
+    "dependencies": {
+      "dom-css": "^2.0.0",
+      "drag-and-drop-files": "0.0.1",
+      "electron-prebuilt": "^0.37.3"
+    }
+  },
+  "packageStatus": 200
 }

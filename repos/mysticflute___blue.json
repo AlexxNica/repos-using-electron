@@ -70,5 +70,47 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "blue",
+    "version": "0.4.0",
+    "description": "share peripherals and screens between macs",
+    "author": "Nathan McWilliams",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mysticflute/blue"
+    },
+    "license": "BSD-3-Clause",
+    "main": "src/main.js",
+    "scripts": {
+      "start": "electron .",
+      "clean": "rm -rf dist",
+      "zip": "cd dist/Blue/Blue-darwin-x64 && ditto -c -k --sequesterRsrc --keepParent Blue.app Blue.app.zip",
+      "predist": "npm run clean",
+      "dist": "electron-packager ./ Blue --platform darwin --arch x64 --out ./dist/Blue --overwrite --icon=./resources/app.icns --app-version=$npm_package_version --prune  --app-category-type=public.app-category.productivity --ignore dist",
+      "postdist": "npm run zip",
+      "postversion": "git push && git push --tags",
+      "draft": "publish-release --assets dist/Blue/Blue-darwin-x64/Blue.app.zip --owner mysticflute --repo $npm_package_name --token $BLUE_DIST_TOKEN --draft --reuseRelease",
+      "release": "publish-release --assets dist/Blue/Blue-darwin-x64/Blue.app.zip --owner mysticflute --repo $npm_package_name --token $BLUE_DIST_TOKEN --reuseRelease"
+    },
+    "dependencies": {
+      "electron-is-dev": "^0.1.1",
+      "electron-window-state": "^3.0.3",
+      "milliseconds": "^1.0.3",
+      "nedb": "^1.8.0",
+      "ping": "git+https://github.com/danielzzz/node-ping.git",
+      "promised-exec": "^1.0.1",
+      "q": "^1.4.1",
+      "ssh2": "^0.5.0",
+      "string": "^3.3.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.0.4",
+      "electron-prebuilt": "^1.2.5",
+      "eslint": "^2.13.1",
+      "eslint-plugin-html": "^1.5.1",
+      "publish-release": "^1.3.2"
+    }
+  },
+  "packageStatus": 200
 }

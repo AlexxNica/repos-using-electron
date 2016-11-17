@@ -78,5 +78,44 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "description": "BERT Console",
+    "name": "bert-shell",
+    "version": "2.1.2",
+    "main": "index.js",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sdllc/BERT-Console.git"
+    },
+    "scripts": {
+      "build": "webpack",
+      "clean": "rm -fr build/*",
+      "start": "./node_modules/.bin/electron build",
+      "watch": "./node_modules/.bin/webpack-dev-server"
+    },
+    "dependencies": {
+      "chokidar": "^1.6.0",
+      "cmjs-shell": "^0.3.8",
+      "electron-window-state": "^3.0.4",
+      "electron": "^1.4.5",
+      "pubsub-js": "^1.5.3"
+    },
+    "devDependencies": {
+      "bower": "^1.7.9",
+      "copy-webpack-plugin": "^3.0.1",
+      "css-loader": "^0.25.0",
+      "electron-packager": "^8.0.0",
+      "express": "^4.14.0",
+      "html-loader": "^0.4.4",
+      "html-webpack-plugin": "^2.22.0",
+      "json-loader": "^0.5.4",
+      "raw-loader": "^0.5.1",
+      "style-loader": "^0.13.1",
+      "webpack": "^1.13.2",
+      "webpack-dev-server": "^1.15.1"
+    }
+  },
+  "packageStatus": 200
 }

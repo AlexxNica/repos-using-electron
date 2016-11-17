@@ -70,5 +70,59 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "karteczki",
+    "productName": "Karteczki",
+    "version": "0.0.0",
+    "description": "My wicked app",
+    "license": "GPL-3.0",
+    "repository": "xwizard/karteczki",
+    "author": {
+      "name": "xwizard",
+      "email": "xwizard@server",
+      "url": "github.com/xwizard/karteczki"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=0.31.1",
+      "lint": "jshint . --exclude node_modules",
+      "test": "mocha"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "electron-debug": "latest",
+      "knockout": ">=3.3.0",
+      "semantic-ui-css": ">=2.1.4",
+      "rfr": ">=1.2.2"
+    },
+    "devDependencies": {
+      "electron-packager": "latest",
+      "electron-prebuilt": "latest",
+      "jshint": "latest",
+      "mocha": "latest"
+    },
+    "jshintConfig": {
+      "unused": "strict",
+      "globalstrict": true,
+      "globals": {
+        "require": true,
+        "__dirname": true,
+        "process": true,
+        "describe": true,
+        "it": true
+      }
+    }
+  },
+  "packageStatus": 200
 }

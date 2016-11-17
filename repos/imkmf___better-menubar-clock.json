@@ -64,5 +64,26 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "better-menubar-clock",
+    "version": "1.0.0",
+    "description": "A better menubar clock for OS X",
+    "main": "main.js",
+    "scripts": {
+      "package": "rm -rf ./BetterMenubarClock-darwin-x64 && ./node_modules/.bin/electron-packager . BetterMenubarClock --platform darwin --arch=x64 --ignore=.DS_Store --overwrite --prune"
+    },
+    "author": "Kristian Freeman <kristian@kristianfreeman.com>",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-packager": "^7.7.0",
+      "electron-prebuilt": "^1.0.2"
+    },
+    "dependencies": {
+      "electron-json-storage": "^2.0.0",
+      "lodash": "^4.15.0",
+      "moment": "^2.14.1"
+    }
+  },
+  "packageStatus": 200
 }

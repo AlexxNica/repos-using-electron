@@ -64,5 +64,33 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "JiraWatcher",
+    "version": "0.0.1",
+    "description": "This app shows your issues or any issues by jql on your desktop always from JIRA.",
+    "main": "app/app.js",
+    "dependencies": {
+      "electron": "^1.4.0",
+      "riot": "^2.6.1",
+      "node-sass": "^3.10.0",
+      "electron-packager": "^8.0.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "build:scss": "./node_modules/.bin/node-sass -r app/client/assets/stylesheets/scss/app.scss app/client/assets/stylesheets/app.css",
+      "build:riot": "./node_modules/.bin/riot app/client/assets/javascripts/components app/client/assets/javascripts/components/components.js",
+      "watch:scss": "./node_modules/.bin/node-sass -w -r app/client/assets/stylesheets/scss/app.scss app/client/assets/stylesheets/app.css",
+      "watch:riot": "./node_modules/.bin/riot -w app/client/assets/javascripts/components app/client/assets/javascripts/components/components.js",
+      "app": "npm run build:scss && npm run build:riot && ./node_modules/.bin/electron .",
+      "app:watch": "npm run build:scss && npm run build:riot && ./node_modules/.bin/electron . & npm run watch",
+      "watch": "npm run watch:scss & npm run watch:riot",
+      "publish": "npm run build:mac && npm run build:win",
+      "publish:mac": "npm run build:scss && npm run build:riot && ./node_modules/.bin/electron-packager . JiraWatcher --out=dist --icon=./app/resources/icons/app.ico --platform=darwin --arch=x64 --overwrite --forced",
+      "publish:win": "npm run build:scss && npm run build:riot && ./node_modules/.bin/electron-packager . JiraWatcher --out=dist --icon=./app/resources/icons/app.ico --platform=win32 --arch=x64 --overwrite --forced"
+    },
+    "author": "iwamatsu0430",
+    "license": "ISC"
+  },
+  "packageStatus": 200
 }

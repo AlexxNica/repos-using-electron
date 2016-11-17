@@ -64,5 +64,36 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ots-studio",
+    "version": "0.0.1",
+    "license": "MIT",
+    "description": "",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:vidbina/ots-studio.git"
+    },
+    "author": [
+      {
+        "name": "David Asabina",
+        "email": "david@supr.nu",
+        "url": "supr.nu"
+      }
+    ],
+    "main": "main.js",
+    "dependencies": {},
+    "devDependencies": {
+      "asar": "~0.7.2",
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.4"
+    },
+    "scripts": {
+      "info": "which electron",
+      "start": "electron .",
+      "build": "electron-packager . OTSStudio --platform=all --arch=all --icon=resources/icon.png --version=0.30.4 --out=build",
+      "build-osx": "electron-packager . OTSStudio --platform=darwin --arch=x64 --icon=resources/icon.png --version=0.30.4 --out=build"
+    }
+  },
+  "packageStatus": 200
 }

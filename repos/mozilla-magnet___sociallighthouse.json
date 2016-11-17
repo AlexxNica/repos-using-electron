@@ -78,5 +78,27 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "SocialLightHouse",
+    "version": "0.0.1",
+    "main": "./main.js",
+    "scripts": {
+      "start": "electron .",
+      "package": "node ./node_modules/electron-packager/cli.js ./ SocialLightHouse --platform=darwin --arch=x64 --version=1.2.2 --ignore=node_modules/electron-rebuild --asar --icon=icon.icns --overwrite",
+      "package-linux": "node ./node_modules/electron-packager/cli.js ./ SocialLightHouse --platform=linux --arch=x64 --version=1.2.2 --ignore=node_modules/electron-rebuild --asar --icon=icon.icns",
+      "electron": "node ./node_modules/electron-prebuilt/cli.js .",
+      "rebuild": "node ./node_modules/.bin/electron-rebuild"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.1"
+    },
+    "dependencies": {
+      "eddystone-beacon": "^1.0.6",
+      "electron-packager": "^7.0.3",
+      "gimbus": "^0.1.4",
+      "urlencode": "^1.1.0"
+    }
+  },
+  "packageStatus": 200
 }

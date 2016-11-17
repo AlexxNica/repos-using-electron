@@ -70,5 +70,38 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "chattr",
+    "version": "1.0.0",
+    "description": "A beautiful client for Salesforce Chatter",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mattsimonis/chattr.git"
+    },
+    "keywords": [
+      "chattr",
+      "salesforce",
+      "chatter",
+      "electron"
+    ],
+    "author": "Matt Simonis",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mattsimonis/chattr/issues"
+    },
+    "homepage": "https://github.com/mattsimonis/chattr#readme",
+    "dependencies": {
+      "jsforce": "^1.7.0",
+      "url": "^0.11.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

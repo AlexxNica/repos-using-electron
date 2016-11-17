@@ -70,5 +70,40 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "quick-start",
+    "version": "1.0.0",
+    "description": "Shows what kind of program languages used for a certain project",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fupslot/CodeAnalizer.git"
+    },
+    "keywords": [
+      "Code",
+      "Analize",
+      "Atom",
+      "Shell",
+      "Electron"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/fupslot/CodeAnalizer/issues"
+    },
+    "homepage": "https://github.com/fupslot/CodeAnalizer/issues",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "highcharts": "^4.2.3",
+      "jquery": "^2.2.0",
+      "lodash": "^4.3.0"
+    }
+  },
+  "packageStatus": 200
 }

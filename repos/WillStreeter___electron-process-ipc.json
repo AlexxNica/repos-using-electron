@@ -64,5 +64,82 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-process-ipc",
+    "version": "0.0.3",
+    "description": "A typescript module using  smith-kyle's 'electron-process' node module",
+    "main": "dist/src/index.js",
+    "typings": "dist/typings/src/index.d.ts",
+    "directories": {
+      "test": "test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/WillStreeter/electron-process-ipc.git"
+    },
+    "keywords": [
+      "typescript",
+      "electron",
+      "ipcRender"
+    ],
+    "author": "will.streeter@gmail.com",
+    "license": "MIT",
+    "dependencies": {
+      "@types/bluebird": "^3.0.35",
+      "@types/lodash": "^4.14.37",
+      "@types/node-uuid": "0.0.28",
+      "bluebird": "^2.9.27",
+      "electron": "~1.4.3",
+      "hashids": "^1.1.1",
+      "lodash": "^4.0.0",
+      "node-uuid": "~1.4.3"
+    },
+    "peerDependencies": {
+      "bluebird": "^2.9.27",
+      "@types/bluebird": "^3.0.35",
+      "@types/lodash": "^4.14.37",
+      "@types/node-uuid": "0.0.28",
+      "hashids": "^1.1.1",
+      "lodash": "^4.0.0",
+      "node-uuid": "~1.4.3"
+    },
+    "devDependencies": {
+      "bluebird": "^2.9.27",
+      "electron": "~1.4.3",
+      "lodash": "^4.0.0",
+      "hashids": "^1.1.1",
+      "node-uuid": "~1.4.3",
+      "@types/uuid": "^2.0.29",
+      "@types/bluebird": "^3.0.35",
+      "@types/lodash": "^4.14.37",
+      "@types/node-uuid": "0.0.28",
+      "chai": "^3.5.0",
+      "concurrently": "^2.2.0",
+      "gulp": "^3.9.1",
+      "gulp-babel": "^6.1.2",
+      "gulp-clean": "^0.3.2",
+      "gulp-mocha": "^2.2.0",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-typescript": "^2.13.6",
+      "merge2": "^1.0.2",
+      "mocha": "^2.5.3",
+      "retyped-uuid-tsd-ambient": "^1.0.0-0",
+      "supertest": "^1.2.0",
+      "supertest-as-promised": "^3.2.0",
+      "typescript": "^1.8.10"
+    },
+    "bugs": {
+      "url": "https://github.com/WillStreeter/electron-process-ipc/issues"
+    },
+    "homepage": "https://github.com/WillStreeter/electron-process-ipc#readme",
+    "scripts": {
+      "test": "node_modules/.bin/gulp test",
+      "dev": "node_modules/.bin/gulp dev",
+      "start": "node .bin/server.js",
+      "build": "rm -rf dist/src && tsc",
+      "prepublish": "typings install && npm run build"
+    }
+  },
+  "packageStatus": 200
 }

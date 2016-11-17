@@ -64,5 +64,63 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "marko",
+    "version": "0.0.1",
+    "productName": "EightOhEight",
+    "description": "Dead simple MarkDwon editor ",
+    "main": "app/index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-packager": "^5.1.1",
+      "electron-prebuilt": "^0.35.1",
+      "gulp": "^3.9.0",
+      "gulp-babel": "^6.1.0",
+      "gulp-concat": "^2.6.0",
+      "gulp-rename": "^1.2.2",
+      "gulp-run": "^1.6.11",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-uglify": "^1.5.1"
+    },
+    "jspm": {
+      "directories": {
+        "baseURL": "src/browser"
+      },
+      "dependencies": {
+        "angular": "github:angular/bower-angular@^1.4.3",
+        "angular-animate": "bower:angular-animate@^1.4.7",
+        "angular-route": "github:angular/bower-angular-route@^1.4.3",
+        "angular-ui-codemirror": "bower:angular-ui-codemirror@^0.3.0",
+        "angular-ui-router": "bower:angular-ui-router@^0.2.15",
+        "codemirror": "bower:codemirror@^5.5.0",
+        "css": "github:systemjs/plugin-css@^0.1.13",
+        "github-markdown-css": "bower:github-markdown-css@^2.0.9",
+        "highlightjs": "github:components/highlightjs@^8.6.0",
+        "jquery": "github:components/jquery@^2.1.4",
+        "markdown-it": "bower:markdown-it@^4.4.0",
+        "markdown-it-footnote": "bower:markdown-it-footnote@^1.0.0",
+        "raf": "bower:file:./src/browser/jspm_packages/bower/raf@latest%2FrAF.js",
+        "text": "github:systemjs/plugin-text@^0.0.2"
+      },
+      "devDependencies": {
+        "babel": "npm:babel-core@^5.1.13",
+        "babel-runtime": "npm:babel-runtime@^5.1.13",
+        "core-js": "npm:core-js@^0.9.4"
+      }
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.35.1",
+      "fs-plus": "^2.8.1",
+      "nslog": "^3.0.0",
+      "season": "^5.3.0",
+      "underscore-plus": "^1.6.6",
+      "yargs": "^3.30.0"
+    }
+  },
+  "packageStatus": 200
 }

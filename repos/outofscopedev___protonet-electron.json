@@ -70,5 +70,33 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "protonet-client",
+    "version": "1.0.0",
+    "description": "just a simple protonet client",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "Protonet",
+      "outofscopedev."
+    ],
+    "author": "outofscope-dev.com",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "outofscope-dev.com"
+    },
+    "homepage": "https://outofscope-dev.com",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

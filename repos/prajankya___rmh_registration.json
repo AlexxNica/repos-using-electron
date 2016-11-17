@@ -70,5 +70,48 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "rmh_registration",
+    "version": "1.0.0",
+    "description": "Robot Makers Hub Registration form for Workshops in Node.js and Angular",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "DEBUG=myServer nodemon index.js",
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/prajankya/rmh_registration.git"
+    },
+    "keywords": [
+      "Robot",
+      "Makers",
+      "Hub",
+      "Registration",
+      "GUI"
+    ],
+    "author": "Prajankya",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/prajankya/rmh_registration/issues"
+    },
+    "homepage": "https://github.com/prajankya/rmh_registration#readme",
+    "dependencies": {
+      "adm-zip": "^0.4.7",
+      "body-parser": "^1.15.2",
+      "debug": "^2.2.0",
+      "ejs": "^2.5.2",
+      "express": "^4.14.0",
+      "lodash": "^4.16.1",
+      "lowdb": "^0.13.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^8.0.0",
+      "electron-prebuilt": "^1.4.1",
+      "nodemon": "^1.10.2"
+    }
+  },
+  "packageStatus": 200
 }

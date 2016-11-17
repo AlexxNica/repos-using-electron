@@ -70,5 +70,21 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-installable-app",
+    "version": "0.1.0",
+    "description": "An Electron app that can install itself",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "deploy": "electron-packager . --platform=win32 --arch=x64"
+    },
+    "author": "Peter Goes",
+    "devDependencies": {
+      "electron-packager": "7.0.4",
+      "electron-prebuilt": "1.2.5"
+    }
+  },
+  "packageStatus": 200
 }

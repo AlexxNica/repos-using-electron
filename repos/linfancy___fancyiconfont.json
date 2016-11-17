@@ -64,5 +64,47 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "fancyicon",
+    "version": "1.0.0",
+    "description": "a tool to make iconfont which by fontello api",
+    "main": "./app/main.js",
+    "scripts": {
+      "start": "electron .",
+      "packager:win64": "electron-packager ./ fancyicon --platform=win32 --arch=x64 --out=./outapp --overwrite --icon=./app/media/img/F.png",
+      "packager:mac": "electron-packager ./ fancyicon --platform=darwin --arch=x64 --out=./outapp --overwrite --icon=./app/media/img/F.png",
+      "pack": "build --dir",
+      "dist": "build --platform win32 --arch=x64"
+    },
+    "keywords": [
+      "iconfont"
+    ],
+    "homepage": "https://github.com/linfancy/fancyiconfont",
+    "author": "fancylin",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-builder": "^6.7.3",
+      "electron-packager": "^7.7.0",
+      "electron-prebuilt": "^1.2.0",
+      "fs": "0.0.2",
+      "fstream": "^1.0.10",
+      "gulp-build-atom-shell": "fireball-x/gulp-build-atom-shell",
+      "gulp-fontello-import": "0.0.1",
+      "jszip": "^3.1.1",
+      "zip-folder": "^1.0.0",
+      "zlib": "^1.0.5"
+    },
+    "dependencies": {
+      "file-saver": "^1.3.2"
+    },
+    "build": {
+      "appId": "com.electron.${name}",
+      "app-category-type": "public.app-category.productivity",
+      "win": {
+        "iconUrl": "https://github.com/linfancy/fancyiconfont/blob/master/app/media/img/icon.ico"
+      }
+    }
+  },
+  "packageStatus": 200
 }

@@ -70,5 +70,51 @@
   },
   "networkCount": 6,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "correo",
+    "version": "1.0.5",
+    "description": "A menubar/taskbar Gmail App",
+    "main": "index.js",
+    "productName": "Correo",
+    "scripts": {
+      "start": "electron index.js --disable-gpu"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/amitmerchant1990/correo",
+      "docs": "https://github.com/amitmerchant1990/correo/blob/master/README.md"
+    },
+    "keywords": [
+      "electron",
+      "gmail",
+      "mail",
+      "menubar",
+      "taskbar",
+      "tray",
+      "mail",
+      "html",
+      "desktop"
+    ],
+    "author": "Amit Merchant <bullredeyes@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/amitmerchant1990/correo/issues"
+    },
+    "homepage": "https://github.com/amitmerchant1990/correo#readme",
+    "_npmUser": {
+      "name": "amit_merchant",
+      "email": "bullredeyes@gmail.com"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.2",
+      "electron-packager": "^7.0.3",
+      "electron-prebuilt": "latest",
+      "gulp": "^3.9.1"
+    },
+    "dependencies": {
+      "menubar": "latest"
+    }
+  },
+  "packageStatus": 200
 }

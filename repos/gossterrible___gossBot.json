@@ -64,5 +64,35 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "gossbot",
+    "version": "1.0.0",
+    "description": "simple smart desktop bot to help with daily task",
+    "main": "main.js",
+    "dependencies": {
+      "node-tts-google": "*"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "*"
+    },
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gossterrible/gossBot.git"
+    },
+    "keywords": [
+      "bot",
+      "electron"
+    ],
+    "author": "Bahati Boniface",
+    "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/gossterrible/gossBot/issues"
+    },
+    "homepage": "https://github.com/gossterrible/gossBot#readme"
+  },
+  "packageStatus": 200
 }

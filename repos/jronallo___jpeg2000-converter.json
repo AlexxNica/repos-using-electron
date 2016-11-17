@@ -70,5 +70,74 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "jpeg2000-converter",
+    "productName": "jpeg2000-converter",
+    "version": "0.0.3",
+    "main": "app/index.js",
+    "description": "Electron GUI to convert images to JPEG2000 images",
+    "license": "MIT",
+    "repository": "user/repo",
+    "author": {
+      "name": "Jason Ronallo",
+      "email": "jronallo@gmail.com",
+      "url": "http://ronallo.com"
+    },
+    "electronVersion": "0.36.7",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "start_debug": "JPEG2000_CONVERTER_DEBUG=true electron .",
+      "foreman": "foreman start -f Procfile",
+      "pack:osx": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --overwrite --prune --platform=darwin --arch=x64 --version=$npm_package_electronVersion",
+      "pack:win": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --overwrite --prune --platform=win32 --arch=x64 --version=$npm_package_electronVersion",
+      "pack:linux": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --overwrite --prune --platform=linux --arch=x64 --version=$npm_package_electronVersion",
+      "pack:all": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --overwrite --prune --all --version=$npm_package_electronVersion",
+      "build:osx": "npm run pack:osx && electron-builder dist/jpeg2000-converter-darwin-x64 --platform=osx --out=dist/osx --config=builder.json",
+      "build:win": "npm run pack:win && electron-builder dist/jpeg2000-converter-win32-x64 --platform=win --out=dist/win --config=builder.json",
+      "build:linux": "npm run pack:linux && electron-builder dist/jpeg2000-converter-linux-x64 --platform=linux --out=dist/linux --config=builder.json",
+      "dist:clean": "rm -rf ./dist/*"
+    },
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "async": "^1.5.2",
+      "configstore": "^1.4.0",
+      "electron-debug": "^0.5.0",
+      "expand-home-dir": "0.0.2",
+      "express": "^4.13.4",
+      "font-awesome": "^4.5.0",
+      "foundation-sites": "^6.1.1",
+      "handlebars": "^4.0.5",
+      "iiif-image": "0.0.16",
+      "jquery": "^1.7.4",
+      "lodash": "^4.2.1",
+      "openseadragon": "^2.1.0",
+      "prettysize": "0.0.3",
+      "sharp": "^0.12.2",
+      "tempfile": "^1.1.1",
+      "which": "^1.2.4",
+      "xml2js": "^0.4.16"
+    },
+    "devDependencies": {
+      "coffee-script": "^1.10.0",
+      "electron-builder": "^2.8.3",
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.36.7",
+      "electron-rebuild": "^1.1.1",
+      "node-sass": "^3.4.2",
+      "xo": "^0.12.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

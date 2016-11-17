@@ -70,5 +70,42 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "turtle",
+    "version": "1.0.0",
+    "description": "Build html page more faster with snippets",
+    "main": "main.js",
+    "scripts": {
+      "sass": "node-sass src/sass/main.scss src/css/main.css",
+      "watch:css": "nodemon -e scss -x \"npm run sass\"",
+      "dev": "npm-run-all --parallel start watch:css",
+      "start": "electron .",
+      "build": "electron-packager . --all",
+      "build-mac": "electron-packager . --platform=mas --out=dist/ --overwrite",
+      "build-win": "electron-packager . --platform=win32 --out=dist/ --overwrite"
+    },
+    "repository": "https://github.com/olivmonnier/turtle",
+    "keywords": [
+      "Electron",
+      "snippets"
+    ],
+    "author": "olivmonnier",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "bootstrap-sass": "^3.3.7",
+      "electron": "^1.4.1",
+      "electron-packager": "^8.2.0",
+      "node-sass": "^3.11.2",
+      "nodemon": "^1.11.0"
+    },
+    "dependencies": {
+      "codemirror": "^5.20.2",
+      "electron-config": "^0.2.1",
+      "font-awesome": "^4.7.0",
+      "jquery": "^3.1.1",
+      "nunjucks": "^3.0.0"
+    }
+  },
+  "packageStatus": 200
 }

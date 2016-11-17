@@ -70,5 +70,34 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "md_to_pdf",
+    "version": "0.0.1",
+    "description": "Markdown to pdf converter",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/youcef-M/md_to_pdf.git"
+    },
+    "keywords": [
+      "markdown",
+      "pdf",
+      "convert",
+      "electron"
+    ],
+    "author": "Youcef Medjellakh",
+    "license": "GPL-2.0",
+    "bugs": {
+      "url": "https://github.com/youcef-M/md_to_pdf/issues"
+    },
+    "homepage": "https://github.com/youcef-M/md_to_pdf#readme",
+    "dependencies": {
+      "electron-prebuilt": "^0.35.1"
+    }
+  },
+  "packageStatus": 200
 }

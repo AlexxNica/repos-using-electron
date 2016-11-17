@@ -78,5 +78,77 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "strongest-todo",
+    "version": "1.0.6",
+    "description": "俺達が考える最強のTODOリスト！",
+    "main": "index.js",
+    "directories": {
+      "app": "app",
+      "src": "src",
+      "doc": "doc"
+    },
+    "scripts": {
+      "postinstall": "gulp download-typings",
+      "download-typings": "gulp download-typings",
+      "start-electron": "node_modules/.bin/electron ./app",
+      "build-electron": "node ./src/build.js",
+      "test": "gulp test",
+      "verup-patch": "gulp verup-patch",
+      "build": "gulp build",
+      "upload-ghpages": "gulp upload-ghpages",
+      "git-push": "gulp git-push",
+      "deploy": "gulp deploy",
+      "develop": "gulp develop",
+      "upload-ghpages-for-wercker": "gulp upload-ghpages-for-wercker"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Remote-Pairpro/strongest-todo.git"
+    },
+    "keywords": [
+      "typescript",
+      "electron",
+      "todo"
+    ],
+    "author": "kazuhito-m,HIDARI0415",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Remote-Pairpro/strongest-todo/issues"
+    },
+    "homepage": "https://github.com/Remote-Pairpro/strongest-todo#readme",
+    "devDependencies": {
+      "browserify": "^13.0.0",
+      "del": "^2.2.0",
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.37.2",
+      "gulp": "^3.9.1",
+      "gulp-bump": "^2.1.0",
+      "gulp-concat": "^2.6.0",
+      "gulp-gh-pages": "^0.5.4",
+      "gulp-git": "^1.7.0",
+      "gulp-istanbul": "^0.10.3",
+      "gulp-mocha": "^2.2.0",
+      "gulp-plumber": "^1.1.0",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-typescript": "^2.12.1",
+      "gulp-typings": "^1.3.0",
+      "gulp-util": "^3.0.7",
+      "gulp-webserver": "^0.9.1",
+      "intelli-espower-loader": "^1.0.1",
+      "istanbul": "^0.4.2",
+      "knockout": "^3.4.0",
+      "mkdirp": "^0.5.1",
+      "mocha": "^2.4.5",
+      "power-assert": "^1.3.1",
+      "remap-istanbul": "^0.5.1",
+      "run-sequence": "^1.1.5",
+      "through2": "^2.0.1",
+      "tsify": "^0.14.1",
+      "typings": "^0.7.9",
+      "vinyl-source-stream": "^1.1.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -70,5 +70,24 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "@mh-cbon/vrc-electron",
+    "version": "1.0.0",
+    "description": "electron version of vrc-ui",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron electron.js"
+    },
+    "keywords": [],
+    "author": "mh-cbon <mh-cbon@users.noreply.github.com>",
+    "license": "MIT",
+    "devDependencies": {},
+    "dependencies": {
+      "@mh-cbon/vrc-ui": "git+https://github.com/mh-cbon/vrc-ui.git",
+      "electron-prebuilt": "^0.36.8"
+    }
+  },
+  "packageStatus": 200
 }

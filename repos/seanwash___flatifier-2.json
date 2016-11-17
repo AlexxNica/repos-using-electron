@@ -64,5 +64,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "flatifier-2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "Sean Washington <hello@seanwash.com> (http://seanwash.com)",
+    "license": "ISC",
+    "devDependencies": {
+      "dropzone": "^4.2.0",
+      "electron-packager": "^5.1.1",
+      "electron-prebuilt": "^0.34.3",
+      "jquery": "^2.1.4",
+      "mkdirp": "^0.5.1",
+      "parameterize": "0.0.7",
+      "psd": "^3.1.0",
+      "rimraf": "^2.4.3",
+      "webfonts-generator": "^0.3.1"
+    }
+  },
+  "packageStatus": 200
 }

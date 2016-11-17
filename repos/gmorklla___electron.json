@@ -70,5 +70,36 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gmorklla/electron.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "Alejandro RV",
+    "homepage": "https://github.com/gmorklla/electron.git#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.0.1"
+    },
+    "dependencies": {
+      "electron-json-storage": "^2.0.0",
+      "express": "^4.10.2",
+      "menubar": "^4.1.1",
+      "socket.io": "^1.4.6"
+    }
+  },
+  "packageStatus": 200
 }

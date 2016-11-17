@@ -64,5 +64,35 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "bullhorn",
+    "version": "0.0.1",
+    "description": "A simple sound board built with electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com/samuelcouch/bullhorn.git"
+    },
+    "keywords": [
+      "electron",
+      "sound"
+    ],
+    "author": "Sam Couch <sam@couch.rocks>",
+    "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/samuelcouch/bullhorn/issues"
+    },
+    "homepage": "https://github.com/samuelcouch/bullhorn#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.33.7"
+    },
+    "dependencies": {
+      "underscore": "^1.8.3"
+    }
+  },
+  "packageStatus": 200
 }

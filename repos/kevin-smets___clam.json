@@ -70,5 +70,42 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "clam",
+    "version": "0.1.0",
+    "description": "An HTML5 terminal",
+    "author": "kevin-smets",
+    "license": "MIT",
+    "scripts": {
+      "start": "gulp",
+      "electron": "electron node/main.js",
+      "test": "istanbul test ./node_modules/mocha/bin/_mocha",
+      "coverage": "npm run test --coverage",
+      "coverage-report": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    },
+    "devDependencies": {
+      "coveralls": "^2.11.9",
+      "gulp": "^3.9.1",
+      "gulp-debug": "^2.1.2",
+      "gulp-live-server": "^0.0.30",
+      "gulp-plumber": "^1.1.0",
+      "gulp-pug": "^3.0.3",
+      "gulp-sass": "^2.3.2",
+      "istanbul": "^0.4.4",
+      "iterm2-colors": "^1.1.0",
+      "live-server": "^1.0.0",
+      "mocha": "^2.5.3",
+      "run-sequence": "^1.2.2"
+    },
+    "dependencies": {
+      "app-root-path": "^1.2.1",
+      "electron-prebuilt": "^1.2.6",
+      "nedb": "^1.8.0",
+      "promise": "^7.1.1",
+      "shelljs": "^0.7.0",
+      "yargs": "^4.7.1"
+    }
+  },
+  "packageStatus": 200
 }

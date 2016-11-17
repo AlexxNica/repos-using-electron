@@ -64,5 +64,37 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "exif-auto",
+    "version": "0.1.1",
+    "description": "Auto rename photos with infos from exif tags",
+    "private": true,
+    "directories": {
+      "output": "electron-builds"
+    },
+    "scripts": {
+      "app": "electron app/",
+      "windows": "build --win",
+      "mac": "build --mac",
+      "all": "build -mw"
+    },
+    "build": {
+      "releases": "electron-builds/releases",
+      "appId": "com.jops.exifauto",
+      "category": "public.app-category.utilities",
+      "compression": "normal",
+      "mac": {
+        "target": "dmg"
+      },
+      "win": {
+        "target": "nsis"
+      }
+    },
+    "devDependencies": {
+      "electron-builder": "^7.11.2",
+      "electron-prebuilt": "^1.2.6"
+    }
+  },
+  "packageStatus": 200
 }

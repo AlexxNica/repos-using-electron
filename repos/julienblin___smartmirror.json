@@ -70,5 +70,28 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "smartmirror",
+    "version": "0.1.0",
+    "description": "Electron app to power smart mirror",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/julienblin/smartmirror.git"
+    },
+    "author": "Julien Blin",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/julienblin/smartmirror/issues"
+    },
+    "homepage": "https://github.com/julienblin/smartmirror#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.7",
+      "gulp": "^3.9.0"
+    }
+  },
+  "packageStatus": 200
 }

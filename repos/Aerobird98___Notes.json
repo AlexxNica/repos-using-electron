@@ -70,5 +70,26 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "notes",
+    "productName": "Notes",
+    "version": "1.0.0",
+    "main": "app.js",
+    "license": "MIT",
+    "repository": "Aerobird98/Notes",
+    "scripts": {
+      "start": "electron app.js",
+      "std": "standard",
+      "pack-64bit": "electron-packager . Notes --appname=Notes --app-version=1.0.0 --app-copyright=Github --platform=win32 --arch=x64 --prune --asar --icon=icon.ico --overwrite",
+      "pack-32bit": "electron-packager . Notes --appname=Notes --app-version=1.0.0 --app-copyright=Github --platform=win32 --arch=ia32 --prune --asar --icon=icon.ico --overwrite",
+      "pack-all": "electron-packager . Notes --appname=Notes --app-version=1.0.0 --app-copyright=Github --platform=win32 --arch=all --prune --asar --icon=icon.ico --overwrite"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "1.3.1",
+      "electron-packager": "7.3.0",
+      "standard": "7.1.2"
+    }
+  },
+  "packageStatus": 200
 }

@@ -70,5 +70,40 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "flash-interface",
+    "version": "0.0.1",
+    "description": "A Graphical Interface for the FLASH computational science codebase",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/cnwalker/flash_interface.git"
+    },
+    "keywords": [
+      "FLASH",
+      "physics",
+      "computational",
+      "science",
+      "simulations",
+      "parameters"
+    ],
+    "author": "Christopher Walker",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/cnwalker/flash_interface/issues"
+    },
+    "homepage": "http://flash.uchicago.edu/site/index.shtml",
+    "devDependencies": {
+      "electron-packager": "^8.0.0",
+      "electron-prebuilt": "^1.4.0"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^1.4.0"
+    }
+  },
+  "packageStatus": 200
 }

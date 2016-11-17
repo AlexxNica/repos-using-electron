@@ -64,5 +64,26 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "mockingbird",
+    "version": "0.0.1",
+    "main": "src/browser/boot.js",
+    "scripts": {
+      "start": "./node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron ."
+    },
+    "dependencies": {
+      "circular-json": "^0.1.6",
+      "coffee-script": "^1.9.2",
+      "electron-debug": "^0.1.1",
+      "electron-prebuilt": "^0.25.1",
+      "event-stream": "^3.3.0",
+      "express": "^4.13.1",
+      "express-ws": "^0.2.6",
+      "lodash": "^3.7.0",
+      "prettyjson": "^1.1.2",
+      "space-pen": "^5.1.1"
+    }
+  },
+  "packageStatus": 200
 }

@@ -78,5 +78,30 @@
   },
   "networkCount": 0,
   "subscribersCount": 5,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "desktop-app",
+    "version": "0.0.1",
+    "description": "To be included",
+    "main": "main.js",
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@ffmpeg-installer/ffmpeg": "^1.0.1",
+      "electron-prebuilt": "^1.4.0",
+      "express": "^4.14.0",
+      "file-bytes": "^2.0.3",
+      "fluent-ffmpeg": "^2.1.0",
+      "fs": "0.0.1-security",
+      "get-pixels": "^3.3.0",
+      "hamming-distance": "^1.0.0",
+      "opensubtitles": "0.0.4",
+      "pouchdb": "^6.0.7",
+      "request": "^2.75.0",
+      "tmp": "0.0.29",
+      "vlc-command": "^1.1.1",
+      "which": "^1.2.11"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,65 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Cleversite-electron",
+    "productName": "cleversite",
+    "version": "0.0.1",
+    "author": {
+      "name": "Serg",
+      "email": "kanunik71@yandex.ru",
+      "url": "https://github.com/Kanunik71/"
+    },
+    "description": "Online-consult pult",
+    "repository": "https://github.com/Kanunik71/cleversite-electron",
+    "devDependencies": {
+      "electron-builder": "^7.9.0",
+      "electron-prebuilt": "^1.4.1"
+    },
+    "build": {
+      "appId": "com.electron.cleversite",
+      "win": {
+        "icon": "icons/assets-windows/icon.ico"
+      },
+      "__squirrelWindows": {
+        "iconUrl": "https://raw.githubusercontent.com/Kanunik71/cleversite-electron/master/icons/assets-windows/icon.ico",
+        "remoteReleases": "https://github.com/Kanunik71/cleversite-electron"
+      },
+      "mas": {
+        "entitlements": "build/entitlements.mas.plist",
+        "entitlementsInherit": "build/entitlements.mas.inherit.plist"
+      },
+      "mac": {
+        "icon": "icons/assets-osx/icon.icns",
+        "category": "public.app-category.business"
+      },
+      "dmg": {
+        "icon": "icons/assets-osx/dmg_icon.icns",
+        "background": "icons/assets-osx/dmg_bg.png",
+        "icon-size": 80,
+        "title": "Cleversite-pult",
+        "contents": [
+          {
+            "x": 448,
+            "y": 344,
+            "type": "link",
+            "path": "/Applications"
+          },
+          {
+            "x": 192,
+            "y": 344,
+            "type": "file"
+          }
+        ]
+      }
+    },
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "start": "electron ./app --enable-logging",
+      "dev": "NODE_ENV='development' npm run start",
+      "dist": "build -m --x64 --ia32"
+    }
+  },
+  "packageStatus": 200
 }

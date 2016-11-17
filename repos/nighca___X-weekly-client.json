@@ -64,5 +64,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "x-weekly-client",
+    "version": "0.0.1",
+    "description": "Client application for X-weekly",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "release-linux": "electron-packager . weekly --platform=linux --arch=x64 --out=release --ignore=\"release|node_modules\" --asar",
+      "release-windows": "electron-packager . weekly --platform=win32 --arch=ia32 --out=release --ignore=\"release|node_modules\" --asar"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nighca/X-weekly-client.git"
+    },
+    "keywords": [
+      "X",
+      "X-client",
+      "X-weekly"
+    ],
+    "author": "nighca@live.cn",
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

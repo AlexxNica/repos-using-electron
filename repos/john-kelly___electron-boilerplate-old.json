@@ -64,5 +64,44 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-boilerplate",
+    "productName": "Electron Boilerplate",
+    "identifier": "com.example.electron-boilerplate",
+    "description": "Electron Boilerplate.",
+    "version": "0.1.0",
+    "author": "john-kelly <jdrkelly14@gmail.com>",
+    "main": "./main.js",
+    "config": {
+      "target": "development"
+    },
+    "dependencies": {
+      "fs-jetpack": "^0.6.5"
+    },
+    "devDependencies": {
+      "asar": "^0.7.2",
+      "del": "^1.2.1",
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.1",
+      "esperanto": "^0.7.3",
+      "fs-jetpack": "^0.6.5",
+      "gulp": "^3.9.0",
+      "gulp-less": "^3.0.3",
+      "gulp-util": "^3.0.6",
+      "q": "^1.4.1",
+      "require-dir": "^0.3.0",
+      "yargs": "^3.15.0"
+    },
+    "optionalDependencies": {
+      "appdmg": "^0.3.2",
+      "rcedit": "^0.3.0"
+    },
+    "scripts": {
+      "release": "./node_modules/.bin/gulp release --env=production",
+      "start": "./node_modules/.bin/gulp default --env=development",
+      "test": "node default --env=test"
+    }
+  },
+  "packageStatus": 200
 }

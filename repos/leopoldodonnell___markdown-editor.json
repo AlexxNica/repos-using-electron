@@ -70,5 +70,20 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "markdown-editor",
+    "version": "0.1.0",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build-osx": "electron-packager ./ markdown-editor --platform=darwin --arch=x64 --version=0.29.1 --overwrite --asar",
+      "build-win": "electron-packager ./ markdown-editor --platform=win32  --arch=x64 --version=0.29.1 --overwrite --asar"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.1"
+    }
+  },
+  "packageStatus": 200
 }

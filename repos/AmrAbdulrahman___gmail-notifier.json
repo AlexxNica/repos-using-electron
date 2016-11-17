@@ -64,5 +64,24 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-gmail-client",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron index.js",
+      "clean": "rm -R GNotifyMe-*",
+      "package": "./node_modules/.bin/electron-packager . GNotifyMe  --platform=all --arch=x64 --version=0.36.2"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "bower": "^1.7.2",
+      "electron-prebuilt": "^0.36.2",
+      "electron-packager": "^5.2.0"
+    }
+  },
+  "packageStatus": 200
 }

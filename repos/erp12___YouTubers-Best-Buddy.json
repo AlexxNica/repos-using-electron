@@ -64,5 +64,34 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "YouTubers-Best-Buddy",
+    "version": "0.0.1",
+    "description": "A tool to help YouTubers automate their workflow.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/erp12/YouTubers-Best-Buddy.git"
+    },
+    "keywords": [
+      "YouTube",
+      "automation",
+      "tool",
+      "utility"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/erp12/YouTubers-Best-Buddy/issues"
+    },
+    "homepage": "https://github.com/erp12/YouTubers-Best-Buddy.git",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.1"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,35 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "win_app",
+    "version": "0.1.0",
+    "main": "./main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "Amad",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-packager": "^7.0.1",
+      "electron-prebuilt": "^0.33.0",
+      "menubar": "^2.2.1"
+    },
+    "description": "Windows Application",
+    "dependencies": {},
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/firdows/WinApp.git"
+    },
+    "keywords": [
+      "win",
+      "app"
+    ],
+    "bugs": {
+      "url": "https://github.com/firdows/WinApp/issues"
+    },
+    "homepage": "https://github.com/firdows/WinApp#readme"
+  },
+  "packageStatus": 200
 }

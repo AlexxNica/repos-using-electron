@@ -64,5 +64,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "YExplorer",
+    "description": "Explore the world with YExplorer",
+    "author": "YDreams",
+    "version": "0.8.0",
+    "main": "main.js",
+    "productName": "YExplorer",
+    "build": {
+      "app-bundle-id": "ybr.2016",
+      "app-category-type": "br.com.ydreams.explorer",
+      "win": {}
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.5"
+    }
+  },
+  "packageStatus": 200
 }

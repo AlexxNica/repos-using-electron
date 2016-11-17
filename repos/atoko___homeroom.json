@@ -64,5 +64,43 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "homeroom",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+      "electron": "^1.4.3",
+      "nedb": "^1.8.0",
+      "react": "^15.3.1",
+      "react-dom": "^15.3.1",
+      "react-redux": "^4.4.5",
+      "react-router": "^2.8.0",
+      "react-tap-event-plugin": "^1.0.0",
+      "redux": "^3.6.0"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.16.0",
+      "babel-core": "^6.17.0",
+      "babel-preset-latest": "6.14.0",
+      "babel-preset-react": "6.11.1"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "node_modules/.bin/babel app/ -d build -s",
+      "dev": "node_modules/.bin/babel app/ -d build -s -w"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atoko/homeroom.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/atoko/homeroom/issues"
+    },
+    "homepage": "https://github.com/atoko/homeroom#readme"
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,83 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "one-more-todo-list",
+    "version": "1.0.0",
+    "description": "A simple todo list in electron with webpack hot replacement",
+    "main": "",
+    "scripts": {
+      "start-dev": "set NODE_ENV=dev&& electron ./output/server-entry.js",
+      "start-production": "set NODE_ENV=production&& electron ./output/server-entry.js",
+      "build": "webpack --config webpack.config.js",
+      "start-webpack": "webpack-dev-server --hot --inline --config webpack.config.js --content-base output/",
+      "dev": "node ./node_modules/concurrently/src/main.js \"npm run start-webpack\" \"npm run start-dev\"",
+      "production": "npm run build&& npm run start-production",
+      "test": "ava"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mariosco/One_more_todo_list.git"
+    },
+    "author": "Marios Koulakis",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/mariosco/One_more_todo_list/issues"
+    },
+    "homepage": "https://github.com/mariosco/One_more_todo_list#readme",
+    "dependencies": {
+      "css-loader": "^0.23.1",
+      "electron": "^1.4.6",
+      "electron-prebuilt": "^1.2.2",
+      "material-ui": "^0.15.0",
+      "nedb": "^1.8.0",
+      "path": "^0.12.7",
+      "promise": "^7.1.1",
+      "react": "^15.1.0",
+      "react-dom": "^15.1.0",
+      "react-tap-event-plugin": "^1.0.0",
+      "style-loader": "^0.13.1"
+    },
+    "devDependencies": {
+      "ava": "^0.15.2",
+      "babel-core": "^6.9.1",
+      "babel-loader": "^6.2.4",
+      "babel-preset-es2015": "^6.9.0",
+      "babel-preset-react": "^6.5.0",
+      "babel-register": "^6.9.0",
+      "concurrently": "^2.1.0",
+      "devtron": "^1.2.0",
+      "performance-now": "^0.2.0",
+      "webpack-target-electron-renderer": "^0.4.0"
+    },
+    "ava": {
+      "files": [
+        "specs/*-tests.js"
+      ],
+      "source": [
+        "src/*.{js, jsx}",
+        "output/*.js"
+      ],
+      "concurrency": 10,
+      "failFast": true,
+      "tap": false,
+      "babel": {
+        "presets": [
+          "es2015",
+          "react"
+        ]
+      },
+      "require": [
+        "babel-register"
+      ]
+    },
+    "babel": {
+      "presets": [
+        "es2015",
+        "react"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

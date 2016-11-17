@@ -64,5 +64,52 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Fritzbox-Menu-let",
+    "version": "0.0.1",
+    "scripts": {
+      "start": "electron ./app/build/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "del": "^1.2.1",
+      "electron-prebuilt": "~0.31.0",
+      "gulp": "^3.8.11",
+      "gulp-babel": "^5.1.0",
+      "gulp-electron": "~0.0.9",
+      "gulp-rename": "^1.2.2",
+      "gulp-run": "^1.6.8",
+      "gulp-run-electron": "^1.1.1",
+      "jspm": "^0.16.14"
+    },
+    "jspm": {
+      "directories": {
+        "baseURL": "browser",
+        "lib": "browser"
+      },
+      "dependencies": {
+        "angular": "github:angular/bower-angular@^1.4.5",
+        "angular-ui-router": "github:angular-ui/ui-router@^0.2.15",
+        "c3": "npm:c3@^0.4.11-rc4",
+        "css": "github:systemjs/plugin-css@^0.1.15",
+        "highcharts-ng": "npm:highcharts-ng@^0.0.9-dev",
+        "photon": "github:connors/photon@^0.1.2-alpha"
+      },
+      "devDependencies": {
+        "babel": "npm:babel-core@^5.8.24",
+        "babel-runtime": "npm:babel-runtime@^5.8.24",
+        "core-js": "npm:core-js@^1.1.4"
+      }
+    },
+    "dependencies": {
+      "bluebird": "^3.0.5",
+      "lodash": "^3.10.1",
+      "menubar": "^2.2.0",
+      "request": "^2.61.0",
+      "xml2js": "^0.4.10"
+    }
+  },
+  "packageStatus": 200
 }

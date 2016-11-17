@@ -64,5 +64,34 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "collar.js-example-filenameshortener",
+    "version": "1.0.0",
+    "description": "A gui application to shorten the file name",
+    "main": "main.js",
+    "scripts": {
+      "start": "node_modules/.bin/electron .",
+      "package-macos": "node_modules/electron-packager/cli.js . FileNameShortener --platform=darwin --overwrite",
+      "package-win": "node node_modules/electron-packager/cli.js . FileNameShortener --platform=win32 --overwrite"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bhou/collar.js-example-filenameshortener.git"
+    },
+    "keywords": [
+      "collar.js"
+    ],
+    "author": "Bo HOU <daily.bhou@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bhou/collar.js-example-filenameshortener/issues"
+    },
+    "homepage": "https://github.com/bhou/collar.js-example-filenameshortener#readme",
+    "devDependencies": {
+      "electron": "^1.4.5",
+      "electron-packager": "^8.2.0"
+    }
+  },
+  "packageStatus": 200
 }

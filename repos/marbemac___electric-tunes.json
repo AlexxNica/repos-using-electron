@@ -64,5 +64,24 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ElectricTunes",
+    "description": "<3 Electron",
+    "main": "./main.js",
+    "version": "0.1.0",
+    "license": "",
+    "keywords": [],
+    "author": "Marc MacLeod",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . ElectricTunes --platform=darwin --arch=x64 --version=0.30.4 --overwrite=true --out=dist"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.4",
+      "jquery": "^2.1.4"
+    }
+  },
+  "packageStatus": 200
 }

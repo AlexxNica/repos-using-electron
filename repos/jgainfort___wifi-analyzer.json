@@ -64,5 +64,78 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "wifi-analyzer",
+    "version": "0.0.1",
+    "description": "Wifi Analyzer",
+    "scripts": {
+      "watch": "npm run watch:dev",
+      "watch:dev": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
+      "build": "npm run build:dev",
+      "build:dev": "webpack --progress --profile --colors --display-error-details --display-cached",
+      "package": "node package.js",
+      "package-all": "npm run package -- --all",
+      "typings-install": "typings install",
+      "electron": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jgainfort/wifi-analyzer.git"
+    },
+    "author": "John G. Gainfort, Jr. <gainfortj@gmail.com>",
+    "license": "MIT",
+    "private": true,
+    "bugs": {
+      "url": "https://github.com/jgainfort/wifi-analyzer/issues"
+    },
+    "homepage": "https://github.com/jgainfort/wifi-analyzer#readme",
+    "dependencies": {
+      "@angular/common": "2.0.0",
+      "@angular/compiler": "2.0.0",
+      "@angular/core": "2.0.0",
+      "@angular/forms": "2.0.0",
+      "@angular/http": "2.0.0",
+      "@angular/platform-browser": "2.0.0",
+      "@angular/platform-browser-dynamic": "2.0.0",
+      "@angular/router": "3.0.0",
+      "core-js": "^2.4.1",
+      "rxjs": "5.0.0-beta.12",
+      "zone.js": "^0.6.23"
+    },
+    "devDependencies": {
+      "@types/core-js": "^0.9.32",
+      "@types/node": "^6.0.38",
+      "angular2-template-loader": "^0.4.0",
+      "awesome-typescript-loader": "^2.2.4",
+      "codelyzer": "0.0.28",
+      "css-loader": "^0.23.1",
+      "electron": "^1.4.0",
+      "electron-packager": "^8.0.0",
+      "extract-text-webpack-plugin": "^1.0.1",
+      "file-loader": "^0.8.5",
+      "html-loader": "^0.4.3",
+      "html-webpack-plugin": "^2.15.0",
+      "jasmine-core": "^2.4.1",
+      "karma": "^1.2.0",
+      "karma-jasmine": "^1.0.2",
+      "karma-phantomjs-launcher": "^1.0.2",
+      "karma-sourcemap-loader": "^0.3.7",
+      "karma-webpack": "^1.8.0",
+      "menubar": "^5.1.0",
+      "null-loader": "^0.1.1",
+      "phantomjs-prebuilt": "^2.1.7",
+      "raw-loader": "^0.5.1",
+      "rimraf": "^2.5.2",
+      "style-loader": "^0.13.1",
+      "ts-loader": "^0.8.1",
+      "tslint": "^3.15.1",
+      "typescript": "^2.0.2",
+      "webpack": "^1.13.0",
+      "webpack-dev-server": "^1.14.1",
+      "webpack-merge": "^0.14.0",
+      "webpack-target-electron-renderer": "^0.4.0"
+    }
+  },
+  "packageStatus": 200
 }

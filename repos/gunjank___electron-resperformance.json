@@ -64,5 +64,34 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "devDependencies": {
+      "electron-builder": "^4.2.2",
+      "electron-prebuilt": "^1.2.1",
+      "tap": "^0.4.13",
+      "rimraf": "^2.5.2"
+    },
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "start": "npm install && npm run compile && electron ./app",
+      "clean": "rimraf dist",
+      "clean:win": "rimraf dist/win",
+      "compile": "rimraf app/out ",
+      "pack": "npm run compile && build --target dir",
+      "dist": "npm run compile && build",
+      "release": "npm run compile && build",
+      "dist:win64": "./node_modules/.bin/build --platform win32 --arch x64"
+    },
+    "build": {
+      "app-bundle-id": "org.developer.self",
+      "app-category-type": "public.app-category.graphics-design",
+      "iconUrl": "https://en.wikipedia.org/wiki/Favicon"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gunjank/electron-resperformance.git"
+    }
+  },
+  "packageStatus": 200
 }

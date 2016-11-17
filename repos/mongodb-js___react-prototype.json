@@ -78,5 +78,60 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "mongodb-compass",
+    "version": "1.0.0",
+    "description": "MongoDB Compass",
+    "packageName": "MongoDB Compass",
+    "main": "main.js",
+    "scripts": {
+      "check": "mongodb-js-precommit",
+      "clean": "rm -rf ./node_modules",
+      "copy": "gulp copy",
+      "fmt": "mongodb-js-fmt ./*.js ./test/*.js",
+      "start": "./node_modules/.bin/electron .",
+      "test": "NODE_ENV=test mocha --compilers js:babel-register"
+    },
+    "precommit": [
+      "check"
+    ],
+    "author": "Durran Jordan <durran@gmail.com>",
+    "license": "MIT",
+    "fonts": [
+      "node_modules/font-awesome/fonts/fontawesome-webfont*"
+    ],
+    "less": {
+      "paths": [
+        "node_modules/font-awesome/less/*"
+      ]
+    },
+    "dependencies": {
+      "babel-preset-react": "^6.5.0",
+      "electron-compile": "^2.0.6",
+      "electron-prebuilt": "^0.36.7",
+      "font-awesome": "^4.5.0",
+      "lodash": "^4.3.0",
+      "mongodb-connection-model": "^4.0.0",
+      "react": "^0.14.7",
+      "react-dom": "^0.14.7",
+      "reflux": "^0.3.0",
+      "storage-mixin": "^0.5.1",
+      "uuid": "^2.0.1"
+    },
+    "devDependencies": {
+      "babel-register": "^6.5.2",
+      "chai": "^3.5.0",
+      "electron-compilers": "^2.0.6",
+      "eslint-config-mongodb-js": "^1.0.6",
+      "eslint-plugin-react": "^3.16.1",
+      "gulp": "^3.9.1",
+      "mocha": "^2.4.5",
+      "mongodb-js-fmt": "^0.0.3",
+      "mongodb-js-precommit": "^0.2.8",
+      "pre-commit": "^1.1.2",
+      "react-addons-test-utils": "^0.14.7"
+    }
+  },
+  "packageStatus": 200
 }

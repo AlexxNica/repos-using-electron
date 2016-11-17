@@ -70,5 +70,34 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "social_feed",
+    "version": "1.0.0",
+    "description": "A minimal Social application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Seeker1911/Social_Feed.git"
+    },
+    "keywords": [
+      "Electron",
+      "Social",
+      "Feed",
+      "Angular"
+    ],
+    "author": "Michael Mead",
+    "license": "CC0-1.0",
+    "homepage": "https://github.com/Seeker1911/Social_Feed.git",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    },
+    "bugs": {
+      "url": "https://github.com/Seeker1911/Social_Feed/issues"
+    }
+  },
+  "packageStatus": 200
 }

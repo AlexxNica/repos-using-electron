@@ -70,5 +70,35 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "lightning",
+    "version": "0.0.1",
+    "description": "An aria2 desktop app for easy use",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rayqian/lightning"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/rayqian/lightning/issues"
+    },
+    "homepage": "https://github.com/rayqian/lightning",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0",
+      "electron-rebuild": "^1.1.5"
+    }
+  },
+  "packageStatus": 200
 }

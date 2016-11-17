@@ -64,5 +64,29 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-app-example",
+    "version": "1.0.0",
+    "description": "Application dedicated to show Electron power (Part 1)",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SlimDogs/Electron-App-Sample.git"
+    },
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "keywords": [
+      "Electron",
+      "Orbus"
+    ],
+    "author": "Tautvydas Derzinskas",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0",
+      "youtube-dl": "^1.11.0"
+    }
+  },
+  "packageStatus": 200
 }

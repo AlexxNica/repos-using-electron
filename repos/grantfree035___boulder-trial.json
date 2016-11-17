@@ -64,5 +64,46 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "boulder-trial",
+    "version": "0.0.1",
+    "description": "speed bouldering game",
+    "main": "app/main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "gulp",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/grantfree035/boulder-trial.git"
+    },
+    "keywords": [
+      "webapp",
+      "climbing",
+      "boulder",
+      "speed",
+      "trial"
+    ],
+    "author": "Grant Freeman",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/grantfree035/boulder-trial/issues"
+    },
+    "homepage": "https://github.com/grantfree035/boulder-trial#readme",
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "electron-prebuilt": "^0.37.4",
+      "eslint": "^2.7.0",
+      "gulp": "^3.9.1",
+      "gulp-eslint": "^2.0.0",
+      "gulp-jshint": "^2.0.0",
+      "jshint": "^2.9.1",
+      "jshint-stylish": "^2.1.0",
+      "mocha": "^2.4.5"
+    },
+    "private": true
+  },
+  "packageStatus": 200
 }

@@ -70,5 +70,38 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "pomodoroApp",
+    "version": "1.0.0",
+    "description": "Alpha version of pomodoroApp",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/electron/electron-quick-start#readme",
+    "devDependencies": {
+      "electron-packager": "^7.0.3",
+      "electron-prebuilt": "^1.0.1"
+    },
+    "dependencies": {
+      "ipc": "0.0.1"
+    }
+  },
+  "packageStatus": 200
 }

@@ -70,5 +70,38 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "discord-modular-bot",
+    "version": "0.0.1",
+    "description": "A minimal bot application",
+    "author": "Lightnet",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "license": "CC0-1.0",
+    "dependencies": {
+      "body-parser": "^1.15.2",
+      "compression": "^1.6.2",
+      "connect": "^3.5.0",
+      "connect-flash": "^0.1.1",
+      "cookie-parser": "^1.4.3",
+      "discord.js": "^10.0.1",
+      "ejs": "^2.5.2",
+      "express": "^4.14.0",
+      "express-session": "^1.14.1",
+      "method-override": "^2.3.6",
+      "mongorito": "^2.1.2",
+      "serve-favicon": "^2.3.0",
+      "socket.io": "^1.5.1"
+    },
+    "devDependencies": {
+      "electron": "^1.4.1"
+    },
+    "directories": {
+      "test": "test"
+    }
+  },
+  "packageStatus": 200
 }

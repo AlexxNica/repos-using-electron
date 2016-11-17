@@ -70,5 +70,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "sonio",
+    "version": "0.0.1",
+    "description": "Music library management and playback.",
+    "main": "app/app.js",
+    "scripts": {
+      "test": "electron ."
+    },
+    "author": "Tianyi Ma <tn.ma@outlook.com>",
+    "license": "GPLv2",
+    "dependencies": {
+      "jquery": "^2.1.4",
+      "material-design-icons": "^2.0.0",
+      "material-ui": "^0.11.1",
+      "musicmetadata": "^2.0.0",
+      "node-static": "^0.7.7",
+      "react": "^0.13.3",
+      "react-tap-event-plugin": "^0.1.7"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.32.3",
+      "gulp": "^3.9.0",
+      "gulp-jade": "^1.1.0",
+      "gulp-react": "^3.0.1"
+    }
+  },
+  "packageStatus": 200
 }

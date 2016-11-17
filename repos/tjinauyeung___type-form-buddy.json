@@ -64,5 +64,27 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "customization-request-app ",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron src/."
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "clipboard": "^1.5.12",
+      "electron-open-link-in-browser": "^1.0.2",
+      "electron-packager": "^8.1.0",
+      "electron-prebuilt": "^1.4.3",
+      "lodash": "^4.16.4",
+      "to-markdown": "^3.0.1",
+      "waypoints": "^4.0.1"
+    }
+  },
+  "packageStatus": 200
 }

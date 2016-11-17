@@ -64,5 +64,46 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Skema",
+    "version": "1.0.0",
+    "description": "A webapp for swiftly designing database models",
+    "main": "index.js",
+    "scripts": {
+      "start": "gulp",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Luuk Klaver / Ryan vlaming",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-loader": "^6.2.0",
+      "babel-preset-es2015": "^6.14.*",
+      "babel-preset-react": "^6.11.1",
+      "babelify": "^7.3.0",
+      "browser-sync": "^2.15.0",
+      "browserify": "^13.1.0",
+      "electron-prebuilt": "^0.36.2",
+      "gulp": "^3.9.1",
+      "gulp-livereload": "^3.8.1",
+      "gulp-react-easy": "^0.1.9",
+      "gulp-sass": "^2.3.2",
+      "gulp-util": "^3.0.7",
+      "jquery": "^3.1.0",
+      "jquery-ui": "^1.12.0",
+      "react": "^15.0.0",
+      "react-dom": "^15.0.0",
+      "react-redux": "^4.0.6",
+      "redux": "^3.0.5",
+      "run-sequence": "^1.2.2",
+      "standard": "^5.4.1",
+      "vinyl-source-stream": "^1.1.0"
+    },
+    "standard": {
+      "globals": [
+        "localStorage"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

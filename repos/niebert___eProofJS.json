@@ -64,5 +64,38 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "eProofElectron",
+    "version": "1.0.0",
+    "description": "eProof Application based on Electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/niebert/eProofJS.git"
+    },
+    "keywords": [
+      "Electron",
+      "eProofJS",
+      "electronic proofs",
+      "mathematics"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/niebert/eProofJS/issues"
+    },
+    "homepage": "https://github.com/niebert/eProofJS#readme",
+    "devDependencies": {
+      "electron-prebuilt": "1.2.7"
+    },
+    "dependencies": {
+      "electron-open-link-in-browser": "1.0.2",
+      "mkdirp": "0.5.1"
+    }
+  },
+  "packageStatus": 200
 }

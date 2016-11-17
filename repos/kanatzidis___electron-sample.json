@@ -70,5 +70,44 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-sample",
+    "version": "3.1.4",
+    "description": "A minimal Geiger application.",
+    "main": "main.js",
+    "author": {
+      "name": "Gregori Kanatzidis",
+      "email": "gregori@alabastertech.com"
+    },
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kanatzidis/electron-sample.git"
+    },
+    "keywords": [
+      "Electron",
+      "geiger",
+      "quick",
+      "start",
+      "tutorial",
+      "update",
+      "auto"
+    ],
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kanatzidis/electron-sample/issues"
+    },
+    "homepage": "https://github.com/kanatzidis/electron-sample#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "geiger-autoupdate": "^0.1.0",
+      "request": "^2.74.0"
+    }
+  },
+  "packageStatus": 200
 }

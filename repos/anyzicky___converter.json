@@ -64,5 +64,34 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "converter",
+    "version": "1.0.0",
+    "description": "Convert text to md5/sha1 and other",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/anyzicky/converter.git"
+    },
+    "keywords": [
+      "md5",
+      "sha",
+      "electron"
+    ],
+    "author": "Suraev Denis",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/anyzicky/converter/issues"
+    },
+    "homepage": "https://github.com/anyzicky/converter#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

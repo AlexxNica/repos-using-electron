@@ -70,5 +70,38 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Tormessage",
+    "version": "0.0.1",
+    "description": "Peer to peer messaging behind tor network.",
+    "main": "index.js",
+    "scripts": {
+      "test": "~/.atom-shell/atom . -debug"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/neoatlantis/tormessage.git"
+    },
+    "keywords": [
+      "p2p",
+      "message",
+      "tor"
+    ],
+    "author": "NeoAtlantis",
+    "license": "GPLv3",
+    "bugs": {
+      "url": "https://github.com/neoatlantis/tormessage/issues"
+    },
+    "homepage": "https://github.com/neoatlantis/tormessage",
+    "dependencies": {
+      "basic-auth-connect": "^1.0.0",
+      "express": "^4.12.3",
+      "node-localstorage": "^0.5.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.24.0"
+    }
+  },
+  "packageStatus": 200
 }

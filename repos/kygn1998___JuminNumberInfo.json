@@ -64,5 +64,29 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "jumin-info",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kygn1998/JuminNumberInfo.git"
+    },
+    "author": "kygn1998",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kygn1998/JuminNumberInfo/issues"
+    },
+    "homepage": "https://github.com/kygn1998/JuminNumberInfo#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.7",
+      "electron-packager": "^7.3.0"
+    }
+  },
+  "packageStatus": 200
 }

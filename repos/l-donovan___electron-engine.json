@@ -64,5 +64,21 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-engine",
+    "version": "1.0.0",
+    "description": "A simple 3D engine written from scratch with the Electron framework",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "author": "Luke Donovan",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0",
+      "jquery": "^2.2.0"
+    }
+  },
+  "packageStatus": 200
 }

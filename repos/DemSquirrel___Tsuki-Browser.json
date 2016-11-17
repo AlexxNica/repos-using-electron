@@ -70,5 +70,34 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tsuki-browser",
+    "version": "1.0.0",
+    "description": "A small and minimal browser",
+    "main": "main.js",
+    "scripts": {
+      "test": "electron .",
+      "bundle": "browserify load.js -o bundle.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DemSquirrel/Tsuki-Browser.git"
+    },
+    "keywords": [
+      "browser",
+      "small"
+    ],
+    "author": "Lord Squirrel",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/DemSquirrel/Tsuki-Browser/issues"
+    },
+    "homepage": "https://github.com/DemSquirrel/Tsuki-Browser#readme",
+    "devDependencies": {
+      "browserify": "^13.1.0",
+      "electron": "^1.4.3"
+    }
+  },
+  "packageStatus": 200
 }

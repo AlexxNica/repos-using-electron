@@ -64,5 +64,25 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "elm-electron",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Starter Electron + Elm app",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "elm": "elm make ./src/elm.elm --output ./obj/elm.js"
+    },
+    "keywords": [
+      "Electron",
+      "Elm"
+    ],
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

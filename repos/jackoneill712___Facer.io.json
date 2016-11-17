@@ -64,5 +64,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "boobs",
+    "version": "1.0.0",
+    "description": "This is a Desktop Application using AngularJS and Electron",
+    "main": "main.js",
+    "dependencies": {
+      "angular": "^1.4.7",
+      "asar": "^0.8.0",
+      "electron-prebuilt": "^0.34.0",
+      "fs-jetpack": "^0.7.0",
+      "mongodb": "^2.0.46",
+      "q": "^1.4.1",
+      "rcedit": "^0.3.0"
+    },
+    "devDependencies": {
+      "angular": "^1.4.7",
+      "electron-prebuilt": "^0.34.0",
+      "gulp": "^3.9.0"
+    },
+    "scripts": {
+      "test": "test"
+    },
+    "author": "DBKegs Development Group, LLC.",
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

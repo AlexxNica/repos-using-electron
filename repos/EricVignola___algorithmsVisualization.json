@@ -64,5 +64,42 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "algorithmsvisualization",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/EricVignola/algorithmsVisualization.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/EricVignola/algorithmsVisualization/issues"
+    },
+    "homepage": "https://github.com/EricVignola/algorithmsVisualization#readme",
+    "jspm": {
+      "dependencies": {
+        "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-rc.1.0.0",
+        "aurelia-framework": "npm:aurelia-framework@^1.0.0-rc.1.0.0",
+        "d3": "npm:d3@3.5.6"
+      },
+      "devDependencies": {
+        "babel": "npm:babel-core@^5.8.24",
+        "babel-runtime": "npm:babel-runtime@^5.8.24",
+        "core-js": "npm:core-js@^1.1.4"
+      }
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.5",
+      "jspm": "^0.16.39"
+    },
+    "dependencies": {},
+    "description": ""
+  },
+  "packageStatus": 200
 }

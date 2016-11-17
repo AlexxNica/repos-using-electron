@@ -70,5 +70,42 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-typescript",
+    "version": "1.0.0",
+    "description": "A simple electron hello world with typescript",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ./dist/",
+      "dev": "electron ./dist/ --debug",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "electron",
+      "typescript"
+    ],
+    "author": "Polonio Davide",
+    "license": "MIT",
+    "devDependencies": {
+      "chai": "^3.4.1",
+      "chai-as-promised": "^5.1.0",
+      "devtron": "^1.0.0",
+      "electron-packager": "^7.0.1",
+      "electron-prebuilt": "^1.2.6",
+      "electron-windows-store": "^0.3.0",
+      "electron-winstaller": "^2.2.0",
+      "gulp": "^3.9.1",
+      "mocha": "^2.3.4",
+      "rimraf": "^2.5.2",
+      "signcode": "^0.4.0",
+      "spectron": "~3.2.6",
+      "typescript": "^1.8.10"
+    },
+    "dependencies": {
+      "electron-json-storage": "^2.0.0",
+      "electron-shortcut-normalizer": "^1.0.0"
+    }
+  },
+  "packageStatus": 200
 }

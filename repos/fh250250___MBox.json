@@ -64,5 +64,44 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "MBox",
+    "description": "A Music Box",
+    "author": "Gasper Duan <duanpengyuan@innobuddy.com>",
+    "main": "main.js",
+    "private": true,
+    "scripts": {
+      "dev": "webpack-dev-server --inline --hot",
+      "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+      "devStart": "cross-env NODE_ENV=develop electron main.js",
+      "start": "electron main.js"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "babel-core": "^6.0.0",
+      "babel-loader": "^6.0.0",
+      "babel-plugin-transform-runtime": "^6.0.0",
+      "babel-preset-es2015": "^6.0.0",
+      "babel-preset-stage-2": "^6.0.0",
+      "babel-runtime": "^5.8.0",
+      "cross-env": "^1.0.6",
+      "css-loader": "^0.23.0",
+      "electron-prebuilt": "^0.37.6",
+      "file-loader": "^0.8.4",
+      "jade": "^1.11.0",
+      "json-loader": "^0.5.4",
+      "stylus": "^0.54.2",
+      "stylus-loader": "^2.0.0",
+      "url-loader": "^0.5.7",
+      "vue": "^1.0.0",
+      "vue-hot-reload-api": "^1.2.0",
+      "vue-html-loader": "^1.0.0",
+      "vue-loader": "^8.2.1",
+      "vue-style-loader": "^1.0.0",
+      "webpack": "^1.12.2",
+      "webpack-dev-server": "^1.12.0"
+    }
+  },
+  "packageStatus": 200
 }

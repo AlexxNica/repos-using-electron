@@ -70,5 +70,45 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hotreactron",
+    "productName": "Hotreactron",
+    "version": "1.0.0",
+    "description": "Boilerplate for Electron + React with Hot Reloads.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose",
+      "pack": "build --mac --windows --dir",
+      "dist": "build --mac --windows"
+    },
+    "author": "Kyle Montag",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "latest",
+      "electron-builder": "latest"
+    },
+    "dependencies": {
+      "babel-preset-es2015": "latest",
+      "babel-preset-stage-0": "latest",
+      "babel-preset-react": "latest",
+      "babelify": "latest",
+      "electron-reload": "latest",
+      "react": "latest",
+      "react-dom": "latest",
+      "react-desktop": "latest",
+      "underscore": "latest",
+      "moment": "latest",
+      "typescript": "latest"
+    },
+    "babel": {
+      "presets": [
+        "es2015",
+        "stage-0",
+        "react"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

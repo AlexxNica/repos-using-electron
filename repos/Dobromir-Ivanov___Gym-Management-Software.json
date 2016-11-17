@@ -64,5 +64,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "gym-manager",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "package": "asar pack ManagerApp.app/resources/app ManagerApp.app/resources/app.asar",
+      "build": "electron-packager . ManagerApp --ignore=node_modules/electron-* && cp resources/windows/icon.ico ManagerApp.app/resources/atom.ico"
+    },
+    "devDependencies": {
+      "asar": "^0.10.0",
+      "electron-prebuilt": "^0.36.9",
+      "electron-packager": "^3.2.0"
+    }
+  },
+  "packageStatus": 200
 }

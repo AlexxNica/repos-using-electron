@@ -70,5 +70,50 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "assistant",
+    "productName": "Assistant",
+    "version": "0.0.1",
+    "description": "A web (electron) based terminal",
+    "main": "main.js",
+    "scripts": {
+      "test": "mocha --compilers js:babel-register ./src/js/modules/*.spec.js",
+      "sass": "gulp sass",
+      "app": "npm run sass & gulp sass:watch & electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kyleparisi/assistant.git"
+    },
+    "keywords": [
+      "terminal",
+      "Electron",
+      "hubot",
+      "om.next"
+    ],
+    "author": "Kyle Parisi",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-cli": "^6.4.0",
+      "babel-preset-es2015": "^6.3.13",
+      "babel-register": "^6.4.3",
+      "browser-sync": "^2.11.1",
+      "browser-sync-client": "^2.4.1",
+      "electron-prebuilt": "^0.36.5",
+      "gulp": "^3.9.0",
+      "gulp-babel": "^6.1.1",
+      "gulp-clean": "^0.3.1",
+      "gulp-load-plugins": "^1.2.0",
+      "gulp-plumber": "^1.0.1",
+      "gulp-sass": "^2.1.1",
+      "mocha": "^2.3.4"
+    },
+    "dependencies": {
+      "immutable": "^3.7.6",
+      "keycode": "^2.1.0",
+      "virtual-dom": "^2.1.1"
+    }
+  },
+  "packageStatus": 200
 }

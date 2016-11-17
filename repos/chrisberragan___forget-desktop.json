@@ -64,5 +64,30 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "forget-desktop",
+    "version": "1.0.0",
+    "description": "Alt-F to forget whatever is on your mind",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/chrisberragan/forget-desktop.git"
+    },
+    "author": "Chris Berragan",
+    "bugs": {
+      "url": ""
+    },
+    "homepage": "",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.8"
+    },
+    "dependencies": {
+      "pouchdb": "^5.3.2"
+    }
+  },
+  "packageStatus": 200
 }

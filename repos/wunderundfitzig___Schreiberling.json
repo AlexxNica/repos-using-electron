@@ -84,5 +84,26 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Schreiberling",
+    "version": "1.0.0",
+    "description": "create pre styled PDF's for company letters",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "buildOSX": "electron-packager . --platform=darwin --arch=x64 --icon=img/schreiberlingLogo.icns --out=/Users/manuelreich/Desktop --overwrite",
+      "buildWIN": "electron-packager . --platform=win32 --arch=all --icon=img/schreiberlingLogo.ico --out=/Users/manuelreich/Desktop --overwrite"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/errnesto/Schreiberling.git"
+    },
+    "author": "Manuel Reich",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.8"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

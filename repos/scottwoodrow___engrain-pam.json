@@ -64,5 +64,23 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hack-night",
+    "version": "0.1.0",
+    "description": "Engrain Hack Night Nov. 2015",
+    "repository": "https://bitbucket.org/engrain",
+    "main": "browser.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Patrik Vormittag <pvormittag@engrain.com>",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "~0.34.2"
+    }
+  },
+  "packageStatus": 200
 }

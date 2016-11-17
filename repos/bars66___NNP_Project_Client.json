@@ -64,5 +64,34 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "nnp-vpn-launcher-build",
+    "version": "0.0.2-1",
+    "description": "Build NNP-VPN-Launcher",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "postinstall": "install-app-deps",
+      "pack": "build --target dir",
+      "dist:darwin": "cd ./bin/darwin_bin/ && zip -r ./darwin_bin.zip ./* && mv ./darwin_bin.zip ../../app/ && cd ../../ && build --osx && rm ./app/darwin_bin.zip",
+      "dist:win32": "cd ./bin/win32_bin/ && zip -r ./win32_bin.zip ./* && mv ./win32_bin.zip ../../app/ && cd ../../ && build --win --ia32 && rm ./app/win32_bin.zip",
+      "dist:win64": "build --platform win32 --arch x64"
+    },
+    "author": "bars66",
+    "build": {
+      "app-bundle-id": "com.bars66.vpn.launcher",
+      "app-category-type": "com.bars66.vpn",
+      "win": {
+        "iconUrl": "https://vpn.bars66.com/icon.ico",
+        "msi": true
+      },
+      "asar": false
+    },
+    "dependencies": {
+      "electron-builder": "^4.2.1",
+      "electron-prebuilt": "^1.2.1"
+    }
+  },
+  "packageStatus": 200
 }

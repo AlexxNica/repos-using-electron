@@ -70,5 +70,24 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "folder-remover",
+    "version": "1.0.0",
+    "description": "removes the unwanted folders",
+    "main": "home.js",
+    "scripts": {
+      "start": "electron .",
+      "package": "electron-packager ./ --all --out ./pack --version 1.2.1 --overwrite --icon=./assets/images/icon/folder-remover-icon.png"
+    },
+    "author": "Arcangelo Vicedomini",
+    "license": "MIT",
+    "dependencies": {
+      "bower": "1.7.9",
+      "electron-packager": "7.0.3",
+      "electron-prebuilt": "1.2.1",
+      "rimraf": "2.5.2"
+    }
+  },
+  "packageStatus": 200
 }

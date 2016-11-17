@@ -70,5 +70,33 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "private": true,
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "pack": "build --dir",
+      "dist": "build",
+      "watch": "npm run watch:css",
+      "watch:css": "node-sass -w app/assets/styles -o dist"
+    },
+    "build": {
+      "appId": "es.berry.pxr",
+      "category": "public.app-category.graphics-design",
+      "linux": {
+        "target": [
+          "deb",
+          "AppImage"
+        ]
+      }
+    },
+    "devDependencies": {
+      "node-sass": "^3.8.0",
+      "electron-builder": "next",
+      "electron": "1.3.4",
+      "rimraf": "^2.5.4",
+      "typescript": "^1.8.10"
+    }
+  },
+  "packageStatus": 200
 }

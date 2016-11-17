@@ -64,5 +64,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "amivpnd",
+    "version": "0.0.1",
+    "description": "a small app to sit in your tray icon and tell you about your public IP.",
+    "main": "lib/main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Rory McCune <rorym@mccune.org.uk>",
+    "license": "GPL-3.0",
+    "dependencies": {
+      "electron-prebuilt": "^1.3.4",
+      "request": "^2.74.0"
+    }
+  },
+  "packageStatus": 200
 }

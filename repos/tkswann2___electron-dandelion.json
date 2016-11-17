@@ -70,5 +70,32 @@
   },
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-dandelion",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tkswann2/electron-dandelion.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/tkswann2/electron-dandelion/issues"
+    },
+    "homepage": "https://github.com/tkswann2/electron-dandelion#readme",
+    "devDependencies": {
+      "electron": "^1.4.3"
+    },
+    "dependencies": {
+      "bower": "^1.7.9"
+    }
+  },
+  "packageStatus": 200
 }

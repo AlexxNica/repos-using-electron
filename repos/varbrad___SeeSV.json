@@ -70,5 +70,33 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "seesv",
+    "productName": "SeeSV",
+    "version": "0.1.0",
+    "description": "Simple CSV editor",
+    "main": "app/main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/varbrad/SeeSV.git"
+    },
+    "keywords": [
+      "csv",
+      "editor"
+    ],
+    "author": "varbrad",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/varbrad/SeeSV/issues"
+    },
+    "homepage": "https://github.com/varbrad/SeeSV#readme",
+    "devDependencies": {
+      "electron": "^1.4.1"
+    }
+  },
+  "packageStatus": 200
 }

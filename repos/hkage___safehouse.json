@@ -70,5 +70,47 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "safehouse",
+    "productName": "Safehouse",
+    "version": "0.1.0",
+    "description": "A password manager built on Electron and React",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": {
+      "name": "Henning Kage",
+      "email": "henning.kage@gmail.com",
+      "url": "https://github.com/hkage"
+    },
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hkage/safehouse.git"
+    },
+    "bugs": {
+      "url": "https://github.com/hkage/safehouse/issues"
+    },
+    "keywords": [
+      "electron",
+      "react",
+      "password"
+    ],
+    "devDependencies": {
+      "electron-packager": "^7.0.4",
+      "electron-prebuilt": "^1.2.3",
+      "grunt": "^1.0.1",
+      "grunt-coffeelint": "0.0.16",
+      "grunt-contrib-clean": "^1.0.0",
+      "grunt-contrib-coffee": "^1.0.0",
+      "grunt-contrib-watch": "^1.0.0",
+      "matchdep": "^1.0.1",
+      "react": "^15.1.0",
+      "react-dom": "^15.1.0"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
 }

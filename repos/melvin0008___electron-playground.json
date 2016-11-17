@@ -70,5 +70,22 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-playground",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron . --debug 5858",
+      "debug": "electron . "
+    },
+    "author": "melvin",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.28.3",
+      "markdown": "^0.5.0"
+    }
+  },
+  "packageStatus": 200
 }

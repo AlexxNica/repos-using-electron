@@ -84,5 +84,54 @@
   },
   "networkCount": 1,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "spin",
+    "productName": "Spin",
+    "version": "0.0.3",
+    "description": "YouTube Music Player",
+    "keywords": [
+      "youtube",
+      "music",
+      "player",
+      "electron",
+      "material"
+    ],
+    "homepage": "https://github.com/gangoffork/spin#readme",
+    "repository": "gangoffork/spin",
+    "license": "MIT",
+    "author": {
+      "name": "GangOfFork",
+      "url": "https://gangoffork.github.io"
+    },
+    "bugs": {
+      "url": "https://github.com/gangoffork/spin/issues"
+    },
+    "scripts": {
+      "test": "node_modules/.bin/xo",
+      "start": "node_modules/.bin/electron .",
+      "build": "node_modules/.bin/electron-packager . --out=dist --prune --asar --overwrite --all"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "dependencies": {
+      "electron-debug": "^1.0.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^8.0.0",
+      "electron-prebuilt": "^1.3.5",
+      "xo": "^0.16.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

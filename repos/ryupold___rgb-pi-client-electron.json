@@ -64,5 +64,29 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "rgb-pi-client-electron",
+    "version": "0.1.0",
+    "description": "RGB-Pi Remote",
+    "main": "dist/main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "ryupold",
+    "license": "ISC",
+    "dependencies": {
+      "del": "^2.2.0",
+      "gulp": "^3.9.1",
+      "gulp-concat": "^2.6.0",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-typescript": "^2.12.1",
+      "node": "0.0.0",
+      "ws": "^1.0.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.2"
+    }
+  },
+  "packageStatus": 200
 }

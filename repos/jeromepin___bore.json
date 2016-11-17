@@ -70,5 +70,50 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "bore",
+    "productName": "Bore",
+    "version": "0.0.0",
+    "description": "My rad app",
+    "license": "MIT",
+    "repository": "jeromepin/bore",
+    "author": {
+      "name": "Jerome Pin",
+      "email": "jeromepin38@gmail.com",
+      "url": "jeromepin.fr"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=0.31.1"
+    },
+    "main": "app.js",
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.1.1",
+      "iniparser": "^1.0.5"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.32.3",
+      "xo": "^0.7.1"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ],
+      "rules": {
+        "prefer-arrow-callback": 0
+      }
+    }
+  },
+  "packageStatus": 200
 }

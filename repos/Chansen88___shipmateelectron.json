@@ -64,5 +64,30 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "shipmateelectron",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app/main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "asar": "^0.8.3",
+      "electron-prebuilt": "^0.36.1",
+      "fs-jetpack": "^0.7.1",
+      "q": "^1.4.1",
+      "rcedit": "^0.3.0"
+    },
+    "dependencies": {
+      "electron-google-oauth": "^1.1.4",
+      "fix-path": "^1.1.0",
+      "menubar": "^3.0.0"
+    }
+  },
+  "packageStatus": 200
 }

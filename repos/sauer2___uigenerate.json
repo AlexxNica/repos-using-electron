@@ -64,5 +64,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "uigenerate",
+    "version": "0.1.0",
+    "description": "A website generator with a GUI.",
+    "main": "index.js",
+    "scripts": {
+      "start": "./node_modules/electron-prebuilt/dist/electron index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "website-generator"
+    ],
+    "author": "Sauer2",
+    "license": "ISC",
+    "dependencies": {
+      "diveSync": "^0.3.0",
+      "electron-prebuilt": "^0.33.4",
+      "fs-extra": "^0.26.2",
+      "osenv": "^0.1.3",
+      "smalltalk": "^1.5.2"
+    }
+  },
+  "packageStatus": 200
 }

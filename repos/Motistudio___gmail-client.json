@@ -70,5 +70,52 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "gmail-client",
+    "version": "1.0.0",
+    "description": "a desktop client for gmail",
+    "main": "index.js",
+    "scripts": {
+      "electron": "webpack && electron",
+      "start": "electron .",
+      "build": "./node_modules/.bin/webpack --debug",
+      "watch": "./node_modules/.bin/webpack-dev-server",
+      "test": "test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Motistudio/gmail-client.git"
+    },
+    "keywords": [
+      "gmail",
+      "client",
+      "mail",
+      "desktop"
+    ],
+    "author": "Moti Shriki",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Motistudio/gmail-client/issues"
+    },
+    "homepage": "https://github.com/Motistudio/gmail-client#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.1.0",
+      "jsx-loader": "^0.13.2",
+      "babel-core": "^6.8.0",
+      "babel-loader": "^6.2.4",
+      "babel-preset-react": "^6.5.0",
+      "react": "^15.0.2",
+      "react-dom": "^15.0.2",
+      "webpack": "^1.9.12",
+      "webpack-dev-server": "^1.9.0"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^1.2.0",
+      "react": "^15.0.2",
+      "react-dom": "^15.0.2",
+      "redux": "^3.5.2"
+    }
+  },
+  "packageStatus": 200
 }

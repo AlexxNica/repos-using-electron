@@ -70,5 +70,35 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ElectronNotes",
+    "version": "0.1.0",
+    "description": "Desktop application build with Electron",
+    "repository": "",
+    "scripts": {
+      "postinstall": "install-app-deps"
+    },
+    "dependencies": {
+      "electron-builder": "5.13.1",
+      "electron-packager-tf": "7.5.3",
+      "electron-prebuilt": "1.3.0",
+      "gulp": "^3.9.1",
+      "mocha": "^2.5.3",
+      "spectron": "^3.2.6",
+      "webpack-stream": "^3.2.0"
+    },
+    "build": {
+      "app-bundle-id": "your.id",
+      "app-category-type": "your.app.category.type",
+      "win": {
+        "iconUrl": "https://github.com/railsware/bozon/blob/master/lib/templates/images/electron.ico?raw=true"
+      },
+      "osx": {
+        "icon": "resources/icon.icns",
+        "target": "dmg"
+      }
+    }
+  },
+  "packageStatus": 200
 }

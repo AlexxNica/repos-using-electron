@@ -64,5 +64,36 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "supergenericthing",
+    "version": "0.1.0",
+    "description": "Desktop text based game. Retro.",
+    "main": "index.js",
+    "dependencies": {
+      "electron-prebuilt": "^0.29.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "mocha"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/eskimopies/Super-Generic-Thing.git"
+    },
+    "keywords": [
+      "text",
+      "lol",
+      "black",
+      "cocks",
+      "game"
+    ],
+    "author": "Rainbow Ninja Studios",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/eskimopies/Super-Generic-Thing/issues"
+    },
+    "homepage": "https://github.com/eskimopies/Super-Generic-Thing#readme"
+  },
+  "packageStatus": 200
 }

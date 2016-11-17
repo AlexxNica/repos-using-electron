@@ -64,5 +64,39 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Terminal",
+    "version": "0.1.0",
+    "description": "Terminal",
+    "main": "main.js",
+    "scripts": {
+      "test": "test",
+      "start": "electron ."
+    },
+    "author": "Veta",
+    "license": "ISC",
+    "dependencies": {
+      "electron-prebuilt": "^0.37.8",
+      "vue": "^2.0.1",
+      "vuex": "^2.0.0-rc.6"
+    },
+    "devDependencies": {
+      "babel-core": "^6.1.4",
+      "babel-loader": "^6.1.0",
+      "babel-plugin-transform-runtime": "^6.1.4",
+      "babel-preset-es2015": "^6.1.4",
+      "babel-runtime": "^5.8.0",
+      "css-loader": "^0.23.0",
+      "file-loader": "^0.8.4",
+      "postcss-loader": "^0.7.0",
+      "precss": "^1.3.0",
+      "style-loader": "^0.13.0",
+      "url-loader": "^0.5.6",
+      "vue-loader": "^9.5.1",
+      "webpack": "^1.12.6",
+      "webpack-dev-server": "^1.12.1"
+    }
+  },
+  "packageStatus": 200
 }

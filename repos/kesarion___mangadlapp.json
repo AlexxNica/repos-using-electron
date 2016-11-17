@@ -70,5 +70,57 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "mangadlapp",
+    "version": "1.0.0",
+    "description": "A client application for mangafox.me. Allows searching for and downloading manga available on the website.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "pack": "build --dir",
+      "dist": "build"
+    },
+    "build": {
+      "appId": "com.kesarion.mangadlapp",
+      "app-category-type": "utility",
+      "win": {
+        "target": "nsis",
+        "description": "mangadlapp"
+      },
+      "linux": {
+        "compression": "gz",
+        "target": [
+          "deb"
+        ],
+        "vendor": "\"Alexandru Sfirlogea <alexandru.sfirlogea@gmail.com>\"",
+        "maintainer": "\"Alexandru Sfirlogea <alexandru.sfirlogea@gmail.com>\"",
+        "description": "mangadlapp"
+      }
+    },
+    "keywords": [
+      "mangafox",
+      "manga",
+      "search",
+      "download"
+    ],
+    "author": {
+      "name": "Alexandru Sfirlogea",
+      "email": "alexandru.sfirlogea@gmail.com"
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "electron-builder": "^5.10.3",
+      "electron-prebuilt": "^1.2.5"
+    },
+    "dependencies": {
+      "angular": "^1.5.7",
+      "angular-animate": "^1.5.7",
+      "co": "^4.6.0",
+      "font-awesome": "^4.6.3",
+      "primer-css": "^4.0.2",
+      "manga-dl": "kesarion/manga-dl"
+    }
+  },
+  "packageStatus": 200
 }

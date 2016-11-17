@@ -70,5 +70,35 @@
   },
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "SavannaAlert",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./dist/app/main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "del": "^2.2.0",
+      "electron-packager": "^8.0.0",
+      "electron-prebuilt": "^1.1.1",
+      "gulp": "^3.9.1",
+      "gulp-sass": "^2.2.0",
+      "gulp-typescript": "^2.12.1",
+      "gulp-webpack": "^1.5.0",
+      "webpack": "^1.12.14"
+    },
+    "dependencies": {
+      "jquery": "^3.1.0",
+      "node-notifier": "^4.5.0",
+      "vue": "^1.0.17",
+      "vue-class-component": "^3.2.0",
+      "vue-router": "^0.7.11"
+    }
+  },
+  "packageStatus": 200
 }

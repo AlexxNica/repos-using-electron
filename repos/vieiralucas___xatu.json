@@ -64,5 +64,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "xatu",
+    "description": "xatu is an gui wrapper for making http requests",
+    "version": "1.0.1",
+    "main": "main.js",
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "bin": {
+      "xatu": "./bin/xatu"
+    },
+    "preferGlobal": true,
+    "dependencies": {
+      "electron-prebuilt": "^0.30.4"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,30 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "honeywell",
+    "version": "1.0.0",
+    "description": "hackathon",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Thinktank",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.15.2",
+      "cors": "^2.8.1",
+      "express": "^4.14.0",
+      "get-mac-address": "^1.0.0",
+      "getmac": "^1.2.1",
+      "mssql": "^3.3.0",
+      "mysql": "^2.11.1",
+      "python-shell": "^0.4.0",
+      "socket.io": "^1.4.8",
+      "wireless": "^0.3.2",
+      "wireless-tools": "^0.18.1"
+    }
+  },
+  "packageStatus": 200
 }

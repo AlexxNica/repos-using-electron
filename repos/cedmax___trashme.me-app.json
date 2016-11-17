@@ -64,5 +64,69 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "boris",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "clean": "rm ./index.* ./Icon* ./main.* & rm -rf ./dist/TrashMeme-darwin-x64",
+      "prepare-assets": "cp ./src/index.js . & cp ./src/Icon* . & usemin src/index.html -d ./ > ./index.html --rmlr true & npm run bundle",
+      "bundle": "jspm bundle-sfx -m js/main ./main.js",
+      "package": "electron-packager . TrashMeme --platform=darwin --icon=./Icon.icns --out=./dist",
+      "start": "electron src/index.js",
+      "build": "rm -rf ./dist && npm run prepare-assets && npm run package && appdmg ./app.json ./dist/TrashMeme.dmg && npm run clean"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "cheerio": "^0.22.0",
+      "electron": "^1.4.3",
+      "electron-prebuilt": "^1.4.3",
+      "electron-settings": "^2.2.1",
+      "get-youtube-id": "^1.0.0",
+      "jspm": "0.16.31",
+      "lodash": "^4.11.1",
+      "menubar": "^5.1.0",
+      "open": "0.0.5",
+      "postcss": "^4.1.16",
+      "react": "0.14.7",
+      "react-dom": "0.14.7",
+      "request": "^2.75.0",
+      "usemin-cli": "^0.1.0"
+    },
+    "devDependencies": {
+      "appdmg": "^0.4.5",
+      "autoprefixer": "^5.2.0",
+      "babel-eslint": "5.0.0",
+      "electron-packager": "^8.1.0",
+      "eslint": "2.2.0",
+      "eslint-plugin-react": "2.7.1",
+      "jscs": "^3.0.3"
+    },
+    "jspm": {
+      "directories": {
+        "baseURL": "src/assets"
+      },
+      "dependencies": {
+        "clipboard": "npm:clipboard@1.5.9",
+        "filter-object": "npm:filter-object@^2.1.0",
+        "inline-style-prefix-all": "npm:inline-style-prefix-all@^1.0.5",
+        "jsx": "github:floatdrop/plugin-jsx@1.2.1",
+        "lodash": "npm:lodash@^4.16.4",
+        "material-ui": "npm:material-ui@^0.16.0",
+        "material-ui-chip-input": "npm:material-ui-chip-input@^0.7.0",
+        "react": "npm:react@^15.3.2",
+        "react-dom": "npm:react-dom@^15.3.2",
+        "react-tap-event-plugin": "npm:react-tap-event-plugin@^1.0.0"
+      },
+      "devDependencies": {
+        "babel": "npm:babel-core@5.8.24",
+        "babel-runtime": "npm:babel-runtime@5.8.24",
+        "core-js": "npm:core-js@1.1.4"
+      }
+    }
+  },
+  "packageStatus": 200
 }

@@ -70,5 +70,34 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "wordpress-media-backup",
+    "version": "0.0.1",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chrismcabz/wordpress-media-backup.git"
+    },
+    "keywords": [
+      "wordpress",
+      "media",
+      "backups",
+      "electron"
+    ],
+    "author": "Chris McLeod (chris@oss.pixelmeadow.com)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chrismcabz/wordpress-media-backup/issues"
+    },
+    "homepage": "https://github.com/chrismcabz/wordpress-media-backup#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.4"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,27 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "node-ts",
+    "version": "0.0.1",
+    "dependencies": {
+      "@types/electron": "^1.4.25",
+      "electron": "^1.4.5",
+      "geojson": "^0.4.0",
+      "lodash": "^4.14.1"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "tsc --strictNullChecks --noUnusedLocals --noUnusedParameters --removeComments --module commonjs --target ES6 --outDir ./dist src/main.ts && cp package.json ./dist && cp ./src/index.html ./dist",
+      "webpack": "webpack --optimize"
+    },
+    "devDependencies": {
+      "@types/geojson": "0.0.31",
+      "@types/lodash": "^4.14.36",
+      "@types/node": "^6.0.41",
+      "typescript": "^2.0.3"
+    }
+  },
+  "packageStatus": 200
 }

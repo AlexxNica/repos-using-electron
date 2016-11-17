@@ -70,5 +70,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "timekeeping-app",
+    "version": "1.0.0",
+    "description": "TimeKeeping App",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/maangulo12/timekeeping-app.git"
+    },
+    "author": "Miguel A. Angulo",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/maangulo12/timekeeping-app/issues"
+    },
+    "homepage": "https:///github.com/maangulo12/timekeeping-app#readme",
+    "devDependencies": {
+      "bower": "^1.7.7",
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.0",
+      "electron-windows-installer": "^1.2.4",
+      "gulp": "^3.9.1"
+    }
+  },
+  "packageStatus": 200
 }

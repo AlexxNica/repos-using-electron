@@ -64,5 +64,45 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "duolingo-desktop",
+    "productName": "Duolingo Desktop",
+    "version": "1.0.0",
+    "description": "Duolingo desktop version",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "pack": "build --dir",
+      "dist": "build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jonatasfreitasv/duolingo_desktop.git"
+    },
+    "keywords": [
+      "mindmeister",
+      "desktop",
+      "mindmap"
+    ],
+    "author": "Jonatas Freitas",
+    "license": "",
+    "bugs": {
+      "url": "https://github.com/jonatasfreitasv/duolingo_desktop/issues"
+    },
+    "build": {
+      "appId": "duolingo_desktop.id",
+      "category": "duolingo.desktop.english.learning",
+      "win": {
+        "iconUrl": ""
+      }
+    },
+    "homepage": "https://github.com/jonatasfreitasv/duolingo_desktop#readme",
+    "devDependencies": {
+      "electron-builder": "^5.34.1",
+      "electron-packager": "^7.7.0",
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

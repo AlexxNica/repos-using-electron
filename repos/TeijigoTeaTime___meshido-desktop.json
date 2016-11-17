@@ -78,5 +78,44 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "meshido-desktop",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "license": "UNLICENSED",
+    "private": true,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/TeijigoTeaTime/meshido-desktop.git"
+    },
+    "scripts": {
+      "postinstall": "bower install",
+      "start": "electron .",
+      "build:mac": "electron-packager . Meshido --platform=darwin --arch=x64  --version=0.36.1 --out=dist --ignore='^/dist$' --overwrite --prune",
+      "build:win": "electron-packager . Meshido --platform=win32  --arch=ia32 --version=0.36.1 --out=dist --ignore='^/dist$' --overwrite --prune",
+      "bower": "bower",
+      "gulp": "gulp",
+      "lint": "gulp lint"
+    },
+    "main": "app.js",
+    "dependencies": {
+      "electron-debug": "^0.5.0"
+    },
+    "devDependencies": {
+      "bower": "^1.6.9",
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.35.0",
+      "eslint-config-xo": "^0.8.0",
+      "gulp": "^3.9.0",
+      "gulp-csslint": "^0.2.0",
+      "gulp-eslint": "^1.1.1",
+      "gulp-htmlhint": "^0.3.0"
+    }
+  },
+  "packageStatus": 200
 }

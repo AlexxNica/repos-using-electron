@@ -64,5 +64,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "scripts": {
+      "start": "electron app/main.js",
+      "postinstall": "install-app-deps",
+      "pack": "build",
+      "dist": "build"
+    },
+    "devDependencies": {
+      "electron-builder": "^3.25.0",
+      "electron-prebuilt": "^1.2.0"
+    },
+    "build": {
+      "app-bundle-id": "com.ahdriel.test",
+      "app-category-type": "i.dont.know"
+    }
+  },
+  "packageStatus": 200
 }

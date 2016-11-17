@@ -70,5 +70,37 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-angularjs-sqlite",
+    "version": "1.0.0",
+    "description": "Um aplicativo simples usando AngularJS, Sqlite, Electron e Bootstrap",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "win32": "electron-packager . myApp --platform=win32 --arch=ia32",
+      "win64": "electron-packager . myApp --platform=win32 --arch=x64",
+      "linux32": "electron-packager . myApp --platform=linux --arch=ia32",
+      "linux64": "electron-packager . myApp --platform=linux --arch=x64",
+      "osx": "electron-packager . myApp --platform=darwin --arch=x64",
+      "build": "electron-packager . --all"
+    },
+    "devDependencies": {
+      "angular": "^1.5.1",
+      "angular-route": "^1.5.1",
+      "angular-translate": "^2.11.0",
+      "angular-utils-pagination": "^0.11.0",
+      "electron-packager": "^7.0.4",
+      "electron-prebuilt": "^1.2.3",
+      "jquery": "^2.2.2",
+      "sqlite-sync": "^0.2.1"
+    },
+    "dependencies": {
+      "angular-cookies": "^1.5.7",
+      "ng-cookies": "^1.0.2",
+      "os-locale": "^1.4.0",
+      "sqlite3": "^3.1.4"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,41 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tbr",
+    "version": "1.0.0",
+    "description": "TbrDemo",
+    "main": "App/GeneratedJS/Start.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "pack": "build --dir",
+      "dist": "build -w --x64"
+    },
+    "keywords": [],
+    "author": "nir.oren@cellebrite.com",
+    "license": "ISC",
+    "devDependencies": {
+      "electron": "^1.4.2",
+      "electron-builder": "^7.11.4"
+    },
+    "build": {
+      "appId": "Multi.TBR",
+      "mac": {
+        "category": "your.app.category.type"
+      },
+      "win": {
+        "iconUrl": "http://eatodo.s3.amazonaws.com/icon.ico"
+      }
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/niros1/ElectornTBR.git"
+    },
+    "bugs": {
+      "url": "https://github.com/niros1/ElectornTBR/issues"
+    },
+    "homepage": "https://github.com/niros1/ElectornTBR#readme"
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,26 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "task_hunt",
+    "version": "1.0.0",
+    "description": "Outline + ToDo list",
+    "author": "Takuya Okuno",
+    "license": "MIT",
+    "main": "dist/electron-launch.js",
+    "devDependencies": {
+      "browserify": "^11.0.1",
+      "codo": "^2.0.11",
+      "coffee-script": "^1.9.3",
+      "coffeeify": "^1.1.0",
+      "electron-prebuilt": "^0.31.1",
+      "glob": "^5.0.14",
+      "gulp": "^3.9.0",
+      "insert-css": "^0.2.0",
+      "vinyl-source-stream": "^1.1.0",
+      "vueify": "^1.1.5"
+    }
+  },
+  "packageStatus": 200
 }

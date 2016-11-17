@@ -64,5 +64,21 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 21,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "installer",
+    "version": "1.0.0",
+    "description": "test",
+    "main": "main.js",
+    "author": "Tyler Johnson <mail@tyler-johnson.ca> (http://github.com/tejohnso)",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.33.6"
+    },
+    "dependencies": {
+      "adm-zip": "^0.4.7"
+    }
+  },
+  "packageStatus": 200
 }

@@ -78,5 +78,39 @@
   },
   "networkCount": 0,
   "subscribersCount": 9,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-app",
+    "version": "0.1.0",
+    "description": "Desktop App.",
+    "build": {
+      "appId": "cc.catch.desktop"
+    },
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "build --linux --win --x64 --ia32"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/CatchLabs/Electron-App.git"
+    },
+    "author": {
+      "name": "CatchLabs",
+      "email": "info@entropy.cool"
+    },
+    "bugs": {
+      "url": "https://github.com/CatchLabs/Electron-App/issues"
+    },
+    "homepage": "https://github.com/CatchLabs/Electron-App#readme",
+    "dependencies": {
+      "electron-json-storage": "^2.0.0"
+    },
+    "devDependencies": {
+      "electron-builder": "^5.16.0",
+      "electron-prebuilt": "^1.2.8"
+    },
+    "private": true
+  },
+  "packageStatus": 200
 }

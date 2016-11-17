@@ -70,5 +70,41 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "binks",
+    "version": "0.0.1",
+    "description": "darth darth binks will return",
+    "main": "app.js",
+    "scripts": {
+      "test": "exit 0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/deomitrus/binks.git"
+    },
+    "keywords": [
+      "binks"
+    ],
+    "author": "Deomitrus",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/deomitrus/binks/issues"
+    },
+    "homepage": "https://github.com/deomitrus/binks#readme",
+    "devDependencies": {
+      "electron-packager": "^7.0.2",
+      "electron-prebuilt": "^1.1.0",
+      "gulp": "^3.9.1"
+    },
+    "dependencies": {
+      "co": "^4.6.0",
+      "react": "^15.1.0",
+      "react-dom": "^15.1.0",
+      "request": "^2.72.0",
+      "tumblr.js": "^1.0.0",
+      "v": "github:deomitrus/v"
+    }
+  },
+  "packageStatus": 200
 }

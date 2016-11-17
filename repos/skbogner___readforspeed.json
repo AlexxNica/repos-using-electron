@@ -70,5 +70,40 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ReadForSpeed",
+    "version": "1.0.0",
+    "description": "A Speed Reading Coach",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/skbogner/readforspeed.git"
+    },
+    "keywords": [
+      "Electron",
+      "Speed",
+      "Read",
+      "Read For Speed",
+      "Train",
+      "Practice",
+      "ReadForSpeed"
+    ],
+    "author": "Sebastian Bogner <bogner.sebastian@gmail.com> (http://github.com/skbogner)",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/skbogner/readforspeed/issues"
+    },
+    "homepage": "https://github.com/skbogner/readforspeed#readme",
+    "dependencies": {
+      "jquery": "2.2.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,48 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tinberg-app",
+    "version": "0.0.0",
+    "description": "behavior control app",
+    "main": "index.js",
+    "dependencies": {
+      "commander": "^2.9.0",
+      "crtrdg-tty": "^2.0.0",
+      "dom-css": "^2.1.0",
+      "duplexify": "^3.4.5",
+      "electron-ipc-stream": "^0.2.0",
+      "electron-prebuilt": "^1.4.3",
+      "from2": "^2.3.0",
+      "glob": "^7.1.1",
+      "jsonfile": "^2.4.0",
+      "keypress": "^0.2.1",
+      "left-pad": "^1.1.3",
+      "lodash.debounce": "^4.0.8",
+      "nanotimer": "^0.3.14",
+      "performance-now": "^0.2.0",
+      "protocol-buffers": "^3.1.6",
+      "raf": "^3.3.0",
+      "through2": "^2.0.1",
+      "time-stream": "^1.0.0",
+      "to2": "^1.0.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sofroniewn/tinberg-app.git"
+    },
+    "author": "Nicholas Sofroniew",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/sofroniewn/tinberg-app/issues"
+    },
+    "homepage": "https://github.com/sofroniewn/tinberg-app#readme"
+  },
+  "packageStatus": 200
 }

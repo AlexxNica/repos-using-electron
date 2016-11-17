@@ -64,5 +64,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "todo-list",
+    "version": "1.0.0",
+    "description": "todo list for daily works",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [
+      "electron",
+      "js"
+    ],
+    "author": "Hamidreza Bistooni",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^1.4.5",
+      "nodemon": "^1.11.0"
+    },
+    "dependencies": {
+      "vue": "^2.0.5"
+    }
+  },
+  "packageStatus": 200
 }

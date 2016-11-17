@@ -64,5 +64,34 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "cool-app",
+    "version": "1.0.0",
+    "description": "Cool App",
+    "main": "app/js/main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . Cool\\ App --platform=all --arch=x64 --version=0.36.2 --icon=app/favicon --overwrite",
+      "build-osx": "electron-packager . Cool\\ App --platform=darwin --arch=x64 --version=0.36.2 --icon=app/favicon.icns --overwrite",
+      "build-linux": "electron-packager . Cool\\ App --platform=linux --arch=x64 --version=0.36.2 --overwrite",
+      "build-windows": "electron-packager . Cool\\ App --platform=windows --arch=x64 --version=0.36.2 --icon=app/favicon.ico --overwrite",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/iarambula/cool-app.git"
+    },
+    "author": "Ivan Arambula",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/iarambula/cool-app/issues"
+    },
+    "homepage": "https://github.com/iarambula/cool-app#readme",
+    "devDependencies": {
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.36.2"
+    }
+  },
+  "packageStatus": 200
 }

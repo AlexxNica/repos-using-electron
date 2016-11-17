@@ -64,5 +64,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron_and_react",
+    "version": "1.0.0",
+    "description": "My first test using electron and react, lets see what happen with this experience :rocket:",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/victorfern91/electron_and_react.git"
+    },
+    "author": "victorfern91 (Victor Fernandes)",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/victorfern91/electron_and_react/issues"
+    },
+    "homepage": "https://github.com/victorfern91/electron_and_react",
+    "devDependencies": {
+      "devtron": "^1.3.0"
+    },
+    "dependencies": {
+      "electron": "^1.4.0"
+    }
+  },
+  "packageStatus": 200
 }

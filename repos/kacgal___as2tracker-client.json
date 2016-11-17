@@ -64,5 +64,42 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "as2tracker",
+    "version": "1.0.0",
+    "description": "Audiosurf2 score collector for http://as2tracker.com/",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AS2Tracker/as2tracker-client"
+    },
+    "keywords": [
+      "audiosurf",
+      "as2tracker"
+    ],
+    "contributors": [
+      {
+        "name": "kacgal"
+      }
+    ],
+    "bugs": {
+      "url": "https://github.com/AS2Tracker/as2tracker-client/issues"
+    },
+    "dependencies": {
+      "bootstrap": "^3.3.7",
+      "electron": "^1.3.0",
+      "jquery": "^3.1.0",
+      "socket.io-client": "^1.4.8",
+      "tail": "^1.1.0",
+      "winreg": "^1.2.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

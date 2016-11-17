@@ -70,5 +70,55 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tagPics",
+    "version": "1.0.0",
+    "description": "A fashion view for instagram",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "package": "electron-packager . --platform=win32  --arch=x64 --out=../tagPicsDistribution/ --icon=FF.ico --asar --overwrite",
+      "packageMac": "electron-packager . --platform=darwin  --arch=x64 --out=../tagPicsDistribution/ --icon=./FF.icns --asar --overwrite",
+      "packageLinux": "electron-packager . --platform=linux  --arch=x64 --out=../tagPicsDistribution/ --icon=./FF.icns --asar --overwrite",
+      "changeDir": "cd ../tagPicsDistribution",
+      "zipMac": "cd ../tagPicsDistribution; tar cfz tagPics-darwin-x64.tar.gz tagPics-darwin-x64",
+      "zipLinux64": "cd ../tagPicsDistribution;tar cfz tagPics-linux-x64.tar.gz tagPics-linux-x64",
+      "zipMas64": "cd ../tagPicsDistribution;tar cfz tagPics-mas-x64.tar.gz tagPics-mas-x64",
+      "zipWin64": "cd ../tagPicsDistribution & tar cfz tagPics-win32-x64.tar.gz tagPics-win32-x64",
+      "delBuildDir": "rm -r ../tagPicsDistribution/tagPics-*/",
+      "buildLinMac": "npm run packageMac && npm run packageLinux && npm run zipMac && npm run zipLinux64 && npm run delBuildDir",
+      "buildWin": "npm run package && npm run zipWin64 && npm run delBuildDir"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/marsinvasion/tagPics.git"
+    },
+    "keywords": [
+      "Fashion",
+      "instagram"
+    ],
+    "author": "Anoop Kulkarni",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/marsinvasion/tagPics/issues"
+    },
+    "homepage": "https://github.com/marsinvasion/tagPics#readme",
+    "devDependencies": {
+      "electron-packager": "^7.0.3",
+      "electron-prebuilt": "^1.1.2"
+    },
+    "dependencies": {
+      "async": "^1.5.2",
+      "body-parser": "~1.13.2",
+      "cookie-parser": "~1.3.5",
+      "debug": "~2.2.0",
+      "express": "~4.13.1",
+      "express-handlebars": "ericf/express-handlebars",
+      "morgan": "~1.6.1",
+      "request": "^2.72.0",
+      "serve-favicon": "~2.3.0"
+    }
+  },
+  "packageStatus": 200
 }

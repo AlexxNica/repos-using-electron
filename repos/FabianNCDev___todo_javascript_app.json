@@ -64,5 +64,39 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "todo_electron",
+    "private": true,
+    "version": "0.0.1",
+    "description": "this is a desktop todo app built in html,css,js and nodejs with Electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "desktop",
+      "javascript",
+      "nodejs",
+      "html",
+      "css",
+      "grutn",
+      "lowdb",
+      "html5",
+      "todo-app",
+      "Electron"
+    ],
+    "author": "Fazt Js",
+    "license": "ISC",
+    "dependencies": {
+      "lodash": "4.15.0",
+      "lowdb": "0.13.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.8",
+      "grunt": "^1.0.1"
+    }
+  },
+  "packageStatus": 200
 }

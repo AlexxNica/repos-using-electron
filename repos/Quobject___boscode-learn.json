@@ -84,5 +84,31 @@
   },
   "networkCount": 2,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "boscode-learn",
+    "version": "1.0.2",
+    "description": "Learn javascript using boscode https://www.npmjs.com/package/boscode",
+    "main": "lib/index.js",
+    "scripts": {},
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Quobject/boscode-learn.git"
+    },
+    "keywords": [
+      "pseudocode"
+    ],
+    "author": "Matthias Ludwig <mludwig@quobject.io>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Quobject/boscode-learn/issues"
+    },
+    "homepage": "https://github.com/Quobject/boscode-learn",
+    "devDependencies": {},
+    "dependencies": {
+      "boscode": "~0.0.7",
+      "johnny-five": "^0.9.21"
+    }
+  },
+  "packageStatus": 200
 }

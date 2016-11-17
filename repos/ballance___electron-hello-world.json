@@ -70,5 +70,29 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hello-world-e",
+    "version": "1.0.0",
+    "description": "Just a hello world for electron",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo('hello there from electron node and stuff');"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ballance/electron-hello-world/"
+    },
+    "keywords": [
+      "keyword1",
+      "keyword2"
+    ],
+    "author": "Chris Ballance",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-builder": "^2.1.1",
+      "electron-prebuilt": "^0.34.3"
+    }
+  },
+  "packageStatus": 200
 }

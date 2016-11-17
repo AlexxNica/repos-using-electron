@@ -64,5 +64,19 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "waro",
+    "description": "Waro is a soundcloud wrapper",
+    "version": "1.0.0",
+    "scripts": {
+      "pack": "electron-packager . \"Waro\" --overwrite --icon=icon.icns --out=dist --platform=darwin --arch=x64 --version=0.36.7 --asar=true"
+    },
+    "main": "main.js",
+    "devDependencies": {
+      "electron-packager": "5.2.1",
+      "electron-prebuilt": "0.36.5"
+    }
+  },
+  "packageStatus": 200
 }

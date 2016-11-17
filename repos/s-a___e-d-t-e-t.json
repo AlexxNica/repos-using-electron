@@ -64,5 +64,25 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "edtet",
+    "version": "1.5.22",
+    "description": "",
+    "main": "index.js",
+    "bin": {
+      "edtet": "index.js"
+    },
+    "preferGlobal": true,
+    "scripts": {
+      "test": "mocha",
+      "dev": "node_modules/.bin/electron ./app"
+    },
+    "author": "Stephan Ahlf <stephan.ahlf@gmail.com> (https://github.com/s-a)",
+    "license": "MIT",
+    "dependencies": {
+      "electron-prebuilt": "^0.30.2"
+    }
+  },
+  "packageStatus": 200
 }

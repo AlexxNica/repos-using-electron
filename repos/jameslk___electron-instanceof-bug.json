@@ -64,5 +64,22 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-instanceof-bug",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "dependencies": {
+      "electron-prebuilt": "^0.25.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test-node": "node test.js",
+      "test-electron": "electron main.js"
+    },
+    "author": "",
+    "license": ""
+  },
+  "packageStatus": 200
 }

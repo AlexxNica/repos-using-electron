@@ -78,5 +78,21 @@
   },
   "networkCount": 0,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "scripts": {
+      "start": "npm run electron & npm run watch",
+      "electron": "electron ./public/js/main.js",
+      "watch": "npm run watch:ts & npm run watch:scss",
+      "watch:ts": "tsc -w",
+      "watch:scss": "node-sass --output-style compressed --output public/css src/scss/ --watch"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.5",
+      "node-sass": "^3.4.2",
+      "typescript": "^1.8.10",
+      "typings": "^0.7.12"
+    }
+  },
+  "packageStatus": 200
 }

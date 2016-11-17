@@ -70,5 +70,46 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "greenflea",
+    "version": "0.1.0",
+    "description": "Electron based desktop app that will help you to calculate the cost of different kinds of exterior commercials",
+    "main": "app/main.js",
+    "scripts": {
+      "postinstall": "mkdir ./app/renderer/css && npm run jshint && npm run style",
+      "start": "electron .",
+      "jshint": "jshint . || true",
+      "style": "node-sass --output-style compact --include-path ./app/scss/includes ./app/scss/main.scss > ./app/renderer/css/main.css",
+      "test": "echo \"Not implemented\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mister-spock/greenflea.git"
+    },
+    "keywords": [
+      "electron",
+      "javascript",
+      "desktop",
+      "calculator",
+      "designer",
+      "exterior",
+      "commercials"
+    ],
+    "author": "Oleg Kozak",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mister-spock/greenflea/issues"
+    },
+    "homepage": "https://github.com/mister-spock/greenflea#readme",
+    "devDependencies": {
+      "backbone": "^1.3.3",
+      "electron": "^1.3.5",
+      "handlebars": "^4.0.5",
+      "jquery": "^3.1.0",
+      "jshint": "^2.9.3",
+      "node-sass": "^3.10.0"
+    }
+  },
+  "packageStatus": 200
 }

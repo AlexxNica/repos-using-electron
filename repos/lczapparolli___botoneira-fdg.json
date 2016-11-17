@@ -64,5 +64,46 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "botoneira-fdg",
+    "version": "1.0.0",
+    "description": "Projeto criado para utilização no programa humorístico Fundo de Granja. O objetivo principal é reproduzir diversas peças de áudio simultâneamente localizando-as facilmente em categorias.",
+    "main": "build/main.js",
+    "scripts": {},
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lczapparolli/botoneira-fdg.git"
+    },
+    "keywords": [
+      "audio",
+      "player",
+      "radio"
+    ],
+    "author": "LC Zapparolli",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/lczapparolli/botoneira-fdg/issues"
+    },
+    "homepage": "https://github.com/lczapparolli/botoneira-fdg#readme",
+    "devDependencies": {
+      "babel-preset-react": "^6.5.0",
+      "del": "^2.2.0",
+      "electron-prebuilt": "^0.36.5",
+      "gulp": "^3.9.1",
+      "gulp-babel": "^6.1.2",
+      "gulp-concat": "^2.6.0",
+      "gulp-eslint": "^2.0.0",
+      "gulp-jasmine": "^2.3.0",
+      "gulp-sass": "^2.3.1",
+      "gulp-sourcemaps": "^2.0.0-alpha",
+      "jasmine": "^2.4.1"
+    },
+    "dependencies": {
+      "matchete": "^1.0.1",
+      "react": "^0.14.7",
+      "react-dom": "^0.14.7"
+    }
+  },
+  "packageStatus": 200
 }

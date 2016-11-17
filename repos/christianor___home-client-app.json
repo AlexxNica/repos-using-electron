@@ -64,5 +64,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "src/js/main.js",
+    "scripts": {
+      "start": "electron ./src/js/main.js",
+      "test": "mocha ./src/test/"
+    },
+    "repository": {
+      "type": "git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "Christian Ortiz",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "bower": "^1.7.2",
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

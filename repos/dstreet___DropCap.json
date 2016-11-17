@@ -70,5 +70,37 @@
   },
   "networkCount": 1,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "DropCap",
+    "version": "0.0.1",
+    "description": "Sync screen captures with Dropbox",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dstreet/DropCap.git"
+    },
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "/bin/bash ./bin/icon && /usr/bin/env node ./bin/build.js"
+    },
+    "author": "David Street",
+    "license": "GPL-3.0",
+    "dependencies": {
+      "extend": "^3.0.0",
+      "menubar": "^2.1.2",
+      "moment": "^2.10.6",
+      "plist": "^1.1.0",
+      "react": "^0.13.3",
+      "rx": "^3.0.0",
+      "rx-react": "^0.2.0",
+      "snabbdom": "^0.2.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.2"
+    }
+  },
+  "packageStatus": 200
 }

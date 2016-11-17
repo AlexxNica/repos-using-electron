@@ -70,5 +70,28 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "transdown-electron-app",
+    "version": "0.1.0",
+    "description": "A transdown editor based upon GitHub's electron framework",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/briandk/transdown-electron-app.git"
+    },
+    "author": "Brian A. Danielak",
+    "license": "GPL-2.0",
+    "bugs": {
+      "url": "https://github.com/briandk/transdown-electron-app/issues"
+    },
+    "homepage": "https://github.com/briandk/transdown-electron-app#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.34.0"
+    }
+  },
+  "packageStatus": 200
 }

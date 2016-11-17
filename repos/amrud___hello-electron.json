@@ -64,5 +64,36 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hello-world-too",
+    "version": "0.0.1",
+    "description": "Hello World electron app",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "nothing"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/amrud/hello-electron.git"
+    },
+    "keywords": [
+      "Hello",
+      "World",
+      "Electron",
+      "Hello",
+      "Electron"
+    ],
+    "author": "Ammar <maa.amrud@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/amrud/hello-electron/issues"
+    },
+    "homepage": "https://github.com/amrud/hello-electron#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.5"
+    }
+  },
+  "packageStatus": 200
 }

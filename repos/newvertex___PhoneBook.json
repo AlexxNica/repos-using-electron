@@ -64,5 +64,20 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "PhoneBook",
+    "version": "0.0.1",
+    "description": "A simple Phone Book program",
+    "main": "index.js",
+    "author": "Mojtaba Rabiei <mojtaba.r127@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+      "sql.js": "^0.3.2"
+    },
+    "devDependencies": {
+      "electron": "^1.4.5"
+    }
+  },
+  "packageStatus": 200
 }

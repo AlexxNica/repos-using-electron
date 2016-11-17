@@ -70,5 +70,43 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "calendarapp",
+    "version": "1.0.0",
+    "description": "electron app ",
+    "main": "./main.js",
+    "scripts": {
+      "build": "webpack .",
+      "postinstall": "npm run build",
+      "start": "npm build & electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/niksolaz/ElectronApp.git"
+    },
+    "keywords": [
+      "electron",
+      "node"
+    ],
+    "author": "Nicola Solazzo",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/niksolaz/ElectronApp/issues"
+    },
+    "homepage": "https://github.com/niksolaz/ElectronApp",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.9",
+      "google-auth-library": "^0.9.7",
+      "googleapis": "^2.1.7",
+      "webpack": "^1.12.14"
+    },
+    "dependencies": {
+      "babel-preset-react": "^6.5.0",
+      "react": "^0.14.7",
+      "react-dom": "^0.14.7",
+      "smalltalk": "^1.6.6"
+    }
+  },
+  "packageStatus": 200
 }

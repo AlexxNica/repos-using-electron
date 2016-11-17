@@ -64,5 +64,47 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "keychatter",
+    "version": "0.1.0",
+    "description": "Bitcoin chat platform",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "test": "mocha"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/willricketts/keychatter.git"
+    },
+    "keywords": [
+      "btc",
+      "bitcoin",
+      "crypto",
+      "cryptocurrency",
+      "p2p",
+      "webrtc",
+      "rtc",
+      "chat",
+      "pgp",
+      "encryption"
+    ],
+    "author": "@willricketts",
+    "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/willricketts/keychatter/issues"
+    },
+    "homepage": "https://github.com/willricketts/keychatter#readme",
+    "dependencies": {
+      "bitcore-lib": "^0.13.11"
+    },
+    "devDependencies": {
+      "chai": "^3.4.1",
+      "electron-prebuilt": "^0.36.5",
+      "mocha": "^2.3.4",
+      "sinon": "^1.17.2"
+    }
+  },
+  "packageStatus": 200
 }

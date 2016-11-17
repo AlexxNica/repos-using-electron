@@ -64,5 +64,25 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "test3.2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "node_modules/.bin/electron ."
+    },
+    "author": "Paalon",
+    "license": "",
+    "devDependencies": {
+      "electron-packager": "^8.0.0",
+      "electron-prebuilt": "^1.4.0",
+      "fontfaceobserver": "^2.0.4",
+      "howler": "^2.0.0",
+      "keyboardjs": "^2.3.1",
+      "pixi.js": "^4.0.1"
+    }
+  },
+  "packageStatus": 200
 }

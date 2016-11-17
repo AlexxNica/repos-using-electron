@@ -70,5 +70,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "slape",
+    "version": "0.0.1",
+    "description": "Power your screensavers with html",
+    "license": "MIT",
+    "author": {
+      "name": "Orcolom"
+    },
+    "main": "./src/app.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Orcolom/Slape.git"
+    },
+    "scripts": {
+      "start_c": "electron ./src/app.js /c NODE_ENV=dev",
+      "start_s": "electron ./src/app.js /s NODE_ENV=dev"
+    },
+    "devDependencies": {
+      "electron": "^1.4.6",
+      "grunt": "^1.0.1",
+      "grunt-contrib-copy": "^1.0.0",
+      "grunt-electron": "^5.0.0",
+      "grunt-ts": "^6.0.0-beta.3",
+      "typescript": "^2.0.9"
+    }
+  },
+  "packageStatus": 200
 }

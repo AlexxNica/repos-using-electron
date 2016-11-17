@@ -64,5 +64,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "file-er",
+    "version": "1.0.0",
+    "description": "file stuff",
+    "main": "index.js",
+    "private": true,
+    "homepage": "",
+    "scripts": {
+      "start": "electron index.js"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "electron": "^0.4.1",
+      "electron-prebuilt": "^1.2.1",
+      "react": "^0.14.8",
+      "react-dom": "^0.14.8"
+    },
+    "devDependencies": {
+      "electron-connect": "^0.3.7",
+      "gulp": "^3.9.1",
+      "gulp-run": "^1.6.12",
+      "gulp-sass": "^2.2.0"
+    }
+  },
+  "packageStatus": 200
 }

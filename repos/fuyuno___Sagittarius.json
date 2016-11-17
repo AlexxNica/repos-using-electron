@@ -70,5 +70,81 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "sagittarius",
+    "version": "1.0.0",
+    "description": "ChatWork Client for Desktop.",
+    "main": "app/main.js",
+    "private": true,
+    "scripts": {
+      "testCompile": "gulp build:test && grep -l '..\\/src' ./test/*.js | xargs sed -i.bak -e 's/..\\/src/..\\/app/g' && rm ./test/*.bak",
+      "prelocaltest": "npm run testCompile",
+      "localtest": "istanbul test _mocha -- test",
+      "pretest": "npm run testCompile",
+      "test": "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+      "prepack": "set NODE_ENV=production && gulp build:main",
+      "pack": "set NODE_ENV=production && electron-packager . Sagittarius --platform=all --arch=x64 --version=0.36.1 --out=dist --ignore={.vscode,bin,dist,src,screenshots,test,tmp}/* --prune=true --asar=true"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fuyuno/Sagittarius.git"
+    },
+    "keywords": [
+      "ChatWork",
+      "Client"
+    ],
+    "author": "Mikazuki",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/fuyuno/Sagittarius/issues"
+    },
+    "homepage": "https://github.com/fuyuno/Sagittarius#readme",
+    "dependencies": {
+      "babel-polyfill": "^6.3.14",
+      "ix": "^1.0.6",
+      "jquery": "^3.1.0",
+      "node-notifier": "^4.4.0",
+      "punycode": "^2.0.0",
+      "react": "^15.0.1",
+      "react-dom": "^15.0.1",
+      "react-redux": "^4.4.0",
+      "redux": "^3.3.1",
+      "redux-logger": "^2.6.1",
+      "redux-thunk": "^2.0.0",
+      "rx": "^4.0.7",
+      "semantic-ui": "^2.1.8"
+    },
+    "devDependencies": {
+      "babel-preset-es2015": "^6.3.13",
+      "babel-preset-stage-3": "^6.3.13",
+      "browserify": "^13.0.0",
+      "coveralls": "^2.11.8",
+      "del": "^2.2.0",
+      "electron-connect": "^0.4.2",
+      "electron-packager": "^7.0.0",
+      "electron-prebuilt": "^1.3.1",
+      "envify": "^3.4.0",
+      "gulp": "^3.9.1",
+      "gulp-babel": "^6.1.1",
+      "gulp-plumber": "^1.0.1",
+      "gulp-sass": "^2.1.1",
+      "gulp-typescript": "^2.10.0",
+      "gulp-useref": "^3.0.8",
+      "gulp-watch": "^4.3.5",
+      "istanbul": "^0.4.3",
+      "mocha": "^2.4.5",
+      "mocha-lcov-reporter": "^1.2.0",
+      "run-sequence": "^1.1.5",
+      "should": "^10.0.0",
+      "stringify": "^5.1.0",
+      "tslint": "^3.7.4",
+      "typescript": "^1.8.10",
+      "typescript-node": "^0.1.3",
+      "typescript-require": "^0.2.9-1",
+      "vinyl-buffer": "^1.0.0",
+      "vinyl-source-stream": "^1.1.0"
+    }
+  },
+  "packageStatus": 200
 }

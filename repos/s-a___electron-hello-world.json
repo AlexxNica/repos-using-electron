@@ -64,5 +64,44 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-hello-world",
+    "description": "Absolute bare minimum Hello World Electron app",
+    "version": "1.0.0",
+    "author": "Stephan Ahlf <stephan.ahlf@gmail.com>",
+    "bugs": {
+      "url": ""
+    },
+    "homepage": "",
+    "keywords": [],
+    "license": "",
+    "private": true,
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "scripts": {
+      "dev": "electron ./app",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "clean": "rm -rf ./dist",
+      "clean:macos": "rm -rf ./dist/macos",
+      "clean:win": "rm -rf ./dist/win",
+      "build": "npm run clean && npm run build:macos && npm run build:win",
+      "build:macos": "npm run clean:macos && electron-packager ./app \"SA-Systems\" --out=dist/macos --platform=darwin --arch=x64 --version=0.25.3 --icon=assets/macos/loopline.icns",
+      "build:win": "npm run clean:win && electron-packager ./app \"SA-Systems\" --out=dist/win --platform=win32 --arch=ia32 --version=0.25.3 --icon=assets/win/icon.ico",
+      "pack": "npm run pack:macos && npm run pack:win",
+      "pack:macos": "npm run build:macos && electron-builder \"dist/macos/SA-Systems.app\" --platform=macos --out=\"dist/macos\" --config=packager.json",
+      "pack:win": "npm run build:win && electron-builder \"dist/win/SA-Systems-win32\" --platform=win --out=\"dist/win\" --config=packager.json"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "electron-builder": "^1.1.0",
+      "electron-packager": "^4.1.2",
+      "grunt": "^0.4.5",
+      "load-grunt-tasks": "^3.2.0",
+      "electron-prebuilt": "^0.27.1"
+    }
+  },
+  "packageStatus": 200
 }

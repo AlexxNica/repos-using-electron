@@ -70,5 +70,77 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Trollbox",
+    "productName": "Trollbox",
+    "version": "0.0.5",
+    "description": "A fast search tool for Trello",
+    "main": "main.js",
+    "scripts": {
+      "start": "cross-env NODE_ENV=development electron main.js",
+      "startProd": "cross-env NODE_ENV=production electron main.js",
+      "flow": "flow; test $? -eq 0 -o $? -eq 2",
+      "prepackage": "npm test",
+      "package": "NODE_ENV=production && node package.js",
+      "build": "webpack",
+      "test": "jest"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "keywords": [],
+    "author": "Ben McCormick",
+    "dependencies": {
+      "lodash": "^4.12.0",
+      "moment": "^2.13.0",
+      "react": "^15.0.2",
+      "react-dom": "^15.0.2",
+      "react-icons": "^2.2.1",
+      "react-redux": "^4.4.5",
+      "react-select": "^1.0.0-beta13",
+      "redux": "^3.5.2",
+      "redux-localstorage": "^0.4.1",
+      "redux-logger": "^2.6.1",
+      "redux-thunk": "^2.1.0",
+      "troll-client": "^0.0.4",
+      "uuid": "^2.0.2"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.7.7",
+      "babel-core": "^6.7.7",
+      "babel-eslint": "^6.1.0",
+      "babel-jest": "^14.1.0",
+      "babel-loader": "^6.2.4",
+      "babel-plugin-transform-es2015-modules-commonjs": "^6.8.0",
+      "babel-preset-react": "^6.5.0",
+      "cross-env": "^2.0.0",
+      "css-loader": "^0.23.1",
+      "del": "^2.2.1",
+      "electron-packager": "^7.4.0",
+      "electron-prebuilt": "^1.2.1",
+      "empty": "^0.10.1",
+      "eslint-plugin-flowtype": "^2.3.0",
+      "eslint-plugin-react": "^5.1.1",
+      "flow-bin": "^0.30.0",
+      "iflow-lodash": "^1.1.16",
+      "jest-cli": "^14.1.0",
+      "node-libs-browser": "^0.5.2",
+      "react-hot-loader": "^1.2.7",
+      "style-loader": "^0.13.1",
+      "webpack": "^1.9.11",
+      "webpack-dashboard": "0.0.1",
+      "webpack-dev-server": "^1.9.0",
+      "webpack-target-electron-renderer": "^0.4.0"
+    },
+    "jest": {
+      "unmockedModulePathPatterns": [
+        "react",
+        "lodash",
+        "moment"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

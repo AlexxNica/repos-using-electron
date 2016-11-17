@@ -70,5 +70,49 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "CSVmerger",
+    "productName": "CSV Merger",
+    "version": "1.0.0",
+    "description": "",
+    "license": "MIT",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . --out=dist --app-version=%npm_package_version% --prune --asar --overwrite --all",
+      "build-win": "electron-packager . --out=dist --app-version=%npm_package_version% --prune --asar --overwrite --platform=win32 --arch=x64"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "csv": "^1.1.0",
+      "detect-csv": "^1.1.0",
+      "electron-debug": "^1.0.0",
+      "encoding": "^0.1.12",
+      "q": "^1.4.1",
+      "to-utf-8": "^1.2.0"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.0",
+      "electron-packager": "^7.0.0",
+      "electron-prebuilt": "^1.0.1",
+      "xo": "^0.15.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

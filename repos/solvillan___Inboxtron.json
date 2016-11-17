@@ -64,5 +64,21 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Inboxtron",
+    "version": "1.0.0",
+    "description": "A desktop client for Inbox by Gmail",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "./node_modules/.bin/electron ."
+    },
+    "author": "solvillan",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.3"
+    }
+  },
+  "packageStatus": 200
 }

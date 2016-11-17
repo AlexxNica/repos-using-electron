@@ -64,5 +64,26 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "herb",
+    "version": "1.0.0",
+    "description": "A simple template app for Proton",
+    "main": "app.js",
+    "author": "Dang Viet Trung",
+    "scripts": {
+      "start": "electron ."
+    },
+    "devDependencies": {
+      "angular": "^1.5.7",
+      "angularjs": "0.0.1",
+      "electron-packager": "^7.3.0",
+      "electron-prebuilt": "^0.25.1",
+      "gulp": "^3.9.1"
+    },
+    "dependencies": {
+      "simplemde": "^1.11.2"
+    }
+  },
+  "packageStatus": 200
 }

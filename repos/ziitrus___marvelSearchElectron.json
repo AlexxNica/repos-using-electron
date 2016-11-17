@@ -64,5 +64,41 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "marvelSearch",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ziitrus/marvelSearchElectron.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/ziitrus/marvelSearchElectron.git/issues"
+    },
+    "homepage": "https://github.com/ziitrus/marvelSearchElectron.git",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.0"
+    },
+    "dependencies": {
+      "express": "^4.13.4",
+      "jade": "^1.11.0",
+      "marvel-api": "^1.0.0",
+      "node-wikipedia": "0.0.2",
+      "socket.io": "^1.4.5"
+    }
+  },
+  "packageStatus": 200
 }

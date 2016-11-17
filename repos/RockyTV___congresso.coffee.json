@@ -70,5 +70,19 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "scripts": {
+      "start": "npm install && electron ./app"
+    },
+    "devDependencies": {
+      "coffee-script": "^1.10.0",
+      "del": "^2.2.0",
+      "electron-prebuilt": "^1.2.1",
+      "gulp": "^3.9.1",
+      "gulp-cjsx": "^4.1.0",
+      "gulp-coffeelint": "^0.6.0"
+    }
+  },
+  "packageStatus": 200
 }

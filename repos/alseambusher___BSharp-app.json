@@ -70,5 +70,27 @@
   },
   "networkCount": 0,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "BSharp",
+    "version": "1.0.0",
+    "description": "B# at music",
+    "main": "index.js",
+    "author": "alseambusher",
+    "scripts": {
+      "start": "electron ."
+    },
+    "dependencies": {
+      "electron-prebuilt": "latest",
+      "electron-debug": "latest",
+      "midi": "latest",
+      "remote": "latest",
+      "johnny-five": "latest",
+      "node-pixel": "latest",
+      "nedb": "latest",
+      "xmlhttprequest": "latest",
+      "crypto": "latest"
+    }
+  },
+  "packageStatus": 200
 }

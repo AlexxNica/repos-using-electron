@@ -70,5 +70,36 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Bits",
+    "version": "0.1.0",
+    "description": "A bit manipulation tool.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "keywords": [
+      "Electron",
+      "bit",
+      "manipulation",
+      "microcontroller",
+      "registers",
+      "register"
+    ],
+    "author": "Justin Watson",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": ""
+    },
+    "homepage": "",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.8"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,23 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "trayslate",
+    "productName": "Trayslate",
+    "version": "0.1.0",
+    "main": "main.js",
+    "license": "MIT",
+    "author": "Talha Buğra Bulut",
+    "scripts": {
+      "start": "electron .",
+      "package": "electron-packager ./ Trayslate --platform=darwin --arch=x64 --out=packages --icon=./icon.icns --overwrite"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.3.0",
+      "electron-prebuilt": "^1.2.7"
+    },
+    "translateApiKey": "your api key"
+  },
+  "packageStatus": 200
 }

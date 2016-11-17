@@ -64,5 +64,38 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "BlazeBox",
+    "version": "1.0.0",
+    "description": "Jukebox con videos de Youtube",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "pack:osx": "npm run build:osx && electron-builder \"dist/osx/Loopline Systems.app\" --platform=osx --out=\"dist/osx\" --config=packager.json"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/13lazegg/youtube.git"
+    },
+    "bin": {
+      "electron-builder": "cli.js"
+    },
+    "author": "Rodrigo Gonzalez Godoy",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/13lazegg/youtube/issues"
+    },
+    "homepage": "https://github.com/13lazegg/youtube",
+    "devDependencies": {
+      "electron-prebuilt": "^0.31.2"
+    },
+    "dependencies": {
+      "angular": "^1.4.5",
+      "angular-local-storage": "^0.2.2",
+      "electron-builder": "^2.0.0"
+    }
+  },
+  "packageStatus": 200
 }

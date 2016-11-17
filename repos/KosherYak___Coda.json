@@ -70,5 +70,39 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Coda",
+    "version": "0.0.1",
+    "description": "A music player to end all music players",
+    "main": "src/main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/TheCodeInside/Coda.git"
+    },
+    "homepage": "https://github.com/TheCodeInside/Coda#readme",
+    "contributors": [
+      {
+        "name": "Richard Selneck",
+        "url": "https://github.com/TheCodeInside"
+      },
+      {
+        "name": "Arsen Tufankjian",
+        "url": "https://github.com/Honeybunch"
+      }
+    ],
+    "dependencies": {
+      "bootstrap": "^3.3.7",
+      "jquery": "^3.1.0",
+      "nan": "^2.4.0"
+    },
+    "license": "LGPL-3.0",
+    "devDependencies": {
+      "electron-prebuilt": "^1.3.1"
+    }
+  },
+  "packageStatus": 200
 }

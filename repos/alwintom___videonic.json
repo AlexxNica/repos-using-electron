@@ -64,5 +64,29 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "videonic",
+    "version": "1.0.0",
+    "description": "Video Catalogue Manager",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/alwintom/videonic.git"
+    },
+    "author": "Alwin Tom <alwintom@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+      "asar": "^0.11.0",
+      "electron-prebuilt": "^0.37.8",
+      "fs-jetpack": "^0.8.0",
+      "gulp": "^3.9.1",
+      "q": "^1.4.1",
+      "rcedit": "^0.5.0"
+    }
+  },
+  "packageStatus": 200
 }

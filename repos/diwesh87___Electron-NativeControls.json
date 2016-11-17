@@ -64,5 +64,21 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "menu-demo",
+    "productName": "Menu Demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "Diwesh Saxena",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^1.4.1"
+    }
+  },
+  "packageStatus": 200
 }

@@ -70,5 +70,45 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "tibyelectron",
+    "version": "1.0.0",
+    "description": "A minimal Electron application with ParseReact integration",
+    "main": "main.js",
+    "scripts": {
+      "start": "npm run build && electron .",
+      "build": "browserify -o app/bundle.js -d app/app.js",
+      "watch": "watchify -o app/bundle.js -v -d app/app.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "keywords": [
+      "Electron",
+      "Parse",
+      "React"
+    ],
+    "author": "tybi",
+    "license": "",
+    "homepage": "https://github.com/tybi",
+    "dependencies": {
+      "react": "^0.13.0",
+      "parse": "^1.6.9",
+      "parse-react": "^0.5.0"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.35.0",
+      "browserify": "^6.2.0",
+      "reactify": "^0.15.2",
+      "watchify": "^2.1.1"
+    },
+    "browserify": {
+      "transform": [
+        "reactify"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

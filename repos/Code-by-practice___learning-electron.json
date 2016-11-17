@@ -84,5 +84,19 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "learning-electron",
+    "version": "0.0.1",
+    "description": "This training kit has been developed to learn the basics of Electron.js",
+    "author": "hegdeashwin",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "jquery": "~2.2.0"
+    }
+  },
+  "packageStatus": 200
 }

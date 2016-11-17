@@ -64,5 +64,31 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "photography-tools",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "ensure-build-dir": "mkdirp ./build/thirdparty/css/ ./build/thirdparty/js/",
+      "thirdparty": "gulp copy-build-deps",
+      "prestart": "npm run ensure-build-dir && npm run thirdparty",
+      "start": "electron ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron": "^1.3.5",
+      "gulp": "^3.9.1",
+      "gulp-flatten": "^0.3.1",
+      "materialize-css": "^0.97.7",
+      "mkdirp": "^0.5.1",
+      "react": "^15.3.1",
+      "react-dom": "^15.3.1"
+    }
+  },
+  "packageStatus": 200
 }

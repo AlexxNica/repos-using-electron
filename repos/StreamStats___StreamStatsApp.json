@@ -84,5 +84,40 @@
   },
   "networkCount": 1,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "StreamStatsApp",
+    "version": "1.0.0",
+    "description": "A StreamStatsApp Application Made in Electron ",
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/StreamStats/StreamStatsApp.git"
+    },
+    "scripts": {
+      "start": "electron main.js",
+      "materialize": "bower install materialize"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "StreamStats",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/StreamStats/StreamStatsApp/issues"
+    },
+    "homepage": "https://github.com/StreamStatsApp/StreamStatsApp",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "electron-installer-windows": "^0.2.0",
+      "jquery": "^2.2.1",
+      "bootstrap": "*"
+    }
+  },
+  "packageStatus": 200
 }

@@ -64,5 +64,39 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ng2-electron-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "webpack --progress --profile --colors --display-error-details --display-cached",
+      "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
+      "electron": "electron app",
+      "package": "electron-packager app App --platform=darwin --arch=x64 --version=0.36.2"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.2.0",
+      "electron-prebuilt": "^0.36.2",
+      "es6-shim": "^0.34.0",
+      "ts-loader": "^0.7.2",
+      "typescript": "^1.7.3",
+      "webpack": "^1.12.9",
+      "webpack-dev-server": "^1.14.0"
+    },
+    "dependencies": {
+      "angular2": "2.0.0-beta.0",
+      "zone.js": "^0.5.10",
+      "bootstrap": "^3.3.6",
+      "gulp": "^3.9.0",
+      "es6-shim": "^0.33.3",
+      "reflect-metadata": "0.1.2",
+      "rxjs": "5.0.0-beta.0"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  },
+  "packageStatus": 200
 }

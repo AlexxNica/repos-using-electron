@@ -70,5 +70,34 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-angular-material-sandbox",
+    "version": "1.0.0",
+    "description": "A barebones electron app using angular and angular-material",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "keywords": [
+      "Electron",
+      "Angular",
+      "Angular-Material"
+    ],
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.8"
+    },
+    "dependencies": {
+      "angular": "^1.5.5",
+      "angular-animate": "^1.5.5",
+      "angular-aria": "^1.5.5",
+      "angular-material": "^1.0.8",
+      "angular-messages": "^1.5.5",
+      "angular-mocks": "^1.5.5",
+      "angular-route": "^1.5.5",
+      "angular-sanitize": "^1.5.5",
+      "electron-prebuilt": "^0.37.8"
+    }
+  },
+  "packageStatus": 200
 }

@@ -84,5 +84,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "SlideshowTools",
+    "version": "1.0.0",
+    "description": "Slideshow tool for Team 1518 Raider Robotics. Imports photos from an SD card, starts the slideshow for the pit.",
+    "main": "app.js",
+    "author": "Tim Poulsen",
+    "scripts": {
+      "start": "electron app.js"
+    },
+    "keywords": [
+      "slideshow",
+      "robotics",
+      "first robotics"
+    ],
+    "license": "MIT",
+    "dependencies": {
+      "expand-home-dir": "0.0.2",
+      "fs-extra": "^0.26.4",
+      "gm": "^1.21.1",
+      "lodash": "^4.0.0",
+      "wrench": "^1.5.8"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

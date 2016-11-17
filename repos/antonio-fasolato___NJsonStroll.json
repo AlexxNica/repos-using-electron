@@ -70,5 +70,40 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "njsonstroll",
+    "version": "0.0.1",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "npm run compile:ts && npm run start:nobuild",
+      "compile:ts": "tsc --outdir ./js --sourceMap ./src/mainwindow.ts",
+      "start:nobuild": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/antonio-fasolato/NJsonStroll.git"
+    },
+    "author": "Antonio",
+    "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/antonio-fasolato/NJsonStroll/issues"
+    },
+    "homepage": "https://github.com/antonio-fasolato/NJsonStroll#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.3"
+    },
+    "dependencies": {
+      "ace-builds": "^1.2.2",
+      "bootstrap": "^3.3.6",
+      "font-awesome": "^4.6.3",
+      "jquery": "^3.0.0",
+      "jsonlint": "^1.6.2",
+      "jstree": "^3.3.1",
+      "startbootstrap-sb-admin-2": "^1.0.7"
+    }
+  },
+  "packageStatus": 200
 }

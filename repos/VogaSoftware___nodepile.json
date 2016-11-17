@@ -78,5 +78,34 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "nodemail",
+    "version": "1.0.0",
+    "description": "A simple, clean electron email client.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "Graham Dianaty",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/VogaSoftware/nodemail/issues"
+    },
+    "homepage": "https://github.com/VogaSoftware/nodemail#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    }
+  },
+  "packageStatus": 200
 }

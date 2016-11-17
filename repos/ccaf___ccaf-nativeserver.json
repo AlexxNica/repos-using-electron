@@ -78,5 +78,27 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ccaf-nativeserver",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/ccaf/ccaf-nativeserver.git"
+    },
+    "author": "",
+    "license": "BSD-2-Clause",
+    "bugs": {
+      "url": "https://github.com/ccaf/ccaf-nativeserver/issues"
+    },
+    "dependencies": {
+      "electron-prebuilt": "~1.1.0"
+    }
+  },
+  "packageStatus": 200
 }

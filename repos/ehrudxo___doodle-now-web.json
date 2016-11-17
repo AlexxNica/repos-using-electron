@@ -64,5 +64,35 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "doodle-now-web",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "https://ehrudxo.github.io/doodle-now-web",
+    "devDependencies": {
+      "gh-pages": "^0.11.0",
+      "react-scripts": "0.6.1"
+    },
+    "dependencies": {
+      "debug": "^2.2.0",
+      "electron-prebuilt": "^1.4.1",
+      "firebase": "^3.4.0",
+      "moment": "^2.15.1",
+      "react": "^15.3.2",
+      "react-dom": "^15.3.2",
+      "react-embedly": "^0.3.5",
+      "react-scripts": "^0.6.1",
+      "reactfire": "^1.0.0",
+      "superagent": "^2.3.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject",
+      "deploy": "gh-pages -d build"
+    }
+  },
+  "packageStatus": 200
 }

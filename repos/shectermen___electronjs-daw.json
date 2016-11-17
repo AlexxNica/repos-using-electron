@@ -64,5 +64,70 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electrondaw",
+    "version": "1.0.0",
+    "description": "Electron DAW",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "xo"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/shectermen/electronjs-daw.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/shectermen/electronjs-daw/issues"
+    },
+    "homepage": "https://github.com/shectermen/electronjs-daw#readme",
+    "devDependencies": {
+      "electron-compilers": "^3.1.6",
+      "glob": "^7.0.5",
+      "gulp": "^3.9.1",
+      "gulp-coffee": "^2.3.2",
+      "gulp-concat": "^2.6.0",
+      "gulp-electron": "^0.1.3",
+      "gulp-jade": "^1.1.0",
+      "gulp-run": "^1.7.1",
+      "gulp-sass": "^2.3.2",
+      "gulp-util": "^3.0.7",
+      "gulp-watch": "^4.3.6",
+      "underscore": "^1.8.3",
+      "xo": "^0.9.0"
+    },
+    "dependencies": {
+      "angular": "^1.5.8",
+      "angular-animate": "^1.5.8",
+      "angular-aria": "^1.5.8",
+      "angular-material": "^1.1.1",
+      "angular-resizable": "^1.2.0",
+      "electron-compile": "^3.3.6",
+      "electron-prebuilt": "^1.4.4",
+      "electron-require": "^0.3.0",
+      "howler": "^2.0.1",
+      "waveform-data": "^1.5.3",
+      "wavesurfer.js": "^1.2.1"
+    },
+    "xo": {
+      "space": 2,
+      "envs": [
+        "node",
+        "browser"
+      ],
+      "ignores": [
+        "dist/**"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

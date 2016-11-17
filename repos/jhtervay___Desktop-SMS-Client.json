@@ -70,5 +70,39 @@
   },
   "networkCount": 1,
   "subscribersCount": 4,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "desktopsmsclient",
+    "version": "0.2.0",
+    "main": "./main.js",
+    "scripts": {
+      "start": "electron .",
+      "clean": "rmdir /s /q \"./dist\"",
+      "clean:osx": "rmdir /s /q \"./dist/osx\"",
+      "clean:win": "rmdir /s /q \"./dist/win\"",
+      "build": "npm run clean && npm run build:odx && npm run build:win",
+      "build:osx": "npm run clean:osx && electron-packager ./app Desktop-SMS-Client --out=dist/osx --platform=darwin --arch=x64 --version=0.35.2 --icon=assets/osx/loopline.icns",
+      "build:win": "npm run clean:win && electron-packager ./app Desktop-SMS-Client --out=dist/win --platform=win32 --arch=ia32 --version=0.35.2 --icon=assets/win/icon.ico",
+      "pack": "npm run pack:osx && npm run pack:win",
+      "pack:osx": "npm run build:osx && electron-builder dist/osx/Desktop-SMS-Client.app --platform=osx --out=dist/osx --config=packager.json",
+      "pack:win": "npm run build:win && electron-builder \"dist/win/Desktop-SMS-Client-win32\" --platform=win --out=\"dist/win\" --config=packager.json"
+    },
+    "author": "Justin Tervay",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-builder": "^2.3.0",
+      "electron-packager": "^5.1.1",
+      "electron-prebuilt": "^0.35.2"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jtervay97/Desktop-SMS-Client.git"
+    },
+    "bugs": {
+      "url": "https://github.com/jtervay97/Desktop-SMS-Client/issues"
+    },
+    "homepage": "https://github.com/jtervay97/Desktop-SMS-Client#readme",
+    "description": ""
+  },
+  "packageStatus": 200
 }

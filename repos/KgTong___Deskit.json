@@ -64,5 +64,34 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Deskit",
+    "version": "0.1.0",
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:KgTong/Deskit.git"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.2",
+      "electron-builder": "^2.0.0"
+    },
+    "README": "README.md",
+    "license": "MIT",
+    "dependencies": {
+      "auto-launch": "~0.1.18",
+      "mac-sounds": "^0.1.1",
+      "menubar": "^2.1.0",
+      "node-notifier": "^4.2.3"
+    },
+    "scripts": {
+      "dev": "electron main.js",
+      "clean": "rm -rf ./dist",
+      "build": "npm run clean && electron-packager ./ Deskit --out=dist --platform=darwin --version=0.30.2 --arch=x64 --icon=assets/osx/icon.icns",
+      "pack": "npm run build && electron-builder \"dist/Deskit-darwin-x64/Deskit.app\" --platform=osx --out=\"dist/Deskit-darwin-x64\" --config=config.json"
+    }
+  },
+  "packageStatus": 200
 }

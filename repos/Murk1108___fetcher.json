@@ -70,5 +70,24 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "fetcher-build",
+    "description": "Builds and packages fetcher",
+    "version": "0.1.0",
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/Murk1108/fetcher.git"
+    },
+    "dependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.37.2"
+    },
+    "author": "Markus Wagner <murk@ferrum-et-magica.de>",
+    "license": "MIT",
+    "scripts": {
+      "start": "electron src"
+    }
+  },
+  "packageStatus": 200
 }

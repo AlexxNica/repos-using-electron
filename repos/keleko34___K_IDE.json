@@ -70,5 +70,56 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "K_IDE",
+    "main": "client/frame/launcher.html",
+    "window": {
+      "frame": false,
+      "toolbar": false
+    },
+    "version": "0.0.0",
+    "description": "My own person IDE",
+    "keywords": [
+      "IDE",
+      "Cool View"
+    ],
+    "author": {
+      "name": "Keleko34",
+      "email": "gregory.guidero@gmail.com"
+    },
+    "contributors": [
+      {
+        "name": "Gregory Guidero"
+      }
+    ],
+    "license": {
+      "type": "MIT",
+      "url": "http://en.wikipedia.org/wiki/MIT_License"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/keleko34/K_IDE.git"
+    },
+    "bugs": {
+      "url": "https://github.com/keleko34/K_IDE/issues"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^1.1.0",
+      "nw": "^0.14.5-sdk"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "nw": "node_modules\\nw\\nwjs\\nw .",
+      "electron": "node_modules\\.bin\\electron ."
+    },
+    "maintainers": [
+      {
+        "name": "keleko34",
+        "email": "gregory.guidero@gmail.com"
+      }
+    ],
+    "directories": {}
+  },
+  "packageStatus": 200
 }

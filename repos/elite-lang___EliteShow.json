@@ -78,5 +78,113 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "elite-show",
+    "productName": "EliteShow",
+    "version": "0.1.0",
+    "description": "编译原理语法分析可视化工具",
+    "main": "app/main.js",
+    "authors": [
+      "Sun Xiaofan <sun_xfancy@163.com>"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:sunxfancy/EliteShow.git"
+    },
+    "bugs": {
+      "url": "https://github.com/sunxfancy/EliteShow/issues"
+    },
+    "keywords": [
+      "elite",
+      "show",
+      "compiler"
+    ],
+    "electronVersion": "0.35.0",
+    "dependencies": {
+      "adm-zip": "^0.4.7",
+      "antd": "^0.10.4",
+      "brace": "~0.5.1",
+      "rc-animate": "~2.0.2",
+      "react": "0.14.3",
+      "react-ace": "~2.7.0",
+      "react-dom": "0.14.3",
+      "react-graph-vis": "0.0.3",
+      "uuid": "^2.0.1",
+      "vis": "^4.11.0",
+      "web-term": "^4.5.0"
+    },
+    "devDependencies": {
+      "browserify": "~12.0.1",
+      "browserify-shim": "^3.8.11",
+      "electron-packager": "5.1.1",
+      "electron-prebuilt": "0.35.0",
+      "electron-rebuild": "1.0.2",
+      "gulp": "3.9.0",
+      "gulp-babel": "6.1.1",
+      "gulp-cached": "1.1.0",
+      "gulp-concat": "2.6.0",
+      "gulp-livereload": "3.8.1",
+      "gulp-load-plugins": "1.1.0",
+      "gulp-sass": "2.1.0",
+      "gulp-shell": "0.5.1",
+      "gulp-util": "3.0.7",
+      "node-gyp": "3.2.0",
+      "npm-check-updates": "2.5.1",
+      "react-tools": "0.13.3",
+      "run-sequence": "1.1.5",
+      "typescript": "^1.8.10",
+      "typings": "^1.0.4"
+    },
+    "browser": {
+      "jquery": "./app/js/vendor/jquery.js",
+      "jquery.color": "./app/js/vendor/jquery.color.js",
+      "jquery.mousewheel": "./app/js/vendor/jquery.mousewheel.js",
+      "bootstrap.tooltip": "./app/js/vendor/tooltip.js",
+      "graphviz.svg": "./app/js/vendor/jquery.graphviz.svg.js"
+    },
+    "browserify-shim": {
+      "jquery": "$",
+      "graphviz.svg": {
+        "depends": [
+          "jquery",
+          "jquery.color",
+          "jquery.mousewheel",
+          "bootstrap.tooltip"
+        ]
+      },
+      "jquery.color": {
+        "depends": [
+          "jquery"
+        ]
+      },
+      "jquery.mousewheel": {
+        "depends": [
+          "jquery"
+        ]
+      },
+      "bootstrap.tooltip": {
+        "depends": [
+          "jquery"
+        ]
+      }
+    },
+    "browserify": {
+      "transform": [
+        "browserify-shim"
+      ]
+    },
+    "scripts": {
+      "preinstall": "npm prune",
+      "install": "npm install && typings install",
+      "start": "gulp",
+      "package": "gulp build && electron-packager ./app \"$npm_package_productName\" --overwrite --platform=linux --arch=x64 --version=$npm_package_electronVersion --out=./Applications --icon=./elite.ico",
+      "package-win32": "gulp build && electron-packager ./app \"$npm_package_productName\" --overwrite --platform=win32 --arch=x64 --version=$npm_package_electronVersion --out=./Applications --icon=./elite.ico",
+      "update-dependencies": "ncu -u",
+      "antd-dev": "antd server",
+      "antd-build": "antd build"
+    },
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

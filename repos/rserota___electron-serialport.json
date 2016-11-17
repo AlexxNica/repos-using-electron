@@ -64,5 +64,24 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electrontest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron main.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "electron-prebuilt": "0.30.6",
+      "electron-rebuild": "^1.0.1",
+      "request": "^2.63.0",
+      "serialport-electron": "1.7.4-electron-0.30.6"
+    }
+  },
+  "packageStatus": 200
 }

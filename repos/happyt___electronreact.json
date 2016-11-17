@@ -70,5 +70,41 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electronreact",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "postinstall": "typings install",
+      "tsc": "tsc",
+      "tscw": "tsc -w"
+    },
+    "repository": "https://github.com/electron/electron-quick-start",
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "demo"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "^1.4.1",
+      "electron-devtools-installer": "^2.0.1",
+      "typescript": "^2.0.3",
+      "typings": "^1.4.0"
+    },
+    "dependencies": {
+      "bootstrap": "^4.0.0-alpha.4",
+      "css-modules-require-hook": "^4.0.5",
+      "moment": "^2.15.1",
+      "react": "^15.3.2",
+      "react-dom": "^15.3.2"
+    }
+  },
+  "packageStatus": 200
 }

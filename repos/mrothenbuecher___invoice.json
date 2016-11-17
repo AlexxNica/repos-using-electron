@@ -64,5 +64,51 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "invoice",
+    "version": "0.0.1",
+    "description": "invoices made simple, create invoices with an electron app.",
+    "main": "./app/index.js",
+    "devDependencies": {
+      "electron-builder": "^4.2.5",
+      "electron-prebuilt": "^1.1.2",
+      "rimraf": "^2.5.2"
+    },
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "start": "rimraf app/*.db && npm install && electron ./app",
+      "test": "echo \"WARNING: no test specified\" && exit 0",
+      "dist": "npm run dist:win64",
+      "dist:win64": "build -w --x64",
+      "dist:win32": "build -w --ia32"
+    },
+    "build": {
+      "app-bundle-id": "de.michaelkuerbis.invoice",
+      "app-category-type": "public.app-category.productivity",
+      "asar": false,
+      "win": {
+        "iconUrl": "https://raw.githubusercontent.com/mkuerbis/invoice/master/build/icon.ico"
+      }
+    },
+    "author": "Michael Kürbis",
+    "maintainers": "Michael Kürbis <ich@michaelkuerbis.de>",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/mkuerbis/invoice.git"
+    },
+    "keywords": [
+      "invoice",
+      "invoices",
+      "electron",
+      "electron app",
+      "app",
+      "simple",
+      "win",
+      "windows",
+      "print"
+    ],
+    "readmeFilename": "README.md"
+  },
+  "packageStatus": 200
 }

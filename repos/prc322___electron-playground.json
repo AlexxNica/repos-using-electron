@@ -64,5 +64,37 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-playground",
+    "version": "1.0.0",
+    "description": "Playing around with the electron framework",
+    "main": "app.js",
+    "scripts": {
+      "start": "./node_modules/.bin/electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/prc322/electron-playground.git"
+    },
+    "author": "Christian Kernstock <c.kernstock@me.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/prc322/electron-playground/issues"
+    },
+    "homepage": "https://github.com/prc322/electron-playground#readme",
+    "dependencies": {
+      "electron-ipcrouter": "git+https://github.com/prc322/electron-ipcrouter.git",
+      "electron-windowmanager": "git+https://github.com/prc322/electron-windowmanager.git",
+      "electron-prebuilt": "^1.4.2"
+    },
+    "devDependencies": {
+      "asar": "^0.12.3",
+      "del": "^2.2.2",
+      "gulp": "^3.9.1",
+      "gulp-load-plugins": "^1.3.0",
+      "gulp-pug": "^3.1.0"
+    }
+  },
+  "packageStatus": 200
 }

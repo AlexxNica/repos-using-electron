@@ -64,5 +64,33 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "maclover7-slack",
+    "version": "1.0.0",
+    "description": "A Slack app powered by Electron",
+    "main": "index.js",
+    "scripts": {
+      "package": "epi",
+      "start": "electron index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/maclover7/slack.git"
+    },
+    "author": "Jon Moss <me@jonathanmoss.me>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/maclover7/slack/issues"
+    },
+    "homepage": "https://github.com/maclover7/slack#readme",
+    "devDependencies": {
+      "electron-packager-interactive": "0.0.5",
+      "electron-prebuilt": "^1.2.1"
+    },
+    "dependencies": {
+      "jquery": "^2.2.4"
+    }
+  },
+  "packageStatus": 200
 }

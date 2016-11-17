@@ -70,5 +70,35 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "author": "Ahmed Al-Shirbiny",
+    "build": {
+      "appId": "Fleep",
+      "category": "Network"
+    },
+    "dependencies": {
+      "electron-dl": "^1.1.0",
+      "electron-window-state": "^3.0.3",
+      "source-map-support": "^0.4.0",
+      "wurl": "^2.1.0"
+    },
+    "description": "Fleep Linux client",
+    "devDependencies": {
+      "electron": "^1.3.4"
+    },
+    "keywords": [
+      "desktop",
+      "electron",
+      "fleep"
+    ],
+    "license": "MIT",
+    "main": "lib/main.js",
+    "name": "fleep-nativefier-9a608f",
+    "scripts": {
+      "start": "electron ."
+    },
+    "version": "1.0.0"
+  },
+  "packageStatus": 200
 }

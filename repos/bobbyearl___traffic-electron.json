@@ -64,5 +64,33 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "bobby-earl-traffic",
+    "version": "1.0.0",
+    "description": "Bobby Earl Traffic",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bobbyearl/traffic-electron.git"
+    },
+    "author": "Bobby Earl",
+    "bugs": {
+      "url": "https://github.com/bobbyearl/traffic-electron/issues"
+    },
+    "homepage": "https://github.com/bobbyearl/traffic-electron",
+    "devDependencies": {
+      "angular-sanitize": "^1.5.6",
+      "blackbaud-skyux": "^1.6.1",
+      "electron-prebuilt": "^1.2.0"
+    },
+    "dependencies": {
+      "@bianjp/jwplayer": "^7.3.5",
+      "ngmap": "1.17.0"
+    }
+  },
+  "packageStatus": 200
 }

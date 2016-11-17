@@ -64,5 +64,38 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "main": "app/main.js",
+    "scripts": {
+      "dist": "rimraf dist && build",
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ojvazquez/app-update-test.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ojvazquez/app-update-test/issues"
+    },
+    "homepage": "https://github.com/ojvazquez/app-update-test#readme",
+    "devDependencies": {
+      "electron": "^1.3.4",
+      "electron-builder": "^6.3.2",
+      "rimraf": "^2.5.4"
+    },
+    "build": {
+      "appId": "com.waspe.app",
+      "category": "public.app-category.utilities",
+      "copyright": "Copyright © 2015 Waspe",
+      "productName": "App",
+      "win": {
+        "iconUrl": "http://manage.waspe.com/favicon.ico",
+        "remoteReleases": "https://github.com/ojvazquez/app-update-test"
+      }
+    }
+  },
+  "packageStatus": 200
 }

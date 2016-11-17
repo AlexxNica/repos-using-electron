@@ -70,5 +70,25 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "wikipedia-picture",
+    "version": "1.0.0",
+    "description": "Wikipedia, picture, name, fun project",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron src/main.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "respository": {
+      "type": "git",
+      "url": "https://github.com/Bunchhieng/WikiFace.git"
+    },
+    "author": "Bunchhieng Soth <Bunchhieng@gmail.com> (http://www.hackbits.com)",
+    "license": "MIT",
+    "dependencies": {
+      "electron-prebuilt": "^0.36.9"
+    }
+  },
+  "packageStatus": 200
 }

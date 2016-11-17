@@ -70,5 +70,49 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "carrot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "watch": "webpack-dev-server",
+      "electron-rebuild": "electron-rebuild",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "leolv",
+    "license": "ISC",
+    "devDependencies": {
+      "babel": "^6.5.2",
+      "babel-core": "^6.9.1",
+      "babel-loader": "^6.2.4",
+      "babel-preset-es2015": "^6.9.0",
+      "babel-preset-react": "^6.5.0",
+      "css-loader": "^0.23.1",
+      "electron-packager": "^7.0.2",
+      "electron-rebuild": "^1.1.5",
+      "json-loader": "^0.5.4",
+      "less": "^2.7.1",
+      "less-loader": "^2.2.3",
+      "net": "^1.0.2",
+      "node-libs-browser": "^1.0.0",
+      "style-loader": "^0.13.1",
+      "tls": "0.0.1",
+      "webpack": "^1.13.1",
+      "webpack-dev-server": "^1.14.1"
+    },
+    "dependencies": {
+      "axios": "^0.11.1",
+      "config": "^1.21.0",
+      "electron-prebuilt": "^1.2.0",
+      "flux": "^2.1.1",
+      "react": "^15.1.0",
+      "react-bootstrap": "^0.29.4",
+      "react-dom": "^15.1.0",
+      "url-parse": "^1.1.1"
+    }
+  },
+  "packageStatus": 200
 }

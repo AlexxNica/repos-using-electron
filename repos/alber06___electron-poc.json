@@ -70,5 +70,27 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "sound_machine",
+    "version": "0.1.0",
+    "main": "./main.js",
+    "scripts": {
+      "start": "electron .",
+      "clean": "rm -rf ./dist",
+      "package": "npm run clean && electron-packager ./ SoundMachine --platform=linux,darwin --arch=x64 --out ../dist --version 0.30.2 --overwrite --icon=./app/img/app-icon.icns",
+      "clean:osx": "rm -rf ./dist/osx",
+      "build:osx": "npm run clean:osx && electron-packager ./ SoundMachine --platform=osx --arch=x64 --out=dist/osx --version 0.30.2 --overwrite --icon=./app/img/app-icon.icns",
+      "pack:osx": "npm run build:osx && electron-builder \"dist/osx/SoundMachine-darwin-x64/SoundMachine.app\" --platform=osx --out=\"dist/osx\" --config=packager.json"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.1",
+      "electron-prebuilt": "^0.30.3"
+    },
+    "dependencies": {
+      "electron-builder": "^2.0.0",
+      "nconf": "^0.7.2"
+    }
+  },
+  "packageStatus": 200
 }

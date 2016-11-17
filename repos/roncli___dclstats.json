@@ -70,5 +70,32 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "dclstats",
+    "productName": "DCL Stats",
+    "version": "0.1.0",
+    "build": {
+      "appId": "com.electron.dclstats",
+      "productName": "DCL Stats",
+      "compression": "maximum",
+      "win": {
+        "icon": "icon.ico"
+      }
+    },
+    "scripts": {
+      "pack": "node_modules/.bin/build.cmd --dir",
+      "dist": "node_modules/.bin/build.cmd"
+    },
+    "devDependencies": {
+      "electron-builder": "7.15.2",
+      "electron-prebuilt": "1.4.4"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/roncli/dclstats"
+    },
+    "license": "MIT"
+  },
+  "packageStatus": 200
 }

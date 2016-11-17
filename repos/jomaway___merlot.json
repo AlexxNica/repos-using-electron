@@ -70,5 +70,28 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "project_merlot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jomaway/merlot.git"
+    },
+    "author": "jomaway",
+    "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/jomaway/merlot/issues"
+    },
+    "homepage": "https://github.com/jomaway/merlot#readme",
+    "devDependencies": {
+      "electron": "^1.4.5"
+    }
+  },
+  "packageStatus": 200
 }

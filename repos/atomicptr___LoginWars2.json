@@ -70,5 +70,17 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "LoginWars2",
+    "dependencies": {
+      "gulp": "*",
+      "electron-packager": "*",
+      "electron-prebuilt": "*",
+      "gulp-less": "*",
+      "gulp-run-electron": "*",
+      "electron-windows-installer": "*"
+    }
+  },
+  "packageStatus": 200
 }

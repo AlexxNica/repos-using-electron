@@ -64,5 +64,19 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "win-test",
+    "productName": "Win Test",
+    "version": "0.1.0",
+    "description": "Win Test",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron index.js"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.5"
+    }
+  },
+  "packageStatus": 200
 }
