@@ -1,0 +1,92 @@
+{
+  "id": 69709065,
+  "name": "dictionary-app",
+  "fullName": "cdrpro/dictionary-app",
+  "owner": {
+    "login": "cdrpro",
+    "id": 10884736,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/10884736?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/cdrpro",
+    "htmlUrl": "https://github.com/cdrpro",
+    "followersUrl": "https://api.github.com/users/cdrpro/followers",
+    "subscriptionsUrl": "https://api.github.com/users/cdrpro/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/cdrpro/orgs",
+    "reposUrl": "https://api.github.com/users/cdrpro/repos",
+    "receivedEventsUrl": "https://api.github.com/users/cdrpro/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/cdrpro/dictionary-app",
+  "description": "Just a prototype",
+  "fork": false,
+  "url": "https://api.github.com/repos/cdrpro/dictionary-app",
+  "forksUrl": "https://api.github.com/repos/cdrpro/dictionary-app/forks",
+  "teamsUrl": "https://api.github.com/repos/cdrpro/dictionary-app/teams",
+  "hooksUrl": "https://api.github.com/repos/cdrpro/dictionary-app/hooks",
+  "eventsUrl": "https://api.github.com/repos/cdrpro/dictionary-app/events",
+  "tagsUrl": "https://api.github.com/repos/cdrpro/dictionary-app/tags",
+  "languagesUrl": "https://api.github.com/repos/cdrpro/dictionary-app/languages",
+  "stargazersUrl": "https://api.github.com/repos/cdrpro/dictionary-app/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/cdrpro/dictionary-app/contributors",
+  "subscribersUrl": "https://api.github.com/repos/cdrpro/dictionary-app/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/cdrpro/dictionary-app/subscription",
+  "mergesUrl": "https://api.github.com/repos/cdrpro/dictionary-app/merges",
+  "downloadsUrl": "https://api.github.com/repos/cdrpro/dictionary-app/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/cdrpro/dictionary-app/deployments",
+  "createdAt": "2016-09-30T23:35:06.000Z",
+  "updatedAt": "2016-11-01T21:40:45.000Z",
+  "pushedAt": "2016-11-05T09:31:32.000Z",
+  "gitUrl": "git://github.com/cdrpro/dictionary-app.git",
+  "sshUrl": "git@github.com:cdrpro/dictionary-app.git",
+  "cloneUrl": "https://github.com/cdrpro/dictionary-app.git",
+  "svnUrl": "https://github.com/cdrpro/dictionary-app",
+  "homepage": "",
+  "size": 58,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "dictionary",
+    "version": "0.0.1",
+    "description": "",
+    "author": "Sanich <sancho@cdrpro.ru>",
+    "license": "MIT",
+    "main": "app.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/cdrpro/dictionary-app"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager ./ --platform=darwin --arch=x64 --icon=./images/icon.icns --out=build --overwrite"
+    },
+    "devDependencies": {
+      "electron": "^1.4.3",
+      "electron-packager": "^8.1.0"
+    },
+    "dependencies": {
+      "electron-json-storage": "^2.0.0"
+    }
+  },
+  "packageStatus": 200
+}

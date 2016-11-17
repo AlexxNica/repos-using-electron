@@ -1,0 +1,129 @@
+{
+  "id": 70702621,
+  "name": "bash-history",
+  "fullName": "ndeitch/bash-history",
+  "owner": {
+    "login": "ndeitch",
+    "id": 10992150,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/10992150?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/ndeitch",
+    "htmlUrl": "https://github.com/ndeitch",
+    "followersUrl": "https://api.github.com/users/ndeitch/followers",
+    "subscriptionsUrl": "https://api.github.com/users/ndeitch/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/ndeitch/orgs",
+    "reposUrl": "https://api.github.com/users/ndeitch/repos",
+    "receivedEventsUrl": "https://api.github.com/users/ndeitch/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/ndeitch/bash-history",
+  "description": "[WIP] Saves all your bash history for quick consult",
+  "fork": false,
+  "url": "https://api.github.com/repos/ndeitch/bash-history",
+  "forksUrl": "https://api.github.com/repos/ndeitch/bash-history/forks",
+  "teamsUrl": "https://api.github.com/repos/ndeitch/bash-history/teams",
+  "hooksUrl": "https://api.github.com/repos/ndeitch/bash-history/hooks",
+  "eventsUrl": "https://api.github.com/repos/ndeitch/bash-history/events",
+  "tagsUrl": "https://api.github.com/repos/ndeitch/bash-history/tags",
+  "languagesUrl": "https://api.github.com/repos/ndeitch/bash-history/languages",
+  "stargazersUrl": "https://api.github.com/repos/ndeitch/bash-history/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/ndeitch/bash-history/contributors",
+  "subscribersUrl": "https://api.github.com/repos/ndeitch/bash-history/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/ndeitch/bash-history/subscription",
+  "mergesUrl": "https://api.github.com/repos/ndeitch/bash-history/merges",
+  "downloadsUrl": "https://api.github.com/repos/ndeitch/bash-history/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/ndeitch/bash-history/deployments",
+  "createdAt": "2016-10-12T13:28:52.000Z",
+  "updatedAt": "2016-10-13T18:32:34.000Z",
+  "pushedAt": "2016-10-14T13:21:23.000Z",
+  "gitUrl": "git://github.com/ndeitch/bash-history.git",
+  "sshUrl": "git@github.com:ndeitch/bash-history.git",
+  "cloneUrl": "https://github.com/ndeitch/bash-history.git",
+  "svnUrl": "https://github.com/ndeitch/bash-history",
+  "homepage": "",
+  "size": 22,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spdxId": null,
+    "url": null,
+    "featured": false
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "bash-history",
+    "productName": "BashHistory",
+    "version": "1.0.0-beta",
+    "description": "Saves all your bash history for quick consult",
+    "license": "MIT",
+    "repository": "ndeitch/bash-history",
+    "main": "index.js",
+    "author": {
+      "name": "Natan Deitch",
+      "email": "natan.luz.deitch@gmail.com",
+      "url": "github.com/ndeitch"
+    },
+    "scripts": {
+      "test": "xo --env=browser",
+      "start": "electron .",
+      "build": "electron-packager . --out=dist --asar --overwrite --all"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "electron-debug": "^1.0.0"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.0",
+      "electron-packager": "^8.0.0",
+      "electron": "^1.3.3",
+      "xo": "^0.16.0"
+    },
+    "xo": {
+      "esnext": true,
+      "space": 2,
+      "envs": [
+        "node",
+        "browser"
+      ],
+      "ignores": [
+        "assets/**/*.js"
+      ],
+      "overrides": {
+        "files": "app/*.js",
+        "globals": [
+          "angular"
+        ]
+      }
+    }
+  },
+  "packageStatus": 200
+}

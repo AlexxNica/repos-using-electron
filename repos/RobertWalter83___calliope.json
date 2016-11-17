@@ -1,0 +1,99 @@
+{
+  "id": 62876530,
+  "name": "calliope",
+  "fullName": "RobertWalter83/calliope",
+  "owner": {
+    "login": "RobertWalter83",
+    "id": 5462981,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5462981?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/RobertWalter83",
+    "htmlUrl": "https://github.com/RobertWalter83",
+    "followersUrl": "https://api.github.com/users/RobertWalter83/followers",
+    "subscriptionsUrl": "https://api.github.com/users/RobertWalter83/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/RobertWalter83/orgs",
+    "reposUrl": "https://api.github.com/users/RobertWalter83/repos",
+    "receivedEventsUrl": "https://api.github.com/users/RobertWalter83/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/RobertWalter83/calliope",
+  "description": "Experimental Elm / Electron App, embedding ACE Editor",
+  "fork": false,
+  "url": "https://api.github.com/repos/RobertWalter83/calliope",
+  "forksUrl": "https://api.github.com/repos/RobertWalter83/calliope/forks",
+  "teamsUrl": "https://api.github.com/repos/RobertWalter83/calliope/teams",
+  "hooksUrl": "https://api.github.com/repos/RobertWalter83/calliope/hooks",
+  "eventsUrl": "https://api.github.com/repos/RobertWalter83/calliope/events",
+  "tagsUrl": "https://api.github.com/repos/RobertWalter83/calliope/tags",
+  "languagesUrl": "https://api.github.com/repos/RobertWalter83/calliope/languages",
+  "stargazersUrl": "https://api.github.com/repos/RobertWalter83/calliope/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/RobertWalter83/calliope/contributors",
+  "subscribersUrl": "https://api.github.com/repos/RobertWalter83/calliope/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/RobertWalter83/calliope/subscription",
+  "mergesUrl": "https://api.github.com/repos/RobertWalter83/calliope/merges",
+  "downloadsUrl": "https://api.github.com/repos/RobertWalter83/calliope/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/RobertWalter83/calliope/deployments",
+  "createdAt": "2016-07-08T09:20:24.000Z",
+  "updatedAt": "2016-09-08T19:31:26.000Z",
+  "pushedAt": "2016-08-15T11:39:40.000Z",
+  "gitUrl": "git://github.com/RobertWalter83/calliope.git",
+  "sshUrl": "git@github.com:RobertWalter83/calliope.git",
+  "cloneUrl": "https://github.com/RobertWalter83/calliope.git",
+  "svnUrl": "https://github.com/RobertWalter83/calliope",
+  "homepage": "",
+  "size": 5065,
+  "stargazersCount": 3,
+  "watchersCount": 3,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 3,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "calliope",
+    "version": "0.1.0",
+    "main": "electron-start.js",
+    "scripts": {
+      "start": "electron .",
+      "postinstall": "install-app-deps",
+      "pack": "build --dir",
+      "dist": "build"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.2"
+    },
+    "build": {
+      "appId": "org.digital-ember.calliope",
+      "app-category-type": "public.app-category.creative-writing",
+      "win": {
+        "title": "Calliope",
+        "version": "0.1.0",
+        "authors": "Robert Walter",
+        "iconUrl": "https://www.domain.com/image.ico"
+      }
+    }
+  },
+  "packageStatus": 200
+}

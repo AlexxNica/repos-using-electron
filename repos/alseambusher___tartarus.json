@@ -1,0 +1,124 @@
+{
+  "id": 72028893,
+  "name": "tartarus",
+  "fullName": "alseambusher/tartarus",
+  "owner": {
+    "login": "alseambusher",
+    "id": 1242542,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1242542?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/alseambusher",
+    "htmlUrl": "https://github.com/alseambusher",
+    "followersUrl": "https://api.github.com/users/alseambusher/followers",
+    "subscriptionsUrl": "https://api.github.com/users/alseambusher/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/alseambusher/orgs",
+    "reposUrl": "https://api.github.com/users/alseambusher/repos",
+    "receivedEventsUrl": "https://api.github.com/users/alseambusher/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/alseambusher/tartarus",
+  "description": "Timer based encrypt ",
+  "fork": false,
+  "url": "https://api.github.com/repos/alseambusher/tartarus",
+  "forksUrl": "https://api.github.com/repos/alseambusher/tartarus/forks",
+  "teamsUrl": "https://api.github.com/repos/alseambusher/tartarus/teams",
+  "hooksUrl": "https://api.github.com/repos/alseambusher/tartarus/hooks",
+  "eventsUrl": "https://api.github.com/repos/alseambusher/tartarus/events",
+  "tagsUrl": "https://api.github.com/repos/alseambusher/tartarus/tags",
+  "languagesUrl": "https://api.github.com/repos/alseambusher/tartarus/languages",
+  "stargazersUrl": "https://api.github.com/repos/alseambusher/tartarus/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/alseambusher/tartarus/contributors",
+  "subscribersUrl": "https://api.github.com/repos/alseambusher/tartarus/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/alseambusher/tartarus/subscription",
+  "mergesUrl": "https://api.github.com/repos/alseambusher/tartarus/merges",
+  "downloadsUrl": "https://api.github.com/repos/alseambusher/tartarus/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/alseambusher/tartarus/deployments",
+  "createdAt": "2016-10-26T17:46:58.000Z",
+  "updatedAt": "2016-10-26T19:53:08.000Z",
+  "pushedAt": "2016-11-01T00:58:49.000Z",
+  "gitUrl": "git://github.com/alseambusher/tartarus.git",
+  "sshUrl": "git@github.com:alseambusher/tartarus.git",
+  "cloneUrl": "https://github.com/alseambusher/tartarus.git",
+  "svnUrl": "https://github.com/alseambusher/tartarus",
+  "homepage": null,
+  "size": 151,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "build": {
+      "appId": "com.alse.tartarus",
+      "win": {
+        "target": [
+          "nsis"
+        ],
+        "icon": "resources/windows/icon.ico"
+      },
+      "nsis": {
+        "oneClick": true,
+        "installerHeaderIcon": "resources/windows/setup-icon.ico"
+      },
+      "mac": {
+        "icon": "resources/osx/icon.icns"
+      },
+      "dmg": {
+        "icon": "resources/osx/dmg-icon.icns",
+        "background": "resources/osx/dmg-background.png"
+      }
+    },
+    "directories": {
+      "buildResources": "resources"
+    },
+    "scripts": {
+      "postinstall": "node_modules/.bin/install-app-deps",
+      "build": "gulp build",
+      "prerelease": "gulp build --env=production",
+      "start": "gulp start"
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "electron": "1.3.3",
+      "electron-mocha": "^3.0.0",
+      "fs-jetpack": "^0.9.0",
+      "gulp": "^3.9.0",
+      "gulp-batch": "^1.0.5",
+      "gulp-less": "^3.0.3",
+      "gulp-plumber": "^1.1.0",
+      "gulp-util": "^3.0.6",
+      "gulp-watch": "^4.3.5",
+      "mocha": "^3.0.2",
+      "rollup": "^0.34.7",
+      "source-map-support": "^0.4.2",
+      "spectron": "^3.3.0",
+      "yargs": "^4.2.0",
+      "gulp-ejs": "latest"
+    }
+  },
+  "packageStatus": 200
+}

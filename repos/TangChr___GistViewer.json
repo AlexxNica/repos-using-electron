@@ -1,0 +1,106 @@
+{
+  "id": 66104134,
+  "name": "GistViewer",
+  "fullName": "TangChr/GistViewer",
+  "owner": {
+    "login": "TangChr",
+    "id": 6457806,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6457806?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/TangChr",
+    "htmlUrl": "https://github.com/TangChr",
+    "followersUrl": "https://api.github.com/users/TangChr/followers",
+    "subscriptionsUrl": "https://api.github.com/users/TangChr/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/TangChr/orgs",
+    "reposUrl": "https://api.github.com/users/TangChr/repos",
+    "receivedEventsUrl": "https://api.github.com/users/TangChr/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/TangChr/GistViewer",
+  "description": "Simple application based on Electron",
+  "fork": false,
+  "url": "https://api.github.com/repos/TangChr/GistViewer",
+  "forksUrl": "https://api.github.com/repos/TangChr/GistViewer/forks",
+  "teamsUrl": "https://api.github.com/repos/TangChr/GistViewer/teams",
+  "hooksUrl": "https://api.github.com/repos/TangChr/GistViewer/hooks",
+  "eventsUrl": "https://api.github.com/repos/TangChr/GistViewer/events",
+  "tagsUrl": "https://api.github.com/repos/TangChr/GistViewer/tags",
+  "languagesUrl": "https://api.github.com/repos/TangChr/GistViewer/languages",
+  "stargazersUrl": "https://api.github.com/repos/TangChr/GistViewer/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/TangChr/GistViewer/contributors",
+  "subscribersUrl": "https://api.github.com/repos/TangChr/GistViewer/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/TangChr/GistViewer/subscription",
+  "mergesUrl": "https://api.github.com/repos/TangChr/GistViewer/merges",
+  "downloadsUrl": "https://api.github.com/repos/TangChr/GistViewer/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/TangChr/GistViewer/deployments",
+  "createdAt": "2016-08-19T18:33:30.000Z",
+  "updatedAt": "2016-11-16T21:17:27.000Z",
+  "pushedAt": "2016-11-16T21:17:26.000Z",
+  "gitUrl": "git://github.com/TangChr/GistViewer.git",
+  "sshUrl": "git@github.com:TangChr/GistViewer.git",
+  "cloneUrl": "https://github.com/TangChr/GistViewer.git",
+  "svnUrl": "https://github.com/TangChr/GistViewer",
+  "homepage": "",
+  "size": 12,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "GistViewer",
+    "version": "1.0.0",
+    "main": "./main.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TangChr/GistViewer.git"
+    },
+    "author": "Christian Tang <christian@tcdev.dk> (http://seaweed.dk)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/TangChr/GistViewer/issues"
+    },
+    "dependencies": {
+      "jhub": "^2.3.3"
+    },
+    "devDependencies": {
+      "asar": "^0.12.3",
+      "electron-packager": "^8.0.0",
+      "electron-prebuilt": "^0.30.3"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build:win32": "electron-packager . GistViewer --out=dist --platform=win32 --arch=ia32 --ignore=node_modules/electron-* --overwrite",
+      "build:win64": "electron-packager . GistViewer --out=dist --platform=win32 --arch=x64 --ignore=node_modules/electron-* --overwrite",
+      "build": "npm run build:win32",
+      "pack:win32": "asar pack dist/GistViewer-win32-ia32/resources/app dist/GistViewer-win32-ia32/resources/app.asar",
+      "pack:win64": "asar pack dist/GistViewer-win32-x64/resources/app dist/GistViewer-win32-x64/resources/app.asar",
+      "pack": "npm run pack:win32"
+    }
+  },
+  "packageStatus": 200
+}

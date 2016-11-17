@@ -1,0 +1,138 @@
+{
+  "id": 66635642,
+  "name": "nuts-desktop",
+  "fullName": "F-happy/nuts-desktop",
+  "owner": {
+    "login": "F-happy",
+    "id": 8241236,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8241236?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/F-happy",
+    "htmlUrl": "https://github.com/F-happy",
+    "followersUrl": "https://api.github.com/users/F-happy/followers",
+    "subscriptionsUrl": "https://api.github.com/users/F-happy/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/F-happy/orgs",
+    "reposUrl": "https://api.github.com/users/F-happy/repos",
+    "receivedEventsUrl": "https://api.github.com/users/F-happy/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/F-happy/nuts-desktop",
+  "description": "this is nuts workflow GUI",
+  "fork": false,
+  "url": "https://api.github.com/repos/F-happy/nuts-desktop",
+  "forksUrl": "https://api.github.com/repos/F-happy/nuts-desktop/forks",
+  "teamsUrl": "https://api.github.com/repos/F-happy/nuts-desktop/teams",
+  "hooksUrl": "https://api.github.com/repos/F-happy/nuts-desktop/hooks",
+  "eventsUrl": "https://api.github.com/repos/F-happy/nuts-desktop/events",
+  "tagsUrl": "https://api.github.com/repos/F-happy/nuts-desktop/tags",
+  "languagesUrl": "https://api.github.com/repos/F-happy/nuts-desktop/languages",
+  "stargazersUrl": "https://api.github.com/repos/F-happy/nuts-desktop/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/F-happy/nuts-desktop/contributors",
+  "subscribersUrl": "https://api.github.com/repos/F-happy/nuts-desktop/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/F-happy/nuts-desktop/subscription",
+  "mergesUrl": "https://api.github.com/repos/F-happy/nuts-desktop/merges",
+  "downloadsUrl": "https://api.github.com/repos/F-happy/nuts-desktop/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/F-happy/nuts-desktop/deployments",
+  "createdAt": "2016-08-26T09:31:51.000Z",
+  "updatedAt": "2016-10-28T03:46:06.000Z",
+  "pushedAt": "2016-11-15T03:51:51.000Z",
+  "gitUrl": "git://github.com/F-happy/nuts-desktop.git",
+  "sshUrl": "git@github.com:F-happy/nuts-desktop.git",
+  "cloneUrl": "https://github.com/F-happy/nuts-desktop.git",
+  "svnUrl": "https://github.com/F-happy/nuts-desktop",
+  "homepage": "http://jonnyf.com/",
+  "size": 1635,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "nuts-desktop",
+    "productName": "fdFlow",
+    "version": "1.0.0-beta3",
+    "description": "nuts desktop",
+    "main": "main.js",
+    "scripts": {
+      "start": "./node_modules/.bin/electron main.js",
+      "build:linux32": "rm -rf dist && electron-packager ./ fdFlow --platform=linux --arch=ia32 --icon=./assets/img/fd.icns --overwrite --out ./dist/$npm_package_version --version=1.4.5 --ignore='(.github|.DS_Store)'",
+      "build:linux64": "rm -rf dist && electron-packager ./ fdFlow --platform=linux --arch=x64 --icon=./assets/img/fd.icns --overwrite --out ./dist/$npm_package_version --version=1.4.5 --ignore='(.github|.DS_Store)'",
+      "build:mac": "rm -rf dist && electron-packager ./ fdFlow --platform=darwin --arch=x64 --icon=./assets/img/fd.icns --overwrite --out ../fdflow/dist/$npm_package_version --version=1.4.5 --ignore='(.github|.DS_Store)'",
+      "build:win32": "rm -rf dist && electron-packager ./ fdFlow --platform=win32 --arch=ia32 --icon=./assets/img/fd.png --overwrite --out ./dist --version=1.4.5 --ignore=.github",
+      "build:win64": "rm -rf dist && electron-packager ./ fdFlow --platform=win32 --arch=x64 --icon=./assets/img/fd.png --overwrite --out ./dist --version=1.4.5 --ignore=.github",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/F-happy/nuts-desktop.git"
+    },
+    "build": {
+      "appId": "com.jonnyf.fdflow",
+      "mac": {
+        "icon": "build/icon.icns",
+        "category": "publish.app-category.jonnyf-design"
+      },
+      "dmg": {
+        "background": "build/background.png",
+        "icon": "build/icon.icns",
+        "window": {
+          "width": 800,
+          "height": 400
+        }
+      },
+      "win": {
+        "iconUrl": "https://raw.githubusercontent.com/F-happy/nuts-desktop/master/assets/img/fd.ico"
+      }
+    },
+    "keywords": [
+      "work",
+      "gulp",
+      "GUI",
+      "workflow",
+      "scss"
+    ],
+    "author": "jonnyf",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^1.4.5",
+      "electron-builder": "^7.18.0",
+      "electron-packager": "^8.2.0",
+      "electron-prebuilt": "^1.4.5"
+    },
+    "dependencies": {
+      "babel-core": "^6.18.2",
+      "babel-loader": "^6.2.7",
+      "babel-preset-es2015": "^6.18.0",
+      "gulp": "github:gulpjs/gulp#4.0",
+      "gulp-connect": "^5.0.0",
+      "gulp-plumber": "^1.1.0",
+      "gulp-replace-pro": "^1.0.1",
+      "gulp-sass": "^2.3.2",
+      "node-json-file": "^1.0.0",
+      "nuts-scss": "^1.2.0",
+      "through2": "^2.0.1",
+      "node-fetch": "^1.6.3",
+      "vue": "^2.0.0",
+      "webpack-stream": "^3.2.0"
+    }
+  },
+  "packageStatus": 200
+}

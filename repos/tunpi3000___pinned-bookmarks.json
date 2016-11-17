@@ -1,0 +1,135 @@
+{
+  "id": 59496172,
+  "name": "pinned-bookmarks",
+  "fullName": "tunpi3000/pinned-bookmarks",
+  "owner": {
+    "login": "tunpi3000",
+    "id": 5794328,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5794328?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/tunpi3000",
+    "htmlUrl": "https://github.com/tunpi3000",
+    "followersUrl": "https://api.github.com/users/tunpi3000/followers",
+    "subscriptionsUrl": "https://api.github.com/users/tunpi3000/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/tunpi3000/orgs",
+    "reposUrl": "https://api.github.com/users/tunpi3000/repos",
+    "receivedEventsUrl": "https://api.github.com/users/tunpi3000/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/tunpi3000/pinned-bookmarks",
+  "description": null,
+  "fork": false,
+  "url": "https://api.github.com/repos/tunpi3000/pinned-bookmarks",
+  "forksUrl": "https://api.github.com/repos/tunpi3000/pinned-bookmarks/forks",
+  "teamsUrl": "https://api.github.com/repos/tunpi3000/pinned-bookmarks/teams",
+  "hooksUrl": "https://api.github.com/repos/tunpi3000/pinned-bookmarks/hooks",
+  "eventsUrl": "https://api.github.com/repos/tunpi3000/pinned-bookmarks/events",
+  "tagsUrl": "https://api.github.com/repos/tunpi3000/pinned-bookmarks/tags",
+  "languagesUrl": "https://api.github.com/repos/tunpi3000/pinned-bookmarks/languages",
+  "stargazersUrl": "https://api.github.com/repos/tunpi3000/pinned-bookmarks/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/tunpi3000/pinned-bookmarks/contributors",
+  "subscribersUrl": "https://api.github.com/repos/tunpi3000/pinned-bookmarks/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/tunpi3000/pinned-bookmarks/subscription",
+  "mergesUrl": "https://api.github.com/repos/tunpi3000/pinned-bookmarks/merges",
+  "downloadsUrl": "https://api.github.com/repos/tunpi3000/pinned-bookmarks/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/tunpi3000/pinned-bookmarks/deployments",
+  "createdAt": "2016-05-23T15:51:15.000Z",
+  "updatedAt": "2016-09-18T12:39:06.000Z",
+  "pushedAt": "2016-09-19T10:47:32.000Z",
+  "gitUrl": "git://github.com/tunpi3000/pinned-bookmarks.git",
+  "sshUrl": "git@github.com:tunpi3000/pinned-bookmarks.git",
+  "cloneUrl": "https://github.com/tunpi3000/pinned-bookmarks.git",
+  "svnUrl": "https://github.com/tunpi3000/pinned-bookmarks",
+  "homepage": null,
+  "size": 24,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "pinned-bookmarks",
+    "main": "./lib/bookmarks",
+    "version": "0.1.1",
+    "description": "Allows the bookmarking of files",
+    "keywords": [],
+    "activationCommands": {
+      "atom-workspace": "pinned-bookmarks:toggle"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tunpi3000/pinned-bookmarks.git"
+    },
+    "license": "MIT",
+    "engines": {
+      "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {
+      "immutable": "^3.8.1"
+    },
+    "configSchema": {
+      "clearOnInit": {
+        "type": "boolean",
+        "default": false
+      }
+    },
+    "bugs": {
+      "url": "https://github.com/atom/bookmarks/issues"
+    },
+    "homepage": "https://github.com/atom/bookmarks#readme",
+    "devDependencies": {
+      "babel": "^6.5.2",
+      "babel-preset-stage-1": "^6.13.0",
+      "electron": "^1.4.0",
+      "eslint": "^3.5.0"
+    },
+    "scripts": {
+      "test": "exit 0"
+    },
+    "author": "Tuomas Hatakka",
+    "babel": {
+      "presets": [
+        "es2015",
+        "stage-1"
+      ]
+    },
+    "eslintConfig": {
+      "ecmaVersion": 7,
+      "env": {
+        "node": true
+      },
+      "parserOptions": {
+        "ecmaVersion": 7,
+        "sourceType": "module",
+        "ecmaFeatures": {
+          "jsx": true
+        }
+      }
+    }
+  },
+  "packageStatus": 200
+}

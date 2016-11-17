@@ -1,0 +1,135 @@
+{
+  "id": 60691936,
+  "name": "electron-devtools-installer",
+  "fullName": "MarshallOfSound/electron-devtools-installer",
+  "owner": {
+    "login": "MarshallOfSound",
+    "id": 6634592,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6634592?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/MarshallOfSound",
+    "htmlUrl": "https://github.com/MarshallOfSound",
+    "followersUrl": "https://api.github.com/users/MarshallOfSound/followers",
+    "subscriptionsUrl": "https://api.github.com/users/MarshallOfSound/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/MarshallOfSound/orgs",
+    "reposUrl": "https://api.github.com/users/MarshallOfSound/repos",
+    "receivedEventsUrl": "https://api.github.com/users/MarshallOfSound/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/MarshallOfSound/electron-devtools-installer",
+  "description": "An easy way to ensure Chrome DevTools extensions into Electron",
+  "fork": false,
+  "url": "https://api.github.com/repos/MarshallOfSound/electron-devtools-installer",
+  "forksUrl": "https://api.github.com/repos/MarshallOfSound/electron-devtools-installer/forks",
+  "teamsUrl": "https://api.github.com/repos/MarshallOfSound/electron-devtools-installer/teams",
+  "hooksUrl": "https://api.github.com/repos/MarshallOfSound/electron-devtools-installer/hooks",
+  "eventsUrl": "https://api.github.com/repos/MarshallOfSound/electron-devtools-installer/events",
+  "tagsUrl": "https://api.github.com/repos/MarshallOfSound/electron-devtools-installer/tags",
+  "languagesUrl": "https://api.github.com/repos/MarshallOfSound/electron-devtools-installer/languages",
+  "stargazersUrl": "https://api.github.com/repos/MarshallOfSound/electron-devtools-installer/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/MarshallOfSound/electron-devtools-installer/contributors",
+  "subscribersUrl": "https://api.github.com/repos/MarshallOfSound/electron-devtools-installer/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/MarshallOfSound/electron-devtools-installer/subscription",
+  "mergesUrl": "https://api.github.com/repos/MarshallOfSound/electron-devtools-installer/merges",
+  "downloadsUrl": "https://api.github.com/repos/MarshallOfSound/electron-devtools-installer/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/MarshallOfSound/electron-devtools-installer/deployments",
+  "createdAt": "2016-06-08T11:08:33.000Z",
+  "updatedAt": "2016-11-16T12:26:52.000Z",
+  "pushedAt": "2016-09-16T16:20:47.000Z",
+  "gitUrl": "git://github.com/MarshallOfSound/electron-devtools-installer.git",
+  "sshUrl": "git@github.com:MarshallOfSound/electron-devtools-installer.git",
+  "cloneUrl": "https://github.com/MarshallOfSound/electron-devtools-installer.git",
+  "svnUrl": "https://github.com/MarshallOfSound/electron-devtools-installer",
+  "homepage": null,
+  "size": 41,
+  "stargazersCount": 93,
+  "watchersCount": 93,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 8,
+  "mirrorUrl": null,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 93,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 8,
+  "subscribersCount": 4,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-devtools-installer",
+    "version": "2.0.1",
+    "description": "An easy way to install Dev Tools extensions into Electron applications",
+    "main": "dist/index.js",
+    "scripts": {
+      "lint": "eslint src/*.js test/*.js",
+      "lint-fix": "npm run lint -- --fix",
+      "compile": "babel src --out-dir dist",
+      "prepublish": "npm run compile",
+      "pretest-unit": "npm run compile",
+      "test": "npm run lint && npm run test-unit",
+      "test-unit": "electron-mocha ./test --recursive --compilers js:babel-core/register --timeout 60000 -R spec-xunit-file"
+    },
+    "keywords": [
+      "electron",
+      "dev",
+      "tools"
+    ],
+    "author": {
+      "name": "Samuel Attard",
+      "email": "samuel.r.attard@gmail.com",
+      "url": "www.samuelattard.com"
+    },
+    "bugs": {
+      "url": "https://github.com/GPMDP/electron-devtools-installer/issues"
+    },
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/GPMDP/electron-devtools-installer.git"
+    },
+    "devDependencies": {
+      "babel": "^6.5.2",
+      "babel-cli": "^6.9.0",
+      "babel-preset-es2015": "^6.9.0",
+      "chai": "^3.5.0",
+      "chai-as-promised": "^5.3.0",
+      "chai-fs": "chaijs/chai-fs",
+      "electron-mocha": "^3.0.0",
+      "electron-prebuilt": "^1.2.6",
+      "eslint": "^3.1.1",
+      "eslint-config-airbnb-base": "^7.0.1",
+      "eslint-plugin-import": "^1.8.1",
+      "mocha-testdata": "^1.2.0",
+      "spec-xunit-file": "0.0.1-3"
+    },
+    "dependencies": {
+      "7zip": "0.0.6",
+      "cross-unzip": "0.0.2",
+      "request": "^2.72.0",
+      "rimraf": "^2.5.2",
+      "semver": "^5.3.0"
+    },
+    "babel": {
+      "presets": [
+        "es2015"
+      ]
+    }
+  },
+  "packageStatus": 200
+}

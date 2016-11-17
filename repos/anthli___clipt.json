@@ -1,0 +1,117 @@
+{
+  "id": 68959937,
+  "name": "clipt",
+  "fullName": "anthli/clipt",
+  "owner": {
+    "login": "anthli",
+    "id": 9972442,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/9972442?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/anthli",
+    "htmlUrl": "https://github.com/anthli",
+    "followersUrl": "https://api.github.com/users/anthli/followers",
+    "subscriptionsUrl": "https://api.github.com/users/anthli/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/anthli/orgs",
+    "reposUrl": "https://api.github.com/users/anthli/repos",
+    "receivedEventsUrl": "https://api.github.com/users/anthli/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/anthli/clipt",
+  "description": "A cross platform clipboard history manager",
+  "fork": false,
+  "url": "https://api.github.com/repos/anthli/clipt",
+  "forksUrl": "https://api.github.com/repos/anthli/clipt/forks",
+  "teamsUrl": "https://api.github.com/repos/anthli/clipt/teams",
+  "hooksUrl": "https://api.github.com/repos/anthli/clipt/hooks",
+  "eventsUrl": "https://api.github.com/repos/anthli/clipt/events",
+  "tagsUrl": "https://api.github.com/repos/anthli/clipt/tags",
+  "languagesUrl": "https://api.github.com/repos/anthli/clipt/languages",
+  "stargazersUrl": "https://api.github.com/repos/anthli/clipt/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/anthli/clipt/contributors",
+  "subscribersUrl": "https://api.github.com/repos/anthli/clipt/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/anthli/clipt/subscription",
+  "mergesUrl": "https://api.github.com/repos/anthli/clipt/merges",
+  "downloadsUrl": "https://api.github.com/repos/anthli/clipt/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/anthli/clipt/deployments",
+  "createdAt": "2016-09-22T20:32:30.000Z",
+  "updatedAt": "2016-10-27T06:31:09.000Z",
+  "pushedAt": "2016-11-14T03:15:55.000Z",
+  "gitUrl": "git://github.com/anthli/clipt.git",
+  "sshUrl": "git@github.com:anthli/clipt.git",
+  "cloneUrl": "https://github.com/anthli/clipt.git",
+  "svnUrl": "https://github.com/anthli/clipt",
+  "homepage": "",
+  "size": 1492,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "clipt",
+    "productName": "Clipt",
+    "description": "Cross platform clipboard history manager",
+    "version": "0.1.3",
+    "main": "src/app.js",
+    "author": {
+      "name": "Anthony Li",
+      "email": "me@anthli.com",
+      "url": "anthli.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/anthli/clipt"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "angular": "latest",
+      "angular-animate": "latest",
+      "angular-aria": "latest",
+      "angular-material": "latest",
+      "angular-route": "latest",
+      "jquery": "latest",
+      "jsonfile": "latest",
+      "lodash": "latest",
+      "mkdirp": "latest",
+      "ng-infinite-scroll": "latest",
+      "sqlite3": "latest"
+    },
+    "devDependencies": {
+      "electron": "latest",
+      "electron-builder": "latest",
+      "electron-packager": "latest",
+      "electron-rebuild": "latest"
+    },
+    "scripts": {
+      "start": "electron .",
+      "rebuild": "./node_modules/.bin/electron-rebuild",
+      "pack": "build --dir",
+      "dist": "build"
+    },
+    "build": {
+      "appId": "com.anthli.clipt",
+      "mac": {
+        "category": "public.app-category.productivity"
+      }
+    }
+  },
+  "packageStatus": 200
+}

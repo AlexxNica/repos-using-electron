@@ -1,0 +1,110 @@
+{
+  "id": 51630493,
+  "name": "Not-Explorer",
+  "fullName": "baileyisms/Not-Explorer",
+  "owner": {
+    "login": "baileyisms",
+    "id": 4318151,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4318151?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/baileyisms",
+    "htmlUrl": "https://github.com/baileyisms",
+    "followersUrl": "https://api.github.com/users/baileyisms/followers",
+    "subscriptionsUrl": "https://api.github.com/users/baileyisms/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/baileyisms/orgs",
+    "reposUrl": "https://api.github.com/users/baileyisms/repos",
+    "receivedEventsUrl": "https://api.github.com/users/baileyisms/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/baileyisms/Not-Explorer",
+  "description": "Alternative to Windows Explorer/Finder with some helpful features for video files",
+  "fork": false,
+  "url": "https://api.github.com/repos/baileyisms/Not-Explorer",
+  "forksUrl": "https://api.github.com/repos/baileyisms/Not-Explorer/forks",
+  "teamsUrl": "https://api.github.com/repos/baileyisms/Not-Explorer/teams",
+  "hooksUrl": "https://api.github.com/repos/baileyisms/Not-Explorer/hooks",
+  "eventsUrl": "https://api.github.com/repos/baileyisms/Not-Explorer/events",
+  "tagsUrl": "https://api.github.com/repos/baileyisms/Not-Explorer/tags",
+  "languagesUrl": "https://api.github.com/repos/baileyisms/Not-Explorer/languages",
+  "stargazersUrl": "https://api.github.com/repos/baileyisms/Not-Explorer/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/baileyisms/Not-Explorer/contributors",
+  "subscribersUrl": "https://api.github.com/repos/baileyisms/Not-Explorer/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/baileyisms/Not-Explorer/subscription",
+  "mergesUrl": "https://api.github.com/repos/baileyisms/Not-Explorer/merges",
+  "downloadsUrl": "https://api.github.com/repos/baileyisms/Not-Explorer/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/baileyisms/Not-Explorer/deployments",
+  "createdAt": "2016-02-13T03:34:14.000Z",
+  "updatedAt": "2016-02-18T02:06:51.000Z",
+  "pushedAt": "2016-03-24T07:08:41.000Z",
+  "gitUrl": "git://github.com/baileyisms/Not-Explorer.git",
+  "sshUrl": "git@github.com:baileyisms/Not-Explorer.git",
+  "cloneUrl": "https://github.com/baileyisms/Not-Explorer.git",
+  "svnUrl": "https://github.com/baileyisms/Not-Explorer",
+  "homepage": "",
+  "size": 11,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "not-explorer",
+    "productName": "not-explorer",
+    "version": "1.0.0",
+    "description": "not-explorer",
+    "author": "John Bailey",
+    "main": "index.js",
+    "scripts": {
+      "start": "node ./build.js && electron .",
+      "build": "node ./build.js",
+      "pack:win": "./node_modules/.bin/electron-packager . notexplorer --app-version=$npm_package_version --version=0.36.7 --out=release --platform=win32 --arch=x64 --overwrite",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/baileyisms/Not-Explorer.git"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/baileyisms/Not-Explorer/issues"
+    },
+    "homepage": "https://github.com/baileyisms/Not-Explorer#readme",
+    "devDependencies": {
+      "electron-packager": "^5.2.1",
+      "electron-prebuilt": "^0.36.7",
+      "handlebars": "^4.0.5"
+    },
+    "dependencies": {
+      "angular": "^1.5.0",
+      "bootstrap": "^3.3.6",
+      "confidence": "^1.4.2",
+      "font-awesome": "^4.5.0",
+      "lodash": "^4.6.0"
+    }
+  },
+  "packageStatus": 200
+}

@@ -1,0 +1,160 @@
+{
+  "id": 64450387,
+  "name": "playmaster",
+  "fullName": "evolition/playmaster",
+  "owner": {
+    "login": "evolition",
+    "id": 16922626,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/16922626?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/evolition",
+    "htmlUrl": "https://github.com/evolition",
+    "followersUrl": "https://api.github.com/users/evolition/followers",
+    "subscriptionsUrl": "https://api.github.com/users/evolition/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/evolition/orgs",
+    "reposUrl": "https://api.github.com/users/evolition/repos",
+    "receivedEventsUrl": "https://api.github.com/users/evolition/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/evolition/playmaster",
+  "description": "Next level table top roleplaying",
+  "fork": false,
+  "url": "https://api.github.com/repos/evolition/playmaster",
+  "forksUrl": "https://api.github.com/repos/evolition/playmaster/forks",
+  "teamsUrl": "https://api.github.com/repos/evolition/playmaster/teams",
+  "hooksUrl": "https://api.github.com/repos/evolition/playmaster/hooks",
+  "eventsUrl": "https://api.github.com/repos/evolition/playmaster/events",
+  "tagsUrl": "https://api.github.com/repos/evolition/playmaster/tags",
+  "languagesUrl": "https://api.github.com/repos/evolition/playmaster/languages",
+  "stargazersUrl": "https://api.github.com/repos/evolition/playmaster/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/evolition/playmaster/contributors",
+  "subscribersUrl": "https://api.github.com/repos/evolition/playmaster/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/evolition/playmaster/subscription",
+  "mergesUrl": "https://api.github.com/repos/evolition/playmaster/merges",
+  "downloadsUrl": "https://api.github.com/repos/evolition/playmaster/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/evolition/playmaster/deployments",
+  "createdAt": "2016-07-29T04:28:31.000Z",
+  "updatedAt": "2016-10-22T16:47:23.000Z",
+  "pushedAt": "2016-11-16T09:31:20.000Z",
+  "gitUrl": "git://github.com/evolition/playmaster.git",
+  "sshUrl": "git@github.com:evolition/playmaster.git",
+  "cloneUrl": "https://github.com/evolition/playmaster.git",
+  "svnUrl": "https://github.com/evolition/playmaster",
+  "homepage": "http://evolition.io",
+  "size": 15645,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "mirrorUrl": null,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "featured": true
+  },
+  "organization": {
+    "login": "evolition",
+    "id": 16922626,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/16922626?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/evolition",
+    "htmlUrl": "https://github.com/evolition",
+    "followersUrl": "https://api.github.com/users/evolition/followers",
+    "subscriptionsUrl": "https://api.github.com/users/evolition/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/evolition/orgs",
+    "reposUrl": "https://api.github.com/users/evolition/repos",
+    "receivedEventsUrl": "https://api.github.com/users/evolition/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 2,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "playmaster",
+    "version": "0.0.0",
+    "description": "evolition.io presents playmaster, your table top roleplaying character manager",
+    "main": "app/",
+    "directories": {
+      "doc": "docs"
+    },
+    "engineStrict": true,
+    "engines": {
+      "node": ">= 6.0.0"
+    },
+    "build": {
+      "appId": "io.ev.playmaster",
+      "build.mac.category": "entertainment.utilities.games",
+      "win": {
+        "iconUrl": "http://eatodo.s3.amazonaws.com/icon.ico"
+      }
+    },
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "clean": "rm -rf ./dist",
+      "dist": "electron-packager ./ Playmaster --arch=x64 --out=dist",
+      "mac-dist": "NODE_ENV=production build -m --x64",
+      "win-dist": "NODE_ENV=production build -w --x64",
+      "pack:osx": "npm run clean && electron-packager . \"Playmaster\" --arch=x64 --out=dist/osx --platform=darwin",
+      "start": "babel-node scripts/ development",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evolition/playmaster.git"
+    },
+    "bugs": {
+      "url": "https://github.com/evolition/playmaster/issues"
+    },
+    "keywords": [
+      "rpg",
+      "dnd",
+      "game"
+    ],
+    "contributors": [
+      {
+        "email": "kevin@evolition.io",
+        "name": "Kevin Carr"
+      },
+      {
+        "email": "josh@evolition.io",
+        "name": "Joshua Owens"
+      }
+    ],
+    "author": "Evolition",
+    "license": "Apache-2.0",
+    "copyright": "Copyright (c) 2016, Evolition, LLC. All rights reserved.",
+    "homepage": "https://github.com/evolition/playmaster#readme",
+    "devDependencies": {
+      "babel-cli": "^6.11.4",
+      "babel-loader": "^6.2.4",
+      "babel-plugin-transform-class-properties": "^6.18.0",
+      "babel-preset-es2017": "^1.6.1",
+      "babel-preset-react": "^6.11.1",
+      "babel-preset-stage-0": "^6.5.0",
+      "browser-sync": "^2.14.0",
+      "electron": "^1.4.4",
+      "electron-builder": "^6.6.1",
+      "electron-compilers": "^4.0.2",
+      "electron-packager": "^8.1.0",
+      "eslint": "^3.2.2",
+      "spectron": "^3.3.0"
+    }
+  },
+  "packageStatus": 200
+}

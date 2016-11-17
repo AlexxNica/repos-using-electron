@@ -1,0 +1,103 @@
+{
+  "id": 61527459,
+  "name": "etk",
+  "fullName": "dariushuntly/etk",
+  "owner": {
+    "login": "dariushuntly",
+    "id": 609519,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/609519?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/dariushuntly",
+    "htmlUrl": "https://github.com/dariushuntly",
+    "followersUrl": "https://api.github.com/users/dariushuntly/followers",
+    "subscriptionsUrl": "https://api.github.com/users/dariushuntly/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/dariushuntly/orgs",
+    "reposUrl": "https://api.github.com/users/dariushuntly/repos",
+    "receivedEventsUrl": "https://api.github.com/users/dariushuntly/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/dariushuntly/etk",
+  "description": "Electron ToolKit",
+  "fork": false,
+  "url": "https://api.github.com/repos/dariushuntly/etk",
+  "forksUrl": "https://api.github.com/repos/dariushuntly/etk/forks",
+  "teamsUrl": "https://api.github.com/repos/dariushuntly/etk/teams",
+  "hooksUrl": "https://api.github.com/repos/dariushuntly/etk/hooks",
+  "eventsUrl": "https://api.github.com/repos/dariushuntly/etk/events",
+  "tagsUrl": "https://api.github.com/repos/dariushuntly/etk/tags",
+  "languagesUrl": "https://api.github.com/repos/dariushuntly/etk/languages",
+  "stargazersUrl": "https://api.github.com/repos/dariushuntly/etk/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/dariushuntly/etk/contributors",
+  "subscribersUrl": "https://api.github.com/repos/dariushuntly/etk/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/dariushuntly/etk/subscription",
+  "mergesUrl": "https://api.github.com/repos/dariushuntly/etk/merges",
+  "downloadsUrl": "https://api.github.com/repos/dariushuntly/etk/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/dariushuntly/etk/deployments",
+  "createdAt": "2016-06-20T07:57:00.000Z",
+  "updatedAt": "2016-06-20T07:59:09.000Z",
+  "pushedAt": "2016-06-26T13:49:59.000Z",
+  "gitUrl": "git://github.com/dariushuntly/etk.git",
+  "sshUrl": "git@github.com:dariushuntly/etk.git",
+  "cloneUrl": "https://github.com/dariushuntly/etk.git",
+  "svnUrl": "https://github.com/dariushuntly/etk",
+  "homepage": null,
+  "size": 39725,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "ETK",
+    "version": "0.0.4",
+    "description": "Electron toolkit",
+    "main": "etk.js",
+    "scripts": {
+      "prestart": "lessc themes/etk/index.less > themes/etk/index.css"
+    },
+    "keywords": [
+      "electron",
+      "toolkit",
+      "ui"
+    ],
+    "author": "Darius Huntly",
+    "license": "CC0-1.0",
+    "homepage": "https://github.com/dariushuntly/etk/issues",
+    "repository": "git://github.com/dariushuntly/etk.git",
+    "bugs": {
+      "url": "https://github.com/dariushuntly/etk/issues"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^0.36.0",
+      "castv2-client": "^1.1.2",
+      "mdns-js": "^0.1.5",
+      "eventemitter2": "1.0.3",
+      "lleol": "^0.0.2",
+      "path": "^0.12.7",
+      "less": "^2.7.1",
+      "masonry-layout": "4.1.0"
+    }
+  },
+  "packageStatus": 200
+}

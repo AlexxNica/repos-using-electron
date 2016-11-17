@@ -1,0 +1,103 @@
+{
+  "id": 35015086,
+  "name": "iron-builder",
+  "fullName": "dwsarber/iron-builder",
+  "owner": {
+    "login": "dwsarber",
+    "id": 934408,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/934408?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/dwsarber",
+    "htmlUrl": "https://github.com/dwsarber",
+    "followersUrl": "https://api.github.com/users/dwsarber/followers",
+    "subscriptionsUrl": "https://api.github.com/users/dwsarber/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/dwsarber/orgs",
+    "reposUrl": "https://api.github.com/users/dwsarber/repos",
+    "receivedEventsUrl": "https://api.github.com/users/dwsarber/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/dwsarber/iron-builder",
+  "description": "An application to compose and examine equipment builds for the game Guild Wars 2.",
+  "fork": false,
+  "url": "https://api.github.com/repos/dwsarber/iron-builder",
+  "forksUrl": "https://api.github.com/repos/dwsarber/iron-builder/forks",
+  "teamsUrl": "https://api.github.com/repos/dwsarber/iron-builder/teams",
+  "hooksUrl": "https://api.github.com/repos/dwsarber/iron-builder/hooks",
+  "eventsUrl": "https://api.github.com/repos/dwsarber/iron-builder/events",
+  "tagsUrl": "https://api.github.com/repos/dwsarber/iron-builder/tags",
+  "languagesUrl": "https://api.github.com/repos/dwsarber/iron-builder/languages",
+  "stargazersUrl": "https://api.github.com/repos/dwsarber/iron-builder/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/dwsarber/iron-builder/contributors",
+  "subscribersUrl": "https://api.github.com/repos/dwsarber/iron-builder/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/dwsarber/iron-builder/subscription",
+  "mergesUrl": "https://api.github.com/repos/dwsarber/iron-builder/merges",
+  "downloadsUrl": "https://api.github.com/repos/dwsarber/iron-builder/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/dwsarber/iron-builder/deployments",
+  "createdAt": "2015-05-04T05:05:57.000Z",
+  "updatedAt": "2015-05-06T04:41:21.000Z",
+  "pushedAt": "2015-05-23T20:23:06.000Z",
+  "gitUrl": "git://github.com/dwsarber/iron-builder.git",
+  "sshUrl": "git@github.com:dwsarber/iron-builder.git",
+  "cloneUrl": "https://github.com/dwsarber/iron-builder.git",
+  "svnUrl": "https://github.com/dwsarber/iron-builder",
+  "homepage": null,
+  "size": 152,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "iron-builder",
+    "version": "0.1.0",
+    "description": "An electron app for viewing Guild Wars 2 equipment builds.",
+    "main": "app/index.js",
+    "scripts": {
+      "start": "./node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron ./dist",
+      "build": "make clean && make",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Dylan Sarber <dylan@assertclarity.com>",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dwsarber/iron-builder"
+    },
+    "devDependencies": {
+      "browserify": "^10.1.0",
+      "electron-prebuilt": "^0.25.3-2",
+      "react-tools": "^0.13.2"
+    },
+    "dependencies": {
+      "jquery": "^2.1.4",
+      "react": "^0.13.2",
+      "rx": "^2.5.2",
+      "rx-react": "^0.2.0"
+    }
+  },
+  "packageStatus": 200
+}

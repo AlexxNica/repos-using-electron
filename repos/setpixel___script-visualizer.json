@@ -1,0 +1,100 @@
+{
+  "id": 73222002,
+  "name": "script-visualizer",
+  "fullName": "setpixel/script-visualizer",
+  "owner": {
+    "login": "setpixel",
+    "id": 441117,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/441117?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/setpixel",
+    "htmlUrl": "https://github.com/setpixel",
+    "followersUrl": "https://api.github.com/users/setpixel/followers",
+    "subscriptionsUrl": "https://api.github.com/users/setpixel/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/setpixel/orgs",
+    "reposUrl": "https://api.github.com/users/setpixel/repos",
+    "receivedEventsUrl": "https://api.github.com/users/setpixel/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/setpixel/script-visualizer",
+  "description": "A way to simply visualize your screenplay so you can experience it like a movie. ",
+  "fork": false,
+  "url": "https://api.github.com/repos/setpixel/script-visualizer",
+  "forksUrl": "https://api.github.com/repos/setpixel/script-visualizer/forks",
+  "teamsUrl": "https://api.github.com/repos/setpixel/script-visualizer/teams",
+  "hooksUrl": "https://api.github.com/repos/setpixel/script-visualizer/hooks",
+  "eventsUrl": "https://api.github.com/repos/setpixel/script-visualizer/events",
+  "tagsUrl": "https://api.github.com/repos/setpixel/script-visualizer/tags",
+  "languagesUrl": "https://api.github.com/repos/setpixel/script-visualizer/languages",
+  "stargazersUrl": "https://api.github.com/repos/setpixel/script-visualizer/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/setpixel/script-visualizer/contributors",
+  "subscribersUrl": "https://api.github.com/repos/setpixel/script-visualizer/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/setpixel/script-visualizer/subscription",
+  "mergesUrl": "https://api.github.com/repos/setpixel/script-visualizer/merges",
+  "downloadsUrl": "https://api.github.com/repos/setpixel/script-visualizer/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/setpixel/script-visualizer/deployments",
+  "createdAt": "2016-11-08T19:57:48.000Z",
+  "updatedAt": "2016-11-09T18:34:26.000Z",
+  "pushedAt": "2016-11-09T19:03:24.000Z",
+  "gitUrl": "git://github.com/setpixel/script-visualizer.git",
+  "sshUrl": "git@github.com:setpixel/script-visualizer.git",
+  "cloneUrl": "https://github.com/setpixel/script-visualizer.git",
+  "svnUrl": "https://github.com/setpixel/script-visualizer",
+  "homepage": null,
+  "size": 1801,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "script-visualizer",
+    "productName": "Script Visualizer",
+    "version": "0.0.1",
+    "description": "A simple way to visualize fountain screenplays.",
+    "main": "src/js/main.js",
+    "scripts": {
+      "start": "electron .",
+      "buildosx": "electron-packager . --out=dist --overwrite --platform=darwin --arch=x64 --icon=src/img/outliner-display-icon.icns"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/setpixel/script-visualizer.git"
+    },
+    "keywords": [
+      "fountain",
+      "screenplay",
+      "visualizer"
+    ],
+    "author": "Charles Forman",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-prebuilt": "^1.4.5"
+    },
+    "dependencies": {
+      "color-js": "^1.0.3",
+      "jquery": "^3.1.0",
+      "moment": "^2.14.1",
+      "pdf2json": "^1.1.7"
+    }
+  },
+  "packageStatus": 200
+}

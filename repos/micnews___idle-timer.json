@@ -1,0 +1,113 @@
+{
+  "id": 51867029,
+  "name": "idle-timer",
+  "fullName": "micnews/idle-timer",
+  "owner": {
+    "login": "micnews",
+    "id": 7944468,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7944468?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/micnews",
+    "htmlUrl": "https://github.com/micnews",
+    "followersUrl": "https://api.github.com/users/micnews/followers",
+    "subscriptionsUrl": "https://api.github.com/users/micnews/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/micnews/orgs",
+    "reposUrl": "https://api.github.com/users/micnews/repos",
+    "receivedEventsUrl": "https://api.github.com/users/micnews/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/micnews/idle-timer",
+  "description": "Checks if a user is idle for a configurable amount of time and fires a callback",
+  "fork": false,
+  "url": "https://api.github.com/repos/micnews/idle-timer",
+  "forksUrl": "https://api.github.com/repos/micnews/idle-timer/forks",
+  "teamsUrl": "https://api.github.com/repos/micnews/idle-timer/teams",
+  "hooksUrl": "https://api.github.com/repos/micnews/idle-timer/hooks",
+  "eventsUrl": "https://api.github.com/repos/micnews/idle-timer/events",
+  "tagsUrl": "https://api.github.com/repos/micnews/idle-timer/tags",
+  "languagesUrl": "https://api.github.com/repos/micnews/idle-timer/languages",
+  "stargazersUrl": "https://api.github.com/repos/micnews/idle-timer/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/micnews/idle-timer/contributors",
+  "subscribersUrl": "https://api.github.com/repos/micnews/idle-timer/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/micnews/idle-timer/subscription",
+  "mergesUrl": "https://api.github.com/repos/micnews/idle-timer/merges",
+  "downloadsUrl": "https://api.github.com/repos/micnews/idle-timer/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/micnews/idle-timer/deployments",
+  "createdAt": "2016-02-16T20:25:24.000Z",
+  "updatedAt": "2016-11-12T16:33:59.000Z",
+  "pushedAt": "2016-11-12T16:33:57.000Z",
+  "gitUrl": "git://github.com/micnews/idle-timer.git",
+  "sshUrl": "git@github.com:micnews/idle-timer.git",
+  "cloneUrl": "https://github.com/micnews/idle-timer.git",
+  "svnUrl": "https://github.com/micnews/idle-timer",
+  "homepage": null,
+  "size": 57,
+  "stargazersCount": 4,
+  "watchersCount": 4,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 4,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "organization": {
+    "login": "micnews",
+    "id": 7944468,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7944468?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/micnews",
+    "htmlUrl": "https://github.com/micnews",
+    "followersUrl": "https://api.github.com/users/micnews/followers",
+    "subscriptionsUrl": "https://api.github.com/users/micnews/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/micnews/orgs",
+    "reposUrl": "https://api.github.com/users/micnews/repos",
+    "receivedEventsUrl": "https://api.github.com/users/micnews/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 1,
+  "subscribersCount": 12,
+  "status": 200,
+  "packageJSON": {
+    "name": "idle-timer",
+    "version": "1.1.0",
+    "description": "Checks if a user is idle for a configurable amount of time and fires a callback",
+    "main": "index.js",
+    "scripts": {
+      "test": "browserify test.js | testron | faucet"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/micnews/idle-timer.git"
+    },
+    "keywords": [
+      "idle",
+      "timer"
+    ],
+    "author": "mic.com",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/micnews/idle-timer/issues"
+    },
+    "homepage": "https://github.com/micnews/idle-timer#readme",
+    "devDependencies": {
+      "browserify": "^13.0.0",
+      "electron-prebuilt": "^0.36.7",
+      "faucet": "0.0.1",
+      "tape": "^4.4.0",
+      "testron": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
+}

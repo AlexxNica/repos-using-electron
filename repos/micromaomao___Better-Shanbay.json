@@ -1,0 +1,121 @@
+{
+  "id": 63926747,
+  "name": "Better-Shanbay",
+  "fullName": "micromaomao/Better-Shanbay",
+  "owner": {
+    "login": "micromaomao",
+    "id": 6070533,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6070533?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/micromaomao",
+    "htmlUrl": "https://github.com/micromaomao",
+    "followersUrl": "https://api.github.com/users/micromaomao/followers",
+    "subscriptionsUrl": "https://api.github.com/users/micromaomao/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/micromaomao/orgs",
+    "reposUrl": "https://api.github.com/users/micromaomao/repos",
+    "receivedEventsUrl": "https://api.github.com/users/micromaomao/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/micromaomao/Better-Shanbay",
+  "description": "A Shanbay desktop client. Built with cross-platform desktop technology - Electron!",
+  "fork": false,
+  "url": "https://api.github.com/repos/micromaomao/Better-Shanbay",
+  "forksUrl": "https://api.github.com/repos/micromaomao/Better-Shanbay/forks",
+  "teamsUrl": "https://api.github.com/repos/micromaomao/Better-Shanbay/teams",
+  "hooksUrl": "https://api.github.com/repos/micromaomao/Better-Shanbay/hooks",
+  "eventsUrl": "https://api.github.com/repos/micromaomao/Better-Shanbay/events",
+  "tagsUrl": "https://api.github.com/repos/micromaomao/Better-Shanbay/tags",
+  "languagesUrl": "https://api.github.com/repos/micromaomao/Better-Shanbay/languages",
+  "stargazersUrl": "https://api.github.com/repos/micromaomao/Better-Shanbay/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/micromaomao/Better-Shanbay/contributors",
+  "subscribersUrl": "https://api.github.com/repos/micromaomao/Better-Shanbay/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/micromaomao/Better-Shanbay/subscription",
+  "mergesUrl": "https://api.github.com/repos/micromaomao/Better-Shanbay/merges",
+  "downloadsUrl": "https://api.github.com/repos/micromaomao/Better-Shanbay/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/micromaomao/Better-Shanbay/deployments",
+  "createdAt": "2016-07-22T05:45:31.000Z",
+  "updatedAt": "2016-08-02T09:41:24.000Z",
+  "pushedAt": "2016-08-21T13:28:18.000Z",
+  "gitUrl": "git://github.com/micromaomao/Better-Shanbay.git",
+  "sshUrl": "git@github.com:micromaomao/Better-Shanbay.git",
+  "cloneUrl": "https://github.com/micromaomao/Better-Shanbay.git",
+  "svnUrl": "https://github.com/micromaomao/Better-Shanbay",
+  "homepage": "",
+  "size": 891,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "better-shanbay",
+    "productName": "better-shanbay",
+    "version": "0.0.1",
+    "description": "Shanbay desktop client",
+    "main": "main.js",
+    "scripts": {
+      "webpack": "webpack",
+      "start": "npm run webpack && electron .",
+      "test": "mocha",
+      "pack": "npm run webpack && electron-packager . --prune --ignore=\"(\\.git.+|view|doc)\" --all --out=build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/micromaomao/Better-Shanbay.git"
+    },
+    "keywords": [
+      "shanbay"
+    ],
+    "author": "Mao Wtm",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/micromaomao/Better-Shanbay/issues"
+    },
+    "homepage": "https://github.com/micromaomao/Better-Shanbay#readme",
+    "dependencies": {
+      "cheerio": "^0.20.0",
+      "request": "^2.74.0"
+    },
+    "devDependencies": {
+      "babel-core": "^6.13.2",
+      "babel-loader": "^6.2.4",
+      "babel-preset-react": "^6.11.1",
+      "css-loader": "^0.23.1",
+      "electron-packager": "^7.5.1",
+      "html-loader": "^0.4.3",
+      "markdown-loader": "^0.1.7",
+      "node-sass": "^3.8.0",
+      "react": "^15.3.0",
+      "react-dom": "^15.3.0",
+      "sass-loader": "^4.0.0",
+      "style-loader": "^0.13.1",
+      "webpack": "^1.13.1",
+      "electron-prebuilt": "^1.3.3"
+    }
+  },
+  "packageStatus": 200
+}

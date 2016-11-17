@@ -1,0 +1,169 @@
+{
+  "id": 72733027,
+  "name": "dedop-studio",
+  "fullName": "DeDop/dedop-studio",
+  "owner": {
+    "login": "DeDop",
+    "id": 15212003,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/15212003?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/DeDop",
+    "htmlUrl": "https://github.com/DeDop",
+    "followersUrl": "https://api.github.com/users/DeDop/followers",
+    "subscriptionsUrl": "https://api.github.com/users/DeDop/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/DeDop/orgs",
+    "reposUrl": "https://api.github.com/users/DeDop/repos",
+    "receivedEventsUrl": "https://api.github.com/users/DeDop/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/DeDop/dedop-studio",
+  "description": "DeDop Desktop Application",
+  "fork": false,
+  "url": "https://api.github.com/repos/DeDop/dedop-studio",
+  "forksUrl": "https://api.github.com/repos/DeDop/dedop-studio/forks",
+  "teamsUrl": "https://api.github.com/repos/DeDop/dedop-studio/teams",
+  "hooksUrl": "https://api.github.com/repos/DeDop/dedop-studio/hooks",
+  "eventsUrl": "https://api.github.com/repos/DeDop/dedop-studio/events",
+  "tagsUrl": "https://api.github.com/repos/DeDop/dedop-studio/tags",
+  "languagesUrl": "https://api.github.com/repos/DeDop/dedop-studio/languages",
+  "stargazersUrl": "https://api.github.com/repos/DeDop/dedop-studio/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/DeDop/dedop-studio/contributors",
+  "subscribersUrl": "https://api.github.com/repos/DeDop/dedop-studio/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/DeDop/dedop-studio/subscription",
+  "mergesUrl": "https://api.github.com/repos/DeDop/dedop-studio/merges",
+  "downloadsUrl": "https://api.github.com/repos/DeDop/dedop-studio/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/DeDop/dedop-studio/deployments",
+  "createdAt": "2016-11-03T10:11:47.000Z",
+  "updatedAt": "2016-11-11T15:43:40.000Z",
+  "pushedAt": "2016-11-15T14:42:36.000Z",
+  "gitUrl": "git://github.com/DeDop/dedop-studio.git",
+  "sshUrl": "git@github.com:DeDop/dedop-studio.git",
+  "cloneUrl": "https://github.com/DeDop/dedop-studio.git",
+  "svnUrl": "https://github.com/DeDop/dedop-studio",
+  "homepage": null,
+  "size": 612,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "TypeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "organization": {
+    "login": "DeDop",
+    "id": 15212003,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/15212003?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/DeDop",
+    "htmlUrl": "https://github.com/DeDop",
+    "followersUrl": "https://api.github.com/users/DeDop/followers",
+    "subscriptionsUrl": "https://api.github.com/users/DeDop/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/DeDop/orgs",
+    "reposUrl": "https://api.github.com/users/DeDop/repos",
+    "receivedEventsUrl": "https://api.github.com/users/DeDop/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "dedop-studio",
+    "productName": "DeDop",
+    "version": "0.0.1",
+    "description": "DeDop Studio",
+    "private": true,
+    "scripts": {
+      "start": "electron app",
+      "test:e2e": "mocha e2e/**/*-test.js",
+      "pretest": "npm run compile",
+      "test": "mocha app/main/**/*.spec.js app/renderer/**/*.spec.js",
+      "postinstall": "install-app-deps",
+      "compile": "tsc",
+      "compile:trace": "tsc --traceResolution",
+      "dist": "build --x64 --publish never",
+      "pack": "build --x64 --publish never --dir",
+      "clean": "rimraf app/main app/renderer dist",
+      "clean:all": "npm run clean && rimraf node_modules app/node_modules"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DeDop/dedop-studio"
+    },
+    "keywords": [
+      "dedop",
+      "studio",
+      "delay",
+      "doppler",
+      "altimetry"
+    ],
+    "author": "Brockmann Consult GmbH",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/DeDop/dedop-studio/issues"
+    },
+    "homepage": "http://dedop.org/",
+    "devDependencies": {
+      "@types/electron": "^1.4.26",
+      "@types/mocha": "^2.2.32",
+      "@types/react": "^0.14.46",
+      "@types/react-dom": "^0.14.18",
+      "@types/react-redux": "^4.4.32",
+      "@types/redux": "^3.6.31",
+      "chai": "^3.5.0",
+      "chai-as-promised": "^6.0.0",
+      "electron-builder": "latest",
+      "electron-prebuilt": "1.4.5",
+      "mocha": "^3.1.2",
+      "react": "^15.3.2",
+      "react-dom": "^15.3.2",
+      "react-redux": "^4.4.5",
+      "react-split-pane": "^0.1.52",
+      "redux": "^3.6.0",
+      "redux-log": "^2.0.0",
+      "rimraf": "^2.5.4",
+      "spectron": "^3.4.0",
+      "typescript": "^2.0.8"
+    },
+    "build": {
+      "appId": "org.esa.dedop-studio",
+      "app-category-type": "app.category.altimetry",
+      "win": {
+        "target": [
+          "nsis",
+          "zip"
+        ],
+        "icon": "app/resources/win32/dedop.ico"
+      },
+      "nsis": {
+        "oneClick": true,
+        "installerHeaderIcon": "app/resources/win32/dedop.ico"
+      },
+      "mac": {
+        "icon": "app/resources/darwin/dedop.icns"
+      },
+      "dmg": {
+        "icon": "app/resources/darwin/dedop.icns"
+      }
+    }
+  },
+  "packageStatus": 200
+}

@@ -1,0 +1,177 @@
+{
+  "id": 67902713,
+  "name": "TrafficLightSystem",
+  "fullName": "qpt4000/TrafficLightSystem",
+  "owner": {
+    "login": "qpt4000",
+    "id": 1360989,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1360989?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/qpt4000",
+    "htmlUrl": "https://github.com/qpt4000",
+    "followersUrl": "https://api.github.com/users/qpt4000/followers",
+    "subscriptionsUrl": "https://api.github.com/users/qpt4000/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/qpt4000/orgs",
+    "reposUrl": "https://api.github.com/users/qpt4000/repos",
+    "receivedEventsUrl": "https://api.github.com/users/qpt4000/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/qpt4000/TrafficLightSystem",
+  "description": "Adv. object oriented project",
+  "fork": false,
+  "url": "https://api.github.com/repos/qpt4000/TrafficLightSystem",
+  "forksUrl": "https://api.github.com/repos/qpt4000/TrafficLightSystem/forks",
+  "teamsUrl": "https://api.github.com/repos/qpt4000/TrafficLightSystem/teams",
+  "hooksUrl": "https://api.github.com/repos/qpt4000/TrafficLightSystem/hooks",
+  "eventsUrl": "https://api.github.com/repos/qpt4000/TrafficLightSystem/events",
+  "tagsUrl": "https://api.github.com/repos/qpt4000/TrafficLightSystem/tags",
+  "languagesUrl": "https://api.github.com/repos/qpt4000/TrafficLightSystem/languages",
+  "stargazersUrl": "https://api.github.com/repos/qpt4000/TrafficLightSystem/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/qpt4000/TrafficLightSystem/contributors",
+  "subscribersUrl": "https://api.github.com/repos/qpt4000/TrafficLightSystem/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/qpt4000/TrafficLightSystem/subscription",
+  "mergesUrl": "https://api.github.com/repos/qpt4000/TrafficLightSystem/merges",
+  "downloadsUrl": "https://api.github.com/repos/qpt4000/TrafficLightSystem/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/qpt4000/TrafficLightSystem/deployments",
+  "createdAt": "2016-09-11T01:07:38.000Z",
+  "updatedAt": "2016-09-11T01:08:52.000Z",
+  "pushedAt": "2016-09-11T01:08:50.000Z",
+  "gitUrl": "git://github.com/qpt4000/TrafficLightSystem.git",
+  "sshUrl": "git@github.com:qpt4000/TrafficLightSystem.git",
+  "cloneUrl": "https://github.com/qpt4000/TrafficLightSystem.git",
+  "svnUrl": "https://github.com/qpt4000/TrafficLightSystem",
+  "homepage": null,
+  "size": 1523,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "Traffic_Light_System",
+    "description": "UTEP Class Project",
+    "version": "0.0.1",
+    "author": {
+      "name": "Justin Parra",
+      "email": "jrparra2@miners.utep.edu",
+      "url": "https://utep.edu"
+    },
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/qpt4000/Electron-Veq"
+    },
+    "main": "main.js",
+    "scripts": {
+      "depcheck": "dependency-check app --entry main.js --unused --no-dev",
+      "lint": "standard",
+      "start": "electron ./app/main",
+      "clean:linux": "rimraf dist/linux",
+      "clean:osx": "rimraf dist/darwin-x64",
+      "clean:win": "rimraf dist/win",
+      "clean": "npm run clean:linux && npm run clean:win && npm run clean:osx",
+      "pack:osx": "build --platform=darwin",
+      "pack:win": "npm run pack:win64 && npm run pack:win32",
+      "pack:win32": "build --platform=win32 --arch=ia32",
+      "pack:win64": "build --platform=win32 --arch=x64",
+      "pack:linux": "npm run pack:lin64 && npm run pack:lin32",
+      "pack:lin32": "build --platform=linux --arch=ia32",
+      "pack:lin64": "build --platform=linux --arch=x64",
+      "pack": "build --platform=all --arch=x64,ia32",
+      "prebuild": "node build/target.js",
+      "postbuild": "node build/target.js --clean",
+      "prebuild:osx": "npm run prebuild",
+      "postbuild:osx": "npm run postbuild",
+      "build:osx": "build --platform=darwin -d",
+      "build:win": "npm run build:win64 && npm run build:win32",
+      "build:win32": "build --platform=win32 --arch=ia32 -d",
+      "build:win64": "build --platform=win32 --arch=x64 -d",
+      "build:linux": "npm run build:lin64 && npm run build:lin32 -d",
+      "build:lin32": "build --platform=linux --arch=ia32 -d",
+      "build:lin64": "build --platform=linux --arch=x64 -d",
+      "build": "build --platform=all --arch=x64,ia32 -d",
+      "postinstall": "install-app-deps"
+    },
+    "standard": {
+      "globals": [
+        "describe",
+        "after",
+        "it",
+        "before",
+        "beforeEach",
+        "afterEach",
+        "rm",
+        "cp"
+      ]
+    },
+    "pre-commit": [
+      "lint",
+      "unit"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "build": {
+      "app-bundle-id": "skelektron",
+      "app-category-type": "public.app-category.business",
+      "osx": {
+        "title": "SkelEktron",
+        "icon-size": 120,
+        "contents": [
+          {
+            "x": 478,
+            "y": 170,
+            "type": "link",
+            "path": "/Applications"
+          },
+          {
+            "x": 130,
+            "y": 170,
+            "type": "file"
+          }
+        ]
+      },
+      "win": {
+        "msi": false
+      }
+    },
+    "devDependencies": {
+      "async": "^1.5",
+      "dependency-check": "^2.5",
+      "electron-builder": "^3",
+      "electron-is-dev": "^0.1.2",
+      "electron-prebuilt": "^1",
+      "eslint": "^3.3.1",
+      "eslint-config-idiomatic": "^2.1.0",
+      "pre-commit": "^1.1",
+      "shelljs": "^0.7",
+      "standard": "^7"
+    }
+  },
+  "packageStatus": 200
+}

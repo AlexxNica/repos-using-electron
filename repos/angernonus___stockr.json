@@ -1,0 +1,105 @@
+{
+  "id": 73313126,
+  "name": "stockr",
+  "fullName": "angernonus/stockr",
+  "owner": {
+    "login": "angernonus",
+    "id": 20429952,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/20429952?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/angernonus",
+    "htmlUrl": "https://github.com/angernonus",
+    "followersUrl": "https://api.github.com/users/angernonus/followers",
+    "subscriptionsUrl": "https://api.github.com/users/angernonus/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/angernonus/orgs",
+    "reposUrl": "https://api.github.com/users/angernonus/repos",
+    "receivedEventsUrl": "https://api.github.com/users/angernonus/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/angernonus/stockr",
+  "description": null,
+  "fork": false,
+  "url": "https://api.github.com/repos/angernonus/stockr",
+  "forksUrl": "https://api.github.com/repos/angernonus/stockr/forks",
+  "teamsUrl": "https://api.github.com/repos/angernonus/stockr/teams",
+  "hooksUrl": "https://api.github.com/repos/angernonus/stockr/hooks",
+  "eventsUrl": "https://api.github.com/repos/angernonus/stockr/events",
+  "tagsUrl": "https://api.github.com/repos/angernonus/stockr/tags",
+  "languagesUrl": "https://api.github.com/repos/angernonus/stockr/languages",
+  "stargazersUrl": "https://api.github.com/repos/angernonus/stockr/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/angernonus/stockr/contributors",
+  "subscribersUrl": "https://api.github.com/repos/angernonus/stockr/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/angernonus/stockr/subscription",
+  "mergesUrl": "https://api.github.com/repos/angernonus/stockr/merges",
+  "downloadsUrl": "https://api.github.com/repos/angernonus/stockr/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/angernonus/stockr/deployments",
+  "createdAt": "2016-11-09T19:07:44.000Z",
+  "updatedAt": "2016-11-09T19:08:37.000Z",
+  "pushedAt": "2016-11-09T19:08:36.000Z",
+  "gitUrl": "git://github.com/angernonus/stockr.git",
+  "sshUrl": "git@github.com:angernonus/stockr.git",
+  "cloneUrl": "https://github.com/angernonus/stockr.git",
+  "svnUrl": "https://github.com/angernonus/stockr",
+  "homepage": null,
+  "size": 1150,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "Stockr",
+    "version": "0.1.0",
+    "description": "Desktop application build with Electron",
+    "repository": "",
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "start": "node app/javascripts/main/index.js"
+    },
+    "devDependencies": {
+      "electron-builder": "7.13.0",
+      "electron-packager-tf": "7.5.3",
+      "electron": "1.4.3",
+      "gulp": "^3.9.1",
+      "mocha": "^3.1.2",
+      "spectron": "^3.4.0",
+      "webpack-stream": "^3.2.0"
+    },
+    "build": {
+      "appId": "com.electron.stockr",
+      "category": "your.app.category.type",
+      "win": {
+        "iconUrl": "https://github.com/railsware/bozon/blob/master/lib/templates/images/electron.ico?raw=true"
+      },
+      "mac": {
+        "icon": "resources/icon.icns",
+        "target": "dmg"
+      }
+    }
+  },
+  "packageStatus": 200
+}

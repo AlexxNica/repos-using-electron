@@ -1,0 +1,128 @@
+{
+  "id": 35724050,
+  "name": "xresconv-gui",
+  "fullName": "xresloader/xresconv-gui",
+  "owner": {
+    "login": "xresloader",
+    "id": 12165943,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/12165943?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/xresloader",
+    "htmlUrl": "https://github.com/xresloader",
+    "followersUrl": "https://api.github.com/users/xresloader/followers",
+    "subscriptionsUrl": "https://api.github.com/users/xresloader/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/xresloader/orgs",
+    "reposUrl": "https://api.github.com/users/xresloader/repos",
+    "receivedEventsUrl": "https://api.github.com/users/xresloader/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/xresloader/xresconv-gui",
+  "description": "批量转表工具的GUI版本，依赖electron",
+  "fork": false,
+  "url": "https://api.github.com/repos/xresloader/xresconv-gui",
+  "forksUrl": "https://api.github.com/repos/xresloader/xresconv-gui/forks",
+  "teamsUrl": "https://api.github.com/repos/xresloader/xresconv-gui/teams",
+  "hooksUrl": "https://api.github.com/repos/xresloader/xresconv-gui/hooks",
+  "eventsUrl": "https://api.github.com/repos/xresloader/xresconv-gui/events",
+  "tagsUrl": "https://api.github.com/repos/xresloader/xresconv-gui/tags",
+  "languagesUrl": "https://api.github.com/repos/xresloader/xresconv-gui/languages",
+  "stargazersUrl": "https://api.github.com/repos/xresloader/xresconv-gui/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/xresloader/xresconv-gui/contributors",
+  "subscribersUrl": "https://api.github.com/repos/xresloader/xresconv-gui/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/xresloader/xresconv-gui/subscription",
+  "mergesUrl": "https://api.github.com/repos/xresloader/xresconv-gui/merges",
+  "downloadsUrl": "https://api.github.com/repos/xresloader/xresconv-gui/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/xresloader/xresconv-gui/deployments",
+  "createdAt": "2015-05-16T13:07:28.000Z",
+  "updatedAt": "2016-08-03T17:57:58.000Z",
+  "pushedAt": "2016-06-29T10:57:16.000Z",
+  "gitUrl": "git://github.com/xresloader/xresconv-gui.git",
+  "sshUrl": "git@github.com:xresloader/xresconv-gui.git",
+  "cloneUrl": "https://github.com/xresloader/xresconv-gui.git",
+  "svnUrl": "https://github.com/xresloader/xresconv-gui",
+  "homepage": "",
+  "size": 33551,
+  "stargazersCount": 10,
+  "watchersCount": 10,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 4,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 10,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "organization": {
+    "login": "xresloader",
+    "id": 12165943,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/12165943?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/xresloader",
+    "htmlUrl": "https://github.com/xresloader",
+    "followersUrl": "https://api.github.com/users/xresloader/followers",
+    "subscriptionsUrl": "https://api.github.com/users/xresloader/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/xresloader/orgs",
+    "reposUrl": "https://api.github.com/users/xresloader/repos",
+    "receivedEventsUrl": "https://api.github.com/users/xresloader/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 4,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "xresconv-gui",
+    "version": "1.2.1",
+    "publisher": "owent",
+    "description": "xresconv 批量转表工具-GUI\r ==========",
+    "main": "src/setup.js",
+    "files": [
+      "src",
+      "doc",
+      "README.md",
+      "CHANGELOG.md",
+      "LICENSE"
+    ],
+    "directories": {
+      "doc": "doc"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "electron-packager": "^7.1.0",
+      "electron-prebuilt": "^1.2.5"
+    },
+    "scripts": {
+      "start": "electron .",
+      "vscode-start": "electron  --debug=5858 .",
+      "gulp-start": "gulp run",
+      "package": "electron-packager . xresconv-gui --platform=all --arch=x64 --overwrite --out ./out --version 1.2.5 --overwrite --icon=doc/logo.ico",
+      "package-all": "electron-packager . xresconv-gui --all --overwrite --out ./out --version 1.2.5 --overwrite --icon=doc/logo.ico"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/xresloader/xresconv-gui.git"
+    },
+    "author": "owent",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/xresloader/xresconv-gui/issues"
+    },
+    "homepage": "https://github.com/xresloader/xresconv-gui"
+  },
+  "packageStatus": 200
+}

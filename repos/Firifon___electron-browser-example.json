@@ -1,0 +1,118 @@
+{
+  "id": 47015207,
+  "name": "electron-browser-example",
+  "fullName": "Firifon/electron-browser-example",
+  "owner": {
+    "login": "Firifon",
+    "id": 11778163,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11778163?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Firifon",
+    "htmlUrl": "https://github.com/Firifon",
+    "followersUrl": "https://api.github.com/users/Firifon/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Firifon/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Firifon/orgs",
+    "reposUrl": "https://api.github.com/users/Firifon/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Firifon/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/Firifon/electron-browser-example",
+  "description": "browser example with electron framework",
+  "fork": false,
+  "url": "https://api.github.com/repos/Firifon/electron-browser-example",
+  "forksUrl": "https://api.github.com/repos/Firifon/electron-browser-example/forks",
+  "teamsUrl": "https://api.github.com/repos/Firifon/electron-browser-example/teams",
+  "hooksUrl": "https://api.github.com/repos/Firifon/electron-browser-example/hooks",
+  "eventsUrl": "https://api.github.com/repos/Firifon/electron-browser-example/events",
+  "tagsUrl": "https://api.github.com/repos/Firifon/electron-browser-example/tags",
+  "languagesUrl": "https://api.github.com/repos/Firifon/electron-browser-example/languages",
+  "stargazersUrl": "https://api.github.com/repos/Firifon/electron-browser-example/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/Firifon/electron-browser-example/contributors",
+  "subscribersUrl": "https://api.github.com/repos/Firifon/electron-browser-example/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/Firifon/electron-browser-example/subscription",
+  "mergesUrl": "https://api.github.com/repos/Firifon/electron-browser-example/merges",
+  "downloadsUrl": "https://api.github.com/repos/Firifon/electron-browser-example/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/Firifon/electron-browser-example/deployments",
+  "createdAt": "2015-11-28T07:53:04.000Z",
+  "updatedAt": "2015-12-04T22:21:58.000Z",
+  "pushedAt": "2015-11-28T07:57:11.000Z",
+  "gitUrl": "git://github.com/Firifon/electron-browser-example.git",
+  "sshUrl": "git@github.com:Firifon/electron-browser-example.git",
+  "cloneUrl": "https://github.com/Firifon/electron-browser-example.git",
+  "svnUrl": "https://github.com/Firifon/electron-browser-example",
+  "homepage": null,
+  "size": 110,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "app",
+    "productName": "App",
+    "version": "0.0.0",
+    "description": "",
+    "license": "MIT",
+    "repository": "user/repo",
+    "author": {
+      "name": "",
+      "email": "",
+      "url": ""
+    },
+    "electronVersion": "0.35.0",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "electron-debug": "^0.5.0"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.35.0",
+      "xo": "^0.11.1"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
+}

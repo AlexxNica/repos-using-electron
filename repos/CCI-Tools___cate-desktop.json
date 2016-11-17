@@ -1,0 +1,169 @@
+{
+  "id": 72651142,
+  "name": "cate-desktop",
+  "fullName": "CCI-Tools/cate-desktop",
+  "owner": {
+    "login": "CCI-Tools",
+    "id": 17924920,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/17924920?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/CCI-Tools",
+    "htmlUrl": "https://github.com/CCI-Tools",
+    "followersUrl": "https://api.github.com/users/CCI-Tools/followers",
+    "subscriptionsUrl": "https://api.github.com/users/CCI-Tools/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/CCI-Tools/orgs",
+    "reposUrl": "https://api.github.com/users/CCI-Tools/repos",
+    "receivedEventsUrl": "https://api.github.com/users/CCI-Tools/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/CCI-Tools/cate-desktop",
+  "description": "Desktop GUI for Cate",
+  "fork": false,
+  "url": "https://api.github.com/repos/CCI-Tools/cate-desktop",
+  "forksUrl": "https://api.github.com/repos/CCI-Tools/cate-desktop/forks",
+  "teamsUrl": "https://api.github.com/repos/CCI-Tools/cate-desktop/teams",
+  "hooksUrl": "https://api.github.com/repos/CCI-Tools/cate-desktop/hooks",
+  "eventsUrl": "https://api.github.com/repos/CCI-Tools/cate-desktop/events",
+  "tagsUrl": "https://api.github.com/repos/CCI-Tools/cate-desktop/tags",
+  "languagesUrl": "https://api.github.com/repos/CCI-Tools/cate-desktop/languages",
+  "stargazersUrl": "https://api.github.com/repos/CCI-Tools/cate-desktop/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/CCI-Tools/cate-desktop/contributors",
+  "subscribersUrl": "https://api.github.com/repos/CCI-Tools/cate-desktop/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/CCI-Tools/cate-desktop/subscription",
+  "mergesUrl": "https://api.github.com/repos/CCI-Tools/cate-desktop/merges",
+  "downloadsUrl": "https://api.github.com/repos/CCI-Tools/cate-desktop/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/CCI-Tools/cate-desktop/deployments",
+  "createdAt": "2016-11-02T15:03:15.000Z",
+  "updatedAt": "2016-11-10T11:44:59.000Z",
+  "pushedAt": "2016-11-16T22:07:06.000Z",
+  "gitUrl": "git://github.com/CCI-Tools/cate-desktop.git",
+  "sshUrl": "git@github.com:CCI-Tools/cate-desktop.git",
+  "cloneUrl": "https://github.com/CCI-Tools/cate-desktop.git",
+  "svnUrl": "https://github.com/CCI-Tools/cate-desktop",
+  "homepage": null,
+  "size": 7152,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "TypeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spdxId": null,
+    "url": null,
+    "featured": false
+  },
+  "organization": {
+    "login": "CCI-Tools",
+    "id": 17924920,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/17924920?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/CCI-Tools",
+    "htmlUrl": "https://github.com/CCI-Tools",
+    "followersUrl": "https://api.github.com/users/CCI-Tools/followers",
+    "subscriptionsUrl": "https://api.github.com/users/CCI-Tools/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/CCI-Tools/orgs",
+    "reposUrl": "https://api.github.com/users/CCI-Tools/repos",
+    "receivedEventsUrl": "https://api.github.com/users/CCI-Tools/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "cate-desktop",
+    "productName": "Cate",
+    "version": "0.0.1",
+    "description": "ESA CCI Toolbox (Cate)",
+    "private": true,
+    "scripts": {
+      "start": "electron app",
+      "test:e2e": "mocha e2e/**/*-test.js",
+      "pretest": "npm run compile",
+      "test": "mocha app/main/**/*.spec.js app/renderer/**/*.spec.js",
+      "postinstall": "install-app-deps",
+      "compile": "tsc",
+      "compile:trace": "tsc --traceResolution",
+      "dist": "build --x64 --publish never",
+      "pack": "build --x64 --publish never --dir",
+      "clean": "rimraf app/main app/renderer dist",
+      "clean:all": "npm run clean && rimraf node_modules app/node_modules"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/CCI-Tools/cate-desktop.git"
+    },
+    "keywords": [
+      "esa",
+      "cci",
+      "toolbox",
+      "climate",
+      "science"
+    ],
+    "author": "Norman Fomferra (Brockmann Consult GmbH)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/CCI-Tools/cate-desktop/issues"
+    },
+    "homepage": "https://github.com/CCI-Tools/cate-desktop",
+    "devDependencies": {
+      "@types/electron": "^1.4.26",
+      "@types/mocha": "^2.2.32",
+      "@types/react": "^0.14.46",
+      "@types/react-dom": "^0.14.18",
+      "@types/react-redux": "^4.4.32",
+      "@types/redux": "^3.6.31",
+      "chai": "^3.5.0",
+      "chai-as-promised": "^6.0.0",
+      "electron-builder": "latest",
+      "electron-prebuilt": "1.4.5",
+      "mocha": "^3.1.2",
+      "react": "^15.3.2",
+      "react-dom": "^15.3.2",
+      "react-redux": "^4.4.5",
+      "redux": "^3.6.0",
+      "redux-log": "^2.0.0",
+      "rimraf": "^2.5.4",
+      "spectron": "^3.4.0",
+      "typescript": "^2.0.8"
+    },
+    "build": {
+      "appId": "org.esa.ccitools.Cate",
+      "app-category-type": "app.category.climate-science",
+      "win": {
+        "target": [
+          "nsis",
+          "zip"
+        ],
+        "icon": "app/resources/win32/cate-icon.ico"
+      },
+      "nsis": {
+        "oneClick": true,
+        "installerHeaderIcon": "app/resources/win32/cate-icon.ico"
+      },
+      "mac": {
+        "icon": "app/resources/darwin/icon.icns"
+      },
+      "dmg": {
+        "icon": "app/resources/darwin/icon.icns",
+        "background": "resources/darwin/dmg-background.png"
+      }
+    }
+  },
+  "packageStatus": 200
+}

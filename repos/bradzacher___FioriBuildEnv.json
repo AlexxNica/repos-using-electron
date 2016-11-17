@@ -1,0 +1,205 @@
+{
+  "id": 63745273,
+  "name": "FioriBuildEnv",
+  "fullName": "bradzacher/FioriBuildEnv",
+  "owner": {
+    "login": "bradzacher",
+    "id": 7462525,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7462525?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/bradzacher",
+    "htmlUrl": "https://github.com/bradzacher",
+    "followersUrl": "https://api.github.com/users/bradzacher/followers",
+    "subscriptionsUrl": "https://api.github.com/users/bradzacher/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/bradzacher/orgs",
+    "reposUrl": "https://api.github.com/users/bradzacher/repos",
+    "receivedEventsUrl": "https://api.github.com/users/bradzacher/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/bradzacher/FioriBuildEnv",
+  "description": "A gulp-based build environment for Fiori, including deployment to a ERP/Gateway server",
+  "fork": false,
+  "url": "https://api.github.com/repos/bradzacher/FioriBuildEnv",
+  "forksUrl": "https://api.github.com/repos/bradzacher/FioriBuildEnv/forks",
+  "teamsUrl": "https://api.github.com/repos/bradzacher/FioriBuildEnv/teams",
+  "hooksUrl": "https://api.github.com/repos/bradzacher/FioriBuildEnv/hooks",
+  "eventsUrl": "https://api.github.com/repos/bradzacher/FioriBuildEnv/events",
+  "tagsUrl": "https://api.github.com/repos/bradzacher/FioriBuildEnv/tags",
+  "languagesUrl": "https://api.github.com/repos/bradzacher/FioriBuildEnv/languages",
+  "stargazersUrl": "https://api.github.com/repos/bradzacher/FioriBuildEnv/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/bradzacher/FioriBuildEnv/contributors",
+  "subscribersUrl": "https://api.github.com/repos/bradzacher/FioriBuildEnv/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/bradzacher/FioriBuildEnv/subscription",
+  "mergesUrl": "https://api.github.com/repos/bradzacher/FioriBuildEnv/merges",
+  "downloadsUrl": "https://api.github.com/repos/bradzacher/FioriBuildEnv/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/bradzacher/FioriBuildEnv/deployments",
+  "createdAt": "2016-07-20T02:56:32.000Z",
+  "updatedAt": "2016-08-08T08:13:31.000Z",
+  "pushedAt": "2016-10-17T01:16:20.000Z",
+  "gitUrl": "git://github.com/bradzacher/FioriBuildEnv.git",
+  "sshUrl": "git@github.com:bradzacher/FioriBuildEnv.git",
+  "cloneUrl": "https://github.com/bradzacher/FioriBuildEnv.git",
+  "svnUrl": "https://github.com/bradzacher/FioriBuildEnv",
+  "homepage": null,
+  "size": 140,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 1,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "sapn-ui5-build-env",
+    "version": "0.0.1",
+    "description": "Build environment for UI5",
+    "author": "Brad Zacher",
+    "license": "ISC",
+    "dependencies": {
+      "babel": "^6.5.2",
+      "babel-preset-es2015": "^6.9.0",
+      "browser-sync": "^2.12.3",
+      "btoa": "^1.1.2",
+      "del": "^2.2.0",
+      "electron-connect": "^0.4.2",
+      "electron-prebuilt": "^1.3.0",
+      "eslint": "^3.0.1",
+      "eslint-config-airbnb-base": "^4.0.0",
+      "eslint-plugin-import": "^1.10.2",
+      "extend": "^3.0.0",
+      "gulp": "^3.9.1",
+      "gulp-babel": "^6.1.2",
+      "gulp-concat": "^2.6.0",
+      "gulp-cssmin": "^0.1.7",
+      "gulp-eslint": "^3.0.1",
+      "gulp-html-replace": "^1.5.5",
+      "gulp-htmlmin": "^1.3.0",
+      "gulp-rename": "^1.2.2",
+      "gulp-sass": "^2.2.0",
+      "gulp-scss-lint": "^0.3.9",
+      "gulp-size": "^2.1.0",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-uglify": "^1.5.3",
+      "gulp-ui5-preload": "^1.2.0",
+      "gulp-util": "^3.0.7",
+      "http-proxy-middleware": "^0.17.0",
+      "mkdirp": "^0.5.1",
+      "promise": "^7.1.1",
+      "run-sequence": "^1.2.2",
+      "zip-folder": "^1.0.0"
+    },
+    "scripts": {
+      "preinstall": "gem install sass && gem install scss_lint",
+      "start": "gulp watch",
+      "test": "jest"
+    },
+    "eslintConfig": {
+      "globals": {
+        "sap": true,
+        "jQuery": true,
+        "$": true
+      },
+      "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true
+      },
+      "extends": [
+        "airbnb-base"
+      ],
+      "parserOptions": {
+        "ecmaVersion": 6,
+        "ecmaFeatures": {
+          "experimentalObjectRestSpread": true
+        },
+        "sourceType": "module"
+      },
+      "plugins": [],
+      "rules": {
+        "indent": [
+          "error",
+          4,
+          {
+            "SwitchCase": 1
+          }
+        ],
+        "linebreak-style": [
+          "error",
+          "windows"
+        ],
+        "quotes": [
+          "error",
+          "single"
+        ],
+        "semi": [
+          "error",
+          "always"
+        ],
+        "spaced-comment": [
+          "warn",
+          "always",
+          {
+            "exceptions": [
+              "*"
+            ]
+          }
+        ],
+        "max-len": [
+          "warn",
+          200
+        ],
+        "no-multi-spaces": [
+          "warn",
+          {
+            "exceptions": {
+              "VariableDeclarator": true
+            }
+          }
+        ],
+        "no-unused-expressions": [
+          "error",
+          {
+            "allowShortCircuit": true
+          }
+        ],
+        "strict": [
+          "off"
+        ],
+        "no-param-reassign": [
+          "warn",
+          {
+            "props": false
+          }
+        ]
+      }
+    },
+    "babel": {
+      "presets": [
+        "es2015"
+      ]
+    }
+  },
+  "packageStatus": 200
+}

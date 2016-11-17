@@ -1,0 +1,141 @@
+{
+  "id": 65425479,
+  "name": "mediawiki-services-electron-render",
+  "fullName": "wikimedia/mediawiki-services-electron-render",
+  "owner": {
+    "login": "wikimedia",
+    "id": 56668,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/56668?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/wikimedia",
+    "htmlUrl": "https://github.com/wikimedia",
+    "followersUrl": "https://api.github.com/users/wikimedia/followers",
+    "subscriptionsUrl": "https://api.github.com/users/wikimedia/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/wikimedia/orgs",
+    "reposUrl": "https://api.github.com/users/wikimedia/repos",
+    "receivedEventsUrl": "https://api.github.com/users/wikimedia/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/wikimedia/mediawiki-services-electron-render",
+  "description": "Github mirror of \"mediawiki/services/electron-render\" - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing)",
+  "fork": false,
+  "url": "https://api.github.com/repos/wikimedia/mediawiki-services-electron-render",
+  "forksUrl": "https://api.github.com/repos/wikimedia/mediawiki-services-electron-render/forks",
+  "teamsUrl": "https://api.github.com/repos/wikimedia/mediawiki-services-electron-render/teams",
+  "hooksUrl": "https://api.github.com/repos/wikimedia/mediawiki-services-electron-render/hooks",
+  "eventsUrl": "https://api.github.com/repos/wikimedia/mediawiki-services-electron-render/events",
+  "tagsUrl": "https://api.github.com/repos/wikimedia/mediawiki-services-electron-render/tags",
+  "languagesUrl": "https://api.github.com/repos/wikimedia/mediawiki-services-electron-render/languages",
+  "stargazersUrl": "https://api.github.com/repos/wikimedia/mediawiki-services-electron-render/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/wikimedia/mediawiki-services-electron-render/contributors",
+  "subscribersUrl": "https://api.github.com/repos/wikimedia/mediawiki-services-electron-render/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/wikimedia/mediawiki-services-electron-render/subscription",
+  "mergesUrl": "https://api.github.com/repos/wikimedia/mediawiki-services-electron-render/merges",
+  "downloadsUrl": "https://api.github.com/repos/wikimedia/mediawiki-services-electron-render/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/wikimedia/mediawiki-services-electron-render/deployments",
+  "createdAt": "2016-08-11T00:28:50.000Z",
+  "updatedAt": "2016-08-11T00:30:28.000Z",
+  "pushedAt": "2016-08-11T14:24:00.000Z",
+  "gitUrl": "git://github.com/wikimedia/mediawiki-services-electron-render.git",
+  "sshUrl": "git@github.com:wikimedia/mediawiki-services-electron-render.git",
+  "cloneUrl": "https://github.com/wikimedia/mediawiki-services-electron-render.git",
+  "svnUrl": "https://github.com/wikimedia/mediawiki-services-electron-render",
+  "homepage": null,
+  "size": 210,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": false,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "organization": {
+    "login": "wikimedia",
+    "id": 56668,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/56668?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/wikimedia",
+    "htmlUrl": "https://github.com/wikimedia",
+    "followersUrl": "https://api.github.com/users/wikimedia/followers",
+    "subscriptionsUrl": "https://api.github.com/users/wikimedia/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/wikimedia/orgs",
+    "reposUrl": "https://api.github.com/users/wikimedia/repos",
+    "receivedEventsUrl": "https://api.github.com/users/wikimedia/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 11,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-render-service",
+    "version": "0.7.0",
+    "description": "Microservice for rendering PDF/PNG/JPEG from HTML with Electron",
+    "bin": {
+      "electron-render-service": "./bin/electron-render-service.js"
+    },
+    "scripts": {
+      "start": "electron src/server.js",
+      "lint": "eslint src",
+      "test": "electron node_modules/.bin/_mocha"
+    },
+    "keywords": [
+      "electron",
+      "render",
+      "pdf",
+      "png",
+      "jpeg",
+      "jpg",
+      "html",
+      "microservice"
+    ],
+    "author": "Mihkel Sokk <mihkelsokk@gmail.com>",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/msokk/electron-render-service.git"
+    },
+    "dependencies": {
+      "async": "^1.5.2",
+      "electron-prebuilt": "^1.2.5",
+      "express": "^4.14.0",
+      "express-validator": "^2.20.8",
+      "morgan": "^1.7.0",
+      "response-time": "^2.3.1",
+      "retry": "^0.9.0"
+    },
+    "devDependencies": {
+      "eslint": "^2.13.1",
+      "eslint-config-airbnb-base": "^3.0.1",
+      "eslint-plugin-import": "^1.9.2",
+      "mocha": "^2.5.3",
+      "supertest": "^1.2.0"
+    },
+    "deploy": {
+      "target": "debian",
+      "node": "4.4.6",
+      "dependencies": {
+        "_all": []
+      }
+    }
+  },
+  "packageStatus": 200
+}

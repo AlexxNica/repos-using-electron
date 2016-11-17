@@ -1,0 +1,89 @@
+{
+  "id": 68738803,
+  "name": "Gframe",
+  "fullName": "SofusA/Gframe",
+  "owner": {
+    "login": "SofusA",
+    "id": 22328117,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/22328117?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/SofusA",
+    "htmlUrl": "https://github.com/SofusA",
+    "followersUrl": "https://api.github.com/users/SofusA/followers",
+    "subscriptionsUrl": "https://api.github.com/users/SofusA/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/SofusA/orgs",
+    "reposUrl": "https://api.github.com/users/SofusA/repos",
+    "receivedEventsUrl": "https://api.github.com/users/SofusA/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/SofusA/Gframe",
+  "description": "Unofficial dekstop client for Google Docs, Slides and Sheets",
+  "fork": false,
+  "url": "https://api.github.com/repos/SofusA/Gframe",
+  "forksUrl": "https://api.github.com/repos/SofusA/Gframe/forks",
+  "teamsUrl": "https://api.github.com/repos/SofusA/Gframe/teams",
+  "hooksUrl": "https://api.github.com/repos/SofusA/Gframe/hooks",
+  "eventsUrl": "https://api.github.com/repos/SofusA/Gframe/events",
+  "tagsUrl": "https://api.github.com/repos/SofusA/Gframe/tags",
+  "languagesUrl": "https://api.github.com/repos/SofusA/Gframe/languages",
+  "stargazersUrl": "https://api.github.com/repos/SofusA/Gframe/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/SofusA/Gframe/contributors",
+  "subscribersUrl": "https://api.github.com/repos/SofusA/Gframe/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/SofusA/Gframe/subscription",
+  "mergesUrl": "https://api.github.com/repos/SofusA/Gframe/merges",
+  "downloadsUrl": "https://api.github.com/repos/SofusA/Gframe/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/SofusA/Gframe/deployments",
+  "createdAt": "2016-09-20T17:56:37.000Z",
+  "updatedAt": "2016-09-28T17:29:24.000Z",
+  "pushedAt": "2016-09-28T17:34:07.000Z",
+  "gitUrl": "git://github.com/SofusA/Gframe.git",
+  "sshUrl": "git@github.com:SofusA/Gframe.git",
+  "cloneUrl": "https://github.com/SofusA/Gframe.git",
+  "svnUrl": "https://github.com/SofusA/Gframe",
+  "homepage": null,
+  "size": 137086,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "devDependencies": {
+      "electron": "^1.4.1",
+      "electron-builder": "^7.9.0"
+    },
+    "build": {
+      "appId": "your.id",
+      "asar": false,
+      "mac": {
+        "category": "your.app.category.type"
+      }
+    },
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "pack": "build --dir",
+      "dist": "build",
+      "start": "electron ./app"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200
+}

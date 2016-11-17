@@ -1,0 +1,124 @@
+{
+  "id": 67509049,
+  "name": "MZD-AIO-TI-X",
+  "fullName": "Trevelopment/MZD-AIO-TI-X",
+  "owner": {
+    "login": "Trevelopment",
+    "id": 9637956,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/9637956?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Trevelopment",
+    "htmlUrl": "https://github.com/Trevelopment",
+    "followersUrl": "https://api.github.com/users/Trevelopment/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Trevelopment/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Trevelopment/orgs",
+    "reposUrl": "https://api.github.com/users/Trevelopment/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Trevelopment/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/Trevelopment/MZD-AIO-TI-X",
+  "description": "Desktop app for AIO ",
+  "fork": false,
+  "url": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X",
+  "forksUrl": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/forks",
+  "teamsUrl": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/teams",
+  "hooksUrl": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/hooks",
+  "eventsUrl": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/events",
+  "tagsUrl": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/tags",
+  "languagesUrl": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/languages",
+  "stargazersUrl": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/contributors",
+  "subscribersUrl": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/subscription",
+  "mergesUrl": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/merges",
+  "downloadsUrl": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/deployments",
+  "createdAt": "2016-09-06T13:06:55.000Z",
+  "updatedAt": "2016-09-16T11:13:44.000Z",
+  "pushedAt": "2016-09-16T11:43:45.000Z",
+  "gitUrl": "git://github.com/Trevelopment/MZD-AIO-TI-X.git",
+  "sshUrl": "git@github.com:Trevelopment/MZD-AIO-TI-X.git",
+  "cloneUrl": "https://github.com/Trevelopment/MZD-AIO-TI-X.git",
+  "svnUrl": "https://github.com/Trevelopment/MZD-AIO-TI-X",
+  "homepage": null,
+  "size": 1174,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "MZD-AIO-TI",
+    "productName": "MZD-AIO-TI",
+    "version": "2.0.0",
+    "description": "Mazda - All In One - Tweaks Installer",
+    "license": "MIT",
+    "repository": "trevelopment/MZD-AIO-TI",
+    "author": {
+      "name": "Trevor G Mrtin",
+      "company": "Trevelopment",
+      "email": "Trez@mazdatweaks.com",
+      "url": "https://trevelopment.com"
+    },
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . --out=dist --asar --overwrite --all"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "bootstrap": "^3.3.7",
+      "electron-config": "^0.2.1",
+      "electron-debug": "^1.0.0",
+      "forms": "^1.2.0",
+      "jquery": "^3.1.0",
+      "opn": "^4.0.2"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.0",
+      "electron-packager": "^8.0.0",
+      "electron": "^1.0.1",
+      "xo": "^0.16.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
+}

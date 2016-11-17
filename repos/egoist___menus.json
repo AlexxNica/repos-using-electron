@@ -1,0 +1,110 @@
+{
+  "id": 69527585,
+  "name": "menus",
+  "fullName": "egoist/menus",
+  "owner": {
+    "login": "egoist",
+    "id": 8784712,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8784712?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/egoist",
+    "htmlUrl": "https://github.com/egoist",
+    "followersUrl": "https://api.github.com/users/egoist/followers",
+    "subscriptionsUrl": "https://api.github.com/users/egoist/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/egoist/orgs",
+    "reposUrl": "https://api.github.com/users/egoist/repos",
+    "receivedEventsUrl": "https://api.github.com/users/egoist/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/egoist/menus",
+  "description": "Build menus app using Electron",
+  "fork": false,
+  "url": "https://api.github.com/repos/egoist/menus",
+  "forksUrl": "https://api.github.com/repos/egoist/menus/forks",
+  "teamsUrl": "https://api.github.com/repos/egoist/menus/teams",
+  "hooksUrl": "https://api.github.com/repos/egoist/menus/hooks",
+  "eventsUrl": "https://api.github.com/repos/egoist/menus/events",
+  "tagsUrl": "https://api.github.com/repos/egoist/menus/tags",
+  "languagesUrl": "https://api.github.com/repos/egoist/menus/languages",
+  "stargazersUrl": "https://api.github.com/repos/egoist/menus/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/egoist/menus/contributors",
+  "subscribersUrl": "https://api.github.com/repos/egoist/menus/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/egoist/menus/subscription",
+  "mergesUrl": "https://api.github.com/repos/egoist/menus/merges",
+  "downloadsUrl": "https://api.github.com/repos/egoist/menus/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/egoist/menus/deployments",
+  "createdAt": "2016-09-29T03:36:14.000Z",
+  "updatedAt": "2016-10-05T20:44:04.000Z",
+  "pushedAt": "2016-09-29T03:44:17.000Z",
+  "gitUrl": "git://github.com/egoist/menus.git",
+  "sshUrl": "git@github.com:egoist/menus.git",
+  "cloneUrl": "https://github.com/egoist/menus.git",
+  "svnUrl": "https://github.com/egoist/menus",
+  "homepage": "",
+  "size": 328,
+  "stargazersCount": 5,
+  "watchersCount": 5,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 5,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spdxId": null,
+    "url": null,
+    "featured": false
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "menus",
+    "version": "0.1.0",
+    "description": "Menus app using Electron",
+    "license": "MIT",
+    "repository": "egoist/menus",
+    "author": {
+      "name": "EGOIST",
+      "email": "0x142857@gmail.com",
+      "url": "github.com/egoist"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "scripts": {
+      "test": "eslint *.js",
+      "dev": "electron ./example/index.js"
+    },
+    "files": [
+      "index.js",
+      "example"
+    ],
+    "keywords": [
+      "electron",
+      "menubar"
+    ],
+    "devDependencies": {
+      "electron-prebuilt": "^1.4.1",
+      "eslint": "latest",
+      "eslint-config-egoist": "latest"
+    },
+    "eslintConfig": {
+      "extends": "egoist/esnext"
+    }
+  },
+  "packageStatus": 200
+}

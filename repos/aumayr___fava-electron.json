@@ -1,0 +1,97 @@
+{
+  "id": 49530567,
+  "name": "fava-electron",
+  "fullName": "aumayr/fava-electron",
+  "owner": {
+    "login": "aumayr",
+    "id": 5135450,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5135450?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/aumayr",
+    "htmlUrl": "https://github.com/aumayr",
+    "followersUrl": "https://api.github.com/users/aumayr/followers",
+    "subscriptionsUrl": "https://api.github.com/users/aumayr/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/aumayr/orgs",
+    "reposUrl": "https://api.github.com/users/aumayr/repos",
+    "receivedEventsUrl": "https://api.github.com/users/aumayr/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/aumayr/fava-electron",
+  "description": "Electron-wrapper for fava",
+  "fork": false,
+  "url": "https://api.github.com/repos/aumayr/fava-electron",
+  "forksUrl": "https://api.github.com/repos/aumayr/fava-electron/forks",
+  "teamsUrl": "https://api.github.com/repos/aumayr/fava-electron/teams",
+  "hooksUrl": "https://api.github.com/repos/aumayr/fava-electron/hooks",
+  "eventsUrl": "https://api.github.com/repos/aumayr/fava-electron/events",
+  "tagsUrl": "https://api.github.com/repos/aumayr/fava-electron/tags",
+  "languagesUrl": "https://api.github.com/repos/aumayr/fava-electron/languages",
+  "stargazersUrl": "https://api.github.com/repos/aumayr/fava-electron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/aumayr/fava-electron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/aumayr/fava-electron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/aumayr/fava-electron/subscription",
+  "mergesUrl": "https://api.github.com/repos/aumayr/fava-electron/merges",
+  "downloadsUrl": "https://api.github.com/repos/aumayr/fava-electron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/aumayr/fava-electron/deployments",
+  "createdAt": "2016-01-12T21:39:07.000Z",
+  "updatedAt": "2016-10-03T03:09:25.000Z",
+  "pushedAt": "2016-10-15T14:19:48.000Z",
+  "gitUrl": "git://github.com/aumayr/fava-electron.git",
+  "sshUrl": "git@github.com:aumayr/fava-electron.git",
+  "cloneUrl": "https://github.com/aumayr/fava-electron.git",
+  "svnUrl": "https://github.com/aumayr/fava-electron",
+  "homepage": "http://aumayr.github.io/fava",
+  "size": 619,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "mirrorUrl": null,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 1,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "scripts": {
+      "lint": "eslint app/main.js",
+      "start": "electron app",
+      "pack": "build --dir",
+      "dist": "build"
+    },
+    "devDependencies": {
+      "electron": "^1.4.3",
+      "electron-builder": "^7.13.0",
+      "eslint": "^3.5.0",
+      "eslint-config-airbnb-base": "^7.1.0",
+      "eslint-plugin-import": "^1.15.0"
+    },
+    "build": {
+      "appId": "com.fava-electron",
+      "asar": false,
+      "mac": {
+        "category": "public.app-category.finance"
+      }
+    }
+  },
+  "packageStatus": 200
+}

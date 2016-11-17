@@ -1,0 +1,121 @@
+{
+  "id": 59908811,
+  "name": "electron-tray-player",
+  "fullName": "vlewin/electron-tray-player",
+  "owner": {
+    "login": "vlewin",
+    "id": 611466,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/611466?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/vlewin",
+    "htmlUrl": "https://github.com/vlewin",
+    "followersUrl": "https://api.github.com/users/vlewin/followers",
+    "subscriptionsUrl": "https://api.github.com/users/vlewin/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/vlewin/orgs",
+    "reposUrl": "https://api.github.com/users/vlewin/repos",
+    "receivedEventsUrl": "https://api.github.com/users/vlewin/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/vlewin/electron-tray-player",
+  "description": "MP3/Radio player - system tray application (Electron + Vue.js + Framework7)",
+  "fork": false,
+  "url": "https://api.github.com/repos/vlewin/electron-tray-player",
+  "forksUrl": "https://api.github.com/repos/vlewin/electron-tray-player/forks",
+  "teamsUrl": "https://api.github.com/repos/vlewin/electron-tray-player/teams",
+  "hooksUrl": "https://api.github.com/repos/vlewin/electron-tray-player/hooks",
+  "eventsUrl": "https://api.github.com/repos/vlewin/electron-tray-player/events",
+  "tagsUrl": "https://api.github.com/repos/vlewin/electron-tray-player/tags",
+  "languagesUrl": "https://api.github.com/repos/vlewin/electron-tray-player/languages",
+  "stargazersUrl": "https://api.github.com/repos/vlewin/electron-tray-player/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/vlewin/electron-tray-player/contributors",
+  "subscribersUrl": "https://api.github.com/repos/vlewin/electron-tray-player/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/vlewin/electron-tray-player/subscription",
+  "mergesUrl": "https://api.github.com/repos/vlewin/electron-tray-player/merges",
+  "downloadsUrl": "https://api.github.com/repos/vlewin/electron-tray-player/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/vlewin/electron-tray-player/deployments",
+  "createdAt": "2016-05-28T18:24:25.000Z",
+  "updatedAt": "2016-09-10T13:51:16.000Z",
+  "pushedAt": "2016-10-04T20:26:14.000Z",
+  "gitUrl": "git://github.com/vlewin/electron-tray-player.git",
+  "sshUrl": "git@github.com:vlewin/electron-tray-player.git",
+  "cloneUrl": "https://github.com/vlewin/electron-tray-player.git",
+  "svnUrl": "https://github.com/vlewin/electron-tray-player",
+  "homepage": "",
+  "size": 1932,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-tray-player",
+    "productName": "electron-tray-player",
+    "version": "1.0.0",
+    "description": "Simple MP3/Radio player - system tray application (Electron + Vue.js)",
+    "main": "index.js",
+    "scripts": {
+      "test": "standard",
+      "start": "gulp serve",
+      "build": "electron-packager . TrayPlayer --platform=darwin --arch=x64 --version=1.2.0 --app-version=1.0.0 --overwrite --asar=false --icon='./images/App.icns' --ignore='node_modules/electron-(packager|prebuild)'",
+      "build:all": "electron-packager . TrayPlayer --platform=all --arch=x64 --version=1.2.0 --app-version=1.0.0 --overwrite --asar=false --ignore='node_modules/electron-(packager|prebuild)'"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/vlewin/electron-tray-player"
+    },
+    "author": "vlewin",
+    "license": "MIT",
+    "dependencies": {
+      "glob": "^7.0.3",
+      "jsdom": "latest",
+      "lastfmapi": "^0.1.1",
+      "menubar": "latest",
+      "store": "latest",
+      "vue": "latest",
+      "id3js": "^1.1.3"
+    },
+    "devDependencies": {
+      "electron-connect": "latest",
+      "electron-packager": "latest",
+      "electron-prebuilt": "latest",
+      "electron-rpc": "latest",
+      "eslint-config-airbnb": "^9.0.1",
+      "eslint-plugin-html": "^1.5.1",
+      "eslint-plugin-import": "^1.8.1",
+      "eslint-plugin-jsx-a11y": "^1.2.2",
+      "gulp": "latest",
+      "standard": "latest"
+    },
+    "standard": {
+      "ignore": [
+        "TrayPlayer.app/**",
+        "TrayPlayer-darwin-x64.app/**"
+      ]
+    }
+  },
+  "packageStatus": 200
+}

@@ -1,0 +1,111 @@
+{
+  "id": 70557651,
+  "name": "electronizr",
+  "fullName": "oliverschwendener/electronizr",
+  "owner": {
+    "login": "oliverschwendener",
+    "id": 15727229,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/15727229?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/oliverschwendener",
+    "htmlUrl": "https://github.com/oliverschwendener",
+    "followersUrl": "https://api.github.com/users/oliverschwendener/followers",
+    "subscriptionsUrl": "https://api.github.com/users/oliverschwendener/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/oliverschwendener/orgs",
+    "reposUrl": "https://api.github.com/users/oliverschwendener/repos",
+    "receivedEventsUrl": "https://api.github.com/users/oliverschwendener/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/oliverschwendener/electronizr",
+  "description": null,
+  "fork": false,
+  "url": "https://api.github.com/repos/oliverschwendener/electronizr",
+  "forksUrl": "https://api.github.com/repos/oliverschwendener/electronizr/forks",
+  "teamsUrl": "https://api.github.com/repos/oliverschwendener/electronizr/teams",
+  "hooksUrl": "https://api.github.com/repos/oliverschwendener/electronizr/hooks",
+  "eventsUrl": "https://api.github.com/repos/oliverschwendener/electronizr/events",
+  "tagsUrl": "https://api.github.com/repos/oliverschwendener/electronizr/tags",
+  "languagesUrl": "https://api.github.com/repos/oliverschwendener/electronizr/languages",
+  "stargazersUrl": "https://api.github.com/repos/oliverschwendener/electronizr/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/oliverschwendener/electronizr/contributors",
+  "subscribersUrl": "https://api.github.com/repos/oliverschwendener/electronizr/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/oliverschwendener/electronizr/subscription",
+  "mergesUrl": "https://api.github.com/repos/oliverschwendener/electronizr/merges",
+  "downloadsUrl": "https://api.github.com/repos/oliverschwendener/electronizr/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/oliverschwendener/electronizr/deployments",
+  "createdAt": "2016-10-11T04:59:52.000Z",
+  "updatedAt": "2016-11-01T19:29:52.000Z",
+  "pushedAt": "2016-11-12T17:57:02.000Z",
+  "gitUrl": "git://github.com/oliverschwendener/electronizr.git",
+  "sshUrl": "git@github.com:oliverschwendener/electronizr.git",
+  "cloneUrl": "https://github.com/oliverschwendener/electronizr.git",
+  "svnUrl": "https://github.com/oliverschwendener/electronizr",
+  "homepage": null,
+  "size": 134,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electronizr",
+    "version": "1.0.0",
+    "description": "An alt+space launcher for Windows",
+    "author": "Oliver Schwendener",
+    "license": "MIT",
+    "main": "main.js",
+    "dependencies": {
+      "babel-preset-es2015": "^6.16.0",
+      "fast-levenshtein": "^2.0.5",
+      "filewatcher": "^3.0.1",
+      "font-awesome": "^4.6.3",
+      "gulp-babel": "^6.1.2",
+      "open": "0.0.5",
+      "pretty-bytes": "^2.0.1"
+    },
+    "devDependencies": {
+      "electron-builder": "^7.14.1",
+      "electron-prebuilt": "^0.35.2",
+      "gulp": "^3.9.1",
+      "gulp-minify-css": "^1.2.4",
+      "gulp-sass": "^2.3.2"
+    },
+    "scripts": {
+      "start": "electron main.js",
+      "build": "build --dir",
+      "setup": "build"
+    },
+    "build": {
+      "appId": "com.electron.electronizr",
+      "category": "Utility",
+      "win": {
+        "icon": "build/icon"
+      }
+    }
+  },
+  "packageStatus": 200
+}

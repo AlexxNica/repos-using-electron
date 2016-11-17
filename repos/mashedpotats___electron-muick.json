@@ -1,0 +1,106 @@
+{
+  "id": 70539457,
+  "name": "electron-muick",
+  "fullName": "mashedpotats/electron-muick",
+  "owner": {
+    "login": "mashedpotats",
+    "id": 9442368,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/9442368?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mashedpotats",
+    "htmlUrl": "https://github.com/mashedpotats",
+    "followersUrl": "https://api.github.com/users/mashedpotats/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mashedpotats/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mashedpotats/orgs",
+    "reposUrl": "https://api.github.com/users/mashedpotats/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mashedpotats/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/mashedpotats/electron-muick",
+  "description": "A quick and simple music editor.",
+  "fork": false,
+  "url": "https://api.github.com/repos/mashedpotats/electron-muick",
+  "forksUrl": "https://api.github.com/repos/mashedpotats/electron-muick/forks",
+  "teamsUrl": "https://api.github.com/repos/mashedpotats/electron-muick/teams",
+  "hooksUrl": "https://api.github.com/repos/mashedpotats/electron-muick/hooks",
+  "eventsUrl": "https://api.github.com/repos/mashedpotats/electron-muick/events",
+  "tagsUrl": "https://api.github.com/repos/mashedpotats/electron-muick/tags",
+  "languagesUrl": "https://api.github.com/repos/mashedpotats/electron-muick/languages",
+  "stargazersUrl": "https://api.github.com/repos/mashedpotats/electron-muick/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/mashedpotats/electron-muick/contributors",
+  "subscribersUrl": "https://api.github.com/repos/mashedpotats/electron-muick/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/mashedpotats/electron-muick/subscription",
+  "mergesUrl": "https://api.github.com/repos/mashedpotats/electron-muick/merges",
+  "downloadsUrl": "https://api.github.com/repos/mashedpotats/electron-muick/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/mashedpotats/electron-muick/deployments",
+  "createdAt": "2016-10-11T00:13:48.000Z",
+  "updatedAt": "2016-11-06T01:40:34.000Z",
+  "pushedAt": "2016-11-06T01:40:07.000Z",
+  "gitUrl": "git://github.com/mashedpotats/electron-muick.git",
+  "sshUrl": "git@github.com:mashedpotats/electron-muick.git",
+  "cloneUrl": "https://github.com/mashedpotats/electron-muick.git",
+  "svnUrl": "https://github.com/mashedpotats/electron-muick",
+  "homepage": "",
+  "size": 763,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-muick",
+    "version": "0.0.1",
+    "description": "A quick music player. Hence, muick",
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "start": "electron ./app --enable-logging",
+      "dev": "NODE_ENV='development' npm run start",
+      "dist": "build --x64 --ia32"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mashedpotats/electron-muick.git"
+    },
+    "author": "Samuel Li",
+    "license": "UNLICENSED",
+    "bugs": {
+      "url": "https://github.com/mashedpotats/electron-muick/issues"
+    },
+    "homepage": "https://github.com/mashedpotats/electron-muick#readme",
+    "devDependencies": {
+      "electron": "^1.4.3",
+      "electron-builder": "^7.19.1",
+      "electron-packager": "^8.2.0"
+    },
+    "build": {
+      "productName": "muick",
+      "appId": "com.javilet.samuel.muick",
+      "mac": {
+        "category": "public.app-category.music"
+      },
+      "win": {
+        "target": "nsis"
+      },
+      "postinstall": "install-app-deps"
+    }
+  },
+  "packageStatus": 200
+}

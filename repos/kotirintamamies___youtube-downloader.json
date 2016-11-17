@@ -1,0 +1,104 @@
+{
+  "id": 68904781,
+  "name": "youtube-downloader",
+  "fullName": "kotirintamamies/youtube-downloader",
+  "owner": {
+    "login": "kotirintamamies",
+    "id": 18377304,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/18377304?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/kotirintamamies",
+    "htmlUrl": "https://github.com/kotirintamamies",
+    "followersUrl": "https://api.github.com/users/kotirintamamies/followers",
+    "subscriptionsUrl": "https://api.github.com/users/kotirintamamies/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/kotirintamamies/orgs",
+    "reposUrl": "https://api.github.com/users/kotirintamamies/repos",
+    "receivedEventsUrl": "https://api.github.com/users/kotirintamamies/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/kotirintamamies/youtube-downloader",
+  "description": "Downloads videos from youtube and converts them into mp3 files. Use electron to run and build. Usable only for windows, because of executables.",
+  "fork": false,
+  "url": "https://api.github.com/repos/kotirintamamies/youtube-downloader",
+  "forksUrl": "https://api.github.com/repos/kotirintamamies/youtube-downloader/forks",
+  "teamsUrl": "https://api.github.com/repos/kotirintamamies/youtube-downloader/teams",
+  "hooksUrl": "https://api.github.com/repos/kotirintamamies/youtube-downloader/hooks",
+  "eventsUrl": "https://api.github.com/repos/kotirintamamies/youtube-downloader/events",
+  "tagsUrl": "https://api.github.com/repos/kotirintamamies/youtube-downloader/tags",
+  "languagesUrl": "https://api.github.com/repos/kotirintamamies/youtube-downloader/languages",
+  "stargazersUrl": "https://api.github.com/repos/kotirintamamies/youtube-downloader/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/kotirintamamies/youtube-downloader/contributors",
+  "subscribersUrl": "https://api.github.com/repos/kotirintamamies/youtube-downloader/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/kotirintamamies/youtube-downloader/subscription",
+  "mergesUrl": "https://api.github.com/repos/kotirintamamies/youtube-downloader/merges",
+  "downloadsUrl": "https://api.github.com/repos/kotirintamamies/youtube-downloader/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/kotirintamamies/youtube-downloader/deployments",
+  "createdAt": "2016-09-22T09:13:50.000Z",
+  "updatedAt": "2016-09-22T11:51:07.000Z",
+  "pushedAt": "2016-09-22T11:51:06.000Z",
+  "gitUrl": "git://github.com/kotirintamamies/youtube-downloader.git",
+  "sshUrl": "git@github.com:kotirintamamies/youtube-downloader.git",
+  "cloneUrl": "https://github.com/kotirintamamies/youtube-downloader.git",
+  "svnUrl": "https://github.com/kotirintamamies/youtube-downloader",
+  "homepage": null,
+  "size": 23431,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "youtube-downloader",
+    "version": "1.0.0",
+    "description": "Downloads videos from youtube and converts them into mp3 files. Use electron to run and build. Usable only for windows, because of executables.",
+    "author": "S. Laitila",
+    "devDependencies": {
+      "electron-builder": "^7.3.0",
+      "electron-packager": "^8.0.0",
+      "electron-prebuilt": "^1.4.0"
+    },
+    "build": {
+      "win": {
+        "iconUrl": "https://raw.githubusercontent.com/kotirintamamies/electron-icons/master/youtube-dl/app.ico",
+        "icon": "app/app.ico",
+        "loadingGif": "loading.gif"
+      },
+      "scripts": {
+        "pack": "build --win"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kotirintamamies/youtube-downloader.git"
+      },
+      "keywords": [
+        "youtube",
+        "download",
+        "windows"
+      ],
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/kotirintamamies/youtube-downloader/issues"
+      },
+      "homepage": "https://github.com/kotirintamamies/youtube-downloader#readme"
+    }
+  },
+  "packageStatus": 200
+}

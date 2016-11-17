@@ -1,0 +1,154 @@
+{
+  "id": 63793558,
+  "name": "wallet-packager",
+  "fullName": "iotaledger/wallet-packager",
+  "owner": {
+    "login": "iotaledger",
+    "id": 20126597,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/20126597?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/iotaledger",
+    "htmlUrl": "https://github.com/iotaledger",
+    "followersUrl": "https://api.github.com/users/iotaledger/followers",
+    "subscriptionsUrl": "https://api.github.com/users/iotaledger/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/iotaledger/orgs",
+    "reposUrl": "https://api.github.com/users/iotaledger/repos",
+    "receivedEventsUrl": "https://api.github.com/users/iotaledger/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/iotaledger/wallet-packager",
+  "description": "Packager for the IOTA Wallet.",
+  "fork": false,
+  "url": "https://api.github.com/repos/iotaledger/wallet-packager",
+  "forksUrl": "https://api.github.com/repos/iotaledger/wallet-packager/forks",
+  "teamsUrl": "https://api.github.com/repos/iotaledger/wallet-packager/teams",
+  "hooksUrl": "https://api.github.com/repos/iotaledger/wallet-packager/hooks",
+  "eventsUrl": "https://api.github.com/repos/iotaledger/wallet-packager/events",
+  "tagsUrl": "https://api.github.com/repos/iotaledger/wallet-packager/tags",
+  "languagesUrl": "https://api.github.com/repos/iotaledger/wallet-packager/languages",
+  "stargazersUrl": "https://api.github.com/repos/iotaledger/wallet-packager/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/iotaledger/wallet-packager/contributors",
+  "subscribersUrl": "https://api.github.com/repos/iotaledger/wallet-packager/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/iotaledger/wallet-packager/subscription",
+  "mergesUrl": "https://api.github.com/repos/iotaledger/wallet-packager/merges",
+  "downloadsUrl": "https://api.github.com/repos/iotaledger/wallet-packager/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/iotaledger/wallet-packager/deployments",
+  "createdAt": "2016-07-20T15:41:59.000Z",
+  "updatedAt": "2016-08-02T18:22:30.000Z",
+  "pushedAt": "2016-09-22T13:16:05.000Z",
+  "gitUrl": "git://github.com/iotaledger/wallet-packager.git",
+  "sshUrl": "git@github.com:iotaledger/wallet-packager.git",
+  "cloneUrl": "https://github.com/iotaledger/wallet-packager.git",
+  "svnUrl": "https://github.com/iotaledger/wallet-packager",
+  "homepage": null,
+  "size": 444,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": null,
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "organization": {
+    "login": "iotaledger",
+    "id": 20126597,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/20126597?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/iotaledger",
+    "htmlUrl": "https://github.com/iotaledger",
+    "followersUrl": "https://api.github.com/users/iotaledger/followers",
+    "subscriptionsUrl": "https://api.github.com/users/iotaledger/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/iotaledger/orgs",
+    "reposUrl": "https://api.github.com/users/iotaledger/repos",
+    "receivedEventsUrl": "https://api.github.com/users/iotaledger/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "directories": {
+      "app": "wallet",
+      "buildResources": "packager/build",
+      "output": "packager/dist"
+    },
+    "devDependencies": {
+      "electron-builder": "^5.18.0",
+      "electron-prebuilt": "^1.4.0"
+    },
+    "build": {
+      "appId": "com.iotatoken.wallet",
+      "category": "public.app-category.developer-tools",
+      "extraResources": [
+        "IRI/**/*",
+        "wallet/ui/**/*"
+      ],
+      "extend-info": "mac-info.plist",
+      "dmg": {
+        "icon-size": 125,
+        "contents": [
+          {
+            "x": 235,
+            "y": 290,
+            "type": "link",
+            "path": "/Applications"
+          },
+          {
+            "x": 235,
+            "y": 20,
+            "type": "file"
+          }
+        ]
+      },
+      "win": {
+        "target": "nsis"
+      },
+      "linux": {
+        "target": [
+          "AppImage",
+          "deb",
+          "rpm",
+          "tar.gz"
+        ],
+        "packageUrl": "https://www.iotatoken.com/"
+      }
+    },
+    "scripts": {
+      "postinstall": "install-app-deps && cd ./wallet/app && bower install && cd ../ui && bower install",
+      "start": "electron ./wallet --enable-logging --dev",
+      "dev": "export NODE_ENV=development || set NODE_ENV=development && npm run start",
+      "predist": "rm -rf packager/dist/*",
+      "dist": "export CSC_IDENTITY_AUTO_DISCOVERY=false && build --win --mac --linux --x64 --ia32",
+      "dist:lin": "build --linux --x64 --ia32",
+      "dist:mac": "export CSC_IDENTITY_AUTO_DISCOVERY=false && build --mac --x64",
+      "dist:win": "build --win --x64 --ia32",
+      "dist:win64": "build --win --x64",
+      "dist:win32": "build --win --ia32",
+      "prerelease:mac": "mkdirp packager/release/mac",
+      "release:mac": "cp -rv packager/dist/mac/*.{dmg,zip} packager/release/mac && PACKAGE_VERSION=$(cat wallet/package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && printf $PACKAGE_VERSION >> ./packager/release/mac/VERSION",
+      "prerelease:win32": "mkdirp packager/release/win32",
+      "release:win32": "cp -v packager/dist/win-ia32/{RELEASES,*.nupkg,*.exe} packager/release/win32",
+      "prerelease:win64": "mkdirp packager/release/win64",
+      "release:win64": "cp -v packager/dist/win/{RELEASES,*.nupkg,*.exe} packager/release/win64",
+      "prerelease:lin": "mkdirp packager/release/lin/",
+      "release:lin": "cp -v packager/dist/*.{deb,rpm,tar.gz,sh} packager/release/lin",
+      "prerelease": "rm -rf packager/release/*",
+      "release": "npm run release:mac && npm run release:win32 && npm run release:win64 && npm run release:lin",
+      "all": "npm run dist && npm run release"
+    }
+  },
+  "packageStatus": 200
+}

@@ -1,0 +1,90 @@
+{
+  "id": 61596252,
+  "name": "ps-foosball-chrome",
+  "fullName": "robocel/ps-foosball-chrome",
+  "owner": {
+    "login": "robocel",
+    "id": 7085874,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7085874?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/robocel",
+    "htmlUrl": "https://github.com/robocel",
+    "followersUrl": "https://api.github.com/users/robocel/followers",
+    "subscriptionsUrl": "https://api.github.com/users/robocel/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/robocel/orgs",
+    "reposUrl": "https://api.github.com/users/robocel/repos",
+    "receivedEventsUrl": "https://api.github.com/users/robocel/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/robocel/ps-foosball-chrome",
+  "description": "Chrome Extension for the PointSource Foosball Application",
+  "fork": false,
+  "url": "https://api.github.com/repos/robocel/ps-foosball-chrome",
+  "forksUrl": "https://api.github.com/repos/robocel/ps-foosball-chrome/forks",
+  "teamsUrl": "https://api.github.com/repos/robocel/ps-foosball-chrome/teams",
+  "hooksUrl": "https://api.github.com/repos/robocel/ps-foosball-chrome/hooks",
+  "eventsUrl": "https://api.github.com/repos/robocel/ps-foosball-chrome/events",
+  "tagsUrl": "https://api.github.com/repos/robocel/ps-foosball-chrome/tags",
+  "languagesUrl": "https://api.github.com/repos/robocel/ps-foosball-chrome/languages",
+  "stargazersUrl": "https://api.github.com/repos/robocel/ps-foosball-chrome/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/robocel/ps-foosball-chrome/contributors",
+  "subscribersUrl": "https://api.github.com/repos/robocel/ps-foosball-chrome/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/robocel/ps-foosball-chrome/subscription",
+  "mergesUrl": "https://api.github.com/repos/robocel/ps-foosball-chrome/merges",
+  "downloadsUrl": "https://api.github.com/repos/robocel/ps-foosball-chrome/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/robocel/ps-foosball-chrome/deployments",
+  "createdAt": "2016-06-21T02:35:55.000Z",
+  "updatedAt": "2016-06-28T19:10:46.000Z",
+  "pushedAt": "2016-06-28T19:19:43.000Z",
+  "gitUrl": "git://github.com/robocel/ps-foosball-chrome.git",
+  "sshUrl": "git@github.com:robocel/ps-foosball-chrome.git",
+  "cloneUrl": "https://github.com/robocel/ps-foosball-chrome.git",
+  "svnUrl": "https://github.com/robocel/ps-foosball-chrome",
+  "homepage": null,
+  "size": 29,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 1,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "psfoosball-electron",
+    "main": "./main.electron.js",
+    "private": true,
+    "scripts": {
+      "electron": "electron .",
+      "package": "electron-packager ./ PSFoosballElectron --platform=darwin --arch=x64 --out ~/Desktop/PSFoosballElectron --overwrite --version 1.2.5 --icon=./icon-128.icns"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^1.2.5"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.1.0"
+    }
+  },
+  "packageStatus": 200
+}

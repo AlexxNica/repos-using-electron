@@ -1,0 +1,140 @@
+{
+  "id": 54367478,
+  "name": "stylish",
+  "fullName": "stylish/stylish",
+  "owner": {
+    "login": "stylish",
+    "id": 8312950,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8312950?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/stylish",
+    "htmlUrl": "https://github.com/stylish",
+    "followersUrl": "https://api.github.com/users/stylish/followers",
+    "subscriptionsUrl": "https://api.github.com/users/stylish/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/stylish/orgs",
+    "reposUrl": "https://api.github.com/users/stylish/repos",
+    "receivedEventsUrl": "https://api.github.com/users/stylish/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/stylish/stylish",
+  "description": "stylish - a theme and component toolkit for react and react native",
+  "fork": false,
+  "url": "https://api.github.com/repos/stylish/stylish",
+  "forksUrl": "https://api.github.com/repos/stylish/stylish/forks",
+  "teamsUrl": "https://api.github.com/repos/stylish/stylish/teams",
+  "hooksUrl": "https://api.github.com/repos/stylish/stylish/hooks",
+  "eventsUrl": "https://api.github.com/repos/stylish/stylish/events",
+  "tagsUrl": "https://api.github.com/repos/stylish/stylish/tags",
+  "languagesUrl": "https://api.github.com/repos/stylish/stylish/languages",
+  "stargazersUrl": "https://api.github.com/repos/stylish/stylish/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/stylish/stylish/contributors",
+  "subscribersUrl": "https://api.github.com/repos/stylish/stylish/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/stylish/stylish/subscription",
+  "mergesUrl": "https://api.github.com/repos/stylish/stylish/merges",
+  "downloadsUrl": "https://api.github.com/repos/stylish/stylish/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/stylish/stylish/deployments",
+  "createdAt": "2016-03-21T07:14:10.000Z",
+  "updatedAt": "2016-04-13T03:23:35.000Z",
+  "pushedAt": "2016-03-21T07:15:52.000Z",
+  "gitUrl": "git://github.com/stylish/stylish.git",
+  "sshUrl": "git@github.com:stylish/stylish.git",
+  "cloneUrl": "https://github.com/stylish/stylish.git",
+  "svnUrl": "https://github.com/stylish/stylish",
+  "homepage": null,
+  "size": 9215,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "organization": {
+    "login": "stylish",
+    "id": 8312950,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8312950?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/stylish",
+    "htmlUrl": "https://github.com/stylish",
+    "followersUrl": "https://api.github.com/users/stylish/followers",
+    "subscriptionsUrl": "https://api.github.com/users/stylish/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/stylish/orgs",
+    "reposUrl": "https://api.github.com/users/stylish/repos",
+    "receivedEventsUrl": "https://api.github.com/users/stylish/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 4,
+  "status": 200,
+  "packageJSON": {
+    "name": "skypager",
+    "version": "2.26.2",
+    "description": "skypager is a framework for managing a portfolio of applications, modules, and components. Skypager makes working with react, babel, webpack and other ecosystems a breeze.",
+    "skypager": {
+      "main": "skypager.js",
+      "plugins": [
+        "portfolio"
+      ]
+    },
+    "bin": {
+      "skypager": "./packages/skypager-cli/bin/cli.js"
+    },
+    "main": "index.js",
+    "dependencies": {
+      "babel-preset-skypager": "latest",
+      "exit-on-dirty-git": "^1.0.1",
+      "skypager-cli": "latest",
+      "skypager-devpack": "latest",
+      "skypager-plugin-portfolio": "latest",
+      "skypager-project": "latest",
+      "skypager-server": "latest",
+      "skypager-themes": "latest",
+      "skypager-ui": "latest"
+    },
+    "engines": {
+      "npm": "^3.3.12",
+      "node": "^5.2.0"
+    },
+    "optionalDependencies": {
+      "skypager-electron": "latest"
+    },
+    "devDependencies": {
+      "babel-preset-react-hmre": "^1.1.0",
+      "lerna": "^1.1.1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/skypager/skypager.git"
+    },
+    "author": "Jonathan Soeder <jon@chicago.com",
+    "license": "SEE LICENSE IN License.md",
+    "scripts": {
+      "postinstall": "npm install skypager-cli -g",
+      "start": "skypager serve web",
+      "test": "skypager each package --run=test",
+      "compile": "skypager each package --run compile",
+      "preversion": "npm run test && npm run compile",
+      "prerelease:patch": "exit-on-dirty-git && npm version patch --no-git-tag && git add package.json && git commit -m 'Bump monorepo version to prep for release'",
+      "release:patch": "exit-on-dirty-git && lerna publish",
+      "postrelease:patch": "npm publish && npm install",
+      "prerelease:minor": "exit-on-dirty-git && npm version minor --no-git-tag && git add package.json && git commit -m 'Bump monorepo version to prep for release'",
+      "release:minor": "exit-on-dirty-git && lerna publish",
+      "postrelease:minor": "npm publish && npm install",
+      "release": "npm run release:patch"
+    }
+  },
+  "packageStatus": 200
+}

@@ -1,0 +1,141 @@
+{
+  "id": 68976835,
+  "name": "electron-installer-flatpak",
+  "fullName": "endlessm/electron-installer-flatpak",
+  "owner": {
+    "login": "endlessm",
+    "id": 1930958,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1930958?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/endlessm",
+    "htmlUrl": "https://github.com/endlessm",
+    "followersUrl": "https://api.github.com/users/endlessm/followers",
+    "subscriptionsUrl": "https://api.github.com/users/endlessm/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/endlessm/orgs",
+    "reposUrl": "https://api.github.com/users/endlessm/repos",
+    "receivedEventsUrl": "https://api.github.com/users/endlessm/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/endlessm/electron-installer-flatpak",
+  "description": null,
+  "fork": false,
+  "url": "https://api.github.com/repos/endlessm/electron-installer-flatpak",
+  "forksUrl": "https://api.github.com/repos/endlessm/electron-installer-flatpak/forks",
+  "teamsUrl": "https://api.github.com/repos/endlessm/electron-installer-flatpak/teams",
+  "hooksUrl": "https://api.github.com/repos/endlessm/electron-installer-flatpak/hooks",
+  "eventsUrl": "https://api.github.com/repos/endlessm/electron-installer-flatpak/events",
+  "tagsUrl": "https://api.github.com/repos/endlessm/electron-installer-flatpak/tags",
+  "languagesUrl": "https://api.github.com/repos/endlessm/electron-installer-flatpak/languages",
+  "stargazersUrl": "https://api.github.com/repos/endlessm/electron-installer-flatpak/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/endlessm/electron-installer-flatpak/contributors",
+  "subscribersUrl": "https://api.github.com/repos/endlessm/electron-installer-flatpak/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/endlessm/electron-installer-flatpak/subscription",
+  "mergesUrl": "https://api.github.com/repos/endlessm/electron-installer-flatpak/merges",
+  "downloadsUrl": "https://api.github.com/repos/endlessm/electron-installer-flatpak/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/endlessm/electron-installer-flatpak/deployments",
+  "createdAt": "2016-09-23T01:29:13.000Z",
+  "updatedAt": "2016-11-14T22:45:35.000Z",
+  "pushedAt": "2016-11-16T20:10:54.000Z",
+  "gitUrl": "git://github.com/endlessm/electron-installer-flatpak.git",
+  "sshUrl": "git@github.com:endlessm/electron-installer-flatpak.git",
+  "cloneUrl": "https://github.com/endlessm/electron-installer-flatpak.git",
+  "svnUrl": "https://github.com/endlessm/electron-installer-flatpak",
+  "homepage": null,
+  "size": 1082,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "organization": {
+    "login": "endlessm",
+    "id": 1930958,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1930958?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/endlessm",
+    "htmlUrl": "https://github.com/endlessm",
+    "followersUrl": "https://api.github.com/users/endlessm/followers",
+    "subscriptionsUrl": "https://api.github.com/users/endlessm/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/endlessm/orgs",
+    "reposUrl": "https://api.github.com/users/endlessm/repos",
+    "receivedEventsUrl": "https://api.github.com/users/endlessm/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 19,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-installer-flatpak",
+    "description": "Create a Flatpak package for your Electron app.",
+    "version": "0.4.0",
+    "license": "MIT",
+    "author": {
+      "name": "Matt Watson",
+      "email": "mattdangerw@gmail.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/endlessm/electron-installer-flatpak.git"
+    },
+    "keywords": [
+      "electron",
+      "flatpak"
+    ],
+    "os": [
+      "darwin",
+      "linux"
+    ],
+    "main": "src/installer.js",
+    "bin": {
+      "electron-installer-flatpak": "src/cli.js"
+    },
+    "scripts": {
+      "clean": "rimraf test/fixtures/out",
+      "lint": "eslint .",
+      "spec": "mocha",
+      "test": "npm run clean && npm run lint && npm run spec"
+    },
+    "dependencies": {
+      "asar": "^0.12.0",
+      "async": "^2.0.0",
+      "debug": "^2.2.0",
+      "flatpak-bundler": "^0.1.0",
+      "fs-extra": "^0.30.0",
+      "lodash": "^4.13.0",
+      "temp": "^0.8.3",
+      "yargs": "^6.0.0"
+    },
+    "devDependencies": {
+      "chai": "^3.4.1",
+      "eslint": "^3.2.2",
+      "eslint-config-standard": "^6.0.0",
+      "eslint-plugin-promise": "^3.0.0",
+      "eslint-plugin-standard": "^2.0.0",
+      "mocha": "^3.0.0",
+      "retry": "^0.10.0",
+      "rimraf": "^2.5.1"
+    }
+  },
+  "packageStatus": 200
+}

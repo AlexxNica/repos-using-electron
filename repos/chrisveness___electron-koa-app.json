@@ -1,0 +1,102 @@
+{
+  "id": 69033131,
+  "name": "electron-koa-app",
+  "fullName": "chrisveness/electron-koa-app",
+  "owner": {
+    "login": "chrisveness",
+    "id": 1066395,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1066395?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/chrisveness",
+    "htmlUrl": "https://github.com/chrisveness",
+    "followersUrl": "https://api.github.com/users/chrisveness/followers",
+    "subscriptionsUrl": "https://api.github.com/users/chrisveness/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/chrisveness/orgs",
+    "reposUrl": "https://api.github.com/users/chrisveness/repos",
+    "receivedEventsUrl": "https://api.github.com/users/chrisveness/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/chrisveness/electron-koa-app",
+  "description": "Electron Koa App Template",
+  "fork": false,
+  "url": "https://api.github.com/repos/chrisveness/electron-koa-app",
+  "forksUrl": "https://api.github.com/repos/chrisveness/electron-koa-app/forks",
+  "teamsUrl": "https://api.github.com/repos/chrisveness/electron-koa-app/teams",
+  "hooksUrl": "https://api.github.com/repos/chrisveness/electron-koa-app/hooks",
+  "eventsUrl": "https://api.github.com/repos/chrisveness/electron-koa-app/events",
+  "tagsUrl": "https://api.github.com/repos/chrisveness/electron-koa-app/tags",
+  "languagesUrl": "https://api.github.com/repos/chrisveness/electron-koa-app/languages",
+  "stargazersUrl": "https://api.github.com/repos/chrisveness/electron-koa-app/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/chrisveness/electron-koa-app/contributors",
+  "subscribersUrl": "https://api.github.com/repos/chrisveness/electron-koa-app/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/chrisveness/electron-koa-app/subscription",
+  "mergesUrl": "https://api.github.com/repos/chrisveness/electron-koa-app/merges",
+  "downloadsUrl": "https://api.github.com/repos/chrisveness/electron-koa-app/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/chrisveness/electron-koa-app/deployments",
+  "createdAt": "2016-09-23T14:37:08.000Z",
+  "updatedAt": "2016-10-20T22:26:00.000Z",
+  "pushedAt": "2016-10-08T13:17:45.000Z",
+  "gitUrl": "git://github.com/chrisveness/electron-koa-app.git",
+  "sshUrl": "git@github.com:chrisveness/electron-koa-app.git",
+  "cloneUrl": "https://github.com/chrisveness/electron-koa-app.git",
+  "svnUrl": "https://github.com/chrisveness/electron-koa-app",
+  "homepage": null,
+  "size": 167,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-koa-hello-world",
+    "description": "Builder for Electron Koa App",
+    "version": "0.0.0",
+    "author": "Chris Veness",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/chrisveness/electron-koa-app"
+    },
+    "scripts": {
+      "start": "electron app/main.js",
+      "build": "build",
+      "postinstall": "install-app-deps"
+    },
+    "build": {
+      "appId": "koa-app.id",
+      "category": "public.app-category.developer-tools",
+      "win": {
+        "iconUrl": "http://eatodo.s3.amazonaws.com/icon.ico"
+      }
+    },
+    "devDependencies": {
+      "electron": "^1.4.2",
+      "electron-builder": "^7.10.2"
+    }
+  },
+  "packageStatus": 200
+}

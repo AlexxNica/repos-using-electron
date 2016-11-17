@@ -1,0 +1,104 @@
+{
+  "id": 58230019,
+  "name": "data_logger_grapher",
+  "fullName": "camjjack/data_logger_grapher",
+  "owner": {
+    "login": "camjjack",
+    "id": 10096130,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/10096130?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/camjjack",
+    "htmlUrl": "https://github.com/camjjack",
+    "followersUrl": "https://api.github.com/users/camjjack/followers",
+    "subscriptionsUrl": "https://api.github.com/users/camjjack/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/camjjack/orgs",
+    "reposUrl": "https://api.github.com/users/camjjack/repos",
+    "receivedEventsUrl": "https://api.github.com/users/camjjack/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/camjjack/data_logger_grapher",
+  "description": "Compares two temperature data logger data sets",
+  "fork": false,
+  "url": "https://api.github.com/repos/camjjack/data_logger_grapher",
+  "forksUrl": "https://api.github.com/repos/camjjack/data_logger_grapher/forks",
+  "teamsUrl": "https://api.github.com/repos/camjjack/data_logger_grapher/teams",
+  "hooksUrl": "https://api.github.com/repos/camjjack/data_logger_grapher/hooks",
+  "eventsUrl": "https://api.github.com/repos/camjjack/data_logger_grapher/events",
+  "tagsUrl": "https://api.github.com/repos/camjjack/data_logger_grapher/tags",
+  "languagesUrl": "https://api.github.com/repos/camjjack/data_logger_grapher/languages",
+  "stargazersUrl": "https://api.github.com/repos/camjjack/data_logger_grapher/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/camjjack/data_logger_grapher/contributors",
+  "subscribersUrl": "https://api.github.com/repos/camjjack/data_logger_grapher/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/camjjack/data_logger_grapher/subscription",
+  "mergesUrl": "https://api.github.com/repos/camjjack/data_logger_grapher/merges",
+  "downloadsUrl": "https://api.github.com/repos/camjjack/data_logger_grapher/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/camjjack/data_logger_grapher/deployments",
+  "createdAt": "2016-05-06T19:23:25.000Z",
+  "updatedAt": "2016-05-12T17:59:37.000Z",
+  "pushedAt": "2016-05-12T18:08:49.000Z",
+  "gitUrl": "git://github.com/camjjack/data_logger_grapher.git",
+  "sshUrl": "git@github.com:camjjack/data_logger_grapher.git",
+  "cloneUrl": "https://github.com/camjjack/data_logger_grapher.git",
+  "svnUrl": "https://github.com/camjjack/data_logger_grapher",
+  "homepage": null,
+  "size": 9,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "data_logger_grapher",
+    "productName": "data_logger_grapher",
+    "version": "0.0.2",
+    "main": "main.js",
+    "browserify": {
+      "transform": [
+        "browserify-shim"
+      ]
+    },
+    "browser": {
+      "materialize": "./node_modules/materialize-css/dist/js/materialize.min.js"
+    },
+    "browserify-shim": {
+      "materialize": {
+        "exports": "materialize"
+      }
+    },
+    "scripts": {
+      "start": "electron .",
+      "package": "electron-packager . data_logger_grapher --platform=win32 --arch=x64 --version 0.37.8 --overwrite"
+    },
+    "devDependencies": {
+      "electron-packager": "^7.0.0",
+      "electron-prebuilt": "^0.37.8",
+      "electron-settings": "^1.0.4",
+      "materialize-css": "^0.97.6",
+      "rollup": "^0.26.2"
+    },
+    "dependencies": {
+      "fast-csv": "^1.1.0",
+      "hammerjs": "^2.0.6",
+      "materialize-css": "^0.97.6"
+    }
+  },
+  "packageStatus": 200
+}

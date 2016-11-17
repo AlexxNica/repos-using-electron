@@ -1,0 +1,105 @@
+{
+  "id": 70565649,
+  "name": "node-os-idle-timer",
+  "fullName": "nomadcn/node-os-idle-timer",
+  "owner": {
+    "login": "nomadcn",
+    "id": 22762327,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/22762327?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/nomadcn",
+    "htmlUrl": "https://github.com/nomadcn",
+    "followersUrl": "https://api.github.com/users/nomadcn/followers",
+    "subscriptionsUrl": "https://api.github.com/users/nomadcn/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/nomadcn/orgs",
+    "reposUrl": "https://api.github.com/users/nomadcn/repos",
+    "receivedEventsUrl": "https://api.github.com/users/nomadcn/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/nomadcn/node-os-idle-timer",
+  "description": "os-idle-timer native module for nodejs",
+  "fork": false,
+  "url": "https://api.github.com/repos/nomadcn/node-os-idle-timer",
+  "forksUrl": "https://api.github.com/repos/nomadcn/node-os-idle-timer/forks",
+  "teamsUrl": "https://api.github.com/repos/nomadcn/node-os-idle-timer/teams",
+  "hooksUrl": "https://api.github.com/repos/nomadcn/node-os-idle-timer/hooks",
+  "eventsUrl": "https://api.github.com/repos/nomadcn/node-os-idle-timer/events",
+  "tagsUrl": "https://api.github.com/repos/nomadcn/node-os-idle-timer/tags",
+  "languagesUrl": "https://api.github.com/repos/nomadcn/node-os-idle-timer/languages",
+  "stargazersUrl": "https://api.github.com/repos/nomadcn/node-os-idle-timer/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/nomadcn/node-os-idle-timer/contributors",
+  "subscribersUrl": "https://api.github.com/repos/nomadcn/node-os-idle-timer/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/nomadcn/node-os-idle-timer/subscription",
+  "mergesUrl": "https://api.github.com/repos/nomadcn/node-os-idle-timer/merges",
+  "downloadsUrl": "https://api.github.com/repos/nomadcn/node-os-idle-timer/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/nomadcn/node-os-idle-timer/deployments",
+  "createdAt": "2016-10-11T07:04:25.000Z",
+  "updatedAt": "2016-10-23T08:27:22.000Z",
+  "pushedAt": "2016-10-23T08:27:20.000Z",
+  "gitUrl": "git://github.com/nomadcn/node-os-idle-timer.git",
+  "sshUrl": "git@github.com:nomadcn/node-os-idle-timer.git",
+  "cloneUrl": "https://github.com/nomadcn/node-os-idle-timer.git",
+  "svnUrl": "https://github.com/nomadcn/node-os-idle-timer",
+  "homepage": null,
+  "size": 13,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "C",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 1,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "os-idle-timer",
+    "version": "1.0.7",
+    "description": "Cross platform os idle timer",
+    "main": "./index.js",
+    "gypfile": true,
+    "scripts": {
+      "preinstall": "npm install node-pre-gyp",
+      "install": "node-pre-gyp install --fallback-to-build"
+    },
+    "author": "callsync@nomadconnection.com",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/nomadcn/node-os-idle-timer.git"
+    },
+    "dependencies": {
+      "nan": "2.x",
+      "node-pre-gyp": "0.6.x"
+    },
+    "binary": {
+      "module_name": "os-idle-timer",
+      "module_path": "./lib/binding/{configuration}/{node_abi}-{platform}-{arch}/",
+      "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz",
+      "host": "https://github.com/nomadcn/node-os-idle-timer/releases/download/",
+      "remote_path": "{version}"
+    },
+    "os": [
+      "darwin",
+      "win32"
+    ],
+    "devDependencies": {
+      "electron-prebuilt": "^1.3.6",
+      "node-gyp": "^3.4.0"
+    }
+  },
+  "packageStatus": 200
+}

@@ -1,0 +1,142 @@
+{
+  "id": 70566608,
+  "name": "seqplots_electron",
+  "fullName": "Przemol/seqplots_electron",
+  "owner": {
+    "login": "Przemol",
+    "id": 910537,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/910537?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Przemol",
+    "htmlUrl": "https://github.com/Przemol",
+    "followersUrl": "https://api.github.com/users/Przemol/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Przemol/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Przemol/orgs",
+    "reposUrl": "https://api.github.com/users/Przemol/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Przemol/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/Przemol/seqplots_electron",
+  "description": null,
+  "fork": false,
+  "url": "https://api.github.com/repos/Przemol/seqplots_electron",
+  "forksUrl": "https://api.github.com/repos/Przemol/seqplots_electron/forks",
+  "teamsUrl": "https://api.github.com/repos/Przemol/seqplots_electron/teams",
+  "hooksUrl": "https://api.github.com/repos/Przemol/seqplots_electron/hooks",
+  "eventsUrl": "https://api.github.com/repos/Przemol/seqplots_electron/events",
+  "tagsUrl": "https://api.github.com/repos/Przemol/seqplots_electron/tags",
+  "languagesUrl": "https://api.github.com/repos/Przemol/seqplots_electron/languages",
+  "stargazersUrl": "https://api.github.com/repos/Przemol/seqplots_electron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/Przemol/seqplots_electron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/Przemol/seqplots_electron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/Przemol/seqplots_electron/subscription",
+  "mergesUrl": "https://api.github.com/repos/Przemol/seqplots_electron/merges",
+  "downloadsUrl": "https://api.github.com/repos/Przemol/seqplots_electron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/Przemol/seqplots_electron/deployments",
+  "createdAt": "2016-10-11T07:17:49.000Z",
+  "updatedAt": "2016-10-11T07:28:59.000Z",
+  "pushedAt": "2016-11-11T17:33:55.000Z",
+  "gitUrl": "git://github.com/Przemol/seqplots_electron.git",
+  "sshUrl": "git@github.com:Przemol/seqplots_electron.git",
+  "cloneUrl": "https://github.com/Przemol/seqplots_electron.git",
+  "svnUrl": "https://github.com/Przemol/seqplots_electron",
+  "homepage": null,
+  "size": 529878,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "SeqPlots",
+    "version": "3.1.12b",
+    "description": "An interactive tool for visualizing NGS signals and sequence motif densities along genomic features using average plots and heatmaps.",
+    "main": "main.js",
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "start": "electron ./app --enable-logging",
+      "dev": "NODE_ENV='development' npm run start",
+      "dist2": "build -mwl --x64 --ia32",
+      "compile": "rimraf app/out && tsc",
+      "pack": "npm run compile && build --dir",
+      "dist": "npm run compile && build",
+      "release": "npm run compile && build"
+    },
+    "repository": "przemol/seqplots_electron",
+    "keywords": [
+      "ChIP-seq",
+      "RNA-seq",
+      "NGS"
+    ],
+    "author": {
+      "name": "Przemyslaw Stempor",
+      "email": "przemol@github.com",
+      "url": "przemol.github.com"
+    },
+    "license": "BSD",
+    "bugs": {
+      "url": "https://github.com/Przemol/seqplots/issues"
+    },
+    "homepage": "http://przemol.github.io/seqplots",
+    "dependencies": {
+      "bootstrap": "^3.3.7",
+      "jquery": "^3.1.0",
+      "ngrok": "^2.2.2",
+      "electron-squirrel-startup": "^1.0.0"
+    },
+    "devDependencies": {
+      "electron": "^1.4.3",
+      "electron-builder": "^7.18.0",
+      "electron-packager": "^7.5.1",
+      "electron-prebuilt": "^1.2.0",
+      "mocha": "^3.1.2",
+      "spectron": "^3.4.0"
+    },
+    "build": {
+      "appId": "SeqPlots3",
+      "category": "EDA",
+      "asar": false,
+      "win": {
+        "target": [
+          "squirrel",
+          "zip"
+        ]
+      },
+      "linux": {
+        "target": [
+          "AppImage",
+          "zip",
+          "deb"
+        ]
+      },
+      "squirrelWindows": {
+        "msi": true
+      },
+      "files": [
+        "**/*",
+        "!R*",
+        "R${os}",
+        "R${os}_start"
+      ]
+    }
+  },
+  "packageStatus": 200
+}

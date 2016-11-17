@@ -1,0 +1,129 @@
+{
+  "id": 50600863,
+  "name": "electron-installer-redhat",
+  "fullName": "unindented/electron-installer-redhat",
+  "owner": {
+    "login": "unindented",
+    "id": 69485,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/69485?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/unindented",
+    "htmlUrl": "https://github.com/unindented",
+    "followersUrl": "https://api.github.com/users/unindented/followers",
+    "subscriptionsUrl": "https://api.github.com/users/unindented/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/unindented/orgs",
+    "reposUrl": "https://api.github.com/users/unindented/repos",
+    "receivedEventsUrl": "https://api.github.com/users/unindented/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/unindented/electron-installer-redhat",
+  "description": "Create a Red Hat package for your Electron app.",
+  "fork": false,
+  "url": "https://api.github.com/repos/unindented/electron-installer-redhat",
+  "forksUrl": "https://api.github.com/repos/unindented/electron-installer-redhat/forks",
+  "teamsUrl": "https://api.github.com/repos/unindented/electron-installer-redhat/teams",
+  "hooksUrl": "https://api.github.com/repos/unindented/electron-installer-redhat/hooks",
+  "eventsUrl": "https://api.github.com/repos/unindented/electron-installer-redhat/events",
+  "tagsUrl": "https://api.github.com/repos/unindented/electron-installer-redhat/tags",
+  "languagesUrl": "https://api.github.com/repos/unindented/electron-installer-redhat/languages",
+  "stargazersUrl": "https://api.github.com/repos/unindented/electron-installer-redhat/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/unindented/electron-installer-redhat/contributors",
+  "subscribersUrl": "https://api.github.com/repos/unindented/electron-installer-redhat/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/unindented/electron-installer-redhat/subscription",
+  "mergesUrl": "https://api.github.com/repos/unindented/electron-installer-redhat/merges",
+  "downloadsUrl": "https://api.github.com/repos/unindented/electron-installer-redhat/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/unindented/electron-installer-redhat/deployments",
+  "createdAt": "2016-01-28T17:39:04.000Z",
+  "updatedAt": "2016-11-03T13:08:25.000Z",
+  "pushedAt": "2016-11-16T07:46:11.000Z",
+  "gitUrl": "git://github.com/unindented/electron-installer-redhat.git",
+  "sshUrl": "git@github.com:unindented/electron-installer-redhat.git",
+  "cloneUrl": "https://github.com/unindented/electron-installer-redhat.git",
+  "svnUrl": "https://github.com/unindented/electron-installer-redhat",
+  "homepage": null,
+  "size": 1080,
+  "stargazersCount": 12,
+  "watchersCount": 12,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 5,
+  "mirrorUrl": null,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 12,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 5,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-installer-redhat",
+    "description": "Create a Red Hat package for your Electron app.",
+    "version": "0.3.0",
+    "license": "MIT",
+    "author": {
+      "name": "Daniel Perez Alvarez",
+      "email": "unindented@gmail.com",
+      "url": "http://unindented.org/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/unindented/electron-installer-redhat.git"
+    },
+    "keywords": [
+      "electron",
+      "redhat"
+    ],
+    "os": [
+      "darwin",
+      "linux"
+    ],
+    "main": "src/installer.js",
+    "bin": {
+      "electron-installer-redhat": "src/cli.js"
+    },
+    "scripts": {
+      "clean": "rimraf test/fixtures/out",
+      "lint": "eslint .",
+      "spec": "mocha",
+      "test": "npm run clean && npm run lint && npm run spec"
+    },
+    "dependencies": {
+      "asar": "^0.12.0",
+      "async": "^2.0.0",
+      "debug": "^2.2.0",
+      "fs-extra": "^1.0.0",
+      "glob": "^7.0.0",
+      "lodash": "^4.0.1",
+      "temp": "^0.8.3",
+      "word-wrap": "^1.1.0",
+      "yargs": "^6.0.0"
+    },
+    "devDependencies": {
+      "chai": "^3.4.1",
+      "eslint": "^3.2.2",
+      "eslint-config-standard": "^6.0.0",
+      "eslint-plugin-promise": "^3.0.0",
+      "eslint-plugin-standard": "^2.0.0",
+      "mocha": "^3.0.0",
+      "retry": "^0.10.0",
+      "rimraf": "^2.5.1"
+    }
+  },
+  "packageStatus": 200
+}

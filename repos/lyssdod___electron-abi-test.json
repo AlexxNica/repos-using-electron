@@ -1,0 +1,100 @@
+{
+  "id": 70100988,
+  "name": "electron-abi-test",
+  "fullName": "lyssdod/electron-abi-test",
+  "owner": {
+    "login": "lyssdod",
+    "id": 2615950,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2615950?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/lyssdod",
+    "htmlUrl": "https://github.com/lyssdod",
+    "followersUrl": "https://api.github.com/users/lyssdod/followers",
+    "subscriptionsUrl": "https://api.github.com/users/lyssdod/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/lyssdod/orgs",
+    "reposUrl": "https://api.github.com/users/lyssdod/repos",
+    "receivedEventsUrl": "https://api.github.com/users/lyssdod/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/lyssdod/electron-abi-test",
+  "description": null,
+  "fork": false,
+  "url": "https://api.github.com/repos/lyssdod/electron-abi-test",
+  "forksUrl": "https://api.github.com/repos/lyssdod/electron-abi-test/forks",
+  "teamsUrl": "https://api.github.com/repos/lyssdod/electron-abi-test/teams",
+  "hooksUrl": "https://api.github.com/repos/lyssdod/electron-abi-test/hooks",
+  "eventsUrl": "https://api.github.com/repos/lyssdod/electron-abi-test/events",
+  "tagsUrl": "https://api.github.com/repos/lyssdod/electron-abi-test/tags",
+  "languagesUrl": "https://api.github.com/repos/lyssdod/electron-abi-test/languages",
+  "stargazersUrl": "https://api.github.com/repos/lyssdod/electron-abi-test/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/lyssdod/electron-abi-test/contributors",
+  "subscribersUrl": "https://api.github.com/repos/lyssdod/electron-abi-test/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/lyssdod/electron-abi-test/subscription",
+  "mergesUrl": "https://api.github.com/repos/lyssdod/electron-abi-test/merges",
+  "downloadsUrl": "https://api.github.com/repos/lyssdod/electron-abi-test/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/lyssdod/electron-abi-test/deployments",
+  "createdAt": "2016-10-05T21:30:22.000Z",
+  "updatedAt": "2016-10-05T21:42:46.000Z",
+  "pushedAt": "2016-10-05T21:42:45.000Z",
+  "gitUrl": "git://github.com/lyssdod/electron-abi-test.git",
+  "sshUrl": "git@github.com:lyssdod/electron-abi-test.git",
+  "cloneUrl": "https://github.com/lyssdod/electron-abi-test.git",
+  "svnUrl": "https://github.com/lyssdod/electron-abi-test",
+  "homepage": null,
+  "size": 2,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-abi-test",
+    "version": "0.0.0",
+    "description": "Sample electron app",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "preinstall": "echo Patching && patch -p0 < electron-builder.patch",
+      "start": "electron app",
+      "postinstall": "install-app-deps"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lyssdod/electron-abi-test.git"
+    },
+    "author": "Alex Revin",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/cosmosgenius/electron-abi-test/issues"
+    },
+    "homepage": "https://github.com/cosmosgenius/electron-abi-test#readme",
+    "devDependencies": {
+      "electron-builder": "latest",
+      "electron-prebuilt": "1.2.3"
+    },
+    "build": {
+      "appId": "com.cosmosgenius.sampleelectronleveldb",
+      "app-category-type": "public.app-category.developer-tools",
+      "asar": false
+    }
+  },
+  "packageStatus": 200
+}

@@ -1,0 +1,106 @@
+{
+  "id": 72400668,
+  "name": "photos-mac",
+  "fullName": "ubunturox104/photos-mac",
+  "owner": {
+    "login": "ubunturox104",
+    "id": 13445064,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/13445064?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/ubunturox104",
+    "htmlUrl": "https://github.com/ubunturox104",
+    "followersUrl": "https://api.github.com/users/ubunturox104/followers",
+    "subscriptionsUrl": "https://api.github.com/users/ubunturox104/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/ubunturox104/orgs",
+    "reposUrl": "https://api.github.com/users/ubunturox104/repos",
+    "receivedEventsUrl": "https://api.github.com/users/ubunturox104/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/ubunturox104/photos-mac",
+  "description": "The missing Google Photos client for macOS.",
+  "fork": false,
+  "url": "https://api.github.com/repos/ubunturox104/photos-mac",
+  "forksUrl": "https://api.github.com/repos/ubunturox104/photos-mac/forks",
+  "teamsUrl": "https://api.github.com/repos/ubunturox104/photos-mac/teams",
+  "hooksUrl": "https://api.github.com/repos/ubunturox104/photos-mac/hooks",
+  "eventsUrl": "https://api.github.com/repos/ubunturox104/photos-mac/events",
+  "tagsUrl": "https://api.github.com/repos/ubunturox104/photos-mac/tags",
+  "languagesUrl": "https://api.github.com/repos/ubunturox104/photos-mac/languages",
+  "stargazersUrl": "https://api.github.com/repos/ubunturox104/photos-mac/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/ubunturox104/photos-mac/contributors",
+  "subscribersUrl": "https://api.github.com/repos/ubunturox104/photos-mac/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/ubunturox104/photos-mac/subscription",
+  "mergesUrl": "https://api.github.com/repos/ubunturox104/photos-mac/merges",
+  "downloadsUrl": "https://api.github.com/repos/ubunturox104/photos-mac/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/ubunturox104/photos-mac/deployments",
+  "createdAt": "2016-10-31T04:31:54.000Z",
+  "updatedAt": "2016-11-01T03:03:20.000Z",
+  "pushedAt": "2016-10-31T04:41:03.000Z",
+  "gitUrl": "git://github.com/ubunturox104/photos-mac.git",
+  "sshUrl": "git@github.com:ubunturox104/photos-mac.git",
+  "cloneUrl": "https://github.com/ubunturox104/photos-mac.git",
+  "svnUrl": "https://github.com/ubunturox104/photos-mac",
+  "homepage": null,
+  "size": 46678,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "cc0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "spdxId": "CC0-1.0",
+    "url": "https://api.github.com/licenses/cc0-1.0",
+    "featured": false
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "photos-mac",
+    "productName": "Photos for Mac",
+    "version": "1.0.0",
+    "description": "The missing Google Photos client for Mac.",
+    "author": "GitHub",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "build --mac dmg"
+    },
+    "keywords": [
+      "Photos",
+      "Google",
+      "images",
+      "macOS",
+      "demo"
+    ],
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "^1.4.1"
+    },
+    "build": {
+      "appId": "ga.cntlaltdel.photos-mac",
+      "app-category-type": "public.app-category.photos",
+      "dmg": {},
+      "win": {
+        "iconUrl": "http://eatodo.s3.amazonaws.com/icon.ico"
+      }
+    }
+  },
+  "packageStatus": 200
+}

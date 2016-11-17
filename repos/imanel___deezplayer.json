@@ -1,0 +1,111 @@
+{
+  "id": 4718053,
+  "name": "deezplayer",
+  "fullName": "imanel/deezplayer",
+  "owner": {
+    "login": "imanel",
+    "id": 36869,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/36869?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/imanel",
+    "htmlUrl": "https://github.com/imanel",
+    "followersUrl": "https://api.github.com/users/imanel/followers",
+    "subscriptionsUrl": "https://api.github.com/users/imanel/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/imanel/orgs",
+    "reposUrl": "https://api.github.com/users/imanel/repos",
+    "receivedEventsUrl": "https://api.github.com/users/imanel/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/imanel/deezplayer",
+  "description": "Deezer Desktop app for Windows, Linux and macOS",
+  "fork": false,
+  "url": "https://api.github.com/repos/imanel/deezplayer",
+  "forksUrl": "https://api.github.com/repos/imanel/deezplayer/forks",
+  "teamsUrl": "https://api.github.com/repos/imanel/deezplayer/teams",
+  "hooksUrl": "https://api.github.com/repos/imanel/deezplayer/hooks",
+  "eventsUrl": "https://api.github.com/repos/imanel/deezplayer/events",
+  "tagsUrl": "https://api.github.com/repos/imanel/deezplayer/tags",
+  "languagesUrl": "https://api.github.com/repos/imanel/deezplayer/languages",
+  "stargazersUrl": "https://api.github.com/repos/imanel/deezplayer/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/imanel/deezplayer/contributors",
+  "subscribersUrl": "https://api.github.com/repos/imanel/deezplayer/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/imanel/deezplayer/subscription",
+  "mergesUrl": "https://api.github.com/repos/imanel/deezplayer/merges",
+  "downloadsUrl": "https://api.github.com/repos/imanel/deezplayer/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/imanel/deezplayer/deployments",
+  "createdAt": "2012-06-19T19:15:17.000Z",
+  "updatedAt": "2016-10-03T06:17:43.000Z",
+  "pushedAt": "2016-10-03T08:19:44.000Z",
+  "gitUrl": "git://github.com/imanel/deezplayer.git",
+  "sshUrl": "git@github.com:imanel/deezplayer.git",
+  "cloneUrl": "https://github.com/imanel/deezplayer.git",
+  "svnUrl": "https://github.com/imanel/deezplayer",
+  "homepage": "https://deezplayer.imanel.org",
+  "size": 42548,
+  "stargazersCount": 17,
+  "watchersCount": 17,
+  "language": "CoffeeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": true,
+  "forksCount": 8,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 17,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 8,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "DeezPlayer",
+    "description": "Best way to experience Deezer",
+    "author": "Bernard Potocki <bernard.potocki@imanel.org>",
+    "homepage": "https://deezplayer.imanel.org",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/imanel/DeezPlayer.git"
+    },
+    "scripts": {
+      "start": "electron ./app --enable-logging",
+      "build": "npm run build-linux && npm run build-mac && npm run build-windows",
+      "build-linux": "build --linux --x64",
+      "build-mac": "build --mac --x64",
+      "build-windows": "build --win --ia32",
+      "postinstall": "install-app-deps"
+    },
+    "devDependencies": {
+      "electron": "^1.4.0",
+      "electron-builder": "^6.7.6"
+    },
+    "build": {
+      "appId": "org.imanel.deezplayer",
+      "extraResources": [
+        {
+          "from": "flash/${os}",
+          "to": "flash"
+        }
+      ],
+      "linux": {
+        "target": "deb"
+      },
+      "mac": {
+        "category": "public.app-category.music",
+        "target": "dmg"
+      },
+      "win": {
+        "target": "nsis"
+      }
+    }
+  },
+  "packageStatus": 200
+}

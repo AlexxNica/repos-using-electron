@@ -1,0 +1,100 @@
+{
+  "id": 66010477,
+  "name": "sertle",
+  "fullName": "SergioDonati/sertle",
+  "owner": {
+    "login": "SergioDonati",
+    "id": 6071489,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6071489?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/SergioDonati",
+    "htmlUrl": "https://github.com/SergioDonati",
+    "followersUrl": "https://api.github.com/users/SergioDonati/followers",
+    "subscriptionsUrl": "https://api.github.com/users/SergioDonati/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/SergioDonati/orgs",
+    "reposUrl": "https://api.github.com/users/SergioDonati/repos",
+    "receivedEventsUrl": "https://api.github.com/users/SergioDonati/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/SergioDonati/sertle",
+  "description": null,
+  "fork": false,
+  "url": "https://api.github.com/repos/SergioDonati/sertle",
+  "forksUrl": "https://api.github.com/repos/SergioDonati/sertle/forks",
+  "teamsUrl": "https://api.github.com/repos/SergioDonati/sertle/teams",
+  "hooksUrl": "https://api.github.com/repos/SergioDonati/sertle/hooks",
+  "eventsUrl": "https://api.github.com/repos/SergioDonati/sertle/events",
+  "tagsUrl": "https://api.github.com/repos/SergioDonati/sertle/tags",
+  "languagesUrl": "https://api.github.com/repos/SergioDonati/sertle/languages",
+  "stargazersUrl": "https://api.github.com/repos/SergioDonati/sertle/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/SergioDonati/sertle/contributors",
+  "subscribersUrl": "https://api.github.com/repos/SergioDonati/sertle/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/SergioDonati/sertle/subscription",
+  "mergesUrl": "https://api.github.com/repos/SergioDonati/sertle/merges",
+  "downloadsUrl": "https://api.github.com/repos/SergioDonati/sertle/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/SergioDonati/sertle/deployments",
+  "createdAt": "2016-08-18T15:52:43.000Z",
+  "updatedAt": "2016-08-18T15:53:04.000Z",
+  "pushedAt": "2016-11-12T14:30:27.000Z",
+  "gitUrl": "git://github.com/SergioDonati/sertle.git",
+  "sshUrl": "git@github.com:SergioDonati/sertle.git",
+  "cloneUrl": "https://github.com/SergioDonati/sertle.git",
+  "svnUrl": "https://github.com/SergioDonati/sertle",
+  "homepage": null,
+  "size": 193000,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "sertle",
+    "version": "0.0.5",
+    "private": true,
+    "description": "Lightweight application to help to manage customers and make invoices.",
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "start": "npm install && electron ./app",
+      "pack": "build --dir --x64",
+      "dist": "build --x64"
+    },
+    "author": "donati.sergio@gmail.com",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/SergioDonati/sertle.git"
+    },
+    "build": {
+      "appId": "com.sertle.desktop.app",
+      "category": "public.app-category.business",
+      "productName": "Sertle",
+      "license": "GPL-3.0",
+      "win": {
+        "msi": true
+      }
+    },
+    "devDependencies": {
+      "devtron": "^1.4.0",
+      "electron-builder": "^7.22.1",
+      "electron-prebuilt": "^1.4.5"
+    }
+  },
+  "packageStatus": 200
+}

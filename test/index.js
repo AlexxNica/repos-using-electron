@@ -1,11 +1,17 @@
 const expect = require('chai').expect
 const repos = require('..')
+const uniq = require('lodash.uniq')
 const they = it
 
 describe('repos', function () {
   it('is an array with hella repos', function () {
     expect(repos).to.be.an('array')
-    expect(repos.length).to.be.above(5478)
+    expect(repos.length).to.be.above(10946)
+  })
+
+  they('are all unique', function () {
+    const names = repos.map(repo => repo.fullName)
+    expect(uniq(names)).to.deep.equal(names)
   })
 
   it('is sorted by fork count', function () {

@@ -1,0 +1,124 @@
+{
+  "id": 72051357,
+  "name": "electron",
+  "fullName": "stencila/electron",
+  "owner": {
+    "login": "stencila",
+    "id": 732692,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/732692?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/stencila",
+    "htmlUrl": "https://github.com/stencila",
+    "followersUrl": "https://api.github.com/users/stencila/followers",
+    "subscriptionsUrl": "https://api.github.com/users/stencila/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/stencila/orgs",
+    "reposUrl": "https://api.github.com/users/stencila/repos",
+    "receivedEventsUrl": "https://api.github.com/users/stencila/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/stencila/electron",
+  "description": "Stencila on the desktop",
+  "fork": false,
+  "url": "https://api.github.com/repos/stencila/electron",
+  "forksUrl": "https://api.github.com/repos/stencila/electron/forks",
+  "teamsUrl": "https://api.github.com/repos/stencila/electron/teams",
+  "hooksUrl": "https://api.github.com/repos/stencila/electron/hooks",
+  "eventsUrl": "https://api.github.com/repos/stencila/electron/events",
+  "tagsUrl": "https://api.github.com/repos/stencila/electron/tags",
+  "languagesUrl": "https://api.github.com/repos/stencila/electron/languages",
+  "stargazersUrl": "https://api.github.com/repos/stencila/electron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/stencila/electron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/stencila/electron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/stencila/electron/subscription",
+  "mergesUrl": "https://api.github.com/repos/stencila/electron/merges",
+  "downloadsUrl": "https://api.github.com/repos/stencila/electron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/stencila/electron/deployments",
+  "createdAt": "2016-10-26T22:56:22.000Z",
+  "updatedAt": "2016-10-26T22:57:52.000Z",
+  "pushedAt": "2016-10-26T22:57:51.000Z",
+  "gitUrl": "git://github.com/stencila/electron.git",
+  "sshUrl": "git@github.com:stencila/electron.git",
+  "cloneUrl": "https://github.com/stencila/electron.git",
+  "svnUrl": "https://github.com/stencila/electron",
+  "homepage": null,
+  "size": 1,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "organization": {
+    "login": "stencila",
+    "id": 732692,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/732692?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/stencila",
+    "htmlUrl": "https://github.com/stencila",
+    "followersUrl": "https://api.github.com/users/stencila/followers",
+    "subscriptionsUrl": "https://api.github.com/users/stencila/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/stencila/orgs",
+    "reposUrl": "https://api.github.com/users/stencila/repos",
+    "receivedEventsUrl": "https://api.github.com/users/stencila/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "stencila-electron",
+    "productName": "Stencila",
+    "version": "0.1.0",
+    "description": "",
+    "keywords": [
+      "data",
+      "documents",
+      "sheets",
+      "sessions",
+      "reproducibility",
+      "science"
+    ],
+    "author": "",
+    "license": "GPL-3.0",
+    "homepage": "https://github.com/stencila/electron#readme",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/stencila/electron.git"
+    },
+    "bugs": {
+      "url": "https://github.com/stencila/electron/issues"
+    },
+    "scripts": {
+      "lint": "eslint *.js",
+      "start": "electron .",
+      "build": "electron-packager . --out=build --asar --overwrite --all"
+    },
+    "files": [
+      "index.js"
+    ],
+    "dependencies": {
+      "electron-debug": "^1.0.0"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.0",
+      "electron": "^1.4.4",
+      "electron-packager": "^8.0.0",
+      "eslint": "^3.5.0"
+    }
+  },
+  "packageStatus": 200
+}

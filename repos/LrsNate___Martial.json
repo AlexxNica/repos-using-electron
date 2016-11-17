@@ -1,0 +1,113 @@
+{
+  "id": 55013515,
+  "name": "Martial",
+  "fullName": "LrsNate/Martial",
+  "owner": {
+    "login": "LrsNate",
+    "id": 3739824,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3739824?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/LrsNate",
+    "htmlUrl": "https://github.com/LrsNate",
+    "followersUrl": "https://api.github.com/users/LrsNate/followers",
+    "subscriptionsUrl": "https://api.github.com/users/LrsNate/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/LrsNate/orgs",
+    "reposUrl": "https://api.github.com/users/LrsNate/repos",
+    "receivedEventsUrl": "https://api.github.com/users/LrsNate/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/LrsNate/Martial",
+  "description": null,
+  "fork": false,
+  "url": "https://api.github.com/repos/LrsNate/Martial",
+  "forksUrl": "https://api.github.com/repos/LrsNate/Martial/forks",
+  "teamsUrl": "https://api.github.com/repos/LrsNate/Martial/teams",
+  "hooksUrl": "https://api.github.com/repos/LrsNate/Martial/hooks",
+  "eventsUrl": "https://api.github.com/repos/LrsNate/Martial/events",
+  "tagsUrl": "https://api.github.com/repos/LrsNate/Martial/tags",
+  "languagesUrl": "https://api.github.com/repos/LrsNate/Martial/languages",
+  "stargazersUrl": "https://api.github.com/repos/LrsNate/Martial/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/LrsNate/Martial/contributors",
+  "subscribersUrl": "https://api.github.com/repos/LrsNate/Martial/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/LrsNate/Martial/subscription",
+  "mergesUrl": "https://api.github.com/repos/LrsNate/Martial/merges",
+  "downloadsUrl": "https://api.github.com/repos/LrsNate/Martial/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/LrsNate/Martial/deployments",
+  "createdAt": "2016-03-29T22:02:43.000Z",
+  "updatedAt": "2016-07-16T15:33:58.000Z",
+  "pushedAt": "2016-11-13T23:52:32.000Z",
+  "gitUrl": "git://github.com/LrsNate/Martial.git",
+  "sshUrl": "git@github.com:LrsNate/Martial.git",
+  "cloneUrl": "https://github.com/LrsNate/Martial.git",
+  "svnUrl": "https://github.com/LrsNate/Martial",
+  "homepage": null,
+  "size": 186,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "devDependencies": {
+      "babel-core": "^6.17.0",
+      "babel-loader": "^6.2.5",
+      "babel-preset-es2015": "^6.16.0",
+      "electron": "^1.4.6",
+      "electron-builder": "^8.5.3",
+      "eslint": "^3.10.0",
+      "eslint-config-airbnb": "^13.0.0",
+      "eslint-plugin-angular": "^1.4.1",
+      "eslint-plugin-import": "^2.2.0",
+      "eslint-plugin-jsx-a11y": "^3.0.1",
+      "eslint-plugin-react": "^6.6.0",
+      "json-loader": "^0.5.4",
+      "pre-commit": "^1.1.3",
+      "webpack": "^1.13.2"
+    },
+    "scripts": {
+      "postinstall": "cd app && npm install",
+      "start": "NODE_ENV=development ./node_modules/.bin/electron app",
+      "lint": "eslint 'app/**/*.js'",
+      "webpack": "webpack --progress --colors --display-modules --config webpack.prod.config.js",
+      "webpack-watch": "webpack --progress --colors --watch",
+      "pack": "build --dir",
+      "predist": "npm run webpack",
+      "dist": "build"
+    },
+    "pre-commit": [
+      "lint"
+    ],
+    "build": {
+      "appId": "fr.nate.martial",
+      "category": "public.app-category.education"
+    },
+    "dependencies": {
+      "eslint-plugin-jsx-a11y": "^2.2.3"
+    }
+  },
+  "packageStatus": 200
+}

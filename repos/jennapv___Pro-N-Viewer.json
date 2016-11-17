@@ -1,0 +1,138 @@
+{
+  "id": 72767396,
+  "name": "Pro-N-Viewer",
+  "fullName": "jennapv/Pro-N-Viewer",
+  "owner": {
+    "login": "jennapv",
+    "id": 19869568,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/19869568?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/jennapv",
+    "htmlUrl": "https://github.com/jennapv",
+    "followersUrl": "https://api.github.com/users/jennapv/followers",
+    "subscriptionsUrl": "https://api.github.com/users/jennapv/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/jennapv/orgs",
+    "reposUrl": "https://api.github.com/users/jennapv/repos",
+    "receivedEventsUrl": "https://api.github.com/users/jennapv/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/jennapv/Pro-N-Viewer",
+  "description": "A community supported viewer for photos, drawings, comics, manga, gifs, videos, etc...",
+  "fork": false,
+  "url": "https://api.github.com/repos/jennapv/Pro-N-Viewer",
+  "forksUrl": "https://api.github.com/repos/jennapv/Pro-N-Viewer/forks",
+  "teamsUrl": "https://api.github.com/repos/jennapv/Pro-N-Viewer/teams",
+  "hooksUrl": "https://api.github.com/repos/jennapv/Pro-N-Viewer/hooks",
+  "eventsUrl": "https://api.github.com/repos/jennapv/Pro-N-Viewer/events",
+  "tagsUrl": "https://api.github.com/repos/jennapv/Pro-N-Viewer/tags",
+  "languagesUrl": "https://api.github.com/repos/jennapv/Pro-N-Viewer/languages",
+  "stargazersUrl": "https://api.github.com/repos/jennapv/Pro-N-Viewer/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/jennapv/Pro-N-Viewer/contributors",
+  "subscribersUrl": "https://api.github.com/repos/jennapv/Pro-N-Viewer/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/jennapv/Pro-N-Viewer/subscription",
+  "mergesUrl": "https://api.github.com/repos/jennapv/Pro-N-Viewer/merges",
+  "downloadsUrl": "https://api.github.com/repos/jennapv/Pro-N-Viewer/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/jennapv/Pro-N-Viewer/deployments",
+  "createdAt": "2016-11-03T16:59:22.000Z",
+  "updatedAt": "2016-11-03T17:03:40.000Z",
+  "pushedAt": "2016-11-15T19:48:02.000Z",
+  "gitUrl": "git://github.com/jennapv/Pro-N-Viewer.git",
+  "sshUrl": "git@github.com:jennapv/Pro-N-Viewer.git",
+  "cloneUrl": "https://github.com/jennapv/Pro-N-Viewer.git",
+  "svnUrl": "https://github.com/jennapv/Pro-N-Viewer",
+  "homepage": null,
+  "size": 189,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "build": "babel --out-dir build --source-maps inline src",
+      "watch": "babel --watch --out-dir build --source-maps inline src",
+      "start": "cross-env NODE_ENV=development electron main.js",
+      "startp": "cross-env NODE_ENV=production electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "babel": {
+      "plugins": [
+        "transform-es2015-modules-commonjs"
+      ],
+      "presets": [
+        "stage-0",
+        "react"
+      ]
+    },
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/electron/electron-quick-start#readme",
+    "devDependencies": {
+      "babel-cli": "^6.18.0",
+      "babel-loader": "^6.2.7",
+      "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+      "babel-polyfill": "^6.16.0",
+      "babel-preset-es2015": "^6.18.0",
+      "babel-preset-react": "^6.16.0",
+      "babel-preset-stage-0": "^6.16.0",
+      "concurrently": "^3.1.0",
+      "cross-env": "^3.1.3",
+      "css-loader": "^0.25.0",
+      "electron": "^1.4.5",
+      "express": "^4.14.0",
+      "postcss-loader": "^1.1.0",
+      "style-loader": "^0.13.1",
+      "webpack": "^1.13.3",
+      "webpack-dev-middleware": "^1.8.4",
+      "webpack-hot-middleware": "^2.13.1",
+      "webpack-target-electron-renderer": "^0.4.0"
+    },
+    "dependencies": {
+      "immutability-helper": "^2.0.0",
+      "jszip": "^3.1.1",
+      "lodash": "^4.15.0",
+      "mime-types": "^2.1.11",
+      "optionator": "^0.8.1",
+      "other-window-ipc": "^1.2.0",
+      "react": "^15.3.2",
+      "react-dom": "^15.3.2",
+      "react-list": "^0.8.0",
+      "react-split-pane": "^0.1.52"
+    }
+  },
+  "packageStatus": 200
+}

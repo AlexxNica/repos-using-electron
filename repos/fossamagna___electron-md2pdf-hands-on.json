@@ -1,0 +1,129 @@
+{
+  "id": 44662879,
+  "name": "electron-md2pdf-hands-on",
+  "fullName": "fossamagna/electron-md2pdf-hands-on",
+  "owner": {
+    "login": "fossamagna",
+    "id": 1638848,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1638848?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/fossamagna",
+    "htmlUrl": "https://github.com/fossamagna",
+    "followersUrl": "https://api.github.com/users/fossamagna/followers",
+    "subscriptionsUrl": "https://api.github.com/users/fossamagna/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/fossamagna/orgs",
+    "reposUrl": "https://api.github.com/users/fossamagna/repos",
+    "receivedEventsUrl": "https://api.github.com/users/fossamagna/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/fossamagna/electron-md2pdf-hands-on",
+  "description": null,
+  "fork": false,
+  "url": "https://api.github.com/repos/fossamagna/electron-md2pdf-hands-on",
+  "forksUrl": "https://api.github.com/repos/fossamagna/electron-md2pdf-hands-on/forks",
+  "teamsUrl": "https://api.github.com/repos/fossamagna/electron-md2pdf-hands-on/teams",
+  "hooksUrl": "https://api.github.com/repos/fossamagna/electron-md2pdf-hands-on/hooks",
+  "eventsUrl": "https://api.github.com/repos/fossamagna/electron-md2pdf-hands-on/events",
+  "tagsUrl": "https://api.github.com/repos/fossamagna/electron-md2pdf-hands-on/tags",
+  "languagesUrl": "https://api.github.com/repos/fossamagna/electron-md2pdf-hands-on/languages",
+  "stargazersUrl": "https://api.github.com/repos/fossamagna/electron-md2pdf-hands-on/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/fossamagna/electron-md2pdf-hands-on/contributors",
+  "subscribersUrl": "https://api.github.com/repos/fossamagna/electron-md2pdf-hands-on/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/fossamagna/electron-md2pdf-hands-on/subscription",
+  "mergesUrl": "https://api.github.com/repos/fossamagna/electron-md2pdf-hands-on/merges",
+  "downloadsUrl": "https://api.github.com/repos/fossamagna/electron-md2pdf-hands-on/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/fossamagna/electron-md2pdf-hands-on/deployments",
+  "createdAt": "2015-10-21T08:30:21.000Z",
+  "updatedAt": "2015-10-21T08:34:41.000Z",
+  "pushedAt": "2015-11-06T10:02:47.000Z",
+  "gitUrl": "git://github.com/fossamagna/electron-md2pdf-hands-on.git",
+  "sshUrl": "git@github.com:fossamagna/electron-md2pdf-hands-on.git",
+  "cloneUrl": "https://github.com/fossamagna/electron-md2pdf-hands-on.git",
+  "svnUrl": "https://github.com/fossamagna/electron-md2pdf-hands-on",
+  "homepage": null,
+  "size": 196,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-md2pdf",
+    "productName": "ElectronMd2pdf",
+    "version": "0.1.0",
+    "description": "My splendid app",
+    "license": "MIT",
+    "repository": "fossamagna/electron-md2pdf-hands-on",
+    "author": {
+      "name": "MURAKAMI Masahiko",
+      "email": "m-murakami@esm.co.jp",
+      "url": "github.com/fossamagna"
+    },
+    "engines": {
+      "node": ">=4"
+    },
+    "electronVersion": "0.34.2",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css"
+    ],
+    "keywords": [
+      "electron-app"
+    ],
+    "dependencies": {
+      "ect": "^0.5.9",
+      "electron-debug": "^0.3.2",
+      "github-markdown-css": "^2.1.0",
+      "highlight.js": "^8.9.1",
+      "marked": "^0.3.5"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.0.0",
+      "electron-prebuilt": "^0.34.0",
+      "xo": "^0.10.1"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ],
+      "space": 2,
+      "rules": {
+        "prefer-reflect": 0,
+        "babel/object-shorthand": 0
+      }
+    }
+  },
+  "packageStatus": 200
+}

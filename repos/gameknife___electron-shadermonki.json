@@ -1,0 +1,114 @@
+{
+  "id": 72964083,
+  "name": "electron-shadermonki",
+  "fullName": "gameknife/electron-shadermonki",
+  "owner": {
+    "login": "gameknife",
+    "id": 2137741,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2137741?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/gameknife",
+    "htmlUrl": "https://github.com/gameknife",
+    "followersUrl": "https://api.github.com/users/gameknife/followers",
+    "subscriptionsUrl": "https://api.github.com/users/gameknife/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/gameknife/orgs",
+    "reposUrl": "https://api.github.com/users/gameknife/repos",
+    "receivedEventsUrl": "https://api.github.com/users/gameknife/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/gameknife/electron-shadermonki",
+  "description": "a reserch desktop app based on electron",
+  "fork": false,
+  "url": "https://api.github.com/repos/gameknife/electron-shadermonki",
+  "forksUrl": "https://api.github.com/repos/gameknife/electron-shadermonki/forks",
+  "teamsUrl": "https://api.github.com/repos/gameknife/electron-shadermonki/teams",
+  "hooksUrl": "https://api.github.com/repos/gameknife/electron-shadermonki/hooks",
+  "eventsUrl": "https://api.github.com/repos/gameknife/electron-shadermonki/events",
+  "tagsUrl": "https://api.github.com/repos/gameknife/electron-shadermonki/tags",
+  "languagesUrl": "https://api.github.com/repos/gameknife/electron-shadermonki/languages",
+  "stargazersUrl": "https://api.github.com/repos/gameknife/electron-shadermonki/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/gameknife/electron-shadermonki/contributors",
+  "subscribersUrl": "https://api.github.com/repos/gameknife/electron-shadermonki/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/gameknife/electron-shadermonki/subscription",
+  "mergesUrl": "https://api.github.com/repos/gameknife/electron-shadermonki/merges",
+  "downloadsUrl": "https://api.github.com/repos/gameknife/electron-shadermonki/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/gameknife/electron-shadermonki/deployments",
+  "createdAt": "2016-11-06T01:47:58.000Z",
+  "updatedAt": "2016-11-15T10:40:52.000Z",
+  "pushedAt": "2016-11-16T05:14:27.000Z",
+  "gitUrl": "git://github.com/gameknife/electron-shadermonki.git",
+  "sshUrl": "git@github.com:gameknife/electron-shadermonki.git",
+  "cloneUrl": "https://github.com/gameknife/electron-shadermonki.git",
+  "svnUrl": "https://github.com/gameknife/electron-shadermonki",
+  "homepage": null,
+  "size": 3684,
+  "stargazersCount": 6,
+  "watchersCount": 6,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 6,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 1,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-shadermonki",
+    "version": "1.0.0",
+    "description": "A research Electron app",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "pack": "electron-packager . --all",
+      "watch-js": "watchify main.js -o bundle.js -dv",
+      "build-js": "browserify main.js > bundle.js"
+    },
+    "repository": "https://github.com/gameknife/electron-shadermonki",
+    "keywords": [
+      "Electron",
+      "Shader"
+    ],
+    "author": "gameKnife",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^1.4.1",
+      "electron-packager": "^8.2.0",
+      "browserify": "^13.1.1",
+      "watchify": "^3.7.0"
+    },
+    "build": {
+      "appId": "gameknife.shadermonki",
+      "mac": {
+        "category": "gameknife.app.category.utils"
+      },
+      "win": {
+        "iconUrl": "(windows-only) https link to icon"
+      }
+    },
+    "dependencies": {
+      "fs-extra": "^1.0.0",
+      "bluebird": "^3.4.6",
+      "fs-promise": "^1.0.0"
+    }
+  },
+  "packageStatus": 200
+}

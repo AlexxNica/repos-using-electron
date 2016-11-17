@@ -1,0 +1,127 @@
+{
+  "id": 65550354,
+  "name": "ChinookElectron",
+  "fullName": "cwoodruff/ChinookElectron",
+  "owner": {
+    "login": "cwoodruff",
+    "id": 68394,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/68394?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/cwoodruff",
+    "htmlUrl": "https://github.com/cwoodruff",
+    "followersUrl": "https://api.github.com/users/cwoodruff/followers",
+    "subscriptionsUrl": "https://api.github.com/users/cwoodruff/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/cwoodruff/orgs",
+    "reposUrl": "https://api.github.com/users/cwoodruff/repos",
+    "receivedEventsUrl": "https://api.github.com/users/cwoodruff/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/cwoodruff/ChinookElectron",
+  "description": null,
+  "fork": false,
+  "url": "https://api.github.com/repos/cwoodruff/ChinookElectron",
+  "forksUrl": "https://api.github.com/repos/cwoodruff/ChinookElectron/forks",
+  "teamsUrl": "https://api.github.com/repos/cwoodruff/ChinookElectron/teams",
+  "hooksUrl": "https://api.github.com/repos/cwoodruff/ChinookElectron/hooks",
+  "eventsUrl": "https://api.github.com/repos/cwoodruff/ChinookElectron/events",
+  "tagsUrl": "https://api.github.com/repos/cwoodruff/ChinookElectron/tags",
+  "languagesUrl": "https://api.github.com/repos/cwoodruff/ChinookElectron/languages",
+  "stargazersUrl": "https://api.github.com/repos/cwoodruff/ChinookElectron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/cwoodruff/ChinookElectron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/cwoodruff/ChinookElectron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/cwoodruff/ChinookElectron/subscription",
+  "mergesUrl": "https://api.github.com/repos/cwoodruff/ChinookElectron/merges",
+  "downloadsUrl": "https://api.github.com/repos/cwoodruff/ChinookElectron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/cwoodruff/ChinookElectron/deployments",
+  "createdAt": "2016-08-12T12:05:40.000Z",
+  "updatedAt": "2016-08-12T23:51:53.000Z",
+  "pushedAt": "2016-08-23T00:39:32.000Z",
+  "gitUrl": "git://github.com/cwoodruff/ChinookElectron.git",
+  "sshUrl": "git@github.com:cwoodruff/ChinookElectron.git",
+  "cloneUrl": "https://github.com/cwoodruff/ChinookElectron.git",
+  "svnUrl": "https://github.com/cwoodruff/ChinookElectron",
+  "homepage": null,
+  "size": 562,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "build": {
+      "appId": "com.chriswoodruff.chinookElectron",
+      "app-category-type": "",
+      "win": {
+        "target": [
+          "nsis"
+        ],
+        "icon": "resources/windows/icon.ico"
+      },
+      "nsis": {
+        "oneClick": true,
+        "installerHeaderIcon": "resources/windows/setup-icon.ico"
+      },
+      "mac": {
+        "icon": "resources/osx/icon.icns"
+      },
+      "dmg": {
+        "icon": "resources/osx/dmg-icon.icns",
+        "background": "resources/osx/dmg-background.png"
+      }
+    },
+    "directories": {
+      "buildResources": "resources",
+      "app": "build"
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "electron-builder": "^5.12.1",
+      "electron-mocha": "^2.0.0",
+      "electron-prebuilt": "^1.0.1",
+      "fs-jetpack": "^0.9.0",
+      "gulp": "^3.9.0",
+      "gulp-batch": "^1.0.5",
+      "gulp-less": "^3.0.3",
+      "gulp-plumber": "^1.1.0",
+      "gulp-util": "^3.0.6",
+      "gulp-watch": "^4.3.5",
+      "q": "^1.4.1",
+      "rollup": "^0.26.3",
+      "yargs": "^4.2.0"
+    },
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "build": "gulp build",
+      "prerelease": "gulp build --env=production",
+      "release": "build --x64 --publish never",
+      "start": "gulp start",
+      "pretest": "gulp build --env=test",
+      "test": "electron-mocha build --renderer"
+    }
+  },
+  "packageStatus": 200
+}

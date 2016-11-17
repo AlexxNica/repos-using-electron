@@ -1,0 +1,104 @@
+{
+  "id": 48270954,
+  "name": "plaintexttaskmenu",
+  "fullName": "sirtimbly/plaintexttaskmenu",
+  "owner": {
+    "login": "sirtimbly",
+    "id": 18685,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/18685?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/sirtimbly",
+    "htmlUrl": "https://github.com/sirtimbly",
+    "followersUrl": "https://api.github.com/users/sirtimbly/followers",
+    "subscriptionsUrl": "https://api.github.com/users/sirtimbly/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/sirtimbly/orgs",
+    "reposUrl": "https://api.github.com/users/sirtimbly/repos",
+    "receivedEventsUrl": "https://api.github.com/users/sirtimbly/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/sirtimbly/plaintexttaskmenu",
+  "description": "Plain Text Productivity App for displaying all tasks with due dates in any .taskpaper files in a directory. (Electron)",
+  "fork": false,
+  "url": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu",
+  "forksUrl": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu/forks",
+  "teamsUrl": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu/teams",
+  "hooksUrl": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu/hooks",
+  "eventsUrl": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu/events",
+  "tagsUrl": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu/tags",
+  "languagesUrl": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu/languages",
+  "stargazersUrl": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu/contributors",
+  "subscribersUrl": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu/subscription",
+  "mergesUrl": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu/merges",
+  "downloadsUrl": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu/deployments",
+  "createdAt": "2015-12-19T06:16:29.000Z",
+  "updatedAt": "2016-10-31T05:59:15.000Z",
+  "pushedAt": "2016-11-01T14:10:40.000Z",
+  "gitUrl": "git://github.com/sirtimbly/plaintexttaskmenu.git",
+  "sshUrl": "git@github.com:sirtimbly/plaintexttaskmenu.git",
+  "cloneUrl": "https://github.com/sirtimbly/plaintexttaskmenu.git",
+  "svnUrl": "https://github.com/sirtimbly/plaintexttaskmenu",
+  "homepage": null,
+  "size": 134,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "plaintexttaskmenu",
+    "version": "0.2.1",
+    "description": "A program that examines taskpaper files in a folder and creates a markdown table of the due dates in order",
+    "main": "index.js",
+    "author": "Tim Bendt <sirtimbly@gmail.com>",
+    "dependencies": {
+      "commander": "^2.3.0",
+      "js-yaml": "^3.2.2",
+      "lodash": "^2.4.1",
+      "marked": "^0.3.5",
+      "menubar": "*",
+      "moment": "^2.10.6",
+      "walk": "*"
+    },
+    "devDependencies": {
+      "electron-packager": "^5.1.0",
+      "electron-prebuilt": "^0.36.0"
+    },
+    "engines": {
+      "node": "0.10.x"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sirtimbly/plaintexttaskmenu"
+    },
+    "preferGlobal": true,
+    "bin": {
+      "task-scheduler": "index.js"
+    },
+    "scripts": {
+      "build": "electron-packager . MenubarTasklist --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
+      "start": "electron ."
+    }
+  },
+  "packageStatus": 200
+}

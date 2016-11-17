@@ -1,0 +1,121 @@
+{
+  "id": 70118349,
+  "name": "lifetracker-electron",
+  "fullName": "cranndarach/lifetracker-electron",
+  "owner": {
+    "login": "cranndarach",
+    "id": 14372867,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/14372867?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/cranndarach",
+    "htmlUrl": "https://github.com/cranndarach",
+    "followersUrl": "https://api.github.com/users/cranndarach/followers",
+    "subscriptionsUrl": "https://api.github.com/users/cranndarach/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/cranndarach/orgs",
+    "reposUrl": "https://api.github.com/users/cranndarach/repos",
+    "receivedEventsUrl": "https://api.github.com/users/cranndarach/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/cranndarach/lifetracker-electron",
+  "description": "Evolution of my LifeTracker project using Electron.",
+  "fork": false,
+  "url": "https://api.github.com/repos/cranndarach/lifetracker-electron",
+  "forksUrl": "https://api.github.com/repos/cranndarach/lifetracker-electron/forks",
+  "teamsUrl": "https://api.github.com/repos/cranndarach/lifetracker-electron/teams",
+  "hooksUrl": "https://api.github.com/repos/cranndarach/lifetracker-electron/hooks",
+  "eventsUrl": "https://api.github.com/repos/cranndarach/lifetracker-electron/events",
+  "tagsUrl": "https://api.github.com/repos/cranndarach/lifetracker-electron/tags",
+  "languagesUrl": "https://api.github.com/repos/cranndarach/lifetracker-electron/languages",
+  "stargazersUrl": "https://api.github.com/repos/cranndarach/lifetracker-electron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/cranndarach/lifetracker-electron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/cranndarach/lifetracker-electron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/cranndarach/lifetracker-electron/subscription",
+  "mergesUrl": "https://api.github.com/repos/cranndarach/lifetracker-electron/merges",
+  "downloadsUrl": "https://api.github.com/repos/cranndarach/lifetracker-electron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/cranndarach/lifetracker-electron/deployments",
+  "createdAt": "2016-10-06T03:05:21.000Z",
+  "updatedAt": "2016-11-14T20:12:19.000Z",
+  "pushedAt": "2016-11-15T16:03:14.000Z",
+  "gitUrl": "git://github.com/cranndarach/lifetracker-electron.git",
+  "sshUrl": "git@github.com:cranndarach/lifetracker-electron.git",
+  "cloneUrl": "https://github.com/cranndarach/lifetracker-electron.git",
+  "svnUrl": "https://github.com/cranndarach/lifetracker-electron",
+  "homepage": "",
+  "size": 1402,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 5,
+  "openIssues": 5,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "lifetracker",
+    "appname": "LifeTracker",
+    "version": "0.1.0",
+    "description": "Keep track of events and trends in your life.",
+    "keywords": [
+      "accessibility",
+      "productivity",
+      "statistics",
+      "data",
+      "health",
+      "disability"
+    ],
+    "bugs": "https://github.com/cranndarach/lifetracker-electron/issues",
+    "author": {
+      "name": "Rachael Steiner",
+      "email": "r.steiner@uconn.edu",
+      "maintainer": "@cranndarach"
+    },
+    "license": "MIT",
+    "repository": "https://github.com/cranndarach/lifetracker-electron.git",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron index.js",
+      "build-linux": "electron-packager . LifeTracker --platform=linux --arch=x64 --out=dist --ignore='^/dist$' --overwrite",
+      "build-win": "electron-packager . LifeTracker --platform=win32 --arch=x64 --out=dist --ignore='^/dist$' --overwrite=true",
+      "build-mac": "electron-packager . PassBox --platform=darwin --arch=x64 --out=dist --ignore='^/dist$' --overwrite"
+    },
+    "directories": {
+      "lib": "lib/"
+    },
+    "dependencies": {
+      "array-member": "^1.0.0",
+      "chart.js": "^2.3.0",
+      "csv": "^1.1.0",
+      "glob": "^7.1.1",
+      "json2csv": "^3.7.1",
+      "jsonexport": "^1.3.2",
+      "jsonfile": "^2.4.0",
+      "uuid-js": "^0.7.5"
+    },
+    "devDependencies": {
+      "electron": "1.4.x",
+      "electron-packager": "^8.2.0"
+    }
+  },
+  "packageStatus": 200
+}

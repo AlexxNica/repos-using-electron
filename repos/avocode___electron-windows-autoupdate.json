@@ -1,0 +1,122 @@
+{
+  "id": 71496350,
+  "name": "electron-windows-autoupdate",
+  "fullName": "avocode/electron-windows-autoupdate",
+  "owner": {
+    "login": "avocode",
+    "id": 7745351,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7745351?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/avocode",
+    "htmlUrl": "https://github.com/avocode",
+    "followersUrl": "https://api.github.com/users/avocode/followers",
+    "subscriptionsUrl": "https://api.github.com/users/avocode/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/avocode/orgs",
+    "reposUrl": "https://api.github.com/users/avocode/repos",
+    "receivedEventsUrl": "https://api.github.com/users/avocode/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/avocode/electron-windows-autoupdate",
+  "description": "Get Electron AutoUpdater working on Windows",
+  "fork": false,
+  "url": "https://api.github.com/repos/avocode/electron-windows-autoupdate",
+  "forksUrl": "https://api.github.com/repos/avocode/electron-windows-autoupdate/forks",
+  "teamsUrl": "https://api.github.com/repos/avocode/electron-windows-autoupdate/teams",
+  "hooksUrl": "https://api.github.com/repos/avocode/electron-windows-autoupdate/hooks",
+  "eventsUrl": "https://api.github.com/repos/avocode/electron-windows-autoupdate/events",
+  "tagsUrl": "https://api.github.com/repos/avocode/electron-windows-autoupdate/tags",
+  "languagesUrl": "https://api.github.com/repos/avocode/electron-windows-autoupdate/languages",
+  "stargazersUrl": "https://api.github.com/repos/avocode/electron-windows-autoupdate/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/avocode/electron-windows-autoupdate/contributors",
+  "subscribersUrl": "https://api.github.com/repos/avocode/electron-windows-autoupdate/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/avocode/electron-windows-autoupdate/subscription",
+  "mergesUrl": "https://api.github.com/repos/avocode/electron-windows-autoupdate/merges",
+  "downloadsUrl": "https://api.github.com/repos/avocode/electron-windows-autoupdate/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/avocode/electron-windows-autoupdate/deployments",
+  "createdAt": "2016-10-20T19:21:54.000Z",
+  "updatedAt": "2016-11-09T01:51:25.000Z",
+  "pushedAt": "2016-10-25T17:06:18.000Z",
+  "gitUrl": "git://github.com/avocode/electron-windows-autoupdate.git",
+  "sshUrl": "git@github.com:avocode/electron-windows-autoupdate.git",
+  "cloneUrl": "https://github.com/avocode/electron-windows-autoupdate.git",
+  "svnUrl": "https://github.com/avocode/electron-windows-autoupdate",
+  "homepage": null,
+  "size": 32,
+  "stargazersCount": 5,
+  "watchersCount": 5,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 5,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "organization": {
+    "login": "avocode",
+    "id": 7745351,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7745351?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/avocode",
+    "htmlUrl": "https://github.com/avocode",
+    "followersUrl": "https://api.github.com/users/avocode/followers",
+    "subscriptionsUrl": "https://api.github.com/users/avocode/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/avocode/orgs",
+    "reposUrl": "https://api.github.com/users/avocode/repos",
+    "receivedEventsUrl": "https://api.github.com/users/avocode/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 2,
+  "subscribersCount": 4,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-windows-autoupdate",
+    "version": "1.0.0",
+    "description": "Electron Windows auto update example",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "build --win",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "build": {
+      "squirrelWindows": {
+        "remoteReleases": "http://localhost:9000/dist/win1/"
+      },
+      "win": {
+        "certificateFile": "./certs/my_signing_key.pfx",
+        "certificatePassword": ""
+      }
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vojtatranta/electron-windows-autoupdate.git"
+    },
+    "keywords": [
+      "Electron",
+      "Windows",
+      "autoupdate"
+    ],
+    "author": "Vojtech Tranta <vojta.tranta@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/vojtatranta/electron-windows-autoupdate/issues"
+    },
+    "homepage": "https://github.com/vojtatranta/electron-windows-autoupdate#readme",
+    "devDependencies": {
+      "electron": "^1.4.3",
+      "electron-builder": "^7.14.1"
+    }
+  },
+  "packageStatus": 200
+}

@@ -1,0 +1,105 @@
+{
+  "id": 64188974,
+  "name": "inspectigate",
+  "fullName": "purplecabbage/inspectigate",
+  "owner": {
+    "login": "purplecabbage",
+    "id": 46134,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/46134?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/purplecabbage",
+    "htmlUrl": "https://github.com/purplecabbage",
+    "followersUrl": "https://api.github.com/users/purplecabbage/followers",
+    "subscriptionsUrl": "https://api.github.com/users/purplecabbage/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/purplecabbage/orgs",
+    "reposUrl": "https://api.github.com/users/purplecabbage/repos",
+    "receivedEventsUrl": "https://api.github.com/users/purplecabbage/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/purplecabbage/inspectigate",
+  "description": "App package inspector to check if an app is hybrid or native.",
+  "fork": false,
+  "url": "https://api.github.com/repos/purplecabbage/inspectigate",
+  "forksUrl": "https://api.github.com/repos/purplecabbage/inspectigate/forks",
+  "teamsUrl": "https://api.github.com/repos/purplecabbage/inspectigate/teams",
+  "hooksUrl": "https://api.github.com/repos/purplecabbage/inspectigate/hooks",
+  "eventsUrl": "https://api.github.com/repos/purplecabbage/inspectigate/events",
+  "tagsUrl": "https://api.github.com/repos/purplecabbage/inspectigate/tags",
+  "languagesUrl": "https://api.github.com/repos/purplecabbage/inspectigate/languages",
+  "stargazersUrl": "https://api.github.com/repos/purplecabbage/inspectigate/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/purplecabbage/inspectigate/contributors",
+  "subscribersUrl": "https://api.github.com/repos/purplecabbage/inspectigate/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/purplecabbage/inspectigate/subscription",
+  "mergesUrl": "https://api.github.com/repos/purplecabbage/inspectigate/merges",
+  "downloadsUrl": "https://api.github.com/repos/purplecabbage/inspectigate/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/purplecabbage/inspectigate/deployments",
+  "createdAt": "2016-07-26T04:07:57.000Z",
+  "updatedAt": "2016-08-05T04:17:38.000Z",
+  "pushedAt": "2016-09-23T07:01:17.000Z",
+  "gitUrl": "git://github.com/purplecabbage/inspectigate.git",
+  "sshUrl": "git@github.com:purplecabbage/inspectigate.git",
+  "cloneUrl": "https://github.com/purplecabbage/inspectigate.git",
+  "svnUrl": "https://github.com/purplecabbage/inspectigate",
+  "homepage": null,
+  "size": 20,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "inspectigate",
+    "version": "1.0.0",
+    "description": "App package inspector to check if an app is hybrid or native.",
+    "main": "src/main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build-osx": "electron-packager . inspectigate --platform=darwin --ignore=tmp\\",
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/purplecabbage/inspectigate.git"
+    },
+    "author": "Jesse MacFadyen",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/purplecabbage/inspectigate/issues"
+    },
+    "homepage": "https://github.com/purplecabbage/inspectigate#readme",
+    "dependencies": {
+      "decompress": "^4.0.0",
+      "simple-plist": "^0.1.4",
+      "unzip": "^0.1.11"
+    },
+    "devDependencies": {
+      "electron-packager": "^8.0.0",
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
+}

@@ -1,0 +1,169 @@
+{
+  "id": 61333204,
+  "name": "swimming",
+  "fullName": "mribichich/swimming",
+  "owner": {
+    "login": "mribichich",
+    "id": 5748554,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5748554?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/mribichich",
+    "htmlUrl": "https://github.com/mribichich",
+    "followersUrl": "https://api.github.com/users/mribichich/followers",
+    "subscriptionsUrl": "https://api.github.com/users/mribichich/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/mribichich/orgs",
+    "reposUrl": "https://api.github.com/users/mribichich/repos",
+    "receivedEventsUrl": "https://api.github.com/users/mribichich/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/mribichich/swimming",
+  "description": "Swimming App",
+  "fork": false,
+  "url": "https://api.github.com/repos/mribichich/swimming",
+  "forksUrl": "https://api.github.com/repos/mribichich/swimming/forks",
+  "teamsUrl": "https://api.github.com/repos/mribichich/swimming/teams",
+  "hooksUrl": "https://api.github.com/repos/mribichich/swimming/hooks",
+  "eventsUrl": "https://api.github.com/repos/mribichich/swimming/events",
+  "tagsUrl": "https://api.github.com/repos/mribichich/swimming/tags",
+  "languagesUrl": "https://api.github.com/repos/mribichich/swimming/languages",
+  "stargazersUrl": "https://api.github.com/repos/mribichich/swimming/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/mribichich/swimming/contributors",
+  "subscribersUrl": "https://api.github.com/repos/mribichich/swimming/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/mribichich/swimming/subscription",
+  "mergesUrl": "https://api.github.com/repos/mribichich/swimming/merges",
+  "downloadsUrl": "https://api.github.com/repos/mribichich/swimming/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/mribichich/swimming/deployments",
+  "createdAt": "2016-06-16T23:55:16.000Z",
+  "updatedAt": "2016-06-17T00:43:11.000Z",
+  "pushedAt": "2016-08-21T19:55:04.000Z",
+  "gitUrl": "git://github.com/mribichich/swimming.git",
+  "sshUrl": "git@github.com:mribichich/swimming.git",
+  "cloneUrl": "https://github.com/mribichich/swimming.git",
+  "svnUrl": "https://github.com/mribichich/swimming",
+  "homepage": null,
+  "size": 397,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "TypeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "swimming.web",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "window": {
+      "width": 1000,
+      "height": 600,
+      "min_width": 600,
+      "min_height": 400,
+      "position": "center"
+    },
+    "author": "Matias Ribichich",
+    "license": "ISC",
+    "dependencies": {
+      "@angular/router": "^0.2.0",
+      "electron-prebuilt": "^1.2.4",
+      "jspm": "0.16.15",
+      "mongodb": "^2.0.36",
+      "systemjs": "^0.18.11"
+    },
+    "devDependencies": {
+      "bower": "^1.4.1",
+      "del": "^2.2.0",
+      "electron-connect": "^0.3.3",
+      "gulp": "^3.9.0",
+      "gulp-angular-templatecache": "^1.8.0",
+      "gulp-minify-html": "^1.0.4",
+      "gulp-ng-annotate": "^2.0.0",
+      "gulp-sass": "^2.0.4",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-tslint": "^3.6.0",
+      "gulp-typescript": "^2.13.6",
+      "jasmine-core": "^2.3.4",
+      "jspm": "^0.16.15",
+      "karma": "^0.13.10",
+      "karma-chrome-launcher": "^0.2.0",
+      "karma-jasmine": "^0.3.6",
+      "karma-jspm": "^2.0.1",
+      "merge2": "^1.0.2",
+      "run-sequence": "^1.1.4",
+      "tsd": "^0.6.5",
+      "tslint": "^2.2.0-beta",
+      "typescript": "^2.1.0-dev.20160728",
+      "typings": "^0.7.7"
+    },
+    "jspm": {
+      "dependencies": {
+        "@angular/router": "npm:@angular/router@^0.2.0",
+        "angular": "github:angular/bower-angular@^1.5.5",
+        "angular-animate": "github:angular/bower-angular-animate@^1.5.0",
+        "angular-aria": "github:angular/bower-angular-aria@^1.5.0",
+        "angular-electron": "npm:angular-electron@^0.2.1",
+        "angular-i18n": "npm:angular-i18n@^1.5.5",
+        "angular-material": "github:angular/bower-material@^1.0.8",
+        "angular-messages": "github:angular/bower-angular-messages@1.5.0-rc.0",
+        "angular-mocks": "github:angular/bower-angular-mocks@1.5.0-rc.0",
+        "angular-sanitize": "github:angular/bower-angular-sanitize@1.5.0-rc.0",
+        "angular-timer": "github:siddii/angular-timer@^1.3.4",
+        "angular2": "npm:angular2@^2.0.0-beta.15",
+        "bootstrap": "github:twbs/bootstrap@4.0.0-alpha",
+        "bramski/angular-indexedDB": "github:bramski/angular-indexedDB@^1.1.3",
+        "css": "github:systemjs/plugin-css@^0.1.18",
+        "es6-shim": "github:es-shims/es6-shim@^0.33.13",
+        "humanize-duration": "github:EvanHahn/HumanizeDuration.js@^3.8.0",
+        "jquery": "github:components/jquery@^2.1.4",
+        "lokijs": "npm:lokijs@^1.3.16",
+        "material-design-lite": "github:google/material-design-lite@^1.1.3",
+        "moment": "github:moment/moment@^2.13.0",
+        "ngcomponentrouter": "npm:ngcomponentrouter@^2.1.0",
+        "node-uuid": "npm:node-uuid@^1.4.3",
+        "reflect-metadata": "npm:reflect-metadata@^0.1.2",
+        "rxjs": "npm:rxjs@^5.0.0-beta.8",
+        "typescript": "npm:typescript@^1.6.2",
+        "underscore": "npm:underscore@^1.8.3",
+        "uri": "github:medialize/URI.js@^1.16.1",
+        "zone.js": "npm:zone.js@^0.6.12"
+      },
+      "devDependencies": {
+        "clean-css": "npm:clean-css@^3.4.8",
+        "core-js": "npm:core-js@^1.2.1"
+      },
+      "overrides": {
+        "github:moment/moment@2.13.0": {
+          "main": "moment",
+          "format": "global",
+          "shim": {
+            "locale/*": {
+              "deps": [
+                "../moment"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "packageStatus": 200
+}

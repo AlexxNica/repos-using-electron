@@ -1,0 +1,145 @@
+{
+  "id": 67674009,
+  "name": "postguy",
+  "fullName": "rmp135/postguy",
+  "owner": {
+    "login": "rmp135",
+    "id": 3882803,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3882803?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/rmp135",
+    "htmlUrl": "https://github.com/rmp135",
+    "followersUrl": "https://api.github.com/users/rmp135/followers",
+    "subscriptionsUrl": "https://api.github.com/users/rmp135/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/rmp135/orgs",
+    "reposUrl": "https://api.github.com/users/rmp135/repos",
+    "receivedEventsUrl": "https://api.github.com/users/rmp135/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/rmp135/postguy",
+  "description": null,
+  "fork": false,
+  "url": "https://api.github.com/repos/rmp135/postguy",
+  "forksUrl": "https://api.github.com/repos/rmp135/postguy/forks",
+  "teamsUrl": "https://api.github.com/repos/rmp135/postguy/teams",
+  "hooksUrl": "https://api.github.com/repos/rmp135/postguy/hooks",
+  "eventsUrl": "https://api.github.com/repos/rmp135/postguy/events",
+  "tagsUrl": "https://api.github.com/repos/rmp135/postguy/tags",
+  "languagesUrl": "https://api.github.com/repos/rmp135/postguy/languages",
+  "stargazersUrl": "https://api.github.com/repos/rmp135/postguy/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/rmp135/postguy/contributors",
+  "subscribersUrl": "https://api.github.com/repos/rmp135/postguy/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/rmp135/postguy/subscription",
+  "mergesUrl": "https://api.github.com/repos/rmp135/postguy/merges",
+  "downloadsUrl": "https://api.github.com/repos/rmp135/postguy/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/rmp135/postguy/deployments",
+  "createdAt": "2016-09-08T06:12:18.000Z",
+  "updatedAt": "2016-11-06T14:07:29.000Z",
+  "pushedAt": "2016-11-06T14:08:02.000Z",
+  "gitUrl": "git://github.com/rmp135/postguy.git",
+  "sshUrl": "git@github.com:rmp135/postguy.git",
+  "cloneUrl": "https://github.com/rmp135/postguy.git",
+  "svnUrl": "https://github.com/rmp135/postguy",
+  "homepage": null,
+  "size": 149,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": false,
+  "hasPages": false,
+  "forksCount": 1,
+  "mirrorUrl": null,
+  "openIssuesCount": 3,
+  "openIssues": 3,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "NotPostman",
+    "productName": "NotPostman",
+    "version": "0.0.1",
+    "description": "A postman replacement",
+    "main": "app/main.js",
+    "scripts": {
+      "start": "npm install --prefix ./app ./app && npm install && webpack && electron ./app",
+      "dev": "webpack && webpack -w | electron ./app/main --enable-logging",
+      "watch": "webpack -w",
+      "run": "electron ./app",
+      "pack": "webpack",
+      "release": "build --x64 --publish never",
+      "test": "karma start karma.conf.js"
+    },
+    "author": "Codeweavers",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "babel-core": "^6.17.0",
+      "babel-loader": "^6.2.5",
+      "babel-plugin-add-module-exports": "^0.2.1",
+      "babel-polyfill": "^6.16.0",
+      "babel-preset-es2015": "^6.16.0",
+      "babel-preset-stage-2": "^6.17.0",
+      "clean-webpack-plugin": "^0.1.10",
+      "copy-webpack-plugin": "^3.0.1",
+      "css-loader": "^0.25.0",
+      "electron": "^1.4.3",
+      "electron-builder": "^7.3.0",
+      "file-loader": "^0.9.0",
+      "inject-loader": "^2.0.1",
+      "jasmine-core": "^2.5.2",
+      "json-loader": "^0.5.4",
+      "karma": "^1.3.0",
+      "karma-jasmine": "^1.0.2",
+      "karma-mocha-reporter": "^2.2.0",
+      "karma-phantomjs-launcher": "^1.0.2",
+      "karma-webpack": "^1.8.0",
+      "node-sass": "^3.10.0",
+      "phantomjs-prebuilt": "^2.1.12",
+      "sass-loader": "^4.0.2",
+      "schema-inspector": "^1.6.6",
+      "style-loader": "^0.13.1",
+      "vue-loader": "^9.5.1",
+      "vue-style-loader": "^1.0.0",
+      "webpack": "^1.13.2",
+      "webpack-node-externals": "^1.4.3"
+    },
+    "jshintConfig": {
+      "esversion": 6
+    },
+    "build": {
+      "appId": "com.example.notpostman",
+      "app-category-type": "your.app.category.type",
+      "win": {
+        "target": [
+          "nsis"
+        ],
+        "icon": "resources/windows/icon.ico"
+      },
+      "nsis": {
+        "oneClick": true,
+        "installerHeaderIcon": "resources/windows/setup-icon.ico"
+      },
+      "mac": {
+        "icon": "resources/osx/icon.icns"
+      },
+      "dmg": {
+        "icon": "resources/osx/dmg-icon.icns",
+        "background": "resources/osx/dmg-background.png"
+      }
+    },
+    "directories": {
+      "buildResources": "resources"
+    }
+  },
+  "packageStatus": 200
+}

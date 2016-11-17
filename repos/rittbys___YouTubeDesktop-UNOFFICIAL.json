@@ -1,0 +1,108 @@
+{
+  "id": 51677500,
+  "name": "YouTubeDesktop-UNOFFICIAL",
+  "fullName": "rittbys/YouTubeDesktop-UNOFFICIAL",
+  "owner": {
+    "login": "rittbys",
+    "id": 5205015,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5205015?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/rittbys",
+    "htmlUrl": "https://github.com/rittbys",
+    "followersUrl": "https://api.github.com/users/rittbys/followers",
+    "subscriptionsUrl": "https://api.github.com/users/rittbys/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/rittbys/orgs",
+    "reposUrl": "https://api.github.com/users/rittbys/repos",
+    "receivedEventsUrl": "https://api.github.com/users/rittbys/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/rittbys/YouTubeDesktop-UNOFFICIAL",
+  "description": "THIS PROJECT IS UNDERGOING MASSIVE REDEVELOPMENT. A Desktop Application for viewing YouTube videos without the hassle of a browser, and with the speediness of a native program.",
+  "fork": false,
+  "url": "https://api.github.com/repos/rittbys/YouTubeDesktop-UNOFFICIAL",
+  "forksUrl": "https://api.github.com/repos/rittbys/YouTubeDesktop-UNOFFICIAL/forks",
+  "teamsUrl": "https://api.github.com/repos/rittbys/YouTubeDesktop-UNOFFICIAL/teams",
+  "hooksUrl": "https://api.github.com/repos/rittbys/YouTubeDesktop-UNOFFICIAL/hooks",
+  "eventsUrl": "https://api.github.com/repos/rittbys/YouTubeDesktop-UNOFFICIAL/events",
+  "tagsUrl": "https://api.github.com/repos/rittbys/YouTubeDesktop-UNOFFICIAL/tags",
+  "languagesUrl": "https://api.github.com/repos/rittbys/YouTubeDesktop-UNOFFICIAL/languages",
+  "stargazersUrl": "https://api.github.com/repos/rittbys/YouTubeDesktop-UNOFFICIAL/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/rittbys/YouTubeDesktop-UNOFFICIAL/contributors",
+  "subscribersUrl": "https://api.github.com/repos/rittbys/YouTubeDesktop-UNOFFICIAL/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/rittbys/YouTubeDesktop-UNOFFICIAL/subscription",
+  "mergesUrl": "https://api.github.com/repos/rittbys/YouTubeDesktop-UNOFFICIAL/merges",
+  "downloadsUrl": "https://api.github.com/repos/rittbys/YouTubeDesktop-UNOFFICIAL/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/rittbys/YouTubeDesktop-UNOFFICIAL/deployments",
+  "createdAt": "2016-02-14T03:15:30.000Z",
+  "updatedAt": "2016-10-01T20:48:39.000Z",
+  "pushedAt": "2016-10-02T06:35:45.000Z",
+  "gitUrl": "git://github.com/rittbys/YouTubeDesktop-UNOFFICIAL.git",
+  "sshUrl": "git@github.com:rittbys/YouTubeDesktop-UNOFFICIAL.git",
+  "cloneUrl": "https://github.com/rittbys/YouTubeDesktop-UNOFFICIAL.git",
+  "svnUrl": "https://github.com/rittbys/YouTubeDesktop-UNOFFICIAL",
+  "homepage": "https://rittbys.github.io/YouTubeDesktop",
+  "size": 161255,
+  "stargazersCount": 5,
+  "watchersCount": 5,
+  "language": "HTML",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": true,
+  "forksCount": 2,
+  "mirrorUrl": null,
+  "openIssuesCount": 5,
+  "openIssues": 5,
+  "watchers": 5,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "featured": true
+  },
+  "networkCount": 2,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "Desktop",
+    "version": "0.3.1",
+    "description": "A desktop YouTube client. Not affiliated with Google.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js",
+      "package-visual": "electron-packager-interactive",
+      "package-win32": "electron-packager .\\ Desktop --platform=win32 --arch=all --out=%USERPROFILE%\\Desktop\\Desktop --app-copyright=CC0 --icon=dependencies\\Windows\\app_large.ico --app-version=0.3.6 --version=0.37.6 --version-string.FileDescription=Desktop --version-string.OriginalFilename=desktop.exe --version-string.ProductName=Desktop --version-string.InternalName=Desktop  --version-string.LegalCopyright=CC0-1 --overwrite",
+      "package-gnu": "electron-packager .\\ Desktop --platform=all --arch=all --out=%USERPROFILE%\\Desktop\\Desktop --app-copyright=CC0 --icon=dependencies\\OSX\\app_large.icns --app-version=0.3.6 --version=0.37.6 --version-string.FileDescription=Desktop --version-string.OriginalFilename=desktop.exe --version-string.ProductName=Desktop --version-string.InternalName=Desktop  --version-string.LegalCopyright=CC0-1",
+      "package-testing": "electron-packager .\\ Desktop --platform=win32 --arch=x64 --out=%USERPROFILE%\\Desktop\\Desktop --app-copyright=CC0 --icon=dependencies\\Windows\\app_large.ico --app-version=0.3.6 --version=0.37.6 --version-string.FileDescription=Desktop --version-string.OriginalFilename=desktop.exe --version-string.ProductName=Desktop --version-string.InternalName=Desktop --version-string.LegalCopyright=CC0-1 --overwrite",
+      "setup": "electron setup.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rittbys/YouTubeDesktop"
+    },
+    "keywords": [
+      "YouTube",
+      "YouTube Desktop"
+    ],
+    "author": "rittbys",
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/rittbys/YouTubeDesktop/issues"
+    },
+    "homepage": "https://github.com/rittbys/YouTubeDesktop#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.37.0",
+      "fs": "^0.0.2",
+      "coffee-script": "^1.10.0"
+    }
+  },
+  "packageStatus": 200
+}

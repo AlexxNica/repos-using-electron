@@ -1,0 +1,129 @@
+{
+  "id": 73224698,
+  "name": "postcard",
+  "fullName": "workflowproducts/postcard",
+  "owner": {
+    "login": "workflowproducts",
+    "id": 22156405,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/22156405?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/workflowproducts",
+    "htmlUrl": "https://github.com/workflowproducts",
+    "followersUrl": "https://api.github.com/users/workflowproducts/followers",
+    "subscriptionsUrl": "https://api.github.com/users/workflowproducts/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/workflowproducts/orgs",
+    "reposUrl": "https://api.github.com/users/workflowproducts/repos",
+    "receivedEventsUrl": "https://api.github.com/users/workflowproducts/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/workflowproducts/postcard",
+  "description": "A database driven application platform using PostgreSQL",
+  "fork": false,
+  "url": "https://api.github.com/repos/workflowproducts/postcard",
+  "forksUrl": "https://api.github.com/repos/workflowproducts/postcard/forks",
+  "teamsUrl": "https://api.github.com/repos/workflowproducts/postcard/teams",
+  "hooksUrl": "https://api.github.com/repos/workflowproducts/postcard/hooks",
+  "eventsUrl": "https://api.github.com/repos/workflowproducts/postcard/events",
+  "tagsUrl": "https://api.github.com/repos/workflowproducts/postcard/tags",
+  "languagesUrl": "https://api.github.com/repos/workflowproducts/postcard/languages",
+  "stargazersUrl": "https://api.github.com/repos/workflowproducts/postcard/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/workflowproducts/postcard/contributors",
+  "subscribersUrl": "https://api.github.com/repos/workflowproducts/postcard/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/workflowproducts/postcard/subscription",
+  "mergesUrl": "https://api.github.com/repos/workflowproducts/postcard/merges",
+  "downloadsUrl": "https://api.github.com/repos/workflowproducts/postcard/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/workflowproducts/postcard/deployments",
+  "createdAt": "2016-11-08T20:33:31.000Z",
+  "updatedAt": "2016-11-08T21:21:49.000Z",
+  "pushedAt": "2016-11-08T23:17:46.000Z",
+  "gitUrl": "git://github.com/workflowproducts/postcard.git",
+  "sshUrl": "git@github.com:workflowproducts/postcard.git",
+  "cloneUrl": "https://github.com/workflowproducts/postcard.git",
+  "svnUrl": "https://github.com/workflowproducts/postcard",
+  "homepage": null,
+  "size": 30,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "featured": true
+  },
+  "organization": {
+    "login": "workflowproducts",
+    "id": 22156405,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/22156405?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/workflowproducts",
+    "htmlUrl": "https://github.com/workflowproducts",
+    "followersUrl": "https://api.github.com/users/workflowproducts/followers",
+    "subscriptionsUrl": "https://api.github.com/users/workflowproducts/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/workflowproducts/orgs",
+    "reposUrl": "https://api.github.com/users/workflowproducts/repos",
+    "receivedEventsUrl": "https://api.github.com/users/workflowproducts/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "postcard",
+    "version": "1.0.3",
+    "description": "A database driven application platform using PostgreSQL",
+    "main": "index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/workflowproducts/postcard.git"
+    },
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [
+      "envelope",
+      "electron",
+      "postgres",
+      "application"
+    ],
+    "author": "Nunzio Tocci <nunzio@workflowproducts.com> (http://www.workflowproducts.com/)",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/workflowproducts/postcard/issues"
+    },
+    "homepage": "https://github.com/workflowproducts/postcard#readme",
+    "dependencies": {
+      "electron-context-menu": "^0.6.0",
+      "electron-window-state": "^3.1.0",
+      "fs-extra": "^1.0.0",
+      "hidefile": "^2.0.0"
+    },
+    "devDependencies": {
+      "electron": "^1.4.5"
+    },
+    "optionalDependencies": {
+      "postgresql-portable-darwin64": "9.6.0-build2",
+      "postgresql-portable-linux32": "9.6.0-build2",
+      "postgresql-portable-linux64": "9.6.0-build2",
+      "postgresql-portable-windows": "9.6.0-build2"
+    }
+  },
+  "packageStatus": 200
+}

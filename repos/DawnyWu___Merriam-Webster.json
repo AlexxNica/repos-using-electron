@@ -1,0 +1,112 @@
+{
+  "id": 52664360,
+  "name": "Merriam-Webster",
+  "fullName": "DawnyWu/Merriam-Webster",
+  "owner": {
+    "login": "DawnyWu",
+    "id": 949508,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/949508?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/DawnyWu",
+    "htmlUrl": "https://github.com/DawnyWu",
+    "followersUrl": "https://api.github.com/users/DawnyWu/followers",
+    "subscriptionsUrl": "https://api.github.com/users/DawnyWu/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/DawnyWu/orgs",
+    "reposUrl": "https://api.github.com/users/DawnyWu/repos",
+    "receivedEventsUrl": "https://api.github.com/users/DawnyWu/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/DawnyWu/Merriam-Webster",
+  "description": "Unofficial Merriam-Webster App",
+  "fork": false,
+  "url": "https://api.github.com/repos/DawnyWu/Merriam-Webster",
+  "forksUrl": "https://api.github.com/repos/DawnyWu/Merriam-Webster/forks",
+  "teamsUrl": "https://api.github.com/repos/DawnyWu/Merriam-Webster/teams",
+  "hooksUrl": "https://api.github.com/repos/DawnyWu/Merriam-Webster/hooks",
+  "eventsUrl": "https://api.github.com/repos/DawnyWu/Merriam-Webster/events",
+  "tagsUrl": "https://api.github.com/repos/DawnyWu/Merriam-Webster/tags",
+  "languagesUrl": "https://api.github.com/repos/DawnyWu/Merriam-Webster/languages",
+  "stargazersUrl": "https://api.github.com/repos/DawnyWu/Merriam-Webster/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/DawnyWu/Merriam-Webster/contributors",
+  "subscribersUrl": "https://api.github.com/repos/DawnyWu/Merriam-Webster/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/DawnyWu/Merriam-Webster/subscription",
+  "mergesUrl": "https://api.github.com/repos/DawnyWu/Merriam-Webster/merges",
+  "downloadsUrl": "https://api.github.com/repos/DawnyWu/Merriam-Webster/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/DawnyWu/Merriam-Webster/deployments",
+  "createdAt": "2016-02-27T11:51:24.000Z",
+  "updatedAt": "2016-09-15T14:28:20.000Z",
+  "pushedAt": "2016-02-28T09:10:10.000Z",
+  "gitUrl": "git://github.com/DawnyWu/Merriam-Webster.git",
+  "sshUrl": "git@github.com:DawnyWu/Merriam-Webster.git",
+  "cloneUrl": "https://github.com/DawnyWu/Merriam-Webster.git",
+  "svnUrl": "https://github.com/DawnyWu/Merriam-Webster",
+  "homepage": "",
+  "size": 71115,
+  "stargazersCount": 4,
+  "watchersCount": 4,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 4,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 1,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "electronic-mw",
+    "version": "0.1.0",
+    "description": "An Electron application for Merriem-Webster",
+    "main": "src/main.js",
+    "scripts": {
+      "start": "electron src/main.js",
+      "build": "./scripts/build-all.sh",
+      "build:osx": "./scripts/build.sh darwin x64",
+      "build:osx64": "./scripts/build.sh darwin x64",
+      "build:linux32": "./scripts/build.sh linux ia32",
+      "build:linux": "./scripts/build.sh linux x64",
+      "build:linux64": "./scripts/build.sh linux x64",
+      "build:win": "./scripts/build.sh win32 ia32",
+      "build:win32": "./scripts/build.sh win32 ia32"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DawnyWu/Merriam-Webster"
+    },
+    "keywords": [
+      "Electron",
+      "dictonary",
+      "Merriam-Webster",
+      "Web"
+    ],
+    "author": "DawnyWu",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/DawnyWu/Merriam-Webster/issues"
+    },
+    "homepage": "https://github.com/DawnyWu/Merriam-Webster",
+    "dependencies": {
+      "electron-prebuilt": "^0.36.0",
+      "electron-packager": "^5.2.1"
+    }
+  },
+  "packageStatus": 200
+}

@@ -1,0 +1,104 @@
+{
+  "id": 43970062,
+  "name": "physical-web-scan-app",
+  "fullName": "dermike/physical-web-scan-app",
+  "owner": {
+    "login": "dermike",
+    "id": 4582134,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/4582134?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/dermike",
+    "htmlUrl": "https://github.com/dermike",
+    "followersUrl": "https://api.github.com/users/dermike/followers",
+    "subscriptionsUrl": "https://api.github.com/users/dermike/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/dermike/orgs",
+    "reposUrl": "https://api.github.com/users/dermike/repos",
+    "receivedEventsUrl": "https://api.github.com/users/dermike/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/dermike/physical-web-scan-app",
+  "description": "Mac OSX desktop client app to scan for Physical Web (Eddystone) bluetooth beacons",
+  "fork": false,
+  "url": "https://api.github.com/repos/dermike/physical-web-scan-app",
+  "forksUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/forks",
+  "teamsUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/teams",
+  "hooksUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/hooks",
+  "eventsUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/events",
+  "tagsUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/tags",
+  "languagesUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/languages",
+  "stargazersUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/contributors",
+  "subscribersUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/subscription",
+  "mergesUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/merges",
+  "downloadsUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/dermike/physical-web-scan-app/deployments",
+  "createdAt": "2015-10-09T17:25:00.000Z",
+  "updatedAt": "2016-11-10T08:01:06.000Z",
+  "pushedAt": "2016-10-20T16:35:16.000Z",
+  "gitUrl": "git://github.com/dermike/physical-web-scan-app.git",
+  "sshUrl": "git@github.com:dermike/physical-web-scan-app.git",
+  "cloneUrl": "https://github.com/dermike/physical-web-scan-app.git",
+  "svnUrl": "https://github.com/dermike/physical-web-scan-app",
+  "homepage": "",
+  "size": 213,
+  "stargazersCount": 22,
+  "watchersCount": 22,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 22,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 1,
+  "subscribersCount": 3,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-physical-web-scan",
+    "version": "0.2.8",
+    "description": "Electron app for Mac OSX to scan for Physical Web (Eddystone) beacons",
+    "main": "main.js",
+    "scripts": {
+      "package": "node ./node_modules/electron-packager/cli.js ./ PhysicalWebScan --platform=darwin --arch=x64 --version=1.4.0 --ignore=node_modules/electron-rebuild --asar --icon=icon.icns",
+      "rebuild": "node ./node_modules/.bin/electron-rebuild",
+      "electron": "node ./node_modules/electron-prebuilt/cli.js ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/dermike/electron-physical-web-scan.git"
+    },
+    "keywords": [
+      "electron",
+      "physical web"
+    ],
+    "author": "Mikael Jergefelt",
+    "license": "ISC",
+    "devDependencies": {
+      "electron-packager": "8.0.0",
+      "electron-prebuilt": "1.4.0",
+      "electron-rebuild": "1.2.1"
+    },
+    "dependencies": {
+      "noble": "1.7.0"
+    }
+  },
+  "packageStatus": 200
+}

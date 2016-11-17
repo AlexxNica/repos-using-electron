@@ -1,0 +1,101 @@
+{
+  "id": 62377004,
+  "name": "piclock",
+  "fullName": "take114514/piclock",
+  "owner": {
+    "login": "take114514",
+    "id": 11240481,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11240481?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/take114514",
+    "htmlUrl": "https://github.com/take114514",
+    "followersUrl": "https://api.github.com/users/take114514/followers",
+    "subscriptionsUrl": "https://api.github.com/users/take114514/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/take114514/orgs",
+    "reposUrl": "https://api.github.com/users/take114514/repos",
+    "receivedEventsUrl": "https://api.github.com/users/take114514/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/take114514/piclock",
+  "description": "electron時計アプリ",
+  "fork": false,
+  "url": "https://api.github.com/repos/take114514/piclock",
+  "forksUrl": "https://api.github.com/repos/take114514/piclock/forks",
+  "teamsUrl": "https://api.github.com/repos/take114514/piclock/teams",
+  "hooksUrl": "https://api.github.com/repos/take114514/piclock/hooks",
+  "eventsUrl": "https://api.github.com/repos/take114514/piclock/events",
+  "tagsUrl": "https://api.github.com/repos/take114514/piclock/tags",
+  "languagesUrl": "https://api.github.com/repos/take114514/piclock/languages",
+  "stargazersUrl": "https://api.github.com/repos/take114514/piclock/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/take114514/piclock/contributors",
+  "subscribersUrl": "https://api.github.com/repos/take114514/piclock/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/take114514/piclock/subscription",
+  "mergesUrl": "https://api.github.com/repos/take114514/piclock/merges",
+  "downloadsUrl": "https://api.github.com/repos/take114514/piclock/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/take114514/piclock/deployments",
+  "createdAt": "2016-07-01T08:19:13.000Z",
+  "updatedAt": "2016-11-05T03:23:40.000Z",
+  "pushedAt": "2016-11-07T05:29:26.000Z",
+  "gitUrl": "git://github.com/take114514/piclock.git",
+  "sshUrl": "git@github.com:take114514/piclock.git",
+  "cloneUrl": "https://github.com/take114514/piclock.git",
+  "svnUrl": "https://github.com/take114514/piclock",
+  "homepage": null,
+  "size": 158108,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "piclock",
+    "version": "0.1.3",
+    "description": "clock widget with desktop mascot",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "npm run clean;npm run build:osx;npm run build:win",
+      "build:osx": "npm run clean:osx;electron-packager . piclock --out=dist/osx --platform=darwin --arch=x64 --version=1.4.5 --icon=assets/appicon.icns",
+      "build:win": "npm run clean:win;electron-packager . piclock --out=dist/win --platform=win32 --arch=ia32 --version=1.4.5 --icon=assets/win/appicon.ico",
+      "clean": "rm -rf ./dist",
+      "clean:osx": "rm -rf ./dist/osx",
+      "clean:win": "rm -rf ./dist/win"
+    },
+    "author": "MakTak",
+    "contributors": [
+      {
+        "name": "Kohei Watanabe",
+        "url": "https://github.com/kou029w"
+      }
+    ],
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^1.4.5"
+    }
+  },
+  "packageStatus": 200
+}

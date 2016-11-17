@@ -1,0 +1,136 @@
+{
+  "id": 59187489,
+  "name": "listen1_desktop",
+  "fullName": "listen1/listen1_desktop",
+  "owner": {
+    "login": "listen1",
+    "id": 18599108,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/18599108?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/listen1",
+    "htmlUrl": "https://github.com/listen1",
+    "followersUrl": "https://api.github.com/users/listen1/followers",
+    "subscriptionsUrl": "https://api.github.com/users/listen1/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/listen1/orgs",
+    "reposUrl": "https://api.github.com/users/listen1/repos",
+    "receivedEventsUrl": "https://api.github.com/users/listen1/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/listen1/listen1_desktop",
+  "description": "one for all free music in china (Windows, Mac, Linux desktop)",
+  "fork": false,
+  "url": "https://api.github.com/repos/listen1/listen1_desktop",
+  "forksUrl": "https://api.github.com/repos/listen1/listen1_desktop/forks",
+  "teamsUrl": "https://api.github.com/repos/listen1/listen1_desktop/teams",
+  "hooksUrl": "https://api.github.com/repos/listen1/listen1_desktop/hooks",
+  "eventsUrl": "https://api.github.com/repos/listen1/listen1_desktop/events",
+  "tagsUrl": "https://api.github.com/repos/listen1/listen1_desktop/tags",
+  "languagesUrl": "https://api.github.com/repos/listen1/listen1_desktop/languages",
+  "stargazersUrl": "https://api.github.com/repos/listen1/listen1_desktop/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/listen1/listen1_desktop/contributors",
+  "subscribersUrl": "https://api.github.com/repos/listen1/listen1_desktop/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/listen1/listen1_desktop/subscription",
+  "mergesUrl": "https://api.github.com/repos/listen1/listen1_desktop/merges",
+  "downloadsUrl": "https://api.github.com/repos/listen1/listen1_desktop/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/listen1/listen1_desktop/deployments",
+  "createdAt": "2016-05-19T08:19:22.000Z",
+  "updatedAt": "2016-11-09T15:35:52.000Z",
+  "pushedAt": "2016-05-29T02:51:51.000Z",
+  "gitUrl": "git://github.com/listen1/listen1_desktop.git",
+  "sshUrl": "git@github.com:listen1/listen1_desktop.git",
+  "cloneUrl": "https://github.com/listen1/listen1_desktop.git",
+  "svnUrl": "https://github.com/listen1/listen1_desktop",
+  "homepage": "http://listen1.github.io/listen1",
+  "size": 93,
+  "stargazersCount": 86,
+  "watchersCount": 86,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 25,
+  "mirrorUrl": null,
+  "openIssuesCount": 6,
+  "openIssues": 6,
+  "watchers": 86,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 25,
+  "subscribersCount": 11,
+  "status": 200,
+  "packageJSON": {
+    "name": "Listen1",
+    "version": "1.2.0",
+    "description": "One for all free music in China",
+    "main": "app/main.js",
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "start": "electron ./app --enable-logging",
+      "dev": "NODE_ENV='development' npm run start",
+      "dist": "build --platform win32 --platform darwin --platform linux --arch all",
+      "dist:osx": "build --platform darwin",
+      "dist:win32": "build --platform win32 --arch ia32",
+      "dist:win64": "build --platform win32 --arch x64",
+      "dist:linux32": "build --platform linux --arch ia32",
+      "dist:linux64": "build --platform linux --arch x64"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/listen1/listen1_desktop.git"
+    },
+    "keywords": [
+      "Electron",
+      "Listen 1"
+    ],
+    "author": "Listen 1 <githublisten1@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/listen1/listen1_desktop/issues"
+    },
+    "homepage": "https://github.com/listen1/listen1_desktop#readme",
+    "devDependencies": {
+      "electron-builder": "^3.24.0",
+      "electron-prebuilt": "^1.0.1"
+    },
+    "build": {
+      "app-bundle-id": "com.listen1.listen1",
+      "app-category-type": "public.app-category.productivity",
+      "iconUrl": "https://github.com/listen1/listen1_chrome_extension/raw/master/images/logo.png",
+      "osx": {
+        "title": "Listen 1",
+        "icon": "build/disk.icns",
+        "background": "build/background.png",
+        "icon-size": 80,
+        "contents": [
+          {
+            "x": 448,
+            "y": 344,
+            "type": "link",
+            "path": "/Applications"
+          },
+          {
+            "x": 192,
+            "y": 344,
+            "type": "file",
+            "path": "computed path to artifact, do not specify it - will be overwritten"
+          }
+        ]
+      },
+      "win": {}
+    }
+  },
+  "packageStatus": 200
+}

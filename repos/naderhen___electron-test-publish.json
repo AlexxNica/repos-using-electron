@@ -1,0 +1,99 @@
+{
+  "id": 71283263,
+  "name": "electron-test-publish",
+  "fullName": "naderhen/electron-test-publish",
+  "owner": {
+    "login": "naderhen",
+    "id": 99392,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/99392?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/naderhen",
+    "htmlUrl": "https://github.com/naderhen",
+    "followersUrl": "https://api.github.com/users/naderhen/followers",
+    "subscriptionsUrl": "https://api.github.com/users/naderhen/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/naderhen/orgs",
+    "reposUrl": "https://api.github.com/users/naderhen/repos",
+    "receivedEventsUrl": "https://api.github.com/users/naderhen/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/naderhen/electron-test-publish",
+  "description": null,
+  "fork": false,
+  "url": "https://api.github.com/repos/naderhen/electron-test-publish",
+  "forksUrl": "https://api.github.com/repos/naderhen/electron-test-publish/forks",
+  "teamsUrl": "https://api.github.com/repos/naderhen/electron-test-publish/teams",
+  "hooksUrl": "https://api.github.com/repos/naderhen/electron-test-publish/hooks",
+  "eventsUrl": "https://api.github.com/repos/naderhen/electron-test-publish/events",
+  "tagsUrl": "https://api.github.com/repos/naderhen/electron-test-publish/tags",
+  "languagesUrl": "https://api.github.com/repos/naderhen/electron-test-publish/languages",
+  "stargazersUrl": "https://api.github.com/repos/naderhen/electron-test-publish/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/naderhen/electron-test-publish/contributors",
+  "subscribersUrl": "https://api.github.com/repos/naderhen/electron-test-publish/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/naderhen/electron-test-publish/subscription",
+  "mergesUrl": "https://api.github.com/repos/naderhen/electron-test-publish/merges",
+  "downloadsUrl": "https://api.github.com/repos/naderhen/electron-test-publish/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/naderhen/electron-test-publish/deployments",
+  "createdAt": "2016-10-18T19:20:54.000Z",
+  "updatedAt": "2016-10-18T19:21:41.000Z",
+  "pushedAt": "2016-10-18T19:24:06.000Z",
+  "gitUrl": "git://github.com/naderhen/electron-test-publish.git",
+  "sshUrl": "git@github.com:naderhen/electron-test-publish.git",
+  "cloneUrl": "https://github.com/naderhen/electron-test-publish.git",
+  "svnUrl": "https://github.com/naderhen/electron-test-publish",
+  "homepage": null,
+  "size": 122000,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 0,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-test-publish",
+    "version": "1.0.0",
+    "description": "test description",
+    "main": "app/main.js",
+    "scripts": {
+      "start": "electron app/main.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron": "^1.4.3",
+      "electron-builder": "^7.14.1"
+    },
+    "dependencies": {},
+    "build": {
+      "appId": "your.id",
+      "mac": {
+        "category": "your.app.category.type"
+      },
+      "win": {
+        "target": "nsis",
+        "publish": [
+          "github"
+        ],
+        "iconUrl": "http://www.iconarchive.com/download/i85852/iconka/tailwaggers/dog-cocktail-alkohol.ico"
+      }
+    }
+  },
+  "packageStatus": 200
+}

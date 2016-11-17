@@ -1,0 +1,102 @@
+{
+  "id": 69662133,
+  "name": "MarkMe",
+  "fullName": "Transpeptidase/MarkMe",
+  "owner": {
+    "login": "Transpeptidase",
+    "id": 11157017,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/11157017?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Transpeptidase",
+    "htmlUrl": "https://github.com/Transpeptidase",
+    "followersUrl": "https://api.github.com/users/Transpeptidase/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Transpeptidase/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Transpeptidase/orgs",
+    "reposUrl": "https://api.github.com/users/Transpeptidase/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Transpeptidase/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/Transpeptidase/MarkMe",
+  "description": "a simple Markdown Editor",
+  "fork": false,
+  "url": "https://api.github.com/repos/Transpeptidase/MarkMe",
+  "forksUrl": "https://api.github.com/repos/Transpeptidase/MarkMe/forks",
+  "teamsUrl": "https://api.github.com/repos/Transpeptidase/MarkMe/teams",
+  "hooksUrl": "https://api.github.com/repos/Transpeptidase/MarkMe/hooks",
+  "eventsUrl": "https://api.github.com/repos/Transpeptidase/MarkMe/events",
+  "tagsUrl": "https://api.github.com/repos/Transpeptidase/MarkMe/tags",
+  "languagesUrl": "https://api.github.com/repos/Transpeptidase/MarkMe/languages",
+  "stargazersUrl": "https://api.github.com/repos/Transpeptidase/MarkMe/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/Transpeptidase/MarkMe/contributors",
+  "subscribersUrl": "https://api.github.com/repos/Transpeptidase/MarkMe/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/Transpeptidase/MarkMe/subscription",
+  "mergesUrl": "https://api.github.com/repos/Transpeptidase/MarkMe/merges",
+  "downloadsUrl": "https://api.github.com/repos/Transpeptidase/MarkMe/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/Transpeptidase/MarkMe/deployments",
+  "createdAt": "2016-09-30T11:43:26.000Z",
+  "updatedAt": "2016-10-14T15:22:03.000Z",
+  "pushedAt": "2016-10-16T14:59:57.000Z",
+  "gitUrl": "git://github.com/Transpeptidase/MarkMe.git",
+  "sshUrl": "git@github.com:Transpeptidase/MarkMe.git",
+  "cloneUrl": "https://github.com/Transpeptidase/MarkMe.git",
+  "svnUrl": "https://github.com/Transpeptidase/MarkMe",
+  "homepage": "",
+  "size": 1818,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "markme",
+    "version": "1.0.0",
+    "description": "a markdown editer ",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron .",
+      "pack": "build"
+    },
+    "build": {
+      "appId": "Mark.Me",
+      "productName": "MarkMe",
+      "mac": {
+        "category": "MarkMe"
+      },
+      "win": {
+        "iconUrl": "(windows-only) https link to icon",
+        "target": "nsis"
+      }
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron": "^1.4.3",
+      "electron-builder": "^7.12.2",
+      "eslint": "^3.6.0",
+      "eslint-config-google": "^0.6.0",
+      "eslint-config-standard": "^6.0.1",
+      "eslint-plugin-promise": "^2.0.1",
+      "eslint-plugin-standard": "^2.0.0"
+    }
+  },
+  "packageStatus": 200
+}

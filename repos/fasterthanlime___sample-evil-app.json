@@ -1,0 +1,92 @@
+{
+  "id": 61735348,
+  "name": "sample-evil-app",
+  "fullName": "fasterthanlime/sample-evil-app",
+  "owner": {
+    "login": "fasterthanlime",
+    "id": 7998310,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/7998310?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/fasterthanlime",
+    "htmlUrl": "https://github.com/fasterthanlime",
+    "followersUrl": "https://api.github.com/users/fasterthanlime/followers",
+    "subscriptionsUrl": "https://api.github.com/users/fasterthanlime/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/fasterthanlime/orgs",
+    "reposUrl": "https://api.github.com/users/fasterthanlime/repos",
+    "receivedEventsUrl": "https://api.github.com/users/fasterthanlime/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/fasterthanlime/sample-evil-app",
+  "description": "An example evil app that tries to steal personal data (itch.io sandbox showcase)",
+  "fork": false,
+  "url": "https://api.github.com/repos/fasterthanlime/sample-evil-app",
+  "forksUrl": "https://api.github.com/repos/fasterthanlime/sample-evil-app/forks",
+  "teamsUrl": "https://api.github.com/repos/fasterthanlime/sample-evil-app/teams",
+  "hooksUrl": "https://api.github.com/repos/fasterthanlime/sample-evil-app/hooks",
+  "eventsUrl": "https://api.github.com/repos/fasterthanlime/sample-evil-app/events",
+  "tagsUrl": "https://api.github.com/repos/fasterthanlime/sample-evil-app/tags",
+  "languagesUrl": "https://api.github.com/repos/fasterthanlime/sample-evil-app/languages",
+  "stargazersUrl": "https://api.github.com/repos/fasterthanlime/sample-evil-app/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/fasterthanlime/sample-evil-app/contributors",
+  "subscribersUrl": "https://api.github.com/repos/fasterthanlime/sample-evil-app/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/fasterthanlime/sample-evil-app/subscription",
+  "mergesUrl": "https://api.github.com/repos/fasterthanlime/sample-evil-app/merges",
+  "downloadsUrl": "https://api.github.com/repos/fasterthanlime/sample-evil-app/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/fasterthanlime/sample-evil-app/deployments",
+  "createdAt": "2016-06-22T16:41:35.000Z",
+  "updatedAt": "2016-06-22T16:46:59.000Z",
+  "pushedAt": "2016-07-22T11:42:43.000Z",
+  "gitUrl": "git://github.com/fasterthanlime/sample-evil-app.git",
+  "sshUrl": "git@github.com:fasterthanlime/sample-evil-app.git",
+  "cloneUrl": "https://github.com/fasterthanlime/sample-evil-app.git",
+  "svnUrl": "https://github.com/fasterthanlime/sample-evil-app",
+  "homepage": null,
+  "size": 11,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "sample-evil-app",
+    "version": "1.0.0",
+    "description": "Tries to steal personal data / itch.io sandbox showcase",
+    "main": "app/index.js",
+    "scripts": {
+      "start": "electron .",
+      "push": "make -j4"
+    },
+    "author": "Amos Wenger <amos@itch.io>",
+    "license": "MIT",
+    "itchyElectron": {
+      "productName": "Sample Evil App",
+      "appDir": "./app",
+      "itchTargets": {
+        "release": "fasterthanlime/sample-evil-app"
+      }
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.5",
+      "itchy-electron": "^0.2.0"
+    }
+  },
+  "packageStatus": 200
+}

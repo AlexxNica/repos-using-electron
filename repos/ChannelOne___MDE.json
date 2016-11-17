@@ -1,0 +1,109 @@
+{
+  "id": 71045524,
+  "name": "MDE",
+  "fullName": "ChannelOne/MDE",
+  "owner": {
+    "login": "ChannelOne",
+    "id": 2352832,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2352832?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/ChannelOne",
+    "htmlUrl": "https://github.com/ChannelOne",
+    "followersUrl": "https://api.github.com/users/ChannelOne/followers",
+    "subscriptionsUrl": "https://api.github.com/users/ChannelOne/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/ChannelOne/orgs",
+    "reposUrl": "https://api.github.com/users/ChannelOne/repos",
+    "receivedEventsUrl": "https://api.github.com/users/ChannelOne/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/ChannelOne/MDE",
+  "description": "MDE is a MarkDown Editor",
+  "fork": false,
+  "url": "https://api.github.com/repos/ChannelOne/MDE",
+  "forksUrl": "https://api.github.com/repos/ChannelOne/MDE/forks",
+  "teamsUrl": "https://api.github.com/repos/ChannelOne/MDE/teams",
+  "hooksUrl": "https://api.github.com/repos/ChannelOne/MDE/hooks",
+  "eventsUrl": "https://api.github.com/repos/ChannelOne/MDE/events",
+  "tagsUrl": "https://api.github.com/repos/ChannelOne/MDE/tags",
+  "languagesUrl": "https://api.github.com/repos/ChannelOne/MDE/languages",
+  "stargazersUrl": "https://api.github.com/repos/ChannelOne/MDE/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/ChannelOne/MDE/contributors",
+  "subscribersUrl": "https://api.github.com/repos/ChannelOne/MDE/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/ChannelOne/MDE/subscription",
+  "mergesUrl": "https://api.github.com/repos/ChannelOne/MDE/merges",
+  "downloadsUrl": "https://api.github.com/repos/ChannelOne/MDE/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/ChannelOne/MDE/deployments",
+  "createdAt": "2016-10-16T11:15:20.000Z",
+  "updatedAt": "2016-10-16T12:57:37.000Z",
+  "pushedAt": "2016-11-16T02:26:01.000Z",
+  "gitUrl": "git://github.com/ChannelOne/MDE.git",
+  "sshUrl": "git@github.com:ChannelOne/MDE.git",
+  "cloneUrl": "https://github.com/ChannelOne/MDE.git",
+  "svnUrl": "https://github.com/ChannelOne/MDE",
+  "homepage": null,
+  "size": 235,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "TypeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "mde",
+    "version": "1.0.0",
+    "description": "A Markdown Editor",
+    "main": "build/window.js",
+    "scripts": {
+      "server": "http-server ./ -p8085",
+      "test": "node ./build/test/test.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ChannelOne/MDE.git"
+    },
+    "keywords": [
+      "editor"
+    ],
+    "author": "DZ Chan",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ChannelOne/MDE/issues"
+    },
+    "homepage": "https://github.com/ChannelOne/MDE#readme",
+    "dependencies": {
+      "gulp": "^3.9.1",
+      "gulp-cached": "^1.1.0",
+      "gulp-sourcemaps": "^2.1.1",
+      "gulp-typescript": "^3.0.2",
+      "list-diff2": "^0.1.4",
+      "sinon": "^1.17.6"
+    },
+    "devDependencies": {
+      "electron": "^1.4.3"
+    }
+  },
+  "packageStatus": 200
+}

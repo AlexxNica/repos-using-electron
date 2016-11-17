@@ -1,0 +1,115 @@
+{
+  "id": 66855731,
+  "name": "knots-electron",
+  "fullName": "Hyzual/knots-electron",
+  "owner": {
+    "login": "Hyzual",
+    "id": 2051507,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/2051507?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Hyzual",
+    "htmlUrl": "https://github.com/Hyzual",
+    "followersUrl": "https://api.github.com/users/Hyzual/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Hyzual/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Hyzual/orgs",
+    "reposUrl": "https://api.github.com/users/Hyzual/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Hyzual/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/Hyzual/knots-electron",
+  "description": "Turn your source code into a graph",
+  "fork": false,
+  "url": "https://api.github.com/repos/Hyzual/knots-electron",
+  "forksUrl": "https://api.github.com/repos/Hyzual/knots-electron/forks",
+  "teamsUrl": "https://api.github.com/repos/Hyzual/knots-electron/teams",
+  "hooksUrl": "https://api.github.com/repos/Hyzual/knots-electron/hooks",
+  "eventsUrl": "https://api.github.com/repos/Hyzual/knots-electron/events",
+  "tagsUrl": "https://api.github.com/repos/Hyzual/knots-electron/tags",
+  "languagesUrl": "https://api.github.com/repos/Hyzual/knots-electron/languages",
+  "stargazersUrl": "https://api.github.com/repos/Hyzual/knots-electron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/Hyzual/knots-electron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/Hyzual/knots-electron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/Hyzual/knots-electron/subscription",
+  "mergesUrl": "https://api.github.com/repos/Hyzual/knots-electron/merges",
+  "downloadsUrl": "https://api.github.com/repos/Hyzual/knots-electron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/Hyzual/knots-electron/deployments",
+  "createdAt": "2016-08-29T15:25:53.000Z",
+  "updatedAt": "2016-08-30T12:51:50.000Z",
+  "pushedAt": "2016-08-29T16:29:24.000Z",
+  "gitUrl": "git://github.com/Hyzual/knots-electron.git",
+  "sshUrl": "git@github.com:Hyzual/knots-electron.git",
+  "cloneUrl": "https://github.com/Hyzual/knots-electron.git",
+  "svnUrl": "https://github.com/Hyzual/knots-electron",
+  "homepage": null,
+  "size": 208,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "knots-electron",
+    "version": "0.1.0",
+    "description": "Turn your source code into a graph",
+    "license": "GPL-3.0",
+    "homepage": "http://hyzual.github.io/knotsjs",
+    "keywords": [
+      "dependencies",
+      "graph",
+      "interactive"
+    ],
+    "author": {
+      "name": "Joris MASSON",
+      "email": "hyzual@gmail.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Hyzual/knots-electron.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Hyzual/knots-electron/issuers"
+    },
+    "main": "main.js",
+    "dependencies": {
+      "d3": "^4.2.2",
+      "electron": "1.3.4",
+      "knotsjs": "1.0.0",
+      "lodash": "^4.7.0"
+    },
+    "devDependencies": {
+      "electron-connect": "^0.4.7",
+      "glob-all": "^3.0.1",
+      "gulp": "^3.9.1"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "./node_modules/.bin/electron .",
+      "watch": "./node_modules/.bin/gulp serve"
+    }
+  },
+  "packageStatus": 200
+}

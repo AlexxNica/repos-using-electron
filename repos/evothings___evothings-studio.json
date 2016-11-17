@@ -1,0 +1,125 @@
+{
+  "id": 14528696,
+  "name": "evothings-studio",
+  "fullName": "evothings/evothings-studio",
+  "owner": {
+    "login": "evothings",
+    "id": 5575818,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5575818?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/evothings",
+    "htmlUrl": "https://github.com/evothings",
+    "followersUrl": "https://api.github.com/users/evothings/followers",
+    "subscriptionsUrl": "https://api.github.com/users/evothings/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/evothings/orgs",
+    "reposUrl": "https://api.github.com/users/evothings/repos",
+    "receivedEventsUrl": "https://api.github.com/users/evothings/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/evothings/evothings-studio",
+  "description": "Evothings Studio",
+  "fork": false,
+  "url": "https://api.github.com/repos/evothings/evothings-studio",
+  "forksUrl": "https://api.github.com/repos/evothings/evothings-studio/forks",
+  "teamsUrl": "https://api.github.com/repos/evothings/evothings-studio/teams",
+  "hooksUrl": "https://api.github.com/repos/evothings/evothings-studio/hooks",
+  "eventsUrl": "https://api.github.com/repos/evothings/evothings-studio/events",
+  "tagsUrl": "https://api.github.com/repos/evothings/evothings-studio/tags",
+  "languagesUrl": "https://api.github.com/repos/evothings/evothings-studio/languages",
+  "stargazersUrl": "https://api.github.com/repos/evothings/evothings-studio/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/evothings/evothings-studio/contributors",
+  "subscribersUrl": "https://api.github.com/repos/evothings/evothings-studio/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/evothings/evothings-studio/subscription",
+  "mergesUrl": "https://api.github.com/repos/evothings/evothings-studio/merges",
+  "downloadsUrl": "https://api.github.com/repos/evothings/evothings-studio/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/evothings/evothings-studio/deployments",
+  "createdAt": "2013-11-19T15:33:03.000Z",
+  "updatedAt": "2016-11-02T02:40:14.000Z",
+  "pushedAt": "2016-11-02T09:17:57.000Z",
+  "gitUrl": "git://github.com/evothings/evothings-studio.git",
+  "sshUrl": "git@github.com:evothings/evothings-studio.git",
+  "cloneUrl": "https://github.com/evothings/evothings-studio.git",
+  "svnUrl": "https://github.com/evothings/evothings-studio",
+  "homepage": "http://www.evothings.com/",
+  "size": 16540,
+  "stargazersCount": 23,
+  "watchersCount": 23,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 21,
+  "mirrorUrl": null,
+  "openIssuesCount": 34,
+  "openIssues": 34,
+  "watchers": 23,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "featured": true
+  },
+  "organization": {
+    "login": "evothings",
+    "id": 5575818,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/5575818?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/evothings",
+    "htmlUrl": "https://github.com/evothings",
+    "followersUrl": "https://api.github.com/users/evothings/followers",
+    "subscriptionsUrl": "https://api.github.com/users/evothings/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/evothings/orgs",
+    "reposUrl": "https://api.github.com/users/evothings/repos",
+    "receivedEventsUrl": "https://api.github.com/users/evothings/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 21,
+  "subscribersCount": 8,
+  "status": 200,
+  "packageJSON": {
+    "author": "Evothings <info@evothings.com>",
+    "bugs": {
+      "url": "https://github.com/evothings/evothings-studio/issues",
+      "email": "info@evothings.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/evothings/evothings-studio.git"
+    },
+    "devDependencies": {
+      "electron-builder": "^4.2.6",
+      "electron-packager": "^7.0.3",
+      "electron-prebuilt": "^1.2.1"
+    },
+    "build": {
+      "linux": {
+        "synopsis": "IoT hybrid mobile app development tool",
+        "vendor": "Evothings <info@evothings.com>"
+      },
+      "app-bundle-id": "com.evothings.studio",
+      "app-category-type": "public.app-category.developer-tools",
+      "iconUrl": "http://evothings.com/evothings-logo.ico"
+    },
+    "scripts": {
+      "libs": "ruby init.rb",
+      "devdeps": "npm install",
+      "deps": "npm install app",
+      "pack": "build",
+      "dist": "build --linux --win --osx --x64",
+      "dist:osx": "build --osx --x64",
+      "dist:linux": "build --linux --x64",
+      "dist:win": "build --win --x64",
+      "start": "cd app && electron --enable-logging main.js"
+    }
+  },
+  "packageStatus": 200
+}

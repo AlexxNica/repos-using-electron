@@ -1,0 +1,129 @@
+{
+  "id": 56137357,
+  "name": "TweetDeckPlayer",
+  "fullName": "sokcuri/TweetDeckPlayer",
+  "owner": {
+    "login": "sokcuri",
+    "id": 9635637,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/9635637?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/sokcuri",
+    "htmlUrl": "https://github.com/sokcuri",
+    "followersUrl": "https://api.github.com/users/sokcuri/followers",
+    "subscriptionsUrl": "https://api.github.com/users/sokcuri/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/sokcuri/orgs",
+    "reposUrl": "https://api.github.com/users/sokcuri/repos",
+    "receivedEventsUrl": "https://api.github.com/users/sokcuri/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/sokcuri/TweetDeckPlayer",
+  "description": "Useful window application for tweet life",
+  "fork": false,
+  "url": "https://api.github.com/repos/sokcuri/TweetDeckPlayer",
+  "forksUrl": "https://api.github.com/repos/sokcuri/TweetDeckPlayer/forks",
+  "teamsUrl": "https://api.github.com/repos/sokcuri/TweetDeckPlayer/teams",
+  "hooksUrl": "https://api.github.com/repos/sokcuri/TweetDeckPlayer/hooks",
+  "eventsUrl": "https://api.github.com/repos/sokcuri/TweetDeckPlayer/events",
+  "tagsUrl": "https://api.github.com/repos/sokcuri/TweetDeckPlayer/tags",
+  "languagesUrl": "https://api.github.com/repos/sokcuri/TweetDeckPlayer/languages",
+  "stargazersUrl": "https://api.github.com/repos/sokcuri/TweetDeckPlayer/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/sokcuri/TweetDeckPlayer/contributors",
+  "subscribersUrl": "https://api.github.com/repos/sokcuri/TweetDeckPlayer/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/sokcuri/TweetDeckPlayer/subscription",
+  "mergesUrl": "https://api.github.com/repos/sokcuri/TweetDeckPlayer/merges",
+  "downloadsUrl": "https://api.github.com/repos/sokcuri/TweetDeckPlayer/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/sokcuri/TweetDeckPlayer/deployments",
+  "createdAt": "2016-04-13T09:09:03.000Z",
+  "updatedAt": "2016-11-16T11:13:45.000Z",
+  "pushedAt": "2016-10-02T09:39:19.000Z",
+  "gitUrl": "git://github.com/sokcuri/TweetDeckPlayer.git",
+  "sshUrl": "git@github.com:sokcuri/TweetDeckPlayer.git",
+  "cloneUrl": "https://github.com/sokcuri/TweetDeckPlayer.git",
+  "svnUrl": "https://github.com/sokcuri/TweetDeckPlayer",
+  "homepage": "",
+  "size": 89263,
+  "stargazersCount": 47,
+  "watchersCount": 47,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 15,
+  "mirrorUrl": null,
+  "openIssuesCount": 11,
+  "openIssues": 11,
+  "watchers": 47,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 15,
+  "subscribersCount": 9,
+  "status": 200,
+  "packageJSON": {
+    "author": {
+      "name": "Sokcuri",
+      "email": "sokcuri@gmail.com",
+      "url": "https://github.com/sokcuri"
+    },
+    "contributors": [
+      {
+        "name": "Dalgona",
+        "url": "https://github.com/dalgona"
+      },
+      {
+        "name": "GaeulByul",
+        "url": "https://github.com/zn"
+      }
+    ],
+    "name": "TweetDeckPlayer",
+    "version": "2.0.1",
+    "main": "src/index.js",
+    "dependencies": {
+      "electron": "^1.4.0",
+      "async": "^2.0.1",
+      "detect-font": "^0.1.3",
+      "jquery": "^3.1.0",
+      "nouislider": "^8.5.1",
+      "request": "^2.74.0",
+      "twemoji": "^2.1.5",
+      "twitter-text": "^1.14.0"
+    },
+    "bugs": {
+      "url": "https://github.com/sokcuri/TweetDeckPlayer/issues"
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "csscomb": "^3.1.8",
+      "electron-packager": "^8.0.0",
+      "eslint": "^3.5.0",
+      "fs-extra": "^0.30.0",
+      "minimist": "^1.2.0",
+      "sync-exec": "^0.6.2"
+    },
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/sokcuri/TweetDeckPlayer"
+    },
+    "scripts": {
+      "csslint": "csscomb src/css/ --lint --verbose",
+      "csscomb": "csscomb src/css/ --verbose",
+      "start": "electron ./src/index.js",
+      "eslint": "eslint src/ tools/",
+      "build": "node tools/build.js",
+      "clean": "node tools/clean.js"
+    }
+  },
+  "packageStatus": 200
+}
