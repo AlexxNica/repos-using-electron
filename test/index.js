@@ -4,17 +4,22 @@ const uniq = require('lodash.uniq')
 const they = it
 
 describe('repos', function () {
-  it('is an array with hella repos', function () {
+  it('is an array of repo objects', function () {
     expect(repos).to.be.an('array')
-    expect(repos.length).to.be.above(10946)
+    expect(repos.length).to.be.above(12752)
   })
 
   they('are all unique', function () {
     const names = repos.map(repo => repo.fullName)
-    expect(uniq(names)).to.deep.equal(names)
+    expect(uniq(names).length).to.equal(names.length)
   })
 
-  it('is sorted by fork count', function () {
+  they('are mostly non-forks', function () {
+    const nonForks = repos.filter(repo => !repo.fork)
+    expect(nonForks.length).to.be.above(11321)
+  })
+
+  they('are sorted by fork count', function () {
     expect(repos[0].forksCount).to.be.above(2000)
     expect(repos[repos.length - 1].forksCount).to.equal(0)
   })
