@@ -99,5 +99,9 @@
       "build-linux32": "electron-packager ./ 'Diane Rehm Downloader' --app-bundle-id=dianerehmdownloader --asar --prune --out=build --overwrite=true --platform=linux --arch=ia32 --version=1.2.6 --app-version=1.0.9 && cd 'build/Diane Rehm Downloader-linux-ia32' && rm -rf LICENSE* version && zip -9 -r ../Diane.Rehm.Downloader-linux-ia32.zip '../Diane Rehm Downloader-linux-ia32' && cd ../../"
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "kethinov",
+    "Autre31415"
+  ]
 }

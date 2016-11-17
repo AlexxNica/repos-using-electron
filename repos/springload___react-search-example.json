@@ -159,5 +159,8 @@
       "build:electron": "npm run dist && electron-packager . 'Electron Data' --out=dist --ignore='(dist|node_modules|gulp)/' --prune --asar --all --version=0.36.7 --icon raw/data-search-icon --overwrite"
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "thibaudcolas"
+  ]
 }

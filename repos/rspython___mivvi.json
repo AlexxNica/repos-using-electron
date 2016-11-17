@@ -136,5 +136,8 @@
       "update-index-async": "node -e \"require('shelljs/global'); sed('-i', /\\/\\/@@NG_LOADER_START@@[\\s\\S]*\\/\\/@@NG_LOADER_END@@/, '//@@NG_LOADER_START@@\\n' + cat('bower_components/angular-loader/angular-loader.min.js') + '\\n//@@NG_LOADER_END@@', 'app/index-async.html');\""
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "rspython"
+  ]
 }
