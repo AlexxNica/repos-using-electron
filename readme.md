@@ -7,16 +7,6 @@ Uses the [libraries.io](https://libraries.io/api) to find dependent repos,
 and the [GitHub](https://developer.github.com/v3/) API to fetch latest
 `package.json` for each repo.
 
-## The Data
-
-Some of the collected data has been rendered into markdown reports.
-
-- [Apps by Fork Count](/reports/forks.md)
-- [Apps by Contributor Count](/reports/contributors.md)
-- [Top Contributors](/reports/contributors.md#top-contributors)
-- [Common Dependencies](/reports/dependencies.md)
-- [`electron-builder` configurations](/reports/electron-builder-configurations.md)
-
 ## Installation
 
 ```sh
