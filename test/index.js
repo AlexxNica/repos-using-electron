@@ -4,14 +4,14 @@ const uniq = require('lodash.uniq')
 const they = it
 
 describe('repos', function () {
-  it('is an array of over 12752 repo objects', function () {
+  it('is an array of over 12750 repo objects', function () {
     expect(repos).to.be.an('array')
-    expect(repos.length).to.be.above(12752)
+    expect(repos.length).to.be.above(12750)
   })
 
-  it('contains over 11321 non-forks', function () {
+  it('contains over 11319 non-forks', function () {
     const nonForks = repos.filter(repo => !repo.fork)
-    expect(nonForks.length).to.be.above(11321)
+    expect(nonForks.length).to.be.above(11319)
   })
 
   they('all have a unique user/repo fullName', function () {
@@ -31,6 +31,10 @@ describe('repos', function () {
 
   they('always have a name', function () {
     expect(repos.every(repo => repo.name.length > 0)).to.equal(true)
+  })
+
+  they('always have a contributors array', function () {
+    expect(repos.every(repo => Array.isArray(repo.contributors))).to.equal(true)
   })
 
   they('always have a packageJSON object', function () {
