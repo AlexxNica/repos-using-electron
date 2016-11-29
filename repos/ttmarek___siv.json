@@ -115,5 +115,27 @@
   "packageStatus": 200,
   "contributors": [
     "ttmarek"
-  ]
+  ],
+  "firstCommit": {
+    "sha": "14717ed1c04e6b7cbd564388e25d1a1cb1db9344",
+    "commit": {
+      "author": {
+        "name": "ttmarek",
+        "email": "ttmarek@outlook.com",
+        "date": "2015-11-23T20:44:37Z"
+      },
+      "committer": {
+        "name": "ttmarek",
+        "email": "ttmarek@outlook.com",
+        "date": "2015-11-23T20:44:37Z"
+      },
+      "message": "This is SIV.\nSIV stands for SIV Image Viewer, it is an extensible image viewer\nbuilt with web technologies. SIV is a re-architected version of the\nImage Inspector. The Image Inspector wasn't horrible, but its design\nand architecture made it very unweildy and difficult to manage,\nespecially for a single developer. SIV relies heavily on the HTML5\ncanvas API, React, and Electron. Right now SIV can open up a folder of\nimages, authenticate a user, and download extensions from AWS S3. I\nstill need to write the ruler, transform, layer extensions, and the\nfacilities to load them into SIV. This repo builds off the 'iidesktop'\nrepo's electron branch. I initially thought to build SIV as a branch\nin the Image Inspector's desktop repo, but the two are architected so\ndifferently I thought it best to start afresh.",
+      "tree": {
+        "sha": "83bfc39238eb65eb1b8d3b27372054caebc930b9",
+        "url": "https://api.github.com/repos/ttmarek/siv/git/trees/83bfc39238eb65eb1b8d3b27372054caebc930b9"
+      },
+      "url": "https://api.github.com/repos/ttmarek/siv/git/commits/14717ed1c04e6b7cbd564388e25d1a1cb1db9344",
+      "commentCount": 0
+    }
+  }
 }

@@ -110,5 +110,27 @@
   "mirrorUrl": null,
   "contributors": [
     "kugtong33"
-  ]
+  ],
+  "firstCommit": {
+    "sha": "e350a744125ce94b455811a4531ba2d9cbf7c40b",
+    "commit": {
+      "author": {
+        "name": "Arjay Sitoy",
+        "email": "sitoy.arjay@gmail.com",
+        "date": "2014-07-10T00:49:18Z"
+      },
+      "committer": {
+        "name": "Arjay Sitoy",
+        "email": "sitoy.arjay@gmail.com",
+        "date": "2014-07-10T00:49:18Z"
+      },
+      "message": "Initial file setup\n\n\tHoppingBee architecture aims for the modular approach,\nand functionalities will be segregated along files with protoypes\nin nodejs. Tests will be created the way mocha can access them\nfor future continuous integration configurations.\n\n Changes committed:\n\tnew file:   .gitignore\n\tnew file:   app/javascript/network.js\n\tnew file:   app/javascript/server.js\n\tnew file:   app/javascript/system.js\n\tnew file:   bin/package\n\tnew file:   package.json\n\tnew file:   public/index.html\n\tnew file:   test/Network.RetrievePeers.js\n\tnew file:   test/platform/OS-Test.js",
+      "tree": {
+        "sha": "f7c0a3b8bdbf43272c3990c132f61ecc475bd2f3",
+        "url": "https://api.github.com/repos/kugtong33/hoppingbee/git/trees/f7c0a3b8bdbf43272c3990c132f61ecc475bd2f3"
+      },
+      "url": "https://api.github.com/repos/kugtong33/hoppingbee/git/commits/e350a744125ce94b455811a4531ba2d9cbf7c40b",
+      "commentCount": 0
+    }
+  }
 }

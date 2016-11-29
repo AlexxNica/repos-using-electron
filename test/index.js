@@ -19,6 +19,10 @@ describe('repos', function () {
     expect(uniq(names).length).to.equal(names.length)
   })
 
+  they('all have a firstCommit object', function () {
+    expect(repos.every(repo => repo.firstCommit.sha.length > 0)).to.equal(true)
+  })
+
   they('are sorted by fork count', function () {
     expect(repos[0].forksCount).to.be.above(2000)
     expect(repos[repos.length - 1].forksCount).to.equal(0)

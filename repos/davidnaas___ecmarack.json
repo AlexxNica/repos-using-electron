@@ -72,5 +72,27 @@
   "packageStatus": 200,
   "contributors": [
     "davidnaas"
-  ]
+  ],
+  "firstCommit": {
+    "sha": "d8b19a6a787b50edc396b5d2c7d5b45db50a6f82",
+    "commit": {
+      "author": {
+        "name": "David Nääs",
+        "email": "david_naas@hotmail.com",
+        "date": "2016-02-28T18:38:03Z"
+      },
+      "committer": {
+        "name": "David Nääs",
+        "email": "david_naas@hotmail.com",
+        "date": "2016-02-28T19:20:50Z"
+      },
+      "message": "Set up basic communication infrastructure\n\nBasic communication between command line and web audio\nenvironment.\n\nmain.js functions as the 'ui' thread, reading input from stdin and\nforking electron as a child process.\n\nrunner.js is the main electron process, creating the browser\nenvironment and forwarding the cli input from main.\n\nmodular.js is run inside of the actual chromium browser and\nhas access to web audio\n\nipc.js is an eventemmitter handling communication between main.js\nand runner.js",
+      "tree": {
+        "sha": "e07841793dadba20f4deed6e5d18f4baa39aa660",
+        "url": "https://api.github.com/repos/davidnaas/ecmarack/git/trees/e07841793dadba20f4deed6e5d18f4baa39aa660"
+      },
+      "url": "https://api.github.com/repos/davidnaas/ecmarack/git/commits/d8b19a6a787b50edc396b5d2c7d5b45db50a6f82",
+      "commentCount": 0
+    }
+  }
 }
