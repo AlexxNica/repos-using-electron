@@ -14,14 +14,27 @@ describe('repos', function () {
     expect(nonForks.length).to.be.above(11319)
   })
 
+  it('contains over 11319 repos that were never forks', function () {
+    const nonForks = repos.filter(repo => !repo.formerFork)
+    expect(nonForks.length).to.be.above(11319)
+  })
+
+  they('are sometimes forks disguised as non-forks', function () {
+    const spectron = repos.find(repo => repo.fullName === 'electron/spectron')
+    expect(spectron.formerFork).to.equal(false)
+
+    const marvelClicker = repos.find(repo => repo.fullName === 'axeltonson/marvel-clicker')
+    expect(marvelClicker.formerFork).to.equal(true)
+  })
+
   they('all have a unique user/repo fullName', function () {
     const names = repos.map(repo => repo.fullName)
     expect(uniq(names).length).to.equal(names.length)
   })
 
-  they('all have a firstCommit object', function () {
-    expect(repos.every(repo => repo.firstCommit.sha.length > 0)).to.equal(true)
-  })
+  // they('all have a firstCommit object', function () {
+  //   expect(repos.every(repo => repo.firstCommit.sha.length > 0)).to.equal(true)
+  // })
 
   they('are sorted by fork count', function () {
     expect(repos[0].forksCount).to.be.above(2000)
