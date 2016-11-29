@@ -1,6 +1,6 @@
 const expect = require('chai').expect
 const repos = require('..')
-const uniq = require('lodash.uniq')
+const uniq = require('lodash').uniq
 const they = it
 
 describe('repos', function () {

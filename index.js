@@ -2,7 +2,7 @@ const Repo = require('./lib/repo')
 const objectValues = require('object-values')
 const requireDir = require('require-dir')
 const path = require('path')
-const uniqueBy = require('lodash.uniqby')
+const uniqueBy = require('lodash').uniqBy
 
 const repos = objectValues(requireDir(path.join(__dirname, '/repos')))
   .map(repoData => new Repo(repoData))
