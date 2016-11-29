@@ -7,11 +7,11 @@
   "scripts": {
     "start": "npm run discover",
     "test": "mocha && standard && standard-markdown",
-    "collectors": "npm-run-all collectors:*",
-    "collectors:repo-names": "node lib/collectors/repo-names.js",
-    "collectors:repo-data": "node lib/collectors/repo-data.js",
-    "collectors:package-json": "node lib/collectors/package-json.js",
-    "collectors:contributors": "node lib/collectors/contributors.js"
+    "collect": "npm-run-all collect:*",
+    "collect:repo-names": "node lib/collect/repo-names.js",
+    "collect:repo-data": "node lib/collect/repo-data.js",
+    "collect:package-json": "node lib/collect/package-json.js",
+    "collect:contributors": "node lib/collect/contributors.js"
   },
   "keywords": [
     "electron",
