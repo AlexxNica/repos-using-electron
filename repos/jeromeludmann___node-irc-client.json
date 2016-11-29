@@ -109,5 +109,27 @@
   "packageStatus": 200,
   "contributors": [
     "jeromeludmann"
-  ]
+  ],
+  "firstCommit": {
+    "sha": "1332e8ca9bb70e940510871bbe2044dea66372e9",
+    "commit": {
+      "author": {
+        "name": "Jerome Ludmann",
+        "email": "jerome@ludmann.io",
+        "date": "2015-12-21T12:18:16Z"
+      },
+      "committer": {
+        "name": "Jérôme Ludmann",
+        "email": "jerome@ludmann.io",
+        "date": "2016-09-10T18:26:37Z"
+      },
+      "message": "Reinventing the wheel\n\nData model:\n - Buffer\n - Nicklist\n - Server\n - Status\n - Channel\n - Private\n\nIRC parser:\n - chunk parser\n - message parser\n\nUser interfaces:\n - navigation\n - buffer\n - nicklist\n - command input\n - windows: status, channel, private\n\nConfiguration file:\n - default user parameters\n - startup parameters\n\nCommand aliases:\n - CONNECT\n - DISCONNECT\n - MSG\n\nCommon message callbacks:\n - PING\n - ERROR\n - MODE\n - NOTICE\n - JOIN\n - PART\n - PRIVMSG\n - NICK\n - TOPIC\n - KICK\n - KILL\n - QUIT\n\nReply message callbacks:\n - 001 RPL_WELCOME\n - 221 RPL_UMODEIS\n - 324 RPL_CHANNELMODEIS\n - 332 RPL_TOPIC\n - 353 RPL_NAMREPLY\n - 372 RPL_MOTD\n\nError message callbakcs:\n - 401 ERR_NOSUCHNICK\n - 404 ERR_CANNOTSENDTOCHAN\n - 421 ERR_UNKNOWNCOMMAND\n - 433 ERR_NICKNAMEINUSE\n - 451 ERR_NOTREGISTERED\n - 461 ERR_NEEDMOREPARAMS",
+      "tree": {
+        "sha": "93c37a8db04b6d27284d22b6c89cfa0d8e615ae2",
+        "url": "https://api.github.com/repos/jeromeludmann/node-irc-client/git/trees/93c37a8db04b6d27284d22b6c89cfa0d8e615ae2"
+      },
+      "url": "https://api.github.com/repos/jeromeludmann/node-irc-client/git/commits/1332e8ca9bb70e940510871bbe2044dea66372e9",
+      "commentCount": 0
+    }
+  }
 }
