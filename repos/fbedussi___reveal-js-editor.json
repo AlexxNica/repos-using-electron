@@ -80,9 +80,6 @@
       "email": "francesco@francescobedussi.it",
       "url": "http://www.francescobedussi.it"
     },
-    "bugs": {
-      "url": "https://github.com/fbedussi/reveal-md/issues"
-    },
     "dependencies": {
       "fs-extra": "^1.0.0",
       "markdown-it": "^8.1.0",
@@ -105,8 +102,17 @@
     "main": "lib/main.js",
     "private": true,
     "repository": {
-      "type": "git",
-      "url": "git://github.com/fbedussi/reveal-md.git"
+      "user": "fbedussi",
+      "repo": "reveal-md",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/fbedussi/reveal-md/tarball/master",
+      "clone_url": "https://github.com/fbedussi/reveal-md",
+      "https_url": "https://github.com/fbedussi/reveal-md",
+      "travis_url": "https://travis-ci.org/fbedussi/reveal-md",
+      "zip_url": "https://github.com/fbedussi/reveal-md/archive/master.zip",
+      "api_url": "https://api.github.com/repos/fbedussi/reveal-md"
     },
     "scripts": {
       "package": "electron-packager . 'Reveak Editor'",
@@ -141,5 +147,7 @@
       "url": "https://api.github.com/repos/fbedussi/reveal-js-editor/git/commits/c9e04493ec5d4a5e923d61a1cb2be6a7722b93a9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "fbedussi___reveal-js-editor.json",
+  "sourceRepo": "feross/electron-workshop"
 }

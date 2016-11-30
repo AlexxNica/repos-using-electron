@@ -81,8 +81,17 @@
       "compile": "browserify -t [ babelify --presets [ react es2015 ] ] src/app.js -o js/app.js"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/zafaralam/noha-desktop-app.git"
+      "user": "zafaralam",
+      "repo": "noha-desktop-app",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/zafaralam/noha-desktop-app/tarball/master",
+      "clone_url": "https://github.com/zafaralam/noha-desktop-app",
+      "https_url": "https://github.com/zafaralam/noha-desktop-app",
+      "travis_url": "https://travis-ci.org/zafaralam/noha-desktop-app",
+      "zip_url": "https://github.com/zafaralam/noha-desktop-app/archive/master.zip",
+      "api_url": "https://api.github.com/repos/zafaralam/noha-desktop-app"
     },
     "keywords": [
       "Electron",
@@ -92,9 +101,6 @@
     ],
     "author": "Zafar Alam",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/zafaralam/noha-desktop-app/issues"
-    },
     "homepage": "https://github.com/zafaralam/noha-desktop-app#readme",
     "devDependencies": {
       "electron": "^1.3.4",
@@ -155,5 +161,7 @@
       "url": "https://api.github.com/repos/zafaralam/noha-desktop-app/git/commits/1d7b194779561c673fbccf18f114826687fd83f3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zafaralam___noha-desktop-app.json",
+  "sourceRepo": "gedaiu/Voice"
 }

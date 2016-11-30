@@ -205,14 +205,20 @@
       "pack-win": "electron-packager . Git-it --platform=win32  --arch=ia32  --icon=assets/git-it.ico  --overwrite --ignore=out --prune=true --out=out "
     },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/jlord/git-it-electron.git"
+      "user": "jlord",
+      "repo": "git-it-electron",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/jlord/git-it-electron/tarball/master",
+      "clone_url": "https://github.com/jlord/git-it-electron",
+      "https_url": "https://github.com/jlord/git-it-electron",
+      "travis_url": "https://travis-ci.org/jlord/git-it-electron",
+      "zip_url": "https://github.com/jlord/git-it-electron/archive/master.zip",
+      "api_url": "https://api.github.com/repos/jlord/git-it-electron"
     },
     "author": "Jessica Lord",
     "license": "BSD-2-Clause",
-    "bugs": {
-      "url": "https://github.com/jlord/git-it-electron/issues"
-    },
     "homepage": "https://github.com/jlord/git-it-electron",
     "devDependencies": {
       "electron-packager": "^7.0.0",
@@ -264,5 +270,7 @@
       "url": "https://api.github.com/repos/IonicaBizauKitchen/git-it-electron/git/commits/6bda8b38cb3d79e816a34f306c2cf2e8f0690a1d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "IonicaBizauKitchen___git-it-electron.json",
+  "sourceRepo": "jlord/git-it-electron"
 }

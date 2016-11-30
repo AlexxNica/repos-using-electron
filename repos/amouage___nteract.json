@@ -197,8 +197,17 @@
       "postinstall": "electron-rebuild"
     },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/nteract/nteract.git"
+      "user": "nteract",
+      "repo": "nteract",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/nteract/nteract/tarball/master",
+      "clone_url": "https://github.com/nteract/nteract",
+      "https_url": "https://github.com/nteract/nteract",
+      "travis_url": "https://travis-ci.org/nteract/nteract",
+      "zip_url": "https://github.com/nteract/nteract/archive/master.zip",
+      "api_url": "https://api.github.com/repos/nteract/nteract"
     },
     "keywords": [
       "jupyter",
@@ -209,9 +218,6 @@
     ],
     "author": "nteract contributors",
     "license": "MPL-2.0",
-    "bugs": {
-      "url": "https://github.com/nteract/nteract/issues"
-    },
     "homepage": "https://github.com/nteract/nteract",
     "dependencies": {
       "codemirror": "^5.16.0",
@@ -335,5 +341,7 @@
       "url": "https://api.github.com/repos/amouage/nteract/git/commits/f62b657f6603e68adebb3f8d5814646ccdc10a28",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "amouage___nteract.json",
+  "sourceRepo": "nteract/nteract"
 }

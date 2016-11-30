@@ -83,8 +83,17 @@
       "osx-package": "./node_modules/.bin/webpack -p && ./node_modules/electron-packager/cli.js ./ WallpaperExplorer --out ./bin --platform=darwin --arch=x64 --version=0.36.0 --overwrite --ignore=\"ignore|bin|node_modules/(babel.*|jquery|.*loader|react.*|electron.*)\""
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/atom/electron-quick-start.git"
+      "user": "atom",
+      "repo": "electron-quick-start",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/atom/electron-quick-start/tarball/master",
+      "clone_url": "https://github.com/atom/electron-quick-start",
+      "https_url": "https://github.com/atom/electron-quick-start",
+      "travis_url": "https://travis-ci.org/atom/electron-quick-start",
+      "zip_url": "https://github.com/atom/electron-quick-start/archive/master.zip",
+      "api_url": "https://api.github.com/repos/atom/electron-quick-start"
     },
     "keywords": [
       "Electron",
@@ -94,9 +103,6 @@
     ],
     "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/atom/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "babel": "^5.6.10",
@@ -149,5 +155,7 @@
       "url": "https://api.github.com/repos/ngochuy/electron-react-ipc/git/commits/1d7b194779561c673fbccf18f114826687fd83f3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ngochuy___electron-react-ipc.json",
+  "sourceRepo": "gedaiu/Voice"
 }

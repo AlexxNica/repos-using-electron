@@ -170,11 +170,17 @@
     "main": "lib/storage.js",
     "homepage": "https://github.com/jviotti/electron-json-storage",
     "repository": {
-      "type": "git",
-      "url": "git://github.com/jviotti/electron-json-storage.git"
-    },
-    "directories": {
-      "test": "tests"
+      "user": "jviotti",
+      "repo": "electron-json-storage",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/jviotti/electron-json-storage/tarball/master",
+      "clone_url": "https://github.com/jviotti/electron-json-storage",
+      "https_url": "https://github.com/jviotti/electron-json-storage",
+      "travis_url": "https://travis-ci.org/jviotti/electron-json-storage",
+      "zip_url": "https://github.com/jviotti/electron-json-storage/archive/master.zip",
+      "api_url": "https://api.github.com/repos/jviotti/electron-json-storage"
     },
     "scripts": {
       "test": "electron-mocha --recursive tests -R spec && electron-mocha --renderer --recursive tests -R spec",
@@ -251,5 +257,7 @@
       "url": "https://api.github.com/repos/aaroncalderon/electron-json-storage/git/commits/66ce9f3dc12b6dea26b06777880bb37f83313b83",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "aaroncalderon___electron-json-storage.json",
+  "sourceRepo": "jviotti/electron-json-storage"
 }

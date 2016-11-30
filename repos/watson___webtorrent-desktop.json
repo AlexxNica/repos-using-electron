@@ -181,9 +181,6 @@
     "bin": {
       "webtorrent-desktop": "./bin/cmd.js"
     },
-    "bugs": {
-      "url": "https://github.com/feross/webtorrent-desktop/issues"
-    },
     "dependencies": {
       "airplay-js": "guerrerocarlos/node-airplay-js",
       "application-config": "^0.2.1",
@@ -245,8 +242,17 @@
     },
     "productName": "WebTorrent",
     "repository": {
-      "type": "git",
-      "url": "git://github.com/feross/webtorrent-desktop.git"
+      "user": "feross",
+      "repo": "webtorrent-desktop",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/feross/webtorrent-desktop/tarball/master",
+      "clone_url": "https://github.com/feross/webtorrent-desktop",
+      "https_url": "https://github.com/feross/webtorrent-desktop",
+      "travis_url": "https://travis-ci.org/feross/webtorrent-desktop",
+      "zip_url": "https://github.com/feross/webtorrent-desktop/archive/master.zip",
+      "api_url": "https://api.github.com/repos/feross/webtorrent-desktop"
     },
     "scripts": {
       "clean": "node ./bin/clean.js",
@@ -301,5 +307,7 @@
       "url": "https://api.github.com/repos/watson/webtorrent-desktop/git/commits/a1d69dbba7072991dae16964ad61bc70128d982a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "watson___webtorrent-desktop.json",
+  "sourceRepo": "feross/webtorrent-desktop"
 }

@@ -97,17 +97,23 @@
     },
     "packageNameTemplate": "{{name}}-v{{version}}-{{platform}}-{{arch}}",
     "repository": {
-      "type": "git",
-      "url": "https://github.com/sealtalk/sealtalk-desktop.git"
+      "user": "sealtalk",
+      "repo": "sealtalk-desktop",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/sealtalk/sealtalk-desktop/tarball/master",
+      "clone_url": "https://github.com/sealtalk/sealtalk-desktop",
+      "https_url": "https://github.com/sealtalk/sealtalk-desktop",
+      "travis_url": "https://travis-ci.org/sealtalk/sealtalk-desktop",
+      "zip_url": "https://github.com/sealtalk/sealtalk-desktop/archive/master.zip",
+      "api_url": "https://api.github.com/repos/sealtalk/sealtalk-desktop"
     },
     "keywords": [
       "SealTalk",
       "RongCloud",
       "IM"
     ],
-    "bugs": {
-      "url": "https://github.com/sealtalk/sealtalk-desktop/issues"
-    },
     "homepage": "https://github.com/sealtalk/sealtalk-desktop#readme",
     "devDependencies": {
       "electron-builder": "^2.6.0",
@@ -156,5 +162,7 @@
       "url": "https://api.github.com/repos/guanbo123456/sealtalk-desktop/git/commits/980a88546edb170b511473ab52373dcba1da5ed5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "guanbo123456___sealtalk-desktop.json",
+  "sourceRepo": "sealtalk/sealtalk-desktop"
 }

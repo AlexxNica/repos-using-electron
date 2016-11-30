@@ -197,8 +197,17 @@
       "dist": "npm run dist:win && npm run installer"
     },
     "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/dzt/jetta.git"
+      "user": "dzt",
+      "repo": "jetta",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/dzt/jetta/tarball/master",
+      "clone_url": "https://github.com/dzt/jetta",
+      "https_url": "https://github.com/dzt/jetta",
+      "travis_url": "https://travis-ci.org/dzt/jetta",
+      "zip_url": "https://github.com/dzt/jetta/archive/master.zip",
+      "api_url": "https://api.github.com/repos/dzt/jetta"
     },
     "keywords": [
       "soundcloud",
@@ -206,9 +215,6 @@
     ],
     "author": "Peter Soboyejo <thepcmrtim@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/dzt/jetta/issues"
-    },
     "homepage": "https://github.com/dzt/jetta#readme",
     "dependencies": {
       "application-config": "^0.2.2",
@@ -273,5 +279,7 @@
       "url": "https://api.github.com/repos/soops/jetta/git/commits/7cb46d686859aaa924e6ebf28994c8e13cd1719a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "soops___jetta.json",
+  "sourceRepo": "dzt/jetta"
 }

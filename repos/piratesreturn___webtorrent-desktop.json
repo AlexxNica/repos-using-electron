@@ -206,9 +206,6 @@
       "email": "feross@webtorrent.io",
       "url": "https://webtorrent.io"
     },
-    "bugs": {
-      "url": "https://github.com/feross/webtorrent-desktop/issues"
-    },
     "dependencies": {
       "airplayer": "^2.0.0",
       "application-config": "^1.0.0",
@@ -291,8 +288,17 @@
     },
     "productName": "WebTorrent",
     "repository": {
-      "type": "git",
-      "url": "git://github.com/feross/webtorrent-desktop.git"
+      "user": "feross",
+      "repo": "webtorrent-desktop",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/feross/webtorrent-desktop/tarball/master",
+      "clone_url": "https://github.com/feross/webtorrent-desktop",
+      "https_url": "https://github.com/feross/webtorrent-desktop",
+      "travis_url": "https://travis-ci.org/feross/webtorrent-desktop",
+      "zip_url": "https://github.com/feross/webtorrent-desktop/archive/master.zip",
+      "api_url": "https://api.github.com/repos/feross/webtorrent-desktop"
     },
     "scripts": {
       "build": "buble src --output build",
@@ -364,5 +370,7 @@
       "url": "https://api.github.com/repos/piratesreturn/webtorrent-desktop/git/commits/a1d69dbba7072991dae16964ad61bc70128d982a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "piratesreturn___webtorrent-desktop.json",
+  "sourceRepo": "feross/webtorrent-desktop"
 }

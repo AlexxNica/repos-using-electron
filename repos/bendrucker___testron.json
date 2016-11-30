@@ -175,8 +175,17 @@
       "test": "node test/test.js"
     },
     "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/shama/testron.git"
+      "user": "shama",
+      "repo": "testron",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/shama/testron/tarball/master",
+      "clone_url": "https://github.com/shama/testron",
+      "https_url": "https://github.com/shama/testron",
+      "travis_url": "https://travis-ci.org/shama/testron",
+      "zip_url": "https://github.com/shama/testron/archive/master.zip",
+      "api_url": "https://api.github.com/repos/shama/testron"
     },
     "keywords": [
       "test",
@@ -188,9 +197,6 @@
     ],
     "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/shama/testron/issues"
-    },
     "homepage": "https://github.com/shama/testron#readme",
     "dependencies": {
       "electron-spawn": "^3.0.0",
@@ -248,5 +254,7 @@
       "url": "https://api.github.com/repos/bendrucker/testron/git/commits/7428daa02e7396e3b627c7855ee98ec7f87e0f03",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "bendrucker___testron.json",
+  "sourceRepo": "shama/testron"
 }

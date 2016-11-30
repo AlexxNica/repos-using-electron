@@ -79,8 +79,17 @@
     "author": "Lamberto Fichera <fichera.lamberto@gmail.com>",
     "main": "app/index.js",
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/n2o1988/ryr-pills-manager.git"
+      "user": "n2o1988",
+      "repo": "ryr-pills-manager",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/n2o1988/ryr-pills-manager/tarball/master",
+      "clone_url": "https://github.com/n2o1988/ryr-pills-manager",
+      "https_url": "https://github.com/n2o1988/ryr-pills-manager",
+      "travis_url": "https://travis-ci.org/n2o1988/ryr-pills-manager",
+      "zip_url": "https://github.com/n2o1988/ryr-pills-manager/archive/master.zip",
+      "api_url": "https://api.github.com/repos/n2o1988/ryr-pills-manager"
     },
     "keywords": [
       "pills",
@@ -96,9 +105,6 @@
       "png": "assets/boilerplate.png"
     },
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/n2o1988/ryr-pills-manager/issues"
-    },
     "homepage": "https://github.com/n2o1988/ryr-pills-manager#readme",
     "scripts": {
       "postinstall": "npm run app-install && npm run electron-version && npm run rebuild",
@@ -178,5 +184,7 @@
       "url": "https://api.github.com/repos/n2o1988/ryr-pills-manager/git/commits/b37a1f2e6ba2ff8501bf92a61d3ad5b493aa44d2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "n2o1988___ryr-pills-manager.json",
+  "sourceRepo": "appelgriebsch/pouchdb-app"
 }

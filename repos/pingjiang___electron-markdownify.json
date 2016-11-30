@@ -174,9 +174,17 @@
       "build": "rm -rf dist && gulp build"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/amitmerchant1990/markdownify.git",
-      "docs": "https://github.com/amitmerchant1990/electron-markdownify/blob/master/README.md"
+      "user": "amitmerchant1990",
+      "repo": "markdownify",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/amitmerchant1990/markdownify/tarball/master",
+      "clone_url": "https://github.com/amitmerchant1990/markdownify",
+      "https_url": "https://github.com/amitmerchant1990/markdownify",
+      "travis_url": "https://travis-ci.org/amitmerchant1990/markdownify",
+      "zip_url": "https://github.com/amitmerchant1990/markdownify/archive/master.zip",
+      "api_url": "https://api.github.com/repos/amitmerchant1990/markdownify"
     },
     "keywords": [
       "electron",
@@ -191,14 +199,7 @@
     ],
     "author": "Amit Merchant <bullredeyes@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/amitmerchant1990/markdownify/issues"
-    },
     "homepage": "https://github.com/amitmerchant1990/markdownify#readme",
-    "_npmUser": {
-      "name": "amit_merchant",
-      "email": "bullredeyes@gmail.com"
-    },
     "devDependencies": {
       "devtron": "^1.1.2",
       "electron-packager": "^7.0.3",
@@ -210,6 +211,10 @@
       "showdown": "^1.3.0",
       "electron-json-storage": "latest",
       "parse-filepath": "latest"
+    },
+    "lastPublisher": {
+      "name": "amit_merchant",
+      "email": "bullredeyes@gmail.com"
     }
   },
   "packageStatus": 200,
@@ -259,5 +264,7 @@
       "url": "https://api.github.com/repos/pingjiang/electron-markdownify/git/commits/244540cb6bdbc8e0c9a47c5be12787c48ecedd04",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "pingjiang___electron-markdownify.json",
+  "sourceRepo": "amitmerchant1990/electron-markdownify"
 }

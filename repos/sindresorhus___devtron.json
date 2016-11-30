@@ -174,14 +174,20 @@
       "test": "mocha test/unit/*-test.js test/integration/*-test.js && standard"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/devtron.git"
+      "user": "electron",
+      "repo": "devtron",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/electron/devtron/tarball/master",
+      "clone_url": "https://github.com/electron/devtron",
+      "https_url": "https://github.com/electron/devtron",
+      "travis_url": "https://travis-ci.org/electron/devtron",
+      "zip_url": "https://github.com/electron/devtron/archive/master.zip",
+      "api_url": "https://api.github.com/repos/electron/devtron"
     },
     "author": "Kevin Sawicki",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/electron/devtron/issues"
-    },
     "keywords": [
       "Electron",
       "Chrome",
@@ -241,5 +247,7 @@
       "url": "https://api.github.com/repos/sindresorhus/devtron/git/commits/a4204ff0f046ff4896c6990636bf9cffc6395544",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sindresorhus___devtron.json",
+  "sourceRepo": "electron/devtron"
 }

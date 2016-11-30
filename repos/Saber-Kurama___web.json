@@ -172,10 +172,6 @@
       "email": "vasiliy.yorkin@gmail.com",
       "url": "https://github.com/vyorkin"
     },
-    "bugs": {
-      "url": "https://github.com/partyrooms/web/issues",
-      "email": "vasiliy.yorkin@gmail.com"
-    },
     "config": {
       "https": false,
       "host": "0.0.0.0",
@@ -428,8 +424,17 @@
     "main": "src/server/index.js",
     "private": true,
     "repository": {
-      "type": "git",
-      "url": "partyrooms/web"
+      "user": "partyrooms",
+      "repo": "web",
+      "branch": "master",
+      "host": "github.com",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/partyrooms/web/tarball/master",
+      "clone_url": "https://github.com/partyrooms/web",
+      "https_url": "https://github.com/partyrooms/web",
+      "travis_url": "https://travis-ci.org/partyrooms/web",
+      "zip_url": "https://github.com/partyrooms/web/archive/master.zip",
+      "api_url": "https://api.github.com/repos/partyrooms/web"
     },
     "scripts": {
       "build": "gulp build",
@@ -478,5 +483,7 @@
       "url": "https://api.github.com/repos/Saber-Kurama/web/git/commits/e15bbd12fa106e58ad13c63a20ac35d84fed517a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Saber-Kurama___web.json",
+  "sourceRepo": "vyorkin-personal/starter-kit"
 }

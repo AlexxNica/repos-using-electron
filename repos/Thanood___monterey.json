@@ -173,9 +173,6 @@
       "gui"
     ],
     "homepage": "http://aurelia.io",
-    "bugs": {
-      "url": "https://github.com/monterey-framework/monterey/issues"
-    },
     "main": "app/index.js",
     "license": "CC0-1.0",
     "author": {
@@ -183,8 +180,17 @@
       "email": "info@aureliatools.com"
     },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/monterey-framework/monterey"
+      "user": "monterey-framework",
+      "repo": "monterey",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/monterey-framework/monterey/tarball/master",
+      "clone_url": "https://github.com/monterey-framework/monterey",
+      "https_url": "https://github.com/monterey-framework/monterey",
+      "travis_url": "https://travis-ci.org/monterey-framework/monterey",
+      "zip_url": "https://github.com/monterey-framework/monterey/archive/master.zip",
+      "api_url": "https://api.github.com/repos/monterey-framework/monterey"
     },
     "scripts": {
       "postinstall": "install-app-deps",
@@ -193,9 +199,6 @@
       "setup": "node utils -setup && node utils -rebuild-native",
       "rebuild-native": "node utils -rebuild-native",
       "test-build": "gulp rename-index && build && gulp rename-index-back"
-    },
-    "directories": {
-      "app": "app"
     },
     "build": {
       "appId": "monterey",
@@ -298,5 +301,7 @@
       "url": "https://api.github.com/repos/Thanood/monterey/git/commits/c7d9045648bd747ae15a8fcb730fcc426714ce80",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Thanood___monterey.json",
+  "sourceRepo": "monterey-framework/monterey"
 }

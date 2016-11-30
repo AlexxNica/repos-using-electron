@@ -174,8 +174,17 @@
       "buildwin": "electron-packager . Multi_Messenger --ignore=node_modules/electron-* --platform=win32 --arch=ia32 --version=0.30.0 && cp assets/logo.icns Multi_Messenger-darwin-x64/Multi_Messenger.app/Contents/Resources/atom.icns"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ale-batt/multi_messenger"
+      "user": "ale-batt",
+      "repo": "multi_messenger",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/ale-batt/multi_messenger/tarball/master",
+      "clone_url": "https://github.com/ale-batt/multi_messenger",
+      "https_url": "https://github.com/ale-batt/multi_messenger",
+      "travis_url": "https://travis-ci.org/ale-batt/multi_messenger",
+      "zip_url": "https://github.com/ale-batt/multi_messenger/archive/master.zip",
+      "api_url": "https://api.github.com/repos/ale-batt/multi_messenger"
     },
     "keywords": [
       "Messenger",
@@ -186,9 +195,6 @@
     ],
     "author": "ale-batt",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ale-batt/multi_messenger/issues"
-    },
     "homepage": "https://github.com/ale-batt/multi_messenger#readme",
     "devDependencies": {
       "electron-packager": "^5.1.1",
@@ -240,5 +246,7 @@
       "url": "https://api.github.com/repos/ashumeow/multi_messenger/git/commits/280838baf069feb6773dfaa2a976b9a57e1238f1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ashumeow___multi_messenger.json",
+  "sourceRepo": "ale-batt/multi_messenger"
 }

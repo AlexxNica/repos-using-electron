@@ -176,8 +176,17 @@
       "build": "electron-packager . $npm_package_productName --out=packaged --icon='icon.icns' --overwrite --ignore='^/packaged --prune --platform=darwin --arch=x64 --version=$npm_package_electronVersion"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/VentureEquityExchange/DesktopPlatform.git"
+      "user": "VentureEquityExchange",
+      "repo": "DesktopPlatform",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/VentureEquityExchange/DesktopPlatform/tarball/master",
+      "clone_url": "https://github.com/VentureEquityExchange/DesktopPlatform",
+      "https_url": "https://github.com/VentureEquityExchange/DesktopPlatform",
+      "travis_url": "https://travis-ci.org/VentureEquityExchange/DesktopPlatform",
+      "zip_url": "https://github.com/VentureEquityExchange/DesktopPlatform/archive/master.zip",
+      "api_url": "https://api.github.com/repos/VentureEquityExchange/DesktopPlatform"
     },
     "keywords": [
       "Ethereum",
@@ -187,9 +196,6 @@
     ],
     "author": "Ryan Michael Tate",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/VentureEquityExchange/DesktopPlatform/issues"
-    },
     "homepage": "https://github.com/VentureEquityExchange/DesktopPlatform#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -236,5 +242,7 @@
       "url": "https://api.github.com/repos/jeffanthony/DesktopPlatform/git/commits/2ecf3d68a65e559edbc607cb46748a568f92e281",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jeffanthony___DesktopPlatform.json",
+  "sourceRepo": "NunoEdgarGub1/DesktopPlatform"
 }

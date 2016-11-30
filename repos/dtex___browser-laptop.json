@@ -190,8 +190,17 @@
       "test": "NODE_ENV=test mocha --compilers js:babel-register --recursive $(find test -name '*Test.js')"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/bbondy/electron-sample.git"
+      "user": "bbondy",
+      "repo": "electron-sample",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/bbondy/electron-sample/tarball/master",
+      "clone_url": "https://github.com/bbondy/electron-sample",
+      "https_url": "https://github.com/bbondy/electron-sample",
+      "travis_url": "https://travis-ci.org/bbondy/electron-sample",
+      "zip_url": "https://github.com/bbondy/electron-sample/archive/master.zip",
+      "api_url": "https://api.github.com/repos/bbondy/electron-sample"
     },
     "author": {
       "name": "Brave Developers <support@brave.com>"
@@ -211,9 +220,6 @@
       }
     ],
     "license": "MPL-2.0",
-    "bugs": {
-      "url": "https://github.com/bbondy/electron-sample/issues"
-    },
     "homepage": "https://github.com/bbondy/electron-sample#readme",
     "dependencies": {
       "abp-filter-parser-cpp": "^1.0.22",
@@ -336,5 +342,7 @@
       "url": "https://api.github.com/repos/dtex/browser-laptop/git/commits/33bcb0fbdf757eba906cd910403602c8f6f27c18",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dtex___browser-laptop.json",
+  "sourceRepo": "brave/browser-laptop"
 }

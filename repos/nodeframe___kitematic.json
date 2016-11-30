@@ -191,10 +191,18 @@
     "homepage": "https://kitematic.com/",
     "main": "browser.js",
     "repository": {
-      "type": "git",
-      "url": "git@github.com:kitematic/kitematic.git"
+      "user": "kitematic",
+      "repo": "kitematic",
+      "branch": "master",
+      "host": "github.com",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/kitematic/kitematic/tarball/master",
+      "clone_url": "https://github.com/kitematic/kitematic",
+      "https_url": "https://github.com/kitematic/kitematic",
+      "travis_url": "https://travis-ci.org/kitematic/kitematic",
+      "zip_url": "https://github.com/kitematic/kitematic/archive/master.zip",
+      "api_url": "https://api.github.com/repos/kitematic/kitematic"
     },
-    "bugs": "https://github.com/kitematic/kitematic/issues",
     "scripts": {
       "start": "grunt",
       "test": "jest -c jest-unit.json",
@@ -337,5 +345,7 @@
       "url": "https://api.github.com/repos/nodeframe/kitematic/git/commits/bdf0949190385277db35100a46b64dc2d682dd25",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "nodeframe___kitematic.json",
+  "sourceRepo": "docker/kitematic"
 }

@@ -192,8 +192,17 @@
       "build:win64": "electron-builder \"build/SealTalk-win32-x64\" --platform=win --out=\"dist/win64\" --config=builder.json"
     },
     "repository": {
-      "type": "git",
-      "url": "git@gitlab.rongcloud.net:web-team/sealtalk-desktop.git"
+      "user": "web-team",
+      "repo": "sealtalk-desktop",
+      "branch": "master",
+      "host": "github.com",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/web-team/sealtalk-desktop/tarball/master",
+      "clone_url": "https://github.com/web-team/sealtalk-desktop",
+      "https_url": "https://github.com/web-team/sealtalk-desktop",
+      "travis_url": "https://travis-ci.org/web-team/sealtalk-desktop",
+      "zip_url": "https://github.com/web-team/sealtalk-desktop/archive/master.zip",
+      "api_url": "https://api.github.com/repos/web-team/sealtalk-desktop"
     },
     "keywords": [
       "SealTalk",
@@ -202,9 +211,6 @@
     ],
     "author": "RongCloud",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/rongcloud/sealtalk-desktop/issues"
-    },
     "homepage": "https://github.com/rongcloud/sealtalk-desktop#readme",
     "devDependencies": {
       "electron-builder": "^2.6.0",
@@ -272,5 +278,7 @@
       "url": "https://api.github.com/repos/rtlfinance/sealtalk-desktop/git/commits/980a88546edb170b511473ab52373dcba1da5ed5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rtlfinance___sealtalk-desktop.json",
+  "sourceRepo": "sealtalk/sealtalk-desktop"
 }

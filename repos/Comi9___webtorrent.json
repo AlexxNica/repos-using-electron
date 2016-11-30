@@ -187,9 +187,6 @@
         "package-json-versionify"
       ]
     },
-    "bugs": {
-      "url": "https://github.com/feross/webtorrent/issues"
-    },
     "dependencies": {
       "addr-to-ip-port": "^1.0.1",
       "bitfield": "^1.0.2",
@@ -270,8 +267,17 @@
     "license": "MIT",
     "main": "index.js",
     "repository": {
-      "type": "git",
-      "url": "git://github.com/feross/webtorrent.git"
+      "user": "feross",
+      "repo": "webtorrent",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/feross/webtorrent/tarball/master",
+      "clone_url": "https://github.com/feross/webtorrent",
+      "https_url": "https://github.com/feross/webtorrent",
+      "travis_url": "https://travis-ci.org/feross/webtorrent",
+      "zip_url": "https://github.com/feross/webtorrent/archive/master.zip",
+      "api_url": "https://api.github.com/repos/feross/webtorrent"
     },
     "scripts": {
       "build": "browserify -s WebTorrent -e ./ | uglifyjs -c warnings=false -m > webtorrent.min.js",
@@ -375,5 +381,7 @@
       "url": "https://api.github.com/repos/Comi9/webtorrent/git/commits/8f7a623ba9bd83b0874f32c36443ca0f85fdce98",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Comi9___webtorrent.json",
+  "sourceRepo": "feross/webtorrent"
 }

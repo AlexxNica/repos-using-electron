@@ -80,9 +80,6 @@
       "email": "feross@feross.org",
       "url": "http://feross.org/"
     },
-    "bugs": {
-      "url": "https://github.com/feross/electron-workshop/issues"
-    },
     "dependencies": {
       "drag-drop": "^2.12.1",
       "jquery": "^3.1.1",
@@ -103,8 +100,17 @@
     "main": "lib/main.js",
     "private": true,
     "repository": {
-      "type": "git",
-      "url": "git://github.com/feross/electron-workshop.git"
+      "user": "feross",
+      "repo": "electron-workshop",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/feross/electron-workshop/tarball/master",
+      "clone_url": "https://github.com/feross/electron-workshop",
+      "https_url": "https://github.com/feross/electron-workshop",
+      "travis_url": "https://travis-ci.org/feross/electron-workshop",
+      "zip_url": "https://github.com/feross/electron-workshop/archive/master.zip",
+      "api_url": "https://api.github.com/repos/feross/electron-workshop"
     },
     "scripts": {
       "package": "electron-packager . 'Markdown Editor'",
@@ -139,5 +145,7 @@
       "url": "https://api.github.com/repos/spawner999/electron-workshop/git/commits/c9e04493ec5d4a5e923d61a1cb2be6a7722b93a9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "spawner999___electron-workshop.json",
+  "sourceRepo": "feross/electron-workshop"
 }

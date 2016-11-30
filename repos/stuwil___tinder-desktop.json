@@ -192,8 +192,17 @@
       "postinstall": "bower install && cd desktop-app && npm install"
     },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/tinderjs/tinder-desktop.git"
+      "user": "tinderjs",
+      "repo": "tinder-desktop",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/tinderjs/tinder-desktop/tarball/master",
+      "clone_url": "https://github.com/tinderjs/tinder-desktop",
+      "https_url": "https://github.com/tinderjs/tinder-desktop",
+      "travis_url": "https://travis-ci.org/tinderjs/tinder-desktop",
+      "zip_url": "https://github.com/tinderjs/tinder-desktop/archive/master.zip",
+      "api_url": "https://api.github.com/repos/tinderjs/tinder-desktop"
     },
     "author": "tinderjs",
     "contributors": [
@@ -211,9 +220,6 @@
       }
     ],
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/tinderjs/tinder-desktop/issues"
-    },
     "homepage": "https://github.com/tinderjs/tinder-desktop",
     "devDependencies": {
       "electron-packager": "~7.0.0",
@@ -271,5 +277,7 @@
       "url": "https://api.github.com/repos/stuwil/tinder-desktop/git/commits/366cd100ea1bac8b8a47dca9551a41ac320b251e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "stuwil___tinder-desktop.json",
+  "sourceRepo": "tinderjs/tinder-desktop"
 }

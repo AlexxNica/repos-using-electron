@@ -75,9 +75,6 @@
       "skeleton"
     ],
     "homepage": "http://plotter.github.io",
-    "bugs": {
-      "url": "https://github.com/plotter/platform2/issues"
-    },
     "scripts": {
       "clean": "rimraf dist",
       "start": "electron .",
@@ -92,8 +89,17 @@
     "author": "Mike Graham <mgraham@technicalmedia.com> (http://cmichaelgraham.io)",
     "main": "main.js",
     "repository": {
-      "type": "git",
-      "url": "http://github.com/plotter/platform2"
+      "user": "plotter",
+      "repo": "platform2",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/plotter/platform2/tarball/master",
+      "clone_url": "https://github.com/plotter/platform2",
+      "https_url": "https://github.com/plotter/platform2",
+      "travis_url": "https://travis-ci.org/plotter/platform2",
+      "zip_url": "https://github.com/plotter/platform2/archive/master.zip",
+      "api_url": "https://api.github.com/repos/plotter/platform2"
     },
     "devDependencies": {
       "aurelia-bootstrapper": "^1.0.0",
@@ -143,5 +149,7 @@
       "url": "https://api.github.com/repos/plotter/platform-kendo/git/commits/888604645a167949a79367afa305daad9d1a4f2d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "plotter___platform-kendo.json",
+  "sourceRepo": "plotter/platform2"
 }

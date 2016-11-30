@@ -82,8 +82,17 @@
       "rebuild-sqlite3": "cd node_modules/sqlite3 &amp;&amp; npm run prepublish &amp;&amp; node-gyp configure --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-darwin-x64 &amp;&amp; node-gyp rebuild --target=0.36.1 --arch=x64 --target_platform=darwin --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-darwin-x64"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/atom/electron-quick-start.git"
+      "user": "atom",
+      "repo": "electron-quick-start",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/atom/electron-quick-start/tarball/master",
+      "clone_url": "https://github.com/atom/electron-quick-start",
+      "https_url": "https://github.com/atom/electron-quick-start",
+      "travis_url": "https://travis-ci.org/atom/electron-quick-start",
+      "zip_url": "https://github.com/atom/electron-quick-start/archive/master.zip",
+      "api_url": "https://api.github.com/repos/atom/electron-quick-start"
     },
     "keywords": [
       "Electron",
@@ -93,9 +102,6 @@
     ],
     "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/atom/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -145,5 +151,7 @@
       "url": "https://api.github.com/repos/DrewWeth/schwifty/git/commits/1d7b194779561c673fbccf18f114826687fd83f3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DrewWeth___schwifty.json",
+  "sourceRepo": "gedaiu/Voice"
 }

@@ -188,14 +188,20 @@
       "mac-bundle": "electron-packager . Dat --platform=darwin --arch=x64 --version=0.35.5 --ignore=node_modules/electron-prebuilt && cp info.plist Dat-darwin-x64/Dat.app/Contents/Info.plist && cp icon.icns Dat-darwin-x64/Dat.app/Contents/Resources/atom.icns"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/karissa/dat-app.git"
+      "user": "karissa",
+      "repo": "dat-app",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/karissa/dat-app/tarball/master",
+      "clone_url": "https://github.com/karissa/dat-app",
+      "https_url": "https://github.com/karissa/dat-app",
+      "travis_url": "https://travis-ci.org/karissa/dat-app",
+      "zip_url": "https://github.com/karissa/dat-app/archive/master.zip",
+      "api_url": "https://api.github.com/repos/karissa/dat-app"
     },
     "author": "Karissa McKelvey <karissa@karissamck.com> (http://karissamck.com/)",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/karissa/dat-app/issues"
-    },
     "homepage": "https://github.com/karissa/dat-app#readme",
     "dependencies": {
       "dat": "git+https://github.com/maxogden/dat.git",
@@ -260,5 +266,7 @@
       "url": "https://api.github.com/repos/c4k-lod/dat-desk/git/commits/57d2bd47fe2e22f13f9833b63a940d894f1d53c1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "c4k-lod___dat-desk.json",
+  "sourceRepo": "karissa/dat-menubar"
 }

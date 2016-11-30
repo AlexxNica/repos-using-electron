@@ -183,8 +183,17 @@
     "description": "The next generation music client",
     "main": "bootup.js",
     "repository": {
-      "type": "git",
-      "url": "https://github.com/EragonJ/Kaku"
+      "user": "EragonJ",
+      "repo": "Kaku",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/EragonJ/Kaku/tarball/master",
+      "clone_url": "https://github.com/EragonJ/Kaku",
+      "https_url": "https://github.com/EragonJ/Kaku",
+      "travis_url": "https://travis-ci.org/EragonJ/Kaku",
+      "zip_url": "https://github.com/EragonJ/Kaku/archive/master.zip",
+      "api_url": "https://api.github.com/repos/EragonJ/Kaku"
     },
     "keywords": [
       "Kaku",
@@ -194,9 +203,6 @@
     ],
     "author": "EragonJ <eragonj@eragonj.me>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/EragonJ/Kaku/issues"
-    },
     "homepage": "https://github.com/EragonJ/Kaku",
     "scripts": {
       "test": "./node_modules/mocha/bin/mocha -u tdd -t 5000 --reporter dot --compilers js:babel-core/register --require ./tests/unit/setup.js --harmony_arrow_functions 'tests/unit/*.test.js'",
@@ -314,5 +320,7 @@
       "url": "https://api.github.com/repos/AcamTech/Kaku/git/commits/d4bcb08d73935d6f7119be727749bdadd90a625f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "AcamTech___Kaku.json",
+  "sourceRepo": "EragonJ/Kaku"
 }

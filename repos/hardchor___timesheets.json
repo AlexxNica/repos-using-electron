@@ -100,14 +100,20 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/hardchor/timesheets.git"
+      "user": "hardchor",
+      "repo": "timesheets",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/hardchor/timesheets/tarball/master",
+      "clone_url": "https://github.com/hardchor/timesheets",
+      "https_url": "https://github.com/hardchor/timesheets",
+      "travis_url": "https://travis-ci.org/hardchor/timesheets",
+      "zip_url": "https://github.com/hardchor/timesheets/archive/master.zip",
+      "api_url": "https://api.github.com/repos/hardchor/timesheets"
     },
     "author": "Burkhard Reffeling",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/hardchor/timesheets/issues"
-    },
     "keywords": [
       "timesheet",
       "time",
@@ -192,10 +198,6 @@
           }
         ]
       }
-    },
-    "directories": {
-      "app": "./dist/",
-      "output": "./release/"
     }
   },
   "packageStatus": 200,
@@ -252,5 +254,7 @@
       "url": "https://api.github.com/repos/hardchor/timesheets/git/commits/9d7637e47e7c637c857b31e058ea969f7fd30122",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hardchor___timesheets.json",
+  "sourceRepo": "chentsulin/electron-react-boilerplate"
 }

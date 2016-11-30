@@ -175,8 +175,17 @@
       "rebuild-sqlite3": "cd node_modules/sqlite3 && npm run prepublish && node-gyp configure --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-darwin-x64 && node-gyp rebuild --target=0.36.8 --arch=x64 --target_platform=darwin --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-darwin-x64"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/codeforscience/sciencefair.git"
+      "user": "codeforscience",
+      "repo": "sciencefair",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/codeforscience/sciencefair/tarball/master",
+      "clone_url": "https://github.com/codeforscience/sciencefair",
+      "https_url": "https://github.com/codeforscience/sciencefair",
+      "travis_url": "https://travis-ci.org/codeforscience/sciencefair",
+      "zip_url": "https://github.com/codeforscience/sciencefair/archive/master.zip",
+      "api_url": "https://api.github.com/repos/codeforscience/sciencefair"
     },
     "author": "code-for-science",
     "license": "MIT",
@@ -219,5 +228,7 @@
       "url": "https://api.github.com/repos/blahah/sciencefair/git/commits/5e11d67cbdf492434ab1437b2e082124a078aa56",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "blahah___sciencefair.json",
+  "sourceRepo": "codeforscience/sciencefair"
 }

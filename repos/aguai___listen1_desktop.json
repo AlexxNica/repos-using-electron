@@ -180,8 +180,17 @@
       "dist:linux64": "build --platform linux --arch x64"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/listen1/listen1_desktop.git"
+      "user": "listen1",
+      "repo": "listen1_desktop",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/listen1/listen1_desktop/tarball/master",
+      "clone_url": "https://github.com/listen1/listen1_desktop",
+      "https_url": "https://github.com/listen1/listen1_desktop",
+      "travis_url": "https://travis-ci.org/listen1/listen1_desktop",
+      "zip_url": "https://github.com/listen1/listen1_desktop/archive/master.zip",
+      "api_url": "https://api.github.com/repos/listen1/listen1_desktop"
     },
     "keywords": [
       "Electron",
@@ -189,9 +198,6 @@
     ],
     "author": "Listen 1 <githublisten1@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/listen1/listen1_desktop/issues"
-    },
     "homepage": "https://github.com/listen1/listen1_desktop#readme",
     "devDependencies": {
       "electron-builder": "^3.24.0",
@@ -249,5 +255,7 @@
       "url": "https://api.github.com/repos/aguai/listen1_desktop/git/commits/11e7d12d53e7bf710295f00da925826dd98f961a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "aguai___listen1_desktop.json",
+  "sourceRepo": "listen1/listen1_desktop"
 }

@@ -172,9 +172,6 @@
       "email": "feross@feross.org",
       "url": "http://feross.org"
     },
-    "bugs": {
-      "url": "https://github.com/feross/webtorrent-app/issues"
-    },
     "dependencies": {
       "airplay-js": "guerrerocarlos/node-airplay-js",
       "application-config": "^0.2.0",
@@ -209,8 +206,17 @@
     "main": "index.js",
     "productName": "WebTorrent",
     "repository": {
-      "type": "git",
-      "url": "git://github.com/feross/webtorrent-app.git"
+      "user": "feross",
+      "repo": "webtorrent-app",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/feross/webtorrent-app/tarball/master",
+      "clone_url": "https://github.com/feross/webtorrent-app",
+      "https_url": "https://github.com/feross/webtorrent-app",
+      "travis_url": "https://travis-ci.org/feross/webtorrent-app",
+      "zip_url": "https://github.com/feross/webtorrent-app/archive/master.zip",
+      "api_url": "https://api.github.com/repos/feross/webtorrent-app"
     },
     "scripts": {
       "cleanup": "node ./bin/cleanup.js",
@@ -275,5 +281,7 @@
       "url": "https://api.github.com/repos/alvaropinot/webtorrent-app/git/commits/a1d69dbba7072991dae16964ad61bc70128d982a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "alvaropinot___webtorrent-app.json",
+  "sourceRepo": "feross/webtorrent-desktop"
 }

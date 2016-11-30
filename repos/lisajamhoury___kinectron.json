@@ -194,9 +194,6 @@
     "version": "0.0.1",
     "description": "An electron application to broadcast Kinect2 data over a peer connection",
     "main": "main.js",
-    "directories": {
-      "example": "examples"
-    },
     "dependencies": {
       "kinect2": "^0.1.4",
       "minimist": "^1.2.0",
@@ -213,8 +210,17 @@
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/lisajamhoury/kinectron.git"
+      "user": "lisajamhoury",
+      "repo": "kinectron",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/lisajamhoury/kinectron/tarball/master",
+      "clone_url": "https://github.com/lisajamhoury/kinectron",
+      "https_url": "https://github.com/lisajamhoury/kinectron",
+      "travis_url": "https://travis-ci.org/lisajamhoury/kinectron",
+      "zip_url": "https://github.com/lisajamhoury/kinectron/archive/master.zip",
+      "api_url": "https://api.github.com/repos/lisajamhoury/kinectron"
     },
     "keywords": [
       "kinect2",
@@ -222,9 +228,6 @@
     ],
     "author": "Lisa Jamhoury <lisa.jamhoury@nyu.edu>, Shawn Van Every <Shawn.Van.Every@nyu.edu>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/lisajamhoury/kinectron/issues"
-    },
     "homepage": "https://github.com/lisajamhoury/kinectron#readme"
   },
   "packageStatus": 200,
@@ -253,5 +256,7 @@
       "url": "https://api.github.com/repos/lisajamhoury/kinectron/git/commits/56e8b2576a9d1e4d43c99e071fff7d656b938e51",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lisajamhoury___kinectron.json",
+  "sourceRepo": "vanevery/kinectron"
 }

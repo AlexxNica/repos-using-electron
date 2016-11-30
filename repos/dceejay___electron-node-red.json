@@ -189,8 +189,17 @@
       "build:armv7l": "npm run pack:armv7l && fpm -s dir -t deb -f -n node-red-electron -v $npm_package_version -m conway@uk.ibm.com -a armv7l -p ../electron-bin -C build/Node-RED-linux-armv7l --prefix=/opt/node-red --after-install=afterinst.sh ./"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/dceejay/electron-node-red.git"
+      "user": "dceejay",
+      "repo": "electron-node-red",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/dceejay/electron-node-red/tarball/master",
+      "clone_url": "https://github.com/dceejay/electron-node-red",
+      "https_url": "https://github.com/dceejay/electron-node-red",
+      "travis_url": "https://travis-ci.org/dceejay/electron-node-red",
+      "zip_url": "https://github.com/dceejay/electron-node-red/archive/master.zip",
+      "api_url": "https://api.github.com/repos/dceejay/electron-node-red"
     },
     "dependencies": {
       "node-red": "*",
@@ -216,9 +225,6 @@
       }
     ],
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/dceejay/electron-node-red/issues"
-    },
     "homepage": "https://github.com/dceejay/electron-node-red#readme",
     "devDependencies": {
       "electron": "^1.4.4",
@@ -273,5 +279,7 @@
       "url": "https://api.github.com/repos/dceejay/electron-node-red/git/commits/87e64bb2d082a429eed27201acd1a39006742ba3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dceejay___electron-node-red.json",
+  "sourceRepo": "natcl/electron-node-red"
 }
