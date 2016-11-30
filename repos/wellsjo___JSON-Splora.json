@@ -1,0 +1,137 @@
+{
+  "id": 71188401,
+  "name": "JSON-Splora",
+  "fullName": "wellsjo/JSON-Splora",
+  "owner": {
+    "login": "wellsjo",
+    "id": 823446,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/823446?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/wellsjo",
+    "htmlUrl": "https://github.com/wellsjo",
+    "followersUrl": "https://api.github.com/users/wellsjo/followers",
+    "subscriptionsUrl": "https://api.github.com/users/wellsjo/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/wellsjo/orgs",
+    "reposUrl": "https://api.github.com/users/wellsjo/repos",
+    "receivedEventsUrl": "https://api.github.com/users/wellsjo/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/wellsjo/JSON-Splora",
+  "description": "GUI for editing, visualizing, and manipulating JSON data",
+  "fork": false,
+  "url": "https://api.github.com/repos/wellsjo/JSON-Splora",
+  "forksUrl": "https://api.github.com/repos/wellsjo/JSON-Splora/forks",
+  "teamsUrl": "https://api.github.com/repos/wellsjo/JSON-Splora/teams",
+  "hooksUrl": "https://api.github.com/repos/wellsjo/JSON-Splora/hooks",
+  "eventsUrl": "https://api.github.com/repos/wellsjo/JSON-Splora/events",
+  "tagsUrl": "https://api.github.com/repos/wellsjo/JSON-Splora/tags",
+  "languagesUrl": "https://api.github.com/repos/wellsjo/JSON-Splora/languages",
+  "stargazersUrl": "https://api.github.com/repos/wellsjo/JSON-Splora/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/wellsjo/JSON-Splora/contributors",
+  "subscribersUrl": "https://api.github.com/repos/wellsjo/JSON-Splora/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/wellsjo/JSON-Splora/subscription",
+  "mergesUrl": "https://api.github.com/repos/wellsjo/JSON-Splora/merges",
+  "downloadsUrl": "https://api.github.com/repos/wellsjo/JSON-Splora/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/wellsjo/JSON-Splora/deployments",
+  "createdAt": "2016-10-17T23:01:45.000Z",
+  "updatedAt": "2016-11-30T02:56:23.000Z",
+  "pushedAt": "2016-11-30T02:53:43.000Z",
+  "gitUrl": "git://github.com/wellsjo/JSON-Splora.git",
+  "sshUrl": "git@github.com:wellsjo/JSON-Splora.git",
+  "cloneUrl": "https://github.com/wellsjo/JSON-Splora.git",
+  "svnUrl": "https://github.com/wellsjo/JSON-Splora",
+  "homepage": "",
+  "size": 2512,
+  "stargazersCount": 587,
+  "watchersCount": 587,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 23,
+  "mirrorUrl": null,
+  "openIssuesCount": 11,
+  "openIssues": 11,
+  "watchers": 587,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 23,
+  "subscribersCount": 11,
+  "status": 200,
+  "packageJSON": {
+    "name": "JSON-Splora",
+    "version": "1.0.0",
+    "description": "Data exploration and sharing",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "build-darwin": "node_modules/.bin/electron-packager . --darwin --overwrite",
+      "build-linux": "node_modules/.bin/electron-packager . --linux --overwrite",
+      "build-win32": "node_modules/.bin/electron-packager . --win32 --overwrite",
+      "build": "npm run-script build-darwin && npm run-script build-linux && npm run-script build-win32"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "demo"
+    ],
+    "author": "Wells Johnston",
+    "devDependencies": {
+      "electron": "^1.4.8",
+      "electron-packager": "^8.3.0"
+    },
+    "dependencies": {
+      "codemirror": "^5.20.2",
+      "electron-context-menu": "^0.8.0",
+      "electron-default-menu": "^1.0.0",
+      "jquery": "^3.1.1",
+      "json5": "^0.5.0",
+      "jsonlint": "^1.6.2",
+      "menu": "^0.2.5",
+      "node-jq": "^0.4.0"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "wellsjo",
+    "MaanooAk",
+    "timvdalen"
+  ],
+  "firstCommit": {
+    "sha": "fd0a131757ffdb6c9ab7d2907331b5557ea33139",
+    "commit": {
+      "author": {
+        "name": "Wells Johnston",
+        "email": "wells@shawty.local",
+        "date": "2016-10-16T00:22:16Z"
+      },
+      "committer": {
+        "name": "Wells Johnston",
+        "email": "wells@wellss-macbook-pro.local",
+        "date": "2016-11-25T19:49:13Z"
+      },
+      "message": "first commit",
+      "tree": {
+        "sha": "87a090a4582fd944265640cf04fbd5de03db460d",
+        "url": "https://api.github.com/repos/wellsjo/JSON-Splora/git/trees/87a090a4582fd944265640cf04fbd5de03db460d"
+      },
+      "url": "https://api.github.com/repos/wellsjo/JSON-Splora/git/commits/fd0a131757ffdb6c9ab7d2907331b5557ea33139",
+      "commentCount": 0
+    }
+  }
+}

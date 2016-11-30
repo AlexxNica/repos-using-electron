@@ -174,9 +174,6 @@
     "description": "Displays the moon phase in your staus bar/tray",
     "version": "1.0.0",
     "author": "Bret Comnes <bcomnes@gmail.com>",
-    "bugs": {
-      "url": "https://github.com/bcomnes/mooon/issues"
-    },
     "devDependencies": {
       "electron-packager": "^4.0.2",
       "electron-prebuilt": "^0.26.0",
@@ -191,8 +188,17 @@
     "license": "ISC",
     "main": "index.js",
     "repository": {
-      "type": "git",
-      "url": "https://github.com/bcomnes/mooon.git"
+      "user": "bcomnes",
+      "repo": "mooon",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/bcomnes/mooon/tarball/master",
+      "clone_url": "https://github.com/bcomnes/mooon",
+      "https_url": "https://github.com/bcomnes/mooon",
+      "travis_url": "https://travis-ci.org/bcomnes/mooon",
+      "zip_url": "https://github.com/bcomnes/mooon/archive/master.zip",
+      "api_url": "https://api.github.com/repos/bcomnes/mooon"
     },
     "scripts": {
       "test": "tape test/*.js | tap-spec && standard",
@@ -230,5 +236,6 @@
       "url": "https://api.github.com/repos/Flet/mooon/git/commits/74c859d6716f38aa10608ef0c86306ca5cab9a00",
       "commentCount": 0
     }
-  }
+  },
+  "sourceRepo": "bcomnes/mooon"
 }

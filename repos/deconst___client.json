@@ -73,10 +73,18 @@
     "homepage": "http://deconst.horse/",
     "main": "browser.js",
     "repository": {
-      "type": "git",
-      "url": "git@github.com:deconst/client.git"
+      "user": "deconst",
+      "repo": "client",
+      "branch": "master",
+      "host": "github.com",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/deconst/client/tarball/master",
+      "clone_url": "https://github.com/deconst/client",
+      "https_url": "https://github.com/deconst/client",
+      "travis_url": "https://travis-ci.org/deconst/client",
+      "zip_url": "https://github.com/deconst/client/archive/master.zip",
+      "api_url": "https://api.github.com/repos/deconst/client"
     },
-    "bugs": "https://github.com/deconst/deconst-docs/issues",
     "scripts": {
       "start": "grunt",
       "test": "jest -c jest-unit.json",
@@ -220,5 +228,6 @@
       "url": "https://api.github.com/repos/deconst/client/git/commits/bdf0949190385277db35100a46b64dc2d682dd25",
       "commentCount": 0
     }
-  }
+  },
+  "sourceRepo": "docker/kitematic"
 }

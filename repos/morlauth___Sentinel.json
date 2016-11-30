@@ -1,0 +1,121 @@
+{
+  "id": 74614390,
+  "name": "Sentinel",
+  "fullName": "morlauth/Sentinel",
+  "owner": {
+    "login": "morlauth",
+    "id": 13327423,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/13327423?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/morlauth",
+    "htmlUrl": "https://github.com/morlauth",
+    "followersUrl": "https://api.github.com/users/morlauth/followers",
+    "subscriptionsUrl": "https://api.github.com/users/morlauth/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/morlauth/orgs",
+    "reposUrl": "https://api.github.com/users/morlauth/repos",
+    "receivedEventsUrl": "https://api.github.com/users/morlauth/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/morlauth/Sentinel",
+  "description": "A minimal text editor.",
+  "fork": false,
+  "url": "https://api.github.com/repos/morlauth/Sentinel",
+  "forksUrl": "https://api.github.com/repos/morlauth/Sentinel/forks",
+  "teamsUrl": "https://api.github.com/repos/morlauth/Sentinel/teams",
+  "hooksUrl": "https://api.github.com/repos/morlauth/Sentinel/hooks",
+  "eventsUrl": "https://api.github.com/repos/morlauth/Sentinel/events",
+  "tagsUrl": "https://api.github.com/repos/morlauth/Sentinel/tags",
+  "languagesUrl": "https://api.github.com/repos/morlauth/Sentinel/languages",
+  "stargazersUrl": "https://api.github.com/repos/morlauth/Sentinel/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/morlauth/Sentinel/contributors",
+  "subscribersUrl": "https://api.github.com/repos/morlauth/Sentinel/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/morlauth/Sentinel/subscription",
+  "mergesUrl": "https://api.github.com/repos/morlauth/Sentinel/merges",
+  "downloadsUrl": "https://api.github.com/repos/morlauth/Sentinel/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/morlauth/Sentinel/deployments",
+  "createdAt": "2016-11-23T21:12:11.000Z",
+  "updatedAt": "2016-11-29T15:03:00.000Z",
+  "pushedAt": "2016-11-29T15:02:59.000Z",
+  "gitUrl": "git://github.com/morlauth/Sentinel.git",
+  "sshUrl": "git@github.com:morlauth/Sentinel.git",
+  "cloneUrl": "https://github.com/morlauth/Sentinel.git",
+  "svnUrl": "https://github.com/morlauth/Sentinel",
+  "homepage": "",
+  "size": 221,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "sentinel",
+    "productName": "Sentinel",
+    "version": "1.0.0",
+    "description": "A terminal emulator",
+    "main": "src/main/Main.js",
+    "scripts": {
+      "start": "bash housekeeping/start.sh",
+      "electron": "electron src/main/Main",
+      "test": "npm start"
+    },
+    "author": "Tino Caer",
+    "license": "MIT",
+    "dependencies": {
+      "codemirror": "^5.21.0",
+      "electron": "^1.4.8",
+      "mousetrap": "^1.6.0"
+    },
+    "devDependencies": {
+      "electron-builder": "^8.6.0",
+      "mocha": "^3.2.0"
+    },
+    "build": {
+      "appId": "com.github.morlauth.sentinel",
+      "app-category-type": "public.app-category.developer-tools"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "morlauth"
+  ],
+  "firstCommit": {
+    "sha": "a2da8d5dd1e3aaeacf39ef1a98d1c0b470c10e5b",
+    "commit": {
+      "author": {
+        "name": "tcaer",
+        "email": "tino.caer@me.com",
+        "date": "2016-11-23T21:12:05Z"
+      },
+      "committer": {
+        "name": "tcaer",
+        "email": "tino.caer@me.com",
+        "date": "2016-11-23T21:12:05Z"
+      },
+      "message": "Initial Commit",
+      "tree": {
+        "sha": "12283476acb75da14e92dc48c01f9b474ddf9210",
+        "url": "https://api.github.com/repos/morlauth/Sentinel/git/trees/12283476acb75da14e92dc48c01f9b474ddf9210"
+      },
+      "url": "https://api.github.com/repos/morlauth/Sentinel/git/commits/a2da8d5dd1e3aaeacf39ef1a98d1c0b470c10e5b",
+      "commentCount": 0
+    }
+  }
+}

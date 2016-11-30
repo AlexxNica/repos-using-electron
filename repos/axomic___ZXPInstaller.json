@@ -210,14 +210,20 @@
       "pack:win": "npm run build:win && electron-builder \"release/win/OpenAsset For InDesign Installer-win32\" --platform=win --out=\"release/win\" --config=packager.json"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/CreativeDo/ZXPInstaller.git"
+      "user": "CreativeDo",
+      "repo": "ZXPInstaller",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/CreativeDo/ZXPInstaller/tarball/master",
+      "clone_url": "https://github.com/CreativeDo/ZXPInstaller",
+      "https_url": "https://github.com/CreativeDo/ZXPInstaller",
+      "travis_url": "https://travis-ci.org/CreativeDo/ZXPInstaller",
+      "zip_url": "https://github.com/CreativeDo/ZXPInstaller/archive/master.zip",
+      "api_url": "https://api.github.com/repos/CreativeDo/ZXPInstaller"
     },
     "author": "Axomic Ltd",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/axomic/ZXPInstaller/issues"
-    },
     "homepage": "https://github.com/axomic/ZXPInstaller#readme"
   },
   "packageStatus": 200,
@@ -246,5 +252,6 @@
       "url": "https://api.github.com/repos/axomic/ZXPInstaller/git/commits/903329730529933ca36cdbaf3b7dbf262fd0328f",
       "commentCount": 0
     }
-  }
+  },
+  "sourceRepo": "CreativeDo/ZXPInstaller"
 }

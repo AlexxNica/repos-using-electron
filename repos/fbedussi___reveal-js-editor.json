@@ -1,0 +1,145 @@
+{
+  "id": 74150673,
+  "name": "reveal-js-editor",
+  "fullName": "fbedussi/reveal-js-editor",
+  "owner": {
+    "login": "fbedussi",
+    "id": 9413715,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/9413715?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/fbedussi",
+    "htmlUrl": "https://github.com/fbedussi",
+    "followersUrl": "https://api.github.com/users/fbedussi/followers",
+    "subscriptionsUrl": "https://api.github.com/users/fbedussi/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/fbedussi/orgs",
+    "reposUrl": "https://api.github.com/users/fbedussi/repos",
+    "receivedEventsUrl": "https://api.github.com/users/fbedussi/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/fbedussi/reveal-js-editor",
+  "description": "A cross platform editor (build upon the electron framework) to author reveal.js presentation in markdown.",
+  "fork": false,
+  "url": "https://api.github.com/repos/fbedussi/reveal-js-editor",
+  "forksUrl": "https://api.github.com/repos/fbedussi/reveal-js-editor/forks",
+  "teamsUrl": "https://api.github.com/repos/fbedussi/reveal-js-editor/teams",
+  "hooksUrl": "https://api.github.com/repos/fbedussi/reveal-js-editor/hooks",
+  "eventsUrl": "https://api.github.com/repos/fbedussi/reveal-js-editor/events",
+  "tagsUrl": "https://api.github.com/repos/fbedussi/reveal-js-editor/tags",
+  "languagesUrl": "https://api.github.com/repos/fbedussi/reveal-js-editor/languages",
+  "stargazersUrl": "https://api.github.com/repos/fbedussi/reveal-js-editor/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/fbedussi/reveal-js-editor/contributors",
+  "subscribersUrl": "https://api.github.com/repos/fbedussi/reveal-js-editor/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/fbedussi/reveal-js-editor/subscription",
+  "mergesUrl": "https://api.github.com/repos/fbedussi/reveal-js-editor/merges",
+  "downloadsUrl": "https://api.github.com/repos/fbedussi/reveal-js-editor/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/fbedussi/reveal-js-editor/deployments",
+  "createdAt": "2016-11-18T17:11:41.000Z",
+  "updatedAt": "2016-11-29T20:18:24.000Z",
+  "pushedAt": "2016-11-29T21:25:36.000Z",
+  "gitUrl": "git://github.com/fbedussi/reveal-js-editor.git",
+  "sshUrl": "git@github.com:fbedussi/reveal-js-editor.git",
+  "cloneUrl": "https://github.com/fbedussi/reveal-js-editor.git",
+  "svnUrl": "https://github.com/fbedussi/reveal-js-editor",
+  "homepage": "",
+  "size": 373,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 12,
+  "openIssues": 12,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spdxId": null,
+    "url": null,
+    "featured": false
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "reveal-js-editor",
+    "description": "A cross platform editor to author reveal.js presentation in markdown",
+    "version": "1.0.0",
+    "author": {
+      "name": "Francesco Bedussi",
+      "email": "francesco@francescobedussi.it",
+      "url": "http://www.francescobedussi.it"
+    },
+    "bugs": {
+      "url": "https://github.com/fbedussi/reveal-md/issues"
+    },
+    "dependencies": {
+      "fs-extra": "^1.0.0",
+      "markdown-it": "^8.1.0",
+      "markdown-it-classy": "^0.2.0",
+      "markdown-it-container": "^2.0.0",
+      "reveal.js": "^3.3.0"
+    },
+    "devDependencies": {
+      "devtron": "^1.3.0",
+      "electron": "^1.4.3",
+      "electron-packager": "^8.1.0",
+      "spectron": "^3.4.0",
+      "standard": "^8.4.0"
+    },
+    "keywords": [
+      "electron",
+      "workshop"
+    ],
+    "license": "MIT",
+    "main": "lib/main.js",
+    "private": true,
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/fbedussi/reveal-md.git"
+    },
+    "scripts": {
+      "package": "electron-packager . 'Reveak Editor'",
+      "package-all": "electron-packager . 'Reveal Editor' --platform=all --arch=all",
+      "start": "electron ."
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "fbedussi",
+    "feross",
+    "simeg"
+  ],
+  "firstCommit": {
+    "sha": "c9e04493ec5d4a5e923d61a1cb2be6a7722b93a9",
+    "commit": {
+      "author": {
+        "name": "Feross Aboukhadijeh",
+        "email": "feross@feross.org",
+        "date": "2016-10-19T10:03:08Z"
+      },
+      "committer": {
+        "name": "Feross Aboukhadijeh",
+        "email": "feross@feross.org",
+        "date": "2016-10-19T10:03:08Z"
+      },
+      "message": "initial commit",
+      "tree": {
+        "sha": "b2f9d50d36eabba42abe17b63aadc61e8bdb3f1c",
+        "url": "https://api.github.com/repos/fbedussi/reveal-js-editor/git/trees/b2f9d50d36eabba42abe17b63aadc61e8bdb3f1c"
+      },
+      "url": "https://api.github.com/repos/fbedussi/reveal-js-editor/git/commits/c9e04493ec5d4a5e923d61a1cb2be6a7722b93a9",
+      "commentCount": 0
+    }
+  }
+}

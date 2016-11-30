@@ -196,9 +196,6 @@
       "jlord",
       "chrisdickinson"
     ],
-    "bugs": {
-      "url": "https://github.com/moose-team/friends/issues"
-    },
     "dependencies": {
       "cat-names": "^1.0.2",
       "ctype": "^0.5.4",
@@ -257,8 +254,17 @@
     "license": "MIT",
     "main": "index.js",
     "repository": {
-      "type": "git",
-      "url": "https://github.com/moose-team/friends.git"
+      "user": "moose-team",
+      "repo": "friends",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/moose-team/friends/tarball/master",
+      "clone_url": "https://github.com/moose-team/friends",
+      "https_url": "https://github.com/moose-team/friends",
+      "travis_url": "https://travis-ci.org/moose-team/friends",
+      "zip_url": "https://github.com/moose-team/friends/archive/master.zip",
+      "api_url": "https://api.github.com/repos/moose-team/friends"
     },
     "scripts": {
       "build-css": "mkdir -p dist && stylus -u nib css/app.styl -o dist/ -c",
@@ -306,5 +312,6 @@
       "url": "https://api.github.com/repos/AppleNuts/friends/git/commits/d3d3c818f70c2485f61ece79648fe300e5861c8d",
       "commentCount": 0
     }
-  }
+  },
+  "sourceRepo": "moose-team/friends"
 }

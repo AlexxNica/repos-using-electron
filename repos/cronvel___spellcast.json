@@ -1,0 +1,184 @@
+{
+  "id": 22157074,
+  "name": "spellcast",
+  "fullName": "cronvel/spellcast",
+  "owner": {
+    "login": "cronvel",
+    "id": 6891714,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/6891714?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/cronvel",
+    "htmlUrl": "https://github.com/cronvel",
+    "followersUrl": "https://api.github.com/users/cronvel/followers",
+    "subscriptionsUrl": "https://api.github.com/users/cronvel/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/cronvel/orgs",
+    "reposUrl": "https://api.github.com/users/cronvel/repos",
+    "receivedEventsUrl": "https://api.github.com/users/cronvel/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/cronvel/spellcast",
+  "description": "Make: your own adventure!",
+  "fork": false,
+  "url": "https://api.github.com/repos/cronvel/spellcast",
+  "forksUrl": "https://api.github.com/repos/cronvel/spellcast/forks",
+  "teamsUrl": "https://api.github.com/repos/cronvel/spellcast/teams",
+  "hooksUrl": "https://api.github.com/repos/cronvel/spellcast/hooks",
+  "eventsUrl": "https://api.github.com/repos/cronvel/spellcast/events",
+  "tagsUrl": "https://api.github.com/repos/cronvel/spellcast/tags",
+  "languagesUrl": "https://api.github.com/repos/cronvel/spellcast/languages",
+  "stargazersUrl": "https://api.github.com/repos/cronvel/spellcast/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/cronvel/spellcast/contributors",
+  "subscribersUrl": "https://api.github.com/repos/cronvel/spellcast/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/cronvel/spellcast/subscription",
+  "mergesUrl": "https://api.github.com/repos/cronvel/spellcast/merges",
+  "downloadsUrl": "https://api.github.com/repos/cronvel/spellcast/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/cronvel/spellcast/deployments",
+  "createdAt": "2014-07-23T15:30:53.000Z",
+  "updatedAt": "2016-11-16T12:10:23.000Z",
+  "pushedAt": "2016-11-29T20:53:08.000Z",
+  "gitUrl": "git://github.com/cronvel/spellcast.git",
+  "sshUrl": "git@github.com:cronvel/spellcast.git",
+  "cloneUrl": "https://github.com/cronvel/spellcast.git",
+  "svnUrl": "https://github.com/cronvel/spellcast",
+  "homepage": "",
+  "size": 2169,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 2,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 2,
+  "status": 200,
+  "packageJSON": {
+    "name": "spellcast",
+    "version": "0.30.9",
+    "description": "Make: your own adventure!",
+    "main": "lib/Book.js",
+    "engines": {
+      "node": ">=4.5.0"
+    },
+    "directories": {
+      "test": "test"
+    },
+    "bin": {
+      "spellcast": "./bin/spellcast",
+      "adventure": "./bin/adventure"
+    },
+    "dependencies": {
+      "@cronvel/minimatch": "^3.0.2",
+      "async-kit": "^2.2.3",
+      "babel-tower": "^0.12.0",
+      "browserify": "^13.1.1",
+      "chokidar": "^1.6.1",
+      "dom-kit": "^0.1.2",
+      "doormen": "^0.6.7",
+      "electron": "^1.4.10",
+      "glob": "^7.1.1",
+      "kung-fig": "^0.34.9",
+      "logfella": "^0.3.44",
+      "math-kit": "^0.3.5",
+      "minimist": "^1.2.0",
+      "nextgen-events": "^0.9.8",
+      "semver": "^5.3.0",
+      "server-kit": "^0.4.0",
+      "string-kit": "^0.5.12",
+      "terminal-kit": "^0.25.3",
+      "tif-parser": "^0.3.3",
+      "tree-kit": "^0.5.26",
+      "uglify-js": "^2.7.4"
+    },
+    "devDependencies": {
+      "browserify": "^13.1.0",
+      "electron": "^1.4.8",
+      "expect.js": "^0.3.1",
+      "fs-kit": "^0.1.5",
+      "jshint": "^2.9.2",
+      "mocha": "^2.5.3",
+      "uglify-js": "^2.7.0"
+    },
+    "scripts": {
+      "test": "tea-time -R dot -O"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/cronvel/spellcast.git"
+    },
+    "keywords": [
+      "gamebook",
+      "roleplay",
+      "scenario",
+      "script",
+      "make",
+      "makefile",
+      "spell",
+      "spellcast",
+      "cast",
+      "spellbook",
+      "magic",
+      "wizardry",
+      "dependency"
+    ],
+    "author": "Cédric Ronvel",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/cronvel/spellcast/issues"
+    },
+    "copyright": {
+      "title": "Spellcast",
+      "years": [
+        2014,
+        2016
+      ],
+      "owner": "Cédric Ronvel"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "cronvel",
+    "lronvel"
+  ],
+  "firstCommit": {
+    "sha": "1773ba9190250eb7a4c419deae0bc86b7fd48ae9",
+    "commit": {
+      "author": {
+        "name": "cronvel",
+        "email": "cronvel@users.noreply.github.com",
+        "date": "2014-07-23T15:30:53Z"
+      },
+      "committer": {
+        "name": "cronvel",
+        "email": "cronvel@users.noreply.github.com",
+        "date": "2014-07-23T15:30:53Z"
+      },
+      "message": "Initial commit",
+      "tree": {
+        "sha": "bf678fc783e9c7eec749c8635ac753bdfd43e75f",
+        "url": "https://api.github.com/repos/cronvel/spellcast/git/trees/bf678fc783e9c7eec749c8635ac753bdfd43e75f"
+      },
+      "url": "https://api.github.com/repos/cronvel/spellcast/git/commits/1773ba9190250eb7a4c419deae0bc86b7fd48ae9",
+      "commentCount": 0
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "id": 74126256,
+  "name": "Chromenu",
+  "fullName": "rhysd/Chromenu",
+  "owner": {
+    "login": "rhysd",
+    "id": 823277,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/823277?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/rhysd",
+    "htmlUrl": "https://github.com/rhysd",
+    "followersUrl": "https://api.github.com/users/rhysd/followers",
+    "subscriptionsUrl": "https://api.github.com/users/rhysd/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/rhysd/orgs",
+    "reposUrl": "https://api.github.com/users/rhysd/repos",
+    "receivedEventsUrl": "https://api.github.com/users/rhysd/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/rhysd/Chromenu",
+  "description": "Mobile Chrome in your menubar",
+  "fork": false,
+  "url": "https://api.github.com/repos/rhysd/Chromenu",
+  "forksUrl": "https://api.github.com/repos/rhysd/Chromenu/forks",
+  "teamsUrl": "https://api.github.com/repos/rhysd/Chromenu/teams",
+  "hooksUrl": "https://api.github.com/repos/rhysd/Chromenu/hooks",
+  "eventsUrl": "https://api.github.com/repos/rhysd/Chromenu/events",
+  "tagsUrl": "https://api.github.com/repos/rhysd/Chromenu/tags",
+  "languagesUrl": "https://api.github.com/repos/rhysd/Chromenu/languages",
+  "stargazersUrl": "https://api.github.com/repos/rhysd/Chromenu/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/rhysd/Chromenu/contributors",
+  "subscribersUrl": "https://api.github.com/repos/rhysd/Chromenu/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/rhysd/Chromenu/subscription",
+  "mergesUrl": "https://api.github.com/repos/rhysd/Chromenu/merges",
+  "downloadsUrl": "https://api.github.com/repos/rhysd/Chromenu/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/rhysd/Chromenu/deployments",
+  "createdAt": "2016-11-18T12:03:59.000Z",
+  "updatedAt": "2016-11-24T19:48:01.000Z",
+  "pushedAt": "2016-11-29T00:00:59.000Z",
+  "gitUrl": "git://github.com/rhysd/Chromenu.git",
+  "sshUrl": "git@github.com:rhysd/Chromenu.git",
+  "cloneUrl": "https://github.com/rhysd/Chromenu.git",
+  "svnUrl": "https://github.com/rhysd/Chromenu",
+  "homepage": null,
+  "size": 211,
+  "stargazersCount": 4,
+  "watchersCount": 4,
+  "language": "TypeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 4,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spdxId": null,
+    "url": null,
+    "featured": false
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "chromenu",
+    "productName": "Chromenu",
+    "version": "1.1.0",
+    "description": "Mobile Chromium in your menu bar",
+    "main": "main/index.js",
+    "bin": {
+      "chromenu": "./bin/cli.js"
+    },
+    "scripts": {
+      "build": "tsc --pretty -p .",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "tslint": "tslint $(git ls-files | grep -E \"\\.tsx?$\")",
+      "stylelint": "stylelint renderer/style.css",
+      "lint": "npm-run-all --parallel tslint stylelint",
+      "watch": "guard --watchdir main renderer bin",
+      "debug": "NODE_ENV=development electron .",
+      "start": "NODE_ENV=production electron .",
+      "preversion": "npm run lint",
+      "preuninstall": "node ./bin/cli.js --unsetup-launchctl",
+      "release": "npm run lint && ./scripts/make-release.sh"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rhysd/Chromenu.git"
+    },
+    "keywords": [
+      "browser",
+      "electron",
+      "manubar"
+    ],
+    "author": "rhysd <lin90162@yahoo.co.jp>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/rhysd/Chromenu/issues"
+    },
+    "homepage": "https://github.com/rhysd/Chromenu#readme",
+    "devDependencies": {
+      "@types/cheerio": "^0.17.31",
+      "@types/electron": "^1.4.27",
+      "@types/loglevel": "^1.4.29",
+      "@types/mousetrap": "^1.5.32",
+      "@types/node": "^6.0.51",
+      "@types/react": "^0.14.50",
+      "@types/react-addons-shallow-compare": "^0.14.17",
+      "@types/react-dom": "^0.14.19",
+      "@types/react-redux": "^4.4.33",
+      "@types/redux": "^3.6.31",
+      "@types/request": "0.0.34",
+      "electron-packager": "^8.3.0",
+      "npm-run-all": "^3.1.1",
+      "stylelint": "^7.6.0",
+      "stylelint-config-standard": "^15.0.0",
+      "tslint": "^4.0.2",
+      "tslint-react": "^2.0.0",
+      "typescript": "~2.1.0"
+    },
+    "dependencies": {
+      "bulma": "^0.2.3",
+      "cheerio": "^0.22.0",
+      "electron": "^1.4.8",
+      "electron-in-page-search": "^1.2.2",
+      "font-awesome": "^4.7.0",
+      "immutable": "^3.8.1",
+      "loglevel": "^1.4.1",
+      "menubar": "github:rhysd/menubar#ensure-to-launch-app",
+      "mousetrap": "^1.6.0",
+      "page-icon": "^0.3.0",
+      "react": "^15.4.1",
+      "react-addons-shallow-compare": "^15.4.1",
+      "react-component-bytesize-icons": "^2.0.0",
+      "react-dom": "^15.4.1",
+      "react-redux": "^4.4.6",
+      "redux": "^3.6.0",
+      "request": "^2.79.0"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "rhysd"
+  ],
+  "firstCommit": {
+    "sha": "4eea48059c082a1b3e836b08387e9b7e89524868",
+    "commit": {
+      "author": {
+        "name": "rhysd",
+        "email": "lin90162@yahoo.co.jp",
+        "date": "2016-10-09T07:36:29Z"
+      },
+      "committer": {
+        "name": "rhysd",
+        "email": "lin90162@yahoo.co.jp",
+        "date": "2016-10-09T07:36:29Z"
+      },
+      "message": "bootstrap",
+      "tree": {
+        "sha": "3809036fc8b66f2e4e8eb603126021d500ae816b",
+        "url": "https://api.github.com/repos/rhysd/Chromenu/git/trees/3809036fc8b66f2e4e8eb603126021d500ae816b"
+      },
+      "url": "https://api.github.com/repos/rhysd/Chromenu/git/commits/4eea48059c082a1b3e836b08387e9b7e89524868",
+      "commentCount": 0
+    }
+  }
+}
