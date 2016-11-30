@@ -4,19 +4,17 @@ const uniq = require('lodash').uniq
 const they = it
 
 describe('repos', function () {
-  it('is an array of over 12750 repo objects', function () {
+  it('is an array of over 12945 repo objects', function () {
     expect(repos).to.be.an('array')
-    expect(repos.length).to.be.above(12750)
+    expect(repos.length).to.be.above(12945)
   })
 
   it('contains over 11319 non-forks', function () {
-    const nonForks = repos.filter(repo => !repo.fork)
-    expect(nonForks.length).to.be.above(11319)
+    expect(repos.filter(repo => !repo.fork).length).to.be.above(11319)
   })
 
-  it('contains over 11319 repos that were never forks', function () {
-    const nonForks = repos.filter(repo => !repo.formerFork)
-    expect(nonForks.length).to.be.above(11319)
+  it('contains over 10380 repos that were never forks', function () {
+    expect(repos.filter(repo => !repo.formerFork).length).to.be.above(10380)
   })
 
   they('are sometimes forks disguised as non-forks', function () {
