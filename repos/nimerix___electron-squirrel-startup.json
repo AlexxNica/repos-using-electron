@@ -192,8 +192,17 @@
     "homepage": "http://github.com/mongodb-js/electron-squirrel-startup",
     "license": "Apache-2.0",
     "repository": {
-      "type": "git",
-      "url": "https://github.com/mongodb-js/electron-squirrel-startup.git"
+      "user": "mongodb-js",
+      "repo": "electron-squirrel-startup",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/mongodb-js/electron-squirrel-startup/tarball/master",
+      "clone_url": "https://github.com/mongodb-js/electron-squirrel-startup",
+      "https_url": "https://github.com/mongodb-js/electron-squirrel-startup",
+      "travis_url": "https://travis-ci.org/mongodb-js/electron-squirrel-startup",
+      "zip_url": "https://github.com/mongodb-js/electron-squirrel-startup/archive/master.zip",
+      "api_url": "https://api.github.com/repos/mongodb-js/electron-squirrel-startup"
     },
     "scripts": {
       "ci": "xvfb-maybe npm test",
@@ -227,5 +236,11 @@
       "squirrel.windows"
     ]
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "imlucas",
+    "kangas",
+    "durran",
+    "Vj3k0"
+  ]
 }

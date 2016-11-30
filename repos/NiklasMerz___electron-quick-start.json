@@ -193,8 +193,17 @@
       "start": "electron ."
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
+      "user": "electron",
+      "repo": "electron-quick-start",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/electron/electron-quick-start/tarball/master",
+      "clone_url": "https://github.com/electron/electron-quick-start",
+      "https_url": "https://github.com/electron/electron-quick-start",
+      "travis_url": "https://travis-ci.org/electron/electron-quick-start",
+      "zip_url": "https://github.com/electron/electron-quick-start/archive/master.zip",
+      "api_url": "https://api.github.com/repos/electron/electron-quick-start"
     },
     "keywords": [
       "Electron",
@@ -204,13 +213,30 @@
     ],
     "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "kevinsawicki",
+    "tcyrus",
+    "zeke",
+    "izuzak",
+    "bokuweb",
+    "galeksandrp",
+    "clemens-tolboom",
+    "posva",
+    "thompsonemerson",
+    "IonicaBizau",
+    "johnmuhl",
+    "phanect",
+    "louistsaitszho",
+    "sahildua2305",
+    "Shriken",
+    "fscherwi",
+    "icoxfog417",
+    "laiso"
+  ]
 }

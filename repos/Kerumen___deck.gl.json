@@ -196,8 +196,17 @@
       "layer"
     ],
     "repository": {
-      "type": "git",
-      "url": "https://github.com/uber/deck.gl.git"
+      "user": "uber",
+      "repo": "deck.gl",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/uber/deck.gl/tarball/master",
+      "clone_url": "https://github.com/uber/deck.gl",
+      "https_url": "https://github.com/uber/deck.gl",
+      "travis_url": "https://travis-ci.org/uber/deck.gl",
+      "zip_url": "https://github.com/uber/deck.gl/archive/master.zip",
+      "api_url": "https://api.github.com/repos/uber/deck.gl"
     },
     "main": "index.js",
     "files": [
@@ -311,5 +320,28 @@
       "start": "npm run build-watch && budo example/main.js:example/bundle.js --live --open --port 3000 --css example/main.css --title 'deck.gl' --watch-glob '**/*.{html,css,js,glsl}' -- -t brfs-babel -t babelify -t envify"
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "ibgreen",
+    "gnavvy",
+    "shaojingli",
+    "Pessimistress",
+    "heshan0131",
+    "Apercu",
+    "alee8",
+    "chrisirhc",
+    "contra",
+    "mcnuttandrew",
+    "AshleyTravers",
+    "wwwtyro",
+    "manassra",
+    "afahim",
+    "austinhyde",
+    "eklitzke",
+    "hrabbey",
+    "mike-marcacci",
+    "person594",
+    "philogb",
+    "tangential"
+  ]
 }

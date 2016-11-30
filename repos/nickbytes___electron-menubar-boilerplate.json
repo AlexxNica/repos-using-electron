@@ -190,14 +190,20 @@
     "description": "Github + Dropbox = GitBox 🚀",
     "main": "build/index.js",
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/vulpino/berb.git"
+      "user": "vulpino",
+      "repo": "berb",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/vulpino/berb/tarball/master",
+      "clone_url": "https://github.com/vulpino/berb",
+      "https_url": "https://github.com/vulpino/berb",
+      "travis_url": "https://travis-ci.org/vulpino/berb",
+      "zip_url": "https://github.com/vulpino/berb/archive/master.zip",
+      "api_url": "https://api.github.com/repos/vulpino/berb"
     },
     "author": "Nauman Ahmad",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/vulpino/berb/issues"
-    },
     "homepage": "https://github.com/vulpino/berb#readme",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -234,5 +240,8 @@
       "request": "^2.69.0"
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "itsnauman"
+  ]
 }

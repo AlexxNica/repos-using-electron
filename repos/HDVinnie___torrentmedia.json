@@ -193,8 +193,17 @@
     "main": "main.js",
     "app-id": "com.facuz.torrentmedia",
     "repository": {
-      "type": "git",
-      "url": "git://github.com/FaCuZ/torrentmedia.git"
+      "user": "FaCuZ",
+      "repo": "torrentmedia",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/FaCuZ/torrentmedia/tarball/master",
+      "clone_url": "https://github.com/FaCuZ/torrentmedia",
+      "https_url": "https://github.com/FaCuZ/torrentmedia",
+      "travis_url": "https://travis-ci.org/FaCuZ/torrentmedia",
+      "zip_url": "https://github.com/FaCuZ/torrentmedia/archive/master.zip",
+      "api_url": "https://api.github.com/repos/FaCuZ/torrentmedia"
     },
     "scripts": {
       "start": "gulp",
@@ -231,5 +240,8 @@
       "webtorrent": "^0.94.1"
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "FaCuZ"
+  ]
 }

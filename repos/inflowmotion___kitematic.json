@@ -212,10 +212,18 @@
     "homepage": "https://kitematic.com/",
     "main": "browser.js",
     "repository": {
-      "type": "git",
-      "url": "git@github.com:kitematic/kitematic.git"
+      "user": "kitematic",
+      "repo": "kitematic",
+      "branch": "master",
+      "host": "github.com",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/kitematic/kitematic/tarball/master",
+      "clone_url": "https://github.com/kitematic/kitematic",
+      "https_url": "https://github.com/kitematic/kitematic",
+      "travis_url": "https://travis-ci.org/kitematic/kitematic",
+      "zip_url": "https://github.com/kitematic/kitematic/archive/master.zip",
+      "api_url": "https://api.github.com/repos/kitematic/kitematic"
     },
-    "bugs": "https://github.com/kitematic/kitematic/issues",
     "scripts": {
       "start": "grunt",
       "test": "jest -c jest-unit.json",
@@ -302,5 +310,36 @@
       "source-map-support": "^0.2.10"
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "jeffdm",
+    "seanli",
+    "mchiang0610",
+    "TeckniX",
+    "koddsson",
+    "FrenchBen",
+    "SvenDowideit",
+    "allen-servedio",
+    "bensheldon",
+    "denji",
+    "justindsmith",
+    "LibanTheDev",
+    "pdehaan",
+    "siddii",
+    "spf13",
+    "VojtechBartos",
+    "cclauss",
+    "kraynel",
+    "aduermael",
+    "northerngit",
+    "jehrhardt",
+    "justinleveck",
+    "ninuxio",
+    "razzius",
+    "sudotliu",
+    "gitter-badger",
+    "domderen",
+    "shyr",
+    "ttwthomas"
+  ]
 }

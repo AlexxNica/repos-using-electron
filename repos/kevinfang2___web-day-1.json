@@ -85,11 +85,19 @@
     ],
     "main": "./bin/pixi.min.js",
     "homepage": "http://goodboydigital.com/",
-    "bugs": "https://github.com/pixijs/pixi.js/issues",
     "license": "MIT",
     "repository": {
-      "type": "git",
-      "url": "https://github.com/pixijs/pixi.js.git"
+      "user": "pixijs",
+      "repo": "pixi.js",
+      "host": "github.com",
+      "branch": "master",
+      "apiHost": "api.github.com",
+      "tarball_url": "https://api.github.com/repos/pixijs/pixi.js/tarball/master",
+      "clone_url": "https://github.com/pixijs/pixi.js",
+      "https_url": "https://github.com/pixijs/pixi.js",
+      "travis_url": "https://travis-ci.org/pixijs/pixi.js",
+      "zip_url": "https://github.com/pixijs/pixi.js/archive/master.zip",
+      "api_url": "https://api.github.com/repos/pixijs/pixi.js"
     },
     "scripts": {
       "clean": "rimraf bin && mkdirp bin",
@@ -147,5 +155,8 @@
       ]
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "kevinfang2"
+  ]
 }
