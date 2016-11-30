@@ -65,5 +65,53 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "fchat-next",
+    "version": "0.11.0",
+    "description": "a modernized f-chat client",
+    "author": "Kingdaro <kingdaro@gmail.com>",
+    "license": "MIT",
+    "repository": "http://github.com/Kingdaro/fchat",
+    "scripts": {
+      "build": "cross-env NODE_ENV=production webpack",
+      "build:watch": "cross-env NODE_ENV=production webpack --watch",
+      "dev:server": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --progress",
+      "dev": "run-p build:watch dev:server"
+    },
+    "dependencies": {
+      "bbc.js": "latest",
+      "howler": "latest",
+      "jwerty": "latest",
+      "localforage": "latest",
+      "vue": "latest",
+      "vue-resource": "latest"
+    },
+    "devDependencies": {
+      "babel-core": "latest",
+      "babel-eslint": "latest",
+      "babel-loader": "latest",
+      "babel-plugin-transform-export-extensions": "latest",
+      "babel-plugin-transform-flow-strip-types": "latest",
+      "babel-plugin-transform-object-rest-spread": "latest",
+      "babel-plugin-transform-remove-console": "latest",
+      "babel-preset-babili": "latest",
+      "babel-preset-latest": "latest",
+      "cross-env": "latest",
+      "css-loader": "latest",
+      "eslint": "latest",
+      "eslint-plugin-flowtype": "latest",
+      "eslint-plugin-html": "latest",
+      "file-loader": "latest",
+      "json-loader": "latest",
+      "npm-run-all": "latest",
+      "style-loader": "latest",
+      "stylus": "latest",
+      "stylus-loader": "latest",
+      "vue-loader": "latest",
+      "webpack": "^2.1.0-beta.25",
+      "webpack-dev-server": "^2.1.0-beta.9"
+    }
+  },
+  "packageStatus": 200
 }
