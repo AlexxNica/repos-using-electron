@@ -65,5 +65,45 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "smart-mirror",
+    "version": "0.0.1",
+    "description": "The fairest of them all",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js "
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evancohen/smart-mirror.git"
+    },
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial"
+    ],
+    "author": "Evan Cohen",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/evancohen/smart-mirror/issues"
+    },
+    "homepage": "https://github.com/evancohen/smart-mirror",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.5"
+    },
+    "dependencies": {
+      "annyang": "^2.6.0",
+      "body-parser": "^1.15.2",
+      "express": "^4.13.4",
+      "method-override": "^2.3.7",
+      "mongoose": "^4.7.2",
+      "mongoose-float": "^1.0.2",
+      "morgan": "^1.7.0",
+      "socket.io": "^1.7.2",
+      "socket.io-client": "^1.7.2"
+    }
+  },
+  "packageStatus": 200
 }

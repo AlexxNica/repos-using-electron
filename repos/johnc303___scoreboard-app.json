@@ -65,5 +65,41 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "scoreboard",
+    "version": "1.0.0",
+    "description": "scoreboard electron app fr roller derby",
+    "main": "main.js",
+    "dependencies": {
+      "body-parser": "^1.13.1",
+      "electron-prebuilt": "^0.36.4",
+      "express": "^4.11.2",
+      "javascript-state-machine": "^2.3.5",
+      "jsonfile": "^2.2.1",
+      "passport": "^0.2.1",
+      "passport-local": "^1.0.0",
+      "socket.io": "^1.3.5",
+      "swig": "^1.4.2",
+      "timer-stopwatch": "^0.1.5"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron main.js",
+      "pack:win": "electron-packager . sbd --out=./dist --platform=win32 --version=0.36.4 --arch=x64 --icon=icon.ico --cache=C:/Users/Mike/projects/cache/",
+      "build": "electron-builder ./dist/sbd-win32-x64 --platform=win --out=./dist/win --config=config.json"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://Mike-williams3000@github.com/johnc303/scoreboard-app.git"
+    },
+    "author": "Mike Williams",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/johnc303/scoreboard-app/issues"
+    },
+    "homepage": "https://github.com/johnc303/scoreboard-app#readme"
+  },
+  "packageStatus": 200
 }

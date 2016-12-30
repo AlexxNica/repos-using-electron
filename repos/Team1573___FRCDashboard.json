@@ -197,5 +197,28 @@
   },
   "networkCount": 13,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "FRCDashboard",
+    "version": "v2.0.0",
+    "description": "Dashboard for extra robot controls in FRC. Experimental Electron environment.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/FRCDashboard/FRCDashboard"
+    },
+    "author": "FRCDashboard",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/FRCDashboard/FRCDashboard/issues"
+    },
+    "homepage": "http://frcdashboard.github.io",
+    "devDependencies": {
+      "electron-prebuilt": "^1.2.0"
+    }
+  },
+  "packageStatus": 200
 }

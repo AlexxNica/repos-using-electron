@@ -65,5 +65,27 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "BySound",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "dependencies": {
+      "push.js": "0.0.11",
+      "xml2js": "*"
+    },
+    "devDependencies": {
+      "electron-packager": "*",
+      "electron-prebuilt": "*"
+    },
+    "scripts": {
+      "start": "electron main.js",
+      "build": "electron-packager . app --platform win32 --arch all --out dist/",
+      "archive": "asar pack dist/app-win32-ia32/resources/app dist/app-win32-ia32/resources/app.asar"
+    },
+    "author": "Reda Benchraa",
+    "license": "GPL"
+  },
+  "packageStatus": 200
 }

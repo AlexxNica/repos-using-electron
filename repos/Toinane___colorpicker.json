@@ -71,5 +71,28 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "colorpicker",
+    "version": "1.2.0",
+    "description": "Little application to get color code",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/toinane/colorpicker",
+    "keywords": [
+      "ColorPicker",
+      "Toinane",
+      "Crea-THAT",
+      "crea-that"
+    ],
+    "devDependencies": {
+      "electron": "^1.4.1"
+    },
+    "author": "Toinane",
+    "homepage": "http://toinane.crea-th.at",
+    "license": "CC0-1.0"
+  },
+  "packageStatus": 200
 }

@@ -65,5 +65,45 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "bookmarking-app",
+    "version": "0.1.0",
+    "description": "Tutorial on electron, vue, and firebase to create a bookmarking app",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron index.js"
+    },
+    "keywords": [
+      "electron",
+      "vue",
+      "firebase",
+      "sandbox",
+      "tutorial"
+    ],
+    "author": "bzelip",
+    "license": "MIT",
+    "dependencies": {
+      "firebase": "^3.6.3",
+      "jquery": "^3.1.1",
+      "vue": "^2.1.4"
+    },
+    "devDependencies": {
+      "babel-core": "^6.20.0",
+      "babel-loader": "^6.2.9",
+      "babel-plugin-transform-runtime": "^6.15.0",
+      "babel-preset-es2015": "^6.18.0",
+      "babel-runtime": "^5.8.38",
+      "css-loader": "^0.26.1",
+      "electron-prebuilt": "^1.4.12",
+      "vue-hot-reload-api": "^2.0.6",
+      "vue-html-loader": "^1.2.3",
+      "vue-loader": "^10.0.2",
+      "vue-style-loader": "^1.0.0",
+      "webpack": "^1.14.0",
+      "webpack-dev-server": "^1.16.2"
+    }
+  },
+  "packageStatus": 200
 }

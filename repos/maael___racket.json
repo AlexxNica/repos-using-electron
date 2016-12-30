@@ -65,5 +65,34 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "racket",
+    "version": "1.0.1",
+    "description": "A windows tray tool to control sound devices.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "package": "electron-packager . --platform=win32 --icon=media/icon.ico --out=build --overwrite",
+      "build": "npm run package"
+    },
+    "keywords": [
+      "sound",
+      "audio",
+      "manager",
+      "control",
+      "device",
+      "tray",
+      "windows"
+    ],
+    "author": "Matthew Elphick",
+    "license": "ISC",
+    "dependencies": {
+      "auto-launch": "^5.0.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.4.10"
+    }
+  },
+  "packageStatus": 200
 }

@@ -65,5 +65,43 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "music-player",
+    "version": "1.0.0",
+    "description": "A music player built with Electron ",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron .",
+      "lint-fix": "./node_modules/.bin/eslint . --fix"
+    },
+    "keywords": [
+      "Music",
+      "Electron",
+      "Music",
+      "Player"
+    ],
+    "repository": "https://github.com/jazzyarchitects/electron-music-player",
+    "author": "Jibin Mathews <jibinmathews7@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-prebuilt": "^1.4.12",
+      "electron-rebuild": "^1.4.0",
+      "eslint": "^3.12.2",
+      "eslint-config-google": "^0.7.1"
+    },
+    "dependencies": {
+      "async": "^2.1.4",
+      "base-64": "^0.1.0",
+      "electron-context-menu": "^0.8.0",
+      "id3-parser": "^1.1.1",
+      "music-metadata": "^0.1.2",
+      "music-tag": "0.0.9",
+      "musicmetadata": "^2.0.5",
+      "nconf": "^0.8.4",
+      "node-id3": "0.0.7"
+    }
+  },
+  "packageStatus": 200
 }

@@ -65,5 +65,25 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-demo",
+    "version": "1.0.1",
+    "author": "jaketrent",
+    "keywords": [
+      "electron"
+    ],
+    "description": "Pluralsight Electron Course",
+    "main": "src/demo_2/main.js",
+    "dependencies": {
+      "react": "^15.4.1"
+    },
+    "devDependencies": {
+      "electron-prebuilt": "^1.4.9"
+    },
+    "scripts": {
+      "start": "electron ."
+    }
+  },
+  "packageStatus": 200
 }

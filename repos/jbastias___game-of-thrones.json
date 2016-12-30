@@ -65,5 +65,83 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "game-of-thrones",
+    "description": "a game of thrones",
+    "version": "0.0.0",
+    "author": "krusty",
+    "main": "./app/main.js",
+    "scripts": {
+      "start": "gulp dev",
+      "postinstall": "typings install",
+      "typings": "typings",
+      "clean": "gulp clean",
+      "electron": "gulp build && node_modules/.bin/electron app",
+      "build-mac": "node_modules/.bin/build --mac",
+      "build-win": "node_modules/.bin/build --win",
+      "build": "gulp clean:dist && npm run build-mac && npm run build-win",
+      "deploy-mac": "gulp bump-minor && node_modules/.bin/build --mac --publish onTag",
+      "deploy-win": "gulp bump-minor && node_modules/.bin/build --win --publish onTag",
+      "deploy": "gulp bump-minor && npm run deploy"
+    },
+    "dependencies": {
+      "@angular/common": "2.0.0",
+      "@angular/compiler": "2.0.0",
+      "@angular/core": "2.0.0",
+      "@angular/forms": "2.0.0",
+      "@angular/http": "2.0.0",
+      "@angular/platform-browser": "2.0.0",
+      "@angular/platform-browser-dynamic": "2.0.0",
+      "@angular/router": "3.0.0",
+      "@angular/upgrade": "2.0.0",
+      "aws-sdk": "^2.3.15",
+      "core-js": "^2.4.1",
+      "moment": "^2.12.0",
+      "parse": "^1.7.1",
+      "reflect-metadata": "^0.1.3",
+      "rxjs": "5.0.0-beta.12",
+      "systemjs": "0.19.27",
+      "tinycolor2": "~1.4.1",
+      "traceur": "0.0.102",
+      "zone.js": "^0.6.23"
+    },
+    "devDependencies": {
+      "7zip-bin-mac": "^1.0.1",
+      "del": "^2.2.0",
+      "electron-builder": "^10.7.1",
+      "electron-prebuilt": "^1.1.3",
+      "gulp": "^3.9.1",
+      "gulp-bump": "^2.1.0",
+      "gulp-notify": "^2.2.0",
+      "gulp-rename": "1.2.2",
+      "gulp-sass": "^2.2.0",
+      "gulp-tsc": "^1.2.0",
+      "gulp-webserver": "0.9.1",
+      "run-sequence": "^1.1.5",
+      "typescript": "^1.8.10",
+      "typings": "^1.3.2"
+    },
+    "build": {
+      "appId": "com.norcond.game-of-thrones",
+      "category": "proof of concept ",
+      "win": {
+        "target": [
+          "nsis"
+        ],
+        "icon": "src/electron/game-of-thrones.ico"
+      },
+      "nsis": {
+        "oneClick": true,
+        "installerHeaderIcon": "src/electron/game-of-thrones.ico"
+      },
+      "mac": {
+        "icon": "src/electron/game-of-thrones.icns"
+      },
+      "dmg": {
+        "icon": "src/electron/game-of-thrones.icns"
+      }
+    }
+  },
+  "packageStatus": 200
 }

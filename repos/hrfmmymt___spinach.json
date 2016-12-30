@@ -65,5 +65,55 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "Spinach",
+    "version": "0.2.0",
+    "description": "Unofficial Backlog App",
+    "repository": "hrfmmymt/spinach",
+    "main": "index.js",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "npm run build:macos && npm run build:linux && npm run build:windows",
+      "build:macos": "electron-packager . --overwrite --asar --out=dist --ignore='^media$' --platform=darwin --arch=x64 --icon=static/Icon.icns && cd dist/Spinach-darwin-x64 && zip -ryXq9 ../Spinach-osx-${npm_package_version}.zip Spinach.app",
+      "build:linux": "electron-packager . --overwrite --out=dist --ignore='^media$' --platform=linux --arch=x64 && cd dist/Spinach-linux-x64/ && zip -ryq9 ../Spinach-linux-${npm_package_version}.zip *",
+      "build:windows": "electron-packager . --overwrite --asar --out=dist --ignore='^media$' --platform=win32 --arch=ia32 --icon=static/Icon.ico --version-string.ProductName=$npm_package_productName && cd dist/Spinach-win32-ia32 && zip -ryq9 ../Spinach-windows-${npm_package_version}.zip *"
+    },
+    "keywords": [],
+    "author": {
+      "name": "hrfmmymt",
+      "email": "hrfmmymt@gmail.com",
+      "url": "github.com/hrfmmymt"
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^1.4.6",
+      "electron-packager": "^8.2.0",
+      "electron-prebuilt": "^1.4.6",
+      "xo": "^0.17.1"
+    },
+    "dependencies": {
+      "electron-config": "^0.2.1",
+      "electron-context-menu": "^0.7.0",
+      "electron-debug": "^1.1.0",
+      "electron-dl": "^1.5.0",
+      "element-ready": "^0.2.0"
+    },
+    "xo": {
+      "space": 2,
+      "rules": {
+        "quotes": [
+          2,
+          "double"
+        ]
+      },
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200
 }

@@ -71,5 +71,40 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-native-notification",
+    "version": "1.2.0",
+    "description": "Notification API polyfill in electron main process.",
+    "main": "index.js",
+    "scripts": {
+      "test": "sh tests/test.sh"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ALiangLiang/electron-native-notification.git"
+    },
+    "keywords": [
+      "electron",
+      "desktop",
+      "native",
+      "desktop",
+      "notification",
+      "notifications",
+      "main",
+      "polyfill",
+      "process"
+    ],
+    "author": "ALiangLiang <david27072183@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ALiangLiang/electron-native-notification/issues"
+    },
+    "homepage": "https://github.com/ALiangLiang/electron-native-notification#readme",
+    "devDependencies": {
+      "electron-mocha": "^3.2.0",
+      "electron-prebuilt": "^1.4.6"
+    }
+  },
+  "packageStatus": 200
 }

@@ -65,5 +65,35 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 3,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "doujinshi-db-gui",
+    "version": "0.0.0",
+    "description": "electron gui for doujinshi-db",
+    "main": "app/index.js",
+    "scripts": {
+      "test": "electron app"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/takeiteasy/doujinshi-db-gui.git"
+    },
+    "author": "",
+    "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/takeiteasy/doujinshi-db-gui/issues"
+    },
+    "homepage": "https://github.com/takeiteasy/doujinshi-db-gui#readme",
+    "devDependencies": {
+      "gulp": "^3.9.1",
+      "gulp-coffee": "^2.3.3",
+      "gulp-coffeelint": "^0.6.0",
+      "gulp-sourcemaps": "^1.9.1"
+    },
+    "dependencies": {
+      "electron-prebuilt": "^1.4.10",
+      "electron-window": "^0.8.1"
+    }
+  },
+  "packageStatus": 200
 }

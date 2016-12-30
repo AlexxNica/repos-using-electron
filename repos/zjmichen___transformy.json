@@ -65,5 +65,69 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "hana",
+    "version": "1.0.0",
+    "description": "Transform arbitrary text files",
+    "author": "Zack Michener <zack@zackmichener.net>",
+    "main": "main.js",
+    "scripts": {
+      "lint": "eslint . --ext=js --ext=jsx",
+      "dev:app": "cross-env ENV=development electron ./app",
+      "dev:server": "babel-node server.js",
+      "start": "concurrently -k \"npm run dev:server\" \"npm run dev:app\"",
+      "postinstall": "install-app-deps",
+      "prepack": "webpack --config webpack.config.production.js",
+      "pack": "build --target dir",
+      "dist": "build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zjmichen/hana.git"
+    },
+    "babel": {
+      "presets": [
+        "es2015",
+        "stage-0",
+        "react"
+      ]
+    },
+    "license": "ISC",
+    "devDependencies": {
+      "babel-cli": "^6.9.0",
+      "babel-core": "^6.9.1",
+      "babel-loader": "^6.2.4",
+      "babel-polyfill": "^6.9.1",
+      "babel-preset-es2015": "^6.9.0",
+      "babel-preset-react": "^6.5.0",
+      "babel-preset-stage-0": "^6.5.0",
+      "concurrently": "^2.1.0",
+      "cross-env": "^1.0.8",
+      "css-loader": "^0.23.1",
+      "debounce": "^1.0.0",
+      "electron-complete-builder": "^0.7.0",
+      "electron-packager": "^7.0.3",
+      "electron-prebuilt": "^1.2.0",
+      "electron-squirrel-startup": "^1.0.0",
+      "eslint": "^2.11.1",
+      "eslint-plugin-react": "^5.1.1",
+      "express": "^4.13.4",
+      "less": "^2.7.1",
+      "less-loader": "^2.2.3",
+      "react": "^15.1.0",
+      "react-dom": "^15.1.0",
+      "react-redux": "^4.4.5",
+      "read-package-json": "^2.0.4",
+      "redux": "^3.5.2",
+      "redux-thunk": "^2.1.0",
+      "style-loader": "^0.13.1",
+      "webpack": "^1.13.1",
+      "webpack-dev-middleware": "^1.6.1",
+      "webpack-dev-server": "^1.14.1",
+      "webpack-hot-middleware": "^2.10.0",
+      "webpack-target-electron-renderer": "^0.4.0"
+    }
+  },
+  "packageStatus": 200
 }

@@ -183,5 +183,27 @@
   },
   "networkCount": 19,
   "subscribersCount": 1,
-  "status": 200
+  "status": 200,
+  "packageJSON": {
+    "name": "ElectronChrome",
+    "version": "0.1.0",
+    "main": "electron-main.js",
+    "description": "Run Chrome apps on Electron",
+    "scripts": {
+      "start": "electron .",
+      "package": "node package.js"
+    },
+    "dependencies": {
+      "mkdirp": "",
+      "adm-zip": "",
+      "ncp": "",
+      "electron-squirrel-startup": ""
+    },
+    "devDependencies": {
+      "electron-packager": "^8.0.0",
+      "electron-prebuilt": "^1.4.3",
+      "electron-winstaller": "^2.3.4"
+    }
+  },
+  "packageStatus": 200
 }
