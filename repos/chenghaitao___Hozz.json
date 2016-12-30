@@ -192,10 +192,7 @@
     "scripts": {
       "start": "electron ./app/browser.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:ppoffice/Hozz.git"
-    },
+    "repository": "https://github.com/ppoffice/Hozz",
     "keywords": [
       "Electron",
       "hosts",
@@ -203,9 +200,6 @@
     ],
     "author": "PPOffice",
     "license": "BSD-3-Clause",
-    "bugs": {
-      "url": "https://github.com/ppoffice/Hozz/issues"
-    },
     "homepage": "https://github.com/ppoffice/Hozz#readme",
     "devDependencies": {
       "babel-core": "^6.3.26",
@@ -236,7 +230,17 @@
     },
     "dependencies": {
       "electron-sudo": "^3.0.2"
+    },
+    "other": {
+      "bugs": {
+        "url": "https://github.com/ppoffice/Hozz/issues"
+      }
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "ppoffice",
+    "desfero",
+    "trazyn"
+  ]
 }

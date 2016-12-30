@@ -206,10 +206,7 @@
       "deploy:win32-ia32": "bash ./deploy.sh --win32-ia32",
       "deploy:darwin-x64": "bash ./deploy.sh --darwin-x64"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/yakyak/yakyak"
-    },
+    "repository": "https://github.com/yakyak/yakyak",
     "keywords": [
       "hangouts",
       "chat",
@@ -217,9 +214,6 @@
     ],
     "author": "Martin Algesten",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/yakyak/yakyak/issues"
-    },
     "homepage": "https://github.com/yakyak/yakyak",
     "dependencies": {
       "autosize": "^3.0.8",
@@ -251,7 +245,49 @@
       "rimraf": "^2.4.2",
       "sinon": "^1.15.4",
       "sinon-chai": "^2.8.0"
+    },
+    "other": {
+      "bugs": {
+        "url": "https://github.com/yakyak/yakyak/issues"
+      }
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "davibe",
+    "algesten",
+    "maxkueng",
+    "arnriu",
+    "ariu",
+    "averissimo",
+    "bseber",
+    "davidbanham",
+    "mhogerheijde",
+    "monchote",
+    "acordar",
+    "ironcladlou",
+    "boekkooi",
+    "ctcpip",
+    "mkzero",
+    "Georgeto",
+    "lucianmarin",
+    "Stanko",
+    "jimeh",
+    "marcusmotill",
+    "rajington",
+    "Senney",
+    "xori",
+    "willwhitney",
+    "aaronj1335",
+    "DASPRiD",
+    "bryanzw15",
+    "cameronr",
+    "derimagia",
+    "jadengore",
+    "fbaew",
+    "fearoffish",
+    "JoshStrobl",
+    "kforsberg",
+    "franc90"
+  ]
 }

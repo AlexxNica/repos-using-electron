@@ -191,10 +191,7 @@
     "main": "lib/start.js",
     "description": "An image flasher with support for Windows, OS X and GNU/Linux.",
     "homepage": "https://github.com/resin-io/etcher",
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:resin-io/etcher.git"
-    },
+    "repository": "https://github.com/resin-io/etcher",
     "scripts": {
       "test": "npm run lint && electron-mocha --recursive --renderer tests/gui -R min",
       "sass": "node-sass ./lib/gui/scss/main.scss > build/css/main.css",
@@ -297,7 +294,16 @@
       "commitizen": {
         "path": "./node_modules/cz-conventional-changelog"
       }
-    }
+    },
+    "other": {}
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "jviotti",
+    "dlech",
+    "alexandrosm",
+    "fedealconada",
+    "igorklopov",
+    "WasabiFan"
+  ]
 }

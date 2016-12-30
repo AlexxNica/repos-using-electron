@@ -209,10 +209,7 @@
       "overlay",
       "layer"
     ],
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/uber/deck.gl.git"
-    },
+    "repository": "https://github.com/uber/deck.gl",
     "main": "index.js",
     "files": [
       "dist",
@@ -320,7 +317,34 @@
       "test-shader": "npm run build-dist && budo src/test/shader.js:build/test-bundle.js --dir test --live --open --port 3001 --watch-glob '**/*.{html,css,scss,js,glsl}' -- -t babelify -t brfs-babel",
       "profile-disc": "browserify src/bundle.js --full-paths -t babelify -t brfs-babel | uglifyjs | discify --open",
       "start": "npm run build-watch && budo example/main.js:example/bundle.js --live --open --port 3000 --css example/main.css --title 'deck.gl' --watch-glob '**/*.{html,css,js,glsl}' -- -t brfs-babel -t babelify -t envify"
-    }
+    },
+    "other": {}
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "ibgreen",
+    "gnavvy",
+    "shaojingli",
+    "Pessimistress",
+    "Apercu",
+    "heshan0131",
+    "person594",
+    "tehwalris",
+    "contra",
+    "alee8",
+    "chrisirhc",
+    "mcnuttandrew",
+    "abmai",
+    "AshleyTravers",
+    "wwwtyro",
+    "manassra",
+    "afahim",
+    "austinhyde",
+    "eklitzke",
+    "hrabbey",
+    "mike-marcacci",
+    "ovekyc",
+    "philogb",
+    "tangential"
+  ]
 }

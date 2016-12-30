@@ -110,13 +110,7 @@
     "publishConfig": {
       "registry": "https://registry.npmjs.com"
     },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:jiborobot/floss.git"
-    },
-    "bugs": {
-      "url": "https://github.com/jiborobot/floss/issues"
-    },
+    "repository": "https://github.com/jiborobot/floss",
     "homepage": "https://github.com/jiborobot/floss",
     "engines": {
       "node": ">=4.0"
@@ -175,7 +169,18 @@
       "globals": {
         "expect": true
       }
+    },
+    "other": {
+      "bugs": {
+        "url": "https://github.com/jiborobot/floss/issues"
+      }
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "bigtimebuddy",
+    "mbittarelli",
+    "golgobot",
+    "andrewstart"
+  ]
 }

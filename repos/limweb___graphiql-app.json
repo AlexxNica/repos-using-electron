@@ -203,13 +203,7 @@
     "author": "Adam Miskiewicz <adam.skevy@mac.com> (http://github.com/skevy)",
     "license": "MIT",
     "homepage": "https://github.com/skevy/graphiql-app",
-    "bugs": {
-      "url": "https://github.com/skevy/graphiql-app/issues"
-    },
-    "repository": {
-      "type": "git",
-      "url": "http://github.com/skevy/graphiql-app.git"
-    },
+    "repository": "https://github.com/skevy/graphiql-app",
     "dependencies": {
       "graphiql": "^0.7.1",
       "graphql": "^0.6.0",
@@ -248,7 +242,22 @@
       "webpack": "^1.12.2",
       "webpack-dev-server": "^1.12.0",
       "webpack-target-electron-renderer": "^0.1.0"
+    },
+    "other": {
+      "bugs": {
+        "url": "https://github.com/skevy/graphiql-app/issues"
+      }
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "gjtorikian",
+    "skevy",
+    "kevinold",
+    "tinnou",
+    "KyleAMathews",
+    "nettofarah",
+    "tberman",
+    "tribou"
+  ]
 }

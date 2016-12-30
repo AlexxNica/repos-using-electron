@@ -103,10 +103,7 @@
       "pack:mac": "npm run build & build -m"
     },
     "author": "S(29314)",
-    "repository": {
-      "type": "git",
-      "url": "http://github.com/BlitzModder/BMPC.git"
-    },
+    "repository": "https://github.com/BlitzModder/BMPC",
     "homepage": "http://github.com/BlitzModder/BMPC",
     "license": "MIT",
     "dependencies": {
@@ -168,11 +165,16 @@
         "target": "zip"
       }
     },
-    "directories": {
-      "buildResources": "resources",
-      "output": "dist",
-      "app": "bin"
+    "other": {
+      "directories": {
+        "buildResources": "resources",
+        "output": "dist",
+        "app": "bin"
+      }
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "S--Minecraft"
+  ]
 }

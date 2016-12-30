@@ -82,10 +82,7 @@
       "pack": "build --target dir",
       "dist": "build"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/zjmichen/hana.git"
-    },
+    "repository": "https://github.com/zjmichen/hana",
     "babel": {
       "presets": [
         "es2015",
@@ -127,7 +124,9 @@
       "webpack-dev-server": "^1.14.1",
       "webpack-hot-middleware": "^2.10.0",
       "webpack-target-electron-renderer": "^0.4.0"
-    }
+    },
+    "other": {}
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": []
 }

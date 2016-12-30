@@ -194,10 +194,7 @@
     "name": "Marp",
     "version": "0.0.10",
     "description": "Markdown Presentation Writer (Powered by Electron)",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/yhatt/marp"
-    },
+    "repository": "https://github.com/yhatt/marp",
     "main": "main.js",
     "scripts": {
       "start": "gulp compile && electron . --development",
@@ -244,7 +241,20 @@
       "path": "^0.12.7",
       "photon": "github:connors/photon",
       "twemoji": "github:twitter/twemoji#v2.2.1"
-    }
+    },
+    "other": {}
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "yhatt",
+    "will-hart",
+    "yasumichi",
+    "ajwillia-ms",
+    "btbytes",
+    "radarhere",
+    "abunsen",
+    "jackycute",
+    "alexander-shvets",
+    "brandly"
+  ]
 }

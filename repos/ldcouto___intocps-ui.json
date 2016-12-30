@@ -190,10 +190,7 @@
     "version": "2.1.1-dev",
     "description": "User interface for the INTO-CPS Toolchain",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/intocps/intocps-ui.git"
-    },
+    "repository": "https://github.com/intocps/intocps-ui",
     "main": "dist/main.js",
     "author": {
       "name": "INTO-CPS Project",
@@ -254,7 +251,18 @@
       "run-sequence": "~1.2.2",
       "semver": "~5.3.0",
       "webpack": "~1.13.0"
-    }
+    },
+    "other": {}
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "rsreimer",
+    "ldcouto",
+    "lausdahl",
+    "CThuleHansen",
+    "FlorianLapschies",
+    "kgpierce",
+    "CarlGamble",
+    "afterkelsen"
+  ]
 }

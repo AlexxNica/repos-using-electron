@@ -201,10 +201,7 @@
     "config": {
       "electron-version": "1.2.8"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/BoostIO/Boostnote.git"
-    },
+    "repository": "https://github.com/BoostIO/Boostnote",
     "keywords": [
       "boostnote",
       "b00st",
@@ -223,9 +220,6 @@
       "Fabian Mueller (https://github.com/dotcs)",
       "Yoshihisa Mochihara (https://github.com/yosmoc)"
     ],
-    "bugs": {
-      "url": "https://github.com/BoostIO/Boostnote/issues"
-    },
     "homepage": "https://b00st.io",
     "dependencies": {
       "@rokt33r/markdown-it-math": "^4.0.1",
@@ -303,7 +297,20 @@
         "babel-register"
       ],
       "babel": "inherit"
+    },
+    "other": {
+      "bugs": {
+        "url": "https://github.com/BoostIO/Boostnote/issues"
+      }
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "Rokt33r",
+    "dojineko",
+    "lazytyper",
+    "yosmoc",
+    "brpaz",
+    "syossan27"
+  ]
 }

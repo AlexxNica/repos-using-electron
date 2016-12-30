@@ -83,10 +83,7 @@
       "dev": "NODE_ENV=dev electron .",
       "dev-win": "set NODE_ENV=dev&&electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/whphhg/vcash-electron.git"
-    },
+    "repository": "https://github.com/whphhg/vcash-electron",
     "keywords": [
       "vcash",
       "electron",
@@ -94,9 +91,6 @@
     ],
     "author": "whphhg",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/whphhg/vcash-electron/issues"
-    },
     "homepage": "https://github.com/whphhg/vcash-electron#readme",
     "dependencies": {
       "leaflet": "0.7.7",
@@ -125,7 +119,16 @@
       "electron-prebuilt": "1.3.3",
       "mobx-react-devtools": "4.2.4",
       "regenerator-runtime": "0.9.5"
+    },
+    "other": {
+      "bugs": {
+        "url": "https://github.com/whphhg/vcash-electron/issues"
+      }
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "whphhg",
+    "xCoreDev"
+  ]
 }

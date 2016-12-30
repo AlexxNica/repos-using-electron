@@ -191,13 +191,7 @@
     "version": "0.2.76",
     "main": "compiled/src/main/Main.js",
     "author": "Volodymyr Shatskyi <shockone89@gmail.com>",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/shockone/black-screen.git"
-    },
-    "bugs": {
-      "url": "https://github.com/shockone/black-screen/issues"
-    },
+    "repository": "https://github.com/shockone/black-screen",
     "engineStrict": true,
     "engines": {
       "node": ">= 6.0.0"
@@ -264,13 +258,57 @@
       "tsc": "tsc"
     },
     "license": "MIT",
-    "directories": {
-      "app": "."
-    },
     "build": {
       "appId": "com.github.shockone.black-screen",
       "category": "public.app-category.developer-tools"
+    },
+    "other": {
+      "directories": {
+        "app": "."
+      },
+      "bugs": {
+        "url": "https://github.com/shockone/black-screen/issues"
+      }
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "contributors": [
+    "vshatskyi",
+    "drew-gross",
+    "greenkeeperio-bot",
+    "ekaragodin",
+    "RobertoUa",
+    "pmkary",
+    "iiegor",
+    "G07cha",
+    "bmats",
+    "j-em",
+    "nblackburn",
+    "mkenne11",
+    "fabricionaweb",
+    "lbalves",
+    "tanishq-dubey",
+    "Islandman93",
+    "qaisjp",
+    "viktomas",
+    "moollaza",
+    "bananu7",
+    "noygal",
+    "marnen",
+    "chaseadamsio",
+    "denieler",
+    "flawiddsouza",
+    "ibrahima",
+    "jacwah",
+    "mortonfox",
+    "pavgup",
+    "wy193777",
+    "sbdchd",
+    "tcyrus",
+    "admix",
+    "erickzanardo",
+    "ha-D",
+    "kevin-smets",
+    "mathewmeconry"
+  ]
 }
