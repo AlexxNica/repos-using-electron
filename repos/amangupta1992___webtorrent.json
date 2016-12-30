@@ -290,13 +290,6 @@
       "test-browser-headless": "zuul --electron -- test/*.js test/browser/*.js",
       "test-browser-local": "zuul --local -- test/*.js test/browser/*.js",
       "test-node": "tape test/*.js test/node/*.js"
-    },
-    "other": {
-      "author": {
-        "name": "Feross Aboukhadijeh",
-        "email": "feross@feross.org",
-        "url": "http://feross.org/"
-      }
     }
   },
   "packageStatus": 200,

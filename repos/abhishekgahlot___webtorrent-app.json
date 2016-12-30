@@ -212,13 +212,6 @@
       "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion",
       "start": "electron .",
       "test": "standard"
-    },
-    "other": {
-      "author": {
-        "name": "Feross Aboukhadijeh",
-        "email": "feross@feross.org",
-        "url": "http://feross.org"
-      }
     }
   },
   "packageStatus": 200,

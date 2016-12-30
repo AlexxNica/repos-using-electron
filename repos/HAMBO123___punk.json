@@ -219,13 +219,7 @@
       "package-osx": "electron-packager . Punk --overwrite --out=package --platform=darwin --arch=x64 --version=0.35.4 --prune --icon=resources/icon.icns --ignore=src --ignore=style",
       "package-win": "electron-packager . Punk --overwrite --out=package --platform=win32 --arch=ia32 --version=0.35.4 --prune --icon=resources/icon.ico --ignore=src --ignore=style"
     },
-    "private": true,
-    "other": {
-      "author": {
-        "name": "Michael Scholtz",
-        "email": "michael.scholtz@outlook.com"
-      }
-    }
+    "private": true
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/HAMBO123/punk",

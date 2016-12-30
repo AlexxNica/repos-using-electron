@@ -259,17 +259,6 @@
       "watch": "npm run build-css && (npm run watch-css & electron index.js 2>&1 | silence-chromium)",
       "watch-css": "stylus -u nib app/style/index.styl -o app/style/bundle.css -w",
       "web": "beefy app/web.js:bundle.js"
-    },
-    "other": {
-      "author": [
-        "feross",
-        "maxogden",
-        "mafintosh",
-        "ngoldman",
-        "shama",
-        "jlord",
-        "chrisdickinson"
-      ]
     }
   },
   "packageStatus": 200,

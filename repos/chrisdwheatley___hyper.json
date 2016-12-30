@@ -292,12 +292,6 @@
       "postinstall": "install-app-deps",
       "pack": "npm run build && build --dir && babel --no-comments --compact --minified --out-file app/dist/bundle.js app/dist/bundle.js",
       "dist": "npm run build && build"
-    },
-    "other": {
-      "author": {
-        "name": "Zeit, Inc.",
-        "email": "team@zeit.co"
-      }
     }
   },
   "packageStatus": 200,
@@ -404,5 +398,5 @@
     }
   },
   "filename": "chrisdwheatley___hyper.json",
-  "sourceRepo": "zeit/hyperterm"
+  "sourceRepo": "zeit/hyper"
 }

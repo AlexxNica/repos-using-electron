@@ -272,17 +272,6 @@
       "watch-css": "mkdirp dist && stylus -u nib css/app.styl -o dist/ -w",
       "web": "beefy web.js:bundle.js",
       "rebuild-leveldb": "cd node_modules/leveldown && set HOME=~/.electron-gyp && node-gyp rebuild --target=0.34.2 --arch=x64 --dist-url=https://atom.io/download/atom-shell"
-    },
-    "other": {
-      "author": [
-        "feross",
-        "maxogden",
-        "mafintosh",
-        "ngoldman",
-        "shama",
-        "jlord",
-        "chrisdickinson"
-      ]
     }
   },
   "packageStatus": 200,

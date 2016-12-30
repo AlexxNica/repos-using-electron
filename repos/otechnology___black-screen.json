@@ -246,10 +246,7 @@
       "package": "PATH=node_modules/.bin:$PATH rm -rf '/Applications/Black Screen.app'; electron-packager . 'Black Screen' --platform=darwin --arch=x64 --version='0.30.0' --out='/Applications' --icon='./icon.icns'",
       "test": "PATH=node_modules/.bin:$PATH gulp typescript; gulp compile-tests; electron run-tests.js"
     },
-    "license": "MIT",
-    "other": {
-      "author": "Volodymyr Shatsky <shockone89@gmail.com>"
-    }
+    "license": "MIT"
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/otechnology/black-screen",
@@ -299,5 +296,5 @@
     }
   },
   "filename": "otechnology___black-screen.json",
-  "sourceRepo": "shockone/black-screen"
+  "sourceRepo": "vshatskyi/black-screen"
 }

@@ -278,12 +278,6 @@
       "pack": "npm run build && build --dir && babel --no-comments --compact --minified --out-file app/dist/bundle.js app/dist/bundle.js",
       "dist": "npm run build && build",
       "release": "npm run build && build --publish=onTagOrDraft"
-    },
-    "other": {
-      "author": {
-        "name": "Guillermo Rauch",
-        "email": "rauchg@zeit.co"
-      }
     }
   },
   "packageStatus": 200,
@@ -370,5 +364,5 @@
     }
   },
   "filename": "bekher___hyperterm.json",
-  "sourceRepo": "zeit/hyperterm"
+  "sourceRepo": "zeit/hyper"
 }

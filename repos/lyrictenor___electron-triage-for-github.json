@@ -185,13 +185,6 @@
       "start": "npm run build:local && node lib/server.js",
       "test": "mocha --compilers js:espower-babel/guess -- ./test/*test.js",
       "verify": "npm run lint && npm run test && npm run build:local && npm run build:dev && npm run build:dist"
-    },
-    "other": {
-      "author": {
-        "name": "sanemat",
-        "email": "o.gata.ken@gmail.com",
-        "url": "sane.jp"
-      }
     }
   },
   "packageStatus": 200,

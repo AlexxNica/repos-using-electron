@@ -257,13 +257,6 @@
       "start": "jsx --es6module src/ build/ && electron .",
       "test": "standard && node ./bin/check-deps.js",
       "update-authors": "./bin/update-authors.sh"
-    },
-    "other": {
-      "author": {
-        "name": "WebTorrent, LLC",
-        "email": "feross@webtorrent.io",
-        "url": "https://webtorrent.io"
-      }
     }
   },
   "packageStatus": 200,

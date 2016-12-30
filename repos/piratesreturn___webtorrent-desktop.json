@@ -307,13 +307,6 @@
       "test-integration": "npm run build && node ./test",
       "update-authors": "./bin/update-authors.sh",
       "watch": "nodemon --exec \"npm run start\" --ext js,css --ignore build/ --ignore dist/"
-    },
-    "other": {
-      "author": {
-        "name": "WebTorrent, LLC",
-        "email": "feross@webtorrent.io",
-        "url": "https://webtorrent.io"
-      }
     }
   },
   "packageStatus": 200,

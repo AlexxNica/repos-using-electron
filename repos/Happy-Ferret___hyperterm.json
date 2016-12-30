@@ -297,12 +297,6 @@
       "pack": "npm run build && build --dir && babel --no-comments --compact --minified --out-file app/dist/bundle.js app/dist/bundle.js",
       "dist": "npm run build && build",
       "release": "npm run build && build --publish=onTagOrDraft"
-    },
-    "other": {
-      "author": {
-        "name": "Zeit, Inc.",
-        "email": "team@zeit.co"
-      }
     }
   },
   "packageStatus": 200,
@@ -399,5 +393,5 @@
     }
   },
   "filename": "Happy-Ferret___hyperterm.json",
-  "sourceRepo": "zeit/hyperterm"
+  "sourceRepo": "zeit/hyper"
 }
