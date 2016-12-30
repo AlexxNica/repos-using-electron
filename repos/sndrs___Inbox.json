@@ -47,15 +47,8 @@
   "status": 200,
   "packageJSON": {
     "name": "inbox",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/sndrs/Inbox.git"
-    },
-    "author": "Alex Sanders",
+    "repository": "https://github.com/sndrs/Inbox",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/sndrs/Inbox/issues"
-    },
     "homepage": "https://github.com/sndrs/Inbox#readme",
     "devDependencies": {
       "electron-packager": "^8.0.0"
@@ -64,7 +57,13 @@
       "electron-prebuilt": "^1.4.1"
     },
     "description": "Desktop app for Inbox by Gmail that adds OS integration",
-    "version": "0.1.2"
+    "version": "0.1.2",
+    "other": {
+      "author": "Alex Sanders",
+      "bugs": {
+        "url": "https://github.com/sndrs/Inbox/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/sndrs/Inbox",
@@ -111,5 +110,6 @@
       "url": "https://api.github.com/repos/sndrs/Inbox/git/commits/7402055461681a76a6f459a7c700e0befdaae3eb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sndrs___Inbox.json"
 }

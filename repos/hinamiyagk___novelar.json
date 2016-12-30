@@ -87,15 +87,8 @@
       "lint": "eslint src test",
       "flow": "flow"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/hinamiyagk/novelar.git"
-    },
-    "author": "Hinata",
+    "repository": "https://github.com/hinamiyagk/novelar",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/hinamiyagk/novelar/issues"
-    },
     "homepage": "https://github.com/hinamiyagk/novelar#readme",
     "devDependencies": {
       "ajv": "^4.8.2",
@@ -130,6 +123,12 @@
         "babel-register"
       ],
       "babel": "inherit"
+    },
+    "other": {
+      "author": "Hinata",
+      "bugs": {
+        "url": "https://github.com/hinamiyagk/novelar/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -157,5 +156,6 @@
       "url": "https://api.github.com/repos/hinamiyagk/novelar/git/commits/bf44dd180e76b4b7f5cece12810ec534c6603abe",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hinamiyagk___novelar.json"
 }

@@ -59,11 +59,6 @@
     "license": "BSD",
     "repository": "JodusNodus/syncthing-desktop",
     "main": "./dist/main/index.js",
-    "author": {
-      "name": "jodusnodus",
-      "email": "thomas842@hotmail.com",
-      "url": "thomasbilliet.com"
-    },
     "scripts": {
       "test": "cross-env NODE_ENV=test mocha --compilers js:babel-register --require ./test.setup.js --recursive app/**/*.spec.js",
       "test-watch": "npm test -- --watch",
@@ -204,6 +199,13 @@
     "devEngines": {
       "node": "4.x || 5.x || 6.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": {
+        "name": "jodusnodus",
+        "email": "thomas842@hotmail.com",
+        "url": "thomasbilliet.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -251,5 +253,6 @@
       "url": "https://api.github.com/repos/JodusNodus/syncthing-desktop/git/commits/39e6fd5d8f7b7f710870dc0f73af110fd7f31aa2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "JodusNodus___syncthing-desktop.json"
 }

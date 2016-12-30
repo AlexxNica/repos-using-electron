@@ -70,10 +70,6 @@
     "version": "0.0.0",
     "description": "Small description for quick-calc goes here",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -83,7 +79,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -159,6 +154,13 @@
     },
     "dependencies": {
       "menubar": "^5.1.0"
+    },
+    "other": {
+      "author": "",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -186,5 +188,6 @@
       "url": "https://api.github.com/repos/JhnBrunelle/Quick-Calc/git/commits/02f502b743973dab8c6f64eae205eac551cecc45",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "JhnBrunelle___Quick-Calc.json"
 }

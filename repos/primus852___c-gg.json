@@ -63,21 +63,14 @@
       "zip": "7z a -t7z dist/packages/darwin_x64.7z dist/LoLItemSetCreator-darwin-x64/ | 7z a -t7z dist/packages/mas_x64.7z dist/LoLItemSetCreator-mas-x64/ | 7z a -t7z dist/packages/windows_x64.7z dist/LoLItemSetCreator-win32-x64/ | 7z a -t7z dist/packages/windows_ia32.7z dist/LoLItemSetCreator-win32-ia32/",
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/primus852/c-gg.git"
-    },
+    "repository": "https://github.com/primus852/c-gg",
     "keywords": [
       "LoL",
       "Champion.GG",
       "League",
       "Legends"
     ],
-    "author": "PrimuS",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/primus852/c-gg/issues"
-    },
     "build": {
       "app-bundle-id": "c.gg",
       "app-category-type": "lol.apps",
@@ -99,6 +92,12 @@
       "ncp": "^2.0.0",
       "open": "^0.0.5",
       "request": "*"
+    },
+    "other": {
+      "author": "PrimuS",
+      "bugs": {
+        "url": "https://github.com/primus852/c-gg/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/primus852/c-gg/git/commits/fb0d4a7a8edd079ab1d261128260106a463bdf22",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "primus852___c-gg.json"
 }

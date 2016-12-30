@@ -80,23 +80,22 @@
       "test": "electron .",
       "bundle": "browserify load.js -o bundle.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/DemSquirrel/Tsuki-Browser.git"
-    },
+    "repository": "https://github.com/DemSquirrel/Tsuki-Browser",
     "keywords": [
       "browser",
       "small"
     ],
-    "author": "Lord Squirrel",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/DemSquirrel/Tsuki-Browser/issues"
-    },
     "homepage": "https://github.com/DemSquirrel/Tsuki-Browser#readme",
     "devDependencies": {
       "browserify": "^13.1.0",
       "electron": "^1.4.3"
+    },
+    "other": {
+      "author": "Lord Squirrel",
+      "bugs": {
+        "url": "https://github.com/DemSquirrel/Tsuki-Browser/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -124,5 +123,6 @@
       "url": "https://api.github.com/repos/DemSquirrel/Tsuki-Browser/git/commits/da281cc6069ccaf983b38c3a176f31fe7e54ca61",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DemSquirrel___Tsuki-Browser.json"
 }

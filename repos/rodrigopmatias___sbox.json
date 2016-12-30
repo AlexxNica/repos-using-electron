@@ -80,26 +80,25 @@
       "start": "electron main.js",
       "compiler": "tsc -w"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rodrigopmatias/sbox.git"
-    },
+    "repository": "https://github.com/rodrigopmatias/sbox",
     "keywords": [
       "sound",
       "box",
       "plugable"
     ],
-    "author": "Rodrigo Pinheiro Matias",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/rodrigopmatias/sbox/issues"
-    },
     "homepage": "https://github.com/rodrigopmatias/sbox#readme",
     "dependencies": {
       "electron-prebuilt": "^1.1.0"
     },
     "devDependencies": {
       "typescript": "^1.8.10"
+    },
+    "other": {
+      "author": "Rodrigo Pinheiro Matias",
+      "bugs": {
+        "url": "https://github.com/rodrigopmatias/sbox/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/rodrigopmatias/sbox/git/commits/88ff2a2f0eb7d00903e75b659c2bf0758bd7cc35",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rodrigopmatias___sbox.json"
 }

@@ -46,11 +46,6 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "author": {
-      "name": "Julien Loutre",
-      "email": "julien@twenty-six-medias.com",
-      "url": "http://www.twenty-six-medias.com/"
-    },
     "name": "airbase-ui",
     "description": "airbase",
     "version": "1.0.0",
@@ -61,10 +56,7 @@
         "url": "https://raw.github.com/26medias/airbase/master/LICENSE"
       }
     ],
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/26medias/airbase.git"
-    },
+    "repository": "https://github.com/26medias/airbase",
     "main": "airbase.js",
     "engines": {
       "node": "*"
@@ -74,11 +66,18 @@
       "app": "latest",
       "firebase": "latest"
     },
-    "readmeFilename": "readme.md",
-    "bugs": {
-      "url": "https://github.com/26medias/airbase/issues"
-    },
-    "scripts": {}
+    "scripts": {},
+    "other": {
+      "author": {
+        "name": "Julien Loutre",
+        "email": "julien@twenty-six-medias.com",
+        "url": "http://www.twenty-six-medias.com/"
+      },
+      "bugs": {
+        "url": "https://github.com/26medias/airbase/issues"
+      },
+      "readmeFilename": "readme.md"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -105,5 +104,6 @@
       "url": "https://api.github.com/repos/26medias/airbase/git/commits/e93ced9d8235c35db9191976d517698020537fea",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "26medias___airbase.json"
 }

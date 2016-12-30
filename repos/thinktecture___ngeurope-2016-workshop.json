@@ -84,10 +84,7 @@
     "version": "1.0.0",
     "description": "Sample for demonstrating various aspects of modern cross-platform applications.",
     "main": "gulpfile.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/thinktecture/boardz-cross-platform-sample.git"
-    },
+    "repository": "https://github.com/thinktecture/boardz-cross-platform-sample",
     "scripts": {
       "postinstall": "typings install",
       "build-web": "gulp build-web",
@@ -107,10 +104,6 @@
       "watch-mobile-android": "npm run build-mobile-android && gulp start-mobile-android",
       "watch-mobile-ios": "npm run build-mobile-ios && gulp start-mobile-ios",
       "watch-mobile-windows": "npm run build-mobile-windows && gulp start-mobile-windows"
-    },
-    "author": "Thinktecture AG <office@thinktecture.com>",
-    "bugs": {
-      "url": "https://github.com/thinktecture/boardz-cross-platform-sample/issues"
     },
     "homepage": "https://github.com/thinktecture/boardz-cross-platform-sample#readme",
     "devDependencies": {
@@ -173,6 +166,12 @@
       "rxjs": "5.0.0-beta.6",
       "systemjs": "^0.19.27",
       "zone.js": "^0.6.23"
+    },
+    "other": {
+      "author": "Thinktecture AG <office@thinktecture.com>",
+      "bugs": {
+        "url": "https://github.com/thinktecture/boardz-cross-platform-sample/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -200,5 +199,6 @@
       "url": "https://api.github.com/repos/thinktecture/ngeurope-2016-workshop/git/commits/9343c3a1cdf0dbb8b87aa3dff9e479a44b98239a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "thinktecture___ngeurope-2016-workshop.json"
 }

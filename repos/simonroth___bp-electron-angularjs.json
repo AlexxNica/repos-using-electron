@@ -83,7 +83,6 @@
       "build": "electron-packager app $npm_package_productName --all --out=dist --overwrite --version=$npm_package_electronVersion"
     },
     "repository": "simonroth/bp-electron-angularjs",
-    "author": "Simon Roth <app@s.imon.ch> (https://s.imon.ch)",
     "license": "MIT",
     "dependencies": {
       "nedb": "*"
@@ -97,6 +96,9 @@
       "gulp-install": "*",
       "gulp-load-plugins": "*",
       "gulp-newer": "*"
+    },
+    "other": {
+      "author": "Simon Roth <app@s.imon.ch> (https://s.imon.ch)"
     }
   },
   "packageStatus": 200,
@@ -124,5 +126,6 @@
       "url": "https://api.github.com/repos/simonroth/bp-electron-angularjs/git/commits/82509539aac2e10e9bbe3dad6dd3540af2000b94",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "simonroth___bp-electron-angularjs.json"
 }

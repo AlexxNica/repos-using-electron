@@ -69,10 +69,6 @@
     "name": "ui",
     "version": "0.0.1",
     "description": "You know, a UI.",
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -85,7 +81,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "Connor Prussin <connor@prussin.net>",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -155,6 +150,13 @@
         "ProductName": null,
         "InternalName": null
       }
+    },
+    "other": {
+      "author": "Connor Prussin <connor@prussin.net>",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -182,5 +184,6 @@
       "url": "https://api.github.com/repos/cprussin/untitled-ui/git/commits/a95fee3a0512458f5cfb4e5fed60a671b4557b54",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cprussin___untitled-ui.json"
 }

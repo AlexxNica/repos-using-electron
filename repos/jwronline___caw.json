@@ -97,11 +97,7 @@
       "pack": "npm run build && electron-packager . --platform=linux,darwin,win32 --arch=x64 --overwrite",
       "test": "xo"
     },
-    "repository": {
-      "url": "https://github.com/jwronline/caw.git",
-      "type": "git"
-    },
-    "author": "Haroen Viaene <hello@haroen.me>",
+    "repository": "https://github.com/jwronline/caw",
     "license": "Apache-2.0",
     "dependencies": {
       "dialog-polyfill": "^0.4.4",
@@ -140,6 +136,9 @@
           ]
         }
       ]
+    },
+    "other": {
+      "author": "Haroen Viaene <hello@haroen.me>"
     }
   },
   "packageStatus": 200,
@@ -167,5 +166,6 @@
       "url": "https://api.github.com/repos/jwronline/caw/git/commits/92ef0d570b763945bfcfe4c62e705fd93012c859",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jwronline___caw.json"
 }

@@ -75,12 +75,8 @@
     "name": "TwitchDesktop",
     "version": "0.1.0",
     "description": "Twitch desktop app",
-    "author": "Dan Ramich danold215@gmail.com",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/dramich/twitchDesktop/"
-    },
+    "repository": "https://github.com/dramich/twitchDesktop",
     "main": "./main.js",
     "scripts": {
       "start": "./node_modules/.bin/electron .",
@@ -91,6 +87,9 @@
     },
     "dependencies": {
       "jquery": "^3.1.0"
+    },
+    "other": {
+      "author": "Dan Ramich danold215@gmail.com"
     }
   },
   "packageStatus": 200,
@@ -118,5 +117,6 @@
       "url": "https://api.github.com/repos/dramich/twitchDesktop/git/commits/ccf9cc7179e1fafe895077a37caf68391c9de128",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dramich___twitchDesktop.json"
 }

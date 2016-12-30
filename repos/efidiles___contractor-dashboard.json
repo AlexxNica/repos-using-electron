@@ -74,20 +74,13 @@
   "packageJSON": {
     "name": "contractor-dashboard",
     "version": "1.0.0",
-    "author": "Eduard Fidiles",
     "description": "A general purpose dashboard",
     "keywords": [
       "Electron",
       "dashboard"
     ],
     "license": "",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/efidiles/contractor-dashboard"
-    },
-    "bugs": {
-      "url": "https://github.com/efidiles/contractor-dashboard/issues"
-    },
+    "repository": "https://github.com/efidiles/contractor-dashboard",
     "homepage": "https://github.com/efidiles/contractor-dashboard",
     "main": "main.js",
     "engines": {
@@ -215,6 +208,12 @@
       "webpack-dev-server": "1.14.1",
       "webpack-hot-middleware": "2.12.1",
       "webpack-strip": "0.1.0"
+    },
+    "other": {
+      "author": "Eduard Fidiles",
+      "bugs": {
+        "url": "https://github.com/efidiles/contractor-dashboard/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -242,5 +241,6 @@
       "url": "https://api.github.com/repos/efidiles/contractor-dashboard/git/commits/2af0573f20ced153d7e7ec34679f03415ab77ac0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "efidiles___contractor-dashboard.json"
 }

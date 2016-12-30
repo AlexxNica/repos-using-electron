@@ -79,31 +79,30 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/atom/electron-quick-start.git"
-    },
+    "repository": "https://github.com/atom/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/atom/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.35.0",
       "grunt-electron-installer-debian": "^0.3.1"
     },
-    "directories": {
-      "example": "example"
-    },
     "dependencies": {
       "node-notifier": "^4.6.1"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/atom/electron-quick-start/issues"
+      },
+      "directories": {
+        "example": "example"
+      }
     }
   },
   "packageStatus": 200,
@@ -132,5 +131,6 @@
       "url": "https://api.github.com/repos/caiosbentes/UFPAmail/git/commits/fb8932d5d45ad6e712e5aaabb96ec4a258038a67",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "caiosbentes___UFPAmail.json"
 }

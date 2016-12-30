@@ -117,26 +117,11 @@
         ]
       }
     },
-    "directories": {
-      "buildResources": "resources",
-      "output": "release"
-    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/AuHau/dataflow-gui"
-    },
-    "author": {
-      "name": "Adam Uhlíř",
-      "email": "hello@adam-uhlir.me",
-      "url": "https://www.adam-uhlir.me"
-    },
+    "repository": "https://github.com/AuHau/dataflow-gui",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/AuHau/dataflow-gui"
-    },
     "keywords": [
       "dataflow",
       "dag",
@@ -224,6 +209,20 @@
     "devEngines": {
       "node": ">=6.x",
       "npm": ">=3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Adam Uhlíř",
+        "email": "hello@adam-uhlir.me",
+        "url": "https://www.adam-uhlir.me"
+      },
+      "bugs": {
+        "url": "https://github.com/AuHau/dataflow-gui"
+      },
+      "directories": {
+        "buildResources": "resources",
+        "output": "release"
+      }
     }
   },
   "packageStatus": 200,
@@ -251,5 +250,6 @@
       "url": "https://api.github.com/repos/AuHau/dataflow-gui/git/commits/318b011da67bcf3b513504c98b230c0c761d1482",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "AuHau___dataflow-gui.json"
 }

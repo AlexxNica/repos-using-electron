@@ -81,21 +81,14 @@
       "postinstall": "cd node_modules/stackedit/ && bower install",
       "package": "electron-packager . StackEdit --platform=darwin --arch=x64 --version=0.36.2 --icon=icon.icns"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ajf-/StackEdit-Electron.git"
-    },
+    "repository": "https://github.com/ajf-/StackEdit-Electron",
     "keywords": [
       "markdown",
       "editor",
       "stackedit",
       "electron"
     ],
-    "author": "Alain Jacomet",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/ajf-/StackEdit-Electron/issues"
-    },
     "homepage": "https://github.com/ajf-/StackEdit-Electron#readme",
     "devDependencies": {
       "electron-packager": "^5.2.0",
@@ -103,6 +96,12 @@
     },
     "dependencies": {
       "stackedit": "git+https://git@github.com/benweet/stackedit.git"
+    },
+    "other": {
+      "author": "Alain Jacomet",
+      "bugs": {
+        "url": "https://github.com/ajf-/StackEdit-Electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/ajf-/StackEdit-Electron/git/commits/14bf6290385aaf3195d643566447b0fbfd82848e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ajf-___StackEdit-Electron.json"
 }

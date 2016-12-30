@@ -80,14 +80,7 @@
       "pack:win": "electron-packager ./dist --platform=win32 --arch=ia32",
       "dist:osx": "build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://kimorkim@github.com/entrylabs/entry-offline-mini.git"
-    },
-    "author": "EntryLabs",
-    "bugs": {
-      "url": "https://github.com/entrylabs/entry-offline-mini/issues"
-    },
+    "repository": "https://github.com/entrylabs/entry-offline-mini",
     "build": {
       "osx": {
         "icon": "build/icon.icns",
@@ -142,6 +135,12 @@
       "webpack": "^1.13.1",
       "rimraf": "^2.5.2",
       "electron-builder": "^3.25.0"
+    },
+    "other": {
+      "author": "EntryLabs",
+      "bugs": {
+        "url": "https://github.com/entrylabs/entry-offline-mini/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -191,5 +190,6 @@
       "url": "https://api.github.com/repos/entrylabs/entry-offline-mini/git/commits/2d09708cded7ae1678d9f49741849f14dfb91726",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "entrylabs___entry-offline-mini.json"
 }

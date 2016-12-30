@@ -84,23 +84,13 @@
       "dist:osx": "build --osx",
       "dist:linux": "build --linux"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/fix/Lisk-Lite-Client.git"
-    },
+    "repository": "https://github.com/fix/Lisk-Lite-Client",
     "keywords": [
       "Electron",
       "Lisk",
       "Client"
     ],
-    "author": {
-      "name": "Fx Thoorens",
-      "email": "fixcrypt@gmail.com"
-    },
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/fix/Lisk-Lite-Client/issues"
-    },
     "homepage": "https://github.com/fix/Lisk-Lite-Client#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -119,6 +109,15 @@
       "linux": {
         "synopsis": "A Lite Lisk Client to securely connect to the Lisk network and manage your lisk assets.",
         "description": ""
+      }
+    },
+    "other": {
+      "author": {
+        "name": "Fx Thoorens",
+        "email": "fixcrypt@gmail.com"
+      },
+      "bugs": {
+        "url": "https://github.com/fix/Lisk-Lite-Client/issues"
       }
     }
   },
@@ -149,5 +148,6 @@
       "url": "https://api.github.com/repos/fix/Lisk-Lite-Client/git/commits/c3155b5c77845ae47acca28745a91444ec7fce95",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "fix___Lisk-Lite-Client.json"
 }

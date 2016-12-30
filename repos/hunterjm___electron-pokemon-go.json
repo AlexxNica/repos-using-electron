@@ -68,15 +68,10 @@
   "packageJSON": {
     "name": "electron-pokemon-go",
     "version": "2.0.0",
-    "author": "Jason Hunter",
     "description": "Pokemon Go toolset.",
     "homepage": "https://github.com/hunterjm/electron-pokemon-go",
     "main": "browser.js",
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:hunterjm/electron-pokemon-go.git"
-    },
-    "bugs": "https://github.com/hunterjm/electron-pokemon-go/issues",
+    "repository": "https://github.com/hunterjm/electron-pokemon-go",
     "scripts": {
       "start": "grunt",
       "start-dev": "NODE_ENV=development grunt",
@@ -144,6 +139,10 @@
       "redux-devtools-log-monitor": "^1.0.5",
       "redux-immutable-state-invariant": "^1.2.3",
       "redux-logger": "^2.6.1"
+    },
+    "other": {
+      "author": "Jason Hunter",
+      "bugs": "https://github.com/hunterjm/electron-pokemon-go/issues"
     }
   },
   "packageStatus": 200,
@@ -171,5 +170,6 @@
       "url": "https://api.github.com/repos/hunterjm/electron-pokemon-go/git/commits/7785b8f3755da666a84ec6984a33ec44c87e6ff8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hunterjm___electron-pokemon-go.json"
 }

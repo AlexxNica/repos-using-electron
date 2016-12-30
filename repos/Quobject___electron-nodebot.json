@@ -74,18 +74,11 @@
       "client": "electron client/main.js",
       "server": "node server/index.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Quobject/electron-nodebot.git"
-    },
+    "repository": "https://github.com/Quobject/electron-nodebot",
     "keywords": [
       "pseudocode"
     ],
-    "author": "Matthias Ludwig <mludwig@quobject.io>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Quobject/electron-nodebot/issues"
-    },
     "homepage": "https://github.com/Quobject/electron-nodebot",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -97,6 +90,12 @@
       "socket.io-client": "^1.4.5",
       "bootstrap": "^3.3.6",
       "jquery": "^2.2.0"
+    },
+    "other": {
+      "author": "Matthias Ludwig <mludwig@quobject.io>",
+      "bugs": {
+        "url": "https://github.com/Quobject/electron-nodebot/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -124,5 +123,6 @@
       "url": "https://api.github.com/repos/Quobject/electron-nodebot/git/commits/cec4a7ba91ae441013a9742b4e08cc85a3e07e49",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Quobject___electron-nodebot.json"
 }

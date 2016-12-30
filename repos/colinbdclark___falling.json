@@ -71,11 +71,9 @@
     "description": "Falling, a sound installation by Colin Clark",
     "main": "main.js",
     "version": "2.0.0",
-    "author": "Colin Clark",
     "license": "MIT",
     "repository": "git://github.com/colinbdclark/falling.git",
     "homepage": "http://github.com/colinbdclark/falling",
-    "readmeFilename": "README.md",
     "dependencies": {
       "infusion": "2.0.0-dev.20151024T031903Z.3da18aa",
       "dedupe-infusion": "1.0.0",
@@ -88,6 +86,10 @@
     "scripts": {
       "dedupe-infusion": "node -e \"require('dedupe-infusion')();\"",
       "start": "electron node_modules/windvane/main.js"
+    },
+    "other": {
+      "author": "Colin Clark",
+      "readmeFilename": "README.md"
     }
   },
   "packageStatus": 200,

@@ -74,24 +74,23 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/KyllianV/demineur.git"
-    },
+    "repository": "https://github.com/KyllianV/demineur",
     "keywords": [
       "demineur"
     ],
-    "author": "Kyllian VINKLER",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/KyllianV/demineur/issues"
-    },
     "homepage": "https://github.com/KyllianV/demineur#readme",
     "dependencies": {
       "electron": "^1.4.3"
     },
     "devDependencies": {
       "electron-packager": "^8.1.0"
+    },
+    "other": {
+      "author": "Kyllian VINKLER",
+      "bugs": {
+        "url": "https://github.com/KyllianV/demineur/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -119,5 +118,6 @@
       "url": "https://api.github.com/repos/KyllianV/demineur/git/commits/abfa124f9f4be52d71b244339f78a30ba71ebb35",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "KyllianV___demineur.json"
 }

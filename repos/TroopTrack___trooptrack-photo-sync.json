@@ -71,10 +71,7 @@
     "version": "1.0.0",
     "description": "Sync your TroopTrack Photo albums to your desktop.",
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/TroopTrack/trooptrack-photo-sync.git"
-    },
+    "repository": "https://github.com/TroopTrack/trooptrack-photo-sync",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron .",
@@ -85,7 +82,6 @@
       "win32-installer": "electron-builder 'frog/TroopTrack Photo Sync-win32-x64' --platform=win --config=builder.json --out=toad",
       "osx-installer": "electron-builder 'frog/TroopTrack Photo Sync-darwin-x64/TroopTrack Photo Sync.app' --platform=osx --config=builder.json --out=toad --sign=`cat .osx-cert`"
     },
-    "author": "TroopTrack, LLC",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -102,6 +98,9 @@
       "request-progress": "^1.0.2",
       "toastr": "^2.1.2",
       "user-home": "^2.0.0"
+    },
+    "other": {
+      "author": "TroopTrack, LLC"
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/TroopTrack/trooptrack-photo-sync/git/commits/7ff7428e4796aea59673d18cec4d4ea675a8b253",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "TroopTrack___trooptrack-photo-sync.json"
 }

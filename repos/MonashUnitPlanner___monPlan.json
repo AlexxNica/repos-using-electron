@@ -93,21 +93,14 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/MonashUnitPlanner/monPlan.git"
-    },
+    "repository": "https://github.com/MonashUnitPlanner/monPlan",
     "keywords": [
       "Monash Uni",
       "degree",
       "course planner",
       "electron"
     ],
-    "author": "monPlan",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/MonashUnitPlanner/monPlan/issues"
-    },
     "devDependencies": {
       "electron": "^1.4.1",
       "grunt": "~1.0.1",
@@ -123,6 +116,12 @@
       "load-grunt-tasks": "^3.5.0",
       "grunt-contrib-connect": "~1.0.2",
       "grunt-jsdoc": "~2.1.0"
+    },
+    "other": {
+      "author": "monPlan",
+      "bugs": {
+        "url": "https://github.com/MonashUnitPlanner/monPlan/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -150,5 +149,6 @@
       "url": "https://api.github.com/repos/MonashUnitPlanner/monPlan/git/commits/ae82508c56a11d332cc70c10092b07648108bcd8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "MonashUnitPlanner___monPlan.json"
 }

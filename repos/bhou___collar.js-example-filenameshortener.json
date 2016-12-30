@@ -75,22 +75,21 @@
       "package-macos": "node_modules/electron-packager/cli.js . FileNameShortener --platform=darwin --overwrite",
       "package-win": "node node_modules/electron-packager/cli.js . FileNameShortener --platform=win32 --overwrite"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/bhou/collar.js-example-filenameshortener.git"
-    },
+    "repository": "https://github.com/bhou/collar.js-example-filenameshortener",
     "keywords": [
       "collar.js"
     ],
-    "author": "Bo HOU <daily.bhou@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/bhou/collar.js-example-filenameshortener/issues"
-    },
     "homepage": "https://github.com/bhou/collar.js-example-filenameshortener#readme",
     "devDependencies": {
       "electron": "^1.4.5",
       "electron-packager": "^8.2.0"
+    },
+    "other": {
+      "author": "Bo HOU <daily.bhou@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/bhou/collar.js-example-filenameshortener/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -119,5 +118,6 @@
       "url": "https://api.github.com/repos/bhou/collar.js-example-filenameshortener/git/commits/aa79d18de4344c71e29b8ee56a42ecc2369709f2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "bhou___collar.js-example-filenameshortener.json"
 }

@@ -185,8 +185,10 @@
       "build": "npm run pack && node_modules/.bin/electron-builder \"dist/docker-indicator-darwin-x64/docker-indicator.app\" --platform=osx --out=\"dist\" --config=packager.json",
       "start": "electron ."
     },
-    "author": "Kyle Hornberg <kyle.hornberg@gmail.com>",
-    "license": "MIT"
+    "license": "MIT",
+    "other": {
+      "author": "Kyle Hornberg <kyle.hornberg@gmail.com>"
+    }
   },
   "packageStatus": 200,
   "contributors": [

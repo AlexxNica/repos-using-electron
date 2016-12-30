@@ -91,15 +91,8 @@
       "start:electron": "electron .",
       "start": "concurrently \"npm run start:webpack\" \"npm run start:electron\" "
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/wire-team/wire-desktop.git"
-    },
-    "author": "Maliszewski Michal <maliszewski.michal@gmail.com>",
+    "repository": "https://github.com/wire-team/wire-desktop",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/wire-team/wire-desktop/issues"
-    },
     "homepage": "https://github.com/wire-team/wire-desktop#readme",
     "babel": {
       "presets": [
@@ -146,6 +139,12 @@
       "webpack": "^1.13.2",
       "webpack-dev-server": "^1.16.1",
       "webpack-target-electron-renderer": "^0.4.0"
+    },
+    "other": {
+      "author": "Maliszewski Michal <maliszewski.michal@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/wire-team/wire-desktop/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -173,5 +172,6 @@
       "url": "https://api.github.com/repos/wire-team/wire-desktop/git/commits/54bb622d015d7c1426f92cbdeb5fc9bc08d82a51",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "wire-team___wire-desktop.json"
 }

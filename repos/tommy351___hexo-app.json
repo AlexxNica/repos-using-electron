@@ -63,9 +63,6 @@
       "dev": "NODE_ENV=development node webpack/server & NODE_ENV=development electron .",
       "build": "NODE_ENV=production webpack --stats --progress"
     },
-    "directories": {
-      "lib": "./lib"
-    },
     "repository": "tommy351/hexo-app",
     "homepage": "http://hexo.io/",
     "keywords": [
@@ -75,7 +72,6 @@
       "framework",
       "hexo"
     ],
-    "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
     "license": "MIT",
     "dependencies": {
       "electron-debug": "^0.5.0",
@@ -125,6 +121,12 @@
       "webpack": "^1.12.2",
       "webpack-dev-server": "^1.12.1",
       "webpack-target-electron-renderer": "^0.1.1"
+    },
+    "other": {
+      "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
+      "directories": {
+        "lib": "./lib"
+      }
     }
   },
   "packageStatus": 200,
@@ -172,5 +174,6 @@
       "url": "https://api.github.com/repos/tommy351/hexo-app/git/commits/c0d229c6d9e885515967adba819a0f0a0b56aa09",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tommy351___hexo-app.json"
 }

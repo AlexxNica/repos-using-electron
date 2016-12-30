@@ -189,7 +189,6 @@
     "description": "electron desktop app which crawls & downloads an entire website",
     "main": "index.js",
     "keywords": [],
-    "author": "Wouter Verweirder <wouter.verweirder@gmail.com>",
     "license": "MIT",
     "scripts": {
       "start": "electron .",
@@ -206,6 +205,9 @@
       "babel-eslint": "^7.1.0",
       "electron-packager": "^8.2.0",
       "eslint": "^3.9.1"
+    },
+    "other": {
+      "author": "Wouter Verweirder <wouter.verweirder@gmail.com>"
     }
   },
   "packageStatus": 200,

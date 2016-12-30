@@ -56,16 +56,12 @@
     "version": "0.0.1",
     "description": "An image viewer",
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/Fiveside/dim.git"
-    },
+    "repository": "https://github.com/Fiveside/dim",
     "scripts": {
       "start": "gulp",
       "dev": "gulp dev",
       "setup": "npm i && typings i"
     },
-    "author": "Erich Healy",
     "license": "MPL-2.0",
     "devDependencies": {
       "del": "^2.2.1",
@@ -93,6 +89,9 @@
       "react": "^15.3.1",
       "react-dom": "^15.3.1",
       "yauzl": "^2.6.0"
+    },
+    "other": {
+      "author": "Erich Healy"
     }
   },
   "packageStatus": 200,
@@ -120,5 +119,6 @@
       "url": "https://api.github.com/repos/Fiveside/dim/git/commits/505c38d5efd6fb2ea797a437f50d3e112d77310f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Fiveside___dim.json"
 }

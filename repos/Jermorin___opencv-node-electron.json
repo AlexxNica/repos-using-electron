@@ -78,20 +78,13 @@
       "start": "electron dist/main.js",
       "build": "npm run clean && babel --optional runtime src -d dist && cp src/index.html dist"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Jermorin/opencv-node.git"
-    },
+    "repository": "https://github.com/Jermorin/opencv-node",
     "keywords": [
       "opencv",
       "face",
       "detection"
     ],
-    "author": "Jermorin Llaine Jcouraud",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Jermorin/opencv-node/issues"
-    },
     "homepage": "https://github.com/Jermorin/opencv-node#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -115,6 +108,12 @@
       "opencv": "^5.0.0",
       "project-oxford": "^1.1.0",
       "socket.io": "^1.4.5"
+    },
+    "other": {
+      "author": "Jermorin Llaine Jcouraud",
+      "bugs": {
+        "url": "https://github.com/Jermorin/opencv-node/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -142,5 +141,6 @@
       "url": "https://api.github.com/repos/Jermorin/opencv-node-electron/git/commits/37b10f059af9454b4067843f61e55d0f45fa925b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Jermorin___opencv-node-electron.json"
 }

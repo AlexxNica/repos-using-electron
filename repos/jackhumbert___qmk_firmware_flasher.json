@@ -63,21 +63,14 @@
       "pack": "build",
       "dist": "build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jackhumbert/dfu-programmer-app.git"
-    },
+    "repository": "https://github.com/jackhumbert/dfu-programmer-app",
     "keywords": [
       "dfu-programmer",
       "dfu",
       "keyboard",
       "mechanical keyboard"
     ],
-    "author": "Jack Humbert",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/jackhumbert/dfu-programmer-app/issues"
-    },
     "homepage": "https://github.com/jackhumbert/dfu-programmer-app",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -88,6 +81,12 @@
       "app-category-type": "public.app-category.utilities",
       "win": {
         "iconUrl": "https://github.com/skullydazed/dfu-programmer-app/blob/master/build/windows.ico?raw=true"
+      }
+    },
+    "other": {
+      "author": "Jack Humbert",
+      "bugs": {
+        "url": "https://github.com/jackhumbert/dfu-programmer-app/issues"
       }
     }
   },
@@ -137,5 +136,6 @@
       "url": "https://api.github.com/repos/jackhumbert/qmk_firmware_flasher/git/commits/29ac078cd93f33fa659307511279ebe53becde61",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jackhumbert___qmk_firmware_flasher.json"
 }

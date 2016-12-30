@@ -86,15 +86,8 @@
       "watch": "webpack  --progress --profile --colors --display-error-details --display-cached",
       "postinstall": "typings install"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/adortbudak/onekeysvcapp.git"
-    },
-    "author": "ONE-KEY",
+    "repository": "https://github.com/adortbudak/onekeysvcapp",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/adortbudak/onekeysvcapp/issues"
-    },
     "homepage": "https://github.com/adortbudak/onekeysvcapp#readme",
     "devDependencies": {
       "electron-packager": "^7.6.0",
@@ -114,6 +107,12 @@
       "typings": "^1.3.2",
       "webpack": "^1.13.2",
       "yargs": "^5.0.0"
+    },
+    "other": {
+      "author": "ONE-KEY",
+      "bugs": {
+        "url": "https://github.com/adortbudak/onekeysvcapp/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -141,5 +140,6 @@
       "url": "https://api.github.com/repos/adortbudak/onekeysvcapp/git/commits/dc0ef949887e31be783f31606f830c3a43c42592",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "adortbudak___onekeysvcapp.json"
 }

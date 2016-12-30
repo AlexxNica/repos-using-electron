@@ -60,25 +60,24 @@
       "start": "electron main.js",
       "build": "make"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/xasos/overcast-desktop.git"
-    },
+    "repository": "https://github.com/xasos/overcast-desktop",
     "keywords": [
       "Electron",
       "overcast",
       "podcast",
       "player"
     ],
-    "author": "Niraj Pant",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/xasos/overcast-desktop/issues"
-    },
     "homepage": "https://github.com/xasos/overcast-desktop#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
       "electron-packager": "^5.2.0"
+    },
+    "other": {
+      "author": "Niraj Pant",
+      "bugs": {
+        "url": "https://github.com/xasos/overcast-desktop/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/xasos/overcast-desktop/git/commits/d17ccc5cb54d0fb6cafe07cc49ea3cacf4549d3d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "xasos___overcast-desktop.json"
 }

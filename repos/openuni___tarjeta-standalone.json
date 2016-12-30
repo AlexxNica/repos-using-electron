@@ -92,7 +92,6 @@
       "package": "node ./config/tasks/package.js",
       "app": "./node_modules/.bin/electron src/"
     },
-    "author": "John Faucett",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^6.0.0",
@@ -113,6 +112,9 @@
       "ri": "git://github.com/nathanfaucett/ri.git",
       "sqlite3": "^3.1.3",
       "virt-tarjeta-web": "git://github.com/openuni/virt-tarjeta-web.git"
+    },
+    "other": {
+      "author": "John Faucett"
     }
   },
   "packageStatus": 200,
@@ -141,5 +143,6 @@
       "url": "https://api.github.com/repos/openuni/tarjeta-standalone/git/commits/2c09101334491bfd462991261f30565c9c837e9e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "openuni___tarjeta-standalone.json"
 }

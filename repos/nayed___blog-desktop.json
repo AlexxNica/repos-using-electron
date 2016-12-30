@@ -80,15 +80,8 @@
       "start": "electron ./app/App.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Nayed/blog-desktop.git"
-    },
-    "author": "Nayed Saïd Ali",
+    "repository": "https://github.com/Nayed/blog-desktop",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Nayed/blog-desktop/issues"
-    },
     "homepage": "https://github.com/Nayed/blog-desktop#readme",
     "devDependencies": {
       "babel-preset-es2015": "^6.3.13",
@@ -111,7 +104,13 @@
       "vue-resource": "^0.5.1",
       "vinyl-source-stream": "^1.1.0"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "other": {
+      "author": "Nayed Saïd Ali",
+      "bugs": {
+        "url": "https://github.com/Nayed/blog-desktop/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -138,5 +137,6 @@
       "url": "https://api.github.com/repos/nayed/blog-desktop/git/commits/b2769f42dc5edc895cc8e34947b39441435ceba9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "nayed___blog-desktop.json"
 }

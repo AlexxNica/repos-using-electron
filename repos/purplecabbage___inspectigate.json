@@ -81,15 +81,8 @@
       "build-osx": "electron-packager . inspectigate --platform=darwin --ignore=tmp\\",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/purplecabbage/inspectigate.git"
-    },
-    "author": "Jesse MacFadyen",
+    "repository": "https://github.com/purplecabbage/inspectigate",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/purplecabbage/inspectigate/issues"
-    },
     "homepage": "https://github.com/purplecabbage/inspectigate#readme",
     "dependencies": {
       "decompress": "^4.0.0",
@@ -99,6 +92,12 @@
     "devDependencies": {
       "electron-packager": "^8.0.0",
       "electron-prebuilt": "^1.2.0"
+    },
+    "other": {
+      "author": "Jesse MacFadyen",
+      "bugs": {
+        "url": "https://github.com/purplecabbage/inspectigate/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/purplecabbage/inspectigate/git/commits/784c399d89247649553c7fdd3eb601d17207af0c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "purplecabbage___inspectigate.json"
 }

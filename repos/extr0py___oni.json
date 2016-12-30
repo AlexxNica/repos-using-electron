@@ -105,11 +105,7 @@
       "watch:plugin_api": "cd plugin_api && tsc --watch",
       "watch:plugins": "cd vim/vimfiles/bundle/oni-plugin-typescript && tsc --watch"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/extr0py/oni"
-    },
-    "author": "",
+    "repository": "https://github.com/extr0py/oni",
     "license": "MIT",
     "dependencies": {
       "electron": "^1.4.5",
@@ -149,6 +145,9 @@
       "typescript": "^2.0.3",
       "webpack": "^1.13.2",
       "webpack-dev-server": "^1.16.1"
+    },
+    "other": {
+      "author": ""
     }
   },
   "packageStatus": 200,
@@ -176,5 +175,6 @@
       "url": "https://api.github.com/repos/extr0py/oni/git/commits/e313ed5ed3c6298a1d45fe303834fc64ae70e3cd",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "extr0py___oni.json"
 }

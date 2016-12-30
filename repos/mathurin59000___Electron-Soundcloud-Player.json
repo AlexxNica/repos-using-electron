@@ -75,7 +75,6 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "author": "mathurin59000",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -92,6 +91,9 @@
       "react-sound": "^0.4.0",
       "reactify": "*",
       "soundmanager2": "^2.97.20150601-a"
+    },
+    "other": {
+      "author": "mathurin59000"
     }
   },
   "packageStatus": 200,
@@ -117,5 +119,6 @@
       "url": "https://api.github.com/repos/mathurin59000/Electron-Soundcloud-Player/git/commits/435a75d09b6b8bea5bc214e7e39141edcecefd77",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mathurin59000___Electron-Soundcloud-Player.json"
 }

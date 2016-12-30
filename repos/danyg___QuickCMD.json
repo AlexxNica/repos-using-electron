@@ -78,11 +78,6 @@
     "description": "My breathtaking app",
     "license": "MIT",
     "repository": "danyg/quickcmd",
-    "author": {
-      "name": "",
-      "email": "",
-      "url": "github.com/danyg"
-    },
     "scripts": {
       "test": "xo && node spec/runJasmine.js",
       "testDebug": "node-debug --debug-brk node_modules/jasmine/bin/jasmine.js",
@@ -120,6 +115,13 @@
         "node",
         "browser"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "",
+        "email": "",
+        "url": "github.com/danyg"
+      }
     }
   },
   "packageStatus": 200,
@@ -147,5 +149,6 @@
       "url": "https://api.github.com/repos/danyg/QuickCMD/git/commits/ffe3dd4b01ee3546fe8757c8acf6ca932ae81281",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "danyg___QuickCMD.json"
 }

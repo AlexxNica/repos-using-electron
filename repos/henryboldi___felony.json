@@ -55,11 +55,6 @@
     "name": "felony",
     "productName": "Felony",
     "version": "0.10.3",
-    "author": {
-      "name": "Henry Boldizsar",
-      "email": "henrymb67@gmail.com",
-      "url": "https://github.com/henryboldi"
-    },
     "description": "Felony makes sending encrypted messages anywhere easy.",
     "main": "main.js",
     "scripts": {
@@ -81,14 +76,8 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/henryboldi/felony.git"
-    },
+    "repository": "https://github.com/henryboldi/felony",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/henryboldi/felony/issues"
-    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -189,6 +178,16 @@
     "devEngines": {
       "node": "4.x || 5.x || 6.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Henry Boldizsar",
+        "email": "henrymb67@gmail.com",
+        "url": "https://github.com/henryboldi"
+      },
+      "bugs": {
+        "url": "https://github.com/henryboldi/felony/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -250,5 +249,6 @@
       "url": "https://api.github.com/repos/henryboldi/felony/git/commits/eec9122616decab8e455dfc31d691893713069df",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "henryboldi___felony.json"
 }

@@ -68,20 +68,10 @@
   "packageJSON": {
     "name": "storage-mixin",
     "description": "Ampersand model mixin to persist data via various storage backends",
-    "bugs": {
-      "url": "https://github.com/mongodb-js/storage-mixin/issues"
-    },
     "main": "index.js",
-    "directories": {
-      "test": "test"
-    },
     "homepage": "https://github.com/mongodb-js/storage-mixin",
     "version": "0.8.0",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mongodb-js/storage-mixin.git"
-    },
-    "author": "Thomas Rueckstiess <thomas@mongodb.com>",
+    "repository": "https://github.com/mongodb-js/storage-mixin",
     "contributors": [
       "Thomas Rueckstiess <thomas@mongodb.com>",
       "Lucas Hrabovsky <lucas@mongodb.com>"
@@ -129,6 +119,15 @@
     },
     "peerDepdendencies": {
       "keytar": "^3.0.0"
+    },
+    "other": {
+      "author": "Thomas Rueckstiess <thomas@mongodb.com>",
+      "bugs": {
+        "url": "https://github.com/mongodb-js/storage-mixin/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -157,5 +156,6 @@
       "url": "https://api.github.com/repos/mongodb-js/storage-mixin/git/commits/4cde2d02747a2c2612ea2793a701545d0264cba6",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mongodb-js___storage-mixin.json"
 }

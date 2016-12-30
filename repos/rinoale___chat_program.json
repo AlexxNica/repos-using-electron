@@ -75,12 +75,14 @@
       "build": "electron-packager . chat_program --platform win32 --arch x64 --out dist/",
       "setup": "node installer.js"
     },
-    "author": "rinoale",
     "license": "ISC",
     "dependencies": {
       "electron-installer-windows": "^0.2.0",
       "electron-packager": "^7.3.0",
       "electron-prebuilt": "^1.2.5"
+    },
+    "other": {
+      "author": "rinoale"
     }
   },
   "packageStatus": 200,
@@ -108,5 +110,6 @@
       "url": "https://api.github.com/repos/rinoale/chat_program/git/commits/c66157c1cfe536d9c3c93a8dbcf197efbc21b876",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rinoale___chat_program.json"
 }

@@ -79,22 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:dmackerman/ynab-electron.git"
-    },
+    "repository": "https://github.com/dmackerman/ynab-electron",
     "keywords": [
       "Electron",
       "YNAB"
     ],
-    "author": "Dave Ackerman",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/atom/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
+    },
+    "other": {
+      "author": "Dave Ackerman",
+      "bugs": {
+        "url": "https://github.com/atom/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -120,5 +119,6 @@
       "url": "https://api.github.com/repos/dmackerman/ynab-electron/git/commits/4448f907d03e0b1266ec4e5b4d091ed5f592b353",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dmackerman___ynab-electron.json"
 }

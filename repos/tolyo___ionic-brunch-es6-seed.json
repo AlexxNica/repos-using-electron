@@ -53,15 +53,11 @@
   "status": 200,
   "packageJSON": {
     "name": "ionic-brunch-es6-seed",
-    "author": "Your Name",
     "version": "1.0.1",
     "license": "MIT",
     "homepage": "https://github.com/tolyo/ionic-brunch-es6-seed",
     "description": "An Ionic starter project with Babel and Brunch",
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:tolyo/ionic-brunch-es6-seed.git"
-    },
+    "repository": "https://github.com/tolyo/ionic-brunch-es6-seed",
     "scripts": {
       "mobile": "brunch watch --server",
       "desktop": "electron ./www & brunch watch",
@@ -124,7 +120,10 @@
       "phonegap",
       "electron",
       "desktop"
-    ]
+    ],
+    "other": {
+      "author": "Your Name"
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/tolyo/ionic-brunch-es6-seed",
@@ -171,5 +170,6 @@
       "url": "https://api.github.com/repos/tolyo/ionic-brunch-es6-seed/git/commits/e2a09e747acef17f510d15c39ed3062514d17650",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tolyo___ionic-brunch-es6-seed.json"
 }

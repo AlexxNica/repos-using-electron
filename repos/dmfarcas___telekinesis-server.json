@@ -57,11 +57,7 @@
     "version": "0.0.1",
     "description": "Desktop companion Server",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/dmfarcas/telekinesis-server.git"
-    },
-    "author": "dmfarcas <dan@farcas.me> (farcas.me)",
+    "repository": "https://github.com/dmfarcas/telekinesis-server",
     "electronVersion": "0.36.0",
     "scripts": {
       "test": "xo",
@@ -102,11 +98,14 @@
         "browser"
       ]
     },
-    "bugs": {
-      "url": "https://github.com/dmfarcas/telekinesis-server/issues"
-    },
     "homepage": "https://github.com/dmfarcas/telekinesis-server#readme",
-    "main": "index.js"
+    "main": "index.js",
+    "other": {
+      "author": "dmfarcas <dan@farcas.me> (farcas.me)",
+      "bugs": {
+        "url": "https://github.com/dmfarcas/telekinesis-server/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/dmfarcas/telekinesis-server",
@@ -153,5 +152,6 @@
       "url": "https://api.github.com/repos/dmfarcas/telekinesis-server/git/commits/58238dc5825d0f3757b8c81a6cc07e451bba5b85",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dmfarcas___telekinesis-server.json"
 }

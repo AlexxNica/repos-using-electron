@@ -131,20 +131,13 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Zhangdroid/Gokotta.git"
-    },
+    "repository": "https://github.com/Zhangdroid/Gokotta",
     "keywords": [
       "vue",
       "electron",
       "player"
     ],
-    "author": "Zhangdroid <contrary.zhuo@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Zhangdroid/Gokotta/issues"
-    },
     "homepage": "https://github.com/Zhangdroid/Gokotta#readme",
     "devDependencies": {
       "asar": "^0.10.0",
@@ -187,6 +180,12 @@
       "vue-animated-list": "^1.0.2",
       "vue-async-data": "^1.0.2",
       "vuex": "^0.3.0"
+    },
+    "other": {
+      "author": "Zhangdroid <contrary.zhuo@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/Zhangdroid/Gokotta/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -216,5 +215,6 @@
       "url": "https://api.github.com/repos/Zhangdroid/Gokotta/git/commits/6e2b6c9ee359c7852662d4778352921d03070637",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Zhangdroid___Gokotta.json"
 }

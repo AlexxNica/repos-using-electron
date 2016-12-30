@@ -57,14 +57,7 @@
     "description": "A terminal emulator for the 21st century.",
     "version": "0.2.76",
     "main": "compiled/src/main/Main.js",
-    "author": "Volodymyr Shatskyi <shockone89@gmail.com>",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/shockone/black-screen.git"
-    },
-    "bugs": {
-      "url": "https://github.com/shockone/black-screen/issues"
-    },
+    "repository": "https://github.com/shockone/black-screen",
     "engineStrict": true,
     "engines": {
       "node": ">= 6.0.0"
@@ -130,12 +123,18 @@
       "tsc": "tsc"
     },
     "license": "MIT",
-    "directories": {
-      "app": "."
-    },
     "build": {
       "appId": "com.github.shockone.black-screen",
       "category": "public.app-category.developer-tools"
+    },
+    "other": {
+      "author": "Volodymyr Shatskyi <shockone89@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/shockone/black-screen/issues"
+      },
+      "directories": {
+        "app": "."
+      }
     }
   },
   "packageStatus": 200,
@@ -217,5 +216,6 @@
       "url": "https://api.github.com/repos/vshatskyi/black-screen/git/commits/7529bbacd990865ee58ef155e10a7ff90441a08e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "shockone___black-screen.json"
 }

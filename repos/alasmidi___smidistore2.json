@@ -75,11 +75,6 @@
     "name": "webtorrent",
     "description": "Streaming torrent client",
     "version": "0.96.5",
-    "author": {
-      "name": "WebTorrent, LLC",
-      "email": "feross@webtorrent.io",
-      "url": "https://webtorrent.io"
-    },
     "browser": {
       "./lib/server.js": false,
       "./lib/tcp-pool.js": false,
@@ -200,6 +195,13 @@
       "test-browser-local": "zuul --local -- test/*.js test/browser/*.js",
       "test-node": "tape test/*.js test/node/*.js",
       "update-authors": "./bin/update-authors.sh"
+    },
+    "other": {
+      "author": {
+        "name": "WebTorrent, LLC",
+        "email": "feross@webtorrent.io",
+        "url": "https://webtorrent.io"
+      }
     }
   },
   "packageStatus": 200,

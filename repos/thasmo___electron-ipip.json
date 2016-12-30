@@ -79,11 +79,6 @@
     "keywords": [],
     "license": "MIT",
     "repository": "thasmo/electron-ipip",
-    "author": {
-      "name": "Thomas Deinhamer",
-      "email": "thasmo@gmail.com",
-      "url": "https://thasmo.com/"
-    },
     "dependencies": {
       "public-ip": "2.0.1"
     },
@@ -94,6 +89,13 @@
     "scripts": {
       "start": "./node_modules/.bin/electron .",
       "build:windows": "./node_modules/.bin/electron-packager . --platform=win32 --arch=x64 --icon=static/app.ico --out=dist --overwrite"
+    },
+    "other": {
+      "author": {
+        "name": "Thomas Deinhamer",
+        "email": "thasmo@gmail.com",
+        "url": "https://thasmo.com/"
+      }
     }
   },
   "packageStatus": 200,
@@ -121,5 +123,6 @@
       "url": "https://api.github.com/repos/thasmo/electron-ipip/git/commits/b2397c77772ff9d70a3ce69d08abaa74827641ed",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "thasmo___electron-ipip.json"
 }

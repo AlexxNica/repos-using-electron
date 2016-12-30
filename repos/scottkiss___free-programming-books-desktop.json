@@ -82,27 +82,26 @@
       "build:osx": "./scripts/build.sh darwin x64",
       "build:win": "./scripts/build.sh win32 ia32"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/scottkiss/free-programming-books-desktop.git"
-    },
+    "repository": "https://github.com/scottkiss/free-programming-books-desktop",
     "keywords": [
       "Electron",
       "books",
       "free",
       "programming"
     ],
-    "author": "scottkiss",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/scottkiss/free-programming-books-desktop/issues"
-    },
     "homepage": "https://github.com/scottkiss/free-programming-books-desktop#readme",
     "dependencies": {
       "electron-prebuilt": "^0.36.9",
       "electron-packager": "^5.2.1",
       "nodegrass": "0.0.3",
       "cheerio": "0.20.0"
+    },
+    "other": {
+      "author": "scottkiss",
+      "bugs": {
+        "url": "https://github.com/scottkiss/free-programming-books-desktop/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/scottkiss/free-programming-books-desktop/git/commits/755a80369949ac183d1370441a1b3635b87fce19",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "scottkiss___free-programming-books-desktop.json"
 }

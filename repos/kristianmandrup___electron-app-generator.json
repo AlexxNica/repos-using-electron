@@ -87,7 +87,6 @@
       "vuex:module": "node tasks/vuex/module.js",
       "postinstall": "npm run lint:fix && cd app && npm install"
     },
-    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -148,6 +147,9 @@
       "vue": "^2.0.5",
       "vue-material": "kristianmandrup/vue-material#master",
       "vue-rx": "^2.1.1"
+    },
+    "other": {
+      "author": "Greg Holguin <simulatedgreg@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -175,5 +177,6 @@
       "url": "https://api.github.com/repos/kristianmandrup/electron-app-generator/git/commits/251fefc22fd217fc7f01b680e41dfd4352b9dfa3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kristianmandrup___electron-app-generator.json"
 }

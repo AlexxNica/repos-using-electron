@@ -80,26 +80,25 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron app.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/donburks/electerrain.git"
-    },
+    "repository": "https://github.com/donburks/electerrain",
     "keywords": [
       "node",
       "electron",
       "terrain",
       "fantasy"
     ],
-    "author": "Don Burks <don@donburks.com>",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/donburks/electerrain/issues"
-    },
     "homepage": "https://github.com/donburks/electerrain#readme",
     "productName": "CG",
     "dependencies": {
       "electron": "^1.3.3",
       "save-svg-as-png": "^1.0.3"
+    },
+    "other": {
+      "author": "Don Burks <don@donburks.com>",
+      "bugs": {
+        "url": "https://github.com/donburks/electerrain/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/donburks/cg/git/commits/0aeeb52b2c668cc91d908a7c87d8a9c4f97526f8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "donburks___cg.json"
 }

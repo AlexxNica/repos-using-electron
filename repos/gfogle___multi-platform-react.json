@@ -65,10 +65,7 @@
       "build:ios": "react-native bundle --entry-file index.ios.js --bundle-output ios/main.jsbundle --platform ios --dev false",
       "build:android": "node_modules/react-native bundle --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --platform android --dev false"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/gfogle/multi-platform-react.git"
-    },
+    "repository": "https://github.com/gfogle/multi-platform-react",
     "keywords": [
       "react",
       "react",
@@ -76,11 +73,7 @@
       "electron",
       "webpack"
     ],
-    "author": "George Fogle",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/gfogle/multi-platform-react/issues"
-    },
     "homepage": "https://github.com/gfogle/multi-platform-react#readme",
     "dependencies": {
       "react": "^0.14.7",
@@ -96,6 +89,12 @@
       "eslint-plugin-react": "^3.16.1",
       "webpack": "^1.12.12",
       "webpack-dev-server": "^1.14.1"
+    },
+    "other": {
+      "author": "George Fogle",
+      "bugs": {
+        "url": "https://github.com/gfogle/multi-platform-react/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -123,5 +122,6 @@
       "url": "https://api.github.com/repos/gfogle/multi-platform-react/git/commits/3296a6ff0a90a809ed9873d503fe3bf5ec260842",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "gfogle___multi-platform-react.json"
 }

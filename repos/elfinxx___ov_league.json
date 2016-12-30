@@ -75,7 +75,6 @@
     "name": "K-Overwatch",
     "version": "0.7.0",
     "description": "Angular 2 and Bootstrap 4 Admin Template.",
-    "author": "akveo",
     "homepage": "http://akveo.github.io/ng2-admin/",
     "license": "MIT",
     "dependencies": {
@@ -226,16 +225,16 @@
       "build:electron.main": "npm run webpack -- --config config/electron/webpack.electron.prod.js",
       "electron:start": "electron build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git@github.daumkakao.com:bart-lee/ov_league.git"
-    },
-    "bugs": {
-      "url": "https://github.daumkakao.com/bart-lee/ov_league/issues"
-    },
+    "repository": "https://github.com/bart-lee/ov_league",
     "engines": {
       "node": ">= 4.2.1",
       "npm": ">= 3"
+    },
+    "other": {
+      "author": "akveo",
+      "bugs": {
+        "url": "https://github.daumkakao.com/bart-lee/ov_league/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -263,5 +262,6 @@
       "url": "https://api.github.com/repos/elfinxx/ov_league/git/commits/c8dbad51b32b541dbf131007065c519f53230962",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "elfinxx___ov_league.json"
 }

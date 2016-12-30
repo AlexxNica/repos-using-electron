@@ -77,15 +77,8 @@
       "start": "node ./bin/mservice.js | ./node_modules/.bin/bunyan -o short",
       "semantic-release": "semantic-release pre && npm publish && semantic-release post"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/makeomatic/ms-payments.git"
-    },
-    "author": "Dmitry Gorbunov <me@tewi.tk>",
+    "repository": "https://github.com/makeomatic/ms-payments",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/makeomatic/ms-payments/issues"
-    },
     "homepage": "https://github.com/makeomatic/ms-payments#readme",
     "dependencies": {
       "bluebird": "^3.4.6",
@@ -145,6 +138,12 @@
       "commitizen": {
         "path": "./node_modules/cz-conventional-changelog"
       }
+    },
+    "other": {
+      "author": "Dmitry Gorbunov <me@tewi.tk>",
+      "bugs": {
+        "url": "https://github.com/makeomatic/ms-payments/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -193,5 +192,6 @@
       "url": "https://api.github.com/repos/makeomatic/ms-payments/git/commits/53e3ca81b66464604069b5970177b3c123bfddd0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "makeomatic___ms-payments.json"
 }

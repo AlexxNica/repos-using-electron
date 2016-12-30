@@ -82,22 +82,15 @@
       "snyk-protect": "snyk protect",
       "prepublish": "npm run snyk-protect"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/MichMich/MagicMirror.git"
-    },
+    "repository": "https://github.com/MichMich/MagicMirror",
     "keywords": [
       "magic mirror",
       "smart mirror",
       "mirror UI",
       "modular"
     ],
-    "author": "Michael Teeuw",
     "contributors": "https://github.com/MichMich/MagicMirror/graphs/contributors",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/MichMich/MagicMirror/issues"
-    },
     "homepage": "https://github.com/MichMich/MagicMirror#readme",
     "devDependencies": {
       "grunt": "latest",
@@ -122,7 +115,13 @@
       "walk": "latest",
       "snyk": "^1.14.1"
     },
-    "snyk": true
+    "snyk": true,
+    "other": {
+      "author": "Michael Teeuw",
+      "bugs": {
+        "url": "https://github.com/MichMich/MagicMirror/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [],
@@ -147,5 +146,6 @@
       "url": "https://api.github.com/repos/Deamon12/Smart_mirror_ui/git/commits/0e395f0fce11f4158061fd072ca337b585021c02",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Deamon12___Smart_mirror_ui.json"
 }

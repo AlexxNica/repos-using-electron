@@ -60,7 +60,6 @@
       "start": "./node_modules/electron-prebuilt/cli.js .",
       "build": "./node_modules/electron-packager/cli.js . google-translate-menubar --platform=darwin --arch=x64 --version=0.28.3 --icon=./icons/icon.icns --overwrite --asar"
     },
-    "author": "Wang Zuo",
     "license": "ISC",
     "dependencies": {
       "menubar": "^2.0.14"
@@ -69,19 +68,19 @@
       "electron-packager": "^5.0.0",
       "electron-prebuilt": "^0.28.3"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/wangzuo/google-translate-menubar.git"
-    },
+    "repository": "https://github.com/wangzuo/google-translate-menubar",
     "keywords": [
       "google",
       "translate",
       "menubar"
     ],
-    "bugs": {
-      "url": "https://github.com/wangzuo/google-translate-menubar/issues"
-    },
-    "homepage": "https://github.com/wangzuo/google-translate-menubar#readme"
+    "homepage": "https://github.com/wangzuo/google-translate-menubar#readme",
+    "other": {
+      "author": "Wang Zuo",
+      "bugs": {
+        "url": "https://github.com/wangzuo/google-translate-menubar/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -108,5 +107,6 @@
       "url": "https://api.github.com/repos/wangzuo/google-translate-menubar/git/commits/25e675cdc33409b32c0a21c598526d1ea0ee172b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "wangzuo___google-translate-menubar.json"
 }

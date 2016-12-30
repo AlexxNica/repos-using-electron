@@ -54,11 +54,6 @@
   "packageJSON": {
     "name": "Sourcegraph-One",
     "productName": "Sourcegraph One",
-    "author": {
-      "name": "Sourcegraph One",
-      "email": "support@sourcegraph.com",
-      "url": "https://github.com/sourcegraph"
-    },
     "version": "0.0.1",
     "description": "With Sourcegraph One, you get real usage examples from GitHub, desktop code search, and immediate access to source code as you type. It’s like pair programming with the smartest developer in the world.",
     "main": "main.js",
@@ -81,14 +76,8 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/KattMingMing/sourcegraph-one.git"
-    },
+    "repository": "https://github.com/KattMingMing/sourcegraph-one",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/sourcegraph/sourcegraph"
-    },
     "keywords": [
       "sourcegraph"
     ],
@@ -175,6 +164,16 @@
     "devEngines": {
       "node": "4.x || 5.x || 6.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Sourcegraph One",
+        "email": "support@sourcegraph.com",
+        "url": "https://github.com/sourcegraph"
+      },
+      "bugs": {
+        "url": "https://github.com/sourcegraph/sourcegraph"
+      }
     }
   },
   "packageStatus": 200,
@@ -225,5 +224,6 @@
       "url": "https://api.github.com/repos/attfarhan/desktop-test/git/commits/900cd313b9abfe23de574bea372ead8e6b591f58",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "attfarhan___desktop-test.json"
 }

@@ -80,10 +80,6 @@
       "ember-export-application-global": "^1.0.2",
       "foreman": "^1.3.0"
     },
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "main": "main.js",
     "private": true,
     "repository": "https://github.com/usecanvas/ember-electron.git",
@@ -92,6 +88,12 @@
       "dev": "nf start",
       "start": "ember server",
       "test": "ember test"
+    },
+    "other": {
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -140,5 +142,6 @@
       "url": "https://api.github.com/repos/usecanvas/ember-electron/git/commits/144ad939de83d28c04e2aad67947e7c1d022990b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "usecanvas___ember-electron.json"
 }

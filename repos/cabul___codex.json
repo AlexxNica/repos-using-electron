@@ -80,24 +80,23 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/cabul/codex.git"
-    },
+    "repository": "https://github.com/cabul/codex",
     "keywords": [
       "codex",
       "rpg",
       "game"
     ],
-    "author": "Calvin Bulla <calvin.bulla@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/cabul/codex/issues"
-    },
     "homepage": "https://github.com/cabul/codex#readme",
     "devDependencies": {
       "electron-packager": "^4.1.2",
       "electron-prebuilt": "^0.27.3"
+    },
+    "other": {
+      "author": "Calvin Bulla <calvin.bulla@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/cabul/codex/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -125,5 +124,6 @@
       "url": "https://api.github.com/repos/cabul/codex/git/commits/e7953f24ccbed61e09647b852dd8f5b65f0f3f83",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cabul___codex.json"
 }

@@ -175,22 +175,12 @@
       "electron-builder": "next",
       "electron-prebuilt": "^1.2.2"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/jzvelc/angular2-electron.git"
-    },
-    "bugs": {
-      "url": "https://github.com/jzvelc/angular2-electron/issues"
-    },
+    "repository": "https://github.com/jzvelc/angular2-electron",
     "engines": {
       "node": ">= 4.2.1",
       "npm": ">= 3"
     },
     "productName": "Angular2 Electron",
-    "author": {
-      "name": "DLabs",
-      "email": "info@dlabs.si"
-    },
     "build": {
       "appId": "org.jzvelc.angular2electron",
       "app-category-type": "public.app-category.utilities",
@@ -230,6 +220,15 @@
           "tar.gz"
         ]
       }
+    },
+    "other": {
+      "author": {
+        "name": "DLabs",
+        "email": "info@dlabs.si"
+      },
+      "bugs": {
+        "url": "https://github.com/jzvelc/angular2-electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -257,5 +256,6 @@
       "url": "https://api.github.com/repos/jzvelc/angular2-electron/git/commits/754e5d9654ead927086ca50703f8f548ffcb599c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jzvelc___angular2-electron.json"
 }

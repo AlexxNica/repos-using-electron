@@ -81,15 +81,8 @@
       "start": "([ ! -e /app/dist/app-bundle.js ] && grunt browserify:app) && (npm run dev & grunt watch)",
       "test": "grunt"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/HoodieCollin/MC-commander.git"
-    },
-    "author": "Collin Kokotas",
+    "repository": "https://github.com/HoodieCollin/MC-commander",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/HoodieCollin/MC-commander/issues"
-    },
     "homepage": "https://github.com/HoodieCollin/MC-commander",
     "devDependencies": {
       "electron": "^0.4.1",
@@ -107,6 +100,12 @@
     "dependencies": {
       "body-parser": "^1.13.3",
       "express": "^4.13.3"
+    },
+    "other": {
+      "author": "Collin Kokotas",
+      "bugs": {
+        "url": "https://github.com/HoodieCollin/MC-commander/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -134,5 +133,6 @@
       "url": "https://api.github.com/repos/HoodieCollin/MC-commander/git/commits/1fc84a05c51829ff1faf7d5c387202229f179d6d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "HoodieCollin___MC-commander.json"
 }

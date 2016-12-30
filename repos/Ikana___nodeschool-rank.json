@@ -75,7 +75,6 @@
       "start": "electron index.js",
       "pack": "rm -rf nodeschool-rank-darwin-x64 && electron-packager ./ --platform=darwin --arch=x64 --overwrite --prune --ignore=nodeschool-rank-darwin-x64"
     },
-    "author": "roderik <roderik.ikana@gmail.com> (roderik.io)",
     "license": "MIT",
     "dependencies": {
       "body-parser": "^1.15.2",
@@ -87,9 +86,9 @@
     "devDependencies": {
       "electron-packager": "^7.3.0"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/Ikana/nodeschool-rank.git"
+    "repository": "https://github.com/Ikana/nodeschool-rank",
+    "other": {
+      "author": "roderik <roderik.ikana@gmail.com> (roderik.io)"
     }
   },
   "packageStatus": 200,
@@ -117,5 +116,6 @@
       "url": "https://api.github.com/repos/Ikana/nodeschool-rank/git/commits/727355057db2848e7bbad9971a9787e4191c4011",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Ikana___nodeschool-rank.json"
 }

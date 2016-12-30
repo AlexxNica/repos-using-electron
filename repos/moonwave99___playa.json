@@ -57,19 +57,8 @@
     "version": "0.2.3",
     "description": "The Audio Player that thinks in albums.",
     "main": "./src/browser/main.js",
-    "author": {
-      "name": "Diego Caponera",
-      "email": "diego.caponera@gmail.com",
-      "url": "http://www.diegocaponera.com"
-    },
     "engine": "node 4.2.0",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/moonwave99/playa.git"
-    },
-    "bugs": {
-      "url": "https://github.com/moonwave99/playa/issues"
-    },
+    "repository": "https://github.com/moonwave99/playa",
     "licenses": [
       {
         "type": "MIT",
@@ -164,7 +153,17 @@
       "postinstall": "make postinstall",
       "localInstall": "cp -r ./release/Playa-darwin-x64/Playa.app/ /Applications/Playa.app/"
     },
-    "private": true
+    "private": true,
+    "other": {
+      "author": {
+        "name": "Diego Caponera",
+        "email": "diego.caponera@gmail.com",
+        "url": "http://www.diegocaponera.com"
+      },
+      "bugs": {
+        "url": "https://github.com/moonwave99/playa/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -191,5 +190,6 @@
       "url": "https://api.github.com/repos/moonwave99/playa/git/commits/02fe7208f74708eec77635b835124d2e84ab51ac",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "moonwave99___playa.json"
 }

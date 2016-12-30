@@ -59,10 +59,7 @@
       "start": "electron dist",
       "test": "nyc --reporter=lcov -n=src/**/*.{js,jsx} babel-node tests"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Dilatorily/agate.git"
-    },
+    "repository": "https://github.com/Dilatorily/agate",
     "keywords": [
       "es2015",
       "babel",
@@ -70,11 +67,7 @@
       "webpack",
       "music"
     ],
-    "author": "Dilatorily",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Dilatorily/agate/issues"
-    },
     "homepage": "https://github.com/Dilatorily/agate#readme",
     "dependencies": {
       "electron-prebuilt": "^1.4.2"
@@ -96,6 +89,12 @@
       "nyc": "^8.3.0",
       "rimraf": "^2.5.3",
       "webpack": "^1.13.2"
+    },
+    "other": {
+      "author": "Dilatorily",
+      "bugs": {
+        "url": "https://github.com/Dilatorily/agate/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -124,5 +123,6 @@
       "url": "https://api.github.com/repos/Dilatorily/agate/git/commits/1cac689e703e7e8e53d148bbda6b14f9edfc30d5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Dilatorily___agate.json"
 }

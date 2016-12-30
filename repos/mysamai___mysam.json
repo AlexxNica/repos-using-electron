@@ -87,11 +87,7 @@
       "release:minor": "npm version minor && npm publish",
       "release:major": "npm version major && npm publish"
     },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:daffl/mysam.git"
-    },
-    "author": "David Luecke <daff@neyeon.com>",
+    "repository": "https://github.com/daffl/mysam",
     "license": "MIT",
     "dependencies": {
       "body-parser": "^1.13.0",
@@ -114,6 +110,9 @@
       "mocha": "^2.3.0",
       "mysam-weather": "0.0.2",
       "supervisor": "^0.6.0"
+    },
+    "other": {
+      "author": "David Luecke <daff@neyeon.com>"
     }
   },
   "packageStatus": 200,
@@ -163,5 +162,6 @@
       "url": "https://api.github.com/repos/mysamai/mysam/git/commits/9177daed98bde78a7dd2e0bdb75f59e4ba77ebcf",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mysamai___mysam.json"
 }

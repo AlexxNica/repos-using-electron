@@ -75,11 +75,7 @@
       "test": "mocha --compilers js:babel-core/register ./test/e2e/app.spec.js",
       "fetch-rdt": "./scripts/fetch-react-devtools.sh"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jhen0409/react-native-debugger.git"
-    },
-    "author": "Jhen <developer@jhen.me>",
+    "repository": "https://github.com/jhen0409/react-native-debugger",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.9.0",
@@ -123,6 +119,9 @@
       "remotedev-slider": "^1.1.1",
       "remotedev-utils": "0.0.5",
       "ws": "^1.1.1"
+    },
+    "other": {
+      "author": "Jhen <developer@jhen.me>"
     }
   },
   "packageStatus": 200,
@@ -151,5 +150,6 @@
       "url": "https://api.github.com/repos/jhen0409/react-native-debugger/git/commits/cf457c16eb882fb859f37b220e1bce99a6475640",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jhen0409___react-native-debugger.json"
 }

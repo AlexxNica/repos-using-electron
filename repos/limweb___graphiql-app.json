@@ -200,7 +200,6 @@
       "package-all": "node package.js --name=GraphiQL --all",
       "release": "node node_modules/electron-release/cli --app release/darwin-x64/GraphiQL-darwin-x64/GraphiQL.app --token `echo ${GITHUB_TOKEN}`"
     },
-    "author": "Adam Miskiewicz <adam.skevy@mac.com> (http://github.com/skevy)",
     "license": "MIT",
     "homepage": "https://github.com/skevy/graphiql-app",
     "repository": "https://github.com/skevy/graphiql-app",
@@ -243,7 +242,9 @@
       "webpack-dev-server": "^1.12.0",
       "webpack-target-electron-renderer": "^0.1.0"
     },
-    "other": {}
+    "other": {
+      "author": "Adam Miskiewicz <adam.skevy@mac.com> (http://github.com/skevy)"
+    }
   },
   "packageStatus": 200,
   "contributors": [

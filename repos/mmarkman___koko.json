@@ -187,7 +187,6 @@
     "name": "koko",
     "version": "0.3.0",
     "description": "Yet another IRC client for me and you",
-    "author": "Jun <me@noraesae.net>",
     "contributors": [
       {
         "name": "Hyunje Alex Jun",
@@ -233,6 +232,9 @@
     "scripts": {
       "test": "make",
       "start": "electron ."
+    },
+    "other": {
+      "author": "Jun <me@noraesae.net>"
     }
   },
   "packageStatus": 200,

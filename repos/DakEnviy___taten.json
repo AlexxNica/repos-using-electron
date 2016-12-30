@@ -76,7 +76,6 @@
     "version": "1.0.0",
     "description": "A minimal Electron template with coffeescript and sass support",
     "main": "app/main.js",
-    "author": "DakEnviy",
     "license": "CC0-1.0",
     "scripts": {
       "start": "gulp; electron ./app/main.js",
@@ -95,6 +94,9 @@
       "gulp.spritesmith": "^6.2.1",
       "node-bourbon": "^4.2.8",
       "peer": "^0.2.8"
+    },
+    "other": {
+      "author": "DakEnviy"
     }
   },
   "packageStatus": 200,

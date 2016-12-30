@@ -76,7 +76,6 @@
       "build:your": "electron-packager ./ --overwrite",
       "build:all": "electron-packager ./ LirIDE --platform=all --arch=all"
     },
-    "author": "LucaT",
     "devDependencies": {
       "electron-prebuilt": "*",
       "electron-packager": "*"
@@ -84,6 +83,9 @@
     "dependencies": {
       "request": "*",
       "progressbar.js": "*"
+    },
+    "other": {
+      "author": "LucaT"
     }
   },
   "packageStatus": 200,
@@ -112,5 +114,6 @@
       "url": "https://api.github.com/repos/liride/Liride/git/commits/81787fe73161f34d3b06d041978e71fc6ba042bd",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "liride___Liride.json"
 }

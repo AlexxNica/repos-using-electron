@@ -94,12 +94,8 @@
       "package": "node tasks/package.js",
       "test": "electron-mocha --compilers js:babel-core/register --reporter spec ./spec/*.spec.js --require ./spec/helpers/setup.js --colors"
     },
-    "author": "David Neal <david@reverentgeek.com> (http://reverentgeek.com)",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/LeanKit-Labs/electron-starter-kit.git"
-    },
+    "repository": "https://github.com/LeanKit-Labs/electron-starter-kit",
     "dependencies": {
       "babel-preset-node6": "^11.0.0",
       "babel-preset-react": "^6.16.0",
@@ -131,6 +127,9 @@
       "sinon": "^1.17.3",
       "sinon-as-promised": "^4.0.0",
       "sinon-chai": "^2.8.0"
+    },
+    "other": {
+      "author": "David Neal <david@reverentgeek.com> (http://reverentgeek.com)"
     }
   },
   "packageStatus": 200,
@@ -159,5 +158,6 @@
       "url": "https://api.github.com/repos/LeanKit-Labs/electron-starter-kit/git/commits/cf3a5fae2d0539d801385f123badc32d88f0fe5d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "LeanKit-Labs___electron-starter-kit.json"
 }

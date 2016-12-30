@@ -117,7 +117,6 @@
       "dev": "NODE_ENV=development supervisor --harmony --ignore build/ -e js server & NODE_ENV=development node hotLoadServer.js",
       "start": "NODE_ENV=production node server"
     },
-    "author": "Conner Frey",
     "license": "ISC",
     "devDependencies": {
       "babel-loader": "^6.2.4",
@@ -136,6 +135,9 @@
       "sass-loader": "^3.2.0",
       "style-loader": "^0.13.1",
       "webpack-dev-server": "^1.14.1"
+    },
+    "other": {
+      "author": "Conner Frey"
     }
   },
   "packageStatus": 200,
@@ -164,5 +166,6 @@
       "url": "https://api.github.com/repos/Quizzly/quizzly-client/git/commits/f82e564d977b256b0a8128b15a600a191a96d39a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Quizzly___quizzly-client.json"
 }

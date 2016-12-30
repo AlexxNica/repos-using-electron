@@ -89,19 +89,12 @@
     "name": "slinky",
     "version": "1.0.0",
     "description": "A GUI for npm link management",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rodleviton/slinky.git"
-    },
+    "repository": "https://github.com/rodleviton/slinky",
     "keywords": [
       "Electron",
       "NPM"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/rodleviton/slinky/issues"
-    },
     "build": {
       "appId": "com.example.electron-boilerplate",
       "app-category-type": "your.app.category.type",
@@ -122,9 +115,6 @@
         "icon": "resources/osx/dmg-icon.icns",
         "background": "resources/osx/dmg-background.png"
       }
-    },
-    "directories": {
-      "buildResources": "resources"
     },
     "scripts": {
       "postinstall": "install-app-deps",
@@ -164,6 +154,15 @@
       "presets": [
         "es2016-node5"
       ]
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/rodleviton/slinky/issues"
+      },
+      "directories": {
+        "buildResources": "resources"
+      }
     }
   },
   "packageStatus": 200,
@@ -192,5 +191,6 @@
       "url": "https://api.github.com/repos/ReactivePixels/slinky/git/commits/01424b795890d40fcdfce3ca36f6428b9987be02",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ReactivePixels___slinky.json"
 }

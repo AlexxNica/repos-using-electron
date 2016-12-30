@@ -64,7 +64,6 @@
     "version": "1.0.0",
     "description": "test",
     "main": "main.js",
-    "author": "Tyler Johnson <mail@tyler-johnson.ca> (http://github.com/tejohnso)",
     "license": "ISC",
     "devDependencies": {
       "istanbul": "^0.4.0",
@@ -101,6 +100,9 @@
       "integration": "export ELECTRON_PATH=$PWD/node_modules/electron-prebuilt/dist/electron && node_modules/.bin/electron-mocha -r ./init.js -t 10000 --recursive test/integration",
       "ui-integration": "node_modules/.bin/electron-mocha -r init.js test/integration/ui/main-it.js",
       "start": "./node_modules/.bin/electron main.js"
+    },
+    "other": {
+      "author": "Tyler Johnson <mail@tyler-johnson.ca> (http://github.com/tejohnso)"
     }
   },
   "packageStatus": 200,
@@ -131,5 +133,6 @@
       "url": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/git/commits/d874cdf8ca340fa387414aaa08a9838fb3a81f63",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Rise-Vision___rise-launcher-electron.json"
 }

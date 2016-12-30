@@ -132,26 +132,11 @@
         ]
       }
     },
-    "directories": {
-      "buildResources": "resources",
-      "output": "release"
-    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/geoffdutton/desktop-lftp.git"
-    },
-    "author": {
-      "name": "Geoff Dutton",
-      "email": "g.dutton@gmail.com",
-      "url": "https://github.com/geoffdutton"
-    },
+    "repository": "https://github.com/geoffdutton/desktop-lftp",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/geoffdutton/desktop-lftp/issues"
-    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -243,6 +228,20 @@
     "devEngines": {
       "node": ">=6.x",
       "npm": ">=3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Geoff Dutton",
+        "email": "g.dutton@gmail.com",
+        "url": "https://github.com/geoffdutton"
+      },
+      "bugs": {
+        "url": "https://github.com/geoffdutton/desktop-lftp/issues"
+      },
+      "directories": {
+        "buildResources": "resources",
+        "output": "release"
+      }
     }
   },
   "packageStatus": 200,
@@ -270,5 +269,6 @@
       "url": "https://api.github.com/repos/geoffdutton/desktop-lftp/git/commits/0779aca09533e73263c6eb90945a0f971e5ddd01",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "geoffdutton___desktop-lftp.json"
 }

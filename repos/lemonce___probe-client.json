@@ -98,16 +98,9 @@
       "build:exe": "node build/inno.js",
       "copy": "mkdirp dist/viewer && ncp node_modules/probe-simple-report/dist/report.min.js dist/viewer/build.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/lemonce/probe-electron.git"
-    },
+    "repository": "https://github.com/lemonce/probe-electron",
     "keywords": [],
-    "author": "Chaos Lee",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/lemonce/probe-electron/issues"
-    },
     "homepage": "https://github.com/lemonce/probe-electron#readme",
     "devDependencies": {
       "bestzip": "^1.1.3",
@@ -148,6 +141,12 @@
       "query-element": "^1.0.3",
       "rimraf": "^2.5.4",
       "sizzle": "^2.3.3"
+    },
+    "other": {
+      "author": "Chaos Lee",
+      "bugs": {
+        "url": "https://github.com/lemonce/probe-electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -176,5 +175,6 @@
       "url": "https://api.github.com/repos/lemonce/probe-client/git/commits/c20fdbd63d36e2bb4e0346a7a36622b4c46a8072",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lemonce___probe-client.json"
 }

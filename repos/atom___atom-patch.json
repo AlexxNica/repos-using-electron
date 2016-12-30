@@ -79,18 +79,11 @@
       "clean": "rm -rf dist",
       "ci": "npm run standard && npm run test"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/nathansobo/atom-patch.git"
-    },
+    "repository": "https://github.com/nathansobo/atom-patch",
     "keywords": [
       "patch data-structure"
     ],
-    "author": "Nathan Sobo <nathan@github.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/nathansobo/atom-patch/issues"
-    },
     "homepage": "https://github.com/nathansobo/atom-patch",
     "devDependencies": {
       "babel": "^5.0.0",
@@ -112,6 +105,12 @@
         "it",
         "expect"
       ]
+    },
+    "other": {
+      "author": "Nathan Sobo <nathan@github.com>",
+      "bugs": {
+        "url": "https://github.com/nathansobo/atom-patch/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -161,5 +160,6 @@
       "url": "https://api.github.com/repos/atom/atom-patch/git/commits/19530faac28aed811f2a44599df75837633858d1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "atom___atom-patch.json"
 }

@@ -74,7 +74,6 @@
       "start": "electron .",
       "mac-bundle": "electron-packager . Vinegar --platform=darwin --arch=x64 --version=0.27.2 --ignore=node_modules/electron-prebuilt"
     },
-    "author": "Elio D'antoni @oiledcode",
     "license": "ISC",
     "devDependencies": {
       "electron-packager": "^5.0.1",
@@ -95,6 +94,9 @@
       "titlebar": "^1.3.0",
       "upnp-mediarenderer-client": "^1.2.1",
       "vid-streamer": "^1.0.0"
+    },
+    "other": {
+      "author": "Elio D'antoni @oiledcode"
     }
   },
   "packageStatus": 200,
@@ -122,5 +124,6 @@
       "url": "https://api.github.com/repos/oiledCode/vinegar/git/commits/e3fbee83fbc4ff3e4304db061f001a8671ae57c7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "oiledCode___vinegar.json"
 }

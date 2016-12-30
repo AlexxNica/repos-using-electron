@@ -80,21 +80,20 @@
       "start": "./node_modules/.bin/electron .",
       "build": "electron-packager . TransAct --platform=darwin --arch=x64 --version=0.36.2 --ignore=node_modules --asar=true --overwrite && rm -rf ~/git/TransAct/TransAct-darwin-x64/TransAct.app/Contents/Resources/*.lproj"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/lmyaoi/TransAct.git"
-    },
-    "author": "Renzo",
+    "repository": "https://github.com/lmyaoi/TransAct",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/lmyaoi/TransAct/issues"
-    },
     "homepage": "https://github.com/lmyaoi/TransAct#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.2"
     },
     "dependencies": {
       "jsonfile": "^2.2.3"
+    },
+    "other": {
+      "author": "Renzo",
+      "bugs": {
+        "url": "https://github.com/lmyaoi/TransAct/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -122,5 +121,6 @@
       "url": "https://api.github.com/repos/lmyaoi/TransAct/git/commits/af5ad1dd95f6c54645e1f83c5d7631e4e7b12274",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lmyaoi___TransAct.json"
 }

@@ -58,21 +58,14 @@
       "pack": "electron-packager . RetroJs --overwrite --platform=darwin --arch=x64 --version=0.36.9 --asar=false --prune --ignore='src' --ignore='release' --ignore='test' --out=release",
       "package": "npm-run-all clean build pack"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/geowarin/electron-hot-boilerplate.git"
-    },
+    "repository": "https://github.com/geowarin/electron-hot-boilerplate",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/geowarin/electron-hot-boilerplate/issues"
-    },
     "homepage": "https://geowarin.github.com/electron-hot-boilerplate",
     "devDependencies": {
       "browserify": "^13.0.0",
@@ -100,6 +93,12 @@
     "dependencies": {
       "react": "^0.14.7",
       "react-dom": "^0.14.7"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/geowarin/electron-hot-boilerplate/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -147,5 +146,6 @@
       "url": "https://api.github.com/repos/geowarin/electron-hot-boilerplate/git/commits/bc5ff72bd844aef57345b938c11873baaa31b22b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "geowarin___electron-hot-boilerplate.json"
 }

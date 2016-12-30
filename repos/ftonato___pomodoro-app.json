@@ -79,15 +79,8 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ftonato/pomodoro-app.git"
-    },
-    "author": "Ademílson F. Tonato",
+    "repository": "https://github.com/ftonato/pomodoro-app",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ftonato/pomodoro-app/issues"
-    },
     "homepage": "https://github.com/ftonato/pomodoro-app/#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.4",
@@ -101,6 +94,12 @@
     },
     "dependencies": {
       "node-notifier": "^4.6.1"
+    },
+    "other": {
+      "author": "Ademílson F. Tonato",
+      "bugs": {
+        "url": "https://github.com/ftonato/pomodoro-app/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/ftonato/pomodoro-app/git/commits/1454d4b7ee6dd3f803b91a2d5f4b62223fe28e8c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ftonato___pomodoro-app.json"
 }

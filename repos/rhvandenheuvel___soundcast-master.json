@@ -55,11 +55,7 @@
     "name": "soundcast",
     "version": "1.7.0",
     "description": "Cast OSX audio to Chromecast menubar app",
-    "author": "Andres Gottlieb",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/andresgottlieb/soundcast"
-    },
+    "repository": "https://github.com/andresgottlieb/soundcast",
     "dependencies": {
       "chromecast-osx-audio": "^0.3.0",
       "menubar": "2.3.0",
@@ -73,7 +69,10 @@
     "scripts": {
       "start": "electron ."
     },
-    "license": "MIT"
+    "license": "MIT",
+    "other": {
+      "author": "Andres Gottlieb"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -100,5 +99,6 @@
       "url": "https://api.github.com/repos/rhvandenheuvel/soundcast-master/git/commits/bdaab7181995c7f03907a7a46c9e197acda0085a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rhvandenheuvel___soundcast-master.json"
 }

@@ -56,24 +56,17 @@
     "version": "0.0.6",
     "description": "A GUI for Redis",
     "main": "browser.js",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/cpsubrian/redis-explorer.git"
-    },
+    "repository": "https://github.com/cpsubrian/redis-explorer",
     "homepage": "https://github.com/cpsubrian/redis-explorer",
     "keywords": [
       "redis"
     ],
-    "author": "Brian Link <cpsubrian@gmail.com>",
     "licenses": [
       {
         "type": "Apache-2.0",
         "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
       }
     ],
-    "bugs": {
-      "url": "https://github.com/cpsubrian/redis-explorer/issues"
-    },
     "scripts": {
       "test": "echo 'No Tests'"
     },
@@ -125,6 +118,12 @@
       "shell-escape": "^0.2.0",
       "source-map-support": "^0.3.1",
       "standard": "^4.3.3"
+    },
+    "other": {
+      "author": "Brian Link <cpsubrian@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/cpsubrian/redis-explorer/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -152,5 +151,6 @@
       "url": "https://api.github.com/repos/cpsubrian/redis-explorer/git/commits/3d7578325b8d7b8dd604f837ca56b297432011a8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cpsubrian___redis-explorer.json"
 }

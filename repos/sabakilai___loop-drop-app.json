@@ -168,7 +168,6 @@
     "description": "MIDI looper, modular synth and sampler app built around Novation Launchpad controller (electron app).",
     "version": "2.14.1",
     "preferGlobal": true,
-    "author": "Matt McKegg",
     "main": "main.js",
     "homepage": "http://loopjs.com",
     "repository": {
@@ -249,6 +248,9 @@
     },
     "devDependencies": {
       "async-each": "^0.1.6"
+    },
+    "other": {
+      "author": "Matt McKegg"
     }
   },
   "packageStatus": 200,

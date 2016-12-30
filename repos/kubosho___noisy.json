@@ -67,19 +67,12 @@
       "storybook": "start-storybook -p 6006",
       "build-storybook": "build-storybook"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/kubosho/noisy.git"
-    },
+    "repository": "https://github.com/kubosho/noisy",
     "keywords": [
       "Twitter",
       "Electron"
     ],
-    "author": "kubosho",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/kubosho/noisy/issues"
-    },
     "homepage": "https://github.com/kubosho/noisy#readme",
     "devDependencies": {
       "@kadira/storybook": "^2.21.0",
@@ -123,6 +116,12 @@
       "react-textarea-autosize": "^4.0.5",
       "twit": "^2.2.5",
       "twitter-text": "^1.14.0"
+    },
+    "other": {
+      "author": "kubosho",
+      "bugs": {
+        "url": "https://github.com/kubosho/noisy/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -151,5 +150,6 @@
       "url": "https://api.github.com/repos/kubosho/noisy/git/commits/51c6cc1046782398a7fcc56b3f2078ffdbd50241",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kubosho___noisy.json"
 }

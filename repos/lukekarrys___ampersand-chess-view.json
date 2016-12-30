@@ -55,8 +55,6 @@
     "name": "ampersand-chess-view",
     "description": "An ampersand-view for playing chess games.",
     "version": "1.0.2",
-    "author": "Luke Karrys <luke@lukekarrys.com>",
-    "bugs": "https://github.com/lukekarrys/ampersand-chess-view/issues",
     "dependencies": {
       "ampersand-chess-state": "^1.0.1",
       "ampersand-view": "^10.0.1"
@@ -86,16 +84,17 @@
       "test",
       "validate"
     ],
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/lukekarrys/ampersand-chess-view"
-    },
+    "repository": "https://github.com/lukekarrys/ampersand-chess-view",
     "scripts": {
       "demo": "beefy demo/demo.js --index=demo/index.html",
       "lint": "jshint .",
       "start": "run-browser test/* --port 3001",
       "test": "browserify test/*.js | tape-run | tap-spec",
       "validate": "npm ls"
+    },
+    "other": {
+      "author": "Luke Karrys <luke@lukekarrys.com>",
+      "bugs": "https://github.com/lukekarrys/ampersand-chess-view/issues"
     }
   },
   "packageStatus": 200,
@@ -123,5 +122,6 @@
       "url": "https://api.github.com/repos/lukekarrys/ampersand-chess-view/git/commits/0bb5ffa4261e9fbc90a97bcf58b94f49011b4dfb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lukekarrys___ampersand-chess-view.json"
 }

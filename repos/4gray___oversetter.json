@@ -74,7 +74,6 @@
   "packageJSON": {
     "name": "Oversetter",
     "version": "0.0.1",
-    "author": "4gray",
     "description": "Oversetter is an translation app, which allows you to translate content directly from your menu bar",
     "scripts": {
       "start": "webpack-dev-server --inline --progress --port 8080",
@@ -135,6 +134,9 @@
       "webpack": "^1.13.0",
       "webpack-dev-server": "^1.14.1",
       "webpack-merge": "^0.14.0"
+    },
+    "other": {
+      "author": "4gray"
     }
   },
   "packageStatus": 200,
@@ -162,5 +164,6 @@
       "url": "https://api.github.com/repos/4gray/oversetter/git/commits/3893529b2eb12e5d252214cf9946094fa15633e1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "4gray___oversetter.json"
 }

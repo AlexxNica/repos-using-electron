@@ -69,7 +69,6 @@
     "name": "webstack",
     "version": "0.2.0",
     "description": "Development stack for building modern web applications or libraries based on webpack using modified TypeScript 1.8 together with Babel (async/await and generators in ES5)",
-    "author": "Marek Štípek <mario.dweller@seznam.cz>",
     "license": "MIT",
     "keywords": [
       "typescript",
@@ -82,10 +81,7 @@
       "async",
       "await"
     ],
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/vaniocz/typescript-dev-stack.git"
-    },
+    "repository": "https://github.com/vaniocz/typescript-dev-stack",
     "scripts": {
       "postinstall": "node_modules/.bin/typings install",
       "start": "webpack-dev-server --hot --content-base ./build",
@@ -158,6 +154,9 @@
       "webpack": "^1.12.14",
       "webpack-dev-server": "^1.14.1",
       "webpack-split-by-path": "0.0.8"
+    },
+    "other": {
+      "author": "Marek Štípek <mario.dweller@seznam.cz>"
     }
   },
   "packageStatus": 200,
@@ -205,5 +204,6 @@
       "url": "https://api.github.com/repos/vaniocz/typescript-dev-stack/git/commits/1217cc0d6d2e4e8968368253a95fcbe4a8a33184",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "vaniocz___typescript-dev-stack.json"
 }

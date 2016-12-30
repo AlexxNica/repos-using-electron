@@ -86,15 +86,8 @@
       "componentsTests": "wct build/tests/components/**/*-spec.html",
       "linter": "eslint app/**/*.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/deseteral/exprsjo.git"
-    },
-    "author": "Deseteral <github.com/deseteral>",
+    "repository": "https://github.com/deseteral/exprsjo",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/deseteral/exprsjo/issues"
-    },
     "homepage": "https://github.com/deseteral/exprsjo#readme",
     "devDependencies": {
       "babel-preset-es2015-node6": "0.3.0",
@@ -104,6 +97,12 @@
       "gulp-babel": "6.1.2",
       "gulp-sourcemaps": "2.1.1",
       "web-component-tester": "4.3.5"
+    },
+    "other": {
+      "author": "Deseteral <github.com/deseteral>",
+      "bugs": {
+        "url": "https://github.com/deseteral/exprsjo/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -131,5 +130,6 @@
       "url": "https://api.github.com/repos/Deseteral/exprsjo/git/commits/f064ba2ee4e3781bedf5e4e8aac719d2204394e1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Deseteral___exprsjo.json"
 }

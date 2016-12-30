@@ -181,7 +181,6 @@
     "repository": "https://github.com/trailbot/client",
     "homepage": "https://trailbot.io",
     "license": "MIT",
-    "author": "Adán Sánchez de Pedro Crespo <adan@stampery.com>",
     "contributors": [],
     "dependencies": {
       "electron-bin": "^0.37.3",
@@ -207,6 +206,9 @@
     },
     "bin": {
       "trailbot-client": "./run.js"
+    },
+    "other": {
+      "author": "Adán Sánchez de Pedro Crespo <adan@stampery.com>"
     }
   },
   "packageStatus": 200,

@@ -75,16 +75,8 @@
       "electron": "electron ./build",
       "start": "npm run build && npm run electron"
     },
-    "author": "AtlasDev (dany@atlasdev.nl)",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/AtlasDev/Transcoder"
-    },
-    "bugs": {
-      "url": "https://github.com/AtlasDev/Transcoder/issues",
-      "email": "dany@atlasdev.nl"
-    },
+    "repository": "https://github.com/AtlasDev/Transcoder",
     "devDependencies": {
       "@types/node": "^6.0.38",
       "awesome-typescript-loader": "^2.2.4",
@@ -116,6 +108,13 @@
       "json-loader": "^0.5.4",
       "rxjs": "^5.0.0-beta.12",
       "zone.js": "^0.6.23"
+    },
+    "other": {
+      "author": "AtlasDev (dany@atlasdev.nl)",
+      "bugs": {
+        "url": "https://github.com/AtlasDev/Transcoder/issues",
+        "email": "dany@atlasdev.nl"
+      }
     }
   },
   "packageStatus": 200,
@@ -143,5 +142,6 @@
       "url": "https://api.github.com/repos/AtlasDev/Transcoder/git/commits/4a7f0198c1c5bbd3d4ee754e2902de7353362341",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "AtlasDev___Transcoder.json"
 }

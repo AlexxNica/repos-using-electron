@@ -101,19 +101,8 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/GitTrap/GitTrap-frontend.git"
-    },
-    "author": {
-      "name": "C. T. Lin",
-      "email": "chentsulin@gmail.com",
-      "url": "https://github.com/GitTrap"
-    },
+    "repository": "https://github.com/GitTrap/GitTrap-frontend",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/GitTrap/GitTrap-frontend/issues"
-    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -195,6 +184,16 @@
     "devEngines": {
       "node": "4.x || 5.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": {
+        "name": "C. T. Lin",
+        "email": "chentsulin@gmail.com",
+        "url": "https://github.com/GitTrap"
+      },
+      "bugs": {
+        "url": "https://github.com/GitTrap/GitTrap-frontend/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -223,5 +222,6 @@
       "url": "https://api.github.com/repos/GitTrap/GitTrap-frontend/git/commits/ff12a25df06ca72a1934c4a947fabf26aa6a49f7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "GitTrap___GitTrap-frontend.json"
 }

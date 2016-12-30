@@ -90,13 +90,7 @@
     "version": "1.3.1-beta.1",
     "description": "Periodically refreshes AWS access keys",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/rapid7/awsaml.git"
-    },
-    "bugs": {
-      "url": "https://github.com/rapid7/awsaml/issues"
-    },
+    "repository": "https://github.com/rapid7/awsaml",
     "main": "app.js",
     "scripts": {
       "electron-debug": "electron . --debug",
@@ -162,6 +156,11 @@
       "typings": "^1.0.4",
       "webpack": "^1.13.1",
       "webpack-dev-server": "^1.14.1"
+    },
+    "other": {
+      "bugs": {
+        "url": "https://github.com/rapid7/awsaml/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -196,5 +195,6 @@
       "url": "https://api.github.com/repos/rapid7/awsaml/git/commits/6fb6d216c7ba0e2a669297a2e993aeea7e858201",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rapid7___awsaml.json"
 }

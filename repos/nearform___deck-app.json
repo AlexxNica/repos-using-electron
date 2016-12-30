@@ -93,7 +93,6 @@
       "setup-dock-icon.js"
     ],
     "preferGlobal": true,
-    "author": "David Mark Clements",
     "license": "MIT",
     "dependencies": {
       "@deck/base": "^1.0.3",
@@ -122,13 +121,7 @@
       "pre-commit": "1.1.1",
       "standard": "5.3.1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/nearform/deck-app.git"
-    },
-    "bugs": {
-      "url": "https://github.com/nearform/deck-app/issues"
-    },
+    "repository": "https://github.com/nearform/deck-app",
     "homepage": "https://github.com/nearform/deck-app#readme",
     "keywords": [
       "presentation",
@@ -137,7 +130,13 @@
       "powerpoint",
       "markdown",
       "deck"
-    ]
+    ],
+    "other": {
+      "author": "David Mark Clements",
+      "bugs": {
+        "url": "https://github.com/nearform/deck-app/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -166,5 +165,6 @@
       "url": "https://api.github.com/repos/nearform/deck-app/git/commits/f7dbecd3ab6c3b1b204b67e32ed17262c547ad8d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "nearform___deck-app.json"
 }

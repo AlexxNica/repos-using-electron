@@ -78,12 +78,8 @@
       "start-electron": "NODE_ENV=development electron .",
       "pack-mac": "node electron/pack-mac"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/renowan/Vue2-GnaviAPI.git"
-    },
+    "repository": "https://github.com/renowan/Vue2-GnaviAPI",
     "keywords": "",
-    "author": "GeekPlux",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.15.2",
@@ -166,6 +162,9 @@
     "engines": {
       "node": ">= 4.0.0",
       "npm": ">= 3.0.0"
+    },
+    "other": {
+      "author": "GeekPlux"
     }
   },
   "packageStatus": 200,
@@ -193,5 +192,6 @@
       "url": "https://api.github.com/repos/renowan/Vue2-GnaviAPI/git/commits/dbac02634d6e200846ec2bdce5d9916641a60a39",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "renowan___Vue2-GnaviAPI.json"
 }

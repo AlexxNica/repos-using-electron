@@ -81,10 +81,7 @@
       "pages": "git subtree split --prefix docs -b gh-pages && git push -f origin gh-pages:gh-pages && git branch -D gh-pages",
       "prepublish": "npm test"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/citycide/levers.git"
-    },
+    "repository": "https://github.com/citycide/levers",
     "keywords": [
       "es6",
       "es2015",
@@ -96,11 +93,7 @@
       "settings",
       "storage"
     ],
-    "author": "citycide",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/citycide/levers/issues"
-    },
     "files": [
       "lib",
       "dist"
@@ -133,6 +126,12 @@
       "rollup": "^0.34.0",
       "rollup-plugin-babel": "^2.5.1",
       "rollup-watch": "^2.5.0"
+    },
+    "other": {
+      "author": "citycide",
+      "bugs": {
+        "url": "https://github.com/citycide/levers/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -160,5 +159,6 @@
       "url": "https://api.github.com/repos/citycide/levers/git/commits/b48929bde002c35ca61abe2cd43bbb9791368f65",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "citycide___levers.json"
 }

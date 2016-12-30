@@ -95,21 +95,14 @@
       "setup": "npm install && node setup.js",
       "ship": "electron-packager ./ p360Duplicates --all --out ~/Desktop/p360Duplicates --version 0.36.0"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/telemark/p360-duplicate-contacts-electron.git"
-    },
+    "repository": "https://github.com/telemark/p360-duplicate-contacts-electron",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/telemark/p360-duplicate-contacts-electron/issues"
-    },
     "homepage": "https://github.com/telemark/p360-duplicate-contacts-electron",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -118,6 +111,12 @@
     "dependencies": {
       "opn": "^4.0.0",
       "p360-duplicate-contacts": "^2.0.1"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/telemark/p360-duplicate-contacts-electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -146,5 +145,6 @@
       "url": "https://api.github.com/repos/telemark/p360-duplicate-contacts-electron/git/commits/8ab37dede597bc40b985d451cceb65297b5ceea0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "telemark___p360-duplicate-contacts-electron.json"
 }

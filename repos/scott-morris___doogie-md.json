@@ -80,18 +80,11 @@
       "start": "electron ./src/index.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/scott-morris/doogie-md.git"
-    },
+    "repository": "https://github.com/scott-morris/doogie-md",
     "keywords": [
       "markdown"
     ],
-    "author": "Scott Morris <scott.r.morris@gmail.com>",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/scott-morris/doogie-md/issues"
-    },
     "homepage": "https://github.com/scott-morris/doogie-md#readme",
     "dependencies": {
       "ace-builds": "^1.2.5",
@@ -106,6 +99,12 @@
     },
     "devDependencies": {
       "electron-packager": "^8.2.0"
+    },
+    "other": {
+      "author": "Scott Morris <scott.r.morris@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/scott-morris/doogie-md/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -133,5 +132,6 @@
       "url": "https://api.github.com/repos/scott-morris/doogie-md/git/commits/3dc42c1de6565903a53fe32e953974d558cb4705",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "scott-morris___doogie-md.json"
 }

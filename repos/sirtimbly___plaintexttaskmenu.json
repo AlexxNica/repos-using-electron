@@ -70,7 +70,6 @@
     "version": "0.2.1",
     "description": "A program that examines taskpaper files in a folder and creates a markdown table of the due dates in order",
     "main": "index.js",
-    "author": "Tim Bendt <sirtimbly@gmail.com>",
     "dependencies": {
       "commander": "^2.3.0",
       "js-yaml": "^3.2.2",
@@ -87,10 +86,7 @@
     "engines": {
       "node": "0.10.x"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/sirtimbly/plaintexttaskmenu"
-    },
+    "repository": "https://github.com/sirtimbly/plaintexttaskmenu",
     "preferGlobal": true,
     "bin": {
       "task-scheduler": "index.js"
@@ -98,6 +94,9 @@
     "scripts": {
       "build": "electron-packager . MenubarTasklist --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
       "start": "electron ."
+    },
+    "other": {
+      "author": "Tim Bendt <sirtimbly@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -125,5 +124,6 @@
       "url": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu/git/commits/e5c1bc3733db1a2da21cb71625f1b63da3561454",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sirtimbly___plaintexttaskmenu.json"
 }

@@ -80,15 +80,8 @@
       "dist": "build",
       "postinstall": "install-app-deps"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/1313/spectrum.git"
-    },
-    "author": "Per Johansson",
+    "repository": "https://github.com/1313/spectrum",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/1313/spectrum/issues"
-    },
     "build": {
       "appId": "your.id",
       "category": "your.app.category.type",
@@ -100,6 +93,12 @@
     "devDependencies": {
       "electron": "^1.4.0",
       "electron-builder": "^7.0.0"
+    },
+    "other": {
+      "author": "Per Johansson",
+      "bugs": {
+        "url": "https://github.com/1313/spectrum/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/1313/spectrum/git/commits/80059dcac7fabc718ec3406de0492b511d4b5d89",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "1313___spectrum.json"
 }

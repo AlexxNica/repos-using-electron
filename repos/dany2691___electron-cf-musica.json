@@ -75,7 +75,6 @@
       "start": "electron main.js",
       "dev": "webpack-dev-server --content-base src --inline --hot"
     },
-    "author": "Jerome",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.11.1",
@@ -103,6 +102,9 @@
     },
     "devDependencies": {
       "electron-packager": "^7.0.2"
+    },
+    "other": {
+      "author": "Jerome"
     }
   },
   "packageStatus": 200,

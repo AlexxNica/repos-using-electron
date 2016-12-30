@@ -83,20 +83,13 @@
       "release": "build --linux --macos --x64",
       "postversion": "git push --follow-tags"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/nkbt/geovis-standalone.git"
-    },
+    "repository": "https://github.com/nkbt/geovis-standalone",
     "keywords": [
       "electron-app",
       "electron",
       "geovis"
     ],
-    "author": "Nik Butenko <nik@butenko.me>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/nkbt/geovis-standalone/issues"
-    },
     "homepage": "https://github.com/nkbt/geovis-standalone",
     "devDependencies": {
       "devtron": "1.3.0",
@@ -130,6 +123,12 @@
       "buildResources": "build",
       "output": "dist",
       "app": "app"
+    },
+    "other": {
+      "author": "Nik Butenko <nik@butenko.me>",
+      "bugs": {
+        "url": "https://github.com/nkbt/geovis-standalone/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -157,5 +156,6 @@
       "url": "https://api.github.com/repos/nkbt/geovis-standalone/git/commits/bfcf3aa86de4136725fef9f955087d1355285720",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "nkbt___geovis-standalone.json"
 }

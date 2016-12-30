@@ -55,15 +55,11 @@
     "name": "plin-plon",
     "description": "Signal online presence of your github fellows with an awesome plin-plon",
     "repository": "https://github.com/parro-it/plin-plon.git",
-    "bugs": {
-      "url": "https://github.com/parro-it/plin-plon/issues"
-    },
     "version": "0.0.1",
     "main": "src/index.js",
     "engines": {
       "node": ">=4.1"
     },
-    "author": "parro-it",
     "scripts": {
       "test": "test-node",
       "debug": "debug",
@@ -87,6 +83,12 @@
       "electron-prebuilt": "^0.34.2",
       "gh-got": "^2.2.0",
       "menubar": "^2.3.0"
+    },
+    "other": {
+      "author": "parro-it",
+      "bugs": {
+        "url": "https://github.com/parro-it/plin-plon/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -114,5 +116,6 @@
       "url": "https://api.github.com/repos/parro-it/plin-plon/git/commits/2ead0d3c48cd8caf43cbbdde62038f6e14485b58",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "parro-it___plin-plon.json"
 }

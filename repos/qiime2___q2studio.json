@@ -89,12 +89,8 @@
     "name": "q2studio",
     "version": "0.0.1",
     "description": "A web-based interface for QIIME 2.",
-    "author": "QIIME 2 Development Team",
     "license": "BSD-3-Clause",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/qiime2/q2studio.git"
-    },
+    "repository": "https://github.com/qiime2/q2studio",
     "scripts": {
       "lint:css": "stylelint 'app/**/*.css' --config config/stylelint.yaml",
       "lint:js": "eslint app/ config/ --ext .js,.jsx --config config/eslint.yaml",
@@ -174,7 +170,10 @@
         "transform-object-rest-spread"
       ]
     },
-    "private": true
+    "private": true,
+    "other": {
+      "author": "QIIME 2 Development Team"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -206,5 +205,6 @@
       "url": "https://api.github.com/repos/qiime2/q2studio/git/commits/0dc77f671273efdcec322d618eba310b596aff5c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "qiime2___q2studio.json"
 }

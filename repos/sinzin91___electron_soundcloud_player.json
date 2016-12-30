@@ -81,7 +81,6 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "author": "Scotch",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -97,6 +96,9 @@
       "react-dom": "^0.14.7",
       "react-sound": "^0.4.0",
       "soundmanager2": "^2.97.20150601-a"
+    },
+    "other": {
+      "author": "Scotch"
     }
   },
   "packageStatus": 200,
@@ -124,5 +126,6 @@
       "url": "https://api.github.com/repos/sinzin91/electron_soundcloud_player/git/commits/1cafed0a461c6494589d37e3cb21ec0b01afb937",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sinzin91___electron_soundcloud_player.json"
 }

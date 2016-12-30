@@ -74,16 +74,9 @@
       "start": "./node_modules/.bin/electron .",
       "test": "test"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/towen/electron_diner.git"
-    },
-    "author": "Terry J. Owen",
+    "repository": "https://github.com/towen/electron_diner",
     "license": "MIT",
     "electronVersion": "0.37.6",
-    "bugs": {
-      "url": "https://github.com/towen/electron_diner/issues"
-    },
     "homepage": "https://github.com/towen/electron_diner#readme",
     "dependencies": {
       "electron-packager": "^6.0.2",
@@ -96,6 +89,12 @@
       "grunt-cli": "^1.2.0",
       "grunt-contrib-clean": "^1.0.0",
       "mocha": "^2.4.5"
+    },
+    "other": {
+      "author": "Terry J. Owen",
+      "bugs": {
+        "url": "https://github.com/towen/electron_diner/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -123,5 +122,6 @@
       "url": "https://api.github.com/repos/towen/electron_diner/git/commits/f300b486b5964ec45728c9e21c2d20fa7657bcf0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "towen___electron_diner.json"
 }

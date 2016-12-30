@@ -80,15 +80,8 @@
       "do": "node build/main.js",
       "start": "grunt && electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Grimeh/waller.git"
-    },
-    "author": "Brandon Grimshaw <br@ndon.com.au>",
+    "repository": "https://github.com/Grimeh/waller",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Grimeh/waller/issues"
-    },
     "homepage": "https://github.com/Grimeh/waller#readme",
     "devDependencies": {
       "electron": "^1.4.4",
@@ -102,6 +95,12 @@
       "async": "^2.1.2",
       "jquery": "^3.1.1",
       "request": "^2.60.0"
+    },
+    "other": {
+      "author": "Brandon Grimshaw <br@ndon.com.au>",
+      "bugs": {
+        "url": "https://github.com/Grimeh/waller/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/Grimeh/waller/git/commits/d2238af082f1b5d60162f2827399e50685ddfb97",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Grimeh___waller.json"
 }

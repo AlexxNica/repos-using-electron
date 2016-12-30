@@ -194,7 +194,6 @@
       "node": ">=0.10.36"
     },
     "description": "Package your Meteor apps with Electron, and butter.",
-    "author": "Anderson Arboleya <anderson@arboleya.me>",
     "license": "MIT",
     "dependencies": {
       "commander": "^2.8.1",
@@ -231,7 +230,10 @@
       "packager",
       "desktop"
     ],
-    "homepage": "https://github.com/arboleya/electrify"
+    "homepage": "https://github.com/arboleya/electrify",
+    "other": {
+      "author": "Anderson Arboleya <anderson@arboleya.me>"
+    }
   },
   "packageStatus": 200,
   "contributors": [

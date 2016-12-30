@@ -52,11 +52,6 @@
     "license": "MIT",
     "description": "OS X voice control app built with electron",
     "repository": "thomascullen/voicebox",
-    "author": {
-      "name": "Thomas Cullen",
-      "email": "hello@thomascullen.io",
-      "url": "www.thomascullen.io"
-    },
     "scripts": {
       "build-osx": "electron-packager ./ VoiceBox --overwrite --out=dist --ignore='^dist|$' --platform=darwin --arch=x64 --version=0.33.0 --asar --icon=assets/icon.icns && cd dist/VoiceBox-darwin-x64 && zip -ryXq9 ../VoiceBox-${npm_package_version}.zip VoiceBox.app",
       "build-linux": "electron-packager ./ VoiceBox --overwrite --out=dist --ignore='^/dist$' --platform=linux --arch=x64 --version=0.33.0 --asar  && cd dist/VoiceBox-linux-x64 && zip -ryXq9 ../VoiceBox-${npm_package_version}.zip VoiceBox",
@@ -79,6 +74,13 @@
       "npm": "^3.3.5",
       "react": "^0.13.3",
       "request": "^2.63.0"
+    },
+    "other": {
+      "author": {
+        "name": "Thomas Cullen",
+        "email": "hello@thomascullen.io",
+        "url": "www.thomascullen.io"
+      }
     }
   },
   "packageStatus": 200,
@@ -107,5 +109,6 @@
       "url": "https://api.github.com/repos/thomascullen/voicebox/git/commits/45a80c3e5dfe4ece8aacf50a2cb4f097d3af8155",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "thomascullen___voicebox.json"
 }

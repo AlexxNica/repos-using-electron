@@ -65,19 +65,12 @@
       "packTo:mac": "electron-packager ./ --platform=mas --arch=x64",
       "packTo:win": "electron-packager ./ --platform=win32 --arch=x64"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Jberivera/trying-electron-js.git"
-    },
+    "repository": "https://github.com/Jberivera/trying-electron-js",
     "keywords": [
       "boilerplate",
       "electron"
     ],
-    "author": "jberivera",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Jberivera/trying-electron-js/issues"
-    },
     "homepage": "https://github.com/Jberivera/trying-electron-js#readme",
     "devDependencies": {
       "babel-core": "^6.13.2",
@@ -96,6 +89,12 @@
       "style-loader": "^0.13.1",
       "webpack": "^1.13.2",
       "webpack-merge": "^0.14.1"
+    },
+    "other": {
+      "author": "jberivera",
+      "bugs": {
+        "url": "https://github.com/Jberivera/trying-electron-js/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -143,5 +142,6 @@
       "url": "https://api.github.com/repos/Jberivera/electron-boilerplate/git/commits/2f1db256778130f934963356e4715bf1cd4c1a0f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Jberivera___electron-boilerplate.json"
 }

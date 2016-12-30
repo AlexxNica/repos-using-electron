@@ -53,16 +53,12 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/bbirec/koen.git"
-    },
+    "repository": "https://github.com/bbirec/koen",
     "keywords": [
       "english",
       "korean",
       "electron"
     ],
-    "author": "Heehong Moon",
     "homepage": "https://github.com/bbirec/koen",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -70,6 +66,9 @@
     "dependencies": {
       "lowdb": "^0.12.2",
       "node-uuid": "^1.4.7"
+    },
+    "other": {
+      "author": "Heehong Moon"
     }
   },
   "packageStatus": 200,
@@ -117,5 +116,6 @@
       "url": "https://api.github.com/repos/bbirec/koen/git/commits/e7673b74d7f4bf761460f0361ddb1a60879fb314",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "bbirec___koen.json"
 }

@@ -174,10 +174,6 @@
     "version": "0.7.1",
     "description": "Web app that runs in the renderer process",
     "repository": "zeit/hyperterm",
-    "author": {
-      "name": "Guillermo Rauch",
-      "email": "rauchg@zeit.co"
-    },
     "dependencies": {
       "aphrodite-simple": "0.4.1",
       "color": "0.11.3",
@@ -272,6 +268,12 @@
       "pack": "npm run build && build --dir",
       "dist": "npm run build && build",
       "release": "npm run build && build --publish=onTagOrDraft"
+    },
+    "other": {
+      "author": {
+        "name": "Guillermo Rauch",
+        "email": "rauchg@zeit.co"
+      }
     }
   },
   "packageStatus": 200,

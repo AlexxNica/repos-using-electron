@@ -86,15 +86,8 @@
       "build:prod": "npm run bundle && build",
       "clean:all": "rm -r dist && rm -r app/build && rm -r app/node_modules"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/chito256/sparks.git"
-    },
-    "author": "Chi To",
+    "repository": "https://github.com/chito256/sparks",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/chito256/sparks/issues"
-    },
     "homepage": "https://github.com/chito256/sparks#readme",
     "devDependencies": {
       "babel-core": "^6.14.0",
@@ -144,6 +137,12 @@
       "squirrelWindows": {
         "msi": true
       }
+    },
+    "other": {
+      "author": "Chi To",
+      "bugs": {
+        "url": "https://github.com/chito256/sparks/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -171,5 +170,6 @@
       "url": "https://api.github.com/repos/chito256/sparks/git/commits/8179acccc8e56a067ae204b53b4072e256c741e0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "chito256___sparks.json"
 }

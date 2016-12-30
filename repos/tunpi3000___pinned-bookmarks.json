@@ -80,10 +80,7 @@
     "activationCommands": {
       "atom-workspace": "pinned-bookmarks:toggle"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/tunpi3000/pinned-bookmarks.git"
-    },
+    "repository": "https://github.com/tunpi3000/pinned-bookmarks",
     "license": "MIT",
     "engines": {
       "atom": ">=1.0.0 <2.0.0"
@@ -97,9 +94,6 @@
         "default": false
       }
     },
-    "bugs": {
-      "url": "https://github.com/atom/bookmarks/issues"
-    },
     "homepage": "https://github.com/atom/bookmarks#readme",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -110,7 +104,6 @@
     "scripts": {
       "test": "exit 0"
     },
-    "author": "Tuomas Hatakka",
     "babel": {
       "presets": [
         "es2015",
@@ -128,6 +121,12 @@
         "ecmaFeatures": {
           "jsx": true
         }
+      }
+    },
+    "other": {
+      "author": "Tuomas Hatakka",
+      "bugs": {
+        "url": "https://github.com/atom/bookmarks/issues"
       }
     }
   },
@@ -156,5 +155,6 @@
       "url": "https://api.github.com/repos/tunpi3000/pinned-bookmarks/git/commits/c5b0793f9a5b9875c2e7944c29bd7325711818e9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tunpi3000___pinned-bookmarks.json"
 }

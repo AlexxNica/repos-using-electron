@@ -94,7 +94,6 @@
       "start": "electron main.js",
       "build": "electron-packager . macro --platform win32 --arch x64 --out dist/"
     },
-    "author": "Yeonghun Chae",
     "authors": "Yeonghun Chae",
     "dependencies": {
       "cheerio": "^0.20.0",
@@ -119,6 +118,9 @@
       "less": "^2.6.1",
       "shelljs": "^0.3.0",
       "through2": "^2.0.1"
+    },
+    "other": {
+      "author": "Yeonghun Chae"
     }
   },
   "packageStatus": 200,
@@ -146,5 +148,6 @@
       "url": "https://api.github.com/repos/ust-bigdata-science/electron-example/git/commits/ea63701d79122f988edb6c6fdb9d7dedeb3dda9a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ust-bigdata-science___electron-example.json"
 }

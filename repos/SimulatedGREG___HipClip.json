@@ -55,10 +55,7 @@
       "package": "asar pack HipClip-darwin-x64/HipClip.app/Contents/Resources/app HipClip-darwin-x64/HipClip.app/Contents/Resources/app.asar && rm -rf HipClip-darwin-x64/HipClip.app/Contents/Resources/app",
       "build": "electron-packager . HipClip --overwrite --ignore=node_modules/electron-* --platform=all --arch=x64 --version=0.36.1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/simulatedgreg/hipclip.git"
-    },
+    "repository": "https://github.com/simulatedgreg/hipclip",
     "keywords": [
       "Electron",
       "clipboard",
@@ -67,7 +64,6 @@
       "paste",
       "copy"
     ],
-    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "devDependencies": {
       "asar": "^0.9.0",
       "electron-packager": "^5.2.0",
@@ -78,6 +74,9 @@
       "jquery.scrollto": "^2.1.2",
       "vue": "^1.0.12",
       "timeago": "https://github.com/rmm5t/jquery-timeago.git"
+    },
+    "other": {
+      "author": "Greg Holguin <simulatedgreg@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/SimulatedGREG/HipClip/git/commits/df39adc09fd277b4a934c5098506d1eb293d617a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "SimulatedGREG___HipClip.json"
 }

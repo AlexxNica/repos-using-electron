@@ -81,15 +81,8 @@
       "start": "electron app",
       "postinstall": "install-app-deps"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/cosmosgenius/electron-leveldb.git"
-    },
-    "author": "Sharat M R",
+    "repository": "https://github.com/cosmosgenius/electron-leveldb",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/cosmosgenius/electron-leveldb/issues"
-    },
     "homepage": "https://github.com/cosmosgenius/electron-leveldb#readme",
     "devDependencies": {
       "electron-builder": "^5.26.0",
@@ -99,6 +92,12 @@
       "appId": "com.cosmosgenius.sampleelectronleveldb",
       "app-category-type": "public.app-category.developer-tools",
       "asar": false
+    },
+    "other": {
+      "author": "Sharat M R",
+      "bugs": {
+        "url": "https://github.com/cosmosgenius/electron-leveldb/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/cosmosgenius/electron-leveldb/git/commits/a2317e21b61d5ac1cfbd73190fd0d993a933d67c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cosmosgenius___electron-leveldb.json"
 }

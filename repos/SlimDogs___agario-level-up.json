@@ -74,20 +74,19 @@
       "bot": "node bot.js",
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/SlimDogs/agario-level-up.git"
-    },
+    "repository": "https://github.com/SlimDogs/agario-level-up",
     "keywords": [
       "agario",
       "bot"
     ],
-    "author": "Tautvydas Derzinskas",
     "license": "ISC",
     "devDependencies": {
       "agario-client": "*",
       "electron-prebuilt": "^0.36.0",
       "express": "*"
+    },
+    "other": {
+      "author": "Tautvydas Derzinskas"
     }
   },
   "packageStatus": 200,
@@ -115,5 +114,6 @@
       "url": "https://api.github.com/repos/SlimDogs/agario-level-up/git/commits/ebe90b127d72612cf13d9e2dcb09812f88d53f80",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "SlimDogs___agario-level-up.json"
 }

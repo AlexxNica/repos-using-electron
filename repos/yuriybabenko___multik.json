@@ -80,16 +80,9 @@
       "postinstall": "cd node_modules/leveldown && HOME=~/.electron-gyp node-gyp rebuild --target=0.33.0 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:yuriybabenko/multik.git"
-    },
+    "repository": "https://github.com/yuriybabenko/multik",
     "keywords": [],
-    "author": "Yuriy Babenko",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/yuriybabenko/multik/issues"
-    },
     "homepage": "http://yuriybabenko.com",
     "devDependencies": {
       "electron-prebuilt": "^0.35.0",
@@ -102,6 +95,12 @@
       "jquery": "^2.1.4",
       "pouchdb": "^5.1.0",
       "q": "^1.4.1"
+    },
+    "other": {
+      "author": "Yuriy Babenko",
+      "bugs": {
+        "url": "https://github.com/yuriybabenko/multik/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/yuriybabenko/multik/git/commits/af7093a7c4cb64cbcbeedc5cf5da5f7c741d1bcf",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "yuriybabenko___multik.json"
 }

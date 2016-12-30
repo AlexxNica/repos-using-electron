@@ -113,10 +113,7 @@
       "pack:linux32": "gulp pack:linux32",
       "pack:osx64": "gulp pack:osx64"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/mapaiva/GitPie.git"
-    },
+    "repository": "https://github.com/mapaiva/GitPie",
     "keywords": [
       "GitHub",
       "BitBucket",
@@ -127,11 +124,7 @@
       "Mac",
       "GUI"
     ],
-    "author": "Matheus Paiva",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/mapaiva/GitPie/issues"
-    },
     "homepage": "https://github.com/mapaiva/GitPie",
     "devDependencies": {
       "electron-builder": "^2.6.0",
@@ -148,6 +141,12 @@
       "fs-extra": "^0.26.2",
       "git-url-parse": "^5.0.1",
       "node-wos": "^0.2.3"
+    },
+    "other": {
+      "author": "Matheus Paiva",
+      "bugs": {
+        "url": "https://github.com/mapaiva/GitPie/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -176,5 +175,6 @@
       "url": "https://api.github.com/repos/gitpie/GitPie/git/commits/549a3197a1e5ecb40047ae5fda1809b38652efd1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "gitpie___GitPie.json"
 }

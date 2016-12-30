@@ -63,21 +63,14 @@
       "build:windows": "electron-packager . --overwrite --asar --out=dist --ignore='^/(dist|assets)$' --platform=win32 --arch=ia32 --icon=assets/icon.ico --version-string.ProductName=$npm_package_productName && cd dist/Keep-win32-ia32 && zip -ryq9 ../Keep-windows-${npm_package_version}.zip *",
       "test": "eslint ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/andrepolischuk/keep.git"
-    },
+    "repository": "https://github.com/andrepolischuk/keep",
     "keywords": [
       "electron-app",
       "electron",
       "google",
       "keep"
     ],
-    "author": "Andrey Polischuk <andre.polischuk@gmail.com>",
     "license": "Unlicense",
-    "bugs": {
-      "url": "https://github.com/andrepolischuk/keep/issues"
-    },
     "homepage": "https://github.com/andrepolischuk/keep",
     "dependencies": {
       "electron-config": "^0.2.1",
@@ -89,6 +82,12 @@
       "eslint": "^3.4.0",
       "eslint-config-airbnb-base": "^5.0.3",
       "eslint-plugin-import": "^1.14.0"
+    },
+    "other": {
+      "author": "Andrey Polischuk <andre.polischuk@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/andrepolischuk/keep/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -116,5 +115,6 @@
       "url": "https://api.github.com/repos/andrepolischuk/keep/git/commits/2136fd1b8faa2091ec7ca95abdd036008c214bc2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "andrepolischuk___keep.json"
 }

@@ -50,10 +50,6 @@
     "version": "0.0.0",
     "description": "Small description for ember-note goes here",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -63,7 +59,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "body-parser": "^1.15.2",
@@ -148,6 +143,13 @@
         "ProductName": null,
         "InternalName": null
       }
+    },
+    "other": {
+      "author": "",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -176,5 +178,6 @@
       "url": "https://api.github.com/repos/dirvine/ember-note/git/commits/35e9915d2ee985e400e0e3ab20175481ff2374da",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dirvine___ember-note.json"
 }

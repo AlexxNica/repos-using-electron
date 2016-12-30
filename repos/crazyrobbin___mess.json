@@ -81,20 +81,13 @@
       "package": "asar pack Foodmonk-win32-x64/resources/app Foodmonk-win32-x64/resources/app.asar",
       "build": "electron-packager . Foodmonk --platform=win32 --arch=x64 --version=0.35.0 --ignore=node_modules/electron.* --icon=C:/xampp/htdocs/public/images/ico4.ico"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/atom/electron-quick-start.git"
-    },
+    "repository": "https://github.com/atom/electron-quick-start",
     "keywords": [
       "Foodmonk",
       "Mess",
       "Software"
     ],
-    "author": "Robbin Singh",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/atom/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "asar": "^0.10.0",
@@ -107,6 +100,12 @@
     "dependencies": {
       "angular-material-calendar": "^0.2.14",
       "nedb": "^1.7.2"
+    },
+    "other": {
+      "author": "Robbin Singh",
+      "bugs": {
+        "url": "https://github.com/atom/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -134,5 +133,6 @@
       "url": "https://api.github.com/repos/crazyrobbin/mess/git/commits/556356ace149bd1eec19f3042e0bc15cdfd24995",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "crazyrobbin___mess.json"
 }

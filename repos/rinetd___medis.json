@@ -169,7 +169,6 @@
     "productName": "Medis",
     "version": "0.3.0",
     "license": "MIT",
-    "author": "luin <i@zihua.li> (http://zihua.li)",
     "main": "server/main.js",
     "scripts": {
       "start": "NODE_ENV=debug electron .",
@@ -245,6 +244,9 @@
       "commitizen": {
         "path": "./node_modules/cz-conventional-changelog"
       }
+    },
+    "other": {
+      "author": "luin <i@zihua.li> (http://zihua.li)"
     }
   },
   "packageStatus": 200,

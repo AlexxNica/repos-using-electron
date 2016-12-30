@@ -70,10 +70,6 @@
     "version": "0.0.1",
     "description": "Small description for dummy goes here",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -84,7 +80,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -162,6 +157,13 @@
         "ProductName": null,
         "InternalName": null
       }
+    },
+    "other": {
+      "author": "",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -189,5 +191,6 @@
       "url": "https://api.github.com/repos/rusty120/testapp/git/commits/3a590b7e05545019efe162f2686694a5deabd624",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rusty120___testapp.json"
 }

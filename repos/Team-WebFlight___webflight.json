@@ -83,15 +83,8 @@
         "/test/tests/addStatusBar/*"
       ]
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Team-Webflight/WebFlight.git"
-    },
-    "author": "Team WebFlight",
+    "repository": "https://github.com/Team-Webflight/WebFlight",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Team-WebFlight/WebFlight/issues"
-    },
     "dependencies": {
       "babel-eslint": "^5.0.0",
       "casperjs": "^1.1.0-beta5",
@@ -117,6 +110,12 @@
       "chai-as-promised": "^5.2.0",
       "chai-fs": "^0.1.0",
       "standard": "^6.0.8"
+    },
+    "other": {
+      "author": "Team WebFlight",
+      "bugs": {
+        "url": "https://github.com/Team-WebFlight/WebFlight/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -167,5 +166,6 @@
       "url": "https://api.github.com/repos/Team-WebFlight/webflight/git/commits/d8ca201136be1c0e79743773bdae456632c8b470",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Team-WebFlight___webflight.json"
 }

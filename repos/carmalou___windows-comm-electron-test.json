@@ -81,21 +81,14 @@
       "build-mac": "electron-packager /Users/carmenlong/Desktop/electron-presentation/windows-communications windows-comms --out ./build --platform=darwin --arch=x64 --overwrite",
       "build-windows": "electron-packager /Users/carmenlong/Desktop/electron-presentation/windows-communications windows-comms --out ./build --platform=win32 --arch=ia32 --overwrite"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -106,6 +99,12 @@
     },
     "dependencies": {
       "electron-gh-releases": "^2.0.4"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -131,5 +130,6 @@
       "url": "https://api.github.com/repos/carmalou/windows-comm-electron-test/git/commits/5272086574e46d1b58730ffabcecb3d781c94f4d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "carmalou___windows-comm-electron-test.json"
 }

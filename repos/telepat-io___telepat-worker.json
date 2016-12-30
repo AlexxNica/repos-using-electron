@@ -76,19 +76,12 @@
       "restart": "./bin/restart.sh",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:telepat-io/telepat-worker.git"
-    },
+    "repository": "https://github.com/telepat-io/telepat-worker",
     "keywords": [
       "telepat",
       "worker",
       "kafka"
     ],
-    "author": {
-      "name": "Răzvan Botea",
-      "email": "razvan@telepat.io"
-    },
     "contributors": [
       {
         "name": "Răzvan Botea",
@@ -101,9 +94,6 @@
     ],
     "engines": {
       "node": ">=0.12.0"
-    },
-    "bugs": {
-      "url": "https://github.com/telepat-io/telepat-worker/issues"
     },
     "license": "Apache-2.0",
     "dependencies": {
@@ -123,6 +113,15 @@
       "telepat-models": "0.4.3",
       "underscore": "1.8.3",
       "uuid": "^2.0.1"
+    },
+    "other": {
+      "author": {
+        "name": "Răzvan Botea",
+        "email": "razvan@telepat.io"
+      },
+      "bugs": {
+        "url": "https://github.com/telepat-io/telepat-worker/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -172,5 +171,6 @@
       "url": "https://api.github.com/repos/telepat-io/telepat-worker/git/commits/f4a3fc16913a1b3e84bfc436785ee16bf1e372f7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "telepat-io___telepat-worker.json"
 }

@@ -70,15 +70,6 @@
     "description": "starter kit",
     "version": "0.1.0-pre-alpha.0",
     "private": true,
-    "author": {
-      "name": "Vasiliy Yorkin",
-      "email": "vasiliy.yorkin@gmail.com",
-      "url": "https://github.com/vyorkin"
-    },
-    "bugs": {
-      "url": "https://github.com/vyorkin/starter-kit/issues",
-      "email": "vasiliy.yorkin@gmail.com"
-    },
     "config": {
       "https": false,
       "host": "localhost",
@@ -305,10 +296,7 @@
     ],
     "license": "MIT",
     "main": "src/server/index.js",
-    "repository": {
-      "type": "git",
-      "url": "vyorkin/starter-kit"
-    },
+    "repository": "https://github.com/vyorkin/starter-kit",
     "scripts": {
       "build": "gulp build --production",
       "build:full": "gulp build:full --production",
@@ -328,6 +316,17 @@
       "test:watch": "karma start --watch -- --test",
       "test:mocha": "mocha ./test/app/modules/**/*.test.js",
       "test:mocha:watch": "npm run test:mocha -- --watch"
+    },
+    "other": {
+      "author": {
+        "name": "Vasiliy Yorkin",
+        "email": "vasiliy.yorkin@gmail.com",
+        "url": "https://github.com/vyorkin"
+      },
+      "bugs": {
+        "url": "https://github.com/vyorkin/starter-kit/issues",
+        "email": "vasiliy.yorkin@gmail.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -356,5 +355,6 @@
       "url": "https://api.github.com/repos/vyorkin-personal/starter-kit/git/commits/e15bbd12fa106e58ad13c63a20ac35d84fed517a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "vyorkin-personal___starter-kit.json"
 }

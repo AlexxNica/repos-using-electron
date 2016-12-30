@@ -62,21 +62,14 @@
       "clean": "gulp clean",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/easimonenko/my-bricks-sets-desktop.git"
-    },
+    "repository": "https://github.com/easimonenko/my-bricks-sets-desktop",
     "keywords": [
       "Electron",
       "LEGO",
       "Desktop",
       "Application"
     ],
-    "author": "Evgeniy A. Simonenko <easimonenko@mail.ru>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/easimonenko/my-bricks-sets-desktop/issues"
-    },
     "homepage": "https://github.com/easimonenko/my-bricks-sets-desktop#readme",
     "devDependencies": {
       "del": "^2.2.0",
@@ -98,6 +91,12 @@
     "engines": {
       "node": "5",
       "npm": "3"
+    },
+    "other": {
+      "author": "Evgeniy A. Simonenko <easimonenko@mail.ru>",
+      "bugs": {
+        "url": "https://github.com/easimonenko/my-bricks-sets-desktop/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -145,5 +144,6 @@
       "url": "https://api.github.com/repos/easimonenko/my-bricks-sets-desktop/git/commits/b0471fe523bba26c01f045845524b363f5826e1d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "easimonenko___my-bricks-sets-desktop.json"
 }

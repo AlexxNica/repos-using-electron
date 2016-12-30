@@ -68,15 +68,7 @@
       "persistent",
       "save"
     ],
-    "author": {
-      "name": "de-luca",
-      "email": "dev@de-luca.io",
-      "url": "de-luca.io"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/de-luca/electron-json-config.git"
-    },
+    "repository": "https://github.com/de-luca/electron-json-config",
     "scripts": {
       "test": "electron-mocha --recursive test -R progress && electron-mocha --renderer --recursive test -R progress"
     },
@@ -88,7 +80,14 @@
     },
     "files": [
       "src/"
-    ]
+    ],
+    "other": {
+      "author": {
+        "name": "de-luca",
+        "email": "dev@de-luca.io",
+        "url": "de-luca.io"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -116,5 +115,6 @@
       "url": "https://api.github.com/repos/de-luca/electron-json-config/git/commits/4b9ce4e6481f8755f0c67b03144b5346630c1f70",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "de-luca___electron-json-config.json"
 }

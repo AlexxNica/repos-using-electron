@@ -78,12 +78,8 @@
       "start:prod": "electron main.js",
       "package": "npm run build:prod && electron-packager . Hww --platform=darwin --arch=x64 --overwrite --prune"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/torgeir/hww.git"
-    },
+    "repository": "https://github.com/torgeir/hww",
     "keywords": [],
-    "author": "torgeir",
     "license": "MIT",
     "dependencies": {
       "babel-plugin-transform-object-rest-spread": "^6.6.5",
@@ -124,6 +120,9 @@
       "webpack": "^1.12.9",
       "webpack-dev-server": "^1.14.0",
       "webpack-notifier": "^1.2.1"
+    },
+    "other": {
+      "author": "torgeir"
     }
   },
   "packageStatus": 200,
@@ -151,5 +150,6 @@
       "url": "https://api.github.com/repos/torgeir/hww/git/commits/9107232f304b5ce4751aff77356a0fb3392a24c4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "torgeir___hww.json"
 }

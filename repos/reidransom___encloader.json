@@ -80,15 +80,14 @@
       "start": "electron main.js",
       "postinstall": "./postinstall"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/reidransom/encloader.git"
-    },
-    "author": "reidransom",
+    "repository": "https://github.com/reidransom/encloader",
     "license": "MIT",
     "homepage": "http://encloader.com/",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0"
+    },
+    "other": {
+      "author": "reidransom"
     }
   },
   "packageStatus": 200,
@@ -116,5 +115,6 @@
       "url": "https://api.github.com/repos/reidransom/encloader/git/commits/fb6f029422c207d6658edceb7809c6566723f255",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "reidransom___encloader.json"
 }

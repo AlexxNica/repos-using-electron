@@ -76,15 +76,8 @@
     "version": "1.0.4",
     "description": "Provides a Pull Request card to Mutuca",
     "main": "index.js",
-    "author": "Leonardo Eloy",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/mutuca/mutuca-pull-request.git"
-    },
-    "bugs": {
-      "url": "https://github.com/mutuca/mutuca-pull-request/issues"
-    },
+    "repository": "https://github.com/mutuca/mutuca-pull-request",
     "homepage": "https://github.com/mutuca/mutuca-pull-request",
     "scripts": {
       "test": "mocha"
@@ -95,6 +88,12 @@
       "proxyquire": "^1.4.0",
       "sinon": "^1.14.1",
       "electron": "^1.3.0"
+    },
+    "other": {
+      "author": "Leonardo Eloy",
+      "bugs": {
+        "url": "https://github.com/mutuca/mutuca-pull-request/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -122,5 +121,6 @@
       "url": "https://api.github.com/repos/leonardoeloy/mutuca-pull-request/git/commits/73e035ead180cba67f37d84c1f30fb39b5b61582",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "leonardoeloy___mutuca-pull-request.json"
 }

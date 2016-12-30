@@ -74,12 +74,14 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "./node_modules/.bin/electron demo.js"
     },
-    "author": "akamaozu <uzo@designbymobius.ca> (http://designbymobi.us/)",
     "license": "ISC",
     "dependencies": {
       "dotenv": "^2.0.0",
       "electron-prebuilt": "^0.28.3",
       "electron-workers": "^1.7.0"
+    },
+    "other": {
+      "author": "akamaozu <uzo@designbymobius.ca> (http://designbymobi.us/)"
     }
   },
   "packageStatus": 200,
@@ -107,5 +109,6 @@
       "url": "https://api.github.com/repos/Akamaozu/electron-workers-queue-demo/git/commits/c6e7ae157dfc274a40f98ccbc1811158b02a8556",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Akamaozu___electron-workers-queue-demo.json"
 }

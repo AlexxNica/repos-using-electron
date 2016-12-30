@@ -81,12 +81,8 @@
       "package-macos": "electron-packager . sinapay-tool --out=./dist --platform=darwin --arch=x64 --asar --overwrite",
       "package-win": "electron-packager . sinapay-tool --out=./dist --platform=win32 --arch=x64 --asar --overwrite"
     },
-    "author": "Zhiya Zang",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/simpleapples/sinapay-tool.git"
-    },
+    "repository": "https://github.com/simpleapples/sinapay-tool",
     "dependencies": {
       "electron": "^1.4.1",
       "jszip": "^3.1.2",
@@ -98,6 +94,9 @@
       "eslint-plugin-promise": "^2.0.1",
       "eslint-plugin-standard": "^2.0.0",
       "electron-packager": "^8.0.0"
+    },
+    "other": {
+      "author": "Zhiya Zang"
     }
   },
   "packageStatus": 200,
@@ -125,5 +124,6 @@
       "url": "https://api.github.com/repos/simpleapples/sinapay-tool/git/commits/6a1da5a87c71516f938a0ff39513421e40c659b9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "simpleapples___sinapay-tool.json"
 }

@@ -82,21 +82,14 @@
       "build": "electron-packager . app --platform linux --icon ./app/assets/img/logo.png --arch x64 --out dist/",
       "deb64": "electron-installer-debian --src dist/app-linux-x64/ --dest dist/installers/ --arch amd64"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/sanskar-modi/gitty.git"
-    },
+    "repository": "https://github.com/sanskar-modi/gitty",
     "keywords": [
       "Electron",
       "Github",
       "Client",
       "Ubuntu"
     ],
-    "author": "Sanskar Modi",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/sanskar-modi/gitty/issues"
-    },
     "homepage": "https://github.com/sanskar-modi/gitty",
     "dependencies": {
       "highlight.js": "^9.4.0",
@@ -107,6 +100,12 @@
       "devtron": "^1.2.0",
       "electron-installer-debian": "^0.3.0",
       "electron-prebuilt": "^1.2.1"
+    },
+    "other": {
+      "author": "Sanskar Modi",
+      "bugs": {
+        "url": "https://github.com/sanskar-modi/gitty/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -134,5 +133,6 @@
       "url": "https://api.github.com/repos/s0nskar/gitty/git/commits/fbc58ad43431a397eb5134689a422b464d64ad15",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "s0nskar___gitty.json"
 }

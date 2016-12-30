@@ -191,7 +191,6 @@
     "appBundleId": "io.yeoman.app",
     "helperBundleId": "io.yeoman.app.helper",
     "description": "An app made with Electron that scaffolds projects using Yeoman",
-    "author": "The Yeoman Team",
     "main": "src/browser/main.js",
     "dependencies": {
       "async": "^1.2.1",
@@ -260,7 +259,9 @@
     },
     "license": "MIT",
     "repository": "https://github.com/yeoman/yeoman-app",
-    "other": {}
+    "other": {
+      "author": "The Yeoman Team"
+    }
   },
   "packageStatus": 200,
   "contributors": [

@@ -50,19 +50,10 @@
     "productName": "Gief!",
     "version": "0.1.0",
     "description": "All your favourite gifs in the menu bar",
-    "author": {
-      "name": "Patrik Affentranger",
-      "email": "hello@patrikaffentranger.me",
-      "url": "http://patrikaffentranger.me"
-    },
     "engines": {
       "node": ">=4.2.1"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/pzi/gief"
-    },
-    "bugs": "https://github.com/pzi/gief/issues",
+    "repository": "https://github.com/pzi/gief",
     "homepage": "https://github.com/pzi/gief",
     "main": "main.js",
     "private": true,
@@ -84,6 +75,14 @@
       "electron-packager": "^7.0.3",
       "electron-prebuilt": "^1.2.2",
       "standard": "^7.1.2"
+    },
+    "other": {
+      "author": {
+        "name": "Patrik Affentranger",
+        "email": "hello@patrikaffentranger.me",
+        "url": "http://patrikaffentranger.me"
+      },
+      "bugs": "https://github.com/pzi/gief/issues"
     }
   },
   "packageStatus": 200,
@@ -111,5 +110,6 @@
       "url": "https://api.github.com/repos/pzi/gief/git/commits/897a5e49223d96af5f06ed34a8a4bff2750309e9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "pzi___gief.json"
 }

@@ -77,19 +77,12 @@
     "version": "0.2.0",
     "description": "Manage local PouchDB server instances from your tray.",
     "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/appelgriebsch/pouchdb-app.git"
-    },
+    "repository": "https://github.com/appelgriebsch/pouchdb-app",
     "keywords": [
       "electron",
       "pouchdb-server"
     ],
-    "author": "Andreas Gerlach <andi@appelgriebsch.org>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/appelgriebsch/pouchdb-app/issues"
-    },
     "homepage": "https://github.com/appelgriebsch/pouchdb-app#readme",
     "scripts": {
       "start": "electron app/",
@@ -111,6 +104,12 @@
       "grunt-electron-debian-installer": "^0.1.0",
       "grunt-electron-redhat-installer": "^0.2.0",
       "grunt-electron-installer": "^1.0"
+    },
+    "other": {
+      "author": "Andreas Gerlach <andi@appelgriebsch.org>",
+      "bugs": {
+        "url": "https://github.com/appelgriebsch/pouchdb-app/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,6 @@
       "url": "https://api.github.com/repos/appelgriebsch/pouchdb-app/git/commits/b37a1f2e6ba2ff8501bf92a61d3ad5b493aa44d2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "appelgriebsch___pouchdb-app.json"
 }

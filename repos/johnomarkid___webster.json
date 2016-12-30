@@ -76,14 +76,16 @@
       "start": "electron main.js",
       "watch": "npm run start & npm run elm:watch & wait"
     },
-    "author": "John Omar",
     "license": "ISC",
     "devDependencies": {
       "chokidar": "^1.4.3",
       "electron-prebuilt": "^0.37.8",
       "electron-rebuild": "^1.1.3"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "other": {
+      "author": "John Omar"
+    }
   },
   "packageStatus": 200,
   "contributors": [],
@@ -108,5 +110,6 @@
       "url": "https://api.github.com/repos/johnomarkid/webster/git/commits/e192b7697dbbba14c0a5f13881ac76814a53177a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "johnomarkid___webster.json"
 }

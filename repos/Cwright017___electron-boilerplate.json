@@ -84,10 +84,7 @@
       "package": "npm run build && cp ./package.json ./dist && electron-packager ./dist --platform=darwin --arch=x64 --prune --overwrite",
       "test": "jest"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Cwright017/electron-boilerplate.git"
-    },
+    "repository": "https://github.com/Cwright017/electron-boilerplate",
     "keywords": [
       "Electron",
       "boilerplate",
@@ -99,11 +96,7 @@
       "sass",
       "electron-packager"
     ],
-    "author": "Carl Wright",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Cwright017/electron-boilerplate/issues"
-    },
     "homepage": "https://github.com/Cwright017/electron-boilerplate#readme",
     "jest": {
       "testPathDirs": [
@@ -157,6 +150,12 @@
       "redux-devtools-extension": "^1.0.0",
       "redux-logger": "^2.7.0",
       "redux-thunk": "^2.1.0"
+    },
+    "other": {
+      "author": "Carl Wright",
+      "bugs": {
+        "url": "https://github.com/Cwright017/electron-boilerplate/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -184,5 +183,6 @@
       "url": "https://api.github.com/repos/Cwright017/electron-boilerplate/git/commits/7fe3173072a54046d547cb4415b842a80ea87ce1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Cwright017___electron-boilerplate.json"
 }

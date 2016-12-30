@@ -63,12 +63,8 @@
     "name": "james",
     "version": "1.5.0",
     "description": "HTTP/HTTPS proxy built in Electron and React",
-    "author": "Julian Hollmann <hollmann@uxebu.com>",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/james-proxy/james.git"
-    },
+    "repository": "https://github.com/james-proxy/james",
     "main": "main/index.js",
     "scripts": {
       "build": "gulp",
@@ -171,10 +167,13 @@
         "synopsis": "Web proxy"
       }
     },
-    "directories": {
-      "buildResources": "resource-compile",
-      "output": "binaries",
-      "app": "./package"
+    "other": {
+      "author": "Julian Hollmann <hollmann@uxebu.com>",
+      "directories": {
+        "buildResources": "resource-compile",
+        "output": "binaries",
+        "app": "./package"
+      }
     }
   },
   "packageStatus": 200,
@@ -208,5 +207,6 @@
       "url": "https://api.github.com/repos/james-proxy/james/git/commits/311cf37331130bddf56434591e505b4b10cb4489",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "james-proxy___james.json"
 }

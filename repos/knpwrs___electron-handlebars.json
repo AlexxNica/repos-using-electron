@@ -80,21 +80,14 @@
       "start": "electron example",
       "test": "eslint lib example"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/knpwrs/electron-handlebars.git"
-    },
+    "repository": "https://github.com/knpwrs/electron-handlebars",
     "keywords": [
       "electron",
       "handlebars",
       "templates",
       "html"
     ],
-    "author": "Kenneth Powers <ken@kenpowers.net> (http://knpw.rs)",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/knpwrs/electron-handlebars/issues"
-    },
     "homepage": "https://github.com/knpwrs/electron-handlebars#readme",
     "dependencies": {
       "any-pify": "^1.0.0",
@@ -111,6 +104,12 @@
       "eslint-config-airbnb-base": "^8.0.0",
       "eslint-import-resolver-node": "^0.2.3",
       "eslint-plugin-import": "^2.0.0"
+    },
+    "other": {
+      "author": "Kenneth Powers <ken@kenpowers.net> (http://knpw.rs)",
+      "bugs": {
+        "url": "https://github.com/knpwrs/electron-handlebars/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -139,5 +138,6 @@
       "url": "https://api.github.com/repos/knpwrs/electron-handlebars/git/commits/6443e09981881a9de798507a5b122e6f04b55fcb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "knpwrs___electron-handlebars.json"
 }

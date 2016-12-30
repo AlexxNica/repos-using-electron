@@ -168,7 +168,6 @@
     "version": "0.0.1",
     "description": "A terminal emulator for the 21st century.",
     "main": "src/main/main.js",
-    "author": "Volodymyr Shatsky <shockone89@gmail.com>",
     "repository": {
       "user": "shockone",
       "repo": "black-screen",
@@ -233,7 +232,10 @@
       "package": "PATH=node_modules/.bin:$PATH rm -rf '/Applications/Black Screen.app'; electron-packager . 'Black Screen' --platform=darwin --arch=x64 --version='0.30.0' --out='/Applications' --icon='./icon.icns'",
       "test": "PATH=node_modules/.bin:$PATH gulp typescript; gulp compile-tests; electron run-tests.js"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "other": {
+      "author": "Volodymyr Shatsky <shockone89@gmail.com>"
+    }
   },
   "packageStatus": 200,
   "contributors": [

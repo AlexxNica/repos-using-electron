@@ -63,7 +63,6 @@
       "build-mac": "electron-zip-packager app RedditClient --out=dist --platform=darwin --arch=x64 --version=0.37.5 --asar=true --icon=./icons/logo --cache=./cache --name=RedditClient --overwrite=true",
       "build-linux": "electron-zip-packager app RedditClient --out=dist --platform=linux --arch=x64 --version=0.37.5 --asar=true --icon=./icons/logo --cache=./cache --name=RedditClient --overwrite=true"
     },
-    "author": "Mathieu ANCELIN",
     "license": "MIT",
     "dependencies": {
       "elemjs": "^0.1.29",
@@ -79,6 +78,9 @@
       "babel-preset-stage-0": "^6.5.0",
       "babel-register": "^6.7.2",
       "electron-prebuilt": "^0.37.5"
+    },
+    "other": {
+      "author": "Mathieu ANCELIN"
     }
   },
   "packageStatus": 200,
@@ -106,5 +108,6 @@
       "url": "https://api.github.com/repos/mathieuancelin/electron-demo/git/commits/df9d7636b107e0201ddb89288faedfdc195fb25c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mathieuancelin___electron-demo.json"
 }

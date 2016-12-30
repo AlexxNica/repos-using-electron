@@ -74,27 +74,26 @@
       "build": "electron-packager ./ --platform=darwin,mas --arch=all --out=releases --overwrite --icon=./Icon.icns",
       "start": "electron index.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "Jon Stuebe",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.0.1"
     },
     "dependencies": {
       "menubar": "^4.1.1"
+    },
+    "other": {
+      "author": "Jon Stuebe",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -120,5 +119,6 @@
       "url": "https://api.github.com/repos/jonstuebe/spotify-song-share/git/commits/00a5561ed94acc56c17fceb6842996752b9eb9fe",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jonstuebe___spotify-song-share.json"
 }

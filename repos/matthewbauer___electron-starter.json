@@ -51,15 +51,8 @@
     "version": "0.7.0",
     "description": "Like Popcorn-Time but for games.",
     "main": "./index.js",
-    "author": "Matthew Bauer <mjbauer95@gmail.com>",
     "github": "matthewbauer/electron-starter",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/matthewbauer/gametime.git"
-    },
-    "bugs": {
-      "url": "https://github.com/matthewbauer/gametime/issues"
-    },
+    "repository": "https://github.com/matthewbauer/gametime",
     "scripts": {
       "run": "electron .",
       "install": "grunt install"
@@ -89,6 +82,12 @@
       "grunt-shell": "^1.1.2",
       "load-grunt-tasks": "^3.1.0",
       "npm": "^2.10.0"
+    },
+    "other": {
+      "author": "Matthew Bauer <mjbauer95@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/matthewbauer/gametime/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -116,5 +115,6 @@
       "url": "https://api.github.com/repos/matthewbauer/electron-starter/git/commits/9fab624f60d98316b01c8fbdebaa5f9c1274b3e0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "matthewbauer___electron-starter.json"
 }

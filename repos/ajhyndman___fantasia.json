@@ -81,15 +81,8 @@
       "storybook": "start-storybook -p 9001",
       "test": "npm run eslint && npm run flow"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ajhyndman/fantasia.git"
-    },
-    "author": "Andrew Hyndman <ajhyndman@hotmail.com> (https://github.com/ajhyndman)",
+    "repository": "https://github.com/ajhyndman/fantasia",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ajhyndman/electron-ehr/issues"
-    },
     "homepage": "https://github.com/ajhyndman/electron-ehr#readme",
     "devDependencies": {
       "@flow-atom/electron": "^0.37.8-rev.0",
@@ -135,6 +128,12 @@
       "redux-saga": "^0.11.0",
       "seamless-immutable": "https://github.com/ajhyndman/seamless-immutable/tarball/preserve-immutable-js",
       "uuid-js": "^0.7.5"
+    },
+    "other": {
+      "author": "Andrew Hyndman <ajhyndman@hotmail.com> (https://github.com/ajhyndman)",
+      "bugs": {
+        "url": "https://github.com/ajhyndman/electron-ehr/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -162,5 +161,6 @@
       "url": "https://api.github.com/repos/ajhyndman/fantasia/git/commits/d2df53c0352412f6233e5ec54d6f099fcfd54321",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ajhyndman___fantasia.json"
 }

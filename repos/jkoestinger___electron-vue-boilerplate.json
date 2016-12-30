@@ -87,7 +87,6 @@
       "vuex:module": "node tasks/vuex/module.js",
       "postinstall": "npm run lint:fix && cd app && npm install"
     },
-    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -144,6 +143,9 @@
     },
     "dependencies": {
       "jquery": "^3.1.1"
+    },
+    "other": {
+      "author": "Greg Holguin <simulatedgreg@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -171,5 +173,6 @@
       "url": "https://api.github.com/repos/jkoestinger/electron-vue-boilerplate/git/commits/d08e494e84654e081284d68c688da9dda49b7955",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jkoestinger___electron-vue-boilerplate.json"
 }

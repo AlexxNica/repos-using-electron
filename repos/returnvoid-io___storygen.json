@@ -118,22 +118,10 @@
         ]
       }
     },
-    "directories": {
-      "buildResources": "resources",
-      "output": "release"
-    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
-    },
-    "author": {
-      "name": "Dmitri Perepelenko",
-      "email": "perepelenkodmitri@gmail.com",
-      "url": "https://github.com/returnvoid-io"
-    },
+    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
     "license": "MIT",
     "devDependencies": {
       "asar": "^0.12.3",
@@ -202,6 +190,17 @@
     "devEngines": {
       "node": ">=6.x",
       "npm": ">=3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Dmitri Perepelenko",
+        "email": "perepelenkodmitri@gmail.com",
+        "url": "https://github.com/returnvoid-io"
+      },
+      "directories": {
+        "buildResources": "resources",
+        "output": "release"
+      }
     }
   },
   "packageStatus": 200,
@@ -229,5 +228,6 @@
       "url": "https://api.github.com/repos/returnvoid-io/storygen/git/commits/73921fa4c01d47259c476d76310ef7e8159a33f4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "returnvoid-io___storygen.json"
 }

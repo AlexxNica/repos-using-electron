@@ -81,7 +81,6 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "author": "Yu Lu",
     "license": "MIT",
     "devDependencies": {
       "electron": "^1.4.1"
@@ -99,6 +98,9 @@
       "react-autocomplete": "^1.3.1",
       "react-dom": "^15.3.2",
       "react-sound": "^0.5.2"
+    },
+    "other": {
+      "author": "Yu Lu"
     }
   },
   "packageStatus": 200,
@@ -126,5 +128,6 @@
       "url": "https://api.github.com/repos/yulu/electron-react-sample/git/commits/df98576835cbbbc7abdd566eb1de863d3deee694",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "yulu___electron-react-sample.json"
 }

@@ -169,11 +169,6 @@
     "description": "runs Node.js programs through Chromium DevTools",
     "main": "index.js",
     "license": "MIT",
-    "author": {
-      "name": "Matt DesLauriers",
-      "email": "dave.des@gmail.com",
-      "url": "https://github.com/mattdesl"
-    },
     "dependencies": {
       "browser-resolve": "^1.11.0",
       "chokidar": "^1.4.2",
@@ -244,6 +239,13 @@
     "homepage": "https://github.com/Jam3/devtool",
     "bin": {
       "devtool": "./bin/index.js"
+    },
+    "other": {
+      "author": {
+        "name": "Matt DesLauriers",
+        "email": "dave.des@gmail.com",
+        "url": "https://github.com/mattdesl"
+      }
     }
   },
   "packageStatus": 200,

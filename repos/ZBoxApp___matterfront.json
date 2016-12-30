@@ -188,7 +188,6 @@
     "version": "1.3.0-beta1",
     "description": "ZBox Now! frontend app powered by electron",
     "homepage": "https://github.com/ZBoxApp/matterfront",
-    "author": "Elias Nahum <elias@zboxapp.com> (https://github.com/ZBoxApp)",
     "scripts": {
       "start": "electron ./src --dev-mode"
     },
@@ -224,6 +223,9 @@
     },
     "dependencies": {
       "electron-packager": "^5.2.0"
+    },
+    "other": {
+      "author": "Elias Nahum <elias@zboxapp.com> (https://github.com/ZBoxApp)"
     }
   },
   "packageStatus": 200,

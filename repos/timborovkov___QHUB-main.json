@@ -54,21 +54,14 @@
       "start": "/applications/nwjs.app/Contents/MacOS/nwjs . --remote-debugging-port=9922",
       "up": "git add . && git commit -m 'update' && git push origin master"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/timborovkov/QHUB-main.git"
-    },
+    "repository": "https://github.com/timborovkov/QHUB-main",
     "window": {
       "toolbar": true
     },
     "webkit": {
       "plugin": true
     },
-    "author": "Tim Borovkov",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/timborovkov/QHUB-main/issues"
-    },
     "homepage": "http://anspirit.org",
     "dependencies": {
       "electron-prebuilt": "0.37.4",
@@ -97,6 +90,12 @@
     "comments": {
       "0": "On ubuntu cylon-ble requires to run: sudo apt-get install libbluetooth-dev",
       "1": "There is a cylon module for Belkin WeMo"
+    },
+    "other": {
+      "author": "Tim Borovkov",
+      "bugs": {
+        "url": "https://github.com/timborovkov/QHUB-main/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -124,5 +123,6 @@
       "url": "https://api.github.com/repos/timborovkov/QHUB-main/git/commits/b379205256933b8b187d189759687c38f99d4c3e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "timborovkov___QHUB-main.json"
 }

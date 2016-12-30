@@ -79,21 +79,14 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/niebert/PanDocElectron.git"
-    },
+    "repository": "https://github.com/niebert/PanDocElectron",
     "keywords": [
       "Electron",
       "PanDoc",
       "GUI",
       "Wrapper"
     ],
-    "author": "Engelbert Niehaus",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/niebert/PanDocElectron/issues"
-    },
     "homepage": "https://github.com/niebert/PanDocElectron",
     "devDependencies": {
       "electron-prebuilt": "1.2.7"
@@ -102,6 +95,12 @@
       "electron-open-link-in-browser": "1.0.2",
       "mkdirp": "0.5.1",
       "nodemw": "^0.10.1"
+    },
+    "other": {
+      "author": "Engelbert Niehaus",
+      "bugs": {
+        "url": "https://github.com/niebert/PanDocElectron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/niebert/PanDocElectron/git/commits/b2a7a42946fa6f9a341bf45da2e506fa95076ad7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "niebert___PanDocElectron.json"
 }

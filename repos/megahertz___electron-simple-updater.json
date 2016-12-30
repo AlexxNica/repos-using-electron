@@ -81,10 +81,7 @@
       "mocha": "./node_modules/.bin/mocha ./spec/**/*.mock.js ./spec/**/*.spec.js",
       "lint": "node_modules/.bin/eslint ./index.js ./lib/**/*.js ./example/app/*.js ./spec/**/*.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/megahertz/electron-simple-updater.git"
-    },
+    "repository": "https://github.com/megahertz/electron-simple-updater",
     "files": [
       "index.js",
       "README.md",
@@ -103,11 +100,7 @@
       "linux",
       "desktop"
     ],
-    "author": "Alexey Prokhorov",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/megahertz/electron-simple-updater/issues"
-    },
     "homepage": "https://github.com/megahertz/electron-simple-updater#readme",
     "engines": {
       "node": ">=6.0"
@@ -128,6 +121,12 @@
     "dependencies": {
       "httpreq": "^0.4.22",
       "semver": "*"
+    },
+    "other": {
+      "author": "Alexey Prokhorov",
+      "bugs": {
+        "url": "https://github.com/megahertz/electron-simple-updater/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -155,5 +154,6 @@
       "url": "https://api.github.com/repos/megahertz/electron-simple-updater/git/commits/c3fde17bba552da6add9131015c3c93a0574ff1e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "megahertz___electron-simple-updater.json"
 }

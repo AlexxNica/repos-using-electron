@@ -181,7 +181,6 @@
     "name": "electron-hello-world",
     "description": "Absolute bare minimum Hello World Electron app",
     "version": "1.0.0",
-    "author": "Nate Goldman <nate@ngoldman.me>",
     "devDependencies": {
       "electron-prebuilt": "^0.31.2"
     },
@@ -213,6 +212,9 @@
     "scripts": {
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "other": {
+      "author": "Nate Goldman <nate@ngoldman.me>"
     }
   },
   "packageStatus": 200,

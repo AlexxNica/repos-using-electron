@@ -96,15 +96,11 @@
       "interface",
       "dvr"
     ],
-    "author": "Luke Fernandez <lukejohnfernandez@gmail.com>",
     "contributors": [
       "Dong Yeop Lee, Spencer Lewis, Jonathan Witten"
     ],
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/LukeJFernandez/360ls-desktop.git"
-    },
+    "repository": "https://github.com/LukeJFernandez/360ls-desktop",
     "jest": {
       "testPathDirs": [
         "test"
@@ -154,10 +150,6 @@
           "AppImage"
         ]
       }
-    },
-    "directories": {
-      "buildResources": "resources",
-      "output": "release"
     },
     "bin": {
       "electron": "./node_modules/.bin/electron"
@@ -246,6 +238,13 @@
     "devEngines": {
       "node": ">=6.x",
       "npm": ">=3.x"
+    },
+    "other": {
+      "author": "Luke Fernandez <lukejohnfernandez@gmail.com>",
+      "directories": {
+        "buildResources": "resources",
+        "output": "release"
+      }
     }
   },
   "packageStatus": 200,
@@ -274,5 +273,6 @@
       "url": "https://api.github.com/repos/360ls/desktop/git/commits/2989834dbcbac5c63427abb91f6b83ff567fa599",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "360ls___desktop.json"
 }

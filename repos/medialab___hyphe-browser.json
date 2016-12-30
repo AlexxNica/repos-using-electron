@@ -83,15 +83,8 @@
       "watch:electron": "cross-env NODE_ENV=development electron .",
       "watch:dev-server": "cross-env NODE_ENV=development node dev-server.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/medialab/hyphe-browser.git"
-    },
-    "author": "ByteClub",
+    "repository": "https://github.com/medialab/hyphe-browser",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/medialab/hyphe-browser/issues"
-    },
     "homepage": "https://github.com/medialab/hyphe-browser#readme",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -160,6 +153,12 @@
       "tether": "^1.1.1",
       "uuid": "^2.0.1",
       "valid-url": "^1.0.9"
+    },
+    "other": {
+      "author": "ByteClub",
+      "bugs": {
+        "url": "https://github.com/medialab/hyphe-browser/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -190,5 +189,6 @@
       "url": "https://api.github.com/repos/medialab/hyphe-browser/git/commits/35336b5661db08debca5ce4faa1a6ba2cf8e44c6",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "medialab___hyphe-browser.json"
 }

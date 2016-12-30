@@ -55,18 +55,11 @@
       "start-hot": "cross-env HOT=1 NODE_ENV=development electron -r babel-register -r babel-polyfill ./main.development",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ocowchun/lococo.git"
-    },
+    "repository": "https://github.com/ocowchun/lococo",
     "keywords": [
       "i18n"
     ],
-    "author": "ocowchun <ocowchun@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ocowchun/lococo/issues"
-    },
     "homepage": "https://github.com/ocowchun/lococo#readme",
     "devDependencies": {
       "asar": "^0.11.0",
@@ -136,6 +129,12 @@
       "redux-thunk": "^2.1.0",
       "source-map-support": "^0.4.0",
       "underscore": "^1.8.3"
+    },
+    "other": {
+      "author": "ocowchun <ocowchun@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/ocowchun/lococo/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -184,5 +183,6 @@
       "url": "https://api.github.com/repos/kjj6198/locco/git/commits/ac89993ffdb6a75170d5d3e45de9a1063b0bdc83",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kjj6198___locco.json"
 }

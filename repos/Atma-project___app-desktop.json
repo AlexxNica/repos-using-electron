@@ -91,7 +91,6 @@
       "build-electron": "NODE_ENV=production webpack -p --progress --colors && electron .",
       "start-server": "nodemon server/server.js"
     },
-    "author": "Alexandre Toudic, Jeremie Drazic, Robin Delaporte",
     "license": "MIT",
     "devDependencies": {
       "autoprefixer": "^6.3.5",
@@ -164,6 +163,9 @@
         "last 2 versions"
       ],
       "remove": false
+    },
+    "other": {
+      "author": "Alexandre Toudic, Jeremie Drazic, Robin Delaporte"
     }
   },
   "packageStatus": 200,
@@ -192,5 +194,6 @@
       "url": "https://api.github.com/repos/Atma-project/app-desktop/git/commits/ed77159c672af95a6984ec6dcb501a9ca3a8143b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Atma-project___app-desktop.json"
 }

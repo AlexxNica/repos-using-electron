@@ -64,18 +64,11 @@
     "description": "A mobile quiz app inspired by Buzz and Dr. Why.",
     "version": "0.0.0",
     "private": true,
-    "author": "Whitesmith",
     "license": "ISC",
     "keywords": [
       "quiz"
     ],
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/whitesmith/quoi-app.git"
-    },
-    "bugs": {
-      "url": "https://github.com/whitesmith/quoi-app/issues"
-    },
+    "repository": "https://github.com/whitesmith/quoi-app",
     "homepage": "https://github.com/whitesmith/quoi-app#readme",
     "main": "main.js",
     "scripts": {
@@ -111,6 +104,12 @@
       "webpack": "^1.12.12",
       "webpack-dev-server": "^1.12.1",
       "nodemon": "^1.9.1"
+    },
+    "other": {
+      "author": "Whitesmith",
+      "bugs": {
+        "url": "https://github.com/whitesmith/quoi-app/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -141,5 +140,6 @@
       "url": "https://api.github.com/repos/whitesmith/quoi-app/git/commits/9bee969dc88a43f3c733ab0b8dff2ce21c11b009",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "whitesmith___quoi-app.json"
 }

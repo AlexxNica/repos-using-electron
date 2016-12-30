@@ -71,10 +71,6 @@
       "test": "mocha --recursive",
       "travis": "npm run build-sign && npm test"
     },
-    "author": "Adam Drago <atdrago+negative@gmail.com>",
-    "bugs": {
-      "url": "https://github.com/atdrago/negative/issues"
-    },
     "dependencies": {
       "electron-window": "^0.8.1",
       "nodobjc": "^2.1.0",
@@ -107,7 +103,13 @@
     },
     "os": [
       "darwin"
-    ]
+    ],
+    "other": {
+      "author": "Adam Drago <atdrago+negative@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/atdrago/negative/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/atdrago/negative",
@@ -154,5 +156,6 @@
       "url": "https://api.github.com/repos/atdrago/negative/git/commits/93f8eb91d692237fe2f569ba2f3e64ca3f5253f4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "atdrago___negative.json"
 }

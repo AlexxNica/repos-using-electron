@@ -72,7 +72,6 @@
     "version": "0.1.0",
     "license": "",
     "keywords": [],
-    "author": "Ivan Fuyivara",
     "scripts": {
       "start": "electron .",
       "build": "electron-packager . BioCrawl --platform=darwin --arch=x64 --version=0.30.4 --overwrite=true --out=dist"
@@ -83,6 +82,9 @@
       "jquery": "^2.1.4",
       "simplecrawler": "latest",
       "walk": "latest"
+    },
+    "other": {
+      "author": "Ivan Fuyivara"
     }
   },
   "packageStatus": 200,
@@ -110,5 +112,6 @@
       "url": "https://api.github.com/repos/ifuyivara/electroCrawler/git/commits/63ec6ccf22ab1a5a777711d91b1b726da7a8b540",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ifuyivara___electroCrawler.json"
 }

@@ -190,11 +190,6 @@
     "description": "Pristine Twitter app",
     "license": "MIT",
     "repository": "sindresorhus/anatine",
-    "author": {
-      "name": "Sindre Sorhus",
-      "email": "sindresorhus@gmail.com",
-      "url": "sindresorhus.com"
-    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -223,6 +218,13 @@
       ],
       "rules": {
         "import/no-extraneous-dependencies": 0
+      }
+    },
+    "other": {
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
       }
     }
   },

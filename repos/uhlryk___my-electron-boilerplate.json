@@ -65,10 +65,7 @@
     ],
     "main": "src/main.js",
     "homepage": "https://github.com/uhlryk/my-electron-boilerplate",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/uhlryk/my-electron-boilerplate.git"
-    },
+    "repository": "https://github.com/uhlryk/my-electron-boilerplate",
     "scripts": {
       "prebuild": "gulp prebuild",
       "release": "gulp build",
@@ -76,10 +73,6 @@
     },
     "electronVersion": "v0.36.4",
     "license": "MIT",
-    "author": "Krzysztof Sztompka <sztompka.krzysztof@gmail.com>",
-    "bugs": {
-      "url": "https://github.com/uhlryk/my-electron-boilerplate/issues"
-    },
     "devDependencies": {
       "babel-core": "^6.4.0",
       "babel-eslint": "^5.0.0-beta6",
@@ -118,6 +111,12 @@
       "react-router": "^2.0.0-rc5",
       "redux": "^3.0.5",
       "redux-thunk": "^1.0.3"
+    },
+    "other": {
+      "author": "Krzysztof Sztompka <sztompka.krzysztof@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/uhlryk/my-electron-boilerplate/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -145,5 +144,6 @@
       "url": "https://api.github.com/repos/uhlryk/my-electron-boilerplate/git/commits/fced2d059b177af4c85e9e79318b89c8794ddfee",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "uhlryk___my-electron-boilerplate.json"
 }

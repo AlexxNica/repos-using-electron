@@ -60,15 +60,8 @@
       "start": "electron main.js",
       "build": "node build.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/fbradley8/pagebench.git"
-    },
-    "author": "fbradley8",
+    "repository": "https://github.com/fbradley8/pagebench",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/fbradley8/pagebench/issues"
-    },
     "homepage": "https://github.com/fbradley8/pagebench#readme",
     "devDependencies": {
       "electron-packager": "^7.7.0",
@@ -76,6 +69,12 @@
     },
     "dependencies": {
       "jquery": "^2.2.4"
+    },
+    "other": {
+      "author": "fbradley8",
+      "bugs": {
+        "url": "https://github.com/fbradley8/pagebench/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -103,5 +102,6 @@
       "url": "https://api.github.com/repos/fbradley8/pagebench/git/commits/b8af13535341029d6d7f20b4a67aa051cf079cfc",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "fbradley8___pagebench.json"
 }

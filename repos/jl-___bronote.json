@@ -85,15 +85,8 @@
       "build": "gulp build",
       "start": "npm run build && ./node_modules/.bin/electron ./dist/zh/main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/jl-/bronote.git"
-    },
-    "author": "Zheng Jiang Long <jlz.cius@gmail.com> (http://github.com/jl-)",
+    "repository": "https://github.com/jl-/bronote",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/jl-/bronote/issues"
-    },
     "homepage": "https://github.com/jl-/bronote",
     "devDependencies": {
       "autoprefixer": "^6.3.6",
@@ -173,6 +166,12 @@
       "react-router": "^2.4.1",
       "redux": "^3.5.2",
       "url-template": "^2.0.7"
+    },
+    "other": {
+      "author": "Zheng Jiang Long <jlz.cius@gmail.com> (http://github.com/jl-)",
+      "bugs": {
+        "url": "https://github.com/jl-/bronote/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -200,5 +199,6 @@
       "url": "https://api.github.com/repos/jl-/bronote/git/commits/d611359f99317aead044e37b27f8da390e5c2854",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jl-___bronote.json"
 }

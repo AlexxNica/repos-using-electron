@@ -62,18 +62,11 @@
       "start": "npm run make && npm run run",
       "test": "babel-node node_modules/.bin/_mocha --full-trace --recursive -R spec -C --check-leaks test/"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/hallettj/poodle.git"
-    },
+    "repository": "https://github.com/hallettj/poodle",
     "keywords": [
       "email"
     ],
-    "author": "Jesse Hallett <jesse@sitr.us>",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/hallettj/poodle/issues"
-    },
     "homepage": "https://github.com/hallettj/poodle#readme",
     "babel": {
       "presets": [
@@ -135,6 +128,12 @@
       "uuid": "~2.0.1",
       "vocabs-as": "^0.12.0",
       "xoauth2": "~1.1.0"
+    },
+    "other": {
+      "author": "Jesse Hallett <jesse@sitr.us>",
+      "bugs": {
+        "url": "https://github.com/hallettj/poodle/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -162,5 +161,6 @@
       "url": "https://api.github.com/repos/PoodleApp/poodle/git/commits/0c2c141c08fbc49f49606599548eaca78aba071c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hallettj___poodle.json"
 }

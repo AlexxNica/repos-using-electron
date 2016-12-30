@@ -88,16 +88,15 @@
       "pack:osx": "npm run build:osx && ./node_modules/.bin/electron-builder \"release/osx/ZXPInstaller.app\" --platform=macos --out=\"release/osx\" --config=packager.json",
       "pack:win": "npm run build:win && ./node_modules/.bin/electron-builder \"release/win/ZXPInstaller-win32\" --platform=win --out=\"release/win\" --config=packager.json"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/CreativeDo/ZXPInstaller.git"
-    },
-    "author": "CreativeDo",
+    "repository": "https://github.com/CreativeDo/ZXPInstaller",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/CreativeDo/ZXPInstaller/issues"
-    },
-    "homepage": "https://github.com/CreativeDo/ZXPInstaller#readme"
+    "homepage": "https://github.com/CreativeDo/ZXPInstaller#readme",
+    "other": {
+      "author": "CreativeDo",
+      "bugs": {
+        "url": "https://github.com/CreativeDo/ZXPInstaller/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/CreativeDo/ZXPInstaller",
@@ -146,5 +145,6 @@
       "url": "https://api.github.com/repos/CreativeDo/ZXPInstaller/git/commits/903329730529933ca36cdbaf3b7dbf262fd0328f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "CreativeDo___ZXPInstaller.json"
 }

@@ -95,7 +95,6 @@
       "prepublish": "cd app && bower install && cd ../ui && bower install",
       "start": "export NODE_ENV=development || set NODE_ENV=development && electron app/js/main.js"
     },
-    "author": "IOTA Foundation <info@iotatoken.com>",
     "homepage": "https://www.iotatoken.com/",
     "dependencies": {
       "follow-redirects": "^0.1.0",
@@ -106,6 +105,9 @@
     },
     "devDependencies": {
       "electron-prebuilt": "^1.2.7"
+    },
+    "other": {
+      "author": "IOTA Foundation <info@iotatoken.com>"
     }
   },
   "packageStatus": 200,

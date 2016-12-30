@@ -79,17 +79,7 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/sergeybekrin/npmkit.git"
-    },
-    "bugs": {
-      "url": "https://github.com/sergeybekrin/npmkit/issues"
-    },
-    "author": {
-      "name": "Sergey Bekrin",
-      "email": "sergey@bekrin.me"
-    },
+    "repository": "https://github.com/sergeybekrin/npmkit",
     "license": "MIT",
     "devDependencies": {
       "asar": "^0.12.1",
@@ -215,8 +205,17 @@
         ]
       }
     },
-    "directories": {
-      "buildResources": "assets"
+    "other": {
+      "author": {
+        "name": "Sergey Bekrin",
+        "email": "sergey@bekrin.me"
+      },
+      "bugs": {
+        "url": "https://github.com/sergeybekrin/npmkit/issues"
+      },
+      "directories": {
+        "buildResources": "assets"
+      }
     }
   },
   "packageStatus": 200,
@@ -244,5 +243,6 @@
       "url": "https://api.github.com/repos/sergeybekrin/npmkit/git/commits/8d1a1fd08cf57db637ee26bdaa37ce23e0a4d8ee",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sergeybekrin___npmkit.json"
 }

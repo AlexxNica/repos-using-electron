@@ -80,21 +80,14 @@
       "start": "electron .",
       "test": "browserify -t babelify test/test-channel.js | tape-run | faucet"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "bootstrap": "^3.3.6",
@@ -111,6 +104,12 @@
       "irc": "",
       "linkifyjs": "^2.0.5",
       "moment": "^2.13.0"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -138,5 +137,6 @@
       "url": "https://api.github.com/repos/pietersartain/coast/git/commits/13b4ecb03eba73c1ba3de48229858070ec4579dc",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "pietersartain___coast.json"
 }

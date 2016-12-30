@@ -82,19 +82,12 @@
       "dist": "build",
       "dist-all": "build -mwl"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mglaman/conductor.git"
-    },
+    "repository": "https://github.com/mglaman/conductor",
     "keywords": [
       "composer",
       "php"
     ],
-    "author": "Matt Glaman <nmd.matt@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/mglaman/conductor/issues"
-    },
     "homepage": "https://github.com/mglaman/conductor",
     "build": {
       "appId": "com.mglaman.conductor",
@@ -136,6 +129,12 @@
     "dependencies": {
       "font-awesome": "^4.6.3",
       "getcomposer": "^1.3.2"
+    },
+    "other": {
+      "author": "Matt Glaman <nmd.matt@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/mglaman/conductor/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -163,5 +162,6 @@
       "url": "https://api.github.com/repos/mglaman/conductor/git/commits/75f1af6cc21995a56b261efd7d096cc4af3bb882",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mglaman___conductor.json"
 }

@@ -124,26 +124,11 @@
         ]
       }
     },
-    "directories": {
-      "buildResources": "resources",
-      "output": "release"
-    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/tocttou/electrondc.git"
-    },
-    "author": {
-      "name": "Ashish Chaudhary",
-      "email": "me@ashishchaudhary.in",
-      "url": "https://ashishchaudhary.in"
-    },
+    "repository": "https://github.com/tocttou/electrondc",
     "license": "GPL",
-    "bugs": {
-      "url": "git+https://github.com/tocttou/electrondc/issues"
-    },
     "keywords": [
       "electron",
       "dc"
@@ -222,6 +207,20 @@
     "devEngines": {
       "node": ">=6.x",
       "npm": ">=3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Ashish Chaudhary",
+        "email": "me@ashishchaudhary.in",
+        "url": "https://ashishchaudhary.in"
+      },
+      "bugs": {
+        "url": "git+https://github.com/tocttou/electrondc/issues"
+      },
+      "directories": {
+        "buildResources": "resources",
+        "output": "release"
+      }
     }
   },
   "packageStatus": 200,
@@ -249,5 +248,6 @@
       "url": "https://api.github.com/repos/tocttou/ElectronDC/git/commits/505c1d7166ded8cac32733cb359460fb0a08c460",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tocttou___ElectronDC.json"
 }

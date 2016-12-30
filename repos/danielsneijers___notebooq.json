@@ -69,7 +69,6 @@
     "name": "Notebooq",
     "version": "0.1.0",
     "description": "Markdown note taking for developers",
-    "author": "Daniel Sneijers <daniel@moeilijk.vet> (http://danielsneijers.com)",
     "main": "main.js",
     "scripts": {
       "start": "NODE_ENV=development concurrently -k 'babel-node server.js' 'electron .'",
@@ -113,10 +112,6 @@
           "AppImage"
         ]
       }
-    },
-    "directories": {
-      "buildResources": "resources",
-      "output": "release"
     },
     "dependencies": {
       "classnames": "^2.2.5",
@@ -177,6 +172,13 @@
       "webpack-dev-middleware": "^1.6.1",
       "webpack-hot-middleware": "^2.12.2",
       "webpack-target-electron-renderer": "^0.4.0"
+    },
+    "other": {
+      "author": "Daniel Sneijers <daniel@moeilijk.vet> (http://danielsneijers.com)",
+      "directories": {
+        "buildResources": "resources",
+        "output": "release"
+      }
     }
   },
   "packageStatus": 200,
@@ -204,5 +206,6 @@
       "url": "https://api.github.com/repos/danielsneijers/notebooq/git/commits/8dc626a26289a5fad23a088ddc9b8bc01c55b3b5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "danielsneijers___notebooq.json"
 }

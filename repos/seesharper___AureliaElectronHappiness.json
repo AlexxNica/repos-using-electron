@@ -77,16 +77,9 @@
       "vscode"
     ],
     "homepage": "http://aurelia.io",
-    "bugs": {
-      "url": "https://github.com/aurelia/skeleton-navigation-typescript/issues"
-    },
     "license": "CC0-1.0",
-    "author": "Mike Graham <mgraham@technicalmedia.com> (http://cmichaelgraham.io/)",
     "main": "dist/main.js",
-    "repository": {
-      "type": "git",
-      "url": "http://github.com/aurelia/skeleton-navigation-typescript"
-    },
+    "repository": "https://github.com/aurelia/skeleton-navigation-typescript",
     "scripts": {
       "postinstall": "./node_modules/.bin/typings install",
       "test": "gulp test",
@@ -149,6 +142,12 @@
         "text": "github:systemjs/plugin-text@^0.0.3"
       },
       "devDependencies": {}
+    },
+    "other": {
+      "author": "Mike Graham <mgraham@technicalmedia.com> (http://cmichaelgraham.io/)",
+      "bugs": {
+        "url": "https://github.com/aurelia/skeleton-navigation-typescript/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -176,5 +175,6 @@
       "url": "https://api.github.com/repos/seesharper/AureliaElectronHappiness/git/commits/124baa615b8897361833a6e293f50861dbe1e70c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "seesharper___AureliaElectronHappiness.json"
 }

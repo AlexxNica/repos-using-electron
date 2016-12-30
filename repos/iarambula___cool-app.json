@@ -78,19 +78,18 @@
       "build-windows": "electron-packager . Cool\\ App --platform=windows --arch=x64 --version=0.36.2 --icon=app/favicon.ico --overwrite",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/iarambula/cool-app.git"
-    },
-    "author": "Ivan Arambula",
+    "repository": "https://github.com/iarambula/cool-app",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/iarambula/cool-app/issues"
-    },
     "homepage": "https://github.com/iarambula/cool-app#readme",
     "devDependencies": {
       "electron-packager": "^5.2.0",
       "electron-prebuilt": "^0.36.2"
+    },
+    "other": {
+      "author": "Ivan Arambula",
+      "bugs": {
+        "url": "https://github.com/iarambula/cool-app/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -118,5 +117,6 @@
       "url": "https://api.github.com/repos/iarambula/cool-app/git/commits/25edef6ed7ec21dfebb21475754e0281fd27582b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "iarambula___cool-app.json"
 }

@@ -73,10 +73,7 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ca5/command-helper.git"
-    },
+    "repository": "https://github.com/ca5/command-helper",
     "keywords": [
       "shell",
       "command",
@@ -84,14 +81,16 @@
       "gui",
       "electron"
     ],
-    "author": "ca5",
     "license": "",
-    "bugs": {
-      "url": "https://github.com/ca5/command-helper/issues"
-    },
     "homepage": "http://ca5.me",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8"
+    },
+    "other": {
+      "author": "ca5",
+      "bugs": {
+        "url": "https://github.com/ca5/command-helper/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -119,5 +118,6 @@
       "url": "https://api.github.com/repos/ca5/command-helper/git/commits/f186ec92ddb1781affd2328cd005f9fa28c9118d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ca5___command-helper.json"
 }

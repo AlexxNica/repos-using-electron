@@ -168,7 +168,6 @@
     "version": "1.2.1",
     "description": "Mattermoz frontend app powered by electron",
     "homepage": "https://github.com/alicoding/mattermoz",
-    "author": "Brian Vanderbusch <brian@hackerhappyhour.com> (https://github.com/H3Chief)",
     "contributors": [
       "Loic Nageleisen <loic.nageleisen@gmail.com> (http://raptu.re)",
       "Chris Jaynes (https://github.com/geekytime)"
@@ -245,6 +244,9 @@
       "ghooks": {
         "pre-commit": "npm run lint && npm run test"
       }
+    },
+    "other": {
+      "author": "Brian Vanderbusch <brian@hackerhappyhour.com> (https://github.com/H3Chief)"
     }
   },
   "packageStatus": 200,

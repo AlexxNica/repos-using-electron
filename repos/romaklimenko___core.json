@@ -75,16 +75,15 @@
       "start": "electron dist",
       "test": "tape \"scripts/**/*test.js\""
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/romaklimenko/core.git"
-    },
-    "author": "romaklimenko",
+    "repository": "https://github.com/romaklimenko/core",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/romaklimenko/core/issues"
-    },
-    "homepage": "https://github.com/romaklimenko/core#readme"
+    "homepage": "https://github.com/romaklimenko/core#readme",
+    "other": {
+      "author": "romaklimenko",
+      "bugs": {
+        "url": "https://github.com/romaklimenko/core/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -111,5 +110,6 @@
       "url": "https://api.github.com/repos/romaklimenko/core/git/commits/6eff78997b6a484988fea36dd9f7dbb1c930389a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "romaklimenko___core.json"
 }

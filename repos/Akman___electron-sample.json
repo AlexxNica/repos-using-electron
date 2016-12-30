@@ -80,21 +80,9 @@
       "sample"
     ],
     "homepage": "https://github.com/Akman/electron-sample#readme",
-    "bugs": {
-      "url": "https://github.com/Akman/electron-sample/issues",
-      "email": "akman.ru@gmail.com"
-    },
     "license": "SEE LICENSE IN LICENSE",
     "private": true,
-    "author": {
-      "name": "Alexander Kapitman",
-      "email": "akman.ru@gmail.com",
-      "url": "http://znotes.net"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Akman/electron-sample.git"
-    },
+    "repository": "https://github.com/Akman/electron-sample",
     "scripts": {
       "start": "xo && electron app",
       "test": "xo",
@@ -119,6 +107,17 @@
       "electron": "^1.4.1",
       "electron-packager": "^8.0.0",
       "xo": "^0.16.0"
+    },
+    "other": {
+      "author": {
+        "name": "Alexander Kapitman",
+        "email": "akman.ru@gmail.com",
+        "url": "http://znotes.net"
+      },
+      "bugs": {
+        "url": "https://github.com/Akman/electron-sample/issues",
+        "email": "akman.ru@gmail.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -146,5 +145,6 @@
       "url": "https://api.github.com/repos/Akman/electron-sample/git/commits/842eed9c5e8d2743ed18b694dc29018c5f658e24",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Akman___electron-sample.json"
 }

@@ -64,10 +64,7 @@
       "exec-test": "electron src/majin.js --test",
       "build": "./bin/build.sh all"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/hvmonteiro/majin.git"
-    },
+    "repository": "https://github.com/hvmonteiro/majin",
     "keywords": [
       "majin",
       "browser",
@@ -75,12 +72,8 @@
       "desktop",
       "tray"
     ],
-    "author": "Hugo V. Monteiro",
     "license": "GPL-2.0",
     "url": "https://github.com/hvmonteiro/majin",
-    "bugs": {
-      "url": "https://github.com/hvmonteiro/majin/issues"
-    },
     "homepage": "https://root.hugovmonteiro.net/majin",
     "devDependencies": {
       "electron-packager": "~7.0.1",
@@ -116,7 +109,13 @@
       "x64",
       "ia32"
     ],
-    "private": true
+    "private": true,
+    "other": {
+      "author": "Hugo V. Monteiro",
+      "bugs": {
+        "url": "https://github.com/hvmonteiro/majin/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -143,5 +142,6 @@
       "url": "https://api.github.com/repos/hvmonteiro/majin/git/commits/14e8016b081f66d5df47779310ab4f461557d273",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hvmonteiro___majin.json"
 }

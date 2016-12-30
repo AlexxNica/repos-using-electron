@@ -84,11 +84,7 @@
       "try-desktop": "npm-run-all build electron",
       "pack-desktop": "electron-packager build/ --all"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/DenisKolodin/tsng2"
-    },
-    "author": "Denis Kolodin",
+    "repository": "https://github.com/DenisKolodin/tsng2",
     "license": "MIT",
     "dependencies": {
       "@angular/common": "2.0.0-rc.4",
@@ -131,6 +127,9 @@
       "typescript": "^1.8.10",
       "typings": "^1.3.1",
       "yargs": "^4.8.1"
+    },
+    "other": {
+      "author": "Denis Kolodin"
     }
   },
   "packageStatus": 200,
@@ -160,5 +159,6 @@
       "url": "https://api.github.com/repos/DenisKolodin/tsng2/git/commits/b8ba7b9a9a05454b59ec3595e4151fa0260e8770",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DenisKolodin___tsng2.json"
 }

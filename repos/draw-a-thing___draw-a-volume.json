@@ -93,26 +93,25 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/draw-a-thing/draw-a-volume.git"
-    },
+    "repository": "https://github.com/draw-a-thing/draw-a-volume",
     "keywords": [
       "image",
       "volume",
       "3d",
       "science"
     ],
-    "author": "freeman-lab",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/draw-a-thing/draw-a-volume/issues"
-    },
     "homepage": "https://github.com/draw-a-thing/draw-a-volume#readme",
     "dependencies": {
       "dom-css": "^2.0.0",
       "drag-and-drop-files": "0.0.1",
       "electron-prebuilt": "^0.37.3"
+    },
+    "other": {
+      "author": "freeman-lab",
+      "bugs": {
+        "url": "https://github.com/draw-a-thing/draw-a-volume/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -140,5 +139,6 @@
       "url": "https://api.github.com/repos/draw-a-thing/draw-a-volume/git/commits/5fdcaec98508544da0a8eb2f3a318e74a19292bd",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "draw-a-thing___draw-a-volume.json"
 }

@@ -104,19 +104,12 @@
       "rebuild-acapela": "cd ..\\acapela && node-gyp clean && timeout 5 && node-gyp configure --target=v1.3.4 --arch=x64 && timeout 5 && node ..\\coughdrop_desktop\\fix_node.js && timeout 5 && node-gyp build && copy build\\Release\\acapela.node acapela.64.node",
       "rebuild-acapela32": "cd ..\\acapela && node-gyp clean && timeout 5 && node-gyp configure --target=v1.3.4 --arch=ia32 && timeout 5 && node ..\\coughdrop_desktop\\fix_node.js && timeout 5 && node-gyp build && copy build\\Release\\acapela.node acapela.32.node"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/coughdrop/coughdrop-desktop.git"
-    },
+    "repository": "https://github.com/coughdrop/coughdrop-desktop",
     "keywords": [
       "CoughDrop",
       "AAC"
     ],
-    "author": "CoughDrop, Inc.",
     "license": "UNLICENSED",
-    "bugs": {
-      "url": "https://coughdrop.zendesk.com/hc"
-    },
     "homepage": "https://www.mycoughdrop.com",
     "dependencies": {
       "gazelinger": "https://github.com/CoughDrop/gazelinger.git",
@@ -135,6 +128,12 @@
       "electron-packager": "latest",
       "grunt": "^1.0.1",
       "grunt-electron-installer": "latest"
+    },
+    "other": {
+      "author": "CoughDrop, Inc.",
+      "bugs": {
+        "url": "https://coughdrop.zendesk.com/hc"
+      }
     }
   },
   "packageStatus": 200,
@@ -162,5 +161,6 @@
       "url": "https://api.github.com/repos/CoughDrop/coughdrop_desktop/git/commits/0b5e3b9c7c0fcd960a834da788ac5e74d5e90a4a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "CoughDrop___coughdrop_desktop.json"
 }

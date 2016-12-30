@@ -220,9 +220,6 @@
       "vagrant-rsync-linux": "VAGRANT_CWD=./test/vms/vagrant/ubuntu-14.04 vagrant rsync-auto"
     },
     "repository": "brave/browser-laptop",
-    "author": {
-      "name": "Brave Developers <support@brave.com>"
-    },
     "contributors": [
       {
         "name": "Brian R. Bondy",
@@ -326,7 +323,11 @@
     "engines": {
       "node": ">= 5.6.0"
     },
-    "other": {}
+    "other": {
+      "author": {
+        "name": "Brave Developers <support@brave.com>"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [

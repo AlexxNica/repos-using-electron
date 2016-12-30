@@ -103,20 +103,13 @@
       "clean:modules": "rimraf node_modules",
       "clean": "npm install rimraf && npm run clean:bower && npm run clean:modules"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/delian/emtorplayer.git"
-    },
+    "repository": "https://github.com/delian/emtorplayer",
     "keywords": [
       "torrent",
       "video",
       "player"
     ],
-    "author": "Delian Delchev delian.delchev@gmail.com",
     "license": "APACHE 2.0",
-    "bugs": {
-      "url": "https://github.com/delian/emtorplayer/issues"
-    },
     "homepage": "https://zamunda.se",
     "devDependencies": {
       "bower": "^1.7.7",
@@ -143,6 +136,12 @@
       "util": "^0.10.3",
       "wcjs-player": "^0.5.7",
       "wcjs-prebuilt": "^2.0.8"
+    },
+    "other": {
+      "author": "Delian Delchev delian.delchev@gmail.com",
+      "bugs": {
+        "url": "https://github.com/delian/emtorplayer/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -170,5 +169,6 @@
       "url": "https://api.github.com/repos/delian/emtorplayer/git/commits/1c2c424988d4a8db0ff1cdff216f23c78b1cb7b7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "delian___emtorplayer.json"
 }

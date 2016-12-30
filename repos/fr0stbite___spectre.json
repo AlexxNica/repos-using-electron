@@ -81,20 +81,13 @@
       "start": "electron dist/application.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/fr0stbite/spectre.git"
-    },
+    "repository": "https://github.com/fr0stbite/spectre",
     "keywords": [
       "cryptography",
       "encryption",
       "security"
     ],
-    "author": "Tomáš Rottenberg",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/fr0stbite/spectre/issues"
-    },
     "homepage": "https://github.com/fr0stbite/spectre#readme",
     "devDependencies": {
       "babel-core": "^6.18.2",
@@ -117,6 +110,12 @@
       "redux-logger": "^2.7.4",
       "redux-observable": "^0.12.2",
       "rxjs": "^5.0.0-rc.4"
+    },
+    "other": {
+      "author": "Tomáš Rottenberg",
+      "bugs": {
+        "url": "https://github.com/fr0stbite/spectre/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -144,5 +143,6 @@
       "url": "https://api.github.com/repos/fr0stbite/spectre/git/commits/4b5592fdcd547143382d778c354b60e8e0640408",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "fr0stbite___spectre.json"
 }

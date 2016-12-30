@@ -74,10 +74,7 @@
       "test": "electron .",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/kanomthai/project-pos.git"
-    },
+    "repository": "https://github.com/kanomthai/project-pos",
     "keywords": [
       "pos",
       "point-of-sale",
@@ -85,11 +82,7 @@
       "nodejs",
       "mysql"
     ],
-    "author": "Taweechai Yuenyang",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/kanomthai/project-pos/issues"
-    },
     "homepage": "https://github.com/kanomthai/project-pos#readme",
     "dependencies": {
       "electron-debug": "^1.0.1",
@@ -106,6 +99,12 @@
       "gulp": "^3.9.1",
       "gulp-livereload": "^3.8.1",
       "gulp-run": "^1.7.1"
+    },
+    "other": {
+      "author": "Taweechai Yuenyang",
+      "bugs": {
+        "url": "https://github.com/kanomthai/project-pos/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -133,5 +132,6 @@
       "url": "https://api.github.com/repos/Nodeer/project-pos/git/commits/951ca8a960659e9ecd01dcc50570ca9757d8fb8c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Nodeer___project-pos.json"
 }

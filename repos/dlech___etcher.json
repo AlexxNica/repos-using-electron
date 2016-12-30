@@ -202,7 +202,6 @@
       "start": "electron lib/start.js",
       "shrinkwrap": "node ./scripts/shrinkwrap.js"
     },
-    "author": "Juan Cruz Viotti <juan@resin.io>",
     "license": "Apache-2.0",
     "copyright": "Copyright 2016 Resinio Ltd",
     "packageIgnore": [
@@ -295,7 +294,9 @@
         "path": "./node_modules/cz-conventional-changelog"
       }
     },
-    "other": {}
+    "other": {
+      "author": "Juan Cruz Viotti <juan@resin.io>"
+    }
   },
   "packageStatus": 200,
   "contributors": [

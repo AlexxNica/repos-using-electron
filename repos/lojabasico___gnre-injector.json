@@ -55,23 +55,22 @@
       "build_macos": "electron-packager . GnreInjector --platform=darwin --arch=x64 --version=0.36.2",
       "build_windows": "electron-packager . GnreInjector --platform=win32 --arch=x64 --version=0.36.2"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/lojabasico/gnre-injector.git"
-    },
+    "repository": "https://github.com/lojabasico/gnre-injector",
     "keywords": [
       "gnre",
       "injector",
       "form",
       "automate"
     ],
-    "author": "GitHub",
     "license": "MIT",
     "homepage": "https://github.com/lojabasico/gnre-injector",
     "devDependencies": {
       "electron-packager": "^5.2.0",
       "electron-prebuilt": "^0.36.2",
       "webdriverio": "^3.4.0"
+    },
+    "other": {
+      "author": "GitHub"
     }
   },
   "packageStatus": 200,
@@ -102,5 +101,6 @@
       "url": "https://api.github.com/repos/lojabasico/gnre-injector/git/commits/80599db19c573ef0e0e2d110e21579f14996b4a4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lojabasico___gnre-injector.json"
 }

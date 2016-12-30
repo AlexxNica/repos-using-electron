@@ -74,15 +74,8 @@
       "start": "electron ./public/electron.js",
       "build": "cd public && electron-packager ./ Yakusoku --platform=darwin,win32 --arch=x64 --version=0.36.1 --icon=icon.ico"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/sairoutine/Yakusoku.git"
-    },
-    "author": "sairoutine",
+    "repository": "https://github.com/sairoutine/Yakusoku",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/sairoutine/Yakusoku/issues"
-    },
     "devDependencies": {
       "browser-sync": "2.14.3",
       "browserify": "12.0.1",
@@ -115,7 +108,13 @@
       "preloadjs": "createjs",
       "movieclipjs": "createjs"
     },
-    "homepage": "https://github.com/sairoutine/Yakusoku#readme"
+    "homepage": "https://github.com/sairoutine/Yakusoku#readme",
+    "other": {
+      "author": "sairoutine",
+      "bugs": {
+        "url": "https://github.com/sairoutine/Yakusoku/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -142,5 +141,6 @@
       "url": "https://api.github.com/repos/sairoutine/Yakusoku/git/commits/791091f2628b094216bf5e8d72583640e80a3dd3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sairoutine___Yakusoku.json"
 }

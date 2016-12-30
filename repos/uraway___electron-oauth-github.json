@@ -47,17 +47,10 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-oauth-github",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/uraway/electron-oauth-github.git"
-    },
-    "author": "Masato Urai @uraway_",
+    "repository": "https://github.com/uraway/electron-oauth-github",
     "email": "masato.u0107@gmail.com",
     "homepage": "https://github.com/uraway/electron-oauth-github",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/uraway/electron-oauth-github/issues"
-    },
     "version": "1.0.0",
     "description": "Github OAuth Window library.",
     "main": "lib/OauthGithub.js",
@@ -65,9 +58,6 @@
       "lib",
       "src"
     ],
-    "directories": {
-      "test": "test"
-    },
     "scripts": {
       "build": "babel src --out-dir lib --source-maps",
       "watch": "babel src --out-dir lib --watch --source-maps",
@@ -97,6 +87,15 @@
         "add-module-exports"
       ],
       "sourceType": "module"
+    },
+    "other": {
+      "author": "Masato Urai @uraway_",
+      "bugs": {
+        "url": "https://github.com/uraway/electron-oauth-github/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -124,5 +123,6 @@
       "url": "https://api.github.com/repos/uraway/electron-oauth-github/git/commits/7e8822d89fe2c321d9afcc66b5ee4f91799e060f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "uraway___electron-oauth-github.json"
 }

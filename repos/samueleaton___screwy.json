@@ -70,7 +70,6 @@
       "fail": "echo 'i will fail!' ; exit 1",
       "start": "env NODE_ENV=development ./bin/cli.js"
     },
-    "author": "Sam Eaton",
     "license": "MIT",
     "devDependencies": {
       "autoprefixer-stylus": "^0.8.1",
@@ -90,9 +89,9 @@
       "react": "^15.1.0",
       "react-dom": "^15.1.0"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/samueleaton/screwy"
+    "repository": "https://github.com/samueleaton/screwy",
+    "other": {
+      "author": "Sam Eaton"
     }
   },
   "packageStatus": 200,
@@ -121,5 +120,6 @@
       "url": "https://api.github.com/repos/samueleaton/screwy/git/commits/0d7391678d35d208845efa854d3ff9c1d93161c7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "samueleaton___screwy.json"
 }

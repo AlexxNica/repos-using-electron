@@ -74,7 +74,6 @@
   "packageJSON": {
     "name": "aterm",
     "description": "electron TTY terminal",
-    "author": "Steve Lacy me@slacy.me <http://slacy.me>",
     "dependencies": {
       "electron-prebuilt": "^0.37.2",
       "pty.js": "^0.3.0",
@@ -83,6 +82,9 @@
     "main": "init.js",
     "scripts": {
       "start": "electron init.js"
+    },
+    "other": {
+      "author": "Steve Lacy me@slacy.me <http://slacy.me>"
     }
   },
   "packageStatus": 200,
@@ -110,5 +112,6 @@
       "url": "https://api.github.com/repos/stevelacy/aterm/git/commits/af328982f755cf487c6d5fd0307885ff8aed919b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "stevelacy___aterm.json"
 }

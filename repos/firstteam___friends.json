@@ -187,15 +187,6 @@
     "name": "friends",
     "description": "p2p chat",
     "version": "1.0.0",
-    "author": [
-      "feross",
-      "maxogden",
-      "mafintosh",
-      "ngoldman",
-      "shama",
-      "jlord",
-      "chrisdickinson"
-    ],
     "dependencies": {
       "cat-names": "^1.0.2",
       "ctype": "^0.5.4",
@@ -285,6 +276,17 @@
       "watch-css": "mkdirp dist && stylus -u nib css/app.styl -o dist/ -w",
       "web": "beefy web.js:bundle.js",
       "rebuild-leveldb": "cd node_modules/leveldown && set HOME=~/.electron-gyp && node-gyp rebuild --target=0.25.1 --arch=x64 --dist-url=https://atom.io/download/atom-shell"
+    },
+    "other": {
+      "author": [
+        "feross",
+        "maxogden",
+        "mafintosh",
+        "ngoldman",
+        "shama",
+        "jlord",
+        "chrisdickinson"
+      ]
     }
   },
   "packageStatus": 200,

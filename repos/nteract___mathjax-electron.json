@@ -80,10 +80,7 @@
       "prepublish": "npm run build",
       "clean": "rimraf lib/* dist/*"
     },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/nteract/mathjax-electron.git"
-    },
+    "repository": "https://github.com/nteract/mathjax-electron",
     "keywords": [
       "mathjax",
       "math",
@@ -91,11 +88,7 @@
       "tex",
       "electron"
     ],
-    "author": "Lukas Geiger",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/nteract/mathjax-electron/issues"
-    },
     "devDependencies": {
       "babel-cli": "^6.11.4",
       "babel-core": "^6.13.2",
@@ -107,6 +100,12 @@
       "jsdoc": "^3.4.0",
       "mkdirp": "^0.5.1",
       "rimraf": "^2.5.4"
+    },
+    "other": {
+      "author": "Lukas Geiger",
+      "bugs": {
+        "url": "https://github.com/nteract/mathjax-electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -135,5 +134,6 @@
       "url": "https://api.github.com/repos/nteract/mathjax-electron/git/commits/d7c36a7f091d5a42fd9b73860e09b30797e22dd3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "nteract___mathjax-electron.json"
 }

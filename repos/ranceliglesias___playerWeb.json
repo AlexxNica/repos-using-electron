@@ -74,18 +74,11 @@
       "start": "reload -b",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/christiannwamba/scotch-player.git"
-    },
+    "repository": "https://github.com/christiannwamba/scotch-player",
     "keywords": [
       "react",
       "music"
     ],
-    "author": "Rancel Iglesias",
-    "bugs": {
-      "url": "https://github.com/christiannwamba/scotch-player/issues"
-    },
     "homepage": "https://github.com/christiannwamba/scotch-player#readme",
     "dependencies": {
       "axios": "^0.9.1",
@@ -103,6 +96,12 @@
       "reload": "^1.0.1",
       "soundmanager2": "^2.97.20150601-a",
       "watchify": "^3.7.0"
+    },
+    "other": {
+      "author": "Rancel Iglesias",
+      "bugs": {
+        "url": "https://github.com/christiannwamba/scotch-player/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/ranceliglesias/playerWeb/git/commits/7dd90b3414e89464c480bb7fd476ec48c0b0745a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ranceliglesias___playerWeb.json"
 }

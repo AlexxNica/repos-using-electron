@@ -53,26 +53,25 @@
     "scripts": {
       "test": "node -e \"require('child_process').spawn(require('electron-prebuilt'), ['./test'], { stdio: 'inherit' })\""
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/pfraze/pauls-electron-rpc.git"
-    },
+    "repository": "https://github.com/pfraze/pauls-electron-rpc",
     "keywords": [
       "electron",
       "rpc",
       "ipc"
     ],
-    "author": "Paul Frazee <pfrazee@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/pfraze/pauls-electron-rpc/issues"
-    },
     "homepage": "https://github.com/pfraze/pauls-electron-rpc#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.6",
       "multicb": "^1.2.1",
       "tape": "^4.6.0",
       "tape-dom": "0.0.10"
+    },
+    "other": {
+      "author": "Paul Frazee <pfrazee@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/pfraze/pauls-electron-rpc/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -100,5 +99,6 @@
       "url": "https://api.github.com/repos/pfrazee/pauls-electron-rpc/git/commits/601093ccda3886b753254f2dec44253ddec49810",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "pfrazee___pauls-electron-rpc.json"
 }

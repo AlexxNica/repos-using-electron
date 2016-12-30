@@ -85,11 +85,6 @@
     "homepage": "https://github.com/AcklenAvenue/Blue-Jedi-Frontend",
     "name": "cfapp",
     "license": "CDDL-1.0",
-    "author": {
-      "name": "Acklen Avenue",
-      "email": "developers@acklenavenue.com",
-      "url": "https://github.com/AcklenAvenue"
-    },
     "version": "1.0.0",
     "engines": {
       "node": "<0.12"
@@ -129,10 +124,7 @@
       "pack": "build --dir",
       "dist": "build"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/AcklenAvenue/Blue-Jedi-Frontend"
-    },
+    "repository": "https://github.com/AcklenAvenue/Blue-Jedi-Frontend",
     "keywords": [
       "electron",
       "angular",
@@ -141,9 +133,6 @@
       "applications",
       "web"
     ],
-    "bugs": {
-      "url": "https://github.com/AcklenAvenue/Blue-Jedi-Frontend/issues"
-    },
     "devDependencies": {
       "babel": "^5.6.14",
       "babel-jest": "^5.3.0",
@@ -242,6 +231,16 @@
         "__tests__/app/",
         "/node_modules/"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "Acklen Avenue",
+        "email": "developers@acklenavenue.com",
+        "url": "https://github.com/AcklenAvenue"
+      },
+      "bugs": {
+        "url": "https://github.com/AcklenAvenue/Blue-Jedi-Frontend/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -269,5 +268,6 @@
       "url": "https://api.github.com/repos/AcklenAvenue/blueJediVersionManager/git/commits/6c3cb6da39918a3015758c1a7b8b9e0db174d694",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "AcklenAvenue___blueJediVersionManager.json"
 }

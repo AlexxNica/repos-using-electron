@@ -79,10 +79,7 @@
       "release": "build",
       "test": "fish -c \"killall Electron\" -c \"killall Electron\" -c \"npm start\""
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/monsterkodi/clippo.git"
-    },
+    "repository": "https://github.com/monsterkodi/clippo",
     "keywords": [
       "electron",
       "mac",
@@ -94,11 +91,7 @@
       "clipboard",
       "pasteboard"
     ],
-    "author": "monsterkodi",
     "license": "Unlicense",
-    "bugs": {
-      "url": "https://github.com/monsterkodi/clippo/issues"
-    },
     "build": {
       "app-bundle-id": "net.monsterkodi.clippo",
       "app-category-type": "public.app-category.utilities",
@@ -133,6 +126,12 @@
       "keycode": "^2.1.2",
       "lodash": "^4.13.1",
       "noon": "^1.0.9"
+    },
+    "other": {
+      "author": "monsterkodi",
+      "bugs": {
+        "url": "https://github.com/monsterkodi/clippo/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -160,5 +159,6 @@
       "url": "https://api.github.com/repos/monsterkodi/clippo/git/commits/7498737e0540cc7daf8e4b038dd9cc1f11df8f3c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "monsterkodi___clippo.json"
 }

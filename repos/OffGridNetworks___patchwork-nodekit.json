@@ -214,7 +214,6 @@
       "server": "node _offgrid/server/server",
       "dev": "NODE_ENV=development node _offgrid/server/devServer"
     },
-    "author": "Paul Frazee <pfrazee@gmail.com>",
     "contributors": [
       "SSBC contributors",
       "OffGridNetworks <admin@offgridnetworks.com>"
@@ -326,6 +325,9 @@
     },
     "bin": {
       "patchwork": "./bin.js"
+    },
+    "other": {
+      "author": "Paul Frazee <pfrazee@gmail.com>"
     }
   },
   "packageStatus": 200,

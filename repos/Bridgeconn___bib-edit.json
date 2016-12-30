@@ -76,21 +76,14 @@
       "postinstall": "cd node_modules/leveldown && HOME=~/.electron-gyp node-gyp rebuild --target=1.2.0 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
       "postinstall_windows": "cd node_modules/pouchdb/node_modules/leveldown; node-gyp rebuild --target=1.2.7 --dist-url=https://atom.io/download/atom-shell"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Bridgeconn/bib-edit.git"
-    },
+    "repository": "https://github.com/Bridgeconn/bib-edit",
     "keywords": [
       "desktop",
       "Bible Editor",
       "USFM",
       "USFM Editor"
     ],
-    "author": "Bridgeconn",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Bridgeconn/bib-edit/issues"
-    },
     "homepage": "https://github.com/Bridgeconn/bib-edit#readme",
     "devDependencies": {
       "electron-prebuilt": "1.2.7"
@@ -102,6 +95,12 @@
     "build": {
       "appId": "com.autographa.free",
       "app-category-type": "public.app.category.business"
+    },
+    "other": {
+      "author": "Bridgeconn",
+      "bugs": {
+        "url": "https://github.com/Bridgeconn/bib-edit/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -131,5 +130,6 @@
       "url": "https://api.github.com/repos/Bridgeconn/bib-edit/git/commits/9f76c300d9f11bf663c4bb1f002093978852cf8d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Bridgeconn___bib-edit.json"
 }

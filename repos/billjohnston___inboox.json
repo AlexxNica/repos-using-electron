@@ -50,7 +50,6 @@
     "version": "1.0.0",
     "description": "Multi-account Google Inbox desktop app",
     "main": "./main.js",
-    "author": "Bill Johnston <billjohnston4@gmail.com>",
     "scripts": {
       "start": "electron ./electron/main.js",
       "build": "webpack --progress --colors",
@@ -89,6 +88,9 @@
       "react-redux": "^4.0.6",
       "react-tap-event-plugin": "^0.2.1",
       "redux": "^3.0.5"
+    },
+    "other": {
+      "author": "Bill Johnston <billjohnston4@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -136,5 +138,6 @@
       "url": "https://api.github.com/repos/billjohnston/inboox/git/commits/5611528b1cc8ad88b88a852fa0a1473299ae525b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "billjohnston___inboox.json"
 }

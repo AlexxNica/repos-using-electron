@@ -76,20 +76,13 @@
       "package": "node ./build.js",
       "build": "build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/codefoxes/firebase-admin.git"
-    },
+    "repository": "https://github.com/codefoxes/firebase-admin",
     "keywords": [
       "firebase",
       "admin",
       "management"
     ],
-    "author": "codefoxes",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/codefoxes/firebase-admin/issues"
-    },
     "homepage": "https://github.com/codefoxes/firebase-admin#readme",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -145,6 +138,12 @@
         "target": "deb",
         "maintainer": "dev@codefoxes.com"
       }
+    },
+    "other": {
+      "author": "codefoxes",
+      "bugs": {
+        "url": "https://github.com/codefoxes/firebase-admin/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -193,5 +192,6 @@
       "url": "https://api.github.com/repos/codefoxes/firebase-admin/git/commits/59aefe4be1cbb260010d1a30b4faacabe1c427ed",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "codefoxes___firebase-admin.json"
 }

@@ -54,14 +54,10 @@
       "start": "gulp start",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/mpoegel/todos"
-    },
+    "repository": "https://github.com/mpoegel/todos",
     "keywords": [
       "todos"
     ],
-    "author": "Matt Poegel",
     "license": "MIT",
     "dependencies": {
       "electron-json-storage": "^2.0.0",
@@ -74,6 +70,9 @@
     "devDependencies": {
       "gulp": "^3.9.1",
       "gulp-less": "^3.0.5"
+    },
+    "other": {
+      "author": "Matt Poegel"
     }
   },
   "packageStatus": 200,
@@ -121,5 +120,6 @@
       "url": "https://api.github.com/repos/mpoegel/Todos/git/commits/71079763d16d3b7325dc613aa3a9905344c2cda2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mpoegel___Todos.json"
 }

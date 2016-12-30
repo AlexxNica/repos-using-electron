@@ -49,21 +49,14 @@
     "name": "gitebook",
     "version": "0.0.0",
     "description": "This is the awesome notebook for geek :books: :octocat: :tada:",
-    "author": "ArLE <ARLEQUIN.prx@gmail.com>",
     "private": true,
-    "bugs": {
-      "url": "https://github.com/ArLEquiN64/gitebook/issues"
-    },
     "homepage": "https://github.com/ArLEquiN64/gitebook#readme",
     "main": "index.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ArLEquiN64/gitebook.git"
-    },
+    "repository": "https://github.com/ArLEquiN64/gitebook",
     "devDependencies": {
       "babel-eslint": "^6.0.2",
       "babel-plugin-transform-react-jsx": "^6.7.5",
@@ -89,6 +82,12 @@
     },
     "dependencies": {
       "marked": "^0.3.5"
+    },
+    "other": {
+      "author": "ArLE <ARLEQUIN.prx@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/ArLEquiN64/gitebook/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -116,5 +115,6 @@
       "url": "https://api.github.com/repos/ArLEquiN64/gitebook/git/commits/85f34f8166096fb273bb428c0d6d8d23925c642c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ArLEquiN64___gitebook.json"
 }

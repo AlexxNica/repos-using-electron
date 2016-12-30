@@ -75,15 +75,8 @@
       "start": "./node_modules/.bin/electron .",
       "dev": "./node_modules/.bin/webpack --progress --colors --watch --display-error-details"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/ghernandez345/electronToy.git"
-    },
-    "author": "Gabriel Hernandez",
+    "repository": "https://github.com/ghernandez345/electronToy",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/ghernandez345/electronToy/issues"
-    },
     "homepage": "https://github.com/ghernandez345/electronToy#readme",
     "devDependencies": {
       "babel-core": "^6.13.2",
@@ -105,6 +98,12 @@
       "react-dom": "^15.3.1",
       "react-redux": "^4.4.5",
       "redux": "^3.5.2"
+    },
+    "other": {
+      "author": "Gabriel Hernandez",
+      "bugs": {
+        "url": "https://github.com/ghernandez345/electronToy/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/ghernandez345/electronToy/git/commits/a9e0fd1693876ea962851d161389db8b1578d224",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ghernandez345___electronToy.json"
 }

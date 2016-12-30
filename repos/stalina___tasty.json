@@ -56,14 +56,8 @@
     "version": "0.0.1",
     "description": "Application test tool made natural",
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/stalina/tasty.git"
-    },
+    "repository": "https://github.com/stalina/tasty",
     "license": "Apache 2.0",
-    "bugs": {
-      "url": "https://github.com/stalina/tasty/issues"
-    },
     "homepage": "https://github.com/stalina/tasty#readme",
     "devDependencies": {
       "chromedriver": "^2.21.2",
@@ -106,6 +100,11 @@
     "dest": {
       "app": "app.js",
       "dist": "dist"
+    },
+    "other": {
+      "bugs": {
+        "url": "https://github.com/stalina/tasty/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -133,5 +132,6 @@
       "url": "https://api.github.com/repos/stalina/tasty/git/commits/0ccb0d3f6ceb714bb422f4af7dab9ea2d8cbfb0e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "stalina___tasty.json"
 }

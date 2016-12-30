@@ -79,21 +79,14 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/waxmarty/pingpong.git"
-    },
+    "repository": "https://github.com/waxmarty/pingpong",
     "keywords": [
       "Deadsimple",
       "Ping",
       "Pong",
       "Game"
     ],
-    "author": "waxmarty",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/waxmarty/pingpong/issues"
-    },
     "homepage": "https://github.com/waxmarty/pingpong#readme",
     "dependencies": {
       "alertify.js": "^1.0.11"
@@ -101,6 +94,12 @@
     "devDependencies": {
       "electron-packager": "^7.1.0",
       "electron-prebuilt": "^1.2.5"
+    },
+    "other": {
+      "author": "waxmarty",
+      "bugs": {
+        "url": "https://github.com/waxmarty/pingpong/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/waxmarty/pingpong/git/commits/c068fb9ad002d5efd98afa7779d78096d882edc7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "waxmarty___pingpong.json"
 }

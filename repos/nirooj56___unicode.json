@@ -91,11 +91,6 @@
       "zip_url": "https://github.com/nirooj56/unicode/archive/master.zip",
       "api_url": "https://api.github.com/repos/nirooj56/unicode"
     },
-    "author": {
-      "name": "Bista Nirooj",
-      "email": "nirooj56@gmail.com",
-      "url": "http://nirojbista.com.np"
-    },
     "main": "main.js",
     "devDependencies": {
       "electron": "^1.4.4"
@@ -103,7 +98,14 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "other": {
+      "author": {
+        "name": "Bista Nirooj",
+        "email": "nirooj56@gmail.com",
+        "url": "http://nirojbista.com.np"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [

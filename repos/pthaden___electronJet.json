@@ -69,9 +69,6 @@
     "name": "electronJet",
     "version": "1.0.0",
     "description": "A sample Oracle JavaScript Extension Toolkit (JET) web app wrapped in Electron",
-    "author": {
-      "name": "Paul Thaden"
-    },
     "main": "main.js",
     "scripts": {
       "postinstall": "bower install && grunt bowercopy",
@@ -90,7 +87,12 @@
     "engines": {
       "node": ">=0.10.0"
     },
-    "private": true
+    "private": true,
+    "other": {
+      "author": {
+        "name": "Paul Thaden"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [],
@@ -115,5 +117,6 @@
       "url": "https://api.github.com/repos/pthaden/electronJet/git/commits/9bd5a5c17c98dd97f7b0038e7ea43e3e8ebd8cfa",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "pthaden___electronJet.json"
 }

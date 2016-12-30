@@ -194,9 +194,6 @@
       "test": "NODE_ENV=test mocha --compilers js:babel-register --recursive $(find test -name '*Test.js')"
     },
     "repository": "brave/browser-laptop",
-    "author": {
-      "name": "Brave Developers <support@brave.com>"
-    },
     "contributors": [
       {
         "name": "Brian R. Bondy",
@@ -295,6 +292,11 @@
     "engineStrict": true,
     "engines": {
       "node": ">= 5.6.0"
+    },
+    "other": {
+      "author": {
+        "name": "Brave Developers <support@brave.com>"
+      }
     }
   },
   "packageStatus": 200,

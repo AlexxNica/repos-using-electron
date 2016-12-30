@@ -75,10 +75,7 @@
       "react:build:watch": "webpack -w",
       "start": "webpack && electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/vinicius-pretto/human-resources-admin.git"
-    },
+    "repository": "https://github.com/vinicius-pretto/human-resources-admin",
     "keywords": [
       "React",
       "Babel",
@@ -86,11 +83,7 @@
       "Electron",
       "Node"
     ],
-    "author": "Vinicius Pretto <vini.prettodasilva@gmail.com> (https://github.com/vinicius-pretto)",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/vinicius-pretto/human-resources-admin/issues"
-    },
     "homepage": "https://github.com/vinicius-pretto/human-resources-admin#readme",
     "dependencies": {
       "axios": "^0.15.2",
@@ -109,6 +102,12 @@
       "babel-preset-react": "^6.16.0",
       "electron": "^1.4.4",
       "webpack": "^1.13.2"
+    },
+    "other": {
+      "author": "Vinicius Pretto <vini.prettodasilva@gmail.com> (https://github.com/vinicius-pretto)",
+      "bugs": {
+        "url": "https://github.com/vinicius-pretto/human-resources-admin/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,6 @@
       "url": "https://api.github.com/repos/vinicius-pretto/human-resources-admin/git/commits/e35839359b253cc8c0e116e5c8da67c53e7f6803",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "vinicius-pretto___human-resources-admin.json"
 }

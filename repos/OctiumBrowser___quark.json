@@ -72,21 +72,20 @@
       "test": "echo \"WARNING: Test not yet implemented. Going to succeed.\" && exit 0",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/OctiumBrowser/quark.git"
-    },
+    "repository": "https://github.com/OctiumBrowser/quark",
     "keywords": [
       "browser",
       "web",
       "electron"
     ],
-    "author": "Kouroche Bouchiat",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/OctiumBrowser/quark/issues"
-    },
-    "homepage": "https://github.com/OctiumBrowser/quark#readme"
+    "homepage": "https://github.com/OctiumBrowser/quark#readme",
+    "other": {
+      "author": "Kouroche Bouchiat",
+      "bugs": {
+        "url": "https://github.com/OctiumBrowser/quark/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/OctiumBrowser/quark",
@@ -134,5 +133,6 @@
       "url": "https://api.github.com/repos/OctiumBrowser/quark/git/commits/822947c1fbabde92cec0c6fbc335a3ecbdb46475",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "OctiumBrowser___quark.json"
 }

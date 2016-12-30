@@ -91,15 +91,7 @@
     "version": "0.0.0",
     "description": "Write Once, Build Anywhere.",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/balmjs/balm-app.git"
-    },
-    "author": {
-      "name": "Elf-mousE",
-      "email": "ifmouz@gmail.com",
-      "url": "http://elf-mouse.me/"
-    },
+    "repository": "https://github.com/balmjs/balm-app",
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -128,6 +120,13 @@
         "node",
         "browser"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "Elf-mousE",
+        "email": "ifmouz@gmail.com",
+        "url": "http://elf-mouse.me/"
+      }
     }
   },
   "packageStatus": 200,
@@ -155,5 +154,6 @@
       "url": "https://api.github.com/repos/balmjs/balm-app/git/commits/69329aaf25ea462b26d485706ed85d075b774abd",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "balmjs___balm-app.json"
 }

@@ -69,7 +69,6 @@
     "name": "Appworks",
     "version": "0.9.0",
     "main": "main.js",
-    "author": "Camille Sardin",
     "description": "Note and file manager",
     "keywords": [
       "Appworks",
@@ -97,8 +96,11 @@
       "mkdirp": "latest",
       "ncp": "latest"
     },
-    "directories": {
-      "output": "../dist"
+    "other": {
+      "author": "Camille Sardin",
+      "directories": {
+        "output": "../dist"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +128,6 @@
       "url": "https://api.github.com/repos/Kaeldazs/Appworks-2/git/commits/bb7ed5bcfa41a29bc02c05b4c79f89b901b894c4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Kaeldazs___Appworks-2.json"
 }

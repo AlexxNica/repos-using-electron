@@ -74,23 +74,22 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/anyzicky/converter.git"
-    },
+    "repository": "https://github.com/anyzicky/converter",
     "keywords": [
       "md5",
       "sha",
       "electron"
     ],
-    "author": "Suraev Denis",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/anyzicky/converter/issues"
-    },
     "homepage": "https://github.com/anyzicky/converter#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
+    },
+    "other": {
+      "author": "Suraev Denis",
+      "bugs": {
+        "url": "https://github.com/anyzicky/converter/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -118,5 +117,6 @@
       "url": "https://api.github.com/repos/anyzicky/converter/git/commits/b367ab4e177d5eb613be8d4b402f33e11633d8e7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "anyzicky___converter.json"
 }

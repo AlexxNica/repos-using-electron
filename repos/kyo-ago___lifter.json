@@ -49,8 +49,6 @@
     "name": "lifter",
     "description": "Electron Local Proxy for Fiddler users",
     "version": "0.0.1",
-    "author": "@kyo_ago",
-    "bugs": "https://github.com/kyo-ago/lifter/issues",
     "dependencies": {
       "@reactivex/rxjs": "^5.0.0-rc.1",
       "browserify": "^13.1.1",
@@ -106,6 +104,10 @@
       "start": "electron app",
       "test": "mocha build/test/**/*-test.js",
       "watch": "tsc -p ./tsconfig.json --watch"
+    },
+    "other": {
+      "author": "@kyo_ago",
+      "bugs": "https://github.com/kyo-ago/lifter/issues"
     }
   },
   "packageStatus": 200,
@@ -155,5 +157,6 @@
       "url": "https://api.github.com/repos/kyo-ago/lifter/git/commits/41c2740dc9666c4b0cec2f8d65def021c38cc613",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kyo-ago___lifter.json"
 }

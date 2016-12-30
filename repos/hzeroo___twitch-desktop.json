@@ -55,7 +55,6 @@
     "name": "twitch-desktop",
     "version": "1.0.0",
     "description": "Twitch Desktop Client",
-    "author": "hzero <edusvh@gmail.com",
     "scripts": {
       "build-renderer:dev": "webpack -d --config webpack.config.electron-renderer.js --progress --profile --colors --watch",
       "build-main": "webpack -p --config webpack.config.electron-main.js --progress --profile --colors",
@@ -103,6 +102,9 @@
       "bourbon": "^4.2.7",
       "proto-loader": "^0.2.0",
       "protobufjs": "^5.0.1"
+    },
+    "other": {
+      "author": "hzero <edusvh@gmail.com"
     }
   },
   "packageStatus": 200,
@@ -130,5 +132,6 @@
       "url": "https://api.github.com/repos/hzeroo/twitch-desktop/git/commits/372da8eb72908c70b694016cece2feaa30645bd0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hzeroo___twitch-desktop.json"
 }

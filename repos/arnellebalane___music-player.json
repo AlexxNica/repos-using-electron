@@ -83,20 +83,13 @@
       "pack": "build",
       "dist": "build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/arnellebalane/music-player.git"
-    },
+    "repository": "https://github.com/arnellebalane/music-player",
     "keywords": [
       "music",
       "player",
       "electron"
     ],
-    "author": "Arnelle Balane <arnellebalane@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/arnellebalane/music-player/issues"
-    },
     "homepage": "https://github.com/arnellebalane/music-player#readme",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -120,6 +113,12 @@
       "app-bundle-id": "com.arnellebalane.music-player",
       "app-category-type": "public.app-category.entertainment",
       "productName": "Music Player"
+    },
+    "other": {
+      "author": "Arnelle Balane <arnellebalane@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/arnellebalane/music-player/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -147,5 +146,6 @@
       "url": "https://api.github.com/repos/arnellebalane/music-player/git/commits/49b1391cbe2dc26bdffa2c70ee8b8562463f37db",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "arnellebalane___music-player.json"
 }

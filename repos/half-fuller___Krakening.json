@@ -74,7 +74,6 @@
       "start": "electron src/main.js",
       "build": "electron-packager ./ Krakening --platform=darwin --arch=x64 --overwrite --version=0.35.6 --app-version=0.2 --icon=./src/assets/icons.icns --out=./dist/"
     },
-    "author": "David Fuller",
     "license": "ISC",
     "dependencies": {
       "kraken": "^0.3.2",
@@ -82,6 +81,9 @@
       "electron-prebuilt": "^0.36.0",
       "body-parser": "*",
       "electron-packager": "*"
+    },
+    "other": {
+      "author": "David Fuller"
     }
   },
   "packageStatus": 200,
@@ -109,5 +111,6 @@
       "url": "https://api.github.com/repos/half-fuller/Krakening/git/commits/4ed666924e2516c7f9ab4cadce2b04f3b9343b16",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "half-fuller___Krakening.json"
 }

@@ -56,7 +56,6 @@
     "private": true,
     "version": "3.0.0",
     "description": "The perfect Twitch companion for your Mac or Windows PC or Linux PC. PogChamp",
-    "author": "Bryan Veloso <bryan@avalonstar.com>",
     "main": "main.js",
     "scripts": {
       "test": "cross-env NODE_ENV=test mocha --compilers js:babel-register --recursive --require ./test/setup.js test/**/*.spec.js",
@@ -146,6 +145,9 @@
     "devEngines": {
       "node": "4.x || 5.x || 6.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": "Bryan Veloso <bryan@avalonstar.com>"
     }
   },
   "packageStatus": 200,
@@ -195,5 +197,6 @@
       "url": "https://api.github.com/repos/bryanveloso/shiver-electron/git/commits/6cea9310ad54ca59862b5ec31319179df3fd22fe",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "bryanveloso___shiver-electron.json"
 }

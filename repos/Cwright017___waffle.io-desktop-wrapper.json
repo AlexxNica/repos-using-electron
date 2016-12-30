@@ -61,21 +61,14 @@
       "start-no-lint": "NODE_ENV=development gulp start-dev-no-lint",
       "package": "gulp"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Cwright017/waffle.io-desktop-wrapper.git"
-    },
+    "repository": "https://github.com/Cwright017/waffle.io-desktop-wrapper",
     "keywords": [
       "Electron",
       "waffle.io",
       "waffle",
       "github"
     ],
-    "author": "CWright017",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/Cwright017/waffle.io-desktop-wrapper/issues"
-    },
     "homepage": "https://github.com/Cwright017/waffle.io-desktop-wrapper#readme",
     "devDependencies": {
       "babel-preset-es2015": "^6.5.0",
@@ -92,6 +85,12 @@
     },
     "dependencies": {
       "node-fetch": "^1.3.3"
+    },
+    "other": {
+      "author": "CWright017",
+      "bugs": {
+        "url": "https://github.com/Cwright017/waffle.io-desktop-wrapper/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -139,5 +138,6 @@
       "url": "https://api.github.com/repos/Cwright017/waffle.io-desktop-wrapper/git/commits/b6c52d15f997d2a54cb2c368389da1c9a51486ad",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Cwright017___waffle.io-desktop-wrapper.json"
 }

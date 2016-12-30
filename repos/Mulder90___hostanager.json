@@ -63,18 +63,11 @@
       "dist": "gulp release && npm run package",
       "start": "electron . –enable-logging"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Mulder90/thc.git"
-    },
+    "repository": "https://github.com/Mulder90/thc",
     "keywords": [
       "hosts"
     ],
-    "author": "Lorenzo Cinque",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Mulder90/thc/issues"
-    },
     "homepage": "https://github.com/Mulder90/thc",
     "dependencies": {
       "menubar": "^5.1.0",
@@ -112,6 +105,12 @@
       "vinyl-buffer": "^1.0.0",
       "vinyl-source-stream": "^1.1.0",
       "watchify": "^3.7.0"
+    },
+    "other": {
+      "author": "Lorenzo Cinque",
+      "bugs": {
+        "url": "https://github.com/Mulder90/thc/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -139,5 +138,6 @@
       "url": "https://api.github.com/repos/Mulder90/thc/git/commits/5bdf8cf168b1231b7d4e0d657862ec2150545f08",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Mulder90___hostanager.json"
 }

@@ -55,15 +55,10 @@
     "name": "electron-hello-world",
     "description": "Absolute bare minimum Hello World Electron app",
     "version": "1.0.0",
-    "author": "Nate Goldman <nate@ngoldman.me>",
     "src": "src",
     "test": "test",
-    "dist": "dist",
     "mainInput": "FlicWebshopApp",
     "mainOutput": "main",
-    "bugs": {
-      "url": "https://github.com/ngoldman/electron-hello-world/issues"
-    },
     "dependencies": {
       "events": "^1.0.2",
       "flux": "^2.0.1",
@@ -122,13 +117,17 @@
     "license": "CC-0",
     "main": "index.js",
     "private": true,
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/ngoldman/electron-hello-world.git"
-    },
+    "repository": "https://github.com/ngoldman/electron-hello-world",
     "scripts": {
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "other": {
+      "author": "Nate Goldman <nate@ngoldman.me>",
+      "bugs": {
+        "url": "https://github.com/ngoldman/electron-hello-world/issues"
+      },
+      "dist": "dist"
     }
   },
   "packageStatus": 200,
@@ -176,5 +175,6 @@
       "url": "https://api.github.com/repos/tobiasandersen/jeopardy/git/commits/157fc2d7e62817732a2909d2919fb3ccdddadaa0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tobiasandersen___jeopardy.json"
 }

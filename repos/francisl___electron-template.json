@@ -81,21 +81,14 @@
       "flow": "flow; test $? -eq 0 -o $? -eq 2",
       "start": "npm run flow; npm run build; electron dist/electron.bundle.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:francisl/bigstoat.git"
-    },
+    "repository": "https://github.com/francisl/bigstoat",
     "keywords": [
       "File Manager",
       "File Explorer",
       "html5",
       "electron"
     ],
-    "author": "Francis Lavoie",
     "license": "MPL-2.0",
-    "bugs": {
-      "url": "https://github.com/atom/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "babel-cli": "^6.6.5",
@@ -115,6 +108,12 @@
     "dependencies": {
       "react": "^0.14.7",
       "react-dom": "^0.14.7"
+    },
+    "other": {
+      "author": "Francis Lavoie",
+      "bugs": {
+        "url": "https://github.com/atom/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -142,5 +141,6 @@
       "url": "https://api.github.com/repos/francisl/electron-template/git/commits/a291909d4d007acdbadaebc83e9333181e5772b9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "francisl___electron-template.json"
 }

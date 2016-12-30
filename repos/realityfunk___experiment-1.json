@@ -93,15 +93,8 @@
       "cordova-init": "./scripts/cordova-init.sh",
       "test": "mocha-webpack --require source-map-support/register --require babel-polyfill --webpack-config ./webpack/test.js \"src/test/**/*.test.js\""
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/realityfunk/experiment-1.git"
-    },
-    "author": "Alexander Thiel",
+    "repository": "https://github.com/realityfunk/experiment-1",
     "license": "UNLICENSED",
-    "bugs": {
-      "url": "https://github.com/realityfunk/experiment-1/issues"
-    },
     "homepage": "https://github.com/realityfunk/experiment-1#readme",
     "devDependencies": {
       "autoprefixer": "^6.4.0",
@@ -165,6 +158,12 @@
       "reselect": "^2.5.4",
       "sinon": "^1.17.6",
       "tiny-emitter": "^1.1.0"
+    },
+    "other": {
+      "author": "Alexander Thiel",
+      "bugs": {
+        "url": "https://github.com/realityfunk/experiment-1/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -193,5 +192,6 @@
       "url": "https://api.github.com/repos/realityfunk/experiment-1/git/commits/02db069dcbaa29b503980c3aafa217ec7bdf560e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "realityfunk___experiment-1.json"
 }

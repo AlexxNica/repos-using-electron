@@ -64,7 +64,6 @@
       "electron"
     ],
     "main": "./dist/electronApp.js",
-    "author": "Dimitar Dobchev <ddobchev@gmail.com>",
     "homepage": "https://github.com/funyx/simple-chat-app",
     "license": "MIT",
     "scripts": {
@@ -212,10 +211,7 @@
       "webpack-md5-hash": "^0.0.5",
       "webpack-merge": "^0.14.1"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/funyx/simple-chat-app"
-    },
+    "repository": "https://github.com/funyx/simple-chat-app",
     "engines": {
       "node": ">= 4.2.1",
       "npm": ">= 3"
@@ -223,6 +219,9 @@
     "build": {
       "appId": "simple_chat",
       "category": "chat"
+    },
+    "other": {
+      "author": "Dimitar Dobchev <ddobchev@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -250,5 +249,6 @@
       "url": "https://api.github.com/repos/funyx/simple-chat-app/git/commits/50c1969a60aeaf797616f5083f5ec165bd86e236",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "funyx___simple-chat-app.json"
 }

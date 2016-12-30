@@ -76,11 +76,7 @@
       "dev": "SCIENCEFAIR_DEVMODE=TRUE electron index.js",
       "rebuild": "npm rebuild --runtime=electron --target=1.1.3 --disturl=https://atom.io/download/atom-shell --abi=48"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/codeforscience/sciencefair.git"
-    },
-    "author": "code-for-science",
+    "repository": "https://github.com/codeforscience/sciencefair",
     "license": "MIT",
     "dependencies": {
       "d3": "^3.5.17",
@@ -119,7 +115,10 @@
       "mkdirp": "^0.5.1",
       "rimraf": "^2.5.2"
     },
-    "productName": "ScienceFair"
+    "productName": "ScienceFair",
+    "other": {
+      "author": "code-for-science"
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/codeforscience/sciencefair",
@@ -169,5 +168,6 @@
       "url": "https://api.github.com/repos/codeforscience/sciencefair/git/commits/5e11d67cbdf492434ab1437b2e082124a078aa56",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "codeforscience___sciencefair.json"
 }

@@ -63,15 +63,8 @@
       "build:linux": "electron-packager . --overwrite --out=executables --ignore='^media$' --prune --platform=linux --arch=x64 --app-bundle-id=io.github.hermanya --app-version=$npm_package_version && cd \"executables/${npm_package_productName}-linux-x64\" && zip -ryq9 ../${npm_package_name}-linux.zip *",
       "build:windows": "electron-packager . --overwrite --out=executables --ignore='^media$' --prune --platform=win32 --arch=ia32 --version-string.ProductName=$npm_package_productName --app-version=$npm_package_version && cd executables/${npm_package_name}-win32-ia32 && zip -ryq9 ../${npm_package_name}-windows.zip *"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/hermanya/listenable-browser.git"
-    },
-    "author": "Herman Starikov",
+    "repository": "https://github.com/hermanya/listenable-browser",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/hermanya/listenable-browser/issues"
-    },
     "homepage": "https://github.com/hermanya/listenable-browser#readme",
     "devDependencies": {
       "babel-eslint": "^6.1.2",
@@ -95,6 +88,12 @@
         "/node_modules/",
         "/executables/"
       ]
+    },
+    "other": {
+      "author": "Herman Starikov",
+      "bugs": {
+        "url": "https://github.com/hermanya/listenable-browser/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -142,5 +141,6 @@
       "url": "https://api.github.com/repos/Hermanya/listenable-browser/git/commits/f6c34a143b7f9228fa8999b5d394981c8104f9a9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Hermanya___listenable-browser.json"
 }

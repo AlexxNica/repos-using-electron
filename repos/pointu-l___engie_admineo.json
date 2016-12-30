@@ -81,16 +81,9 @@
       "pack": "build --dir",
       "dist": "build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-packager": "^7.5.0",
@@ -102,6 +95,12 @@
       "app-category-type": "your.app.category.type",
       "win": {
         "iconUrl": "(windows-only) https link to icon"
+      }
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
       }
     }
   },
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/pointu-l/engie_admineo/git/commits/d692441215096150e87dc17044011749859a9208",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "pointu-l___engie_admineo.json"
 }

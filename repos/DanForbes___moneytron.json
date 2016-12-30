@@ -79,19 +79,12 @@
     "scripts": {
       "start": "gulp run"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/DanForbes/moneytron.git"
-    },
+    "repository": "https://github.com/DanForbes/moneytron",
     "keywords": [
       "money",
       "personal finance"
     ],
-    "author": "Dan Forbes",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/DanForbes/moneytron/issues"
-    },
     "homepage": "https://github.com/DanForbes/moneytron",
     "devDependencies": {
       "electron-prebuilt": "^1.3.3",
@@ -107,6 +100,12 @@
       "pg": "^6.1.0",
       "pg-hstore": "^2.3.2",
       "sequelize": "^3.24.2"
+    },
+    "other": {
+      "author": "Dan Forbes",
+      "bugs": {
+        "url": "https://github.com/DanForbes/moneytron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -134,5 +133,6 @@
       "url": "https://api.github.com/repos/DanForbes/moneytron/git/commits/be65feba316842095717c91e215b79294b054ec2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DanForbes___moneytron.json"
 }

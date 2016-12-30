@@ -51,14 +51,7 @@
     "version": "0.0.1",
     "description": "A hackable IRC app",
     "main": "./src/server/main.js",
-    "author": "Zarino Zappia",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/zarino/backchat.git"
-    },
-    "bugs": {
-      "url": "https://github.com/zarino/backchat/issues"
-    },
+    "repository": "https://github.com/zarino/backchat",
     "private": true,
     "dependencies": {
       "autolinker": "^0.18.1",
@@ -82,6 +75,12 @@
       "test": "scripts/build && BACKCHAT_DEBUG=True mocha test",
       "start": "scripts/start",
       "build": "scripts/build"
+    },
+    "other": {
+      "author": "Zarino Zappia",
+      "bugs": {
+        "url": "https://github.com/zarino/backchat/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -109,5 +108,6 @@
       "url": "https://api.github.com/repos/zarino/backchat/git/commits/0814de8c3777b87dc5a40cc28efcd5393691a6d2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zarino___backchat.json"
 }

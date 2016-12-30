@@ -50,17 +50,10 @@
     "version": "1.5.1",
     "description": "RealLifeRPG Launcher",
     "homepage": "https://www.realliferpg.de",
-    "author": "RealLifeRPG",
     "main": "./app/main.js",
     "license": "CC-BY-NC-SA-4.0",
     "readme": "README.md",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/A3ReallifeRPG/RealLifeRPGLauncher.git"
-    },
-    "bugs": {
-      "url": "https://github.com/A3ReallifeRPG/ReallifeRPG5.0/issues"
-    },
+    "repository": "https://github.com/A3ReallifeRPG/RealLifeRPGLauncher",
     "scripts": {
       "start": "electron .",
       "postinstall": "install-app-deps",
@@ -109,6 +102,12 @@
       "shelljs": "^0.7.0",
       "winreg": "^1.2.1",
       "unzip": "^0.1.11"
+    },
+    "other": {
+      "author": "RealLifeRPG",
+      "bugs": {
+        "url": "https://github.com/A3ReallifeRPG/ReallifeRPG5.0/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -159,5 +158,6 @@
       "url": "https://api.github.com/repos/A3ReallifeRPG/RealLifeRPGLauncher/git/commits/657bff4371f4dc28a28a336f923ec9ab927f52fb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "A3ReallifeRPG___RealLifeRPGLauncher.json"
 }

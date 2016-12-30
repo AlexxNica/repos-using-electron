@@ -97,7 +97,6 @@
       "watch": "cross-env NODE_ENV=production node ./node_modules/webpack/bin/webpack --watch --config webpack.config.js --progress --profile --bail",
       "start": "electron ."
     },
-    "author": "",
     "contributors": [
       {
         "name": "Foo Bar",
@@ -130,6 +129,9 @@
       "style-loader": "^0.13.1",
       "url-loader": "^0.5.7",
       "webpack": "^1.13.1"
+    },
+    "other": {
+      "author": ""
     }
   },
   "packageStatus": 200,
@@ -159,5 +161,6 @@
       "url": "https://api.github.com/repos/APE-EDX/APE/git/commits/a172f4a0f26171f5aabe8fe6122ef7dc9ede5ba4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "APE-EDX___APE.json"
 }

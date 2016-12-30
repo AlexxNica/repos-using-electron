@@ -79,26 +79,25 @@
     "scripts": {
       "start": "node_modules/.bin/electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/fritz-c/barebones-svg-editor.git"
-    },
+    "repository": "https://github.com/fritz-c/barebones-svg-editor",
     "keywords": [
       "SVG",
       "Editor",
       "Vector"
     ],
-    "author": "Chris Fritz",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/fritz-c/barebones-svg-editor/issues"
-    },
     "homepage": "https://github.com/fritz-c/barebones-svg-editor#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8"
     },
     "dependencies": {
       "brace": "^0.8.0"
+    },
+    "other": {
+      "author": "Chris Fritz",
+      "bugs": {
+        "url": "https://github.com/fritz-c/barebones-svg-editor/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/fritz-c/barebones-svg-editor/git/commits/5a30fe9eaa08e8acd64c1d99f78d0bc2b92639f0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "fritz-c___barebones-svg-editor.json"
 }

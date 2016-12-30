@@ -80,20 +80,19 @@
       "start": "electron .",
       "build": "electron-packager . Attestation_of_Activities"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/fewieden/AoA-Generator.git"
-    },
-    "author": "Felix Wiedenbach",
+    "repository": "https://github.com/fewieden/AoA-Generator",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/fewieden/AoA-Generator/issues"
-    },
     "homepage": "https://github.com/fewieden/AoA-Generator#readme",
     "devDependencies": {
       "asar": "^0.11.0",
       "electron-packager": "^7.0.1",
       "electron-prebuilt": "^1.0.1"
+    },
+    "other": {
+      "author": "Felix Wiedenbach",
+      "bugs": {
+        "url": "https://github.com/fewieden/AoA-Generator/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -121,5 +120,6 @@
       "url": "https://api.github.com/repos/fewieden/AoA-Generator/git/commits/48bc9af5218dfcb38d743296d131753641b6f042",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "fewieden___AoA-Generator.json"
 }

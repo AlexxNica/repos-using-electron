@@ -75,15 +75,8 @@
       "lint:check": "eslint ./src --ext=js,vue;exit 0;",
       "release": "rm -Rf ./dist;electron-packager ./ sukiyaki --platform=darwin,win32 --arch=x64 --version=1.2.5 --out=./dist"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/chatbox-inc/sukiyaki.git"
-    },
-    "author": "Potato4d",
+    "repository": "https://github.com/chatbox-inc/sukiyaki",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/chatbox-inc/sukiyaki/issues"
-    },
     "homepage": "https://github.com/chatbox-inc/sukiyaki#readme",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -116,6 +109,12 @@
       "jquery": "^3.1.0",
       "nl2br": "0.0.3",
       "vue": "^1.0.26"
+    },
+    "other": {
+      "author": "Potato4d",
+      "bugs": {
+        "url": "https://github.com/chatbox-inc/sukiyaki/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -163,5 +162,6 @@
       "url": "https://api.github.com/repos/chatbox-inc/sukiyaki/git/commits/26852aed2f306e09403c0260f22df979a5535bb1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "chatbox-inc___sukiyaki.json"
 }

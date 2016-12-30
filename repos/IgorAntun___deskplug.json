@@ -59,18 +59,11 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/IgorAntun/deskplug.git"
-    },
+    "repository": "https://github.com/IgorAntun/deskplug",
     "keywords": [
       "plug.dj"
     ],
-    "author": "Igor Antun <hello@igorantun.com> (https://github.com/IgorAntun)",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/IgorAntun/deskplug/issues"
-    },
     "homepage": "https://github.com/IgorAntun/deskplug",
     "devDependencies": {
       "electron-packager": "^5.0.1",
@@ -78,6 +71,12 @@
     },
     "dependencies": {
       "plugged": "^2.4.1"
+    },
+    "other": {
+      "author": "Igor Antun <hello@igorantun.com> (https://github.com/IgorAntun)",
+      "bugs": {
+        "url": "https://github.com/IgorAntun/deskplug/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -105,5 +104,6 @@
       "url": "https://api.github.com/repos/IgorAntun/deskplug/git/commits/364aa72ce7ae1295ba930d7ef4dd06049a76fd9e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "IgorAntun___deskplug.json"
 }

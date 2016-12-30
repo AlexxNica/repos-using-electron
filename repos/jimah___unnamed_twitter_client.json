@@ -70,7 +70,6 @@
     "version": "1.0.0",
     "description": "an electron twitter client for twits",
     "main": "app.js",
-    "author": "Jim Hill <jim@dammitjim.co.uk>",
     "license": "MIT",
     "scripts": {
       "compile": "tsc",
@@ -119,7 +118,10 @@
       "tslint": "^3.15.1",
       "webpack": "^1.13.3"
     },
-    "peerDependencies": {}
+    "peerDependencies": {},
+    "other": {
+      "author": "Jim Hill <jim@dammitjim.co.uk>"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -146,5 +148,6 @@
       "url": "https://api.github.com/repos/jimah/unnamed_twitter_client/git/commits/30fb4b38c6899364dcab2af684962b6ccff433f5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jimah___unnamed_twitter_client.json"
 }

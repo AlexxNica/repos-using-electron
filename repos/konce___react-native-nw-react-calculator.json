@@ -188,7 +188,6 @@
     "name": "ReactNativeNWReactCalculator",
     "version": "1.0.0",
     "description": "A mobile, desktop and website App with the same code",
-    "author": "Benoit VALLON <benoitvallon@gmail.com> (http://github.com/benoitvallon)",
     "license": "MIT",
     "repository": {
       "user": "benoitvallon",
@@ -213,7 +212,6 @@
     ],
     "src": "./",
     "test": "./test",
-    "dist": "./dist",
     "mainInput": "main",
     "mainOutput": "main",
     "main": "index.desktop.html",
@@ -312,6 +310,10 @@
       "url-loader": "^0.5.7",
       "webpack": "^1.12.14",
       "webpack-dev-server": "^1.14.1"
+    },
+    "other": {
+      "author": "Benoit VALLON <benoitvallon@gmail.com> (http://github.com/benoitvallon)",
+      "dist": "./dist"
     }
   },
   "packageStatus": 200,

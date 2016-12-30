@@ -84,8 +84,10 @@
       "build:production": "mkdir -p ./public && webpack -p --config ./config/webpack.production.config.js",
       "prod": "NODE_ENV=production npm run build:production && npm run build:manifest"
     },
-    "author": "Alex Barry",
-    "license": "MIT"
+    "license": "MIT",
+    "other": {
+      "author": "Alex Barry"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -112,5 +114,6 @@
       "url": "https://api.github.com/repos/mrozbarry/react-sudoku/git/commits/b36db4e0669bc0f8f2ab049cfdde2add925b33a0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mrozbarry___react-sudoku.json"
 }

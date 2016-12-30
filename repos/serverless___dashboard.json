@@ -107,19 +107,8 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/serverless/dashboard.git"
-    },
-    "author": {
-      "name": "David Wells",
-      "email": "david@serverless.com",
-      "url": "https://github.com/davidwells"
-    },
+    "repository": "https://github.com/serverless/dashboard",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/serverless/dashboard/issues"
-    },
     "homepage": "https://github.com/serverless/dashboard#readme",
     "devDependencies": {
       "asar": "^0.12.2",
@@ -212,6 +201,16 @@
     "devEngines": {
       "node": "4.x || 5.x || 6.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": {
+        "name": "David Wells",
+        "email": "david@serverless.com",
+        "url": "https://github.com/davidwells"
+      },
+      "bugs": {
+        "url": "https://github.com/serverless/dashboard/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -241,5 +240,6 @@
       "url": "https://api.github.com/repos/serverless/dashboard/git/commits/8bf2276b13ad68013fdb4076a7d00f741369f111",
       "commentCount": 1
     }
-  }
+  },
+  "filename": "serverless___dashboard.json"
 }

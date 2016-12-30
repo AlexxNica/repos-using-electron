@@ -62,7 +62,6 @@
       "package-win": "WEBPACK_TARGET='electron' webpack -p && electron-packager ./ MyApp --platform=win32 --arch=x64 --out ~/Desktop/MyApp-Windowsx86 --version 0.37.8",
       "package-darwin": "WEBPACK_TARGET='electron' webpack -p && electron-packager ./ MyApp --platform=darwin --arch=x64 --out ~/Desktop/MyApp-Macx86 --version 0.37.8"
     },
-    "author": "Atul R <atulanand94@gmail.com> (http://atulr.com)",
     "license": "ISC",
     "dependencies": {
       "electron-prebuilt": "^1.3.1",
@@ -100,6 +99,9 @@
       "sass-lint": "^1.7.0",
       "webpack": "^1.13.0",
       "webpack-dev-server": "^1.14.1"
+    },
+    "other": {
+      "author": "Atul R <atulanand94@gmail.com> (http://atulr.com)"
     }
   },
   "packageStatus": 200,
@@ -147,5 +149,6 @@
       "url": "https://api.github.com/repos/master-atul/electron-react-boilerplate/git/commits/d494bc8496af690a2f8ce2c7a583e04dc2dbcbc5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "master-atul___electron-react-boilerplate.json"
 }

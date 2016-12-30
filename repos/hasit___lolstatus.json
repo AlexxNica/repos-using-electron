@@ -77,17 +77,7 @@
       "build:macos": "electron-packager . \"LoL Status\" --overwrite --out=dist --platform=darwin --arch=x64 --icon=public/icons/icon.icns --prune --ignore=dist --ignore=app --ignore=assets --ignore=README.md --ignore=.gitignore --ignore=.babelrc",
       "build:win": "electron-packager . \"LoL Status\" --overwrite --out=dist --platform=win32 --arch=x64 --icon=public/icons/win/icon.ico --prune --ignore=dist --ignore=app --ignore=assets --ignore=README.md --ignore=.gitignore --ignore=.babelrc"
     },
-    "author": {
-      "name": "Hasit Mistry",
-      "email": "hasitnm@gmail.com"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/hasit/lolstatus"
-    },
-    "bugs": {
-      "url": "https://github.com/hasit/lolstatus/issues"
-    },
+    "repository": "https://github.com/hasit/lolstatus",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -104,6 +94,15 @@
       "react": "^0.14.8",
       "react-dom": "^0.14.7",
       "react-select": "^1.0.0-rc.2"
+    },
+    "other": {
+      "author": {
+        "name": "Hasit Mistry",
+        "email": "hasitnm@gmail.com"
+      },
+      "bugs": {
+        "url": "https://github.com/hasit/lolstatus/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -131,5 +130,6 @@
       "url": "https://api.github.com/repos/hasit/lolstatus/git/commits/5ea27956edbb5c1f1b10ca4721baa2cdea70e860",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hasit___lolstatus.json"
 }

@@ -76,11 +76,7 @@
       "pack": "build --dir --x64",
       "dist": "build --x64"
     },
-    "author": "donati.sergio@gmail.com",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/SergioDonati/sertle.git"
-    },
+    "repository": "https://github.com/SergioDonati/sertle",
     "build": {
       "appId": "com.sertle.desktop.app",
       "category": "public.app-category.business",
@@ -94,6 +90,9 @@
       "devtron": "^1.4.0",
       "electron-builder": "^7.22.1",
       "electron-prebuilt": "^1.4.5"
+    },
+    "other": {
+      "author": "donati.sergio@gmail.com"
     }
   },
   "packageStatus": 200,
@@ -119,5 +118,6 @@
       "url": "https://api.github.com/repos/SergioDonati/sertle/git/commits/cdde49ce9a34c7c1730bc25e77f97919203d1101",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "SergioDonati___sertle.json"
 }

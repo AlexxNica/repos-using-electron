@@ -169,11 +169,6 @@
     "description": "Context menu for your Electron app",
     "license": "MIT",
     "repository": "sindresorhus/electron-context-menu",
-    "author": {
-      "name": "Sindre Sorhus",
-      "email": "sindresorhus@gmail.com",
-      "url": "sindresorhus.com"
-    },
     "scripts": {
       "start": "electron fixture.js",
       "test": "xo"
@@ -207,6 +202,13 @@
       ],
       "rules": {
         "import/no-extraneous-dependencies": "off"
+      }
+    },
+    "other": {
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
       }
     }
   },

@@ -54,12 +54,8 @@
     "scripts": {
       "start": "electron ./app/main.js"
     },
-    "author": "",
     "license": "ISC",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/zackpudil/node-ping-pong.git"
-    },
+    "repository": "https://github.com/zackpudil/node-ping-pong",
     "dependencies": {
       "json-socket": "^0.1.2",
       "minimist": "^1.2.0",
@@ -73,6 +69,9 @@
       "gulp-babel": "^6.1.1",
       "gulp-electron": "0.0.10",
       "gulp-install": "^0.6.0"
+    },
+    "other": {
+      "author": ""
     }
   },
   "packageStatus": 200,
@@ -121,5 +120,6 @@
       "url": "https://api.github.com/repos/zackpudil/node-ping-pong/git/commits/29b87e739a3b8c2e4abed8a61c923608d2dd38d1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zackpudil___node-ping-pong.json"
 }

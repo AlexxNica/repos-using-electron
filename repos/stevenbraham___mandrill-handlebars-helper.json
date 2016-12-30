@@ -81,20 +81,13 @@
       "start": "electron ."
     },
     "homepage": "https://github.com/stevenbraham/mandrill-handlebars-helper#readme",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/stevenbraham/mandrill-handlebars-helper.git"
-    },
+    "repository": "https://github.com/stevenbraham/mandrill-handlebars-helper",
     "keywords": [
       "handlebars",
       "mandrill",
       "tool"
     ],
-    "author": "Steven Braham <steven@braham.biz>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/stevenbraham/mandrill-handlebars-helper/issues"
-    },
     "dependencies": {
       "body-parser": "^1.15.2",
       "electron-prebuilt": "^1.4.3",
@@ -107,6 +100,12 @@
     },
     "engines": {
       "node": ">=0.10"
+    },
+    "other": {
+      "author": "Steven Braham <steven@braham.biz>",
+      "bugs": {
+        "url": "https://github.com/stevenbraham/mandrill-handlebars-helper/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -134,5 +133,6 @@
       "url": "https://api.github.com/repos/stevenbraham/mandrill-handlebars-helper/git/commits/bc8593d3b81e1faba74c79cf36c361c74a8cc46f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "stevenbraham___mandrill-handlebars-helper.json"
 }

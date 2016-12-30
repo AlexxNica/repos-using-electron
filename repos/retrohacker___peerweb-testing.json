@@ -69,11 +69,6 @@
     "name": "peerweb",
     "description": "A proving ground for decentralized protocols for the WWW",
     "version": "0.1.0",
-    "author": {
-      "name": "William Blankenship",
-      "email": "william.jblankenship@gmail.com",
-      "url": "http://will.blankenship.io/"
-    },
     "bin": {
       "peerweb": "./bin/cmd.js"
     },
@@ -140,6 +135,13 @@
       "rimraf": "2.5.2",
       "spectron": "3.0.0",
       "tape": "4.5.1"
+    },
+    "other": {
+      "author": {
+        "name": "William Blankenship",
+        "email": "william.jblankenship@gmail.com",
+        "url": "http://will.blankenship.io/"
+      }
     }
   },
   "packageStatus": 200,

@@ -94,16 +94,15 @@
       "start": "electron ./build/",
       "dist": "asar p ./build ./dist/app.asar"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/Mesamo/MarkdownPreview.git"
-    },
-    "author": "Mesamo mesamo@foxmail.com",
+    "repository": "https://github.com/Mesamo/MarkdownPreview",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Mesamo/MarkdownPreview/issues"
-    },
-    "homepage": "https://github.com/Mesamo/MarkdownPreview"
+    "homepage": "https://github.com/Mesamo/MarkdownPreview",
+    "other": {
+      "author": "Mesamo mesamo@foxmail.com",
+      "bugs": {
+        "url": "https://github.com/Mesamo/MarkdownPreview/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/Mesamo/MarkdownPreview/git/commits/fda8bcf8522be76bde275de400b0ce785b643fdf",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Mesamo___MarkdownPreview.json"
 }

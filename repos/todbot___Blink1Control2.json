@@ -54,7 +54,6 @@
   "packageJSON": {
     "name": "Blink1Control2",
     "version": "2.0.0-beta3",
-    "author": "ThingM",
     "description": "Blink1Control2 GUI app for blink(1) devices",
     "keywords": [
       "blink(1)",
@@ -73,7 +72,6 @@
     "companyName": "ThingM",
     "homepage": "http://github.com/todbot/blink1control2",
     "repository": "http://github.com/todbot/blink1control2",
-    "bugs": "http://github.com/todbot/blink1control2/issues",
     "license": "ISC",
     "scripts": {
       "startdev": "NODE_ENV=development npm run start",
@@ -162,6 +160,10 @@
       "url-loader": "^0.5.7",
       "webpack": "^1.13.2",
       "webpack-dev-server": "^1.15.0"
+    },
+    "other": {
+      "author": "ThingM",
+      "bugs": "http://github.com/todbot/blink1control2/issues"
     }
   },
   "packageStatus": 200,
@@ -209,5 +211,6 @@
       "url": "https://api.github.com/repos/todbot/Blink1Control2/git/commits/84e83ee2c3c977722eb3a9c383372baf207bc6dc",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "todbot___Blink1Control2.json"
 }

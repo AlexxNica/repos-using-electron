@@ -80,18 +80,11 @@
       "start": "electron main.js",
       "dev": "webpack-dev-server --inline --hot --config build/webpack.dev.config.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/phantomk/electron-wallpaper.git"
-    },
+    "repository": "https://github.com/phantomk/electron-wallpaper",
     "keywords": [
       "electorn"
     ],
-    "author": "phantomk",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/phantomk/electron-wallpaper/issues"
-    },
     "homepage": "https://github.com/phantomk/electron-wallpaper#readme",
     "dependencies": {
       "cheerio": "^0.19.0",
@@ -107,6 +100,12 @@
       "stylus-loader": "^1.4.2",
       "vue-loader": "^8.0.2",
       "webpack": "^1.12.10"
+    },
+    "other": {
+      "author": "phantomk",
+      "bugs": {
+        "url": "https://github.com/phantomk/electron-wallpaper/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -134,5 +133,6 @@
       "url": "https://api.github.com/repos/phantomk/electron-wallpaper/git/commits/316f791b10f0fb28e13f168a6b474ea68e13d3d4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "phantomk___electron-wallpaper.json"
 }

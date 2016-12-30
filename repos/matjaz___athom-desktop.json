@@ -66,14 +66,10 @@
       "prepare-release": "npm run package && npm run installer",
       "release": "node ./script/release.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/matjaz/athom-desktop.git"
-    },
+    "repository": "https://github.com/matjaz/athom-desktop",
     "keywords": [
       "Homey"
     ],
-    "author": "Matjaz Lipus",
     "homepage": "https://github.com/matjaz/athom-desktop#readme",
     "dependencies": {
       "glob": "^6.0.4"
@@ -98,6 +94,9 @@
       "env": {
         "mocha": true
       }
+    },
+    "other": {
+      "author": "Matjaz Lipus"
     }
   },
   "packageStatus": 200,
@@ -145,5 +144,6 @@
       "url": "https://api.github.com/repos/matjaz/athom-desktop/git/commits/136611bdcfbe5d91b1b182d79895a2ae2ed4cbbb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "matjaz___athom-desktop.json"
 }

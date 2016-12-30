@@ -75,7 +75,6 @@
     "name": "kao",
     "description": "Note app for Mac",
     "version": "0.0.0",
-    "author": "ideyuta <ide.yuta@gmail.com>",
     "dependencies": {
       "classnames": "^2.2.3",
       "dacho": "^1.0.0",
@@ -123,10 +122,7 @@
     "license": "MIT",
     "main": "main.js",
     "private": true,
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/ideyuta/kao.git"
-    },
+    "repository": "https://github.com/ideyuta/kao",
     "scripts": {
       "app": "electron --debug=5858 dist/main.js",
       "build": "npm-run-all --parallel build:*",
@@ -158,6 +154,9 @@
       "watch:js-renderer": "watchify -v -t babelify src/js/renderer/app.js -o \"exorcist dist/bundle.js.map > ./dist/bundle.js\" -d",
       "watch:lint": "chokidar src/js -c 'npm run -s lint'",
       "watch:server": "node-inspector"
+    },
+    "other": {
+      "author": "ideyuta <ide.yuta@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -185,5 +184,6 @@
       "url": "https://api.github.com/repos/ideyuta/kao/git/commits/5d7e9ccbddeb756a65a98ee754d70a66dccb0802",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ideyuta___kao.json"
 }

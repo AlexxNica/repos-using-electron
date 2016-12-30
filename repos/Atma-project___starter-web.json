@@ -91,7 +91,6 @@
       "build-electron": "NODE_ENV=production webpack -p --progress --colors && electron .",
       "start-server": "nodemon server/server.js"
     },
-    "author": "Alexandre Toudic, Jeremie Drazic, Robin Delaporte",
     "license": "MIT",
     "devDependencies": {
       "autoprefixer": "^6.3.5",
@@ -154,6 +153,9 @@
         "last 2 versions"
       ],
       "remove": false
+    },
+    "other": {
+      "author": "Alexandre Toudic, Jeremie Drazic, Robin Delaporte"
     }
   },
   "packageStatus": 200,
@@ -181,5 +183,6 @@
       "url": "https://api.github.com/repos/Atma-project/starter-web/git/commits/ef199f2ef8158a9b999a6d4e78baf0e2d366f0f0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Atma-project___starter-web.json"
 }

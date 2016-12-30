@@ -123,12 +123,14 @@
       "istanbul": "*",
       "mocha": "*"
     },
-    "author": "panthrowzay@gmail.com",
     "homepage": "http://ygopro.us",
     "license": "LicenseRef-LICENSE",
     "scripts": {
       "start": "node server/server.js",
       "test": "istanbul cover _mocha -- -u exports -R spec"
+    },
+    "other": {
+      "author": "panthrowzay@gmail.com"
     }
   },
   "packageStatus": 200,

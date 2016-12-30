@@ -77,7 +77,6 @@
       "electron-packager": "electron-packager . once-upon-nothing --overwrite --out=release --ignore=\"(.*\\.ts)|(.*\\.js\\.map)|(.*\\.less)|(cache)|(typings)|(gulpfile.js)|(tsconfig.json)\"",
       "app-build": "npm-run-all build electron-packager"
     },
-    "author": "Clément RIVAILLE",
     "license": "ISC",
     "dependencies": {
       "@angular/common": "2.0.0-rc.6",
@@ -120,6 +119,9 @@
       "npm-run-all": "^3.1.0",
       "typescript": "^1.8.10",
       "typings": "^1.3.2"
+    },
+    "other": {
+      "author": "Clément RIVAILLE"
     }
   },
   "packageStatus": 200,
@@ -147,5 +149,6 @@
       "url": "https://api.github.com/repos/ClementRivaille/once-upon-nothing/git/commits/12c58211094f7d257d1a482d9a9ef2eb87f41cef",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ClementRivaille___once-upon-nothing.json"
 }

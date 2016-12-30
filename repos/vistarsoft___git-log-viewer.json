@@ -96,7 +96,6 @@
       "prebuild": "webpack -p --config ./webpack.config.prebuild.js",
       "build": "webpack -p --progress --color --config ./webpack.config.production.js"
     },
-    "author": "trungvq",
     "license": "MIT",
     "dependencies": {
       "clipboard": "^1.5.15",
@@ -119,6 +118,9 @@
       "babel-preset-es2015": "^6.16.0",
       "babel-preset-react": "^6.16.0",
       "webpack": "^1.13.2"
+    },
+    "other": {
+      "author": "trungvq"
     }
   },
   "packageStatus": 200,
@@ -146,5 +148,6 @@
       "url": "https://api.github.com/repos/vistarsoft/git-log-viewer/git/commits/41b30109bf3ad4974c4fea2e8b9fab95549bd394",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "vistarsoft___git-log-viewer.json"
 }

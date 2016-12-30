@@ -75,9 +75,7 @@
     "name": "angular2-seed-advanced",
     "version": "0.0.0",
     "description": "Advanced seed for Angular 2 apps",
-    "repository": {
-      "url": "https://github.com/NathanWalker/angular2-seed-advanced"
-    },
+    "repository": "https://github.com/NathanWalker/angular2-seed-advanced",
     "scripts": {
       "build.desktop.mac": "rimraf desktop/mac/* && gulp desktop.mac",
       "build.desktop.windows": "rimraf desktop/windows/* && gulp desktop.windows",
@@ -107,7 +105,6 @@
       "webdriver-start": "webdriver-manager start",
       "webdriver-update": "webdriver-manager update"
     },
-    "author": "Minko Gechev <mgechev>",
     "contributors": [
       {
         "name": "Nathan Walker <NathanWalker>"
@@ -215,6 +212,9 @@
       "rxjs": "^5.0.0-beta.4",
       "systemjs": "~0.19.18",
       "zone.js": "^0.6.6"
+    },
+    "other": {
+      "author": "Minko Gechev <mgechev>"
     }
   },
   "packageStatus": 200,
@@ -242,5 +242,6 @@
       "url": "https://api.github.com/repos/justdaft/check-my-chart/git/commits/6f9603edd3a8ea9685aa07c9efa46e79bc4ef5ad",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "justdaft___check-my-chart.json"
 }

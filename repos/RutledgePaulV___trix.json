@@ -74,21 +74,14 @@
       "start": "electron ./app",
       "test": "mocha test"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rutledgepaulv/trix.git"
-    },
+    "repository": "https://github.com/rutledgepaulv/trix",
     "keywords": [
       "social",
       "engineering",
       "electron",
       "runescape"
     ],
-    "author": "Paul Rutledge <paul.v.rutledge@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/rutledgepaulv/trix/issues"
-    },
     "homepage": "https://github.com/rutledgepaulv/trix#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.10"
@@ -96,6 +89,12 @@
     "dependencies": {
       "handlebars": "^4.0.5",
       "semantic-ui": "^2.1.8"
+    },
+    "other": {
+      "author": "Paul Rutledge <paul.v.rutledge@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/rutledgepaulv/trix/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -123,5 +122,6 @@
       "url": "https://api.github.com/repos/RutledgePaulV/trix/git/commits/ca93534e7d1316d57c2a54a2a6b24ae7e86fa125",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "RutledgePaulV___trix.json"
 }

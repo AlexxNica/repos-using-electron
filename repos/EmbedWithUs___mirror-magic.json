@@ -93,15 +93,11 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/EmbedWithUs/mirror-magic.git"
-    },
+    "repository": "https://github.com/EmbedWithUs/mirror-magic",
     "keywords": [
       "magic",
       "mirror"
     ],
-    "author": "Embed With Us (https://github.com/EmbedWithUs)",
     "contributors": [
       {
         "name": "Mark Shelton",
@@ -113,9 +109,6 @@
       }
     ],
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/EmbedWithUs/mirror-magic/issues"
-    },
     "homepage": "https://github.com/EmbedWithUs/mirror-magic#readme",
     "devDependencies": {
       "devtron": "^1.2.1",
@@ -129,6 +122,12 @@
     "dependencies": {
       "electron-config": "^0.2.0",
       "weather-js": "^1.0.2"
+    },
+    "other": {
+      "author": "Embed With Us (https://github.com/EmbedWithUs)",
+      "bugs": {
+        "url": "https://github.com/EmbedWithUs/mirror-magic/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -157,5 +156,6 @@
       "url": "https://api.github.com/repos/EmbedWithUs/mirror-magic/git/commits/de95b10f7da1465b0e2fab138abeca87f8cb632c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "EmbedWithUs___mirror-magic.json"
 }

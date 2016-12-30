@@ -73,21 +73,14 @@
       "start": "electron .",
       "build": "build -ml"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/dfrankland/nginx-indicator.git"
-    },
+    "repository": "https://github.com/dfrankland/nginx-indicator",
     "keywords": [
       "nginx",
       "indicator",
       "electron"
     ],
-    "author": "Dylan Frankland <dylan@frankland.io>",
     "contributors": [],
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/dfrankland/nginx-indicator/issues"
-    },
     "homepage": "https://github.com/dfrankland/nginx-indicator#readme",
     "build": {
       "appId": "co.dfrankland.nginx-indicator",
@@ -106,6 +99,12 @@
       "7zip-bin-mac": "^1.0.1",
       "electron-builder": "^7.14.1",
       "electron-prebuilt": "^1.4.3"
+    },
+    "other": {
+      "author": "Dylan Frankland <dylan@frankland.io>",
+      "bugs": {
+        "url": "https://github.com/dfrankland/nginx-indicator/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -133,5 +132,6 @@
       "url": "https://api.github.com/repos/dfrankland/nginx-indicator/git/commits/59e0cb2329e6580fbb52eb9a3e5a42c4d1a39455",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dfrankland___nginx-indicator.json"
 }

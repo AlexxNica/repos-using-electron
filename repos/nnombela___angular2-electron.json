@@ -83,7 +83,6 @@
       "start": "npm run server",
       "distribute": "electron-packager . Ringio --platform=darwin --arch=x64 --out=releases/ --overwrite --icon=src/assets/images/ringio  --asar"
     },
-    "author": "nnombela",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -117,9 +116,9 @@
       "rxjs": "5.0.0-beta.6",
       "zone.js": "~0.6.12"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/nnombela/angular2-electron.git"
+    "repository": "https://github.com/nnombela/angular2-electron",
+    "other": {
+      "author": "nnombela"
     }
   },
   "packageStatus": 200,
@@ -147,5 +146,6 @@
       "url": "https://api.github.com/repos/nnombela/angular2-electron/git/commits/87cc07d43462a7ffd1e2ce87da77b7f9457fc3f2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "nnombela___angular2-electron.json"
 }

@@ -79,15 +79,8 @@
       "dist:win32": "build --platform win32 --arch ia32",
       "dist:win64": "build --platform win32 --arch x64"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/benmag/Timetable.git"
-    },
-    "author": "Ben M, Dave A & Andrew C",
+    "repository": "https://github.com/benmag/Timetable",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/benmag/Timetable/issues"
-    },
     "homepage": "https://github.com/benmag/Timetable#readme",
     "build": {
       "app-bundle-id": "qut.timetable.app",
@@ -98,6 +91,12 @@
       "electron-builder": "^4.2.3",
       "electron-packager": "^7.0.3",
       "electron-prebuilt": "^0.37.8"
+    },
+    "other": {
+      "author": "Ben M, Dave A & Andrew C",
+      "bugs": {
+        "url": "https://github.com/benmag/Timetable/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/benmag/Timetable/git/commits/c8d13456bbefe0ad43803a48f0406b37b1613036",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "benmag___Timetable.json"
 }

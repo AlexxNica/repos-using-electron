@@ -53,21 +53,14 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mattsfrey/wcjs-test.git"
-    },
+    "repository": "https://github.com/mattsfrey/wcjs-test",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/atom/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -75,6 +68,12 @@
     "dependencies": {
       "wcjs-prebuilt": "^2.0.8",
       "wcjs-renderer": "^0.1.10"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/atom/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -122,5 +121,6 @@
       "url": "https://api.github.com/repos/mattsfrey/wcjs-test/git/commits/8eb4b372b88fc8c0c5d9f062b02c7f9733b31899",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mattsfrey___wcjs-test.json"
 }

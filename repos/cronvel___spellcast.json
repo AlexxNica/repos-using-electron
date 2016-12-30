@@ -79,9 +79,6 @@
     "engines": {
       "node": ">=4.5.0"
     },
-    "directories": {
-      "test": "test"
-    },
     "bin": {
       "spellcast": "./bin/spellcast",
       "adventure": "./bin/adventure"
@@ -121,10 +118,7 @@
     "scripts": {
       "test": "tea-time -R dot -O"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/cronvel/spellcast.git"
-    },
+    "repository": "https://github.com/cronvel/spellcast",
     "keywords": [
       "gamebook",
       "roleplay",
@@ -140,11 +134,7 @@
       "wizardry",
       "dependency"
     ],
-    "author": "Cédric Ronvel",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/cronvel/spellcast/issues"
-    },
     "copyright": {
       "title": "Spellcast",
       "years": [
@@ -152,6 +142,15 @@
         2016
       ],
       "owner": "Cédric Ronvel"
+    },
+    "other": {
+      "author": "Cédric Ronvel",
+      "bugs": {
+        "url": "https://github.com/cronvel/spellcast/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -180,5 +179,6 @@
       "url": "https://api.github.com/repos/cronvel/spellcast/git/commits/1773ba9190250eb7a4c419deae0bc86b7fd48ae9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cronvel___spellcast.json"
 }

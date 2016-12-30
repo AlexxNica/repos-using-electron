@@ -74,20 +74,19 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jacksarick/hug-me.git"
-    },
-    "author": "Jack Sarick, Matthew Wang, Simon Guo",
+    "repository": "https://github.com/jacksarick/hug-me",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/jacksarick/hug-me/issues"
-    },
     "homepage": "http://doyouwanttohug.me",
     "dependencies": {
       "chart.js": "^2.3.0",
       "electron": "^1.4.3",
       "serialport-js": "^0.2.1"
+    },
+    "other": {
+      "author": "Jack Sarick, Matthew Wang, Simon Guo",
+      "bugs": {
+        "url": "https://github.com/jacksarick/hug-me/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -116,5 +115,6 @@
       "url": "https://api.github.com/repos/jacksarick/hug-me/git/commits/2c7f8a8754e4097f519577ab74d727a02f347aff",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jacksarick___hug-me.json"
 }

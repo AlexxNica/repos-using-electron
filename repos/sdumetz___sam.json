@@ -86,15 +86,8 @@
       "build": "./build.sh",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/sdumetz/sam.git"
-    },
-    "author": "Sebastien Dumetz <s.dumetz@holusion.com> (https://github.com/klepthys)",
+    "repository": "https://github.com/sdumetz/sam",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/sdumetz/sam/issues"
-    },
     "homepage": "https://github.com/sdumetz/sam",
     "dependencies": {
       "electron-prebuilt": "^1.1.1",
@@ -112,6 +105,12 @@
       "react": "^0.14.3",
       "react-dom": "^0.14.3",
       "webpack": "^1.12.15"
+    },
+    "other": {
+      "author": "Sebastien Dumetz <s.dumetz@holusion.com> (https://github.com/klepthys)",
+      "bugs": {
+        "url": "https://github.com/sdumetz/sam/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -139,5 +138,6 @@
       "url": "https://api.github.com/repos/sdumetz/sam/git/commits/3295a8a29423abd992a2ebdb6d3994620fb9cc99",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sdumetz___sam.json"
 }

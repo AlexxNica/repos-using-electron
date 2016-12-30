@@ -64,21 +64,14 @@
       "postpackager": "zip -r VideoCat-darwin-x64.zip VideoCat-darwin-x64",
       "dev": "wzrd remote.js:remote-bundle.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/fraserxu/videocat.git"
-    },
+    "repository": "https://github.com/fraserxu/videocat",
     "keywords": [
       "webrtc",
       "electron",
       "video",
       "p2p"
     ],
-    "author": "Fraser Xu",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/fraserxu/videocat/issues"
-    },
     "homepage": "https://github.com/fraserxu/videocat#readme",
     "devDependencies": {
       "browserify": "^11.2.0",
@@ -92,6 +85,12 @@
     "dependencies": {
       "menubar": "^2.2.1",
       "peerjs": "^0.3.14"
+    },
+    "other": {
+      "author": "Fraser Xu",
+      "bugs": {
+        "url": "https://github.com/fraserxu/videocat/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -119,5 +118,6 @@
       "url": "https://api.github.com/repos/fraserxu/videocat/git/commits/55b0a03b8e66dcc5a2c3944ffee3340301c558ee",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "fraserxu___videocat.json"
 }

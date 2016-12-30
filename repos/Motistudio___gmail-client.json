@@ -83,21 +83,14 @@
       "watch": "./node_modules/.bin/webpack-dev-server",
       "test": "test"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Motistudio/gmail-client.git"
-    },
+    "repository": "https://github.com/Motistudio/gmail-client",
     "keywords": [
       "gmail",
       "client",
       "mail",
       "desktop"
     ],
-    "author": "Moti Shriki",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/Motistudio/gmail-client/issues"
-    },
     "homepage": "https://github.com/Motistudio/gmail-client#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.1.0",
@@ -115,6 +108,12 @@
       "react": "^15.0.2",
       "react-dom": "^15.0.2",
       "redux": "^3.5.2"
+    },
+    "other": {
+      "author": "Moti Shriki",
+      "bugs": {
+        "url": "https://github.com/Motistudio/gmail-client/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -143,5 +142,6 @@
       "url": "https://api.github.com/repos/Motistudio/gmail-client/git/commits/b6b8a99a2c0f7cf877407692f430cf7659daf0ba",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Motistudio___gmail-client.json"
 }

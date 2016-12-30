@@ -88,15 +88,7 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/knook/knook.git"
-    },
-    "author": {
-      "name": "Alexandre Lagrange-Cetto, Olivier Graziano, Olivier Marin",
-      "email": "",
-      "url": ""
-    },
+    "repository": "https://github.com/knook/knook",
     "license": "MIT",
     "keywords": [
       "electron",
@@ -177,6 +169,13 @@
     "devEngines": {
       "node": "4.x || 5.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Alexandre Lagrange-Cetto, Olivier Graziano, Olivier Marin",
+        "email": "",
+        "url": ""
+      }
     }
   },
   "packageStatus": 200,
@@ -206,5 +205,6 @@
       "url": "https://api.github.com/repos/knook/knook/git/commits/6ab4a467bea5eadb8bc4a2748d2f7738253a9322",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "knook___knook.json"
 }

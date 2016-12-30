@@ -72,7 +72,6 @@
     "version": "0.1.0",
     "license": "",
     "keywords": [],
-    "author": "Ivan Fuyivara",
     "scripts": {
       "start": "electron .",
       "build": "electron-packager . BioTunes --platform=darwin --arch=x64 --version=0.30.4 --overwrite=true --out=dist"
@@ -81,6 +80,9 @@
       "electron-packager": "^5.0.1",
       "electron-prebuilt": "^0.30.4",
       "jquery": "^2.1.4"
+    },
+    "other": {
+      "author": "Ivan Fuyivara"
     }
   },
   "packageStatus": 200,
@@ -106,5 +108,6 @@
       "url": "https://api.github.com/repos/ifuyivara/biotunes/git/commits/f63adfbd5a590cd35a2f97d3bef9ae97ca19b64d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ifuyivara___biotunes.json"
 }

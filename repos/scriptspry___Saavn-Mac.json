@@ -77,24 +77,23 @@
       "compress": "cd build/SaavnMac-darwin-x64/; 7z a SaavnMac.zip SaavnMac.app",
       "publish": "aws s3 cp build/SaavnMac-darwin-x64/SaavnMac.zip s3://scriptspry/ --profile=ss"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/scriptspry/saavn-mac.git"
-    },
+    "repository": "https://github.com/scriptspry/saavn-mac",
     "keywords": [
       "Saavn",
       "Mac",
       "App"
     ],
-    "author": "ScriptSpry",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/scriptspry/saavn-mac/issues"
-    },
     "homepage": "http://scriptspry.com/2016/07/30/saavn-mac-app.html",
     "devDependencies": {
       "electron-packager": "^8.2.0",
       "electron-prebuilt": "^1.4.5"
+    },
+    "other": {
+      "author": "ScriptSpry",
+      "bugs": {
+        "url": "https://github.com/scriptspry/saavn-mac/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -122,5 +121,6 @@
       "url": "https://api.github.com/repos/scriptspry/Saavn-Mac/git/commits/2cce9fbb198f82a1927b153246b488b5afc1b082",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "scriptspry___Saavn-Mac.json"
 }

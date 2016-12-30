@@ -74,15 +74,8 @@
       "lint": "semistandard",
       "test": "browserify test.js | testron && npm run lint"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/micnews/contenteditable-placeholder"
-    },
-    "author": "David Björklund <david.bjorklund@gmail.com>",
+    "repository": "https://github.com/micnews/contenteditable-placeholder",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/micnews/contenteditable-placeholder/issues"
-    },
     "homepage": "https://github.com/micnews/contenteditable-placeholder",
     "dependencies": {
       "brfs": "^1.2.0",
@@ -102,6 +95,12 @@
       "transform": [
         "brfs"
       ]
+    },
+    "other": {
+      "author": "David Björklund <david.bjorklund@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/micnews/contenteditable-placeholder/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -149,5 +148,6 @@
       "url": "https://api.github.com/repos/micnews/contenteditable-placeholder/git/commits/7be7124b679286565270adfb8d27743dd40d9b75",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "micnews___contenteditable-placeholder.json"
 }

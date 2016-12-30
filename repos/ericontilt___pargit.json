@@ -81,19 +81,12 @@
       "build": "./node_modules/.bin/webpack",
       "watch": "./node_modules/.bin/webpack-dev-server --hot --inline"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ericberagg/pargit.git"
-    },
+    "repository": "https://github.com/ericberagg/pargit",
     "keywords": [
       "git",
       "gui"
     ],
-    "author": "Eric Beragg",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ericberagg/pargit/issues"
-    },
     "homepage": "https://github.com/ericberagg/pargit#readme",
     "devDependencies": {
       "babel-core": "^6.7.6",
@@ -109,6 +102,12 @@
       "react-dom": "^15.0.1",
       "webpack": "^1.13.0",
       "webpack-dev-server": "^1.14.1"
+    },
+    "other": {
+      "author": "Eric Beragg",
+      "bugs": {
+        "url": "https://github.com/ericberagg/pargit/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,6 @@
       "url": "https://api.github.com/repos/ericontilt/pargit/git/commits/f767b08a08cfef2095c043050cb11070f7f2ae15",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ericontilt___pargit.json"
 }

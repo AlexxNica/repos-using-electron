@@ -83,7 +83,6 @@
       "clean": "rimraf node_modules/",
       "watch": "nodemon --exec \"npm run start\" --watch \"src\" --ignore \"dist/\" --ext vue,js,html,sass"
     },
-    "author": "Alberto Fernandez (bertofer)",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.14.0",
@@ -121,6 +120,9 @@
       "globals": [
         "localStorage"
       ]
+    },
+    "other": {
+      "author": "Alberto Fernandez (bertofer)"
     }
   },
   "packageStatus": 200,
@@ -148,5 +150,6 @@
       "url": "https://api.github.com/repos/bertofer/subtitle-it/git/commits/17a29faae87cb7df6973b20fc8f133be138b2d43",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "bertofer___subtitle-it.json"
 }

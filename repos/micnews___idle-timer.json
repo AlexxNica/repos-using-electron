@@ -87,19 +87,12 @@
     "scripts": {
       "test": "browserify test.js | testron | faucet"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/micnews/idle-timer.git"
-    },
+    "repository": "https://github.com/micnews/idle-timer",
     "keywords": [
       "idle",
       "timer"
     ],
-    "author": "mic.com",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/micnews/idle-timer/issues"
-    },
     "homepage": "https://github.com/micnews/idle-timer#readme",
     "devDependencies": {
       "browserify": "^13.0.0",
@@ -107,6 +100,12 @@
       "faucet": "0.0.1",
       "tape": "^4.4.0",
       "testron": "^1.2.0"
+    },
+    "other": {
+      "author": "mic.com",
+      "bugs": {
+        "url": "https://github.com/micnews/idle-timer/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -135,5 +134,6 @@
       "url": "https://api.github.com/repos/micnews/idle-timer/git/commits/30a9ff03ea02dda9e1cc4cd89e424fe98eb79cff",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "micnews___idle-timer.json"
 }

@@ -80,19 +80,12 @@
       "start": "electron .",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/nukeop/nuclear.git"
-    },
+    "repository": "https://github.com/nukeop/nuclear",
     "keywords": [
       "Electron",
       "music"
     ],
-    "author": "nukeop",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/nukeop/nuclear/issues"
-    },
     "homepage": "https://github.com/nukeop/nuclear",
     "devDependencies": {
       "axios": "^0.9.1",
@@ -111,7 +104,13 @@
       "soundmanager2": "^2.97.20150601-a",
       "youtube-dl": "^1.11.1"
     },
-    "private": true
+    "private": true,
+    "other": {
+      "author": "nukeop",
+      "bugs": {
+        "url": "https://github.com/nukeop/nuclear/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -138,5 +137,6 @@
       "url": "https://api.github.com/repos/nukeop/nuclear/git/commits/7899438302cac84dff044d33ad08e586e61b7e37",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "nukeop___nuclear.json"
 }

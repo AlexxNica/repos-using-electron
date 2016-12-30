@@ -79,17 +79,13 @@
       "pack-linux": "electron-packager . --asar --asar-unpack=protocol-link.html --overwrite --platform=linux --arch=x64",
       "package": "npm run pack-mac && npm run pack-win && npm run pack-linux"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/daviddiefenderfer/electron-cycle-starter.git"
-    },
+    "repository": "https://github.com/daviddiefenderfer/electron-cycle-starter",
     "keywords": [
       "Electron",
       "CycleJS",
       "Babel",
       "xstream"
     ],
-    "author": "David Diefenderfer",
     "license": "MIT",
     "devDependencies": {
       "@cycle/dom": "^12.2.5",
@@ -109,6 +105,9 @@
     "dependencies": {
       "commonjs": "0.0.1",
       "fs": "0.0.1-security"
+    },
+    "other": {
+      "author": "David Diefenderfer"
     }
   },
   "packageStatus": 200,
@@ -134,5 +133,6 @@
       "url": "https://api.github.com/repos/daviddiefenderfer/electron-cycle-starter/git/commits/cb45c4c2150c3f6384edf3947307d17ad96f0623",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "daviddiefenderfer___electron-cycle-starter.json"
 }

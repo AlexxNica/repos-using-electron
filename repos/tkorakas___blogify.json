@@ -82,10 +82,7 @@
     "bin": {
       "blogify-generator": "index.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/tkorakas/blogify.git"
-    },
+    "repository": "https://github.com/tkorakas/blogify",
     "keywords": [
       "blog",
       "blogify",
@@ -93,11 +90,7 @@
       "nodejs",
       "disqus"
     ],
-    "author": "Thanos Korakas",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/tkorakas/blogify/issues"
-    },
     "homepage": "http://tkorakas.github.io/blogify/",
     "dependencies": {
       "chai": "^3.5.0",
@@ -115,6 +108,12 @@
     },
     "devDependencies": {
       "electron-prebuilt": "^1.2.2"
+    },
+    "other": {
+      "author": "Thanos Korakas",
+      "bugs": {
+        "url": "https://github.com/tkorakas/blogify/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -142,5 +141,6 @@
       "url": "https://api.github.com/repos/tkorakas/blogify/git/commits/d5e1b5ebc7803e09149c561ff16e33cc552f5839",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tkorakas___blogify.json"
 }

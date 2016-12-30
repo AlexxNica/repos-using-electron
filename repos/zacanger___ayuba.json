@@ -70,11 +70,6 @@
     "version": "0.2.0",
     "description": "another sad attempt at a blog app",
     "main": "index.js",
-    "author": {
-      "name": "Zac Anger",
-      "email": "zac@zacanger.com",
-      "url": "http://zacanger.com"
-    },
     "keywords": [
       "markdown",
       "blog",
@@ -87,10 +82,7 @@
       "codemirror",
       "angular"
     ],
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/zacanger/ayuba.git"
-    },
+    "repository": "https://github.com/zacanger/ayuba",
     "license": "WTFPL",
     "scripts": {
       "start": "node index.js && electron app.js",
@@ -132,6 +124,13 @@
     },
     "window": {
       "toolbar": false
+    },
+    "other": {
+      "author": {
+        "name": "Zac Anger",
+        "email": "zac@zacanger.com",
+        "url": "http://zacanger.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -159,5 +158,6 @@
       "url": "https://api.github.com/repos/zacanger/ayuba/git/commits/945a12756128719136ae441f3095dcf81798ae7c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zacanger___ayuba.json"
 }

@@ -184,12 +184,8 @@
     "appBundleId": "com.yhat.rodeo",
     "helperBundleId": "com.yhat.rodeo.helper",
     "description": "An IDE for data science.",
-    "author": "The Yhat Team",
     "main": "src/desktop/main.js",
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/yhat/rodeo.git"
-    },
+    "repository": "https://github.com/yhat/rodeo",
     "bin": {
       "rodeo-web": "./bin/rodeo-web"
     },
@@ -241,7 +237,10 @@
       "test": "echo it works",
       "build": "electron-compile --target ./cache src/ static/ --verbose && node scripts/build.js"
     },
-    "license": "AGPL-3.0"
+    "license": "AGPL-3.0",
+    "other": {
+      "author": "The Yhat Team"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -272,5 +271,6 @@
       "url": "https://api.github.com/repos/ChinaQuants/rodeo/git/commits/4c6e243eab7dc1dddf687d4df61762c46ae8cb74",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ChinaQuants___rodeo.json"
 }

@@ -167,11 +167,6 @@
     "name": "webtorrent-desktop",
     "description": "WebTorrent, the streaming torrent client. For Mac, Windows, and Linux.",
     "version": "0.12.0",
-    "author": {
-      "name": "WebTorrent, LLC",
-      "email": "feross@webtorrent.io",
-      "url": "https://webtorrent.io"
-    },
     "bin": {
       "webtorrent-desktop": "./bin/cmd.js"
     },
@@ -271,6 +266,13 @@
       "test": "standard && node ./bin/check-deps.js",
       "update-authors": "./bin/update-authors.sh",
       "watch": "nodemon --exec 'npm run start' --ext js,pug,css"
+    },
+    "other": {
+      "author": {
+        "name": "WebTorrent, LLC",
+        "email": "feross@webtorrent.io",
+        "url": "https://webtorrent.io"
+      }
     }
   },
   "packageStatus": 200,

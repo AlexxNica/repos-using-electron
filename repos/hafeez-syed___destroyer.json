@@ -178,7 +178,6 @@
       "start": "electron index.js",
       "pack:osx": "rm -rf Destroyer-darwin-x64 && npm run build && electron-packager ./ Destroyer --platform=darwin --arch=x64 --icon=icns.icns --prune"
     },
-    "author": "omar mashaal",
     "license": "ISC",
     "dependencies": {
       "aws-sdk": "^2.3.7",
@@ -258,6 +257,9 @@
         "number-leading-zero": "never",
         "string-quotes": "single"
       }
+    },
+    "other": {
+      "author": "omar mashaal"
     }
   },
   "packageStatus": 200,
@@ -305,5 +307,6 @@
       "url": "https://api.github.com/repos/hafeez-syed/destroyer/git/commits/32715c33c9dc9b7f5b712e2c843ddee29232d331",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hafeez-syed___destroyer.json"
 }

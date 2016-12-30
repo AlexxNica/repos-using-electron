@@ -50,9 +50,6 @@
     "version": "0.2.0",
     "description": "So, [pinboard](https://pinboard.in) is a thing. It's an awesome thing, and since I started using it I've gone back and hunted down links that otherwise would have been lost forever.",
     "main": "index.js",
-    "directories": {
-      "doc": "docs"
-    },
     "dependencies": {
       "express": "^4.13.3",
       "fetch": "^0.3.6",
@@ -90,8 +87,13 @@
       "build:scss": "node-sass --include-path assets/scss assets/scss/index.scss > public/css/index.css",
       "build:scss:watch": "watch 'npm run build:scss' assets/scss/"
     },
-    "author": "Sam Marshall",
-    "license": "MIT"
+    "license": "MIT",
+    "other": {
+      "author": "Sam Marshall",
+      "directories": {
+        "doc": "docs"
+      }
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/sjmarshy/pinboard-tag-editor",
@@ -138,5 +140,6 @@
       "url": "https://api.github.com/repos/sjmarshy/pinboard-tag-editor/git/commits/96e38e6e969c1d50378f324b58328781225a2cf8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sjmarshy___pinboard-tag-editor.json"
 }

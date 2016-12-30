@@ -164,7 +164,6 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "author": "Jake Luer <jake@alogicalparadox.com>",
     "name": "kinetik",
     "description": "A storage-agnostic, tag centric job queue for distributed applications.",
     "version": "0.2.0",
@@ -201,7 +200,10 @@
       "seed-redis": "*",
       "seed-mongodb": "*"
     },
-    "optionalDependencies": {}
+    "optionalDependencies": {},
+    "other": {
+      "author": "Jake Luer <jake@alogicalparadox.com>"
+    }
   },
   "packageStatus": 200,
   "contributors": [

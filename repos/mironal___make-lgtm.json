@@ -82,7 +82,6 @@
       "pack-mac": "electron-packager . \"Make LGTM!\" --platform=darwin --arch=x64 --version=0.34.1 --out=builds --icon=img/menubar-icon@2x.png",
       "pack-win": "electron-packager . \"Make LGTM!\" --platform=win32 --arch=x64 --version=0.34.1 --out=builds --icon=img/menubar-icon@2x.png"
     },
-    "author": "mironal",
     "license": "MIT",
     "dependencies": {
       "react": "^0.13.3",
@@ -91,7 +90,10 @@
       "underscore": "^1.8.3",
       "electron-prebuilt": "^0.31.0"
     },
-    "devDependencies": {}
+    "devDependencies": {},
+    "other": {
+      "author": "mironal"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -118,5 +120,6 @@
       "url": "https://api.github.com/repos/mironal/make-lgtm/git/commits/22ba226e1345409402062ae8e3167d82be948c63",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mironal___make-lgtm.json"
 }

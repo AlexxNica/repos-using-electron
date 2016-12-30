@@ -53,10 +53,7 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Thumberd/ElectronUI-RPI.git"
-    },
+    "repository": "https://github.com/Thumberd/ElectronUI-RPI",
     "keywords": [
       "Electron",
       "Raspberry",
@@ -65,17 +62,19 @@
       "Home",
       "Automation"
     ],
-    "author": "Jérémy Albrecht",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/Thumberd/ElectronUI-RPI/issues"
-    },
     "homepage": "https://github.com/Thumberd/ElectronUI-RPI",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
     },
     "dependencies": {
       "jquery": "^2.2.2"
+    },
+    "other": {
+      "author": "Jérémy Albrecht",
+      "bugs": {
+        "url": "https://github.com/Thumberd/ElectronUI-RPI/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -103,5 +102,6 @@
       "url": "https://api.github.com/repos/Thumberd/ElectronUI-RPI/git/commits/9bd689f127de7bf015d20348149476671e86d5ac",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Thumberd___ElectronUI-RPI.json"
 }

@@ -58,11 +58,6 @@
     "description": "Create async-loaded apis that aren't async from the outside",
     "license": "MIT",
     "repository": "ajoslin/lazybook",
-    "author": {
-      "name": "Andrew Joslin",
-      "email": "andrewtjoslin@gmail.com",
-      "url": "ajoslin.com"
-    },
     "scripts": {
       "test": "standard && webpack && electron dist/bundle.js"
     },
@@ -89,6 +84,13 @@
     ],
     "dependencies": {
       "assert": "~1.4.1"
+    },
+    "other": {
+      "author": {
+        "name": "Andrew Joslin",
+        "email": "andrewtjoslin@gmail.com",
+        "url": "ajoslin.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -116,5 +118,6 @@
       "url": "https://api.github.com/repos/ajoslin/lazybook/git/commits/ac6cc67c3a27bebc47ce2a74811f7620c14f270a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ajoslin___lazybook.json"
 }

@@ -76,7 +76,6 @@
       "pack:linux32": "node_modules/electron-packager/cli.js ./build 'My Wallet Backup Decryption Tool' --out=dist/ --platform=linux --arch=ia32 --version=0.34.1 --icon=icons/icon",
       "pack:linux64": "node_modules/electron-packager/cli.js ./build 'My Wallet Backup Decryption Tool' --out=dist/ --platform=linux --arch=x64 --overwrite --version=0.34.1 --icon=icons/icon"
     },
-    "author": "Justin Tormey <justin@blockchain.com>",
     "dependencies": {
       "blockchain-wallet-client": "3.1.*",
       "bower": "1.6.*",
@@ -89,6 +88,9 @@
       "gulp": "3.9.*",
       "gulp-clean": "0.3.*",
       "run-sequence": "1.1.*"
+    },
+    "other": {
+      "author": "Justin Tormey <justin@blockchain.com>"
     }
   },
   "packageStatus": 200,
@@ -137,5 +139,6 @@
       "url": "https://api.github.com/repos/blockchain/my-wallet-backup-decryption-tool/git/commits/12ee2eecdd5ff9995005334542905a480e8956e6",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "blockchain___my-wallet-backup-decryption-tool.json"
 }

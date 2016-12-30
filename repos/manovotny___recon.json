@@ -75,20 +75,9 @@
     "name": "recon",
     "version": "0.0.0",
     "description": "An iTunes search and notification app built using Electron.",
-    "author": {
-      "name": "Michael Novotny",
-      "email": "manovotny@gmail.com",
-      "url": "htts://manovotny.com"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/manovotny/recon.git"
-    },
+    "repository": "https://github.com/manovotny/recon",
     "homepage": "https://github.com/manovotny/recon",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/manovotny/recon/issues"
-    },
     "keywords": [
       "alerts",
       "app",
@@ -131,6 +120,16 @@
       "webpack-dev-middleware": "1.8.4",
       "webpack-hot-middleware": "2.13.1",
       "webpack-target-electron-renderer": "0.4.0"
+    },
+    "other": {
+      "author": {
+        "name": "Michael Novotny",
+        "email": "manovotny@gmail.com",
+        "url": "htts://manovotny.com"
+      },
+      "bugs": {
+        "url": "https://github.com/manovotny/recon/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -158,5 +157,6 @@
       "url": "https://api.github.com/repos/manovotny/recon/git/commits/a337cba786583709fea3d00ac55b3f6f098ac146",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "manovotny___recon.json"
 }

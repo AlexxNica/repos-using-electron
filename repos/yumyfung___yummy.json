@@ -50,16 +50,12 @@
     "version": "2.1.0",
     "description": "A demo package",
     "main": "index.js",
-    "directories": {
-      "test": "test"
-    },
     "bin": {
       "yummy": "./bin/yummy.js"
     },
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "yumy",
     "license": "Tencent",
     "devDependencies": {
       "args": "0.0.3",
@@ -104,6 +100,12 @@
     },
     "dependencies": {
       "imagemin-pngquant": "^4.1.0"
+    },
+    "other": {
+      "author": "yumy",
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -131,5 +133,6 @@
       "url": "https://api.github.com/repos/yumyfung/yummy/git/commits/6a238af7493170219e0220a83837b25af49adb16",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "yumyfung___yummy.json"
 }

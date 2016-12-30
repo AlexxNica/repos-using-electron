@@ -74,7 +74,6 @@
       "rebuild-sqlite3": "cd node_modules/sqlite3 &amp;&amp; npm run prepublish &amp;&amp; node-gyp configure --module_name=node_sqlite3 --module_path=lib/binding/electron-v1.2-darwin-x64 &amp;&amp; node-gyp rebuild --target=1.2.4 --arch=x64 --target_platform=darwin --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=lib/binding/electron-v1.2-darwin-x64",
       "start": "electron main.js"
     },
-    "author": "Christian Nyx",
     "contributors": [
       {
         "name": "Christian Nyx",
@@ -85,6 +84,9 @@
     "dependencies": {
       "electron-prebuilt": "^1.2.4",
       "sqlite3": "^3.1.4"
+    },
+    "other": {
+      "author": "Christian Nyx"
     }
   },
   "packageStatus": 200,
@@ -110,5 +112,6 @@
       "url": "https://api.github.com/repos/christiandawson/bindingnative/git/commits/98ad8feb21227bacaf4a54b84b8e0837d139b603",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "christiandawson___bindingnative.json"
 }

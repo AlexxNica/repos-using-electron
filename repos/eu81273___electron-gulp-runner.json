@@ -80,12 +80,8 @@
       "start": "./node_modules/.bin/electron app/main.js",
       "build": "./node_modules/.bin/gulp build"
     },
-    "author": "AHN JAE-HA",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/eu81273/electron-gulp-runner.git"
-    },
+    "repository": "https://github.com/eu81273/electron-gulp-runner",
     "dependencies": {
       "babel-preset-es2015": "^6.5.0",
       "babel-preset-react": "^6.5.0",
@@ -106,7 +102,10 @@
       "darwin",
       "linux",
       "win32"
-    ]
+    ],
+    "other": {
+      "author": "AHN JAE-HA"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -133,5 +132,6 @@
       "url": "https://api.github.com/repos/eu81273/electron-gulp-runner/git/commits/744d49f689751756fb8d04355ce96703c315244b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "eu81273___electron-gulp-runner.json"
 }

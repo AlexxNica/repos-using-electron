@@ -188,7 +188,6 @@
     "name": "admin-mongo",
     "version": "0.0.20",
     "description": "A Web user interface to administer MongoDB databases built using Express",
-    "author": "Mark Moffat <mrvautin@gmail.com>",
     "private": false,
     "repository": "https://github.com/mrvautin/adminmongo",
     "main": "electron.js",
@@ -267,7 +266,9 @@
       "mocha-jsdom": "^1.1.0",
       "supertest": "^1.2.0"
     },
-    "other": {}
+    "other": {
+      "author": "Mark Moffat <mrvautin@gmail.com>"
+    }
   },
   "packageStatus": 200,
   "contributors": [

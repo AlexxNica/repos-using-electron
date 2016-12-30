@@ -83,14 +83,8 @@
       "pretest": "npm run lint",
       "test": "ava"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/squelch-irc/squelch.git"
-    },
+    "repository": "https://github.com/squelch-irc/squelch",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/squelch-irc/squelch/issues"
-    },
     "homepage": "https://github.com/squelch-irc/squelch#readme",
     "devDependencies": {
       "ava": "^0.15.2",
@@ -133,6 +127,11 @@
       "require": [
         "babel-register"
       ]
+    },
+    "other": {
+      "bugs": {
+        "url": "https://github.com/squelch-irc/squelch/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -183,5 +182,6 @@
       "url": "https://api.github.com/repos/squelch-irc/squelch/git/commits/004b9d851c2794a2b4debd387ec852765d4bcae9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "squelch-irc___squelch.json"
 }

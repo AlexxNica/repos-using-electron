@@ -76,13 +76,12 @@
       "compile": "pyinstaller -y --onedir --additional-hooks-dir=cli cli/cli.py -n emigrate --distpath=assets",
       "package": "electron-packager . Emigrate --platform=darwin --arch=x64 --version=0.33.3 --ignore='cli' --out=dist"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/lewisamarshall/emigrate_app"
-    },
-    "author": "Lewis A. Marshall",
+    "repository": "https://github.com/lewisamarshall/emigrate_app",
     "devDependencies": {
       "electron-prebuilt": "^0.33.3"
+    },
+    "other": {
+      "author": "Lewis A. Marshall"
     }
   },
   "packageStatus": 200,
@@ -110,5 +109,6 @@
       "url": "https://api.github.com/repos/lewisamarshall/emigrate-app/git/commits/892b8a0c6cf996f997ad3370804cac6fdaa552f4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lewisamarshall___emigrate-app.json"
 }

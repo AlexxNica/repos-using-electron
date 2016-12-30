@@ -216,23 +216,13 @@
       "appId": "wa.translation_core.desktop",
       "category": "public.app-category.bible.tools"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/unfoldingWord-dev/translationCore.git"
-    },
+    "repository": "https://github.com/unfoldingWord-dev/translationCore",
     "keywords": [
       "Translation",
       "core",
       "Wycliffe"
     ],
-    "author": {
-      "name": "Wycliffe Associates",
-      "email": "info@unfoldingword.org"
-    },
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/unfoldingWord-dev/translationCore/issues"
-    },
     "homepage": "https://github.com/unfoldingWord-dev/translationCore#readme",
     "devDependencies": {
       "electron": "^1.3.3",
@@ -267,6 +257,15 @@
       "style-it": "^1.2.11",
       "usfm-parser": "^0.1.4",
       "xregexp": "^3.1.1"
+    },
+    "other": {
+      "author": {
+        "name": "Wycliffe Associates",
+        "email": "info@unfoldingword.org"
+      },
+      "bugs": {
+        "url": "https://github.com/unfoldingWord-dev/translationCore/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -304,5 +303,6 @@
       "url": "https://api.github.com/repos/unfoldingWord-dev/translationCore/git/commits/69d86ceae7616c37bc432112e64a4672ba4f43c7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "unfoldingWord-dev___translationCore.json"
 }

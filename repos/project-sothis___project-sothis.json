@@ -106,11 +106,7 @@
       "test:mocha": "cross-env NODE_ENV=test mocha -R spec --compilers js:babel-core/register --require ignore-styles",
       "watch": "cross-env NODE_ENV=development webpack-dev-server"
     },
-    "author": "Resi Respati <resir014@gmail.com>",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/resir014/project-sothis.git"
-    },
+    "repository": "https://github.com/resir014/project-sothis",
     "contributors": [],
     "license": "MIT",
     "dependencies": {
@@ -155,6 +151,9 @@
     },
     "standard": {
       "parser": "babel-eslint"
+    },
+    "other": {
+      "author": "Resi Respati <resir014@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -183,5 +182,6 @@
       "url": "https://api.github.com/repos/project-sothis/project-sothis/git/commits/40ac2ee51d291fb54adb07be3347e2036fff6bdc",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "project-sothis___project-sothis.json"
 }

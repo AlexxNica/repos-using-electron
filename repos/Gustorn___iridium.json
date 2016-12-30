@@ -76,11 +76,7 @@
     "version": "0.1.0",
     "description": "An SRS based Japanese learning tool powered by Electron",
     "main": "index.js",
-    "repository": {
-      "url": "https://github.com/Gustorn/iridium",
-      "type": "git"
-    },
-    "author": "Gustorn <gustorn@gmail.com>",
+    "repository": "https://github.com/Gustorn/iridium",
     "license": "GPL-3.0",
     "scripts": {
       "watch": "cross-env NODE_ENV=development node  ./config/server.js",
@@ -174,6 +170,9 @@
       "webpack-dev-middleware": "^1.8.4",
       "webpack-hot-middleware": "^2.13.1",
       "webpack-merge": "^0.15.0"
+    },
+    "other": {
+      "author": "Gustorn <gustorn@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -201,5 +200,6 @@
       "url": "https://api.github.com/repos/Gustorn/iridium/git/commits/e92703032dd2d55e9369856f18a604868438ad55",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Gustorn___iridium.json"
 }

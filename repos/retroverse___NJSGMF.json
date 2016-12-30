@@ -79,10 +79,7 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/retroverse/NJSGMF.git"
-    },
+    "repository": "https://github.com/retroverse/NJSGMF",
     "dependencies": {
       "require-all": "*",
       "electron-prebuilt": "^1.3.3",
@@ -97,12 +94,14 @@
       "jsgmf",
       "coffee-script"
     ],
-    "author": "Ewan Breakey",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/retroverse/NJSGMF/issues"
-    },
-    "homepage": "https://github.com/retroverse/NJSGMF#readme"
+    "homepage": "https://github.com/retroverse/NJSGMF#readme",
+    "other": {
+      "author": "Ewan Breakey",
+      "bugs": {
+        "url": "https://github.com/retroverse/NJSGMF/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/retroverse/NJSGMF/git/commits/47fb5a5cbdae2dd81ee1e6bbf2b1cd0624f816b2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "retroverse___NJSGMF.json"
 }

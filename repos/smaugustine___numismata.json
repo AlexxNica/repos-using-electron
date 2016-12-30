@@ -80,21 +80,14 @@
       "postinstall": "cd node_modules/pouchdb/node_modules/leveldown && HOME=~/.electron-gyp node-gyp rebuild --target=0.36.3 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/smaugustine/numismata.git"
-    },
+    "repository": "https://github.com/smaugustine/numismata",
     "keywords": [
       "Numismata",
       "coins",
       "numismatics",
       "catalogue"
     ],
-    "author": "Augustine Dickinson",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/smaugustine/numismata/issues"
-    },
     "dependencies": {
       "jquery": "^2.2.0",
       "pouchdb": "^5.2.0"
@@ -102,6 +95,12 @@
     "devDependencies": {
       "electron-prebuilt": "^0.36.3",
       "electron-rebuild": "^1.1.1"
+    },
+    "other": {
+      "author": "Augustine Dickinson",
+      "bugs": {
+        "url": "https://github.com/smaugustine/numismata/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/smaugustine/numismata/git/commits/289cbc99cad012fa8dfb8816cb79fa40077dddde",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "smaugustine___numismata.json"
 }

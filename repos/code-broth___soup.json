@@ -89,18 +89,17 @@
       "start_client": "electron Client/net.js",
       "start_server": "node --harmony Server/server.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/code-broth/soup.git"
-    },
+    "repository": "https://github.com/code-broth/soup",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/code-broth/soup/issues"
-    },
     "homepage": "https://github.com/code-broth/soup#readme",
     "dependencies": {
       "electron-prebuilt": "^1.1.0",
       "three": "^0.77.1"
+    },
+    "other": {
+      "bugs": {
+        "url": "https://github.com/code-broth/soup/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/code-broth/soup/git/commits/f5149d07cafbc99b32f92723f477544494fbc2a2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "code-broth___soup.json"
 }

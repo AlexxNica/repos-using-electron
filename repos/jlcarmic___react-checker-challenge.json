@@ -73,15 +73,8 @@
     "scripts": {
       "test": "mocha --compilers js:babel/register 'test/*.jsx'"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/jlcarmic/react-checker-challenge.git"
-    },
-    "author": "John Carmichael",
+    "repository": "https://github.com/jlcarmic/react-checker-challenge",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/jlcarmic/react-checker-challenge/issues"
-    },
     "dependencies": {
       "babel": "^5.3.3",
       "electron-prebuilt": "^0.26.0",
@@ -101,6 +94,12 @@
       "mocha": "^3.0.2",
       "react-addons-test-utils": "^15.3.1",
       "sinon": "^1.17.5"
+    },
+    "other": {
+      "author": "John Carmichael",
+      "bugs": {
+        "url": "https://github.com/jlcarmic/react-checker-challenge/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/jlcarmic/react-checker-challenge/git/commits/17b3f5842d15691a1cb43d7e99d0e82b9c62c21c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jlcarmic___react-checker-challenge.json"
 }

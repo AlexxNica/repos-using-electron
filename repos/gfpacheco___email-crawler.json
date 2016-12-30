@@ -51,10 +51,7 @@
     "version": "0.1.1",
     "description": "Search the web for emails by company name",
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/gfpacheco/email-crawler.git"
-    },
+    "repository": "https://github.com/gfpacheco/email-crawler",
     "scripts": {
       "start": "electron main.js",
       "dist": "electron-packager . --platform darwin --arch x64 --out dist --overwrite",
@@ -64,7 +61,6 @@
       "email",
       "crawler"
     ],
-    "author": "Guilherme Pacheco <guilherme.f.pacheco@gmail.com>",
     "devDependencies": {
       "async": "^2.0.0-rc.4",
       "electron-packager": "^7.0.1",
@@ -72,6 +68,9 @@
       "electron-release": "^2.2.0",
       "jscs": "^3.0.3",
       "request": "^2.72.0"
+    },
+    "other": {
+      "author": "Guilherme Pacheco <guilherme.f.pacheco@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -119,5 +118,6 @@
       "url": "https://api.github.com/repos/gfpacheco/email-crawler/git/commits/a67bf02c5d3744d68ab67d760139ecc473a57c77",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "gfpacheco___email-crawler.json"
 }

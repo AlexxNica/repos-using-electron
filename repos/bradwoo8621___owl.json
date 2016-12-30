@@ -85,21 +85,14 @@
       "dist": "build",
       "update-parrot": "npm install nest-parrot2 --save"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/bradwoo8621/owl.git"
-    },
+    "repository": "https://github.com/bradwoo8621/owl",
     "keywords": [
       "Nest",
       "Owl",
       "Parrot",
       "designer"
     ],
-    "author": "bradwoo8621",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/bradwoo8621/owl/issues"
-    },
     "homepage": "https://github.com/bradwoo8621/owl#readme",
     "devDependencies": {
       "electron-builder": "^6.4.0",
@@ -136,6 +129,12 @@
       "win": {
         "iconUrl": "https://github.com/bradwoo8621/owl/blob/master/app/assets/app-icon/win/app.ico?raw=true"
       }
+    },
+    "other": {
+      "author": "bradwoo8621",
+      "bugs": {
+        "url": "https://github.com/bradwoo8621/owl/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -163,5 +162,6 @@
       "url": "https://api.github.com/repos/bradwoo8621/owl/git/commits/d5e2599a99f605028bcddfca4819ed6799a09829",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "bradwoo8621___owl.json"
 }

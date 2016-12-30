@@ -79,10 +79,7 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/danielnieto/electron-download-manager.git"
-    },
+    "repository": "https://github.com/danielnieto/electron-download-manager",
     "keywords": [
       "electron",
       "download",
@@ -91,15 +88,17 @@
       "bulk",
       "multi"
     ],
-    "author": "Daniel Nieto <danielnieto89@gmail.com>",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/danielnieto/electron-download-manager/issues"
-    },
     "homepage": "https://github.com/danielnieto/electron-download-manager#readme",
     "dependencies": {
       "electron": "^1.4.3",
       "unused-filename": "^0.1.0"
+    },
+    "other": {
+      "author": "Daniel Nieto <danielnieto89@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/danielnieto/electron-download-manager/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/danielnieto/electron-download-manager/git/commits/498c9988c25036bc6e856e430454c2df95312134",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "danielnieto___electron-download-manager.json"
 }

@@ -62,26 +62,25 @@
       "build_win32": "electron-packager . MarkApp --platform=win32 --arch=x64 --version=0.36.0 --icon=markdown.ico --asar=true --ignore=node_modules/electron-* ",
       "build_linux": "electron-packager . MarkApp --platform=linux --arch=x64 --version=0.36.0 --asar=true --ignore=node_modules/electron-* "
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ffbli666/markdown-preview.git"
-    },
+    "repository": "https://github.com/ffbli666/markdown-preview",
     "keywords": [
       "Electron",
       "markdown",
       "preview"
     ],
-    "author": "ffbli",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ffbli666/markdown-preview/issues"
-    },
     "homepage": "https://github.com/ffbli666/markdown-preview",
     "devDependencies": {
       "electron-packager": "^5.2.0",
       "electron-prebuilt": "^0.36.0"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "other": {
+      "author": "ffbli",
+      "bugs": {
+        "url": "https://github.com/ffbli666/markdown-preview/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -108,5 +107,6 @@
       "url": "https://api.github.com/repos/ffbli666/markdown-preview/git/commits/bb95a739479af9ed3a3545c36f2c6054b7cb62f5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ffbli666___markdown-preview.json"
 }

@@ -88,19 +88,18 @@
       "dev": "NODE_ENV=development gulp dev",
       "build": "npm run clean && gulp build && helpers/package && helpers/zip"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Nikolaj695/mary.git"
-    },
+    "repository": "https://github.com/Nikolaj695/mary",
     "keywords": [
       "edition"
     ],
-    "author": "Govorov Nikolaj",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/Nikolaj695/mary/issues"
-    },
-    "homepage": "https://github.com/Nikolaj695/mary#readme"
+    "homepage": "https://github.com/Nikolaj695/mary#readme",
+    "other": {
+      "author": "Govorov Nikolaj",
+      "bugs": {
+        "url": "https://github.com/Nikolaj695/mary/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/Nikolaj695/Mary_old/git/commits/a93f24de20bd5536e787d77c8ce0292cd1dd0f85",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Nikolaj695___Mary_old.json"
 }

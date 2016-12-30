@@ -189,7 +189,6 @@
       "test": "npm run-script test:main && npm run-script test:browser",
       "start": "electron lib/etcher.js"
     },
-    "author": "Juan Cruz Viotti <juan@resin.io>",
     "license": "Apache-2.0",
     "copyright": "Copyright 2016 Resinio Ltd",
     "packageIgnore": [
@@ -262,6 +261,9 @@
       "mochainon": "^1.0.0",
       "rindle": "^1.3.0",
       "tmp": "0.0.28"
+    },
+    "other": {
+      "author": "Juan Cruz Viotti <juan@resin.io>"
     }
   },
   "packageStatus": 200,

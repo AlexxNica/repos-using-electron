@@ -81,7 +81,6 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "author": "Ratikesh",
     "license": "Limetray",
     "dependencies": {
       "axios": "^0.9.1",
@@ -103,6 +102,9 @@
     "devDependencies": {
       "babel-preset-es2015": "^6.9.0",
       "babel-preset-react": "^6.5.0"
+    },
+    "other": {
+      "author": "Ratikesh"
     }
   },
   "packageStatus": 200,
@@ -128,5 +130,6 @@
       "url": "https://api.github.com/repos/ratikesh9/Music-Palyer-react-electron-/git/commits/b8470c33d21aa9d4362edaf44ca94f40be19cfc8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ratikesh9___Music-Palyer-react-electron-.json"
 }

@@ -79,19 +79,7 @@
     "homepage": "http://mazdatweaks.com",
     "license": "MIT",
     "main": "main.js",
-    "author": {
-      "name": "Trevor G Martin",
-      "email": "Trez@mazdatweaks.com",
-      "url": "https://trevelopment.com",
-      "company": "Trevelopment"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/trevelopment/MZD-AIO-TI"
-    },
-    "bugs": {
-      "url": "https://github.com/trevelopment/MZD-AIO-TI/issues"
-    },
+    "repository": "https://github.com/trevelopment/MZD-AIO-TI",
     "engines": {
       "node": "4.2.x"
     },
@@ -186,9 +174,6 @@
       },
       "nsis": {}
     },
-    "directories": {
-      "output": "releases"
-    },
     "devDependencies": {
       "async": "^2",
       "chai": "^3",
@@ -214,6 +199,20 @@
       "extract-zip": "^1.5.0",
       "jquery": "^3.1.0",
       "mkdirp": "^0.5.1"
+    },
+    "other": {
+      "author": {
+        "name": "Trevor G Martin",
+        "email": "Trez@mazdatweaks.com",
+        "url": "https://trevelopment.com",
+        "company": "Trevelopment"
+      },
+      "bugs": {
+        "url": "https://github.com/trevelopment/MZD-AIO-TI/issues"
+      },
+      "directories": {
+        "output": "releases"
+      }
     }
   },
   "packageStatus": 200,
@@ -241,5 +240,6 @@
       "url": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI/git/commits/962e06f70a40bbfeafbea9b4981b6b1554e18de2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Trevelopment___MZD-AIO-TI.json"
 }

@@ -75,11 +75,7 @@
     "name": "msi-keyboard-gui",
     "version": "0.1.1",
     "description": "The First fully featured GUI MSI Keyboard controller for Linux",
-    "author": "Steve Lacy <me@slacy.me> http://slacy.me",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/stevelacy/msi-keyboard-gui"
-    },
+    "repository": "https://github.com/stevelacy/msi-keyboard-gui",
     "license": "MIT",
     "scripts": {
       "start": "npm i electron-prebuilt@1.1.0 && ./node_modules/.bin/electron-rebuild && electron .",
@@ -101,6 +97,9 @@
       "react": "^15.0.2",
       "react-dom": "^15.0.2",
       "react-router": "^2.4.0"
+    },
+    "other": {
+      "author": "Steve Lacy <me@slacy.me> http://slacy.me"
     }
   },
   "packageStatus": 200,
@@ -132,5 +131,6 @@
       "url": "https://api.github.com/repos/stevelacy/msi-keyboard-gui/git/commits/8ee19176c65e9230a41e956bc2912681c574e48c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "stevelacy___msi-keyboard-gui.json"
 }

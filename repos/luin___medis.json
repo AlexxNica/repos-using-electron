@@ -77,7 +77,6 @@
     "productName": "Medis",
     "version": "0.3.0",
     "license": "MIT",
-    "author": "luin <i@zihua.li> (http://zihua.li)",
     "main": "server/main.js",
     "scripts": {
       "start": "NODE_ENV=debug electron .",
@@ -88,10 +87,7 @@
       "unsign": "./bin/unsign",
       "tomedis": "./bin/tomedis"
     },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/luin/medis.git"
-    },
+    "repository": "https://github.com/luin/medis",
     "dependencies": {
       "codemirror": "^5.10.0",
       "fixed-data-table-contextmenu": "^0.6.3",
@@ -144,6 +140,9 @@
       "commitizen": {
         "path": "./node_modules/cz-conventional-changelog"
       }
+    },
+    "other": {
+      "author": "luin <i@zihua.li> (http://zihua.li)"
     }
   },
   "packageStatus": 200,
@@ -173,5 +172,6 @@
       "url": "https://api.github.com/repos/luin/medis/git/commits/acbbe8b0b726a0b193a7a180113053e9b4848ad2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "luin___medis.json"
 }

@@ -94,21 +94,14 @@
       "start": "electron main.js",
       "build": "./build.sh"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rentlytics/telepresence.git"
-    },
+    "repository": "https://github.com/rentlytics/telepresence",
     "keywords": [
       "Electron",
       "room.co",
       "telepresence",
       "remote office"
     ],
-    "author": "Rentlytics",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/rentlytics/telepresence/issues"
-    },
     "homepage": "https://github.com/rentlytics/telepresence#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0",
@@ -116,6 +109,12 @@
     },
     "dependencies": {
       "dateformat": "^1.0.12"
+    },
+    "other": {
+      "author": "Rentlytics",
+      "bugs": {
+        "url": "https://github.com/rentlytics/telepresence/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -143,5 +142,6 @@
       "url": "https://api.github.com/repos/rentlytics/telepresence/git/commits/aa523927d9ed36b94fa97baaefd880796b03f7c2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rentlytics___telepresence.json"
 }

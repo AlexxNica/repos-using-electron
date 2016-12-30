@@ -75,7 +75,6 @@
       "build": "node_modules/.bin/electron-packager ./ TipCalculator --platform=all --arch=all --version=0.34.1 --out=dist",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Brian P. Hogan <brianhogan@napcs.com>",
     "license": "MIT",
     "devDependencies": {
       "bower": "^1.6.5",
@@ -84,6 +83,9 @@
     },
     "dependencies": {
       "jquery": "^2.1.4"
+    },
+    "other": {
+      "author": "Brian P. Hogan <brianhogan@napcs.com>"
     }
   },
   "packageStatus": 200,
@@ -111,5 +113,6 @@
       "url": "https://api.github.com/repos/napcs/ElectronTipCalc/git/commits/5c21489b4f62b16dc2ac6b149f1e9cab8283dcbc",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "napcs___ElectronTipCalc.json"
 }

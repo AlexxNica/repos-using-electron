@@ -80,10 +80,7 @@
       "pack": "build --dir",
       "dist": "build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/BluJINonlee/repertoire.git"
-    },
+    "repository": "https://github.com/BluJINonlee/repertoire",
     "keywords": [
       "Electron",
       "quick",
@@ -94,15 +91,17 @@
       "appId": "repertoire",
       "category": "professionalism"
     },
-    "author": "j.",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/BluJINonlee/repertoire/issues"
-    },
     "homepage": "https://github.com/BluJINonlee/repertoire#readme",
     "devDependencies": {
       "electron-builder": "^5.30.0",
       "electron-prebuilt": "^1.2.0"
+    },
+    "other": {
+      "author": "j.",
+      "bugs": {
+        "url": "https://github.com/BluJINonlee/repertoire/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/BluJINonlee/repertoire/git/commits/1eaef84f847bf58e18b3711e2b4070ff5848e3a2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "BluJINonlee___repertoire.json"
 }

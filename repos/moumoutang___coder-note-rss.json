@@ -75,17 +75,13 @@
       "dev": "webpack-dev-server --inline --hot --no-info",
       "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
     },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:moumoutang/coder-note-rss.git"
-    },
+    "repository": "https://github.com/moumoutang/coder-note-rss",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "leeds",
     "license": "",
     "homepage": "",
     "devDependencies": {
@@ -111,6 +107,9 @@
       "firebase": "^2.4.2",
       "vue": "^1.0.26",
       "vue-router": "^0.7.13"
+    },
+    "other": {
+      "author": "leeds"
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,6 @@
       "url": "https://api.github.com/repos/moumoutang/coder-note-rss/git/commits/67d28087c828fec5049a36fbcefaa722f1290c30",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "moumoutang___coder-note-rss.json"
 }

@@ -71,10 +71,7 @@
     "description": "Sia frontend with react and redux",
     "main": "index.js",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/johnathanhowell/sia-react"
-    },
+    "repository": "https://github.com/johnathanhowell/sia-react",
     "dependencies": {
       "babel-cli": "^6.5.1",
       "babel-loader": "^6.2.3",
@@ -114,7 +111,9 @@
       "test": "babel src/main -d ./ && webpack && mocha ./test --recursive --compilers js:babel-register",
       "lint": "eslint ./test ./src && sass-lint -c ./.sass-lint.yml -v"
     },
-    "author": "Johnathan Howell"
+    "other": {
+      "author": "Johnathan Howell"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -141,5 +140,6 @@
       "url": "https://api.github.com/repos/johnathanhowell/sia-react/git/commits/8c7dc8a847fd5857254afca874779429c67a662e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "johnathanhowell___sia-react.json"
 }

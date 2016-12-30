@@ -90,7 +90,6 @@
     "productName": "mobilecaddy-desktop",
     "version": "1.0.0",
     "description": "A minimal Electron application",
-    "author": "MobileCaddy",
     "license": "MIT",
     "main": "main.js",
     "buildName": "BIZ001",
@@ -111,6 +110,9 @@
     "dependencies": {
       "electron": "^1.4.1",
       "mobilecaddy-electron": "git+https://github.com/MobileCaddy/mobilecaddy-electron#develop"
+    },
+    "other": {
+      "author": "MobileCaddy"
     }
   },
   "packageStatus": 200,

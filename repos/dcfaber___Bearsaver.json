@@ -74,10 +74,12 @@
       "start": "electron .",
       "build": "electron-packager . bearsaver --platform=win32 --arch=all --version=1.2.8"
     },
-    "author": "David Faber",
     "devDependencies": {
       "electron": "^0.4.1",
       "electron-packager": "^7.3.0"
+    },
+    "other": {
+      "author": "David Faber"
     }
   },
   "packageStatus": 200,
@@ -105,5 +107,6 @@
       "url": "https://api.github.com/repos/dcfaber/Bearsaver/git/commits/6ab466d91e5b3c284f4bca393911be5a3b809729",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dcfaber___Bearsaver.json"
 }

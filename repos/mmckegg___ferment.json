@@ -86,10 +86,7 @@
     "bin": {
       "ferment": "scripts/start.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mmckegg/ferment.git"
-    },
+    "repository": "https://github.com/mmckegg/ferment",
     "keywords": [
       "audio",
       "share",
@@ -102,11 +99,7 @@
       "ssb",
       "electron"
     ],
-    "author": "Matt McKegg",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/mmckegg/ferment/issues"
-    },
     "homepage": "https://github.com/mmckegg/ferment#readme",
     "dependencies": {
       "@mmckegg/mutant": "~3.7.2",
@@ -155,6 +148,12 @@
     "devDependencies": {
       "node-gyp": ">=1.0.2",
       "standard": "^8.3.0"
+    },
+    "other": {
+      "author": "Matt McKegg",
+      "bugs": {
+        "url": "https://github.com/mmckegg/ferment/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -186,5 +185,6 @@
       "url": "https://api.github.com/repos/mmckegg/ferment/git/commits/eadb9ceb4988673152a6a6d69b46ddd932d60e1e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mmckegg___ferment.json"
 }

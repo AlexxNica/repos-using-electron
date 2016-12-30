@@ -75,11 +75,6 @@
     "name": "reveal-js-editor",
     "description": "A cross platform editor to author reveal.js presentation in markdown",
     "version": "1.0.0",
-    "author": {
-      "name": "Francesco Bedussi",
-      "email": "francesco@francescobedussi.it",
-      "url": "http://www.francescobedussi.it"
-    },
     "dependencies": {
       "fs-extra": "^1.0.0",
       "markdown-it": "^8.1.0",
@@ -118,6 +113,13 @@
       "package": "electron-packager . 'Reveak Editor'",
       "package-all": "electron-packager . 'Reveal Editor' --platform=all --arch=all",
       "start": "electron ."
+    },
+    "other": {
+      "author": {
+        "name": "Francesco Bedussi",
+        "email": "francesco@francescobedussi.it",
+        "url": "http://www.francescobedussi.it"
+      }
     }
   },
   "packageStatus": 200,

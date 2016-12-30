@@ -63,7 +63,6 @@
       "postinstall": "elm-package install -y",
       "start-hot": "cross-env HOT=1 NODE_ENV=development electron --js-flags=\"--harmony_proxies\" ./"
     },
-    "author": "Ivan Dubrov",
     "license": "MIT",
     "dependencies": {
       "ace-builds": "^1.2.2",
@@ -90,6 +89,9 @@
       "webpack": "^1.12.12",
       "webpack-dev-server": "^1.14.1",
       "webpack-target-electron-renderer": "^0.4.0"
+    },
+    "other": {
+      "author": "Ivan Dubrov"
     }
   },
   "packageStatus": 200,
@@ -137,5 +139,6 @@
       "url": "https://api.github.com/repos/idubrov/strumerge/git/commits/67346e4aa432cc6554859110612941fc319424f4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "idubrov___strumerge.json"
 }

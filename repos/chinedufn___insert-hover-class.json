@@ -50,16 +50,10 @@
     "version": "1.0.0",
     "description": "Insert a :hover class into the DOM and return the classname",
     "main": "src/insert-hover-class.js",
-    "directories": {
-      "test": "test"
-    },
     "scripts": {
       "test": "standard && node test/insert-hover-class.js && browserify test/insert-hover-class.js | testron"
     },
-    "repository": {
-      "type": "git",
-      "url": "htts://github.com/chinedufn/insert-hover-class"
-    },
+    "repository": "https://github.com/chinedufn/insert-hover-class",
     "keywords": [
       "virtual-dom",
       "vdom",
@@ -68,7 +62,6 @@
       "selector",
       "class"
     ],
-    "author": "Chinedu Francis Nwafili <frankie.nwafili@gmail.com>",
     "license": "MIT",
     "dependencies": {
       "create-hover-class": "^1.0.0",
@@ -80,6 +73,12 @@
       "standard": "^5.4.1",
       "tape": "^4.4.0",
       "testron": "^1.2.0"
+    },
+    "other": {
+      "author": "Chinedu Francis Nwafili <frankie.nwafili@gmail.com>",
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -107,5 +106,6 @@
       "url": "https://api.github.com/repos/chinedufn/insert-hover-class/git/commits/ac0ca262e493d3e068f31ad452e89d25e711d5c3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "chinedufn___insert-hover-class.json"
 }

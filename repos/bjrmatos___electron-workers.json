@@ -63,10 +63,6 @@
       "test": "mocha --timeout 7000",
       "prepublish": "in-publish && npm-run-all lint clean build || not-in-publish"
     },
-    "author": {
-      "name": "BJR Matos",
-      "email": "bjrmatos@gmail.com"
-    },
     "license": "MIT",
     "keywords": [
       "electron",
@@ -75,10 +71,7 @@
       "electron spawn"
     ],
     "homepage": "https://github.com/bjrmatos/electron-workers",
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:bjrmatos/electron-workers.git"
-    },
+    "repository": "https://github.com/bjrmatos/electron-workers",
     "dependencies": {
       "debug": "2.2.0",
       "lodash.findindex": "4.4.0",
@@ -98,6 +91,12 @@
       "npm-run-all": "2.1.1",
       "rimraf": "2.5.2",
       "should": "9.0.0"
+    },
+    "other": {
+      "author": {
+        "name": "BJR Matos",
+        "email": "bjrmatos@gmail.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/bjrmatos/electron-workers/git/commits/459df0ee8d4efc72aaa0372ca9e62f27eab11539",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "bjrmatos___electron-workers.json"
 }

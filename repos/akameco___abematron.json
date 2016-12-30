@@ -79,11 +79,6 @@
     "main": "index.js",
     "license": "MIT",
     "repository": "akameco/abematron",
-    "author": {
-      "name": "akameco",
-      "email": "akameco.t@gmail.com",
-      "url": "akameco.github.io"
-    },
     "scripts": {
       "start": "electron .",
       "build": "npm run build:osx && npm run build:linux && npm run build:windows",
@@ -109,6 +104,13 @@
         "node",
         "browser"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "akameco",
+        "email": "akameco.t@gmail.com",
+        "url": "akameco.github.io"
+      }
     }
   },
   "packageStatus": 200,
@@ -136,5 +138,6 @@
       "url": "https://api.github.com/repos/akameco/abematron/git/commits/0e5c134b542583c27e9cd6cded799361ba36e52f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "akameco___abematron.json"
 }

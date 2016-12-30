@@ -54,22 +54,21 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/castaneai/honey-come.git"
-    },
+    "repository": "https://github.com/castaneai/honey-come",
     "keywords": [
       "hexeditor",
       "binary"
     ],
-    "author": "castaneai",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/castaneai/honey-come/issues"
-    },
     "homepage": "https://github.com/castaneai/honey-come#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.30.1"
+    },
+    "other": {
+      "author": "castaneai",
+      "bugs": {
+        "url": "https://github.com/castaneai/honey-come/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -117,5 +116,6 @@
       "url": "https://api.github.com/repos/castaneai/honey-come/git/commits/5d5cbc4c82b03cb2c96ce3eecd5cdfce4733409a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "castaneai___honey-come.json"
 }

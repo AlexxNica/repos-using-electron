@@ -81,16 +81,9 @@
       "watch": "watchify app/app.js -t babelify -o bundle.js --debug --verbose",
       "dev": "npm run watch & npm start && kill %1"
     },
-    "author": "Jackkell",
     "license": "DBAD",
     "homepage": "https://github.com/JackKell/electron-test/blob/master/README.md",
-    "bugs": {
-      "url": "https://github.com/JackKell/electron-test/issues"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/JackKell/electron-test.git"
-    },
+    "repository": "https://github.com/JackKell/electron-test",
     "devDependencies": {
       "react-bootstrap": "^0.30.0-rc.2"
     },
@@ -114,6 +107,12 @@
       "watchify": "^3.7.0",
       "webpack": "^1.13.1",
       "webpack-dev-server": "^1.14.1"
+    },
+    "other": {
+      "author": "Jackkell",
+      "bugs": {
+        "url": "https://github.com/JackKell/electron-test/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -141,5 +140,6 @@
       "url": "https://api.github.com/repos/JackKell/electron-test/git/commits/477b5dd01417974ad5090801db3ab8fa4ae987cb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "JackKell___electron-test.json"
 }

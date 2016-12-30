@@ -58,10 +58,7 @@
       "build": "cross-env NODE_ENV=development webpack --config webpack.config.production.js && electron-packager . --out=build --platform=win32 --arch=x64 --prune --overwrite",
       "test": "karma start"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/viliamkopecky/electron-starter.git"
-    },
+    "repository": "https://github.com/viliamkopecky/electron-starter",
     "babel": {
       "presets": [
         "es2015-node6",
@@ -162,5 +159,6 @@
       "url": "https://api.github.com/repos/ViliamKopecky/electron-starter/git/commits/66a728c76b0b2e6edb760bdc43c1c4494dcceabd",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ViliamKopecky___electron-starter.json"
 }

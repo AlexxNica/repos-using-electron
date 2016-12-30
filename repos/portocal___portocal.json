@@ -90,7 +90,6 @@
     "version": "0.1.0",
     "description": "Yet another calendar",
     "license": "MIT",
-    "author": "The Portocal Authors",
     "contributors": [
       "Florin Lipan <florinlipan@gmail.com> (http://www.ottomotor.ro)",
       "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)"
@@ -127,17 +126,17 @@
     "peerDependencies": {},
     "optionalDependencies": {},
     "homepage": "https://github.com/rumblex/nodeknockout2016-0x55aa",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/rumblex/nodeknockout2016-0x55aa.git"
-    },
-    "bugs": {
-      "url": "https://github.com/rumblex/nodeknockout2016-0x55aa/issues"
-    },
+    "repository": "https://github.com/rumblex/nodeknockout2016-0x55aa",
     "scripts": {
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1",
       "package": "node scripts/build.js"
+    },
+    "other": {
+      "author": "The Portocal Authors",
+      "bugs": {
+        "url": "https://github.com/rumblex/nodeknockout2016-0x55aa/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -166,5 +165,6 @@
       "url": "https://api.github.com/repos/portocal/portocal/git/commits/6df1b26e0892bb06755e3d01ea93b007e0586d92",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "portocal___portocal.json"
 }

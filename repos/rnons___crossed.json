@@ -74,11 +74,7 @@
       "start": "electron .",
       "start:app": "webpack-dev-server --devtool eval --progress --color --inline --port 7000"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rnons/crossed.git"
-    },
-    "author": "rnons",
+    "repository": "https://github.com/rnons/crossed",
     "dependencies": {
       "@angular/common": "2.0.1",
       "@angular/compiler": "2.0.1",
@@ -102,6 +98,9 @@
       "typescript": "^2.0.2",
       "webpack": "1.13.2",
       "webpack-dev-server": "1.16.1"
+    },
+    "other": {
+      "author": "rnons"
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/rnons/crossed/git/commits/8dbd205e30203dc622ee15035d831e9f68b599cf",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rnons___crossed.json"
 }

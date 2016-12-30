@@ -73,10 +73,6 @@
       },
       "asar": true
     },
-    "directories": {
-      "output": "release",
-      "buildResources": "app_build"
-    },
     "scripts": {
       "start": "better-npm-run start",
       "start-app": "better-npm-run start-app",
@@ -153,11 +149,7 @@
         }
       }
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/donnycrash/react-redux-electron-starter.git"
-    },
-    "author": "Donovan Crewe <donnycrash@gmail.com>",
+    "repository": "https://github.com/donnycrash/react-redux-electron-starter",
     "contributors": [
       {
         "name": "David Zukowski",
@@ -168,9 +160,6 @@
         "email": "skastr052@gmail.com"
       }
     ],
-    "bugs": {
-      "url": "https://github.com/donnycrash/react-redux-electron-starter/issues"
-    },
     "keywords": [
       "nodejitsu",
       "example",
@@ -265,6 +254,16 @@
       "webpack-dev-middleware": "^1.6.1",
       "webpack-hot-middleware": "^2.6.0",
       "webpack-target-electron-renderer": "^0.4.0"
+    },
+    "other": {
+      "author": "Donovan Crewe <donnycrash@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/donnycrash/react-redux-electron-starter/issues"
+      },
+      "directories": {
+        "output": "release",
+        "buildResources": "app_build"
+      }
     }
   },
   "packageStatus": 200,
@@ -293,5 +292,6 @@
       "url": "https://api.github.com/repos/donnycrash/react-redux-electron-starter-kit/git/commits/5cab474fd25fbaaaf7c0e89cdb57145423a780c8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "donnycrash___react-redux-electron-starter-kit.json"
 }

@@ -75,7 +75,6 @@
       "test": "./node_modules/.bin/mocha ./test/**/*.js --compilers js:babel-core/register",
       "watch": "./node_modules/.bin/mocha ./test/**/*.js --compilers js:babel-core/register --watch"
     },
-    "author": "Edward Dewhurst <edward@dewhurst.io>",
     "license": "ISC",
     "dependencies": {
       "react": "^0.14.7",
@@ -94,6 +93,9 @@
       "vinyl-source-stream": "^1.1.0",
       "watchify": "^3.7.0",
       "jsdom": "^8.2.0"
+    },
+    "other": {
+      "author": "Edward Dewhurst <edward@dewhurst.io>"
     }
   },
   "packageStatus": 200,
@@ -122,5 +124,6 @@
       "url": "https://api.github.com/repos/edew/SeeDB/git/commits/ff4a9d863a9b973196fc9cf4792bf16a86233837",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "edew___SeeDB.json"
 }

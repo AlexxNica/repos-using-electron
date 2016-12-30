@@ -50,10 +50,6 @@
     "version": "0.0.0",
     "description": "NodejsConsoleApp1",
     "main": "boot.js",
-    "author": {
-      "name": "ip",
-      "email": ""
-    },
     "dependencies": {
       "angular2": "^2.0.0-beta.8",
       "bootstrap": "^3.3.4",
@@ -77,6 +73,12 @@
     "scripts": {
       "start": "electron boot.js",
       "test": "./node_modules/.bin/jasmine"
+    },
+    "other": {
+      "author": {
+        "name": "ip",
+        "email": ""
+      }
     }
   },
   "packageStatus": 200,
@@ -124,5 +126,6 @@
       "url": "https://api.github.com/repos/ip821/NodeJsTest/git/commits/22878d634f8c71e8b00661057a909a3bbe490457",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ip821___NodeJsTest.json"
 }

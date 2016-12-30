@@ -84,19 +84,9 @@
       "build-linux": "./node_modules/electron-packager/cli.js . --platform=linux --arch=x64 --prune",
       "build-windows": "echo \"I hate windows, I love Linux. Use Linux instead.\""
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/amovah/divetodo.git"
-    },
-    "author": "Ali Movahedi",
+    "repository": "https://github.com/amovah/divetodo",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/amovah/divetodo/issues"
-    },
     "homepage": "https://github.com/amovah/divetodo#readme",
-    "directories": {
-      "lib": "src"
-    },
     "engines": {
       "node": ">=0.12.0"
     },
@@ -124,6 +114,15 @@
       "gulp-eslint": "^2.0.0",
       "gulp-less": "^3.0.5",
       "gulp-rimraf": "^0.2.0"
+    },
+    "other": {
+      "author": "Ali Movahedi",
+      "bugs": {
+        "url": "https://github.com/amovah/divetodo/issues"
+      },
+      "directories": {
+        "lib": "src"
+      }
     }
   },
   "packageStatus": 200,
@@ -151,5 +150,6 @@
       "url": "https://api.github.com/repos/amovah/DiveTodo/git/commits/0edd2de6958e6aa300e25f3dd9ad01a9f20c0d05",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "amovah___DiveTodo.json"
 }

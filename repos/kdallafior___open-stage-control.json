@@ -169,10 +169,6 @@
     "description": "A libre desktop OSC bi-directionnal control surface application.",
     "version": "0.6.0",
     "main": "index.js",
-    "author": {
-      "name": "Jean-Emmanuel Doucet / AMMD",
-      "email": "jeannot@ammd.net"
-    },
     "dependencies": {
       "node-osc": "2.0.3",
       "yargs": "4.7.1",
@@ -220,7 +216,13 @@
       "zip_url": "https://github.com/jean-emmanuel/Open-Stage-Control/archive/master.zip",
       "api_url": "https://api.github.com/repos/jean-emmanuel/Open-Stage-Control"
     },
-    "licence": "GPL-3.0"
+    "licence": "GPL-3.0",
+    "other": {
+      "author": {
+        "name": "Jean-Emmanuel Doucet / AMMD",
+        "email": "jeannot@ammd.net"
+      }
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/kdallafior/open-stage-control",

@@ -61,21 +61,14 @@
       "build": "browserify ./js/test.js -t babelify --outfile ./js/testout.js",
       "watch": "watch 'npm run build' ./js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/atom/electron-quick-start.git"
-    },
+    "repository": "https://github.com/atom/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/atom/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "babel-preset-react": "^6.3.13",
@@ -86,6 +79,12 @@
     "dependencies": {
       "react": "^0.14.6",
       "react-dom": "^0.14.6"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/atom/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -134,5 +133,6 @@
       "url": "https://api.github.com/repos/dsiah/Panoptes/git/commits/db85aa90e4d2e33c57ba9fcd2e44f0678be1fe38",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dsiah___Panoptes.json"
 }

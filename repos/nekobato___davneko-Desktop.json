@@ -81,16 +81,9 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "release": "gulp release"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/nekobato/davneko-Desktop.git"
-    },
+    "repository": "https://github.com/nekobato/davneko-Desktop",
     "keywords": [],
-    "author": "nekobato",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/nekobato/davneko-Desktop/issues"
-    },
     "homepage": "https://github.com/nekobato/davneko-Desktop#readme",
     "dependencies": {
       "electron-packager": "^7.0.2",
@@ -99,6 +92,12 @@
     "devDependencies": {
       "gulp": "^3.9.1",
       "gulp-util": "^3.0.7"
+    },
+    "other": {
+      "author": "nekobato",
+      "bugs": {
+        "url": "https://github.com/nekobato/davneko-Desktop/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/nekobato/davneko-Desktop/git/commits/982d17c0060489a01642c0ba96eb343314e9960a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "nekobato___davneko-Desktop.json"
 }

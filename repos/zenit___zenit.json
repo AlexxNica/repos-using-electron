@@ -71,7 +71,6 @@
     "version": "0.0.32",
     "description": "An extensible database administration tool",
     "main": "browser.js",
-    "author": "Iegor Azuaga <dextrackmedia@gmail.com>",
     "license": "MIT",
     "electronVersion": "1.3.1",
     "dependencies": {
@@ -90,7 +89,10 @@
       "build:linux": "node scripts/build.js --linux",
       "build:darwin": "node scripts/build.js --darwin"
     },
-    "private": true
+    "private": true,
+    "other": {
+      "author": "Iegor Azuaga <dextrackmedia@gmail.com>"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -118,5 +120,6 @@
       "url": "https://api.github.com/repos/zenit/zenit/git/commits/bdb91999988632ebe477400b249945a873569f5b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zenit___zenit.json"
 }

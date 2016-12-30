@@ -53,17 +53,16 @@
       "start": "electron main.js"
     },
     "description": "A simple GUI for Tesseract OCR",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/thenewalex/zummy-ocr"
-    },
+    "repository": "https://github.com/thenewalex/zummy-ocr",
     "license": "MIT",
-    "author": "thenewalex <alex.xmde@gmail.com>",
     "dependencies": {
       "node-tesseract": "0.2.7"
     },
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
+    },
+    "other": {
+      "author": "thenewalex <alex.xmde@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -91,5 +90,6 @@
       "url": "https://api.github.com/repos/alexxmde/zummy-ocr/git/commits/acd4ee17dcf7edae69a42e08c5d3faf889c98fb9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "alexxmde___zummy-ocr.json"
 }

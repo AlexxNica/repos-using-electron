@@ -68,21 +68,14 @@
       "release:win": "npm run build:win & npm run setup:win",
       "lint:fix": "standard --fix"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/njbmartin/razer-comms-desktop.git"
-    },
+    "repository": "https://github.com/njbmartin/razer-comms-desktop",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "Razer",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/njbmartin/razer-comms-desktop/issues"
-    },
     "homepage": "https://github.com/njbmartin/razer-comms-desktop",
     "devDependencies": {
       "electron-packager": "^8.1.0",
@@ -95,6 +88,12 @@
       "open": "^0.0.5",
       "auto-launch": "^5.0.1",
       "es6-promise": "^4.0.5"
+    },
+    "other": {
+      "author": "Razer",
+      "bugs": {
+        "url": "https://github.com/njbmartin/razer-comms-desktop/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -142,5 +141,6 @@
       "url": "https://api.github.com/repos/njbmartin/razer-comms-desktop/git/commits/6d2994c22232abc280eb192d4abe623fb4fc861d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "njbmartin___razer-comms-desktop.json"
 }

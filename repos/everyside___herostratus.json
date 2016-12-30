@@ -202,7 +202,6 @@
       "test": "npm run-script test:main && npm run-script test:browser",
       "start": "electron lib/herostratus.js"
     },
-    "author": "Juan Cruz Viotti <juan@resin.io>",
     "license": "MIT",
     "optionalDependencies": {
       "removedrive": "^1.0.0"
@@ -235,6 +234,9 @@
       "mochainon": "^1.0.0",
       "vinyl-buffer": "^1.0.0",
       "vinyl-source-stream": "^1.1.0"
+    },
+    "other": {
+      "author": "Juan Cruz Viotti <juan@resin.io>"
     }
   },
   "packageStatus": 200,

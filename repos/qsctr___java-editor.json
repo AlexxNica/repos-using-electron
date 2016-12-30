@@ -76,11 +76,7 @@
     "version": "0.2.0",
     "description": "An editor for Java",
     "main": "out-js/main.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/qsctr/java-editor.git"
-    },
-    "author": "qsctr",
+    "repository": "https://github.com/qsctr/java-editor",
     "license": "MIT",
     "devDependencies": {
       "electron": "^1.4.2"
@@ -95,7 +91,10 @@
       "interact.js": "^1.2.6",
       "ramda": "^0.21.0"
     },
-    "productName": "Java Editor"
+    "productName": "Java Editor",
+    "other": {
+      "author": "qsctr"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -122,5 +121,6 @@
       "url": "https://api.github.com/repos/qsctr/java-editor/git/commits/cf837db58a16d0e831df5c879b5a67b426ff4598",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "qsctr___java-editor.json"
 }

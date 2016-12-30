@@ -77,15 +77,8 @@
       "watch": "./node_modules/.bin/webpack-dev-server --hot --inline",
       "package": "./node_modules/.bin/webpack -p --progress --config webpack.config.production.js && electron-packager --overwrite . 'Better Simcraft' -ignore=\"ignore|bin|node_modules\""
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mattnguyen1/BetterSimcraft.git"
-    },
-    "author": "Matt Nguyen",
+    "repository": "https://github.com/mattnguyen1/BetterSimcraft",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/mattnguyen1/BetterSimcraft/issues"
-    },
     "homepage": "https://github.com/mattnguyen1/BetterSimcraft#readme",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -109,6 +102,12 @@
       "react-dom": "^15.3.2",
       "react-redux": "^4.4.5",
       "redux": "^3.6.0"
+    },
+    "other": {
+      "author": "Matt Nguyen",
+      "bugs": {
+        "url": "https://github.com/mattnguyen1/BetterSimcraft/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,6 @@
       "url": "https://api.github.com/repos/mattnguyen1/BetterSimcraft/git/commits/62de3265aae8c6a2e4e3b0a4929c701e4992c0ad",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mattnguyen1___BetterSimcraft.json"
 }

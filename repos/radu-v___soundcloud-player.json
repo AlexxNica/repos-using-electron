@@ -74,17 +74,13 @@
       "compile": "browserify -t [ babelify --presets [ react es2015 ] ] src/app.js -o js/app.js",
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "Radu Vasilascu",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -99,6 +95,9 @@
       "react-dom": "^0.14.8",
       "react-loading": "0.0.9",
       "react-soundplayer": "^0.3.6"
+    },
+    "other": {
+      "author": "Radu Vasilascu"
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/radu-v/soundcloud-player/git/commits/3c304b9116996e108b6253ebfce71dd366a4c9bb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "radu-v___soundcloud-player.json"
 }

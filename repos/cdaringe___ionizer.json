@@ -62,18 +62,11 @@
     "bin": {
       "ionizer": "lib/cli.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/cdaringe/ionizer"
-    },
+    "repository": "https://github.com/cdaringe/ionizer",
     "keywords": [
       "electron"
     ],
-    "author": "cdaringe",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/cdaringe/ionizer/issues"
-    },
     "homepage": "https://github.com/cdaringe/ionizer",
     "dependencies": {
       "bluebirdify": "1.1.0",
@@ -97,7 +90,13 @@
       "lint",
       "validate",
       "test"
-    ]
+    ],
+    "other": {
+      "author": "cdaringe",
+      "bugs": {
+        "url": "https://github.com/cdaringe/ionizer/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -124,5 +123,6 @@
       "url": "https://api.github.com/repos/cdaringe/ionizer/git/commits/841b2a73715b2025dc1635ec03b31a9872633009",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cdaringe___ionizer.json"
 }

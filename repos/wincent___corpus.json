@@ -67,15 +67,8 @@
       "rootDir": "src",
       "scriptPreprocessor": "<rootDir>/../node_modules/babel-jest/index.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/wincent/corpus.git"
-    },
-    "author": "Greg Hurrell",
+    "repository": "https://github.com/wincent/corpus",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/wincent/corpus/issues"
-    },
     "homepage": "https://github.com/wincent/corpus",
     "dependencies": {
       "autobind-decorator": "*",
@@ -113,6 +106,12 @@
     },
     "devDependencies": {
       "electron-prebuilt": "1.2.3"
+    },
+    "other": {
+      "author": "Greg Hurrell",
+      "bugs": {
+        "url": "https://github.com/wincent/corpus/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -161,5 +160,6 @@
       "url": "https://api.github.com/repos/wincent/corpus/git/commits/9e4bfd40618b4d44ac49a744ba1c2e467928959d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "wincent___corpus.json"
 }

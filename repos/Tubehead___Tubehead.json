@@ -91,12 +91,8 @@
       "build": "gulp build",
       "package": "gulp package && zip Tubehead-darwin-x64.zip -r ./Tubehead-darwin-x64"
     },
-    "author": "makotot",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/Tubehead/Tubehead.git"
-    },
+    "repository": "https://github.com/Tubehead/Tubehead",
     "dependencies": {
       "babel-core": "^6.4.5",
       "express": "^4.13.4",
@@ -138,6 +134,9 @@
       "vinyl-buffer": "^1.0.0",
       "vinyl-source-stream": "^1.1.0",
       "watchify": "^3.7.0"
+    },
+    "other": {
+      "author": "makotot"
     }
   },
   "packageStatus": 200,
@@ -166,5 +165,6 @@
       "url": "https://api.github.com/repos/Tubehead/Tubehead/git/commits/e51803ba46355eef690027a6496338ee4e65948b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Tubehead___Tubehead.json"
 }

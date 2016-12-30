@@ -50,10 +50,7 @@
     "version": "0.0.7",
     "description": "Markdown-driven presentation tool built on Electron.",
     "main": "dist/browser/main.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/joe-re/cafe-pitch.git"
-    },
+    "repository": "https://github.com/joe-re/cafe-pitch",
     "bin": {
       "cafepitch": "./bin/cli.js"
     },
@@ -71,7 +68,6 @@
       "test:e2e": "mocha --compilers ts:espower-typescript/guess spec/e2e/**/*.story.ts"
     },
     "keywords": [],
-    "author": "",
     "license": "MIT",
     "dependencies": {
       "@angular/common": "2.0.0-rc.4",
@@ -123,6 +119,9 @@
       "typings": "^1.3.1",
       "webpack": "^1.13.0",
       "zip-dir": "^1.0.2"
+    },
+    "other": {
+      "author": ""
     }
   },
   "packageStatus": 200,
@@ -170,5 +169,6 @@
       "url": "https://api.github.com/repos/joe-re/cafe-pitch/git/commits/bcfa37b6818efdd86fb59bc8695e3a76549e94dc",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "joe-re___cafe-pitch.json"
 }

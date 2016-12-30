@@ -145,20 +145,13 @@
         "package.json"
       ]
     },
-    "directories": {
-      "output": "release"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/buttercup-pw/buttercup.git"
-    },
+    "repository": "https://github.com/buttercup-pw/buttercup",
     "keywords": [
       "password",
       "vault",
       "manager",
       "credentials"
     ],
-    "author": "Sallar Kaboli <sallar.kaboli@gmail.com>",
     "contributors": [
       {
         "name": "Perry Mitchell",
@@ -170,9 +163,6 @@
       }
     ],
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/buttercup-pw/buttercup/issues"
-    },
     "homepage": "https://github.com/buttercup-pw/buttercup#readme",
     "dependencies": {},
     "devDependencies": {
@@ -299,6 +289,15 @@
           }
         ]
       }
+    },
+    "other": {
+      "author": "Sallar Kaboli <sallar.kaboli@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/buttercup-pw/buttercup/issues"
+      },
+      "directories": {
+        "output": "release"
+      }
     }
   },
   "packageStatus": 200,
@@ -330,5 +329,6 @@
       "url": "https://api.github.com/repos/buttercup-pw/buttercup/git/commits/69af92b2dc5dde4e5434a8d5e1096aa07aa7e297",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "buttercup-pw___buttercup.json"
 }

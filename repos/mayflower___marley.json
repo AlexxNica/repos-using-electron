@@ -63,10 +63,6 @@
     "name": "MarLeY",
     "version": "0.1.1",
     "description": "a modern ini editor",
-    "author": {
-      "name": "Mayflower",
-      "mail": "oss-marley@mayflower.de"
-    },
     "contributors": [
       {
         "name": "Lenz Weber (Mayflower)",
@@ -89,10 +85,7 @@
       "pack": "build --dir",
       "dist": "build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mayflower/marley.git"
-    },
+    "repository": "https://github.com/mayflower/marley",
     "keywords": [
       "ini",
       "ini-editor",
@@ -101,9 +94,6 @@
       "translation"
     ],
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/mayflower/marley/issues"
-    },
     "devDependencies": {
       "electron-builder": "^5.14.2",
       "electron-prebuilt": "^1.2.0"
@@ -120,6 +110,15 @@
       "app-category-type": "editor",
       "win": {
         "iconUrl": "https://github.com/mayflower/marley/raw/master/build/icon.png"
+      }
+    },
+    "other": {
+      "author": {
+        "name": "Mayflower",
+        "mail": "oss-marley@mayflower.de"
+      },
+      "bugs": {
+        "url": "https://github.com/mayflower/marley/issues"
       }
     }
   },
@@ -150,5 +149,6 @@
       "url": "https://api.github.com/repos/mayflower/marley/git/commits/c632c8ee8cdc3501b6ce49d077ebda7b9c90b1e4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mayflower___marley.json"
 }

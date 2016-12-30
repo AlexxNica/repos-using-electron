@@ -72,7 +72,6 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "author": "Adam Salma <adam3salma@gmail.com>",
     "name": "Lurka",
     "version": "0.7.0",
     "description": "Messaging board viewer and scraper",
@@ -85,10 +84,7 @@
       "test-watch": "cross-env NODE_ENV=test NODE_PATH=./app/node_modules mocha -R min -w",
       "install-all": "npm install && cd app && npm install && cd .."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/AdamSalma/Lurka.git"
-    },
+    "repository": "https://github.com/AdamSalma/Lurka",
     "keywords": [
       "React",
       "Webpack",
@@ -97,9 +93,6 @@
       "Viewer"
     ],
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/AdamSalma/Lurka/issues"
-    },
     "homepage": "https://github.com/AdamSalma/Lurka#readme",
     "devDependencies": {
       "autoprefixer": "^6.4.1",
@@ -141,6 +134,12 @@
       "webpack": "^1.13.2",
       "webpack-dev-middleware": "^1.7.0",
       "webpack-hot-middleware": "2.13.2"
+    },
+    "other": {
+      "author": "Adam Salma <adam3salma@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/AdamSalma/Lurka/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -168,5 +167,6 @@
       "url": "https://api.github.com/repos/AdamSalma/Lurka/git/commits/64836269098e0fdae00ae432e15f5399df89fb8c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "AdamSalma___Lurka.json"
 }

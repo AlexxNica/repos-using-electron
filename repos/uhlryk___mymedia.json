@@ -52,10 +52,7 @@
     "keywords": [],
     "main": "src/main.js",
     "homepage": "https://github.com/uhlryk/mymedia",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/uhlryk/mymedia.git"
-    },
+    "repository": "https://github.com/uhlryk/mymedia",
     "scripts": {
       "test": "cross-env NODE_ENV=test mocha --compilers js:babel-register --recursive --require ./test/setup.js test/**/*.spec.js",
       "test-watch": "npm test -- --watch",
@@ -74,10 +71,6 @@
     },
     "electronVersion": "v0.36.4",
     "license": "MIT",
-    "author": "Krzysztof Sztompka <sztompka.krzysztof@gmail.com>",
-    "bugs": {
-      "url": "https://github.com/uhlryk/mymedia/issues"
-    },
     "devDependencies": {
       "asar": "^0.11.0",
       "babel-core": "^6.9.0",
@@ -164,6 +157,12 @@
     "devEngines": {
       "node": "4.x || 5.x || 6.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": "Krzysztof Sztompka <sztompka.krzysztof@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/uhlryk/mymedia/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -211,5 +210,6 @@
       "url": "https://api.github.com/repos/uhlryk/mymedia/git/commits/75769863cf9eb6de7325bb7b98529e43132e2a8d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "uhlryk___mymedia.json"
 }

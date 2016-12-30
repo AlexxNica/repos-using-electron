@@ -75,19 +75,12 @@
     "name": "tox-electron-basic",
     "version": "0.0.0",
     "description": "basic stuff for a electron based app",
-    "author": "Enrico Hoffmann <dasrick@gmail.com>",
     "license": "MIT",
     "main": "main.js",
     "keywords": [
       "electron"
     ],
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/dasrick/tox-electron-basic.git"
-    },
-    "bugs": {
-      "url": "https://github.com/dasrick/tox-electron-basic/issues"
-    },
+    "repository": "https://github.com/dasrick/tox-electron-basic",
     "homepage": "https://github.com/dasrick/tox-electron-basic#readme",
     "devDependencies": {
       "electron-builder": "^5.34.1",
@@ -114,6 +107,12 @@
       "start": "electron ./app --enable-logging",
       "dev": "NODE_ENV='development' npm run start",
       "build": "grunt"
+    },
+    "other": {
+      "author": "Enrico Hoffmann <dasrick@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/dasrick/tox-electron-basic/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -141,5 +140,6 @@
       "url": "https://api.github.com/repos/dasrick/tox-electron-basic/git/commits/2ee22954043abb82441a235de0bab95ce65d5ee5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dasrick___tox-electron-basic.json"
 }

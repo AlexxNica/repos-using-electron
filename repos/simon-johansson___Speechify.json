@@ -72,11 +72,6 @@
     "license": "MIT",
     "description": "OS X voice control app built with electron",
     "repository": "thomascullen/voicebox",
-    "author": {
-      "name": "Thomas Cullen",
-      "email": "hello@thomascullen.io",
-      "url": "www.thomascullen.io"
-    },
     "scripts": {
       "build": "electron-packager ./ VoiceBox --overwrite --out=dist --ignore='^/dist$' --platform=darwin --arch=x64 --version=0.33.0 --asar --icon=assets/icon.icns && cd dist/VoiceBox-darwin-x64 && zip -ryXq9 ../VoiceBox-${npm_package_version}.zip VoiceBox.app",
       "build-linux": "electron-packager ./ VoiceBox --overwrite --out=dist --ignore='^/dist$' --platform=linux --arch=x64 --version=0.33.0 --asar  && cd dist/VoiceBox-linux-x64 && zip -ryXq9 ../VoiceBox-${npm_package_version}.zip VoiceBox",
@@ -94,6 +89,13 @@
       "spotify-node-applescript": "^0.2.2",
       "spotify-web-api-node": "^2.1.0",
       "timer.js": "^1.0.3"
+    },
+    "other": {
+      "author": {
+        "name": "Thomas Cullen",
+        "email": "hello@thomascullen.io",
+        "url": "www.thomascullen.io"
+      }
     }
   },
   "packageStatus": 200,
@@ -121,5 +123,6 @@
       "url": "https://api.github.com/repos/simon-johansson/Speechify/git/commits/5af5bc80bbd6aaeb9c4f65c770de32f0f2e0e412",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "simon-johansson___Speechify.json"
 }

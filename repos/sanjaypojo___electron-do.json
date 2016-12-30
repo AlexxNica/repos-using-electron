@@ -53,21 +53,14 @@
     "scripts": {
       "start": "forever -w --watchDirectory ./app/ -c electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/atom/electron-quick-start.git"
-    },
+    "repository": "https://github.com/atom/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/atom/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "browserify": "^13.0.0",
@@ -88,6 +81,12 @@
       "coffee-script": "^1.10.0",
       "react": "^0.14.7",
       "react-dom": "^0.14.7"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/atom/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -115,5 +114,6 @@
       "url": "https://api.github.com/repos/sanjaypojo/electron-do/git/commits/c5964591c68edab6d9dc87f5f36d36ed142725e3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sanjaypojo___electron-do.json"
 }

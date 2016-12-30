@@ -57,20 +57,13 @@
       "dev": "concurrently --kill-others \"npm run hot-server\" \"npm run start-hot\"",
       "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/white87332/react-redux-electron.git"
-    },
+    "repository": "https://github.com/white87332/react-redux-electron",
     "keywords": [
       "Electron",
       "react",
       "redux"
     ],
-    "author": "Tony Jiang",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/white87332/react-redux-electron.git/issues"
-    },
     "homepage": "https://github.com/white87332/react-redux-electron.git#readme",
     "dependencies": {
       "deep-equal": "^1.0.1",
@@ -116,6 +109,12 @@
       "webpack": "^1.13.3",
       "webpack-dev-middleware": "^1.8.4",
       "webpack-hot-middleware": "^2.13.1"
+    },
+    "other": {
+      "author": "Tony Jiang",
+      "bugs": {
+        "url": "https://github.com/white87332/react-redux-electron.git/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -143,5 +142,6 @@
       "url": "https://api.github.com/repos/white87332/react-redux-electron/git/commits/2cbf300e01f1d7f841604ca07638935e0c7475b0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "white87332___react-redux-electron.json"
 }

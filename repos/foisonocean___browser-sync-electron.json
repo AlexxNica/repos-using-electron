@@ -74,7 +74,6 @@
       "start": "electron .",
       "build": "electron-packager . 文件自动刷新 --platform=all --out=./dist --asar=true"
     },
-    "author": "foisonocean",
     "license": "MIT",
     "dependencies": {
       "animate.css": "^3.5.2",
@@ -84,6 +83,9 @@
     "devDependencies": {
       "electron": "^1.4.4",
       "electron-packager": "^8.1.0"
+    },
+    "other": {
+      "author": "foisonocean"
     }
   },
   "packageStatus": 200,
@@ -111,5 +113,6 @@
       "url": "https://api.github.com/repos/foisonocean/browser-sync-electron/git/commits/c884337c478430d591b25f7822351b6329c10fb1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "foisonocean___browser-sync-electron.json"
 }

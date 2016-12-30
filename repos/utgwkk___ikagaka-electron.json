@@ -80,23 +80,22 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/utgwkk/ikagaka-electron.git"
-    },
+    "repository": "https://github.com/utgwkk/ikagaka-electron",
     "keywords": [
       "ikagaka",
       "electron"
     ],
-    "author": "utgwkk",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/utgwkk/ikagaka-electron/issues"
-    },
     "homepage": "https://github.com/utgwkk/ikagaka-electron#readme",
     "devDependencies": {
       "electron": "^1.4.8",
       "narloader": "github:ikagaka/NarLoader#jszip3"
+    },
+    "other": {
+      "author": "utgwkk",
+      "bugs": {
+        "url": "https://github.com/utgwkk/ikagaka-electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -124,5 +123,6 @@
       "url": "https://api.github.com/repos/utgwkk/ikagaka-electron/git/commits/b761f1ba7d748c6bd7d006a26ed29ff01c23a5ee",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "utgwkk___ikagaka-electron.json"
 }

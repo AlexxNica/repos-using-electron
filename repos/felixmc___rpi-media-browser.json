@@ -80,11 +80,7 @@
       "build:prod": "webpack --progress --colors -p",
       "clean": "rm -rf frontend/dist"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/felixmc/rpi-media-browser.git"
-    },
-    "author": "Felix Milea-Ciobanu",
+    "repository": "https://github.com/felixmc/rpi-media-browser",
     "license": "MIT",
     "homepage": "https://felixmilea.com",
     "devDependencies": {
@@ -144,6 +140,9 @@
       "redux-promise": "^0.5.3",
       "redux-thunk": "^2.1.0",
       "walk": "^2.3.9"
+    },
+    "other": {
+      "author": "Felix Milea-Ciobanu"
     }
   },
   "packageStatus": 200,
@@ -171,5 +170,6 @@
       "url": "https://api.github.com/repos/felixmc/rpi-media-browser/git/commits/ee8af9d6be26cabec176f2a8e293bfd90692728e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "felixmc___rpi-media-browser.json"
 }

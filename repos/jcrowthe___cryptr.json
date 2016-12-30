@@ -53,13 +53,10 @@
   "status": 200,
   "packageJSON": {
     "name": "cryptr",
-    "author": "Jacob Crowther",
     "version": "1.0.9",
     "description": "A password-manager GUI built for SaltStack's GPG Renderer",
     "main": "app/main.js",
-    "repository": {
-      "url": "https://github.com/jcrowthe/cryptr.git"
-    },
+    "repository": "https://github.com/jcrowthe/cryptr",
     "license": "MIT",
     "scripts": {
       "start": "electron app/main.js",
@@ -70,6 +67,9 @@
       "electron-packager": "^7.7.0",
       "electron-prebuilt": "^1.3.4",
       "electron-zip-packager": "^3.0.0"
+    },
+    "other": {
+      "author": "Jacob Crowther"
     }
   },
   "packageStatus": 200,
@@ -95,5 +95,6 @@
       "url": "https://api.github.com/repos/jcrowthe/cryptr/git/commits/823cac0b8444130a0a7c952501bfcaa670736db6",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jcrowthe___cryptr.json"
 }

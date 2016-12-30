@@ -86,20 +86,13 @@
       "appimage": "build --linux Appimage --x64 && rm -r ./dist/linux && cd dist; ./pkgbuild.js && makepkg -scfi -p PKGBUILD-APPIMAGE",
       "pacman": "build --linux pacman --x64 && rm -r ./dist/linux && cd dist; ./pkgbuild.js && makepkg -scfi"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/papajoker/sys-journald.git"
-    },
+    "repository": "https://github.com/papajoker/sys-journald",
     "keywords": [
       "systemd",
       "logs"
     ],
     "maxitems": 1400,
     "notify": 50,
-    "author": {
-      "name": "papajoker",
-      "email": "papajoke@archlinux.info"
-    },
     "url": "http://www.webstratege.fr",
     "license": "CC0-1.0",
     "devDependencies": {
@@ -114,6 +107,12 @@
     },
     "dependencies": {
       "sudo-prompt": "^6.2.0"
+    },
+    "other": {
+      "author": {
+        "name": "papajoker",
+        "email": "papajoke@archlinux.info"
+      }
     }
   },
   "packageStatus": 200,
@@ -141,5 +140,6 @@
       "url": "https://api.github.com/repos/papajoker/sys-journald/git/commits/ebe4d504df80c2b7ebc29b8e014f7b9e7b189f53",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "papajoker___sys-journald.json"
 }

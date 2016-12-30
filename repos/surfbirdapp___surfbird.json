@@ -79,25 +79,14 @@
       "build:windows": "electron-packager . --ignore='^node_modules$' --overwrite --asar --out=dist --platform=win32 --arch=ia32 --version-string.ProductName=Surfbird --app-version=0.1.0",
       "build:osx": "electron-packager . --ignore='^node_modules$' --overwrite --asar --out=dist --prune --platform=darwin --arch=x64 --icon=media/Icon.icns --app-bundle-id=com.pixeldesu.surfbird --app-version=0.1.0"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/pixeldesu/surfbird.git"
-    },
+    "repository": "https://github.com/pixeldesu/surfbird",
     "keywords": [
       "twitter",
       "electron",
       "desktop",
       "application"
     ],
-    "author": {
-      "name": "Andreas Nedbal",
-      "email": "andy@pixelde.su",
-      "url": "pixelde.su"
-    },
     "license": "aGPLv3",
-    "bugs": {
-      "url": "https://github.com/pixeldesu/surfbird/issues"
-    },
     "homepage": "https://github.com/pixeldesu/surfbird#readme",
     "dependencies": {
       "bootstrap-sass": "^3.3.6",
@@ -143,6 +132,16 @@
         "$",
         "Notification"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "Andreas Nedbal",
+        "email": "andy@pixelde.su",
+        "url": "pixelde.su"
+      },
+      "bugs": {
+        "url": "https://github.com/pixeldesu/surfbird/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -192,5 +191,6 @@
       "url": "https://api.github.com/repos/surfbirdapp/surfbird/git/commits/174357b5b3b3fe9c6bf4ba9e14143acf39872d03",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "surfbirdapp___surfbird.json"
 }

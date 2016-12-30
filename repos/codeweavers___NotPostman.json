@@ -86,7 +86,6 @@
       "release": "npm install && webpack && build --x64 --publish never",
       "test": "karma start karma.conf.js"
     },
-    "author": "Codeweavers",
     "license": "CC0-1.0",
     "devDependencies": {
       "babel-core": "^6.17.0",
@@ -145,8 +144,11 @@
         "background": "resources/osx/dmg-background.png"
       }
     },
-    "directories": {
-      "buildResources": "resources"
+    "other": {
+      "author": "Codeweavers",
+      "directories": {
+        "buildResources": "resources"
+      }
     }
   },
   "packageStatus": 200,
@@ -174,5 +176,6 @@
       "url": "https://api.github.com/repos/codeweavers/NotPostman/git/commits/465c75ddb24c43119bd5b53446470da02e40d406",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "codeweavers___NotPostman.json"
 }

@@ -57,15 +57,11 @@
       "dev": "webpack --config ./webpack.config.babel.js --watch",
       "pack": "electron-packager ./ Reatron --platform=win32 --arch=ia32 --out=./releases --prune --ignore=\"(/app|.gitignore|webpack.config.babel.js|.babelrc|/releases).*\""
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/razr9/reatron.git"
-    },
+    "repository": "https://github.com/razr9/reatron",
     "keywords": [
       "react",
       "electron"
     ],
-    "author": "Henrick Mello",
     "license": "MIT",
     "dependencies": {
       "electron": "^1.3.3",
@@ -86,6 +82,9 @@
       "style-loader": "^0.13.1",
       "url-loader": "^0.5.7",
       "webpack": "^1.13.2"
+    },
+    "other": {
+      "author": "Henrick Mello"
     }
   },
   "packageStatus": 200,
@@ -113,5 +112,6 @@
       "url": "https://api.github.com/repos/Razr9/reatron/git/commits/223e4ea8c8994ab0caef93f4f4b059e5bc146b6a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Razr9___reatron.json"
 }

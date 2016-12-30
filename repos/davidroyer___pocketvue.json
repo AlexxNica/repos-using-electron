@@ -80,7 +80,6 @@
       "pack": "cross-env NODE_ENV=production webpack -p --progress --colors",
       "postinstall": "cd app && npm install"
     },
-    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -116,6 +115,9 @@
     "dependencies": {
       "axios": "^0.15.2",
       "vue-axios": "^1.1.2"
+    },
+    "other": {
+      "author": "Greg Holguin <simulatedgreg@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -143,5 +145,6 @@
       "url": "https://api.github.com/repos/davidroyer/pocketvue/git/commits/d92f827478e8f8142af0e11467b3e8477023b80d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "davidroyer___pocketvue.json"
 }

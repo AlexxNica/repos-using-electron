@@ -80,10 +80,7 @@
       "test": "echo 'Browse source code in an app'",
       "start": "electron ./src/main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/kulisty/magnify.git"
-    },
+    "repository": "https://github.com/kulisty/magnify",
     "keywords": [
       "magnify",
       "browse",
@@ -91,11 +88,7 @@
       "code",
       "app"
     ],
-    "author": "Robert Dabrowski",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/kulisty/magnify/issues"
-    },
     "homepage": "https://github.com/kulisty/magnify#readme",
     "dependencies": {
       "electron-prebuilt": "1.1.1",
@@ -103,6 +96,12 @@
       "c3": "0.4.11",
       "font-awesome": "4.6.3",
       "qr-image": "3.1.0"
+    },
+    "other": {
+      "author": "Robert Dabrowski",
+      "bugs": {
+        "url": "https://github.com/kulisty/magnify/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/kulisty/magnify/git/commits/38a92d0b6bf19a99972cccb87e30005b969e0e96",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kulisty___magnify.json"
 }

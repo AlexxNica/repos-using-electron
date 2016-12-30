@@ -75,11 +75,6 @@
       "dev": "webpack-dev-server",
       "build": "webpack && electron-packager . MyApp --out ./releases --ignore=\"node_modules/(babel-*|sass-*|webpack-*|css-loader|node-*|style-loader|electron-*|asar)\" --platform=darwin --arch=x64 --version=0.33.6 --overwrite && cp app/icon.icns releases/MyApp-darwin-x64/MyApp.app/Contents/Resources/atom.icns"
     },
-    "author": {
-      "name": "Max C Miller",
-      "email": "maxcharlesmiller@icloud.com",
-      "url": "http://www.maxcmiller.com"
-    },
     "license": "ISC",
     "devDependencies": {
       "asar": "^0.8.0",
@@ -102,6 +97,13 @@
       "electron-prebuilt": "^0.33.6",
       "react": "^0.14.0",
       "react-dom": "^0.14.0"
+    },
+    "other": {
+      "author": {
+        "name": "Max C Miller",
+        "email": "maxcharlesmiller@icloud.com",
+        "url": "http://www.maxcmiller.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -129,5 +131,6 @@
       "url": "https://api.github.com/repos/einkelflugle/electron-react-starter/git/commits/e7c85d5771a3ba8931f5180993ebd1b3587c9f53",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "einkelflugle___electron-react-starter.json"
 }

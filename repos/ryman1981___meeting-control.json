@@ -83,20 +83,13 @@
     "scripts": {
       "test": "mocha --recursive"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ryman1981/meeting-control.git"
-    },
+    "repository": "https://github.com/ryman1981/meeting-control",
     "keywords": [
       "meeting",
       "control",
       "desktop"
     ],
-    "author": "David Liu",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ryman1981/meeting-control/issues"
-    },
     "homepage": "https://github.com/ryman1981/meeting-control#readme",
     "devDependencies": {
       "babel-cli": "^6.18.0",
@@ -118,6 +111,12 @@
     "standard": {
       "env": {
         "mocha": true
+      }
+    },
+    "other": {
+      "author": "David Liu",
+      "bugs": {
+        "url": "https://github.com/ryman1981/meeting-control/issues"
       }
     }
   },
@@ -146,5 +145,6 @@
       "url": "https://api.github.com/repos/ryman1981/meeting-control/git/commits/7225f624d03f87c5106e19bc4e4b4431e79ec755",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ryman1981___meeting-control.json"
 }

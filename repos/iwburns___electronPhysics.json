@@ -80,21 +80,20 @@
       "start": "electron index.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://iwburns@github.com/iwburns/electronPhysics.git"
-    },
-    "author": "Ian Burns",
+    "repository": "https://github.com/iwburns/electronPhysics",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/iwburns/electronPhysics/issues"
-    },
     "homepage": "https://github.com/iwburns/electronPhysics#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
       "gulp": "^3.9.0",
       "gulp-babel": "^6.1.1",
       "jquery": "^2.1.4"
+    },
+    "other": {
+      "author": "Ian Burns",
+      "bugs": {
+        "url": "https://github.com/iwburns/electronPhysics/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -122,5 +121,6 @@
       "url": "https://api.github.com/repos/iwburns/electronPhysics/git/commits/d450a8551587ee5e6a51a4e630ad990c33bff679",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "iwburns___electronPhysics.json"
 }

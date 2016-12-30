@@ -192,11 +192,6 @@
     "license": "MIT",
     "repository": "https://github.com/intocps/intocps-ui",
     "main": "dist/main.js",
-    "author": {
-      "name": "INTO-CPS Project",
-      "email": "",
-      "url": "http://into-cps.au.dk/"
-    },
     "electronVersion": "1.2.1",
     "scripts": {
       "start": "electron dist/main.js"
@@ -252,7 +247,13 @@
       "semver": "~5.3.0",
       "webpack": "~1.13.0"
     },
-    "other": {}
+    "other": {
+      "author": {
+        "name": "INTO-CPS Project",
+        "email": "",
+        "url": "http://into-cps.au.dk/"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [

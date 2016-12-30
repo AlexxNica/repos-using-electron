@@ -182,7 +182,6 @@
       "all": "npm run dist && npm run release && npm run deploy",
       "reload": "live-reload app --port 35729"
     },
-    "author": "Vjekoslav Ratkajec",
     "devDependencies": {
       "electron-builder": "^4.2.2",
       "electron-prebuilt": "^1.0.2",
@@ -214,6 +213,9 @@
     },
     "dependencies": {
       "winston": "^2.2.0"
+    },
+    "other": {
+      "author": "Vjekoslav Ratkajec"
     }
   },
   "packageStatus": 200,

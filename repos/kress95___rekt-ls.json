@@ -117,11 +117,10 @@
       "post-install": "npm dedupe && gulp docs",
       "push": "echo 'git subtree push --prefix doc origin gh-pages'"
     },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:kress95/livescript-game-system.git"
-    },
-    "author": "Christian Ferraz Lemos de Sousa"
+    "repository": "https://github.com/kress95/livescript-game-system",
+    "other": {
+      "author": "Christian Ferraz Lemos de Sousa"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -148,5 +147,6 @@
       "url": "https://api.github.com/repos/kress95-trash/rekt-ls/git/commits/910f5542dfae30b41140898304adb6be96400231",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kress95___rekt-ls.json"
 }

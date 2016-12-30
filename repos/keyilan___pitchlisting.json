@@ -75,7 +75,6 @@
     "name": "pitchlisting",
     "version": "0.1.0",
     "main": "main.js",
-    "author": "keyilan",
     "dependencies": {
       "sqlite3": "^3.1.8",
       "jquery": "^3.1.1"
@@ -89,13 +88,13 @@
       "electron": "^1.4.4",
       "electron-packager": "^8.1.0"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/keyilan/pitchlisting.git"
-    },
+    "repository": "https://github.com/keyilan/pitchlisting",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/keyilan/pitchlisting/issues"
+    "other": {
+      "author": "keyilan",
+      "bugs": {
+        "url": "https://github.com/keyilan/pitchlisting/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -123,5 +122,6 @@
       "url": "https://api.github.com/repos/keyilan/pitchlisting/git/commits/cba6502d1f76402c6511abcb36a913db2ea33032",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "keyilan___pitchlisting.json"
 }

@@ -65,10 +65,7 @@
       "build-osx": "electron-packager . MoefmTray --platform=darwin --arch=x64 --version=0.36.0",
       "build-windows": "electron-packager . MoefmTray --platform=win32 --arch=x64 --version=0.36.0"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/kingdido999/moefm-tray.git"
-    },
+    "repository": "https://github.com/kingdido999/moefm-tray",
     "keywords": [
       "moefm",
       "萌否电台",
@@ -76,12 +73,14 @@
       "music",
       "electron"
     ],
-    "author": "Pengcheng Ding",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/kingdido999/moefm-tray/issues"
-    },
-    "homepage": "https://github.com/kingdido999/moefm-tray#readme"
+    "homepage": "https://github.com/kingdido999/moefm-tray#readme",
+    "other": {
+      "author": "Pengcheng Ding",
+      "bugs": {
+        "url": "https://github.com/kingdido999/moefm-tray/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -108,5 +107,6 @@
       "url": "https://api.github.com/repos/kingdido999/moefm-tray/git/commits/88f29582109662d2d7bde7e6062f0ee20aebc26d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kingdido999___moefm-tray.json"
 }

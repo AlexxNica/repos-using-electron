@@ -75,10 +75,7 @@
       "start": "electron src/main.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mobyourlife/mail-chef.git"
-    },
+    "repository": "https://github.com/mobyourlife/mail-chef",
     "keywords": [
       "text",
       "editor",
@@ -87,11 +84,7 @@
       "marketing",
       "campaigns"
     ],
-    "author": "Filipe Oliveira <contato@fmoliveira.com.br>",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/mobyourlife/mail-chef/issues"
-    },
     "homepage": "https://github.com/mobyourlife/mail-chef#readme",
     "devDependencies": {
       "bower": "^1.3.3",
@@ -103,6 +96,12 @@
       "gulp-rename": "^1.2.0",
       "gulp-util": "^2.2.14",
       "shelljs": "^0.3.0"
+    },
+    "other": {
+      "author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+      "bugs": {
+        "url": "https://github.com/mobyourlife/mail-chef/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/mobyourlife/v4-mail-chef/git/commits/ca3a4e211ea06adbf7671d08969837da73b7e424",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mobyourlife___v4-mail-chef.json"
 }

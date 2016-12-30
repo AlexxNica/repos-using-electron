@@ -74,18 +74,17 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "build": "electron-packager . Airplane --platform=win32 --arch=x64 --version=0.32.3"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Ruiming/airplane.git"
-    },
-    "author": "Ruiming",
+    "repository": "https://github.com/Ruiming/airplane",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/Ruiming/airplane/issues"
-    },
     "homepage": "https://github.com/Ruiming/airplane#readme",
     "devDependencies": {
       "electron": "^0.4.1"
+    },
+    "other": {
+      "author": "Ruiming",
+      "bugs": {
+        "url": "https://github.com/Ruiming/airplane/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -113,5 +112,6 @@
       "url": "https://api.github.com/repos/ruiming/airplane/git/commits/e2468081f7230e1297dbbc3fe2b28d4dd1b35a1d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ruiming___airplane.json"
 }

@@ -91,17 +91,7 @@
       "start": "electron .",
       "build": "build --linux --win --x64 --ia32"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/CatchLabs/Electron-App.git"
-    },
-    "author": {
-      "name": "CatchLabs",
-      "email": "info@entropy.cool"
-    },
-    "bugs": {
-      "url": "https://github.com/CatchLabs/Electron-App/issues"
-    },
+    "repository": "https://github.com/CatchLabs/Electron-App",
     "homepage": "https://github.com/CatchLabs/Electron-App#readme",
     "dependencies": {
       "electron-json-storage": "^2.0.0"
@@ -110,7 +100,16 @@
       "electron-builder": "^5.16.0",
       "electron-prebuilt": "^1.2.8"
     },
-    "private": true
+    "private": true,
+    "other": {
+      "author": {
+        "name": "CatchLabs",
+        "email": "info@entropy.cool"
+      },
+      "bugs": {
+        "url": "https://github.com/CatchLabs/Electron-App/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -138,5 +137,6 @@
       "url": "https://api.github.com/repos/CatchLabs/Electron-App/git/commits/85981200c285912054181dcd8eaae62e4977a5e4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "CatchLabs___Electron-App.json"
 }

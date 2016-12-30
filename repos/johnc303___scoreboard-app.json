@@ -91,10 +91,11 @@
       "build": "electron-builder ./dist/sbd-win32-x64 --platform=win --out=./dist/win --config=config.json"
     },
     "repository": "https://github.com/johnc303/scoreboard-app",
-    "author": "Mike Williams",
     "license": "ISC",
     "homepage": "https://github.com/johnc303/scoreboard-app#readme",
-    "other": {}
+    "other": {
+      "author": "Mike Williams"
+    }
   },
   "packageStatus": 200,
   "contributors": [

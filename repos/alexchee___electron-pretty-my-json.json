@@ -75,10 +75,7 @@
       "start": "electron .",
       "package": "electron-packager . --all --out=out"
     },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/alexchee/electron-pretty-my-json.git"
-    },
+    "repository": "https://github.com/alexchee/electron-pretty-my-json",
     "keywords": [
       "json",
       "node",
@@ -86,10 +83,6 @@
       "javascript",
       "js"
     ],
-    "author": {
-      "name": "Alex Chee",
-      "email": "alexchee11@gmail.com"
-    },
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^7.3.0",
@@ -101,6 +94,12 @@
       "pretty-data": "^0.40.0",
       "react": "^15.3.0",
       "react-dom": "^15.3.0"
+    },
+    "other": {
+      "author": {
+        "name": "Alex Chee",
+        "email": "alexchee11@gmail.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/alexchee/electron-pretty-my-json/git/commits/6988e1d7207423ed6a872e0718cc87feb7cf4a71",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "alexchee___electron-pretty-my-json.json"
 }

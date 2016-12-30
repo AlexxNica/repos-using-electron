@@ -56,21 +56,14 @@
     "version": "0.0.1",
     "description": "A multi-platform bookmark, note and media system",
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ajduncan/linksync.git"
-    },
+    "repository": "https://github.com/ajduncan/linksync",
     "keywords": [
       "electron",
       "bookmark",
       "media",
       "notes"
     ],
-    "author": "Andrew Duncan",
     "license": "GPLv2 http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
-    "bugs": {
-      "url": "https://github.com/ajduncan/linksync/issues"
-    },
     "homepage": "https://github.com/ajduncan/linksync/README.md",
     "devDependencies": {
       "asar": "^0.7.2",
@@ -91,6 +84,12 @@
       "release": "gulp release --env=production",
       "start": "node ./tasks/start",
       "test": "node ./tasks/start --env=test"
+    },
+    "other": {
+      "author": "Andrew Duncan",
+      "bugs": {
+        "url": "https://github.com/ajduncan/linksync/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -118,5 +117,6 @@
       "url": "https://api.github.com/repos/ajduncan/linksync/git/commits/b3c669dc80beb94f1acda61cc21ef33934bf5011",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ajduncan___linksync.json"
 }

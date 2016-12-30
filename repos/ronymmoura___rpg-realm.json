@@ -75,7 +75,6 @@
     "name": "rpg-realm",
     "version": "0.0.1",
     "description": "Server of the RPG Realm platform.",
-    "author": "Rony Moura <ronymmoura@gmail.com>",
     "license": "MIT",
     "scripts": {
       "typings-install": "./node_modules/.bin/typings install",
@@ -87,13 +86,7 @@
       "package": "./node_modules/electron-packager/cli.js app App --platform=win32 --arch=all --out=dist --overwrite --version='1.2.5'",
       "pack-linux": "electron-packager . --asar --asar-unpack=protocol-link.html --overwrite --platform=linux --arch=x64 --prune=true --out=out"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ronymmoura/rpg-realm-server.git"
-    },
-    "bugs": {
-      "url": "https://github.com/ronymmoura/rpg-realm-server/issues"
-    },
+    "repository": "https://github.com/ronymmoura/rpg-realm-server",
     "homepage": "https://github.com/ronymmoura/rpg-realm-server#readme",
     "dependencies": {
       "@angular/common": "~2.0.1",
@@ -123,6 +116,12 @@
       "ts-loader": "^0.9.0",
       "webpack": "^1.13.2",
       "webpack-dev-server": "^1.14.0"
+    },
+    "other": {
+      "author": "Rony Moura <ronymmoura@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/ronymmoura/rpg-realm-server/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -150,5 +149,6 @@
       "url": "https://api.github.com/repos/ronymmoura/rpg-realm/git/commits/ca7ac659db4064e7f1c87cb70930c3009c6549df",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ronymmoura___rpg-realm.json"
 }

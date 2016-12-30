@@ -56,14 +56,10 @@
     "version": "1.3.0",
     "description": "Datastore Manager for the Reconstruction of Execution View Architecture",
     "main": "dist/main.js",
-    "directories": {
-      "test": "test"
-    },
     "scripts": {
       "test": "./node_modules/.bin/mocha --compilers js:babel-core/register",
       "start": "gulp && ./node_modules/.bin/electron ."
     },
-    "author": "byron1st",
     "license": "MIT",
     "devDependencies": {
       "babel-cli": "^6.10.1",
@@ -87,6 +83,12 @@
       "react": "^15.2.1",
       "react-dom": "^15.2.1",
       "showdown": "^1.4.1"
+    },
+    "other": {
+      "author": "byron1st",
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -134,5 +136,6 @@
       "url": "https://api.github.com/repos/byron1st/dm4reva/git/commits/b089b167db48b46174bdd32e5b140f7a75cefe7e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "byron1st___dm4reva.json"
 }

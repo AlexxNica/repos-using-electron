@@ -89,7 +89,6 @@
     "name": "consus-client",
     "description": "The client application for Consus, an inventory management system",
     "version": "0.1.0",
-    "author": "The Four Fiths",
     "contributors": [
       "Jordan Longato",
       "Matthew Mahnke",
@@ -106,13 +105,7 @@
       "lint": "grunt lint",
       "package": "grunt package"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/TheFourFifths/consus-client"
-    },
-    "bugs": {
-      "url": "https://github.com/TheFourFifths/consus-client/issues"
-    },
+    "repository": "https://github.com/TheFourFifths/consus-client",
     "keywords": [
       "consus",
       "inventory management system",
@@ -149,6 +142,12 @@
       "react-dom": "^15.3.2",
       "react-router": "^2.8.1",
       "request": "^2.75.0"
+    },
+    "other": {
+      "author": "The Four Fiths",
+      "bugs": {
+        "url": "https://github.com/TheFourFifths/consus-client/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -180,5 +179,6 @@
       "url": "https://api.github.com/repos/TheFourFifths/consus-client/git/commits/82131af50819c198249b06242140577d1d975319",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "TheFourFifths___consus-client.json"
 }

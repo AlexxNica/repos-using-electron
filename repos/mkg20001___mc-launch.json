@@ -74,15 +74,11 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mkg20001/mc-launch.git"
-    },
+    "repository": "https://github.com/mkg20001/mc-launch",
     "keywords": [
       "minecraft",
       "launcher"
     ],
-    "author": "Maciej Krüger <mkg20001@gmail.com>",
     "license": "GPL-3.0",
     "devDependencies": {
       "del": "^2.2.2",
@@ -109,9 +105,6 @@
       "run-sequence": "^1.2.2",
       "vulcanize": ">=1.14.8"
     },
-    "bugs": {
-      "url": "https://github.com/mkg20001/mc-launch/issues"
-    },
     "homepage": "https://github.com/mkg20001/mc-launch#readme",
     "dependencies": {
       "electron": "^1.4.5",
@@ -123,6 +116,12 @@
       "sha1": "^1.1.1",
       "unzip": "^0.1.11",
       "uuid": "^2.0.3"
+    },
+    "other": {
+      "author": "Maciej Krüger <mkg20001@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/mkg20001/mc-launch/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -150,5 +149,6 @@
       "url": "https://api.github.com/repos/mkg20001/mc-launch/git/commits/e6ffe45186ca4b1fe00e1016ec422e2047894fee",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mkg20001___mc-launch.json"
 }

@@ -131,8 +131,10 @@
       "rebuild": "electron-rebuild -f -w leveldown",
       "build-leveldown": "node-gyp rebuild --directory=node_modules/leveldown --target=1.4.0 --arch=x64 --dist-url=https://atom.io/download/atom-shell"
     },
-    "author": "evan",
-    "license": "ISC"
+    "license": "ISC",
+    "other": {
+      "author": "evan"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -159,5 +161,6 @@
       "url": "https://api.github.com/repos/Ev333/JadeNotes/git/commits/8e304b2af240d222b2d244f5418ac7660a982d56",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Ev333___JadeNotes.json"
 }

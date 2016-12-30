@@ -82,20 +82,13 @@
       "build": "electron-packager . app --platform linux --arch x64 --out dist/ --icon=resources/icon.png",
       "deb64": "electron-installer-debian --src dist/app-linux-x64/ --arch amd64 --config deb_config/config.json"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ryanleesipes/desktop-habitica.git"
-    },
+    "repository": "https://github.com/ryanleesipes/desktop-habitica",
     "keywords": [
       "habitica",
       "habitRPG",
       "electron-app"
     ],
-    "author": "Ryan Sipes, ryan@sipes.us",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ryanleesipes/desktop-habitica/issues"
-    },
     "homepage": "https://github.com/ryanleesipes/desktop-habitica#readme",
     "devDependencies": {
       "electron-installer-debian": "*",
@@ -105,6 +98,12 @@
     },
     "dependencies": {
       "electron-window-state": "*"
+    },
+    "other": {
+      "author": "Ryan Sipes, ryan@sipes.us",
+      "bugs": {
+        "url": "https://github.com/ryanleesipes/desktop-habitica/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -132,5 +131,6 @@
       "url": "https://api.github.com/repos/ryanleesipes/desktop-habitica/git/commits/aeafa6a5a89bdffd4cf5b868e0fa105dc33cf8ba",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ryanleesipes___desktop-habitica.json"
 }

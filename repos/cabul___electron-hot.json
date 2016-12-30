@@ -53,20 +53,13 @@
     "scripts": {
       "example": "electron example"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/cabul/electron-hot.git"
-    },
+    "repository": "https://github.com/cabul/electron-hot",
     "keywords": [
       "electron",
       "hot",
       "loader"
     ],
-    "author": "Calvin Bulla <calvin.bulla@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/cabul/electron-hot/issues"
-    },
     "homepage": "https://github.com/cabul/electron-hot#readme",
     "dependencies": {
       "chokidar": "^1.0.5",
@@ -75,6 +68,12 @@
     "devDependencies": {
       "electron-prebuilt": "^0.30.2",
       "webpack": "^1.11.0"
+    },
+    "other": {
+      "author": "Calvin Bulla <calvin.bulla@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/cabul/electron-hot/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -122,5 +121,6 @@
       "url": "https://api.github.com/repos/cabul/electron-hot/git/commits/13ae29e8b39bbcff525e9f299aac66ec548559f3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cabul___electron-hot.json"
 }

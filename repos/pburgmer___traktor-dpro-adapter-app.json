@@ -68,12 +68,8 @@
   "packageJSON": {
     "name": "traktor-dpro-adapter-app",
     "version": "0.1.0",
-    "author": "Philipp Burgmer",
     "description": "App to synchronize D-Pro's Tempo with Traktor's Tempo (NodeJS and Electron based standalone sys-tray application)",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/pburgmer/traktor-dpro-adapter-app.git"
-    },
+    "repository": "https://github.com/pburgmer/traktor-dpro-adapter-app",
     "scripts": {
       "dev": "electron ./app",
       "clean": "gulp clean",
@@ -92,6 +88,9 @@
       "electron-prebuilt": "0.30.0",
       "gulp": "3.9.0",
       "del": "1.2.0"
+    },
+    "other": {
+      "author": "Philipp Burgmer"
     }
   },
   "packageStatus": 200,
@@ -119,5 +118,6 @@
       "url": "https://api.github.com/repos/pburgmer/traktor-dpro-adapter-app/git/commits/5e1f730a2fa7457511a0db54942dc8b1298927bb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "pburgmer___traktor-dpro-adapter-app.json"
 }

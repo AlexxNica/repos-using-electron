@@ -90,16 +90,12 @@
     "productName": "Dripcap",
     "version": "0.4.3",
     "description": "☕️ Caffeinated packet analyzer",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/dripcap/dripcap.git"
-    },
+    "repository": "https://github.com/dripcap/dripcap",
     "readme": "see README.md",
     "main": "js/main.js",
     "scripts": {
       "test": "gulp mocha"
     },
-    "author": "h2so5",
     "license": "MIT",
     "dependencies": {
       "babel-core": "^6.18.2",
@@ -158,6 +154,9 @@
         ],
         "transform-async-to-generator"
       ]
+    },
+    "other": {
+      "author": "h2so5"
     }
   },
   "packageStatus": 200,
@@ -185,5 +184,6 @@
       "url": "https://api.github.com/repos/dripcap/dripcap/git/commits/dda82b5b81255ac0b2202daa7c057ae338be71c2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dripcap___dripcap.json"
 }

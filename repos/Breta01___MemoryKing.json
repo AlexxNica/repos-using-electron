@@ -67,21 +67,14 @@
       "build": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.production.js --progress --profile --colors",
       "package": "webpack --config webpack.config.production.js && electron-packager . MemoryKing --all"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/Breta01/MemoryKing"
-    },
+    "repository": "https://github.com/Breta01/MemoryKing",
     "keywords": [
       "Memory King",
       "Memory",
       "King",
       "training"
     ],
-    "author": "Břetislav Hájek",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Breta01/MemoryKing/issues"
-    },
     "homepage": "https://github.com/Breta01/MemoryKing#readme",
     "dependencies": {
       "babel-cli": "^6.11.4",
@@ -129,6 +122,12 @@
       "webpack-dev-middleware": "^1.6.1",
       "webpack-hot-middleware": "^2.12.2",
       "webpack-target-electron-renderer": "^0.4.0"
+    },
+    "other": {
+      "author": "Břetislav Hájek",
+      "bugs": {
+        "url": "https://github.com/Breta01/MemoryKing/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -156,5 +155,6 @@
       "url": "https://api.github.com/repos/Breta01/MemoryKing/git/commits/b0db82a40cfd3a3110b289a0c60c83127869647d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Breta01___MemoryKing.json"
 }

@@ -60,11 +60,7 @@
       "start-mirror-auto": "webpack && electron . mirror auto",
       "start-mirror-manual": "webpack && electron . mirror manual"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/joshymcd/mycroft-magic-mirror.git"
-    },
-    "author": "Joshua McDonald",
+    "repository": "https://github.com/joshymcd/mycroft-magic-mirror",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.9.1",
@@ -89,6 +85,9 @@
       "react": "^15.1.0",
       "react-bootstrap": "^0.29.5",
       "react-dom": "^15.1.0"
+    },
+    "other": {
+      "author": "Joshua McDonald"
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,6 @@
       "url": "https://api.github.com/repos/joshymcd/mycroft-magic-mirror/git/commits/54bb4730e15493ffb2eb4dc363e9d62ffeb1abbc",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "joshymcd___mycroft-magic-mirror.json"
 }

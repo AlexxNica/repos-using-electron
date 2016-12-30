@@ -89,27 +89,11 @@
         ]
       }
     },
-    "directories": {
-      "buildResources": "build",
-      "output": "dist",
-      "app": "static"
-    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mudio/bos"
-    },
-    "author": {
-      "name": "木休大人",
-      "email": "job.zhanghao@gmail.com",
-      "url": "https://github.com/mudio"
-    },
+    "repository": "https://github.com/mudio/bos",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/mudio/bos/issues"
-    },
     "keywords": [
       "bce",
       "bos"
@@ -195,6 +179,21 @@
     "devEngines": {
       "node": "5.x || 6.x",
       "npm": "3.x"
+    },
+    "other": {
+      "author": {
+        "name": "木休大人",
+        "email": "job.zhanghao@gmail.com",
+        "url": "https://github.com/mudio"
+      },
+      "bugs": {
+        "url": "https://github.com/mudio/bos/issues"
+      },
+      "directories": {
+        "buildResources": "build",
+        "output": "dist",
+        "app": "static"
+      }
     }
   },
   "packageStatus": 200,
@@ -242,5 +241,6 @@
       "url": "https://api.github.com/repos/mudio/bos/git/commits/306eea46e9e73b6b61109272c2d3ffaddd85e7de",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mudio___bos.json"
 }

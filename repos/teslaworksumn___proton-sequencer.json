@@ -94,19 +94,18 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/teslaworksumn/proton-sequencer.git"
-    },
-    "author": "Ryan Fredlund, Byron Ambright, Joshua Guldberg, Alex Kafer, Kelly Larson, Vladimir Kuksenko",
+    "repository": "https://github.com/teslaworksumn/proton-sequencer",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/teslaworksumn/proton-sequencer/issues"
-    },
     "homepage": "https://github.com/teslaworksumn/proton-sequencer#readme",
     "devDependencies": {},
     "dependencies": {
       "electron": "^1.4.1"
+    },
+    "other": {
+      "author": "Ryan Fredlund, Byron Ambright, Joshua Guldberg, Alex Kafer, Kelly Larson, Vladimir Kuksenko",
+      "bugs": {
+        "url": "https://github.com/teslaworksumn/proton-sequencer/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -139,5 +138,6 @@
       "url": "https://api.github.com/repos/teslaworksumn/proton-sequencer/git/commits/79938f77cfd9303c7f0e7b014037867cae19dce3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "teslaworksumn___proton-sequencer.json"
 }

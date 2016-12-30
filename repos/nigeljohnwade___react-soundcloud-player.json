@@ -50,7 +50,6 @@
     "version": "1.0.0",
     "description": "A minimal Electron soundcloud player application",
     "main": "main.js",
-    "author": "Nigel Wade",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -69,6 +68,9 @@
     "scripts": {
       "compile": "browserify -t [ babelify --presets [ react es2015 ] ] src/app.js -o js/app.js",
       "start": "electron main.js"
+    },
+    "other": {
+      "author": "Nigel Wade"
     }
   },
   "packageStatus": 200,

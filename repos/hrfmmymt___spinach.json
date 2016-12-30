@@ -81,11 +81,6 @@
       "build:windows": "electron-packager . --overwrite --asar --out=dist --ignore='^media$' --platform=win32 --arch=ia32 --icon=static/Icon.ico --version-string.ProductName=$npm_package_productName && cd dist/Spinach-win32-ia32 && zip -ryq9 ../Spinach-windows-${npm_package_version}.zip *"
     },
     "keywords": [],
-    "author": {
-      "name": "hrfmmymt",
-      "email": "hrfmmymt@gmail.com",
-      "url": "github.com/hrfmmymt"
-    },
     "license": "MIT",
     "devDependencies": {
       "electron": "^1.4.6",
@@ -114,7 +109,13 @@
         "browser"
       ]
     },
-    "other": {}
+    "other": {
+      "author": {
+        "name": "hrfmmymt",
+        "email": "hrfmmymt@gmail.com",
+        "url": "github.com/hrfmmymt"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [

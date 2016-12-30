@@ -70,18 +70,11 @@
     "version": "1.0.0",
     "description": "Desktop client for Owncloud",
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/ldonis/OwnDesk.git"
-    },
+    "repository": "https://github.com/ldonis/OwnDesk",
     "keywords": [
       "Owncloud"
     ],
-    "author": "Luis Gdonis <emc2@ldonis.com>",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/ldonis/OwnDesk/issues"
-    },
     "homepage": "https://github.com/ldonis/OwnDesk#readme",
     "dependencies": {
       "vue": "1.*",
@@ -102,6 +95,12 @@
     "scripts": {
       "build": "grunt deploy",
       "start": "electron main.js"
+    },
+    "other": {
+      "author": "Luis Gdonis <emc2@ldonis.com>",
+      "bugs": {
+        "url": "https://github.com/ldonis/OwnDesk/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/ldonis/OwnDesk/git/commits/5348e6ac8f9fe957f102aa5d0d3aa12d083d49e8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ldonis___OwnDesk.json"
 }

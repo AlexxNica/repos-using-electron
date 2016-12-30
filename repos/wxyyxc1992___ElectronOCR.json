@@ -93,7 +93,6 @@
       "package-osx": "npm run clean-electron && NODE_ENV=production node -r babel-register package.js darwin",
       "package-win": "npm run clean-electron && NODE_ENV=production node -r babel-register package.js win"
     },
-    "author": "",
     "license": "ISC",
     "babel": {
       "extends": "./dev-config/.babelrc"
@@ -218,6 +217,9 @@
       "webpack-hot-middleware": "^2.10.0",
       "webpack-md5-hash": "0.0.5",
       "whatwg-fetch": "^1.0.0"
+    },
+    "other": {
+      "author": ""
     }
   },
   "packageStatus": 200,
@@ -245,5 +247,6 @@
       "url": "https://api.github.com/repos/wxyyxc1992/ElectronOCR/git/commits/a87b820803a3f12da6e718c519e1869df7c9001c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "wxyyxc1992___ElectronOCR.json"
 }

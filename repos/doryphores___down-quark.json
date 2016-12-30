@@ -66,11 +66,7 @@
       "build-css": "rimraf app/css && mkdirp app/css && stylus src/stylus/app.styl -o app/css/ -c",
       "watch": "npm run build-css -- -m -w & npm run build-js -- -s -w"
     },
-    "author": "Martin Laine",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/doryphores/down-quark"
-    },
+    "repository": "https://github.com/doryphores/down-quark",
     "license": "MIT",
     "dependencies": {
       "babel": "^5.8.21",
@@ -80,6 +76,9 @@
       "mkdirp": "^0.5.1",
       "rimraf": "^2.4.3",
       "stylus": "^0.52.4"
+    },
+    "other": {
+      "author": "Martin Laine"
     }
   },
   "packageStatus": 200,
@@ -107,5 +106,6 @@
       "url": "https://api.github.com/repos/doryphores/down-quark/git/commits/b426432ad200d62fded75d9cf59debd10f585f86",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "doryphores___down-quark.json"
 }

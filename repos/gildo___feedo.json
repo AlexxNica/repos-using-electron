@@ -79,24 +79,23 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/gildo/feedo.git"
-    },
+    "repository": "https://github.com/gildo/feedo",
     "keywords": [
       "feed",
       "feed reader",
       "rss",
       "atom"
     ],
-    "author": "Gildo Fiorito",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/gildo/feedo/issues"
-    },
     "homepage": "https://github.com/gildo/feedo#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
+    },
+    "other": {
+      "author": "Gildo Fiorito",
+      "bugs": {
+        "url": "https://github.com/gildo/feedo/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -124,5 +123,6 @@
       "url": "https://api.github.com/repos/gildo/feedo/git/commits/50ad545e7f4430e125ed2e1709b95adebdec3b5b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "gildo___feedo.json"
 }

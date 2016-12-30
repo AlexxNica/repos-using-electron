@@ -87,15 +87,8 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "watch": "webpack --watch --colors --config webpack.dev.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/thosakwe/mystery-dungeon.git"
-    },
-    "author": "Tobe O <thosakwe@gmail.com>",
+    "repository": "https://github.com/thosakwe/mystery-dungeon",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/thosakwe/mystery-dungeon/issues"
-    },
     "homepage": "https://github.com/thosakwe/mystery-dungeon#readme",
     "devDependencies": {
       "babel-core": "^6.17.0",
@@ -119,6 +112,12 @@
       "pixi.js": "^4.0.3",
       "webpack-dev-middleware": "^1.8.3",
       "webpack-hot-middleware": "^2.12.2"
+    },
+    "other": {
+      "author": "Tobe O <thosakwe@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/thosakwe/mystery-dungeon/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -146,5 +145,6 @@
       "url": "https://api.github.com/repos/thosakwe/mystery-dungeon/git/commits/f3f21ad650dc43268f7ecd97efe5a2b97268af41",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "thosakwe___mystery-dungeon.json"
 }

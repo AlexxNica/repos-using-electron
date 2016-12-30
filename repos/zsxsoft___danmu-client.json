@@ -55,19 +55,12 @@
       "go": "electron .",
       "go-lin": "electron . --enable-transparent-visuals --disable-gpu"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/zsxsoft/danmu-client.git"
-    },
+    "repository": "https://github.com/zsxsoft/danmu-client",
     "keywords": [
       "danmu",
       "danmaku"
     ],
-    "author": "zsx <zsx@zsxsoft.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/zsxsoft/danmu-client/issues"
-    },
     "homepage": "https://github.com/zsxsoft/danmu-client",
     "dependencies": {
       "electron-penetrate": "0.0.3",
@@ -78,6 +71,12 @@
       "electron-prebuilt": "^1.3.2",
       "electron-rebuild": "^1.1.5",
       "node-gyp": "^3.4.0"
+    },
+    "other": {
+      "author": "zsx <zsx@zsxsoft.com>",
+      "bugs": {
+        "url": "https://github.com/zsxsoft/danmu-client/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -125,5 +124,6 @@
       "url": "https://api.github.com/repos/zsxsoft/danmu-client/git/commits/710c93949ed888d5bf003c906a1a46ef0c674c63",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zsxsoft___danmu-client.json"
 }

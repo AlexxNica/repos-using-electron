@@ -60,23 +60,22 @@
       "start": "electron main.js",
       "package": "electron-packager ./ DeskodeAds --all --out ~/DeskodeAds --version 1.0.0 --overwrite"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/IvanSotelo/DeskodeAds_Desktop.git"
-    },
-    "author": "Deskode",
+    "repository": "https://github.com/IvanSotelo/DeskodeAds_Desktop",
     "license": "CC0-1.0",
     "dependencies": {
       "jquery": "^2.1.4",
       "nconf": "^0.8.4"
     },
-    "bugs": {
-      "url": "https://github.com/IvanSotelo/DeskodeAds_Desktop/issues"
-    },
     "homepage": "http://deskode.com",
     "devDependencies": {
       "electron-packager": "^7.0.4",
       "electron-prebuilt": "^0.37.8"
+    },
+    "other": {
+      "author": "Deskode",
+      "bugs": {
+        "url": "https://github.com/IvanSotelo/DeskodeAds_Desktop/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -104,5 +103,6 @@
       "url": "https://api.github.com/repos/IvanSotelo/DeskodeAds_Desktop/git/commits/99abedca6f32b39e56cf7e0afb1e16460fbd4c9b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "IvanSotelo___DeskodeAds_Desktop.json"
 }

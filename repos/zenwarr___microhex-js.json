@@ -69,10 +69,7 @@
     "name": "microhex-js",
     "version": "0.0.1",
     "main": "./build/app.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/zenwarr/microhex-js"
-    },
+    "repository": "https://github.com/zenwarr/microhex-js",
     "license": "MIT",
     "description": "Crossplatform hex editor intended mainly for reverse-engineering and data analysis",
     "keywords": [
@@ -83,7 +80,6 @@
       "microhex-js",
       "zenwarr"
     ],
-    "author": "Victor Tyazhelnikov",
     "engines": {
       "node": ">=6.0.0"
     },
@@ -130,6 +126,9 @@
       "test": "mocha ./build/test/ --recursive",
       "build-and-test": "npm run build-tests && npm test",
       "build-dev-styles": "node-sass src/styles/style.scss build/styles/style.css"
+    },
+    "other": {
+      "author": "Victor Tyazhelnikov"
     }
   },
   "packageStatus": 200,
@@ -157,5 +156,6 @@
       "url": "https://api.github.com/repos/zenwarr/microhex-js/git/commits/c8259006add1293536a5de6632d7bf639b5913a8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zenwarr___microhex-js.json"
 }

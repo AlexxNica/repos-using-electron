@@ -50,7 +50,6 @@
     "version": "0.0.0",
     "description": "Simple remote file sync for Open Science Framework",
     "repository": "https://github.com/brianjgeiger/o2",
-    "author": "Center for Open Science",
     "dependencies": {
       "bootstrap": "^3.3.5",
       "configstore": "^1.3.0",
@@ -78,6 +77,9 @@
       "build-win": "electron-packager . o2 --platform=win32 --arch=all --version=0.34.1 --out=build/Release/ --overwrite --ignore='./build/Release$' ",
       "start": "electron .",
       "test": "./node_modules/.bin/mocha --reporter spec"
+    },
+    "other": {
+      "author": "Center for Open Science"
     }
   },
   "packageStatus": 200,
@@ -126,5 +128,6 @@
       "url": "https://api.github.com/repos/brianjgeiger/o2/git/commits/c230b698daf976e9a53456452c77c6cfeab1189d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "brianjgeiger___o2.json"
 }

@@ -53,10 +53,7 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/sintanial/graviton.git"
-    },
+    "repository": "https://github.com/sintanial/graviton",
     "keywords": [
       "headless",
       "browser",
@@ -68,11 +65,7 @@
       "parser",
       "parsing"
     ],
-    "author": "Roman Martynov <sintanial@gmail.com>",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/sintanial/graviton/issues"
-    },
     "homepage": "https://github.com/sintanial/graviton#readme",
     "dependencies": {
       "debug": "^2.2.0",
@@ -85,6 +78,12 @@
     "devDependencies": {
       "electron-prebuilt": "^0.36.7",
       "vo": "^2.0.0"
+    },
+    "other": {
+      "author": "Roman Martynov <sintanial@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/sintanial/graviton/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -133,5 +132,6 @@
       "url": "https://api.github.com/repos/sintanial/graviton/git/commits/c72b887147f812e51b5ed3eba2e076b3f7136072",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sintanial___graviton.json"
 }

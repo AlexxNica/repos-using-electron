@@ -80,10 +80,7 @@
       "start": "./node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron index.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rileyjshaw/synthesia.git"
-    },
+    "repository": "https://github.com/rileyjshaw/synthesia",
     "keywords": [
       "MIDI",
       "synthesizer",
@@ -94,11 +91,7 @@
       "colors",
       "spectrum"
     ],
-    "author": "rileyjshaw <i@rileyjshaw.com> (http://rileyjshaw.com)",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/rileyjshaw/synthesia/issues"
-    },
     "homepage": "https://github.com/rileyjshaw/synthesia#readme",
     "dependencies": {
       "midi": "^0.9.5"
@@ -109,6 +102,12 @@
       "babel-preset-es2015": "^6.9.0",
       "electron-prebuilt": "^1.2.1",
       "electron-rebuild": "^1.2.1"
+    },
+    "other": {
+      "author": "rileyjshaw <i@rileyjshaw.com> (http://rileyjshaw.com)",
+      "bugs": {
+        "url": "https://github.com/rileyjshaw/synthesia/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,6 @@
       "url": "https://api.github.com/repos/rileyjshaw/synthesia/git/commits/07f94dd9aab320f1c6760f8e3204fd8f3f42bc80",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rileyjshaw___synthesia.json"
 }

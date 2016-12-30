@@ -82,7 +82,6 @@
       "build": "electron-packager . Fertilome --platform=mas --icon=icon.icns --arch=x64 --out=releases --overwrite"
     },
     "keywords": "",
-    "author": "Katherine Martinez",
     "license": "CC0-1.0",
     "devDependencies": {
       "asar": "^0.11.0",
@@ -108,6 +107,9 @@
       "slash": "^1.0.0",
       "vinyl": "^1.1.1",
       "win-spawn": "^2.0.0"
+    },
+    "other": {
+      "author": "Katherine Martinez"
     }
   },
   "packageStatus": 200,

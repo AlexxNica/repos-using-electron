@@ -75,18 +75,8 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jessepollak/macsonos.git"
-    },
-    "author": {
-      "name": "Jesse Pollak",
-      "url": "https://github.com/jessepollak"
-    },
+    "repository": "https://github.com/jessepollak/macsonos",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/jessepollak/macsonos/issues"
-    },
     "devDependencies": {
       "asar": "^0.11.0",
       "babel-core": "^6.7.6",
@@ -153,6 +143,15 @@
     "devEngines": {
       "node": "4.x || 5.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Jesse Pollak",
+        "url": "https://github.com/jessepollak"
+      },
+      "bugs": {
+        "url": "https://github.com/jessepollak/macsonos/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -200,5 +199,6 @@
       "url": "https://api.github.com/repos/jessepollak/macsonos/git/commits/89d00c8988f98b7e780d5b23d94dcc5b790ab313",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jessepollak___macsonos.json"
 }

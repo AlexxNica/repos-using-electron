@@ -85,14 +85,6 @@
     "appBundleId": "kombibooth.app",
     "description": "Photo booth software used in kombibooth.com.br",
     "main": "webpack.dev.config.js",
-    "author": {
-      "name": "Vinícius Krolow",
-      "email": "krolow@gmail.com",
-      "url": "github.com/krolow"
-    },
-    "directories": {
-      "test": "test"
-    },
     "scripts": {
       "webpack": "webpack-dev-server --inline --hot --config ./webpack.dev.config.js -w",
       "electron": "electron src/electron/index.js",
@@ -145,6 +137,16 @@
       "babel-runtime": "^5.8.29",
       "kombibooth-settings": "0.0.1",
       "os-homedir": "^1.0.1"
+    },
+    "other": {
+      "author": {
+        "name": "Vinícius Krolow",
+        "email": "krolow@gmail.com",
+        "url": "github.com/krolow"
+      },
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -172,5 +174,6 @@
       "url": "https://api.github.com/repos/kombibooth/kombibooth/git/commits/44c81789a6528cb3e1cdf772e3a24757e69c3297",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kombibooth___kombibooth.json"
 }

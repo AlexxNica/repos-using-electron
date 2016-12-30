@@ -56,15 +56,8 @@
       "dev": "cross-env NODE_ENV=development hjs-dev-server & cross-env NODE_ENV=development electron .",
       "test": "standard"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/remixz/run-js-gui.git"
-    },
-    "author": "Zach Bruggeman <mail@bruggie.com>",
+    "repository": "https://github.com/remixz/run-js-gui",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/remixz/run-js-gui/issues"
-    },
     "homepage": "https://github.com/remixz/run-js-gui#readme",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -99,6 +92,12 @@
     },
     "dependencies": {
       "run-js": "^2.0.1"
+    },
+    "other": {
+      "author": "Zach Bruggeman <mail@bruggie.com>",
+      "bugs": {
+        "url": "https://github.com/remixz/run-js-gui/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/remixz/run-js-gui/git/commits/20f1481c1e13c2fe4cc464865775bde2ddd28993",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "remixz___run-js-gui.json"
 }

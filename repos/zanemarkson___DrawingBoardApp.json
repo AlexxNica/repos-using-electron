@@ -75,11 +75,6 @@
       "start": "electron .",
       "build": "electron-packager . DrawingBoard --platform=darwin --arch=x64"
     },
-    "author": {
-      "name": "Zheng Ma",
-      "email": "zane.mark19@gmail.com",
-      "web": "https://www.linkedin.com/in/zanecode"
-    },
     "license": "MIT",
     "dependencies": {
       "express": "~4.13.3",
@@ -89,6 +84,13 @@
     "devDependencies": {
       "electron-packager": "^7.0.1",
       "electron-prebuilt": "^0.37.8"
+    },
+    "other": {
+      "author": {
+        "name": "Zheng Ma",
+        "email": "zane.mark19@gmail.com",
+        "web": "https://www.linkedin.com/in/zanecode"
+      }
     }
   },
   "packageStatus": 200,
@@ -116,5 +118,6 @@
       "url": "https://api.github.com/repos/zanemarkson/DrawingBoardApp/git/commits/131c1665f9d9803a0dfe03a0d8b91e2c1db96c5a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zanemarkson___DrawingBoardApp.json"
 }

@@ -77,10 +77,6 @@
     "version": "0.1.0",
     "description": "An audio editor by Pinecast",
     "license": "MIT",
-    "author": {
-      "name": "Matt Basta",
-      "email": "me@mattbasta.com"
-    },
     "electronVersion": "0.36.0",
     "scripts": {
       "build": "webpack --config=webpack.config.js --progress",
@@ -123,6 +119,12 @@
       "electron-prebuilt": "^1.3.4",
       "electron-react-devtools": "^0.4.0",
       "webpack": "^1.13.2"
+    },
+    "other": {
+      "author": {
+        "name": "Matt Basta",
+        "email": "me@mattbasta.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -151,5 +153,6 @@
       "url": "https://api.github.com/repos/mattbasta/pinecast-studio/git/commits/be24d3faecc846e841c7c52f9e4b89e4679fc9cc",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mattbasta___pinecast-studio.json"
 }

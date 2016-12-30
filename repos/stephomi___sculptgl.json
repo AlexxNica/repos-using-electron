@@ -76,7 +76,6 @@
     "homepage": "https://github.com/stephomi/sculptgl",
     "version": "0.9.0",
     "description": "A WebGL digital sculpting app",
-    "author": "Stéphane GINIER",
     "license": "MIT",
     "main": "main.js",
     "devDependencies": {
@@ -95,12 +94,12 @@
       "buildElectron": "npm run release && rm -rf standalone/app/ && cp -R app/ standalone/ && cp package.json standalone",
       "standalone": "npm run buildElectron && cd standalone && node buildStandalone.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/stephomi/sculptgl.git"
-    },
-    "bugs": {
-      "url": "https://github.com/stephomi/sculptgl/issues"
+    "repository": "https://github.com/stephomi/sculptgl",
+    "other": {
+      "author": "Stéphane GINIER",
+      "bugs": {
+        "url": "https://github.com/stephomi/sculptgl/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -133,5 +132,6 @@
       "url": "https://api.github.com/repos/stephomi/sculptgl/git/commits/ba8cc5e60f793b72d7eb3ba5aea3b35b5792873e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "stephomi___sculptgl.json"
 }

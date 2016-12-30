@@ -77,7 +77,6 @@
     "release": "0.1.0",
     "description": "A minimal Electron application",
     "main": "main.js",
-    "author": "zongkelong<zongkelong@chunyu.me>",
     "license": "MIT License",
     "devDependencies": {
       "electron-builder": "^5.6.2",
@@ -122,10 +121,7 @@
       "rd": "^0.0.2",
       "tmt-ejs-helper": "^0.0.1"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/weixin/tmt-workflow"
-    },
+    "repository": "https://github.com/weixin/tmt-workflow",
     "keywords": [
       "Electron",
       "chunyu",
@@ -140,11 +136,14 @@
       "WebP",
       "REM"
     ],
-    "bugs": {
-      "url": "https://github.com/weixin/tmt-workflow"
-    },
     "homepage": "https://github.com/weixin/tmt-workflow",
-    "readmeFilename": "README.md"
+    "other": {
+      "author": "zongkelong<zongkelong@chunyu.me>",
+      "bugs": {
+        "url": "https://github.com/weixin/tmt-workflow"
+      },
+      "readmeFilename": "README.md"
+    }
   },
   "packageStatus": 200,
   "contributors": [],
@@ -169,5 +168,6 @@
       "url": "https://api.github.com/repos/zongkelong/ChunyuFEFlow/git/commits/a0ba10a9987cf45927c51b4206030a0d98870ac5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zongkelong___ChunyuFEFlow.json"
 }

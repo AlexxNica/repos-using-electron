@@ -74,16 +74,18 @@
       "start": "electron .",
       "package": "electron-packager . ECG_Viewer  --overwrite"
     },
-    "author": {
-      "name": "GM3",
-      "url": "http://gm3.jp"
-    },
     "license": "ISC",
     "dependencies": {
       "electron": ">=1.4.5",
       "electron-packager": ">=8.1.0",
       "node-forge": "^0.6",
       "tcp-socket": "^0.5"
+    },
+    "other": {
+      "author": {
+        "name": "GM3",
+        "url": "http://gm3.jp"
+      }
     }
   },
   "packageStatus": 200,
@@ -111,5 +113,6 @@
       "url": "https://api.github.com/repos/GM3-co/rfecg_desk_viewer/git/commits/b91668381edc432376d938d49c72549715830bbb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "GM3-co___rfecg_desk_viewer.json"
 }

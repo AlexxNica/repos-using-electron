@@ -74,18 +74,11 @@
       "start": "electron main.js",
       "build": "start tsc --watch && node-sass main.scss main.css --source-map true --watch"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/DjSuperNintendo/Chunes.git"
-    },
+    "repository": "https://github.com/DjSuperNintendo/Chunes",
     "keywords": [
       "chunes"
     ],
-    "author": "DjSuperNintendo",
     "license": "",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.0.1"
@@ -99,6 +92,12 @@
       "vue": "^1.0.24",
       "youtube-best-video": "0.0.8",
       "youtube-search": "^1.0.4"
+    },
+    "other": {
+      "author": "DjSuperNintendo",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/DjSuperNintendo/Chunes/git/commits/99c9d4ed1e126adebd77355b1a6606e3249f600b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DjSuperNintendo___Chunes.json"
 }

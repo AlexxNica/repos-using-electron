@@ -79,16 +79,9 @@
       "typings-install": "typings install",
       "electron": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jgainfort/wifi-analyzer.git"
-    },
-    "author": "John G. Gainfort, Jr. <gainfortj@gmail.com>",
+    "repository": "https://github.com/jgainfort/wifi-analyzer",
     "license": "MIT",
     "private": true,
-    "bugs": {
-      "url": "https://github.com/jgainfort/wifi-analyzer/issues"
-    },
     "homepage": "https://github.com/jgainfort/wifi-analyzer#readme",
     "dependencies": {
       "@angular/common": "2.0.0",
@@ -135,6 +128,12 @@
       "webpack-dev-server": "^1.14.1",
       "webpack-merge": "^0.14.0",
       "webpack-target-electron-renderer": "^0.4.0"
+    },
+    "other": {
+      "author": "John G. Gainfort, Jr. <gainfortj@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/jgainfort/wifi-analyzer/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -160,5 +159,6 @@
       "url": "https://api.github.com/repos/jgainfort/wifi-analyzer/git/commits/b0071af24e8e56aed7ff9246b1c340f371ecb1b9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jgainfort___wifi-analyzer.json"
 }

@@ -68,7 +68,6 @@
   "packageJSON": {
     "name": "schreinerleinsdemodesk",
     "productName": "SchreinerleinsDemoDesk",
-    "author": "Michael Schreiner",
     "description": "Schreinerlein's Demo Desk",
     "version": "0.1.0",
     "license": "MIT",
@@ -113,6 +112,9 @@
       "yaiostart": "electron ./app",
       "yaiobuild": "electron-packager ./app yaiodesktopapps --all --out out/ --overwrite",
       "yaiosetup": "electron-installer-windows --src out/schreinerleinsdemodesk-win32-x64/ --dest out/installers/ --overwrite"
+    },
+    "other": {
+      "author": "Michael Schreiner"
     }
   },
   "packageStatus": 200,
@@ -140,5 +142,6 @@
       "url": "https://api.github.com/repos/das-praktische-schreinerlein/schreinerleins-demo-desk/git/commits/ea0ce5c27f4be49e535f6682d9c4cc592a3a84dc",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "das-praktische-schreinerlein___schreinerleins-demo-desk.json"
 }

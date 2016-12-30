@@ -80,10 +80,7 @@
       "postinstall": "./node_modules/.bin/electron-rebuild && npm run vendor && gulp build",
       "vendor": "cp -rf ./node_modules/childpty ./app/vendor/"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jkuri/speedterm.git"
-    },
+    "repository": "https://github.com/jkuri/speedterm",
     "keywords": [
       "terminal",
       "term",
@@ -92,11 +89,7 @@
       "speed",
       "terminal"
     ],
-    "author": "Jan Kuri <jkuri88@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/jkuri/speedterm/issues"
-    },
     "homepage": "https://github.com/jkuri/speedterm#readme",
     "dependencies": {
       "childpty": "0.0.1",
@@ -114,6 +107,12 @@
       "rollup-plugin-alias": "^1.2.0",
       "rollup-plugin-commonjs": "^5.0.4",
       "rollup-plugin-node-resolve": "^2.0.0"
+    },
+    "other": {
+      "author": "Jan Kuri <jkuri88@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/jkuri/speedterm/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -141,5 +140,6 @@
       "url": "https://api.github.com/repos/jkuri/speedterm/git/commits/65155c192cdcd487b250b1e76b87912f7586f4a1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jkuri___speedterm.json"
 }

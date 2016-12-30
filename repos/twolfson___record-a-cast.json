@@ -56,18 +56,7 @@
     "description": "Select and record a portion of your desktop",
     "version": "1.4.1",
     "homepage": "https://github.com/twolfson/record-a-cast",
-    "author": {
-      "name": "Todd Wolfson",
-      "email": "todd@twolfson.com",
-      "url": "http://twolfson.com/"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/twolfson/record-a-cast.git"
-    },
-    "bugs": {
-      "url": "https://github.com/twolfson/record-a-cast/issues"
-    },
+    "repository": "https://github.com/twolfson/record-a-cast",
     "bin": {
       "record-a-cast": "bin/record-a-cast.js"
     },
@@ -111,6 +100,16 @@
         "foundry-release-git",
         "foundry-release-npm"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "Todd Wolfson",
+        "email": "todd@twolfson.com",
+        "url": "http://twolfson.com/"
+      },
+      "bugs": {
+        "url": "https://github.com/twolfson/record-a-cast/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -138,5 +137,6 @@
       "url": "https://api.github.com/repos/twolfson/record-a-cast/git/commits/b4d090c7015782e666f5c9cd1b0676a51012a899",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "twolfson___record-a-cast.json"
 }

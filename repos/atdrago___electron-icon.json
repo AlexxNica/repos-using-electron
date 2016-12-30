@@ -61,7 +61,6 @@
     "scripts": {
       "start": "export NODE_ENV=development && export ELECTRON_ENABLE_LOGGING=true && electron ."
     },
-    "author": "Adam Drago <atdrago+electron-icon@gmail.com>",
     "dependencies": {
       "electron-window": "^0.8.0",
       "icon-gen": "^1.0.4",
@@ -75,7 +74,10 @@
     },
     "os": [
       "darwin"
-    ]
+    ],
+    "other": {
+      "author": "Adam Drago <atdrago+electron-icon@gmail.com>"
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/atdrago/electron-icon",
@@ -122,5 +124,6 @@
       "url": "https://api.github.com/repos/atdrago/electron-icon/git/commits/1e67ca0fc2b2ea05ae2bec4315dc47ec100e0740",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "atdrago___electron-icon.json"
 }

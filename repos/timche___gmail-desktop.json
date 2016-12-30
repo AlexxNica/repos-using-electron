@@ -79,10 +79,7 @@
       "build:osx": "electron-packager . --out=build --overwrite --platform=darwin --arch=x64 --icon=src/assets/icons/icon.icns --app-version=$npm_package_version",
       "build": "npm run clean && npm run build:osx"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/timche/gmail-desktop.git"
-    },
+    "repository": "https://github.com/timche/gmail-desktop",
     "keywords": [
       "gmail",
       "google",
@@ -95,11 +92,7 @@
       "linux",
       "electron"
     ],
-    "author": "timche",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/timche/gmail-desktop/issues"
-    },
     "homepage": "https://github.com/timche/gmail-desktop#readme",
     "devDependencies": {
       "babel-core": "^6.7.7",
@@ -111,6 +104,12 @@
       "eslint-config-airbnb-base": "^3.0.1",
       "eslint-plugin-import": "^1.8.0",
       "rimraf": "^2.5.2"
+    },
+    "other": {
+      "author": "timche",
+      "bugs": {
+        "url": "https://github.com/timche/gmail-desktop/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -139,5 +138,6 @@
       "url": "https://api.github.com/repos/timche/gmail-desktop/git/commits/7969331e2d1ca5dc3744091d1ffc8b494c16fa95",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "timche___gmail-desktop.json"
 }

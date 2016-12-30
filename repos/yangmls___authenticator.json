@@ -83,11 +83,7 @@
       "dev": "webpack-dev-server --inline",
       "package": "electron-packager . Authenticator --platform=darwin --arch=x64"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/yangmls/authenticator"
-    },
-    "author": "Clive Young",
+    "repository": "https://github.com/yangmls/authenticator",
     "license": "MIT",
     "dependencies": {
       "electron-prebuilt": "^0.37.8",
@@ -111,6 +107,9 @@
       "style-loader": "^0.13.1",
       "webpack": "^1.13.0",
       "webpack-dev-server": "^1.14.1"
+    },
+    "other": {
+      "author": "Clive Young"
     }
   },
   "packageStatus": 200,
@@ -138,5 +137,6 @@
       "url": "https://api.github.com/repos/yangmls/authenticator/git/commits/025d1c4867061dae924f1f9eeac355a9ec04e976",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "yangmls___authenticator.json"
 }

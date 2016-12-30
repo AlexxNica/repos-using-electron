@@ -76,7 +76,6 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "postinstall": "electron-rebuild --pre-gyp-fix --force --module_dir . -w node-hid -e node_modules/electron"
     },
-    "author": "Tod Kurt <todbotdotcom@gmail.com> (https://github.com/todbot)",
     "license": "ISC",
     "keywords": [
       "blink(1)",
@@ -100,6 +99,9 @@
     },
     "devDependencies": {
       "electron-rebuild": "^1.2.1"
+    },
+    "other": {
+      "author": "Tod Kurt <todbotdotcom@gmail.com> (https://github.com/todbot)"
     }
   },
   "packageStatus": 200,
@@ -127,5 +129,6 @@
       "url": "https://api.github.com/repos/todbot/electron-blink1-toy/git/commits/541ebe6c523752f330960cb10c20774378db4de8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "todbot___electron-blink1-toy.json"
 }

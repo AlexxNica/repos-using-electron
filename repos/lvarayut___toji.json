@@ -58,11 +58,6 @@
     "description": "Toji helps you get an awesome text emoji quickly with a simple shortcut",
     "license": "MIT",
     "repository": "lvarayut/toji",
-    "author": {
-      "name": "Varayut Lerdkanlayanawat",
-      "email": "l.varayut@gmail.com",
-      "url": "github.com/lvarayut"
-    },
     "scripts": {
       "start": "electron .",
       "lint": " eslint --ignore-path .gitignore **/*.js",
@@ -95,6 +90,13 @@
       "eslint-plugin-import": "^1.8.0",
       "eslint-plugin-jsx-a11y": "^1.2.1",
       "eslint-plugin-react": "^5.1.1"
+    },
+    "other": {
+      "author": {
+        "name": "Varayut Lerdkanlayanawat",
+        "email": "l.varayut@gmail.com",
+        "url": "github.com/lvarayut"
+      }
     }
   },
   "packageStatus": 200,
@@ -122,5 +124,6 @@
       "url": "https://api.github.com/repos/lvarayut/toji/git/commits/41311e0cbeabc5182c076669d0305dc4e7a91583",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lvarayut___toji.json"
 }

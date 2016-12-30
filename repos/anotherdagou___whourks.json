@@ -74,20 +74,13 @@
       "start": "electron main.js",
       "package": "electron-packager ./ Whourks --platform=darwin --arch=all --icon=./app/icon.icns --out=build --overwrite=true"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/anotherdagou/whourks"
-    },
+    "repository": "https://github.com/anotherdagou/whourks",
     "keywords": [
       "Electron",
       "quick",
       "start"
     ],
-    "author": "Diego Armando Catalan Tandi",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/atom/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/anotherdagou/whourks#readme",
     "devDependencies": {
       "browser-sync": "^2.11.1",
@@ -96,6 +89,12 @@
       "gulp": "^3.9.1",
       "gulp-cached": "^1.1.0",
       "require-dir": "^0.3.0"
+    },
+    "other": {
+      "author": "Diego Armando Catalan Tandi",
+      "bugs": {
+        "url": "https://github.com/atom/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -121,5 +120,6 @@
       "url": "https://api.github.com/repos/anotherdagou/whourks/git/commits/17d36ebc32fc826949f25e14a3c14478e9dbd21a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "anotherdagou___whourks.json"
 }

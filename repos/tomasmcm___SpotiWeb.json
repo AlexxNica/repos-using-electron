@@ -71,16 +71,12 @@
       "build:linux": "npm run package:linux && npm run zip:linux",
       "build": "npm run build:mac && npm run build:win && npm run build:linux"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/tomasmcm/SpotiWeb.git"
-    },
+    "repository": "https://github.com/tomasmcm/SpotiWeb",
     "keywords": [
       "Electron",
       "Spotify",
       "Web"
     ],
-    "author": "tomasmcm",
     "license": "CC0-1.0",
     "homepage": "https://github.com/tomasmcm/SpotiWeb",
     "dependencies": {
@@ -93,6 +89,9 @@
     },
     "devDependencies": {
       "devtron": "^1.1.2"
+    },
+    "other": {
+      "author": "tomasmcm"
     }
   },
   "packageStatus": 200,
@@ -120,5 +119,6 @@
       "url": "https://api.github.com/repos/tomasmcm/SpotiWeb/git/commits/7c7ae8adc3859338b1d078e4e4ccb35c0c3df84a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tomasmcm___SpotiWeb.json"
 }

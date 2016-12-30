@@ -73,7 +73,6 @@
   "status": 200,
   "packageJSON": {
     "name": "ionic-hello-world",
-    "author": "Ionic Framework",
     "homepage": "http://ionicframework.com/",
     "main": "server/main.js",
     "private": true,
@@ -113,7 +112,10 @@
       "npm-run-all": "^3.1.1",
       "typescript": "2.0.6"
     },
-    "description": "m1: An Ionic project"
+    "description": "m1: An Ionic project",
+    "other": {
+      "author": "Ionic Framework"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -140,5 +142,6 @@
       "url": "https://api.github.com/repos/walkingriver/isotope/git/commits/4ba2c370a8fe280f5319cd5a8e7a56315df1b236",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "walkingriver___isotope.json"
 }

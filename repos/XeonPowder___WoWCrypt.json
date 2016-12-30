@@ -75,16 +75,9 @@
     "name": "WoWCrypt",
     "version": "0.0.4",
     "description": "WoW Armory Desktop",
-    "author": "Lars van der Zande <lmvdzd@gmail.com>",
     "homepage": "https://github.com/XeonPowder/WoWCrypt",
     "license": "MIT",
-    "directories": {
-      "buildResources": "./app/assets"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/XeonPowder/WoWCrypt.git"
-    },
+    "repository": "https://github.com/XeonPowder/WoWCrypt",
     "build": {
       "appId": "com.xeonpowder.wowcrypt",
       "mac": {
@@ -149,7 +142,13 @@
       "webpack": "^1.13.0",
       "webpack-dev-server": "^1.14.1"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "other": {
+      "author": "Lars van der Zande <lmvdzd@gmail.com>",
+      "directories": {
+        "buildResources": "./app/assets"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -176,5 +175,6 @@
       "url": "https://api.github.com/repos/XeonPowder/WoWCrypt/git/commits/45890fcda33f8c560d964e67688891281c32ffa3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "XeonPowder___WoWCrypt.json"
 }

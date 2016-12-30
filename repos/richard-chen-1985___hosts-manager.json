@@ -84,19 +84,12 @@
       "pack": "node ./scripts/pack.js",
       "test": "mocha --compilers js:babel-core/register"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/richard-chen-1985/hosts-manager.git"
-    },
+    "repository": "https://github.com/richard-chen-1985/hosts-manager",
     "keywords": [
       "hosts",
       "electron"
     ],
-    "author": "richard chen",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/richard-chen-1985/hosts-manager/issues"
-    },
     "homepage": "https://github.com/richard-chen-1985/hosts-manager#readme",
     "devDependencies": {
       "babel-core": "^6.14.0",
@@ -125,6 +118,12 @@
       "react-dom": "^15.3.1",
       "react-redux": "^4.4.5",
       "redux": "^3.5.2"
+    },
+    "other": {
+      "author": "richard chen",
+      "bugs": {
+        "url": "https://github.com/richard-chen-1985/hosts-manager/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -152,5 +151,6 @@
       "url": "https://api.github.com/repos/richard-chen-1985/hosts-manager/git/commits/99110c8b2dae3238d80b7a9fdf1293e93a0b29dc",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "richard-chen-1985___hosts-manager.json"
 }

@@ -56,10 +56,7 @@
       "build:dida": "gulp pkg:dida",
       "build:tick": "gulp pkg:tick"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/xwartz/dida.git"
-    },
+    "repository": "https://github.com/xwartz/dida",
     "keywords": [
       "dida",
       "ticktick",
@@ -68,11 +65,7 @@
       "es6",
       "desktop app"
     ],
-    "author": "xwartz <stddup@gmail.com> (https://github.com/xwartz/)",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/xwartz/dida/issues"
-    },
     "homepage": "https://github.com/xwartz/dida#readme",
     "devDependencies": {
       "del": "^2.2.0",
@@ -86,7 +79,13 @@
       "gulp-shell": "^0.5.2",
       "yargs": "^4.2.0"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "other": {
+      "author": "xwartz <stddup@gmail.com> (https://github.com/xwartz/)",
+      "bugs": {
+        "url": "https://github.com/xwartz/dida/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -113,5 +112,6 @@
       "url": "https://api.github.com/repos/xwartz/dida/git/commits/05a6af0b9c6a7b4ea8e39af4a25896c7eaf1f106",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "xwartz___dida.json"
 }

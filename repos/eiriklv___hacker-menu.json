@@ -205,7 +205,6 @@
       "package": "npm run build && ./script/package.sh",
       "release": "npm run package && npm run compress"
     },
-    "author": "Jingwen Owen Ou",
     "config": {
       "electron_version": "0.31.2"
     },
@@ -231,6 +230,9 @@
       "nslog": "^3.0.0",
       "react": "^0.13.3",
       "winston": "^1.0.1"
+    },
+    "other": {
+      "author": "Jingwen Owen Ou"
     }
   },
   "packageStatus": 200,

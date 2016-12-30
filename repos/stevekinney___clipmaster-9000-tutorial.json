@@ -60,19 +60,12 @@
       "start": "electron .",
       "build": "electron-packager . 'Clipmaster 3000' --platform=all --arch=all --version=0.36.8"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/stevekinney/clipmaster-9000-tutorial.git"
-    },
+    "repository": "https://github.com/stevekinney/clipmaster-9000-tutorial",
     "keywords": [
       "electron",
       "clipboard"
     ],
-    "author": "Steve Kinney",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/stevekinney/clipmaster-9000-tutorial/issues"
-    },
     "homepage": "https://github.com/stevekinney/clipmaster-9000-tutorial#readme",
     "devDependencies": {
       "devtron": "^1.3.0",
@@ -84,6 +77,12 @@
       "jquery": "^3.1.1",
       "menubar": "^5.1.0",
       "request": "^2.69.0"
+    },
+    "other": {
+      "author": "Steve Kinney",
+      "bugs": {
+        "url": "https://github.com/stevekinney/clipmaster-9000-tutorial/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -131,5 +130,6 @@
       "url": "https://api.github.com/repos/stevekinney/clipmaster-9000-tutorial/git/commits/527becf1e35447d34b0e6d70b328c666131ac7fb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "stevekinney___clipmaster-9000-tutorial.json"
 }

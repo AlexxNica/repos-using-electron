@@ -64,16 +64,9 @@
       "scss": "node-sass scss --output ./app",
       "scss:watch": "node-sass --watch scss --output ./app"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/kahlil/electron-tinydraft"
-    },
+    "repository": "https://github.com/kahlil/electron-tinydraft",
     "keywords": [],
-    "author": "Kahlil Lechelt",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "devtron": "^1.3.0",
@@ -122,6 +115,12 @@
       "plugins": [
         "transform-react-jsx"
       ]
+    },
+    "other": {
+      "author": "Kahlil Lechelt",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -169,5 +168,6 @@
       "url": "https://api.github.com/repos/kahlil/electron-tinydraft/git/commits/6f5f0428a6be4f908524fa055549320a06e03e56",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kahlil___electron-tinydraft.json"
 }

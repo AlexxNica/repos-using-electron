@@ -71,11 +71,7 @@
     "version": "0.0.0",
     "description": "My geometric app",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/blamy/diamond-file-explorer.git"
-    },
-    "author": "Brett Lamy <BLamy@calvauto.com> (testing.com)",
+    "repository": "https://github.com/blamy/diamond-file-explorer",
     "electronVersion": "0.35.0",
     "scripts": {
       "test": "xo",
@@ -108,11 +104,14 @@
         "browser"
       ]
     },
-    "bugs": {
-      "url": "https://github.com/blamy/diamond-file-explorer/issues"
-    },
     "homepage": "https://github.com/blamy/diamond-file-explorer#readme",
-    "main": "index.js"
+    "main": "index.js",
+    "other": {
+      "author": "Brett Lamy <BLamy@calvauto.com> (testing.com)",
+      "bugs": {
+        "url": "https://github.com/blamy/diamond-file-explorer/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -139,5 +138,6 @@
       "url": "https://api.github.com/repos/DiamondElements/diamond-file-explorer/git/commits/be19110e8b0bfb43bc11b575dbab1c10363455db",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DiamondElements___diamond-file-explorer.json"
 }

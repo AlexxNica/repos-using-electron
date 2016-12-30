@@ -96,9 +96,6 @@
         "background": "resources/osx/dmg-background.png"
       }
     },
-    "directories": {
-      "buildResources": "resources"
-    },
     "scripts": {
       "postinstall": "install-app-deps",
       "build": "gulp build",
@@ -130,6 +127,11 @@
       "source-map-support": "^0.4.2",
       "spectron": "^3.3.0",
       "yargs": "^4.2.0"
+    },
+    "other": {
+      "directories": {
+        "buildResources": "resources"
+      }
     }
   },
   "packageStatus": 200,
@@ -158,5 +160,6 @@
       "url": "https://api.github.com/repos/hungcao181/import-devplan-2trackers/git/commits/b21aa96ab1fcd6a279d913548909034198746da8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hungcao181___import-devplan-2trackers.json"
 }

@@ -74,20 +74,13 @@
       "start": "tsc && electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/SOACAt/MongoDibi.git"
-    },
+    "repository": "https://github.com/SOACAt/MongoDibi",
     "keywords": [
       "MongoDB",
       "electron.io",
       "angular2"
     ],
-    "author": "SOACat",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/SOACAt/MongoDibi/issues"
-    },
     "homepage": "https://github.com/SOACAt/MongoDibi#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.4.5"
@@ -95,6 +88,12 @@
     "dependencies": {
       "@types/node": "^6.0.46",
       "mongodb": "^2.2.11"
+    },
+    "other": {
+      "author": "SOACat",
+      "bugs": {
+        "url": "https://github.com/SOACAt/MongoDibi/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -122,5 +121,6 @@
       "url": "https://api.github.com/repos/SOACAt/MongoDibi/git/commits/e438c899f0e11bd31760a0b5be021db7f53e97c2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "SOACAt___MongoDibi.json"
 }

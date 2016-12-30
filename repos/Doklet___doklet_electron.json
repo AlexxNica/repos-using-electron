@@ -67,17 +67,16 @@
       "start": "electron ./app Doklet",
       "build": "electron-packager ./app Doklet --out=dist --ignore=dist --prune --platform=darwin --arch=x64 --version=0.36.0"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Doklet/doklet_electron.git"
-    },
-    "author": "Marcus Nilsson",
-    "bugs": {
-      "url": "https://github.com/Doklet/doklet_electron/issues"
-    },
+    "repository": "https://github.com/Doklet/doklet_electron",
     "homepage": "https://github.com/Doklet/doklet_electron#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
+    },
+    "other": {
+      "author": "Marcus Nilsson",
+      "bugs": {
+        "url": "https://github.com/Doklet/doklet_electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -125,5 +124,6 @@
       "url": "https://api.github.com/repos/Doklet/doklet_electron/git/commits/5e5890ecf82531469ac9dfd535d4f6abd7d9a871",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Doklet___doklet_electron.json"
 }

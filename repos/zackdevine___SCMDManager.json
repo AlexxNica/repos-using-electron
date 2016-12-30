@@ -73,10 +73,7 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/zackdevine/scmdmanager.git"
-    },
+    "repository": "https://github.com/zackdevine/scmdmanager",
     "keywords": [
       "SteamCMD",
       "Steam",
@@ -84,11 +81,7 @@
       "Server",
       "Manager"
     ],
-    "author": "Zack Devine",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/zackdevine/scmdmanager/issues"
-    },
     "homepage": "https://github.com/zackdevine/scmdmanager#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -97,6 +90,12 @@
       "decompress": "^4.0.0",
       "decompress-targz": "^4.0.0",
       "electron-json-config": "^1.1.0"
+    },
+    "other": {
+      "author": "Zack Devine",
+      "bugs": {
+        "url": "https://github.com/zackdevine/scmdmanager/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -124,5 +123,6 @@
       "url": "https://api.github.com/repos/zackdevine/SCMDManager/git/commits/26db4bd51a80a84d8e10d09702befe9cdf6a5432",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zackdevine___SCMDManager.json"
 }

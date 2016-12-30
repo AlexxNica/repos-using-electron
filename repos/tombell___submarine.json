@@ -61,7 +61,6 @@
       "droplets"
     ],
     "license": "MIT",
-    "author": "Tom Bell <tomb@tomb.io>",
     "dependencies": {
       "backbone": "^1.1.2",
       "jquery": "^2.1.4",
@@ -73,14 +72,14 @@
       "jshint": "^2.7.0"
     },
     "homepage": "https://github.com/tombell/submarine-electron",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/tombell/submarine-electron.git"
-    },
-    "bugs": {
-      "url": "https://github.com/tombell/submarine-electron/issues"
-    },
-    "main": "index.js"
+    "repository": "https://github.com/tombell/submarine-electron",
+    "main": "index.js",
+    "other": {
+      "author": "Tom Bell <tomb@tomb.io>",
+      "bugs": {
+        "url": "https://github.com/tombell/submarine-electron/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/tombell/submarine",
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/tombell/submarine/git/commits/7af26332218325c965ddd522f7e7b673d74909cb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tombell___submarine.json"
 }

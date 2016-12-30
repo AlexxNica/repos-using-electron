@@ -54,7 +54,6 @@
       "start": "electron .",
       "build": "electron-packager . pbCNC --platform=darwin --arch=x64 --version=0.36.0 --asar=false --prune=true"
     },
-    "author": "mick",
     "devDependencies": {
       "electron-packager": "^5.2.1",
       "electron-prebuilt": "0.36.0",
@@ -63,6 +62,9 @@
     "dependencies": {
       "jquery": "^2.2.1",
       "tinyg": "^0.3.27"
+    },
+    "other": {
+      "author": "mick"
     }
   },
   "packageStatus": 200,
@@ -110,5 +112,6 @@
       "url": "https://api.github.com/repos/mickbalaban/cnc-app-native/git/commits/a276a3cf2136baad3e25537f5199282f11edc232",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mickbalaban___cnc-app-native.json"
 }

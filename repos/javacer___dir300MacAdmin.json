@@ -81,7 +81,6 @@
       "build": "electron-packager . Passworder --platform=win32 --arch=x64 --sourcedir=bin --app-version=0.1.0 --out=dist --ignore=\"dist|src|typings|node_modules\"  --prune --overwrite",
       "prepublish": "./node_modules/.bin/typings.cmd install"
     },
-    "author": "Javacer",
     "devDependencies": {
       "electron-packager": "^7.0.2",
       "electron-prebuilt": "^1.2.0",
@@ -99,6 +98,9 @@
       "react-dom": "15.0.x",
       "react-winjs": "https://github.com/winjs/react-winjs.git",
       "winjs": "4.4.x"
+    },
+    "other": {
+      "author": "Javacer"
     }
   },
   "packageStatus": 200,
@@ -127,5 +129,6 @@
       "url": "https://api.github.com/repos/javacer/dir300MacAdmin/git/commits/95be13dcf72c5b539bf6bb86506ad845256299ad",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "javacer___dir300MacAdmin.json"
 }

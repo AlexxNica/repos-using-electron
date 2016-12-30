@@ -81,16 +81,12 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jbkuczma/sounci.git"
-    },
+    "repository": "https://github.com/jbkuczma/sounci",
     "keywords": [
       "electron",
       "soundcloud",
       "music"
     ],
-    "author": "James Kuczmarski",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -108,10 +104,13 @@
       "smalltalk": "^1.6.8",
       "soundmanager2": "^2.97.20150601-a"
     },
-    "bugs": {
-      "url": "https://github.com/jbkuczma/sounci/issues"
-    },
-    "homepage": "https://github.com/jbkuczma/sounci#readme"
+    "homepage": "https://github.com/jbkuczma/sounci#readme",
+    "other": {
+      "author": "James Kuczmarski",
+      "bugs": {
+        "url": "https://github.com/jbkuczma/sounci/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -138,5 +137,6 @@
       "url": "https://api.github.com/repos/jbkuczma/sounci/git/commits/7c8e41412a15a2f59dd0c623283e264f70b8caf3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jbkuczma___sounci.json"
 }

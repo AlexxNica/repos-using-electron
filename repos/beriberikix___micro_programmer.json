@@ -80,21 +80,14 @@
       "start": "electron main.js",
       "clean": "rm -rf node_modules"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/beriberikix/micro_programmer.git"
-    },
+    "repository": "https://github.com/beriberikix/micro_programmer",
     "keywords": [
       "Electron",
       "serial",
       "mcu",
       "Programmer"
     ],
-    "author": "beriberikix",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/beriberikix/micro_programmer/issues"
-    },
     "homepage": "https://github.com/beriberikix/micro_programmer#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -102,6 +95,12 @@
     },
     "dependencies": {
       "serialport": "^2.0.6"
+    },
+    "other": {
+      "author": "beriberikix",
+      "bugs": {
+        "url": "https://github.com/beriberikix/micro_programmer/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/beriberikix/micro_programmer/git/commits/aabb6609fdec87dae07e0f6e26e526aee69d6716",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "beriberikix___micro_programmer.json"
 }

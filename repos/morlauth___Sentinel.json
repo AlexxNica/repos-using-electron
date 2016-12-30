@@ -76,7 +76,6 @@
       "electron": "electron src/main/Main",
       "test": "npm start"
     },
-    "author": "Tino Caer",
     "license": "MIT",
     "dependencies": {
       "codemirror": "^5.21.0",
@@ -90,6 +89,9 @@
     "build": {
       "appId": "com.github.morlauth.sentinel",
       "app-category-type": "public.app-category.developer-tools"
+    },
+    "other": {
+      "author": "Tino Caer"
     }
   },
   "packageStatus": 200,

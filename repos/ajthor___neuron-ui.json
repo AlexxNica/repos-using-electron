@@ -81,15 +81,8 @@
       "start": "gulp build && electron .",
       "test": "gulp test"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ajthor/neuron-ui.git"
-    },
-    "author": "",
+    "repository": "https://github.com/ajthor/neuron-ui",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/ajthor/neuron-ui/issues"
-    },
     "homepage": "https://github.com/ajthor/neuron-ui#readme",
     "dependencies": {
       "async": "^2.0.0",
@@ -136,6 +129,12 @@
     "xo": {
       "esnext": true,
       "space": 2
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/ajthor/neuron-ui/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -163,5 +162,6 @@
       "url": "https://api.github.com/repos/ajthor/neuron-ui/git/commits/ede11a47c02fc1334744cffc44a510c5024bd81d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ajthor___neuron-ui.json"
 }

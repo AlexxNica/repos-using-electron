@@ -77,21 +77,20 @@
       "packosx": "~/.node/bin/electron-packager .  --name=\"Wedding App\" --icon=icon.icns --platform=darwin --arch=x64 --osx-sign.identity=\"3rd Party Mac Developer Application: TUM CREATE LIMITED (U4YW2FXWKU)\" --overwrite",
       "start-test": "electron testoffscreen.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/danielzehe/rsvp-app.git"
-    },
-    "author": "Daniel Zehe",
+    "repository": "https://github.com/danielzehe/rsvp-app",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/danielzehe/rsvp-app/issues"
-    },
     "homepage": "https://github.com/danielzehe/rsvp-app#readme",
     "dependencies": {
       "electron": "^1.4.1",
       "fix-path": "^2.0.0",
       "qr-encode": "^0.3.0",
       "request": "^2.75.0"
+    },
+    "other": {
+      "author": "Daniel Zehe",
+      "bugs": {
+        "url": "https://github.com/danielzehe/rsvp-app/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -119,5 +118,6 @@
       "url": "https://api.github.com/repos/danielzehe/rsvp-app/git/commits/d868d04868f07cf72ed9ece14edeea746973e83a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "danielzehe___rsvp-app.json"
 }

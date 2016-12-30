@@ -60,22 +60,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/stevecat/catnap/"
-    },
+    "repository": "https://github.com/stevecat/catnap",
     "keywords": [
       "breaks",
       "nap",
       "timer",
       "activity"
     ],
-    "author": "stevecat",
     "license": "CC0-1.0",
     "homepage": "https://stevecat.net/catnap/",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0",
       "grunt-electron-installer": "^2.1.0"
+    },
+    "other": {
+      "author": "stevecat"
     }
   },
   "packageStatus": 200,
@@ -123,5 +122,6 @@
       "url": "https://api.github.com/repos/stevecat/catnap/git/commits/45f9202f4cc6e9a0eff1eb90545ddf5c4c9bad6b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "stevecat___catnap.json"
 }

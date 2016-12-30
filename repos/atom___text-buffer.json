@@ -100,13 +100,7 @@
       "ci": "npm run compile && npm run lint && npm run test && npm run bench",
       "bench": "node benchmarks/index"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/atom/text-buffer.git"
-    },
-    "bugs": {
-      "url": "https://github.com/atom/text-buffer/issues"
-    },
+    "repository": "https://github.com/atom/text-buffer",
     "license": "MIT",
     "devDependencies": {
       "coffee-cache": "^0.2.0",
@@ -158,6 +152,11 @@
       "indentation": {
         "level": "ignore"
       }
+    },
+    "other": {
+      "bugs": {
+        "url": "https://github.com/atom/text-buffer/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -208,5 +207,6 @@
       "url": "https://api.github.com/repos/atom/text-buffer/git/commits/e432067232766c69e0aa2d58809c0b1cd5892e39",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "atom___text-buffer.json"
 }

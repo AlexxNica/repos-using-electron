@@ -82,10 +82,7 @@
       "start": "electron .",
       "dev": "electron . --debug"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/eshengsky/HostsDock.git"
-    },
+    "repository": "https://github.com/eshengsky/HostsDock",
     "keywords": [
       "HostsDock",
       "storage",
@@ -93,11 +90,7 @@
       "switch",
       "hosts"
     ],
-    "author": "Sky Sun",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/eshengsky/HostsDock/issues"
-    },
     "homepage": "https://github.com/eshengsky/HostsDock#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.2"
@@ -109,6 +102,12 @@
       "node-notifier": "^4.6.0",
       "request": "^2.72.0",
       "shortid": "^2.2.6"
+    },
+    "other": {
+      "author": "Sky Sun",
+      "bugs": {
+        "url": "https://github.com/eshengsky/HostsDock/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,6 @@
       "url": "https://api.github.com/repos/eshengsky/HostsDock/git/commits/303bb239b4b971fb246274a408ae370afb8c4ee8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "eshengsky___HostsDock.json"
 }

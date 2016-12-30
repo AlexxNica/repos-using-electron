@@ -75,11 +75,7 @@
       "pack": "build --dir",
       "dist": "build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/hibeekaey/file-manager.git"
-    },
-    "author": "Hibeekaey",
+    "repository": "https://github.com/hibeekaey/file-manager",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
     },
@@ -88,6 +84,9 @@
       "win": {
         "msi": true
       }
+    },
+    "other": {
+      "author": "Hibeekaey"
     }
   },
   "packageStatus": 200,
@@ -115,5 +114,6 @@
       "url": "https://api.github.com/repos/hibeekaey/file-manager/git/commits/927ed0f714b5e32f382728b2e2b734b81e8ec345",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hibeekaey___file-manager.json"
 }

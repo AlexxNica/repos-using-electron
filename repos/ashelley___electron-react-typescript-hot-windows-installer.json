@@ -84,21 +84,14 @@
       "package": "electron-packager . --platform=win32 --arch=x64 --version-string.ProductName=\"Test App\"",
       "create-setup": "node tasks/build-installer"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "@types/react": "^0.14.27",
@@ -139,6 +132,12 @@
     "dependencies": {
       "react": "^15.2.1",
       "react-dom": "^15.2.1"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -166,5 +165,6 @@
       "url": "https://api.github.com/repos/ashelley/electron-react-typescript-hot-windows-installer/git/commits/29edfe97adc2c0827aef94fcc5dbc5f13438ed76",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ashelley___electron-react-typescript-hot-windows-installer.json"
 }

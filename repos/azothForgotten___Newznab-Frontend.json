@@ -81,7 +81,6 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "author": "Keagan Hilliard",
     "license": "MIT",
     "dependencies": {
       "alt": "^0.18.6",
@@ -98,6 +97,9 @@
       "react-dom": "15.3.2",
       "react-tap-event-plugin": "1.0.0",
       "throttle-debounce": "1.0.1"
+    },
+    "other": {
+      "author": "Keagan Hilliard"
     }
   },
   "packageStatus": 200,
@@ -123,5 +125,6 @@
       "url": "https://api.github.com/repos/azothForgotten/Newznab-Frontend/git/commits/080bab114a3cfa33b3606071a11209742489ac16",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "azothForgotten___Newznab-Frontend.json"
 }

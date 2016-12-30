@@ -70,10 +70,6 @@
     "version": "0.0.0",
     "description": "Small description for electron-test goes here",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -83,7 +79,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -156,6 +151,13 @@
         "ProductName": null,
         "InternalName": null
       }
+    },
+    "other": {
+      "author": "",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -183,5 +185,6 @@
       "url": "https://api.github.com/repos/Creodahn/playing_with_electron/git/commits/c14aa8c783b6086fe60fe7285157d9c13f408484",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Creodahn___playing_with_electron.json"
 }

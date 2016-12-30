@@ -60,21 +60,14 @@
       "start": "electron main.js",
       "build": "babel app -d src"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/atom/electron-quick-start.git"
-    },
+    "repository": "https://github.com/atom/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/atom/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "babel-cli": "^6.6.5",
@@ -91,6 +84,12 @@
       "react": "^0.14.7",
       "react-dom": "^0.14.7",
       "react-tap-event-plugin": "^0.2.2"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/atom/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -118,5 +117,6 @@
       "url": "https://api.github.com/repos/r0jer/pomodoro/git/commits/3939ba3136648f920acbc4e90830be6ca2728a4c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "r0jer___pomodoro.json"
 }

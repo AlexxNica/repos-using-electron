@@ -61,23 +61,22 @@
       "build": "electron-packager . cross-aria2 --platform=all --arch=x64 --version=0.36.0",
       "clean": "rm -fr cross-aria2-*"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/gucheen/cross-aria2.git"
-    },
+    "repository": "https://github.com/gucheen/cross-aria2",
     "keywords": [
       "aria2",
       "cross-platform"
     ],
-    "author": "guchengf@gmail.com",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/gucheen/cross-aria2/issues"
-    },
     "homepage": "https://github.com/gucheen/cross-aria2#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
       "electron-prebuilt": "^0.36.0"
+    },
+    "other": {
+      "author": "guchengf@gmail.com",
+      "bugs": {
+        "url": "https://github.com/gucheen/cross-aria2/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -125,5 +124,6 @@
       "url": "https://api.github.com/repos/gucheen/cross-aria2/git/commits/105ad2a9463277c23772fd70d5991d4434db044f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "gucheen___cross-aria2.json"
 }

@@ -60,10 +60,7 @@
       "start": "electron .",
       "package": "electron-packager . DevApps --platform=darwin --arch=x64 --ignore=node_modules"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/kocisov/devapps.git"
-    },
+    "repository": "https://github.com/kocisov/devapps",
     "keywords": [
       "JavaScript",
       "Electron",
@@ -71,15 +68,17 @@
       "Dev",
       "Apps"
     ],
-    "author": "kocisov",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/kocisov/devapps/issues"
-    },
     "homepage": "https://github.com/kocisov/devapps#readme",
     "devDependencies": {
       "electron-packager": "^7.1.0",
       "electron-prebuilt": "^1.2.5"
+    },
+    "other": {
+      "author": "kocisov",
+      "bugs": {
+        "url": "https://github.com/kocisov/devapps/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -107,5 +106,6 @@
       "url": "https://api.github.com/repos/Kocisov/devapps/git/commits/9cc3358b975bf0d2d47afb0fd288521391d4438a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Kocisov___devapps.json"
 }

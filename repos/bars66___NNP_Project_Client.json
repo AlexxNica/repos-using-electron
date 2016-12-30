@@ -78,7 +78,6 @@
       "dist:win32": "cd ./bin/win32_bin/ && zip -r ./win32_bin.zip ./* && mv ./win32_bin.zip ../../app/ && cd ../../ && build --win --ia32 && rm ./app/win32_bin.zip",
       "dist:win64": "build --platform win32 --arch x64"
     },
-    "author": "bars66",
     "build": {
       "app-bundle-id": "com.bars66.vpn.launcher",
       "app-category-type": "com.bars66.vpn",
@@ -91,6 +90,9 @@
     "dependencies": {
       "electron-builder": "^4.2.1",
       "electron-prebuilt": "^1.2.1"
+    },
+    "other": {
+      "author": "bars66"
     }
   },
   "packageStatus": 200,
@@ -118,5 +120,6 @@
       "url": "https://api.github.com/repos/bars66/NNP_Project_Client/git/commits/fe62a8f8880cf1f1be5f0faf61f2aa7f40631342",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "bars66___NNP_Project_Client.json"
 }

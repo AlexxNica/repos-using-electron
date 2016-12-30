@@ -76,15 +76,8 @@
     "version": "0.0.1",
     "description": "A minimal music player.",
     "main": "./src/main-process/main.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/prayashthapa/Sonidos"
-    },
-    "author": "Prayash Thapa",
+    "repository": "https://github.com/prayashthapa/Sonidos",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/prayashthapa/Sonidos/issues"
-    },
     "scripts": {
       "ci:compile": "./node_modules/.bin/webpack --config webpack.config.js --progress --bail",
       "ci:eslint": "./node_modules/.bin/eslint . --config .eslintrc",
@@ -141,6 +134,12 @@
       "url-loader": "0.5.7",
       "webpack": "1.13.1",
       "webpack-dev-server": "1.14.1"
+    },
+    "other": {
+      "author": "Prayash Thapa",
+      "bugs": {
+        "url": "https://github.com/prayashthapa/Sonidos/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -168,5 +167,6 @@
       "url": "https://api.github.com/repos/prayashthapa/Sonidos/git/commits/576a2c7d08ddf8117b448217b9fea64008e00d02",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "prayashthapa___Sonidos.json"
 }

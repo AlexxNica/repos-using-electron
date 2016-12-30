@@ -56,10 +56,7 @@
       "start": "npm run transpile && npm run build",
       "transpile": "babel -o src/build.js src/web.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/danawoodman/tint.git"
-    },
+    "repository": "https://github.com/danawoodman/tint",
     "keywords": [
       "color",
       "picker",
@@ -79,11 +76,7 @@
       "osx",
       "app"
     ],
-    "author": "Dana Woodman <dana@danawoodman.com> (http://danawoodman.com/)",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/danawoodman/tint/issues"
-    },
     "homepage": "https://github.com/danawoodman/tint#readme",
     "devDependencies": {
       "babel-cli": "6.1.18",
@@ -99,6 +92,12 @@
       "react": "0.14.2",
       "react-color": "1.2.1",
       "react-dom": "0.14.2"
+    },
+    "other": {
+      "author": "Dana Woodman <dana@danawoodman.com> (http://danawoodman.com/)",
+      "bugs": {
+        "url": "https://github.com/danawoodman/tint/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/danawoodman/tint/git/commits/b3e2409d4771f6771d20dae362a7a1a0e6810667",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "danawoodman___tint.json"
 }

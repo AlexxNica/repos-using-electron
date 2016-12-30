@@ -53,14 +53,7 @@
     "keywords": [
       "IRCCloud, electron"
     ],
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/dalinaum/IRCCloud.git"
-    },
-    "author": {
-      "name": "LYK",
-      "email": "dalinaum@gmail.com"
-    },
+    "repository": "https://github.com/dalinaum/IRCCloud",
     "main": "main.js",
     "bin": {
       "irccloud": "./start.js"
@@ -75,6 +68,12 @@
       "electron-packager": "^5.2.0",
       "electron-prebuilt": "^0.36.2",
       "grunt-electron": "^2.0.1"
+    },
+    "other": {
+      "author": {
+        "name": "LYK",
+        "email": "dalinaum@gmail.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -107,5 +106,6 @@
       "url": "https://api.github.com/repos/dalinaum/IRCCloud/git/commits/2956661f0e97259815ba9dc434adc4ede2e94795",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dalinaum___IRCCloud.json"
 }

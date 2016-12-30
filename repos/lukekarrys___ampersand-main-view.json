@@ -55,9 +55,7 @@
     "name": "ampersand-main-view",
     "description": "A view providing helpers to initialize and manage the main view of your single-page app",
     "version": "1.0.3",
-    "author": "Luke Karrys <luke@lukekarrys.com>",
     "browser": "ampersand-main-view.js",
-    "bugs": "https://github.com/lukekarrys/ampersand-main-view/issues",
     "dependencies": {
       "ampersand-dom": "^1.5.0",
       "ampersand-router": "^4.0.0",
@@ -92,16 +90,17 @@
       "test",
       "validate"
     ],
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/lukekarrys/ampersand-main-view"
-    },
+    "repository": "https://github.com/lukekarrys/ampersand-main-view",
     "scripts": {
       "demo": "node sample/server",
       "lint": "jshint .",
       "start": "run-browser test/*",
       "test": "browserify test/*.js | tape-run | tap-spec",
       "validate": "npm ls"
+    },
+    "other": {
+      "author": "Luke Karrys <luke@lukekarrys.com>",
+      "bugs": "https://github.com/lukekarrys/ampersand-main-view/issues"
     }
   },
   "packageStatus": 200,
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/lukekarrys/ampersand-main-view/git/commits/12b708ff677449a6129368c328286d1bc91d228d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lukekarrys___ampersand-main-view.json"
 }

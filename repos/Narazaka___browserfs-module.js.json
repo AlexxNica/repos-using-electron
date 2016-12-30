@@ -91,16 +91,15 @@
       "test": "mocha && karma start --single-run",
       "build": "node --harmony ./build.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/Narazaka/browserfs-module.js.git"
-    },
-    "author": "Narazaka",
+    "repository": "https://github.com/Narazaka/browserfs-module.js",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Narazaka/browserfs-module.js/issues"
-    },
-    "homepage": "https://github.com/Narazaka/browserfs-module.js#readme"
+    "homepage": "https://github.com/Narazaka/browserfs-module.js#readme",
+    "other": {
+      "author": "Narazaka",
+      "bugs": {
+        "url": "https://github.com/Narazaka/browserfs-module.js/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/Narazaka/browserfs-module.js/git/commits/3ad2bae34276940b9a5db666db787a9b0afc276f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Narazaka___browserfs-module.js.json"
 }

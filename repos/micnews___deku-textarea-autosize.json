@@ -90,7 +90,6 @@
       "lint": "semistandard | snazzy",
       "prepublish": "babel index.js --out-dir dist"
     },
-    "author": "mic.com",
     "license": "MIT",
     "keywords": [
       "deku",
@@ -116,15 +115,15 @@
       "autosize": "^3.0.15",
       "magic-virtual-element": "^1.0.6"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/micnews/deku-textarea-autosize.git"
-    },
-    "bugs": {
-      "url": "https://github.com/micnews/deku-textarea-autosize/issues"
-    },
+    "repository": "https://github.com/micnews/deku-textarea-autosize",
     "homepage": "https://github.com/micnews/deku-textarea-autosize#readme",
-    "description": "Deku textarea component with automatic resizing"
+    "description": "Deku textarea component with automatic resizing",
+    "other": {
+      "author": "mic.com",
+      "bugs": {
+        "url": "https://github.com/micnews/deku-textarea-autosize/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -151,5 +150,6 @@
       "url": "https://api.github.com/repos/micnews/deku-textarea-autosize/git/commits/3492e6a747c14171ab2a94769d311b9f7b088565",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "micnews___deku-textarea-autosize.json"
 }

@@ -74,7 +74,6 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Marcelo Alves",
     "license": "ISC",
     "devDependencies": {
       "electron-prebuilt": "^1.3.8"
@@ -83,20 +82,20 @@
       "moment": "^2.15.1",
       "wallpaper": "^2.3.0"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/MarceloAlves/electron-nasa-apotd.git"
-    },
+    "repository": "https://github.com/MarceloAlves/electron-nasa-apotd",
     "keywords": [
       "nasa",
       "electron",
       "astronomy",
       "wallpaper"
     ],
-    "bugs": {
-      "url": "https://github.com/MarceloAlves/electron-nasa-apotd/issues"
-    },
-    "homepage": "https://github.com/MarceloAlves/electron-nasa-apotd#readme"
+    "homepage": "https://github.com/MarceloAlves/electron-nasa-apotd#readme",
+    "other": {
+      "author": "Marcelo Alves",
+      "bugs": {
+        "url": "https://github.com/MarceloAlves/electron-nasa-apotd/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -123,5 +122,6 @@
       "url": "https://api.github.com/repos/MarceloAlves/electron-nasa-apotd/git/commits/ef0cf676240466ce3eecbc383762c3687b13c57b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "MarceloAlves___electron-nasa-apotd.json"
 }

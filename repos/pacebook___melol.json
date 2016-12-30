@@ -75,21 +75,14 @@
       "start": "electron main.js",
       "wiredep": "wiredep -s index.html"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/evancohen/smart-mirror.git"
-    },
+    "repository": "https://github.com/evancohen/smart-mirror",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "Evan Cohen",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/evancohen/smart-mirror/issues"
-    },
     "homepage": "https://github.com/evancohen/smart-mirror",
     "devDependencies": {
       "bower": "^1.7.7",
@@ -101,6 +94,12 @@
     },
     "dependencies": {
       "express": "^4.14.0"
+    },
+    "other": {
+      "author": "Evan Cohen",
+      "bugs": {
+        "url": "https://github.com/evancohen/smart-mirror/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/pacebook/melol/git/commits/2bc0ed61ea302f501b4f4dcce35d503bd9eb24f0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "pacebook___melol.json"
 }

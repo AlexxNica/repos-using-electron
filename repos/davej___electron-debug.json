@@ -169,11 +169,6 @@
     "description": "Adds useful debug features to your Electron app",
     "license": "MIT",
     "repository": "sindresorhus/electron-debug",
-    "author": {
-      "name": "Sindre Sorhus",
-      "email": "sindresorhus@gmail.com",
-      "url": "sindresorhus.com"
-    },
     "scripts": {
       "start": "electron test.js",
       "test": "xo"
@@ -205,6 +200,13 @@
         "node",
         "browser"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      }
     }
   },
   "packageStatus": 200,

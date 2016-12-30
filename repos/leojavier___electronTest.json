@@ -78,7 +78,6 @@
       "dist:win32": "build --platform win32 --arch ia32",
       "dist:win64": "build --platform win32 --arch x64"
     },
-    "author": "leojavier <leojavier@gmail.com>",
     "license": "ISC",
     "dependencies": {
       "electron-prebuilt": "^1.2.7"
@@ -92,6 +91,9 @@
     },
     "devDependencies": {
       "electron-builder": "^5.12.1"
+    },
+    "other": {
+      "author": "leojavier <leojavier@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -119,5 +121,6 @@
       "url": "https://api.github.com/repos/leojavier/electronTest/git/commits/949635970f8116d2b3efbb93525d5f0d789975e3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "leojavier___electronTest.json"
 }

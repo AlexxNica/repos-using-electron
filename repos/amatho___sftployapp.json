@@ -65,11 +65,7 @@
       "dist": "build",
       "bump": "echo \"Enter type for npm version and press [ENTER]: \" && read bump_version && cd app && PACKAGE_VERSION=$(npm --no-git-tag-version version $bump_version) && git add package.json && git commit -m \"Release $PACKAGE_VERSION\" && git tag -a $PACKAGE_VERSION -m \"$PACKAGE_VERSION\""
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/amatho/sftployapp.git"
-    },
-    "author": "Amandus Søve Thorsrud <ama.thorsrud@gmail.com>",
+    "repository": "https://github.com/amatho/sftployapp",
     "dependencies": {},
     "devDependencies": {
       "electron-builder": "^5.22.2",
@@ -89,11 +85,14 @@
         "iconUrl": "https://raw.githubusercontent.com/amatho/sftployapp/master/build/icon.ico"
       }
     },
-    "bugs": {
-      "url": "https://github.com/amatho/sftployapp/issues"
-    },
     "homepage": "https://github.com/amatho/sftployapp#readme",
-    "license": "MIT"
+    "license": "MIT",
+    "other": {
+      "author": "Amandus Søve Thorsrud <ama.thorsrud@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/amatho/sftployapp/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/amatho/sftployapp",
@@ -140,5 +139,6 @@
       "url": "https://api.github.com/repos/amatho/sftployapp/git/commits/fd9c8521558d72a6ffeabaeb7c4025b13beae3f1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "amatho___sftployapp.json"
 }

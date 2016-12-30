@@ -133,15 +133,8 @@
       "build:run": "node build.js",
       "build": "npm run compile && npm run dist && npm run build:run"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mathphreak/ReliefValve.git"
-    },
-    "author": "Matt Horn",
+    "repository": "https://github.com/mathphreak/ReliefValve",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/mathphreak/ReliefValve/issues"
-    },
     "homepage": "https://www.matthorn.tech/ReliefValve",
     "xo": {
       "space": true,
@@ -167,6 +160,12 @@
       "all": true,
       "sourceMap": false,
       "instrument": false
+    },
+    "other": {
+      "author": "Matt Horn",
+      "bugs": {
+        "url": "https://github.com/mathphreak/ReliefValve/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -215,5 +214,6 @@
       "url": "https://api.github.com/repos/mathphreak/ReliefValve/git/commits/e474e774afb9408a27404298099819997ef6b051",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mathphreak___ReliefValve.json"
 }

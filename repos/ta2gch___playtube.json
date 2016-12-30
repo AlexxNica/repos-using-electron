@@ -81,18 +81,11 @@
       "test": "gulp connect",
       "packager": "gulp electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ta2gch/playtube.git"
-    },
+    "repository": "https://github.com/ta2gch/playtube",
     "keywords": [
       "youtube"
     ],
-    "author": "TANIGUCHI Masaya",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ta2gch/playtube/issues"
-    },
     "homepage": "https://github.com/ta2gch/playtube#readme",
     "dependencies": {
       "electron-prebuilt": "^1.3.5",
@@ -113,6 +106,12 @@
       "tag-loader": "^0.3.0",
       "webpack": "^1.13.2",
       "webpack-stream": "^3.2.0"
+    },
+    "other": {
+      "author": "TANIGUCHI Masaya",
+      "bugs": {
+        "url": "https://github.com/ta2gch/playtube/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -140,5 +139,6 @@
       "url": "https://api.github.com/repos/ta2gch/playtube/git/commits/24096c6aef610af80e64cffacf3ed7d79fc41f0f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ta2gch___playtube.json"
 }

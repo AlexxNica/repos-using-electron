@@ -219,7 +219,6 @@
       "package_sign": "npm run build && node script/package --sign",
       "release": "npm run package_sign && npm run compress"
     },
-    "author": "Jingwen Owen Ou",
     "config": {
       "electron_version": "0.31.2"
     },
@@ -243,6 +242,9 @@
       "newrelic-winston": "0.0.1",
       "react": "^0.13.3",
       "winston": "^1.0.1"
+    },
+    "other": {
+      "author": "Jingwen Owen Ou"
     }
   },
   "packageStatus": 200,

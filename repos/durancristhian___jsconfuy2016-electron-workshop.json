@@ -76,15 +76,11 @@
     "version": "1.0.0",
     "description": "electron-workshop",
     "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/durancristhian/jsconfuy2016-electron-workshop.git"
-    },
+    "repository": "https://github.com/durancristhian/jsconfuy2016-electron-workshop",
     "scripts": {
       "lint": "standard",
       "start": "./node_modules/.bin/electron ."
     },
-    "author": "@durancristhian",
     "license": "MIT",
     "devDependencies": {
       "electron-reload": "0.3.0",
@@ -93,6 +89,9 @@
     "dependencies": {
       "electron-prebuilt": "0.35.0",
       "jquery": "2.2.3"
+    },
+    "other": {
+      "author": "@durancristhian"
     }
   },
   "packageStatus": 200,
@@ -120,5 +119,6 @@
       "url": "https://api.github.com/repos/durancristhian/jsconfuy2016-electron-workshop/git/commits/941a6c5ace2385c592c554851c7a7eceb0ddaef5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "durancristhian___jsconfuy2016-electron-workshop.json"
 }

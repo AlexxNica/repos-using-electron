@@ -76,17 +76,13 @@
     "version": "0.0.1",
     "description": "A minimal filler text menubar app.",
     "homepage": "https://github.com/kjbrum/lippy#readme",
-    "author": "Kyle Brumm <kjbrumm@gmail.com> (http://kylebrumm.com)",
     "main": "menu.js",
     "scripts": {
       "start": "electron .",
       "build": "electron-packager . --out dist --arch x64 --platform mas --asar --overwrite",
       "build:all": "electron-packager . --out dist --asar --overwrite --all"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/kjbrum/lippy.git"
-    },
+    "repository": "https://github.com/kjbrum/lippy",
     "keywords": [
       "filler",
       "text",
@@ -99,9 +95,6 @@
       "loripsum"
     ],
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/kjbrum/lippy/issues"
-    },
     "devDependencies": {
       "electron": "^1.3.4",
       "electron-packager": "^8.0.0"
@@ -109,6 +102,12 @@
     "dependencies": {
       "jquery": "^3.1.0",
       "menubar": "^5.1.0"
+    },
+    "other": {
+      "author": "Kyle Brumm <kjbrumm@gmail.com> (http://kylebrumm.com)",
+      "bugs": {
+        "url": "https://github.com/kjbrum/lippy/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,6 @@
       "url": "https://api.github.com/repos/kjbrum/lippy/git/commits/4d13f0eca94580153e7d419894b5b20eaf91068f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kjbrum___lippy.json"
 }

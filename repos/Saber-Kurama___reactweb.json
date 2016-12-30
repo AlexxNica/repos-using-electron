@@ -49,15 +49,6 @@
     "name": "reactweb",
     "description": "reactweb",
     "version": "0.0.0",
-    "author": {
-      "name": "guochao",
-      "email": "463561248@qq.com",
-      "url": "https://github.com/saber_kurama"
-    },
-    "bugs": {
-      "url": "",
-      "email": ""
-    },
     "dependencies": {
       "babel": "^6.5.2",
       "babel-polyfill": "^6.5.0",
@@ -280,6 +271,17 @@
       "test:mocha": "mocha ./test/app/modules/**/*.test.js",
       "test:mocha:watch": "npm run test:mocha -- --watch",
       "test:watch": "karma start --watch -- --test"
+    },
+    "other": {
+      "author": {
+        "name": "guochao",
+        "email": "463561248@qq.com",
+        "url": "https://github.com/saber_kurama"
+      },
+      "bugs": {
+        "url": "",
+        "email": ""
+      }
     }
   },
   "packageStatus": 200,
@@ -325,5 +327,6 @@
       "url": "https://api.github.com/repos/Saber-Kurama/reactweb/git/commits/2dae6ad76d8795875d00362a9d6ad46359db46c1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Saber-Kurama___reactweb.json"
 }

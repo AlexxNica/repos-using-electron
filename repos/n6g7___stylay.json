@@ -50,7 +50,6 @@
     "version": "0.1.1",
     "description": "Compile your Stylus with ease",
     "main": "app/bundle.main.js",
-    "author": "Nathan G <n6g7@gnab.fr>",
     "scripts": {
       "pretest": "eslint --ext js,jsx src test",
       "test": "mocha --compilers js:babel-core/register --require test/helper.js --recursive",
@@ -58,13 +57,7 @@
       "build": "webpack && rm -r dist || build -mwl",
       "dev": "NODE_ENV=dev electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/n6g7/stylay.git"
-    },
-    "bugs": {
-      "url": "https://github.com/n6g7/stylay/issues"
-    },
+    "repository": "https://github.com/n6g7/stylay",
     "homepage": "https://github.com/n6g7/stylay#readme",
     "dependencies": {
       "immutable": "^3.8.1",
@@ -140,6 +133,12 @@
     "build": {
       "appId": "fr.gnab.stylay",
       "category": "public.app-category.developer-tools"
+    },
+    "other": {
+      "author": "Nathan G <n6g7@gnab.fr>",
+      "bugs": {
+        "url": "https://github.com/n6g7/stylay/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -187,5 +186,6 @@
       "url": "https://api.github.com/repos/n6g7/stylay/git/commits/3655cfae653c4655d97a7a75e61a3ee7521cb7c1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "n6g7___stylay.json"
 }

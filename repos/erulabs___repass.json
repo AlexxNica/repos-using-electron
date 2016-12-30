@@ -58,16 +58,9 @@
       "finalize": "./node_modules/.bin/gulp finalize"
     },
     "bin": "build/cli/index.js",
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/erulabs/repass.git"
-    },
+    "repository": "https://github.com/erulabs/repass",
     "global": true,
-    "author": "Seandon Mooy <seandon.mooy@",
     "license": "UNLICENSED",
-    "bugs": {
-      "url": "https://github.com/erulabs/repass/issues"
-    },
     "homepage": "https://github.com/erulabs/repass#readme",
     "dependencies": {
       "aws-sdk": "^2.3.6",
@@ -116,6 +109,12 @@
       "react-dom": "^15.0.1",
       "rimraf": "^2.5.2",
       "webpack-stream": "^3.2.0"
+    },
+    "other": {
+      "author": "Seandon Mooy <seandon.mooy@",
+      "bugs": {
+        "url": "https://github.com/erulabs/repass/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -163,5 +162,6 @@
       "url": "https://api.github.com/repos/erulabs/repass/git/commits/1d70a9c66ca687a3cf4f3d4f3349c434328bc15c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "erulabs___repass.json"
 }

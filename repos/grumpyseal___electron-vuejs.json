@@ -76,9 +76,6 @@
     "version": "0.0.2",
     "description": "Electron and vue.js starter app using Babel/ES6",
     "main": "dist/main.js",
-    "directories": {
-      "test": "test"
-    },
     "scripts": {
       "lint": "./node_modules/.bin/eslint src",
       "clean": "rm -rf dist && npm cache clean",
@@ -89,20 +86,13 @@
       "postbuild": "npm run test",
       "watch": "watch 'npm start' src"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/grumpyseal/electron-vuejs.git"
-    },
+    "repository": "https://github.com/grumpyseal/electron-vuejs",
     "keywords": [
       "Electron",
       "vue.js",
       "Node"
     ],
-    "author": "Kevin Ethridge",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/grumpyseal/electron-vuejs/issues"
-    },
     "homepage": "https://github.com/grumpyseal/electron-vuejs#readme",
     "devDependencies": {
       "babel-cli": "^6.5.1",
@@ -119,6 +109,15 @@
       "bootstrap": "^3.3.6",
       "vue": "^1.0.16",
       "vue-resource": "^0.7.0"
+    },
+    "other": {
+      "author": "Kevin Ethridge",
+      "bugs": {
+        "url": "https://github.com/grumpyseal/electron-vuejs/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -147,5 +146,6 @@
       "url": "https://api.github.com/repos/grumpyseal/electron-vuejs/git/commits/14946473c7901dfe8936cdf515589734fdd1703e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "grumpyseal___electron-vuejs.json"
 }

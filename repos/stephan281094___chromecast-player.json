@@ -81,15 +81,8 @@
       "start": "electron .",
       "test": "standard index.js app/app.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/stephan281094/chromecast-player.git"
-    },
-    "author": "Stephan de Vries",
+    "repository": "https://github.com/stephan281094/chromecast-player",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/stephan281094/chromecast-player/issues"
-    },
     "homepage": "https://github.com/stephan281094/chromecast-player#readme",
     "dependencies": {
       "chromecast-player": "^0.2.3",
@@ -99,6 +92,12 @@
       "electron-packager": "^5.2.0",
       "electron-prebuilt": "^0.36.2",
       "standard": "^5.4.1"
+    },
+    "other": {
+      "author": "Stephan de Vries",
+      "bugs": {
+        "url": "https://github.com/stephan281094/chromecast-player/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/stephan281094/chromecast-player/git/commits/65d30f360e9e574d0ae95c659fd489089c1e71c9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "stephan281094___chromecast-player.json"
 }

@@ -68,7 +68,6 @@
       "start": "electron app/main.js",
       "package": "electron-packager ./ MetaManager --platform=all --arch=x64 --out ./dist/MetaManager --overwrite"
     },
-    "author": "Pravez",
     "devDependencies": {
       "devtron": "^1.2.0",
       "electron": "latest",
@@ -85,6 +84,9 @@
       "osc": "^2.1.0",
       "riot": "^2.4.1",
       "three": "^0.78.0"
+    },
+    "other": {
+      "author": "Pravez"
     }
   },
   "packageStatus": 200,
@@ -112,5 +114,6 @@
       "url": "https://api.github.com/repos/iscore-metabots/MetaManager/git/commits/9b92e8d27722184a039c9dc25609eadea4501dc1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "iscore-metabots___MetaManager.json"
 }

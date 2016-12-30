@@ -58,11 +58,6 @@
     "description": "Interactive color palette",
     "license": "MIT",
     "repository": "abrelsfo/colored-pencils",
-    "author": {
-      "name": "abrelsfo",
-      "email": "alexbrelsford@gmail.com",
-      "url": "abrelsfo.github.io"
-    },
     "build": {
       "app-category-type": "Developer-Tools",
       "osx-sign": "Alex Brelsford"
@@ -70,9 +65,6 @@
     "scripts": {
       "precommit": "npm run osx-build",
       "osx-build": "electron-packager . Colored Pencils --platform=darwin --arch=x64 --out dist --overwrite"
-    },
-    "bugs": {
-      "url": "https://github.com/abrelsfo/colored-pencils/issues"
     },
     "bin": {
       "colored-pencils": "cli.js"
@@ -110,6 +102,16 @@
       "eslintConfig": {
         "extends": "xo-space"
       }
+    },
+    "other": {
+      "author": {
+        "name": "abrelsfo",
+        "email": "alexbrelsford@gmail.com",
+        "url": "abrelsfo.github.io"
+      },
+      "bugs": {
+        "url": "https://github.com/abrelsfo/colored-pencils/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -138,5 +140,6 @@
       "url": "https://api.github.com/repos/abrelsfo/colored-pencils/git/commits/4181b990e88fb705eb0be18efb610fdb93b19a65",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "abrelsfo___colored-pencils.json"
 }

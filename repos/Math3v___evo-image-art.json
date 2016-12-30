@@ -80,9 +80,11 @@
       "start": "electron main.js",
       "build": "electron-packager . CircleArt --ignore=node_modules/asar --ignore=node_modules/babel* --ignore=node_modules/electron-* --platform=all --arch=all --version=0.37.8 --asar=true"
     },
-    "author": "Matej Minarik (xminar29)",
     "devDependencies": {
       "electron-prebuilt": "^1.0.1"
+    },
+    "other": {
+      "author": "Matej Minarik (xminar29)"
     }
   },
   "packageStatus": 200,
@@ -110,5 +112,6 @@
       "url": "https://api.github.com/repos/Math3v/evo-image-art/git/commits/48ae87f1ff4296a78b49d5d5ee4fddb30d94bc0f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Math3v___evo-image-art.json"
 }

@@ -69,11 +69,6 @@
     "name": "npm-modules",
     "description": "My spectacular module",
     "version": "0.1.0",
-    "author": {
-      "name": "sanemat",
-      "email": "o.gata.ken@gmail.com",
-      "url": "sane.jp"
-    },
     "dependencies": {
       "electron-debug": "^0.1.1",
       "react": "^0.13.3"
@@ -132,6 +127,13 @@
       "start": "npm run build:local && node lib/server.js",
       "test": "mocha --require ./enable-power-assert.js -- ./test/*test.js",
       "verify": "npm run lint"
+    },
+    "other": {
+      "author": {
+        "name": "sanemat",
+        "email": "o.gata.ken@gmail.com",
+        "url": "sane.jp"
+      }
     }
   },
   "packageStatus": 200,
@@ -159,5 +161,6 @@
       "url": "https://api.github.com/repos/lyrictenor/electron-npm-modules/git/commits/ff025b9f94ebbea4cef2a08d633fc200be869fb1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lyrictenor___electron-npm-modules.json"
 }

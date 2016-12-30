@@ -84,9 +84,6 @@
     "version": "0.4.0",
     "description": "Dockyard-as-an-App",
     "main": "main.js",
-    "directories": {
-      "test": "test"
-    },
     "scripts": {
       "coverage": "babel-node ./node_modules/istanbul/lib/cli cover node_modules/mocha/bin/_mocha -- --recursive",
       "test-watch": "mocha --recursive --compilers js:babel-register --watch",
@@ -103,15 +100,8 @@
       "package": "cross-env NODE_ENV=production node -r babel-register package.js --name Dockyard",
       "package-all": "npm run package -- --all"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/rensouhou/electron-yard.git"
-    },
-    "author": "Stefan Rimaila <stefan@rimaila.fi>",
+    "repository": "https://github.com/rensouhou/electron-yard",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/rensouhou/electron-yard/issues"
-    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
@@ -222,6 +212,15 @@
     "devEngines": {
       "node": "4.x || 5.x || 6.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": "Stefan Rimaila <stefan@rimaila.fi>",
+      "bugs": {
+        "url": "https://github.com/rensouhou/electron-yard/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -249,5 +248,6 @@
       "url": "https://api.github.com/repos/rensouhou/electron-yard/git/commits/eef3b6fbed9323b954f29913b2fd6985759e9b68",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rensouhou___electron-yard.json"
 }

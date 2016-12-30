@@ -54,21 +54,20 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/matias-pierobon/app-installer.git"
-    },
+    "repository": "https://github.com/matias-pierobon/app-installer",
     "keywords": [
       "app-installer"
     ],
-    "author": "Matias Pierobon <matias.pierobonm@gmail.com>",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/matias-pierobon/app-installer/issues"
-    },
     "homepage": "https://github.com/matias-pierobon/app-installer#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.35.0"
+    },
+    "other": {
+      "author": "Matias Pierobon <matias.pierobonm@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/matias-pierobon/app-installer/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -118,5 +117,6 @@
       "url": "https://api.github.com/repos/matias-pierobon/app-installer/git/commits/357a5b43c6582fe4a1d8f528b49e9cebb4e08afe",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "matias-pierobon___app-installer.json"
 }

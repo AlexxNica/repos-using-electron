@@ -79,19 +79,12 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/subtly/ethhw.git"
-    },
+    "repository": "https://github.com/subtly/ethhw",
     "keywords": [
       "ethereum",
       "digital-bitbox"
     ],
-    "author": "Alexander Leverington",
     "license": "GPL-V3",
-    "bugs": {
-      "url": "https://github.com/subtly/ethhw/issues"
-    },
     "homepage": "https://github.com/subtly/ethhw#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -105,6 +98,12 @@
       "materialize-css": "^0.97.6",
       "qr-encode": "^0.3.0",
       "web3": "^0.17.0-alpha"
+    },
+    "other": {
+      "author": "Alexander Leverington",
+      "bugs": {
+        "url": "https://github.com/subtly/ethhw/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/subtly/ethhw/git/commits/8438274670346549f1b71c79da0af18e16b7a54f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "subtly___ethhw.json"
 }

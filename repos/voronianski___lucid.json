@@ -74,10 +74,7 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/voronianski/lucid.git"
-    },
+    "repository": "https://github.com/voronianski/lucid",
     "keywords": [
       "lucid",
       "browser",
@@ -85,11 +82,7 @@
       "transparency",
       "multitask"
     ],
-    "author": "Dmitri Voronianski <dmitri.voronianski@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/voronianski/lucid/issues"
-    },
     "homepage": "https://github.com/voronianski/lucid#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -99,6 +92,12 @@
       "normalize.css": "^3.0.3",
       "octicons": "^3.5.0",
       "roboto-fontface": "^0.4.5"
+    },
+    "other": {
+      "author": "Dmitri Voronianski <dmitri.voronianski@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/voronianski/lucid/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/voronianski/lucid/git/commits/f33a49e36b987d1753aeb7296f86f4f4ded8a2db",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "voronianski___lucid.json"
 }

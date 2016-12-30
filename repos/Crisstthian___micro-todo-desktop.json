@@ -80,21 +80,20 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Crisstthian/micro-todo-desktop.git"
-    },
+    "repository": "https://github.com/Crisstthian/micro-todo-desktop",
     "keywords": [
       "microservicios"
     ],
-    "author": "Crisstthian",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/Crisstthian/micro-todo-desktop/issues"
-    },
     "homepage": "https://github.com/Crisstthian/micro-todo-desktop#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
+    },
+    "other": {
+      "author": "Crisstthian",
+      "bugs": {
+        "url": "https://github.com/Crisstthian/micro-todo-desktop/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -122,5 +121,6 @@
       "url": "https://api.github.com/repos/Crisstthian/micro-todo-desktop/git/commits/88db40af2e522d0361b5090d559e7e8ef02c2635",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Crisstthian___micro-todo-desktop.json"
 }

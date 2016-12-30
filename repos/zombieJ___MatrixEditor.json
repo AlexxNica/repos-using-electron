@@ -77,19 +77,12 @@
       "eslint": "eslint src",
       "vendor": "webpack --config vendor.webpack.config.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/zombieJ/MatrixEditor.git"
-    },
+    "repository": "https://github.com/zombieJ/MatrixEditor",
     "keywords": [
       "dota2",
       "KV"
     ],
-    "author": "zombieJ",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/zombieJ/MatrixEditor/issues"
-    },
     "homepage": "https://github.com/zombieJ/MatrixEditor#readme",
     "dependencies": {
       "classnames": "^2.2.5",
@@ -138,6 +131,12 @@
       "url-loader": "^0.5.7",
       "webpack-dev-middleware": "^1.8.4",
       "webpack-hot-middleware": "^2.13.0"
+    },
+    "other": {
+      "author": "zombieJ",
+      "bugs": {
+        "url": "https://github.com/zombieJ/MatrixEditor/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -165,5 +164,6 @@
       "url": "https://api.github.com/repos/zombieJ/MatrixEditor/git/commits/4a1d6f62f4d200bdf55a3784163d2084818728b9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zombieJ___MatrixEditor.json"
 }

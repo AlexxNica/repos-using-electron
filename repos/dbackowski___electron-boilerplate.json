@@ -60,15 +60,14 @@
       "start": "electron app.js",
       "build": "electron-packager ./ --platform=darwin,linux --arch=x64 --version=1.4.2"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/dbackowski/electron-boilerplate.git"
-    },
-    "author": "Damian Baćkowski",
+    "repository": "https://github.com/dbackowski/electron-boilerplate",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "8.2.0",
       "electron": "1.4.4"
+    },
+    "other": {
+      "author": "Damian Baćkowski"
     }
   },
   "packageStatus": 200,
@@ -116,5 +115,6 @@
       "url": "https://api.github.com/repos/dbackowski/electron-boilerplate/git/commits/fe763d4316e2d59bde43b460821e3e7e2b75ec85",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dbackowski___electron-boilerplate.json"
 }

@@ -60,20 +60,13 @@
       "start": "electron .",
       "build": "electron-packager . Pingetron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/amarlearning/Pingetron.git"
-    },
+    "repository": "https://github.com/amarlearning/Pingetron",
     "keywords": [
       "Pingetron",
       "Internet Check",
       "electron"
     ],
-    "author": "amarlearning",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/amarlearning/Pingetron/issues"
-    },
     "homepage": "https://github.com/amarlearning/Pingetron#readme",
     "devDependencies": {
       "electron-packager": "^7.0.2",
@@ -83,6 +76,12 @@
       "battery-level": "^2.0.1",
       "is-online": "^5.1.1",
       "node-notifier": "^4.6.0"
+    },
+    "other": {
+      "author": "amarlearning",
+      "bugs": {
+        "url": "https://github.com/amarlearning/Pingetron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -111,5 +110,6 @@
       "url": "https://api.github.com/repos/amarlearning/Pingetron/git/commits/d7c735874486254c55a279da7668c2e4b5eb5d06",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "amarlearning___Pingetron.json"
 }

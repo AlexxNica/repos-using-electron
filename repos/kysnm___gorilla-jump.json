@@ -56,15 +56,8 @@
       "postinstall": "electron-rebuild",
       "build": "electron-packager . GorillaJump --platform=darwin --arch=x64 --version=0.35.0 --ignore='node_modules/(electron-packager|electron-prebuilt)' --out=build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/kysnm/gorilla-jump.git"
-    },
-    "author": "kysnm <tokyoincidents.g@gmail.com> (http://kysnm.hatenablog.com/)",
+    "repository": "https://github.com/kysnm/gorilla-jump",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/kysnm/gorilla-jump/issues"
-    },
     "homepage": "https://github.com/kysnm/gorilla-jump#readme",
     "devDependencies": {
       "electron-packager": "^5.1.1",
@@ -73,6 +66,12 @@
     },
     "dependencies": {
       "phaser": "^2.4.4"
+    },
+    "other": {
+      "author": "kysnm <tokyoincidents.g@gmail.com> (http://kysnm.hatenablog.com/)",
+      "bugs": {
+        "url": "https://github.com/kysnm/gorilla-jump/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -100,5 +99,6 @@
       "url": "https://api.github.com/repos/kysnm/gorilla-jump/git/commits/9b3bbf41a82d9489f56a83f86c4e48d5900e6f05",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kysnm___gorilla-jump.json"
 }

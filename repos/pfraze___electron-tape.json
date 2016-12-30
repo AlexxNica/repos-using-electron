@@ -53,23 +53,22 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/pfraze/electron-tape.git"
-    },
+    "repository": "https://github.com/pfraze/electron-tape",
     "keywords": [
       "tape",
       "electron"
     ],
-    "author": "Paul Frazee <pfrazee@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/pfraze/electron-tape/issues"
-    },
     "homepage": "https://github.com/pfraze/electron-tape#readme",
     "dependencies": {
       "electron-prebuilt": "^0.28.2",
       "tape": "~4.0.0"
+    },
+    "other": {
+      "author": "Paul Frazee <pfrazee@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/pfraze/electron-tape/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -97,5 +96,6 @@
       "url": "https://api.github.com/repos/pfrazee/electron-tape/git/commits/86c833ef494c2b1f69954f4753b17b0b50bf1271",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "pfraze___electron-tape.json"
 }

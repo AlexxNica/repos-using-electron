@@ -179,11 +179,6 @@
       "node-webkit"
     ],
     "homepage": "https://github.com/plaidchat/plaidchat",
-    "author": {
-      "name": "Will Laurance",
-      "email": "",
-      "url": "https://github.com/wlaurance"
-    },
     "repository": {
       "user": "plaidchat",
       "repo": "plaidchat",
@@ -257,7 +252,14 @@
     "webkit": {
       "plugin": true
     },
-    "chromium-args": "--child-clean-exit"
+    "chromium-args": "--child-clean-exit",
+    "other": {
+      "author": {
+        "name": "Will Laurance",
+        "email": "",
+        "url": "https://github.com/wlaurance"
+      }
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/mathieumg/plaidchat",

@@ -85,7 +85,6 @@
         "iconUrl": "http://eatodo.s3.amazonaws.com/icon.ico"
       }
     },
-    "author": "Me and my Team <no-reply@marleyspoon.com>",
     "scripts": {
       "postinstall": "install-app-deps",
       "start": "electron ./app --enable-logging",
@@ -98,6 +97,9 @@
       "prerelease:win64": "rimraf release/win64 && mkdirp release/win64",
       "release:win64": "copyfiles -f dist/win/{RELEASES,*.nupkg,*.exe} release/win64",
       "release": "run-p release:*"
+    },
+    "other": {
+      "author": "Me and my Team <no-reply@marleyspoon.com>"
     }
   },
   "packageStatus": 200,
@@ -125,5 +127,6 @@
       "url": "https://api.github.com/repos/raluka/msos/git/commits/8bf209657c47f3720cf1ec34760e58ea72b0356e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "raluka___msos.json"
 }

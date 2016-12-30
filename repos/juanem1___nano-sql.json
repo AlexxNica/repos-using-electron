@@ -69,7 +69,6 @@
     "name": "nano-sql",
     "version": "0.1.0",
     "description": "Nano viewer for MySQL",
-    "author": "Juan Emilio Turk <juanemilioturk@gmail.com>",
     "main": "main.js",
     "scripts": {
       "start": "cross-env NODE_ENV=development webpack --hot && electron .",
@@ -96,6 +95,9 @@
       "vue-loader": "^9.7.0",
       "webpack": "^2.1.0-beta.25",
       "webpack-dev-server": "^2.1.0-beta.0"
+    },
+    "other": {
+      "author": "Juan Emilio Turk <juanemilioturk@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -123,5 +125,6 @@
       "url": "https://api.github.com/repos/juanem1/nano-sql/git/commits/9c43cadd02589c783f276fbeb4801ed205a76a42",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "juanem1___nano-sql.json"
 }

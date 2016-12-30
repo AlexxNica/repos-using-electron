@@ -187,11 +187,6 @@
     "name": "electron-workshop",
     "description": "A Markdown-to-HTML renderer",
     "version": "1.0.0",
-    "author": {
-      "name": "Feross Aboukhadijeh",
-      "email": "feross@feross.org",
-      "url": "http://feross.org/"
-    },
     "dependencies": {
       "drag-drop": "^2.12.1",
       "jquery": "^3.1.1",
@@ -228,6 +223,13 @@
       "package": "electron-packager . 'Markdown Editor'",
       "package-all": "electron-packager . 'Markdown Editor' --platform=all --arch=all",
       "start": "electron ."
+    },
+    "other": {
+      "author": {
+        "name": "Feross Aboukhadijeh",
+        "email": "feross@feross.org",
+        "url": "http://feross.org/"
+      }
     }
   },
   "packageStatus": 200,

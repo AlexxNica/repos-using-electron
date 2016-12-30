@@ -81,7 +81,6 @@
       "lint": "eslint src test examples",
       "compile": "babel src --out-dir lib"
     },
-    "author": "axdg <axdg@dfant.asia>",
     "license": "MIT",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -100,7 +99,10 @@
       "expect": "^1.19.0",
       "redux": "^3.5.2"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "other": {
+      "author": "axdg <axdg@dfant.asia>"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -127,5 +129,6 @@
       "url": "https://api.github.com/repos/axdg/dispatch-router/git/commits/cb3444fff1a1efcfd8641c30628a5ed5e0a444e8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "axdg___dispatch-router.json"
 }

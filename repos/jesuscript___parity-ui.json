@@ -56,11 +56,7 @@
       "build": "webpack",
       "watch": "webpack-dev-server --inline --hot --colors --content-base=./build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jesuscript/parity-ui.git"
-    },
-    "author": "Konstantin Kudryavtsev",
+    "repository": "https://github.com/jesuscript/parity-ui",
     "license": "GPL-3.0",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -107,6 +103,9 @@
       "web3": "^0.15.3",
       "web3-raw-provider": "^0.0.5",
       "bignumber.js": "git+https://github.com/debris/bignumber.js.git#master"
+    },
+    "other": {
+      "author": "Konstantin Kudryavtsev"
     }
   },
   "packageStatus": 200,
@@ -134,5 +133,6 @@
       "url": "https://api.github.com/repos/jesuscript/parity-ui/git/commits/7dcfe0fbb3c527a155a6d6269ccd777ca3982ae8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jesuscript___parity-ui.json"
 }

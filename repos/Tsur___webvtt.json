@@ -53,11 +53,7 @@
     "homepage": "https://http://tsur.github.io/subcss",
     "private": true,
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/tsur/subcss"
-    },
-    "bugs": "https://github.com/tsur/subcss/issues",
+    "repository": "https://github.com/tsur/subcss",
     "main": "./electron.js",
     "engines": {
       "node": ">=0.10.0"
@@ -99,7 +95,10 @@
       "build:web": "npm run build-css && npm run build-js",
       "package": "electron-packager ./ $npm_package_productName-$npm_package_version --platform=linux --arch=x64 --version=1.2.7 --ignore='node_modules/(electron-packager|electron-prebuilt|electron-debug|babelify|browserify|browserify-incremental|cssnext|exorcist|beefy|http-server|postcss-cli|postcss-nested|semantic-ui-css|silence-chromium|browser-request|express|body-parser)'"
     },
-    "config": {}
+    "config": {},
+    "other": {
+      "bugs": "https://github.com/tsur/subcss/issues"
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/Tsur/webvtt",
@@ -146,5 +145,6 @@
       "url": "https://api.github.com/repos/Tsur/webvtt/git/commits/02477230b7d6cba5f3e16eab58ddbd0d273481ab",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Tsur___webvtt.json"
 }

@@ -170,11 +170,6 @@
     "description": "My remarkable app",
     "license": "MIT",
     "repository": "akameco/try-xss-electron",
-    "author": {
-      "name": "akameco",
-      "email": "akameco.t@gmail.com",
-      "url": "akameco.github.io"
-    },
     "electronVersion": "1.1.0",
     "scripts": {
       "test": "xo",
@@ -206,6 +201,13 @@
         "node",
         "browser"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "akameco",
+        "email": "akameco.t@gmail.com",
+        "url": "akameco.github.io"
+      }
     }
   },
   "packageStatus": 200,

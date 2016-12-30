@@ -70,11 +70,6 @@
     "version": "0.0.1",
     "description": "A friendly desktop git client for OS X, Linux and Windows.",
     "keywords": "git client electron atom-shell",
-    "author": {
-      "name": "Daniel Baker",
-      "email": "danbaker@me.com",
-      "twitter": "@coffeedoughnuts"
-    },
     "scripts": {
       "start": "SOURCEY_ENV=dev node scripts/dev-start.js",
       "build": "node scripts/build.js"
@@ -89,6 +84,13 @@
       "glob": "^5.0.14",
       "moment": "^2.10.6",
       "rsync": "^0.4.0"
+    },
+    "other": {
+      "author": {
+        "name": "Daniel Baker",
+        "email": "danbaker@me.com",
+        "twitter": "@coffeedoughnuts"
+      }
     }
   },
   "packageStatus": 200,
@@ -116,5 +118,6 @@
       "url": "https://api.github.com/repos/gitter-badger/sourcey/git/commits/eb4c948d1a804e21030769eddf8cdc5f0f82457a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "gitter-badger___sourcey.json"
 }

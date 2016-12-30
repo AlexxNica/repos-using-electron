@@ -95,7 +95,6 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "author": "Rahul A. Krishna",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -114,7 +113,10 @@
     "devDependencies": {
       "electron-react-devtools": "^0.4.0"
     },
-    "build": {}
+    "build": {},
+    "other": {
+      "author": "Rahul A. Krishna"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -143,5 +145,6 @@
       "url": "https://api.github.com/repos/GDGVIT/website-stat-electron/git/commits/e362adeea1ba18e4fc68287e9b6706f771589b3a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "GDGVIT___website-stat-electron.json"
 }

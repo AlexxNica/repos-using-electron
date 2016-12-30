@@ -80,18 +80,11 @@
       "start": "electron ./",
       "build": "electron-packager ./ Converter --platform=linux,win32 --arch=x64 --overwrite --asar"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/pzhang0306/Project-Color.git"
-    },
+    "repository": "https://github.com/pzhang0306/Project-Color",
     "keywords": [
       "Electron"
     ],
-    "author": "Peng Zhang",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/pzhang0306/Project-Color/issues"
-    },
     "homepage": "https://github.com/pzhang0306/Project-Color#readme",
     "dependencies": {
       "csv-parse": "^1.1.7",
@@ -106,6 +99,12 @@
       "electron-packager": "^8.0.0",
       "exceljs": "^0.2.24",
       "fs-extra": "^0.30.0"
+    },
+    "other": {
+      "author": "Peng Zhang",
+      "bugs": {
+        "url": "https://github.com/pzhang0306/Project-Color/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -133,5 +132,6 @@
       "url": "https://api.github.com/repos/pzhang0306/Project-Color/git/commits/de39cf8d0c727b7469bc12b5921cbd323a308e98",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "pzhang0306___Project-Color.json"
 }

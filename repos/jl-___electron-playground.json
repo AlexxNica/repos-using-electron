@@ -69,7 +69,6 @@
     "name": "electron-playground",
     "version": "0.0.0",
     "description": "Electron Playgrouond",
-    "author": "zhengjianglong <jlz.cius@gmail.com>",
     "private": true,
     "scripts": {
       "unit": "cross-env NODE_ENV=test karma start test/unit/karma.conf.entry.js",
@@ -155,6 +154,9 @@
       "webpack": "^1.13.1",
       "webpack-dev-server": "^1.14.1",
       "webpack-merge": "^0.14.1"
+    },
+    "other": {
+      "author": "zhengjianglong <jlz.cius@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -182,5 +184,6 @@
       "url": "https://api.github.com/repos/jl-/electron-playground/git/commits/41bcd63bac3e5ba4fc399d3048270e1e7baf5a65",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jl-___electron-playground.json"
 }

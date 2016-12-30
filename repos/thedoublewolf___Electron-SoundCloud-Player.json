@@ -74,7 +74,6 @@
       "compile": "browserify -t [ babelify --presets [ react es2015 ] ] src/app.js -o js/app.js",
       "start": "electron main.js"
     },
-    "author": "thedoublewolf",
     "devDependencies": {
       "babel-preset-es2015": "^6.9.0",
       "babel-preset-react": "^6.5.0",
@@ -89,6 +88,9 @@
       "react-dom": "^0.14.8",
       "react-loading": "0.0.9",
       "react-soundplayer": "^0.3.6"
+    },
+    "other": {
+      "author": "thedoublewolf"
     }
   },
   "packageStatus": 200,
@@ -116,5 +118,6 @@
       "url": "https://api.github.com/repos/thedoublewolf/Electron-SoundCloud-Player/git/commits/9d48895637d5573e38342502c54f44347c4b9b72",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "thedoublewolf___Electron-SoundCloud-Player.json"
 }

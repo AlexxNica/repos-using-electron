@@ -70,10 +70,6 @@
     "version": "0.0.0",
     "description": "Small description for sqladmin goes here",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -83,7 +79,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -155,6 +150,13 @@
         "ProductName": null,
         "InternalName": null
       }
+    },
+    "other": {
+      "author": "",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -182,5 +184,6 @@
       "url": "https://api.github.com/repos/kcin1018/sql-admin/git/commits/3bd6fad366e243c60d3c54758b3956ee56bf87d3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kcin1018___sql-admin.json"
 }

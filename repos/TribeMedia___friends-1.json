@@ -181,15 +181,6 @@
     "name": "friends",
     "description": "p2p chat",
     "version": "1.0.0",
-    "author": [
-      "feross",
-      "maxogden",
-      "mafintosh",
-      "ngoldman",
-      "shama",
-      "jlord",
-      "chrisdickinson"
-    ],
     "browser": {
       "ghsign": false,
       "github-current-user": false,
@@ -285,6 +276,17 @@
       "watch": "npm run build-css && (npm run watch-css & electron index.js 2>&1 | silence-chromium)",
       "watch-css": "mkdirp dist && stylus -u nib css/app.styl -o dist/ -w",
       "web": "beefy web.js:bundle.js"
+    },
+    "other": {
+      "author": [
+        "feross",
+        "maxogden",
+        "mafintosh",
+        "ngoldman",
+        "shama",
+        "jlord",
+        "chrisdickinson"
+      ]
     }
   },
   "packageStatus": 200,

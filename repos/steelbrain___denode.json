@@ -61,10 +61,7 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/steelbrain/denode.git"
-    },
+    "repository": "https://github.com/steelbrain/denode",
     "keywords": [
       "electron",
       "node",
@@ -72,14 +69,16 @@
       "profile"
     ],
     "productName": "DeNode",
-    "author": "steelbrain",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/steelbrain/denode/issues"
-    },
     "homepage": "https://github.com/steelbrain/denode#readme",
     "dependencies": {
       "electron": "1.4.2"
+    },
+    "other": {
+      "author": "steelbrain",
+      "bugs": {
+        "url": "https://github.com/steelbrain/denode/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -109,5 +108,6 @@
       "url": "https://api.github.com/repos/steelbrain/denode/git/commits/e522ba17912d4bc02b64f325fad6eca99594631f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "steelbrain___denode.json"
 }

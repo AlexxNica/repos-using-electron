@@ -75,7 +75,6 @@
     "name": "marky-mark",
     "description": "**Clone and run for a quick way to see an Electron in action.**",
     "version": "1.0.0",
-    "author": "Bryan Paronto <bparonto@gmail.com> (http://bryanparonto.com/)",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
     },
@@ -89,6 +88,9 @@
     "main": "main.js",
     "scripts": {
       "start": "electron main.js"
+    },
+    "other": {
+      "author": "Bryan Paronto <bparonto@gmail.com> (http://bryanparonto.com/)"
     }
   },
   "packageStatus": 200,
@@ -116,5 +118,6 @@
       "url": "https://api.github.com/repos/apisandipas/marky-mark/git/commits/37dad22991df0a111f6413c1c85ae71d50c61442",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "apisandipas___marky-mark.json"
 }

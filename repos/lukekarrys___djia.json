@@ -55,15 +55,11 @@
     "name": "djia",
     "description": "The most recent Dow Jones opening for a date.",
     "version": "1.3.0",
-    "author": "Luke Karrys",
     "browser": "lib/browser.js",
     "browserify": {
       "transform": [
         "babelify"
       ]
-    },
-    "bugs": {
-      "url": "https://github.com/lukekarrys/djia/issues"
     },
     "dependencies": {
       "async": "^2.0.1",
@@ -112,10 +108,7 @@
     "react-native": {
       "./lib/index.js": "./lib/react-native.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:lukekarrys/djia.git"
-    },
+    "repository": "https://github.com/lukekarrys/djia",
     "scripts": {
       "browser-test": "browserify test/browser.js | tape-run | tap-spec",
       "compile": "babel src --out-dir lib",
@@ -130,6 +123,12 @@
       "ignore": [
         "**/lib/**"
       ]
+    },
+    "other": {
+      "author": "Luke Karrys",
+      "bugs": {
+        "url": "https://github.com/lukekarrys/djia/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -158,5 +157,6 @@
       "url": "https://api.github.com/repos/lukekarrys/djia/git/commits/f01c0bfbe8ffd546a451d22ece285b2b790fa9ea",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lukekarrys___djia.json"
 }

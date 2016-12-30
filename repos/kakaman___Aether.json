@@ -76,10 +76,7 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/kakaman/Aether.git"
-    },
+    "repository": "https://github.com/kakaman/Aether",
     "keywords": [
       "react",
       "music",
@@ -87,11 +84,7 @@
       "desktop",
       "soundcloud"
     ],
-    "author": "Vyshnav Kakivaya <vyshnav@msn.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/kakaman/Aether/issues"
-    },
     "homepage": "https://github.com/kakaman/Aether#readme",
     "dependencies": {
       "axios": "^0.9.1",
@@ -107,6 +100,12 @@
       "react-dom": "^0.14.7",
       "react-sound": "^0.4.0",
       "soundmanager2": "^2.97.20150601-a"
+    },
+    "other": {
+      "author": "Vyshnav Kakivaya <vyshnav@msn.com>",
+      "bugs": {
+        "url": "https://github.com/kakaman/Aether/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -134,5 +133,6 @@
       "url": "https://api.github.com/repos/kakaman/Aether/git/commits/155a144e41c709508c8fe17911071928c165317f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kakaman___Aether.json"
 }

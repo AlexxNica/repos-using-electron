@@ -74,16 +74,15 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/tmrocha89/batteryJS.git"
-    },
-    "author": "TmRocha89",
+    "repository": "https://github.com/tmrocha89/batteryJS",
     "license": "ISC",
     "dependencies": {
       "electron-prebuilt": "^0.36.0",
       "node-notifier": "^4.5.0",
       "request": "^2.69.0"
+    },
+    "other": {
+      "author": "TmRocha89"
     }
   },
   "packageStatus": 200,
@@ -111,5 +110,6 @@
       "url": "https://api.github.com/repos/tmrocha89/batteryJS/git/commits/3acf150733de19b6d3b3dcb8d2951adb151aba5a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tmrocha89___batteryJS.json"
 }

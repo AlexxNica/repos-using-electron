@@ -71,21 +71,14 @@
       "start": "electron .",
       "dev": "electron . -dev"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/d-evelopers/HellsAngel.git"
-    },
+    "repository": "https://github.com/d-evelopers/HellsAngel",
     "keywords": [
       "spanking",
       "sim",
       "game",
       "electron"
     ],
-    "author": "/d/evelopers",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/d-evelopers/HellsAngel/issues"
-    },
     "homepage": "https://github.com/d-evelopers/HellsAngel#readme",
     "dependencies": {
       "electron-prebuilt": "^1.2.6"
@@ -94,6 +87,12 @@
       "chai": "^3.5.0",
       "electron-mocha": "^2.3.0",
       "npm-run-all": "^2.3.0"
+    },
+    "other": {
+      "author": "/d/evelopers",
+      "bugs": {
+        "url": "https://github.com/d-evelopers/HellsAngel/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -121,5 +120,6 @@
       "url": "https://api.github.com/repos/d-evelopers/HellsAngel/git/commits/6c0a1bcf505b6da90446c2c1cfa5096bbee7ca2d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "d-evelopers___HellsAngel.json"
 }

@@ -56,26 +56,16 @@
     "version": "2.0.2",
     "description": "The simplest way to build Electron apps.",
     "main": "lib/index.js",
-    "directories": {
-      "example": "example"
-    },
     "scripts": {
       "test": "electron example"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/IonicaBizau/electronify.git"
-    },
+    "repository": "https://github.com/IonicaBizau/electronify",
     "keywords": [
       "electron",
       "applications",
       "desktop"
     ],
-    "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/IonicaBizau/electronify/issues"
-    },
     "homepage": "https://github.com/IonicaBizau/electronify#readme",
     "blah": {
       "ex_img": "http://i.imgur.com/o5sBv1w.png",
@@ -101,7 +91,16 @@
       "scripts/",
       "cli.js",
       "index.js"
-    ]
+    ],
+    "other": {
+      "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+      "bugs": {
+        "url": "https://github.com/IonicaBizau/electronify/issues"
+      },
+      "directories": {
+        "example": "example"
+      }
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/IonicaBizau/electronify",
@@ -148,5 +147,6 @@
       "url": "https://api.github.com/repos/IonicaBizau/electronify/git/commits/79829a05cc1bfc3d2b8125a4519e6a30b7b5f00e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "IonicaBizau___electronify.json"
 }

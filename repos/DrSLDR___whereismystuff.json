@@ -62,18 +62,11 @@
       "postinstall": "npm run electon-repair-sqlite3",
       "electon-repair-sqlite3": "cd node_modules/sqlite3 && npm run prepublish && node-gyp configure --module_name=node_sqlite3 --module_path=../lib/binding/electron-v1.2-linux-x64 && node-gyp rebuild --target=1.2.2 --arch=x64 --target_platform=linux --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/electron-v1.2-linux-x64"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/DrSLDR/whereismystuff.git"
-    },
+    "repository": "https://github.com/DrSLDR/whereismystuff",
     "keywords": [
       "inventory"
     ],
-    "author": "Jonas A. Hultén <jonas@sldr.se> (sldr.se)",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/DrSLDR/whereismystuff/issues"
-    },
     "homepage": "https://github.com/DrSLDR/whereismystuff#readme",
     "dependencies": {
       "jquery": "^2.2.3",
@@ -83,6 +76,12 @@
     "devDependencies": {
       "electron-prebuilt": "^1.2.2",
       "node-gyp": "^3.3.1"
+    },
+    "other": {
+      "author": "Jonas A. Hultén <jonas@sldr.se> (sldr.se)",
+      "bugs": {
+        "url": "https://github.com/DrSLDR/whereismystuff/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -110,5 +109,6 @@
       "url": "https://api.github.com/repos/DrSLDR/whereismystuff/git/commits/85775173c86e416fd0b4641ed96a5287648a4d50",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DrSLDR___whereismystuff.json"
 }

@@ -76,22 +76,21 @@
       "package": "electron-packager ./ --all",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/sanguneo/electronTemplate.git"
-    },
+    "repository": "https://github.com/sanguneo/electronTemplate",
     "keywords": [
       "electron",
       "template"
     ],
-    "author": "sanguneo",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/sanguneo/electronTemplate/issues"
-    },
     "homepage": "https://github.com/sanguneo/electronTemplate#readme",
     "dependencies": {
       "electron-prebuilt": "^1.2.2"
+    },
+    "other": {
+      "author": "sanguneo",
+      "bugs": {
+        "url": "https://github.com/sanguneo/electronTemplate/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -119,5 +118,6 @@
       "url": "https://api.github.com/repos/sanguneo/electronTemplate/git/commits/c3283c8cee1dbbee3f134ec9dcd08884854421f9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sanguneo___electronTemplate.json"
 }

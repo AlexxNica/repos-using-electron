@@ -59,17 +59,13 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/tsuriga/remmy.git"
-    },
+    "repository": "https://github.com/tsuriga/remmy",
     "keywords": [
       "file",
       "pattern",
       "regexp",
       "rename"
     ],
-    "author": "tsuriga",
     "license": "MIT",
     "dependencies": {
       "dragster": "bensmithett/dragster#gh-pages",
@@ -77,6 +73,9 @@
     },
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
+    },
+    "other": {
+      "author": "tsuriga"
     }
   },
   "packageStatus": 200,
@@ -124,5 +123,6 @@
       "url": "https://api.github.com/repos/tsuriga/remmy/git/commits/8b3705558f7e01310431e9dd167f4a2c0189ccae",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tsuriga___remmy.json"
 }

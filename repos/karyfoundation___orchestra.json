@@ -88,7 +88,6 @@
   "packageJSON": {
     "name": "orchestra",
     "productName": "Orchestra Nightly",
-    "author": "Kary Foundation",
     "main": "main.js",
     "description": "RegEx done right",
     "homepage": "https://github.com/karyfoundation/orchestra",
@@ -100,10 +99,7 @@
       "run-mac-nightly": "/Users/pmk/OneDrive/Codes/Orchestra/_release/Orchestra\\ Nightly-darwin-x64/Orchestra\\ Nightly.app/Contents/MacOS/Orchestra\\ Nightly",
       "electron": "electron ./_compiled/main.js --enable-logging"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/karyfoundation/orchestra"
-    },
+    "repository": "https://github.com/karyfoundation/orchestra",
     "dependencies": {
       "concerto-compiler": "1.0.5",
       "messenger": "0.0.9",
@@ -120,6 +116,9 @@
       "less": "2.7.1",
       "mv": "^2.1.1",
       "sloc": "0.1.10"
+    },
+    "other": {
+      "author": "Kary Foundation"
     }
   },
   "packageStatus": 200,
@@ -147,5 +146,6 @@
       "url": "https://api.github.com/repos/karyfoundation/orchestra/git/commits/8123d21a3c3dc551fdd4c05af64d3cf16d03b6ec",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "karyfoundation___orchestra.json"
 }

@@ -70,10 +70,6 @@
     "version": "0.0.0",
     "description": "Small description for telloworld goes here",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -83,7 +79,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -171,6 +166,13 @@
         "ProductName": null,
         "InternalName": null
       }
+    },
+    "other": {
+      "author": "",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -199,5 +201,6 @@
       "url": "https://api.github.com/repos/raksonibs/bob/git/commits/1fb47865d9d2f2a86261b5f9b842791a211adbbc",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "raksonibs___bob.json"
 }

@@ -80,21 +80,14 @@
       "seed-up": "knex seed:run --cwd ./api/migrations",
       "seed-make": "SEED_ARGS=-w knex seed:make $SEED_ARGS --cwd ./api/migrations"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/helderfarias/cpex.git"
-    },
+    "repository": "https://github.com/helderfarias/cpex",
     "keywords": [
       "cpex",
       "react",
       "flux",
       "electron"
     ],
-    "author": "Helder Farias",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/helderfarias/cpex.git/issues"
-    },
     "devDependencies": {
       "babel": "^6.5.2",
       "babel-core": "^6.7.4",
@@ -121,6 +114,12 @@
       "react-router": "^2.0.1",
       "react-tap-event-plugin": "^0.2.2",
       "sqlite3": "^3.1.2"
+    },
+    "other": {
+      "author": "Helder Farias",
+      "bugs": {
+        "url": "https://github.com/helderfarias/cpex.git/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -148,5 +147,6 @@
       "url": "https://api.github.com/repos/helderfarias/cpex/git/commits/533b7fac2c5ac44c37fde8f6efbcfe32a10cfb5e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "helderfarias___cpex.json"
 }

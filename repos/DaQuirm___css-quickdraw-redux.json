@@ -76,9 +76,6 @@
     "version": "1.0.0",
     "description": "CSS Selector Multiplayer Puzzle",
     "main": "webpack.config.js",
-    "directories": {
-      "test": "test"
-    },
     "scripts": {
       "coffeelint": "find . ! -path \"./node_modules/*\" -path \"*.coffee\" | xargs ./node_modules/coffeelint/bin/coffeelint",
       "dev": "NODE_ENV=dev npm start",
@@ -92,15 +89,8 @@
       "test-backend": "NODE_ENV=test NODE_PATH=./ mocha --compilers coffee:coffee-script/register --require ./test/chai.coffee --recursive --reporter spec",
       "test-frontend": "node ./node_modules/karma/bin/karma start ./karma.conf.coffee --single-run"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/DaQuirm/css-quickdraw-redux.git"
-    },
-    "author": "",
+    "repository": "https://github.com/DaQuirm/css-quickdraw-redux",
     "license": "LGPL-3.0",
-    "bugs": {
-      "url": "https://github.com/DaQuirm/css-quickdraw-redux/issues"
-    },
     "homepage": "https://github.com/DaQuirm/css-quickdraw-redux",
     "devDependencies": {
       "autoprefixer-loader": "^2.0.0",
@@ -153,6 +143,15 @@
       "passport-github": "^1.0.0",
       "passport-google-auth": "^1.0.0",
       "passport-twitter": "^1.0.3"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/DaQuirm/css-quickdraw-redux/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -183,5 +182,6 @@
       "url": "https://api.github.com/repos/DaQuirm/css-quickdraw-redux/git/commits/b409ff4c4d94b9491cf09204a5c436a9d0087bdd",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DaQuirm___css-quickdraw-redux.json"
 }

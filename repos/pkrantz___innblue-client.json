@@ -69,7 +69,6 @@
     "name": "innblue-app",
     "version": "0.1.0",
     "description": "A webpack starter for angular 2",
-    "author": "krantz",
     "homepage": "https://github.com/pkrantz/innblue-client/",
     "license": "MIT",
     "private": true,
@@ -207,6 +206,9 @@
       "version": "npm run build",
       "postversion": "git push && git push --tags",
       "electron": "electron ./src/electron/main.js"
+    },
+    "other": {
+      "author": "krantz"
     }
   },
   "packageStatus": 200,
@@ -234,5 +236,6 @@
       "url": "https://api.github.com/repos/pkrantz/innblue-client/git/commits/e3b4b0b3ade2d1fcf36a1ea89ff9ac775bb41323",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "pkrantz___innblue-client.json"
 }

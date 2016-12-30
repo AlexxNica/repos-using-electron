@@ -70,7 +70,6 @@
     "version": "0.3.2",
     "main": "index.js",
     "description": "A cross platform desktop remote for Kodi/Xbmc",
-    "author": "Bram van Oploo <bram@sudo-systems.com>",
     "contributors": [
       {
         "name": "Bram van Oploo",
@@ -114,13 +113,7 @@
       "xbmc-event-client": "^0.0.2"
     },
     "license": "GPL-2.0",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/sudo-systems/rekodi.git"
-    },
-    "bugs": {
-      "url": "https://github.com/sudo-systems/rekodi/issues"
-    },
+    "repository": "https://github.com/sudo-systems/rekodi",
     "keywords": [
       "kodi",
       "xbmc",
@@ -152,6 +145,12 @@
       },
       "ecmaFeatures": {
         "modules": false
+      }
+    },
+    "other": {
+      "author": "Bram van Oploo <bram@sudo-systems.com>",
+      "bugs": {
+        "url": "https://github.com/sudo-systems/rekodi/issues"
       }
     }
   },
@@ -200,5 +199,6 @@
       "url": "https://api.github.com/repos/sudo-systems/rekodi/git/commits/00a9b25406c37b1c82284aca7b975f4d3fe5b0bf",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sudo-systems___rekodi.json"
 }

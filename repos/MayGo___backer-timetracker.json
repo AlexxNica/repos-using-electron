@@ -64,7 +64,6 @@
       "rebuild-sqlite-win": "electron-rebuild -f -w sqlite3 && rmdir .\\app\\node_modules\\sqlite3 /s && xcopy .\\node_modules\\sqlite3 .\\app\\node_modules\\sqlite3 /s /e /h",
       "rebuild-sqlite-osx": "electron-rebuild -f -w sqlite3 && rm -rf ./app/node_modules/sqlite3 && cp -R ./node_modules/sqlite3 ./app/node_modules/sqlite3"
     },
-    "author": "Maigo Erit <maigo.erit@gmail.com>",
     "devDependencies": {
       "electron-connect": "0.6.0",
       "electron": "1.4.3",
@@ -104,6 +103,9 @@
       "linux": {
         "target": "deb"
       }
+    },
+    "other": {
+      "author": "Maigo Erit <maigo.erit@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -151,5 +153,6 @@
       "url": "https://api.github.com/repos/MayGo/tockler/git/commits/e883224c52ffdb506447ae71130a77c9536b1af7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "MayGo___backer-timetracker.json"
 }

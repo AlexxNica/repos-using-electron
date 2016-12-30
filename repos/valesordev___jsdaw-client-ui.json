@@ -93,20 +93,13 @@
       "flow:status": "flow status",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/valesordev/jsdaw-client-ui.git"
-    },
+    "repository": "https://github.com/valesordev/jsdaw-client-ui",
     "keywords": [
       "audio",
       "daw",
       "electron"
     ],
-    "author": "Brian Ashburn",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/valesordev/jsdaw-client-ui/issues"
-    },
     "homepage": "https://github.com/valesordev/jsdaw-client-ui#readme",
     "devDependencies": {
       "babel-cli": "^6.6.5",
@@ -147,6 +140,12 @@
     "dependencies": {
       "react": "^0.14.7",
       "react-dom": "^0.14.7"
+    },
+    "other": {
+      "author": "Brian Ashburn",
+      "bugs": {
+        "url": "https://github.com/valesordev/jsdaw-client-ui/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -174,5 +173,6 @@
       "url": "https://api.github.com/repos/valesordev/jsdaw-client-ui/git/commits/c81200daca5646ce7c67ea2e1b18befd5560e25f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "valesordev___jsdaw-client-ui.json"
 }

@@ -55,15 +55,14 @@
       "start": "elm-make src/Main.elm --output elm.js && electron main.js",
       "packager": "electron-packager . --platform=darwin --arch=x64 --overwrite"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/janne/newsroom-app.git"
-    },
-    "author": "Jan Andersson <jan.andersson@gmail.com>",
+    "repository": "https://github.com/janne/newsroom-app",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^7.0.1",
       "electron-prebuilt": "^0.37.8"
+    },
+    "other": {
+      "author": "Jan Andersson <jan.andersson@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -111,5 +110,6 @@
       "url": "https://api.github.com/repos/janne/newsroom-app/git/commits/719e12ac16db20dec3ebc1a6cafb19b4457b550e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "janne___newsroom-app.json"
 }

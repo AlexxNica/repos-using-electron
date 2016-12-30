@@ -94,15 +94,8 @@
       "pack": "npm run build && build -wl --x64 --ia32",
       "publish": "npm run build && build -wl --x64 --ia32 --publish always"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/ml1nk/csr-generator.git"
-    },
-    "author": "Marcel Link",
+    "repository": "https://github.com/ml1nk/csr-generator",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ml1nk/csr-generator/issues"
-    },
     "homepage": "https://github.com/ml1nk/csr-generator#readme",
     "devDependencies": {
       "bootstrap": "^3.3.7",
@@ -125,6 +118,12 @@
       "style-loader": "^0.13.1",
       "url-loader": "^0.5.7",
       "webpack": "^1.13.3"
+    },
+    "other": {
+      "author": "Marcel Link",
+      "bugs": {
+        "url": "https://github.com/ml1nk/csr-generator/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -152,5 +151,6 @@
       "url": "https://api.github.com/repos/ml1nk/csr-generator/git/commits/497aca781d7c05f96fe1d06d229ee1db92de2309",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ml1nk___csr-generator.json"
 }

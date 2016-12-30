@@ -75,7 +75,6 @@
       "start": "electron . -d",
       "build": "node tools/msx_transform && tsc"
     },
-    "author": "ME",
     "license": "ISC",
     "dependencies": {
       "app-root-path": "^1.0.0",
@@ -88,6 +87,9 @@
     "devDependencies": {
       "app-root-path": "^1.0.0",
       "electron-prebuilt": "^0.36.1"
+    },
+    "other": {
+      "author": "ME"
     }
   },
   "packageStatus": 200,
@@ -115,5 +117,6 @@
       "url": "https://api.github.com/repos/D10221/mithril_typescript_jsx/git/commits/6c36bbacc915f52abb263fb43b3091d41e46499e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "D10221___mithril_typescript_jsx.json"
 }

@@ -63,15 +63,8 @@
       "format": "eslint --fix app/**/*.js app/**/**/*.js",
       "electron": "gulp build && electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Rabrennie/WewPixel.git"
-    },
-    "author": "Rab Rennie <rabrennie@gmail.com>",
+    "repository": "https://github.com/Rabrennie/WewPixel",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Rabrennie/WewPixel/issues"
-    },
     "homepage": "https://github.com/Rabrennie/WewPixel#readme",
     "dependencies": {
       "bresenham": "0.0.3"
@@ -99,6 +92,12 @@
       "run-sequence": "^1.1.5",
       "vinyl-source-stream": "^1.1.0",
       "watchify": "^3.6.1"
+    },
+    "other": {
+      "author": "Rab Rennie <rabrennie@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/Rabrennie/WewPixel/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/Rabrennie/WewPixel/git/commits/f34b6d8add761105092491e9858026230cb7bf2e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Rabrennie___WewPixel.json"
 }

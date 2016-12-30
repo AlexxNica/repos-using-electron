@@ -93,15 +93,8 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/SEMterface/sem-client.git"
-    },
-    "author": "Bret Comnes",
+    "repository": "https://github.com/SEMterface/sem-client",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/SEMterface/sem-client/issues"
-    },
     "homepage": "https://github.com/SEMterface/sem-client#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -116,6 +109,12 @@
       "semterface": "github:semterface/semterface",
       "serialport": "^2.0.5",
       "simple-peer": "^5.11.7"
+    },
+    "other": {
+      "author": "Bret Comnes",
+      "bugs": {
+        "url": "https://github.com/SEMterface/sem-client/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -144,5 +143,6 @@
       "url": "https://api.github.com/repos/SEMterface/sem-client/git/commits/d389a65bba7b75ab8e32925c30a072e080d756cd",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "SEMterface___sem-client.json"
 }

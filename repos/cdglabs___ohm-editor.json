@@ -102,7 +102,6 @@
       "prototyping"
     ],
     "homepage": "http://cdglabs.org/ohm/visualizer/",
-    "bugs": "https://github.com/cdglabs/ohm-editor/issues",
     "main": "index.js",
     "bin": {
       "ohm-editor": "cli.js"
@@ -115,7 +114,6 @@
       "test": "tape test/*.js test/**/*.js | tap-spec"
     },
     "license": "MIT",
-    "author": "Alex Warth <alexwarth@gmail.com> (http://tinlizzie.org/~awarth)",
     "contributors": [
       "Marko Röder <m.roeder@photon-software.de>",
       "Meixian Li <lmeixian@gmail.com>",
@@ -143,6 +141,10 @@
     },
     "engines": {
       "node": ">=4.0"
+    },
+    "other": {
+      "author": "Alex Warth <alexwarth@gmail.com> (http://tinlizzie.org/~awarth)",
+      "bugs": "https://github.com/cdglabs/ohm-editor/issues"
     }
   },
   "packageStatus": 200,
@@ -172,5 +174,6 @@
       "url": "https://api.github.com/repos/harc/ohm-editor/git/commits/b6891f3ab7ab1fc2aff9934ea5c5c0d366527f35",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cdglabs___ohm-editor.json"
 }

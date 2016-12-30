@@ -74,21 +74,14 @@
       "dev": "NODE_ENV=development npm start",
       "start": "electron main.js  --enable-transparent-visuals '$@'"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/t7reyeslua/Huetron.git"
-    },
+    "repository": "https://github.com/t7reyeslua/Huetron",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "Antonio Reyes Lua",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/t7reyeslua/Huetron/issues"
-    },
     "homepage": "https://github.com/t7reyeslua/Huetron#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -100,6 +93,12 @@
       "menubar": "^4.1.1",
       "nouislider-angular": "^2.5.5",
       "underscore": "^1.8.3"
+    },
+    "other": {
+      "author": "Antonio Reyes Lua",
+      "bugs": {
+        "url": "https://github.com/t7reyeslua/Huetron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/t7reyeslua/Huetron/git/commits/674ba2008ecdf497b19cf0bc45150c97a56674e8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "t7reyeslua___Huetron.json"
 }

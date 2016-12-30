@@ -74,18 +74,11 @@
       "start": "electron .",
       "test:e2e": "./node_modules/mocha/bin/mocha tests/test.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jwood803/ElectronSpectronDemo"
-    },
+    "repository": "https://github.com/jwood803/ElectronSpectronDemo",
     "keywords": [
       "Electron",
       "demo"
     ],
-    "author": "jwood",
-    "bugs": {
-      "url": "https://github.com/jwood803/ElectronSpectronDemo/issues"
-    },
     "homepage": "https://github.com/jwood803/ElectronSpectronDemo",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -93,6 +86,12 @@
       "electron": "^1.3.4",
       "mocha": "^3.0.2",
       "spectron": "^3.4.0"
+    },
+    "other": {
+      "author": "jwood",
+      "bugs": {
+        "url": "https://github.com/jwood803/ElectronSpectronDemo/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -120,5 +119,6 @@
       "url": "https://api.github.com/repos/jwood803/ElectronSpectronDemo/git/commits/71a130439716d4f206ecb36db174a3274a088363",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jwood803___ElectronSpectronDemo.json"
 }

@@ -78,20 +78,13 @@
       "lint": "standard",
       "test": "NODE_ENV=test npm run deps && npm run lint && tape tests/*.js | tap-spec"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/staticland/staticland.git"
-    },
+    "repository": "https://github.com/staticland/staticland",
     "keywords": [
       "static",
       "sites",
       "static"
     ],
-    "author": "",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/staticland/staticland/issues"
-    },
     "homepage": "https://github.com/staticland/staticland#readme",
     "devDependencies": {
       "browserify": "^13.0.1",
@@ -112,6 +105,12 @@
       "request": "^2.72.0",
       "subcommand": "^2.0.3",
       "tar-fs": "^1.12.0"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/staticland/staticland/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -139,5 +138,6 @@
       "url": "https://api.github.com/repos/staticland/staticland/git/commits/fbb7cae79e995c0470d79ecc9145d3a128f88d8e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "staticland___staticland.json"
 }

@@ -105,15 +105,8 @@
       "start": "electron ./out/main.js",
       "test": "node_modules/.bin/jest --coverage"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/CrazyCompiler/directoryGraph.git"
-    },
-    "author": "Viraj Parab",
+    "repository": "https://github.com/CrazyCompiler/directoryGraph",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/CrazyCompiler/directoryGraph/issues"
-    },
     "homepage": "https://github.com/CrazyCompiler/directoryGraph#readme",
     "globals": {
       "__DEV__": true
@@ -127,6 +120,12 @@
         "<rootDir>/node_modules/react-test-renderer/",
         "<rootDir>/node_modules/react-addons-test-utils/"
       ]
+    },
+    "other": {
+      "author": "Viraj Parab",
+      "bugs": {
+        "url": "https://github.com/CrazyCompiler/directoryGraph/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -155,5 +154,6 @@
       "url": "https://api.github.com/repos/CrazyCompiler/directoryGraph/git/commits/e7c33cee492f8f1478b8635a0e6de2f5604ce085",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "CrazyCompiler___directoryGraph.json"
 }

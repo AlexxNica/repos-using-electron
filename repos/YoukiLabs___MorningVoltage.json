@@ -89,18 +89,17 @@
     "name": "MorningVoltage",
     "version": "0.0.1",
     "description": "An Electron App for your Morning Routine",
-    "repository": {
-      "type": "git",
-      "url": "https://www.github.com/YoukiLabs/MorningVoltage"
-    },
+    "repository": "https://www.github.com/YoukiLabs/MorningVoltage",
     "main": "main.js",
     "scripts": {
       "start": "./node_modules/.bin/electron ."
     },
-    "author": "Stéphane Labruyère <stephane@slabruyere.net> (http://www.slabruyere.net)",
     "license": "Apache-2.0",
     "devDependencies": {
       "electron": "^1.4.4"
+    },
+    "other": {
+      "author": "Stéphane Labruyère <stephane@slabruyere.net> (http://www.slabruyere.net)"
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/YoukiLabs/MorningVoltage/git/commits/292e3733b6c2efa23cad43eb5009ac467f5d15bd",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "YoukiLabs___MorningVoltage.json"
 }

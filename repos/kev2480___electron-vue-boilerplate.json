@@ -87,7 +87,6 @@
       "vuex:module": "node tasks/vuex/module.js",
       "postinstall": "npm run lint:fix && cd app && npm install"
     },
-    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -145,6 +144,9 @@
     },
     "dependencies": {
       "vue-material": "^0.2.0"
+    },
+    "other": {
+      "author": "Greg Holguin <simulatedgreg@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -170,5 +172,6 @@
       "url": "https://api.github.com/repos/kev2480/electron-vue-boilerplate/git/commits/867af125755a98fd64f7c9882389be9869264e52",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kev2480___electron-vue-boilerplate.json"
 }

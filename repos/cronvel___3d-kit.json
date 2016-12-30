@@ -56,9 +56,6 @@
     "version": "0.0.14",
     "description": "A small 3D kit using Three.js.",
     "main": "lib/tdk.js",
-    "directories": {
-      "test": "test"
-    },
     "dependencies": {
       "async-kit": "^1.0.0",
       "dom-kit": "^0.1.0",
@@ -78,17 +75,19 @@
       "install": "electron-rebuild",
       "test": "mocha -R dot"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/cronvel/3d-kit.git"
-    },
+    "repository": "https://github.com/cronvel/3d-kit",
     "keywords": [
       "3D"
     ],
-    "author": "Cédric Ronvel",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/cronvel/3d-kit/issues"
+    "other": {
+      "author": "Cédric Ronvel",
+      "bugs": {
+        "url": "https://github.com/cronvel/3d-kit/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -116,5 +115,6 @@
       "url": "https://api.github.com/repos/cronvel/3d-kit/git/commits/b386e9f5abd08dd65e096d6d84267e32dd680e25",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cronvel___3d-kit.json"
 }

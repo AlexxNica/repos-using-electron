@@ -80,11 +80,7 @@
       "compile": "rm -rf build/ && webpack",
       "start": "npm run compile && electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/JimFung/yareb.git"
-    },
-    "author": "JimFung(@psisous)",
+    "repository": "https://github.com/JimFung/yareb",
     "license": "MIT",
     "dependencies": {
       "react": "^15.3.2",
@@ -102,6 +98,9 @@
       "nodemon": "^1.11.0",
       "style-loader": "^0.13.1",
       "webpack": "^1.13.2"
+    },
+    "other": {
+      "author": "JimFung(@psisous)"
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/JimFung/yareb/git/commits/c45453b735827b2d4ac70005b44466a19b1a38ea",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "JimFung___yareb.json"
 }

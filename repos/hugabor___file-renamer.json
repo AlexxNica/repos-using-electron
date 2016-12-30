@@ -80,20 +80,19 @@
       "test": "electron ./app/index.js",
       "build": "node build.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/hugabor/file-renamer.git"
-    },
-    "author": "hugabor",
+    "repository": "https://github.com/hugabor/file-renamer",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/hugabor/file-renamer/issues"
-    },
     "homepage": "https://github.com/hugabor/file-renamer#readme",
     "devDependencies": {
       "electron": "^1.3.5",
       "electron-packager": "^8.0.0",
       "jquery": "^3.1.0"
+    },
+    "other": {
+      "author": "hugabor",
+      "bugs": {
+        "url": "https://github.com/hugabor/file-renamer/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -121,5 +120,6 @@
       "url": "https://api.github.com/repos/hugabor/file-renamer/git/commits/1e9be128b73d63a8d4578e340a3d9af300f1d69c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hugabor___file-renamer.json"
 }

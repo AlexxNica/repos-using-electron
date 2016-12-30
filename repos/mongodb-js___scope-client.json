@@ -69,12 +69,8 @@
     "name": "mongodb-scope-client",
     "description": "A client for mongodb-scope-server that works in the browser or a server.",
     "version": "0.11.0",
-    "author": "Lucas Hrabovsky <lucas@mongodb.com> (http://imlucas.com)",
     "homepage": "http://github.com/mongodb-js/scope-client",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/mongodb-js/scope-client.git"
-    },
+    "repository": "https://github.com/mongodb-js/scope-client",
     "dependency-check": {
       "ignore": [
         "mongodb-datasets"
@@ -137,6 +133,9 @@
       "pre-commit": "^1.1.2",
       "through2": "^2.0.0",
       "zuul": "^3.9.0"
+    },
+    "other": {
+      "author": "Lucas Hrabovsky <lucas@mongodb.com> (http://imlucas.com)"
     }
   },
   "packageStatus": 200,
@@ -169,5 +168,6 @@
       "url": "https://api.github.com/repos/mongodb-js/scope-client/git/commits/f26705ff35b74a95647200fa04c3590dd77f9324",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mongodb-js___scope-client.json"
 }

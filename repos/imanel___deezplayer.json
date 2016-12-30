@@ -68,13 +68,9 @@
   "packageJSON": {
     "name": "DeezPlayer",
     "description": "Best way to experience Deezer",
-    "author": "Bernard Potocki <bernard.potocki@imanel.org>",
     "homepage": "https://deezplayer.imanel.org",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/imanel/DeezPlayer.git"
-    },
+    "repository": "https://github.com/imanel/DeezPlayer",
     "scripts": {
       "start": "electron ./app --enable-logging",
       "build": "npm run build-linux && npm run build-mac && npm run build-windows",
@@ -105,6 +101,9 @@
       "win": {
         "target": "nsis"
       }
+    },
+    "other": {
+      "author": "Bernard Potocki <bernard.potocki@imanel.org>"
     }
   },
   "packageStatus": 200,
@@ -133,5 +132,6 @@
       "url": "https://api.github.com/repos/imanel/deezplayer/git/commits/09dce11c99d91504b220b417c87f5fa28522e5e0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "imanel___deezplayer.json"
 }

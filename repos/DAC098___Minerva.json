@@ -78,20 +78,13 @@
       "start-mongo": "mongodb\\bin\\mongo.exe minerva",
       "b-watch": "./node_modules/.bin/gulp"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/DAC098/Minerva.git"
-    },
+    "repository": "https://github.com/DAC098/Minerva",
     "keywords": [
       "password",
       "accounts",
       "manager"
     ],
-    "author": "David Cathers",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/DAC098/Minerva/issues"
-    },
     "homepage": "https://github.com/DAC098/Minerva#readme",
     "dependencies": {
       "chalk": "^1.1.3",
@@ -116,6 +109,12 @@
       "gulp-util": "^3.0.7",
       "gulp-watch": "^4.3.8",
       "mocha": "^2.5.3"
+    },
+    "other": {
+      "author": "David Cathers",
+      "bugs": {
+        "url": "https://github.com/DAC098/Minerva/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -143,5 +142,6 @@
       "url": "https://api.github.com/repos/DAC098/Minerva/git/commits/56b7e3b8f4189b381c893e9820dba9df7eee0a6e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DAC098___Minerva.json"
 }

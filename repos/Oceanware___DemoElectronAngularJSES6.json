@@ -72,17 +72,7 @@
       "build-windows": "electron-packager ./build-publish ElectronAngular --app-version=1.0.0 --version=1.2.5 --asar=true --platform=win32  --arch=ia32 --overwrite --out ./build",
       "build-mac": "electron-packager ./build-publish ElectronAngular     --app-version=1.0.0 --version=1.2.5 --asar=true --platform=darwin --arch=x64  --overwrite --out ./build"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/Oceanware/electronangularjses6.git"
-    },
-    "author": {
-      "name": "Karl Shifflett",
-      "url": "http://oceanware.wordpress.com"
-    },
-    "bugs": {
-      "url": "https://github.com/oceanware/electronangularjses6"
-    },
+    "repository": "https://github.com/Oceanware/electronangularjses6",
     "homepage": "https://github.com/oceanware/electronangularjses6",
     "keywords": [
       "electron",
@@ -141,6 +131,15 @@
         "babel-runtime": "npm:babel-runtime@^5.8.24",
         "core-js": "npm:core-js@^1.1.4"
       }
+    },
+    "other": {
+      "author": {
+        "name": "Karl Shifflett",
+        "url": "http://oceanware.wordpress.com"
+      },
+      "bugs": {
+        "url": "https://github.com/oceanware/electronangularjses6"
+      }
     }
   },
   "packageStatus": 200,
@@ -168,5 +167,6 @@
       "url": "https://api.github.com/repos/Oceanware/ElectronAngularJSES6/git/commits/f6ac9e46b60a40e387d9b40e2afe353ce2901981",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Oceanware___DemoElectronAngularJSES6.json"
 }

@@ -62,20 +62,13 @@
       "lint": "eslint .",
       "package": "electron-packager ./ Glazba --all --out ~/Desktop/Glazba --version 0.37.2 --overwrite --icon=./app/img/icon.png"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/skylerto/Glazba.git"
-    },
+    "repository": "https://github.com/skylerto/Glazba",
     "keywords": [
       "Electron",
       "Developer",
       "Talks"
     ],
-    "author": "Skyler Layne <skylerclayne@gmail.com> (http://www.skylerlayne.me)",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/skylerto/Glazba/issues"
-    },
     "homepage": "https://github.com/skylerto/Glazba#readme",
     "dependencies": {
       "youtube-dl": "1.10.5",
@@ -90,6 +83,12 @@
     },
     "eslintConfig": {
       "extends": "airbnb"
+    },
+    "other": {
+      "author": "Skyler Layne <skylerclayne@gmail.com> (http://www.skylerlayne.me)",
+      "bugs": {
+        "url": "https://github.com/skylerto/Glazba/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -117,5 +116,6 @@
       "url": "https://api.github.com/repos/skylerto/Glazba/git/commits/a277e2161fb397bbcef67434af75857948d723bf",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "skylerto___Glazba.json"
 }

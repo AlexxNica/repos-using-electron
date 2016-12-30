@@ -184,7 +184,6 @@
     "appBundleId": "io.yeoman.app",
     "helperBundleId": "io.yeoman.app.helper",
     "description": "An app made with Electron that scaffolds projects using Yeoman",
-    "author": "The Yeoman Team",
     "main": "src/browser/main.js",
     "dependencies": {
       "array.prototype.findindex": "^1.0.0",
@@ -234,7 +233,10 @@
       "test": "scripts/test.js",
       "build": "electron-compile --target ./cache src/ static/ && node scripts/build.js"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "other": {
+      "author": "The Yeoman Team"
+    }
   },
   "packageStatus": 200,
   "contributors": [

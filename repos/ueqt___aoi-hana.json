@@ -73,22 +73,15 @@
       "build:win32": "npm run prebuild && ./scripts/build.sh win32 ia32",
       "build:win64": "npm run prebuild && ./scripts/build.sh win32 x64"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/ueqt/aoi-hana.git"
-    },
+    "repository": "https://github.com/ueqt/aoi-hana",
     "keywords": [
       "Electron",
       "aoi",
       "hana",
       "history"
     ],
-    "author": "ueqt",
     "mail": "ueqtxu@gmail.com",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ueqt/aoi-hana/issues"
-    },
     "homepage": "https://github.com/ueqt/aoi-hana#readme",
     "dependencies": {
       "electron-debug": "latest",
@@ -102,6 +95,12 @@
       "silence-chromium": "latest",
       "stylus": "latest",
       "uglifyjs": "latest"
+    },
+    "other": {
+      "author": "ueqt",
+      "bugs": {
+        "url": "https://github.com/ueqt/aoi-hana/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/ueqt/aoi-hana/git/commits/6b21cc6de851925b2c99201b2609382ca522fb98",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ueqt___aoi-hana.json"
 }

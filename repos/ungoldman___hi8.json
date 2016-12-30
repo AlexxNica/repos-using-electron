@@ -75,12 +75,8 @@
     "name": "hi8",
     "description": "See Earth from Himawari-8 on your desktop every 10 minutes.",
     "version": "0.1.2",
-    "author": "Nate Goldman <ungoldman@gmail.com>",
     "bin": {
       "hi8": "./bin.js"
-    },
-    "bugs": {
-      "url": "https://github.com/ungoldman/hi8/issues"
     },
     "dependencies": {
       "daemon": "^1.1.0",
@@ -109,10 +105,7 @@
     ],
     "license": "ISC",
     "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/ungoldman/hi8.git"
-    },
+    "repository": "https://github.com/ungoldman/hi8",
     "scripts": {
       "gh-pages": "npm run site && gh-pages -d site",
       "preview": "npm-run-all site --parallel serve:*",
@@ -124,6 +117,12 @@
       "site:img": "cp -R assets/ site/assets/",
       "start": "electron .",
       "test": "standard"
+    },
+    "other": {
+      "author": "Nate Goldman <ungoldman@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/ungoldman/hi8/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -152,5 +151,6 @@
       "url": "https://api.github.com/repos/ungoldman/hi8/git/commits/162181845c226a3ae3b9a8747a52af0125a8d47c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ungoldman___hi8.json"
 }

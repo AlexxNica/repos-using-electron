@@ -75,19 +75,12 @@
       "demo": "npm run build && npm run build_demo && electron ./demo",
       "start": "npm run demo"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/angular/angular-electron.git"
-    },
+    "repository": "https://github.com/angular/angular-electron",
     "keywords": [
       "Angular2",
       "Electron"
     ],
-    "author": "Rob Wormald <robwormald@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/angular/angular-electron/issues"
-    },
     "homepage": "https://github.com/angular/angular-electron#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.2",
@@ -99,6 +92,12 @@
     },
     "dependencies": {
       "parse5": "^1.5.1"
+    },
+    "other": {
+      "author": "Rob Wormald <robwormald@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/angular/angular-electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -149,5 +148,6 @@
       "url": "https://api.github.com/repos/angular/angular-electron/git/commits/eff42f5a451d6fbf2f299490a84e7570fa750a61",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "angular___angular-electron.json"
 }

@@ -76,24 +76,23 @@
       "elm:build": "node ./node_modules/elm/binwrappers/elm make ./src/Main.elm --output ./build/app.js",
       "test": "node ./node_modules/electron/cli.js index.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/caryhaynie/elm-electron.git"
-    },
+    "repository": "https://github.com/caryhaynie/elm-electron",
     "keywords": [
       "elm",
       "electron"
     ],
-    "author": "Cary Haynie <cary.haynie@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/caryhaynie/elm-electron/issues"
-    },
     "homepage": "https://github.com/caryhaynie/elm-electron#readme",
     "devDependencies": {
       "copy-dir": "^0.3.0",
       "electron": "^1.3.5",
       "elm": "^0.17.1"
+    },
+    "other": {
+      "author": "Cary Haynie <cary.haynie@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/caryhaynie/elm-electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -121,5 +120,6 @@
       "url": "https://api.github.com/repos/caryhaynie/elm-electron/git/commits/421b6a8e5c32fbd293d62f6ef587ab647fe8ffd6",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "caryhaynie___elm-electron.json"
 }

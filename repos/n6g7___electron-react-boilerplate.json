@@ -70,26 +70,19 @@
     "version": "0.0.1",
     "description": "A boilerplate for Electron/React applications",
     "main": "app/bundle.main.js",
-    "author": "Nathan G <n6g7@gnab.fr>",
     "scripts": {
       "pretest": "eslint --ext js,jsx src test",
       "test": "mocha --compilers js:babel-core/register --require test/helper.js --recursive",
       "start": "electron .",
       "build": "webpack && rm -r dist && build -mwl"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/n6g7/electron-react-boilerplate.git"
-    },
+    "repository": "https://github.com/n6g7/electron-react-boilerplate",
     "keywords": [
       "electron",
       "react",
       "boilerplate",
       "webpack"
     ],
-    "bugs": {
-      "url": "https://github.com/n6g7/electron-react-boilerplate/issues"
-    },
     "homepage": "https://github.com/n6g7/electron-react-boilerplate#readme",
     "dependencies": {
       "react": "^15.1.0",
@@ -146,6 +139,12 @@
     "build": {
       "appId": "fr.gnab.electron-react-boilerplate",
       "app-category-type": "public.app-category.developer-tools"
+    },
+    "other": {
+      "author": "Nathan G <n6g7@gnab.fr>",
+      "bugs": {
+        "url": "https://github.com/n6g7/electron-react-boilerplate/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -173,5 +172,6 @@
       "url": "https://api.github.com/repos/n6g7/electron-react-boilerplate/git/commits/3a15cba022ac767905f2e3e6fdc64adf59ab0440",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "n6g7___electron-react-boilerplate.json"
 }

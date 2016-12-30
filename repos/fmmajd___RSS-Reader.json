@@ -78,10 +78,7 @@
       "start": "electron .",
       "postinstall": "bash postinstall.sh"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/fmmajd/RSS-Reader"
-    },
+    "repository": "https://github.com/fmmajd/RSS-Reader",
     "keywords": [
       "rss",
       "reader",
@@ -91,7 +88,6 @@
       "linux",
       "windows"
     ],
-    "author": "Fatemeh Majd",
     "license": "ISC",
     "devDependencies": {
       "babel-core": "^6.14.0",
@@ -118,6 +114,9 @@
       "react": "^15.3.2",
       "react-dom": "^15.3.2",
       "react-fontawesome": "^1.2.0"
+    },
+    "other": {
+      "author": "Fatemeh Majd"
     }
   },
   "packageStatus": 200,
@@ -145,5 +144,6 @@
       "url": "https://api.github.com/repos/fmmajd/RSS-Reader/git/commits/50d7198733121e94e0198c995526913bdb25b8e7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "fmmajd___RSS-Reader.json"
 }

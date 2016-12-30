@@ -74,19 +74,12 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/allencoded/electron-roll20.git"
-    },
+    "repository": "https://github.com/allencoded/electron-roll20",
     "keywords": [
       "roll20",
       "electron"
     ],
-    "author": "Allen Hendricks",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/allencoded/electron-roll20/issues"
-    },
     "homepage": "https://github.com/allencoded/electron-roll20#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.7",
@@ -101,6 +94,12 @@
         "babel": "npm:babel-core@^5.8.24",
         "babel-runtime": "npm:babel-runtime@^5.8.24",
         "core-js": "npm:core-js@^1.1.4"
+      }
+    },
+    "other": {
+      "author": "Allen Hendricks",
+      "bugs": {
+        "url": "https://github.com/allencoded/electron-roll20/issues"
       }
     }
   },
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/allencoded/electron-roll20/git/commits/1635bab4d51cb178b84ec5748e69b4dc5525a40d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "allencoded___electron-roll20.json"
 }

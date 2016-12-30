@@ -82,19 +82,12 @@
       "app": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/joostory/editor.git"
-    },
+    "repository": "https://github.com/joostory/editor",
     "keywords": [
       "editor",
       "tistory"
     ],
-    "author": "Joo",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/joostory/editor/issues"
-    },
     "homepage": "https://github.com/joostory/editor#readme",
     "devDependencies": {
       "babel-core": "^6.11.4",
@@ -120,6 +113,12 @@
       "redux-logger": "^2.6.1",
       "redux-thunk": "^2.1.0",
       "whatwg-fetch": "^1.0.0"
+    },
+    "other": {
+      "author": "Joo",
+      "bugs": {
+        "url": "https://github.com/joostory/editor/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -147,5 +146,6 @@
       "url": "https://api.github.com/repos/joostory/tistory-editor/git/commits/f61b9aa5cd36a919fbb78fbf86be4db59391b824",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "joostory___tistory-editor.json"
 }

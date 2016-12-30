@@ -69,10 +69,6 @@
     "name": "sulu",
     "description": "A hackable file manager",
     "version": "0.0.13",
-    "author": "Stephan Ahlf <stephan.ahlf@gmail.com>",
-    "bugs": {
-      "url": "https://github.com/s-a/sulu/issues"
-    },
     "homepage": "https://github.com/s-a/sulu",
     "keywords": [],
     "license": "",
@@ -117,6 +113,12 @@
     "dependencies": {
       "electron-builder": "^5.4.1",
       "electron-packager": "^7.0.4"
+    },
+    "other": {
+      "author": "Stephan Ahlf <stephan.ahlf@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/s-a/sulu/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -144,5 +146,6 @@
       "url": "https://api.github.com/repos/sulu-one/sulu/git/commits/ed91af231dd558d55f35edb291ba6e99c2800d54",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sulu-one___sulu.json"
 }

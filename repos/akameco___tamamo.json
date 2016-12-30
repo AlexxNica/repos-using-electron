@@ -78,18 +78,11 @@
       "install": "npm run dest && npm run build",
       "test": "ava"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/akameco/tamamo.git"
-    },
+    "repository": "https://github.com/akameco/tamamo",
     "keywords": [
       "twitter"
     ],
-    "author": "akameco",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/akameco/tamamo/issues"
-    },
     "homepage": "https://github.com/akameco/tamamo#readme",
     "dependencies": {
       "electron-debug": "^0.5.0",
@@ -115,6 +108,12 @@
         "browser"
       ],
       "space": true
+    },
+    "other": {
+      "author": "akameco",
+      "bugs": {
+        "url": "https://github.com/akameco/tamamo/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -142,5 +141,6 @@
       "url": "https://api.github.com/repos/akameco/tamamo/git/commits/5fcd495cd18c24d9a46651f2555eb612144452d9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "akameco___tamamo.json"
 }

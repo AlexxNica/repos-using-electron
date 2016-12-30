@@ -84,10 +84,7 @@
     "productName": "Stemn",
     "version": "0.0.11",
     "description": "Engineering Versioning and Project Management",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/Stemn/Stemn-Desktop"
-    },
+    "repository": "https://github.com/Stemn/Stemn-Desktop",
     "main": "dist/main/index.js",
     "scripts": {
       "test": "cross-env NODE_ENV=test mocha --compilers js:babel-register --recursive --require ./test/setup.js test/**/*.spec.js",
@@ -162,10 +159,6 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "author": {
-      "name": "STEMN Pty Ltd",
-      "email": "desktop@stemn.com"
-    },
     "license": "MIT",
     "keywords": [
       "project management",
@@ -175,10 +168,6 @@
       "science"
     ],
     "homepage": "https://stemn.com",
-    "bugs": {
-      "url": "https://github.com/Stemn/Stemn-Desktop/issues",
-      "email": "bugs@stemn.com"
-    },
     "dependencies": {
       "asar": "^0.11.0",
       "babel-core": "^6.11.4",
@@ -270,14 +259,24 @@
         ]
       }
     },
-    "directories": {
-      "app": "./dist/",
-      "output": "./release/"
-    },
     "devDependencies": {
       "cross-env": "^1.0.8",
       "electron": "^1.4.4",
       "electron-builder": "^7.3.0"
+    },
+    "other": {
+      "author": {
+        "name": "STEMN Pty Ltd",
+        "email": "desktop@stemn.com"
+      },
+      "bugs": {
+        "url": "https://github.com/Stemn/Stemn-Desktop/issues",
+        "email": "bugs@stemn.com"
+      },
+      "directories": {
+        "app": "./dist/",
+        "output": "./release/"
+      }
     }
   },
   "packageStatus": 200,
@@ -308,5 +307,6 @@
       "url": "https://api.github.com/repos/Stemn/Stemn-Desktop/git/commits/dec15f6f85e0f613870df818ddb77d27edc5a75c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Stemn___Stemn-Desktop.json"
 }

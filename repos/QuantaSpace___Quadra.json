@@ -82,20 +82,19 @@
       "watch": "stylus -w -c src/windows/styles",
       "package": "electron-packager . Quadra --platform=darwin --arch=all --version=1.2.7 --icon=quadra.icns --app-bundle-id=quantaspace --ignore=node_modules/eslint/ --ignore=node_modules/eslint-plugin-react/ --ignore=node_modules/.bin/"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://Phantr4x@github.com/QuantaSpace/Quadra.git"
-    },
+    "repository": "https://github.com/QuantaSpace/Quadra",
     "keywords": [
       "Electron",
       "GTD"
     ],
-    "author": "Phantr4x",
     "license": "GPL-3.0+",
-    "bugs": {
-      "url": "https://github.com/QuantaSpace/Quadra/issues"
-    },
-    "homepage": "https://github.com/QuantaSpace/Quadra#readme"
+    "homepage": "https://github.com/QuantaSpace/Quadra#readme",
+    "other": {
+      "author": "Phantr4x",
+      "bugs": {
+        "url": "https://github.com/QuantaSpace/Quadra/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -122,5 +121,6 @@
       "url": "https://api.github.com/repos/QuantaSpace/Quadra/git/commits/cc975dc1c518f8af4fefeece66e7274c4635782a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "QuantaSpace___Quadra.json"
 }

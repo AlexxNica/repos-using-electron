@@ -81,22 +81,21 @@
       "build": "node packager.config.js",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/changami/froghouse-lightning-talk-electron.git"
-    },
+    "repository": "https://github.com/changami/froghouse-lightning-talk-electron",
     "keywords": [
       "Electron"
     ],
-    "author": "chan_gami",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/changami/froghouse-lightning-talk-electron/issues"
-    },
     "homepage": "https://github.com/changami/froghouse-lightning-talk-electron#readme",
     "devDependencies": {
       "electron-packager": "^7.6.0",
       "electron-prebuilt": "^1.3.3"
+    },
+    "other": {
+      "author": "chan_gami",
+      "bugs": {
+        "url": "https://github.com/changami/froghouse-lightning-talk-electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -124,5 +123,6 @@
       "url": "https://api.github.com/repos/changami/froghouse-lightning-talk-electron/git/commits/3bd8ff68ce339c02fca79a0accafff7647627b22",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "changami___froghouse-lightning-talk-electron.json"
 }

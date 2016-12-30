@@ -203,7 +203,6 @@
       "all": "run-s dist release deploy",
       "reload": "live-reload app --port 35729"
     },
-    "author": "Vjekoslav Ratkajec",
     "devDependencies": {
       "copyfiles": "~1.0.0",
       "electron-builder": "5.12.X",
@@ -239,7 +238,9 @@
         "iconUrl": "http://eatodo.s3.amazonaws.com/icon.ico"
       }
     },
-    "other": {}
+    "other": {
+      "author": "Vjekoslav Ratkajec"
+    }
   },
   "packageStatus": 200,
   "contributors": [

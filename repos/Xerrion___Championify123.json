@@ -61,14 +61,10 @@
       "build": "./node_modules/.bin/gulp build",
       "postinstall": "./node_modules/.bin/gulp setup"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/dustinblackman/Championify.git"
-    },
+    "repository": "https://github.com/dustinblackman/Championify",
     "engines": {
       "iojs": "1.6.3"
     },
-    "author": "Dustin Blackman",
     "license": "MIT",
     "electron-deps": [
       "glob",
@@ -120,6 +116,9 @@
       "run-sequence": "^1.1.0",
       "vinyl-buffer": "^1.0.0",
       "vinyl-source-stream": "^1.1.0"
+    },
+    "other": {
+      "author": "Dustin Blackman"
     }
   },
   "packageStatus": 200,
@@ -147,5 +146,6 @@
       "url": "https://api.github.com/repos/Xerrion/Championify123/git/commits/93ec2795aa886c459297d19d4dedc936ab4cb29d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Xerrion___Championify123.json"
 }

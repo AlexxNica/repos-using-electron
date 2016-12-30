@@ -53,23 +53,13 @@
   "status": 200,
   "packageJSON": {
     "name": "read-all-later",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/azu/read-all-later.git"
-    },
-    "author": "azu",
+    "repository": "https://github.com/azu/read-all-later",
     "email": "azuciao@gmail.com",
     "homepage": "https://github.com/azu/read-all-later",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/azu/read-all-later/issues"
-    },
     "version": "1.0.3",
     "description": "item url to pocket",
     "main": "index.js",
-    "directories": {
-      "test": "test"
-    },
     "scripts": {
       "start": "electron .",
       "test": "mocha",
@@ -111,6 +101,15 @@
       "react-dom": "^0.14.3",
       "react-select": "^0.9.1",
       "strip-utm": "^1.0.0"
+    },
+    "other": {
+      "author": "azu",
+      "bugs": {
+        "url": "https://github.com/azu/read-all-later/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -138,5 +137,6 @@
       "url": "https://api.github.com/repos/azu/read-all-later/git/commits/57941b789afbb9d113814d61f92b1bcb6f503a0e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "azu___read-all-later.json"
 }

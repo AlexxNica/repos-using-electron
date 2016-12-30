@@ -86,7 +86,6 @@
       "build-all": "npm run clean && npm run exe32 && npm run set32 && npm run exe64 && npm run set64"
     },
     "license": "MIT",
-    "author": "Mike Graham <mgraham@technicalmedia.com> (http://cmichaelgraham.io)",
     "main": "main.js",
     "repository": {
       "user": "plotter",
@@ -122,6 +121,9 @@
       "text": "github:requirejs/text",
       "tslint": "^3.11.0",
       "typescript": ">=1.9.0-dev || ^2.0.0"
+    },
+    "other": {
+      "author": "Mike Graham <mgraham@technicalmedia.com> (http://cmichaelgraham.io)"
     }
   },
   "packageStatus": 200,

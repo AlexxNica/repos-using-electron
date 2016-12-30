@@ -108,19 +108,8 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/abakusbackup/abacash-client.git"
-    },
-    "author": {
-      "name": "Abakus Backup",
-      "email": "backup@abakus.no",
-      "url": "https://github.com/abakusbackup"
-    },
+    "repository": "https://github.com/abakusbackup/abacash-client",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/abakusbackup/abacash-client/issues"
-    },
     "keywords": [
       "Abakus",
       "AbaCash"
@@ -210,6 +199,16 @@
     "devEngines": {
       "node": "4.x || 5.x || 6.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Abakus Backup",
+        "email": "backup@abakus.no",
+        "url": "https://github.com/abakusbackup"
+      },
+      "bugs": {
+        "url": "https://github.com/abakusbackup/abacash-client/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -239,5 +238,6 @@
       "url": "https://api.github.com/repos/abakusbackup/abacash-client/git/commits/1cc29fc74d4a17393570ddf4b670a2c7da0d8597",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "abakusbackup___abacash-client.json"
 }

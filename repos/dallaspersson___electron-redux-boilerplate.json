@@ -55,14 +55,8 @@
       "test": "NODE_ENV=test mocha --recursive --compilers js:babel-core/register --require ./test/setup.js",
       "test:watch": "npm test -- --watch"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/dallaspersson/electron-redux-boilerplate.git"
-    },
+    "repository": "https://github.com/dallaspersson/electron-redux-boilerplate",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/dallaspersson/electron-redux-boilerplate.git/issues"
-    },
     "dependencies": {
       "electron-prebuilt": "^0.36.2",
       "react": "^0.14.0",
@@ -86,6 +80,11 @@
       "webpack-dev-middleware": "^1.2.0",
       "webpack-hot-middleware": "^2.2.0",
       "webpack-target-electron-renderer": "^0.3.0"
+    },
+    "other": {
+      "bugs": {
+        "url": "https://github.com/dallaspersson/electron-redux-boilerplate.git/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -113,5 +112,6 @@
       "url": "https://api.github.com/repos/dallaspersson/electron-redux-boilerplate/git/commits/94989f01277a9cac97f7446da9f2c2ec556d7c6d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dallaspersson___electron-redux-boilerplate.json"
 }

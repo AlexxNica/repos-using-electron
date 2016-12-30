@@ -90,21 +90,14 @@
       "webpack:build": "cross-env NODE_ENV=production webpack -p --progress",
       "webpack:dev": "webpack-dev-server --progress --hot --port 4200"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/nileshmali/ssh-app.git"
-    },
+    "repository": "https://github.com/nileshmali/ssh-app",
     "keywords": [
       "ssh2",
       "electron",
       "desktop",
       "angular2"
     ],
-    "author": "Nilesh Mali",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/nileshmali/ssh-app/issues"
-    },
     "homepage": "https://github.com/nileshmali/ssh-app#readme",
     "devDependencies": {
       "@angular/common": "2.1.2",
@@ -187,6 +180,12 @@
           "deb"
         ]
       }
+    },
+    "other": {
+      "author": "Nilesh Mali",
+      "bugs": {
+        "url": "https://github.com/nileshmali/ssh-app/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -214,5 +213,6 @@
       "url": "https://api.github.com/repos/nileshmali/ssh-app/git/commits/f39390a35b27f1b29f1d63577ca31f2ed0a2d484",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "nileshmali___ssh-app.json"
 }

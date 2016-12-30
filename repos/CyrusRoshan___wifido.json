@@ -79,10 +79,7 @@
       "start": "electron server.js",
       "lint": "eslint src"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/CyrusRoshan/wifido.git"
-    },
+    "repository": "https://github.com/CyrusRoshan/wifido",
     "keywords": [
       "wifido",
       "wifi",
@@ -90,11 +87,7 @@
       "connect",
       "free"
     ],
-    "author": "Cyrus Roshan <hello@cyrusroshan.com> (http://github.com/cyrusroshan)",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/CyrusRoshan/wifido/issues"
-    },
     "homepage": "https://github.com/CyrusRoshan/wifido/",
     "devDependencies": {},
     "dependencies": {
@@ -105,6 +98,12 @@
       "node-notifier": "^4.5.0",
       "ping-lite": "^1.0.1",
       "wifi-control": "^2.0.0"
+    },
+    "other": {
+      "author": "Cyrus Roshan <hello@cyrusroshan.com> (http://github.com/cyrusroshan)",
+      "bugs": {
+        "url": "https://github.com/CyrusRoshan/wifido/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -132,5 +131,6 @@
       "url": "https://api.github.com/repos/CyrusRoshan/wifido/git/commits/b8f4860fb19e6a99595eecf64c776a39897c4ead",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "CyrusRoshan___wifido.json"
 }

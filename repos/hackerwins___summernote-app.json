@@ -56,7 +56,6 @@
       "package": "electron-packager ./electron --platform=darwin --arch=all --version=1.3.3 --out ./dist --overwrite",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Hackerwins",
     "license": "ISC",
     "devDependencies": {
       "babel-core": "^6.4.5",
@@ -108,6 +107,9 @@
       "redux-thunk": "^2.0.1",
       "tlds": "^1.107.0",
       "whatwg-fetch": "^1.0.0"
+    },
+    "other": {
+      "author": "Hackerwins"
     }
   },
   "packageStatus": 200,

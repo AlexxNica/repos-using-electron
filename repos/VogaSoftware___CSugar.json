@@ -84,21 +84,14 @@
     "version": "2.3.2",
     "description": "Advanced step-in for caffine.",
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/VogaSoftware/csugar.git"
-    },
+    "repository": "https://github.com/VogaSoftware/csugar",
     "keywords": [
       "Caffine",
       "Sugar",
       "ElectronJS",
       "nyess"
     ],
-    "author": "Graham Dianaty (@gmdianaty)",
     "license": "None",
-    "bugs": {
-      "url": "https://github.com/VogaSoftware/csugar/issues"
-    },
     "homepage": "https://csugar.cf/",
     "devDependencies": {
       "electron-packager": "*",
@@ -106,6 +99,12 @@
     },
     "dependencies": {
       "electron": "*"
+    },
+    "other": {
+      "author": "Graham Dianaty (@gmdianaty)",
+      "bugs": {
+        "url": "https://github.com/VogaSoftware/csugar/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -133,5 +132,6 @@
       "url": "https://api.github.com/repos/VogaSoftware/CSugar/git/commits/a199d5da052f3463fde3fbae317d20008074707c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "VogaSoftware___CSugar.json"
 }

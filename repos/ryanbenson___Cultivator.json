@@ -69,7 +69,6 @@
     "name": "Cultivator",
     "description": "Youtube Downloader",
     "version": "1.0.0",
-    "author": "Ryan Benson",
     "main": "main.js",
     "devDependencies": {
       "electron-builder": "^5.14.2",
@@ -91,6 +90,9 @@
       "dist:osx": "./node_modules/.bin/build --platform darwin",
       "dist:win32": "./node_modules/.bin/build --platform win32 --arch ia32",
       "dist:win64": "./node_modules/.bin/build --platform win32 --arch x64"
+    },
+    "other": {
+      "author": "Ryan Benson"
     }
   },
   "packageStatus": 200,
@@ -118,5 +120,6 @@
       "url": "https://api.github.com/repos/ryanbenson/Cultivator/git/commits/77ac932fb2ac7a8dc83c902ed1b376a9984162d8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ryanbenson___Cultivator.json"
 }

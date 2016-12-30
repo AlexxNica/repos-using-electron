@@ -66,21 +66,14 @@
       "pack:osx": "npm run build:osx && ./node_modules/.bin/build \"build/osx/kiste-darwin-x64/Kiste.app\" --platform=osx --out=\"dist/osx\" --config=packager.json",
       "pack:win": "npm run build:win && ./node_modules/.bin/build \"build/win/kiste-win32-ia32\" --platform=win --out=\"dist/win\" --config=packager.json"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ashokfernandez/kiste.git"
-    },
+    "repository": "https://github.com/ashokfernandez/kiste",
     "keywords": [
       "Google",
       "Play",
       "Music",
       "Desktop"
     ],
-    "author": "Ashok Fernandez <ashok.fernandez@gmail.com> (https://ashokfernandez.wordpress.com/)",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ashokfernandez/kiste/issues"
-    },
     "homepage": "https://github.com/ashokfernandez/kiste#readme",
     "dependencies": {
       "babel-preset-es2015": "^6.3.13",
@@ -109,6 +102,12 @@
       "gulp-sass": "^2.3.1",
       "mocha": "^2.5.3",
       "run-sequence": "^1.2.1"
+    },
+    "other": {
+      "author": "Ashok Fernandez <ashok.fernandez@gmail.com> (https://ashokfernandez.wordpress.com/)",
+      "bugs": {
+        "url": "https://github.com/ashokfernandez/kiste/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,6 @@
       "url": "https://api.github.com/repos/ashokfernandez/kiste/git/commits/58659d604434d53df79e236954ddc8a602657252",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ashokfernandez___kiste.json"
 }

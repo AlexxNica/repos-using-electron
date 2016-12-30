@@ -76,7 +76,6 @@
       "postinstall": "npm run rebuild-sqlite3",
       "rebuild-sqlite3": "cd node_modules/sqlite3 && npm run prepublish && node-gyp configure --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-darwin-x64 && node-gyp rebuild --target=0.36.1 --arch=x64 --target_platform=darwin --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-darwin-x64"
     },
-    "author": "",
     "license": "MIT",
     "dependencies": {
       "babel-loader": "^6.2.4",
@@ -125,6 +124,9 @@
       "babel-preset-es2015": "^6.6.0",
       "babel-preset-react": "^6.5.0",
       "jsx-loader": "^0.13.2"
+    },
+    "other": {
+      "author": ""
     }
   },
   "packageStatus": 200,
@@ -152,5 +154,6 @@
       "url": "https://api.github.com/repos/theD1360/CygnusLoop/git/commits/11928c4705fc5eb7ce187dbe212aafe67b4365e0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "theD1360___CygnusLoop.json"
 }

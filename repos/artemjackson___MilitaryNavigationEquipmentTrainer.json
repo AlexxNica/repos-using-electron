@@ -78,7 +78,6 @@
       "win-pack": "electron-packager build/ NavEquipTrainer --platform=win32 --arch=all --version=0.33.3 --overwrite",
       "ales": "electron-packager SldrTrainer/ SldrTrainer --platform=win32 --arch=ia32 --version=0.33.3 --overwrite"
     },
-    "author": "Artsiom Stsepanishchau",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^5.8.25",
@@ -113,6 +112,9 @@
     "browserify-shim": {
       "angular": "global:angular",
       "moment": "global:moment"
+    },
+    "other": {
+      "author": "Artsiom Stsepanishchau"
     }
   },
   "packageStatus": 200,
@@ -138,5 +140,6 @@
       "url": "https://api.github.com/repos/artemjackson/MilitaryNavigationEquipmentTrainer/git/commits/159b5f736bed2c901e589ed9ff2c6ec78104584f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "artemjackson___MilitaryNavigationEquipmentTrainer.json"
 }

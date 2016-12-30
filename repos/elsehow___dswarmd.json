@@ -52,7 +52,6 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "author": "elsehow",
     "license": "BSD-3-Clause",
     "main": "lib.js",
     "bin": {
@@ -85,20 +84,20 @@
     "name": "dswarmd",
     "description": "device swarm daemon",
     "version": "2.0.0",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/elsehow/dswarmd.git"
-    },
+    "repository": "https://github.com/elsehow/dswarmd",
     "keywords": [
       "dswarm",
       "swarmlog",
       "hyperkv",
       "dns"
     ],
-    "bugs": {
-      "url": "https://github.com/elsehow/dswarmd/issues"
-    },
-    "homepage": "https://github.com/elsehow/dswarmd#readme"
+    "homepage": "https://github.com/elsehow/dswarmd#readme",
+    "other": {
+      "author": "elsehow",
+      "bugs": {
+        "url": "https://github.com/elsehow/dswarmd/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -125,5 +124,6 @@
       "url": "https://api.github.com/repos/elsehow/dswarmd/git/commits/711e71db8d89ba967f622cc30ba3ce81859179af",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "elsehow___dswarmd.json"
 }

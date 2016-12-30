@@ -56,7 +56,6 @@
       "dev": "./node_modules/.bin/gulp watch",
       "package-mac": "npm run compile && ./node_modules/.bin/electron-packager . 'Midas Player' --platform=darwin --arch=all --version=0.37.5 --icon=app.icns --build-version=0.1.4 --app-version=0.1.4 --ignore=src --prune --overwrite"
     },
-    "author": "Steven La <mrstevenla@gmail.com>",
     "license": "ISC",
     "dependencies": {
       "connect": "^3.4.1",
@@ -76,6 +75,9 @@
       "gulp-babel": "^6.1.2",
       "gulp-rename": "^1.2.2",
       "gulp-rimraf": "^0.2.0"
+    },
+    "other": {
+      "author": "Steven La <mrstevenla@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -103,5 +105,6 @@
       "url": "https://api.github.com/repos/stevenla/midas-player/git/commits/3fc5933f5ed65beabaaf13a80ac2d81d5a2b144d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "stevenla___midas-player.json"
 }

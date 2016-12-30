@@ -61,14 +61,10 @@
       "electron": "node ./node_modules/electron/cli.js .",
       "rebuild": "node ./node_modules/.bin/electron-rebuild"
     },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/dermike/slide-beacon-app.git"
-    },
+    "repository": "https://github.com/dermike/slide-beacon-app",
     "keywords": [
       "electron"
     ],
-    "author": "Mikael Jergefelt",
     "license": "ISC",
     "devDependencies": {
       "electron-packager": "8.1.0",
@@ -79,6 +75,9 @@
       "mdns": "2.3.3",
       "eddystone-beacon": "1.0.6",
       "ws": "1.1.1"
+    },
+    "other": {
+      "author": "Mikael Jergefelt"
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/dermike/slide-beacon-app/git/commits/fb22e962fc296e955c496d256dd20e674b920a45",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dermike___electron-slide-beacon.json"
 }

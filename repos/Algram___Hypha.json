@@ -60,21 +60,14 @@
       "start": "electron main.js",
       "gulp": "gulp"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/algram/hypha.git"
-    },
+    "repository": "https://github.com/algram/hypha",
     "keywords": [
       "hypha",
       "irc",
       "client",
       "electron"
     ],
-    "author": "GitHub",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/algram/hypha/issues"
-    },
     "homepage": "https://github.com/algram/hypha#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -83,6 +76,12 @@
     "dependencies": {
       "irc": "~0.4.0",
       "spellchecker": "~3.2.0"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/algram/hypha/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -133,5 +132,6 @@
       "url": "https://api.github.com/repos/Algram/Hypha/git/commits/c19f7ef27d4b1fd4bc967602f7aa2d8ae93d022b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Algram___Hypha.json"
 }

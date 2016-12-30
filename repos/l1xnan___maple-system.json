@@ -81,20 +81,13 @@
       "package": "electron-packager ./  OutApp  --platform=win32 --arch=x64 --overwrite --prune",
       "package-quick": "electron-packager ./app  Maple  --platform=win32 --arch=x64 --overwrite --icon=resource/icon/maple_512.ico --ignore='dev-settings'"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/l1xnan/maple-system.git"
-    },
+    "repository": "https://github.com/l1xnan/maple-system",
     "keywords": [
       "Electron",
       "antd",
       "react"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/l1xnan/maple-system.git"
-    },
     "homepage": "https://github.com/l1xnan/maple-system.git",
     "devDependencies": {
       "asar": "^0.12.1",
@@ -138,6 +131,12 @@
     "dependencies": {
       "mongoose": "^4.5.8",
       "nconf": "^0.8.4"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/l1xnan/maple-system.git"
+      }
     }
   },
   "packageStatus": 200,
@@ -165,5 +164,6 @@
       "url": "https://api.github.com/repos/l1xnan/maple-system/git/commits/65dd261a6e84d2a6a56d5f98c106d6d4f47a9093",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "l1xnan___maple-system.json"
 }

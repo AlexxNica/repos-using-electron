@@ -62,16 +62,9 @@
       "redux"
     ],
     "homepage": "https://github.com/ruiquelhas/electron-recipes#readme",
-    "bugs": {
-      "url": "https://github.com/ruiquelhas/electron-recipes/issues"
-    },
     "license": "MIT",
-    "author": "Rui Quelhas <rfpquelhas@gmail.com>",
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ruiquelhas/electron-recipes.git"
-    },
+    "repository": "https://github.com/ruiquelhas/electron-recipes",
     "scripts": {
       "cleanup": "rm -rf dist",
       "compile": "npm run cleanup && babel src --out-dir dist",
@@ -122,7 +115,13 @@
     },
     "pre-commit": [
       "lint"
-    ]
+    ],
+    "other": {
+      "author": "Rui Quelhas <rfpquelhas@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/ruiquelhas/electron-recipes/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/ruiquelhas/electron-recipes",
@@ -169,5 +168,6 @@
       "url": "https://api.github.com/repos/ruiquelhas/electron-recipes/git/commits/a4d1e98a948736a4f570daa7cb190379c27a1101",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ruiquelhas___electron-recipes.json"
 }

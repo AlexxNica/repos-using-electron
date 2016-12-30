@@ -84,16 +84,9 @@
       "prepackage:production": "rimraf -rf build",
       "package:production": "electron-packager . --out=build --icon=caffeinate_icon --platform=darwin --arch=x64"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/cdonohue/caffeine.git"
-    },
+    "repository": "https://github.com/cdonohue/caffeine",
     "keywords": [],
-    "author": "Chad Donohue <chad.donohue@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/cdonohue/caffeine/issues"
-    },
     "homepage": "https://github.com/cdonohue/caffeine#readme",
     "dependencies": {
       "babel-core": "6.13.2",
@@ -105,6 +98,12 @@
       "electron-packager": "7.5.1",
       "per-env": "1.0.2",
       "rimraf": "2.5.4"
+    },
+    "other": {
+      "author": "Chad Donohue <chad.donohue@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/cdonohue/caffeine/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -132,5 +131,6 @@
       "url": "https://api.github.com/repos/cdonohue/caffeinate/git/commits/55b12ddca4082a7d49c3bddf4e8bd2535b76f469",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cdonohue___caffeinate.json"
 }

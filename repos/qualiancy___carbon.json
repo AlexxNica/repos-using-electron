@@ -60,7 +60,6 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "author": "Jake Luer <jake@qualiancy.com>",
     "name": "carbon",
     "description": "Middleware based proxy for cluster or table based routing.",
     "keywords": [
@@ -71,13 +70,7 @@
     ],
     "license": "MIT",
     "version": "0.5.0",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/qualiancy/carbon.git"
-    },
-    "bugs": {
-      "url": "https://github.com/qualiancy/carbon/issues"
-    },
+    "repository": "https://github.com/qualiancy/carbon",
     "main": "./index",
     "bin": {
       "carbon": "./bin/carbon"
@@ -103,6 +96,12 @@
       "mocha": "*",
       "chai": "*",
       "chai-http": "*"
+    },
+    "other": {
+      "author": "Jake Luer <jake@qualiancy.com>",
+      "bugs": {
+        "url": "https://github.com/qualiancy/carbon/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -131,5 +130,6 @@
       "url": "https://api.github.com/repos/qualiancy/carbon/git/commits/40488b4edfc9a0a6b1087f5aa118c29bb69af1a1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "qualiancy___carbon.json"
 }

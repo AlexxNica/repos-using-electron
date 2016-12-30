@@ -75,9 +75,7 @@
     "name": "angular-seed-advanced",
     "version": "0.0.0",
     "description": "High-quality, modular starter (advanced seed) project for Angular 2 apps with statically typed build and AoT + NativeScript + Electron",
-    "repository": {
-      "url": "https://github.com/NathanWalker/angular-seed-advanced"
-    },
+    "repository": "https://github.com/NathanWalker/angular-seed-advanced",
     "scripts": {
       "build.desktop.mac": "rimraf desktop/mac/* && gulp desktop.mac",
       "build.desktop.windows": "rimraf desktop/windows/* && gulp desktop.windows",
@@ -132,7 +130,6 @@
       "webdriver-start": "node_modules/protractor/bin/webdriver-manager start",
       "webdriver-update": "node_modules/protractor/bin/webdriver-manager update"
     },
-    "author": "Minko Gechev <mgechev>",
     "contributors": [
       {
         "name": "Nathan Walker <NathanWalker>"
@@ -266,6 +263,9 @@
       "rxjs": "5.0.0-beta.12",
       "systemjs": "0.19.39",
       "zone.js": "0.6.25"
+    },
+    "other": {
+      "author": "Minko Gechev <mgechev>"
     }
   },
   "packageStatus": 200,
@@ -293,5 +293,6 @@
       "url": "https://api.github.com/repos/gerardovivanco/angular2-seed-advanced/git/commits/730fae2f891305321c42a81a338a76f0f1f9dfd9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "gerardovivanco___angular2-seed-advanced.json"
 }

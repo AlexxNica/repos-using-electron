@@ -66,7 +66,6 @@
   "subscribersCount": 7,
   "status": 200,
   "packageJSON": {
-    "author": "BugBusters <bugbusterswe@gmail.com>",
     "name": "chronoswe",
     "description": "A dashboard extensibile with plugin",
     "version": "0.0.1",
@@ -76,10 +75,7 @@
       "dashboard",
       "plugin"
     ],
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/BugBusterSWE/Chronos.git"
-    },
+    "repository": "https://github.com/BugBusterSWE/Chronos",
     "scripts": {
       "build": "tsc -p src/ && tsc -p src/gui/loader",
       "postinstall": "npm run build",
@@ -95,6 +91,9 @@
     },
     "devDependencies": {
       "electron-prebuilt": "^0.36.8"
+    },
+    "other": {
+      "author": "BugBusters <bugbusterswe@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -145,5 +144,6 @@
       "url": "https://api.github.com/repos/BugBusterSWE/Chronos/git/commits/1fbb3242cb9a08534b356f89ca71de9830b711b5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "BugBusterSWE___Chronos.json"
 }

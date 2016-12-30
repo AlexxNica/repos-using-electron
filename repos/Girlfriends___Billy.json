@@ -75,18 +75,11 @@
       "build": "babel src -d lib && cp src/*.html lib && rm -rf lib/pixijs && cp -r pixi.js/bin lib/pixijs",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Girlfriends/Billy.git"
-    },
+    "repository": "https://github.com/Girlfriends/Billy",
     "keywords": [
       "max"
     ],
-    "author": "Sam Tarakajian",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Girlfriends/Billy/issues"
-    },
     "homepage": "https://github.com/Girlfriends/Billy#readme",
     "devDependencies": {
       "babel-cli": "^6.6.5",
@@ -106,6 +99,12 @@
       "pixi": "https://github.com/drkibitz/node-pixi/archive/master.tar.gz",
       "redux": "^3.3.1",
       "tone": "^0.6.1"
+    },
+    "other": {
+      "author": "Sam Tarakajian",
+      "bugs": {
+        "url": "https://github.com/Girlfriends/Billy/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -133,5 +132,6 @@
       "url": "https://api.github.com/repos/Girlfriends/Billy/git/commits/a04a070dfb8e5beac7c09cb97ad685424db1676a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Girlfriends___Billy.json"
 }

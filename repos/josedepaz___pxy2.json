@@ -70,10 +70,6 @@
     "version": "0.0.0",
     "description": "Small description for pxy2 goes here",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -83,7 +79,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -153,6 +148,13 @@
         "ProductName": null,
         "InternalName": null
       }
+    },
+    "other": {
+      "author": "",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -180,5 +182,6 @@
       "url": "https://api.github.com/repos/josedepaz/pxy2/git/commits/f88259ee17b54f9449c36f12fb60adc8033e9bd1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "josedepaz___pxy2.json"
 }

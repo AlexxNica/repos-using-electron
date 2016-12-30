@@ -55,7 +55,6 @@
       "build": "webpack",
       "dev-start": "npm run build && npm run start"
     },
-    "author": "jdmorlan",
     "license": "ISC",
     "dependencies": {
       "electron-prebuilt": "^0.37.1",
@@ -79,6 +78,9 @@
       "style-loader": "^0.13.0",
       "webpack": "^1.12.14",
       "webpack-dev-server": "^1.14.1"
+    },
+    "other": {
+      "author": "jdmorlan"
     }
   },
   "packageStatus": 200,

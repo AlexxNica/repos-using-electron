@@ -55,11 +55,13 @@
       "clean": "rm -rf ./cowindow.app-*",
       "pack": "npm run clean; node_modules/.bin/electron-packager ./ cowindow.app --platform=darwin --arch=all --version=0.35.0"
     },
-    "author": "caa@livemail.tw",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-prebuilt": "^0.35.0",
       "electron-packager": "^5.1.1"
+    },
+    "other": {
+      "author": "caa@livemail.tw"
     }
   },
   "packageStatus": 200,
@@ -87,5 +89,6 @@
       "url": "https://api.github.com/repos/caa1211/electronjs-cowindow/git/commits/f235d6386a5827f3234d5f9e5adb9e65717662b6",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "caa1211___electronjs-cowindow.json"
 }

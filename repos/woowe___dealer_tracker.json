@@ -61,15 +61,11 @@
       "tsc:w": "tsc --target es6 --module es6 -w ./src/main.ts",
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/woowe/dealer_tracker.git"
-    },
+    "repository": "https://github.com/woowe/dealer_tracker",
     "keywords": [
       "Dealer",
       "Tracker"
     ],
-    "author": "Jason Cardinal",
     "license": "CC0-1.0",
     "dependencies": {
       "angular2": "2.0.0-beta.3",
@@ -87,6 +83,9 @@
       "concurrently": "^1.0.0",
       "electron-livereload": "0.0.2",
       "typescript": "^1.7.5"
+    },
+    "other": {
+      "author": "Jason Cardinal"
     }
   },
   "packageStatus": 200,
@@ -134,5 +133,6 @@
       "url": "https://api.github.com/repos/woowe/dealer_tracker/git/commits/d1181925d16a44a15fa7769cf48f1f856b399f96",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "woowe___dealer_tracker.json"
 }

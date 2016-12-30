@@ -55,9 +55,6 @@
     "name": "website-screenshot",
     "version": "1.0.1",
     "main": "src/index.js",
-    "bugs": {
-      "url": "https://github.com/bumbu/website-screenshot/issues"
-    },
     "description": "Make website screenshots",
     "homepage": "https://github.com/bumbu/website-screenshot",
     "license": "MIT",
@@ -72,7 +69,12 @@
       "cross-spawn": "^4.0.0",
       "electron": "1.3.4"
     },
-    "devDependencies": {}
+    "devDependencies": {},
+    "other": {
+      "bugs": {
+        "url": "https://github.com/bumbu/website-screenshot/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -99,5 +101,6 @@
       "url": "https://api.github.com/repos/bumbu/website-screenshot/git/commits/a0817a85261457f7ae8d6244bf895f40ab301589",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "bumbu___website-screenshot.json"
 }

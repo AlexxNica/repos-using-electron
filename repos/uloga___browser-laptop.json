@@ -202,9 +202,6 @@
       "flow": "flow; test $? -eq 0 -o $? -eq 2"
     },
     "repository": "brave/browser-laptop",
-    "author": {
-      "name": "Brave Developers <support+laptop@brave.com>"
-    },
     "contributors": [
       {
         "name": "Brian R. Bondy",
@@ -317,6 +314,11 @@
     "engineStrict": true,
     "engines": {
       "node": ">= 5.6.0"
+    },
+    "other": {
+      "author": {
+        "name": "Brave Developers <support+laptop@brave.com>"
+      }
     }
   },
   "packageStatus": 200,

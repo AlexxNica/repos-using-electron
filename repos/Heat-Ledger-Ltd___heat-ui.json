@@ -89,17 +89,10 @@
     "name": "heat",
     "version": "0.1.0",
     "description": "Heat Ledger Generic Client Framework",
-    "author": "Heat Ledger Ltd",
     "homepage": "http://heatledger.com",
     "license": "MIT",
     "main": "gulpfile.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Heat-Ledger-Ltd/heat-ui.git"
-    },
-    "bugs": {
-      "url": "https://github.com/Heat-Ledger-Ltd/heat-ui/issues"
-    },
+    "repository": "https://github.com/Heat-Ledger-Ltd/heat-ui",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron ."
@@ -165,9 +158,15 @@
         "desktop": ""
       }
     },
-    "directories": {
-      "output": "releases",
-      "app": "dist"
+    "other": {
+      "author": "Heat Ledger Ltd",
+      "bugs": {
+        "url": "https://github.com/Heat-Ledger-Ltd/heat-ui/issues"
+      },
+      "directories": {
+        "output": "releases",
+        "app": "dist"
+      }
     }
   },
   "packageStatus": 200,
@@ -197,5 +196,6 @@
       "url": "https://api.github.com/repos/Heat-Ledger-Ltd/heat-ui/git/commits/a093d5f035f7502ba2184414bc28b381b97ac694",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Heat-Ledger-Ltd___heat-ui.json"
 }

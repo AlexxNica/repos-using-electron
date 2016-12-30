@@ -71,16 +71,9 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/y-takey/shokushu.git"
-    },
+    "repository": "https://github.com/y-takey/shokushu",
     "keywords": [],
-    "author": "y-takey",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/y-takey/shokushu/issues"
-    },
     "homepage": "https://github.com/y-takey/shokushu#readme",
     "devDependencies": {
       "asar": "^0.9.0",
@@ -154,6 +147,12 @@
     "devEngines": {
       "node": "4.x || 5.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": "y-takey",
+      "bugs": {
+        "url": "https://github.com/y-takey/shokushu/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -181,5 +180,6 @@
       "url": "https://api.github.com/repos/y-takey/shokushu/git/commits/9234f3e54fe68e7f1b6bf9c736d0340d512a1310",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "y-takey___shokushu.json"
 }

@@ -61,7 +61,6 @@
       "start": "DEBUG=orange:* ./node_modules/electron-prebuilt/cli.js .",
       "bundle": "browserify --standalone AV bundles/aurora.js -o client/js/aurora.js"
     },
-    "author": "Pietro Paolo Vismara",
     "license": "ISC",
     "dependencies": {
       "angular": "^1.5.8",
@@ -93,6 +92,9 @@
     },
     "devDependencies": {
       "electron-rebuild": "^1.2.1"
+    },
+    "other": {
+      "author": "Pietro Paolo Vismara"
     }
   },
   "packageStatus": 200,
@@ -120,5 +122,6 @@
       "url": "https://api.github.com/repos/pietrovismara/orange/git/commits/8444747209f63c64393ad43a6f5af8447eb34a79",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "pietrovismara___orange.json"
 }

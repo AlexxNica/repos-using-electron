@@ -75,12 +75,8 @@
     "name": "retro-console",
     "version": "1.0.0",
     "description": "An anachronistic terminal emulator with a retro vibe",
-    "author": "jacob.h.page@gmail.com",
     "license": "Artistic-1.0",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/apoco/retro-console.git"
-    },
+    "repository": "https://github.com/apoco/retro-console",
     "dependencies": {
       "babel-preset-es2015": "^6.3.13",
       "babel-register": "^6.4.3",
@@ -96,6 +92,9 @@
       "start": "electron .",
       "build": "babel src -d lib",
       "build-watch": "babel src -d lib --watch"
+    },
+    "other": {
+      "author": "jacob.h.page@gmail.com"
     }
   },
   "packageStatus": 200,
@@ -123,5 +122,6 @@
       "url": "https://api.github.com/repos/apoco/retro-console/git/commits/4dd3da75058b5d5482644e955da7ce671b717fb7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "apoco___retro-console.json"
 }

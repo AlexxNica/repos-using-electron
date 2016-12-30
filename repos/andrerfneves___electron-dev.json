@@ -132,15 +132,8 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
-    },
-    "author": "C. T. Lin <chentsulin@gmail.com> (https://github.com/chentsulin)",
+    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
-    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -218,8 +211,14 @@
       "node": "4.x || 5.x",
       "npm": "2.x || 3.x"
     },
-    "directories": {
-      "test": "test"
+    "other": {
+      "author": "C. T. Lin <chentsulin@gmail.com> (https://github.com/chentsulin)",
+      "bugs": {
+        "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -247,5 +246,6 @@
       "url": "https://api.github.com/repos/andrerfneves/electron-dev/git/commits/40a14fbd4fd92594e9148960008db389ed549876",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "andrerfneves___electron-dev.json"
 }

@@ -80,15 +80,8 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "gulp | electron ./dist/client/index.html"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rjp2525/angular-sc.git"
-    },
-    "author": "rjp2525",
+    "repository": "https://github.com/rjp2525/angular-sc",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/rjp2525/angular-sc/issues"
-    },
     "homepage": "https://github.com/rjp2525/angular-sc#readme",
     "devDependencies": {
       "browser-sync": "^2.16.0",
@@ -102,6 +95,12 @@
       "angular": "^1.5.8",
       "angular-ui-router": "^1.0.0-beta.2",
       "gulp": "^3.9.1"
+    },
+    "other": {
+      "author": "rjp2525",
+      "bugs": {
+        "url": "https://github.com/rjp2525/angular-sc/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/rjp2525/angular-sc/git/commits/04d3e86068fe5a08b9d5437f110bccecbf91dea7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rjp2525___angular-sc.json"
 }
