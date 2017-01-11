@@ -78,22 +78,15 @@
       "test": "node_modules/.bin/mocha src/tests && npm run lint",
       "package": "rm -Rf meme-generator-* && ./node_modules/electron-packager/cli.js . --platform=win32 --arch=x64 --prune"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/frinyvonnick/electron-meme-generator.git"
-    },
+    "repository": "https://github.com/frinyvonnick/electron-meme-generator",
     "keywords": [
       "Electron",
       "meme"
     ],
-    "author": "FRIN Yvonnick <yvonnick.frin@zenika.com>",
     "contributors": [
       "Eric Briand <eric.briand@zenika.com>"
     ],
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/frinyvonnick/electron-meme-generator/issues"
-    },
     "dependencies": {
       "electron-connect": "0.4.5",
       "electron-json-storage": "2.0.0",
@@ -120,6 +113,12 @@
       ],
       "env": {
         "mocha": true
+      }
+    },
+    "other": {
+      "author": "FRIN Yvonnick <yvonnick.frin@zenika.com>",
+      "bugs": {
+        "url": "https://github.com/frinyvonnick/electron-meme-generator/issues"
       }
     }
   },
@@ -149,5 +148,6 @@
       "url": "https://api.github.com/repos/frinyvonnick/electron-meme-generator/git/commits/4d5d78092c3c98f9d3ce710f15fba56f9cbdef50",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "frinyvonnick___electron-meme-generator.json"
 }

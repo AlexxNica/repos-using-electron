@@ -89,21 +89,14 @@
       "build": "electron-packager . app --overwrite --platform linux --arch x64 --out dist/",
       "deb64": "electron-installer-debian --src dist/app-linux-x64/ --dest dist/installers/ --arch amd64 --config package.json"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/BlueWhaleRobot/PathDrawer.git"
-    },
+    "repository": "https://github.com/BlueWhaleRobot/PathDrawer",
     "keywords": [
       "path",
       "ORB_SLAM2",
       "map",
       "track"
     ],
-    "author": "BlueWhale",
     "license": "LGPL",
-    "bugs": {
-      "url": "https://github.com/BlueWhaleRobot/PathDrawer/issues"
-    },
     "homepage": "https://github.com/BlueWhaleRobot/PathDrawer#readme",
     "devDependencies": {
       "electron-prebuilt": "1.2.3",
@@ -118,7 +111,13 @@
       "128x128": "resources/Icon128x128.png",
       "256x256": "resources/Icon256x256.png"
     },
-    "bin": "pathdrawer"
+    "bin": "pathdrawer",
+    "other": {
+      "author": "BlueWhale",
+      "bugs": {
+        "url": "https://github.com/BlueWhaleRobot/PathDrawer/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -145,5 +144,6 @@
       "url": "https://api.github.com/repos/BlueWhaleRobot/PathDrawer/git/commits/c7803feed8026361432ca27ffd143ce15c1876ba",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "BlueWhaleRobot___PathDrawer.json"
 }

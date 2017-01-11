@@ -76,7 +76,6 @@
     "productName": "Astrolabe",
     "description": "Manage your GitHub Stars use One Desktop App",
     "version": "0.1.0",
-    "author": "xiaoluoboding <xiaoluoboding@gmail.com>",
     "scripts": {
       "postinstall": "cd app && npm install",
       "start": "node build/dev-runner.js",
@@ -155,6 +154,9 @@
       "webpack-externals-plugin": "1.0.0",
       "webpack-hot-middleware": "^2.6.0",
       "webpack-merge": "^0.8.3"
+    },
+    "other": {
+      "author": "xiaoluoboding <xiaoluoboding@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -182,5 +184,6 @@
       "url": "https://api.github.com/repos/xiaoluoboding/astrolabe/git/commits/f56ae39bf55e5ca44b3e044d0825d8004f8790ff",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "xiaoluoboding___astrolabe.json"
 }

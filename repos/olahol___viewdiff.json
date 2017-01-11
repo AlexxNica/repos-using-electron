@@ -62,7 +62,6 @@
       "build": "babel client.js > dist.js",
       "prepublish": "npm run build"
     },
-    "author": "Ola Holmström",
     "license": "ISC",
     "devDependencies": {
       "babel": "^5.8.23"
@@ -82,6 +81,9 @@
       "parse-diff": "^0.3.0",
       "react": "^0.14.0",
       "react-dom": "^0.14.0"
+    },
+    "other": {
+      "author": "Ola Holmström"
     }
   },
   "packageStatus": 200,
@@ -130,5 +132,6 @@
       "url": "https://api.github.com/repos/olahol/viewdiff/git/commits/773bf6cb2d270ea424c815dd92ccd66d5cd3a2a6",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "olahol___viewdiff.json"
 }

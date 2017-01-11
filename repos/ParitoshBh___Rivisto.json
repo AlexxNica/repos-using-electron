@@ -75,20 +75,13 @@
       "pack": "build --dir",
       "dist": "build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ParitoshBh/Rivisto.git"
-    },
+    "repository": "https://github.com/ParitoshBh/Rivisto",
     "keywords": [
       "note keeping",
       "notes",
       "personal"
     ],
-    "author": "Paritosh Bhatia <paritosh.bh@outlook.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ParitoshBh/Rivisto/issues"
-    },
     "homepage": "https://github.com/ParitoshBh/Rivisto#readme",
     "build": {
       "appId": "productivity.rivisto",
@@ -103,6 +96,12 @@
     "devDependencies": {
       "electron-builder": "^7.24.1",
       "electron-prebuilt": "^1.4.5"
+    },
+    "other": {
+      "author": "Paritosh Bhatia <paritosh.bh@outlook.com>",
+      "bugs": {
+        "url": "https://github.com/ParitoshBh/Rivisto/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/ParitoshBh/Rivisto/git/commits/dd5f3f543a1fb29cab9a63fb68536dc4171500c3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ParitoshBh___Rivisto.json"
 }

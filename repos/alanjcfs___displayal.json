@@ -70,10 +70,6 @@
     "version": "0.0.0",
     "description": "Small description for displayal goes here",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -83,7 +79,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -156,6 +151,13 @@
         "ProductName": null,
         "InternalName": null
       }
+    },
+    "other": {
+      "author": "",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -184,5 +186,6 @@
       "url": "https://api.github.com/repos/alanjcfs/displayal/git/commits/7ccdf8921267d061daa8430339a36c625bbdde05",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "alanjcfs___displayal.json"
 }

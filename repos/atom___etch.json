@@ -79,18 +79,11 @@
       "build": "node_modules/.bin/babel src --out-dir dist",
       "clean": "rm -rf dist"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/atom/etch.git"
-    },
+    "repository": "https://github.com/atom/etch",
     "keywords": [
       "virtual-dom dom view element custom-elements dom-diff atom electron"
     ],
-    "author": "Nathan Sobo <nathan@github.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/atom/etch/issues"
-    },
     "homepage": "https://github.com/atom/etch",
     "devDependencies": {
       "babel": "^5.0.0",
@@ -112,6 +105,12 @@
         "it",
         "expect"
       ]
+    },
+    "other": {
+      "author": "Nathan Sobo <nathan@github.com>",
+      "bugs": {
+        "url": "https://github.com/atom/etch/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -145,5 +144,6 @@
       "url": "https://api.github.com/repos/atom/etch/git/commits/077b838df5e4b59ba19be7e84e92f3b4a206ce42",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "atom___etch.json"
 }

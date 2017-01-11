@@ -49,10 +49,7 @@
     "name": "Gallery",
     "version": "0.0.0",
     "description": "Local photo management software",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/mshamory/gallery.git"
-    },
+    "repository": "https://github.com/mshamory/gallery",
     "main": "index.js",
     "scripts": {
       "start": "electron main.js"
@@ -73,8 +70,10 @@
       "photoswipe": "^4.1.1",
       "roboto-fontface": "^0.6.0"
     },
-    "author": "Mike Shamory",
-    "license": "ISC"
+    "license": "ISC",
+    "other": {
+      "author": "Mike Shamory"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -101,5 +100,6 @@
       "url": "https://api.github.com/repos/mshamory/gallery/git/commits/e9b344da4e869f5eaba7e76d096dc450532a8411",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mshamory___gallery.json"
 }

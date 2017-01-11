@@ -60,22 +60,21 @@
       "start": "npm-run-all --parallel dev webpack",
       "webpack": "cd app && npm run dev"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/SimulatedGREG/vue-electron.git"
-    },
+    "repository": "https://github.com/SimulatedGREG/vue-electron",
     "keywords": [
       "vue",
       "electron",
       "api",
       "wrapper"
     ],
-    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/SimulatedGREG/vue-electron/issues"
-    },
-    "homepage": "https://github.com/SimulatedGREG/vue-electron#readme"
+    "homepage": "https://github.com/SimulatedGREG/vue-electron#readme",
+    "other": {
+      "author": "Greg Holguin <simulatedgreg@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/SimulatedGREG/vue-electron/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -102,5 +101,6 @@
       "url": "https://api.github.com/repos/SimulatedGREG/vue-electron/git/commits/79bc5495ec51e5a6fce0e585f72770e43ffc1a4b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "SimulatedGREG___vue-electron.json"
 }

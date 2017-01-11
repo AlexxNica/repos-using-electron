@@ -75,13 +75,9 @@
     "name": "Haber",
     "version": "0.1.1",
     "description": "Hürriyet için masaüstü haber uygulaması.",
-    "author": "Nuri Uzunoğlu",
     "license": "MIT",
     "homepage": "https://github.com/nuriu/haber",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/nuriu/haber.git"
-    },
+    "repository": "https://github.com/nuriu/haber",
     "main": "index.js",
     "scripts": {
       "build": "webpack --progress --profile --colors --display-error-details --display-cached",
@@ -102,6 +98,9 @@
     "dependencies": {
       "jquery": "^3.1.1",
       "semantic-ui": "^2.2.6"
+    },
+    "other": {
+      "author": "Nuri Uzunoğlu"
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/nuriu/haber/git/commits/0b4935deb3db773d1181860c30d2d4ccbe71c92e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "nuriu___haber.json"
 }

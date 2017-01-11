@@ -77,13 +77,7 @@
     "version": "0.0.1",
     "description": "A database suite",
     "main": "compiled/src/Main.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/chaitan64arun/megatron.git"
-    },
-    "bugs": {
-      "url": "https://github.com/chaitan64arun/megatron/issues"
-    },
+    "repository": "https://github.com/chaitan64arun/megatron",
     "engineStrict": true,
     "engines": {
       "node": ">= 6.0.0"
@@ -120,8 +114,13 @@
       "start": "npm run compile && npm run electron",
       "debug": "npm run compile && npm run electron-debug"
     },
-    "author": "Arun Chaitanya Miriappalli <chaitan64arun@gmail.com>",
-    "license": "MIT"
+    "license": "MIT",
+    "other": {
+      "author": "Arun Chaitanya Miriappalli <chaitan64arun@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/chaitan64arun/megatron/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -148,5 +147,6 @@
       "url": "https://api.github.com/repos/chaitan64arun/megatron/git/commits/88f2b3c71e4c72253848c243ba85ac51b2e4b762",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "chaitan64arun___megatron.json"
 }

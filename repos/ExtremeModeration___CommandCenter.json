@@ -74,7 +74,6 @@
       "start": "gulp build && electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Steve Good",
     "license": "ISC",
     "dependencies": {
       "dotenv": "^1.2.0",
@@ -132,6 +131,9 @@
     },
     "browserify-shim": {
       "jquery": "$"
+    },
+    "other": {
+      "author": "Steve Good"
     }
   },
   "packageStatus": 200,
@@ -177,5 +179,6 @@
       "url": "https://api.github.com/repos/ExtremeModeration/CommandCenter/git/commits/c65bf203b47cf1df63f3e65415f2cf83b669b248",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ExtremeModeration___CommandCenter.json"
 }

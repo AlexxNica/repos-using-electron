@@ -65,7 +65,6 @@
       "winpackage": "electron-packager . MyApp --platform=win32 --arch=x64 --overwrite --version=1.2.7 --app-copyright=hts --icon=assets/img/fts.ico",
       "archiveapp": "asar pack MyApp-win32-x64/resources/app MyApp-win32-x64/resources/app.asar"
     },
-    "author": "na",
     "license": "na",
     "dependencies": {
       "bootstrap": "^3.3.6",
@@ -87,6 +86,9 @@
       "lite-server": "^2.2.2",
       "typescript": "^1.8.10",
       "typings": "^1.3.1"
+    },
+    "other": {
+      "author": "na"
     }
   },
   "packageStatus": 200,
@@ -134,5 +136,6 @@
       "url": "https://api.github.com/repos/narottamgoyal/Angular2-with-Electron-Package/git/commits/d2f20a3aeef11866812fe341f81fe72ba6e5f543",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "narottamgoyal___Angular2-with-Electron-Package.json"
 }

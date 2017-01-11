@@ -83,16 +83,9 @@
       "test",
       "mdlint"
     ],
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/s-a/iron-node.git"
-    },
+    "repository": "https://github.com/s-a/iron-node",
     "productName": "ironNode",
-    "author": "Stephan Ahlf <stephan.ahlf@gmail.com> (https://github.com/s-a)",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/s-a/iron-node/issues"
-    },
     "homepage": "https://github.com/s-a/iron-node#readme",
     "dependencies": {
       "commander": "^2.9.0",
@@ -114,6 +107,12 @@
       "mocha": "^2.2.5",
       "pre-commit": "^1.1.1",
       "should": "^8.1.1"
+    },
+    "other": {
+      "author": "Stephan Ahlf <stephan.ahlf@gmail.com> (https://github.com/s-a)",
+      "bugs": {
+        "url": "https://github.com/s-a/iron-node/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -144,5 +143,6 @@
       "url": "https://api.github.com/repos/s-a/iron-node/git/commits/e17a9c6dee2f768ee3952d17ebd095c53f3c4fb7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "s-a___iron-node.json"
 }

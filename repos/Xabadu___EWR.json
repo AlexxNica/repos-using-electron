@@ -74,22 +74,21 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/Xabadu/EWR.git"
-    },
+    "repository": "https://github.com/Xabadu/EWR",
     "keywords": [
       "ewr",
       "wrestling"
     ],
-    "author": "Xabadu",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Xabadu/EWR/issues"
-    },
     "homepage": "https://github.com/Xabadu/EWR#readme",
     "dependencies": {
       "electron-prebuilt": "^1.2.1"
+    },
+    "other": {
+      "author": "Xabadu",
+      "bugs": {
+        "url": "https://github.com/Xabadu/EWR/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -117,5 +116,6 @@
       "url": "https://api.github.com/repos/Xabadu/EWR/git/commits/72a8383c8d8187dcb7c90dc5d91618e6534fed85",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Xabadu___EWR.json"
 }

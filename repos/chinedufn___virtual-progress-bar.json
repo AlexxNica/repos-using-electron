@@ -55,10 +55,7 @@
       "deploy": "mkdirp example-dist && browserify demo/browser.js | htmlify > example-dist/index.html && gh-pages -d example-dist",
       "test": "standard && node test/virtual-progress-bar.js && browserify test/virtual-progress-bar.js | testron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/chinedufn/virtual-progress-bar.git"
-    },
+    "repository": "https://github.com/chinedufn/virtual-progress-bar",
     "keywords": [
       "virtual",
       "dom",
@@ -67,11 +64,7 @@
       "component",
       "react"
     ],
-    "author": "Chinedu Francis Nwafili <frankie.nwafili@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/chinedufn/virtual-progress-bar/issues"
-    },
     "homepage": "https://github.com/chinedufn/virtual-progress-bar#readme",
     "devDependencies": {
       "browserify": "^13.0.0",
@@ -90,6 +83,12 @@
     "dependencies": {
       "preflex": "~1.0.0",
       "xtend": "^4.0.1"
+    },
+    "other": {
+      "author": "Chinedu Francis Nwafili <frankie.nwafili@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/chinedufn/virtual-progress-bar/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -118,5 +117,6 @@
       "url": "https://api.github.com/repos/chinedufn/virtual-progress-bar/git/commits/09572aecd69935f17aca51ee0aec536d0553e281",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "chinedufn___virtual-progress-bar.json"
 }

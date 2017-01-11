@@ -74,10 +74,7 @@
       "test": "spectron",
       "lint": "standard-format -w"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/zeke/electron-clipboard.git"
-    },
+    "repository": "https://github.com/zeke/electron-clipboard",
     "keywords": [
       "electron",
       "clipboard",
@@ -86,11 +83,7 @@
       "history",
       "snippets"
     ],
-    "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/zeke/electron-clipboard/issues"
-    },
     "homepage": "https://github.com/zeke/electron-clipboard#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.3",
@@ -102,6 +95,12 @@
       "electron-prebuilt": "^0.37.3",
       "handlebars": "^4.0.5",
       "menubar": "^4.0.2"
+    },
+    "other": {
+      "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
+      "bugs": {
+        "url": "https://github.com/zeke/electron-clipboard/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/zeke/electron-clipboard/git/commits/3a538f8496a6b0a495efb9153010eecd041b5f07",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zeke___electron-clipboard.json"
 }

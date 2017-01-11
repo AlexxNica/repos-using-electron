@@ -75,13 +75,9 @@
     "name": "ajanda",
     "version": "0.1.1",
     "description": "Geliştiriciler için yardımcı ajanda.",
-    "author": "Nuri Uzunoğlu",
     "license": "MIT",
     "homepage": "http://nuriuzunoglu.com/ajanda/",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/nuriu/ajanda.git"
-    },
+    "repository": "https://github.com/nuriu/ajanda",
     "main": "index.js",
     "scripts": {
       "build": "webpack --progress --profile --colors --display-error-details --display-cached",
@@ -103,6 +99,9 @@
     "dependencies": {
       "github": "^6.0.1",
       "jquery": "^3.1.1"
+    },
+    "other": {
+      "author": "Nuri Uzunoğlu"
     }
   },
   "packageStatus": 200,
@@ -131,5 +130,6 @@
       "url": "https://api.github.com/repos/nuriu/ajanda/git/commits/c314a9d0a37e48ed576c9e01acc62016c6392eed",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "nuriu___ajanda.json"
 }

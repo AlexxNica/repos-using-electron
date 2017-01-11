@@ -85,19 +85,12 @@
       "release": "node ./script/release.js",
       "package": "npm run pack-mac && npm run pack-win"
     },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:pk8est/cdn-server-electron.git"
-    },
+    "repository": "https://github.com/pk8est/cdn-server-electron",
     "keywords": [
       "Electron",
       "cdn cache"
     ],
-    "author": "pk8est",
     "license": "BSD-3-Clause",
-    "bugs": {
-      "url": "https://github.com/pk8est/cdn-server-electron/issues"
-    },
     "homepage": "https://github.com/pk8est/cdn-server-electron",
     "devDependencies": {
       "babel-core": "^6.3.26",
@@ -140,6 +133,12 @@
       "range-parser": "^1.2.0",
       "raw-body": "^2.1.7",
       "request": "^2.75.0"
+    },
+    "other": {
+      "author": "pk8est",
+      "bugs": {
+        "url": "https://github.com/pk8est/cdn-server-electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -165,5 +164,6 @@
       "url": "https://api.github.com/repos/pk8est/cdn-server-electron/git/commits/cef84218d438c795a2206c08f68ff6ab4b69fc77",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "pk8est___cdn-server-electron.json"
 }

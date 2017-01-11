@@ -54,12 +54,8 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "watch": "gulp watchify"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/junishitsuka/flasher-desktop.git"
-    },
+    "repository": "https://github.com/junishitsuka/flasher-desktop",
     "keywords": [],
-    "author": "",
     "license": "ISC",
     "devDependencies": {
       "babel": "~5.8.23",
@@ -89,9 +85,6 @@
       "gulp-util": "~3.0.6",
       "gulp-uglify": "~1.4.2"
     },
-    "bugs": {
-      "url": "https://github.com/junishitsuka/flasher-desktop/issues"
-    },
     "homepage": "https://github.com/junishitsuka/flasher-desktop",
     "browserify": {
       "entryScripts": [
@@ -106,6 +99,12 @@
       "react-dom": "^0.14.0",
       "redux-devtools": "^2.1.5",
       "sqlite3": "^3.1.0"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/junishitsuka/flasher-desktop/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -133,5 +132,6 @@
       "url": "https://api.github.com/repos/junishitsuka/flasher-desktop/git/commits/1e9f289a1792b63cf0b0af48e93301c9b1be31b0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "junishitsuka___flasher-desktop.json"
 }

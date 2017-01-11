@@ -50,27 +50,17 @@
     "version": "0.0.1",
     "description": "Markdown Note",
     "main": "src/jsx/*.jsx",
-    "directories": {
-      "test": "test"
-    },
     "scripts": {
       "build": "gulp build",
       "test": "mocha --compilers js:espower-babel/guess test/**/*.js",
       "server": "python -m SimpleHTTPServer 8000",
       "electron": "electron public"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/c-bata/mdnote.git"
-    },
+    "repository": "https://github.com/c-bata/mdnote",
     "keywords": [
       "markdown"
     ],
-    "author": "c-bata",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/c-bata/mdnote/issues"
-    },
     "homepage": "https://github.com/c-bata/mdnote#readme",
     "devDependencies": {
       "babelify": "^6.1.3",
@@ -90,6 +80,15 @@
       "vinyl-buffer": "^1.0.0",
       "vinyl-source-stream": "^1.1.0",
       "watchify": "^3.3.1"
+    },
+    "other": {
+      "author": "c-bata",
+      "bugs": {
+        "url": "https://github.com/c-bata/mdnote/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -117,5 +116,6 @@
       "url": "https://api.github.com/repos/c-bata/mdnote/git/commits/98ea00d2743934f76629851b64f6f06695283dbc",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "c-bata___mdnote.json"
 }

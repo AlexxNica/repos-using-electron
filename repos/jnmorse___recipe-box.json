@@ -81,10 +81,7 @@
       "package": "electron-packager ./ recipe-box --all --out ./build --version 1.2.0 --overwrite",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jnmorse/recipe-box.git"
-    },
+    "repository": "https://github.com/jnmorse/recipe-box",
     "keywords": [
       "electron",
       "react",
@@ -92,11 +89,7 @@
       "truck",
       "tracking"
     ],
-    "author": "Joseph Morse <tamed.lionheart@gmail.com> (https://github.com/jnmorse)",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/jnmorse/recipe-box/issues"
-    },
     "homepage": "https://github.com/jnmorse/recipe-box#readme",
     "devDependencies": {
       "babel-eslint": "^6.0.4",
@@ -116,6 +109,12 @@
       "redux": "^3.5.2",
       "redux-configure-store": "file:local-modules/redux-configure-store",
       "redux-thunk": "^2.1.0"
+    },
+    "other": {
+      "author": "Joseph Morse <tamed.lionheart@gmail.com> (https://github.com/jnmorse)",
+      "bugs": {
+        "url": "https://github.com/jnmorse/recipe-box/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -143,5 +142,6 @@
       "url": "https://api.github.com/repos/jnmorse/recipe-box/git/commits/9cbd3da80a80d219eaf036bfc5058a6dc90320ad",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jnmorse___recipe-box.json"
 }

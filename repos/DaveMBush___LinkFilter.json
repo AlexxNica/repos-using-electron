@@ -75,19 +75,18 @@
       "postInstall": "typings install && npm install electron -g && npm install electron-packager -g",
       "package": "electron-packager . --all --prune --overwrite"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/DaveMBush/LinkFilter.git"
-    },
-    "author": "DaveMBush",
+    "repository": "https://github.com/DaveMBush/LinkFilter",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/DaveMBush/LinkFilter/issues"
-    },
     "homepage": "https://github.com/DaveMBush/LinkFilter#readme",
     "devDependencies": {
       "electron": "^1.3.4",
       "typings": "^1.3.2"
+    },
+    "other": {
+      "author": "DaveMBush",
+      "bugs": {
+        "url": "https://github.com/DaveMBush/LinkFilter/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -115,5 +114,6 @@
       "url": "https://api.github.com/repos/DaveMBush/LinkFilter/git/commits/6fe5f317e98bb5e383523d1449c345d1295991e7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DaveMBush___LinkFilter.json"
 }

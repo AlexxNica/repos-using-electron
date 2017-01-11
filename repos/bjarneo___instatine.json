@@ -65,31 +65,30 @@
       "build:windows": "NODE_ENV=production electron-packager . --overwrite --asar --out=dist --ignore='^/media/(?!Icon.*ico$).*' --prune --platform=win32 --arch=ia32 --icon=media/Icon.ico --version-string.ProductName=$npm_package_productName --app-version=$npm_package_version && cd dist/instatine-win32-ia32 && zip -ryq9 ../instatine-windows-${npm_package_version}.zip *",
       "build:osx": "electron-packager . --overwrite --asar --out=dist --ignore='^/media/(?!Icon.icns$).*' --prune --platform=darwin --arch=x64 --icon=media/Icon.icns --app-bundle-id=com.bjarneoeverli.instatine --app-version=$npm_package_version && cd dist/instatine-darwin-x64 && zip -ryXq9 ../instatine-osx-${npm_package_version}.zip instatine.app"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/bjarneo/instatine.git"
-    },
+    "repository": "https://github.com/bjarneo/instatine",
     "keywords": [
       "instagram",
       "electron",
       "desktop",
       "application"
     ],
-    "author": {
-      "name": "Bjarne Oeverli",
-      "email": "bjarne.oeverli@gmail.com",
-      "url": "bjarneo.codes"
-    },
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/bjarneo/instatine/issues"
-    },
     "homepage": "https://github.com/bjarneo/instatine#readme",
     "devDependencies": {
       "electron-packager": "7.0.0",
       "electron-prebuilt": "0.37.8",
       "eslint": "2.9.0",
       "eslint-config-vgno": "6.0.0"
+    },
+    "other": {
+      "author": {
+        "name": "Bjarne Oeverli",
+        "email": "bjarne.oeverli@gmail.com",
+        "url": "bjarneo.codes"
+      },
+      "bugs": {
+        "url": "https://github.com/bjarneo/instatine/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -117,5 +116,6 @@
       "url": "https://api.github.com/repos/bjarneo/instatine/git/commits/373daf859f6a0eabbebaa38216c5ccdcae905707",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "bjarneo___instatine.json"
 }

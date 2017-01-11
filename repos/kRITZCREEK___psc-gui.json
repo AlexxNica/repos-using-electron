@@ -50,20 +50,22 @@
     "version": "1.0.0",
     "description": "A GUI for the psc-ide tool",
     "main": "main.js",
-    "directories": {
-      "test": "test"
-    },
     "scripts": {
       "run": "./node_modules/.bin/electron .",
       "test": "pulp test"
     },
-    "author": "kRITZCREEK",
     "license": "GPL",
     "devDependencies": {
       "electron-prebuilt": "^0.33.4"
     },
     "dependencies": {
       "ramda": "^0.17.1"
+    },
+    "other": {
+      "author": "kRITZCREEK",
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -112,5 +114,6 @@
       "url": "https://api.github.com/repos/kRITZCREEK/psc-gui/git/commits/1ad20d2c7f15a0f1fd4d186f2e105cf138ab793a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kRITZCREEK___psc-gui.json"
 }

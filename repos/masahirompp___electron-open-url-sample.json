@@ -80,11 +80,7 @@
       "archive:win32": "zip -j \"dist/win32/MyApp-win-ia32.zip\" \"dist/win32/MyAppSetup.exe\"",
       "archive:win64": "zip -j \"dist/win64/MyApp-win-x64.zip\" \"dist/win64/MyAppSetup.exe\""
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/masahirompp/electron-open-url-sample.git"
-    },
-    "author": "masahirompp",
+    "repository": "https://github.com/masahirompp/electron-open-url-sample",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.4.5",
@@ -99,7 +95,10 @@
       "typescript": "^1.8.0",
       "webpack": "^1.12.13"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "other": {
+      "author": "masahirompp"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/masahirompp/electron-open-url-sample/git/commits/7c662748de540805731d722893802afd201c5900",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "masahirompp___electron-open-url-sample.json"
 }

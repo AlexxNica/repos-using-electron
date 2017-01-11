@@ -87,21 +87,20 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Wizerdata/wizerdata-electron.git"
-    },
+    "repository": "https://github.com/Wizerdata/wizerdata-electron",
     "keywords": [
       "Wizerdata",
       "Desktop",
       "Report",
       "application"
     ],
-    "author": "Wizerdata A/S",
     "license": "MIT",
     "homepage": "https://github.com/Wizerdata/wizerdata-electron/blob/master/README.md",
     "devDependencies": {
       "electron-prebuilt": "^0.34.0"
+    },
+    "other": {
+      "author": "Wizerdata A/S"
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/Wizerdata/wizerdata-electron/git/commits/3a4d13ba75805a2087d392259bd9fa9058c1a8d5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Wizerdata___wizerdata-electron.json"
 }

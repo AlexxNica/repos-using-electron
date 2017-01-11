@@ -87,21 +87,14 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/newspring/meteor-package"
-    },
+    "repository": "https://github.com/newspring/meteor-package",
     "keywords": [
       "meteor"
     ],
     "bin": {
       "meteor-package": "./bin/meteor-package"
     },
-    "author": "johnthepink",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/newspring/meteor-package/issues"
-    },
     "homepage": "https://github.com/newspring/meteor-package",
     "dependencies": {
       "bigbuffer": "0.0.5",
@@ -110,6 +103,12 @@
       "meteor-shell": "git://github.com/newspring/meteor-shell",
       "minimist": "^1.2.0",
       "underscore": "^1.8.3"
+    },
+    "other": {
+      "author": "johnthepink",
+      "bugs": {
+        "url": "https://github.com/newspring/meteor-package/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -137,5 +136,6 @@
       "url": "https://api.github.com/repos/NewSpring/meteor-package/git/commits/37abcf89e1dc574c66a6fcc16d3880777bc16fb0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "NewSpring___meteor-package.json"
 }

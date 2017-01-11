@@ -80,24 +80,13 @@
       "start": "electron .",
       "build": "electron-packager --platform=darwin --arch=x64 --icon=assets/Icon.icns --app-bundle-id=com.dcrousso.GIFBar --app-version=$npm_package_version --overwrite --asar --out=dist --ignore=\"^/dist$\" --ignore=\"^/media$\" --prune ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/dcrousso/GIFBar.git"
-    },
+    "repository": "https://github.com/dcrousso/GIFBar",
     "keywords": [
       "GIF",
       "GIFs",
       "search"
     ],
-    "author": {
-      "name": "Devin Rousso",
-      "email": "hi@devinrousso.com",
-      "url": "http://devinrousso.com"
-    },
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/dcrousso/GIFBar/issues"
-    },
     "homepage": "https://github.com/dcrousso/GIFBar#readme",
     "devDependencies": {
       "electron": "^1.3.3",
@@ -106,6 +95,16 @@
     "dependencies": {
       "electron-debug": "^1.0.0",
       "electron-dl": "^1.0.0"
+    },
+    "other": {
+      "author": {
+        "name": "Devin Rousso",
+        "email": "hi@devinrousso.com",
+        "url": "http://devinrousso.com"
+      },
+      "bugs": {
+        "url": "https://github.com/dcrousso/GIFBar/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -133,5 +132,6 @@
       "url": "https://api.github.com/repos/dcrousso/GIFBar/git/commits/76af41152aff05308d0d0f557d7e6a7738ce2ae2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dcrousso___GIFBar.json"
 }

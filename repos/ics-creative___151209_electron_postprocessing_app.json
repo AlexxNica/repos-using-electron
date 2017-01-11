@@ -191,7 +191,6 @@
       "inspector": "./node_modules/.bin/node-inspector",
       "package:app": "electron-packager . ImageFilterApp --platform=darwin,win32 --arch=x64 --version=0.35.2 --ignore='(tsd.json|npm-debug.log|src|typings|gulpfile.js|(node_modules/(electron-packager|electron-prebuilt)))' --overwrite --out='../' --asar=true"
     },
-    "author": "Nozomi Nohara",
     "license": "MIT",
     "devDependencies": {
       "browser-sync": "~2.2.1",
@@ -215,7 +214,10 @@
       "Electron",
       "three.js",
       "shader"
-    ]
+    ],
+    "other": {
+      "author": "Nozomi Nohara"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -242,5 +244,6 @@
       "url": "https://api.github.com/repos/ics-creative/151209_electron_postprocessing_app/git/commits/9bae11efbb9e810c2ac8909d534f6c66523a37d6",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ics-creative___151209_electron_postprocessing_app.json"
 }

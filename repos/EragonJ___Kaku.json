@@ -56,25 +56,14 @@
     "version": "1.8.0",
     "description": "The next generation music client",
     "main": "bootup.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/EragonJ/Kaku"
-    },
+    "repository": "https://github.com/EragonJ/Kaku",
     "keywords": [
       "Kaku",
       "music",
       "player",
       "youtube"
     ],
-    "author": {
-      "name": "Chia-Lung, Chen (EragonJ)",
-      "email": "eragonj@eragonj.me",
-      "url": "http://eragonj.me"
-    },
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/EragonJ/Kaku/issues"
-    },
     "homepage": "https://github.com/EragonJ/Kaku",
     "scripts": {
       "dev": "./node_modules/.bin/webpack --watch",
@@ -187,6 +176,16 @@
       "vimeo": "^1.1.4",
       "youtube-dl": "EragonJ/node-youtube-dl",
       "youtube-node": "EragonJ/youtube-node"
+    },
+    "other": {
+      "author": {
+        "name": "Chia-Lung, Chen (EragonJ)",
+        "email": "eragonj@eragonj.me",
+        "url": "http://eragonj.me"
+      },
+      "bugs": {
+        "url": "https://github.com/EragonJ/Kaku/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -227,5 +226,6 @@
       "url": "https://api.github.com/repos/EragonJ/Kaku/git/commits/d4bcb08d73935d6f7119be727749bdadd90a625f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "EragonJ___Kaku.json"
 }

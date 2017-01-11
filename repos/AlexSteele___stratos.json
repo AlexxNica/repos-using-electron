@@ -60,19 +60,18 @@
       "start": "./node_modules/.bin/Electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/AlexSteele/stratos.git"
-    },
+    "repository": "https://github.com/AlexSteele/stratos",
     "keywords": [
       "text",
       "editor"
     ],
-    "author": "Alex Steele",
     "license": "MIT",
     "homepage": "https://github.com/AlexSteele/stratos#readme",
     "dependencies": {
       "electron-prebuilt": "^1.2.3"
+    },
+    "other": {
+      "author": "Alex Steele"
     }
   },
   "packageStatus": 200,
@@ -100,5 +99,6 @@
       "url": "https://api.github.com/repos/AlexSteele/stratos/git/commits/79a05880d4ffd3487bf046cc63e2a3a2ed959ccd",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "AlexSteele___stratos.json"
 }

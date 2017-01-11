@@ -60,15 +60,8 @@
       "start": "gulp && ./node_modules/.bin/electron ./dist/index.js",
       "test": "./node_modules/.bin/electron-mocha --compilers js:babel-register"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jimmed/playlist-app.git"
-    },
-    "author": "Jim O'Brien <jim@jimmed.net> (http://jimmed.net)",
+    "repository": "https://github.com/jimmed/playlist-app",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/jimmed/playlist-app/issues"
-    },
     "homepage": "https://github.com/jimmed/playlist-app#readme",
     "devDependencies": {
       "babel-plugin-transform-object-rest-spread": "^6.3.13",
@@ -86,6 +79,12 @@
       "chalk": "^1.1.1",
       "react": "^0.14.3",
       "react-dom": "^0.14.3"
+    },
+    "other": {
+      "author": "Jim O'Brien <jim@jimmed.net> (http://jimmed.net)",
+      "bugs": {
+        "url": "https://github.com/jimmed/playlist-app/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -133,5 +132,6 @@
       "url": "https://api.github.com/repos/jimmed/playlist-app/git/commits/3db962ecdd2bf683ad061d4e93a6b870d0200cef",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jimmed___playlist-app.json"
 }

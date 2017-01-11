@@ -82,20 +82,13 @@
       "build:linux": "electron-packager . Spanner --overwrite --out=dist --ignore='^src$' --prune --platform=linux --arch=x64 --app-version=$npm_package_version",
       "build:windows": "electron-packager . Spanner --overwrite --asar --out=dist --ignore='^src$' --prune --platform=win32 --arch=ia32 --app-version=$npm_package_version"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/neurotech/spanner.git"
-    },
+    "repository": "https://github.com/neurotech/spanner",
     "keywords": [
       "edumate",
       "electron",
       "spanner"
     ],
-    "author": "Tim Douglas",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/neurotech/spanner/issues"
-    },
     "homepage": "https://github.com/neurotech/spanner#readme",
     "dependencies": {
       "electron-config": "0.2.1",
@@ -116,6 +109,12 @@
       "electron-prebuilt": "1.3.4",
       "node-sass": "3.8.0",
       "semistandard": "8.0.0"
+    },
+    "other": {
+      "author": "Tim Douglas",
+      "bugs": {
+        "url": "https://github.com/neurotech/spanner/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -143,5 +142,6 @@
       "url": "https://api.github.com/repos/neurotech/spanner/git/commits/bbf519469b7fe65f0bbfdcc9465c2070ab3fac3f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "neurotech___spanner.json"
 }

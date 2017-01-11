@@ -78,11 +78,6 @@
     "description": "Native jira boards",
     "license": "MIT",
     "repository": "anfa-am/boarding",
-    "author": {
-      "name": "Anfa Abukar",
-      "email": "developer@anfa.io",
-      "url": "anfa.io"
-    },
     "scripts": {
       "server": "webpack-dev-server --watch --content-base ./app",
       "start": "electron ./app",
@@ -117,6 +112,13 @@
     "dependencies": {
       "react": "^15.3.2",
       "react-dom": "^15.3.2"
+    },
+    "other": {
+      "author": {
+        "name": "Anfa Abukar",
+        "email": "developer@anfa.io",
+        "url": "anfa.io"
+      }
     }
   },
   "packageStatus": 200,
@@ -144,5 +146,6 @@
       "url": "https://api.github.com/repos/Anfa-am/boarding/git/commits/09ce654ba8ecaf9b36515c96c06bfadd4b539771",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Anfa-am___boarding.json"
 }

@@ -93,21 +93,14 @@
       "host": "http://localhost",
       "restAPIpath": "/data/v2"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Satyam/book-react-redux.git"
-    },
+    "repository": "https://github.com/Satyam/book-react-redux",
     "keywords": [
       "react",
       "redux",
       "guide",
       "book"
     ],
-    "author": "Daniel Barreiro",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Satyam/book-react-redux/issues"
-    },
     "homepage": "https://github.com/Satyam/book-react-redux#readme",
     "dependencies": {
       "body-parser": "^1.15.2",
@@ -163,6 +156,12 @@
       "source-map-support": "^0.4.1",
       "style-loader": "^0.13.1",
       "webpack": "^1.13.2"
+    },
+    "other": {
+      "author": "Daniel Barreiro",
+      "bugs": {
+        "url": "https://github.com/Satyam/book-react-redux/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -190,5 +189,6 @@
       "url": "https://api.github.com/repos/Satyam/book-react-redux/git/commits/aba400eeac63c9751b25ba231bd19f1b434fe94e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Satyam___book-react-redux.json"
 }

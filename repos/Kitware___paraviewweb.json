@@ -69,14 +69,8 @@
     "name": "paraviewweb",
     "version": "0.0.0-semantically-release",
     "description": "Web framework for building interactive visualization relying on VTK or ParaView to produce visualization data",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/kitware/paraviewweb.git"
-    },
+    "repository": "https://github.com/kitware/paraviewweb",
     "license": "BSD-3-Clause",
-    "bugs": {
-      "url": "https://github.com/kitware/paraviewweb/issues"
-    },
     "homepage": "https://github.com/kitware/paraviewweb#readme",
     "engines": {
       "npm": ">=3.0.0",
@@ -143,6 +137,11 @@
     },
     "bin": {
       "fix-autobahn": "./tools/fix-autobahn/patch-autobahn-0.9.6-cli.js"
+    },
+    "other": {
+      "bugs": {
+        "url": "https://github.com/kitware/paraviewweb/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -200,5 +199,6 @@
       "url": "https://api.github.com/repos/Kitware/paraviewweb/git/commits/ff77d478053d90abc7ce4a258201cf72d4273c49",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Kitware___paraviewweb.json"
 }

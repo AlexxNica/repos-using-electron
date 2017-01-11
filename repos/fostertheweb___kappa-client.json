@@ -56,10 +56,6 @@
     "version": "0.0.0",
     "description": "Small description for kappa-client goes here",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -69,7 +65,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -103,7 +98,14 @@
       "hls.js": "git+https://github.com/dailymotion/hls.js.git",
       "kappa-kit": "git+https://github.com/fostertheweb/kappa-kit.git"
     },
-    "main": "electron.js"
+    "main": "electron.js",
+    "other": {
+      "author": "",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -130,5 +132,6 @@
       "url": "https://api.github.com/repos/fostertheweb/kappa-client/git/commits/d15b6d8d11a3c928798883cd78bc9d915fa90412",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "fostertheweb___kappa-client.json"
 }

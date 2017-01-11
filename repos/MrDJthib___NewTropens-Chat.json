@@ -80,15 +80,8 @@
       "start": "electron Main.js",
       "package": "electron-packager arch='x64' dir='./' platform='win32' app-copyright='NewTropens' app-version=pjson.version asar=true out='../NewTropensChat-Package' overwrite=true name='NewTropensChat' version=0.36.7"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/MrDJthib/NewTropens-Chat.git"
-    },
-    "author": "NewTropens",
+    "repository": "https://github.com/MrDJthib/NewTropens-Chat",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "devDependencies": {
       "electron-packager": "^6.0.1",
       "electron-prebuilt": "^0.36.0",
@@ -99,6 +92,12 @@
       "electron-gh-releases": "^2.0.2",
       "electron-plugins": "0.0.4",
       "electron-updater": "^0.3.0"
+    },
+    "other": {
+      "author": "NewTropens",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -124,5 +123,6 @@
       "url": "https://api.github.com/repos/MrDJthib/NewTropens-Chat/git/commits/a24657bd7aded31e60a8a45b305cc9c4b26996df",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "MrDJthib___NewTropens-Chat.json"
 }

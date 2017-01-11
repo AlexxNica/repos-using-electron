@@ -90,21 +90,14 @@
     "version": "1.0.0",
     "description": "A database driven application platform using Envelope",
     "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/workflowproducts/letterbox.git"
-    },
+    "repository": "https://github.com/workflowproducts/letterbox",
     "keywords": [
       "envelope",
       "electron",
       "postgres",
       "application"
     ],
-    "author": "Nunzio Tocci <nunzio@workflowproducts.com> (http://www.workflowproducts.com/)",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/workflowproducts/letterbox/issues"
-    },
     "homepage": "https://github.com/workflowproducts/letterbox#readme",
     "dependencies": {
       "electron-context-menu": "^0.6.0",
@@ -118,6 +111,12 @@
     "optionalDependencies": {
       "envelope-portable-windows": "^2.1.0-build1",
       "postgresql-portable-windows": "^9.6.0-build1"
+    },
+    "other": {
+      "author": "Nunzio Tocci <nunzio@workflowproducts.com> (http://www.workflowproducts.com/)",
+      "bugs": {
+        "url": "https://github.com/workflowproducts/letterbox/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -145,5 +144,6 @@
       "url": "https://api.github.com/repos/workflowproducts/letterbox/git/commits/06905a7ded23e30091376c4be91d7209b7c8661d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "workflowproducts___letterbox.json"
 }

@@ -81,21 +81,20 @@
       "build": "tsc",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/tolu/electron-play.git"
-    },
-    "author": "Tobias Lundin",
+    "repository": "https://github.com/tolu/electron-play",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/tolu/electron-play/issues"
-    },
     "homepage": "https://github.com/tolu/electron-play#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.5",
       "react": "^15.0.1",
       "react-dom": "^15.0.1",
       "typescript": "^1.8.9"
+    },
+    "other": {
+      "author": "Tobias Lundin",
+      "bugs": {
+        "url": "https://github.com/tolu/electron-play/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -123,5 +122,6 @@
       "url": "https://api.github.com/repos/tolu/electron-play/git/commits/6d44a3afb36a0106084031be15f70f118abb3cb1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tolu___electron-play.json"
 }

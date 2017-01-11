@@ -87,19 +87,12 @@
       "dist:linux32": "build --platform linux --arch ia32",
       "dist:linux64": "build --platform linux --arch x64"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/listen1/listen1_desktop.git"
-    },
+    "repository": "https://github.com/listen1/listen1_desktop",
     "keywords": [
       "Electron",
       "Listen 1"
     ],
-    "author": "Listen 1 <githublisten1@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/listen1/listen1_desktop/issues"
-    },
     "homepage": "https://github.com/listen1/listen1_desktop#readme",
     "devDependencies": {
       "electron-builder": "^3.24.0",
@@ -130,6 +123,12 @@
         ]
       },
       "win": {}
+    },
+    "other": {
+      "author": "Listen 1 <githublisten1@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/listen1/listen1_desktop/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -157,5 +156,6 @@
       "url": "https://api.github.com/repos/listen1/listen1_desktop/git/commits/11e7d12d53e7bf710295f00da925826dd98f961a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "listen1___listen1_desktop.json"
 }

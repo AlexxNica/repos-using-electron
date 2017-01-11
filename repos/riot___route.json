@@ -71,19 +71,12 @@
     "description": "Simple isomorphic router",
     "main": "lib/index.js",
     "jsnext:main": "dist/es6.route.js",
-    "directories": {
-      "lib": "lib",
-      "doc": "doc"
-    },
     "scripts": {
       "pretest": "make build",
       "test": "make test",
       "prepublish": "make build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/riot/route.git"
-    },
+    "repository": "https://github.com/riot/route",
     "keywords": [
       "riot",
       "router"
@@ -106,12 +99,18 @@
       "mocha": "^2.5.3",
       "uglify-js": "^2.7.0"
     },
-    "author": "Muut, Inc. and other contributors",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/riot/route/issues"
-    },
-    "homepage": "https://github.com/riot/route#readme"
+    "homepage": "https://github.com/riot/route#readme",
+    "other": {
+      "author": "Muut, Inc. and other contributors",
+      "bugs": {
+        "url": "https://github.com/riot/route/issues"
+      },
+      "directories": {
+        "lib": "lib",
+        "doc": "doc"
+      }
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/riot/route",
@@ -166,5 +165,6 @@
       "url": "https://api.github.com/repos/riot/route/git/commits/722808e84e074a4a4bac05ec02064d150973a7f7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "riot___route.json"
 }

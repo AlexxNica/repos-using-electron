@@ -78,7 +78,6 @@
       "postinstall": "install-app-deps",
       "start": "electron app"
     },
-    "author": "TheFakeGM",
     "license": "ISC",
     "build": {
       "appId": "com.electron.gifdb",
@@ -86,9 +85,6 @@
         "maintainer": "thefakestgm@gmail.com",
         "author": "TheFakeGM"
       }
-    },
-    "directories": {
-      "app": "app"
     },
     "dependencies": {
       "bluebird": "^3.4.1",
@@ -116,6 +112,12 @@
       "webpack": "^1.13.1",
       "webpack-stream": "^3.2.0",
       "electron-prebuilt": "1.2.8"
+    },
+    "other": {
+      "author": "TheFakeGM",
+      "directories": {
+        "app": "app"
+      }
     }
   },
   "packageStatus": 200,
@@ -143,5 +145,6 @@
       "url": "https://api.github.com/repos/thefakegm/GifDB/git/commits/18eeabc1dbd829098ef1ffc47e1ec4b174072d45",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "thefakegm___GifDB.json"
 }

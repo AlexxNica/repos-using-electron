@@ -70,7 +70,6 @@
     "version": "1.0.0",
     "description": "A small Tool to check the E-Monkey Marketprices",
     "main": "main.js",
-    "author": "Bela Stoyan <github@nichtbela.de>",
     "license": "ISC",
     "dependencies": {
       "request": "^2.72.0"
@@ -82,6 +81,9 @@
     "scripts": {
       "start": "./node_modules/.bin/electron .",
       "compile": "electron-packager ./ E-Monkeys-Marktpreise --platform=win32 --arch=x64 --icon=Monkey.png --asar"
+    },
+    "other": {
+      "author": "Bela Stoyan <github@nichtbela.de>"
     }
   },
   "packageStatus": 200,
@@ -109,5 +111,6 @@
       "url": "https://api.github.com/repos/0xBE7A/Marktpreis/git/commits/f3c04e4ea9da7ed42901a5aa79de86caf5178c87",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "NotBela___Marktpreis.json"
 }

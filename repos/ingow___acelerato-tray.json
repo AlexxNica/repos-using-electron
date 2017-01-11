@@ -72,10 +72,6 @@
     "description": "My phenomenal app",
     "license": "MIT",
     "repository": "ingow/acelerato",
-    "author": {
-      "name": "Ingo",
-      "email": "ingo@moinformatica.com"
-    },
     "scripts": {
       "test": "xo",
       "start": "electron ./app/",
@@ -111,6 +107,12 @@
         "node",
         "browser"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "Ingo",
+        "email": "ingo@moinformatica.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -138,5 +140,6 @@
       "url": "https://api.github.com/repos/ingow/acelerato-tray/git/commits/8195a7b86eb1bd95496055a6c393fc29e7561f3c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ingow___acelerato-tray.json"
 }

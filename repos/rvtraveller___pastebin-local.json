@@ -79,26 +79,25 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rvtraveller/pastebin-local.git"
-    },
+    "repository": "https://github.com/rvtraveller/pastebin-local",
     "keywords": [
       "Electron",
       "Pastebin",
       "Drupal 8"
     ],
-    "author": "Brian Thompson",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/rvtraveller/pastebin-local/issues"
-    },
     "homepage": "https://github.com/rvtraveller/pastebin-local#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
     },
     "dependencies": {
       "waterwheel": "^0.4.2"
+    },
+    "other": {
+      "author": "Brian Thompson",
+      "bugs": {
+        "url": "https://github.com/rvtraveller/pastebin-local/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -124,5 +123,6 @@
       "url": "https://api.github.com/repos/rvtraveller/pastebin-local/git/commits/1b8c789be0b08b318ffbb54d279884c0be7ed1b4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rvtraveller___pastebin-local.json"
 }

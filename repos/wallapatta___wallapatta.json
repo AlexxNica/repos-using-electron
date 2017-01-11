@@ -105,17 +105,13 @@
         "signWithParams": "/t http://timestamp.digicert.com /n \"Forestpin (Pvt) Ltd\""
       }
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/vpj/wallapatta.git"
-    },
+    "repository": "https://github.com/vpj/wallapatta",
     "keywords": [
       "markdown",
       "edward",
       "tufte",
       "documenation"
     ],
-    "author": "Varuna Jayasiri",
     "license": "MIT",
     "devDependencies": {
       "coffee-script": ">=1.10.0",
@@ -133,13 +129,16 @@
       "electron-builder": "next",
       "electron-prebuilt": "1.2.7"
     },
-    "bugs": {
-      "url": "https://github.com/vpj/wallapatta/issues"
-    },
     "bin": {
       "wallapatta": "./cli.js"
     },
-    "homepage": "http://wallapatta.github.io"
+    "homepage": "http://wallapatta.github.io",
+    "other": {
+      "author": "Varuna Jayasiri",
+      "bugs": {
+        "url": "https://github.com/vpj/wallapatta/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -168,5 +167,6 @@
       "url": "https://api.github.com/repos/wallapatta/wallapatta/git/commits/747f64cca737784602259af0e998dcaa5833108a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "wallapatta___wallapatta.json"
 }

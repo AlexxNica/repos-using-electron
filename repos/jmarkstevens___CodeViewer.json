@@ -77,14 +77,7 @@
     "description": "A project viewer app.",
     "license": "MIT",
     "main": "main.js",
-    "author": {
-      "name": "Janaka Stevens",
-      "email": "jmstevens@calitek.com"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/calitek/CodeViewer.git"
-    },
+    "repository": "https://github.com/calitek/CodeViewer",
     "scripts": {
       "start": "nodemon js/server.js",
       "test": "jest",
@@ -135,6 +128,12 @@
         "react-addons-test-utils"
       ],
       "verbose": true
+    },
+    "other": {
+      "author": {
+        "name": "Janaka Stevens",
+        "email": "jmstevens@calitek.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -162,5 +161,6 @@
       "url": "https://api.github.com/repos/jmarkstevens/CodeViewer/git/commits/ddf94db061af5cf77f031f83b9176f3d9b31624d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jmarkstevens___CodeViewer.json"
 }

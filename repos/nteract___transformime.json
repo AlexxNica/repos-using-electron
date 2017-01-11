@@ -89,21 +89,14 @@
       "watch:test": "npm run test -- -w",
       "clean": "rimraf lib/* dist/*"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/nteract/transformime.git"
-    },
+    "repository": "https://github.com/nteract/transformime",
     "keywords": [
       "transform",
       "mime",
       "mimetype",
       "jupyter"
     ],
-    "author": "nteract",
     "license": "BSD-3-Clause",
-    "bugs": {
-      "url": "https://github.com/nteract/transformime/issues"
-    },
     "homepage": "https://github.com/nteract/transformime#readme",
     "devDependencies": {
       "babel-cli": "^6.14.0",
@@ -133,6 +126,12 @@
       "commonmark": "^0.26.0",
       "escape-carriage": "^1.0.1",
       "mathjax-electron": "^1.1.0"
+    },
+    "other": {
+      "author": "nteract",
+      "bugs": {
+        "url": "https://github.com/nteract/transformime/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -188,5 +187,6 @@
       "url": "https://api.github.com/repos/nteract/transformime/git/commits/ccfe8c24a60da2b9b987c82645e7e24f65736e1a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "nteract___transformime.json"
 }

@@ -82,16 +82,9 @@
       "build:osx": "npm run pack:osx && electron-builder \"dist/osx/BLAgent.app\" --platform=osx --out=\"dist/osx\" --config=builder.json",
       "build:win": "npm run pack:win && electron-builder \"dist/win/BLAgent-win32\" --platform=win --out=\"dist/win\" --config=builder.json"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/blinfo/BlAgentElectron.git"
-    },
+    "repository": "https://github.com/blinfo/BlAgentElectron",
     "keywords": [],
-    "author": "GitHub",
     "license": "",
-    "bugs": {
-      "url": ""
-    },
     "homepage": "",
     "devDependencies": {
       "electron-prebuilt": "^0.36.5"
@@ -100,6 +93,12 @@
       "node-notifier": "^4.4.0",
       "electron-builder": "^2.6.0",
       "electron-packager": "^5.2.1"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": ""
+      }
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/blinfo/BlAgentElectron/git/commits/70042fd9494cd3de212388275dbb5d9e1fbe7aca",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "blinfo___BlAgentElectron.json"
 }

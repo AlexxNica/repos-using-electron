@@ -87,25 +87,24 @@
       "build:win": "./scripts/build.sh win32 ia32",
       "build:win32": "./scripts/build.sh win32 ia32"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/DawnyWu/Merriam-Webster"
-    },
+    "repository": "https://github.com/DawnyWu/Merriam-Webster",
     "keywords": [
       "Electron",
       "dictonary",
       "Merriam-Webster",
       "Web"
     ],
-    "author": "DawnyWu",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/DawnyWu/Merriam-Webster/issues"
-    },
     "homepage": "https://github.com/DawnyWu/Merriam-Webster",
     "dependencies": {
       "electron-prebuilt": "^0.36.0",
       "electron-packager": "^5.2.1"
+    },
+    "other": {
+      "author": "DawnyWu",
+      "bugs": {
+        "url": "https://github.com/DawnyWu/Merriam-Webster/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -133,5 +132,6 @@
       "url": "https://api.github.com/repos/DawnyWu/Merriam-Webster/git/commits/e91ae37fda3c5cc5d84e289b7038015cb0e65e99",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DawnyWu___Merriam-Webster.json"
 }

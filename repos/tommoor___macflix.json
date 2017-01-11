@@ -79,27 +79,26 @@
     "scripts": {
       "start": "electron src/main/main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/tommoor/macflix.git"
-    },
+    "repository": "https://github.com/tommoor/macflix",
     "keywords": [
       "electron",
       "desktop",
       "netflix",
       "video"
     ],
-    "author": "Tom Moor",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/tommoor/macflix/issues"
-    },
     "dependencies": {
       "jquery": "^2.1.4",
       "underscore": "^1.7.0"
     },
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
+    },
+    "other": {
+      "author": "Tom Moor",
+      "bugs": {
+        "url": "https://github.com/tommoor/macflix/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/tommoor/macflix/git/commits/1088f0bb3efdfaa746098b6106d308242fa5ab30",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tommoor___macflix.json"
 }

@@ -57,16 +57,10 @@
     "version": "1.1.5",
     "description": "A menu to read Hacker News",
     "main": "./dist/index.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/jingweno/hacker-menu.git"
-    },
+    "repository": "https://github.com/jingweno/hacker-menu",
     "engines": {
       "node": "4.1.1",
       "npm": "3.3.5"
-    },
-    "bugs": {
-      "url": "https://github.com/jingweno/hacker-menu/issues"
     },
     "license": "MIT",
     "scripts": {
@@ -81,7 +75,6 @@
       "package_sign": "npm run build && node script/package --sign",
       "release": "npm run package_sign && npm run compress"
     },
-    "author": "Jingwen Owen Ou",
     "config": {
       "electron_version": "0.33.4"
     },
@@ -107,6 +100,12 @@
       "newrelic-winston": "0.0.1",
       "react": "^0.13.3",
       "winston": "^1.0.2"
+    },
+    "other": {
+      "author": "Jingwen Owen Ou",
+      "bugs": {
+        "url": "https://github.com/jingweno/hacker-menu/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -137,5 +136,6 @@
       "url": "https://api.github.com/repos/jingweno/hacker-menu/git/commits/6a7b90d9750816b8b320b59fd9362e15e9bcb009",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jingweno___hacker-menu.json"
 }

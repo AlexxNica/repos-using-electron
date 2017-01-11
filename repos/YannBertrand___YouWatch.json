@@ -59,11 +59,6 @@
     "license": "MIT",
     "repository": "YannBertrand/YouWatch",
     "main": "dist/app.js",
-    "author": {
-      "name": "Yann Bertrand",
-      "email": "yann@bertrand.com",
-      "url": "yann-bertrand.fr"
-    },
     "scripts": {
       "start": "node_modules/.bin/gulp",
       "test": "node_modules/.bin/xo src/*.js",
@@ -118,6 +113,13 @@
         "node",
         "browser"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "Yann Bertrand",
+        "email": "yann@bertrand.com",
+        "url": "yann-bertrand.fr"
+      }
     }
   },
   "packageStatus": 200,
@@ -145,5 +147,6 @@
       "url": "https://api.github.com/repos/YannBertrand/YouWatch/git/commits/a437b5e99fba54d4a89067925f8ed4096c327f02",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "YannBertrand___YouWatch.json"
 }

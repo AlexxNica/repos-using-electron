@@ -73,26 +73,25 @@
     "bin": {
       "papps": "./startscript.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/podiumnet/papps.git"
-    },
+    "repository": "https://github.com/podiumnet/papps",
     "scripts": {
       "start": "electron ."
     },
     "keywords": [
       "apps"
     ],
-    "author": "podium",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/podiumnet/papps/issues"
-    },
     "homepage": "https://github.com/podiumnet/papps#readme",
     "dependencies": {
       "coffee-script": "^1.10.0",
       "electron-prebuilt": "^0.34.2",
       "npm": "^3.3.10"
+    },
+    "other": {
+      "author": "podium",
+      "bugs": {
+        "url": "https://github.com/podiumnet/papps/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -120,5 +119,6 @@
       "url": "https://api.github.com/repos/podiumnet/apps/git/commits/55f5d152df324f18fb6df0cd017e9fdecfd7a177",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "podiumnet___apps.json"
 }

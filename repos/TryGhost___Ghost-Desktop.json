@@ -90,10 +90,6 @@
     "version": "1.0.0",
     "description": "Desktop Client for Ghost",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "homepage": "https://github.com/tryghost/ghost-desktop",
     "scripts": {
       "build": "ember electron:package --environment production --app-version $npm_package_version --overwrite",
@@ -123,7 +119,6 @@
     "engines": {
       "node": ">= 6.0"
     },
-    "author": "",
     "license": "MIT",
     "optionalDependencies": {
       "grunt-electron-installer-debian": "^0.3.0"
@@ -219,6 +214,13 @@
       "keytar": "^3.0.0",
       "randomcolor": "0.4.4",
       "spellchecker": "3.3.1"
+    },
+    "other": {
+      "author": "",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -255,5 +257,6 @@
       "url": "https://api.github.com/repos/TryGhost/Ghost-Desktop/git/commits/f0ec27d6a74ff342b7ca6c1910a66668e845b824",
       "commentCount": 2
     }
-  }
+  },
+  "filename": "TryGhost___Ghost-Desktop.json"
 }

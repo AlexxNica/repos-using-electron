@@ -71,7 +71,6 @@
     "version": "0.1.0",
     "main": "./app/main.js",
     "description": "Electron App",
-    "author": "Me <me@example.org>",
     "scripts": {
       "start": "electron ./app/main",
       "debug": "electron --debug=5858 ./app/main",
@@ -90,6 +89,9 @@
       "electron-windows-installer": "^1.2.5",
       "gulp": "^3.9.1",
       "devtron": "*"
+    },
+    "other": {
+      "author": "Me <me@example.org>"
     }
   },
   "packageStatus": 200,
@@ -117,5 +119,6 @@
       "url": "https://api.github.com/repos/AndrewSlang/todotron/git/commits/e4b7e8f67f85880128f0270666a205c96983063c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "AndrewSlang___todotron.json"
 }

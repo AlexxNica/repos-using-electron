@@ -75,20 +75,19 @@
       "start": "node_modules/.bin/electron .",
       "build": "rm -rf ./dist/* & node_modules/.bin/electron-packager ./ GeoInfo --platform=all --arch=all --out=dist --overwrite"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/FrontEndCoffee/geo-info.git"
-    },
-    "author": "",
+    "repository": "https://github.com/FrontEndCoffee/geo-info",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/FrontEndCoffee/geo-info/issues"
-    },
     "homepage": "https://github.com/FrontEndCoffee/geo-info#readme",
     "devDependencies": {
       "electron-packager": "^7.1.0",
       "electron-prebuilt": "^1.2.5",
       "request": "^2.72.0"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/FrontEndCoffee/geo-info/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -116,5 +115,6 @@
       "url": "https://api.github.com/repos/FrontEndCoffee/geo-info/git/commits/fdf20dc046b5edeaebe152a8412841a87ad04339",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "FrontEndCoffee___geo-info.json"
 }

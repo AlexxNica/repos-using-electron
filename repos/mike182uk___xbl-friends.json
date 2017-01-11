@@ -72,16 +72,9 @@
       "lint": "Run linter on codebase",
       "ci:release": "Release built and packaged application via the CI (must be run on the CI)"
     },
-    "author": "Michael David Barrett <mike182uk@gmail.com>",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/mike182uk/xbl-friends.git"
-    },
+    "repository": "https://github.com/mike182uk/xbl-friends",
     "homepage": "https://github.com/mike182uk/xbl-friends",
-    "bugs": {
-      "url": "https://github.com/mike182uk/xbl-friends/issues"
-    },
     "devDependencies": {
       "babel-cli": "^6.5.1",
       "babel-core": "^6.4.0",
@@ -140,6 +133,12 @@
       "commitizen": {
         "path": "./node_modules/cz-conventional-changelog"
       }
+    },
+    "other": {
+      "author": "Michael David Barrett <mike182uk@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/mike182uk/xbl-friends/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -167,5 +166,6 @@
       "url": "https://api.github.com/repos/mike182uk/xbl-friends/git/commits/0c175567540e02dc739ef4755d079e88846d8e5c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mike182uk___xbl-friends.json"
 }

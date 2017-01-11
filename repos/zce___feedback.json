@@ -55,15 +55,8 @@
     "name": "feedback",
     "description": "A feedback system",
     "version": "1.0.0",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/zce/feedback.git"
-    },
-    "author": "iceStone <ice@wedn.net> (http://wedn.net/)",
+    "repository": "https://github.com/zce/feedback",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/zce/feedback/issues"
-    },
     "homepage": "https://github.com/zce/feedback#readme",
     "scripts": {
       "postinstall": "cd app && npm install && cd ..",
@@ -128,6 +121,12 @@
       "webpack-dashboard": "^0.1.8",
       "webpack-dev-server": "^1.15.2",
       "webpack-merge": "^0.14.1"
+    },
+    "other": {
+      "author": "iceStone <ice@wedn.net> (http://wedn.net/)",
+      "bugs": {
+        "url": "https://github.com/zce/feedback/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -155,5 +154,6 @@
       "url": "https://api.github.com/repos/zce/feedback/git/commits/5d3d06961fd97ff3c4338c9f4f0822cb551124f4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zce___feedback.json"
 }

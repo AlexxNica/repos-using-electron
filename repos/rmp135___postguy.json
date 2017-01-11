@@ -80,7 +80,6 @@
       "release": "build --x64 --publish never",
       "test": "karma start karma.conf.js"
     },
-    "author": "Codeweavers",
     "license": "CC0-1.0",
     "devDependencies": {
       "babel-core": "^6.17.0",
@@ -137,8 +136,11 @@
         "background": "resources/osx/dmg-background.png"
       }
     },
-    "directories": {
-      "buildResources": "resources"
+    "other": {
+      "author": "Codeweavers",
+      "directories": {
+        "buildResources": "resources"
+      }
     }
   },
   "packageStatus": 200,
@@ -168,5 +170,6 @@
       "url": "https://api.github.com/repos/rmp135/postguy/git/commits/2df5e09f8138209e3a98ba7188ee4f8c33f5bfb1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rmp135___postguy.json"
 }

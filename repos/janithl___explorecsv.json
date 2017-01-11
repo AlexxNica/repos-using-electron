@@ -56,12 +56,8 @@
     "version": "1.0.0",
     "description": "A simple plaintext file reader and visualizer made with Electron",
     "main": "app.js",
-    "author": "Janith Leanage",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/janithl/explorecsv.git"
-    },
+    "repository": "https://github.com/janithl/explorecsv",
     "scripts": {
       "start": "electron ."
     },
@@ -71,6 +67,9 @@
     },
     "dependencies": {
       "babyparse": "^0.4.6"
+    },
+    "other": {
+      "author": "Janith Leanage"
     }
   },
   "packageStatus": 200,
@@ -98,5 +97,6 @@
       "url": "https://api.github.com/repos/janithl/explorecsv/git/commits/901f0c3ef5c7b47451fb67480059e8335289afa5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "janithl___explorecsv.json"
 }

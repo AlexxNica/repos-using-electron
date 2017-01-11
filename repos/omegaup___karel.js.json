@@ -124,16 +124,8 @@
     "bin": {
       "kareljs": "./cmd/kareljs"
     },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/omegaup/karel.js.git"
-    },
-    "bugs": {
-      "url": "https://github.com/omegaup/karel.js/issues"
-    },
-    "author": "omegaUp",
+    "repository": "https://github.com/omegaup/karel.js",
     "license": "MIT",
-    "readmeFilename": "README.md",
     "dependencies": {
       "commander": "^2.9.0",
       "xmldom": "^0.1.22"
@@ -152,6 +144,13 @@
       "grunt-jison": "~1.2.1",
       "jison": "~0.4.13",
       "mocha": "~2.4.5"
+    },
+    "other": {
+      "author": "omegaUp",
+      "bugs": {
+        "url": "https://github.com/omegaup/karel.js/issues"
+      },
+      "readmeFilename": "README.md"
     }
   },
   "packageStatus": 200,
@@ -202,5 +201,6 @@
       "url": "https://api.github.com/repos/omegaup/karel.js/git/commits/10e07176ec54faaf6799e55f60de41d45f2956ce",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "omegaup___karel.js.json"
 }

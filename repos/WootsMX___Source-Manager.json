@@ -83,13 +83,15 @@
     "name": "source-manager",
     "version": "1.0.0",
     "description": "Permite controlar los archivos de un Juego desarrollado con Source Engine",
-    "author": "Ivan Bravo Bravo",
     "main": "main.js",
     "scripts": {
       "start": "./node_modules/.bin/electron ."
     },
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
+    },
+    "other": {
+      "author": "Ivan Bravo Bravo"
     }
   },
   "packageStatus": 200,
@@ -117,5 +119,6 @@
       "url": "https://api.github.com/repos/WootsMX/Source-Manager/git/commits/10dfd5b54556e5dc1f6151e65e55c6efec106a2d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "WootsMX___Source-Manager.json"
 }

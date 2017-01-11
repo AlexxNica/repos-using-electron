@@ -91,19 +91,8 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
-    },
-    "author": {
-      "name": "Ed Summers",
-      "email": "ehs@pobox.com",
-      "url": "https://github.com/docnow/hydrator"
-    },
+    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/docnow/hydrator/issues"
-    },
     "keywords": [
       "twitter",
       "data"
@@ -186,6 +175,16 @@
     "devEngines": {
       "node": "4.x || 5.x || 6.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Ed Summers",
+        "email": "ehs@pobox.com",
+        "url": "https://github.com/docnow/hydrator"
+      },
+      "bugs": {
+        "url": "https://github.com/docnow/hydrator/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -213,5 +212,6 @@
       "url": "https://api.github.com/repos/DocNow/hydrator/git/commits/d6a36f3400317c33228dd6777ccb49534f54bfd7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DocNow___hydrator.json"
 }

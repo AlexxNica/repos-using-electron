@@ -98,13 +98,7 @@
       "prepackage": "rimraf releases && icon-gen --input assets/icon.svg --output ./releases/icons --report",
       "package": "electron-packager . 'Fastatic App' --out=releases --overwrite --icon=./releases/icons/app.icns --asar"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/voorhoede-labs/fastatic-app.git"
-    },
-    "bugs": {
-      "url": "https://github.com/voorhoede-labs/fastatic-app/issues"
-    },
+    "repository": "https://github.com/voorhoede-labs/fastatic-app",
     "homepage": "https://github.com/voorhoede-labs/fastatic-app#readme",
     "keywords": [
       "fastatic",
@@ -112,7 +106,6 @@
       "optimization",
       "static"
     ],
-    "author": "De Voorhoede (https://voorhoede.nl/)",
     "license": "MIT",
     "dependencies": {
       "about-window": "1.6.0",
@@ -165,5 +158,7 @@
       "url": "https://api.github.com/repos/voorhoede/fastatic-app/git/commits/424daa1562a237b0965fa4db5433fc606f8e74df",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "voorhoede-labs___fastatic-gui.json",
+  "sourceRepo": "voorhoede/fastatic-app"
 }

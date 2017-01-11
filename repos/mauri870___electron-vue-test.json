@@ -68,7 +68,6 @@
   "packageJSON": {
     "name": "electron-vue",
     "description": "A Vue.js project",
-    "author": "Mauri de Souza Nunes <mauri870@gmail.com>",
     "private": true,
     "scripts": {
       "start": "npm run build && electron electron.js && npm run watchify",
@@ -117,6 +116,9 @@
       "vueify": "^8.0.0",
       "vueify-insert-css": "^1.0.0",
       "watchify": "^3.4.0"
+    },
+    "other": {
+      "author": "Mauri de Souza Nunes <mauri870@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -144,5 +146,6 @@
       "url": "https://api.github.com/repos/mauri870/electron-vue-test/git/commits/fdb0551e095c9325591a7a5dcabf46af68d99bfc",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mauri870___electron-vue-test.json"
 }

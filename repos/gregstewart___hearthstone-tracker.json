@@ -71,19 +71,12 @@
       "lint",
       "test"
     ],
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/gregstewart/hearthstone-tracker.git"
-    },
+    "repository": "https://github.com/gregstewart/hearthstone-tracker",
     "keywords": [
       "hearthstone",
       "tracker"
     ],
-    "author": "Greg Stewart",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/gregstewart/hearthstone-tracker/issues"
-    },
     "homepage": "https://github.com/gregstewart/hearthstone-tracker#readme",
     "devDependencies": {
       "babel-cli": "6.18.0",
@@ -129,6 +122,12 @@
     },
     "engines": {
       "node": "6.5.0"
+    },
+    "other": {
+      "author": "Greg Stewart",
+      "bugs": {
+        "url": "https://github.com/gregstewart/hearthstone-tracker/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -177,5 +176,6 @@
       "url": "https://api.github.com/repos/gregstewart/hearthstone-tracker/git/commits/cc936f99be293b08c0ca6c97358979e8ba37b55b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "gregstewart___hearthstone-tracker.json"
 }

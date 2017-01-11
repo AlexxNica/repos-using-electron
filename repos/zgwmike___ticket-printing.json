@@ -62,7 +62,6 @@
       "watch": "watchify -o js/bundle.js -v -d browser/app.js",
       "build": "browserify browser/app.js -t [envify --NODE_ENV production] | uglifyjs -cm > js/bundle.min.js"
     },
-    "author": "Shrek Zhou<shrekzhou@livenation.com>",
     "devDependencies": {
       "browserify": "^11.2.0",
       "electron-prebuilt": "^0.33.1",
@@ -89,6 +88,9 @@
         "reactify",
         "envify"
       ]
+    },
+    "other": {
+      "author": "Shrek Zhou<shrekzhou@livenation.com>"
     }
   },
   "packageStatus": 200,
@@ -116,5 +118,6 @@
       "url": "https://api.github.com/repos/zgwmike/ticket-printing/git/commits/7897c03e70923c9fecabea0e0626b2f372ac36f6",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zgwmike___ticket-printing.json"
 }

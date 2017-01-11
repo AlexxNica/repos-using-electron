@@ -56,9 +56,7 @@
     "version": "4.2.3",
     "license": "GPL",
     "description": "An automated marking application for code projects in the Algonquin College Graphic Design program.",
-    "author": "Thomas J Bradley <hey@thomasjbradley.ca>",
     "homepage": "https://github.com/thomasjbradley/markbot",
-    "bugs": "https://github.com/thomasjbradley/markbot/issues",
     "private": true,
     "main": "markbot.js",
     "dependencies": {
@@ -93,10 +91,7 @@
       "build": "build -mw",
       "hash-passcode": "node ./scripts/hash-passcode.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/thomasjbradley/markbot.git"
-    },
+    "repository": "https://github.com/thomasjbradley/markbot",
     "build": {
       "appId": "ca.thomasjbradley.markbot",
       "copyright": "© Thomas J Bradley",
@@ -135,6 +130,10 @@
           }
         ]
       }
+    },
+    "other": {
+      "author": "Thomas J Bradley <hey@thomasjbradley.ca>",
+      "bugs": "https://github.com/thomasjbradley/markbot/issues"
     }
   },
   "packageStatus": 200,
@@ -162,5 +161,6 @@
       "url": "https://api.github.com/repos/thomasjbradley/markbot/git/commits/0a2714b2b22ace87e85186ff0611060c6632238c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "thomasjbradley___markbot.json"
 }

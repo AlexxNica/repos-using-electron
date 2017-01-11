@@ -87,18 +87,10 @@
       "installer": "node ./script/installer.js",
       "clean": "node ./script/clean.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/IvoNet/scooch-app.git"
-    },
+    "repository": "https://github.com/IvoNet/scooch-app",
     "keywords": [
       "slides, presentations, slideshows, keynote, powerpoint, scooch"
     ],
-    "author": {
-      "name": "Ivo Woltring",
-      "email": "webmaster@ivonet.nl",
-      "url": "http://www.ivonet.nl"
-    },
     "license": "Apache-2.0",
     "contributors": [
       {
@@ -154,6 +146,13 @@
       "jquery": "^3.1.1",
       "mathjax": "2.6.1",
       "reveal.js": "^3.3.0"
+    },
+    "other": {
+      "author": {
+        "name": "Ivo Woltring",
+        "email": "webmaster@ivonet.nl",
+        "url": "http://www.ivonet.nl"
+      }
     }
   },
   "packageStatus": 200,
@@ -182,5 +181,6 @@
       "url": "https://api.github.com/repos/IvoNet/scooch-app/git/commits/b1064b51cd5fa00ad4840977906b2b950b474713",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "IvoNet___scooch-app.json"
 }

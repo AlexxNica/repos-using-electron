@@ -52,20 +52,13 @@
       "node": ">=4"
     },
     "description": "Play Magic the Gathering with Friends",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/calweb/mtg-app.git"
-    },
+    "repository": "https://github.com/calweb/mtg-app",
     "keywords": [
       "mtg",
       "electron",
       "angular"
     ],
-    "author": "Calvin Webster <calweb@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/calweb/mtg-app/issues"
-    },
     "homepage": "https://github.com/calweb/mtg-app",
     "devDependencies": {
       "asar": "^0.7.2",
@@ -91,6 +84,12 @@
       "release": "gulp release --env=production",
       "start": "node ./tasks/start",
       "test": "node ./tasks/start --env=test"
+    },
+    "other": {
+      "author": "Calvin Webster <calweb@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/calweb/mtg-app/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -118,5 +117,6 @@
       "url": "https://api.github.com/repos/calweb/tesseract-client/git/commits/342b031bc5adae6e13eb611b8b673d906189373b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "calweb___tesseract-client.json"
 }

@@ -62,18 +62,8 @@
       "pack": "npm run build && build --dir",
       "dist": "npm run build && build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/legendecas/devdocupp.git"
-    },
-    "author": {
-      "name": "Lucas Woo",
-      "email": "legendecas@gmail.com"
-    },
+    "repository": "https://github.com/legendecas/devdocupp",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/legendecas/devdocupp/issues"
-    },
     "homepage": "https://github.com/legendecas/devdocupp#readme",
     "devDependencies": {
       "babel-core": "^6.11.4",
@@ -116,6 +106,15 @@
     "build": {
       "appId": "com.github.legendecas.devdocupp",
       "app-category-type": "public.app-category.developer-tools"
+    },
+    "other": {
+      "author": {
+        "name": "Lucas Woo",
+        "email": "legendecas@gmail.com"
+      },
+      "bugs": {
+        "url": "https://github.com/legendecas/devdocupp/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -143,5 +142,6 @@
       "url": "https://api.github.com/repos/legendecas/devdocupp/git/commits/9d76709e0c4b1d8ecf50b960f7579fbfdda09c12",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "legendecas___devdocupp.json"
 }

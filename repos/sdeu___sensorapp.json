@@ -55,21 +55,14 @@
       "babel": "babel --presets es2015,react --watch javascripts/ --out-dir bin/",
       "compile": "browserify -t [ babelify --presets [ react es2015 ] ] javascripts/app.js -o bin/app.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "babel-cli": "^6.11.4",
@@ -84,6 +77,12 @@
       "react": "^15.3.1",
       "react-desktop": "^0.2.13",
       "react-dom": "^15.3.1"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -109,5 +108,6 @@
       "url": "https://api.github.com/repos/sdeu/sensorapp/git/commits/91051e03bbe93b81c24b1fb3bd6101c4f8c932d0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sdeu___sensorapp.json"
 }

@@ -84,7 +84,6 @@
       "pack:win": "electron-packager . LarisaBusinessGuide --app-version=%npm_package_version% --out=builds --ignore='^/builds$' --platform=win32 --arch=ia32 --version-string.CompanyName=%npm_package_productName% --version-string.LegalCopyright='Copyright 2016' --version-string.FileDescription=%npm_package_productName% --version-string.OriginalFilename='LarisaBusinessGuide.exe' --version-string.InternalName%npm_package_productName% --version-string.ProductName=%npm_package_productName% --version-string.ProductVersion==%npm_package_version% --asar=true --icon=appres/appIcon.ico --overwrite",
       "build-installer": "grunt create-windows-installer"
     },
-    "author": "Alex G. Keramidas",
     "license": "MIT",
     "dependencies": {
       "babel-preset-es2015": "^6.14.0",
@@ -103,6 +102,9 @@
       "electron-reload": "^1.0.2",
       "grunt-electron-installer": "^2.1.0",
       "del": "^2.2.2"
+    },
+    "other": {
+      "author": "Alex G. Keramidas"
     }
   },
   "packageStatus": 200,
@@ -130,5 +132,6 @@
       "url": "https://api.github.com/repos/alexkeramidas/electron-react-app/git/commits/211aad0b3fd1b688d0c8e275a41defb659ed23e7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "alexkeramidas___electron-react-app.json"
 }

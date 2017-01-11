@@ -60,7 +60,6 @@
       "test": "standard && ava",
       "start": "electron ."
     },
-    "author": "Joonatan Vuorinen",
     "license": "ISC",
     "devDependencies": {
       "ava": "^0.15.2",
@@ -72,14 +71,14 @@
       "esprima": "^2.7.2",
       "shortid": "^2.2.6"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/natancodes/astral.git"
-    },
+    "repository": "https://github.com/natancodes/astral",
     "config": {
       "commitizen": {
         "path": "./node_modules/cz-conventional-changelog"
       }
+    },
+    "other": {
+      "author": "Joonatan Vuorinen"
     }
   },
   "packageStatus": 200,
@@ -107,5 +106,6 @@
       "url": "https://api.github.com/repos/natancodes/astral/git/commits/e56b14ba7f9602213d110775201d8cb629156659",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "natancodes___astral.json"
 }

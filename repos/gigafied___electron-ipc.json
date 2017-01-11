@@ -74,15 +74,8 @@
       "test": "npm run lint",
       "lint": "node ./node_modules/standard/bin/cmd | node ./node_modules/snazzy/bin/cmd"
     },
-    "author": "Taka Kojima <taka@gigafied.com>",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/gigafied/electron-ipc.git"
-    },
-    "bugs": {
-      "url": "https://github.com/gigafied/electron-ipc/issues"
-    },
+    "repository": "https://github.com/gigafied/electron-ipc",
     "keywords": [
       "publish",
       "subscribe",
@@ -98,6 +91,12 @@
       "electron": "*",
       "snazzy": "^5.0.0",
       "standard": "^8.4.0"
+    },
+    "other": {
+      "author": "Taka Kojima <taka@gigafied.com>",
+      "bugs": {
+        "url": "https://github.com/gigafied/electron-ipc/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -125,5 +124,6 @@
       "url": "https://api.github.com/repos/gigafied/electron-ipc/git/commits/b9b5013e8174dac8a06e1ba383875f8131e7ee8b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "gigafied___electron-ipc.json"
 }

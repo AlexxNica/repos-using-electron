@@ -169,7 +169,6 @@
     "version": "0.3.0",
     "description": "The blocks based, easy to use setup tool for Raspberry Pi",
     "main": "./main.js",
-    "author": "David Ferguson <david@pibakery.org>",
     "license": "GPL-3.0+",
     "scripts": {
       "setup": "npm install && if uname | grep Darwin; then mkdir -p '/Library/Application Support/PiBakery/os/'; fi",

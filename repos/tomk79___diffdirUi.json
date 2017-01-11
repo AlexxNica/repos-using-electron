@@ -81,15 +81,8 @@
       "start": "electron .",
       "test": "mocha --ui tdd ./tests/"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/tomk79/diffdirUi.git"
-    },
-    "author": "Tomoya Koyanagi <tomk79@gmail.com>",
+    "repository": "https://github.com/tomk79/diffdirUi",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/tomk79/diffdirUi/issues"
-    },
     "homepage": "https://github.com/tomk79/diffdirUi#readme",
     "dependencies": {
       "electron": "^0.4.1",
@@ -112,6 +105,12 @@
       "gulp-twig": "^0.5.0",
       "gulp-uglify": "^1.5.3",
       "mocha": "^2.1.0"
+    },
+    "other": {
+      "author": "Tomoya Koyanagi <tomk79@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/tomk79/diffdirUi/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -139,5 +138,6 @@
       "url": "https://api.github.com/repos/tomk79/diffdirUi/git/commits/da32d615b1b6404f151afba34d3ae3a947a2fd96",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tomk79___diffdirUi.json"
 }

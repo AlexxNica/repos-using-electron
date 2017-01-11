@@ -81,21 +81,14 @@
       "grunt-watch": "./node_modules/grunt/bin/grunt watch",
       "start": "electron electron.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/vultuk/vicidial-client"
-    },
+    "repository": "https://github.com/vultuk/vicidial-client",
     "keywords": [
       "Vicidial",
       "dialler",
       "client",
       "goautodial"
     ],
-    "author": "Vultuk",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/vultuk/vicidial-client/issues"
-    },
     "homepage": "https://github.com/vultuk/vicidial-client#readme",
     "devDependencies": {
       "angular": "^1.5.5",
@@ -108,6 +101,12 @@
       "grunt-contrib-watch": "^1.0.0",
       "grunt-sass": "^1.2.0",
       "serve-static": "^1.10.2"
+    },
+    "other": {
+      "author": "Vultuk",
+      "bugs": {
+        "url": "https://github.com/vultuk/vicidial-client/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -135,5 +134,6 @@
       "url": "https://api.github.com/repos/vultuk/vicidial-client/git/commits/3c7d798f7cc4aafee5f6e13bcdac8bc613f56e25",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "vultuk___vicidial-client.json"
 }

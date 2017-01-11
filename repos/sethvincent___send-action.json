@@ -66,20 +66,13 @@
       "start": "budo --dir dist --pushstate",
       "deploy": "npm run build:deploy && gh-pages -d dist"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/sethvincent/send-action.git"
-    },
+    "repository": "https://github.com/sethvincent/send-action",
     "keywords": [
       "state",
       "store",
       "redux"
     ],
-    "author": "sethvincent",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/sethvincent/send-action/issues"
-    },
     "homepage": "https://github.com/sethvincent/send-action#readme",
     "dependencies": {
       "xtend": "^4.0.1"
@@ -97,6 +90,12 @@
       "virtual-dom": "^2.1.1",
       "virtual-raf": "^3.0.0",
       "yo-yo": "^1.1.1"
+    },
+    "other": {
+      "author": "sethvincent",
+      "bugs": {
+        "url": "https://github.com/sethvincent/send-action/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -147,5 +146,6 @@
       "url": "https://api.github.com/repos/sethvincent/send-action/git/commits/b83ef969a1141ff2ebbff34bb06ae8de9f2c3a8a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sethvincent___send-action.json"
 }

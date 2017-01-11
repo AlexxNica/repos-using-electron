@@ -70,10 +70,6 @@
     "version": "0.0.1",
     "main": "main.js",
     "description": "Singapore Deals 4 u interactive kiosk",
-    "author": {
-      "name": "singaporedeals4u",
-      "email": "sgdeals@www.com"
-    },
     "scripts": {
       "start": "ENV=development SETUP_PATH=./config electron main.js",
       "server": "babel-node server.js",
@@ -136,6 +132,12 @@
       "webpack-dev-middleware": "^1.6.1",
       "webpack-hot-middleware": "^2.10.0",
       "webpack-target-electron-renderer": "^0.4.0"
+    },
+    "other": {
+      "author": {
+        "name": "singaporedeals4u",
+        "email": "sgdeals@www.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -163,5 +165,6 @@
       "url": "https://api.github.com/repos/robinfoe/singaporedeals-kiosk/git/commits/190fea73fe7ec14af23299fb8485dd936bbea6fb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "robinfoe___singaporedeals-kiosk.json"
 }

@@ -76,7 +76,6 @@
       "watch": "watchify --debug ./app/app.js -v -o ./www/dist/bundle.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Masato Yoshioka",
     "license": "ISC",
     "devDependencies": {
       "browserify": "^9.0.8",
@@ -97,6 +96,9 @@
       "transform": [
         "reactify"
       ]
+    },
+    "other": {
+      "author": "Masato Yoshioka"
     }
   },
   "packageStatus": 200,
@@ -124,5 +126,6 @@
       "url": "https://api.github.com/repos/MasatoYoshioka/2048.io/git/commits/d0110e5e04e72d430fb2b72e2b479773272045bc",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "MasatoYoshioka___2048.io.json"
 }

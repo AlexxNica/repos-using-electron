@@ -77,7 +77,6 @@
     "version": "0.3.2",
     "description": "The blocks based, easy to use setup tool for Raspberry Pi",
     "main": "./main.js",
-    "author": "David Ferguson <david@pibakery.org>",
     "license": "GPL-3.0+",
     "scripts": {
       "setup": "npm install && if uname | grep Darwin; then mkdir -p '/Library/Application Support/PiBakery/os/'; fi",
@@ -111,6 +110,9 @@
     "devDependencies": {
       "electron-packager": "^7.4.0",
       "electron-prebuilt": "^1.3.2"
+    },
+    "other": {
+      "author": "David Ferguson <david@pibakery.org>"
     }
   },
   "packageStatus": 200,
@@ -143,5 +145,6 @@
       "url": "https://api.github.com/repos/davidferguson/pibakery/git/commits/bb7d6084045d03ae928fdd1e5ed905a6b03d5174",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "davidferguson___pibakery.json"
 }

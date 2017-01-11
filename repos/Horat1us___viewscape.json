@@ -80,10 +80,7 @@
       "test": "./node_modules/.bin/_mocha tests/test.js",
       "start": "./node_modules/.bin/electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/horat1us/viewscape.git"
-    },
+    "repository": "https://github.com/horat1us/viewscape",
     "keywords": [
       "image",
       "viewer",
@@ -93,11 +90,7 @@
       "png",
       "bitmap"
     ],
-    "author": "Alexander Letnikow",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/horat1us/viewscape/issues"
-    },
     "homepage": "https://github.com/horat1us/viewscape#readme",
     "jshintConfig": {
       "nodejs": true,
@@ -116,6 +109,12 @@
       "chai": "^3.5.0",
       "electron": "^1.4.3",
       "mocha": "^3.1.2"
+    },
+    "other": {
+      "author": "Alexander Letnikow",
+      "bugs": {
+        "url": "https://github.com/horat1us/viewscape/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -143,5 +142,6 @@
       "url": "https://api.github.com/repos/Horat1us/viewscape/git/commits/eaec3e2e4322369a7f844006ef44e3ffb364569d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Horat1us___viewscape.json"
 }

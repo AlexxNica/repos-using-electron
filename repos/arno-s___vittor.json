@@ -76,16 +76,9 @@
       "build": "npm run dist && electron-packager . --all --out='./build' --overwrite",
       "dist": "rm -rf dist && webpack --config webpack.config.js --inline --bail --progress"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/arno-s/vittor.git"
-    },
+    "repository": "https://github.com/arno-s/vittor",
     "keywords": [],
-    "author": "Arno Schutijzer",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/arno-s/vittor/issues"
-    },
     "homepage": "https://github.com/arno-s/vittor#readme",
     "devDependencies": {
       "babel-core": "^6.9.1",
@@ -116,6 +109,12 @@
       "electron": "^1.3.5",
       "torrent-stream": "^1.0.3",
       "underscore": "^1.8.3"
+    },
+    "other": {
+      "author": "Arno Schutijzer",
+      "bugs": {
+        "url": "https://github.com/arno-s/vittor/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -143,5 +142,6 @@
       "url": "https://api.github.com/repos/arno-s/vittor/git/commits/f77c521ff8ed9d7dd8f5fc4ebfd7454607f1e2ce",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "arno-s___vittor.json"
 }

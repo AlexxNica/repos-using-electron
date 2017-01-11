@@ -76,19 +76,8 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jkup/startr.git"
-    },
-    "author": {
-      "name": "Jon Kuperman",
-      "email": "jon.kuperman@gmail.com",
-      "url": "https://jonkuperman.com"
-    },
+    "repository": "https://github.com/jkup/startr",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/jkup/startr/issues"
-    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -165,6 +154,16 @@
     "devEngines": {
       "node": "4.x || 5.x || 6.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Jon Kuperman",
+        "email": "jon.kuperman@gmail.com",
+        "url": "https://jonkuperman.com"
+      },
+      "bugs": {
+        "url": "https://github.com/jkup/startr/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -192,5 +191,6 @@
       "url": "https://api.github.com/repos/jkup/startr/git/commits/2df66f4e3857eb2e2553c09dc5199de9167ce9ab",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jkup___startr.json"
 }

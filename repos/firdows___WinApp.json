@@ -72,7 +72,6 @@
     "scripts": {
       "start": "electron ."
     },
-    "author": "Amad",
     "license": "ISC",
     "devDependencies": {
       "electron-packager": "^7.0.1",
@@ -81,18 +80,18 @@
     },
     "description": "Windows Application",
     "dependencies": {},
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/firdows/WinApp.git"
-    },
+    "repository": "https://github.com/firdows/WinApp",
     "keywords": [
       "win",
       "app"
     ],
-    "bugs": {
-      "url": "https://github.com/firdows/WinApp/issues"
-    },
-    "homepage": "https://github.com/firdows/WinApp#readme"
+    "homepage": "https://github.com/firdows/WinApp#readme",
+    "other": {
+      "author": "Amad",
+      "bugs": {
+        "url": "https://github.com/firdows/WinApp/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -119,5 +118,6 @@
       "url": "https://api.github.com/repos/firdows/WinApp/git/commits/1f0ca03fc406ca367bc39eb75b0fea8d596cdf95",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "firdows___WinApp.json"
 }

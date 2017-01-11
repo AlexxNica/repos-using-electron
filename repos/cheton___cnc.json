@@ -56,7 +56,6 @@
     "version": "1.7.0",
     "description": "A web-based interface for CNC milling controller running Grbl or TinyG2",
     "homepage": "https://github.com/cheton/cnc",
-    "author": "Cheton Wu <cheton@gmail.com>",
     "main": "./dist/cnc/cnc.js",
     "bin": {
       "cnc": "./bin/cnc"
@@ -66,10 +65,7 @@
       "dist",
       "static"
     ],
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:cheton/cnc.git"
-    },
+    "repository": "https://github.com/cheton/cnc",
     "license": "MIT",
     "engines": {
       "node": ">=0.10.x"
@@ -147,11 +143,6 @@
       "linux": {
         "target": "deb"
       }
-    },
-    "directories": {
-      "buildResources": "build",
-      "output": "output",
-      "app": "dist/cnc"
     },
     "keywords": [
       "arduino",
@@ -311,6 +302,14 @@
       "webpack-manifest-plugin": "~1.1.0",
       "webpack-md5-hash": "0.0.5",
       "write-file-webpack-plugin": "~3.3.0"
+    },
+    "other": {
+      "author": "Cheton Wu <cheton@gmail.com>",
+      "directories": {
+        "buildResources": "build",
+        "output": "output",
+        "app": "dist/cnc"
+      }
     }
   },
   "packageStatus": 200,
@@ -365,5 +364,6 @@
       "url": "https://api.github.com/repos/cheton/cnc/git/commits/6e0935303911f6c228170046a7361d897584d76a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cheton___cnc.json"
 }

@@ -75,9 +75,7 @@
     "name": "angular2-seed-advanced",
     "version": "0.0.0",
     "description": "Advanced seed for Angular 2 apps",
-    "repository": {
-      "url": "https://github.com/NathanWalker/angular2-seed-advanced"
-    },
+    "repository": "https://github.com/NathanWalker/angular2-seed-advanced",
     "scripts": {
       "build.desktop.mac": "rimraf desktop/mac/* && gulp desktop.mac",
       "build.desktop.windows": "rimraf desktop/windows/* && gulp desktop.windows",
@@ -124,7 +122,6 @@
       "webdriver-start": "node_modules/protractor/bin/webdriver-manager start",
       "webdriver-update": "node_modules/protractor/bin/webdriver-manager update"
     },
-    "author": "Minko Gechev <mgechev>",
     "contributors": [
       {
         "name": "Nathan Walker <NathanWalker>"
@@ -241,6 +238,9 @@
       "jquery": "^2.2.4",
       "moment": "^2.13.0",
       "ng2-bootstrap": "^1.0.17"
+    },
+    "other": {
+      "author": "Minko Gechev <mgechev>"
     }
   },
   "packageStatus": 200,
@@ -269,5 +269,6 @@
       "url": "https://api.github.com/repos/BenevidesLecontes/angular-seed/git/commits/fbab16d568a105edc098cce86258d331a70397ae",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "BenevidesLecontes___angular-seed.json"
 }

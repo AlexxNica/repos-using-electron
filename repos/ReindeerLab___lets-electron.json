@@ -94,18 +94,11 @@
       "start": "gulp serve",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ReindeerLab/lets-electron.git"
-    },
+    "repository": "https://github.com/ReindeerLab/lets-electron",
     "keywords": [
       "electron"
     ],
-    "author": "dachi",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ReindeerLab/lets-electron/issues"
-    },
     "homepage": "https://github.com/ReindeerLab/lets-electron#readme",
     "devDependencies": {
       "browserify": "^11.2.0",
@@ -126,6 +119,12 @@
     },
     "dependencies": {
       "jquery": "^2.1.4"
+    },
+    "other": {
+      "author": "dachi",
+      "bugs": {
+        "url": "https://github.com/ReindeerLab/lets-electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -153,5 +152,6 @@
       "url": "https://api.github.com/repos/ReindeerLab/lets-electron/git/commits/b88ab03c58832fa19230feb4fbf8e82f418627af",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ReindeerLab___lets-electron.json"
 }

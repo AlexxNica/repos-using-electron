@@ -74,7 +74,6 @@
       "start": "electron .",
       "build": "electron-packager . calc --ignore=node_modules,Resourses --asar --overwrite && cp Resourses/Calculator.icns calc-darwin-x64/calc.app/Contents/Resources/electron.icns"
     },
-    "author": "Kayen",
     "window": {
       "toolbar": false,
       "width": 800,
@@ -87,6 +86,9 @@
       "electron": "^1.4.3",
       "electron-packager": "^8.1.0",
       "electron-prebuilt": "^1.4.3"
+    },
+    "other": {
+      "author": "Kayen"
     }
   },
   "packageStatus": 200,
@@ -114,5 +116,6 @@
       "url": "https://api.github.com/repos/Kayenushka/hexapod.calc/git/commits/3cfa5032bf56f2ef252141ec537372175df24ff8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Kayenushka___hexapod.calc.json"
 }

@@ -83,10 +83,7 @@
       "check-js": "cd src && flow",
       "start": "npm run-script build-js && electron lib/main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/boyers/fresco"
-    },
+    "repository": "https://github.com/boyers/fresco",
     "keywords": [
       "component",
       "digital design",
@@ -95,11 +92,7 @@
       "interfaces",
       "ui"
     ],
-    "author": "Stephan Boyer",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/boyers/fresco/issues"
-    },
     "homepage": "https://github.com/boyers/fresco#readme",
     "devDependencies": {
       "babel-cli": "^6.10.1",
@@ -109,6 +102,12 @@
       "electron-packager": "^7.0.3",
       "electron-prebuilt": "^1.2.1",
       "flow-bin": "^0.27.0"
+    },
+    "other": {
+      "author": "Stephan Boyer",
+      "bugs": {
+        "url": "https://github.com/boyers/fresco/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,6 @@
       "url": "https://api.github.com/repos/stepchowfun/fresco/git/commits/10bc88ea83fd7d4fbd71c77f8cb54361fb76fcf4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "stepchowfun___fresco.json"
 }

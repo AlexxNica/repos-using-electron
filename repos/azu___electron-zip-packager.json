@@ -73,17 +73,10 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-zip-packager",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/azu/electron-zip-packager.git"
-    },
-    "author": "azu",
+    "repository": "https://github.com/azu/electron-zip-packager",
     "email": "azuciao@gmail.com",
     "homepage": "https://github.com/azu/electron-zip-packager",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/azu/electron-zip-packager/issues"
-    },
     "version": "4.0.0",
     "description": "A wrapper of electron-packager. Package your electron app and zipped!",
     "keywords": [
@@ -99,9 +92,6 @@
     "bin": {
       "electron-zip-packager": "bin/cmd.js"
     },
-    "directories": {
-      "test": "test"
-    },
     "scripts": {
       "travis-test": "(cd example && npm install && npm run dist)"
     },
@@ -110,6 +100,15 @@
       "electron-packager": "^8.1.0",
       "minimist": "^1.2.0",
       "electron": "^1.4.3"
+    },
+    "other": {
+      "author": "azu",
+      "bugs": {
+        "url": "https://github.com/azu/electron-zip-packager/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -138,5 +137,6 @@
       "url": "https://api.github.com/repos/azu/electron-zip-packager/git/commits/c3bc4ae7916fd278e623882663dc9fb08658a070",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "azu___electron-zip-packager.json"
 }

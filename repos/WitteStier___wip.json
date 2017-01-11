@@ -74,7 +74,6 @@
       "start": "electron ./app",
       "dist": "build -m --x64"
     },
-    "author": "WitteStier <Boy van Moorsel>",
     "devDependencies": {
       "electron-builder": "^5.20.0",
       "electron-prebuilt": "^1.3.1"
@@ -86,6 +85,9 @@
       "win": {
         "iconUrl": "http://eatodo.s3.amazonaws.com/icon.ico"
       }
+    },
+    "other": {
+      "author": "WitteStier <Boy van Moorsel>"
     }
   },
   "packageStatus": 200,
@@ -111,5 +113,6 @@
       "url": "https://api.github.com/repos/WitteStier/wip/git/commits/4afa1e4206ccfde13b890c41de68f94bec0283db",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "WitteStier___wip.json"
 }

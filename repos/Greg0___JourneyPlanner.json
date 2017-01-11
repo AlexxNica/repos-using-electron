@@ -87,21 +87,8 @@
       "iosEmulator": "npm run dumpdev -- --config webpack.config.ios.js  && cordova run ios",
       "ios": "npm run dumpdev -- --config webpack.config.ios.js  && cordova run ios --device"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Greg0/JourneyPlanner.git"
-    },
-    "author": [
-      {
-        "name": "Grzegorz Kuźnik",
-        "email": "gerg0sz92@gmail.com"
-      },
-      "shprink <contact@julienrenaux.fr> (http://julienrenaux.fr/)"
-    ],
+    "repository": "https://github.com/Greg0/JourneyPlanner",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Greg0/JourneyPlanner/issues"
-    },
     "homepage": "https://github.com/Greg0/JourneyPlanner#readme",
     "devDependencies": {
       "autoprefixer-loader": "^3.1.0",
@@ -138,7 +125,19 @@
     "cordovaPlatforms": [
       "android",
       "browser"
-    ]
+    ],
+    "other": {
+      "author": [
+        {
+          "name": "Grzegorz Kuźnik",
+          "email": "gerg0sz92@gmail.com"
+        },
+        "shprink <contact@julienrenaux.fr> (http://julienrenaux.fr/)"
+      ],
+      "bugs": {
+        "url": "https://github.com/Greg0/JourneyPlanner/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -165,5 +164,6 @@
       "url": "https://api.github.com/repos/Greg0/JourneyPlanner/git/commits/4654f016d579d58f1c1afaffbf6257a2ab109ab0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Greg0___JourneyPlanner.json"
 }

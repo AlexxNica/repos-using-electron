@@ -76,7 +76,6 @@
       "client": "electron index.js",
       "package": "electron-packager . --platform=win32,linux --arch=x64"
     },
-    "author": "Liu Yuhui <emliunix@hotmail.com>",
     "license": "MIT",
     "dependencies": {
       "electron-prebuilt": "^1.2.1",
@@ -86,6 +85,9 @@
       "chai": "^3.5.0",
       "electron-packager": "^7.0.3",
       "mocha": "^2.5.3"
+    },
+    "other": {
+      "author": "Liu Yuhui <emliunix@hotmail.com>"
     }
   },
   "packageStatus": 200,
@@ -111,5 +113,6 @@
       "url": "https://api.github.com/repos/emliunix/linux-chat/git/commits/3bdadee25cecc8862b79be7224e06850cd4d3f39",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "emliunix___linux-chat.json"
 }

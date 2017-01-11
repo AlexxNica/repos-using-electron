@@ -62,16 +62,12 @@
     "scripts": {
       "start": "node bin/mochatron.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/tscanlin/mochatron.git"
-    },
+    "repository": "https://github.com/tscanlin/mochatron",
     "keywords": [
       "mocha",
       "test",
       "electron"
     ],
-    "author": "Tim Scanlin",
     "license": "MIT",
     "devDependencies": {
       "eslint": "^1.10.3"
@@ -82,6 +78,9 @@
       "npm-execspawn": "^1.2.1",
       "sprintf-js": "^1.0.3",
       "xtend": "^4.0.1"
+    },
+    "other": {
+      "author": "Tim Scanlin"
     }
   },
   "packageStatus": 200,
@@ -109,5 +108,6 @@
       "url": "https://api.github.com/repos/tscanlin/mochatron/git/commits/6bdf6e351c7f999fc44af36206849d7bdbb3e2b7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tscanlin___mochatron.json"
 }

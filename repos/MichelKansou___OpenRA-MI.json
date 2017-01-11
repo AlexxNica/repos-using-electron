@@ -76,7 +76,6 @@
     "productName": "OpenRA-MI",
     "version": "1.0.0",
     "description": "A desktop application to make mod installation quicker for OpenRA project",
-    "author": "Michel Kansou",
     "license": "ISC",
     "main": "main.js",
     "scripts": {
@@ -90,7 +89,6 @@
       "watch": "npm run compass-watch-dev & electron main.js && npm run webpack-prod",
       "build-mac": "electron-packager ./ --platform=darwin --arch=all --out=dist/ --overwrite --icon=app/img/app-icon.icns --ignore=node_modules --app-version=1.0.0"
     },
-    "bugs": {},
     "devDependencies": {
       "assets-webpack-plugin": "^3.4.0",
       "babel-core": "^6.6.0",
@@ -134,6 +132,10 @@
       "redux": "^3.3.1",
       "semantic-ui-popup": "^2.1.7",
       "semantic-ui-transition": "^2.1.7"
+    },
+    "other": {
+      "author": "Michel Kansou",
+      "bugs": {}
     }
   },
   "packageStatus": 200,
@@ -162,5 +164,6 @@
       "url": "https://api.github.com/repos/MichelKansou/OpenRA-MI/git/commits/c89a646d6e912943697c41302892752ac1a29e5d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "MichelKansou___OpenRA-MI.json"
 }

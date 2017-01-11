@@ -80,14 +80,10 @@
       "client": "electron client/main.js",
       "server": "node server/index.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/grahamplata/NodeBot.git"
-    },
+    "repository": "https://github.com/grahamplata/NodeBot",
     "keywords": [
       "NodeBot"
     ],
-    "author": "Graham Plata <grahamplata.com>",
     "license": "MIT",
     "homepage": "https://github.com/Quobject/electron-nodebot",
     "devDependencies": {
@@ -104,6 +100,9 @@
       "particle-io": "^0.12.0",
       "socket.io": "^1.4.5",
       "socket.io-client": "^1.4.5"
+    },
+    "other": {
+      "author": "Graham Plata <grahamplata.com>"
     }
   },
   "packageStatus": 200,
@@ -131,5 +130,6 @@
       "url": "https://api.github.com/repos/grahamplata/NodeBot/git/commits/f15184f8802812cc384c177cb54f49ec21e429b0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "grahamplata___NodeBot.json"
 }

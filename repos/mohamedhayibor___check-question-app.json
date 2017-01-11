@@ -76,10 +76,7 @@
     "version": "1.0.0",
     "description": "Electron app that prompts user in asking better questions.",
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mohamedhayibor/check-question-app.git"
-    },
+    "repository": "https://github.com/mohamedhayibor/check-question-app",
     "scripts": {
       "test": "echo \"Error: no test for the time being :-) \" && exit 1",
       "start": "electron .",
@@ -102,12 +99,14 @@
       "electron",
       "app"
     ],
-    "author": "Mohamed Hayibor <mohamedhayibor@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/mohamedhayibor/check-question-app/issues"
-    },
-    "homepage": "https://github.com/mohamedhayibor/check-question-app#readme"
+    "homepage": "https://github.com/mohamedhayibor/check-question-app#readme",
+    "other": {
+      "author": "Mohamed Hayibor <mohamedhayibor@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/mohamedhayibor/check-question-app/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -134,5 +133,6 @@
       "url": "https://api.github.com/repos/mohamedhayibor/check-question-app/git/commits/1d9c145d1ed84443b4386cc74c255af99ed2b36f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mohamedhayibor___check-question-app.json"
 }

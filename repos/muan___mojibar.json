@@ -70,16 +70,15 @@
       "build": "electron-packager . Mojibar --platform=darwin --arch=x64 --version=1.3.2 --overwrite --icon=mojibar",
       "test": "standard index.js app/search.js app/settings.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/muan/mojibar.git"
-    },
-    "author": "Mu-An Chiou <me@muanchiou.com>",
+    "repository": "https://github.com/muan/mojibar",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/muan/mojibar/issues"
-    },
-    "homepage": "https://github.com/muan/mojibar#readme"
+    "homepage": "https://github.com/muan/mojibar#readme",
+    "other": {
+      "author": "Mu-An Chiou <me@muanchiou.com>",
+      "bugs": {
+        "url": "https://github.com/muan/mojibar/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -116,5 +115,6 @@
       "url": "https://api.github.com/repos/muan/mojibar/git/commits/d4318005629607a3ce82c8a4b4db55d49c0a2b0e",
       "commentCount": 1
     }
-  }
+  },
+  "filename": "muan___mojibar.json"
 }

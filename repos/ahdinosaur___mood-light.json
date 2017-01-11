@@ -75,16 +75,9 @@
       "rebuild": "electron-rebuild -e node_modules/electron",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ahdinosaur/mood-light.git"
-    },
+    "repository": "https://github.com/ahdinosaur/mood-light",
     "keywords": [],
-    "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.is)",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/ahdinosaur/mood-light/issues"
-    },
     "homepage": "https://github.com/ahdinosaur/mood-light#readme",
     "devDependencies": {},
     "dependencies": {
@@ -101,6 +94,12 @@
       "rainbow-pixels": "^5.0.0",
       "worker-timer": "^1.1.0",
       "ws": "^1.1.1"
+    },
+    "other": {
+      "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.is)",
+      "bugs": {
+        "url": "https://github.com/ahdinosaur/mood-light/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/ahdinosaur/mood-light/git/commits/f8c9dde92e2e9f39ead21fd16adb570da3e0a9ba",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ahdinosaur___mood-light.json"
 }

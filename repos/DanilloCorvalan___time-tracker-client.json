@@ -77,15 +77,8 @@
       "prestart": "npm run build",
       "start": "electron ./"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/DanilloCorvalan/time-tracker-client.git"
-    },
-    "author": "Danillo Corvalan",
+    "repository": "https://github.com/DanilloCorvalan/time-tracker-client",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/DanilloCorvalan/time-tracker-client/issues"
-    },
     "homepage": "https://github.com/DanilloCorvalan/time-tracker-client#readme",
     "devDependencies": {
       "babel": "^5.8.23",
@@ -107,6 +100,12 @@
       "react-tap-event-plugin": "^0.1.7",
       "redux": "^3.0.0",
       "winston": "^1.0.1"
+    },
+    "other": {
+      "author": "Danillo Corvalan",
+      "bugs": {
+        "url": "https://github.com/DanilloCorvalan/time-tracker-client/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -134,5 +133,6 @@
       "url": "https://api.github.com/repos/DanilloCorvalan/time-tracker-client/git/commits/c0795cbb78ab2e4d86f10a43b83a54e3cd73b901",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DanilloCorvalan___time-tracker-client.json"
 }

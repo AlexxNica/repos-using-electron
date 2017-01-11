@@ -92,19 +92,18 @@
       "build:mac": "electron-packager ./app --platform=darwin --arch=x64 --prune --app-version=$APPVERSION --icon=./build/icon.icns --overwrite --out=./dist",
       "build:linux": "electron-packager ./app --platform=linux --arch=x64 --prune --app-version=$APPVERSION --icon=./build/icon.icns --overwrite --out=./dist"
     },
-    "author": "JSON object <jsonobject@outlook.com>",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jasonrey/database-browser.git"
-    },
-    "bugs": {
-      "url": "https://github.com/jasonrey/database-browser/issues"
-    },
+    "repository": "https://github.com/jasonrey/database-browser",
     "description": "MySQL Database Browser",
     "build": {
       "appId": "com.electron.database-browser",
       "asar": false,
       "productName": "database-browser"
+    },
+    "other": {
+      "author": "JSON object <jsonobject@outlook.com>",
+      "bugs": {
+        "url": "https://github.com/jasonrey/database-browser/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -132,5 +131,6 @@
       "url": "https://api.github.com/repos/jasonrey/database-browser/git/commits/7349b98453598899169cbd50a666ba63a3995e1b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jasonrey___database-browser.json"
 }

@@ -72,7 +72,6 @@
     "version": "0.1.0",
     "license": "",
     "keywords": [],
-    "author": "Marc MacLeod",
     "scripts": {
       "start": "electron .",
       "build": "electron-packager . ElectricTunes --platform=darwin --arch=x64 --version=0.30.4 --overwrite=true --out=dist"
@@ -81,6 +80,9 @@
       "electron-packager": "^5.0.1",
       "electron-prebuilt": "^0.30.4",
       "jquery": "^2.1.4"
+    },
+    "other": {
+      "author": "Marc MacLeod"
     }
   },
   "packageStatus": 200,
@@ -106,5 +108,6 @@
       "url": "https://api.github.com/repos/marbemac/electric-tunes/git/commits/ea307cb491579b673e6d2d86194e798c5d4f41e7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "marbemac___electric-tunes.json"
 }

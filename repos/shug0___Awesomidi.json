@@ -124,17 +124,8 @@
         ]
       }
     },
-    "directories": {
-      "buildResources": "resources",
-      "output": "release"
-    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
-    },
-    "author": {
-      "name": "Thomas Alberola",
-      "email": "thomas@needacoffee.fr",
-      "url": "https://github.com/shug0/Awesomidi"
     },
     "devDependencies": {
       "asar": "^0.12.3",
@@ -213,6 +204,17 @@
     "devEngines": {
       "node": ">=6.x",
       "npm": ">=3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Thomas Alberola",
+        "email": "thomas@needacoffee.fr",
+        "url": "https://github.com/shug0/Awesomidi"
+      },
+      "directories": {
+        "buildResources": "resources",
+        "output": "release"
+      }
     }
   },
   "packageStatus": 200,
@@ -240,5 +242,6 @@
       "url": "https://api.github.com/repos/shug0/Awesomidi/git/commits/934f1d8e0b8ddfdbd98fcb60225c148c229487eb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "shug0___Awesomidi.json"
 }

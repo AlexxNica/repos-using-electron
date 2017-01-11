@@ -71,11 +71,6 @@
     "description": "preview and save DDS textures from the command line",
     "main": "index.js",
     "license": "MIT",
-    "author": {
-      "name": "Matt DesLauriers",
-      "email": "dave.des@gmail.com",
-      "url": "https://github.com/mattdesl"
-    },
     "dependencies": {
       "a-big-triangle": "^1.0.2",
       "array-range": "^1.0.1",
@@ -120,16 +115,20 @@
       "texture",
       "viewer"
     ],
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/Jam3/preview-dds.git"
-    },
+    "repository": "https://github.com/Jam3/preview-dds",
     "homepage": "https://github.com/Jam3/preview-dds",
-    "bugs": {
-      "url": "https://github.com/Jam3/preview-dds/issues"
-    },
     "bin": {
       "preview-dds": "./bin/cli.js"
+    },
+    "other": {
+      "author": {
+        "name": "Matt DesLauriers",
+        "email": "dave.des@gmail.com",
+        "url": "https://github.com/mattdesl"
+      },
+      "bugs": {
+        "url": "https://github.com/Jam3/preview-dds/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -157,5 +156,6 @@
       "url": "https://api.github.com/repos/Jam3/preview-dds/git/commits/8d1278b4acb06e8d451b88c6b858e9b7bf80e6fb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Jam3___preview-dds.json"
 }

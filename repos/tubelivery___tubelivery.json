@@ -91,15 +91,7 @@
     "version": "1.0.0",
     "description": "Electron implementation of Tubelivery, app to convert YouTube channels into podcasts",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/russoedu/tubelivery.git"
-    },
-    "author": {
-      "name": "",
-      "email": "russoedu@gmail.com",
-      "url": "tubelivery.com"
-    },
+    "repository": "https://github.com/russoedu/tubelivery",
     "scripts": {
       "test": "xo",
       "start": "./node_modules/electron/dist/Electron.app/Contents/MacOS/Electron ./app/main.js",
@@ -139,15 +131,22 @@
       "jsdoc": "^3.4.0",
       "xo": "^0.14"
     },
-    "bugs": {
-      "url": "https://github.com/russoedu/tubelivery/issues"
-    },
     "xo": {
       "esnext": true,
       "envs": [
         "node",
         "browser"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "",
+        "email": "russoedu@gmail.com",
+        "url": "tubelivery.com"
+      },
+      "bugs": {
+        "url": "https://github.com/russoedu/tubelivery/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -175,5 +174,6 @@
       "url": "https://api.github.com/repos/tubelivery/tubelivery/git/commits/fd67eb237d58d0adf52b3edecbe9da848c80139f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tubelivery___tubelivery.json"
 }

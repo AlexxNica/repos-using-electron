@@ -83,7 +83,6 @@
       "build:js": "NODE_ENV=production webpack -p",
       "build:sass": "node-sass -i --output-style compressed src/styles/main.sass | postcss --use autoprefixer -o dist/css/main.css"
     },
-    "author": "",
     "license": "ISC",
     "bin": {
       "electron": "./node_modules/.bin/electron"
@@ -113,6 +112,9 @@
     "engines": {
       "electron": "0.36.7",
       "atom-shell": "0.36.7"
+    },
+    "other": {
+      "author": ""
     }
   },
   "packageStatus": 200,
@@ -140,5 +142,6 @@
       "url": "https://api.github.com/repos/rista404/coedu/git/commits/7df353905ac8bccbdc995f7a5137caa4a9d721ec",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rista404___coedu.json"
 }

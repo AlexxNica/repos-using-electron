@@ -88,19 +88,18 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "electron": "node_modules/.bin/electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/sportstech/screenshot.git"
-    },
-    "author": "Alex Lanzoni",
+    "repository": "https://github.com/sportstech/screenshot",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/sportstech/screenshot/issues"
-    },
     "homepage": "https://github.com/sportstech/screenshot#readme",
     "dependencies": {
       "electron-prebuilt": "^0.36.8",
       "phantomjs-prebuilt": "^2.1.4"
+    },
+    "other": {
+      "author": "Alex Lanzoni",
+      "bugs": {
+        "url": "https://github.com/sportstech/screenshot/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/sportstech/screenshot/git/commits/c0aecc25c9950aa6ffd6a90c0e2f5078bababe18",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sportstech___screenshot.json"
 }

@@ -89,7 +89,6 @@
       "postinstall": "npm run lint:fix && cd app && npm install",
       "vue:route": "node tasks/vue/route.js"
     },
-    "author": "lujjjh <lujjjh@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -125,7 +124,10 @@
       "webpack": "^1.13.0",
       "webpack-dev-server": "^1.14.1"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "other": {
+      "author": "lujjjh <lujjjh@gmail.com>"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -153,5 +155,6 @@
       "url": "https://api.github.com/repos/lujjjh/computer-graphics/git/commits/ece3e57c37a206a459419f2eef81b7cfc74b2aa2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lujjjh___computer-graphics.json"
 }

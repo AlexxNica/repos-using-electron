@@ -76,7 +76,6 @@
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose",
       "stylus": "stylus app/stylus/style.styl -w -o public/css/"
     },
-    "author": "Emil Pausz",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -95,6 +94,9 @@
       "reflux": "^0.4.1",
       "stylus": "^0.54.5",
       "watchify": "^3.7.0"
+    },
+    "other": {
+      "author": "Emil Pausz"
     }
   },
   "packageStatus": 200,
@@ -122,5 +124,6 @@
       "url": "https://api.github.com/repos/legendemil/feeder_app/git/commits/0bd29c028a66625d48d68ff55f825942ed072a11",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "legendemil___feeder_app.json"
 }

@@ -77,7 +77,6 @@
       "type": "AGPL-3.0",
       "url": "http://www.gnu.org/licenses/agpl-3.0.en.html"
     },
-    "author": "Philip Hutchins",
     "email": "philip@pipo.chat",
     "scripts": {
       "test": "npm run testsuite && npm run linter",
@@ -93,13 +92,6 @@
       "start-dev": "nodemon main",
       "setup": "node ./scripts/setup.js",
       "start-client": "electron ."
-    },
-    "directories": {
-      "test": "test",
-      "client": "client",
-      "server": "server",
-      "output": "dist",
-      "buildResources": "build"
     },
     "contributors": [
       {
@@ -207,6 +199,16 @@
       "sinon": "^1.17.4",
       "supertest": "^1.2.0",
       "uglify-js": "^2.6.2"
+    },
+    "other": {
+      "author": "Philip Hutchins",
+      "directories": {
+        "test": "test",
+        "client": "client",
+        "server": "server",
+        "output": "dist",
+        "buildResources": "build"
+      }
     }
   },
   "packageStatus": 200,
@@ -236,5 +238,6 @@
       "url": "https://api.github.com/repos/phutchins/pipo/git/commits/11bff8ed73c1ee01adfe1f237169b8e131044cd6",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "phutchins___pipo.json"
 }

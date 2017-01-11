@@ -187,13 +187,7 @@
         "url": "http://github.com/atom/node-keytar/raw/master/LICENSE.md"
       }
     ],
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/mongodb-js/node-keytar.git"
-    },
-    "bugs": {
-      "url": "https://github.com/atom/node-keytar/issues"
-    },
+    "repository": "https://github.com/mongodb-js/node-keytar",
     "homepage": "http://atom.github.io/node-keytar",
     "keywords": [
       "keychain",
@@ -249,7 +243,12 @@
     },
     "bundledDependencies": [
       "node-pre-gyp"
-    ]
+    ],
+    "other": {
+      "bugs": {
+        "url": "https://github.com/atom/node-keytar/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/mongodb-js/node-keytar",
@@ -305,5 +304,6 @@
       "url": "https://api.github.com/repos/mongodb-js/node-keytar/git/commits/a5ad7f147ad7ad26b4be963efa610346e59870d5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mongodb-js___node-keytar.json"
 }

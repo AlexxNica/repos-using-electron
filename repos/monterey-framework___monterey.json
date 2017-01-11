@@ -95,19 +95,9 @@
       "gui"
     ],
     "homepage": "http://aurelia.io",
-    "bugs": {
-      "url": "https://github.com/monterey-framework/monterey/issues"
-    },
     "main": "app/index.js",
     "license": "CC0-1.0",
-    "author": {
-      "name": "Monterey",
-      "email": "info@aureliatools.com"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/monterey-framework/monterey"
-    },
+    "repository": "https://github.com/monterey-framework/monterey",
     "scripts": {
       "postinstall": "install-app-deps",
       "pack": "build --dir",
@@ -115,9 +105,6 @@
       "setup": "node utils -setup && node utils -rebuild-native",
       "rebuild-native": "node utils -rebuild-native",
       "test-build": "gulp rename-index && build && gulp rename-index-back"
-    },
-    "directories": {
-      "app": "app"
     },
     "build": {
       "appId": "monterey",
@@ -188,6 +175,18 @@
       "typescript": "^2.0.0",
       "vinyl-paths": "^2.1.0",
       "yargs": "^4.7.1"
+    },
+    "other": {
+      "author": {
+        "name": "Monterey",
+        "email": "info@aureliatools.com"
+      },
+      "bugs": {
+        "url": "https://github.com/monterey-framework/monterey/issues"
+      },
+      "directories": {
+        "app": "app"
+      }
     }
   },
   "packageStatus": 200,
@@ -220,5 +219,6 @@
       "url": "https://api.github.com/repos/monterey-framework/monterey/git/commits/c7d9045648bd747ae15a8fcb730fcc426714ce80",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "monterey-framework___monterey.json"
 }

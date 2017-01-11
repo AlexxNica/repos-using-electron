@@ -81,7 +81,6 @@
       "package": "electron-packager ./ SoundMachine --platform=darwin --arch=x64 --out ~/Desktop/SoundMachine --version 0.36.2 --overwrite",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Igor",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^5.2.0",
@@ -89,6 +88,9 @@
     },
     "dependencies": {
       "nconf": "0.8.2"
+    },
+    "other": {
+      "author": "Igor"
     }
   },
   "packageStatus": 200,
@@ -116,5 +118,6 @@
       "url": "https://api.github.com/repos/tkanoff/sound-machine/git/commits/7871f2ee518fc2a0a21e2793c26857f58c58daf7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tkanoff___sound-machine.json"
 }

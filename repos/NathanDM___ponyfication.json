@@ -82,7 +82,6 @@
       "lint": "./node_modules/.bin/eslint .",
       "build": "electron-packager main.js --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all"
     },
-    "author": "Nathan DAMIE",
     "license": "MIT",
     "devDependencies": {
       "browserify": "^13.0.0",
@@ -114,6 +113,9 @@
         "reactify",
         "envify"
       ]
+    },
+    "other": {
+      "author": "Nathan DAMIE"
     }
   },
   "packageStatus": 200,
@@ -139,5 +141,6 @@
       "url": "https://api.github.com/repos/NathanDM/ponyfication/git/commits/92c6836d8ccef0c5743ab572ac76c658c990dc9f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "NathanDM___ponyfication.json"
 }

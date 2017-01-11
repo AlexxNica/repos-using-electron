@@ -56,15 +56,8 @@
       "pack-win64": "electron-packager . FrontCustos --out=../front-custos-gui-dist --icon=./tea-time --platform=win32 --arch=x64 --overwrite=true --ignore=\"(.idea|patches|front-custos/example/dist)\"",
       "pack": "npm run-script pack-win64"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Moonshell/front-custos-gui.git"
-    },
-    "author": "krimeshu",
+    "repository": "https://github.com/Moonshell/front-custos-gui",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Moonshell/front-custos-gui/issues"
-    },
     "homepage": "https://github.com/Moonshell/front-custos-gui#readme",
     "dependencies": {
       "angular": "^1.5.6",
@@ -79,6 +72,12 @@
       "electron-prebuilt": "^1.2.1",
       "request-progress": "^2.0.1",
       "watch": "^0.18.0"
+    },
+    "other": {
+      "author": "krimeshu",
+      "bugs": {
+        "url": "https://github.com/Moonshell/front-custos-gui/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/Moonshell/front-custos-gui/git/commits/6690c637b8eb5c4356965d1a9137381f0f1835c0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Moonshell___front-custos-gui.json"
 }

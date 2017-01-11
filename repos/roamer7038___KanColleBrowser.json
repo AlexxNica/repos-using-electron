@@ -80,15 +80,8 @@
       "start": "electron .",
       "build": "electron-packager . KanColleBrowser --platform=darwin --arch=x64 --version=1.2.8 --out=./build/Release/ --overwrite"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/roamer7038/KanColleBrowser.git"
-    },
-    "author": "roamer7038",
+    "repository": "https://github.com/roamer7038/KanColleBrowser",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/roamer7038/KanColleBrowser/issues"
-    },
     "homepage": "https://github.com/roamer7038/KanColleBrowser#readme",
     "devDependencies": {
       "devtron": "^1.2.1",
@@ -99,6 +92,12 @@
       "fs-extra": "^0.30.0",
       "mkdirp": "^0.5.1",
       "photon": "git://github.com/connors/photon.git"
+    },
+    "other": {
+      "author": "roamer7038",
+      "bugs": {
+        "url": "https://github.com/roamer7038/KanColleBrowser/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/roamer7038/KanColleBrowser/git/commits/53cafeecf69f207b7e71c8a2172ea45c5316d0a2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "roamer7038___KanColleBrowser.json"
 }

@@ -83,15 +83,8 @@
       "webpack-test": "webpack --config webpack.test.js --progress --profile --colors --display-error-details --display-cached",
       "test": "karma start"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/joaogarin/angular2-electron.git"
-    },
-    "author": "joaogarin <github@joaogarin.com>",
+    "repository": "https://github.com/joaogarin/angular2-electron",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/joaogarin/angular2-electron/issues"
-    },
     "homepage": "",
     "dependencies": {
       "@angular/http": "2.0.0-rc.1",
@@ -149,6 +142,12 @@
     "engines": {
       "node": ">= 4.2.1 <= 5",
       "npm": ">= 3"
+    },
+    "other": {
+      "author": "joaogarin <github@joaogarin.com>",
+      "bugs": {
+        "url": "https://github.com/joaogarin/angular2-electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -176,5 +175,6 @@
       "url": "https://api.github.com/repos/Infining/svm/git/commits/4c63adab3493fb3731f892e4b64e9019a99777f6",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Infining___svm.json"
 }

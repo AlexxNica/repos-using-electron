@@ -56,15 +56,8 @@
       "start": "electron ./src/main.js",
       "test": "mocha --compilers js:babel-core/register --recursive"
     },
-    "author": "S.C. Barrus",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/goopscoop/jaco.git"
-    },
+    "repository": "https://github.com/goopscoop/jaco",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/goopscoop/jaco/issues"
-    },
     "homepage": "https://github.com/goopscoop/jaco#readme",
     "devDependencies": {
       "babel-core": "^6.1.21",
@@ -99,6 +92,12 @@
       "react-redux": "^4.0.0",
       "react-router": "^1.0.0",
       "redux": "^3.0.4"
+    },
+    "other": {
+      "author": "S.C. Barrus",
+      "bugs": {
+        "url": "https://github.com/goopscoop/jaco/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -146,5 +145,6 @@
       "url": "https://api.github.com/repos/goopscoop/jaco/git/commits/3bd3ef4a763722b89436b8126c61a26875059c27",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "goopscoop___jaco.json"
 }

@@ -78,11 +78,6 @@
     "description": "Parsing the elite dangerous journal and putting it in a cool format!",
     "license": "MIT",
     "repository": "willyb321/elite-journal",
-    "author": {
-      "name": "willyb321",
-      "email": "wbwilliam7@gmail.com",
-      "url": "tehsuperwilly.tech"
-    },
     "scripts": {
       "test": "mocha --reporter mocha-circleci-reporter ./test.js && xo",
       "start": "electron .",
@@ -146,6 +141,13 @@
         "iconUrl": "https://github.com/willyb321/elite-journal/blob/master/build/icon.ico?raw=true",
         "remoteReleases": true
       }
+    },
+    "other": {
+      "author": {
+        "name": "willyb321",
+        "email": "wbwilliam7@gmail.com",
+        "url": "tehsuperwilly.tech"
+      }
     }
   },
   "packageStatus": 200,
@@ -175,5 +177,6 @@
       "url": "https://api.github.com/repos/willyb321/elite-journal/git/commits/dcec9140cd8ab8db5bff5431a67fd2df49c47d90",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "willyb321___elite-journal.json"
 }

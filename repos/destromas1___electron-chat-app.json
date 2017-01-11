@@ -61,15 +61,8 @@
       "start": "electron .",
       "build": "electron-packager ./ --platform=win32 --arch=x64"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/destromas1/electron-desktop-intro.git"
-    },
-    "author": "Shahjada Talukdar",
+    "repository": "https://github.com/destromas1/electron-desktop-intro",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/destromas1/electron-desktop-intro/issues"
-    },
     "homepage": "https://github.com/destromas1/electron-desktop-intro#readme",
     "devDependencies": {
       "electron-packager": "^6.0.2",
@@ -77,6 +70,12 @@
     },
     "dependencies": {
       "jquery": "^2.2.3"
+    },
+    "other": {
+      "author": "Shahjada Talukdar",
+      "bugs": {
+        "url": "https://github.com/destromas1/electron-desktop-intro/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -104,5 +103,6 @@
       "url": "https://api.github.com/repos/destromas1/electron-chat-app/git/commits/13e4cb4e462be7b68ead7a55e7e278951e498537",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "destromas1___electron-chat-app.json"
 }

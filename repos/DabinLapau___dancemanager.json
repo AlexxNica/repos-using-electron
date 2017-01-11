@@ -74,15 +74,8 @@
       "watch": "./node_modules/.bin/webpack-dev-server",
       "test": "electron-mocha --reporter nyan ./tests/index.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/DabinLapau/dancemanager.git"
-    },
-    "author": "Daiki Hashimoto",
+    "repository": "https://github.com/DabinLapau/dancemanager",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/DabinLapau/dancemanager/issues"
-    },
     "homepage": "https://github.com/DabinLapau/dancemanager#readme",
     "devDependencies": {
       "babel-core": "^6.14.0",
@@ -113,6 +106,12 @@
       "redux-electron-store": "^0.3.13",
       "redux-form": "^6.0.2",
       "webpack": "^1.13.2"
+    },
+    "other": {
+      "author": "Daiki Hashimoto",
+      "bugs": {
+        "url": "https://github.com/DabinLapau/dancemanager/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -141,5 +140,6 @@
       "url": "https://api.github.com/repos/DabinLapau/dancemanager/git/commits/3e6e57c11423fc610f93de15a8137927e54ef73e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DabinLapau___dancemanager.json"
 }

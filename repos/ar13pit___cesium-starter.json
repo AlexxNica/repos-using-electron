@@ -77,10 +77,6 @@
     "description": "Cesium is a JavaScript library for creating 3D globes and 2D maps in a web browser without a plugin.",
     "homepage": "http://cesiumjs.org",
     "license": "Apache-2.0",
-    "author": {
-      "name": "Analytical Graphics, Inc.",
-      "url": "http://www.agi.com"
-    },
     "contributors": {
       "name": "Cesium community",
       "url": "https://github.com/AnalyticalGraphicsInc/cesium/blob/master/CONTRIBUTORS.md"
@@ -92,14 +88,7 @@
       "map",
       "globe"
     ],
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/AnalyticalGraphicsInc/cesium.git"
-    },
-    "bugs": {
-      "url": "https://github.com/AnalyticalGraphicsInc/cesium/issues",
-      "email": "cesium-dev@googlegroups.com"
-    },
+    "repository": "https://github.com/AnalyticalGraphicsInc/cesium",
     "dependencies": {
       "requirejs": "2.2.0"
     },
@@ -169,6 +158,16 @@
       "deploy-s3": "gulp deploy-s3",
       "deploy-status": "gulp deploy-status",
       "deploy-set-version": "gulp deploy-set-version"
+    },
+    "other": {
+      "author": {
+        "name": "Analytical Graphics, Inc.",
+        "url": "http://www.agi.com"
+      },
+      "bugs": {
+        "url": "https://github.com/AnalyticalGraphicsInc/cesium/issues",
+        "email": "cesium-dev@googlegroups.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -196,5 +195,6 @@
       "url": "https://api.github.com/repos/ar13pit/cesium-starter/git/commits/9916126173348e6c052de3d9dd5e6cfe2f025ed3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ar13pit___cesium-starter.json"
 }

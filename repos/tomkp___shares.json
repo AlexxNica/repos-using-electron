@@ -47,7 +47,6 @@
   "status": 200,
   "packageJSON": {
     "name": "shares",
-    "author": "tom@tomkp.com",
     "version": "0.1.0",
     "description": "Shares",
     "main": "./dist/index.js",
@@ -106,6 +105,9 @@
       "deploy": "npm run prod && surge dist statae.com",
       "start": "node server.js",
       "prod": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js"
+    },
+    "other": {
+      "author": "tom@tomkp.com"
     }
   },
   "packageStatus": 200,
@@ -133,5 +135,6 @@
       "url": "https://api.github.com/repos/tomkp/shares/git/commits/8877c3984a4f6cda8033d1f30d2507fbe28a447e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tomkp___shares.json"
 }

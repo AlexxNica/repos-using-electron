@@ -107,19 +107,8 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/VYNYL/gulpnoir.git"
-    },
-    "author": {
-      "name": "Wyatt Arent",
-      "email": "hello@wyatt.ninja",
-      "url": "http://wyatt.ninja"
-    },
+    "repository": "https://github.com/VYNYL/gulpnoir",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/VYNYL/gulpnoir/issues"
-    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -225,6 +214,16 @@
     "devEngines": {
       "node": "4.x || 5.x || 6.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Wyatt Arent",
+        "email": "hello@wyatt.ninja",
+        "url": "http://wyatt.ninja"
+      },
+      "bugs": {
+        "url": "https://github.com/VYNYL/gulpnoir/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -272,5 +271,6 @@
       "url": "https://api.github.com/repos/VYNYL/gulpnoir/git/commits/a27f81dca273e040598a5a7f0c55974c7fdc530e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "VYNYL___gulpnoir.json"
 }

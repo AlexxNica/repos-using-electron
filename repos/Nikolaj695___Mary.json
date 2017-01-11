@@ -82,18 +82,11 @@
       "build": "webpack --env.prod",
       "clear": "rm -rf public/ build/"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Nikolaj695/Mary.git"
-    },
+    "repository": "https://github.com/Nikolaj695/Mary",
     "keywords": [
       "editor"
     ],
-    "author": "Govorov Nikolay <nikolatha@mail.ru>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Nikolaj695/Mary/issues"
-    },
     "homepage": "https://github.com/Nikolaj695/Mary#readme",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -118,6 +111,12 @@
       "react-router": "^2.8.1",
       "redux": "^3.6.0",
       "ws": "^1.1.1"
+    },
+    "other": {
+      "author": "Govorov Nikolay <nikolatha@mail.ru>",
+      "bugs": {
+        "url": "https://github.com/Nikolaj695/Mary/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -145,5 +144,6 @@
       "url": "https://api.github.com/repos/Nikolaj695/Mary/git/commits/425dbbf914265efbae47143478f388b2ff8f156e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Nikolaj695___Mary.json"
 }

@@ -62,21 +62,14 @@
       "dist": "make package",
       "debug": "electron --debug ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/kumpelblase2/proxtop.git"
-    },
+    "repository": "https://github.com/kumpelblase2/proxtop",
     "keywords": [
       "electron",
       "desktop",
       "anime",
       "proxer"
     ],
-    "author": "kumpelblase2",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/kumpelblase2/proxtop/issues"
-    },
     "homepage": "https://github.com/kumpelblase2/proxtop#readme",
     "devDependencies": {
       "chai": "3.5.0",
@@ -120,9 +113,15 @@
         "msi": true
       }
     },
-    "directories": {
-      "app": "_dist",
-      "output": "_packaged"
+    "other": {
+      "author": "kumpelblase2",
+      "bugs": {
+        "url": "https://github.com/kumpelblase2/proxtop/issues"
+      },
+      "directories": {
+        "app": "_dist",
+        "output": "_packaged"
+      }
     }
   },
   "packageStatus": 200,
@@ -171,5 +170,6 @@
       "url": "https://api.github.com/repos/kumpelblase2/proxtop/git/commits/e0bd235509cc2cccf013335e183cabff2c1a241c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kumpelblase2___proxtop.json"
 }

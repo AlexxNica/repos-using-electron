@@ -70,7 +70,6 @@
     "version": "1.0.2",
     "description": "Master project - Game 2048 Artificial Intelligence",
     "main": "./dist/init.js",
-    "author": "Pawel Wieladek",
     "license": "ISC",
     "devDependencies": {
       "babel": "^5.8.23",
@@ -137,21 +136,21 @@
       "react-slider": "^0.5.1",
       "reflux": "^0.2.12"
     },
-    "directories": {
-      "test": "test"
-    },
     "scripts": {
       "test": "mocha",
       "start": "./node_modules/.bin/babel-node ./cli/cli.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/pawelwieladek/master-project.git"
-    },
-    "bugs": {
-      "url": "https://github.com/pawelwieladek/master-project/issues"
-    },
-    "homepage": "https://github.com/pawelwieladek/master-project#readme"
+    "repository": "https://github.com/pawelwieladek/master-project",
+    "homepage": "https://github.com/pawelwieladek/master-project#readme",
+    "other": {
+      "author": "Pawel Wieladek",
+      "bugs": {
+        "url": "https://github.com/pawelwieladek/master-project/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -178,5 +177,6 @@
       "url": "https://api.github.com/repos/pawelwieladek/master-project/git/commits/3a3ed3592155b40f4d80d3d2fc07823441d87cf4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "pawelwieladek___master-project.json"
 }

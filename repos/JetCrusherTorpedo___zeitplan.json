@@ -81,20 +81,13 @@
       "build": "./node_modules/.bin/webpack",
       "watch": "./node_modules/.bin/webpack-dev-server --hot --inline"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/JetCrusherTorpedo/zeitplan.git"
-    },
+    "repository": "https://github.com/JetCrusherTorpedo/zeitplan",
     "keywords": [
       "Electron",
       "time",
       "time tracking"
     ],
-    "author": "JetCrusherTorpedo",
     "license": "AGPL-3.0",
-    "bugs": {
-      "url": "https://github.com/JetCrusherTorpedo/zeitplan/issues"
-    },
     "homepage": "https://github.com/JetCrusherTorpedo/zeitplan",
     "devDependencies": {
       "babel-core": "^6.10.4",
@@ -115,6 +108,12 @@
       "react": "^15.1.0",
       "react-chartjs": "^0.7.3",
       "react-dom": "^15.1.0"
+    },
+    "other": {
+      "author": "JetCrusherTorpedo",
+      "bugs": {
+        "url": "https://github.com/JetCrusherTorpedo/zeitplan/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -142,5 +141,6 @@
       "url": "https://api.github.com/repos/JetCrusherTorpedo/zeitplan/git/commits/ea96a9c3d23b2cd823432cc692782a18a4f91eb6",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "JetCrusherTorpedo___zeitplan.json"
 }

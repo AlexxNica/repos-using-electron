@@ -95,20 +95,13 @@
       "pack": "build --dir",
       "dist": "build --win --x64"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "cyclone",
       "xpra"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-builder": "^7.0.0",
@@ -129,6 +122,12 @@
         "target": [
           "nsis"
         ]
+      }
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
       }
     }
   },
@@ -157,5 +156,6 @@
       "url": "https://api.github.com/repos/cyclone-project/xpra-electron-client/git/commits/273ed9a6e31e49a41ccf71fe20e72dda71952280",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cyclone-project___xpra-electron-client.json"
 }

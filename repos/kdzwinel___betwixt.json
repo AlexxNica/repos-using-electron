@@ -60,21 +60,14 @@
       "start": "electron src/main.js",
       "test": "jshint src/lib/ src/*.js && jscs src/lib/ src/*.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/kdzwinel/betwixt.git"
-    },
+    "repository": "https://github.com/kdzwinel/betwixt",
     "keywords": [
       "traffic",
       "proxy",
       "mitm",
       "devtools"
     ],
-    "author": "Konrad Dzwinel",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/kdzwinel/betwixt/issues"
-    },
     "homepage": "https://github.com/kdzwinel/betwixt",
     "dependencies": {
       "chalk": "^1.1.1",
@@ -87,6 +80,12 @@
       "electron-prebuilt": "^0.36.12",
       "jscs": "^2.6.0",
       "jshint": "^2.8.0"
+    },
+    "other": {
+      "author": "Konrad Dzwinel",
+      "bugs": {
+        "url": "https://github.com/kdzwinel/betwixt/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,6 @@
       "url": "https://api.github.com/repos/kdzwinel/betwixt/git/commits/5c2d8bf457f76f0754ec7400180920f9a5761ed5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kdzwinel___betwixt.json"
 }

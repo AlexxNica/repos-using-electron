@@ -85,10 +85,7 @@
       "start": "npm run generate && npm run electron",
       "postinstall": "node_modules/.bin/bower install"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/DVDAGames/pulsar"
-    },
+    "repository": "https://github.com/DVDAGames/pulsar",
     "keywords": [
       "ld35",
       "ludum",
@@ -97,11 +94,7 @@
       "game",
       "jam"
     ],
-    "author": "dvdagames",
     "license": "BSD",
-    "bugs": {
-      "url": "https://github.com/DVDAGames/pulsar"
-    },
     "homepage": "https://github.com/DVDAGames/pulsar",
     "devDependencies": {
       "babel-core": "^6.7.6",
@@ -140,6 +133,12 @@
         "es2015",
         "react"
       ]
+    },
+    "other": {
+      "author": "dvdagames",
+      "bugs": {
+        "url": "https://github.com/DVDAGames/pulsar"
+      }
     }
   },
   "packageStatus": 200,
@@ -167,5 +166,6 @@
       "url": "https://api.github.com/repos/DVDAGames/pulsar/git/commits/c9a7a7948df18882946e8a020888f3b7b3540789",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DVDAGames___pulsar.json"
 }

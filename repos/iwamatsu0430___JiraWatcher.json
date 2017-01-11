@@ -89,8 +89,10 @@
       "publish:mac": "npm run build:scss && npm run build:riot && ./node_modules/.bin/electron-packager . JiraWatcher --out=dist --icon=./app/resources/icons/app.ico --platform=darwin --arch=x64 --overwrite --forced",
       "publish:win": "npm run build:scss && npm run build:riot && ./node_modules/.bin/electron-packager . JiraWatcher --out=dist --icon=./app/resources/icons/app.ico --platform=win32 --arch=x64 --overwrite --forced"
     },
-    "author": "iwamatsu0430",
-    "license": "ISC"
+    "license": "ISC",
+    "other": {
+      "author": "iwamatsu0430"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -117,5 +119,6 @@
       "url": "https://api.github.com/repos/iwamatsu0430/JiraWatcher/git/commits/d0ab6234de0a089bddef827ecd12cb0e5fd599a9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "iwamatsu0430___JiraWatcher.json"
 }

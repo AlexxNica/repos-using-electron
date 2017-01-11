@@ -79,21 +79,14 @@
     "scripts": {
       "test": "./node_modules/.bin/mocha --reporter spec ./test/*.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/kaelzhang/atta.git"
-    },
+    "repository": "https://github.com/kaelzhang/atta",
     "keywords": [
       "atta"
     ],
     "engines": {
       "node": ">=0.10.0"
     },
-    "author": "kaelzhang",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/kaelzhang/atta/issues"
-    },
     "devDependencies": {
       "chai": "~1.7.2",
       "electron-prebuilt": "^1.1.1",
@@ -106,6 +99,12 @@
       "fs-extra": "^0.30.0",
       "gm": "^1.22.0",
       "jquery": "^2.2.4"
+    },
+    "other": {
+      "author": "kaelzhang",
+      "bugs": {
+        "url": "https://github.com/kaelzhang/atta/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -131,5 +130,6 @@
       "url": "https://api.github.com/repos/kaelzhang/image-cropper/git/commits/b87b4a99b49905c6a7a5454bf232d70d92f26f06",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kaelzhang___image-cropper.json"
 }

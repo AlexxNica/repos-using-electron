@@ -81,21 +81,14 @@
       "build-mac": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --platform=darwin  --arch=x64  --overwrite --version=1.3.2 --icon=assets/images/icon.icns",
       "build-win": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --platform=win32  --arch=ia32  --overwrite --version=1.4.1 --icon=assets/images/icon.ico"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -113,6 +106,12 @@
       "restler": "*",
       "nconf": "*",
       "auto-launch": "*"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -138,5 +137,6 @@
       "url": "https://api.github.com/repos/farhadhossain/TimeTracker/git/commits/64d908d482953289f3886f9790ded535248d5a2b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "farhadhossain___TimeTracker.json"
 }

@@ -74,20 +74,13 @@
       "start": "node bin/start",
       "build": "gulp build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/zephraph/nanite.git"
-    },
+    "repository": "https://github.com/zephraph/nanite",
     "keywords": [
       "robotframework",
       "electron",
       "editor"
     ],
-    "author": "Zephraph",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/zephraph/nanite/issues"
-    },
     "homepage": "https://github.com/zephraph/nanite#readme",
     "dependencies": {
       "app-root-path": "^1.0.0",
@@ -110,6 +103,12 @@
       "run-sequence": "^1.1.0",
       "shelljs": "^0.5.0",
       "vinyl-paths": "^1.0.0"
+    },
+    "other": {
+      "author": "Zephraph",
+      "bugs": {
+        "url": "https://github.com/zephraph/nanite/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -137,5 +136,6 @@
       "url": "https://api.github.com/repos/zephraph/Nanite/git/commits/5d5cc3f93c8c73deabfe41a44319edcd320d7d98",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zephraph___Nanite.json"
 }

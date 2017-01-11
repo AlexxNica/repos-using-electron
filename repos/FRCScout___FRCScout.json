@@ -77,20 +77,19 @@
       "package-win": "electron-packager . --platform=win32 --arch=all --out ~/Desktop/Scout --overwrite --ignore=\\.gitignore",
       "package-linux": "electron-packager . --platform=linux --arch=all --out ~/Desktop/Scout --overwrite --ignore=\\.gitignore"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/frc1418/VictiScout"
-    },
-    "author": "frc1418",
+    "repository": "https://github.com/frc1418/VictiScout",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/frc1418/VictiScout/issues"
-    },
     "homepage": "https://github.com/frc1418/VictiScout#readme",
     "devDependencies": {
       "electron-packager": "^7.3.0",
       "electron": "^1.2.0",
       "unirest": "^0.5.0"
+    },
+    "other": {
+      "author": "frc1418",
+      "bugs": {
+        "url": "https://github.com/frc1418/VictiScout/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -138,5 +137,6 @@
       "url": "https://api.github.com/repos/frc1418/VictiScout/git/commits/b225ba090f007aa8d5c1b72dba051af23f6da9d5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "FRCScout___FRCScout.json"
 }

@@ -69,10 +69,6 @@
     "name": "DWatch",
     "version": "1.0.0-alpha.7",
     "description": "Manage your docker containers, images and networks in a nice and clean way.",
-    "author": {
-      "name": "Benjamin Otto",
-      "email": "benjamin.otto@mercateo.com"
-    },
     "license": "Apache-2.0",
     "homepage": "https://github.com/Mercateo/dwatch",
     "scripts": {
@@ -87,18 +83,12 @@
       "coverage-html": "npm run test && node scripts/generate-coverage.js html",
       "coverage-lcovonly": "npm run test && node scripts/generate-coverage.js lcovonly"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/Mercateo/dwatch.git"
-    },
+    "repository": "https://github.com/Mercateo/dwatch",
     "productName": "DWatch",
     "build": {
       "app-bundle-id": "com.mercateo.dwatch",
       "app-category-type": "public.app-category.developer-tools",
       "iconUrl": "https://raw.githubusercontent.com/Mercateo/dwatch/master/assets/icon.ico"
-    },
-    "directories": {
-      "buildResources": "assets"
     },
     "devDependencies": {
       "babel-core": "^6.9.1",
@@ -136,6 +126,15 @@
       "webpack-dev-server": "^1.14.1",
       "webpack-fail-plugin": "^1.0.4",
       "webpack-node-externals": "^1.2.0"
+    },
+    "other": {
+      "author": {
+        "name": "Benjamin Otto",
+        "email": "benjamin.otto@mercateo.com"
+      },
+      "directories": {
+        "buildResources": "assets"
+      }
     }
   },
   "packageStatus": 200,
@@ -165,5 +164,6 @@
       "url": "https://api.github.com/repos/Mercateo/dwatch/git/commits/c85a23a47e1b8dd23720e523a4c544fba9b7db8d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Mercateo___dwatch.json"
 }

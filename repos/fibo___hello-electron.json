@@ -79,18 +79,8 @@
       "start": "electron main.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/fibo/hello-electron.git"
-    },
-    "author": {
-      "name": "Gianluca Casati",
-      "url": "http://g14n.info"
-    },
+    "repository": "https://github.com/fibo/hello-electron",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/fibo/hello-electron/issues"
-    },
     "homepage": "https://github.com/fibo/hello-electron#readme",
     "pre-commit": [
       "lint"
@@ -108,6 +98,15 @@
     "dependencies": {
       "react": "^0.14.6",
       "react-dom": "^0.14.6"
+    },
+    "other": {
+      "author": {
+        "name": "Gianluca Casati",
+        "url": "http://g14n.info"
+      },
+      "bugs": {
+        "url": "https://github.com/fibo/hello-electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,6 @@
       "url": "https://api.github.com/repos/fibo/hello-electron/git/commits/8b26b953e08e82eb291e0c158ddf246cc3463ec3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "fibo___hello-electron.json"
 }

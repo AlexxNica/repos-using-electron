@@ -72,7 +72,6 @@
       "start": "./node_modules/.bin/electron .",
       "release": "./node_modules/.bin/electron-packager $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
     },
-    "author": "javascript-ninjas",
     "devDependencies": {},
     "dependencies": {
       "babel": "^5.8.23",
@@ -86,6 +85,9 @@
       "sass-loader": "latest",
       "ng-annotate-webpack-plugin": "^0.1.2",
       "fs-jetpack": "^0.7.0"
+    },
+    "other": {
+      "author": "javascript-ninjas"
     }
   },
   "packageStatus": 200,
@@ -114,5 +116,6 @@
       "url": "https://api.github.com/repos/javascript-ninjas/monster-player-desktop/git/commits/34f552acc73ff45d885377831b8c8872badd441a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "javascript-ninjas___monster-player-desktop.json"
 }

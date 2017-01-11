@@ -71,7 +71,6 @@
     "version": "0.0.1",
     "description": "A cross-platform screensaver",
     "main": "browser.js",
-    "author": "Iegor Azuaga <dextrackmedia@gmail.com>",
     "license": "MIT",
     "electronVersion": "0.36.5",
     "devDependencies": {
@@ -85,7 +84,10 @@
       "build:linux": "node scripts/build.js --linux",
       "build:darwin": "node scripts/build.js --darwin"
     },
-    "private": true
+    "private": true,
+    "other": {
+      "author": "Iegor Azuaga <dextrackmedia@gmail.com>"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -112,5 +114,6 @@
       "url": "https://api.github.com/repos/iiegor/electron-screensaver/git/commits/29fbac8bbaadd2bdbf0e8045441b191d921dc7d9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "iiegor___electron-screensaver.json"
 }

@@ -80,10 +80,7 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/simonmeusel/qrcode.app.git"
-    },
+    "repository": "https://github.com/simonmeusel/qrcode.app",
     "keywords": [
       "offline",
       "secure",
@@ -91,14 +88,16 @@
       "windows",
       "linux"
     ],
-    "author": "Simon Meusel",
     "license": "SEE LICENSE IN LICENSE FILE",
-    "bugs": {
-      "url": "https://github.com/simonmeusel/qrcode.app/issues"
-    },
     "homepage": "https://github.com/simonmeusel/qrcode.app#readme",
     "devDependencies": {
       "electron": "^1.4.3"
+    },
+    "other": {
+      "author": "Simon Meusel",
+      "bugs": {
+        "url": "https://github.com/simonmeusel/qrcode.app/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/simonmeusel/qrcode.app/git/commits/745a90495cf0758e1a52b206676d9638f475697e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "simonmeusel___qrcode.app.json"
 }

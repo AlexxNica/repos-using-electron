@@ -74,15 +74,11 @@
       "start": "electron ./build",
       "dev": "gulp watch"
     },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:ryexley/aveloz.git"
-    },
+    "repository": "https://github.com/ryexley/aveloz",
     "keywords": [
       "markdown",
       "electron"
     ],
-    "author": "",
     "license": "MIT",
     "dependencies": {
       "electron-prebuilt": "^0.29.2",
@@ -117,6 +113,9 @@
       "postcss-nested": "^1.0.0",
       "postcss-simple-vars": "^1.1.0",
       "webpack": "^1.10.1"
+    },
+    "other": {
+      "author": ""
     }
   },
   "packageStatus": 200,
@@ -144,5 +143,6 @@
       "url": "https://api.github.com/repos/ryexley/aveloz/git/commits/0b1e08c3d21a8a98eea0b0c092dc6087714138ed",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ryexley___aveloz.json"
 }

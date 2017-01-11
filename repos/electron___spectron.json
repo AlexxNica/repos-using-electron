@@ -76,21 +76,14 @@
     "engines": {
       "node": ">=0.12.4"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/spectron.git"
-    },
+    "repository": "https://github.com/electron/spectron",
     "keywords": [
       "electron",
       "chromedriver",
       "webdriverio",
       "selenium"
     ],
-    "author": "Kevin Sawicki",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/electron/spectron/issues"
-    },
     "homepage": "https://github.com/electron/spectron#readme",
     "dependencies": {
       "dev-null": "^0.1.1",
@@ -106,6 +99,12 @@
       "mocha": "^2.3.3",
       "standard": "^5.3.1",
       "temp": "^0.8.3"
+    },
+    "other": {
+      "author": "Kevin Sawicki",
+      "bugs": {
+        "url": "https://github.com/electron/spectron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -141,5 +140,6 @@
       "url": "https://api.github.com/repos/electron/spectron/git/commits/f38893e0ae9dafa8df4109fb74c33a56a4c3be05",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "electron___spectron.json"
 }

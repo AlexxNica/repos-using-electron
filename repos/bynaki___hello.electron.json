@@ -77,7 +77,6 @@
     "license": "MIT",
     "description": "My awesome front-end project template using Electron.",
     "repository": "https://github.com/bynaki/hello.electron.git",
-    "author": "bynaki",
     "main": "main.js",
     "dependencies": {
       "react": "^15.1.0",
@@ -92,6 +91,9 @@
     },
     "scripts": {
       "start": "electron ."
+    },
+    "other": {
+      "author": "bynaki"
     }
   },
   "packageStatus": 200,
@@ -119,5 +121,6 @@
       "url": "https://api.github.com/repos/bynaki/hello.electron/git/commits/cb5a089ff5edd2e67863f862aca65e227efa02d0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "bynaki___hello.electron.json"
 }

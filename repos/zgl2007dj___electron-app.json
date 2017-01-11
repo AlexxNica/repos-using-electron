@@ -91,7 +91,6 @@
       "vuex:module": "node tasks/vuex/module.js",
       "postinstall": "npm run lint:fix && cd app && npm install"
     },
-    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "autoprefixer-stylus": "^0.11.0",
@@ -137,6 +136,9 @@
     },
     "dependencies": {
       "node-notifier": "^4.6.1"
+    },
+    "other": {
+      "author": "Greg Holguin <simulatedgreg@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -164,5 +166,6 @@
       "url": "https://api.github.com/repos/zgl2007dj/electron-app/git/commits/bd14c6cad4cf12614f88405adc9a9e639c8ca030",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zgl2007dj___electron-app.json"
 }

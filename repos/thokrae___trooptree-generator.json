@@ -59,22 +59,21 @@
     "scripts": {
       "start": "electron build/main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/thokrae/trooptree-generator.git"
-    },
+    "repository": "https://github.com/thokrae/trooptree-generator",
     "keywords": [
       "Mount & Blade"
     ],
-    "author": "Thomas Krämer",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/thokrae/trooptree-generator/issues"
-    },
     "homepage": "https://github.com/thokrae/trooptree-generator#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8",
       "jasmine-core": "2.4.1"
+    },
+    "other": {
+      "author": "Thomas Krämer",
+      "bugs": {
+        "url": "https://github.com/thokrae/trooptree-generator/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -122,5 +121,6 @@
       "url": "https://api.github.com/repos/thokrae/trooptree-generator/git/commits/5b9facbf21bd42fdb0877131f184f7d9dade1632",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "thokrae___trooptree-generator.json"
 }

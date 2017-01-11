@@ -74,19 +74,8 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/lmatteis/peer-tweet.git"
-    },
-    "author": {
-      "name": "Luca Matteis",
-      "email": "lmatteis@gmail.com",
-      "url": "https://github.com/lmatteis"
-    },
+    "repository": "https://github.com/lmatteis/peer-tweet",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/lmatteis/peer-tweet/issues"
-    },
     "keywords": [
       "bittorrent",
       "dht",
@@ -159,6 +148,16 @@
     "devEngines": {
       "node": "4.x || 5.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Luca Matteis",
+        "email": "lmatteis@gmail.com",
+        "url": "https://github.com/lmatteis"
+      },
+      "bugs": {
+        "url": "https://github.com/lmatteis/peer-tweet/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -186,5 +185,6 @@
       "url": "https://api.github.com/repos/lmatteis/peer-tweet/git/commits/f52055b7c08716193abae4788d9117ebd1c05634",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lmatteis___peer-tweet.json"
 }

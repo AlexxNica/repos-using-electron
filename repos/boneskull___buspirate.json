@@ -58,11 +58,6 @@
     "description": "My unreal app",
     "license": "MIT",
     "repository": "boneskull/buspirate",
-    "author": {
-      "name": "Christopher Hiller",
-      "email": "boneskull@boneskull.com",
-      "url": "boneskull.com"
-    },
     "electronVersion": "0.35.0",
     "scripts": {
       "test": "xo",
@@ -89,6 +84,13 @@
     "devDependencies": {
       "electron-packager": "^5.0.0",
       "electron-prebuilt": "^0.35.0"
+    },
+    "other": {
+      "author": {
+        "name": "Christopher Hiller",
+        "email": "boneskull@boneskull.com",
+        "url": "boneskull.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -116,5 +118,6 @@
       "url": "https://api.github.com/repos/boneskull/buspirate/git/commits/419e167463c09dd135cec96325a17fa599b37419",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "boneskull___buspirate.json"
 }

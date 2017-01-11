@@ -81,20 +81,19 @@
       "build": "elm-make src/Main.elm --output build/elm.js",
       "watch": "node elm-watch.js src/Main.elm"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
-    "author": "GitHub",
+    "repository": "https://github.com/electron/electron-quick-start",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron": "^1.3.4",
       "eslint": "^3.7.1",
       "eslint-config-defaults": "^9.0.0"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -123,5 +122,6 @@
       "url": "https://api.github.com/repos/aus10/dwarf-explorer/git/commits/56c719169fdedcb31ad2a4043d928af4cf16dfdc",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "aus10___dwarf-explorer.json"
 }

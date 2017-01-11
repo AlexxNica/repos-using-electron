@@ -61,10 +61,7 @@
       "start": "electron index.js",
       "install-package": "node install-package"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/vlad-ignatov/ride.git"
-    },
+    "repository": "https://github.com/vlad-ignatov/ride",
     "keywords": [
       "React",
       "Editor",
@@ -72,11 +69,7 @@
       "Flux",
       "JSX"
     ],
-    "author": "Vladimir Ignatov",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/vlad-ignatov/ride/issues"
-    },
     "homepage": "https://github.com/vlad-ignatov/ride#readme",
     "devDependencies": {
       "babel": "^6.1.5",
@@ -123,6 +116,12 @@
         "es2015"
       ],
       "ignore": []
+    },
+    "other": {
+      "author": "Vladimir Ignatov",
+      "bugs": {
+        "url": "https://github.com/vlad-ignatov/ride/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -170,5 +169,6 @@
       "url": "https://api.github.com/repos/vlad-ignatov/ride/git/commits/c40e4d745d83ca44e7a8d440a7fd4c6ae827313a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "vlad-ignatov___ride.json"
 }

@@ -80,26 +80,25 @@
       "start": "electron .",
       "package": "electron-packager ./ devkit --all --out ./output --version 1.3.4 --overwrite --icon=./app/img/icon.icns"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "tools",
       "dev"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron": "^1.3.4"
     },
     "dependencies": {
       "electron-packager": "^8.0.0"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/iamjohnnyzhuang/devkit/git/commits/beca84b0c2a7057461bcc8f6543d985cfafa1e93",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "iamjohnnyzhuang___devkit.json"
 }

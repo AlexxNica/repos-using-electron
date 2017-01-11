@@ -81,14 +81,10 @@
       "prepare-release": "npm run package && npm run installer",
       "release": "node ./script/release.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/athombv/node-athom-gui.git"
-    },
+    "repository": "https://github.com/athombv/node-athom-gui",
     "keywords": [
       "Homey"
     ],
-    "author": "Athom B.V.",
     "contributors": [
       {
         "name": "Matjaz Lipus"
@@ -114,6 +110,9 @@
       "env": {
         "mocha": true
       }
+    },
+    "other": {
+      "author": "Athom B.V."
     }
   },
   "packageStatus": 200,
@@ -143,5 +142,6 @@
       "url": "https://api.github.com/repos/athombv/node-athom-gui/git/commits/80ae885883bca821148011183f7c98b40267f38c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "athombv___node-athom-gui.json"
 }

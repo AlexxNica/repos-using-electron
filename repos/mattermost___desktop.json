@@ -71,18 +71,11 @@
     "version": "3.4.1",
     "description": "Mattermost",
     "main": "main.js",
-    "author": {
-      "name": "Yuya Ochiai",
-      "email": "yuya0321@gmail.com"
-    },
     "license": "Apache-2.0",
     "engines": {
       "node": ">=4.2.0"
     },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/mattermost/desktop.git"
-    },
+    "repository": "https://github.com/mattermost/desktop",
     "scripts": {
       "install": "cd src && npm install",
       "postinstall": "npm run build",
@@ -161,10 +154,16 @@
         "iconUrl": "https://raw.githubusercontent.com/mattermost/desktop/master/resources/icon.ico"
       }
     },
-    "directories": {
-      "buildResources": "resources",
-      "app": "dist",
-      "output": "release"
+    "other": {
+      "author": {
+        "name": "Yuya Ochiai",
+        "email": "yuya0321@gmail.com"
+      },
+      "directories": {
+        "buildResources": "resources",
+        "app": "dist",
+        "output": "release"
+      }
     }
   },
   "packageStatus": 200,
@@ -208,5 +207,6 @@
       "url": "https://api.github.com/repos/mattermost/desktop/git/commits/4772281fce4c35dcb87760c7883ac3413891b4db",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mattermost___desktop.json"
 }

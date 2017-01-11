@@ -80,10 +80,7 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/razki/lucille.git"
-    },
+    "repository": "https://github.com/razki/lucille",
     "keywords": [
       "Tennant",
       "Landlord",
@@ -91,15 +88,17 @@
       "Node",
       "Management"
     ],
-    "author": "Ryan Morrison",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/razki/lucille/issues"
-    },
     "homepage": "https://github.com/razki/lucille#readme",
     "dependencies": {
       "electron-prebuilt": "^1.3.8",
       "materialize-css": "^0.97.8"
+    },
+    "other": {
+      "author": "Ryan Morrison",
+      "bugs": {
+        "url": "https://github.com/razki/lucille/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/razki/lucille/git/commits/171e24575a49f83fe0d36e56a667f0633746976b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "razki___lucille.json"
 }

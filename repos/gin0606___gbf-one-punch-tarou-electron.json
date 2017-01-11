@@ -71,7 +71,6 @@
       "package:win:zip": "cd build/Release && zip -P $TAROU_ZIP_PASS --quiet -r OnePunchTarou-win32-x64.zip OnePunchTarou-win32-x64 && zip -P $TAROU_ZIP_PASS --quiet -r OnePunchTarou-win32-ia32.zip OnePunchTarou-win32-ia32",
       "package": "NODE_ENV=production npm-run-all release:build package:osx package:win package:osx:zip package:win:zip"
     },
-    "author": "gin0606",
     "license": "MIT",
     "devDependencies": {
       "babel-eslint": "6.1.2",
@@ -114,6 +113,9 @@
       "react-router-bootstrap": "0.23.1",
       "react-tree-menu": "1.5.0",
       "twitter": "1.4.0"
+    },
+    "other": {
+      "author": "gin0606"
     }
   },
   "packageStatus": 200,
@@ -141,5 +143,6 @@
       "url": "https://api.github.com/repos/gin0606/gbf-one-punch-tarou-electron/git/commits/486b13c3d149f32995d1a83c4065af34053010f8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "gin0606___gbf-one-punch-tarou-electron.json"
 }

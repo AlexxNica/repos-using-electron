@@ -100,15 +100,8 @@
       "build:watch": "cross-env NODE_ENV=production webpack --progress --watch --hide-modules",
       "dist": "npm run build && npm run electron:build"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/puraku/client"
-    },
-    "author": "Yukai Huang <yukaihuangtw@gmail.com> (https://yukaii.tw)",
+    "repository": "https://github.com/puraku/client",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/puraku/client/issues"
-    },
     "homepage": "https://github.com/puraku/client#readme",
     "engines": {
       "node": "6.9.1"
@@ -161,6 +154,12 @@
       "mac": {
         "category": "public.app-category.social-networking"
       }
+    },
+    "other": {
+      "author": "Yukai Huang <yukaihuangtw@gmail.com> (https://yukaii.tw)",
+      "bugs": {
+        "url": "https://github.com/puraku/client/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -188,5 +187,6 @@
       "url": "https://api.github.com/repos/puraku/app/git/commits/7cfd074bc1638358f8076cfa024e45284db51b9a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "puraku___app.json"
 }

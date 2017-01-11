@@ -73,13 +73,9 @@
   "status": 200,
   "packageJSON": {
     "name": "Conda-menu",
-    "author": "Thomas W. Battaglia <tombattagl@gmail.com>",
     "version": "0.2.3",
     "description": "An (unofficial) menubar app for creating and launching conda virtual environments.",
     "homepage": "https://github.com/twbattaglia/conda-menu",
-    "bugs": {
-      "url": "https://github.com/twbattaglia/conda-menu/issues"
-    },
     "keywords": [
       "conda",
       "electron",
@@ -118,10 +114,7 @@
       "electron-winstaller": "^2.3.4",
       "jshint": "latest"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/twbattaglia/conda-menu"
-    },
+    "repository": "https://github.com/twbattaglia/conda-menu",
     "license": "MIT",
     "main": "main.js",
     "scripts": {
@@ -133,6 +126,12 @@
       "build:windows": "electron-packager . Conda-menu --platform win32 --arch=ia32 --out build --version=1.4.3 --icon=build/Icon.ico --overwrite --app-bundle-id=com.twbattaglia.conda-menu",
       "compress": "bash build/compress.sh",
       "build": "npm run clean && npm run build:macos && npm run build:windows && npm run compress"
+    },
+    "other": {
+      "author": "Thomas W. Battaglia <tombattagl@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/twbattaglia/conda-menu/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -160,5 +159,6 @@
       "url": "https://api.github.com/repos/twbattaglia/conda-menu/git/commits/8208347e32b885209d060996455bdbe8e7947eac",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "twbattaglia___conda-menu.json"
 }

@@ -76,24 +76,23 @@
     "version": "0.1.0",
     "description": "Program til oprettelse af person-grupper.",
     "main": "src/main.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mijenner/gruppe-generator.git"
-    },
+    "repository": "https://github.com/mijenner/gruppe-generator",
     "scripts": {
       "start": "electron ."
     },
-    "author": "Michael Jenner",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/mijenner/gruppe-generator/issues"
-    },
     "homepage": "https://github.com/mijenner/gruppe-generator#readme",
     "devDependencies": {
       "angular": "^1.5.8",
       "angular-route": "^1.5.8",
       "electron": "^1.4.3",
       "electron-prebuilt": "^1.4.3"
+    },
+    "other": {
+      "author": "Michael Jenner",
+      "bugs": {
+        "url": "https://github.com/mijenner/gruppe-generator/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -121,5 +120,6 @@
       "url": "https://api.github.com/repos/mijenner/GroupGenerator/git/commits/cb170b2795609c566be8cc6bb6be65d69fccb70e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mijenner___GroupGenerator.json"
 }

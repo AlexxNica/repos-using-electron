@@ -74,10 +74,12 @@
       "start": "electron .",
       "package": "electron-packager . DemoApp --platform=darwin,linux --arch=x64 --out ./build --overwrite --icon=./icon.png"
     },
-    "author": "Dalimil Hajek",
     "devDependencies": {
       "electron-packager": "^7.4.0",
       "electron-prebuilt": "^1.2.0"
+    },
+    "other": {
+      "author": "Dalimil Hajek"
     }
   },
   "packageStatus": 200,
@@ -105,5 +107,6 @@
       "url": "https://api.github.com/repos/Dalimil/Electron-Quickstart/git/commits/c3c71fffbbac9fb9417fcdb7c81760b0d5c8f599",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Dalimil___Electron-Quickstart.json"
 }

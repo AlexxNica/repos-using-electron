@@ -71,7 +71,6 @@
     "version": "0.4.2",
     "description": "Listen to music from Spotify, SoundCloud, Google Play Music or your local disk,",
     "main": "main.js",
-    "author": "Vincent L <vincelwt@users.noreply.github.com>",
     "license": "GPL-3.0",
     "homepage": "https://github.com/vincelwt/harmony",
     "scripts": {
@@ -107,10 +106,7 @@
       "mpris-service": "^1.1.1",
       "mediakeys": "github:nogizhopaboroda/mediakeys"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/vincelwt/harmony.git"
-    },
+    "repository": "https://github.com/vincelwt/harmony",
     "build": {
       "asar": false,
       "appId": "com.vincelwt.harmony",
@@ -123,6 +119,9 @@
         "category": "Music;Audio;AudioVideo",
         "packageCategory": "sound"
       }
+    },
+    "other": {
+      "author": "Vincent L <vincelwt@users.noreply.github.com>"
     }
   },
   "packageStatus": 200,
@@ -157,5 +156,6 @@
       "url": "https://api.github.com/repos/vincelwt/harmony/git/commits/6c76e5c75b527e1b787e548d8194beb8a509539d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "vincelwt___harmony.json"
 }

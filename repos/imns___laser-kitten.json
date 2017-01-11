@@ -63,7 +63,6 @@
       "release": "gulp release --env=production",
       "install-native": "node ./tasks/install_native_module"
     },
-    "author": "Nate Smith",
     "dependencies": {
       "appdmg": "^0.3.6",
       "asar": "^0.10.0",
@@ -85,7 +84,10 @@
       "vinyl-source-stream": "^1.1.0",
       "watchify": "^3.6.1"
     },
-    "devDependencies": {}
+    "devDependencies": {},
+    "other": {
+      "author": "Nate Smith"
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/imns/laser-kitten",
@@ -132,5 +134,6 @@
       "url": "https://api.github.com/repos/imns/laser-kitten/git/commits/3732f015743486bbbdf497b090e53d0788639024",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "imns___laser-kitten.json"
 }

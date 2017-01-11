@@ -80,11 +80,7 @@
       "compile": "browserify -t [ babelify --presets [ react es2015 ] ] src/app.js -o js/app.js",
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/felizalde/clustering-market.git"
-    },
-    "author": "Federico Elizalde",
+    "repository": "https://github.com/felizalde/clustering-market",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -104,6 +100,9 @@
       "redux-logger": "^2.6.1",
       "redux-thunk": "^2.1.0",
       "react-json-tree": "^0.10.0"
+    },
+    "other": {
+      "author": "Federico Elizalde"
     }
   },
   "packageStatus": 200,
@@ -131,5 +130,6 @@
       "url": "https://api.github.com/repos/felizalde/clustering-market/git/commits/d9e2eec42801e012084c99969cc8e91e1d70affc",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "felizalde___clustering-market.json"
 }

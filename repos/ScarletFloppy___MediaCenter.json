@@ -79,20 +79,13 @@
     "scripts": {
       "start": "electron server.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ScarletFloppy/MediaCenter.git"
-    },
+    "repository": "https://github.com/ScarletFloppy/MediaCenter",
     "keywords": [
       "HTPC",
       "Media",
       "Center"
     ],
-    "author": "ScarletFloppy",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/ScarletFloppy/MediaCenter/issues"
-    },
     "homepage": "https://github.com/ScarletFloppy/MediaCenter#readme",
     "dependencies": {
       "electron-prebuilt": "latest",
@@ -101,6 +94,12 @@
       "express": "latest",
       "ip": "latest",
       "spotify-web-api-node": "latest"
+    },
+    "other": {
+      "author": "ScarletFloppy",
+      "bugs": {
+        "url": "https://github.com/ScarletFloppy/MediaCenter/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/ScarletFloppy/MediaCenter/git/commits/fd11a6971e155629fa22efe88c6efd7efd344d72",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ScarletFloppy___MediaCenter.json"
 }

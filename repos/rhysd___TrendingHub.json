@@ -74,14 +74,7 @@
     "bin": {
       "soundkloud": "./bin/cli.js"
     },
-    "author": "rhysd <lin90162@yahoo.co.jp>",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/rhysd/TrendingHub.git"
-    },
-    "bugs": {
-      "url": "https://github.com/rhysd/TrendingHub/issues"
-    },
+    "repository": "https://github.com/rhysd/TrendingHub",
     "license": "MIT",
     "dependencies": {
       "js-yaml": "^3.3.1",
@@ -94,6 +87,12 @@
     "scripts": {
       "build": "rake build",
       "start": "./bin/cli.js"
+    },
+    "other": {
+      "author": "rhysd <lin90162@yahoo.co.jp>",
+      "bugs": {
+        "url": "https://github.com/rhysd/TrendingHub/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -121,5 +120,6 @@
       "url": "https://api.github.com/repos/rhysd/TrendingHub/git/commits/1b7a7baf7896121145c1d848a5ea6762894bb2bd",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rhysd___TrendingHub.json"
 }

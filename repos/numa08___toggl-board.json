@@ -64,18 +64,11 @@
       "lint": "npm-run-all lint:*",
       "build": "electron-packager ./ toggl-board --platform=all --arch=x64 --version=0.35.0 --overwrite --out=build --ignore=build"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/numa08/toggl-team.git"
-    },
+    "repository": "https://github.com/numa08/toggl-team",
     "keywords": [
       "toggl"
     ],
-    "author": "numa08",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/numa08/toggl-team/issues"
-    },
     "homepage": "https://github.com/numa08/toggl-team",
     "dependencies": {
       "async": "^1.5.0",
@@ -91,6 +84,12 @@
       "jscs": "^2.6.0",
       "jshint": "^2.8.0",
       "npm-run-all": "^1.3.4"
+    },
+    "other": {
+      "author": "numa08",
+      "bugs": {
+        "url": "https://github.com/numa08/toggl-team/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -120,5 +119,6 @@
       "url": "https://api.github.com/repos/numa08/toggl-board/git/commits/281f19f07f08c1fe67d13b5acf16de60d07ea295",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "numa08___toggl-board.json"
 }

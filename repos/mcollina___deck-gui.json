@@ -207,7 +207,6 @@
     "bin": {
       "gui": "./cmd.js"
     },
-    "author": "David Mark Clements",
     "license": "MIT",
     "dependencies": {
       "electron": "^1.4.3",
@@ -220,14 +219,14 @@
       "standard": "^8.3.0"
     },
     "description": "the GUI for @deck/app",
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/nearform/deck-gui.git"
-    },
-    "bugs": {
-      "url": "https://github.com/nearform/deck-gui/issues"
-    },
-    "homepage": "https://github.com/nearform/deck-gui#readme"
+    "repository": "https://github.com/nearform/deck-gui",
+    "homepage": "https://github.com/nearform/deck-gui#readme",
+    "other": {
+      "author": "David Mark Clements",
+      "bugs": {
+        "url": "https://github.com/nearform/deck-gui/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -258,5 +257,6 @@
       "url": "https://api.github.com/repos/mcollina/deck-gui/git/commits/5abab8eebb21efc67e87f2391dc40700fc0703a0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mcollina___deck-gui.json"
 }

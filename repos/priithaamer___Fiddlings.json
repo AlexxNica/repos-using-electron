@@ -75,11 +75,7 @@
       "package:macos": "electron-packager . --platform=darwin",
       "clean": "rm -rf ./Fiddlings-darwin-x64"
     },
-    "repository": {
-      "url": "git@github.com:priithaamer/Fiddlings.git",
-      "type": "git"
-    },
-    "author": "Priit Haamer <priit@haamer.ee>",
+    "repository": "https://github.com/priithaamer/Fiddlings",
     "license": "MIT",
     "devDependencies": {
       "electron": "^1.4.4",
@@ -87,6 +83,9 @@
     },
     "dependencies": {
       "codemirror": "^5.20.2"
+    },
+    "other": {
+      "author": "Priit Haamer <priit@haamer.ee>"
     }
   },
   "packageStatus": 200,
@@ -114,5 +113,6 @@
       "url": "https://api.github.com/repos/priithaamer/Fiddlings/git/commits/58aa543fcc19e0da56f30e8d9eac8fc4968ad2da",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "priithaamer___Fiddlings.json"
 }

@@ -73,7 +73,6 @@
     "scripts": {
       "start": "electron ."
     },
-    "author": "Samuele Santi <samuele@samuelesanti.com>",
     "email": "samuele@samuelesanti.com",
     "license": "BSD-2-Clause",
     "homepage": "https://github.com/rshk/mdview",
@@ -86,6 +85,9 @@
     "postinstall": "install-app-deps",
     "build": {
       "appId": "com.bkno3.mdview"
+    },
+    "other": {
+      "author": "Samuele Santi <samuele@samuelesanti.com>"
     }
   },
   "packageStatus": 200,
@@ -113,5 +115,6 @@
       "url": "https://api.github.com/repos/rshk/mdview/git/commits/54894d1941905a0ade50f9c6557bbb7ad6907681",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rshk___mdview.json"
 }

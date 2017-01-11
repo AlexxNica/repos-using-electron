@@ -79,15 +79,8 @@
       "release": "mversion minor",
       "test": "echo \"Error: no test specified\" && exit 0"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/ufal/js-treex-view.git"
-    },
-    "author": "",
+    "repository": "https://github.com/ufal/js-treex-view",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ufal/js-treex-view/issues"
-    },
     "homepage": "https://github.com/ufal/js-treex-view",
     "devDependencies": {
       "autopolyfiller-loader": "^0.3.3",
@@ -113,6 +106,12 @@
       "webpack-dev-server": "^1.12.1",
       "webpack-merge": "^0.2.0",
       "webpack-target-electron-renderer": "^0.1.1"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/ufal/js-treex-view/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -140,5 +139,6 @@
       "url": "https://api.github.com/repos/ufal/js-treex-view/git/commits/12d09356df3451bcadf59dbf1c8d0d2cd84e2630",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ufal___js-treex-view.json"
 }

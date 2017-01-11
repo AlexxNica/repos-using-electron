@@ -76,21 +76,14 @@
       "build": "electron-packager . app --platform linux --arch x64 --out dist/",
       "rpm64": "electron-installer-redhat --src dist/NovoWorx-linux-x64/ --dest dist/installers/ --arch amd64"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "asar": "^0.12.3",
@@ -105,6 +98,12 @@
       "jQuery": "^1.7.4",
       "jquery": "^3.1.0",
       "virtualbox": "^0.1.2"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -132,5 +131,6 @@
       "url": "https://api.github.com/repos/melong90/novoworx/git/commits/de088ec4bd6c1cbf88f2691e1033157535514e51",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "melong90___novoworx.json"
 }

@@ -54,11 +54,13 @@
       "start": "electron .",
       "build": "electron-packager . whatsapp-desktop --platform=linux --arch=x64 --version=0.36.3 && cp resources/whatsapp1.png whatsapp-desktop-linux-x64/resources/whatsapp1.png"
     },
-    "author": "M. Alberts",
     "license": "GNU General Public License v3.0",
     "devDependencies": {
       "electron-packager": "^5.2.0",
       "electron-prebuilt": "^0.25.2"
+    },
+    "other": {
+      "author": "M. Alberts"
     }
   },
   "packageStatus": 200,
@@ -86,5 +88,6 @@
       "url": "https://api.github.com/repos/MartyBum/whatsapp-desktop/git/commits/f4641032a5634d7cbeaf8a4ff442c7b671775189",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "MartyBum___whatsapp-desktop.json"
 }

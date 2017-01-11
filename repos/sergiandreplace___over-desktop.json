@@ -73,26 +73,25 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/sergiandreplace/over-desktop.git"
-    },
+    "repository": "https://github.com/sergiandreplace/over-desktop",
     "keywords": [
       "over",
       "android",
       "desktop",
       "pixel-perfect"
     ],
-    "author": "Sergi Martínez <sergi.martinez@gmail.com>",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/sergiandreplace/over-desktop/issues"
-    },
     "homepage": "https://github.com/sergiandreplace/over-desktop#readme",
     "dependencies": {
       "electron-prebuilt": "^0.36.1",
       "node-localstorage": "^0.6.0",
       "ws": "^0.8.1"
+    },
+    "other": {
+      "author": "Sergi Martínez <sergi.martinez@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/sergiandreplace/over-desktop/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -120,5 +119,6 @@
       "url": "https://api.github.com/repos/sergiandreplace/over-desktop/git/commits/4740bcd74ae3552e4b77ac3ea63db7bf4ed2a837",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sergiandreplace___over-desktop.json"
 }

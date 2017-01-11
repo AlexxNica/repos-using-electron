@@ -72,11 +72,6 @@
     "description": "My outstanding app",
     "license": "MIT",
     "repository": "Kafeen/plinko",
-    "author": {
-      "name": "Matthew Knowles",
-      "email": "",
-      "url": "github.com/kafeen"
-    },
     "scripts": {
       "test": "xo",
       "prestart": "npm install && bower install ./app",
@@ -116,6 +111,13 @@
         "node",
         "browser"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "Matthew Knowles",
+        "email": "",
+        "url": "github.com/kafeen"
+      }
     }
   },
   "packageStatus": 200,
@@ -143,5 +145,6 @@
       "url": "https://api.github.com/repos/Kafeen/Plinko/git/commits/0c194f03db64da1829cb90cc6509e05f12abba1f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Kafeen___Plinko.json"
 }

@@ -70,12 +70,8 @@
     "version": "1.0.0",
     "description": "Best torrent client ever",
     "main": "index.js",
-    "author": "Michel Salib",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/michelsalib/torrents.git"
-    },
+    "repository": "https://github.com/michelsalib/torrents",
     "dependencies": {
       "bluebird": "^3.3.4",
       "bower": "^1.7.7",
@@ -111,6 +107,9 @@
     },
     "devDependencies": {
       "electron-builder": "^3.2.0"
+    },
+    "other": {
+      "author": "Michel Salib"
     }
   },
   "packageStatus": 200,
@@ -138,5 +137,6 @@
       "url": "https://api.github.com/repos/michelsalib/torrents/git/commits/98040cb0f9b4f0e6dd0db8985dae1ee19ada98f8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "michelsalib___torrents.json"
 }

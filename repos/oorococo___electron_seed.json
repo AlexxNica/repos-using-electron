@@ -83,7 +83,6 @@
       "pack:darwin": "cross-env NODE_ENV=production electron-packager . ElectronSeed --ignore=node_modules/electron-* && cp icon.icns ElectronSeed-darwin-x64/ElectronSeed.app/Contents/Resources/electron.icns"
     },
     "keywords": [],
-    "author": "",
     "license": "ISC",
     "dependencies": {
       "cross-env": "^3.1.1",
@@ -129,6 +128,9 @@
       "webpack": "^2.1.0-beta.25",
       "webpack-dev-middleware": "^1.8.3",
       "webpack-hot-middleware": "^2.12.2"
+    },
+    "other": {
+      "author": ""
     }
   },
   "packageStatus": 200,
@@ -154,5 +156,6 @@
       "url": "https://api.github.com/repos/oorococo/electron_seed/git/commits/2602966410fc12c8f5f3ea0332447cbe80c6cc65",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "oorococo___electron_seed.json"
 }

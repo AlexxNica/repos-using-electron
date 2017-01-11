@@ -55,18 +55,17 @@
       "start": "electron client.js",
       "package_win": "electron-packager . slobber --platform=win32 --arch=x64 --version=1.2.2 --asar --overwrite --asar-unpack \"**/node_modules/node-notifier/vendor/**\" --icon 128.png --appname Slobber"
     },
-    "author": "Aled Lewis",
     "license": "MIT",
     "dependencies": {
       "slobber-server": ">=0.0.12"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/AledLewis/slobber-client"
-    },
+    "repository": "https://github.com/AledLewis/slobber-client",
     "devDependencies": {
       "electron-packager": "^7.0.3",
       "electron-prebuilt": "^1.2.2"
+    },
+    "other": {
+      "author": "Aled Lewis"
     }
   },
   "packageStatus": 200,
@@ -94,5 +93,6 @@
       "url": "https://api.github.com/repos/AledLewis/slobber-client/git/commits/34a47a0b8326bd7961819b2ca588504047fe68e0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "AledLewis___slobber-client.json"
 }

@@ -74,10 +74,7 @@
       "electron:dist:win32": "node scripts/electron-dist-win32.js",
       "electron:upload:win32": "node scripts/electron-upload-win32.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/tboeker/tbelectrondemo.git"
-    },
+    "repository": "https://github.com/tboeker/tbelectrondemo",
     "keywords": [
       "Electron",
       "quick",
@@ -85,10 +82,6 @@
       "demo",
       "tb"
     ],
-    "author": "TB",
-    "bugs": {
-      "url": "https://github.com/tboeker/tbelectrondemo/issues"
-    },
     "homepage": "https://github.com/tboeker/tbelectrondemo",
     "devDependencies": {
       "electron": "*",
@@ -129,6 +122,12 @@
       "electron-squirrel-startup": "*",
       "pkginfo": "*",
       "winston": "*"
+    },
+    "other": {
+      "author": "TB",
+      "bugs": {
+        "url": "https://github.com/tboeker/tbelectrondemo/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -156,5 +155,6 @@
       "url": "https://api.github.com/repos/tboeker/tbelectrondemo/git/commits/131a811cee742024a39a5143787bc92589181492",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tboeker___tbelectrondemo.json"
 }

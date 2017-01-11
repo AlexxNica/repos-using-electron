@@ -82,21 +82,14 @@
       "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
       "start": "electron build/src.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0",
@@ -111,6 +104,12 @@
       "reflect-metadata": "^0.1.2",
       "rxjs": "^5.0.0-beta.2",
       "zone.js": "^0.6.11"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,6 @@
       "url": "https://api.github.com/repos/vincent314/jsrol-electron/git/commits/5c3e84fea7ad152c2e7ad16a86a7b4f226abb913",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "vincent314___jsrol-electron.json"
 }

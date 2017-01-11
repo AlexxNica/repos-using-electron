@@ -61,7 +61,6 @@
       "test": "NODE_PATH=. NODE_ENV=test mocha --compilers js:babel/register --recursive --timeout 20000"
     },
     "productName": "Headset",
-    "author": "Daniel Ravina",
     "license": "MIT",
     "devDependencies": {
       "babel-eslint": "^6.1.0",
@@ -88,6 +87,9 @@
       "titleize": "^1.0.0",
       "urldecode": "^1.0.1",
       "youtube-node": "github:danielravina/youtube-node"
+    },
+    "other": {
+      "author": "Daniel Ravina"
     }
   },
   "packageStatus": 200,
@@ -115,5 +117,6 @@
       "url": "https://api.github.com/repos/danielravina/headset/git/commits/bf9a2e29bbe7f23f6c611c76325ff586abed60b4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "danielravina___headset.json"
 }

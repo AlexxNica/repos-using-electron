@@ -97,16 +97,9 @@
       "build": "gulp build",
       "coverage": "gulp coverage"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/spacebro/spacebro-client.git"
-    },
+    "repository": "https://github.com/spacebro/spacebro-client",
     "keywords": [],
-    "author": "Soixante circuits",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/spacebro/spacebro-client/issues"
-    },
     "homepage": "https://github.com/spacebro/spacebro-client",
     "dependencies": {
       "babel-runtime": "^6.11.6",
@@ -153,6 +146,12 @@
     "babelBoilerplateOptions": {
       "entryFileName": "spacebro-client.js",
       "mainVarName": "spacebroClient"
+    },
+    "other": {
+      "author": "Soixante circuits",
+      "bugs": {
+        "url": "https://github.com/spacebro/spacebro-client/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -183,5 +182,6 @@
       "url": "https://api.github.com/repos/spacebro/spacebro-client/git/commits/df977fcdf3582aa1566d314ab198e4d794e76cb4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "spacebro___spacebro-client.json"
 }

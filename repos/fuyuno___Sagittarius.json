@@ -86,19 +86,12 @@
       "prepack": "set NODE_ENV=production && gulp build:main",
       "pack": "set NODE_ENV=production && electron-packager . Sagittarius --platform=all --arch=x64 --version=0.36.1 --out=dist --ignore={.vscode,bin,dist,src,screenshots,test,tmp}/* --prune=true --asar=true"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/fuyuno/Sagittarius.git"
-    },
+    "repository": "https://github.com/fuyuno/Sagittarius",
     "keywords": [
       "ChatWork",
       "Client"
     ],
-    "author": "Mikazuki",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/fuyuno/Sagittarius/issues"
-    },
     "homepage": "https://github.com/fuyuno/Sagittarius#readme",
     "dependencies": {
       "babel-polyfill": "^6.3.14",
@@ -144,6 +137,12 @@
       "typescript-require": "^0.2.9-1",
       "vinyl-buffer": "^1.0.0",
       "vinyl-source-stream": "^1.1.0"
+    },
+    "other": {
+      "author": "Mikazuki",
+      "bugs": {
+        "url": "https://github.com/fuyuno/Sagittarius/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -171,5 +170,6 @@
       "url": "https://api.github.com/repos/fuyuno/Sagittarius/git/commits/411a4674a6a6dae36b6dc616c3210c08a630b5ec",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "fuyuno___Sagittarius.json"
 }

@@ -76,7 +76,6 @@
     "productName": "not-explorer",
     "version": "1.0.0",
     "description": "not-explorer",
-    "author": "John Bailey",
     "main": "index.js",
     "scripts": {
       "start": "node ./build.js && electron .",
@@ -84,14 +83,8 @@
       "pack:win": "./node_modules/.bin/electron-packager . notexplorer --app-version=$npm_package_version --version=0.36.7 --out=release --platform=win32 --arch=x64 --overwrite",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/baileyisms/Not-Explorer.git"
-    },
+    "repository": "https://github.com/baileyisms/Not-Explorer",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/baileyisms/Not-Explorer/issues"
-    },
     "homepage": "https://github.com/baileyisms/Not-Explorer#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -104,6 +97,12 @@
       "confidence": "^1.4.2",
       "font-awesome": "^4.5.0",
       "lodash": "^4.6.0"
+    },
+    "other": {
+      "author": "John Bailey",
+      "bugs": {
+        "url": "https://github.com/baileyisms/Not-Explorer/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -132,5 +131,6 @@
       "url": "https://api.github.com/repos/baileyisms/Not-Explorer/git/commits/7a32535f88ec3c5fe89f4a95baa1806a39ebaca4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "baileyisms___Not-Explorer.json"
 }

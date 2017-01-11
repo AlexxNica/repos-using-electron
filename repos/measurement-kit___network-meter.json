@@ -68,9 +68,6 @@
       "type": "git",
       "url": "git://github.com:measurement-kit/network-meter.git"
     },
-    "bugs": {
-      "url": "https://github.com/measurement-kit/network-meter/issues"
-    },
     "main": "index.js",
     "devDependencies": {
       "beefy": "^2.1.5",
@@ -92,6 +89,11 @@
       "package": "electron-packager . NetworkMeter --icon=static/Icon.icns",
       "start": "electron index.js 2>&1 | silence-chromium",
       "web": "beefy web.js:bundle.js"
+    },
+    "other": {
+      "bugs": {
+        "url": "https://github.com/measurement-kit/network-meter/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -121,5 +123,6 @@
       "url": "https://api.github.com/repos/measurement-kit/network-meter/git/commits/f38bd4fd17481f8c94e1e08e547f99915e3654e9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "measurement-kit___network-meter.json"
 }

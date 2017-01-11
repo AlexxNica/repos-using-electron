@@ -80,25 +80,24 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/azwreith/elementary-browser.git"
-    },
+    "repository": "https://github.com/azwreith/elementary-browser",
     "keywords": [
       "electron",
       "browser"
     ],
-    "author": "Ujjwal Arora <arora.ujjwal@gmail.com> (http://ujjwalarora.xyz)",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/azwreith/elementary-browser/issues"
-    },
     "homepage": "https://github.com/azwreith/elementary-browser#readme",
     "devDependencies": {
       "electron": "^1.4.2"
     },
     "dependencies": {
       "jquery": "^3.1.1"
+    },
+    "other": {
+      "author": "Ujjwal Arora <arora.ujjwal@gmail.com> (http://ujjwalarora.xyz)",
+      "bugs": {
+        "url": "https://github.com/azwreith/elementary-browser/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/azwreith/elementary-browser/git/commits/a995e1fad1d64821f963015a92798041ead51654",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "azwreith___elementary-browser.json"
 }

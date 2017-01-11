@@ -56,7 +56,6 @@
     "main": "index.js",
     "version": "0.0.2",
     "private": true,
-    "author": "Corey Donohoe",
     "keywords": [
       "slack",
       "chat",
@@ -72,10 +71,7 @@
         "url": "https://github.com/atmos/electrogram/raw/master/LICENSE"
       }
     ],
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/atmos/electrogram.git"
-    },
+    "repository": "https://github.com/atmos/electrogram",
     "dependencies": {
       "electron-prebuilt": "~0.27.2",
       "jquery": "^2.1.4",
@@ -96,6 +92,9 @@
     "engines": {
       "node": "^0.10.x",
       "npm": ">= 1.1.x"
+    },
+    "other": {
+      "author": "Corey Donohoe"
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/atmos/electrogram/git/commits/2cca2b78c3ea508ffe5b5762feb83082b48822af",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "atmos___electrogram.json"
 }

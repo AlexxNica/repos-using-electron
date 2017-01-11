@@ -62,7 +62,6 @@
       "node": ">=0.10.36"
     },
     "description": "Package your Meteor apps with Electron, and butter.",
-    "author": "Anderson Arboleya <anderson@arboleya.me>",
     "license": "MIT",
     "dependencies": {
       "commander": "^2.8.1",
@@ -80,20 +79,20 @@
       "npm-check": "^4.1.3",
       "should": "^8.0.0"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/arboleya/electrify"
-    },
+    "repository": "https://github.com/arboleya/electrify",
     "keywords": [
       "electron",
       "meteor",
       "packager",
       "desktop"
     ],
-    "bugs": {
-      "url": "https://github.com/arboleya/electrify/issues"
-    },
-    "homepage": "https://github.com/arboleya/electrify"
+    "homepage": "https://github.com/arboleya/electrify",
+    "other": {
+      "author": "Anderson Arboleya <anderson@arboleya.me>",
+      "bugs": {
+        "url": "https://github.com/arboleya/electrify/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -120,5 +119,6 @@
       "url": "https://api.github.com/repos/arboleya/electrify/git/commits/5574cd6158081df7161e3cdfda39bef645b00d84",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "arboleya___electrify.json"
 }

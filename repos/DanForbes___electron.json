@@ -80,18 +80,11 @@
       "start": "gulp run",
       "test": "gulp test"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/DanForbes/electron.git"
-    },
+    "repository": "https://github.com/DanForbes/electron",
     "keywords": [
       "electron"
     ],
-    "author": "Dan Forbes",
     "license": "UNLICENSED",
-    "bugs": {
-      "url": "https://github.com/DanForbes/electron/issues"
-    },
     "homepage": "https://github.com/DanForbes/electron#readme",
     "devDependencies": {
       "asar": "^0.12.3",
@@ -121,6 +114,12 @@
     },
     "engines": {
       "node": "6.5.0"
+    },
+    "other": {
+      "author": "Dan Forbes",
+      "bugs": {
+        "url": "https://github.com/DanForbes/electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -148,5 +147,6 @@
       "url": "https://api.github.com/repos/DanForbes/electron/git/commits/6b1b7d52786212a1da18e6a1258f7d6602b391fb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DanForbes___electron.json"
 }

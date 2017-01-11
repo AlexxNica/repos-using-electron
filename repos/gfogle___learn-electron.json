@@ -80,19 +80,12 @@
       "start": "node_modules/.bin/electron app",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/gfogle/learn-electron.git"
-    },
+    "repository": "https://github.com/gfogle/learn-electron",
     "keywords": [
       "electron",
       "angular"
     ],
-    "author": "",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/gfogle/learn-electron/issues"
-    },
     "homepage": "https://github.com/gfogle/learn-electron#readme",
     "devDependencies": {
       "appdmg": "^0.3.4",
@@ -110,6 +103,12 @@
       "rollup": "^0.19.1",
       "tree-kill": "^1.0.0",
       "yargs": "^3.27.0"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/gfogle/learn-electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -137,5 +136,6 @@
       "url": "https://api.github.com/repos/gfogle/learn-electron/git/commits/2edd7d804046e4be2f05711e9947dfc23f380954",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "gfogle___learn-electron.json"
 }

@@ -62,15 +62,8 @@
       "postinstall": "autodts link",
       "prepublish": "tsc && autodts generate"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/zachdeibert/web-game-framework.git"
-    },
-    "author": "Zach Deibert",
+    "repository": "https://github.com/zachdeibert/web-game-framework",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/zachdeibert/web-game-framework/issues"
-    },
     "homepage": "https://github.com/zachdeibert/web-game-framework#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.5",
@@ -84,6 +77,12 @@
     },
     "typescript": {
       "definition": "framework.d.ts"
+    },
+    "other": {
+      "author": "Zach Deibert",
+      "bugs": {
+        "url": "https://github.com/zachdeibert/web-game-framework/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -131,5 +130,6 @@
       "url": "https://api.github.com/repos/zachdeibert/web-game-framework/git/commits/83a2bfb1edb9d99a83ed6d20de5df39d33193885",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zachdeibert___web-game-framework.json"
 }

@@ -79,18 +79,17 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/naoey/wanikani-desktop.git"
-    },
-    "author": "naoey",
+    "repository": "https://github.com/naoey/wanikani-desktop",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/naoey/wanikani-desktop/issues"
-    },
     "homepage": "https://github.com/naoey/wanikani-desktop#readme",
     "dependencies": {
       "electron": "^1.3.5"
+    },
+    "other": {
+      "author": "naoey",
+      "bugs": {
+        "url": "https://github.com/naoey/wanikani-desktop/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -118,5 +117,6 @@
       "url": "https://api.github.com/repos/naoey/wanikani-desktop/git/commits/b87705fce32588128c238d3d0870dacb1cbb535b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "naoey___wanikani-desktop.json"
 }

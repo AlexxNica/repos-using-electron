@@ -94,15 +94,8 @@
       "test": "exit 0",
       "start": "./node_modules/.bin/electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/nodepunch/np-electron.git"
-    },
-    "author": "Jan Biasi <biasijan@gmail.com>",
+    "repository": "https://github.com/nodepunch/np-electron",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/nodepunch/np-electron/issues"
-    },
     "homepage": "https://github.com/nodepunch/np-electron#readme",
     "devDependencies": {
       "assert": "^1.3.0",
@@ -122,6 +115,12 @@
       "gulp-uglify": "^1.5.3",
       "jshint": "^2.9.1",
       "jshint-stylish": "^2.1.0"
+    },
+    "other": {
+      "author": "Jan Biasi <biasijan@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/nodepunch/np-electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -149,5 +148,6 @@
       "url": "https://api.github.com/repos/nodepunch/np-electron/git/commits/c4648fe635c6a0b707afa0a11cb5e64ab1988e58",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "nodepunch___np-electron.json"
 }

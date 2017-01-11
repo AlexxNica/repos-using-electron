@@ -120,22 +120,10 @@
         ]
       }
     },
-    "directories": {
-      "buildResources": "resources",
-      "output": "release"
-    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/RibbonLance/BreakTrack.git"
-    },
-    "author": {
-      "name": "Matt Barker",
-      "email": "ribbonlance@gmail.com",
-      "url": "https://twitter.com/ribbonlance"
-    },
+    "repository": "https://github.com/RibbonLance/BreakTrack",
     "homepage": "https://github.com/RibbonLance/BreakTrack#readme",
     "devDependencies": {
       "asar": "^0.12.3",
@@ -214,6 +202,17 @@
     "devEngines": {
       "node": ">=6.x",
       "npm": ">=3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Matt Barker",
+        "email": "ribbonlance@gmail.com",
+        "url": "https://twitter.com/ribbonlance"
+      },
+      "directories": {
+        "buildResources": "resources",
+        "output": "release"
+      }
     }
   },
   "packageStatus": 200,
@@ -241,5 +240,6 @@
       "url": "https://api.github.com/repos/RibbonLance/BreakTrack/git/commits/c6194087e527b19f535e648e3e97a4b9cd7a0647",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "RibbonLance___BreakTrack.json"
 }

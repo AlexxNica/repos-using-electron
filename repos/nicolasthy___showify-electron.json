@@ -83,7 +83,6 @@
       "watch": "watchify src/index.js -t babelify -o public/js/bundle.js --debug --verbose",
       "package": "electron-packager ./ Showify --all --out ~/Desktop/Showify"
     },
-    "author": "nicolasthy",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",

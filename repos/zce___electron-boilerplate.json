@@ -75,15 +75,8 @@
     "name": "electron-boilerplate",
     "description": "A boilerplate application for Electron runtime",
     "version": "0.3.0",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/zce/electron-boilerplate.git"
-    },
-    "author": "iceStone <ice@wedn.net> (http://wedn.net/)",
+    "repository": "https://github.com/zce/electron-boilerplate",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/zce/electron-boilerplate/issues"
-    },
     "homepage": "https://github.com/zce/electron-boilerplate#readme",
     "scripts": {
       "postinstall": "cd app && npm install && cd ..",
@@ -149,6 +142,12 @@
       "webpack-dashboard": "^0.1.8",
       "webpack-dev-server": "^1.15.2",
       "webpack-merge": "^0.14.1"
+    },
+    "other": {
+      "author": "iceStone <ice@wedn.net> (http://wedn.net/)",
+      "bugs": {
+        "url": "https://github.com/zce/electron-boilerplate/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -176,5 +175,6 @@
       "url": "https://api.github.com/repos/zce/electron-boilerplate/git/commits/bf35ef9cc134c1417161b9f116527546327764a0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zce___electron-boilerplate.json"
 }

@@ -83,19 +83,12 @@
       "start-hot": "cross-env HOT=1 NODE_ENV=development electron -r babel-register -r babel-polyfill ./main.development",
       "hot-server": "cross-env NODE_ENV=development node -r babel-register server.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/Natasha08/mycolofitnes-spa.git"
-    },
+    "repository": "https://github.com/Natasha08/mycolofitnes-spa",
     "keywords": [
       "health",
       "app"
     ],
-    "author": "natasha",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/Natasha08/mycolofitnes-spa/issues"
-    },
     "homepage": "https://github.com/Natasha08/mycolofitnes-spa#readme",
     "devDependencies": {
       "ampersand-app": "^2.0.0",
@@ -160,6 +153,12 @@
       "webpack-node-externals": "^1.4.3",
       "webpack-validator": "^2.2.8",
       "xhr": "^2.2.2"
+    },
+    "other": {
+      "author": "natasha",
+      "bugs": {
+        "url": "https://github.com/Natasha08/mycolofitnes-spa/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -187,5 +186,6 @@
       "url": "https://api.github.com/repos/Natasha08/mycolofitness-electron/git/commits/b9dfecca398ae00a27a3a87f508e6065afcb6515",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Natasha08___mycolofitness-electron.json"
 }

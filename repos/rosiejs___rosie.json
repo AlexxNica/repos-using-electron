@@ -94,7 +94,6 @@
       "rosie",
       "test"
     ],
-    "author": "Brandon Keepers <brandon@opensoul.org>",
     "contributors": [
       "Brian Donovan <me@brian-donovan.com>"
     ],
@@ -110,10 +109,7 @@
     "engines": {
       "node": "*"
     },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/bkeepers/rosie.git"
-    },
+    "repository": "https://github.com/bkeepers/rosie",
     "main": "src/rosie.js",
     "scripts": {
       "pretest": "eslint src spec",
@@ -123,7 +119,10 @@
     "files": [
       "src/rosie.js"
     ],
-    "license": "MIT"
+    "license": "MIT",
+    "other": {
+      "author": "Brandon Keepers <brandon@opensoul.org>"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -165,5 +164,6 @@
       "url": "https://api.github.com/repos/rosiejs/rosie/git/commits/1034848ba7acc350bf41ba68edf737f26568ed39",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rosiejs___rosie.json"
 }

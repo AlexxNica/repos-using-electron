@@ -75,12 +75,14 @@
       "start": ".\\node_modules\\.bin\\electron ./src",
       "package": ".\\node_modules\\.bin\\electron-packager ./src SerialPortMonitor --platform=win32 --arch=x64 --version=0.30.5"
     },
-    "author": "hikari",
     "license": "MIT",
     "devDependencies": {
       "electron-compilers": "^1.0.0",
       "electron-packager": "^5.1.0",
       "electron-prebuilt": "^0.30.5"
+    },
+    "other": {
+      "author": "hikari"
     }
   },
   "packageStatus": 200,
@@ -108,5 +110,6 @@
       "url": "https://api.github.com/repos/s-nlf-fh/SerialPortMonitor/git/commits/c57ed3cf828267e93d94bf7a281a4eaf54b5f5ef",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "s-nlf-fh___SerialPortMonitor.json"
 }

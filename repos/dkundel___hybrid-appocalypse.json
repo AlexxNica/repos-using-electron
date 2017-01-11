@@ -81,21 +81,20 @@
       "start": "electron .",
       "serve": "serve slides"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/dkundel/hybrid-appocalypse.git"
-    },
-    "author": "Dominik Kundel <dominik.kundel@gmail.com>",
+    "repository": "https://github.com/dkundel/hybrid-appocalypse",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/dkundel/hybrid-appocalypse/issues"
-    },
     "homepage": "https://github.com/dkundel/hybrid-appocalypse#readme",
     "dependencies": {
       "electron": "^1.4.4",
       "express": "^4.14.0",
       "mkdirp": "^0.5.1",
       "serve": "^1.4.0"
+    },
+    "other": {
+      "author": "Dominik Kundel <dominik.kundel@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/dkundel/hybrid-appocalypse/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -123,5 +122,6 @@
       "url": "https://api.github.com/repos/dkundel/hybrid-appocalypse/git/commits/bbd18febe6795422be20c5ee7639e7a2d4870d76",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dkundel___hybrid-appocalypse.json"
 }

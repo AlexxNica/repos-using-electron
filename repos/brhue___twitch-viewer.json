@@ -77,21 +77,14 @@
       "package": "./node_modules/.bin/electron-packager . --platform=darwin --arch=x64",
       "start": "./node_modules/.bin/electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/brhue/mbtwitch.git"
-    },
+    "repository": "https://github.com/brhue/mbtwitch",
     "keywords": [
       "electron",
       "mb",
       "menubar",
       "twitch"
     ],
-    "author": "Bradley Donahue <donahue.bradley@gmail.com> (http://bradleydonahue.me/)",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/brhue/mbtwitch/issues"
-    },
     "homepage": "https://github.com/brhue/mbtwitch#readme",
     "dependencies": {
       "aphrodite": "^0.5.0",
@@ -125,6 +118,12 @@
       "style-loader": "^0.13.1",
       "webpack": "^1.13.1",
       "webpack-dev-server": "^1.14.1"
+    },
+    "other": {
+      "author": "Bradley Donahue <donahue.bradley@gmail.com> (http://bradleydonahue.me/)",
+      "bugs": {
+        "url": "https://github.com/brhue/mbtwitch/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -152,5 +151,6 @@
       "url": "https://api.github.com/repos/brhue/twitch-viewer/git/commits/7f87bdb895740cd1d1c73df6778e6d9430f430a0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "brhue___twitch-viewer.json"
 }

@@ -80,7 +80,6 @@
       "pack": "cross-env NODE_ENV=production webpack -p --progress --colors",
       "postinstall": "cd app && npm install"
     },
-    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -113,6 +112,9 @@
     },
     "dependencies": {
       "postcss-cssnext": "^2.8.0"
+    },
+    "other": {
+      "author": "Greg Holguin <simulatedgreg@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -140,5 +142,6 @@
       "url": "https://api.github.com/repos/brotholopithicus/electronaudioplayer/git/commits/056440242f461fe9662752fc1097cfdc0fb8f251",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "brotholopithicus___electronaudioplayer.json"
 }

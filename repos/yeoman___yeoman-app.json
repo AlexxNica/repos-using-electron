@@ -66,9 +66,7 @@
     "appBundleId": "io.yeoman.app",
     "helperBundleId": "io.yeoman.app.helper",
     "description": "An app made with Electron that scaffolds projects using Yeoman",
-    "author": "The Yeoman Team",
     "main": "src/browser/main.js",
-    "bugs": "https://github.com/yeoman/yeoman-app/issues",
     "dependencies": {
       "async": "^1.2.1",
       "bootstrap": "^3.3.0",
@@ -135,9 +133,10 @@
       "pack-linux": "npm run build-cache && electron-packager . --asar --overwrite --platform=linux --arch=x64 --icon=resources/png.png --prune=true --out=out"
     },
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/yeoman/yeoman-app"
+    "repository": "https://github.com/yeoman/yeoman-app",
+    "other": {
+      "author": "The Yeoman Team",
+      "bugs": "https://github.com/yeoman/yeoman-app/issues"
     }
   },
   "packageStatus": 200,
@@ -180,5 +179,6 @@
       "url": "https://api.github.com/repos/yeoman/yeoman-app/git/commits/1f6994bd8c9d5c8d0d6de5bc0814a639e1eadac6",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "yeoman___yeoman-app.json"
 }

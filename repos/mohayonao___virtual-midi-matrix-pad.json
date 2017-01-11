@@ -69,10 +69,6 @@
     "name": "@mohayonao/virtual-midi-matrix-pad",
     "description": "Electron-based Virtual MIDI Controller",
     "version": "1.2.0",
-    "author": "Nao Yonamine <mohayonao@gmail.com>",
-    "bugs": {
-      "url": "https://github.com/mohayonao/virtual-midi-matrix-pad/issues"
-    },
     "dependencies": {
       "babel-plugin-transform-decorators-legacy": "^1.3.4",
       "babel-preset-es2015": "^6.16.0",
@@ -120,10 +116,7 @@
     "license": "MIT",
     "main": "index.js",
     "private": true,
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/mohayonao/virtual-midi-matrix-pad.git"
-    },
+    "repository": "https://github.com/mohayonao/virtual-midi-matrix-pad",
     "scripts": {
       "build": "browserify src/client/main.js --outfile public/bundle.js --verbose --transform [ babelify ]",
       "clean": "rm -rf npm-debug.log",
@@ -135,6 +128,12 @@
       "start": "electron .",
       "test": "mocha",
       "watch": "watchify src/client/main.js --outfile public/bundle.js --verbose --transform [ babelify ]"
+    },
+    "other": {
+      "author": "Nao Yonamine <mohayonao@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/mohayonao/virtual-midi-matrix-pad/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -162,5 +161,6 @@
       "url": "https://api.github.com/repos/mohayonao/virtual-midi-matrix-pad/git/commits/1ed5fb7d2408813ecdd2a0c5418c9a2fb421fd2a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mohayonao___virtual-midi-matrix-pad.json"
 }

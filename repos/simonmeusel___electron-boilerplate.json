@@ -81,24 +81,23 @@
       "package": "node node_modules/electron-packager/cli.js . --out=dist --asar --overwrite --all",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/simonmeusel/electron-boilerplate.git"
-    },
+    "repository": "https://github.com/simonmeusel/electron-boilerplate",
     "keywords": [
       "electron",
       "boilerplate",
       "scripts"
     ],
-    "author": "Simon Meusel",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/simonmeusel/electron-boilerplate/issues"
-    },
     "homepage": "https://github.com/simonmeusel/electron-boilerplate#readme",
     "devDependencies": {
       "electron": "^1.4.7",
       "electron-packager": "^8.3.0"
+    },
+    "other": {
+      "author": "Simon Meusel",
+      "bugs": {
+        "url": "https://github.com/simonmeusel/electron-boilerplate/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/simonmeusel/electron-boilerplate/git/commits/497e4495737265b4ba2514986d81b328143c1f81",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "simonmeusel___electron-boilerplate.json"
 }

@@ -92,15 +92,7 @@
     "version": "0.4.0",
     "description": "Scatter plot sonification for exploring datasets with sound",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/experimentalDataAesthetics/play-splom.git"
-    },
-    "author": {
-      "name": "Chris Sattinger",
-      "email": "crucialfelix@gmail.com",
-      "url": "http://ixdm.ch/critical-media-lab"
-    },
+    "repository": "https://github.com/experimentalDataAesthetics/play-splom",
     "main": "main.js",
     "scripts": {
       "test": "cross-env NODE_ENV=test BABEL_DISABLE_CACHE=1 mocha --compilers js:babel-register --recursive --require ./test/setup.js test/**/*.spec.js",
@@ -216,6 +208,13 @@
     "devEngines": {
       "node": "4.x || 5.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Chris Sattinger",
+        "email": "crucialfelix@gmail.com",
+        "url": "http://ixdm.ch/critical-media-lab"
+      }
     }
   },
   "packageStatus": 200,
@@ -243,5 +242,6 @@
       "url": "https://api.github.com/repos/experimentalDataAesthetics/play-splom/git/commits/2059f9126a70ce0c5b22e3b3f180aadda2159827",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "experimentalDataAesthetics___play-splom.json"
 }

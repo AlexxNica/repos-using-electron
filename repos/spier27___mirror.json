@@ -74,17 +74,13 @@
       "start": "electron main.js ",
       "install": "bower install"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/spier27/mirror.git"
-    },
+    "repository": "https://github.com/spier27/mirror",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "Michael Spier",
     "license": "UNLICENSED",
     "homepage": "https://github.com/spier27/mirror",
     "devDependencies": {
@@ -95,6 +91,9 @@
     },
     "dependencies": {
       "express": "^4.13.4"
+    },
+    "other": {
+      "author": "Michael Spier"
     }
   },
   "packageStatus": 200,
@@ -122,5 +121,6 @@
       "url": "https://api.github.com/repos/spier27/mirror/git/commits/a0928b66224cd97f2fe03821d267b9f48393cc7a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "spier27___mirror.json"
 }

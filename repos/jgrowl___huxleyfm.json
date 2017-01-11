@@ -171,11 +171,6 @@
     "description": "An unofficial desktop app for listening to SomaFM radio stations.",
     "license": "MIT",
     "repository": "cheshire137/huxleyfm",
-    "author": {
-      "name": "Sarah Vessels",
-      "email": "cheshire137@gmail.com",
-      "url": "3till7.net"
-    },
     "scripts": {
       "test": "xo",
       "postinstall": "if [ ! -f config.json ]; then cp config.json.example config.json; fi",

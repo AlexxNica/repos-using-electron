@@ -81,15 +81,20 @@
       "start": "electron ui/main.js",
       "postinstall": "node_modules/bower/bin/bower install"
     },
-    "maintainers": [
+    "repository": "https://github.com/mufty/raspikids",
+    "owners": [
       {
         "email": "gubriansky@sernato.sk",
         "name": "mufty"
       }
     ],
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mufty/raspikids.git"
+    "other": {
+      "maintainers": [
+        {
+          "email": "gubriansky@sernato.sk",
+          "name": "mufty"
+        }
+      ]
     }
   },
   "packageStatus": 200,
@@ -118,5 +123,6 @@
       "url": "https://api.github.com/repos/mufty/raspikids/git/commits/5a80d434f5b2c144ada157fd277649e64075d75e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mufty___raspikids.json"
 }

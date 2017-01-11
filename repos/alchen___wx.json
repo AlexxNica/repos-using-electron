@@ -74,15 +74,8 @@
       "start": "./node_modules/.bin/electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/alchen/wx.git"
-    },
-    "author": "Alexander Chen",
+    "repository": "https://github.com/alchen/wx",
     "license": "AGPL-3.0",
-    "bugs": {
-      "url": "https://github.com/alchen/wx/issues"
-    },
     "homepage": "https://github.com/alchen/wx#readme",
     "devDependencies": {
       "asar": "^0.9.0",
@@ -99,6 +92,12 @@
       "vue": "^1.0.14",
       "winston": "^2.1.1",
       "xml2js": "^0.4.16"
+    },
+    "other": {
+      "author": "Alexander Chen",
+      "bugs": {
+        "url": "https://github.com/alchen/wx/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/alchen/wx/git/commits/1762e5a45020585a42ff62111abc520f8dc2c251",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "alchen___wx.json"
 }

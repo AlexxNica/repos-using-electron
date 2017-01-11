@@ -50,10 +50,6 @@
     "version": "0.0.0",
     "description": "Small description for safe-intro goes here",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -63,7 +59,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -142,6 +137,13 @@
         "ProductName": null,
         "InternalName": null
       }
+    },
+    "other": {
+      "author": "",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -169,5 +171,6 @@
       "url": "https://api.github.com/repos/dirvine/safe-intro/git/commits/e0df9156e2ce1c7d601ee8252a61c8842d62d236",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dirvine___safe-intro.json"
 }

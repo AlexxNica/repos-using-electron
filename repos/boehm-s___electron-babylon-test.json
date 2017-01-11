@@ -73,10 +73,7 @@
     "scripts": {
       "start": "electron index.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "Babylonjs",
@@ -84,12 +81,14 @@
       "3D",
       "WebGL"
     ],
-    "author": "boehm_s",
     "license": "MIT",
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "dependencies": {
       "babylonjs": "^2.3.0",
       "electron-prebuilt": "^1.1.2"
+    },
+    "other": {
+      "author": "boehm_s"
     }
   },
   "packageStatus": 200,
@@ -115,5 +114,6 @@
       "url": "https://api.github.com/repos/boehm-s/electron-babylon-test/git/commits/871a3cf92064c330d0714c988c746db707ebfb08",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "boehm-s___electron-babylon-test.json"
 }

@@ -69,7 +69,6 @@
     "name": "MQTTServer",
     "description": "A simple MQTT server.",
     "version": "1.0.0",
-    "author": "Endrit Bajo <endrit.bajo@gmail.com>",
     "dependencies": {
       "mosca": "^0.32.1"
     },
@@ -92,7 +91,10 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "other": {
+      "author": "Endrit Bajo <endrit.bajo@gmail.com>"
+    }
   },
   "packageStatus": 200,
   "contributors": [],
@@ -117,5 +119,6 @@
       "url": "https://api.github.com/repos/endritbajo/MQTTServer/git/commits/8c4fde26614d8121433aa8ede1867f7d25cc037e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "endritbajo___MQTTServer.json"
 }

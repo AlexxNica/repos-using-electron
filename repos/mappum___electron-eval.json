@@ -65,7 +65,6 @@
       "hidden",
       "spawn"
     ],
-    "author": "Matt Bell <mappum@gmail.com>",
     "license": "MIT",
     "dependencies": {
       "cross-spawn": "^4.0.0",
@@ -81,14 +80,14 @@
     "optionalDependencies": {
       "headless": "https://github.com/paulkernfeld/node-headless/tarball/master"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mappum/electron-eval.git"
-    },
-    "bugs": {
-      "url": "https://github.com/mappum/electron-eval/issues"
-    },
-    "homepage": "https://github.com/mappum/electron-eval#readme"
+    "repository": "https://github.com/mappum/electron-eval",
+    "homepage": "https://github.com/mappum/electron-eval#readme",
+    "other": {
+      "author": "Matt Bell <mappum@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/mappum/electron-eval/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -119,5 +118,6 @@
       "url": "https://api.github.com/repos/mappum/electron-eval/git/commits/18ffc03e103023122b4946335d6f798990b2b162",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mappum___electron-eval.json"
 }

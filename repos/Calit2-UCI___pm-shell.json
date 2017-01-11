@@ -98,16 +98,9 @@
       "webpack:watch": "webpack --watch --progress",
       "build": "npm i && npm prune && npm run webpack && node scripts/build.js && node scripts/archive.js && node scripts/winstaller.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Calit2-UCI/pm-shell.git"
-    },
+    "repository": "https://github.com/Calit2-UCI/pm-shell",
     "keywords": [],
-    "author": "Calit2 UCI",
     "license": "BSD",
-    "bugs": {
-      "url": "https://github.com/Calit2-UCI/pm-shell/issues"
-    },
     "homepage": "https://github.com/Calit2-UCI/pm-shell#readme",
     "devDependencies": {
       "axios": "^0.13.1",
@@ -176,6 +169,12 @@
       "plugins": [
         "transform-object-rest-spread"
       ]
+    },
+    "other": {
+      "author": "Calit2 UCI",
+      "bugs": {
+        "url": "https://github.com/Calit2-UCI/pm-shell/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -204,5 +203,6 @@
       "url": "https://api.github.com/repos/Calit2-UCI/pm-shell/git/commits/bff776a71226d22f77f0ca7c235d674394a8333a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Calit2-UCI___pm-shell.json"
 }

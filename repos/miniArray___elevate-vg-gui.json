@@ -111,22 +111,21 @@
       "report-coverage": "codecov",
       "semantic-release": "semantic-release pre && npm publish && semantic-release post"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/miniArray/ascent.git"
-    },
+    "repository": "https://github.com/miniArray/ascent",
     "keywords": [],
-    "author": "GitHub",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/miniArray/ascent/issues"
-    },
     "config": {
       "commitizen": {
         "path": "node_modules/cz-conventional-changelog"
       },
       "ghooks": {
         "pre-commit": "exit 0 # npm prune && npm run test && npm run check-coverage"
+      }
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/miniArray/ascent/issues"
       }
     }
   },
@@ -155,5 +154,6 @@
       "url": "https://api.github.com/repos/miniArray/elevate-vg-gui/git/commits/1785b45ebe54d526f4732098171c6af670372299",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "miniArray___elevate-vg-gui.json"
 }

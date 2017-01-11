@@ -99,15 +99,8 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/vincent/trippy.git"
-    },
-    "author": "Vincent Lark",
+    "repository": "https://github.com/vincent/trippy",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/vincent/trippy/issues"
-    },
     "keywords": [
       "electron",
       "games",
@@ -203,9 +196,15 @@
         ]
       }
     },
-    "directories": {
-      "app": "./dist/",
-      "output": "./release/"
+    "other": {
+      "author": "Vincent Lark",
+      "bugs": {
+        "url": "https://github.com/vincent/trippy/issues"
+      },
+      "directories": {
+        "app": "./dist/",
+        "output": "./release/"
+      }
     }
   },
   "packageStatus": 200,
@@ -233,5 +232,6 @@
       "url": "https://api.github.com/repos/vincent/trippy/git/commits/bb36e112210bf56e6eb262185e049446a0886327",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "vincent___trippy.json"
 }

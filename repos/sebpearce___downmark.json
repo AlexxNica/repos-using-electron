@@ -61,19 +61,12 @@
       "build": "./node_modules/.bin/webpack",
       "watch": "./node_modules/.bin/webpack-dev-server --hot --inline"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "markdown",
       "electron"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "babel-core": "^6.7.5",
@@ -92,6 +85,12 @@
     },
     "dependencies": {
       "remarkable": "^1.6.2"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -119,5 +118,6 @@
       "url": "https://api.github.com/repos/sebpearce/downmark/git/commits/9d78f0c17374d28d14b6955ab09865b3d74f378d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sebpearce___downmark.json"
 }

@@ -80,10 +80,7 @@
       "start": "gulp run",
       "package": "gulp build-electron --env production"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/guggero/regex-toolbox.git"
-    },
+    "repository": "https://github.com/guggero/regex-toolbox",
     "keywords": [
       "regular",
       "expression",
@@ -95,15 +92,7 @@
       "directory",
       "recursive"
     ],
-    "author": {
-      "name": "Oliver Gugger",
-      "email": "gugger@gmail.com",
-      "url": "https://github.com/guggero"
-    },
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/guggero/regex-toolbox/issues"
-    },
     "homepage": "https://github.com/guggero/regex-toolbox",
     "devDependencies": {
       "babel-preset-es2015": "^6.14.0",
@@ -125,6 +114,16 @@
     },
     "dependencies": {
       "jquery": "^3.1.1"
+    },
+    "other": {
+      "author": {
+        "name": "Oliver Gugger",
+        "email": "gugger@gmail.com",
+        "url": "https://github.com/guggero"
+      },
+      "bugs": {
+        "url": "https://github.com/guggero/regex-toolbox/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -152,5 +151,6 @@
       "url": "https://api.github.com/repos/guggero/regex-toolbox/git/commits/3ab59c4f7a8ff53e7f6d43757baf1f218b2e5d06",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "guggero___regex-toolbox.json"
 }

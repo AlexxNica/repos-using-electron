@@ -63,12 +63,14 @@
       "build": "npm run build:osx && npm run build:linux",
       "release": "electron-builder \"dist/electron-app-darwin-x64/electron-app.app\" --platform=osx --out=./dist --config=builder.json"
     },
-    "author": "Hidari0415",
     "license": "MIT",
     "devDependencies": {
       "electron-builder": "^2.11.0",
       "electron-packager": "^5.2.1",
       "electron-prebuilt": "^0.37.2"
+    },
+    "other": {
+      "author": "Hidari0415"
     }
   },
   "packageStatus": 200,
@@ -96,5 +98,6 @@
       "url": "https://api.github.com/repos/hidari/electron-first-sample/git/commits/6193fe18c4d5e23157d3d17ca645c7f55d22d400",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hidari___electron-first-sample.json"
 }

@@ -76,7 +76,6 @@
     "version": "0.0.0",
     "description": "xmpp app",
     "main": "lib/main.js",
-    "author": "Thomas Heck <t@b128.net>",
     "license": "GPL3",
     "dependencies": {
       "babel-core": "^6.4.5",
@@ -92,6 +91,9 @@
     "scripts": {
       "install": "neon build",
       "start": "electron ."
+    },
+    "other": {
+      "author": "Thomas Heck <t@b128.net>"
     }
   },
   "packageStatus": 200,
@@ -119,5 +121,6 @@
       "url": "https://api.github.com/repos/chpio/xmpp-app/git/commits/059462ef12097b1708f1b269d9cbdfa41ee43cb1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "chpio___xmpp-app.json"
 }

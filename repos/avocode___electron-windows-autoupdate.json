@@ -98,24 +98,23 @@
         "certificatePassword": ""
       }
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/vojtatranta/electron-windows-autoupdate.git"
-    },
+    "repository": "https://github.com/vojtatranta/electron-windows-autoupdate",
     "keywords": [
       "Electron",
       "Windows",
       "autoupdate"
     ],
-    "author": "Vojtech Tranta <vojta.tranta@gmail.com>",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/vojtatranta/electron-windows-autoupdate/issues"
-    },
     "homepage": "https://github.com/vojtatranta/electron-windows-autoupdate#readme",
     "devDependencies": {
       "electron": "^1.4.3",
       "electron-builder": "^7.14.1"
+    },
+    "other": {
+      "author": "Vojtech Tranta <vojta.tranta@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/vojtatranta/electron-windows-autoupdate/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -143,5 +142,6 @@
       "url": "https://api.github.com/repos/avocode/electron-windows-autoupdate/git/commits/55f29006d97195664b51125d5251ff40e066aa9c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "avocode___electron-windows-autoupdate.json"
 }

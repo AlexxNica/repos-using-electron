@@ -69,16 +69,15 @@
       "start": "electron .",
       "build": "electron-packager . Mapper --platform=darwin --arch=x64 --version=1.3.2 --overwrite --icon=citymapper"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/conorcussell/citymapper-menubar.git"
-    },
-    "author": "Conor Cussell <contact@conorcussell.com>",
+    "repository": "https://github.com/conorcussell/citymapper-menubar",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/conorcussell/citymapper-menubar"
-    },
-    "homepage": "https://github.com/muan/citymapper-menubar#readme"
+    "homepage": "https://github.com/muan/citymapper-menubar#readme",
+    "other": {
+      "author": "Conor Cussell <contact@conorcussell.com>",
+      "bugs": {
+        "url": "https://github.com/conorcussell/citymapper-menubar"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -105,5 +104,6 @@
       "url": "https://api.github.com/repos/conorcussell/citymapper-menubar/git/commits/63734507c4d5dd96600e30d5c82a51e23343d8c9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "conorcussell___citymapper-menubar.json"
 }

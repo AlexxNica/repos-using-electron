@@ -72,23 +72,22 @@
       "testo": "echo $npm_package_version",
       "deploy": "npm run version && git push --tags origin master"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/unsworn/tjollen"
-    },
+    "repository": "https://github.com/unsworn/tjollen",
     "keywords": [
       "kiosk",
       "web"
     ],
-    "author": "Unsworn",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/unsworn/tjollen/issues"
-    },
     "homepage": "https://github.com/unsworn/tjollen",
     "devDependencies": {
       "electron-packager": "^5.2.0",
       "electron-prebuilt": "^0.36.2"
+    },
+    "other": {
+      "author": "Unsworn",
+      "bugs": {
+        "url": "https://github.com/unsworn/tjollen/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -116,5 +115,6 @@
       "url": "https://api.github.com/repos/unsworn/tjollen/git/commits/63d1b2230345f3574dfd8ab34680e19a2836169b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "unsworn___tjollen.json"
 }

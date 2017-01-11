@@ -90,10 +90,7 @@
     "version": "1.0.3",
     "description": "A database driven application platform using PostgreSQL",
     "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/workflowproducts/postcard.git"
-    },
+    "repository": "https://github.com/workflowproducts/postcard",
     "scripts": {
       "start": "electron ."
     },
@@ -103,11 +100,7 @@
       "postgres",
       "application"
     ],
-    "author": "Nunzio Tocci <nunzio@workflowproducts.com> (http://www.workflowproducts.com/)",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/workflowproducts/postcard/issues"
-    },
     "homepage": "https://github.com/workflowproducts/postcard#readme",
     "dependencies": {
       "electron-context-menu": "^0.6.0",
@@ -123,6 +116,12 @@
       "postgresql-portable-linux32": "9.6.0-build2",
       "postgresql-portable-linux64": "9.6.0-build2",
       "postgresql-portable-windows": "9.6.0-build2"
+    },
+    "other": {
+      "author": "Nunzio Tocci <nunzio@workflowproducts.com> (http://www.workflowproducts.com/)",
+      "bugs": {
+        "url": "https://github.com/workflowproducts/postcard/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -151,5 +150,6 @@
       "url": "https://api.github.com/repos/workflowproducts/postcard/git/commits/7a6063af5540b2adcf0dabed01d498cc170528fd",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "workflowproducts___postcard.json"
 }

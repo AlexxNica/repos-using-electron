@@ -73,15 +73,8 @@
     "scripts": {
       "start": "./node_modules/.bin/electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/prc322/electron-playground.git"
-    },
-    "author": "Christian Kernstock <c.kernstock@me.com>",
+    "repository": "https://github.com/prc322/electron-playground",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/prc322/electron-playground/issues"
-    },
     "homepage": "https://github.com/prc322/electron-playground#readme",
     "dependencies": {
       "electron-ipcrouter": "git+https://github.com/prc322/electron-ipcrouter.git",
@@ -94,6 +87,12 @@
       "gulp": "^3.9.1",
       "gulp-load-plugins": "^1.3.0",
       "gulp-pug": "^3.1.0"
+    },
+    "other": {
+      "author": "Christian Kernstock <c.kernstock@me.com>",
+      "bugs": {
+        "url": "https://github.com/prc322/electron-playground/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -121,5 +120,6 @@
       "url": "https://api.github.com/repos/prc322/electron-playground/git/commits/f7239b76930f8fe0e36435839108c6d9621a4961",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "prc322___electron-playground.json"
 }

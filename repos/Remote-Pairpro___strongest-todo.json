@@ -84,11 +84,6 @@
     "version": "1.0.6",
     "description": "俺達が考える最強のTODOリスト！",
     "main": "index.js",
-    "directories": {
-      "app": "app",
-      "src": "src",
-      "doc": "doc"
-    },
     "scripts": {
       "postinstall": "gulp download-typings",
       "download-typings": "gulp download-typings",
@@ -103,20 +98,13 @@
       "develop": "gulp develop",
       "upload-ghpages-for-wercker": "gulp upload-ghpages-for-wercker"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Remote-Pairpro/strongest-todo.git"
-    },
+    "repository": "https://github.com/Remote-Pairpro/strongest-todo",
     "keywords": [
       "typescript",
       "electron",
       "todo"
     ],
-    "author": "kazuhito-m,HIDARI0415",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/Remote-Pairpro/strongest-todo/issues"
-    },
     "homepage": "https://github.com/Remote-Pairpro/strongest-todo#readme",
     "devDependencies": {
       "browserify": "^13.0.0",
@@ -148,6 +136,17 @@
       "tsify": "^0.14.1",
       "typings": "^0.7.9",
       "vinyl-source-stream": "^1.1.0"
+    },
+    "other": {
+      "author": "kazuhito-m,HIDARI0415",
+      "bugs": {
+        "url": "https://github.com/Remote-Pairpro/strongest-todo/issues"
+      },
+      "directories": {
+        "app": "app",
+        "src": "src",
+        "doc": "doc"
+      }
     }
   },
   "packageStatus": 200,
@@ -176,5 +175,6 @@
       "url": "https://api.github.com/repos/Remote-Pairpro/strongest-todo/git/commits/63eba1395816cd7ce05f4fea1d3f3071905b8eab",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Remote-Pairpro___strongest-todo.json"
 }

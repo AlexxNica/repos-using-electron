@@ -69,7 +69,6 @@
     "name": "angular2-webpack-starter",
     "version": "5.0.5",
     "description": "An Angular 2 Webpack Starter kit featuring Angular 2 (Router, Http, Forms, Services, Tests, E2E, Coverage), Karma, Protractor, Jasmine, Istanbul, TypeScript, and Webpack by AngularClass",
-    "author": "Patrick Stapleton <patrick@angularclass.com>",
     "homepage": "https://github.com/angularclass/angular2-webpack-starter",
     "license": "MIT",
     "main": "dist/main.js",
@@ -184,16 +183,16 @@
       "webpack-target-electron-renderer": "^0.4.0",
       "yargs": "^4.7.1"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/angularclass/angular2-webpack-starter.git"
-    },
-    "bugs": {
-      "url": "https://github.com/angularclass/angular2-webpack-starter/issues"
-    },
+    "repository": "https://github.com/angularclass/angular2-webpack-starter",
     "engines": {
       "node": ">= 4.2.1",
       "npm": ">= 3"
+    },
+    "other": {
+      "author": "Patrick Stapleton <patrick@angularclass.com>",
+      "bugs": {
+        "url": "https://github.com/angularclass/angular2-webpack-starter/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -221,5 +220,6 @@
       "url": "https://api.github.com/repos/maysale01/angular2-electron-webpack-starter/git/commits/5ec8a9fd7db961205335e1aa472fdc1ec046e31a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "maysale01___angular2-electron-webpack-starter.json"
 }

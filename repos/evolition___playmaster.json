@@ -90,9 +90,6 @@
     "version": "0.0.0",
     "description": "evolition.io presents playmaster, your table top roleplaying character manager",
     "main": "app/",
-    "directories": {
-      "doc": "docs"
-    },
     "engineStrict": true,
     "engines": {
       "node": ">= 6.0.0"
@@ -114,13 +111,7 @@
       "start": "babel-node scripts/ development",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/evolition/playmaster.git"
-    },
-    "bugs": {
-      "url": "https://github.com/evolition/playmaster/issues"
-    },
+    "repository": "https://github.com/evolition/playmaster",
     "keywords": [
       "rpg",
       "dnd",
@@ -136,7 +127,6 @@
         "name": "Joshua Owens"
       }
     ],
-    "author": "Evolition",
     "license": "Apache-2.0",
     "copyright": "Copyright (c) 2016, Evolition, LLC. All rights reserved.",
     "homepage": "https://github.com/evolition/playmaster#readme",
@@ -154,6 +144,15 @@
       "electron-packager": "^8.1.0",
       "eslint": "^3.2.2",
       "spectron": "^3.3.0"
+    },
+    "other": {
+      "author": "Evolition",
+      "bugs": {
+        "url": "https://github.com/evolition/playmaster/issues"
+      },
+      "directories": {
+        "doc": "docs"
+      }
     }
   },
   "packageStatus": 200,
@@ -182,5 +181,6 @@
       "url": "https://api.github.com/repos/evolition/playmaster/git/commits/30ea78df5125a09946ce3aeda16ce5d4317b47f8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "evolition___playmaster.json"
 }

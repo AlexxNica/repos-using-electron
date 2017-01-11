@@ -55,19 +55,12 @@
       "build": "gulp",
       "runbuild": "gulp && electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ShamatienkoYaroslav/time-flux.git"
-    },
+    "repository": "https://github.com/ShamatienkoYaroslav/time-flux",
     "keywords": [
       "Time",
       "Tracking"
     ],
-    "author": "Shamatienko Yaroslav",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/ShamatienkoYaroslav/time-flux/issues"
-    },
     "homepage": "https://github.com/ShamatienkoYaroslav/time-flux#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.33.7",
@@ -75,6 +68,12 @@
       "gulp-jade": "^1.1.0",
       "gulp-minify-css": "^1.2.1",
       "gulp-uglify": "^1.4.1"
+    },
+    "other": {
+      "author": "Shamatienko Yaroslav",
+      "bugs": {
+        "url": "https://github.com/ShamatienkoYaroslav/time-flux/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -102,5 +101,6 @@
       "url": "https://api.github.com/repos/ShamatienkoYaroslav/time-flux/git/commits/487f63edba9a9c9e42845421bd36201796460277",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ShamatienkoYaroslav___time-flux.json"
 }

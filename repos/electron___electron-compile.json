@@ -74,18 +74,11 @@
       "electron-compile": "lib/cli.js",
       "electron-packager-compile": "lib/packager-cli.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/paulcbetts/electron-compile"
-    },
+    "repository": "https://github.com/paulcbetts/electron-compile",
     "keywords": [
       "electron"
     ],
-    "author": "Paul Betts <paul@paulbetts.org>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/paulcbetts/electron-compile/issues"
-    },
     "homepage": "https://github.com/paulcbetts/electron-compile",
     "main": "lib/index.js",
     "engines": {
@@ -122,6 +115,12 @@
       "esdoc-plugin-async-to-sync": "^0.5.0",
       "eslint": "^3.3.0",
       "mocha": "^3.0.2"
+    },
+    "other": {
+      "author": "Paul Betts <paul@paulbetts.org>",
+      "bugs": {
+        "url": "https://github.com/paulcbetts/electron-compile/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -163,5 +162,6 @@
       "url": "https://api.github.com/repos/electron/electron-compile/git/commits/c48f3b9a361431c741b90ce815b2dcb6e1f9f3dd",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "electron___electron-compile.json"
 }

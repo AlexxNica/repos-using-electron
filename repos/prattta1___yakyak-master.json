@@ -87,20 +87,13 @@
       "deploy:win32-ia32": "bash ./deploy.sh --win32-ia32",
       "deploy:darwin-x64": "bash ./deploy.sh --darwin-x64"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/yakyak/yakyak"
-    },
+    "repository": "https://github.com/yakyak/yakyak",
     "keywords": [
       "hangouts",
       "chat",
       "client"
     ],
-    "author": "Martin Algesten",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/yakyak/yakyak/issues"
-    },
     "homepage": "https://github.com/yakyak/yakyak",
     "dependencies": {
       "autosize": "^3.0.8",
@@ -132,6 +125,12 @@
       "rimraf": "^2.4.2",
       "sinon": "^1.15.4",
       "sinon-chai": "^2.8.0"
+    },
+    "other": {
+      "author": "Martin Algesten",
+      "bugs": {
+        "url": "https://github.com/yakyak/yakyak/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -159,5 +158,6 @@
       "url": "https://api.github.com/repos/prattta1/yakyak-master/git/commits/826942a964753dd97eb2f8cb5e75397faf2432db",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "prattta1___yakyak-master.json"
 }

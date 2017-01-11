@@ -80,15 +80,8 @@
       "darwin": "./node_modules/.bin/build --platform darwin --arch all --dist",
       "linux": "./node_modules/.bin/build --platform linux --arch all --dist"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Dischan/dismae-ui.git"
-    },
-    "author": "Dischan",
+    "repository": "https://github.com/Dischan/dismae-ui",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Dischan/dismae-ui/issues"
-    },
     "homepage": "https://github.com/Dischan/dismae-ui#readme",
     "devDependencies": {
       "electron-builder": "^3.22.1",
@@ -98,6 +91,12 @@
       "app-bundle-id": "co.dischan.dismae",
       "app-category-type": "public.app-category.developer-tools",
       "productName": "Dismae"
+    },
+    "other": {
+      "author": "Dischan",
+      "bugs": {
+        "url": "https://github.com/Dischan/dismae-ui/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -125,5 +124,6 @@
       "url": "https://api.github.com/repos/Dischan/dismae-ui/git/commits/27f708dd1cbd118e61fb4e6a2ce700845caa698d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Dischan___dismae-ui.json"
 }

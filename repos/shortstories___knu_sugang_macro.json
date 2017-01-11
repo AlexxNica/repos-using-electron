@@ -68,13 +68,9 @@
   "packageJSON": {
     "name": "knu-macro",
     "description": "knu sugang macro",
-    "author": "ohchang",
     "version": "1.0.0",
     "main": "src/main.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/shortstories/knu_sugang_macro"
-    },
+    "repository": "https://github.com/shortstories/knu_sugang_macro",
     "devDependencies": {
       "electron-builder": ">= 5.15.0",
       "electron-prebuilt": ">= 1.3.2"
@@ -94,6 +90,9 @@
       "jquery": ">= 2.2.4",
       "request": ">= 2.73.0",
       "typescript": ">= 1.7.3"
+    },
+    "other": {
+      "author": "ohchang"
     }
   },
   "packageStatus": 200,
@@ -121,5 +120,6 @@
       "url": "https://api.github.com/repos/shortstories/knu_sugang_macro/git/commits/3e592bc997988719c28de742e4a49e944371e91d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "shortstories___knu_sugang_macro.json"
 }

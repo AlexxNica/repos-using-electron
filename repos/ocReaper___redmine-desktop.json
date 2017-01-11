@@ -77,20 +77,9 @@
     "productName": "redmineDesktop",
     "identifier": "com.ocreaper.redmine-desktop",
     "description": "Native desktop Redmine client written in Angular.js with Electron",
-    "author": {
-      "name": "Ákos Resch",
-      "email": "ocreaper@gmail.com",
-      "url": "https://github.com/ocReaper"
-    },
     "license": "MIT",
     "private": true,
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/ocReaper/redmine-desktop"
-    },
-    "bugs": {
-      "url": "https://github.com/ocReaper/redmine-desktop/issues"
-    },
+    "repository": "https://github.com/ocReaper/redmine-desktop",
     "scripts": {
       "test": "gulp test",
       "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w"
@@ -177,6 +166,16 @@
         "path": "./node_modules/cz-conventional-changelog"
       },
       "target": "development"
+    },
+    "other": {
+      "author": {
+        "name": "Ákos Resch",
+        "email": "ocreaper@gmail.com",
+        "url": "https://github.com/ocReaper"
+      },
+      "bugs": {
+        "url": "https://github.com/ocReaper/redmine-desktop/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -204,5 +203,6 @@
       "url": "https://api.github.com/repos/ocReaper/redmine-desktop/git/commits/e1b34f9a241f88a827ce2a761e3fa00d3221ddce",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ocReaper___redmine-desktop.json"
 }

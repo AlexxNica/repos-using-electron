@@ -93,10 +93,7 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Skemax/App.git"
-    },
+    "repository": "https://github.com/Skemax/App",
     "keywords": [
       "Skemax",
       "App",
@@ -104,16 +101,7 @@
       "Schools",
       "Organisations"
     ],
-    "author": [
-      {
-        "name": "Frederik Kvartborg Albertsen",
-        "url": "https://kvartborg.net"
-      }
-    ],
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Skemax/App/issues"
-    },
     "homepage": "https://skemax.net",
     "devDependencies": {
       "babel-preset-es2015": "^6.3.13",
@@ -141,6 +129,17 @@
       "react-tap-event-plugin": "^0.2.1",
       "velocity-animate": "^1.2.3",
       "web-router": "1.1.0"
+    },
+    "other": {
+      "author": [
+        {
+          "name": "Frederik Kvartborg Albertsen",
+          "url": "https://kvartborg.net"
+        }
+      ],
+      "bugs": {
+        "url": "https://github.com/Skemax/App/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -168,5 +167,6 @@
       "url": "https://api.github.com/repos/Skemax/App/git/commits/b96735ebbcd150134f8ba9a1444bf50702d5e43c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Skemax___App.json"
 }

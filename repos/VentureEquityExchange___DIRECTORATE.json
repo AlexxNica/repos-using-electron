@@ -92,10 +92,7 @@
       "start": "node_modules/.bin/electron .",
       "build": "electron-packager . $npm_package_productName --out=packaged --icon='icon.icns' --overwrite --ignore='^/packaged --prune --platform=darwin --arch=x64 --version=$npm_package_electronVersion"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/VentureEquityExchange/DIRECTORATE.git"
-    },
+    "repository": "https://github.com/VentureEquityExchange/DIRECTORATE",
     "keywords": [
       "VEX",
       "ETHEREUM",
@@ -104,11 +101,7 @@
       "EQUITY",
       "EXCHANGE"
     ],
-    "author": "Ryan M. Tate",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/VentureEquityExchange/DIRECTORATE/issues"
-    },
     "homepage": "https://github.com/VentureEquityExchange/DIRECTORATE#readme",
     "devDependencies": {
       "babel-preset-es2015": "^6.3.13",
@@ -172,6 +165,12 @@
       "to-utf-8": "^1.1.0",
       "utf82hex": "^0.1.1",
       "web3": "^0.15.1"
+    },
+    "other": {
+      "author": "Ryan M. Tate",
+      "bugs": {
+        "url": "https://github.com/VentureEquityExchange/DIRECTORATE/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -200,5 +199,6 @@
       "url": "https://api.github.com/repos/VentureEquityExchange/DIRECTORATE/git/commits/54383147473bb6b467f5fd49818b2b929b639478",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "VentureEquityExchange___DIRECTORATE.json"
 }

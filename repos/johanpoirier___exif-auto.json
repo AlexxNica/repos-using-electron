@@ -70,9 +70,6 @@
     "version": "0.1.1",
     "description": "Auto rename photos with infos from exif tags",
     "private": true,
-    "directories": {
-      "output": "electron-builds"
-    },
     "scripts": {
       "app": "electron app/",
       "windows": "build --win",
@@ -94,6 +91,11 @@
     "devDependencies": {
       "electron-builder": "^7.11.2",
       "electron-prebuilt": "^1.2.6"
+    },
+    "other": {
+      "directories": {
+        "output": "electron-builds"
+      }
     }
   },
   "packageStatus": 200,
@@ -121,5 +123,6 @@
       "url": "https://api.github.com/repos/johanpoirier/exif-auto/git/commits/06284f59ebe9166f4f02b11765e209b04ca15acf",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "johanpoirier___exif-auto.json"
 }

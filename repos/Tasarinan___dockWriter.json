@@ -76,7 +76,6 @@
     "version": "0.0.1",
     "description": "dockwriter is a free,open-source docked note manager which includes a markdown editor based on PageDown. The application is based on electron platform and some ideas were brought out from leanNote",
     "main": "index.js",
-    "author": "NetHead Group",
     "scripts": {
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1",
@@ -85,9 +84,6 @@
       "lint": "gulp jslint",
       "dev": "gulp build &&(electron .tmp & gulp watch)",
       "release": "NODE_ENV=production gulp release"
-    },
-    "directories": {
-      "doc": "doc"
     },
     "keywords": [
       "markdown",
@@ -156,13 +152,16 @@
       "require-all": "^2.0.0",
       "run-sequence": "^1.1.2"
     },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/Tasarinan/dockWriter.git"
-    },
+    "repository": "https://github.com/Tasarinan/dockWriter",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Tasarinan/dockWriter/issues"
+    "other": {
+      "author": "NetHead Group",
+      "bugs": {
+        "url": "https://github.com/Tasarinan/dockWriter/issues"
+      },
+      "directories": {
+        "doc": "doc"
+      }
     }
   },
   "packageStatus": 200,
@@ -190,5 +189,6 @@
       "url": "https://api.github.com/repos/Tasarinan/dockWriter/git/commits/c1af080906722f535e4d3ffbf88a0c16e4aad193",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Tasarinan___dockWriter.json"
 }

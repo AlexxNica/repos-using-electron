@@ -76,7 +76,6 @@
       "develop": "npm-run-all --parallel build-watch test-watch",
       "generate-docs": "jsdoc2md skeleton/preload.js > docs/api/desktop.md && jsdoc2md skeleton/modules/module.js > docs/api/module.md"
     },
-    "author": "Bartosz Wojtkowiak <bartosz@wojtkowiak.it>",
     "license": "MIT",
     "devDependencies": {
       "babel-cli": "^6.18.0",
@@ -139,10 +138,7 @@
       "single-line-log": "1.1.2",
       "uglify-js": "2.7.4"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/wojtkowiak/meteor-desktop"
-    },
+    "repository": "https://github.com/wojtkowiak/meteor-desktop",
     "keywords": [
       "electron",
       "meteor",
@@ -165,10 +161,13 @@
       "instrument": false,
       "all": true
     },
-    "bugs": {
-      "url": "https://github.com/wojtkowiak/meteor-desktop/issues"
-    },
-    "homepage": "https://github.com/wojtkowiak/meteor-desktop"
+    "homepage": "https://github.com/wojtkowiak/meteor-desktop",
+    "other": {
+      "author": "Bartosz Wojtkowiak <bartosz@wojtkowiak.it>",
+      "bugs": {
+        "url": "https://github.com/wojtkowiak/meteor-desktop/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -195,5 +194,6 @@
       "url": "https://api.github.com/repos/wojtkowiak/meteor-desktop/git/commits/b6b10cc7bb8b299e53108f4790ff5e15aa008b2c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "wojtkowiak___meteor-desktop.json"
 }

@@ -80,18 +80,11 @@
       "server": "http-server ./ -p8085",
       "test": "node ./build/test/test.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ChannelOne/MDE.git"
-    },
+    "repository": "https://github.com/ChannelOne/MDE",
     "keywords": [
       "editor"
     ],
-    "author": "DZ Chan",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ChannelOne/MDE/issues"
-    },
     "homepage": "https://github.com/ChannelOne/MDE#readme",
     "dependencies": {
       "gulp": "^3.9.1",
@@ -103,6 +96,12 @@
     },
     "devDependencies": {
       "electron": "^1.4.3"
+    },
+    "other": {
+      "author": "DZ Chan",
+      "bugs": {
+        "url": "https://github.com/ChannelOne/MDE/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/ChannelOne/MDE/git/commits/cbfd70685ed0ccbf97808de6cd3167519e7b0544",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ChannelOne___MDE.json"
 }

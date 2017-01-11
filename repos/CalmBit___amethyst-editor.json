@@ -80,20 +80,13 @@
       "test": "mocha",
       "start": "gulp styles && \"./node_modules/.bin/electron\" ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/CalmBit/amethyst-editor.git"
-    },
+    "repository": "https://github.com/CalmBit/amethyst-editor",
     "keywords": [
       "amethyst",
       "text editor",
       "electron"
     ],
-    "author": "Ethan Brooks <EB5473@gmail.com>",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/CalmBit/amethyst-editor/issues"
-    },
     "homepage": "https://github.com/CalmBit/amethyst-editor#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.6"
@@ -101,6 +94,12 @@
     "dependencies": {
       "gulp": "^3.9.1",
       "gulp-sass": "^2.3.2"
+    },
+    "other": {
+      "author": "Ethan Brooks <EB5473@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/CalmBit/amethyst-editor/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/CalmBit/amethyst-editor/git/commits/05e58005d2beee196e68de13304a56f42407065c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "CalmBit___amethyst-editor.json"
 }

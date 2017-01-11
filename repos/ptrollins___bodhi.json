@@ -78,10 +78,7 @@
       "install": "^0.7.3",
       "npm": "^3.8.9"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ptrollins/bodhi.git"
-    },
+    "repository": "https://github.com/ptrollins/bodhi",
     "keywords": [
       "Electron",
       "Ionic",
@@ -89,15 +86,17 @@
       "NRGIA",
       "Bodhi"
     ],
-    "author": "NRGIA",
     "license": "",
-    "bugs": {
-      "url": "https://github.com/ptrollins/bodhi/issues"
-    },
     "dependencies": {
       "angular-chart.js": "^0.10.2",
       "chart.js": "^2.1.2",
       "highcharts": "^4.2.5"
+    },
+    "other": {
+      "author": "NRGIA",
+      "bugs": {
+        "url": "https://github.com/ptrollins/bodhi/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -123,5 +122,6 @@
       "url": "https://api.github.com/repos/ptrollins/bodhi/git/commits/ae3bc18fedb7b70d016036a2c8890ce65eb3be77",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ptrollins___bodhi.json"
 }

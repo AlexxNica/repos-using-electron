@@ -55,16 +55,9 @@
       "watch:test": "nodemon --exec \"npm run test\"",
       "debug:test": "node debug node_modules/jasmine/bin/jasmine.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/arvitaly/orbita.git"
-    },
+    "repository": "https://github.com/arvitaly/orbita",
     "keywords": [],
-    "author": "",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/arvitaly/orbita/issues"
-    },
     "dependencies": {
       "commander": "^2.9.0",
       "deep-extend": "^0.4.1",
@@ -85,6 +78,12 @@
       "jasmine": "2.4.1",
       "mock2": "0.0.7",
       "proxyquire": "^1.7.10"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/arvitaly/orbita/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -112,5 +111,6 @@
       "url": "https://api.github.com/repos/arvitaly/orbita/git/commits/3ca43a8eb31e24688fd7fabaa50d0660ec7fa4fe",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "arvitaly___orbita.json"
 }

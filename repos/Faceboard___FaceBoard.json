@@ -90,15 +90,8 @@
       "start": "webpack && electron main.js",
       "build": "webpack && build -mw"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/HRR17-Cauliflower/FaceBoard"
-    },
-    "author": "",
+    "repository": "https://github.com/HRR17-Cauliflower/FaceBoard",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/HRR17-Cauliflower/FaceBoard/issues"
-    },
     "homepage": "https://github.com/HRR17-Cauliflower/FaceBoard#readme",
     "build": {
       "appId": "com.hrr17-cauliflower.faceboard",
@@ -153,6 +146,12 @@
       "typescript": "^1.8.10",
       "webpack": "^1.13.1",
       "wine": "0.0.2"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/HRR17-Cauliflower/FaceBoard/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -183,5 +182,6 @@
       "url": "https://api.github.com/repos/Faceboard/FaceBoard/git/commits/34eb4e8333919b8476134a3f49546321cfce6ae1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Faceboard___FaceBoard.json"
 }

@@ -84,11 +84,7 @@
     "version": "0.0.0",
     "private": true,
     "description": "Treehub Components",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/treehub-eng/components.git"
-    },
-    "author": "John Clark <john@treehub.com>",
+    "repository": "https://github.com/treehub-eng/components",
     "license": "UNLICENSED",
     "scripts": {
       "demo": "node demo-server.js",
@@ -130,6 +126,9 @@
           }
         ]
       }
+    },
+    "other": {
+      "author": "John Clark <john@treehub.com>"
     }
   },
   "packageStatus": 200,
@@ -157,5 +156,6 @@
       "url": "https://api.github.com/repos/treehub-eng/components/git/commits/b98c5c4d12eea16d01ceb0d0954a5900af493a1b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "treehub-eng___components.json"
 }

@@ -96,11 +96,6 @@
       "3d",
       "graphics"
     ],
-    "author": {
-      "name": "variable.io",
-      "email": "contact@variable.io",
-      "url": "http://variable.io"
-    },
     "contributors": [
       {
         "name": "Marcin Ignac",
@@ -114,11 +109,7 @@
       }
     ],
     "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/pex-gl/pex-examples.git"
-    },
-    "bugs": "https://github.com/pex-gl/pex-examples/issues",
+    "repository": "https://github.com/pex-gl/pex-examples",
     "license": "MIT",
     "dependencies": {
       "browserify": "^10.2.6",
@@ -152,6 +143,14 @@
     },
     "scripts": {
       "example": "beefy context.createMesh/main.js  --open -- -i plask -t glslify-promise/transform"
+    },
+    "other": {
+      "author": {
+        "name": "variable.io",
+        "email": "contact@variable.io",
+        "url": "http://variable.io"
+      },
+      "bugs": "https://github.com/pex-gl/pex-examples/issues"
     }
   },
   "packageStatus": 200,
@@ -182,5 +181,6 @@
       "url": "https://api.github.com/repos/pex-gl/pex-examples/git/commits/583a5692a4a7f77911a447ee583e0beaebd831a2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "pex-gl___pex-examples.json"
 }

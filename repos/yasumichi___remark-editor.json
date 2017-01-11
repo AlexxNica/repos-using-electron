@@ -83,19 +83,12 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/yasumichi/remark-editor.git"
-    },
+    "repository": "https://github.com/yasumichi/remark-editor",
     "keywords": [
       "Markdown",
       "Presentation"
     ],
-    "author": "Yasumichi Akahoshi",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/yasumichi/remark-editor/issues"
-    },
     "homepage": "https://github.com/yasumichi/remark-editor#readme",
     "devDependencies": {
       "electron-packager": "^7.6.0",
@@ -103,6 +96,12 @@
     },
     "dependencies": {
       "ace-min-noconflict": "^1.1.9"
+    },
+    "other": {
+      "author": "Yasumichi Akahoshi",
+      "bugs": {
+        "url": "https://github.com/yasumichi/remark-editor/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/yasumichi/remark-editor/git/commits/7c8b8b30b5071994064369dd88e2254b187e42a8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "yasumichi___remark-editor.json"
 }

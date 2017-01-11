@@ -75,7 +75,6 @@
     "name": "Kimochi",
     "version": "0.10.0",
     "description": "Your adult games marketplace",
-    "author": "Kimochi",
     "main": "main.js",
     "copyright": "Copyright (C) 2015 Kimochi, Inc. All rights reserved.",
     "windowsBuild": {
@@ -96,10 +95,7 @@
       "package": "node package.js",
       "package-all": "node package.js --all"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mpoon/kimochi-electron.git"
-    },
+    "repository": "https://github.com/mpoon/kimochi-electron",
     "homepage": "https://kimochi.co",
     "devDependencies": {
       "asar": "0.6.1",
@@ -171,6 +167,9 @@
       "walk": "2.3.9",
       "webpack": "1.11.0",
       "when": "3.7.3"
+    },
+    "other": {
+      "author": "Kimochi"
     }
   },
   "packageStatus": 200,
@@ -200,5 +199,6 @@
       "url": "https://api.github.com/repos/mpoon/kimochi-electron/git/commits/9f014b79529b9fb7aebd934129ab19e3e9350f00",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mpoon___kimochi-electron.json"
 }

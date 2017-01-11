@@ -73,11 +73,6 @@
     "main": "src/index.js",
     "license": "MIT",
     "repository": "sivragav/mediumdesk",
-    "author": {
-      "name": "Sivaprakash Ragavan",
-      "email": "mediumdesk@sivragav.com",
-      "url": "medium.com/desktop-apps"
-    },
     "scripts": {
       "start": "electron src/index.js",
       "build": "npm run build:osx && npm run build:linux && npm run build:windows",

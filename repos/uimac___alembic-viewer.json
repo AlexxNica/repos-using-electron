@@ -50,12 +50,8 @@
     "version": "0.0.1",
     "description": "alembic (.abc) viewer",
     "main": "main.js",
-    "author": "Kazuma Hatta",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/uimac/alembic-viewer.git"
-    },
+    "repository": "https://github.com/uimac/alembic-viewer",
     "keywords": [
       "alembic",
       "geometry cache",
@@ -77,6 +73,9 @@
     },
     "scripts": {
       "start": "electron ."
+    },
+    "other": {
+      "author": "Kazuma Hatta"
     }
   },
   "packageStatus": 200,
@@ -104,5 +103,6 @@
       "url": "https://api.github.com/repos/uimac/alembic-viewer/git/commits/75f16e5dee7c43515aecdaafbe72683a31941488",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "uimac___alembic-viewer.json"
 }

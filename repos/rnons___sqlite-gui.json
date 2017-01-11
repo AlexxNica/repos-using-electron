@@ -55,21 +55,14 @@
       "dev": "watchify -t [ babelify --optional es7.decorators ] -o dist/app.js src/app.js & postcss -c postcss.conf.js --local-plugins -o dist/main.css src/styles/main.css -w",
       "lint": "eslint src *.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rnons/sqlite-gui.git"
-    },
+    "repository": "https://github.com/rnons/sqlite-gui",
     "keywords": [
       "sqlite",
       "gui",
       "electron",
       "angular2"
     ],
-    "author": "rnons",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/rnons/sqlite-gui/issues"
-    },
     "homepage": "https://github.com/rnons/sqlite-gui#readme",
     "dependencies": {
       "angular2": "^2.0.0-alpha.45",
@@ -86,6 +79,12 @@
       "postcss-cssnext": "^2.2.0",
       "postcss-import": "^7.1.0",
       "watchify": "^3.6.0"
+    },
+    "other": {
+      "author": "rnons",
+      "bugs": {
+        "url": "https://github.com/rnons/sqlite-gui/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -133,5 +132,6 @@
       "url": "https://api.github.com/repos/rnons/sqlite-gui/git/commits/c37b67fe795ffae2dec14e01f2646c46652d380a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rnons___sqlite-gui.json"
 }

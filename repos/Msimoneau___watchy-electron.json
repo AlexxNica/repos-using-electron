@@ -69,7 +69,6 @@
     "name": "watchy-electron",
     "version": "1.0.0",
     "main": "main.js",
-    "author": "Paul Jensen <paul@anephenix.com>",
     "modified-by": "Martin Simoneau",
     "description": "A twitter application",
     "dependencies": {
@@ -84,7 +83,10 @@
       "electron-builder": "^3.9.0",
       "electron-prebuilt": "^0.37.2"
     },
-    "build": {}
+    "build": {},
+    "other": {
+      "author": "Paul Jensen <paul@anephenix.com>"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -111,5 +113,6 @@
       "url": "https://api.github.com/repos/Msimoneau/watchy-electron/git/commits/ac887d16a2ba81f3e2c6401ff89d8167d31cffea",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Msimoneau___watchy-electron.json"
 }

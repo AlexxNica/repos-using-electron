@@ -50,15 +50,8 @@
     "version": "0.0.5",
     "description": "Microsemi Document Explorer",
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/sswayney/docexp.git"
-    },
-    "author": "Shane Swayney & Matt Jones",
+    "repository": "https://github.com/sswayney/docexp",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/sswayney/docexp/issues"
-    },
     "homepage": "https://github.com/sswayney/docexp#readme",
     "scripts": {
       "test": "standard && mocha --recursive",
@@ -157,6 +150,12 @@
       "gulp-cssmin": "0.1.7",
       "gulp-rename": "1.2.2",
       "gulp-uglify": "1.5.3"
+    },
+    "other": {
+      "author": "Shane Swayney & Matt Jones",
+      "bugs": {
+        "url": "https://github.com/sswayney/docexp/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -204,5 +203,6 @@
       "url": "https://api.github.com/repos/sswayney/docexp/git/commits/b5eb91870b20ddd3b0b2019d234ce6a2a5912872",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sswayney___docexp.json"
 }

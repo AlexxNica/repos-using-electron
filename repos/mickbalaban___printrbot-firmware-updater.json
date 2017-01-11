@@ -74,7 +74,6 @@
       "start": "electron .",
       "build": "electron-packager . pbFU --platform=darwin --arch=x64 --version=0.36.0 --asar=false --prune=true"
     },
-    "author": "mick",
     "license": "ISC",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -84,6 +83,9 @@
     "dependencies": {
       "jquery": "^2.2.1",
       "serialport": "^2.0.6"
+    },
+    "other": {
+      "author": "mick"
     }
   },
   "packageStatus": 200,
@@ -111,5 +113,6 @@
       "url": "https://api.github.com/repos/mickbalaban/printrbot-firmware-updater/git/commits/00e20834d1771126b83aa428d01e05f0716aa21d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mickbalaban___printrbot-firmware-updater.json"
 }

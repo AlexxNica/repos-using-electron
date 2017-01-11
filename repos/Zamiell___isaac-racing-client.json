@@ -87,18 +87,17 @@
         "remoteReleases": true
       }
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Zamiell/isaac-racing-client.git"
-    },
+    "repository": "https://github.com/Zamiell/isaac-racing-client",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/Zamiell/isaac-racing-client/issues"
-    },
     "homepage": "https://isaacracing.net",
     "devDependencies": {
       "electron": "^1.3.4",
       "electron-builder": "^7.9.0"
+    },
+    "other": {
+      "bugs": {
+        "url": "https://github.com/Zamiell/isaac-racing-client/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/Zamiell/isaac-racing-client/git/commits/9dccab17b61e44f13fbe332d6603471f3b030d95",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Zamiell___isaac-racing-client.json"
 }

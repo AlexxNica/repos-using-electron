@@ -99,23 +99,13 @@
       "start_debug": "electron . --debug",
       "clean": "gulp clean"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/poooi/poi.git"
-    },
+    "repository": "https://github.com/poooi/poi",
     "keywords": [
       "KanColle",
       "Browser",
       "Tool"
     ],
-    "author": {
-      "name": "Magica",
-      "email": "readme.md@gmail.com"
-    },
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/poooi/poi/issues"
-    },
     "homepage": "https://github.com/poooi/poi",
     "dependencies": {
       "babel-core": "^6.13.2",
@@ -234,8 +224,17 @@
         ]
       }
     },
-    "directories": {
-      "app": "app_compiled"
+    "other": {
+      "author": {
+        "name": "Magica",
+        "email": "readme.md@gmail.com"
+      },
+      "bugs": {
+        "url": "https://github.com/poooi/poi/issues"
+      },
+      "directories": {
+        "app": "app_compiled"
+      }
     }
   },
   "packageStatus": 200,
@@ -291,5 +290,6 @@
       "url": "https://api.github.com/repos/poooi/poi/git/commits/f882131148d9742ad24d64856c898f2b58256796",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "poooi___poi.json"
 }

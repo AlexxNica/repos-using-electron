@@ -81,19 +81,12 @@
       "start": "electron main.js",
       "build-mac": "electron-packager ./ --platform=darwin --arch=x64 --overwrite --icon appicon.png.icns --version 0.37.3 --prune true"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/alanrice/eye-prod.git"
-    },
+    "repository": "https://github.com/alanrice/eye-prod",
     "keywords": [
       "eye",
       "blink"
     ],
-    "author": "Alan Rice",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/alanrice/eye-prod/issues"
-    },
     "homepage": "https://github.com/alanrice/eye-prod#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.4"
@@ -102,6 +95,12 @@
       "chance": "^1.0.1",
       "menubar": "^4.1.0",
       "pluralize": "^1.2.1"
+    },
+    "other": {
+      "author": "Alan Rice",
+      "bugs": {
+        "url": "https://github.com/alanrice/eye-prod/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/alanrice/eye-prod/git/commits/caedd12ae0b09748255c8040241268ce0299842f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "alanrice___eye-prod.json"
 }

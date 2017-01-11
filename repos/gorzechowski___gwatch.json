@@ -51,20 +51,13 @@
     "description": "Graphical interface for GWatchD",
     "version": "0.2.0",
     "homepage": "http://gorzechowski.github.io/gwatch",
-    "author": {
-      "name": "Gracjan Orzechowski",
-      "email": "kampo2@o2.pl"
-    },
     "license": "ISC",
     "keywords": [
       "gwatch",
       "gwatchd",
       "synchronize"
     ],
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/gorzechowski/gwatch.git"
-    },
+    "repository": "https://github.com/gorzechowski/gwatch",
     "main": "dist/main.js",
     "scripts": {
       "build:dev": "npm run build:app:dev && npm run build:main:dev",
@@ -124,6 +117,12 @@
     },
     "optionalDependencies": {
       "appdmg": "^0.4.5"
+    },
+    "other": {
+      "author": {
+        "name": "Gracjan Orzechowski",
+        "email": "kampo2@o2.pl"
+      }
     }
   },
   "packageStatus": 200,
@@ -171,5 +170,6 @@
       "url": "https://api.github.com/repos/gorzechowski/gwatch/git/commits/72e3276deee229b7d59a99d1923e47fbfcd9bfa6",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "gorzechowski___gwatch.json"
 }

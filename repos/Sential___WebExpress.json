@@ -74,20 +74,13 @@
       "start": "electron .",
       "build": "electron-packager . --all --overwrite --asar"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Sential/WebExpress.git"
-    },
+    "repository": "https://github.com/Sential/WebExpress",
     "keywords": [
       "electron",
       "webexpress",
       "internet",
       "browser"
     ],
-    "author": "Eryk Rakowski",
-    "bugs": {
-      "url": "https://github.com/Sential/WebExpress/issues"
-    },
     "homepage": "https://github.com/Sential/WebExpress#readme",
     "devDependencies": {
       "electron": "^1.4.6",
@@ -102,7 +95,13 @@
       "electron-installer-windows": "^0.2.0",
       "electron": "^1.4.6"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "other": {
+      "author": "Eryk Rakowski",
+      "bugs": {
+        "url": "https://github.com/Sential/WebExpress/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/Sential/WebExpress/git/commits/408161d03c7c93a1b6615133d13dc1348fdc3ea5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Sential___WebExpress.json"
 }

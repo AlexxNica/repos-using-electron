@@ -73,17 +73,10 @@
   "status": 200,
   "packageJSON": {
     "name": "mu-pdf-viewer",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/azu/mu-pdf-viewer.git"
-    },
-    "author": "azu",
+    "repository": "https://github.com/azu/mu-pdf-viewer",
     "email": "azuciao@gmail.com",
     "homepage": "https://github.com/azu/mu-pdf-viewer",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/azu/mu-pdf-viewer/issues"
-    },
     "files": [
       "src/",
       "lib/",
@@ -99,9 +92,6 @@
     "build": {
       "appId": "info.efcl.pdf-viewer",
       "category": "util"
-    },
-    "directories": {
-      "test": "test"
     },
     "scripts": {
       "electron:build:osx": "npm run build && electron-zip-packager . --platform=darwin --arch=x64 --prune --out=dist",
@@ -165,6 +155,15 @@
       "pdfjs-dist": "^1.5.376",
       "react": "^15.3.0",
       "react-dom": "^15.3.0"
+    },
+    "other": {
+      "author": "azu",
+      "bugs": {
+        "url": "https://github.com/azu/mu-pdf-viewer/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -192,5 +191,6 @@
       "url": "https://api.github.com/repos/azu/mu-pdf-viewer/git/commits/f559f32d3149d6f682983afc56ad14c99bf66b99",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "azu___mu-pdf-viewer.json"
 }

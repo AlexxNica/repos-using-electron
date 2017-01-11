@@ -70,7 +70,6 @@
     "productName": "MessageBox",
     "description": "基于Electron、Vue.js、socket.io等技术搭建的消息盒子",
     "version": "0.3.0",
-    "author": "xiaoluoboding <xiaoluoboding@gmail.com>",
     "devDependencies": {
       "asar": "^0.7.2",
       "babel-loader": "^5.4.0",
@@ -108,6 +107,9 @@
       "package": "node ./tasks/package.js --platform=all --arch=all",
       "package:osx": "node ./tasks/package.js --platform=darwin --arch=x64",
       "package:win": "node ./tasks/package.js --platform=win32 --arch=all"
+    },
+    "other": {
+      "author": "xiaoluoboding <xiaoluoboding@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -137,5 +139,6 @@
       "url": "https://api.github.com/repos/infohold-works/message-box/git/commits/e5d67ba98f1c80bea4c7a556fc8df77931b6dd73",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "infohold-works___message-box.json"
 }

@@ -54,19 +54,12 @@
       "start": "electron main.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/sofroniewn/app-2afc.git"
-    },
+    "repository": "https://github.com/sofroniewn/app-2afc",
     "keywords": [
       "app",
       "2afc"
     ],
-    "author": "Nicholas Sofroniew",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/sofroniewn/app-2afc/issues"
-    },
     "homepage": "https://github.com/sofroniewn/app-2afc#readme",
     "dependencies": {
       "device-stream-2choice-stdin": "^1.0.1",
@@ -75,6 +68,12 @@
       "experiment-stream-2choice-2afc": "^1.0.1",
       "lightning-line-streaming": "0.0.8",
       "lightning-stream": "^1.0.0"
+    },
+    "other": {
+      "author": "Nicholas Sofroniew",
+      "bugs": {
+        "url": "https://github.com/sofroniewn/app-2afc/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -102,5 +101,6 @@
       "url": "https://api.github.com/repos/sofroniewn/app-2afc/git/commits/4de920dfebd235cfd27a31dadf08f23cacea6645",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sofroniewn___app-2afc.json"
 }

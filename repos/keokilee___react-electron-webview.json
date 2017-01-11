@@ -60,20 +60,13 @@
       "prepublish": "babel src/webview.js --out-file index.js",
       "semantic-release": "semantic-release pre && npm publish && semantic-release post"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/keokilee/react-electron-webview.git"
-    },
+    "repository": "https://github.com/keokilee/react-electron-webview",
     "keywords": [
       "react",
       "electron",
       "webview"
     ],
-    "author": "George Lee",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/keokilee/react-electron-webview/issues"
-    },
     "homepage": "https://github.com/keokilee/react-electron-webview#readme",
     "dependencies": {
       "camelcase": "^2.0.1"
@@ -99,6 +92,12 @@
       "react-dom": "^0.14.5",
       "webpack": "^1.12.9",
       "semantic-release": "^4.3.5"
+    },
+    "other": {
+      "author": "George Lee",
+      "bugs": {
+        "url": "https://github.com/keokilee/react-electron-webview/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/keokilee/react-electron-webview/git/commits/9db98398408489d57cf89ba3fd1889a966434f38",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "keokilee___react-electron-webview.json"
 }

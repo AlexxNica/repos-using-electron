@@ -74,15 +74,8 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "build": "build --win --x64"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jenslind/panpipe.git"
-    },
-    "author": "",
+    "repository": "https://github.com/jenslind/panpipe",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/jenslind/panpipe/issues"
-    },
     "homepage": "https://github.com/jenslind/panpipe#readme",
     "devDependencies": {
       "electron-builder": "^5.14.2",
@@ -94,6 +87,12 @@
     "build": {
       "appId": "pan.pipe",
       "app-category-type": "pipes"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/jenslind/panpipe/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -119,5 +118,6 @@
       "url": "https://api.github.com/repos/jenslind/panpipe/git/commits/016bb539149646986587dd014484d9594d33ac81",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jenslind___panpipe.json"
 }

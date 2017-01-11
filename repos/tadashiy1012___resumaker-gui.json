@@ -74,15 +74,8 @@
       "build": "browserify app/index.jsx -t [babelify --sourceMap] -d | exorcist bundle.js.map > bundle.js",
       "start": "electron index.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/tadashiy1012/resumaker-gui.git"
-    },
-    "author": "",
+    "repository": "https://github.com/tadashiy1012/resumaker-gui",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/tadashiy1012/resumaker-gui/issues"
-    },
     "homepage": "https://github.com/tadashiy1012/resumaker-gui#readme",
     "dependencies": {
       "electron-packager": "^7.4.0",
@@ -105,6 +98,12 @@
       "babelify": "^7.3.0",
       "browserify": "^13.1.0",
       "exorcist": "^0.4.0"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/tadashiy1012/resumaker-gui/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -132,5 +131,6 @@
       "url": "https://api.github.com/repos/tadashiy1012/resumaker-gui/git/commits/af882b0ad2ad79b12a5abfcd26fe84f28e0f6b0f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tadashiy1012___resumaker-gui.json"
 }

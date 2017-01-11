@@ -62,11 +62,7 @@
       "prebuild": "webpack",
       "build": "electron-packager ./ --platform=darwin,linux --overwrite --ignore=bower_components --ignore=src --ignore=node_modules/electron-packager --ignore=node_modules/electron-prebuilt --ignore=node_modules/webpack --ignore=node_modules/extract-text-webpack-plugin --ignore=node_modules/style-loader --icon=./app/images/icon --arch=x64"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/dbackowski/md-editor.git"
-    },
-    "author": "Damian Baćkowski",
+    "repository": "https://github.com/dbackowski/md-editor",
     "license": "MIT",
     "devDependencies": {
       "codemirror": "^5.20.2",
@@ -79,6 +75,9 @@
       "markdown-it": "^8.0.1",
       "style-loader": "^0.13.1",
       "webpack": "^1.13.2"
+    },
+    "other": {
+      "author": "Damian Baćkowski"
     }
   },
   "packageStatus": 200,
@@ -106,5 +105,6 @@
       "url": "https://api.github.com/repos/dbackowski/md-editor/git/commits/50a41612612c1a63873285f235809b08e79fe526",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dbackowski___md-editor.json"
 }

@@ -76,15 +76,8 @@
     "version": "0.1.0",
     "description": "retro twitter client",
     "main": "app/main/app.js",
-    "author": "Saki Yakumo",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/yakumo-saki/ancient-night/issues"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/yakumo-saki/ancient-night.git"
-    },
+    "repository": "https://github.com/yakumo-saki/ancient-night",
     "scripts": {
       "compile": "gulp build",
       "start": "gulp build && electron .",
@@ -115,6 +108,12 @@
       "node-twitter-api": "^1.7.1",
       "requirejs": "^2.2.0",
       "uuid": "^2.0.2"
+    },
+    "other": {
+      "author": "Saki Yakumo",
+      "bugs": {
+        "url": "https://github.com/yakumo-saki/ancient-night/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -142,5 +141,6 @@
       "url": "https://api.github.com/repos/yakumo-saki/ancient-night/git/commits/cc539cb8cffb1160777e6b103652211ae401b892",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "yakumo-saki___ancient-night.json"
 }

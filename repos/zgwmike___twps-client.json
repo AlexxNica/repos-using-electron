@@ -56,18 +56,11 @@
       "watch": "watchify -o resources/js/bundle.js -v -d browser/app.js",
       "build": "browserify browser/app.js -t [envify --NODE_ENV production] | uglifyjs -cm > resources/js/bundle.min.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://zgwmike@github.com/zgwmike/twps-client.git"
-    },
+    "repository": "https://github.com/zgwmike/twps-client",
     "keywords": [
       "TWPS"
     ],
-    "author": "Guangwen Zhou <zgwmike@hotmail.com>",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/zgwmike/twps-client/issues"
-    },
     "homepage": "https://github.com/zgwmike/twps-client#readme",
     "devDependencies": {
       "browserify": "^12.0.1",
@@ -97,6 +90,12 @@
         "reactify",
         "envify"
       ]
+    },
+    "other": {
+      "author": "Guangwen Zhou <zgwmike@hotmail.com>",
+      "bugs": {
+        "url": "https://github.com/zgwmike/twps-client/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -144,5 +143,6 @@
       "url": "https://api.github.com/repos/zgwmike/twps-client/git/commits/98f9ce0eb580afec96774dc50590e279f12502a5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zgwmike___twps-client.json"
 }

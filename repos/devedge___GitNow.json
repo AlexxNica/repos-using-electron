@@ -79,21 +79,14 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/devedge/GitNow.git"
-    },
+    "repository": "https://github.com/devedge/GitNow",
     "keywords": [
       "Git",
       "Notify",
       "Notification",
       "Cross-platform"
     ],
-    "author": "devedge, mphayes2",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/devedge/GitNow/issues"
-    },
     "homepage": "https://github.com/devedge/GitNow#readme",
     "dependencies": {
       "electron-prebuilt": "^1.0.1",
@@ -101,6 +94,12 @@
       "githubhook": "^1.6.1",
       "node-notifier": "^4.5.0",
       "request": "^2.72.0"
+    },
+    "other": {
+      "author": "devedge, mphayes2",
+      "bugs": {
+        "url": "https://github.com/devedge/GitNow/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/devedge/GitNow/git/commits/d0dda419547a692706fafd3c586e8ad852ef79fa",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "devedge___GitNow.json"
 }

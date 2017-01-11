@@ -93,20 +93,13 @@
       "preuninstall": "node ./bin/cli.js --unsetup-launchctl",
       "release": "npm run lint && ./scripts/make-release.sh"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rhysd/Chromenu.git"
-    },
+    "repository": "https://github.com/rhysd/Chromenu",
     "keywords": [
       "browser",
       "electron",
       "manubar"
     ],
-    "author": "rhysd <lin90162@yahoo.co.jp>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/rhysd/Chromenu/issues"
-    },
     "homepage": "https://github.com/rhysd/Chromenu#readme",
     "devDependencies": {
       "@types/cheerio": "^0.17.31",
@@ -146,6 +139,12 @@
       "react-redux": "^4.4.6",
       "redux": "^3.6.0",
       "request": "^2.79.0"
+    },
+    "other": {
+      "author": "rhysd <lin90162@yahoo.co.jp>",
+      "bugs": {
+        "url": "https://github.com/rhysd/Chromenu/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -173,5 +172,6 @@
       "url": "https://api.github.com/repos/rhysd/Chromenu/git/commits/4eea48059c082a1b3e836b08387e9b7e89524868",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rhysd___Chromenu.json"
 }

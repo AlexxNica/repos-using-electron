@@ -225,11 +225,6 @@
       "postinstall": "cd electron && npm install",
       "copy-beta": "grunt && sed 's/<html manifest=\"manifest.appcache\">//' dist/index.html > ../keeweb-beta/diy/index.html && cd ../keeweb-beta && git add diy/index.html && git commit -a -m 'beta' && git push origin master"
     },
-    "author": {
-      "name": "Antelle",
-      "email": "antelle.net@gmail.com",
-      "url": "http://antelle.net"
-    },
     "build": {
       "app-bundle-id": "net.antelle.keeweb",
       "app-category-type": "public.app-category.productivity",

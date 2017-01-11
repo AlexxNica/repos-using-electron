@@ -70,8 +70,6 @@
     "version": "1.0.0",
     "private": true,
     "description": "MirrorView Application",
-    "author": "Mindaugas Ajauskas",
-    "readmeFilename": "README.md",
     "main": "node-js/main.js",
     "dependencies": {
       "socket.io": "~1.3.4",
@@ -82,6 +80,10 @@
     },
     "scripts": {
       "start": "electron ."
+    },
+    "other": {
+      "author": "Mindaugas Ajauskas",
+      "readmeFilename": "README.md"
     }
   },
   "packageStatus": 200,
@@ -109,5 +111,6 @@
       "url": "https://api.github.com/repos/majauskas/MirrorView/git/commits/315ec525ff37c0549a9839bb459366cacab82291",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "majauskas___MirrorView.json"
 }

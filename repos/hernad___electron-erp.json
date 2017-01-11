@@ -59,19 +59,12 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/hernad/electron-erp.git"
-    },
+    "repository": "https://github.com/hernad/electron-erp",
     "keywords": [
       "electron",
       "react"
     ],
-    "author": "Ernad Husremovic",
     "license": "BSD",
-    "bugs": {
-      "url": "https://github.com/hernad/electron-erp/issues"
-    },
     "homepage": "https://github.com/hernad/electron-erp#readme",
     "dependencies": {
       "pg": "^4.3.0",
@@ -101,6 +94,12 @@
       "terminal.js": "^1.0.5",
       "vinyl-buffer": "^1.0.0",
       "vinyl-source-stream": "^1.1.0"
+    },
+    "other": {
+      "author": "Ernad Husremovic",
+      "bugs": {
+        "url": "https://github.com/hernad/electron-erp/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/hernad/electron-erp/git/commits/cba0f548b876de255b1074c5646850e039f2a5b3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hernad___electron-erp.json"
 }

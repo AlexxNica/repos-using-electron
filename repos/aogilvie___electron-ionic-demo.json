@@ -54,7 +54,6 @@
       "app"
     ],
     "repository": "http://d-caplin-repo01.sbisec.int/ally/demo-app.git",
-    "author": "Ally Ogilvie <alexander.ogilvie@japannext.co.jp>",
     "dependencies": {
       "electron-prebuilt": "*"
     },
@@ -67,6 +66,9 @@
     },
     "scripts": {
       "test": "make lint && make test"
+    },
+    "other": {
+      "author": "Ally Ogilvie <alexander.ogilvie@japannext.co.jp>"
     }
   },
   "packageStatus": 200,
@@ -112,5 +114,6 @@
       "url": "https://api.github.com/repos/aogilvie/electron-ionic-demo/git/commits/7453b9c83d22d9aaeab937275c0e0cd785a01007",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "aogilvie___electron-ionic-demo.json"
 }

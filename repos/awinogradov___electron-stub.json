@@ -71,20 +71,13 @@
     "version": "1.0.0",
     "description": "A minimal Electron application",
     "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/awinogradov/electron-stub.git"
-    },
+    "repository": "https://github.com/awinogradov/electron-stub",
     "keywords": [
       "Electron",
       "start",
       "tutorial"
     ],
-    "author": "winogradovaa@gmail.com",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/awinogradov/electron-stub/issues"
-    },
     "homepage": "https://github.com/awinogradov/electron-stub#readme",
     "devDependencies": {
       "bem-core": "^3.0.1",
@@ -128,6 +121,12 @@
       "dev": "npm run build && npm start",
       "debug": "electron index --debug",
       "test": "mocha tests"
+    },
+    "other": {
+      "author": "winogradovaa@gmail.com",
+      "bugs": {
+        "url": "https://github.com/awinogradov/electron-stub/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -155,5 +154,6 @@
       "url": "https://api.github.com/repos/awinogradov/electron-stub/git/commits/918f32d83980032e12911e7f3f5b243ad5f24bc2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "awinogradov___electron-stub.json"
 }

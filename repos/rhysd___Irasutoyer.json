@@ -60,10 +60,7 @@
     "bin": {
       "irasutoyer": "./bin/cli.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/rhysd/Irasutoyer.git"
-    },
+    "repository": "https://github.com/rhysd/Irasutoyer",
     "scripts": {
       "run": "node bin/cli.js",
       "dep": "tsd install && npm install",
@@ -74,7 +71,6 @@
       "Irasutoya",
       "Electron"
     ],
-    "author": "rhysd <lin90162@yahoo.co.jp>",
     "license": "MIT",
     "devDependencies": {
       "browserify": "^12.0.1",
@@ -93,6 +89,9 @@
       "react-tap-event-plugin": "^0.2.1",
       "redux": "^3.0.4",
       "shuffle-array": "^0.1.1"
+    },
+    "other": {
+      "author": "rhysd <lin90162@yahoo.co.jp>"
     }
   },
   "packageStatus": 200,
@@ -140,5 +139,6 @@
       "url": "https://api.github.com/repos/rhysd/Irasutoyer/git/commits/8b95abfa391b2aef9c5d2ea703b3dd55ef6a079e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rhysd___Irasutoyer.json"
 }

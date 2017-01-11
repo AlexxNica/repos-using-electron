@@ -103,15 +103,8 @@
       "start": "./bin/blackbird.js",
       "build": "./node_modules/.bin/node-sass ./app/styles/styles.scss ./app/styles/styles.css"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/lepisma/blackbird.git"
-    },
-    "author": "Abhinav Tushar",
+    "repository": "https://github.com/lepisma/blackbird",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/lepisma/blackbird/issues"
-    },
     "homepage": "https://github.com/lepisma/blackbird#readme",
     "devDependencies": {
       "electron-rebuild": "^1.1.3",
@@ -120,7 +113,13 @@
     "files": [
       "utils",
       "icons"
-    ]
+    ],
+    "other": {
+      "author": "Abhinav Tushar",
+      "bugs": {
+        "url": "https://github.com/lepisma/blackbird/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -147,5 +146,6 @@
       "url": "https://api.github.com/repos/lepisma/blackbird/git/commits/b6969d82ad3aa2540b5570d2a38137c1b8f69c81",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lepisma___blackbird.json"
 }

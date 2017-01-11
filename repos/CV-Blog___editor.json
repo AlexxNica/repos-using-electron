@@ -137,26 +137,11 @@
         ]
       }
     },
-    "directories": {
-      "buildResources": "resources",
-      "output": "release"
-    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/CV-Blog/editor"
-    },
-    "author": {
-      "name": "Nick C",
-      "email": "me@nickc.io",
-      "url": "https://github.com/hownowbrowncow"
-    },
+    "repository": "https://github.com/CV-Blog/editor",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/CV-Blog/editor/issues"
-    },
     "keywords": [],
     "devDependencies": {
       "asar": "^0.12.3",
@@ -232,6 +217,20 @@
     "devEngines": {
       "node": ">=6.x",
       "npm": ">=3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Nick C",
+        "email": "me@nickc.io",
+        "url": "https://github.com/hownowbrowncow"
+      },
+      "bugs": {
+        "url": "https://github.com/CV-Blog/editor/issues"
+      },
+      "directories": {
+        "buildResources": "resources",
+        "output": "release"
+      }
     }
   },
   "packageStatus": 200,
@@ -259,5 +258,6 @@
       "url": "https://api.github.com/repos/CV-Blog/editor/git/commits/2a4f4c379ed5e93702e43b1bde6dbf6c800fd6ec",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "CV-Blog___editor.json"
 }

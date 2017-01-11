@@ -88,11 +88,13 @@
       "run": "electron .",
       "build": "electron-packager . electron-hello-world --platform=win32 --arch=x64 --version=0.33.1 --out=./bin/ --overwrite"
     },
-    "author": "Fábio",
     "license": "MIT",
     "devDependencies": {
       "electron": "^0.4.1",
       "electron-packager": "^5.1.0"
+    },
+    "other": {
+      "author": "Fábio"
     }
   },
   "packageStatus": 200,
@@ -120,5 +122,6 @@
       "url": "https://api.github.com/repos/CWIInnovation/electron-hello-world/git/commits/0329f3f7183443e7c5bd5f4997609e3fd8910b4f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "CWIInnovation___electron-hello-world.json"
 }

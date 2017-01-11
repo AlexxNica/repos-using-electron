@@ -64,9 +64,6 @@
     "version": "1.0.2",
     "description": "an api client for github that performs actions needed by editdata applications",
     "main": "index.js",
-    "directories": {
-      "test": "tests"
-    },
     "scripts": {
       "lint": "standard",
       "test:node": "tape tests/*.js | tap-spec",
@@ -76,15 +73,8 @@
     "browser": {
       "request": "xhr"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/editdata/editdata-github.git"
-    },
-    "author": "",
+    "repository": "https://github.com/editdata/editdata-github",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/editdata/editdata-github/issues"
-    },
     "homepage": "https://github.com/editdata/editdata-github#readme",
     "devDependencies": {
       "documentation-readme": "^2.1.1",
@@ -105,6 +95,15 @@
       "through2": "^2.0.1",
       "utf8": "^2.1.1",
       "xhr": "^2.2.0"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/editdata/editdata-github/issues"
+      },
+      "directories": {
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -132,5 +131,6 @@
       "url": "https://api.github.com/repos/editdata/editdata-github/git/commits/7d60cd2a7e13341fb93c508cf5ba0e847f518c98",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "editdata___editdata-github.json"
 }

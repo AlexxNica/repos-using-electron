@@ -79,21 +79,14 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mattsimonis/chattr.git"
-    },
+    "repository": "https://github.com/mattsimonis/chattr",
     "keywords": [
       "chattr",
       "salesforce",
       "chatter",
       "electron"
     ],
-    "author": "Matt Simonis",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/mattsimonis/chattr/issues"
-    },
     "homepage": "https://github.com/mattsimonis/chattr#readme",
     "dependencies": {
       "jsforce": "^1.7.0",
@@ -101,6 +94,12 @@
     },
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
+    },
+    "other": {
+      "author": "Matt Simonis",
+      "bugs": {
+        "url": "https://github.com/mattsimonis/chattr/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/mattsimonis/chattr/git/commits/337bca334b760be56f1eb888674056146ab78ac2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mattsimonis___chattr.json"
 }

@@ -80,13 +80,15 @@
       "start": "electron .",
       "package": "electron-packager ./ --all --out ./pack --version 1.2.1 --overwrite --icon=./assets/images/icon/folder-remover-icon.png"
     },
-    "author": "Arcangelo Vicedomini",
     "license": "MIT",
     "dependencies": {
       "bower": "1.7.9",
       "electron-packager": "7.0.3",
       "electron-prebuilt": "1.2.1",
       "rimraf": "2.5.2"
+    },
+    "other": {
+      "author": "Arcangelo Vicedomini"
     }
   },
   "packageStatus": 200,
@@ -114,5 +116,6 @@
       "url": "https://api.github.com/repos/ITGuy9401/folderRemover/git/commits/45d0673c68ff2f9060495c87193e630ae78719ed",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ITGuy9401___folderRemover.json"
 }

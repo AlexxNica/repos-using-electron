@@ -60,10 +60,7 @@
       "start": "electron main.js",
       "build": "electron-packager . Trello --platform=darwin --arch=x64 --icon=icon.icns --out=build --overwrite"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/conortm/trellectron.git"
-    },
+    "repository": "https://github.com/conortm/trellectron",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^7.0.2",
@@ -115,5 +112,6 @@
       "url": "https://api.github.com/repos/conortm/trellectron/git/commits/713c31e606f147a7c8fb3b16d347cf61accab924",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "conortm___trellectron.json"
 }

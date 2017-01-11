@@ -85,15 +85,8 @@
       "test": "echo \"noop\" && exit 0",
       "precommit": "npm run lint"
     },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/superbrothers/electron-boilerplate.git"
-    },
-    "author": "Kazuki Suda <kazuki.suda@gmail.com>",
+    "repository": "https://github.com/superbrothers/electron-boilerplate",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/superbrothers/electron-boilerplate/issues"
-    },
     "homepage": "https://github.com/superbrothers/electron-boilerplate#readme",
     "dependencies": {
       "react": "^0.14.0-rc1",
@@ -121,6 +114,12 @@
       "merge-stream": "^1.0.0",
       "require-dir": "^0.3.0",
       "run-sequence": "^1.1.2"
+    },
+    "other": {
+      "author": "Kazuki Suda <kazuki.suda@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/superbrothers/electron-boilerplate/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -148,5 +147,6 @@
       "url": "https://api.github.com/repos/PeterGrillot/calc/git/commits/1128e7f18283b9ad7d033006b7411934b863d4f5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "PeterGrillot___calc.json"
 }

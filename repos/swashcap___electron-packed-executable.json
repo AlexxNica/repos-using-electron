@@ -82,19 +82,12 @@
       "clean": "rm -rf builds",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/swashcap/electron-packed-executable.git"
-    },
+    "repository": "https://github.com/swashcap/electron-packed-executable",
     "keywords": [
       "electron",
       "executable"
     ],
-    "author": "Cory Reed <swashcap@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/swashcap/electron-packed-executable/issues"
-    },
     "homepage": "https://github.com/swashcap/electron-packed-executable#readme",
     "devDependencies": {
       "electron": "^1.4.3",
@@ -103,6 +96,12 @@
     "private": true,
     "dependencies": {
       "electron-debug": "^1.0.1"
+    },
+    "other": {
+      "author": "Cory Reed <swashcap@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/swashcap/electron-packed-executable/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/swashcap/electron-packed-executable/git/commits/5c6c8861191126e0b8fea8408a0922be81024350",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "swashcap___electron-packed-executable.json"
 }

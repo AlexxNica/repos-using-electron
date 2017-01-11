@@ -62,20 +62,13 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/stanfieldr/ghetto-skype.git"
-    },
+    "repository": "https://github.com/stanfieldr/ghetto-skype",
     "keywords": [
       "web",
       "skype",
       "wrapper"
     ],
-    "author": "Robert Stanfield <robert@stanfield.it>",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/stanfieldr/ghetto-skype/issues"
-    },
     "homepage": "https://github.com/stanfieldr/ghetto-skype#readme",
     "devDependencies": {
       "electron-packager": "^7.0.1",
@@ -91,6 +84,12 @@
       "mime": "^1.3.4",
       "stylus": "^0.54.5",
       "tmp": "0.0.28"
+    },
+    "other": {
+      "author": "Robert Stanfield <robert@stanfield.it>",
+      "bugs": {
+        "url": "https://github.com/stanfieldr/ghetto-skype/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -144,5 +143,6 @@
       "url": "https://api.github.com/repos/stanfieldr/ghetto-skype/git/commits/7fa8d9b09361f36062207d981a5e8b896e0f2cc0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "stanfieldr___ghetto-skype.json"
 }

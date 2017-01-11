@@ -80,25 +80,24 @@
       "pack:osx": "npm run clean:osx && electron-packager . \"Test App\" --out=dist/osx --platform=darwin --arch=x64 --icon=assets/osx/logo.icns --ignore=dist --ignore=assets --ignore=builder.json --ignore=bower.json --ignore=README.md --ignore=.gitignore --ignore=preview.png",
       "pack:win": "npm run clean:win && electron-packager . \"Test App\" --out=dist/win --platform=win32 --arch=ia32 --icon=assets/win/logo.ico --ignore=dist --ignore=assets --ignore=builder.json --ignore=bower.json --ignore=README.md --ignore=.gitignore --ignore=preview.png"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-packager": "^7.6.0",
       "electron-prebuilt": "^1.2.0"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/ayroblu/webrecElectron/git/commits/5ff77116b18eb17a803857dd75bc74d06d463f92",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ayroblu___webrecElectron.json"
 }

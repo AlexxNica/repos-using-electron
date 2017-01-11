@@ -74,7 +74,6 @@
       "start": "electron ./app/main.js",
       "build": "electron-packager ./app $npm_package_productName --platform=darwin --arch=x64 --ignore=node_modules --icon=icons/icon --overwrite --out=./release"
     },
-    "author": "Harry",
     "license": "GNU",
     "devDependencies": {
       "electron-packager": "^7.0.1",
@@ -83,6 +82,9 @@
       "browser-sync": "^2.11.2",
       "gulp": "^3.9.1",
       "gulp-sass": "^2.2.0"
+    },
+    "other": {
+      "author": "Harry"
     }
   },
   "packageStatus": 200,
@@ -110,5 +112,6 @@
       "url": "https://api.github.com/repos/harrypujols/clock/git/commits/1f6889b6dcbbf720e4241c62c437c88afc570761",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "harrypujols___clock.json"
 }

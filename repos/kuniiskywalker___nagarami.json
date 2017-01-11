@@ -76,13 +76,9 @@
     "version": "0.1.1",
     "description": "electron app",
     "main": "bootstrapper.js",
-    "author": "kuniiskywalker",
     "npmName": "nagarami",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "git@bitbucket.org:k-family/nagarami-desktop.git"
-    },
+    "repository": "https://github.com/k-family/nagarami-desktop",
     "scripts": {
       "start": "electron .",
       "pack:win": "electron-packager ./ nagarami --platform=win32 --arch=x64 --version=1.2.2 --prune",
@@ -107,6 +103,9 @@
       "electron-json-storage": "^2.0.0",
       "youtube-api": "^2.0.2",
       "babel-polyfill": "^6.9.1"
+    },
+    "other": {
+      "author": "kuniiskywalker"
     }
   },
   "packageStatus": 200,
@@ -134,5 +133,6 @@
       "url": "https://api.github.com/repos/kuniiskywalker/nagarami/git/commits/ebe3e4f51cac446671b3a8a5f03fefac72eec090",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kuniiskywalker___nagarami.json"
 }

@@ -93,16 +93,7 @@
     "description": "A utility for translating the Bible and biblical content into any language.",
     "keywords": [],
     "homepage": "https://github.com/unfoldingWord-dev/ts-desktop",
-    "bugs": "https://github.com/unfoldingWord-dev/ts-desktop/issues",
-    "author": {
-      "name": "Joel Lonbeck",
-      "email": "",
-      "url": "https://github.com/neutrinog"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:unfoldingWord-dev/ts-desktop.git"
-    },
+    "repository": "https://github.com/unfoldingWord-dev/ts-desktop",
     "jest": {
       "testPathIgnorePatterns": [
         "out"
@@ -151,7 +142,15 @@
       "test": "jest"
     },
     "main": "src/js/main.js",
-    "license": "GPL-2.0"
+    "license": "GPL-2.0",
+    "other": {
+      "author": {
+        "name": "Joel Lonbeck",
+        "email": "",
+        "url": "https://github.com/neutrinog"
+      },
+      "bugs": "https://github.com/unfoldingWord-dev/ts-desktop/issues"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -189,5 +188,6 @@
       "url": "https://api.github.com/repos/unfoldingWord-dev/ts-desktop/git/commits/a5d7b08105594b4470cc238887020daae7ad89a9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "unfoldingWord-dev___ts-desktop.json"
 }

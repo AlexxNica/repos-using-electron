@@ -56,26 +56,25 @@
     "description": "Gauto 教学方法编辑器",
     "homepage": "https://github.com/bssthu/gauto-lesson-planner",
     "version": "0.1.1",
-    "author": {
-      "name": "bssthu"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/bssthu/gauto-lesson-planner.git"
-    },
+    "repository": "https://github.com/bssthu/gauto-lesson-planner",
     "devDependencies": {
       "electron-prebuilt": "~1.3.5",
       "electron-rebuild": "~1.2.1"
     },
     "license": "LGPL-3.0",
-    "bugs": {
-      "url": "https://github.com/bssthu/gauto-lesson-planner/issues"
-    },
     "scripts": {
       "start": "electron app"
     },
     "dependencies": {
       "sqlite3": "^3.1.4"
+    },
+    "other": {
+      "author": {
+        "name": "bssthu"
+      },
+      "bugs": {
+        "url": "https://github.com/bssthu/gauto-lesson-planner/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -123,5 +122,6 @@
       "url": "https://api.github.com/repos/bssthu/gauto-lesson-planner/git/commits/f01ea5dd02ece922424f68a308fc07c8baec300a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "bssthu___gauto-lesson-planner.json"
 }

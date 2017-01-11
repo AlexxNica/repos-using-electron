@@ -80,7 +80,6 @@
       "build-win64": "electron-packager . daily --ignore=node_modules --ignore=src --ignore=.git --platform=win32 --arch=x64 --version=1.2.7",
       "package-darwin": "asar pack daily-darwin-x64/daily.app/Contents/Resources/app daily-darwin-x64/daily.app/Contents/Resources/app.asar && rm -rf daily-darwin-x64/daily.app/Contents/Resources/app"
     },
-    "author": "",
     "license": "ISC",
     "devDependencies": {
       "babel-core": "^6.10.4",
@@ -106,6 +105,9 @@
       "react-tap-event-plugin": "^1.0.0",
       "redux": "^3.5.2",
       "redux-thunk": "^2.1.0"
+    },
+    "other": {
+      "author": ""
     }
   },
   "packageStatus": 200,
@@ -131,5 +133,6 @@
       "url": "https://api.github.com/repos/steinsphang/daily/git/commits/40e4fa60b7c154bc0e8c739b9410a07584f2b07f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "steinsphang___daily.json"
 }

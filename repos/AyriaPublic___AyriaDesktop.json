@@ -75,17 +75,13 @@
       "Electron"
     ],
     "homepage": "https://github.com/AyriaPublic/ayria-desktop",
-    "bugs": "https://github.com/AyriaPublic/ayria-desktop/issues",
     "license": "GPL-3.0",
     "contributors": [
       "Selwyn <talk@selwyn.cc> (https://selwyn.cc/)",
       "Will Tange <will@brt.sexy> (https://brt.sexy)"
     ],
     "main": "src/main.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/AyriaPublic/ayria-desktop.git"
-    },
+    "repository": "https://github.com/AyriaPublic/ayria-desktop",
     "scripts": {
       "start": "run-p --silent electron watch",
       "test": "",
@@ -111,6 +107,9 @@
       "chokidar-cli": "^1.2.0",
       "eslint": "^3.2.2",
       "npm-run-all": "^2.3.0"
+    },
+    "other": {
+      "bugs": "https://github.com/AyriaPublic/ayria-desktop/issues"
     }
   },
   "packageStatus": 200,
@@ -139,5 +138,6 @@
       "url": "https://api.github.com/repos/AyriaPublic/AyriaDesktop/git/commits/bca44f7e79124b66fff845f2382fed1fd917aaec",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "AyriaPublic___AyriaDesktop.json"
 }

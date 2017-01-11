@@ -84,12 +84,6 @@
       "health",
       "disability"
     ],
-    "bugs": "https://github.com/cranndarach/lifetracker-electron/issues",
-    "author": {
-      "name": "Rachael Steiner",
-      "email": "r.steiner@uconn.edu",
-      "maintainer": "@cranndarach"
-    },
     "license": "MIT",
     "repository": "https://github.com/cranndarach/lifetracker-electron.git",
     "main": "index.js",
@@ -98,9 +92,6 @@
       "build-linux": "electron-packager . LifeTracker --platform=linux --arch=x64 --out=dist --ignore='^/dist$' --overwrite",
       "build-win": "electron-packager . LifeTracker --platform=win32 --arch=x64 --out=dist --ignore='^/dist$' --overwrite=true",
       "build-mac": "electron-packager . PassBox --platform=darwin --arch=x64 --out=dist --ignore='^/dist$' --overwrite"
-    },
-    "directories": {
-      "lib": "lib/"
     },
     "dependencies": {
       "array-member": "^1.0.0",
@@ -115,6 +106,17 @@
     "devDependencies": {
       "electron": "1.4.x",
       "electron-packager": "^8.2.0"
+    },
+    "other": {
+      "author": {
+        "name": "Rachael Steiner",
+        "email": "r.steiner@uconn.edu",
+        "maintainer": "@cranndarach"
+      },
+      "bugs": "https://github.com/cranndarach/lifetracker-electron/issues",
+      "directories": {
+        "lib": "lib/"
+      }
     }
   },
   "packageStatus": 200,
@@ -142,5 +144,6 @@
       "url": "https://api.github.com/repos/cranndarach/lifetracker-electron/git/commits/02ae2c738daf3bdf872d6c3d221608a928071604",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cranndarach___lifetracker-electron.json"
 }

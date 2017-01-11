@@ -107,7 +107,6 @@
       "dist": "build",
       "install": "npm i && cd app && npm i && bower i"
     },
-    "author": "Ian Cronkright <txurtian@yahoo.com>",
     "license": "MIT",
     "dependencies": {
       "babel-preset-es2015": "^6.16.0",
@@ -119,18 +118,18 @@
       "time-grunt": "^1.4.0"
     },
     "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/teamocelot/ocelot-mod-manager.git"
-    },
+    "repository": "https://github.com/teamocelot/ocelot-mod-manager",
     "keywords": [
       "electron",
       "react"
     ],
-    "bugs": {
-      "url": "https://github.com/teamocelot/ocelot-mod-manager/issues"
-    },
-    "homepage": "https://github.com/teamocelot/ocelot-mod-manager#readme"
+    "homepage": "https://github.com/teamocelot/ocelot-mod-manager#readme",
+    "other": {
+      "author": "Ian Cronkright <txurtian@yahoo.com>",
+      "bugs": {
+        "url": "https://github.com/teamocelot/ocelot-mod-manager/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -158,5 +157,6 @@
       "url": "https://api.github.com/repos/teamocelot/ocelot-mod-manager/git/commits/074b8885a02eb2cb544bd2b0e49959c04c3fc3e2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "teamocelot___ocelot-mod-manager.json"
 }

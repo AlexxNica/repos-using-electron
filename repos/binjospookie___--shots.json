@@ -77,7 +77,6 @@
     "description": "An application for creating screenshots",
     "main": "main.js",
     "license": "NPOSL",
-    "author": "Victor Pasynok <binjospookie@gmail.com>",
     "email": "binjospookie@gmail.com",
     "scripts": {
       "start": "electron .",
@@ -92,9 +91,6 @@
       "dmg": {
         "icon": "./build/icon.icns"
       }
-    },
-    "bugs": {
-      "url": "https://github.com/binjospookie/--shots/issues"
     },
     "homepage": "http://shots.binjo.ru/",
     "devDependencies": {
@@ -112,6 +108,12 @@
     },
     "dependencies": {
       "is-online": "^5.1.2"
+    },
+    "other": {
+      "author": "Victor Pasynok <binjospookie@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/binjospookie/--shots/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -139,5 +141,6 @@
       "url": "https://api.github.com/repos/binjospookie/--shots/git/commits/9c67ded3186706810718d9fe2fad36292bc2953d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "binjospookie___--shots.json"
 }

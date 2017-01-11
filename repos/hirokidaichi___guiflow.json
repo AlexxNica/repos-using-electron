@@ -55,15 +55,8 @@
       "clean": "$(npm bin)/gulp clean",
       "package": "$(npm bin)/gulp package"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/hirokidaichi/guiflow.git"
-    },
-    "author": "hirokidaichi",
+    "repository": "https://github.com/hirokidaichi/guiflow",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/hirokidaichi/guiflow/issues"
-    },
     "homepage": "https://github.com/hirokidaichi/guiflow",
     "dependencies": {
       "dialogs": "^1.1.12",
@@ -83,6 +76,12 @@
       "gulp-shell": "^0.5.2",
       "gulp-zip": "^3.2.0",
       "run-sequence": "^1.1.5"
+    },
+    "other": {
+      "author": "hirokidaichi",
+      "bugs": {
+        "url": "https://github.com/hirokidaichi/guiflow/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -111,5 +110,6 @@
       "url": "https://api.github.com/repos/hirokidaichi/guiflow/git/commits/22c4544b051c2a6afe2e0442fced49109d102a51",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hirokidaichi___guiflow.json"
 }

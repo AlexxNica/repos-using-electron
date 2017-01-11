@@ -74,18 +74,11 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/sunrise9527/Nusic.git"
-    },
+    "repository": "https://github.com/sunrise9527/Nusic",
     "keywords": [
       "music"
     ],
-    "author": "Neil Xuchu Ning",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/sunrise9527/Nusic/issues"
-    },
     "homepage": "https://github.com/sunrise9527/Nusic#readme",
     "devDependencies": {
       "browser-sync": "^2.2.1",
@@ -115,6 +108,12 @@
     },
     "dependencies": {
       "electron-is-dev": "^0.1.1"
+    },
+    "other": {
+      "author": "Neil Xuchu Ning",
+      "bugs": {
+        "url": "https://github.com/sunrise9527/Nusic/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -142,5 +141,6 @@
       "url": "https://api.github.com/repos/sunrise9527/Nusic/git/commits/cd5aad6c7d638ecce4c31180f98f8fe82b1f95cb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sunrise9527___Nusic.json"
 }

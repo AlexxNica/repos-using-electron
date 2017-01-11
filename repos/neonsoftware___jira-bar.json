@@ -54,25 +54,24 @@
       "start": "electron main.js",
       "build_apps": "electron-packager . jira-bar --platform=all --arch=all --version=0.36.0 --overwrite --out=./build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/neonsoftware/jira-bar.git"
-    },
+    "repository": "https://github.com/neonsoftware/jira-bar",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "neonsoftware",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/neonsoftware/jira-bar/issues"
-    },
     "homepage": "https://github.com/neonsoftware/jira-bar#readme",
     "devDependencies": {
       "electron-packager": "*",
       "electron-prebuilt": "*"
+    },
+    "other": {
+      "author": "neonsoftware",
+      "bugs": {
+        "url": "https://github.com/neonsoftware/jira-bar/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -120,5 +119,6 @@
       "url": "https://api.github.com/repos/neonsoftware/jira-bar/git/commits/ffc330bbd2cc27bbaa1436cd995664d228880537",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "neonsoftware___jira-bar.json"
 }

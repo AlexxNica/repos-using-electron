@@ -51,11 +51,6 @@
     "main": "main.js",
     "description": "Manga and comic book reader",
     "repository": "benjamindean/shoujo",
-    "author": {
-      "name": "Benjamin Dean",
-      "email": "benjamin.dean@noaddress.com",
-      "url": "github.com/benjamindean"
-    },
     "scripts": {
       "start": "electron . test.zip",
       "build": "npm run build:linux && npm run deb64",
@@ -77,6 +72,13 @@
       "gulp-rename": "^1.2.2",
       "gulp-sass": "^2.3.2",
       "gulp-uglify": "^2.0.0"
+    },
+    "other": {
+      "author": {
+        "name": "Benjamin Dean",
+        "email": "benjamin.dean@noaddress.com",
+        "url": "github.com/benjamindean"
+      }
     }
   },
   "packageStatus": 200,
@@ -104,5 +106,6 @@
       "url": "https://api.github.com/repos/benjamindean/shoujo/git/commits/085483c708f4ac275700a06096edb5b7479593c7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "benjamindean___shoujo.json"
 }

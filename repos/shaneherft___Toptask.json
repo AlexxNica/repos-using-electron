@@ -81,21 +81,14 @@
       "dev": "cross-env NODE_ENV=development DEBUG=*,-babel electron --js-flags='--es_staging' ./",
       "prod": "cross-env NODE_ENV=production electron --js-flags='--es_staging' ./"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/atom/electron-quick-start.git"
-    },
+    "repository": "https://github.com/atom/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/atom/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "cross-env": "^1.0.8",
@@ -109,6 +102,12 @@
       "lodash": "^4.13.1",
       "nconf": "^0.8.4",
       "twit": "^2.2.4"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/atom/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,6 @@
       "url": "https://api.github.com/repos/shaneherft/Toptask/git/commits/a2f7a7983edcdd8c85ff5d3a702b59215d11515f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "shaneherft___Toptask.json"
 }

@@ -87,16 +87,15 @@
       "start": "electron .",
       "build": "electron-packager . Electron-Youtube --out=dist --ignore=dist --prune --asar --all"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/AndreVarandas/YT-wrapper.git"
-    },
-    "author": "Andre Varandas",
+    "repository": "https://github.com/AndreVarandas/YT-wrapper",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/AndreVarandas/YT-wrapper/issues"
-    },
-    "homepage": "https://github.com/AndreVarandas/YT-wrapper#readme"
+    "homepage": "https://github.com/AndreVarandas/YT-wrapper#readme",
+    "other": {
+      "author": "Andre Varandas",
+      "bugs": {
+        "url": "https://github.com/AndreVarandas/YT-wrapper/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -123,5 +122,6 @@
       "url": "https://api.github.com/repos/AndreVarandas/YT-wrapper/git/commits/aa65ce13d91e7aa58599739737bbc21795e4bbcf",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "AndreVarandas___YT-wrapper.json"
 }

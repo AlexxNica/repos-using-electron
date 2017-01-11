@@ -59,19 +59,12 @@
     "scripts": {
       "test": "tape test/*.test.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/michaelwoodson/woverlay.git"
-    },
+    "repository": "https://github.com/michaelwoodson/woverlay",
     "keywords": [
       "webrtc",
       "overlay"
     ],
-    "author": "Michael Woodson",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/michaelwoodson/woverlay/issues"
-    },
     "dependencies": {
       "big-integer": "1.6.16",
       "compression": "1.6.2",
@@ -86,7 +79,13 @@
       "tape": "4.6.2",
       "tape-run": "2.1.4"
     },
-    "homepage": "https://github.com/michaelwoodson/woverlay#readme"
+    "homepage": "https://github.com/michaelwoodson/woverlay#readme",
+    "other": {
+      "author": "Michael Woodson",
+      "bugs": {
+        "url": "https://github.com/michaelwoodson/woverlay/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [],
@@ -111,5 +110,6 @@
       "url": "https://api.github.com/repos/michaelwoodson/woverlay/git/commits/de0d007c1fe16dd31888f5717257f9685e0c6d0c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "michaelwoodson___woverlay.json"
 }

@@ -70,7 +70,6 @@
     "productName": "Finance",
     "version": "0.0.1",
     "description": "A money management program",
-    "author": "Your Name <you.name@example.org>",
     "contributors": [
       {
         "name": "Grady Duncan",
@@ -82,13 +81,7 @@
       }
     ],
     "main": "src/mainProcess/main.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/GradyD/finance"
-    },
-    "bugs": {
-      "url": "https://github.com/GradyD/finance/issues"
-    },
+    "repository": "https://github.com/GradyD/finance",
     "private": true,
     "devDependencies": {
       "banking": "^0.3.3",
@@ -99,6 +92,12 @@
       "grunt-shell": "^1.1.2",
       "sqlite3": "^3.0.8",
       "winston": "^1.0.0"
+    },
+    "other": {
+      "author": "Your Name <you.name@example.org>",
+      "bugs": {
+        "url": "https://github.com/GradyD/finance/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/GradyD/The-Vault/git/commits/d5fab3f407beb4a9012aca6a524c9293fa46abb9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "GradyD___The-Vault.json"
 }

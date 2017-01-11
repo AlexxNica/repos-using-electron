@@ -75,16 +75,9 @@
       "build": "electron-packager . DND --overwrite --icon='assets/imgs/icon.icns'",
       "dmg": "node build/dmg.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/kashishm/DND.git"
-    },
+    "repository": "https://github.com/kashishm/DND",
     "keywords": [],
-    "author": "Kashish Munjal",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/kashishm/DND/issues"
-    },
     "homepage": "https://github.com/kashishm/DND#readme",
     "devDependencies": {
       "appdmg": "^0.4.5",
@@ -94,6 +87,12 @@
     "dependencies": {
       "google-auth-library": "^0.9.8",
       "googleapis": "^12.4.0"
+    },
+    "other": {
+      "author": "Kashish Munjal",
+      "bugs": {
+        "url": "https://github.com/kashishm/DND/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -121,5 +120,6 @@
       "url": "https://api.github.com/repos/kashishm/DND/git/commits/f3b47133158f3f06e8077f15625d0061967cfa13",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kashishm___DND.json"
 }

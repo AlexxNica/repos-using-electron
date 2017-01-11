@@ -75,9 +75,7 @@
     "name": "dev-bookmark",
     "version": "0.0.0",
     "description": "Developer Bookmarker toy project of Enceladus for testing the viability of doing desktop apps with Angular 2 and Electron",
-    "repository": {
-      "url": "https://github.com/JohnMagtoto/dev-bookmark"
-    },
+    "repository": "https://github.com/JohnMagtoto/dev-bookmark",
     "scripts": {
       "build.desktop.mac": "rimraf desktop/mac/* && gulp desktop.mac",
       "build.desktop.windows": "rimraf desktop/windows/* && gulp desktop.windows",
@@ -116,7 +114,6 @@
       "webdriver-start": "node_modules/protractor/bin/webdriver-manager start",
       "webdriver-update": "node_modules/protractor/bin/webdriver-manager update"
     },
-    "author": "John Magtoto <JohnMagtoto>",
     "contributors": [
       {
         "name": "Nathan Walker <NathanWalker>"
@@ -229,6 +226,9 @@
       "rxjs": "5.0.0-beta.6",
       "systemjs": "0.19.26",
       "zone.js": "^0.6.12"
+    },
+    "other": {
+      "author": "John Magtoto <JohnMagtoto>"
     }
   },
   "packageStatus": 200,
@@ -256,5 +256,6 @@
       "url": "https://api.github.com/repos/JohnMagtoto/dev-bookmark/git/commits/8e938a17cedb9317942e2cc8dfb271579354864a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "JohnMagtoto___dev-bookmark.json"
 }

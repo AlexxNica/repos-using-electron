@@ -52,11 +52,6 @@
     "description": "My mathematical app",
     "license": "MIT",
     "repository": "hdiederichs/bcs-calc",
-    "author": {
-      "name": "Henning Diederichs",
-      "email": "henning.diederichs@westernacher.com",
-      "url": "github.com/hdiederichs"
-    },
     "scripts": {
       "postinstall": "bower install",
       "test": "xo",
@@ -87,6 +82,13 @@
         "node",
         "browser"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "Henning Diederichs",
+        "email": "henning.diederichs@westernacher.com",
+        "url": "github.com/hdiederichs"
+      }
     }
   },
   "packageStatus": 200,
@@ -114,5 +116,6 @@
       "url": "https://api.github.com/repos/hdiederichs/bcs-calc/git/commits/5b843e0153bf9225363d9c0265c068998a6bf1aa",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hdiederichs___bcs-calc.json"
 }

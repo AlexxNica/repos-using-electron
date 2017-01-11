@@ -76,20 +76,13 @@
     "version": "1.0.0",
     "description": "Desktop app for storing personal documents in the cloud",
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Jank1310/dloud.git"
-    },
+    "repository": "https://github.com/Jank1310/dloud",
     "scripts": {
       "start": "electron .",
       "watch": "./node_modules/.bin/webpack-dev-server",
       "test": "find . -name '*.test.js' -not -path '*node_modules/*' | xargs ./node_modules/.bin/mocha -w --compilers js:babel-core/register"
     },
-    "author": "Jan Kühnlein",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Jank1310/dloud/issues"
-    },
     "homepage": "https://github.com/Jank1310/dloud#readme",
     "dependencies": {
       "aws-sdk": "^2.3.14",
@@ -126,6 +119,12 @@
       "webpack": "^1.13.1",
       "webpack-dev-server": "^1.14.1",
       "webpack-stream": "^3.2.0"
+    },
+    "other": {
+      "author": "Jan Kühnlein",
+      "bugs": {
+        "url": "https://github.com/Jank1310/dloud/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -153,5 +152,6 @@
       "url": "https://api.github.com/repos/Jank1310/dloud/git/commits/0b1d017470db2a612df04f51d31260971c203594",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Jank1310___dloud.json"
 }

@@ -73,10 +73,7 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/atom/electron-quick-start.git"
-    },
+    "repository": "https://github.com/atom/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
@@ -84,11 +81,13 @@
       "audiowave",
       "tutorial"
     ],
-    "author": "HectorGuo",
     "license": "CC0-1.0",
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.35.0"
+    },
+    "other": {
+      "author": "HectorGuo"
     }
   },
   "packageStatus": 200,
@@ -116,5 +115,6 @@
       "url": "https://api.github.com/repos/hectorguo/audio-wave-demo/git/commits/79fd88227890ab1f7a029e24ebb3be1520dedaac",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hectorguo___audio-wave-demo.json"
 }

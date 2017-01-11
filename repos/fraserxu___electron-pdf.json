@@ -67,10 +67,7 @@
     "bin": {
       "electron-pdf": "cli.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/fraserxu/electron-pdf.git"
-    },
+    "repository": "https://github.com/fraserxu/electron-pdf",
     "keywords": [
       "electron",
       "electron-tool",
@@ -79,11 +76,7 @@
       "export",
       "render"
     ],
-    "author": "Fraser Xu",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/fraserxu/electron-pdf/issues"
-    },
     "homepage": "https://github.com/fraserxu/electron-pdf",
     "devDependencies": {
       "ava": "^0.16.0",
@@ -110,6 +103,12 @@
       "failFast": true,
       "tap": true,
       "powerAssert": false
+    },
+    "other": {
+      "author": "Fraser Xu",
+      "bugs": {
+        "url": "https://github.com/fraserxu/electron-pdf/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -146,5 +145,6 @@
       "url": "https://api.github.com/repos/fraserxu/electron-pdf/git/commits/62c75eabcbc065fcc672ad0a45c538670359c3fa",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "fraserxu___electron-pdf.json"
 }

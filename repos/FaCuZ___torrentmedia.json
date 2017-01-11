@@ -54,15 +54,11 @@
   "packageJSON": {
     "name": "torrentmedia",
     "version": "0.1.0",
-    "author": "Facundo Zaldo",
     "license": "MIT",
     "description": "Cliente de bitorrent",
     "main": "main.js",
     "app-id": "com.facuz.torrentmedia",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/FaCuZ/torrentmedia.git"
-    },
+    "repository": "https://github.com/FaCuZ/torrentmedia",
     "scripts": {
       "start": "gulp",
       "adminlte": "echo 'Making offline AdminLTE...' && cd node_modules/admin-lte/dist/css/ && sed -i.bak '1i/*' AdminLTE.css",
@@ -96,6 +92,9 @@
       "humanize-plus": "^1.8.2",
       "pixl-xml": "^1.0.6",
       "webtorrent": "^0.94.1"
+    },
+    "other": {
+      "author": "Facundo Zaldo"
     }
   },
   "packageStatus": 200,
@@ -123,5 +122,6 @@
       "url": "https://api.github.com/repos/FaCuZ/torrentmedia/git/commits/3a9d7daf52b51b6ccdf93e422cf3de369e59bc09",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "FaCuZ___torrentmedia.json"
 }

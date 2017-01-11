@@ -69,7 +69,6 @@
     "name": "electron-gif-loop",
     "version": "1.0.0",
     "description": "gify gif viewer",
-    "author": "khsk",
     "main": "main.js",
     "dependencies": {},
     "devDependencies": {
@@ -80,9 +79,9 @@
       "start": "./node_modules/.bin/electron ./",
       "release-win-64": "./node_modules/.bin/electron-packager ./ electron-gif-loop --version=1.2.6 --platform=win32 --arch=x64 --overwrite --asar --out=./"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/khsk/electron-gif-loop.git"
+    "repository": "https://github.com/khsk/electron-gif-loop",
+    "other": {
+      "author": "khsk"
     }
   },
   "packageStatus": 200,
@@ -110,5 +109,6 @@
       "url": "https://api.github.com/repos/khsk/electron-gif-loop/git/commits/6bd859bc49c8d6adbef717c05ec295b9a679115d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "khsk___electron-gif-loop.json"
 }

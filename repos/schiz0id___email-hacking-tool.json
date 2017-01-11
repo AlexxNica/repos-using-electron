@@ -60,10 +60,7 @@
       "start": "node_modules/.bin/electron .",
       "test": "mocha"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/schiz0id/email-hacking-tool.git"
-    },
+    "repository": "https://github.com/schiz0id/email-hacking-tool",
     "keywords": [
       "elite",
       "hacking",
@@ -76,11 +73,7 @@
       "e-mail",
       "tool"
     ],
-    "author": "schiz0id",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/schiz0id/email-hacking-tool/issues"
-    },
     "homepage": "https://github.com/schiz0id/email-hacking-tool#readme",
     "dependencies": {
       "electron-prebuilt": "^1.2.2"
@@ -89,6 +82,12 @@
       "chai": "^3.5.0",
       "electron-reload": "^1.0.0",
       "mocha": "^2.5.3"
+    },
+    "other": {
+      "author": "schiz0id",
+      "bugs": {
+        "url": "https://github.com/schiz0id/email-hacking-tool/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -137,5 +136,6 @@
       "url": "https://api.github.com/repos/schiz0id/email-hacking-tool/git/commits/afa1d1792ae867f5c84ba2ba8cfc641ed4234a84",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "schiz0id___email-hacking-tool.json"
 }

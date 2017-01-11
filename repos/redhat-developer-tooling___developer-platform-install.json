@@ -71,15 +71,8 @@
     "version": "1.2.0-GA",
     "description": "Red Hat Development Suite Installer",
     "main": "main/index.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/redhat-developer-tooling/developer-platform-install.git"
-    },
-    "author": "Red Hat Developer Tooling Group",
+    "repository": "https://github.com/redhat-developer-tooling/developer-platform-install",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://issues.jboss.org/projects/JBDS/summary"
-    },
     "homepage": "https://github.com/redhat-developer-tooling/developer-platform-install#readme",
     "build": {
       "appId": "com.redhat.devsuite.installer",
@@ -88,9 +81,6 @@
         "icon": "resources/devsuite.icns",
         "target": "zip"
       }
-    },
-    "directories": {
-      "app": "transpiled"
     },
     "scripts": {
       "start": "gulp run",
@@ -159,6 +149,15 @@
       "tmp": "0.0.29",
       "xunit-file": "1.0.0",
       "yargs": "6.0.0"
+    },
+    "other": {
+      "author": "Red Hat Developer Tooling Group",
+      "bugs": {
+        "url": "https://issues.jboss.org/projects/JBDS/summary"
+      },
+      "directories": {
+        "app": "transpiled"
+      }
     }
   },
   "packageStatus": 200,
@@ -197,5 +196,6 @@
       "url": "https://api.github.com/repos/redhat-developer-tooling/developer-platform-install/git/commits/a863fa40437cfd91bacdd72f060cd5407966521f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "redhat-developer-tooling___developer-platform-install.json"
 }

@@ -69,11 +69,6 @@
     "name": "webtorrent",
     "description": "Streaming torrent client",
     "version": "0.97.2",
-    "author": {
-      "name": "WebTorrent, LLC",
-      "email": "feross@webtorrent.io",
-      "url": "https://webtorrent.io"
-    },
     "browser": {
       "./lib/server.js": false,
       "./lib/tcp-pool.js": false,
@@ -88,9 +83,6 @@
       "transform": [
         "package-json-versionify"
       ]
-    },
-    "bugs": {
-      "url": "https://github.com/feross/webtorrent/issues"
     },
     "dependencies": {
       "addr-to-ip-port": "^1.4.2",
@@ -174,10 +166,7 @@
     ],
     "license": "MIT",
     "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/feross/webtorrent.git"
-    },
+    "repository": "https://github.com/feross/webtorrent",
     "scripts": {
       "build": "browserify -s WebTorrent -e ./ | uglifyjs -c warnings=false -m > webtorrent.min.js",
       "build-debug": "browserify -s WebTorrent -e ./ > webtorrent.debug.js",
@@ -188,6 +177,16 @@
       "test-browser-local": "zuul --local -- test/*.js test/browser/*.js",
       "test-node": "tape test/*.js test/node/*.js",
       "update-authors": "./bin/update-authors.sh"
+    },
+    "other": {
+      "author": {
+        "name": "WebTorrent, LLC",
+        "email": "feross@webtorrent.io",
+        "url": "https://webtorrent.io"
+      },
+      "bugs": {
+        "url": "https://github.com/feross/webtorrent/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -213,5 +212,6 @@
       "url": "https://api.github.com/repos/DarthSnow/naimwt/git/commits/5227928d1e9e94d21697439e1fd26faa97197f41",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DarthSnow___naimwt.json"
 }

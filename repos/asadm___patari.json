@@ -61,24 +61,23 @@
       "make-osx": "electron-packager . Patari --platform=darwin --arch=x64 --version=0.35.0 --icon=./assets/patari-logo.icns  --overwrite=force --app-bundle-id=com.patari.patariapp --helper-bundle-id=com.patari.patariapp --out=./bundles",
       "make-win": "electron-packager . Patari --platform=win32 --arch=ia32 --version=0.35.0 --icon=./assets/patari-logo.icns  --overwrite=force --app-bundle-id=com.patari.patariapp --helper-bundle-id=com.patari.patariapp --out=./bundles"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/asadm/patari.git"
-    },
+    "repository": "https://github.com/asadm/patari",
     "keywords": [
       "patari",
       "electron"
     ],
-    "author": "Asad Memon",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/asadm/patari/issues"
-    },
     "homepage": "https://github.com/asadm/patari#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.34.0"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "other": {
+      "author": "Asad Memon",
+      "bugs": {
+        "url": "https://github.com/asadm/patari/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -107,5 +106,6 @@
       "url": "https://api.github.com/repos/asadm/patari/git/commits/e3adaeaff048cbdbf5188d10657a837a6813baed",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "asadm___patari.json"
 }

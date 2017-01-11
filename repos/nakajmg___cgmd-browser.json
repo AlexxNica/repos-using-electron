@@ -85,7 +85,6 @@
       "vuex:module": "node tasks/vuex/module.js",
       "build-manual": "rm -rf builds/cgmd-preview && npm run pack && electron-packager ./app cgmd-browser --out=builds --platform=darwin --arch=x64 --overwrite=true"
     },
-    "author": "nakajmg",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -135,6 +134,9 @@
       "lodash": "^4.16.1",
       "open": "0.0.5",
       "request": "^2.75.0"
+    },
+    "other": {
+      "author": "nakajmg"
     }
   },
   "packageStatus": 200,
@@ -162,5 +164,6 @@
       "url": "https://api.github.com/repos/nakajmg/cgmd-browser/git/commits/caed6f20c5936759ac865a6dc9dd9c9d9578d007",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "nakajmg___cgmd-browser.json"
 }

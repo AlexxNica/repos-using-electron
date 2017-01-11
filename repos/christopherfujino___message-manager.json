@@ -82,14 +82,10 @@
       "snazzy": "snazzy --verbose main.js renderer.js; echo 'The End'",
       "rebuild": "electron-rebuild"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron"
     ],
-    "author": "Christopher Fujino",
     "license": "GPL-2.0",
     "homepage": "https://github.com/christopherfujino/message-manager",
     "devDependencies": {
@@ -102,6 +98,9 @@
       "jquery": "^3.1.0",
       "lame": "^1.2.4",
       "speaker": "^0.3.0"
+    },
+    "other": {
+      "author": "Christopher Fujino"
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/christopherfujino/message-manager/git/commits/5f3f9c962175cc5b8f66592f176567e4efcb805f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "christopherfujino___message-manager.json"
 }

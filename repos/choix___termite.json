@@ -55,7 +55,6 @@
       "start": "electron .",
       "package": "electron-packager . Termite --overwrite --platform=darwin --arch=x64 --version=0.35.1 --asar=true --icon=assets/app.icns --prune --ignore='src'"
     },
-    "author": "Anton Volkov",
     "license": "MIT",
     "dependencies": {
       "alt": "=0.17.8",
@@ -74,6 +73,9 @@
       "extract-text-webpack-plugin": "=0.9.1",
       "style-loader": "=0.13.0",
       "webpack": "=1.12.6"
+    },
+    "other": {
+      "author": "Anton Volkov"
     }
   },
   "packageStatus": 200,
@@ -101,5 +103,6 @@
       "url": "https://api.github.com/repos/choix/termite/git/commits/5cfb70614db938c31c1ef45ec125c91a6a450679",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "choix___termite.json"
 }

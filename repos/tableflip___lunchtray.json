@@ -77,7 +77,6 @@
       "build:linux": "electron-packager . lunchtray --platform=linux --arch=x64 --version=0.36.7 --icon=noun_184605.icns",
       "start": "electron ."
     },
-    "author": "Alan Shaw",
     "license": "ISC",
     "dependencies": {
       "ddp": "^0.11.0",
@@ -92,14 +91,14 @@
       "electron-prebuilt": "^0.36.6",
       "standard": "^6.0.5"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/tableflip/lunchtray.git"
-    },
-    "bugs": {
-      "url": "https://github.com/tableflip/lunchtray/issues"
-    },
-    "homepage": "https://github.com/tableflip/lunchtray#readme"
+    "repository": "https://github.com/tableflip/lunchtray",
+    "homepage": "https://github.com/tableflip/lunchtray#readme",
+    "other": {
+      "author": "Alan Shaw",
+      "bugs": {
+        "url": "https://github.com/tableflip/lunchtray/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/tableflip/lunchtray/git/commits/917334e61ed00ced8efe862135b2cc48a1f0b188",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tableflip___lunchtray.json"
 }

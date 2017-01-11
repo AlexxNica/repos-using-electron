@@ -76,11 +76,7 @@
     "description": "Write formatted notes and save them as gists.",
     "version": "0.1.0",
     "homepage": "https://github.com/jamen/gist-note",
-    "author": "Jamen Marz (https://github.com/jamen)",
     "repository": "jamen/gist-note",
-    "bugs": {
-      "url": "https://github.com/jamen/gist-note/issues"
-    },
     "scripts": {
       "start": "electron ."
     },
@@ -104,6 +100,12 @@
     },
     "dependencies": {
       "bel": "^4.5.0"
+    },
+    "other": {
+      "author": "Jamen Marz (https://github.com/jamen)",
+      "bugs": {
+        "url": "https://github.com/jamen/gist-note/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -131,5 +133,6 @@
       "url": "https://api.github.com/repos/jamen/gist-note/git/commits/6299c35e1ed20baddce3ad16a287b2ddcfdb60a4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jamen___gist-note.json"
 }

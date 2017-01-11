@@ -84,16 +84,9 @@
       "buildExecutable": "gulp cleanPackageDist && build --dir --win --x64",
       "buildInstaller": "gulp cleanPackageDist && build --win --x64"
     },
-    "author": "prince <mc.prince.0203@gmail.com> (https://github.com/prince-0203)",
     "license": "MIT",
     "homepage": "https://github.com/prince-0203/NicoFollower#readme",
-    "repository": {
-      "url": "https://github.com/prince-0203/NicoFollower.git",
-      "type": "git"
-    },
-    "bugs": {
-      "url": "https://github.com/prince-0203/NicoFollower/issues"
-    },
+    "repository": "https://github.com/prince-0203/NicoFollower",
     "devDependencies": {
       "babel-core": "^6.18.0",
       "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
@@ -115,6 +108,12 @@
     "build": {
       "appId": "io.github.prince-0203.nico-follower",
       "copyright": "(c)prince 2016"
+    },
+    "other": {
+      "author": "prince <mc.prince.0203@gmail.com> (https://github.com/prince-0203)",
+      "bugs": {
+        "url": "https://github.com/prince-0203/NicoFollower/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -142,5 +141,6 @@
       "url": "https://api.github.com/repos/prince-0203/NicoFollower/git/commits/e8668f1312a79949ec93b8c0e7d08a9d67117eff",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "prince-0203___NicoFollower.json"
 }

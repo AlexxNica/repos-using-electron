@@ -73,15 +73,11 @@
   "status": 200,
   "packageJSON": {
     "name": "ReactExample",
-    "author": "Hyejin Kwon",
     "version": "0.0.1",
     "description": "React Study Example",
     "license": "MIT",
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/jjingK/react-example.git"
-    },
+    "repository": "https://github.com/jjingK/react-example",
     "dependencies": {
       "jquery": "^2.2.0",
       "jquery-ui": "^1.10.5",
@@ -132,6 +128,9 @@
       "test": "./node_modules/mocha/bin/mocha ./test --compilers js:babel-core/register",
       "build": "eslint src && jest && webpack --config ./scripts/package.js --release",
       "server": "webpack-dev-server --config ./scripts/package.js --colors --inline --port 3000"
+    },
+    "other": {
+      "author": "Hyejin Kwon"
     }
   },
   "packageStatus": 200,
@@ -161,5 +160,6 @@
       "url": "https://api.github.com/repos/jjingK/react-example/git/commits/17ad516683033e0be2c9b4e60cbe157dadd31442",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jjingK___react-example.json"
 }

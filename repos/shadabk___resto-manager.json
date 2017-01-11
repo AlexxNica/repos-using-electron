@@ -60,20 +60,13 @@
       "start": "electron .",
       "build": "electron-packager . --platform=win32 --arch=x64"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "resto-manager",
       "Restaurant"
     ],
-    "author": "SK",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron": "^1.3.4"
@@ -81,6 +74,12 @@
     "dependencies": {
       "mysql": "^2.11.1",
       "sequelize": "^3.24.2"
+    },
+    "other": {
+      "author": "SK",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/shadabk/resto-manager/git/commits/625364b83d502209a9a9bb4e07224d3368860ef4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "shadabk___resto-manager.json"
 }

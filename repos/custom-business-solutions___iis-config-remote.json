@@ -64,11 +64,7 @@
     "version": "0.0.0",
     "description": "Small Electron app to allow IIS Express sites to be accessed from a remote computer in the same network",
     "main": "main.js",
-    "author": "Bernardo Pacheco",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/custom-business-solutions/iis-config-remote"
-    },
+    "repository": "https://github.com/custom-business-solutions/iis-config-remote",
     "license": "ISC",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -128,6 +124,9 @@
       "ignore": [
         "node_modules"
       ]
+    },
+    "other": {
+      "author": "Bernardo Pacheco"
     }
   },
   "packageStatus": 200,
@@ -155,5 +154,6 @@
       "url": "https://api.github.com/repos/custom-business-solutions/iis-config-remote/git/commits/2a420a0fcbd80eee383369f4aad3a1ea347bd701",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "custom-business-solutions___iis-config-remote.json"
 }

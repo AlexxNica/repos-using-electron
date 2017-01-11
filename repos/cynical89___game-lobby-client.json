@@ -80,18 +80,11 @@
       "start": "electron .",
       "test": "./node_modules/.bin/eslint ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/cynical89/game-lobby-client.git"
-    },
+    "repository": "https://github.com/cynical89/game-lobby-client",
     "keywords": [
       "Electron"
     ],
-    "author": "@cynical89",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/cynical89/game-lobby-client/issues"
-    },
     "homepage": "https://github.com/cynical89/game-lobby-client#readme",
     "devDependencies": {
       "electron": "^1.3.4",
@@ -100,6 +93,12 @@
     "dependencies": {
       "electron-notifications": "^0.1.1",
       "socket.io-client": "^1.5.1"
+    },
+    "other": {
+      "author": "@cynical89",
+      "bugs": {
+        "url": "https://github.com/cynical89/game-lobby-client/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/cynical89/game-lobby-client/git/commits/2d878f8ff9f75a294532e67a6eecfc1d47959118",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cynical89___game-lobby-client.json"
 }

@@ -89,7 +89,6 @@
     "name": "maritime-cloud-management-portal",
     "version": "0.0.1",
     "description": "Management Portal for the Maritime Cloud",
-    "author": "Danish Maritime Authority",
     "homepage": "http://maritimecloud.net",
     "license": "Apache 2.0",
     "dependencies": {
@@ -235,16 +234,16 @@
       "postversion": "git push && git push --tags",
       "electron": "electron ./src/electron/main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/MaritimeCloud/MaritimeCloudPortal.git"
-    },
-    "bugs": {
-      "url": "https://github.com/MaritimeCloud/MaritimeCloudPortal/issues"
-    },
+    "repository": "https://github.com/MaritimeCloud/MaritimeCloudPortal",
     "engines": {
       "node": ">= 4.2.1",
       "npm": ">= 3"
+    },
+    "other": {
+      "author": "Danish Maritime Authority",
+      "bugs": {
+        "url": "https://github.com/MaritimeCloud/MaritimeCloudPortal/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -273,5 +272,6 @@
       "url": "https://api.github.com/repos/MaritimeCloud/MaritimeCloudPortal/git/commits/3edbaa34966d4d223622d695cef54de8043b916a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "MaritimeCloud___MaritimeCloudPortal.json"
 }

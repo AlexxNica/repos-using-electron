@@ -79,19 +79,12 @@
       "prod:electron": "electron src/bootstrap/electron/main.prod.js",
       "dev:electron": "electron src/bootstrap/electron/main.dev.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ddteeter/desktender.git"
-    },
+    "repository": "https://github.com/ddteeter/desktender",
     "keywords": [
       "standing_desk",
       "menu_bar",
       "electron"
     ],
-    "author": "heavydutydev.com",
-    "bugs": {
-      "url": "https://github.com/ddteeter/desktender/issues"
-    },
     "homepage": "https://github.com/ddteeter/desktender#readme",
     "dependencies": {
       "@angular/common": "2.0.0-rc.4",
@@ -118,6 +111,12 @@
       "typings": "^1.0.4",
       "webpack": "^1.13.1",
       "webpack-dev-server": "^1.14.1"
+    },
+    "other": {
+      "author": "heavydutydev.com",
+      "bugs": {
+        "url": "https://github.com/ddteeter/desktender/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -145,5 +144,6 @@
       "url": "https://api.github.com/repos/ddteeter/desktender/git/commits/556897040d057ca08dd87bcadd09d12693d23bd1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ddteeter___desktender.json"
 }

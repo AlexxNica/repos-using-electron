@@ -60,25 +60,24 @@
       "start": "electron .",
       "build": "electron-packager /Users/makxxx/workspace/sites/wordpress-admin/ --platform=darwin --arch=x64 --overwrite --out=bin --tmpdir=false"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-packager": "^7.5.0",
       "electron-prebuilt": "^1.2.0"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/umbrella-yuri-makarenko/wordpress-admin/git/commits/81b0c62a83d3fe392df028de5f7022f6c5725144",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "umbrella-yuri-makarenko___wordpress-admin.json"
 }

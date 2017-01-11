@@ -79,15 +79,8 @@
       "electron-rebuild": "./node_modules/.bin/electron-rebuild",
       "build": "electron-packager ./build-app 'name_app' --version=1.0.1 --platform=darwin --arch=x64"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/ea2305/Electron-WebPack-Boilerplate_IRIDIUM.git"
-    },
-    "author": "Elihu A. Cruz Albores",
+    "repository": "https://github.com/ea2305/Electron-WebPack-Boilerplate_IRIDIUM",
     "license": "ISC",
-    "bugs": {
-      "url": ""
-    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -110,7 +103,13 @@
       "webpack": "^1.13.2",
       "webpack-dev-server": "^1.16.1"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "other": {
+      "author": "Elihu A. Cruz Albores",
+      "bugs": {
+        "url": ""
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -137,5 +136,6 @@
       "url": "https://api.github.com/repos/ea2305/Electron-WebPack-Boilerplate_IRIDIUM/git/commits/46bc868f349b861750886c12b00d2c6f5b8fd0e1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ea2305___Electron-WebPack-Boilerplate_IRIDIUM.json"
 }

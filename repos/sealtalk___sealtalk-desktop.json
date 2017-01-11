@@ -91,7 +91,6 @@
     "version": "1.0.2",
     "description": "SealTalk Desktop application.",
     "main": "main.js",
-    "author": "RongCloud",
     "license": "MIT",
     "package": {
       "runtime": "electron",
@@ -110,18 +109,12 @@
       "release:win": "npm run package:win && npm run installer:win"
     },
     "packageNameTemplate": "{{name}}-v{{version}}-{{platform}}-{{arch}}",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/sealtalk/sealtalk-desktop.git"
-    },
+    "repository": "https://github.com/sealtalk/sealtalk-desktop",
     "keywords": [
       "SealTalk",
       "RongCloud",
       "IM"
     ],
-    "bugs": {
-      "url": "https://github.com/sealtalk/sealtalk-desktop/issues"
-    },
     "homepage": "https://github.com/sealtalk/sealtalk-desktop#readme",
     "devDependencies": {
       "electron-builder": "^2.6.0",
@@ -145,6 +138,12 @@
       "jsonfile": "^2.2.3",
       "log4js": "^0.6.36",
       "nodobjc": "^2.1.0"
+    },
+    "other": {
+      "author": "RongCloud",
+      "bugs": {
+        "url": "https://github.com/sealtalk/sealtalk-desktop/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -170,5 +169,6 @@
       "url": "https://api.github.com/repos/sealtalk/sealtalk-desktop/git/commits/980a88546edb170b511473ab52373dcba1da5ed5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sealtalk___sealtalk-desktop.json"
 }

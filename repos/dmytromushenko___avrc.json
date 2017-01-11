@@ -124,26 +124,11 @@
         ]
       }
     },
-    "directories": {
-      "buildResources": "resources",
-      "output": "release"
-    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
-    },
-    "author": {
-      "name": "C. T. Lin",
-      "email": "chentsulin@gmail.com",
-      "url": "https://github.com/chentsulin"
-    },
+    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
-    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -231,6 +216,20 @@
     "devEngines": {
       "node": ">=6.x",
       "npm": ">=3.x"
+    },
+    "other": {
+      "author": {
+        "name": "C. T. Lin",
+        "email": "chentsulin@gmail.com",
+        "url": "https://github.com/chentsulin"
+      },
+      "bugs": {
+        "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+      },
+      "directories": {
+        "buildResources": "resources",
+        "output": "release"
+      }
     }
   },
   "packageStatus": 200,
@@ -258,5 +257,6 @@
       "url": "https://api.github.com/repos/dmytromushenko/avrc/git/commits/1f2adb0b0fa08348ff42a539e783df75a904d91b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dmytromushenko___avrc.json"
 }

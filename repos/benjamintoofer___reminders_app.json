@@ -74,21 +74,20 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/benjamintoofer/reminders_app.git"
-    },
-    "author": "Benjamin Toofer",
+    "repository": "https://github.com/benjamintoofer/reminders_app",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/benjamintoofer/reminders_app/issues"
-    },
     "homepage": "https://github.com/benjamintoofer/reminders_app#readme",
     "devDependencies": {
       "electron": "^1.4.3"
     },
     "dependencies": {
       "electron-json-storage": "^2.0.1"
+    },
+    "other": {
+      "author": "Benjamin Toofer",
+      "bugs": {
+        "url": "https://github.com/benjamintoofer/reminders_app/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -114,5 +113,6 @@
       "url": "https://api.github.com/repos/benjamintoofer/reminders_app/git/commits/8da2be1a595f7d6a3951430dc04e64a17078805a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "benjamintoofer___reminders_app.json"
 }

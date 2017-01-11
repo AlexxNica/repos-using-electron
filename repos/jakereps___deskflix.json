@@ -57,19 +57,12 @@
       "build:mac": "electron-packager . --platform=darwin --arch=x64",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jakereps/deskflix.git"
-    },
+    "repository": "https://github.com/jakereps/deskflix",
     "keywords": [
       "Netflix",
       "Desktop"
     ],
-    "author": "Jorden Kreps",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/jakereps/deskflix/issues"
-    },
     "homepage": "https://github.com/jakereps/deskflix#readme",
     "devDependencies": {
       "babel-cli": "^6.11.4",
@@ -87,6 +80,12 @@
       "glob": "^7.0.5",
       "mocha": "^3.0.0",
       "webpack": "^1.13.1"
+    },
+    "other": {
+      "author": "Jorden Kreps",
+      "bugs": {
+        "url": "https://github.com/jakereps/deskflix/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -134,5 +133,6 @@
       "url": "https://api.github.com/repos/jakereps/deskflix/git/commits/8fea54c83309c7d1f181a08a248b8ded0bf233ec",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jakereps___deskflix.json"
 }

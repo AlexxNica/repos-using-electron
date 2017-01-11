@@ -80,22 +80,11 @@
       "start": "ENVIRONMENT=DEV ./node_modules/.bin/electron .",
       "watch": "./node_modules/.bin/webpack-dev-server --hot --inline"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/farnabaz/darling.git"
-    },
+    "repository": "https://github.com/farnabaz/darling",
     "keywords": [
       "Hexo"
     ],
-    "author": {
-      "name": "Farnabaz",
-      "email": "farnabaz@gmail.com",
-      "url": "http://farnabaz.ir"
-    },
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/farnabaz/darling/issues"
-    },
     "homepage": "https://github.com/farnabaz/darling#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.8",
@@ -119,6 +108,16 @@
       "react-dom": "^15.3.0",
       "react-modal": "^1.4.0",
       "yamljs": "^0.2.8"
+    },
+    "other": {
+      "author": {
+        "name": "Farnabaz",
+        "email": "farnabaz@gmail.com",
+        "url": "http://farnabaz.ir"
+      },
+      "bugs": {
+        "url": "https://github.com/farnabaz/darling/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -147,5 +146,6 @@
       "url": "https://api.github.com/repos/farnabaz/darling/git/commits/d846091a0e4f9cd74a76f269d552319970ca9bd3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "farnabaz___darling.json"
 }

@@ -91,13 +91,7 @@
     "version": "0.4.2",
     "description": "Zulip Desktop App",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/zulip/zulip-electron.git"
-    },
-    "bugs": {
-      "url": "https://github.com/zulip/zulip-electron/issues"
-    },
+    "repository": "https://github.com/zulip/zulip-electron",
     "main": "app/main/index.js",
     "scripts": {
       "start": "electron .",
@@ -159,6 +153,11 @@
         "browser",
         "mocha"
       ]
+    },
+    "other": {
+      "bugs": {
+        "url": "https://github.com/zulip/zulip-electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -192,5 +191,6 @@
       "url": "https://api.github.com/repos/zulip/zulip-electron/git/commits/c065a3cce60eb465df78fc0a40671f58639f93e0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zulip___zulip-electron.json"
 }

@@ -75,18 +75,11 @@
       "prestart": "npm install",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/e-xtrategy/electron-file-editor.git"
-    },
+    "repository": "https://github.com/e-xtrategy/electron-file-editor",
     "keywords": [
       "electron"
     ],
-    "author": "e-xtrategy",
     "license": "WTFPL",
-    "bugs": {
-      "url": "https://github.com/e-xtrategy/electron-file-editor/issues"
-    },
     "homepage": "https://github.com/e-xtrategy/electron-file-editor#readme",
     "devDependencies": {
       "babel-core": "6.7.7",
@@ -101,6 +94,12 @@
       "react": "15.0.2",
       "react-dom": "15.0.2",
       "react-tap-event-plugin": "1.0.0"
+    },
+    "other": {
+      "author": "e-xtrategy",
+      "bugs": {
+        "url": "https://github.com/e-xtrategy/electron-file-editor/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/e-xtrategy/electron-file-editor/git/commits/be3455f5115c4b510818b81281ae8dba4955aa4f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "e-xtrategy___electron-file-editor.json"
 }

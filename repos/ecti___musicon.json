@@ -69,7 +69,6 @@
     "name": "musicon",
     "version": "1.0.0",
     "description": "music player",
-    "author": "EricT",
     "main": "src/browser/main.js",
     "scripts": {
       "start": "electron src/browser/main.js"
@@ -91,7 +90,10 @@
       "gulp-concat": "^2.6.0",
       "vinyl-source-stream": "^1.1.0"
     },
-    "license": "ISC"
+    "license": "ISC",
+    "other": {
+      "author": "EricT"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -118,5 +120,6 @@
       "url": "https://api.github.com/repos/ecti/musicon/git/commits/60e5edc2f1b719fe18f41d300476195f2adb0c7e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ecti___musicon.json"
 }

@@ -80,16 +80,12 @@
       "start": "electron app/app.js --config=app/db",
       "test": "mocha tests"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Teloah/avocado-electro.git"
-    },
+    "repository": "https://github.com/Teloah/avocado-electro",
     "keywords": [
       "Avocado Lex",
       "Reports",
       "Electron"
     ],
-    "author": "Andris Klaipins",
     "license": "GPL-3.0",
     "jshintConfig": {
       "esversion": 6,
@@ -116,6 +112,9 @@
       "electron-reload": "1.0.2",
       "jquery": "~2.2.4",
       "yargs": "4.7.1"
+    },
+    "other": {
+      "author": "Andris Klaipins"
     }
   },
   "packageStatus": 200,
@@ -143,5 +142,6 @@
       "url": "https://api.github.com/repos/Teloah/avocado-electro/git/commits/c66b88b03a0dc943f9477e27b87e866886a5a020",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Teloah___avocado-electro.json"
 }

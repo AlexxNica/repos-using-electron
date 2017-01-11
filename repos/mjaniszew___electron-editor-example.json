@@ -61,19 +61,18 @@
       "start": "electron .",
       "build": "electron-packager . MyEditor --out=./build --platform=darwin --arch=x64 --version=0.35.1 --asar --overwrite --ignore=\"node_modules|build\""
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mjaniszew/electron-editor-example.git"
-    },
-    "author": "Michal Janiszewski",
+    "repository": "https://github.com/mjaniszew/electron-editor-example",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/mjaniszew/electron-editor-example/issues"
-    },
     "homepage": "https://github.com/mjaniszew/electron-editor-example#readme",
     "devDependencies": {
       "electron-packager": "^5.1.1",
       "electron-prebuilt": "^0.35.1"
+    },
+    "other": {
+      "author": "Michal Janiszewski",
+      "bugs": {
+        "url": "https://github.com/mjaniszew/electron-editor-example/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -101,5 +100,6 @@
       "url": "https://api.github.com/repos/mjaniszew/electron-editor-example/git/commits/9f2187c011801dd6c5ffbcf9041e31475dbe1f60",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mjaniszew___electron-editor-example.json"
 }

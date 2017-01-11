@@ -63,15 +63,8 @@
       "test": "mocha test/test.js --timeout 8000",
       "prepublish": "in-publish && npm-run-all lint clean build || not-in-publish"
     },
-    "author": "BJR Matos <bjrmatos@gmail.com> (https://github.com/bjrmatos)",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/bjrmatos/electron-html-to.git"
-    },
-    "bugs": {
-      "url": "https://github.com/bjrmatos/electron-html-to/issues"
-    },
+    "repository": "https://github.com/bjrmatos/electron-html-to",
     "homepage": "https://github.com/bjrmatos/electron-html-to",
     "keywords": [
       "html",
@@ -106,6 +99,12 @@
       "npm-run-all": "2.1.1",
       "rimraf": "2.5.2",
       "should": "9.0.0"
+    },
+    "other": {
+      "author": "BJR Matos <bjrmatos@gmail.com> (https://github.com/bjrmatos)",
+      "bugs": {
+        "url": "https://github.com/bjrmatos/electron-html-to/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -154,5 +153,6 @@
       "url": "https://api.github.com/repos/bjrmatos/electron-html-to/git/commits/d811ffa9002c0ea6d376021bee39315524bfe04a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "bjrmatos___electron-html-to.json"
 }

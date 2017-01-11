@@ -89,18 +89,11 @@
       "elm-make": "elm make src/Main.elm --output app/elm.js",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/elmcast/elm-ide.git"
-    },
+    "repository": "https://github.com/elmcast/elm-ide",
     "keywords": [
       "Elm"
     ],
-    "author": "Joseph Hager",
     "license": "BSD-3-Clause",
-    "bugs": {
-      "url": "https://github.com/elmcast/elm-ide/issues"
-    },
     "homepage": "https://github.com/elmcast/elm-ide#readme",
     "devDependencies": {
       "electron": "^1.4.3",
@@ -108,6 +101,12 @@
     },
     "dependencies": {
       "neovim-client": "^2.1.0"
+    },
+    "other": {
+      "author": "Joseph Hager",
+      "bugs": {
+        "url": "https://github.com/elmcast/elm-ide/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -135,5 +134,6 @@
       "url": "https://api.github.com/repos/ElmCast/elm-ide/git/commits/db5d3c9f3df964d201487ce2dd34d5ca1194b7a7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ElmCast___elm-ide.json"
 }

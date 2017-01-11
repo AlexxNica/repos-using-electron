@@ -67,7 +67,6 @@
       "build:node": "browserify -t babelify ./boot.js -d --im --no-detect-globals --node | exorcist ./dist/boot.js.map > ./dist/boot.js",
       "build:client": "browserify -t babelify app/index.js -d | exorcist ./app/dist/js/bundle.js.map > ./app/dist/js/bundle.js"
     },
-    "author": "mactkg <mactkg@gmail.com> (http://makerbox.net/)",
     "license": "ISC",
     "dependencies": {
       "brace": "^0.7.0",

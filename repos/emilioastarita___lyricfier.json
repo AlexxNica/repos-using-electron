@@ -89,21 +89,14 @@
       "pretest": "tsc test/*Test.ts --module commonjs && tsc",
       "test": "mocha"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/emilioastarita/lyrics-spotify.git"
-    },
+    "repository": "https://github.com/emilioastarita/lyrics-spotify",
     "keywords": [
       "spotify",
       "lyrics",
       "electron",
       "nodejs"
     ],
-    "author": "Emilio Astarita",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/emilioastarita/lyrics-spotify/issues"
-    },
     "homepage": "https://github.com/emilioastarita/lyrics-spotify#readme",
     "dependencies": {
       "async": "^2.0.1",
@@ -130,6 +123,12 @@
       "gulp-less": "^3.1.0",
       "gulp-livereload": "^3.8.1",
       "typescript": "^2.0.0"
+    },
+    "other": {
+      "author": "Emilio Astarita",
+      "bugs": {
+        "url": "https://github.com/emilioastarita/lyrics-spotify/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -160,5 +159,6 @@
       "url": "https://api.github.com/repos/emilioastarita/lyricfier/git/commits/3bd6c97e8e4ac78ecb16c036136bd37e9fbe3f79",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "emilioastarita___lyricfier.json"
 }

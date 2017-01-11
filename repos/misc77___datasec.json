@@ -70,9 +70,6 @@
     "version": "0.1.0",
     "description": "Datenschutz Berechtigungskonzept",
     "main": "server.js",
-    "directories": {
-      "test": "test"
-    },
     "dependencies": {
       "accepts": "^1.2.13",
       "angular-route": "^1.4.7",
@@ -127,20 +124,22 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "node server.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://misc29377@gmail.com@github.com/misc77/datasec.git"
-    },
+    "repository": "https://github.com/misc77/datasec",
     "keywords": [
       "Datenschutz",
       "Berechtigungskonzept"
     ],
-    "author": "Michael Schneider",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/misc77/datasec/issues"
-    },
-    "homepage": "https://github.com/misc77/datasec#readme"
+    "homepage": "https://github.com/misc77/datasec#readme",
+    "other": {
+      "author": "Michael Schneider",
+      "bugs": {
+        "url": "https://github.com/misc77/datasec/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -167,5 +166,6 @@
       "url": "https://api.github.com/repos/misc77/datasec/git/commits/3ea92bc74312c3162e9d10db4d821be908ddbde3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "misc77___datasec.json"
 }

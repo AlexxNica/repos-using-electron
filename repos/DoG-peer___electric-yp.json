@@ -70,10 +70,7 @@
     "version": "0.0.1",
     "description": "yp-viewer made by electron",
     "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/DoG-peer/electric-yp.git"
-    },
+    "repository": "https://github.com/DoG-peer/electric-yp",
     "scripts": {
       "start": "electron ./build",
       "setup": "npm i; gulp",
@@ -82,7 +79,6 @@
     "keywords": [
       "peercast"
     ],
-    "author": "DoG",
     "license": "ISC",
     "devDependencies": {
       "coffee-script": "^1.9.3",
@@ -102,6 +98,9 @@
       "material-ui": "^0.10.1",
       "react": "^0.13.3",
       "react-tap-event-plugin": "^0.1.7"
+    },
+    "other": {
+      "author": "DoG"
     }
   },
   "packageStatus": 200,
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/DoG-peer/electric-yp/git/commits/80e9c657f8d748f836f25c4131157bad11dc8e3a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DoG-peer___electric-yp.json"
 }

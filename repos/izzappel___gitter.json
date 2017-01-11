@@ -76,10 +76,7 @@
       "start": "electron build/main.bundle.js",
       "watch": "./node_modules/.bin/webpack-dev-server --port 8182"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/izzappel/gitter.git"
-    },
+    "repository": "https://github.com/izzappel/gitter",
     "engines": {
       "electron": "0.36.12"
     },
@@ -90,11 +87,7 @@
       "react",
       "webpack"
     ],
-    "author": "Isabel Züger",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/izzappel/gitter/issues"
-    },
     "homepage": "https://github.com/izzappel/gitter#readme",
     "devDependencies": {
       "babel-core": "^6.5.2",
@@ -121,6 +114,12 @@
       "redux": "^3.5.2",
       "redux-thunk": "^2.1.0",
       "react-split-pane": "^0.1.44"
+    },
+    "other": {
+      "author": "Isabel Züger",
+      "bugs": {
+        "url": "https://github.com/izzappel/gitter/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -148,5 +147,6 @@
       "url": "https://api.github.com/repos/izzappel/gitter/git/commits/ab033bd2fc2cb86e3fb965412aa333699826b660",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "izzappel___gitter.json"
 }

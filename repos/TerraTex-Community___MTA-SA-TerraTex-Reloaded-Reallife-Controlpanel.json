@@ -89,7 +89,6 @@
     "name": "terratex-reloaded-reallife-controlpanel",
     "version": "0.0.1",
     "description": "TerraTex Reloaded Reallife Controlpanel",
-    "author": "TerraTex Community",
     "homepage": "http://mta-cp.terratex.eu/",
     "license": "MIT",
     "dependencies": {
@@ -230,16 +229,16 @@
       "postversion": "git push && git push --tags",
       "electron": "electron ./src/electron/main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/TerraTex-Community/MTA-SA-TerraTex-Reloaded-Reallife-Controlpanel.git"
-    },
-    "bugs": {
-      "url": "https://github.com/TerraTex-Community/MTA-SA-TerraTex-Reloaded-Reallife-Controlpanel/issues"
-    },
+    "repository": "https://github.com/TerraTex-Community/MTA-SA-TerraTex-Reloaded-Reallife-Controlpanel",
     "engines": {
       "node": ">= 4.2.1",
       "npm": ">= 3"
+    },
+    "other": {
+      "author": "TerraTex Community",
+      "bugs": {
+        "url": "https://github.com/TerraTex-Community/MTA-SA-TerraTex-Reloaded-Reallife-Controlpanel/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -267,5 +266,6 @@
       "url": "https://api.github.com/repos/TerraTex-Community/MTA-SA-TerraTex-Reloaded-Reallife-Controlpanel/git/commits/645efeff9939d1b0c65371b3b66a64ac1bbde353",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "TerraTex-Community___MTA-SA-TerraTex-Reloaded-Reallife-Controlpanel.json"
 }

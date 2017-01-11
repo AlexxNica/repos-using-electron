@@ -56,9 +56,6 @@
     "version": "1.0.0",
     "description": "A filesystem directory sorter that will sort the contents of a folder dependent on user specified rules.",
     "main": "client/logic/index.js",
-    "directories": {
-      "test": "test"
-    },
     "devDependencies": {
       "electron-prebuilt": "^0.33.6",
       "grunt": "^0.4.5",
@@ -77,19 +74,21 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/simonlovesyou/simon-says.git"
-    },
+    "repository": "https://github.com/simonlovesyou/simon-says",
     "keywords": [
       "fs"
     ],
-    "author": "simonlovesyou",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/simonlovesyou/Simon-says/issues"
-    },
-    "homepage": "https://github.com/simonlovesyou/Simon-says"
+    "homepage": "https://github.com/simonlovesyou/Simon-says",
+    "other": {
+      "author": "simonlovesyou",
+      "bugs": {
+        "url": "https://github.com/simonlovesyou/Simon-says/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -116,5 +115,6 @@
       "url": "https://api.github.com/repos/simonlovesyou/Simon-Says/git/commits/63f418f977e2c3a2b4b219df78081f4f3272fd14",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "simonlovesyou___Simon-Says.json"
 }

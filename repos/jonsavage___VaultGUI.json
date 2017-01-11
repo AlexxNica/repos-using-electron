@@ -54,11 +54,7 @@
       "start": "electron app.js",
       "test": "gulp"
     },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:jonsavage/VaultGUI.git"
-    },
-    "author": "Jon Savage",
+    "repository": "https://github.com/jonsavage/VaultGUI",
     "devDependencies": {
       "bootstrap": "~>3.3.7",
       "electron-prebuilt": "~1.2.1",
@@ -70,6 +66,9 @@
     },
     "dependencies": {
       "phantom": "^2.1.17"
+    },
+    "other": {
+      "author": "Jon Savage"
     }
   },
   "packageStatus": 200,
@@ -118,5 +117,6 @@
       "url": "https://api.github.com/repos/jonsavage/VaultGUI/git/commits/f3751c1f12c1c915cf2f118e11d81583b68b6e69",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jonsavage___VaultGUI.json"
 }

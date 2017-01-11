@@ -80,15 +80,14 @@
       "start": "electron main.js",
       "package": "electron-packager . brainfm --all --version=0.35.1 --out=./out --overwrite --icon=./brainfm.ico"
     },
-    "author": "Dinius",
     "license": "MIT",
     "homepage": "https://brain.fm",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/atom/electron-quick-start.git"
-    },
+    "repository": "https://github.com/atom/electron-quick-start",
     "devDependencies": {
       "electron-prebuilt": "^0.35.0"
+    },
+    "other": {
+      "author": "Dinius"
     }
   },
   "packageStatus": 200,
@@ -116,5 +115,6 @@
       "url": "https://api.github.com/repos/Dinius/Brain.fm-Desktop-Client/git/commits/ef3041307a76ebf43305580d703f0136cc340951",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Dinius___Brain.fm-Desktop-Client.json"
 }

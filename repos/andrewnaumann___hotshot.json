@@ -79,20 +79,13 @@
     "scripts": {
       "package": "electron-packager ./ Hotshot --platform=darwin --arch=x64 --version=0.37.2 --prune --overwrite --icon=hotshot.icns"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/andrewnaumann/hotshot.git"
-    },
+    "repository": "https://github.com/andrewnaumann/hotshot",
     "keywords": [
       "Electron",
       "Hotshot",
       "Dribbble"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/andrewnaumann/hotshot/issues"
-    },
     "homepage": "http://anaumann.com/hotshot",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -102,6 +95,12 @@
       "font-awesome": "^4.5.0",
       "menubar": "^4.0.2",
       "vue": "^1.0.17"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/andrewnaumann/hotshot/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -142,5 +141,6 @@
       "url": "https://api.github.com/repos/andrewnaumann/hotshot/git/commits/f57f793148dd0cb96e8a3346a8af1d449c792bef",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "andrewnaumann___hotshot.json"
 }

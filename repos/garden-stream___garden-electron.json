@@ -103,7 +103,6 @@
       "postinstall": "npm run lint:fix && cd app && npm install",
       "vue:route": "node tasks/vue/route.js"
     },
-    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -151,6 +150,9 @@
       "trianglify": "^1.0.1",
       "vuex": "^2.0.0",
       "webremix": "^1.1.0"
+    },
+    "other": {
+      "author": "Greg Holguin <simulatedgreg@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -180,5 +182,6 @@
       "url": "https://api.github.com/repos/garden-stream/garden-electron/git/commits/90c966112c05a516f2edd42e318078f2734b4b47",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "garden-stream___garden-electron.json"
 }

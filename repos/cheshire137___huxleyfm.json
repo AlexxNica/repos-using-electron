@@ -79,11 +79,6 @@
     "description": "An unofficial desktop app for listening to SomaFM radio stations.",
     "license": "MIT",
     "repository": "cheshire137/huxleyfm",
-    "author": {
-      "name": "Sarah Vessels",
-      "email": "cheshire137@gmail.com",
-      "url": "3till7.net"
-    },
     "scripts": {
       "test": "node_modules/jscs/bin/jscs -c .jscsrc . && if [ \"$TRAVIS_OS_NAME\" != \"osx\" ]; then NODE_ENV=test node_modules/mocha/bin/mocha; fi",
       "postinstall": "if [ ! -f config.json ]; then cp config.json.example config.json; fi",
@@ -153,6 +148,13 @@
       "mockery": "^1.7.0",
       "simple-git": "^1.37.0",
       "spectron": "^3.2.0"
+    },
+    "other": {
+      "author": {
+        "name": "Sarah Vessels",
+        "email": "cheshire137@gmail.com",
+        "url": "3till7.net"
+      }
     }
   },
   "packageStatus": 200,
@@ -181,5 +183,6 @@
       "url": "https://api.github.com/repos/cheshire137/huxleyfm/git/commits/6ff3281d53e0ec8167f4f772591e6bdcde0ddaf8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cheshire137___huxleyfm.json"
 }

@@ -75,14 +75,10 @@
     "name": "strava-bulk-edit",
     "description": "A plugin to add bulk editing to activities on Strava.com.",
     "version": "1.0.3",
-    "author": "Luke Karrys <luke@lukekarrys.com>",
     "browserify": {
       "transform": [
         "babelify"
       ]
-    },
-    "bugs": {
-      "url": "https://github.com/lukekarrys/strava-bulk-edit/issues"
     },
     "dependencies": {
       "lodash.pull": "^4.1.0"
@@ -119,10 +115,7 @@
       "validate",
       "test"
     ],
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/lukekarrys/strava-bulk-edit.git"
-    },
+    "repository": "https://github.com/lukekarrys/strava-bulk-edit",
     "scripts": {
       "debug": "npm run development && cat dist/StravaBulkEdit.dev.js | pbcopy",
       "development": "webpack src/index.js dist/StravaBulkEdit.dev.js",
@@ -137,6 +130,12 @@
         "dist/**"
       ],
       "parser": "babel-eslint"
+    },
+    "other": {
+      "author": "Luke Karrys <luke@lukekarrys.com>",
+      "bugs": {
+        "url": "https://github.com/lukekarrys/strava-bulk-edit/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -166,5 +165,6 @@
       "url": "https://api.github.com/repos/lukekarrys/strava-bulk-edit/git/commits/8d512b9cb0f7a067153607b67365a9230cacac51",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lukekarrys___strava-bulk-edit.json"
 }

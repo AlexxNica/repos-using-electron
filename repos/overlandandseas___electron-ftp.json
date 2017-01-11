@@ -74,7 +74,6 @@
       "start": "electron ./app/main.js",
       "build": "electron-packager ./ \"electronftp\" --platform=darwin --arch=x64 --version=1.4.1 --overwrite"
     },
-    "author": "Lucas Overland",
     "license": "WTFPL",
     "devDependencies": {
       "electron": "1.4.1",
@@ -82,6 +81,9 @@
     },
     "dependencies": {
       "ftp": "0.3.10"
+    },
+    "other": {
+      "author": "Lucas Overland"
     }
   },
   "packageStatus": 200,
@@ -109,5 +111,6 @@
       "url": "https://api.github.com/repos/overlandandseas/electron-ftp/git/commits/ad7e750dcbec7b5568a2a607e41ee162e0b3c97b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "overlandandseas___electron-ftp.json"
 }

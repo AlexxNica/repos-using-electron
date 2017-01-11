@@ -76,10 +76,7 @@
       "beginDev": "npm install",
       "endDev": "npm uninstall"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Cranite/GJWB.git"
-    },
+    "repository": "https://github.com/Cranite/GJWB",
     "keywords": [
       "gjwb",
       "world",
@@ -92,11 +89,7 @@
       "Jerry",
       "Gretzinger"
     ],
-    "author": "Cranite",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/Cranite/GJWB/issues"
-    },
     "homepage": "https://github.com/Cranite/GJWB#readme",
     "dependencies": {
       "appdirectory": "^0.1.0",
@@ -107,6 +100,12 @@
     },
     "devDependencies": {
       "electron-prebuilt": "^1.2.2"
+    },
+    "other": {
+      "author": "Cranite",
+      "bugs": {
+        "url": "https://github.com/Cranite/GJWB/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -132,5 +131,6 @@
       "url": "https://api.github.com/repos/Cranite/GJWB/git/commits/7e37aea6c585238491b863f59f1db5d206765184",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Cranite___GJWB.json"
 }

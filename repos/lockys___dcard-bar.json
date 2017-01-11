@@ -77,8 +77,10 @@
       "build-win-32": "electron-packager . dcard --platform=win32 --arch=ia32 --version=0.34.2 --overwrite --icon=Icon.ico --version-string.ProductName=dcard-bar",
       "start": "electron ."
     },
-    "author": "Calvin Jeng <locky4567@gmail.com> (https://github.com/lockys)",
-    "license": "MIT"
+    "license": "MIT",
+    "other": {
+      "author": "Calvin Jeng <locky4567@gmail.com> (https://github.com/lockys)"
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/lockys/dcard-bar",
@@ -125,5 +127,6 @@
       "url": "https://api.github.com/repos/lockys/dcard-bar/git/commits/7f5f47a37102e77a2aa923f0378397243bb4d46f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lockys___dcard-bar.json"
 }

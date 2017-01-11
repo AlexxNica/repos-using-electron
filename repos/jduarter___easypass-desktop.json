@@ -75,16 +75,8 @@
     "name": "EasyPass-desktop",
     "description": "EasyPass desktop application for Windows, Linux and OS X.",
     "version": "0.0.1",
-    "author": {
-      "name": "Jorge Duarte Rodriguez",
-      "email": "info@malagadev.com",
-      "url": "http://www.malagadev.com/"
-    },
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/jduarter/easypass-desktop.git"
-    },
+    "repository": "https://github.com/jduarter/easypass-desktop",
     "main": "main.js",
     "scripts": {
       "test": "standard && mocha --recursive",
@@ -182,6 +174,13 @@
     },
     "dependencies": {
       "photon": "^2.0.0"
+    },
+    "other": {
+      "author": {
+        "name": "Jorge Duarte Rodriguez",
+        "email": "info@malagadev.com",
+        "url": "http://www.malagadev.com/"
+      }
     }
   },
   "packageStatus": 200,
@@ -209,5 +208,6 @@
       "url": "https://api.github.com/repos/jduarter/easypass-desktop/git/commits/d9ff87da4915360ca9c9639764b9a74099e9e312",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jduarter___easypass-desktop.json"
 }

@@ -94,16 +94,9 @@
       "build": "node ./build/build.js",
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/christmedical/christ-medical.git"
-    },
+    "repository": "https://github.com/christmedical/christ-medical",
     "keywords": [],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/christmedical/christ-medical/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "bootstrap-sass": "^3.3.6",
@@ -120,7 +113,13 @@
       "vue-router": "^0.7.13",
       "vuex": "^0.6.3"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/christmedical/christ-medical/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -148,5 +147,6 @@
       "url": "https://api.github.com/repos/christmedical/christ-medical/git/commits/596a711b16b3b1d176a39dec7ba352ef773af684",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "christmedical___christ-medical.json"
 }

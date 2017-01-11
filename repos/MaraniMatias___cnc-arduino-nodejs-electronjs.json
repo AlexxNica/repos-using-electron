@@ -102,20 +102,13 @@
       "start": "grunt run",
       "test": "mocha ./tests/**/*.js"
     },
-    "author": {
-      "name": "Marani Matias Ezequiel",
-      "email": "maranimatias@gmail.com"
-    },
     "engines": {
       "node": "~6.3.0",
       "npm": "~3.8.9"
     },
     "private": false,
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/MaraniMatias/router-cnc-nodejs-arduino"
-    },
+    "repository": "https://github.com/MaraniMatias/router-cnc-nodejs-arduino",
     "keywords": [
       "cnc",
       "arduino",
@@ -125,11 +118,6 @@
       "serialport",
       "gcode"
     ],
-    "directories": {
-      "buildResources": "build",
-      "output": "./dist",
-      "app": "./app"
-    },
     "build": {
       "asar": false,
       "compression": "maximum",
@@ -148,6 +136,17 @@
         "executable": "CNC-ino",
         "target": "deb",
         "compression": "xz"
+      }
+    },
+    "other": {
+      "author": {
+        "name": "Marani Matias Ezequiel",
+        "email": "maranimatias@gmail.com"
+      },
+      "directories": {
+        "buildResources": "build",
+        "output": "./dist",
+        "app": "./app"
       }
     }
   },
@@ -176,5 +175,6 @@
       "url": "https://api.github.com/repos/MaraniMatias/cnc-arduino-nodejs-electronjs/git/commits/05169312a4f1b1c5a48a2891cd78caa942e1ea06",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "MaraniMatias___cnc-arduino-nodejs-electronjs.json"
 }

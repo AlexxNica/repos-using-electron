@@ -61,18 +61,11 @@
       "watch": "./node_modules/.bin/webpack-dev-server",
       "electron-rebuild": "./node_modules/.bin/electron-rebuild"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/stefan-moraru/itmarathon.git"
-    },
+    "repository": "https://github.com/stefan-moraru/itmarathon",
     "keywords": [
       "itmarathon"
     ],
-    "author": "Stefan Moraru",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/stefan-moraru/itmarathon/issues"
-    },
     "homepage": "https://github.com/stefan-moraru/itmarathon#readme",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -95,6 +88,12 @@
       "react": "^15.1.0",
       "react-chartjs": "^0.7.3",
       "react-dom": "^15.1.0"
+    },
+    "other": {
+      "author": "Stefan Moraru",
+      "bugs": {
+        "url": "https://github.com/stefan-moraru/itmarathon/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -142,5 +141,6 @@
       "url": "https://api.github.com/repos/stefan-moraru/forestsimulator/git/commits/3a00034e5915c2efeb853e3983d2f67becb8c6d9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "stefan-moraru___forestsimulator.json"
 }

@@ -82,14 +82,7 @@
       "clipboard",
       "react"
     ],
-    "author": {
-      "name": "Janaka Stevens",
-      "email": "jmstevens@calitek.com"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/calitek/Clippets.git"
-    },
+    "repository": "https://github.com/calitek/Clippets",
     "scripts": {
       "start": "electron .",
       "node": "nodemon --watch js js/server.js",
@@ -97,9 +90,6 @@
       "testw": "npm test -- --watch",
       "ww": "webpack --progress --profile --colors --no-minimize --watch",
       "nw": "webpack --progress --profile --colors --no-minimize"
-    },
-    "bugs": {
-      "url": "https://github.com/calitek/Clippets/issues"
     },
     "dependencies": {
       "async": "latest",
@@ -139,6 +129,15 @@
       "sinon": "latest",
       "traverse": "latest",
       "webpack": "latest"
+    },
+    "other": {
+      "author": {
+        "name": "Janaka Stevens",
+        "email": "jmstevens@calitek.com"
+      },
+      "bugs": {
+        "url": "https://github.com/calitek/Clippets/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -166,5 +165,6 @@
       "url": "https://api.github.com/repos/jmarkstevens/Clippets/git/commits/a49fa360332e4c7fc9f972138d1339eed47d52b4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jmarkstevens___Clippets.json"
 }

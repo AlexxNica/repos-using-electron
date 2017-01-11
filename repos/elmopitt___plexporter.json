@@ -72,7 +72,6 @@
   "subscribersCount": 0,
   "status": 200,
   "packageJSON": {
-    "author": "elmopitt",
     "name": "plexporter",
     "version": "1.0.0",
     "description": "Exporter for Plex playlists",
@@ -81,16 +80,16 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "elmopitt/plexporter"
-    },
+    "repository": "https://github.com/elmopitt/plexporter",
     "dependencies": {
       "angular": "*",
       "angular-animate": "*",
       "angular-aria": "*",
       "angular-material": "*",
       "electron": "*"
+    },
+    "other": {
+      "author": "elmopitt"
     }
   },
   "packageStatus": 200,
@@ -118,5 +117,6 @@
       "url": "https://api.github.com/repos/elmopitt/plexporter/git/commits/2204d41943e753653d2a238f9cf06628961b5b8a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "elmopitt___plexporter.json"
 }

@@ -78,21 +78,20 @@
     "scripts": {
       "test": "electron src/main-process.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/tcaer/bulb.git"
-    },
-    "author": "",
+    "repository": "https://github.com/tcaer/bulb",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/tcaer/bulb/issues"
-    },
     "homepage": "https://github.com/tcaer/bulb#readme",
     "dependencies": {
       "dexie": "^1.5.1",
       "dragula": "^3.7.2",
       "electron": "^1.4.5",
       "mousetrap": "^1.6.0"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/tcaer/bulb/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -120,5 +119,6 @@
       "url": "https://api.github.com/repos/morlauth/bulb/git/commits/5443734bf2be5ae4bf9079adcd15b52c7c52d026",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tcaer___bulb.json"
 }

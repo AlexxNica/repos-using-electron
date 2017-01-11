@@ -78,11 +78,6 @@
     "description": "Electron starter kit with Live-Reload & Dev tools",
     "license": "MIT",
     "repository": "lukeed/fly-kit-electron",
-    "author": {
-      "name": "Luke Edwards",
-      "email": "luke.edwards05@gmail.com",
-      "url": "lukeed.com"
-    },
     "scripts": {
       "build": "fly build",
       "release": "electron-packager dist --out=release --app-version=$npm_package_version --prune --asar --overwrite --all",
@@ -126,6 +121,13 @@
         "node",
         "browser"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "Luke Edwards",
+        "email": "luke.edwards05@gmail.com",
+        "url": "lukeed.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -153,5 +155,6 @@
       "url": "https://api.github.com/repos/lukeed/fly-kit-electron/git/commits/68eb324e2364aa5db0c1a7442a4145d4b0b68b2d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lukeed___fly-kit-electron.json"
 }

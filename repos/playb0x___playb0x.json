@@ -82,11 +82,6 @@
   "packageJSON": {
     "name": "playb0x",
     "version": "0.0.1",
-    "author": {
-      "name": "Futago-za Ryuu",
-      "email": "futagoza.ryuu@gmail.com",
-      "url": "http://futagoza.github.io/"
-    },
     "homepage": "http://playb0x.github.io/",
     "license": "MIT",
     "description": "The content-independent IDE",
@@ -104,13 +99,7 @@
       "project",
       "viewer"
     ],
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/playb0x/playb0x.git"
-    },
-    "bugs": {
-      "url": "https://github.com/playb0x/playb0x/issues"
-    },
+    "repository": "https://github.com/playb0x/playb0x",
     "main": "app/index.js",
     "devDependencies": {
       "electron-prebuilt": "0.34.4",
@@ -121,6 +110,16 @@
     "engines": {
       "node": ">= 4.1.1",
       "electron": ">= 0.35.0"
+    },
+    "other": {
+      "author": {
+        "name": "Futago-za Ryuu",
+        "email": "futagoza.ryuu@gmail.com",
+        "url": "http://futagoza.github.io/"
+      },
+      "bugs": {
+        "url": "https://github.com/playb0x/playb0x/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -148,5 +147,6 @@
       "url": "https://api.github.com/repos/playb0x/playb0x/git/commits/92f0b0212b3e661faf257050e3ef29a7cb14cfc3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "playb0x___playb0x.json"
 }

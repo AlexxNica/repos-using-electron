@@ -74,13 +74,9 @@
   "packageJSON": {
     "name": "azure-key-vault-explorer",
     "version": "1.0.0",
-    "author": "Lukas Holota",
     "main": "./electron.js",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/lholota/LH.Azure.KeyVaultExplorer.git"
-    },
+    "repository": "https://github.com/lholota/LH.Azure.KeyVaultExplorer",
     "scripts": {
       "start": "electron ."
     },
@@ -88,9 +84,6 @@
       "electron-prebuilt": "^0.37.5"
     },
     "description": "KeyVault GUI Client",
-    "bugs": {
-      "url": "https://github.com/lholota/LH.Azure.KeyVaultExplorer/issues"
-    },
     "homepage": "https://github.com/lholota/LH.Azure.KeyVaultExplorer#readme",
     "dependencies": {
       "electron": "^0.4.1",
@@ -108,7 +101,13 @@
     "keywords": [
       "azure",
       "key-vault"
-    ]
+    ],
+    "other": {
+      "author": "Lukas Holota",
+      "bugs": {
+        "url": "https://github.com/lholota/LH.Azure.KeyVaultExplorer/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -136,5 +135,6 @@
       "url": "https://api.github.com/repos/lholota/LH.Azure.KeyVaultExplorer/git/commits/2cd344f2e6428c4114e268847b38e43851de8415",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lholota___LH.Azure.KeyVaultExplorer.json"
 }

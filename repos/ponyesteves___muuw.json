@@ -81,21 +81,14 @@
       "start": "electron main.js",
       "test": "karma start karma.conf.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "del": "^2.2.0",
@@ -114,6 +107,12 @@
     "dependencies": {
       "leveldown": "^1.4.5",
       "pouchdb": "^5.3.1"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -141,5 +140,6 @@
       "url": "https://api.github.com/repos/ponyesteves/muuw/git/commits/1fd368ae30a1a710bc23adbf9f5a4411b2e097bd",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ponyesteves___muuw.json"
 }

@@ -83,11 +83,7 @@
       "build": "electron-packager . Monu --platform=darwin --arch=x64 --version=0.36.4 --icon=images/Monu.icns",
       "publish": "publish-release --template notes.md --assets Monu.zip"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/davidino/dockerTab"
-    },
-    "author": "David Funaro <ing.davidino@gmail.com>",
+    "repository": "https://github.com/davidino/dockerTab",
     "license": "BSD-2-Clause",
     "dependencies": {
       "debug": "^2.1.3",
@@ -111,6 +107,9 @@
       "ignore": [
         "Monu.app/**"
       ]
+    },
+    "other": {
+      "author": "David Funaro <ing.davidino@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -138,5 +137,6 @@
       "url": "https://api.github.com/repos/davidino/dockerTab/git/commits/4a72591486c41f539cb3c059491e1f41789bfe2a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "davidino___dockerTab.json"
 }

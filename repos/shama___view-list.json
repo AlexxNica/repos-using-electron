@@ -55,12 +55,8 @@
       "gh": "browserify example.js -o bundle.js",
       "test": "standard --format && browserify test.js | testron"
     },
-    "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:shama/view-list.git"
-    },
+    "repository": "https://github.com/shama/view-list",
     "files": [
       "index.js"
     ],
@@ -80,6 +76,9 @@
       "testron": "^1.2.0",
       "through2": "^0.6.5",
       "virtual-dom": "^2.0.1"
+    },
+    "other": {
+      "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)"
     }
   },
   "packageStatus": 200,
@@ -109,5 +108,6 @@
       "url": "https://api.github.com/repos/shama/view-list/git/commits/84ec8b2753704dc59f0bec2a285f649371319c31",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "shama___view-list.json"
 }

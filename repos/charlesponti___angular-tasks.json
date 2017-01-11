@@ -69,10 +69,6 @@
     "name": "angular-es6",
     "description": "An AngularJS boilerplate written with ES6",
     "version": "1.1.1",
-    "author": "Charlie Ponti <cjponti@gmail.com>",
-    "bugs": {
-      "url": "https://github.com/theponti/angular-es6/issues"
-    },
     "dependencies": {
       "ampersand-collection": "^1.4.5",
       "babel": "^5.8.20",
@@ -133,10 +129,7 @@
     ],
     "license": "MIT",
     "main": "electron.js",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/theponti/angular-es6.git"
-    },
+    "repository": "https://github.com/theponti/angular-es6",
     "scripts": {
       "clean-git": "rm -rf .git && git init",
       "build": "gulp",
@@ -150,6 +143,12 @@
       "start:prod": "gulp --env=prod && node server.js",
       "pretest": "npm run build",
       "test": "npm run karma -- start karma.conf.js"
+    },
+    "other": {
+      "author": "Charlie Ponti <cjponti@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/theponti/angular-es6/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -177,5 +176,6 @@
       "url": "https://api.github.com/repos/charlesponti/angular-tasks/git/commits/8779354c36703a0203e145e8df25066a3f2af7bd",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "charlesponti___angular-tasks.json"
 }

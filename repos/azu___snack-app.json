@@ -73,22 +73,13 @@
   "status": 200,
   "packageJSON": {
     "name": "snack-app",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/azu/snack-app.git"
-    },
+    "repository": "https://github.com/azu/snack-app",
     "email": "azuciao@gmail.com",
     "homepage": "https://github.com/azu/snack-app",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/azu/snack-app/issues"
-    },
     "version": "1.0.0",
     "description": "snack like slack.",
     "main": "snack.js",
-    "directories": {
-      "test": "test"
-    },
     "scripts": {
       "start": "electron ."
     },
@@ -97,7 +88,6 @@
       "slack",
       "webview"
     ],
-    "author": "azu",
     "devDependencies": {
       "babel-cli": "^6.14.0",
       "babel-preset-es2015": "^6.14.0",
@@ -113,6 +103,15 @@
       "mkdirp": "^0.5.1",
       "react": "^15.3.1",
       "react-dom": "^15.3.1"
+    },
+    "other": {
+      "author": "azu",
+      "bugs": {
+        "url": "https://github.com/azu/snack-app/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -140,5 +139,6 @@
       "url": "https://api.github.com/repos/azu/snack-app/git/commits/a3a9d94089179989abdae15236a74ea4f4922754",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "azu___snack-app.json"
 }

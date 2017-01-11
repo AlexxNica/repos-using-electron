@@ -55,10 +55,6 @@
     "name": "local-links",
     "description": "Determine cross-browser if an event or anchor element should be handled locally.",
     "version": "1.4.1",
-    "author": "Luke Karrys <luke@lukekarrys.com>",
-    "bugs": {
-      "url": "https://github.com/lukekarrys/local-links/issues"
-    },
     "devDependencies": {
       "browserify": "^13.1.0",
       "electron-prebuilt": "^1.3.2",
@@ -86,10 +82,7 @@
       "test",
       "validate"
     ],
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:lukekarrys/local-links.git"
-    },
+    "repository": "https://github.com/lukekarrys/local-links",
     "scripts": {
       "lint": "standard",
       "start": "run-browser test/index.js",
@@ -99,6 +92,12 @@
       "validate": "npm ls",
       "zuul": "zuul --ui tape -- test/index.js",
       "zuul-local": "zuul --local 8080 --ui tape -- test/index.js"
+    },
+    "other": {
+      "author": "Luke Karrys <luke@lukekarrys.com>",
+      "bugs": {
+        "url": "https://github.com/lukekarrys/local-links/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/lukekarrys/local-links/git/commits/60582cab778fe36854be976747f003a16283d973",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lukekarrys___local-links.json"
 }

@@ -98,10 +98,7 @@
       "pack": "build",
       "dist": "build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/fwrgit/retcher.git"
-    },
+    "repository": "https://github.com/fwrgit/retcher",
     "keywords": [
       "resin",
       "io",
@@ -112,11 +109,7 @@
       "app",
       "base"
     ],
-    "author": "Carlo Maria Curinga",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/fwrgit/retcher/issues"
-    },
     "homepage": "https://github.com/fwrgit/retcher#readme",
     "build": {
       "appDir": "nope",
@@ -184,6 +177,12 @@
     "jshintConfig": {
       "esnext": true,
       "strict": true
+    },
+    "other": {
+      "author": "Carlo Maria Curinga",
+      "bugs": {
+        "url": "https://github.com/fwrgit/retcher/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -213,5 +212,6 @@
       "url": "https://api.github.com/repos/fwrgit/retcher/git/commits/0b8c05fcc60d10c5b3a80b5f392439dd3ade0c28",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "fwrgit___retcher.json"
 }

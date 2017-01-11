@@ -69,7 +69,6 @@
     "name": "WorkTracker",
     "version": "1.0.0",
     "description": "Quick Look at Completed Work",
-    "author": "David McElligott",
     "dependencies": {
       "angular": "^1.5.8",
       "angular-animate": "^1.5.8",
@@ -93,6 +92,9 @@
       "package": "electron-packager . --all --out dist/ --version=0.36.0 --overwrite --icon=Icon.icns",
       "package-win": "electron-packager . --platform=win32 --arch=all --out dist/ --version=0.36.0 --overwrite --icon=Icon.icns",
       "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "other": {
+      "author": "David McElligott"
     }
   },
   "packageStatus": 200,
@@ -118,5 +120,6 @@
       "url": "https://api.github.com/repos/damc-dev/WorkTracker/git/commits/f68d90b13357567a8980ab27648bce8d39ac812b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "damc-dev___WorkTracker.json"
 }

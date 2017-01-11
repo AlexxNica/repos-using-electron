@@ -63,25 +63,14 @@
       "build-win32": "electron-packager --platform=win32  --arch=ia32 --icon=assets/Icon.ico  --app-bundle-id=com.dcrousso.GroupMe                  --app-version=$npm_package_version --overwrite --asar --out=dist --ignore=\"^/dist$\" --ignore=\"^/media$\" --prune .",
       "build-linux": "electron-packager --platform=linux  --arch=x64  --icon=assets/Icon.icns --version-string.ProductName=$npm_package_productName --app-version=$npm_package_version --overwrite --asar --out=dist --ignore=\"^/dist$\" --ignore=\"^/media$\" --prune ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/dcrousso/GroupMe.git"
-    },
+    "repository": "https://github.com/dcrousso/GroupMe",
     "keywords": [
       "GroupMe",
       "chat",
       "messaging",
       "social"
     ],
-    "author": {
-      "name": "Devin Rousso",
-      "email": "hi@devinrousso.com",
-      "url": "http://devinrousso.com"
-    },
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/dcrousso/GroupMe/issues"
-    },
     "homepage": "https://github.com/dcrousso/GroupMe#readme",
     "devDependencies": {
       "electron": "^1.3.3",
@@ -90,6 +79,16 @@
     "dependencies": {
       "electron-debug": "^1.0.0",
       "electron-dl": "^1.0.0"
+    },
+    "other": {
+      "author": {
+        "name": "Devin Rousso",
+        "email": "hi@devinrousso.com",
+        "url": "http://devinrousso.com"
+      },
+      "bugs": {
+        "url": "https://github.com/dcrousso/GroupMe/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -137,5 +136,6 @@
       "url": "https://api.github.com/repos/dcrousso/GroupMe/git/commits/07d1d05d6749a3f5ebb8d963f28f42e70a72b033",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dcrousso___GroupMe.json"
 }

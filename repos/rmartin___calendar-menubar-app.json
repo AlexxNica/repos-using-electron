@@ -82,19 +82,12 @@
       "review": "npm run clean && webpack && httpster -p 9000",
       "clean": "rm -rf CalendarMenuBarApp-darwin-x64 && rm -rf dist"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rmartin/calendar-menubar-app.git"
-    },
+    "repository": "https://github.com/rmartin/calendar-menubar-app",
     "keywords": [
       "calendar",
       "electron"
     ],
-    "author": "Roy Martin",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/rmartin/calendar-menubar-app/issues"
-    },
     "homepage": "https://github.com/rmartin/calendar-menubar-app#readme",
     "dependencies": {
       "menubar": "^3.0.0"
@@ -107,6 +100,12 @@
       "electron-prebuilt": "^0.36.0",
       "httpster": "^1.0.1",
       "webpack": "^1.12.10"
+    },
+    "other": {
+      "author": "Roy Martin",
+      "bugs": {
+        "url": "https://github.com/rmartin/calendar-menubar-app/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -134,5 +133,6 @@
       "url": "https://api.github.com/repos/rmartin/calendar-menubar-app/git/commits/f587bd8efefa60ae199fd957ae2a916235e7c338",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rmartin___calendar-menubar-app.json"
 }

@@ -80,15 +80,8 @@
       "start": "electron .",
       "rebuild": "electron-rebuild"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/haimich/lenny.git"
-    },
-    "author": "",
+    "repository": "https://github.com/haimich/lenny",
     "license": "Apache",
-    "bugs": {
-      "url": "https://github.com/haimich/lenny/issues"
-    },
     "homepage": "https://github.com/haimich/lenny#readme",
     "dependencies": {
       "@webcomponents/custom-elements": "^1.0.0-alpha.3",
@@ -99,6 +92,12 @@
     },
     "devDependencies": {
       "electron-rebuild": "^1.2.1"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/haimich/lenny/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/haimich/lenny/git/commits/14e51275e5ba456089577124f7fcff449e283cf8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "haimich___lenny.json"
 }

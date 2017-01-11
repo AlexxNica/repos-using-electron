@@ -81,17 +81,13 @@
       "start": "electron .",
       "postinstall": "jspm install"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ronaldoevangelista/electron-start.git"
-    },
+    "repository": "https://github.com/ronaldoevangelista/electron-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "Ronaldo Evangelista",
     "license": "MIT",
     "jspm": {
       "directories": {
@@ -116,9 +112,6 @@
         "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.93"
       }
     },
-    "bugs": {
-      "url": "https://github.com/ronaldoevangelista/electron-start/issues"
-    },
     "homepage": "https://github.com/ronaldoevangelista/electron-start#readme",
     "devDependencies": {
       "electron": "^1.3.4",
@@ -127,6 +120,12 @@
     },
     "dependencies": {
       "material-design-lite": "^1.2.1"
+    },
+    "other": {
+      "author": "Ronaldo Evangelista",
+      "bugs": {
+        "url": "https://github.com/ronaldoevangelista/electron-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -154,5 +153,6 @@
       "url": "https://api.github.com/repos/ronaldoevangelista/electron-start/git/commits/ecf5589939e9f815df6224a876e2e707070edc6c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ronaldoevangelista___electron-start.json"
 }

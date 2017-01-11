@@ -55,13 +55,9 @@
     "name": "floating-preview",
     "version": "0.6.5",
     "description": "Simple browser which shows a web page in a small window always on top and reloads automatically",
-    "author": "Takashi Kitao",
     "license": "MIT",
     "homepage": "https://github.com/kitao/floating-preview",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/kitao/floating-preview.git"
-    },
+    "repository": "https://github.com/kitao/floating-preview",
     "main": "./lib/floating-preview",
     "bin": {
       "floating-preview": "./bin/floating-preview"
@@ -74,6 +70,9 @@
       "electron-prebuilt": "^0.36.9",
       "electron-reload": "^0.2.0",
       "node-static": "^0.7.7"
+    },
+    "other": {
+      "author": "Takashi Kitao"
     }
   },
   "packageStatus": 200,
@@ -101,5 +100,6 @@
       "url": "https://api.github.com/repos/kitao/floating-preview/git/commits/f60d73f4a4617c2cbf0fc3ed0104b968ccc26371",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kitao___floating-preview.json"
 }

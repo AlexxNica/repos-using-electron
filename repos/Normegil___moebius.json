@@ -61,20 +61,13 @@
       "push": "git push && git push --tags && npm publish",
       "preversion": "npm test"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/Normegil/moebius.git"
-    },
+    "repository": "https://github.com/Normegil/moebius",
     "keywords": [
       "comics",
       "download",
       "manga"
     ],
-    "author": "Olivier Ory",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/Normegil/moebius/issues"
-    },
     "homepage": "https://github.com/Normegil/moebius#readme",
     "devDependencies": {
       "faucet": "0.0.1",
@@ -97,6 +90,12 @@
       "request": "^2.65.0",
       "string-template": "^0.2.1",
       "terminal-kit": "^0.21.1"
+    },
+    "other": {
+      "author": "Olivier Ory",
+      "bugs": {
+        "url": "https://github.com/Normegil/moebius/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -124,5 +123,6 @@
       "url": "https://api.github.com/repos/Normegil/moebius/git/commits/36e79b0d6bd5240e89edfbcdb7dbb17206edd400",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Normegil___moebius.json"
 }

@@ -72,12 +72,8 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "author": "gucong",
     "bin": {
       "fels": "./bin/fels.js"
-    },
-    "bugs": {
-      "url": "https://github.com/gucong3000/FELS/issues"
     },
     "dependencies": {
       "babel-core": "^6.14.0",
@@ -209,15 +205,18 @@
     "license": "MIT",
     "main": "index.js",
     "name": "fels",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/gucong3000/FELS.git"
-    },
+    "repository": "https://github.com/gucong3000/FELS",
     "scripts": {
       "start": "electron ./lib/gui.js --shortcut",
       "test": "gulp publish --url http://picdev.int.jumei.com/upload --username jumeife --password 123456 --base /static/static_account/ --dir ../static_account"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "other": {
+      "author": "gucong",
+      "bugs": {
+        "url": "https://github.com/gucong3000/FELS/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -245,5 +244,6 @@
       "url": "https://api.github.com/repos/gucong3000/FELS/git/commits/7e4ff2c20250ca34cd3e172f33f5b64ab1d341fe",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "gucong3000___FELS.json"
 }

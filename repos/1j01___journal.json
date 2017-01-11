@@ -68,7 +68,6 @@
   "packageJSON": {
     "name": "journal",
     "version": "0.0.1",
-    "author": "Isaiah Odhner <isaiahodhner@gmail.com>",
     "description": "A programmer's journal",
     "keywords": [
       "personal",
@@ -82,13 +81,7 @@
       "diary",
       "writing"
     ],
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/1j01/journal.git"
-    },
-    "bugs": {
-      "url": "https://github.com/1j01/journal/issues"
-    },
+    "repository": "https://github.com/1j01/journal",
     "scripts": {
       "postinstall": "electron-rebuild",
       "start": "electron main.js",
@@ -109,6 +102,12 @@
       "react": "^15.2.1",
       "react-dom": "^15.2.1",
       "react-script": "^2.0.4"
+    },
+    "other": {
+      "author": "Isaiah Odhner <isaiahodhner@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/1j01/journal/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,6 @@
       "url": "https://api.github.com/repos/1j01/journal/git/commits/652c984d859dc02de451d37de0c8f1ae1d5ee463",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "1j01___journal.json"
 }

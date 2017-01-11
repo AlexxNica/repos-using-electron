@@ -76,11 +76,6 @@
     "app_id": "com.noswap.apollo",
     "version": "0.1.0",
     "description": "elegant IRC client",
-    "author": {
-      "name": "John Reese",
-      "email": "john@noswap.com",
-      "url": "https://noswap.com"
-    },
     "company": "noswap.com",
     "icons": {
       "default": "images/logobig.png",
@@ -97,7 +92,6 @@
     ],
     "license": "MIT",
     "repository": "jreese/apollo",
-    "bugs": "https://github.com/jreese/apollo/issues",
     "main": "src/main.js",
     "bin": {
       "apollo": "bin/apollo.js"
@@ -121,6 +115,14 @@
     },
     "optionalDependencies": {
       "appdmg": "0.3.x"
+    },
+    "other": {
+      "author": {
+        "name": "John Reese",
+        "email": "john@noswap.com",
+        "url": "https://noswap.com"
+      },
+      "bugs": "https://github.com/jreese/apollo/issues"
     }
   },
   "packageStatus": 200,
@@ -148,5 +150,6 @@
       "url": "https://api.github.com/repos/jreese/apollo/git/commits/bdc69a9d7f82b0960e972fe3caf136f00503319e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jreese___apollo.json"
 }

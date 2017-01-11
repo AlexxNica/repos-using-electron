@@ -78,10 +78,7 @@
       "clean": "rm -rf ./typings ./node_modules ./test/unit/renderer/js ./test/e2e/story/*.js",
       "start": "npm run dep && npm run build && npm run app"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rhysd/YourFukurou.git"
-    },
+    "repository": "https://github.com/rhysd/YourFukurou",
     "keywords": [
       "twitter client",
       "YoruFukurou",
@@ -90,11 +87,7 @@
       "mac",
       "windows"
     ],
-    "author": "rhysd <lin90162@yahoo.co.jp>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/rhysd/YourFukurou/issues"
-    },
     "homepage": "https://github.com/rhysd/YourFukurou#readme",
     "engines": {
       "node": ">=6.0"
@@ -153,6 +146,12 @@
         "test/unit/renderer/js/test/unit/renderer/**/*.js"
       ],
       "timeout": "60s"
+    },
+    "other": {
+      "author": "rhysd <lin90162@yahoo.co.jp>",
+      "bugs": {
+        "url": "https://github.com/rhysd/YourFukurou/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -180,5 +179,6 @@
       "url": "https://api.github.com/repos/rhysd/YourFukurou/git/commits/8dc6f14abc734205529608d2f620106e00aab3a8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rhysd___YourFukurou.json"
 }

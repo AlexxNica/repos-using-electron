@@ -55,11 +55,7 @@
     "productName": "GooglePlayMusicPlayer",
     "description": "Google Play Music on Electron",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/importre/GooglePlayMusic.git"
-    },
-    "author": "Jaewe Heo <jaeweheo@gmail.com>",
+    "repository": "https://github.com/importre/GooglePlayMusic",
     "engines": {
       "node": ">=0.10.0"
     },
@@ -79,12 +75,15 @@
       "rcedit": "^0.3.0"
     },
     "name": "google_play_music",
-    "bugs": {
-      "url": "https://github.com/importre/GooglePlayMusic/issues"
-    },
     "homepage": "https://github.com/importre/GooglePlayMusic#readme",
     "version": "0.1.0",
-    "main": "index.js"
+    "main": "index.js",
+    "other": {
+      "author": "Jaewe Heo <jaeweheo@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/importre/GooglePlayMusic/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -111,5 +110,6 @@
       "url": "https://api.github.com/repos/importre/gpmp/git/commits/fb8a80fbb7f6e784e758355dac71de6d74774e9a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "importre___gpmp.json"
 }

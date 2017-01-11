@@ -90,7 +90,6 @@
     "description": "PIXI plugin for the PixiAnimate Extension",
     "version": "0.7.3",
     "main": "dist/pixi-animate.min.js",
-    "author": "Matt Karl <matt.karl@jibo.com>",
     "dependencies": {
       "loophole": "^1.1.0"
     },
@@ -119,13 +118,7 @@
       "vinyl-buffer": "^1.0.0",
       "vinyl-source-stream": "^1.1.0"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/jiborobot/pixi-animate"
-    },
-    "bugs": {
-      "url": "https://github.com/jiborobot/pixi-animate/issues"
-    },
+    "repository": "https://github.com/jiborobot/pixi-animate",
     "homepage": "https://github.com/jiborobot/pixi-animate",
     "scripts": {
       "build": "gulp",
@@ -150,7 +143,13 @@
       "Animate CC",
       "animation"
     ],
-    "license": "MIT"
+    "license": "MIT",
+    "other": {
+      "author": "Matt Karl <matt.karl@jibo.com>",
+      "bugs": {
+        "url": "https://github.com/jiborobot/pixi-animate/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -180,5 +179,6 @@
       "url": "https://api.github.com/repos/jiborobot/pixi-animate/git/commits/1ba3084292a4557bc4bf9a729b4e9b16c7d15fa7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jiborobot___pixi-animate.json"
 }

@@ -62,12 +62,8 @@
       "build-prod": "grunt build && cd dist && npm i --production && npm i archiver && node Craft.js",
       "clean": "grunt clean"
     },
-    "author": "VivekBharatha",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/vivekbharatha/musik.git"
-    },
+    "repository": "https://github.com/vivekbharatha/musik",
     "devDependencies": {
       "electron-packager": "^7.5.1",
       "electron-prebuilt": "^1.2.0",
@@ -88,6 +84,9 @@
       "async": "2.0.1",
       "dexie": "^1.4.1",
       "musicmetadata": "^2.0.4"
+    },
+    "other": {
+      "author": "VivekBharatha"
     }
   },
   "packageStatus": 200,
@@ -115,5 +114,6 @@
       "url": "https://api.github.com/repos/vivekbharatha/musik/git/commits/3a066c138cc96b19a8a61f1a07f1f2e323efc532",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "vivekbharatha___musik.json"
 }

@@ -74,7 +74,6 @@
       "start": "./node_modules/.bin/electron .",
       "build": "./node_modules/.bin/electron-packager . runner --platform=darwin --out=./build"
     },
-    "author": "Kyle Landell <kyle.landell@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.10.4",
@@ -104,6 +103,9 @@
       "style-loader": "^0.13.1",
       "webpack": "^1.13.1",
       "xpc-connection": "^0.1.4"
+    },
+    "other": {
+      "author": "Kyle Landell <kyle.landell@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -131,5 +133,6 @@
       "url": "https://api.github.com/repos/klandell/ble-peripheral-utility/git/commits/ff7b2e2aa29360b745e46dc2ce0743b16b97634c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "klandell___ble-peripheral-utility.json"
 }

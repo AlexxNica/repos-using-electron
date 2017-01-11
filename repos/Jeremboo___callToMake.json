@@ -71,16 +71,15 @@
     "scripts": {
       "build": "browserify -t [ babelify --presets [ es2015 react ] ] app/js/index.js -o app/js/bundle.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/Jeremboo/callToMake.git"
-    },
-    "author": "",
+    "repository": "https://github.com/Jeremboo/callToMake",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/Jeremboo/callToMake/issues"
-    },
-    "homepage": "https://github.com/Jeremboo/callToMake"
+    "homepage": "https://github.com/Jeremboo/callToMake",
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/Jeremboo/callToMake/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -108,5 +107,6 @@
       "url": "https://api.github.com/repos/Jeremboo/callToMake/git/commits/bf547e428c1d2e11efec4c704d920654e1c80359",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Jeremboo___callToMake.json"
 }

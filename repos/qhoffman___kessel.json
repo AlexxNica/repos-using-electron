@@ -79,10 +79,7 @@
     "scripts": {
       "start": "electron . --enable-transparent-visuals --disable-gpu"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/qhoffman/kessel.git"
-    },
+    "repository": "https://github.com/qhoffman/kessel",
     "keywords": [
       "Electron",
       "javascript",
@@ -92,14 +89,16 @@
       "gnome-do",
       "krunner"
     ],
-    "author": "Quay Hoffman",
     "license": "",
-    "bugs": {
-      "url": "https://github.com/qhoffman/kessel.git"
-    },
     "homepage": "https://github.com/qhoffman/kessel.git#readme",
     "devDependencies": {
       "electron": "^1.3.4"
+    },
+    "other": {
+      "author": "Quay Hoffman",
+      "bugs": {
+        "url": "https://github.com/qhoffman/kessel.git"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/qhoffman/kessel/git/commits/8a87e823531a2dbf0c04aed78eaf6834885b52f1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "qhoffman___kessel.json"
 }

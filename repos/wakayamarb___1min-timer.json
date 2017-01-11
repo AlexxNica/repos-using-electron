@@ -77,7 +77,6 @@
       "e2e-test": "$(npm bin)/protractor protractor.conf.js;",
       "test": "npm run unit-test && npm run e2e-test"
     },
-    "author": "KamataRyo",
     "license": "MIT",
     "devDependencies": {
       "babel-cli": "^6.14.0",
@@ -96,17 +95,17 @@
       "protractor": "^4.0.4",
       "should": "^11.1.0"
     },
-    "directories": {
-      "test": "test"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/wakayamarb/1min-timer.git"
-    },
-    "bugs": {
-      "url": "https://github.com/wakayamarb/1min-timer/issues"
-    },
-    "homepage": "https://github.com/wakayamarb/1min-timer#readme"
+    "repository": "https://github.com/wakayamarb/1min-timer",
+    "homepage": "https://github.com/wakayamarb/1min-timer#readme",
+    "other": {
+      "author": "KamataRyo",
+      "bugs": {
+        "url": "https://github.com/wakayamarb/1min-timer/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -133,5 +132,6 @@
       "url": "https://api.github.com/repos/wakayamarb/1min-timer/git/commits/c86ffaca55b69b70f5db7e1263e59467e9bb3489",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "wakayamarb___1min-timer.json"
 }

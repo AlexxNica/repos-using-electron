@@ -74,18 +74,11 @@
       "build": "node_modules/.bin/babel src --out-dir dist",
       "clean": "rm -rf dist"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/atom/marker-index.git"
-    },
+    "repository": "https://github.com/atom/marker-index",
     "keywords": [
       "patch data-structure"
     ],
-    "author": "Nathan Sobo <nathan@github.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/atom/marker-index/issues"
-    },
     "homepage": "https://github.com/atom/marker-index",
     "devDependencies": {
       "babel": "^5.0.0",
@@ -107,6 +100,12 @@
         "it",
         "assert"
       ]
+    },
+    "other": {
+      "author": "Nathan Sobo <nathan@github.com>",
+      "bugs": {
+        "url": "https://github.com/atom/marker-index/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -156,5 +155,6 @@
       "url": "https://api.github.com/repos/atom/marker-index/git/commits/24f9f3f5c458d13287639e5205c7ca8108fcc436",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "atom___marker-index.json"
 }

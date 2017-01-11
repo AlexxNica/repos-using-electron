@@ -60,11 +60,13 @@
       "start": "electron main.js",
       "build": "electron-packager . dearu --platform=all --arch=x64 --version=0.36.8 --asar --out=out"
     },
-    "author": "Toshihiro Shimizu",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^5.2.1",
       "electron-prebuilt": "^0.36.0"
+    },
+    "other": {
+      "author": "Toshihiro Shimizu"
     }
   },
   "packageStatus": 200,
@@ -112,5 +114,6 @@
       "url": "https://api.github.com/repos/meso/dearu/git/commits/4f0b9f922b4b1ea84ba8a611e603defb676569a9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "meso___dearu.json"
 }

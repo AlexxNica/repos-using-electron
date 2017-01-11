@@ -56,10 +56,7 @@
       "package": "electron-packager . \"Advisor\" --platform=darwin --arch=x64 --out=dist/ --version 0.37.6 --overwrite --icon=./src/assets/images/icon.icns",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/whilestevego/animal-advisor.git"
-    },
+    "repository": "https://github.com/whilestevego/animal-advisor",
     "keywords": [
       "memecaptain",
       "adviceanimal",
@@ -67,11 +64,7 @@
       "electron",
       "desktop"
     ],
-    "author": "Steve Godin",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/whilestevego/animal-advisor/issues"
-    },
     "homepage": "https://github.com/whilestevego/animal-advisor#readme",
     "devDependencies": {
       "babel-core": "^6.9.1",
@@ -115,6 +108,12 @@
     },
     "engines": {
       "node": "^6.2.1"
+    },
+    "other": {
+      "author": "Steve Godin",
+      "bugs": {
+        "url": "https://github.com/whilestevego/animal-advisor/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -142,5 +141,6 @@
       "url": "https://api.github.com/repos/whilestevego/animal-advisor/git/commits/442586c0b3b93b7a6bcc1d9679061407a1595e4e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "whilestevego___animal-advisor.json"
 }

@@ -88,15 +88,8 @@
       "test": "eslint ./src",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/RIT-Space-Exploration/HABElectronClient.git"
-    },
-    "author": "RIT Space Exploration",
+    "repository": "https://github.com/RIT-Space-Exploration/HABElectronClient",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/RIT-Space-Exploration/HABElectronClient/issues"
-    },
     "homepage": "https://github.com/RIT-Space-Exploration/HABElectronClient#readme",
     "devDependencies": {
       "electron-packager": "^8.2.0",
@@ -116,6 +109,12 @@
       "serial-worker": "^1.0.5",
       "socket.io": "^1.5.1",
       "socket.io-client": "^1.5.1"
+    },
+    "other": {
+      "author": "RIT Space Exploration",
+      "bugs": {
+        "url": "https://github.com/RIT-Space-Exploration/HABElectronClient/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -144,5 +143,6 @@
       "url": "https://api.github.com/repos/RIT-Space-Exploration/HABElectronClient/git/commits/c04b85e74ce903afe1ac99717d68fcf780f21698",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "RIT-Space-Exploration___HABElectronClient.json"
 }

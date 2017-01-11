@@ -94,7 +94,6 @@
       "start": "electron .",
       "watchjs": "watchify -d -v -e src/entry.js -o build/showcase.js"
     },
-    "author": "Jayesh Salvi",
     "dependencies": {
       "electron": "^1.4.3",
       "electron-rebuild": "^1.2.1",
@@ -103,6 +102,9 @@
     },
     "devDependencies": {
       "watchify": "^3.7.0"
+    },
+    "other": {
+      "author": "Jayesh Salvi"
     }
   },
   "packageStatus": 200,
@@ -130,5 +132,6 @@
       "url": "https://api.github.com/repos/moxspc/showcase/git/commits/87df5c8eaa28137c0c37802d04bcb35e2ae25a98",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "moxspc___showcase.json"
 }

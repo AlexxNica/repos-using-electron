@@ -80,7 +80,6 @@
       "start": "electron .",
       "build": "electron-packager . StockWatcher --platform=darwin --arch=x64 --version=1.0.0 --overwrite --icon 'stockWatcher.icns'"
     },
-    "author": "Matt Carlucci",
     "devDependencies": {
       "electron": "^1.4.1",
       "electron-packager": "^8.1.0",
@@ -89,6 +88,9 @@
     },
     "dependencies": {
       "request": "^2.75.0"
+    },
+    "other": {
+      "author": "Matt Carlucci"
     }
   },
   "packageStatus": 200,
@@ -116,5 +118,6 @@
       "url": "https://api.github.com/repos/mcarlucci/StockWatcher/git/commits/56b94d18558ba152117e827301e635d110d386bb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mcarlucci___StockWatcher.json"
 }

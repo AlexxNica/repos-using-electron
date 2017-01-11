@@ -84,12 +84,8 @@
     "version": "0.0.0",
     "description": "The Treehub Desktop App",
     "private": true,
-    "author": "John Clark <socrates37@gmail.com>",
     "license": "UNLICENSED",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/treehub-eng/app-desktop.git"
-    },
+    "repository": "https://github.com/treehub-eng/app-desktop",
     "main": "main/app.js",
     "scripts": {
       "lint": "eslint lib main",
@@ -127,6 +123,9 @@
           "always-multiline"
         ]
       }
+    },
+    "other": {
+      "author": "John Clark <socrates37@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -154,5 +153,6 @@
       "url": "https://api.github.com/repos/treehub-eng/app-desktop/git/commits/2fb9a9903242c273f9fe4925a9abb3e98120c3f1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "treehub-eng___app-desktop.json"
 }

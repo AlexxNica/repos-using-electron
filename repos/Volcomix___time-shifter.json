@@ -50,9 +50,6 @@
     "version": "1.0.0",
     "description": "Todo list app with time shifting capabilities",
     "main": "main.js",
-    "directories": {
-      "doc": "doc"
-    },
     "scripts": {
       "build": "webpack",
       "serve": "webpack-dev-server --inline --hot",
@@ -61,7 +58,6 @@
       "start:transparent": "electron . --dev --enable-transparent-visuals",
       "start": "npm run build && electron ."
     },
-    "author": "Volcomix",
     "license": "ISC",
     "dependencies": {
       "lodash": "latest",
@@ -83,6 +79,12 @@
       "typescript": "latest",
       "webpack": "latest",
       "webpack-dev-server": "latest"
+    },
+    "other": {
+      "author": "Volcomix",
+      "directories": {
+        "doc": "doc"
+      }
     }
   },
   "packageStatus": 200,
@@ -110,5 +112,6 @@
       "url": "https://api.github.com/repos/Volcomix/time-shifter/git/commits/8b9474c3ac577a527ddaf5f4ea3196c0941b8f2a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Volcomix___time-shifter.json"
 }

@@ -81,19 +81,12 @@
       "start": "electron .",
       "test": "standard"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/emkay/oak.git"
-    },
+    "repository": "https://github.com/emkay/oak",
     "keywords": [
       "game",
       "tool"
     ],
-    "author": "Michael Matuzak",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/emkay/oak/issues"
-    },
     "homepage": "https://github.com/emkay/oak#readme",
     "dependencies": {
       "barracks": "^8.1.1",
@@ -105,6 +98,12 @@
     },
     "devDependencies": {
       "standard": "^7.1.2"
+    },
+    "other": {
+      "author": "Michael Matuzak",
+      "bugs": {
+        "url": "https://github.com/emkay/oak/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -132,5 +131,6 @@
       "url": "https://api.github.com/repos/emkay/oak/git/commits/edafd9a53448a6ecabcfeeffbb4bc029bc06a287",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "emkay___oak.json"
 }

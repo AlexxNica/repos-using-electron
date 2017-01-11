@@ -57,19 +57,12 @@
     "version": "1.0.0",
     "description": "GUI for gobenchui",
     "main": "src/main.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/walle/gobenchui-gui.git"
-    },
+    "repository": "https://github.com/walle/gobenchui-gui",
     "keywords": [
       "Electron",
       "gobenchui"
     ],
-    "author": "Fredrik Wallgren",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/walle/gobenchui-gui/issues"
-    },
     "homepage": "https://github.com/walle/gobenchui-gui#readme",
     "devDependencies": {
       "rimraf": "^2.3.3",
@@ -79,6 +72,12 @@
     },
     "scripts": {
       "start": "electron src/main.js"
+    },
+    "other": {
+      "author": "Fredrik Wallgren",
+      "bugs": {
+        "url": "https://github.com/walle/gobenchui-gui/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -106,5 +105,6 @@
       "url": "https://api.github.com/repos/walle/gobenchui-gui/git/commits/522b05ee6deb54548307703fb826b9af6293648e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "walle___gobenchui-gui.json"
 }

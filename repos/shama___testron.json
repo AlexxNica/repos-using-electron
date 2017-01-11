@@ -56,10 +56,7 @@
     "scripts": {
       "test": "node test/test.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/shama/testron.git"
-    },
+    "repository": "https://github.com/shama/testron",
     "keywords": [
       "test",
       "client",
@@ -68,11 +65,7 @@
       "electron",
       "ci"
     ],
-    "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/shama/testron/issues"
-    },
     "homepage": "https://github.com/shama/testron#readme",
     "dependencies": {
       "electron-spawn": "^3.0.0",
@@ -83,6 +76,12 @@
     "devDependencies": {
       "electron-prebuilt": "^0.30.0",
       "tape": "^4.0.1"
+    },
+    "other": {
+      "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+      "bugs": {
+        "url": "https://github.com/shama/testron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -110,5 +109,6 @@
       "url": "https://api.github.com/repos/shama/testron/git/commits/7428daa02e7396e3b627c7855ee98ec7f87e0f03",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "shama___testron.json"
 }

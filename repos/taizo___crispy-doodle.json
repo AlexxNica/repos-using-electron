@@ -71,7 +71,6 @@
     "private": true,
     "productName": "my-app",
     "version": "1.0.0",
-    "author": "My Company Ltd",
     "description": "My Application",
     "dependencies": {
       "electron-squirrel-startup": "^1.0.0"
@@ -106,6 +105,9 @@
         "icon": "./win-icon.ico",
         "loadingGif": "./loading.gif"
       }
+    },
+    "other": {
+      "author": "My Company Ltd"
     }
   },
   "packageStatus": 200,
@@ -133,5 +135,6 @@
       "url": "https://api.github.com/repos/taizo/crispy-doodle/git/commits/04c370a53ed1625fae2ad2522c8e51f14f68294e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "taizo___crispy-doodle.json"
 }

@@ -124,26 +124,11 @@
         ]
       }
     },
-    "directories": {
-      "buildResources": "resources",
-      "output": "release"
-    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
-    },
-    "author": {
-      "name": "C. T. Lin",
-      "email": "chentsulin@gmail.com",
-      "url": "https://github.com/chentsulin"
-    },
+    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
-    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -238,6 +223,20 @@
     "devEngines": {
       "node": ">=6.x",
       "npm": ">=3.x"
+    },
+    "other": {
+      "author": {
+        "name": "C. T. Lin",
+        "email": "chentsulin@gmail.com",
+        "url": "https://github.com/chentsulin"
+      },
+      "bugs": {
+        "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+      },
+      "directories": {
+        "buildResources": "resources",
+        "output": "release"
+      }
     }
   },
   "packageStatus": 200,
@@ -265,5 +264,6 @@
       "url": "https://api.github.com/repos/proshunsuke/niconama-comment-viewer/git/commits/3e47a03123f006d7f5f2b2125945b90099ae28dd",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "proshunsuke___niconama-comment-viewer.json"
 }

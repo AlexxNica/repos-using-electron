@@ -63,20 +63,13 @@
       "build:macos": "apv update build && npm run clean && electron-packager ./ \"Chateo\" --out=\"buildOS/macos\" --platform=\"darwin\" --arch=\"x64\" --version=\"0.37.4\" --ignore=\"(buildOS|node_modules/\\.bin|node_modules/electron-builder|node_modules/electron-packager|node_modules/electron-prebuilt|es6|README.md)\"  --asar",
       "clean": "rm -rf buildOS"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://delvedor@github.com/delvedor/Chateo.git"
-    },
+    "repository": "https://github.com/delvedor/Chateo",
     "keywords": [
       "app",
       "chat",
       "p2p"
     ],
-    "author": "Tomas Della Vedova - @delvedor (http://delved.org)",
     "license": "GPLv2",
-    "bugs": {
-      "url": "https://github.com/delvedor/Chateo/issues"
-    },
     "private": true,
     "homepage": "https://github.com/delvedor/Chateo",
     "devDependencies": {
@@ -92,6 +85,12 @@
       "lookup-multicast-dns": "^1.0.3",
       "moment": "^2.12.0",
       "stream-set": "^1.1.0"
+    },
+    "other": {
+      "author": "Tomas Della Vedova - @delvedor (http://delved.org)",
+      "bugs": {
+        "url": "https://github.com/delvedor/Chateo/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -119,5 +118,6 @@
       "url": "https://api.github.com/repos/delvedor/Chateo/git/commits/8dbe7d1c35010f5819847c18c1ccd47d3af1728f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "delvedor___Chateo.json"
 }

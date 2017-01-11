@@ -70,10 +70,6 @@
     "version": "0.0.0",
     "description": "Small description for cirnogit goes here",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -83,7 +79,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -107,7 +102,14 @@
       "ember-export-application-global": "^1.0.4",
       "ember-resolver": "^2.0.3"
     },
-    "main": "electron.js"
+    "main": "electron.js",
+    "other": {
+      "author": "",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -135,5 +137,6 @@
       "url": "https://api.github.com/repos/mufid/cirnogit/git/commits/d893a5ca3916fe92f6fd538b8b7c68fcd9fef6fa",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mufid___cirnogit.json"
 }

@@ -74,11 +74,13 @@
       "start": "electron .",
       "package": "electron-packager ./ SoundMachine --out=/Users/mmorris/Desktop/SoundMachine --overwrite --icon=./app/img/app-icon.icns"
     },
-    "author": "Mark J. Morris",
     "license": "ISC",
     "devDependencies": {
       "electron-packager": "^8.0.0",
       "electron-prebuilt": "^1.4.1"
+    },
+    "other": {
+      "author": "Mark J. Morris"
     }
   },
   "packageStatus": 200,
@@ -106,5 +108,6 @@
       "url": "https://api.github.com/repos/blurredbits/sound-machine/git/commits/1be60e211874e6bcca02bc7d2d1cf93df47923a8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "blurredbits___sound-machine.json"
 }

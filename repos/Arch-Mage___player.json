@@ -74,27 +74,26 @@
       "node": ">=5",
       "npm": ">=3"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/arch-mage/player.git"
-    },
+    "repository": "https://github.com/arch-mage/player",
     "keywords": [
       "electron",
       "video",
       "player",
       "multimedia"
     ],
-    "author": "Bagol",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/arch-mage/player/issues"
-    },
     "homepage": "https://github.com/arch-mage/player#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.7"
     },
     "scripts": {
       "build": "node build.js"
+    },
+    "other": {
+      "author": "Bagol",
+      "bugs": {
+        "url": "https://github.com/arch-mage/player/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -122,5 +121,6 @@
       "url": "https://api.github.com/repos/Arch-Mage/player/git/commits/e3002c5763b6f1d998fdb0b51901e36333995163",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Arch-Mage___player.json"
 }

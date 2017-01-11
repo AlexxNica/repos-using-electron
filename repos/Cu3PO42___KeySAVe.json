@@ -50,10 +50,7 @@
     "productName": "KeySAVe",
     "version": "1.2.4",
     "description": "A cross platform KeySAV based on GitHub Electron for all your Generation VI Pokémon decryption needs.",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/Cu3PO42/KeySAVe.git"
-    },
+    "repository": "https://github.com/Cu3PO42/KeySAVe",
     "main": "./serverlib",
     "scripts": {
       "start": "cross-env NODE_ENV=production electron ./",
@@ -66,7 +63,6 @@
       "package": "cross-env NODE_ENV=production node package.js",
       "postinstall": "npm run installnativedeps && node node_modules/fbjs-scripts/node/check-dev-engines.js package.json"
     },
-    "author": "Cu3PO42",
     "license": "MIT",
     "devDependencies": {
       "asar": "^0.11.0",
@@ -177,6 +173,9 @@
     "devEngines": {
       "node": "4.x || 5.x || 6.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": "Cu3PO42"
     }
   },
   "packageStatus": 200,
@@ -205,5 +204,6 @@
       "url": "https://api.github.com/repos/Cu3PO42/KeySAVe/git/commits/3962c04cad34aa33fe759a383bbf449c0c6df9e2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Cu3PO42___KeySAVe.json"
 }

@@ -75,15 +75,8 @@
       "prestart": "npm run build",
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ppseprus/morse.git"
-    },
-    "author": "ppseprus",
+    "repository": "https://github.com/ppseprus/morse",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ppseprus/morse/issues"
-    },
     "homepage": "https://github.com/ppseprus/morse#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.4",
@@ -99,6 +92,12 @@
       "bootstrap": "^3.3.6",
       "jquery": "^2.2.0",
       "socket.io-client": "^1.4.4"
+    },
+    "other": {
+      "author": "ppseprus",
+      "bugs": {
+        "url": "https://github.com/ppseprus/morse/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/ppseprus/morse-client/git/commits/5e8e203f06638615fd7bcdc3de683dd28ae0bc20",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ppseprus___morse-client.json"
 }

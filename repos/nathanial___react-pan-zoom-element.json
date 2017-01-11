@@ -61,15 +61,8 @@
       "prepublish": "gulp dist",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/nathanial/react-pan-zoom-element.git"
-    },
-    "author": "",
+    "repository": "https://github.com/nathanial/react-pan-zoom-element",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/nathanial/react-pan-zoom-element/issues"
-    },
     "homepage": "http://nathanial.github.io/react-pan-zoom-element/",
     "devDependencies": {
       "electron-connect": "^0.3.3",
@@ -94,6 +87,12 @@
     "dependencies": {
       "react-es6-component": "*",
       "centered-pan-zoom": "2.0.0"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/nathanial/react-pan-zoom-element/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -141,5 +140,6 @@
       "url": "https://api.github.com/repos/nathanial/react-pan-zoom-element/git/commits/6beaad044b50ccb9ef866ecc0f53cc184ef9d166",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "nathanial___react-pan-zoom-element.json"
 }

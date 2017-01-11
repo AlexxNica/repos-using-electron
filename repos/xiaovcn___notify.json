@@ -75,18 +75,11 @@
       "dev": "electron . --enable-logging",
       "build": "electron-packager ./app notify --platform=win32 --arch=all --overwrite --icon=./app/assets/images/icon.ico --ignore=node_modules"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/xiaovcn/notify.git"
-    },
+    "repository": "https://github.com/xiaovcn/notify",
     "keywords": [
       "Notify"
     ],
-    "author": "xiaov.cn",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/xiaovcn/notify/issues"
-    },
     "homepage": "https://github.com/xiaovcn/notify#readme",
     "devDependencies": {
       "devtron": "^1.3.0",
@@ -99,6 +92,12 @@
       "electron": "^1.3.3",
       "electron-json-storage": "^2.0.0",
       "jquery": "^2.1.4"
+    },
+    "other": {
+      "author": "xiaov.cn",
+      "bugs": {
+        "url": "https://github.com/xiaovcn/notify/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/xiaovcn/notify/git/commits/8067188684654c9ebafbf9bebf67e4faf1c27cb1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "xiaovcn___notify.json"
 }

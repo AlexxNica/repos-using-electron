@@ -98,23 +98,22 @@
       "test": "node ./node_modules/mocha/bin/mocha --compilers=coffee:coffee-script/register --recursive -R list tests",
       "dev-watch": "node ./node_modules/mocha/bin/mocha --compilers=coffee:coffee-script/register -w --recursive -R list tests bin"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/o2platform/chrome-js.git"
-    },
-    "author": {
-      "name": "Dinis Cruz",
-      "email": "dinis.cruz@owasp.org",
-      "url": "http://blog.diniscruz.com/"
-    },
+    "repository": "https://github.com/o2platform/chrome-js",
     "license": "Apache 2",
-    "bugs": {
-      "url": "https://github.com/o2platform/chrome-js/issues"
-    },
     "homepage": "https://github.com/o2platform/chrome-js",
     "description": "Chrome-JS: Set of APIs to help the automations and scripting of Web based applications (WebSites or WebServices).",
     "devDependencies": {
       "electron-prebuilt": "^0.29.2"
+    },
+    "other": {
+      "author": {
+        "name": "Dinis Cruz",
+        "email": "dinis.cruz@owasp.org",
+        "url": "http://blog.diniscruz.com/"
+      },
+      "bugs": {
+        "url": "https://github.com/o2platform/chrome-js/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -143,5 +142,6 @@
       "url": "https://api.github.com/repos/o2platform/chrome-js/git/commits/ecda2378bcac00d16fc5b4ca300735d3e0f29ece",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "o2platform___chrome-js.json"
 }

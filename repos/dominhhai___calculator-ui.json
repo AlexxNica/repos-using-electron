@@ -81,10 +81,7 @@
       "build": "electron-packager . ElectronExample --platform=darwin --arch=x64 --version=0.26.0 --ignore=node_modules/electron-* && cp img/Icon.icns ElectronExample.app/Contents/Resources/atom.icns",
       "test": "standard && tape test/*.js | faucet"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/dominhhai/calculator-ui.git"
-    },
+    "repository": "https://github.com/dominhhai/calculator-ui",
     "keywords": [
       "Calculator",
       "calc",
@@ -93,11 +90,7 @@
       "prefix",
       "postfix"
     ],
-    "author": "Hai Do Minh",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/dominhhai/calculator-ui/issues"
-    },
     "homepage": "https://github.com/dominhhai/calculator-ui#readme",
     "dependencies": {
       "scalc": "^1.0.0"
@@ -108,6 +101,12 @@
       "faucet": "0.0.1",
       "standard": "^4.2.1",
       "tape": "^4.0.0"
+    },
+    "other": {
+      "author": "Hai Do Minh",
+      "bugs": {
+        "url": "https://github.com/dominhhai/calculator-ui/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -135,5 +134,6 @@
       "url": "https://api.github.com/repos/dominhhai/calculator-ui/git/commits/38046ec2bb5778eda38c2c0f3fc86110d9d2deab",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dominhhai___calculator-ui.json"
 }

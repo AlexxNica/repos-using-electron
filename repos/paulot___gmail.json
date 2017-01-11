@@ -65,20 +65,13 @@
       "build": "electron-packager . Gmail --platform=darwin --arch=x64 --version=0.35.1 --icon=lib/media/gmail.png",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/paulot/gmail.git"
-    },
+    "repository": "https://github.com/paulot/gmail",
     "keywords": [
       "gmail",
       "mail",
       "app"
     ],
-    "author": "Paulo Tanaka",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/paulot/gmail/issues"
-    },
     "homepage": "https://github.com/paulot/gmail#readme",
     "dependencies": {
       "bluebird": "^3.0.5",
@@ -89,6 +82,12 @@
       "babel-preset-es2015": "^6.1.18",
       "babel-core": "^6.2.1",
       "electron-prebuilt": "^0.35.1"
+    },
+    "other": {
+      "author": "Paulo Tanaka",
+      "bugs": {
+        "url": "https://github.com/paulot/gmail/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -137,5 +136,6 @@
       "url": "https://api.github.com/repos/paulot/gmail/git/commits/a1a61a8edacb006d10091b62520dec9fd93d6ad8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "paulot___gmail.json"
 }

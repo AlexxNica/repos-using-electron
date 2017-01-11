@@ -73,18 +73,11 @@
     "scripts": {
       "start": "electron main.js --enable-transparent-visuals --no-gpu"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jlndk/Flashlight.git"
-    },
+    "repository": "https://github.com/jlndk/Flashlight",
     "keywords": [
       "search"
     ],
-    "author": "Jonas Lindenskov Nielsen",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/jlndk/Flashlight/issues"
-    },
     "homepage": "https://github.com/jlndk/Flashlight#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0"
@@ -92,6 +85,12 @@
     "dependencies": {
       "electron-single-instance": "0.0.2",
       "fuzzysearch-js": "^0.2.0"
+    },
+    "other": {
+      "author": "Jonas Lindenskov Nielsen",
+      "bugs": {
+        "url": "https://github.com/jlndk/Flashlight/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -119,5 +118,6 @@
       "url": "https://api.github.com/repos/jlndk/Flashlight/git/commits/5aca1198006c7a280b72ca7f9cef13f984647d68",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jlndk___Flashlight.json"
 }

@@ -75,12 +75,8 @@
     "name": "ReactNativeNWReactCalculator",
     "version": "1.0.0",
     "description": "A mobile, desktop and website App with the same code",
-    "author": "Benoit VALLON <benoitvallon@gmail.com> (http://github.com/benoitvallon)",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/benoitvallon/react-native-nw-react-calculator"
-    },
+    "repository": "https://github.com/benoitvallon/react-native-nw-react-calculator",
     "homepage": "https://github.com/benoitvallon/react-native-nw-react-calculator",
     "keywords": [
       "react",
@@ -91,7 +87,6 @@
     ],
     "src": "./",
     "test": "./test",
-    "dist": "./dist",
     "mainInput": "main",
     "mainOutput": "main",
     "main": "index.html",
@@ -190,6 +185,10 @@
       "url-loader": "^0.5.7",
       "webpack": "^1.12.14",
       "webpack-dev-server": "^1.14.1"
+    },
+    "other": {
+      "author": "Benoit VALLON <benoitvallon@gmail.com> (http://github.com/benoitvallon)",
+      "dist": "./dist"
     }
   },
   "packageStatus": 200,
@@ -215,5 +214,6 @@
       "url": "https://api.github.com/repos/yhda110/newApp/git/commits/6f35b2b33ca8c4253fad0913cca978d8feb3b24e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "yhda110___newApp.json"
 }

@@ -71,10 +71,7 @@
     "description": "An offline tool to explore your DJI flight logs",
     "license": "MIT",
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/lvauvillier/flightexplorer.git"
-    },
+    "repository": "https://github.com/lvauvillier/flightexplorer",
     "scripts": {
       "lint": "eslint app *.js",
       "hot-server": "babel-node server.js",
@@ -85,7 +82,6 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "author": "Luc Vauvillier",
     "dependencies": {
       "dji-log-parser": "^0.0.4",
       "font-awesome": "^4.6.1",
@@ -127,6 +123,9 @@
       "webpack-dev-server": "^1.14.1",
       "webpack-hot-middleware": "^2.9.1",
       "webpack-target-electron-renderer": "^0.4.0"
+    },
+    "other": {
+      "author": "Luc Vauvillier"
     }
   },
   "packageStatus": 200,
@@ -154,5 +153,6 @@
       "url": "https://api.github.com/repos/lvauvillier/flightexplorer/git/commits/caa25863880719eb08fca9bf29a296aa2782340e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lvauvillier___flightexplorer.json"
 }

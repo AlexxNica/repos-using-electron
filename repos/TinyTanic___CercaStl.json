@@ -80,11 +80,7 @@
       "build": "electron-packager ./ cerca-stl --platform=linux --arch=armv7l --overwrite",
       "test": ""
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/TinyTanic/CercaStl.git"
-    },
-    "author": "Luca Aguzzoli",
+    "repository": "https://github.com/TinyTanic/CercaStl",
     "license": "GPLv3",
     "dependencies": {
       "asar": "^0.12.3",
@@ -110,6 +106,9 @@
       "gulp-notify": "^2.2.0",
       "gulp-plumber": "^1.1.0",
       "gulp-sourcemaps": "^1.6.0"
+    },
+    "other": {
+      "author": "Luca Aguzzoli"
     }
   },
   "packageStatus": 200,
@@ -137,5 +136,6 @@
       "url": "https://api.github.com/repos/TinyTanic/CercaStl/git/commits/b820cfd9d5a64501c581753bf4248b58c9399aaa",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "TinyTanic___CercaStl.json"
 }

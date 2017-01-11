@@ -84,7 +84,6 @@
     "version": "1.0.0",
     "main": "index.js",
     "description": "Learn with delight, learn with Delight. Delight is a light-weight code editor and playground that helps connect teacher with students.",
-    "author": "hACKbUSTER",
     "license": "ICS",
     "scripts": {
       "start": "electron . --enable-logging",
@@ -97,9 +96,9 @@
       "electron": "^1.4.3",
       "electron-rebuild": "^1.2.1"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/hACKbUSTER/Delight"
+    "repository": "https://github.com/hACKbUSTER/Delight",
+    "other": {
+      "author": "hACKbUSTER"
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/hACKbUSTER/Delight/git/commits/7352cd7d186e409299a6c173cfe5cbb6cfe0e11a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hACKbUSTER___Delight.json"
 }

@@ -75,19 +75,12 @@
       "start": "electron index.js",
       "codecov": "cat coverage/*/lcov.info | codecov"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/FreestyleOJ/FOJ-Client.git"
-    },
+    "repository": "https://github.com/FreestyleOJ/FOJ-Client",
     "keywords": [
       "FreestyleOJ",
       "client"
     ],
-    "author": "sirius.caffrey@gmail.com",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/FreestyleOJ/FOJ-Client/issues"
-    },
     "homepage": "https://github.com/FreestyleOJ/FOJ-Client#readme",
     "devDependencies": {
       "codecov.io": "^0.1.6",
@@ -96,7 +89,13 @@
       "istanbul": "^0.4.0",
       "mocha": "^2.3.3"
     },
-    "preferGlobal": true
+    "preferGlobal": true,
+    "other": {
+      "author": "sirius.caffrey@gmail.com",
+      "bugs": {
+        "url": "https://github.com/FreestyleOJ/FOJ-Client/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/FreestyleOJ/client",
@@ -144,5 +143,6 @@
       "url": "https://api.github.com/repos/FreestyleOJ/client/git/commits/9812830ac0c6f22a16b0623c0f14470b2a73d69f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "FreestyleOJ___client.json"
 }

@@ -75,7 +75,6 @@
     "name": "electron-react-template",
     "version": "0.0.1",
     "description": "A template for building Electron apps with React.",
-    "author": "Mark <mark@remarkablemark.org>",
     "main": "main.js",
     "scripts": {
       "start": "webpack && NODE_ENV=production npm run electron",
@@ -103,7 +102,10 @@
       "webpack": "^1.13.0",
       "webpack-dev-server": "^1.14.1"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "other": {
+      "author": "Mark <mark@remarkablemark.org>"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -130,5 +132,6 @@
       "url": "https://api.github.com/repos/remarkablemark/electron-react-template/git/commits/123473321b45c9b8f04d514ef8a32722a52fa619",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "remarkablemark___electron-react-template.json"
 }

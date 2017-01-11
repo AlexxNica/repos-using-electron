@@ -94,18 +94,7 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/maidsafe/safe_launcher.git"
-    },
-    "author": {
-      "name": "MaidSafe",
-      "email": "qa@maidsafe.net",
-      "url": "https://maidsafe.net"
-    },
-    "bugs": {
-      "url": "https://github.com/maidsafe/safe_launcher/issues"
-    },
+    "repository": "https://github.com/maidsafe/safe_launcher",
     "keywords": [
       "maidsafe",
       "launcher"
@@ -196,6 +185,16 @@
     "devEngines": {
       "node": "6.x",
       "npm": "3.x"
+    },
+    "other": {
+      "author": {
+        "name": "MaidSafe",
+        "email": "qa@maidsafe.net",
+        "url": "https://maidsafe.net"
+      },
+      "bugs": {
+        "url": "https://github.com/maidsafe/safe_launcher/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -258,5 +257,6 @@
       "url": "https://api.github.com/repos/maidsafe/safe_launcher/git/commits/eb626ec99c3f27b251eb227a289da979014f9529",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "maidsafe___safe_launcher.json"
 }

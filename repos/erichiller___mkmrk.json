@@ -78,19 +78,12 @@
       "qdist-all": "npm run build && electron-packager . --out=dist --platform=all --arch=all --overwrite",
       "prepublish": "npm run build"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/erichiller/mkmrk"
-    },
+    "repository": "https://github.com/erichiller/mkmrk",
     "keywords": [
       "mkmrk",
       "finance"
     ],
-    "author": "Eric D Hiller",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/erichiller/mkmrk/issues"
-    },
     "homepage": "https://github.com/erichiller/mkmrk#readme",
     "devDependencies": {
       "@types/d3": "^3.5.36",
@@ -118,6 +111,12 @@
       "react-desktop": "^0.2.7",
       "react-dom": "^15.2.1",
       "sql.js": "^0.3.2"
+    },
+    "other": {
+      "author": "Eric D Hiller",
+      "bugs": {
+        "url": "https://github.com/erichiller/mkmrk/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -145,5 +144,6 @@
       "url": "https://api.github.com/repos/erichiller/mkmrk/git/commits/ea224b76bd8c21f13d6992a7c1c6411388619d9b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "erichiller___mkmrk.json"
 }

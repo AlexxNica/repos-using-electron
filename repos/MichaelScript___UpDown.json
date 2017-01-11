@@ -73,7 +73,6 @@
   "status": 200,
   "packageJSON": {
     "name": "UpDown",
-    "author": "Michael Green",
     "description": "Checks groups of links for changes and notifies users when a group's links get updated.",
     "repository": "https://github.com/MichaelScript/Course-Alert",
     "license": "MIT",
@@ -81,6 +80,9 @@
     "main": "UpDown/main.js",
     "devDependencies": {
       "electron-prebuilt": "^0.30.4"
+    },
+    "other": {
+      "author": "Michael Green"
     }
   },
   "packageStatus": 200,
@@ -108,5 +110,6 @@
       "url": "https://api.github.com/repos/MichaelScript/UpDown/git/commits/28964064681d2f6dbd1099a502571ece703ab79f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "MichaelScript___UpDown.json"
 }

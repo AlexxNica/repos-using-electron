@@ -65,15 +65,8 @@
       "test": "electron test-build/runner/main.js",
       "clean": "gulp clean"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ueokande/adversaria.git"
-    },
-    "author": "Shin'ya Ueoka",
+    "repository": "https://github.com/ueokande/adversaria",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ueokande/adversaria/issues"
-    },
     "homepage": "https://github.com/ueokande/adversaria#readme",
     "devDependencies": {
       "bower": "^1.7.1",
@@ -102,6 +95,12 @@
       "tslint": "^3.5.0",
       "typescript": "^1.7.5",
       "typings": "^0.6.3"
+    },
+    "other": {
+      "author": "Shin'ya Ueoka",
+      "bugs": {
+        "url": "https://github.com/ueokande/adversaria/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
       "url": "https://api.github.com/repos/ueokande/adversaria/git/commits/39d5829e06271b27a95fa91cfd75151c44c1152a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ueokande___adversaria.json"
 }

@@ -83,16 +83,9 @@
       "build:css": "postcss -c postcss.config.js",
       "watch:css": "nodemon -i dist -e css -x npm run build:css"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/olizilla/trace.git"
-    },
+    "repository": "https://github.com/olizilla/trace",
     "keywords": [],
-    "author": "olizilla",
     "license": "AGPL-3.0",
-    "bugs": {
-      "url": "https://github.com/olizilla/trace/issues"
-    },
     "homepage": "https://github.com/olizilla/trace#readme",
     "devDependencies": {
       "autoprefixer": "^6.3.1",
@@ -113,6 +106,12 @@
     },
     "dependencies": {
       "potrace": "tooolbox/node-potrace"
+    },
+    "other": {
+      "author": "olizilla",
+      "bugs": {
+        "url": "https://github.com/olizilla/trace/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -140,5 +139,6 @@
       "url": "https://api.github.com/repos/olizilla/trace/git/commits/9db7fd4ccb6912d76bb77f010d6be78c34e3b2e2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "olizilla___trace.json"
 }

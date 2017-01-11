@@ -89,21 +89,14 @@
       "build:win": "npm run pack:win && electron-builder \"build/win/world16\" --platform=win --out=\"dist/win\" --config=builder.json",
       "install-global": "npm install node-gyp -g && npm install asar -g && npm install electron-packager -g && npm install electron-builder -g"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/SourceCode/world16.git"
-    },
+    "repository": "https://github.com/SourceCode/world16",
     "keywords": [
       "node",
       "games",
       "server",
       "gaming"
     ],
-    "author": "Ryan Rentfro",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/SourceCode/world16/issues"
-    },
     "homepage": "https://github.com/SourceCode/world16#readme",
     "dependencies": {
       "colors": "^1.1.2",
@@ -136,6 +129,12 @@
       "pug": "^2.0.0-beta4",
       "webpack": "^1.13.1",
       "yargs": "^4.8.1"
+    },
+    "other": {
+      "author": "Ryan Rentfro",
+      "bugs": {
+        "url": "https://github.com/SourceCode/world16/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -163,5 +162,6 @@
       "url": "https://api.github.com/repos/SourceCode/world16/git/commits/8da60d851278e5db70c00760d5721144c0ae1c96",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "SourceCode___world16.json"
 }

@@ -79,24 +79,23 @@
     "scripts": {
       "start": "lounge start & LOUNGE=$!;electron . & ELECTRON=$!; wait $LOUNGE; wait $ELECTRON"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/chewzerita/theclub.git"
-    },
+    "repository": "https://github.com/chewzerita/theclub",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "Charlie Ritter",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/chewzerita/theclub/issues"
-    },
     "dependencies": {
       "electron-prebuilt": "^1.2.0",
       "thelounge": "^1.5.0"
+    },
+    "other": {
+      "author": "Charlie Ritter",
+      "bugs": {
+        "url": "https://github.com/chewzerita/theclub/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -124,5 +123,6 @@
       "url": "https://api.github.com/repos/chewzerita/theclub/git/commits/a773664685591d46986fd8b62a706152acdb4d93",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "chewzerita___theclub.json"
 }

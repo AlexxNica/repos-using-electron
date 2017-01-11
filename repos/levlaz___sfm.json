@@ -83,19 +83,12 @@
       "build-css": "browserify -t [ browserify-css --autoInject=true --minify=true ] assets/css/src/*.css > assets/css/app.min.css",
       "build": "npm run build-js && npm run build-css"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/levlaz/sfm-client.git"
-    },
+    "repository": "https://github.com/levlaz/sfm-client",
     "keywords": [
       "music",
       "radio"
     ],
-    "author": "Lev Lazinskiy",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/levlaz/sfm-client/issues"
-    },
     "homepage": "https://github.com/levlaz/sfm-client#readme",
     "devDependencies": {
       "babel-preset-es2015": "^6.9.0",
@@ -109,6 +102,12 @@
       "handlebars": "^4.0.5",
       "lato-font": "^1.1.1",
       "xml2js": "^0.4.16"
+    },
+    "other": {
+      "author": "Lev Lazinskiy",
+      "bugs": {
+        "url": "https://github.com/levlaz/sfm-client/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,6 @@
       "url": "https://api.github.com/repos/levlaz/sfm/git/commits/9b4a9c8598c15b10a0c5a60b441ca0a76f0284b4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "levlaz___sfm.json"
 }

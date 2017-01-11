@@ -91,11 +91,6 @@
       "app-category-type": "public.app-category.music",
       "win": {}
     },
-    "author": {
-      "name": "B.E. Henriksen",
-      "email": "e@jiku.ca",
-      "url": "http://jiku.ca"
-    },
     "license": "MIT",
     "engines": {
       "node": ">= 4"
@@ -110,6 +105,13 @@
       "electron-packager": "^7.3.0",
       "electron-prebuilt": "^1.2.8",
       "spectron": "^3.2.6"
+    },
+    "other": {
+      "author": {
+        "name": "B.E. Henriksen",
+        "email": "e@jiku.ca",
+        "url": "http://jiku.ca"
+      }
     }
   },
   "packageStatus": 200,
@@ -137,5 +139,6 @@
       "url": "https://api.github.com/repos/jiku/desktop-app/git/commits/4bbe36aacafb078e773b1f9aaeae5415043d631a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jiku___desktop-app.json"
 }

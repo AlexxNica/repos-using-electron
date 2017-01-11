@@ -76,19 +76,12 @@
       "build-win": "webpack && electron-packager . tereis --platform=win32 --arch=x64 --version=1.4.0 --overwrite",
       "build-mac": "webpack && electron-packager . tereis --platform=darwin --arch=x64 --version=1.4.0 --overwrite"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/hapjs/electron-boilerplate.git"
-    },
+    "repository": "https://github.com/hapjs/electron-boilerplate",
     "keywords": [
       "Electron",
       "boilerplate"
     ],
-    "author": "hapjs",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/hapjs/electron-boilerplate/issues"
-    },
     "homepage": "https://github.com/hapjs/electron-boilerplate#readme",
     "devDependencies": {
       "electron": "^1.4.0",
@@ -121,6 +114,12 @@
       "vue-loader": "^8.5.3",
       "vue-style-loader": "^1.0.0",
       "webpack": "^1.13.1"
+    },
+    "other": {
+      "author": "hapjs",
+      "bugs": {
+        "url": "https://github.com/hapjs/electron-boilerplate/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -148,5 +147,6 @@
       "url": "https://api.github.com/repos/hapjs/electron-boilerplate/git/commits/3fcbeea70d7ad1897c4565d77c1c562ed0dfe618",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hapjs___electron-boilerplate.json"
 }

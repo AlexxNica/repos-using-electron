@@ -66,21 +66,14 @@
       "package": "npm run build && babel-node package",
       "launch": "electron ./dist/menu"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/ConnorAtherton/Sweet.git"
-    },
+    "repository": "https://github.com/ConnorAtherton/Sweet",
     "keywords": [
       "VPN",
       "sweet",
       "electron",
       "react"
     ],
-    "author": "Connor Atherton <c.liam.atherton@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ConnorAtherton/Sweet/issues"
-    },
     "homepage": "https://github.com/ConnorAtherton/Sweet#readme",
     "dependencies": {
       "electron-rpc": "^1.0.3",
@@ -95,6 +88,12 @@
       "electron-prebuilt": "^0.33.3",
       "headway": "^0.3.0",
       "sass": "^0.5.0"
+    },
+    "other": {
+      "author": "Connor Atherton <c.liam.atherton@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/ConnorAtherton/Sweet/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -122,5 +121,6 @@
       "url": "https://api.github.com/repos/ConnorAtherton/Sweet/git/commits/3ea3f22b8f6e8afcb540a8f8c21483e8dc1956d0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ConnorAtherton___Sweet.json"
 }

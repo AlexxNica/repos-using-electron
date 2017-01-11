@@ -75,19 +75,12 @@
       "start": "electron .",
       "pack:pc": "electron-packager . electron-helloworld --all --version=0.1.0 --out=./build --overwrite --icon=./app/icon/app-logo.icns"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/jackness1208/electron-helloworld.git"
-    },
+    "repository": "https://github.com/jackness1208/electron-helloworld",
     "keywords": [
       "electron",
       "demo"
     ],
-    "author": "jackness",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/jackness1208/electron-helloworld/issues"
-    },
     "homepage": "https://github.com/jackness1208/electron-helloworld",
     "devDependencies": {
       "electron-connect": "^0.4.2",
@@ -99,6 +92,12 @@
     },
     "dependencies": {
       "gulp": "^3.9.1"
+    },
+    "other": {
+      "author": "jackness",
+      "bugs": {
+        "url": "https://github.com/jackness1208/electron-helloworld/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/jackness1208/electron-helloworld/git/commits/e94edab279a202c9c46b26c233c2de9eb64c73be",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jackness1208___electron-helloworld.json"
 }

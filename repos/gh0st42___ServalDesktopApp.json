@@ -70,7 +70,6 @@
     "version": "1.0.0",
     "description": "A simple desktop app for Serval",
     "main": "app.js",
-    "author": "Lars Baumgaertner",
     "dependencies": {
       "pretty-bytes": "^2.0.1",
       "shelljs": "^0.7.0"
@@ -80,6 +79,9 @@
     },
     "scripts": {
       "start": "electron ."
+    },
+    "other": {
+      "author": "Lars Baumgaertner"
     }
   },
   "packageStatus": 200,
@@ -107,5 +109,6 @@
       "url": "https://api.github.com/repos/gh0st42/ServalDesktopApp/git/commits/9eb56fd198f4d46b4c2caf807056893404eea61e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "gh0st42___ServalDesktopApp.json"
 }

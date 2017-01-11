@@ -89,7 +89,6 @@
     "name": "Sia-UI",
     "version": "v1.0.3",
     "main": "dist/main.js",
-    "author": "NebulousLabs",
     "description": "A UI application for interfacing with Sia",
     "license": "MIT",
     "devDependencies": {
@@ -146,12 +145,12 @@
       "lint": "eslint --max-warnings 0 ./index.js ./plugins ./js ./test",
       "lint-fix": "eslint --fix ./index.js ./plugins ./js ./test"
     },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/NebulousLabs/Sia-UI.git"
-    },
-    "bugs": {
-      "url": "https://github.com/NebulousLabs/Sia-UI/issues"
+    "repository": "https://github.com/NebulousLabs/Sia-UI",
+    "other": {
+      "author": "NebulousLabs",
+      "bugs": {
+        "url": "https://github.com/NebulousLabs/Sia-UI/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -187,5 +186,6 @@
       "url": "https://api.github.com/repos/NebulousLabs/Sia-UI/git/commits/dfc334642a74770e7b107be8d915f865dd01f3e7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "NebulousLabs___Sia-UI.json"
 }

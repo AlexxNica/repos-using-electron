@@ -54,10 +54,7 @@
   "packageJSON": {
     "name": "scanning-metadata-capture",
     "version": "0.0.1",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/marshallformula/scanning-metadata-capture"
-    },
+    "repository": "https://github.com/marshallformula/scanning-metadata-capture",
     "description": "enable capture of metatdata for images in a directory",
     "main": "src/main.js",
     "scripts": {
@@ -70,7 +67,6 @@
       "prebuild": "npm run clean",
       "clean": "gulp clean"
     },
-    "author": "@marshallformula",
     "license": "ISC",
     "devDependencies": {
       "babel-cli": "6.4.5",
@@ -103,6 +99,9 @@
       "redux": "3.5.2",
       "redux-logger": "^2.6.1",
       "redux-thunk": "2.0.1"
+    },
+    "other": {
+      "author": "@marshallformula"
     }
   },
   "packageStatus": 200,
@@ -150,5 +149,6 @@
       "url": "https://api.github.com/repos/marshallformula/scanning-metadata-capture/git/commits/0ab29528c4bca4f2fca92f92bb9a8f118a3c0162",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "marshallformula___scanning-metadata-capture.json"
 }

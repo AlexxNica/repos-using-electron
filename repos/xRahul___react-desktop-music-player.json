@@ -81,7 +81,6 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "author": "Scotch",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -98,6 +97,9 @@
       "react-sound": "^0.4.0",
       "soundmanager2": "^2.97.20150601-a",
       "watchify": "^3.7.0"
+    },
+    "other": {
+      "author": "Scotch"
     }
   },
   "packageStatus": 200,
@@ -125,5 +127,6 @@
       "url": "https://api.github.com/repos/xRahul/react-desktop-music-player/git/commits/dede40e7d27a8bdb22b2428cd8b54a455ec4c254",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "xRahul___react-desktop-music-player.json"
 }

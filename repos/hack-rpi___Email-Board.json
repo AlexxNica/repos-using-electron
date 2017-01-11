@@ -87,24 +87,23 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/hack-rpi/Email-Board.git"
-    },
+    "repository": "https://github.com/hack-rpi/Email-Board",
     "keywords": [
       "mongodb",
       "mailgun"
     ],
-    "author": "Matt Poegel",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/hack-rpi/Email-Board/issues"
-    },
     "homepage": "https://github.com/hack-rpi/Email-Board#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.5",
       "gulp": "^3.9.1",
       "gulp-less": "^3.1.0"
+    },
+    "other": {
+      "author": "Matt Poegel",
+      "bugs": {
+        "url": "https://github.com/hack-rpi/Email-Board/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -132,5 +131,6 @@
       "url": "https://api.github.com/repos/hack-rpi/Email-Board/git/commits/65823ece15d4817add0a9f9a828ebff70642dc8f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hack-rpi___Email-Board.json"
 }

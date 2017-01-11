@@ -90,10 +90,6 @@
     "version": "1.0.0",
     "description": "Converts spreadsheets and csv to Amazon's format.",
     "main": "main.js",
-    "directories": {
-      "test": "test",
-      "packages": "jspm_packages"
-    },
     "scripts": {
       "postinstall": "jspm install",
       "test": "echo \"Error: no test specified\" && exit 1",
@@ -101,15 +97,8 @@
       "start": "electron .",
       "bundle": "electron-packager ./ amazin --platform=win32 --arch=ia32 --version=0.36.5 --overwrite"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/IngloriousCoderz/amazin.git"
-    },
-    "author": "Inglorious Coderz",
+    "repository": "https://github.com/IngloriousCoderz/amazin",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/IngloriousCoderz/amazin/issues"
-    },
     "homepage": "https://github.com/IngloriousCoderz/amazin#readme",
     "dependencies": {},
     "devDependencies": {
@@ -146,6 +135,16 @@
         "clean-css": "npm:clean-css@^3.4.9",
         "core-js": "npm:core-js@^1.1.4"
       }
+    },
+    "other": {
+      "author": "Inglorious Coderz",
+      "bugs": {
+        "url": "https://github.com/IngloriousCoderz/amazin/issues"
+      },
+      "directories": {
+        "test": "test",
+        "packages": "jspm_packages"
+      }
     }
   },
   "packageStatus": 200,
@@ -174,5 +173,6 @@
       "url": "https://api.github.com/repos/IngloriousCoderz/amazin/git/commits/7b16ed30fad2eb56c3c5783475c0b02e1b313463",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "IngloriousCoderz___amazin.json"
 }

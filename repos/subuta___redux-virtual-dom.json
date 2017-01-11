@@ -163,22 +163,21 @@
       "build": "jspm build lib/redux-virtual-dom.js dist/redux-virtual-dom.js --format umd --skip-source-maps --minify",
       "prepublish": "npm run build"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/subuta/redux-virtual-dom.git"
-    },
+    "repository": "https://github.com/subuta/redux-virtual-dom",
     "keywords": [
       "redux",
       "virtual-dom",
       "react-redux"
     ],
-    "author": "subuta <shunta.3110@gmail.com> (https://github.com/subuta)",
     "license": "MIT",
     "registry": "npm",
-    "bugs": {
-      "url": "https://github.com/subuta/redux-virtual-dom/issues"
-    },
-    "homepage": "https://github.com/subuta/redux-virtual-dom#readme"
+    "homepage": "https://github.com/subuta/redux-virtual-dom#readme",
+    "other": {
+      "author": "subuta <shunta.3110@gmail.com> (https://github.com/subuta)",
+      "bugs": {
+        "url": "https://github.com/subuta/redux-virtual-dom/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/subuta/redux-virtual-dom",
@@ -225,5 +224,6 @@
       "url": "https://api.github.com/repos/subuta/redux-virtual-dom/git/commits/bc97866bb4abfde3ee632a61d636a83ac8b9c36d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "subuta___redux-virtual-dom.json"
 }

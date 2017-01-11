@@ -62,17 +62,13 @@
       "build:less": "node scripts/build-less.js",
       "postinstall": "npm run build:less"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/guipas/resizing-machine.git"
-    },
+    "repository": "https://github.com/guipas/resizing-machine",
     "keywords": [
       "Electron",
       "resize",
       "image",
       "desktop"
     ],
-    "author": "Guillaume P",
     "license": "CC0-1.0",
     "homepage": "https://github.com/guipas/resizing-machine",
     "devDependencies": {
@@ -84,6 +80,9 @@
       "bootstrap": "^3.3.7",
       "jimp": "^0.2.24",
       "jquery": "^3.1.0"
+    },
+    "other": {
+      "author": "Guillaume P"
     }
   },
   "packageStatus": 200,
@@ -111,5 +110,6 @@
       "url": "https://api.github.com/repos/guipas/resizing-machine/git/commits/d11c4b0ebe823135174fb9fb887b916319008a20",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "guipas___resizing-machine.json"
 }

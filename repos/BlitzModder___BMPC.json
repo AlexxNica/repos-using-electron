@@ -1,0 +1,197 @@
+{
+  "filename": "BlitzModder___BMPC.json",
+  "id": 75529394,
+  "name": "BMPC",
+  "fullName": "BlitzModder/BMPC",
+  "owner": {
+    "login": "BlitzModder",
+    "id": 24367599,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/24367599?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/BlitzModder",
+    "htmlUrl": "https://github.com/BlitzModder",
+    "followersUrl": "https://api.github.com/users/BlitzModder/followers",
+    "subscriptionsUrl": "https://api.github.com/users/BlitzModder/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/BlitzModder/orgs",
+    "reposUrl": "https://api.github.com/users/BlitzModder/repos",
+    "receivedEventsUrl": "https://api.github.com/users/BlitzModder/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/BlitzModder/BMPC",
+  "description": "Mod Manager for World of Tanks Blitz (PC)",
+  "fork": false,
+  "url": "https://api.github.com/repos/BlitzModder/BMPC",
+  "forksUrl": "https://api.github.com/repos/BlitzModder/BMPC/forks",
+  "teamsUrl": "https://api.github.com/repos/BlitzModder/BMPC/teams",
+  "hooksUrl": "https://api.github.com/repos/BlitzModder/BMPC/hooks",
+  "eventsUrl": "https://api.github.com/repos/BlitzModder/BMPC/events",
+  "tagsUrl": "https://api.github.com/repos/BlitzModder/BMPC/tags",
+  "languagesUrl": "https://api.github.com/repos/BlitzModder/BMPC/languages",
+  "stargazersUrl": "https://api.github.com/repos/BlitzModder/BMPC/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/BlitzModder/BMPC/contributors",
+  "subscribersUrl": "https://api.github.com/repos/BlitzModder/BMPC/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/BlitzModder/BMPC/subscription",
+  "mergesUrl": "https://api.github.com/repos/BlitzModder/BMPC/merges",
+  "downloadsUrl": "https://api.github.com/repos/BlitzModder/BMPC/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/BlitzModder/BMPC/deployments",
+  "createdAt": "2016-12-04T09:54:33.000Z",
+  "updatedAt": "2016-12-05T17:40:18.000Z",
+  "pushedAt": "2016-12-04T10:20:45.000Z",
+  "gitUrl": "git://github.com/BlitzModder/BMPC.git",
+  "sshUrl": "git@github.com:BlitzModder/BMPC.git",
+  "cloneUrl": "https://github.com/BlitzModder/BMPC.git",
+  "svnUrl": "https://github.com/BlitzModder/BMPC",
+  "homepage": "",
+  "size": 960,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "CoffeeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "organization": {
+    "login": "BlitzModder",
+    "id": 24367599,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/24367599?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/BlitzModder",
+    "htmlUrl": "https://github.com/BlitzModder",
+    "followersUrl": "https://api.github.com/users/BlitzModder/followers",
+    "subscriptionsUrl": "https://api.github.com/users/BlitzModder/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/BlitzModder/orgs",
+    "reposUrl": "https://api.github.com/users/BlitzModder/repos",
+    "receivedEventsUrl": "https://api.github.com/users/BlitzModder/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "BlitzModderPC",
+    "version": "0.4.0",
+    "description": "Mod manager for World of Tanks Blitz(PC)",
+    "main": "bin/core/core.js",
+    "scripts": {
+      "teststart": "node_modules\\electron-prebuilt\\dist\\electron.exe bin",
+      "start": "npm run start:win64",
+      "start:win32": "build -w --ia32 --dir & .\\dist\\win-ia32-unpacked\\BlitzModderPC",
+      "start:win64": "build -w --x64 --dir & .\\dist\\win-unpacked\\BlitzModderPC",
+      "start:mac": "build -m --dir",
+      "build": "gulp",
+      "pack": "npm run pack:win & npm run pack:mac",
+      "pack:win": "npm run build & build -w --ia32 --x64",
+      "pack:mac": "npm run build & build -m"
+    },
+    "repository": "https://github.com/BlitzModder/BMPC",
+    "homepage": "http://github.com/BlitzModder/BMPC",
+    "license": "MIT",
+    "dependencies": {
+      "bootstrap": "4.0.0-alpha.5",
+      "fetch": "^1.1.0",
+      "fs-extra": "^0.30.0",
+      "plist": "^2.0.1",
+      "promise": "^7.1.1",
+      "unzipper": "^0.6.0",
+      "vue": "^2.1.3"
+    },
+    "devDependencies": {
+      "coffee-script": "^1.11.1",
+      "del": "^2.2.2",
+      "electron-builder": "^10.4.1",
+      "electron-prebuilt": "^1.4.10",
+      "gulp": "^3.9.1",
+      "gulp-changed": "^1.3.2",
+      "gulp-coffee": "^2.3.2",
+      "gulp-haml": "^0.1.6",
+      "gulp-notify": "^2.2.0",
+      "gulp-plumber": "^1.1.0",
+      "gulp-sass": "^2.3.2"
+    },
+    "resolutions": {
+      "fs-extra": "0.30.0",
+      "globby": "5.0.0",
+      "glob": "7.1.1",
+      "debug": "2.2.0",
+      "minimist": "1.2.0",
+      "semver": "5.3.0",
+      "mkdirp": "0.5.1",
+      "request": "2.75.0",
+      "graceful-fs": "4.1.9",
+      "nopt": "3.0.6",
+      "readable-stream": "2.0.6",
+      "xtend": "4.0.1",
+      "assert-plus": "0.2.0",
+      "path-exists": "1.0.0",
+      "camelcase": "2.1.1",
+      "strip-bom": "1.0.0",
+      "through2": "2.0.1",
+      "extend": "2.0.1",
+      "vinyl-fs": "0.3.14",
+      "vinyl": "0.5.3",
+      "gaze": "1.1.2",
+      "lodash": "3.10.1",
+      "vinyl-sourcemaps-apply": "0.1.4",
+      "lodash.clonedeep": "4.5.0",
+      "npmlog": "4.0.0"
+    },
+    "build": {
+      "appId": "xyz.4na.29314.BlitzModderPC",
+      "copyright": "(C) S(29314) 2016",
+      "mac": {
+        "category": "public.app-category.games"
+      },
+      "win": {
+        "target": "zip"
+      }
+    },
+    "other": {
+      "author": "S(29314)"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "S--Minecraft"
+  ],
+  "firstCommit": {
+    "sha": "97d2b1ca063d8600077ea67e589b55d215a46094",
+    "commit": {
+      "author": {
+        "name": "S",
+        "email": "s--minecraft@users.noreply.github.com",
+        "date": "2016-12-04T09:54:33Z"
+      },
+      "committer": {
+        "name": "S",
+        "email": "s--minecraft@users.noreply.github.com",
+        "date": "2016-12-04T09:54:33Z"
+      },
+      "message": "Initial commit",
+      "tree": {
+        "sha": "c5b70cf37e46e262f3d58145def20a9132b1c27c",
+        "url": "https://api.github.com/repos/BlitzModder/BMPC/git/trees/c5b70cf37e46e262f3d58145def20a9132b1c27c"
+      },
+      "url": "https://api.github.com/repos/BlitzModder/BMPC/git/commits/97d2b1ca063d8600077ea67e589b55d215a46094",
+      "commentCount": 0
+    }
+  }
+}

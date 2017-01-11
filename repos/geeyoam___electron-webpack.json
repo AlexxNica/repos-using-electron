@@ -77,17 +77,13 @@
       "webpack-dev": "NODE_ENV=dev webpack-dev-server --colors --quiet",
       "electron-dev": "NODE_ENV=dev electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/geeyoam/electron-webpack.git"
-    },
+    "repository": "https://github.com/geeyoam/electron-webpack",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "Guillaume Turgeon",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -115,6 +111,9 @@
       "webpack-dev-middleware": "^1.6.1",
       "webpack-dev-server": "^1.14.1",
       "webpack-hot-middleware": "^2.10.0"
+    },
+    "other": {
+      "author": "Guillaume Turgeon"
     }
   },
   "packageStatus": 200,
@@ -142,5 +141,6 @@
       "url": "https://api.github.com/repos/geeyoam/electron-webpack/git/commits/5946cac310c8fce18ff71d64cc95522d012d6bcd",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "geeyoam___electron-webpack.json"
 }

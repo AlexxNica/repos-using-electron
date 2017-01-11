@@ -50,19 +50,12 @@
     "version": "1.0.0",
     "description": "douban.fm桌面版",
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/lili21/electron-douban.fm.git"
-    },
+    "repository": "https://github.com/lili21/electron-douban.fm",
     "keywords": [
       "Electron",
       "douban.fm"
     ],
-    "author": "li.li",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/lili21/electron-douban.fm/issues"
-    },
     "homepage": "https://github.com/lili21/electron-douban.fm#readme",
     "scripts": {
       "start": "electron main.js",
@@ -76,6 +69,12 @@
     },
     "devDependencies": {
       "electron-prebuilt": "^0.36.10"
+    },
+    "other": {
+      "author": "li.li",
+      "bugs": {
+        "url": "https://github.com/lili21/electron-douban.fm/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -123,5 +122,6 @@
       "url": "https://api.github.com/repos/lili21/electron-douban.fm/git/commits/4a15705b453aa7c537be3895146a5de72b715f0a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lili21___electron-douban.fm.json"
 }

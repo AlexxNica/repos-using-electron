@@ -68,16 +68,9 @@
       "release": "node node_modules/electron-release/cli --app release/darwin-x64/GraphiQL-darwin-x64/GraphiQL.app --token `echo ${GITHUB_TOKEN}`",
       "test": "./node_modules/mocha/bin/mocha"
     },
-    "author": "Adam Miskiewicz <adam.skevy@mac.com> (http://github.com/skevy)",
     "license": "MIT",
     "homepage": "https://github.com/skevy/graphiql-app",
-    "bugs": {
-      "url": "https://github.com/skevy/graphiql-app/issues"
-    },
-    "repository": {
-      "type": "git",
-      "url": "http://github.com/skevy/graphiql-app.git"
-    },
+    "repository": "https://github.com/skevy/graphiql-app",
     "dependencies": {
       "graphiql": "^0.7.6",
       "graphql": "^0.7.0",
@@ -122,6 +115,12 @@
       "webpack": "^1.12.2",
       "webpack-dev-server": "^1.12.0",
       "webpack-target-electron-renderer": "^0.1.0"
+    },
+    "other": {
+      "author": "Adam Miskiewicz <adam.skevy@mac.com> (http://github.com/skevy)",
+      "bugs": {
+        "url": "https://github.com/skevy/graphiql-app/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -155,5 +154,6 @@
       "url": "https://api.github.com/repos/skevy/graphiql-app/git/commits/f909cb46bd017d5a30ffa83d55abd4d17124ffdc",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "skevy___graphiql-app.json"
 }

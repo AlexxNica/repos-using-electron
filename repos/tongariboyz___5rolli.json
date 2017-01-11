@@ -69,10 +69,6 @@
     "name": "5rolli",
     "description": "SHINCHOKU Viewer",
     "version": "0.0.0",
-    "author": "tongariboyz",
-    "bugs": {
-      "url": "https://github.com/tongariboyz/5rolli/issues"
-    },
     "dependencies": {
       "dacho": "^2.0.1",
       "electron-window-state": "^3.0.3",
@@ -134,10 +130,7 @@
     "license": "MIT",
     "main": "main.js",
     "private": true,
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/tongariboyz/5rolli.git"
-    },
+    "repository": "https://github.com/tongariboyz/5rolli",
     "scripts": {
       "app": "electron --debug=5858 dist/main.js",
       "build": "npm-run-all --parallel build:*",
@@ -184,6 +177,12 @@
       "watch:lint": "chokidar src/js test -c 'npm run -s lint'",
       "watch:server": "node-inspector",
       "watch:test": "mocha --timeout=10000 --watch test/**/*spec.js"
+    },
+    "other": {
+      "author": "tongariboyz",
+      "bugs": {
+        "url": "https://github.com/tongariboyz/5rolli/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -213,5 +212,6 @@
       "url": "https://api.github.com/repos/tongariboyz/5rolli/git/commits/cd9da5b2749a6eb4950556e20fe1bf9d59f8f131",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tongariboyz___5rolli.json"
 }

@@ -74,15 +74,8 @@
       "start": "electron .",
       "build": "electron-packager . ProghjyApp"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/reynoldssb/electron.git"
-    },
-    "author": "proghjy <proghjy@gmail.com>",
+    "repository": "https://github.com/reynoldssb/electron",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/reynoldssb/electron/issues"
-    },
     "homepage": "https://github.com/reynoldssb/electron#readme",
     "devDependencies": {
       "electron-debug": "^1.0.1",
@@ -99,6 +92,12 @@
       "pug": "^2.0.0-beta6",
       "react": "^15.3.2",
       "react-dom": "^15.3.2"
+    },
+    "other": {
+      "author": "proghjy <proghjy@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/reynoldssb/electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/reynoldssb/electron/git/commits/e198157740f639a3b2e3eb3ed5711f832a2e33bb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "reynoldssb___electron.json"
 }

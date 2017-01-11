@@ -74,20 +74,13 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "gulp dev"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Ikana/ddi.git"
-    },
+    "repository": "https://github.com/Ikana/ddi",
     "keywords": [
       "dance",
       "dance",
       "insurgency"
     ],
-    "author": "roderik",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Ikana/ddi/issues"
-    },
     "homepage": "https://github.com/Ikana/ddi#readme",
     "dependencies": {
       "babel-loader": "^6.2.3",
@@ -118,6 +111,12 @@
       "run-sequence": "^1.1.5",
       "stream-combiner2": "^1.1.1",
       "webpack-stream": "^3.1.0"
+    },
+    "other": {
+      "author": "roderik",
+      "bugs": {
+        "url": "https://github.com/Ikana/ddi/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -145,5 +144,6 @@
       "url": "https://api.github.com/repos/Ikana/ddi/git/commits/1b961dcd52340e157a72f3e64332befdb988c50f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Ikana___ddi.json"
 }

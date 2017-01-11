@@ -51,10 +51,7 @@
     "main": "electron/index.js",
     "version": "0.2.4",
     "description": "Interactive JavaScript notebooks with clever graphing",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/mathieudutour/kayero"
-    },
+    "repository": "https://github.com/mathieudutour/kayero",
     "keywords": [
       "interactive",
       "javscript",
@@ -62,11 +59,7 @@
       "notebook",
       "mongodb"
     ],
-    "author": "Mathieu Dutour <mathieu.dutour@me.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/mathieudutour/kayero/issues"
-    },
     "homepage": "https://github.com/mathieudutour/kayero",
     "dependencies": {
       "clipboard": "^1.5.10",
@@ -143,6 +136,12 @@
       "watch": "make build-watch",
       "build": "make build && make sign",
       "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+    },
+    "other": {
+      "author": "Mathieu Dutour <mathieu.dutour@me.com>",
+      "bugs": {
+        "url": "https://github.com/mathieudutour/kayero/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -172,5 +171,6 @@
       "url": "https://api.github.com/repos/mathieudutour/kayero/git/commits/c929947875cc28bbe3b32a6185b295942326c3ee",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mathieudutour___kayero.json"
 }

@@ -70,23 +70,15 @@
     "version": "0.0.1",
     "description": "A Desktop App for Visual Deploy",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember electron",
       "test": "ember test"
     },
     "repository": "https://github.com/imfly/VD",
-    "bugs": {
-      "url": "https://github.com/imfly/VD/issues"
-    },
     "engines": {
       "node": ">= 5.0"
     },
-    "author": "imfly",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -157,6 +149,16 @@
         "ProductName": "VD",
         "InternalName": "VD"
       }
+    },
+    "other": {
+      "author": "imfly",
+      "bugs": {
+        "url": "https://github.com/imfly/VD/issues"
+      },
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -184,5 +186,6 @@
       "url": "https://api.github.com/repos/imfly/VD/git/commits/d34a455099296a19d880b3a31bedbdecac819ca0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "imfly___VD.json"
 }

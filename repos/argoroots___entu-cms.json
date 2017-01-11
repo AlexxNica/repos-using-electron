@@ -49,7 +49,6 @@
     "name": "entu-cms",
     "productName": "Entu CMS",
     "version": "0.9.2",
-    "author": "Argo Roots <argo@roots.ee>",
     "description": "Simple (Jade) filebased CMS",
     "keywords": [
       "cms",
@@ -61,13 +60,7 @@
     ],
     "homepage": "https://github.com/argoroots/entu-cms",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/argoroots/entu-cms.git"
-    },
-    "bugs": {
-      "url": "https://github.com/argoroots/entu-cms/issues"
-    },
+    "repository": "https://github.com/argoroots/entu-cms",
     "main": "main.js",
     "scripts": {
       "start": "electron main.js"
@@ -92,6 +85,12 @@
     "devDependencies": {
       "electron-prebuilt": "^1.2.8",
       "html2jade": "^0.8.4"
+    },
+    "other": {
+      "author": "Argo Roots <argo@roots.ee>",
+      "bugs": {
+        "url": "https://github.com/argoroots/entu-cms/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -140,5 +139,6 @@
       "url": "https://api.github.com/repos/argoroots/entu-cms/git/commits/115eab9b7b0b0c95ec8f516109900730198a8407",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "argoroots___entu-cms.json"
 }

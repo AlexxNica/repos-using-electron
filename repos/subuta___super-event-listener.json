@@ -85,15 +85,8 @@
       "build": "jspm build lib/index.js dist/super-event-listener.js --format umd --skip-source-maps --minify",
       "prepublish": "npm run build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/subuta/super-event-listener.git"
-    },
-    "author": "subuta <shunta.3110@gmail.com> (https://github.com/subuta)",
+    "repository": "https://github.com/subuta/super-event-listener",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/subuta/super-event-listener/issues"
-    },
     "homepage": "https://github.com/subuta/super-event-listener#readme",
     "devDependencies": {
       "jspm": "^0.17.0-beta.31",
@@ -158,6 +151,12 @@
           }
         }
       }
+    },
+    "other": {
+      "author": "subuta <shunta.3110@gmail.com> (https://github.com/subuta)",
+      "bugs": {
+        "url": "https://github.com/subuta/super-event-listener/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -185,5 +184,6 @@
       "url": "https://api.github.com/repos/subuta/super-event-listener/git/commits/f98e056af848907422849725eed475e6ad424b87",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "subuta___super-event-listener.json"
 }

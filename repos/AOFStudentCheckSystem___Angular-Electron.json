@@ -90,7 +90,6 @@
       "postinstall": "npm run electron-rebuild",
       "rebuild": "npm rebuild --runtime=electron --target=1.4.3 --disturl=https://atom.io/download/atom-shell --abi=49"
     },
-    "author": "codetector",
     "license": "ISC",
     "dependencies": {
       "smartcard": "^1.0.16"
@@ -100,6 +99,9 @@
       "electron-packager": "^8.1.0",
       "electron-prebuilt": "^1.4.3",
       "electron-rebuild": "^1.1.5"
+    },
+    "other": {
+      "author": "codetector"
     }
   },
   "packageStatus": 200,
@@ -127,5 +129,6 @@
       "url": "https://api.github.com/repos/AOFStudentCheckSystem/Angular-Electron/git/commits/92107df9d421357dfb283edbe704b7820508f925",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "AOFStudentCheckSystem___Angular-Electron.json"
 }

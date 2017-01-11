@@ -79,7 +79,6 @@
       "package:win": "electron-packager . Ang2Electron --platform=win32 --arch=all --out=dist --overwrite --asar=true",
       "release:win": "npm run clean && npm run build"
     },
-    "author": "Coding Seb",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^8.0.0",
@@ -100,6 +99,9 @@
       "reflect-metadata": "0.1.2",
       "rxjs": "5.0.0-beta.6",
       "zone.js": "^0.6.12"
+    },
+    "other": {
+      "author": "Coding Seb"
     }
   },
   "packageStatus": 200,
@@ -127,5 +129,6 @@
       "url": "https://api.github.com/repos/codingseb/ang2electron-template/git/commits/8d29c80fc50a936b5c962e09f03c5ff4c2fca6ee",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "codingseb___ang2electron-template.json"
 }

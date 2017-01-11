@@ -73,20 +73,13 @@
   "status": 200,
   "packageJSON": {
     "name": "node-devtools",
-    "author": "Winter Liu",
     "version": "0.3.3",
     "description": "The simplest way to debug node.js with Chrome DevTools.",
     "homepage": "https://github.com/winter95/node-devtools",
     "bin": {
       "node-devtools": "./bin/node-devtools.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/winter95/node-devtools"
-    },
-    "bugs": {
-      "url": "https://github.com/winter95/node-devtools/issues"
-    },
+    "repository": "https://github.com/winter95/node-devtools",
     "keywords": [
       "node",
       "nodejs",
@@ -99,6 +92,12 @@
     "dependencies": {
       "electron": "^1.4.3",
       "minimist": "^1.2.0"
+    },
+    "other": {
+      "author": "Winter Liu",
+      "bugs": {
+        "url": "https://github.com/winter95/node-devtools/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/winter95/node-devtools/git/commits/608c129f28bfee4a287b7cc0b6e9da33f400e9e6",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "winter95___node-devtools.json"
 }

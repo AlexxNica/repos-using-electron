@@ -76,15 +76,8 @@
       "build-darwin": "electron-packager . zbox-challenge --platform=darwin --arch=x64 --version=0.31.1 --out=dist --ignore=\"node_modules/(electron-packager|electron-prebuilt|asar)\" --asar",
       "build-win32": "electron-packager . zbox-challenge --platform=win32 --arch=x64 --version=0.31.1 --out=dist --ignore=\"node_modules/(electron-packager|electron-prebuilt|asar)\" --asar"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/friverosicc/zbox-challenge.git"
-    },
-    "author": "Francisco Riveros",
+    "repository": "https://github.com/friverosicc/zbox-challenge",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/friverosicc/zbox-challenge/issues"
-    },
     "homepage": "https://github.com/friverosicc/zbox-challenge#readme",
     "dependencies": {
       "angular": "^1.4.5",
@@ -96,6 +89,12 @@
     "devDependencies": {
       "asar": "^0.8.0",
       "electron-packager": "^5.0.2"
+    },
+    "other": {
+      "author": "Francisco Riveros",
+      "bugs": {
+        "url": "https://github.com/friverosicc/zbox-challenge/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -123,5 +122,6 @@
       "url": "https://api.github.com/repos/friverosicc/youtube-visualizer/git/commits/7e381cc3e35d680c9797f8020c5a0a20ce077021",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "friverosicc___youtube-visualizer.json"
 }

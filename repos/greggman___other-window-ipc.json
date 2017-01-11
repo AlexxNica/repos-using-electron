@@ -79,10 +79,7 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/greggman/other-window-ipc.git"
-    },
+    "repository": "https://github.com/greggman/other-window-ipc",
     "keywords": [
       "ipc",
       "electron",
@@ -92,17 +89,19 @@
       "other-window-ipc.js",
       "lib"
     ],
-    "author": "Gregg Tavares",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/greggman/other-window-ipc/issues"
-    },
     "homepage": "https://github.com/greggman/other-window-ipc#readme",
     "devDependencies": {
       "electron": "^1.4.4"
     },
     "dependencies": {
       "debug": "^2.2.0"
+    },
+    "other": {
+      "author": "Gregg Tavares",
+      "bugs": {
+        "url": "https://github.com/greggman/other-window-ipc/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/greggman/other-window-ipc/git/commits/08e6cb11924bb43cee92f5121a651c2b18eb87bb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "greggman___other-window-ipc.json"
 }

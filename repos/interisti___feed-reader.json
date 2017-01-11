@@ -55,21 +55,14 @@
     "name": "feed-reader",
     "version": "0.0.1",
     "description": "Desktop application for reading rss/atom feeds",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/interisti/feed-reader"
-    },
+    "repository": "https://github.com/interisti/feed-reader",
     "keywords": [
       "electron",
       "rss",
       "atom",
       "feed"
     ],
-    "author": "Nika",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/interisti/feed-reader/issues"
-    },
     "homepage": "https://github.com/interisti/feed-reader#readme",
     "main": "./app/app.js",
     "scripts": {
@@ -83,6 +76,12 @@
       "nedb": "^1.4.0",
       "pouchdb": "^5.1.0",
       "pubsub-js": "^1.5.3"
+    },
+    "other": {
+      "author": "Nika",
+      "bugs": {
+        "url": "https://github.com/interisti/feed-reader/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/interisti/feed-reader/git/commits/8eedcca2954eaff03755a950d19922ee8d70627b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "interisti___feed-reader.json"
 }

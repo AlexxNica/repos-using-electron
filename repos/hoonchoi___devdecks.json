@@ -185,7 +185,6 @@
   "status": 200,
   "packageJSON": {
     "name": "devdecks",
-    "author": "CHAD",
     "productName": "devdecks",
     "version": "0.0.1",
     "description": "An open-source, seamless, intuitive, interactive, extensible presentational platform for developers",
@@ -244,21 +243,11 @@
         ]
       }
     },
-    "directories": {
-      "buildResources": "resources",
-      "output": "release"
-    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/DevDecks/devdecks.git"
-    },
+    "repository": "https://github.com/DevDecks/devdecks",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/DevDecks/devdecks/issues"
-    },
     "keywords": [
       "electron",
       "slides",
@@ -356,6 +345,16 @@
     "devEngines": {
       "node": ">=6.x",
       "npm": ">=3.x"
+    },
+    "other": {
+      "author": "CHAD",
+      "bugs": {
+        "url": "https://github.com/DevDecks/devdecks/issues"
+      },
+      "directories": {
+        "buildResources": "resources",
+        "output": "release"
+      }
     }
   },
   "packageStatus": 200,
@@ -384,5 +383,6 @@
       "url": "https://api.github.com/repos/hoonchoi/devdecks/git/commits/3240247bf27f45c1fcce90e326c3ad9574b8681e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hoonchoi___devdecks.json"
 }

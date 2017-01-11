@@ -100,15 +100,8 @@
       "package": "asar pack DeStore.app/Contents/app DeStore.app/Contents/Resources/app.asar",
       "build": "electron-packager ./ DeStore --prune --overwrite && cp electron.icns DeStore-darwin-x64/DeStore.app/Contents/Resources/electron.icns"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/DeStore/destore.git"
-    },
-    "author": "DeStore",
+    "repository": "https://github.com/DeStore/destore",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/DeStore/destore/issues"
-    },
     "homepage": "https://github.com/DeStore/destore#readme",
     "dependencies": {
       "blue-tape": "^0.2.0",
@@ -141,6 +134,12 @@
       "tap-spec": "^4.1.1",
       "tape": "^4.6.0",
       "tapes": "^4.1.0"
+    },
+    "other": {
+      "author": "DeStore",
+      "bugs": {
+        "url": "https://github.com/DeStore/destore/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -170,5 +169,6 @@
       "url": "https://api.github.com/repos/DeStore/destore/git/commits/e3f3752a99bf8066068cc50b8b16c59594aa56be",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DeStore___destore.json"
 }

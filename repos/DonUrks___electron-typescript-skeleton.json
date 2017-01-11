@@ -80,26 +80,25 @@
       "dist-win32-x64": "npm run tsc && electron-packager . --out=dist --platform=win32 --arch=x64 --overwrite",
       "dist-all": "npm run tsc && electron-packager . --out=dist --platform=all --arch=all --overwrite"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/DonUrks/electron-typescript-skeleton.git"
-    },
+    "repository": "https://github.com/DonUrks/electron-typescript-skeleton",
     "keywords": [
       "node",
       "typescript",
       "electron"
     ],
-    "author": "Eric Müller",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/DonUrks/electron-typescript-skeleton/issues"
-    },
     "homepage": "https://github.com/DonUrks/electron-typescript-skeleton#readme",
     "dependencies": {
       "electron-packager": "^7.2.0",
       "electron-prebuilt": "^1.2.5",
       "typescript": "^1.8.10",
       "typings": "^1.3.1"
+    },
+    "other": {
+      "author": "Eric Müller",
+      "bugs": {
+        "url": "https://github.com/DonUrks/electron-typescript-skeleton/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -125,5 +124,6 @@
       "url": "https://api.github.com/repos/DonUrks/electron-typescript-skeleton/git/commits/2c73dcb12b4af02719a2569056229e93409b5f52",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DonUrks___electron-typescript-skeleton.json"
 }

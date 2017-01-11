@@ -61,20 +61,13 @@
       "build": "$(npm bin)/browserify -t babelify -o bundle.js src/main.js",
       "watch": "$(npm bin)/watchify -t babelify -o bundle.js src/main.js -v"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/gin0606/electron-react-es2015-quick-start.git"
-    },
+    "repository": "https://github.com/gin0606/electron-react-es2015-quick-start",
     "keywords": [
       "Electron",
       "React",
       "ES2015"
     ],
-    "author": "gin0606",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/gin0606/electron-react-es2015-quick-start/issues"
-    },
     "homepage": "https://github.com/gin0606/electron-react-es2015-quick-start#readme",
     "devDependencies": {
       "babel-preset-es2015": "^6.9.0",
@@ -88,6 +81,12 @@
       "babelify": "^7.3.0",
       "react": "^15.1.0",
       "react-dom": "^15.1.0"
+    },
+    "other": {
+      "author": "gin0606",
+      "bugs": {
+        "url": "https://github.com/gin0606/electron-react-es2015-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -115,5 +114,6 @@
       "url": "https://api.github.com/repos/gin0606/electron-react-es2015-quick-start/git/commits/89735be4dcc7813a744f97e2919b729a8fb7c6da",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "gin0606___electron-react-es2015-quick-start.json"
 }

@@ -79,21 +79,14 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/butu/electron-gistbox.git"
-    },
+    "repository": "https://github.com/butu/electron-gistbox",
     "keywords": [
       "Electron",
       "gistbox",
       "snippets",
       "github"
     ],
-    "author": "Benjamin Butschell",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/butu/electron-gistbox/issues"
-    },
     "homepage": "https://github.com/butu/electron-gistbox#readme",
     "devDependencies": {
       "electron": "^1.3.4"
@@ -101,6 +94,12 @@
     "dependencies": {
       "form-serialize": "^0.7.1",
       "nconf": "^0.8.4"
+    },
+    "other": {
+      "author": "Benjamin Butschell",
+      "bugs": {
+        "url": "https://github.com/butu/electron-gistbox/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/butu/electron-gistbox/git/commits/a3792f5203fda61f2cf4c4b2a936018be71bbc41",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "butu___electron-gistbox.json"
 }

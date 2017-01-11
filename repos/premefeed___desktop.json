@@ -93,15 +93,8 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/premefeed/desktop.git"
-    },
-    "author": "Peter Soboyejo",
+    "repository": "https://github.com/premefeed/desktop",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/premefeed/desktop/issues"
-    },
     "homepage": "https://github.com/premefeed/desktop#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -110,6 +103,12 @@
     "dependencies": {
       "menu": "^0.2.5",
       "path": "^0.12.7"
+    },
+    "other": {
+      "author": "Peter Soboyejo",
+      "bugs": {
+        "url": "https://github.com/premefeed/desktop/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -137,5 +136,6 @@
       "url": "https://api.github.com/repos/premefeed/desktop/git/commits/c4381d85d376d8d848140c584c450ea306115fee",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "premefeed___desktop.json"
 }

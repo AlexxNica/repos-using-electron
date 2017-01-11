@@ -83,7 +83,6 @@
     "name": "broken-mold",
     "productName": "Broken Mold",
     "description": "Dungeons & Dragons companion application",
-    "author": "D5",
     "license": "WTFPL",
     "version": "0.1.0",
     "main": "main.js",
@@ -93,13 +92,7 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "watch": "node_modules/.bin/webpack --progress --colors --watch"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/D5-SDD/broken-mold.git"
-    },
-    "bugs": {
-      "url": "https://github.com/D5-SDD/broken-mold/issues"
-    },
+    "repository": "https://github.com/D5-SDD/broken-mold",
     "homepage": "https://github.com/D5-SDD/broken-mold#readme",
     "dependencies": {
       "electron": "^1.4.3",
@@ -135,6 +128,12 @@
       "webpack": "^1.13.2",
       "webpack-target-electron-renderer": "^0.4.0",
       "webpack-validator": "^2.2.9"
+    },
+    "other": {
+      "author": "D5",
+      "bugs": {
+        "url": "https://github.com/D5-SDD/broken-mold/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -166,5 +165,6 @@
       "url": "https://api.github.com/repos/D5-SDD/broken-mold/git/commits/7a7568c2a5522834e1e7c5123e283f3f96996315",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "D5-SDD___broken-mold.json"
 }

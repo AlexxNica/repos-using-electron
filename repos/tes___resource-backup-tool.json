@@ -84,21 +84,14 @@
       "precommit": "npm run lint",
       "lint": "tslint src/**.ts?"
     },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:tes/resource-backup-tool.git"
-    },
+    "repository": "https://github.com/tes/resource-backup-tool",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "TES Global",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/tes/resource-backup-tool/issues"
-    },
     "homepage": "https://github.com/tes/resource-backup-tool",
     "devDependencies": {
       "body-parser": "^1.15.2",
@@ -135,6 +128,12 @@
       "request-progress": "^2.0.1",
       "whatwg-fetch": "^1.0.0",
       "yamljs": "^0.2.8"
+    },
+    "other": {
+      "author": "TES Global",
+      "bugs": {
+        "url": "https://github.com/tes/resource-backup-tool/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -183,5 +182,6 @@
       "url": "https://api.github.com/repos/tes/resource-backup-tool/git/commits/bdc74fe8c5c4522798e750dbf16efc68f8951e87",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tes___resource-backup-tool.json"
 }

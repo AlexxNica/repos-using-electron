@@ -172,11 +172,6 @@
   "packageJSON": {
     "name": "manhattan",
     "description": "Manhattan Core Module",
-    "author": {
-      "name": "Kepler Sticka-Jones",
-      "email": "kepler+manhattan@stickajones.org",
-      "url": "http://github.com/k2b6s9j"
-    },
     "version": "0.1.0",
     "dependencies": {
       "async": "0.9.x",
@@ -198,13 +193,7 @@
       "tar": "0.1.x",
       "titlebar": "^1.2.0"
     },
-    "repository": {
-      "type": "git",
-      "url": "http://github.com/k2b6s9j/manhattan.git"
-    },
-    "bugs": {
-      "url": "https://github.com/k2b6s9j/manhattan/issues"
-    },
+    "repository": "https://github.com/k2b6s9j/manhattan",
     "licenses": [
       {
         "type": "MIT",
@@ -214,6 +203,16 @@
     "main": "./main.js",
     "devDependencies": {
       "electron-prebuilt": "^0.26.0"
+    },
+    "other": {
+      "author": {
+        "name": "Kepler Sticka-Jones",
+        "email": "kepler+manhattan@stickajones.org",
+        "url": "http://github.com/k2b6s9j"
+      },
+      "bugs": {
+        "url": "https://github.com/k2b6s9j/manhattan/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -276,5 +275,6 @@
       "url": "https://api.github.com/repos/keplersj/manhattan/git/commits/d6bc42bbd39d6501907b50763f379fb160cab1fc",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kepler0___manhattan.json"
 }

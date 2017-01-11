@@ -61,20 +61,19 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "build": "electron-packager . cadastre-parser --platform=linux-x64 --arch=x64 --version=0.37.2 --app-version=0.1.0 --out=dist --ignore=dist --prune"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/filippov70/cadastre-parser.git"
-    },
+    "repository": "https://github.com/filippov70/cadastre-parser",
     "devDependencies": {
       "electron-prebuilt": "^0.37.2",
       "jsonfile": "*"
     },
-    "author": "filippov vladislav (filippov70)",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/filippov70/cadastre-parser/issues"
-    },
-    "homepage": "https://github.com/filippov70/cadastre-parser#readme"
+    "homepage": "https://github.com/filippov70/cadastre-parser#readme",
+    "other": {
+      "author": "filippov vladislav (filippov70)",
+      "bugs": {
+        "url": "https://github.com/filippov70/cadastre-parser/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/filippov70/cadastre-parser",
@@ -121,5 +120,6 @@
       "url": "https://api.github.com/repos/filippov70/cadastre-parser/git/commits/20ce54699fe341951e1af1ac2dc18ba454eed134",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "filippov70___cadastre-parser.json"
 }

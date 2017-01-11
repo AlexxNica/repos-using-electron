@@ -62,11 +62,7 @@
       "prebuild": "rimraf dist",
       "build": "babel --copy-files --out-dir dist --ignore *.test.js,*.jade src"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/WheatleyTheCoder/minecraft-server-maker/"
-    },
-    "author": "WheatleyTheCoder <slendermanwithaface@gmail.com> (http://project2.neocities.org/)",
+    "repository": "https://github.com/WheatleyTheCoder/minecraft-server-maker",
     "license": "MIT",
     "dependencies": {
       "electron-prebuilt": "1.3.5",
@@ -86,6 +82,9 @@
         "es2015",
         "stage-2"
       ]
+    },
+    "other": {
+      "author": "WheatleyTheCoder <slendermanwithaface@gmail.com> (http://project2.neocities.org/)"
     }
   },
   "packageStatus": 200,
@@ -134,5 +133,6 @@
       "url": "https://api.github.com/repos/WheatleyTheCoder/minecraft-server-maker/git/commits/5399d2edaecbb600242b36d8d471e26002955b2e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "WheatleyTheCoder___minecraft-server-maker.json"
 }

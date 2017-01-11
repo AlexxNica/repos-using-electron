@@ -91,19 +91,12 @@
       "pack": "build --dir",
       "dist": "build -mwl"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/esonderegger/plaster.git"
-    },
+    "repository": "https://github.com/esonderegger/plaster",
     "keywords": [
       "podcast",
       "podcasting"
     ],
-    "author": "Evan Sonderegger <evan@rpy.xyz>",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/esonderegger/plaster/issues"
-    },
     "homepage": "https://esonderegger.github.io/plaster/",
     "devDependencies": {
       "archiver": "^1.1.0",
@@ -171,6 +164,12 @@
           "!compiled/ffprobe_mac"
         ]
       }
+    },
+    "other": {
+      "author": "Evan Sonderegger <evan@rpy.xyz>",
+      "bugs": {
+        "url": "https://github.com/esonderegger/plaster/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -198,5 +197,6 @@
       "url": "https://api.github.com/repos/esonderegger/plaster/git/commits/d3b4c2e9edd59c5499770ea0e57ce7108414bb0d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "esonderegger___plaster.json"
 }

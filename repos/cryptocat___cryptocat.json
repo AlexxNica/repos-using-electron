@@ -69,11 +69,7 @@
     "name": "CryptocatBuilder",
     "version": "1.0.0",
     "description": "Builds Cryptocat.",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/cryptocat/cryptocat"
-    },
-    "author": "Nadim Kobeissi",
+    "repository": "https://github.com/cryptocat/cryptocat",
     "license": "GPL-3.0",
     "homepage": "https://crypto.cat",
     "devDependencies": {
@@ -93,6 +89,9 @@
       "win": "grunt win",
       "mac": "grunt mac",
       "linux": "grunt linux"
+    },
+    "other": {
+      "author": "Nadim Kobeissi"
     }
   },
   "packageStatus": 200,
@@ -125,5 +124,6 @@
       "url": "https://api.github.com/repos/cryptocat/cryptocat/git/commits/120796a65fb2ba5485b137f3a6783e2efb4e6f86",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cryptocat___cryptocat.json"
 }

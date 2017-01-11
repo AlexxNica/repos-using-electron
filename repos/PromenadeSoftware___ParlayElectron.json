@@ -85,19 +85,18 @@
     "namelower": "parlayui",
     "version": "0.0.5",
     "description": "A web client for the Parlay broker system",
-    "author": "Nick Morris <nick@promenadesoftware.com>",
     "main": "app.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/PromenadeSoftware/ParlayUI"
-    },
+    "repository": "https://github.com/PromenadeSoftware/ParlayUI",
     "scripts": {},
     "devDependencies": {
       "bower": "~1.7.9",
       "electron-prebuilt": "^1.2.0",
       "electron-packager": "^7.6.0"
     },
-    "private": true
+    "private": true,
+    "other": {
+      "author": "Nick Morris <nick@promenadesoftware.com>"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -124,5 +123,6 @@
       "url": "https://api.github.com/repos/PromenadeSoftware/ParlayElectron/git/commits/33ba02e220e055d5257148d154493b9bdaf7ffb2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "PromenadeSoftware___ParlayElectron.json"
 }

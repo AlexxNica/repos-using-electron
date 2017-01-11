@@ -61,20 +61,13 @@
       "pack": "electron-packager ./ hello_world --platform=win32 --arch=x64 --asar --overwrite --out ./pack --app-version=1.0.0",
       "build": "build --platform win32 --arch x64"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "hellor",
       "world"
     ],
-    "author": "wy182000",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "asar": "^0.12.0",
@@ -89,6 +82,12 @@
       "win": {
         "msi": true,
         "iconUrl": "https://github.com/${u}/${p}/blob/master/build/icon.ico?raw=true"
+      }
+    },
+    "other": {
+      "author": "wy182000",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
       }
     }
   },
@@ -137,5 +136,6 @@
       "url": "https://api.github.com/repos/wy182000/electron_hello_world/git/commits/08e96ae4dfec5bf6868bbb48cab404d752e975c5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "wy182000___electron_hello_world.json"
 }

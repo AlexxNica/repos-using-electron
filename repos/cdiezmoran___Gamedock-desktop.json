@@ -118,26 +118,11 @@
         ]
       }
     },
-    "directories": {
-      "buildResources": "resources",
-      "output": "release"
-    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
-    },
-    "author": {
-      "name": "C. T. Lin",
-      "email": "chentsulin@gmail.com",
-      "url": "https://github.com/chentsulin"
-    },
+    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
-    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -227,6 +212,20 @@
     "devEngines": {
       "node": ">=6.x",
       "npm": ">=3.x"
+    },
+    "other": {
+      "author": {
+        "name": "C. T. Lin",
+        "email": "chentsulin@gmail.com",
+        "url": "https://github.com/chentsulin"
+      },
+      "bugs": {
+        "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+      },
+      "directories": {
+        "buildResources": "resources",
+        "output": "release"
+      }
     }
   },
   "packageStatus": 200,
@@ -254,5 +253,6 @@
       "url": "https://api.github.com/repos/cdiezmoran/Gamedock-desktop/git/commits/3d618755595394c2aac4a3bea4de294454d1439e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cdiezmoran___Gamedock-desktop.json"
 }

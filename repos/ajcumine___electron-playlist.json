@@ -76,18 +76,11 @@
       "test": "echo \"Error: no test specified\" && exit 0",
       "start": "ENV=development ./node_modules/.bin/electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/ajcumine/electron-playlist.git"
-    },
+    "repository": "https://github.com/ajcumine/electron-playlist",
     "keywords": [
       "Electron"
     ],
-    "author": "@ajcumine",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ajcumine/electron-playlist/issues"
-    },
     "homepage": "https://github.com/ajcumine/electron-playlist#readme",
     "dependencies": {
       "electron": "^1.4.0"
@@ -112,6 +105,12 @@
       "webpack": "^1.13.2",
       "webpack-dev-middleware": "^1.8.0",
       "webpack-hot-middleware": "^2.12.2"
+    },
+    "other": {
+      "author": "@ajcumine",
+      "bugs": {
+        "url": "https://github.com/ajcumine/electron-playlist/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -139,5 +138,6 @@
       "url": "https://api.github.com/repos/ajcumine/electron-playlist/git/commits/61e3ffcff37cc0299929fce9c875dabd176df0e0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ajcumine___electron-playlist.json"
 }

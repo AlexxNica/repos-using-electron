@@ -146,26 +146,11 @@
         ]
       }
     },
-    "directories": {
-      "buildResources": "resources",
-      "output": "release"
-    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
-    },
-    "author": {
-      "name": "C. T. Lin",
-      "email": "chentsulin@gmail.com",
-      "url": "https://github.com/chentsulin"
-    },
+    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
-    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -253,6 +238,20 @@
     "devEngines": {
       "node": ">=6.x",
       "npm": ">=3.x"
+    },
+    "other": {
+      "author": {
+        "name": "C. T. Lin",
+        "email": "chentsulin@gmail.com",
+        "url": "https://github.com/chentsulin"
+      },
+      "bugs": {
+        "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+      },
+      "directories": {
+        "buildResources": "resources",
+        "output": "release"
+      }
     }
   },
   "packageStatus": 200,
@@ -281,5 +280,6 @@
       "url": "https://api.github.com/repos/decred/decrediton/git/commits/749f36519170d9a991eaaaef155b53e1ef9e6e89",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "decred___decrediton.json"
 }

@@ -78,11 +78,6 @@
     "description": "My breathtaking app",
     "license": "MIT",
     "repository": "fengzilong/handy",
-    "author": {
-      "name": "mo",
-      "email": "feng_zilong@163.com",
-      "url": "https://github.com/fengzilong/handy"
-    },
     "scripts": {
       "test": "xo",
       "dev": "concurrently --kill-others \"npm run electron\" \"npm run riot\"",
@@ -120,6 +115,13 @@
         "node",
         "browser"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "mo",
+        "email": "feng_zilong@163.com",
+        "url": "https://github.com/fengzilong/handy"
+      }
     }
   },
   "packageStatus": 200,
@@ -147,5 +149,6 @@
       "url": "https://api.github.com/repos/fengzilong/handy/git/commits/ff926d20768929ea18fdbe994fbb831f7f676689",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "fengzilong___handy.json"
 }

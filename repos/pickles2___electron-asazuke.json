@@ -97,15 +97,7 @@
       "build": "source release.sh; submodule_update; node release.js; copy_shareDir;",
       "build-all": "source release.sh; build_all;"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/pickles2/electron-asazuke.git"
-    },
-    "author": {
-      "name": "Misaki Shibata",
-      "email": "misaki.pink@gmail.com",
-      "url": "http://pickles2.pxt.jp/tools/asazuke/"
-    },
+    "repository": "https://github.com/pickles2/electron-asazuke",
     "license": "MIT",
     "devDependencies": {
       "archiver": "^0.21.0",
@@ -193,6 +185,13 @@
       "rimraf": "^2.5.1",
       "smalltalk": "file:submodules/smalltalk",
       "underscore": "^1.7.0"
+    },
+    "other": {
+      "author": {
+        "name": "Misaki Shibata",
+        "email": "misaki.pink@gmail.com",
+        "url": "http://pickles2.pxt.jp/tools/asazuke/"
+      }
     }
   },
   "packageStatus": 200,
@@ -221,5 +220,6 @@
       "url": "https://api.github.com/repos/pickles2/electron-asazuke/git/commits/69a7df7b4ddae54161337e2ce9141e2502ab88aa",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "pickles2___electron-asazuke.json"
 }

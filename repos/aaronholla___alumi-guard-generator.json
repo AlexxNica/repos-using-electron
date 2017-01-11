@@ -79,12 +79,6 @@
       "Guard"
     ],
     "homepage": "https://github.com/aaronholla/alumi-guard-generator/",
-    "bugs": "https://github.com/aaronholla/alumi-guard-generator/issues",
-    "author": {
-      "name": "Aaron Holland",
-      "url": "http://www.aaronholla.com/",
-      "email": "aaronholla@gmail.com"
-    },
     "main": "app/main.js",
     "devDependencies": {
       "electron": "^1.4.4",
@@ -106,12 +100,17 @@
       "release": "build -w --x64 -p always",
       "build": "build -w --ia32 --x64 --dir"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/aaronholla/alumi-guard-generator.git"
-    },
+    "repository": "https://github.com/aaronholla/alumi-guard-generator",
     "license": "UNLICENSED",
-    "private": true
+    "private": true,
+    "other": {
+      "author": {
+        "name": "Aaron Holland",
+        "url": "http://www.aaronholla.com/",
+        "email": "aaronholla@gmail.com"
+      },
+      "bugs": "https://github.com/aaronholla/alumi-guard-generator/issues"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -138,5 +137,6 @@
       "url": "https://api.github.com/repos/aaronholla/alumi-guard-generator/git/commits/2168f049885adf746d0046c187638908397818c2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "aaronholla___alumi-guard-generator.json"
 }

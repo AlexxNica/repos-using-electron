@@ -69,23 +69,22 @@
       "build:osx": "npm run pack:osx && electron-builder \"dist/osx/DevTools.app\" --platform=osx --out=\"dist/osx\" --config=builder.json",
       "build:win": "npm run pack:win && electron-builder \"dist/win/DevTools-win32\" --platform=win --out=\"dist/win\" --config=builder.json"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/naxmefy/devtools.git"
-    },
+    "repository": "https://github.com/naxmefy/devtools",
     "keywords": [
       "devtools"
     ],
-    "author": "naxmefy",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/naxmefy/devtools/issues"
-    },
     "homepage": "https://github.com/naxmefy/devtools#readme",
     "dependencies": {
       "electron-packager": "^4.0.2",
       "electron-prebuilt": "^0.36.7",
       "electron-builder": "^2.7.2"
+    },
+    "other": {
+      "author": "naxmefy",
+      "bugs": {
+        "url": "https://github.com/naxmefy/devtools/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -113,5 +112,6 @@
       "url": "https://api.github.com/repos/naxmefy/devtools/git/commits/2ce72ae4d34579fa56aa19c0333fb217bbd3c5a8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "naxmefy___devtools.json"
 }

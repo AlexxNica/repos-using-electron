@@ -93,7 +93,6 @@
       "release": "build --publish always"
     },
     "repository": "https://github.com/alexcroox/video-tools",
-    "author": "alexcroox",
     "license": "MIT",
     "devDependencies": {
       "electron": "^1.4.1",
@@ -111,7 +110,10 @@
       "rupture": "^0.6.1",
       "watchify": "^3.2.3"
     },
-    "postinstall": "install-app-deps"
+    "postinstall": "install-app-deps",
+    "other": {
+      "author": "alexcroox"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -139,5 +141,6 @@
       "url": "https://api.github.com/repos/alexcroox/video-tools/git/commits/312ac5b641e672488a819c8fa8562bd675ddc5e1",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "alexcroox___video-tools.json"
 }

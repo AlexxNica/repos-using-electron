@@ -90,19 +90,8 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/octoblu/electron-meshblu-connector-installer.git"
-    },
-    "author": {
-      "name": "Octoblu, Inc.",
-      "email": "npm@octoblu.com",
-      "url": "https://github.com/octoblu"
-    },
+    "repository": "https://github.com/octoblu/electron-meshblu-connector-installer",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/octoblu/electron-meshblu-connector-installer/issues"
-    },
     "keywords": [
       "electron",
       "meshblu",
@@ -189,6 +178,16 @@
     "devEngines": {
       "node": "4.x || 5.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Octoblu, Inc.",
+        "email": "npm@octoblu.com",
+        "url": "https://github.com/octoblu"
+      },
+      "bugs": {
+        "url": "https://github.com/octoblu/electron-meshblu-connector-installer/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -239,5 +238,6 @@
       "url": "https://api.github.com/repos/octoblu/electron-meshblu-connector-installer/git/commits/f0f217065ab9584e896d8881beb39440231fcb87",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "octoblu___electron-meshblu-connector-installer.json"
 }

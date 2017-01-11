@@ -78,18 +78,11 @@
       "build": "node_modules/.bin/babel src --out-dir dist",
       "clean": "rm -rf dist"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/atom/line-length-index.git"
-    },
+    "repository": "https://github.com/atom/line-length-index",
     "keywords": [
       "atom lines data-structure"
     ],
-    "author": "Nathan Sobo <nathan@github.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/nathansobo/atom-patch/issues"
-    },
     "homepage": "https://github.com/atom/line-length-index",
     "devDependencies": {
       "babel": "^5.0.0",
@@ -111,6 +104,12 @@
         "it",
         "assert"
       ]
+    },
+    "other": {
+      "author": "Nathan Sobo <nathan@github.com>",
+      "bugs": {
+        "url": "https://github.com/nathansobo/atom-patch/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -138,5 +137,6 @@
       "url": "https://api.github.com/repos/atom/line-length-index/git/commits/cd6629cc6eb0e52c7d7fa2723dc7c0df7dbd2251",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "atom___line-length-index.json"
 }

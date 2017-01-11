@@ -79,7 +79,6 @@
       "pack": "electron-packager . work --asar --asar-unpack=protocol-link.html --overwrite --platform=win32 --arch=ia32 --icon=assets/app-icon/win/icon.ico --ignore=test --ignore=build_script --prune=true --out=out --version-string.CompanyName=直观 --version-string.FileDescription=协同工作 --version-string.ProductName=蜗壳",
       "installer": "node ./build_script/installer.js"
     },
-    "author": "直观",
     "devDependencies": {
       "devtron": "^1.3.0",
       "electron": "1.4.3",
@@ -92,6 +91,9 @@
       "auto-launch": "^5.0.1",
       "co": "^4.6.0",
       "electron-notifications": "^0.1.1"
+    },
+    "other": {
+      "author": "直观"
     }
   },
   "packageStatus": 200,
@@ -119,5 +121,6 @@
       "url": "https://api.github.com/repos/zhiguan-hanks/sample/git/commits/fcf887015c8eb490d370d0d054de307f3d040170",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zhiguan-hanks___sample.json"
 }

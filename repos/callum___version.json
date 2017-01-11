@@ -62,15 +62,8 @@
       "build": "bin/build.sh",
       "clean": "rm -rf build/*"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/callum/version.git"
-    },
-    "author": "Callum Jefferies",
+    "repository": "https://github.com/callum/version",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/callum/version/issues"
-    },
     "homepage": "https://github.com/callum/version#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -79,6 +72,12 @@
     },
     "dependencies": {
       "version-filename": "github:callum/version-filename"
+    },
+    "other": {
+      "author": "Callum Jefferies",
+      "bugs": {
+        "url": "https://github.com/callum/version/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -106,5 +105,6 @@
       "url": "https://api.github.com/repos/callum/version/git/commits/9d7a8173941d9651741402cc988cf92231c06aa4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "callum___version.json"
 }

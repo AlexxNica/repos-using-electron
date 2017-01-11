@@ -95,15 +95,14 @@
       "buildOSX": "electron-packager . --platform=darwin --arch=x64 --icon=img/schreiberlingLogo.icns --out=/Users/manuelreich/Desktop --overwrite",
       "buildWIN": "electron-packager . --platform=win32 --arch=all --icon=img/schreiberlingLogo.ico --out=/Users/manuelreich/Desktop --overwrite"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/errnesto/Schreiberling.git"
-    },
-    "author": "Manuel Reich",
+    "repository": "https://github.com/errnesto/Schreiberling",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "other": {
+      "author": "Manuel Reich"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -130,5 +129,6 @@
       "url": "https://api.github.com/repos/wunderundfitzig/Schreiberling/git/commits/8e52c9b4e227417b8501757aefc368fd72d40deb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "wunderundfitzig___Schreiberling.json"
 }

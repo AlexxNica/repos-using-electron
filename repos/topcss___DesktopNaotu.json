@@ -80,19 +80,12 @@
       "start": "gulp default && electron main.js",
       "packager": "electron-packager ./ DesktopNaotu --platform=win32 --arch=x64 --out ../OutApp --icon=favicon.ico"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/topcss/DesktopNaotu.git"
-    },
+    "repository": "https://github.com/topcss/DesktopNaotu",
     "keywords": [
       "mind",
       "naotu"
     ],
-    "author": "'Jack' <'topcss@gmail.com'>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/topcss/DesktopNaotu/issues"
-    },
     "homepage": "https://github.com/topcss/DesktopNaotu#readme",
     "devDependencies": {
       "del": "^2.2.2",
@@ -114,6 +107,12 @@
       "js-beautify": "^1.6.4",
       "run-sequence": "^1.2.2",
       "wiredep": "^4.0.0"
+    },
+    "other": {
+      "author": "'Jack' <'topcss@gmail.com'>",
+      "bugs": {
+        "url": "https://github.com/topcss/DesktopNaotu/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -141,5 +140,6 @@
       "url": "https://api.github.com/repos/topcss/DesktopNaotu/git/commits/bbe163e972fd034dd5706d795e453da6d4d4d010",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "topcss___DesktopNaotu.json"
 }

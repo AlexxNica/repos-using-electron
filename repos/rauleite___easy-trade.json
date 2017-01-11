@@ -76,12 +76,8 @@
     "productName": "EasyTrade",
     "description": "An EasyTrade project",
     "version": "0.0.1",
-    "author": "Raul Leite <raul.abreu.leite@gmail.com>",
     "main": "app/index.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rauleite/easy-trade.git"
-    },
+    "repository": "https://github.com/rauleite/easy-trade",
     "keywords": [
       "betfair",
       "trade",
@@ -94,9 +90,6 @@
       "png": "app/assets/boilerplate.png"
     },
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/rauleite/easy-trade/issues"
-    },
     "homepage": "https://github.com/rauleite/easy-trade#readme",
     "scripts": {
       "postinstall": "npm run app-install",
@@ -135,6 +128,12 @@
       "electron-installer-debian": "^0.3.0",
       "electron-installer-redhat": "^0.3.0",
       "electron-installer-windows": "^0.2.0"
+    },
+    "other": {
+      "author": "Raul Leite <raul.abreu.leite@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/rauleite/easy-trade/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -162,5 +161,6 @@
       "url": "https://api.github.com/repos/rauleite/easy-trade/git/commits/a1f82889cdbc1f97b91425928ecc1d66e2b4756b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rauleite___easy-trade.json"
 }

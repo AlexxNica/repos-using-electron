@@ -60,15 +60,8 @@
       "start": "electron src/main.js",
       "install": "./node_modules/.bin/electron-rebuild"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/atom/electron-quick-start.git"
-    },
-    "author": "Christian Benincasa",
+    "repository": "https://github.com/atom/electron-quick-start",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/atom/electron-quick-start/issues"
-    },
     "devDependencies": {
       "async": "^1.5.2",
       "babel-core": "^6.4.0",
@@ -119,6 +112,12 @@
       "sqlite3": "https://github.com/mapbox/node-sqlite3/tarball/master",
       "superagent": "^1.6.1",
       "underscore": "^1.8.3"
+    },
+    "other": {
+      "author": "Christian Benincasa",
+      "bugs": {
+        "url": "https://github.com/atom/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -146,5 +145,6 @@
       "url": "https://api.github.com/repos/chrisbenincasa/concerto-js/git/commits/c7fe3b8bf43b1eca1e034f796a19b5f76b3eb61f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "chrisbenincasa___concerto-js.json"
 }

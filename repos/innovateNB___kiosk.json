@@ -84,10 +84,6 @@
     "version": "0.0.0",
     "description": "Small description for kiosk goes here",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -97,7 +93,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "eddystone-beacon": "^1.0.6",
@@ -182,7 +177,14 @@
         "InternalName": null
       }
     },
-    "optionalDependencies": {}
+    "optionalDependencies": {},
+    "other": {
+      "author": "",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -210,5 +212,6 @@
       "url": "https://api.github.com/repos/innovateNB/kiosk/git/commits/73c75c941de92e5c5a958d52250eed84f2146be6",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "innovateNB___kiosk.json"
 }

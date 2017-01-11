@@ -76,20 +76,13 @@
       "build:mac": "electron-packager . MoziWorkFlow --platform=darwin --arch=x64 --version=1.3.2",
       "build:win": "electron-packager . MoziWorkFlow --platform=win32 --arch=x64 --version=1.3.2"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/summerGreenTea/MoziWorkFlow.git"
-    },
+    "repository": "https://github.com/summerGreenTea/MoziWorkFlow",
     "keywords": [
       "Electron",
       "mozi",
       "workflow"
     ],
-    "author": "lucienyu",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/summerGreenTea/MoziWorkFlow/issues"
-    },
     "homepage": "https://github.com/summerGreenTea/MoziWorkFlow#readme",
     "devDependencies": {
       "electron": "^0.4.1",
@@ -100,6 +93,12 @@
       "electron": "^0.4.1",
       "electron-packager": "^7.4.0",
       "moz": "0.0.8"
+    },
+    "other": {
+      "author": "lucienyu",
+      "bugs": {
+        "url": "https://github.com/summerGreenTea/MoziWorkFlow/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/summerGreenTea/MoziWorkFlow/git/commits/5995ede7943afefe0c5b694e839e66c216451953",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "summerGreenTea___MoziWorkFlow.json"
 }

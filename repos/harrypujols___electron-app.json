@@ -80,13 +80,15 @@
       "start": "electron ./app/main.js",
       "build": "electron-packager ./app $npm_package_productName --platform=darwin --arch=x64 --ignore=node_modules --icon=icons/icon --overwrite --out=./release"
     },
-    "author": "Harry",
     "license": "GNU",
     "devDependencies": {
       "electron-packager": "^7.0.1",
       "electron-prebuilt": "^0.37.7",
       "gulp": "^3.9.1",
       "gulp-electron": "^0.1.2"
+    },
+    "other": {
+      "author": "Harry"
     }
   },
   "packageStatus": 200,
@@ -114,5 +116,6 @@
       "url": "https://api.github.com/repos/harrypujols/electron-app/git/commits/85adcc15791dfa77d5c939dedbbcc39d0e77e0f4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "harrypujols___electron-app.json"
 }

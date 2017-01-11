@@ -71,18 +71,11 @@
       "build": "grunt build",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/pcman-bbs/plasmon.git"
-    },
+    "repository": "https://github.com/pcman-bbs/plasmon",
     "keywords": [
       "bbs"
     ],
-    "author": "kidwm",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/pcman-bbs/plasmon/issues"
-    },
     "dependencies": {
       "iconv-lite": "^0.4.13"
     },
@@ -96,6 +89,12 @@
       "grunt-electron": "^2.0.1",
       "load-grunt-tasks": "^3.3.0",
       "strictify": "~0.2.0"
+    },
+    "other": {
+      "author": "kidwm",
+      "bugs": {
+        "url": "https://github.com/pcman-bbs/plasmon/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -146,5 +145,6 @@
       "url": "https://api.github.com/repos/pcman-bbs/plasmon/git/commits/691feb88b5b31d51a414018229865b838100bb9f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "pcman-bbs___plasmon.json"
 }

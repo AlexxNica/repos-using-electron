@@ -79,15 +79,8 @@
       "deploy": "surge --project ./dist --domain https://electron-todo.surge.sh",
       "serve:dist": "http-server dist"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/webofbits/electron_offline_todo.git"
-    },
-    "author": "cristiano.codelab@gmail.com",
+    "repository": "https://github.com/webofbits/electron_offline_todo",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/webofbits/electron_offline_todo/issues"
-    },
     "homepage": "https://github.com/webofbits/electron_offline_todo#readme",
     "dependencies": {
       "babel": "^6.5.2",
@@ -100,6 +93,12 @@
       "react-bootstrap": "^0.30.5",
       "rimraf": "^2.5.4",
       "surge": "^0.18.0"
+    },
+    "other": {
+      "author": "cristiano.codelab@gmail.com",
+      "bugs": {
+        "url": "https://github.com/webofbits/electron_offline_todo/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,6 @@
       "url": "https://api.github.com/repos/webofbits/electron_offline_todo/git/commits/de3a264523b3e19d49e6b276732e2462c79651b3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "webofbits___electron_offline_todo.json"
 }

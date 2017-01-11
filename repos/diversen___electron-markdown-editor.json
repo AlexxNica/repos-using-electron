@@ -75,11 +75,7 @@
       "package:osx": "hdiutil create -format UDZO -srcfolder dist/ElectronMarkdownEditor-darwin-x64/ElectronMarkdownEditor.app dist/ElectronMarkdownEditor_Mac.dmg",
       "package:linux": "cd dist/ && zip -r ElectronMarkdownEditor_Linux_x64.zip ElectronMarkdownEditor-linux-x64 && zip -r ElectronMarkdownEditor_Linux_ia32.zip ElectronMarkdownEditor-linux-ia32 && cd ../"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/diversen/electron-markdown-editor.git"
-    },
-    "author": "Dennis Iversen",
+    "repository": "https://github.com/diversen/electron-markdown-editor",
     "license": "MIT",
     "dependencies": {
       "codemirror": "^5.18.0",
@@ -96,6 +92,9 @@
       "plist": "^1.2.0",
       "relative": "^3.0.2",
       "uikit": "^2.26.3"
+    },
+    "other": {
+      "author": "Dennis Iversen"
     }
   },
   "packageStatus": 200,
@@ -123,5 +122,6 @@
       "url": "https://api.github.com/repos/diversen/electron-markdown-editor/git/commits/d0e3e306593ea2faa2c58ec6c2c20dcefda06ca6",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "diversen___electron-markdown-editor.json"
 }

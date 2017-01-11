@@ -82,21 +82,14 @@
       "build": "webpack --config webpack-production.config.js --progress --colors",
       "debug": "webpack-dev-server --config webpack-dev-server.config.js --progress --inline --colors"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.3.3",
@@ -123,6 +116,12 @@
       "serialport": "^4.0.1",
       "mdi": "^1.6.50",
       "node-uuid": "^1.4.7"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -150,5 +149,6 @@
       "url": "https://api.github.com/repos/Neeil/my-serial/git/commits/c421825cb82826c886e310682c5ef144c5238f39",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Neeil___my-serial.json"
 }

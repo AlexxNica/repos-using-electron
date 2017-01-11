@@ -70,11 +70,7 @@
       "package-win": "npm run build && electron-packager ./ App --platform=win32 --arch=x64 --version=0.35.6 --out build",
       "package-mac": "npm run build && electron-packager ./ App --platform=darwin --arch=x64 --version=0.35.6 --out build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/jruchaud/bootstrap-electron-babel-react-sass.git"
-    },
-    "author": "jruchaud",
+    "repository": "https://github.com/jruchaud/bootstrap-electron-babel-react-sass",
     "license": "MIT",
     "dependencies": {
       "es6-promise": "3.x.x",
@@ -91,6 +87,9 @@
       "node-sass": "^3.4.2",
       "nodemon": "^1.9.1",
       "rimraf": "^2.5.2"
+    },
+    "other": {
+      "author": "jruchaud"
     }
   },
   "packageStatus": 200,
@@ -138,5 +137,6 @@
       "url": "https://api.github.com/repos/jruchaud/bootstrap-electron-babel-react-sass/git/commits/a7f5a23cb9cb88034bedfdad91ebb396e057d0bf",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jruchaud___bootstrap-electron-babel-react-sass.json"
 }

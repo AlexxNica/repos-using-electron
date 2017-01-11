@@ -80,7 +80,6 @@
       "package:win32": "electron-packager . --platform=win32 --arch=ia32",
       "package:linux": "electron-packager . --platform=linux --arch=x64"
     },
-    "author": "Julio Olivera",
     "license": "ISC",
     "dependencies": {
       "electron-prebuilt": "^0.37.6",
@@ -90,6 +89,9 @@
       "chai": "^3.5.0",
       "electron-mocha": "^1.2.0",
       "electron-packager": "^6.0.2"
+    },
+    "other": {
+      "author": "Julio Olivera"
     }
   },
   "packageStatus": 200,
@@ -117,5 +119,6 @@
       "url": "https://api.github.com/repos/julioolvr/electron-workshop/git/commits/7c888faa471acea891d1bf67d8a1a6a902fb9faa",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "julioolvr___electron-workshop.json"
 }

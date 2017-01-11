@@ -54,10 +54,7 @@
       "start": "wzrd test.js:bundle.js",
       "test": "standard && browserify test.js | testron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/shama/on-load"
-    },
+    "repository": "https://github.com/shama/on-load",
     "files": [
       "index.js"
     ],
@@ -69,11 +66,7 @@
       "unload",
       "yo-yo"
     ],
-    "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/shama/on-load/issues"
-    },
     "homepage": "https://github.com/shama/on-load",
     "dependencies": {
       "global": "^4.3.0"
@@ -86,6 +79,12 @@
       "testron": "^1.2.0",
       "wzrd": "^1.4.0",
       "yo-yo": "^1.2.1"
+    },
+    "other": {
+      "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
+      "bugs": {
+        "url": "https://github.com/shama/on-load/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -134,5 +133,6 @@
       "url": "https://api.github.com/repos/shama/on-load/git/commits/11c6fb7c48db725b596c3d93354bb8f73f66a69d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "shama___on-load.json"
 }

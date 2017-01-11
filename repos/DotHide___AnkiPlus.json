@@ -57,15 +57,7 @@
     "description": "Another Anki Application using Electron",
     "license": "MIT",
     "version": "0.0.0-semantically-released",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/DotHide/AnkiPlus.git"
-    },
-    "author": {
-      "name": "Martin_nett",
-      "email": "dothide@gmail.com",
-      "url": "www.dothide.com"
-    },
+    "repository": "https://github.com/DotHide/AnkiPlus",
     "scripts": {
       "test": "karma start karma.conf.js",
       "test:single": "karma start karma-travis.conf.js",
@@ -126,6 +118,13 @@
       "commitizen": {
         "path": "node_modules/cz-conventional-changelog"
       }
+    },
+    "other": {
+      "author": {
+        "name": "Martin_nett",
+        "email": "dothide@gmail.com",
+        "url": "www.dothide.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -153,5 +152,6 @@
       "url": "https://api.github.com/repos/DotHide/AnkiPlus/git/commits/3c3df087552a2dd6e94c974f1d64f81e1575446b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DotHide___AnkiPlus.json"
 }

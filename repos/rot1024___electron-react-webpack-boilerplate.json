@@ -93,15 +93,8 @@
       "archive-all": "npm run archive -- --all",
       "release": "npm-run-all build package-all archive-all"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://git@github.com/rot1024/electron-webpack-react-boilerplate.git"
-    },
-    "author": "rot1024",
+    "repository": "https://github.com/rot1024/electron-webpack-react-boilerplate",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/rot1024/electron-webpack-react-boilerplate/issues"
-    },
     "homepage": "https://github.com/rot1024/electron-webpack-react-boilerplate#readme",
     "engines": {
       "node": ">=6"
@@ -174,6 +167,12 @@
     "dependencies": {
       "react": "^15.2.1",
       "react-dom": "^15.2.1"
+    },
+    "other": {
+      "author": "rot1024",
+      "bugs": {
+        "url": "https://github.com/rot1024/electron-webpack-react-boilerplate/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -201,5 +200,6 @@
       "url": "https://api.github.com/repos/rot1024/electron-react-webpack-boilerplate/git/commits/08417ad81d337b9a0591d1cd1805621c35bc5b25",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rot1024___electron-react-webpack-boilerplate.json"
 }

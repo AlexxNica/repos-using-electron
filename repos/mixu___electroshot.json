@@ -56,11 +56,7 @@
     "scripts": {
       "test": "mocha -R spec --bail ./test/*.test.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:mixu/electroshot.git"
-    },
-    "author": "Mikito Takada <mikito.takada@gmail.com> (http://mixu.net/)",
+    "repository": "https://github.com/mixu/electroshot",
     "license": "BSD-3-Clause",
     "dependencies": {
       "chromium-emulated-devices": "~1.0.0",
@@ -77,6 +73,9 @@
       "subarg": "~1.0.0",
       "tough-cookie": "~2.2.0",
       "xtend": "~4.0.0"
+    },
+    "other": {
+      "author": "Mikito Takada <mikito.takada@gmail.com> (http://mixu.net/)"
     }
   },
   "packageStatus": 200,
@@ -104,5 +103,6 @@
       "url": "https://api.github.com/repos/mixu/electroshot/git/commits/c94a97a343fd6a9f2767f2b326d3c7425ce393a3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mixu___electroshot.json"
 }

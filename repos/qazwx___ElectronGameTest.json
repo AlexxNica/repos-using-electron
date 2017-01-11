@@ -76,12 +76,8 @@
     "version": "0.0.1-dev",
     "description": "A small game test using Electron",
     "main": "start.js",
-    "author": "giorgio susanna",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/SilverHask/ElectronGameTest.git"
-    },
+    "repository": "https://github.com/SilverHask/ElectronGameTest",
     "dependencies": {
       "coffee-script": "^1.10.0",
       "underscore": "^1.8.3"
@@ -95,6 +91,9 @@
       "compile": "coffee --compile --output ./out/ ./src/",
       "package": "electron-packager ./ $npm_package_name  --all --out ~/$npm_package_name --version 0.36.1 --overwrite",
       "package-linux64": "electron-packager ./ $npm_package_name --platform=linux --arch=x64 --out ~/$npm_package_name --version 0.36.1 --overwrite"
+    },
+    "other": {
+      "author": "giorgio susanna"
     }
   },
   "packageStatus": 200,
@@ -122,5 +121,6 @@
       "url": "https://api.github.com/repos/qazwx/ElectronGameTest/git/commits/2b816148730502034dbe4d305a6524f81641d390",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "qazwx___ElectronGameTest.json"
 }

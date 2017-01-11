@@ -80,18 +80,17 @@
       "dev-build": "electron fremja-desktop.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/johandavidsen/fremja-desktop.git"
-    },
-    "author": "Jóhan Davidsen <johan.davidsen@fjakkarin.com>",
+    "repository": "https://github.com/johandavidsen/fremja-desktop",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/johandavidsen/fremja-desktop/issues"
-    },
     "homepage": "https://github.com/johandavidsen/fremja-desktop#readme",
     "dependencies": {
       "electron-prebuilt": "^1.2.2"
+    },
+    "other": {
+      "author": "Jóhan Davidsen <johan.davidsen@fjakkarin.com>",
+      "bugs": {
+        "url": "https://github.com/johandavidsen/fremja-desktop/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -119,5 +118,6 @@
       "url": "https://api.github.com/repos/johandavidsen/fremja-desktop/git/commits/5e0194819ed39374add4071f8deddd96e35e2506",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "johandavidsen___fremja-desktop.json"
 }

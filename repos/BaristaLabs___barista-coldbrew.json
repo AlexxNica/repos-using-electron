@@ -64,17 +64,10 @@
     "version": "0.0.2",
     "description": "Provides a locally-hosted instance of Barista and Barista Fiddle using Electron",
     "homepage": "https://github.com/baristalabs/barista-coldbrew",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/baristalabs/barista-coldbrew.git"
-    },
+    "repository": "https://github.com/baristalabs/barista-coldbrew",
     "main": "main.js",
     "scripts": {
       "start": "electron main.js"
-    },
-    "author": {
-      "name": "oceanswave",
-      "email": "sean.mclellan@baristalabs.com"
     },
     "devDependencies": {
       "electron-prebuilt": "latest"
@@ -88,7 +81,13 @@
       "require-uncached": "latest",
       "tern": "latest"
     },
-    "license": "ISC"
+    "license": "ISC",
+    "other": {
+      "author": {
+        "name": "oceanswave",
+        "email": "sean.mclellan@baristalabs.com"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -115,5 +114,6 @@
       "url": "https://api.github.com/repos/BaristaLabs/barista-coldbrew/git/commits/9104bad0b9beefbe626e43b9bade8a871e084171",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "BaristaLabs___barista-coldbrew.json"
 }

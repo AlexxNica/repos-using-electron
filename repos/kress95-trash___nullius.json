@@ -90,7 +90,6 @@
     "version": "0.0.0-build",
     "description": "Farming game.",
     "main": "resources/public/index.js",
-    "author": "Christian Ferraz Lemos de Sousa",
     "private": true,
     "keywords": [
       "game",
@@ -98,14 +97,8 @@
     ],
     "files": [],
     "homepage": "https://github.com/kress95/carrot#readme",
-    "bugs": {
-      "url": "https://github.com/kress95/carrot/issues"
-    },
     "license": "SEE LICENSE IN",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/kress95/carrot.git"
-    },
+    "repository": "https://github.com/kress95/carrot",
     "scripts": {
       "test": "lein doo node test once",
       "testing": "lein doo node test auto",
@@ -123,6 +116,12 @@
       "electron-packager": "^5.2.1",
       "electron-prebuilt": "^0.37.0",
       "source-map-support": "^0.4.0"
+    },
+    "other": {
+      "author": "Christian Ferraz Lemos de Sousa",
+      "bugs": {
+        "url": "https://github.com/kress95/carrot/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -150,5 +149,6 @@
       "url": "https://api.github.com/repos/kress95-trash/nullius/git/commits/b5a53a5b4553074af34e54437f0e3fde68ef7d0c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kress95-trash___nullius.json"
 }

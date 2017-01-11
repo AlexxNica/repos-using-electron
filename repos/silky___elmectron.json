@@ -171,11 +171,13 @@
       "prestart": "elm-make src/Client.elm --output app/client.js && elm-make src/Server.elm --output app/server.js && echo \"module.exports=Elm;\" >> app/server.js",
       "start": "electron app"
     },
-    "author": "astynax",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
       "elm": "^0.16.0"
+    },
+    "other": {
+      "author": "astynax"
     }
   },
   "packageStatus": 200,
@@ -203,5 +205,6 @@
       "url": "https://api.github.com/repos/silky/elmectron/git/commits/3cd4484580d2543068cd9baf204ae684e8658198",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "silky___elmectron.json"
 }

@@ -91,7 +91,6 @@
       "package:electron": "electron-packager ./ ElectronBase --out deploy --arch x64 --platform linux --version 0.36.2 --asar 1 --overwrite 1 --ignore=node_modules",
       "prepackage:electron": "npm run deploy:electron"
     },
-    "author": "Aaron Ballard",
     "license": "Apache-2.0",
     "devDependencies": {
       "babel-cli": "^6.3.17",
@@ -116,6 +115,9 @@
       "bootstrap": "^3.3.6",
       "express": "^4.13.3",
       "method-override": "^2.3.5"
+    },
+    "other": {
+      "author": "Aaron Ballard"
     }
   },
   "packageStatus": 200,
@@ -143,5 +145,6 @@
       "url": "https://api.github.com/repos/ansballard/electron-base/git/commits/a8dd38a5b0cc1aa2151172f7044b7a1e86b82d2f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ansballard___electron-base.json"
 }

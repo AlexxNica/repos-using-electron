@@ -77,18 +77,11 @@
       "release": "standard-version",
       "commit": "git-cz"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/AntJanus/omen.git"
-    },
+    "repository": "https://github.com/AntJanus/omen",
     "keywords": [
       "markdown"
     ],
-    "author": "Antonin Januska <@antjanus>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/AntJanus/omen/issues"
-    },
     "homepage": "https://github.com/AntJanus/omen#readme",
     "dependencies": {
       "@angular/common": "^2.0.0",
@@ -139,6 +132,12 @@
       "commitizen": {
         "path": "./node_modules/cz-conventional-changelog"
       }
+    },
+    "other": {
+      "author": "Antonin Januska <@antjanus>",
+      "bugs": {
+        "url": "https://github.com/AntJanus/omen/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -166,5 +165,6 @@
       "url": "https://api.github.com/repos/AntJanus/omen/git/commits/f4999029d85c9eaf8f25d012140b0099df3e0bd6",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "AntJanus___omen.json"
 }

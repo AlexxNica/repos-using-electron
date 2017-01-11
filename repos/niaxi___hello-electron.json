@@ -65,21 +65,20 @@
       "package:mac": "npm run clean:mac && electron-packager . HelloElectron --platform=darwin --arch=x64 --version=0.34.2 --ignore=node_modules --ignore=dist --out=./dist",
       "package": "npm run clean && electron-packager . HelloElectron --platform=win32,darwin --arch=x64 --version=0.34.2 --ignore=node_modules --ignore=dist --out=./dist"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/niaxi/hello-electron.git"
-    },
-    "author": "Ni Axi <niaxi@tuta.io>",
+    "repository": "https://github.com/niaxi/hello-electron",
     "license": "MIT",
     "copyright": "Copyright (c) 2015, Ni Axi",
-    "bugs": {
-      "url": "https://github.com/niaxi/hello-electron/issues"
-    },
     "homepage": "https://github.com/niaxi/hello-electron#readme",
     "devDependencies": {
       "electron-packager": "^5.1.1",
       "electron-prebuilt": "^0.34.2",
       "rimraf": "^2.4.3"
+    },
+    "other": {
+      "author": "Ni Axi <niaxi@tuta.io>",
+      "bugs": {
+        "url": "https://github.com/niaxi/hello-electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -107,5 +106,6 @@
       "url": "https://api.github.com/repos/niaxi/hello-electron/git/commits/27f2361ce415620bd29e2f4fac3b6f7e49557aa6",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "niaxi___hello-electron.json"
 }

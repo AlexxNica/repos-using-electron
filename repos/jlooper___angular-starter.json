@@ -75,9 +75,7 @@
     "name": "basic-web-mobile",
     "version": "0.0.0",
     "description": "A seed to build a web and mobile app using shared code",
-    "repository": {
-      "url": "https://github.com/jlooper/basic-web-mobile"
-    },
+    "repository": "https://github.com/jlooper/basic-web-mobile",
     "scripts": {
       "build.desktop.mac": "rimraf desktop/mac/* && gulp desktop.mac",
       "build.desktop.windows": "rimraf desktop/windows/* && gulp desktop.windows",
@@ -118,7 +116,6 @@
       "start.livesync.android.device": "cd nativescript && tns livesync android --watch",
       "tasks.list": "gulp --tasks-simple --color"
     },
-    "author": "Nathan Walker <NathanWalker>",
     "contributors": [
       {
         "name": "Jen Looper <jlooper>"
@@ -229,6 +226,9 @@
       "rxjs": "5.0.0-beta.12",
       "systemjs": "0.19.27",
       "zone.js": "0.6.21"
+    },
+    "other": {
+      "author": "Nathan Walker <NathanWalker>"
     }
   },
   "packageStatus": 200,
@@ -257,5 +257,6 @@
       "url": "https://api.github.com/repos/jlooper/angular-starter/git/commits/e3fb94bc84e4d357d840416ad65d44f5113b3aa4",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jlooper___angular-starter.json"
 }

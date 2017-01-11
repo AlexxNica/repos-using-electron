@@ -77,20 +77,19 @@
     "version": "1.0.0",
     "description": "A standalone desktop app for dillinger.io",
     "main": "./src/index.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/sbruchmann/dillinger.git"
-    },
-    "author": "Steffen Bruchmann <hi@sbruchmann.me> (http://sbruchmann.me)",
+    "repository": "https://github.com/sbruchmann/dillinger",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/sbruchmann/dillinger/issues"
-    },
     "devDependencies": {
       "electron-prebuilt": "1.2.2"
     },
     "scripts": {
       "start": "electron ."
+    },
+    "other": {
+      "author": "Steffen Bruchmann <hi@sbruchmann.me> (http://sbruchmann.me)",
+      "bugs": {
+        "url": "https://github.com/sbruchmann/dillinger/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -118,5 +117,6 @@
       "url": "https://api.github.com/repos/sbruchmann/dillinger/git/commits/aa9e5e3e792487a7b97de8fa5cf1ece742f130ce",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sbruchmann___dillinger.json"
 }

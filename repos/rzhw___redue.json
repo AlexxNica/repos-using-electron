@@ -63,7 +63,6 @@
       "sass:w": "node-sass --watch scss/styles.scss --output app/",
       "start": "concurrent \"npm run tsc:w\" \"npm run sass:w\" \"npm run electron\""
     },
-    "author": "Richard Wang",
     "license": "MIT",
     "homepage": "https://github.com/rzhw/redue",
     "dependencies": {
@@ -91,6 +90,9 @@
       "gulp-clang-format": "^1.0.23",
       "typescript": "^1.7.3",
       "node-sass": "^3.4.2"
+    },
+    "other": {
+      "author": "Richard Wang"
     }
   },
   "packageStatus": 200,
@@ -118,5 +120,6 @@
       "url": "https://api.github.com/repos/rzhw/redue/git/commits/501139f17ecac4cfd237f92422cef3b5f054411c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rzhw___redue.json"
 }

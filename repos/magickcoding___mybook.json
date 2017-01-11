@@ -76,19 +76,12 @@
       "install": "make install",
       "test": "make test"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/magickcoding/mybook.git"
-    },
+    "repository": "https://github.com/magickcoding/mybook",
     "keywords": [
       "ebook",
       "mybook.com"
     ],
-    "author": "MagickKing",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/magickcoding/mybook/issues"
-    },
     "homepage": "https://github.com/magickcoding/mybook#readme",
     "devDependencies": {
       "electron-prebuilt": "1.1.3",
@@ -108,6 +101,12 @@
     },
     "dependencies": {
       "debug": "^2.2.0"
+    },
+    "other": {
+      "author": "MagickKing",
+      "bugs": {
+        "url": "https://github.com/magickcoding/mybook/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -135,5 +134,6 @@
       "url": "https://api.github.com/repos/magickcoding/mybook/git/commits/d66a0bed8d4fda4b388556dd1a99e864f0a7c56b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "magickcoding___mybook.json"
 }

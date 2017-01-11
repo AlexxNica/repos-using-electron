@@ -62,15 +62,8 @@
       "start:electron-app": "electron src/browser",
       "build": "electron-packager . $npm_package_productName --out=dist --ignore=dist --prune --asar --all --version=0.30.0"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/florianorpeliere/KFE"
-    },
-    "author": "",
+    "repository": "https://github.com/florianorpeliere/KFE",
     "license": "GNU",
-    "bugs": {
-      "url": "https://github.com/florianorpeliere/KFE/issues"
-    },
     "homepage": "https://github.com/florianorpeliere/KFE",
     "files": [
       "index.js",
@@ -102,6 +95,12 @@
       "react": "^0.13.3",
       "react-ace-wrapper": "^1.0.0",
       "react-router": "^0.13.3"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/florianorpeliere/KFE/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -150,5 +149,6 @@
       "url": "https://api.github.com/repos/florianorpeliere/KFE/git/commits/96471d6d137344ad5ef74323bd16d54d602b4918",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "florianorpeliere___KFE.json"
 }

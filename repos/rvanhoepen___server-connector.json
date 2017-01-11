@@ -96,19 +96,8 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rvanhoepen/server-connector.git"
-    },
-    "author": {
-      "name": "RA van Hoepen",
-      "email": "rvanhoepen@gmail.com",
-      "url": "https://github.com/rvanhoepen"
-    },
+    "repository": "https://github.com/rvanhoepen/server-connector",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/rvanhoepen/server-connector/issues"
-    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -196,7 +185,17 @@
       "node": "4.x || 5.x || 6.x",
       "npm": "2.x || 3.x"
     },
-    "private": true
+    "private": true,
+    "other": {
+      "author": {
+        "name": "RA van Hoepen",
+        "email": "rvanhoepen@gmail.com",
+        "url": "https://github.com/rvanhoepen"
+      },
+      "bugs": {
+        "url": "https://github.com/rvanhoepen/server-connector/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [],
@@ -221,5 +220,6 @@
       "url": "https://api.github.com/repos/rvanhoepen/shell-universe/git/commits/2a3df6ec06ef178288819cdc8cde32988f8c61ca",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rvanhoepen___server-connector.json"
 }

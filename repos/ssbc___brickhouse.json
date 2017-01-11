@@ -78,7 +78,6 @@
       "pack:osx": "electron-builder \"dist/osx/Scuttlebot.app\" --platform=osx --out=\"dist/osx\" --config=packager.json",
       "pack:win": "electron-builder \"dist/win/Scuttlebot-win32\" --platform=win --out=\"dist/win\" --config=packager.json"
     },
-    "author": "Paul Frazee <pfrazee@gmail.com>",
     "license": "?",
     "devDependencies": {
       "electron-builder": "^2.0.0",
@@ -99,6 +98,9 @@
       "ssb-keys": "^4.0.3",
       "ssb-ref": "^2.2.1",
       "stream-to-pull-stream": "^1.6.1"
+    },
+    "other": {
+      "author": "Paul Frazee <pfrazee@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -126,5 +128,6 @@
       "url": "https://api.github.com/repos/ssbc/brickhouse/git/commits/171e999899bc3933bc92c98bad39d6bb5124880e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ssbc___brickhouse.json"
 }

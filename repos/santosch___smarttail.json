@@ -70,12 +70,8 @@
     "productName": "Smarttail",
     "description": "A smart tail gui client",
     "version": "1.0.0",
-    "author": "Sebastian Antosch <s.antosch@i-san.de>",
     "main": "app/index.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/santosch/smarttail.git"
-    },
+    "repository": "https://github.com/santosch/smarttail",
     "keywords": [
       "tail",
       "logs"
@@ -87,9 +83,6 @@
       "png": "app/assets/boilerplate.png"
     },
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/santosch/smarttail/issues"
-    },
     "homepage": "http://i-san.de",
     "scripts": {
       "postinstall": "npm run app-install",
@@ -128,6 +121,12 @@
       "electron-installer-debian": "^0.3.0",
       "electron-installer-redhat": "^0.2.0",
       "electron-installer-windows": "^0.2.0"
+    },
+    "other": {
+      "author": "Sebastian Antosch <s.antosch@i-san.de>",
+      "bugs": {
+        "url": "https://github.com/santosch/smarttail/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -155,5 +154,6 @@
       "url": "https://api.github.com/repos/santosch/smarttail/git/commits/692775e50f308c6199468a41325e562dda40588a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "santosch___smarttail.json"
 }

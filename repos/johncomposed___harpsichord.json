@@ -92,9 +92,11 @@
       "compile": "grunt compile",
       "build": "electron-packager . Harpsichord --platform=darwin --ignore=dev/ --arch=x64 --version=0.30.0 --overwrite --icon=circle"
     },
-    "author": "John Williams <johncomposed@gmail.com>",
     "license": "MIT",
-    "homepage": "https://github.com/johncomposed/harpsichord#readme"
+    "homepage": "https://github.com/johncomposed/harpsichord#readme",
+    "other": {
+      "author": "John Williams <johncomposed@gmail.com>"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -121,5 +123,6 @@
       "url": "https://api.github.com/repos/johncomposed/harpsichord/git/commits/34c881d2278c79cce842218a8328b44bfc1ae00a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "johncomposed___harpsichord.json"
 }

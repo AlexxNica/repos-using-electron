@@ -75,15 +75,7 @@
     "name": "electron-notification-shim-demos",
     "version": "1.0.0",
     "description": "Demonstrating how electron-notification-shim can be used.",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/seriema/electron-notification-shim-demos.git"
-    },
-    "author": {
-      "name": "John-Philip Johansson",
-      "email": "seriema@gmail.com",
-      "url": "http://johansson.jp"
-    },
+    "repository": "https://github.com/seriema/electron-notification-shim-demos",
     "scripts": {
       "test": "xo",
       "demo1": "electron demo1/index.js",
@@ -101,9 +93,6 @@
       "shim"
     ],
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/seriema/electron-notification-shim-demos/issues"
-    },
     "homepage": "https://github.com/seriema/electron-notification-shim-demos#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8",
@@ -114,6 +103,16 @@
     },
     "dependencies": {
       "electron-notification-shim": "^1.0.0"
+    },
+    "other": {
+      "author": {
+        "name": "John-Philip Johansson",
+        "email": "seriema@gmail.com",
+        "url": "http://johansson.jp"
+      },
+      "bugs": {
+        "url": "https://github.com/seriema/electron-notification-shim-demos/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -141,5 +140,6 @@
       "url": "https://api.github.com/repos/seriema/electron-notification-shim-demos/git/commits/bc268ade34f35532bfbea5b359b812ac2a59148e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "seriema___electron-notification-shim-demos.json"
 }

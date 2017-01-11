@@ -50,10 +50,6 @@
     "version": "0.0.0",
     "description": "Small description for dnd-spellbook-ember goes here",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -63,7 +59,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -123,6 +118,13 @@
         "ProductName": null,
         "InternalName": null
       }
+    },
+    "other": {
+      "author": "",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -151,5 +153,6 @@
       "url": "https://api.github.com/repos/skiant/dnd_spellbook_ember/git/commits/dc03416bfb3db59e33fa7755103536dd162ce913",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "skiant___dnd_spellbook_ember.json"
 }

@@ -183,23 +183,22 @@
       "build": "jspm build lib/index.js dist/router-redux.js --format umd --skip-source-maps --minify",
       "prepublish": "npm run build"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/subuta/router-redux.git"
-    },
+    "repository": "https://github.com/subuta/router-redux",
     "keywords": [
       "redux",
       "router",
       "page",
       "route"
     ],
-    "author": "subuta <shunta.3110@gmail.com> (https://github.com/subuta)",
     "license": "MIT",
     "registry": "npm",
-    "bugs": {
-      "url": "https://github.com/subuta/router-redux/issues"
-    },
-    "homepage": "https://github.com/subuta/router-redux#readme"
+    "homepage": "https://github.com/subuta/router-redux#readme",
+    "other": {
+      "author": "subuta <shunta.3110@gmail.com> (https://github.com/subuta)",
+      "bugs": {
+        "url": "https://github.com/subuta/router-redux/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/subuta/router-redux",
@@ -246,5 +245,6 @@
       "url": "https://api.github.com/repos/subuta/router-redux/git/commits/e659bb4c07546fe54e8f10467e9736cf2411eb66",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "subuta___router-redux.json"
 }

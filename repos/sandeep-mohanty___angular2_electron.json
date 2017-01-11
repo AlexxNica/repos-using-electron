@@ -82,20 +82,13 @@
       "package": "electron-packager . --platform=win32 --arch=x64",
       "archive": "asar pack angular2_electron-win32-x64/resources/app angular2_electron-win32-x64/resources/app.asar"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/sandeep-mohanty/angular2_electron.git"
-    },
+    "repository": "https://github.com/sandeep-mohanty/angular2_electron",
     "keywords": [
       "electron",
       "desktop",
       "app"
     ],
-    "author": "Sandeep Mohanty",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/sandeep-mohanty/angular2_electron/issues"
-    },
     "homepage": "https://github.com/sandeep-mohanty/angular2_electron#readme",
     "dependencies": {
       "angular2": "^2.0.0-beta.17",
@@ -114,6 +107,12 @@
       "electron-prebuilt": "^1.1.0",
       "gulp": "^3.9.1",
       "ntypescript": "^1.201605172209.1"
+    },
+    "other": {
+      "author": "Sandeep Mohanty",
+      "bugs": {
+        "url": "https://github.com/sandeep-mohanty/angular2_electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -141,5 +140,6 @@
       "url": "https://api.github.com/repos/sandeep-mohanty/angular2_electron/git/commits/d21b7ba6d1e592c93cf5880554a8394b12be7794",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sandeep-mohanty___angular2_electron.json"
 }

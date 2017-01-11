@@ -90,7 +90,6 @@
     "version": "1.2.0-beta",
     "description": "A simple drawing application and GCODE generator for the PancakeBot",
     "main": "src/main.js",
-    "author": "techninja",
     "stage": "development",
     "electronVersion": "1.0.1",
     "license": "Apache-2.0",
@@ -114,13 +113,13 @@
       "toastr": "^2.1.2",
       "underscore": "^1.8.3"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/PancakeBot/PancakePainter.git"
-    },
+    "repository": "https://github.com/PancakeBot/PancakePainter",
     "devDependencies": {
       "electron-prebuilt": "1.0.1",
       "jshint": "^2.9.2"
+    },
+    "other": {
+      "author": "techninja"
     }
   },
   "packageStatus": 200,
@@ -149,5 +148,6 @@
       "url": "https://api.github.com/repos/PancakeBot/PancakePainter/git/commits/4232475ddafc3282feea1421c4f82a3baa241b26",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "PancakeBot___PancakePainter.json"
 }

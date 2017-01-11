@@ -70,10 +70,6 @@
     "version": "0.0.0",
     "description": "Small description for harpia goes here",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -83,7 +79,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -148,6 +143,13 @@
         "ProductName": null,
         "InternalName": null
       }
+    },
+    "other": {
+      "author": "",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -176,5 +178,6 @@
       "url": "https://api.github.com/repos/jeanleonino/harpia/git/commits/9d892e47c37ad5d9b482479eb5819df41dffdcad",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jeanleonino___harpia.json"
 }

@@ -78,11 +78,6 @@
     "description": "Hello Electron is a simple hello world example of Electron",
     "main": "es6-init.js",
     "repository": "https://github.com/erictherobot/hello-electron",
-    "author": {
-      "name": "Eric David Smith",
-      "email": "erictherobot@gmail.com",
-      "url": "http://erictherobot.com"
-    },
     "license": "MIT",
     "scripts": {
       "start": "rm -rf .cache && cross-env NODE_ENV=development electron .",
@@ -118,6 +113,13 @@
       "electron-reload": "^1.0.2",
       "react": "^15.3.1",
       "react-dom": "^15.3.1"
+    },
+    "other": {
+      "author": {
+        "name": "Eric David Smith",
+        "email": "erictherobot@gmail.com",
+        "url": "http://erictherobot.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -145,5 +147,6 @@
       "url": "https://api.github.com/repos/erictherobot/hello-electron/git/commits/189158e13b8e3eb6cbe529b5edc45468c2cc0810",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "erictherobot___hello-electron.json"
 }

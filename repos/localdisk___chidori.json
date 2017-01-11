@@ -79,21 +79,20 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/localdisk/chidori.git"
-    },
-    "author": "@localdisk",
+    "repository": "https://github.com/localdisk/chidori",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/localdisk/chidori/issues"
-    },
     "homepage": "https://github.com/localdisk/chidori#readme",
     "devDependencies": {
       "typescript": "^1.8.10"
     },
     "dependencies": {
       "electron-prebuilt": "^1.2.5"
+    },
+    "other": {
+      "author": "@localdisk",
+      "bugs": {
+        "url": "https://github.com/localdisk/chidori/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -121,5 +120,6 @@
       "url": "https://api.github.com/repos/localdisk/chidori/git/commits/e16237c6bdf6380f16957c89a737df2fcd7cd3f2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "localdisk___chidori.json"
 }

@@ -81,12 +81,14 @@
       "test": "mocha",
       "package": "electron-packager . LCC --platform=darwin,win32 --arch=all --version=0.31.0 --icon=./image/icon.icns --out=../LCC_build --overwrite --asar"
     },
-    "author": "Kohei Tsuzuki",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.31.0",
       "electron-packager": "^5.0.2",
       "mocha": "^2.2.5"
+    },
+    "other": {
+      "author": "Kohei Tsuzuki"
     }
   },
   "packageStatus": 200,
@@ -114,5 +116,6 @@
       "url": "https://api.github.com/repos/cotrpepe/LCC/git/commits/86603fa69c68ce63bccf25f681673b8c300e1b05",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cotrpepe___LCC.json"
 }

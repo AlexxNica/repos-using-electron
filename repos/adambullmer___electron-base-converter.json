@@ -50,10 +50,6 @@
     "version": "0.0.0",
     "description": "Small description for electron-base-converter goes here",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -63,7 +59,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -133,6 +128,13 @@
         "ProductName": null,
         "InternalName": null
       }
+    },
+    "other": {
+      "author": "",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -180,5 +182,6 @@
       "url": "https://api.github.com/repos/adambullmer/electron-base-converter/git/commits/975ae068184ff64df667735bbb2c11539aadd228",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "adambullmer___electron-base-converter.json"
 }

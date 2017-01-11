@@ -81,10 +81,7 @@
       "osx": "node_modules/.bin/electron .",
       "linux": "node_modules/.bin/electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/loginx/multissh.git"
-    },
+    "repository": "https://github.com/loginx/multissh",
     "keywords": [
       "ssh",
       "mux",
@@ -92,12 +89,8 @@
       "distributed",
       "remote"
     ],
-    "author": "Xavier Spriet <linkadmin@gmail.com>",
     "contributors": [],
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/loginx/multissh/issues"
-    },
     "os": [
       "darwin",
       "linux"
@@ -120,6 +113,12 @@
     },
     "dependencies": {
       "ansi-to-html": "^0.3.0"
+    },
+    "other": {
+      "author": "Xavier Spriet <linkadmin@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/loginx/multissh/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -147,5 +146,6 @@
       "url": "https://api.github.com/repos/loginx/multissh/git/commits/13f7ff740a1efd1042ff35be3a28921382be9ee5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "loginx___multissh.json"
 }

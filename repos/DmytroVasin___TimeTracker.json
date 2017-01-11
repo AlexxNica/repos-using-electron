@@ -76,11 +76,7 @@
     "version": "0.0.1",
     "license": "MIT",
     "description": "App is based on Electron, React, Redux + Rails as a back end.",
-    "author": "Dmytro Vasin <dmytro.vasin@gmail.com>",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/DmytroVasin/TimeTracker.git"
-    },
+    "repository": "https://github.com/DmytroVasin/TimeTracker",
     "scripts": {
       "clean": "rm -rf app/electron-app/ && rm -rf app/browser-app/ && rm -rf dist/",
       "browser": "NODE_ENV=development webpack-dev-server --config webpack.config.js --hot --inline",
@@ -153,6 +149,9 @@
       "appRepo": "https://github.com/DmytroVasin/TimeTracker",
       "apiRepo": "https://github.com/DmytroVasin/TimeTrakerAPI",
       "apiApp": "https://time-tracker-api.herokuapp.com/"
+    },
+    "other": {
+      "author": "Dmytro Vasin <dmytro.vasin@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -180,5 +179,6 @@
       "url": "https://api.github.com/repos/DmytroVasin/TimeTracker/git/commits/d3dd47cb12d8bed56c858b8d6ce6ac23f1391319",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "DmytroVasin___TimeTracker.json"
 }

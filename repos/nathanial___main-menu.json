@@ -61,15 +61,8 @@
       "prepublish": "gulp dist",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/nathanial/main-menu.git"
-    },
-    "author": "",
+    "repository": "https://github.com/nathanial/main-menu",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/nathanial/main-menu/issues"
-    },
     "homepage": "https://github.com/nathanial/main-menu#readme",
     "devDependencies": {
       "electron-connect": "^0.3.3",
@@ -95,6 +88,12 @@
       "react-es6-component": "*",
       "require-dir": "0.3.0",
       "underscore": "1.8.3"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/nathanial/main-menu/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -142,5 +141,6 @@
       "url": "https://api.github.com/repos/nathanial/main-menu/git/commits/f5d5bbde54591568442c8353b95a4c74923b9bcb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "nathanial___main-menu.json"
 }

@@ -56,15 +56,8 @@
       "electron-rebuild": "./node_modules/.bin/electron-rebuild",
       "test": "jest --verbose"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/stalina/tasty-ui.git"
-    },
-    "author": "",
+    "repository": "https://github.com/stalina/tasty-ui",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/stalina/tasty-ui/issues"
-    },
     "jest": {
       "scriptPreprocessor": "node_modules/babel-jest",
       "unmockedModulePathPatterns": [
@@ -119,6 +112,12 @@
       "webpack": "^1.13.1",
       "webpack-dev-server": "^1.14.1",
       "webpack-stream": "^3.2.0"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/stalina/tasty-ui/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -166,5 +165,6 @@
       "url": "https://api.github.com/repos/stalina/tasty-ui/git/commits/d966c4b69c482c2d129bd97e82220f0e2a86d7a7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "stalina___tasty-ui.json"
 }

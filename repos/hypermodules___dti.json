@@ -96,10 +96,7 @@
     "scripts": {
       "test": "dependency-check . && standard | snazzy"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/hypermodules/dti.git"
-    },
+    "repository": "https://github.com/hypermodules/dti",
     "keywords": [
       "cli",
       "electron",
@@ -108,11 +105,7 @@
       "tools",
       "installer"
     ],
-    "author": "Bret Comnes",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/hypermodules/dti/issues"
-    },
     "homepage": "https://github.com/hypermodules/dti#readme",
     "dependencies": {
       "devtron": "^1.4.0",
@@ -125,6 +118,12 @@
       "dependency-check": "^2.6.0",
       "snazzy": "^5.0.0",
       "standard": "^8.5.0"
+    },
+    "other": {
+      "author": "Bret Comnes",
+      "bugs": {
+        "url": "https://github.com/hypermodules/dti/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -153,5 +152,6 @@
       "url": "https://api.github.com/repos/hypermodules/dti/git/commits/f71e58b6db9d0a6a5b73828f5e3f0df113d07d10",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hypermodules___dti.json"
 }

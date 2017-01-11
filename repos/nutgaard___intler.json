@@ -76,7 +76,6 @@
       "dev:style": "node-sass -w app/main.scss style.css",
       "dev": "concurrently --kill-others \"npm run dev:js\" \"npm run dev:style\""
     },
-    "author": "Nicklas Utgaard",
     "license": "MIT",
     "dependencies": {
       "electron": "^0.4.1",
@@ -100,6 +99,9 @@
       "mobx-react-devtools": "^4.2.0",
       "node-sass": "^3.7.0",
       "watchify": "^3.7.0"
+    },
+    "other": {
+      "author": "Nicklas Utgaard"
     }
   },
   "packageStatus": 200,
@@ -127,5 +129,6 @@
       "url": "https://api.github.com/repos/nutgaard/intler/git/commits/56912668cb355aa13115c0433d8ec6cd0c9c08bb",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "nutgaard___intler.json"
 }

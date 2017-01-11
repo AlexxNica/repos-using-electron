@@ -69,11 +69,7 @@
     "name": "hydragon-build",
     "version": "1.0.0",
     "description": "Hydragon Build System",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/debugworkbench/hydragon.git"
-    },
-    "author": "Vadim Macagon <vadim.macagon@gmail.com>",
+    "repository": "https://github.com/debugworkbench/hydragon",
     "license": "MIT",
     "scripts": {
       "postinstall": "cd app && npm install && bower install && cd .. && npm run fix-typings",
@@ -130,6 +126,9 @@
       "typings": "^0.8.1",
       "vulcanize": "^1.14.8",
       "yargs": "^4.7.0"
+    },
+    "other": {
+      "author": "Vadim Macagon <vadim.macagon@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -177,5 +176,6 @@
       "url": "https://api.github.com/repos/debugworkbench/hydragon/git/commits/8367429d1304848ba007c9cd5681fa3c99da3d10",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "debugworkbench___hydragon.json"
 }

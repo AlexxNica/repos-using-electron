@@ -82,10 +82,7 @@
       "pack:osx": "npm run build:osx && electron-builder \"dist/osx/Cosmos-darwin-x64/Cosmos.app\" --platform=osx --out=\"dist/osx\" --config=packager.json",
       "pack:win": "npm run build:win && electron-builder \"dist/win/Cosmo-win32\" --platform=win --out=\"dist/win\" --config=packager.json"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/voidgraphics/Cosmos.git"
-    },
+    "repository": "https://github.com/voidgraphics/Cosmos",
     "keywords": [
       "Cosmos",
       "Project",
@@ -93,11 +90,7 @@
       "Void",
       "Graphics"
     ],
-    "author": "Void Graphics",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/voidgraphics/Cosmos/issues"
-    },
     "homepage": "https://github.com/voidgraphics/Cosmos#readme",
     "devDependencies": {
       "babel": "^6.3.13",
@@ -149,6 +142,12 @@
       "vue-focus": "^0.1.2",
       "vue-router": "^0.7.7",
       "zouti": "^0.3.1"
+    },
+    "other": {
+      "author": "Void Graphics",
+      "bugs": {
+        "url": "https://github.com/voidgraphics/Cosmos/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -176,5 +175,6 @@
       "url": "https://api.github.com/repos/voidgraphics/Cosmos/git/commits/9618cf6e43e2ee41e3b56eceee038b7256e21155",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "voidgraphics___Cosmos.json"
 }

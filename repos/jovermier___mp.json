@@ -69,9 +69,7 @@
     "name": "mp",
     "version": "0.0.0",
     "description": "Advanced seed for Angular 2 apps",
-    "repository": {
-      "url": "https://github.com/jovermier/mp"
-    },
+    "repository": "https://github.com/jovermier/mp",
     "scripts": {
       "build.desktop.mac": "rimraf desktop/mac/* && gulp desktop.mac",
       "build.desktop.windows": "rimraf desktop/windows/* && gulp desktop.windows",
@@ -118,7 +116,6 @@
       "webdriver-start": "node_modules/protractor/bin/webdriver-manager start",
       "webdriver-update": "node_modules/protractor/bin/webdriver-manager update"
     },
-    "author": "Minko Gechev <mgechev>",
     "contributors": [
       {
         "name": "Jason Overmier <jovermier>"
@@ -232,6 +229,9 @@
       "rxjs": "5.0.0-beta.6",
       "systemjs": "0.19.27",
       "zone.js": "^0.6.12"
+    },
+    "other": {
+      "author": "Minko Gechev <mgechev>"
     }
   },
   "packageStatus": 200,
@@ -259,5 +259,6 @@
       "url": "https://api.github.com/repos/jovermier/mp/git/commits/9a24122f24ff992707ad944cb1800236f61782b9",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jovermier___mp.json"
 }

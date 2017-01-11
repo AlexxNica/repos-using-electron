@@ -62,10 +62,7 @@
       "rebuild": "electron-rebuild",
       "postinstall": "npm run rebuild"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/toddself/blogtool.git"
-    },
+    "repository": "https://github.com/toddself/blogtool",
     "keywords": [
       "blog",
       "blogging",
@@ -76,11 +73,7 @@
       "static",
       "website"
     ],
-    "author": "Todd Kennedy <todd@selfassembled.org>",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/toddself/blogtool/issues"
-    },
     "homepage": "https://github.com/toddself/blogtool#readme",
     "dependencies": {
       "dr-sax": "~1.0.12",
@@ -96,6 +89,12 @@
     "devDependencies": {
       "electron-prebuilt": "~0.30.4",
       "standard": "~5.1.0"
+    },
+    "other": {
+      "author": "Todd Kennedy <todd@selfassembled.org>",
+      "bugs": {
+        "url": "https://github.com/toddself/blogtool/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -123,5 +122,6 @@
       "url": "https://api.github.com/repos/toddself/blogtool/git/commits/0fcdf0c40f98efd5c72b3375873622fe687aa328",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "toddself___blogtool.json"
 }

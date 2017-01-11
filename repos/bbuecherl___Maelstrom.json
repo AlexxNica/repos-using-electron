@@ -68,7 +68,6 @@
   "packageJSON": {
     "name": "maelstromjs",
     "version": "0.2.0",
-    "author": "bbuecherl <bernhard.buecherl@gmail.com>",
     "description": "Simple, fast and live updating template engine",
     "devDependencies": {
       "electron-prebuilt": "^0.37.7",
@@ -78,10 +77,6 @@
     "main": "index.js",
     "browser": {
       "./utils/fs-wrap/node.js": "./utils/fs-wrap/browser.js"
-    },
-    "directories": {
-      "example": "examples",
-      "test": "test"
     },
     "dependencies": {
       "acorn": "^3.1.0",
@@ -97,15 +92,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/bbuecherl/Maelstrom.git"
-    },
+    "repository": "https://github.com/bbuecherl/Maelstrom",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/bbuecherl/Maelstrom/issues"
-    },
-    "homepage": "https://github.com/bbuecherl/Maelstrom#readme"
+    "homepage": "https://github.com/bbuecherl/Maelstrom#readme",
+    "other": {
+      "author": "bbuecherl <bernhard.buecherl@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/bbuecherl/Maelstrom/issues"
+      },
+      "directories": {
+        "example": "examples",
+        "test": "test"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -132,5 +131,6 @@
       "url": "https://api.github.com/repos/bbuecherl/Maelstrom/git/commits/c0c9e075f5d9489b7901af6dbd375d2f4ac24e99",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "bbuecherl___Maelstrom.json"
 }

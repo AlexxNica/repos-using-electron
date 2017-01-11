@@ -75,7 +75,6 @@
       "start": "tsc -p src/server/ && node bin/server/server/Server.js",
       "test": "echo 'TO IMPLEMENT'"
     },
-    "author": "Damon Perron-Laurin",
     "license": "ISC",
     "dependencies": {
       "electron": "^1.3.6",
@@ -93,6 +92,9 @@
       "transform-loader": "^0.2.3",
       "ts-loader": "^0.8.2",
       "webpack": "^1.13.2"
+    },
+    "other": {
+      "author": "Damon Perron-Laurin"
     }
   },
   "packageStatus": 200,
@@ -120,5 +122,6 @@
       "url": "https://api.github.com/repos/drawm/SpaceDeck/git/commits/3c32d09149a6f48a10d0dc8093f4d299867299b3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "drawm___SpaceDeck.json"
 }

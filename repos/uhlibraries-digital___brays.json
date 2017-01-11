@@ -82,14 +82,7 @@
       "package:win": "npm run build && babel-node scripts/package.js --platform=win32",
       "package:linux": "npm run build && babel-node scripts/package.js --platform=linux"
     },
-    "author": {
-      "name": "Sean Watkins",
-      "email": "slwatkins@uh.edu"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/uhlibraries-digital/brays"
-    },
+    "repository": "https://github.com/uhlibraries-digital/brays",
     "license": "MIT",
     "devDependencies": {
       "@angular/common": "2.0.0-rc.5",
@@ -128,6 +121,12 @@
     "dependencies": {
       "font-awesome": "^4.6.3",
       "zone.js": "^0.6.12"
+    },
+    "other": {
+      "author": {
+        "name": "Sean Watkins",
+        "email": "slwatkins@uh.edu"
+      }
     }
   },
   "packageStatus": 200,
@@ -175,5 +174,6 @@
       "url": "https://api.github.com/repos/uhlibraries-digital/brays/git/commits/ace691de0b3d8e53c279c40ddbc3e39da36c19bd",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "uhlibraries-digital___brays.json"
 }

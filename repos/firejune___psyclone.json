@@ -55,13 +55,7 @@
     "bin": {
       "psyclone": "./scripts/cmd.js"
     },
-    "bugs": {
-      "url": "https://git.rsupport.com/psyclone/studio/issues"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/firejune/psyclone"
-    },
+    "repository": "https://github.com/firejune/psyclone",
     "dependencies": {
       "adbkit": "^2.4.0",
       "adbkit-apkreader": "^1.0.0",
@@ -147,6 +141,11 @@
       "build-linux": "npm run build -- linux",
       "build-darwin": "npm run build -- darwin",
       "clean": "node ./scripts/clean.js"
+    },
+    "other": {
+      "bugs": {
+        "url": "https://git.rsupport.com/psyclone/studio/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -174,5 +173,6 @@
       "url": "https://api.github.com/repos/firejune/psyclone/git/commits/dcf9d66c82b96dce5f2a95fc55bee790ff0980e5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "firejune___psyclone.json"
 }

@@ -75,15 +75,8 @@
       "start": "electron main.js",
       "pack": "electron-packager . FocaMediaCenter --platform=win32,darwin,linux --arch=x64 --out=dist --overwrite"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+http://github.com/Alvaroctal/FocaMediaServer.git"
-    },
-    "author": "Alvaro Octal",
+    "repository": "https://github.com/Alvaroctal/FocaMediaServer",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "http://github.com/Alvaroctal/FocaMediaServer/issues"
-    },
     "homepage": "https://octal.es/foca/",
     "devDependencies": {
       "electron-packager": "^7.0.1",
@@ -101,6 +94,12 @@
       "moviedb": "https://github.com/impronunciable/moviedb/tarball/master",
       "nedb": "^1.8.0",
       "stream-transcoder": "0.0.5"
+    },
+    "other": {
+      "author": "Alvaro Octal",
+      "bugs": {
+        "url": "http://github.com/Alvaroctal/FocaMediaServer/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -128,5 +127,6 @@
       "url": "https://api.github.com/repos/Alvaroctal/FocaMediaServer/git/commits/57b6bbafd1688c799debc0f86f45fcc220bf819b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Alvaroctal___FocaMediaServer.json"
 }

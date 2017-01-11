@@ -95,7 +95,6 @@
       "start": "electron .",
       "dist": "build ."
     },
-    "author": "Nunzio Tocci <nunzio@workflowproducts.com> (http://www.workflowproducts.com/)",
     "build": {
       "appId": "com.workflowproducts.postage",
       "asar": false,
@@ -140,6 +139,9 @@
     "dependencies": {
       "postcard": "^1.0.0",
       "pg": "^6.1.0"
+    },
+    "other": {
+      "author": "Nunzio Tocci <nunzio@workflowproducts.com> (http://www.workflowproducts.com/)"
     }
   },
   "packageStatus": 200,
@@ -167,5 +169,6 @@
       "url": "https://api.github.com/repos/workflowproducts/postcard-example/git/commits/47f9e7f8e67f772636418566a51e9d8ef1c0083b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "workflowproducts___postcard-example.json"
 }

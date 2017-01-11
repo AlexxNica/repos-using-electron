@@ -73,13 +73,7 @@
     "homepage": "https://github.com/firejune/liquid",
     "main": "main.js",
     "jsnext:main": "src/index.js",
-    "bugs": {
-      "url": "https://github.com/firejune/liquid/issues"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/firejune/liquid.git"
-    },
+    "repository": "https://github.com/firejune/liquid",
     "dependencies": {
       "babel-runtime": "^6.5.0",
       "configstore": "^1.4.0",
@@ -130,6 +124,11 @@
       "build-win32-x64": "electron-packager . --platform=win32 --arch=x64 $npm_package_name $npm_package_ignore $npm_package_string $npm_package_option",
       "build-darwin-x32": "electron-packager . --platform=darwin --arch=x32 $npm_package_name $npm_package_ignore $npm_package_string $npm_package_option",
       "build-win32-x32": "electron-packager . --platform=win32 --arch=x32 $npm_package_name $npm_package_ignore $npm_package_string $npm_package_option"
+    },
+    "other": {
+      "bugs": {
+        "url": "https://github.com/firejune/liquid/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -157,5 +156,6 @@
       "url": "https://api.github.com/repos/firejune/liquid/git/commits/a520b2b2197d5fdc15c3f02029ed8b270ab7ebba",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "firejune___liquid.json"
 }

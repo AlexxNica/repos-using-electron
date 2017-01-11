@@ -53,22 +53,12 @@
   "status": 200,
   "packageJSON": {
     "name": "video-transcript-note",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/azu/video-transcript-note.git"
-    },
-    "author": "azu",
+    "repository": "https://github.com/azu/video-transcript-note",
     "email": "azuciao@gmail.com",
     "homepage": "https://github.com/azu/video-transcript-note",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/azu/video-transcript-note/issues"
-    },
     "version": "1.1.1",
     "main": "index.js",
-    "directories": {
-      "test": "test"
-    },
     "scripts": {
       "start": "electron .",
       "dist": "electron-zip-packager ./ video-transcript-note --platform=darwin,win32 --arch=x64 --version=0.30.0 --ignore videos"
@@ -106,6 +96,15 @@
     "devDependencies": {
       "electron-prebuilt": "0.30.0",
       "electron-zip-packager": "^1.0.2"
+    },
+    "other": {
+      "author": "azu",
+      "bugs": {
+        "url": "https://github.com/azu/video-transcript-note/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -133,5 +132,6 @@
       "url": "https://api.github.com/repos/azu/video-transcript-note/git/commits/f809c824bb6728ad93628f2a38fd880de494a66f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "azu___video-transcript-note.json"
 }

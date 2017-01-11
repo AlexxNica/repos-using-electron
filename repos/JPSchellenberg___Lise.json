@@ -50,16 +50,12 @@
     "version": "1.0.0-prerelease.1",
     "description": "Lowcost interface for science experiments",
     "main": "src/index.ts",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/JPSchellenberg/Lise"
-    },
+    "repository": "https://github.com/JPSchellenberg/Lise",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "build": "make",
       "postinstall": "./node_modules/.bin/typings install"
     },
-    "author": "Jan Philip Schellenberg",
     "license": "",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -99,6 +95,9 @@
     "build": {
       "appId": "your.id",
       "category": "your.app.category.type"
+    },
+    "other": {
+      "author": "Jan Philip Schellenberg"
     }
   },
   "packageStatus": 200,
@@ -146,5 +145,6 @@
       "url": "https://api.github.com/repos/JPSchellenberg/Lise/git/commits/b0d73bef2fd91646ccde5dcd7c9c5731942b1f4b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "JPSchellenberg___Lise.json"
 }

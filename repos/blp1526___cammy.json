@@ -61,15 +61,8 @@
       "build": "electron-packager . Cammy --out=dist --platform=darwin --arch=x64 --version=0.36.7 --overwrite",
       "tree": "tree -a -I '.git|node_modules'"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/blp1526/cammy.git"
-    },
-    "author": "Shingo Kawamura",
+    "repository": "https://github.com/blp1526/cammy",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/blp1526/cammy/issues"
-    },
     "homepage": "https://github.com/blp1526/cammy#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -78,6 +71,12 @@
     "eslintConfig": {
       "env": {
         "es6": true
+      }
+    },
+    "other": {
+      "author": "Shingo Kawamura",
+      "bugs": {
+        "url": "https://github.com/blp1526/cammy/issues"
       }
     }
   },
@@ -126,5 +125,6 @@
       "url": "https://api.github.com/repos/blp1526/cammy/git/commits/ed0df42188f27fa77b4ae24d43f9ca4ceb6ebe61",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "blp1526___cammy.json"
 }

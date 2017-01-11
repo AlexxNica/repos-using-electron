@@ -54,7 +54,6 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "rethinkdb --daemon && nodemon --exec 'electron .'"
     },
-    "author": "Johan van Eck",
     "license": "ISC",
     "devDependencies": {
       "electron-prebuilt": "^1.3.4",
@@ -73,6 +72,9 @@
       "rethinkdb": "^2.3.2",
       "socket.io": "^1.4.8",
       "vision": "^4.1.0"
+    },
+    "other": {
+      "author": "Johan van Eck"
     }
   },
   "packageStatus": 200,
@@ -100,5 +102,6 @@
       "url": "https://api.github.com/repos/johman10/tvIndexer/git/commits/a60eee6362a84f133f2c6c4cccbfd7e5dbb3a16a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "johman10___tvIndexer.json"
 }

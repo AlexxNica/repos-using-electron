@@ -81,21 +81,14 @@
       "wp-test": "mocha-webpack --growl --colors --webpack-config webpack.config-test.babel.js \"tests/**/*Spec.js\"",
       "cov": ""
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/sholloway/graph-cockpit.git"
-    },
+    "repository": "https://github.com/sholloway/graph-cockpit",
     "keywords": [
       "Graph",
       "notes",
       "analysis"
     ],
-    "author": "Samuel D. Holloway",
     "license": "MIT",
     "private": "true",
-    "bugs": {
-      "url": "https://github.com/sholloway/graph-cockpit/issues"
-    },
     "homepage": "https://github.com/sholloway/graph-cockpit#readme",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -138,6 +131,12 @@
       "react-router-redux": "^4.0.7",
       "redux": "^3.5.2",
       "shortid": "^2.2.6"
+    },
+    "other": {
+      "author": "Samuel D. Holloway",
+      "bugs": {
+        "url": "https://github.com/sholloway/graph-cockpit/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -165,5 +164,6 @@
       "url": "https://api.github.com/repos/sholloway/graph-cockpit/git/commits/61bfcc0c98e7f0619c005f8202cd3db4ab3effac",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sholloway___graph-cockpit.json"
 }
