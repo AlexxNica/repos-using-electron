@@ -1,0 +1,158 @@
+{
+  "filename": "symphonyoss___SymphonyElectron.json",
+  "id": 69311918,
+  "name": "SymphonyElectron",
+  "fullName": "symphonyoss/SymphonyElectron",
+  "owner": {
+    "login": "symphonyoss",
+    "id": 16778380,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/16778380?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/symphonyoss",
+    "htmlUrl": "https://github.com/symphonyoss",
+    "followersUrl": "https://api.github.com/users/symphonyoss/followers",
+    "subscriptionsUrl": "https://api.github.com/users/symphonyoss/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/symphonyoss/orgs",
+    "reposUrl": "https://api.github.com/users/symphonyoss/repos",
+    "receivedEventsUrl": "https://api.github.com/users/symphonyoss/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/symphonyoss/SymphonyElectron",
+  "description": null,
+  "fork": false,
+  "url": "https://api.github.com/repos/symphonyoss/SymphonyElectron",
+  "forksUrl": "https://api.github.com/repos/symphonyoss/SymphonyElectron/forks",
+  "teamsUrl": "https://api.github.com/repos/symphonyoss/SymphonyElectron/teams",
+  "hooksUrl": "https://api.github.com/repos/symphonyoss/SymphonyElectron/hooks",
+  "eventsUrl": "https://api.github.com/repos/symphonyoss/SymphonyElectron/events",
+  "tagsUrl": "https://api.github.com/repos/symphonyoss/SymphonyElectron/tags",
+  "languagesUrl": "https://api.github.com/repos/symphonyoss/SymphonyElectron/languages",
+  "stargazersUrl": "https://api.github.com/repos/symphonyoss/SymphonyElectron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/symphonyoss/SymphonyElectron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/symphonyoss/SymphonyElectron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/symphonyoss/SymphonyElectron/subscription",
+  "mergesUrl": "https://api.github.com/repos/symphonyoss/SymphonyElectron/merges",
+  "downloadsUrl": "https://api.github.com/repos/symphonyoss/SymphonyElectron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/symphonyoss/SymphonyElectron/deployments",
+  "createdAt": "2016-09-27T02:33:08.000Z",
+  "updatedAt": "2016-12-14T04:47:52.000Z",
+  "pushedAt": "2016-12-14T18:50:16.000Z",
+  "gitUrl": "git://github.com/symphonyoss/SymphonyElectron.git",
+  "sshUrl": "git@github.com:symphonyoss/SymphonyElectron.git",
+  "cloneUrl": "https://github.com/symphonyoss/SymphonyElectron.git",
+  "svnUrl": "https://github.com/symphonyoss/SymphonyElectron",
+  "homepage": null,
+  "size": 89,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 2,
+  "mirrorUrl": null,
+  "openIssuesCount": 3,
+  "openIssues": 3,
+  "watchers": 1,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spdxId": null,
+    "url": null,
+    "featured": false
+  },
+  "organization": {
+    "login": "symphonyoss",
+    "id": 16778380,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/16778380?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/symphonyoss",
+    "htmlUrl": "https://github.com/symphonyoss",
+    "followersUrl": "https://api.github.com/users/symphonyoss/followers",
+    "subscriptionsUrl": "https://api.github.com/users/symphonyoss/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/symphonyoss/orgs",
+    "reposUrl": "https://api.github.com/users/symphonyoss/repos",
+    "receivedEventsUrl": "https://api.github.com/users/symphonyoss/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 2,
+  "subscribersCount": 8,
+  "status": 200,
+  "packageJSON": {
+    "name": "Symphony",
+    "productName": "Symphony",
+    "version": "1.0.0",
+    "description": "Symphony desktop app",
+    "main": "main.js",
+    "scripts": {
+      "dev:mac": "ELECTRON_DEV=true npm run start",
+      "dev:win": "SET ELECTRON_DEV=true && npm run start",
+      "start": "electron .",
+      "dist-mac": "build --mac",
+      "dist-win": "build --win --x64",
+      "dist-win-x86": "build --win --ia32"
+    },
+    "build": {
+      "appId": "symphony-electron-desktop",
+      "mac": {
+        "target": "dmg",
+        "category": "public.app-category.business"
+      },
+      "win": {
+        "target": "squirrel"
+      }
+    },
+    "repository": "https://github.com/SymphonyOSF/SymphonyElectron",
+    "keywords": [
+      "Symphony",
+      "start"
+    ],
+    "license": "tbd",
+    "homepage": "https://corporate.symphony.com",
+    "devDependencies": {
+      "electron": "1.4.5",
+      "electron-builder": "^7.23.2",
+      "electron-packager": "^8.2.0"
+    },
+    "dependencies": {
+      "electron-squirrel-startup": "^1.0.0"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "lneir",
+    "bryanatsymphony",
+    "mindthegab",
+    "maoo"
+  ],
+  "firstCommit": {
+    "sha": "aee8779c164222f4ba65c329b093859f38ffef10",
+    "commit": {
+      "author": {
+        "name": "bryanatsymphony",
+        "email": "bryanatsymphony@users.noreply.github.com",
+        "date": "2016-09-27T02:33:09Z"
+      },
+      "committer": {
+        "name": "bryanatsymphony",
+        "email": "bryanatsymphony@users.noreply.github.com",
+        "date": "2016-09-27T02:33:09Z"
+      },
+      "message": "Initial commit",
+      "tree": {
+        "sha": "65494dffb62eb21ee1e6cd74bd427cd069cc09dc",
+        "url": "https://api.github.com/repos/symphonyoss/SymphonyElectron/git/trees/65494dffb62eb21ee1e6cd74bd427cd069cc09dc"
+      },
+      "url": "https://api.github.com/repos/symphonyoss/SymphonyElectron/git/commits/aee8779c164222f4ba65c329b093859f38ffef10",
+      "commentCount": 0
+    }
+  }
+}

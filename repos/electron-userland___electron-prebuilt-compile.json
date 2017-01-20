@@ -1,0 +1,144 @@
+{
+  "filename": "electron-userland___electron-prebuilt-compile.json",
+  "id": 48976729,
+  "name": "electron-prebuilt-compile",
+  "fullName": "electron-userland/electron-prebuilt-compile",
+  "owner": {
+    "login": "electron-userland",
+    "id": 17519142,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/17519142?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/electron-userland",
+    "htmlUrl": "https://github.com/electron-userland",
+    "followersUrl": "https://api.github.com/users/electron-userland/followers",
+    "subscriptionsUrl": "https://api.github.com/users/electron-userland/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/electron-userland/orgs",
+    "reposUrl": "https://api.github.com/users/electron-userland/repos",
+    "receivedEventsUrl": "https://api.github.com/users/electron-userland/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/electron-userland/electron-prebuilt-compile",
+  "description": "electron-prebuilt with Babel and React built-in",
+  "fork": false,
+  "url": "https://api.github.com/repos/electron-userland/electron-prebuilt-compile",
+  "forksUrl": "https://api.github.com/repos/electron-userland/electron-prebuilt-compile/forks",
+  "teamsUrl": "https://api.github.com/repos/electron-userland/electron-prebuilt-compile/teams",
+  "hooksUrl": "https://api.github.com/repos/electron-userland/electron-prebuilt-compile/hooks",
+  "eventsUrl": "https://api.github.com/repos/electron-userland/electron-prebuilt-compile/events",
+  "tagsUrl": "https://api.github.com/repos/electron-userland/electron-prebuilt-compile/tags",
+  "languagesUrl": "https://api.github.com/repos/electron-userland/electron-prebuilt-compile/languages",
+  "stargazersUrl": "https://api.github.com/repos/electron-userland/electron-prebuilt-compile/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/electron-userland/electron-prebuilt-compile/contributors",
+  "subscribersUrl": "https://api.github.com/repos/electron-userland/electron-prebuilt-compile/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/electron-userland/electron-prebuilt-compile/subscription",
+  "mergesUrl": "https://api.github.com/repos/electron-userland/electron-prebuilt-compile/merges",
+  "downloadsUrl": "https://api.github.com/repos/electron-userland/electron-prebuilt-compile/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/electron-userland/electron-prebuilt-compile/deployments",
+  "createdAt": "2016-01-04T05:34:35.000Z",
+  "updatedAt": "2017-01-14T20:22:02.000Z",
+  "pushedAt": "2017-01-19T21:12:50.000Z",
+  "gitUrl": "git://github.com/electron-userland/electron-prebuilt-compile.git",
+  "sshUrl": "git@github.com:electron-userland/electron-prebuilt-compile.git",
+  "cloneUrl": "https://github.com/electron-userland/electron-prebuilt-compile.git",
+  "svnUrl": "https://github.com/electron-userland/electron-prebuilt-compile",
+  "homepage": "",
+  "size": 23,
+  "stargazersCount": 78,
+  "watchersCount": 78,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 11,
+  "mirrorUrl": null,
+  "openIssuesCount": 15,
+  "openIssues": 15,
+  "watchers": 78,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": true,
+    "push": true,
+    "pull": true
+  },
+  "license": null,
+  "organization": {
+    "login": "electron-userland",
+    "id": 17519142,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/17519142?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/electron-userland",
+    "htmlUrl": "https://github.com/electron-userland",
+    "followersUrl": "https://api.github.com/users/electron-userland/followers",
+    "subscriptionsUrl": "https://api.github.com/users/electron-userland/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/electron-userland/orgs",
+    "reposUrl": "https://api.github.com/users/electron-userland/repos",
+    "receivedEventsUrl": "https://api.github.com/users/electron-userland/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 11,
+  "subscribersCount": 7,
+  "status": 200,
+  "packageJSON": {
+    "name": "electron-prebuilt-compile",
+    "version": "1.4.15",
+    "description": "electron-prebuilt that automatically understands Babel + React + LESS",
+    "bin": {
+      "electron": "lib/cli.js"
+    },
+    "main": "lib/main.js",
+    "scripts": {
+      "compile": "babel -d lib/ src/",
+      "prepublish": "npm run compile"
+    },
+    "repository": "https://github.com/paulcbetts/electron-prebuilt-compile",
+    "keywords": [
+      "esdoc"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/paulcbetts/electron-prebuilt-compile",
+    "dependencies": {
+      "electron": "1.4.15",
+      "electron-compile": "*",
+      "electron-compilers": "*",
+      "babel-plugin-array-includes": "^2.0.3",
+      "babel-plugin-transform-async-to-generator": "^6.8.0",
+      "babel-preset-es2016-node5": "^1.1.2",
+      "babel-preset-react": "^6.11.1"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.10.1"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "paulcbetts",
+    "CharlieHess",
+    "felixrieseberg",
+    "mnquintana"
+  ],
+  "firstCommit": {
+    "sha": "4264eb6aefe467f46260f45265943624f5d6b504",
+    "commit": {
+      "author": {
+        "name": "Paul Betts",
+        "email": "paul@paulbetts.org",
+        "date": "2016-01-03T20:24:27Z"
+      },
+      "committer": {
+        "name": "Paul Betts",
+        "email": "paul@paulbetts.org",
+        "date": "2016-01-03T20:24:27Z"
+      },
+      "message": "Initial import",
+      "tree": {
+        "sha": "66bb134d8d015ed75db1fef5d76e11de0bc41237",
+        "url": "https://api.github.com/repos/electron-userland/electron-prebuilt-compile/git/trees/66bb134d8d015ed75db1fef5d76e11de0bc41237"
+      },
+      "url": "https://api.github.com/repos/electron-userland/electron-prebuilt-compile/git/commits/4264eb6aefe467f46260f45265943624f5d6b504",
+      "commentCount": 0
+    }
+  },
+  "sourceRepo": "paulcbetts/electron-prebuilt-compile"
+}

@@ -1,0 +1,137 @@
+{
+  "filename": "Suomaa___FTT.json",
+  "id": 76035434,
+  "name": "FTT",
+  "fullName": "Suomaa/FTT",
+  "owner": {
+    "login": "Suomaa",
+    "id": 20427181,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/20427181?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/Suomaa",
+    "htmlUrl": "https://github.com/Suomaa",
+    "followersUrl": "https://api.github.com/users/Suomaa/followers",
+    "subscriptionsUrl": "https://api.github.com/users/Suomaa/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/Suomaa/orgs",
+    "reposUrl": "https://api.github.com/users/Suomaa/repos",
+    "receivedEventsUrl": "https://api.github.com/users/Suomaa/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/Suomaa/FTT",
+  "description": "Functional Testing Tools. (Build on Electron)",
+  "fork": false,
+  "url": "https://api.github.com/repos/Suomaa/FTT",
+  "forksUrl": "https://api.github.com/repos/Suomaa/FTT/forks",
+  "teamsUrl": "https://api.github.com/repos/Suomaa/FTT/teams",
+  "hooksUrl": "https://api.github.com/repos/Suomaa/FTT/hooks",
+  "eventsUrl": "https://api.github.com/repos/Suomaa/FTT/events",
+  "tagsUrl": "https://api.github.com/repos/Suomaa/FTT/tags",
+  "languagesUrl": "https://api.github.com/repos/Suomaa/FTT/languages",
+  "stargazersUrl": "https://api.github.com/repos/Suomaa/FTT/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/Suomaa/FTT/contributors",
+  "subscribersUrl": "https://api.github.com/repos/Suomaa/FTT/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/Suomaa/FTT/subscription",
+  "mergesUrl": "https://api.github.com/repos/Suomaa/FTT/merges",
+  "downloadsUrl": "https://api.github.com/repos/Suomaa/FTT/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/Suomaa/FTT/deployments",
+  "createdAt": "2016-12-09T12:56:30.000Z",
+  "updatedAt": "2016-12-09T13:02:26.000Z",
+  "pushedAt": "2017-01-19T15:28:30.000Z",
+  "gitUrl": "git://github.com/Suomaa/FTT.git",
+  "sshUrl": "git@github.com:Suomaa/FTT.git",
+  "cloneUrl": "https://github.com/Suomaa/FTT.git",
+  "svnUrl": "https://github.com/Suomaa/FTT",
+  "homepage": "",
+  "size": 40,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "FTT",
+    "version": "1.0.0",
+    "description": "Functional testing tools",
+    "main": "main.js",
+    "license": "Apache",
+    "scripts": {
+      "start": "electron .",
+      "compile": "rimraf build/out",
+      "pack": "npm run compile && build --dir",
+      "dist": "npm run compile && build",
+      "release": "npm run compile && build",
+      "build": "electron-packager . FTT --all --app-version=1.0.0 --overwrite --out=distributive --ignore=distributive --prune"
+    },
+    "build": {
+      "appId": "org.binjo.shots",
+      "category": "graphics",
+      "build.mac.category": "---",
+      "maintainer": "Suomaa",
+      "copyright": "Copyright © 2016 Suomaa",
+      "linux": {
+        "target": [
+          "AppImage",
+          "deb"
+        ],
+        "category": "Tools",
+        "packageCategory": "tools"
+      }
+    },
+    "devDependencies": {
+      "electron": "1.4.5",
+      "electron-builder": "^8.6.0",
+      "rimraf": "^2.5.4"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "Suomaa"
+  ],
+  "firstCommit": {
+    "sha": "777e64f192c3b738574914fd7dee2c0412c2e02d",
+    "commit": {
+      "author": {
+        "name": "Alex Antomonov",
+        "email": "a.antomonov@mail.ru",
+        "date": "2016-12-09T12:56:30Z"
+      },
+      "committer": {
+        "name": "Alex Antomonov",
+        "email": "a.antomonov@mail.ru",
+        "date": "2016-12-09T12:56:30Z"
+      },
+      "message": "Initial commit",
+      "tree": {
+        "sha": "bf91366d76e9a795f402f4e14f55f6993630806f",
+        "url": "https://api.github.com/repos/Suomaa/FTT/git/trees/bf91366d76e9a795f402f4e14f55f6993630806f"
+      },
+      "url": "https://api.github.com/repos/Suomaa/FTT/git/commits/777e64f192c3b738574914fd7dee2c0412c2e02d",
+      "commentCount": 0
+    }
+  }
+}

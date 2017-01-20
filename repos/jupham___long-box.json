@@ -1,0 +1,136 @@
+{
+  "filename": "jupham___long-box.json",
+  "id": 77645454,
+  "name": "long-box",
+  "fullName": "jupham/long-box",
+  "owner": {
+    "login": "jupham",
+    "id": 1320376,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1320376?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/jupham",
+    "htmlUrl": "https://github.com/jupham",
+    "followersUrl": "https://api.github.com/users/jupham/followers",
+    "subscriptionsUrl": "https://api.github.com/users/jupham/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/jupham/orgs",
+    "reposUrl": "https://api.github.com/users/jupham/repos",
+    "receivedEventsUrl": "https://api.github.com/users/jupham/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/jupham/long-box",
+  "description": null,
+  "fork": false,
+  "url": "https://api.github.com/repos/jupham/long-box",
+  "forksUrl": "https://api.github.com/repos/jupham/long-box/forks",
+  "teamsUrl": "https://api.github.com/repos/jupham/long-box/teams",
+  "hooksUrl": "https://api.github.com/repos/jupham/long-box/hooks",
+  "eventsUrl": "https://api.github.com/repos/jupham/long-box/events",
+  "tagsUrl": "https://api.github.com/repos/jupham/long-box/tags",
+  "languagesUrl": "https://api.github.com/repos/jupham/long-box/languages",
+  "stargazersUrl": "https://api.github.com/repos/jupham/long-box/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/jupham/long-box/contributors",
+  "subscribersUrl": "https://api.github.com/repos/jupham/long-box/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/jupham/long-box/subscription",
+  "mergesUrl": "https://api.github.com/repos/jupham/long-box/merges",
+  "downloadsUrl": "https://api.github.com/repos/jupham/long-box/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/jupham/long-box/deployments",
+  "createdAt": "2016-12-29T23:13:00.000Z",
+  "updatedAt": "2017-01-08T19:54:18.000Z",
+  "pushedAt": "2017-01-08T19:54:17.000Z",
+  "gitUrl": "git://github.com/jupham/long-box.git",
+  "sshUrl": "git@github.com:jupham/long-box.git",
+  "cloneUrl": "https://github.com/jupham/long-box.git",
+  "svnUrl": "https://github.com/jupham/long-box",
+  "homepage": null,
+  "size": 16,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "TypeScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "long-box",
+    "version": "1.0.0",
+    "description": "A comic organizer",
+    "main": "main.js",
+    "scripts": {
+      "win:start": "ENVIRONMENT=DEV electron .",
+      "win:build": "webpack",
+      "win:watch": "webpack-dev-server --port 5001 --hot --inline",
+      "start": "ENVIRONMENT=DEV ./node_modules/.bin/electron .",
+      "build": "./node_modules/.bin/webpack",
+      "watch": "./node_modules/.bin/webpack-dev-server --port 5001 --hot --inline"
+    },
+    "devDependencies": {
+      "@types/electron": "^1.4.30",
+      "@types/history": "^2.0.42",
+      "@types/material-ui": "^0.16.46",
+      "@types/react-router": "^2.0.41",
+      "@types/react-router-redux": "^4.0.36",
+      "@types/react-tap-event-plugin": "0.0.30",
+      "awesome-typescript-loader": "^3.0.0-beta.17",
+      "electron": "^1.4.1",
+      "electron-react-devtools": "^0.4.0",
+      "source-map-loader": "^0.1.5",
+      "ts-loader": "^1.3.3",
+      "typescript": "^2.1.4",
+      "webpack": "^1.14.0",
+      "webpack-dev-server": "^1.16.2"
+    },
+    "dependencies": {
+      "@types/react": "^0.14.55",
+      "@types/react-dom": "^0.14.19",
+      "history": "^3.2.0",
+      "material-ui": "^0.16.6",
+      "react": "^15.4.1",
+      "react-dom": "^15.4.1",
+      "react-router": "^3.0.0",
+      "react-tap-event-plugin": "^2.0.1"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "jupham",
+    "juphamzipit"
+  ],
+  "firstCommit": {
+    "sha": "7cfa2d69f7a69a4eb82994186bb5e2f2e1360bb5",
+    "commit": {
+      "author": {
+        "name": "jupham",
+        "email": "juph4m@gmail.com",
+        "date": "2016-12-29T23:13:00Z"
+      },
+      "committer": {
+        "name": "jupham",
+        "email": "juph4m@gmail.com",
+        "date": "2016-12-29T23:13:00Z"
+      },
+      "message": "Initial commit",
+      "tree": {
+        "sha": "6e011c8a03b5545400ce5badc86c30d09333e620",
+        "url": "https://api.github.com/repos/jupham/long-box/git/trees/6e011c8a03b5545400ce5badc86c30d09333e620"
+      },
+      "url": "https://api.github.com/repos/jupham/long-box/git/commits/7cfa2d69f7a69a4eb82994186bb5e2f2e1360bb5",
+      "commentCount": 0
+    }
+  }
+}

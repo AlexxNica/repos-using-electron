@@ -1,0 +1,239 @@
+{
+  "filename": "exponent___xde.json",
+  "id": 39960244,
+  "name": "xde",
+  "fullName": "exponent/xde",
+  "owner": {
+    "login": "exponent",
+    "id": 12504344,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/12504344?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/exponent",
+    "htmlUrl": "https://github.com/exponent",
+    "followersUrl": "https://api.github.com/users/exponent/followers",
+    "subscriptionsUrl": "https://api.github.com/users/exponent/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/exponent/orgs",
+    "reposUrl": "https://api.github.com/users/exponent/repos",
+    "receivedEventsUrl": "https://api.github.com/users/exponent/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/exponent/xde",
+  "description": "The Exponent Development Environment",
+  "fork": false,
+  "url": "https://api.github.com/repos/exponent/xde",
+  "forksUrl": "https://api.github.com/repos/exponent/xde/forks",
+  "teamsUrl": "https://api.github.com/repos/exponent/xde/teams",
+  "hooksUrl": "https://api.github.com/repos/exponent/xde/hooks",
+  "eventsUrl": "https://api.github.com/repos/exponent/xde/events",
+  "tagsUrl": "https://api.github.com/repos/exponent/xde/tags",
+  "languagesUrl": "https://api.github.com/repos/exponent/xde/languages",
+  "stargazersUrl": "https://api.github.com/repos/exponent/xde/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/exponent/xde/contributors",
+  "subscribersUrl": "https://api.github.com/repos/exponent/xde/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/exponent/xde/subscription",
+  "mergesUrl": "https://api.github.com/repos/exponent/xde/merges",
+  "downloadsUrl": "https://api.github.com/repos/exponent/xde/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/exponent/xde/deployments",
+  "createdAt": "2015-07-30T16:19:52.000Z",
+  "updatedAt": "2017-01-19T22:24:50.000Z",
+  "pushedAt": "2017-01-19T03:21:50.000Z",
+  "gitUrl": "git://github.com/exponent/xde.git",
+  "sshUrl": "git@github.com:exponent/xde.git",
+  "cloneUrl": "https://github.com/exponent/xde.git",
+  "svnUrl": "https://github.com/exponent/xde",
+  "homepage": null,
+  "size": 123532,
+  "stargazersCount": 319,
+  "watchersCount": 319,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 27,
+  "mirrorUrl": null,
+  "openIssuesCount": 7,
+  "openIssues": 7,
+  "watchers": 319,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "organization": {
+    "login": "exponent",
+    "id": 12504344,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/12504344?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/exponent",
+    "htmlUrl": "https://github.com/exponent",
+    "followersUrl": "https://api.github.com/users/exponent/followers",
+    "subscriptionsUrl": "https://api.github.com/users/exponent/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/exponent/orgs",
+    "reposUrl": "https://api.github.com/users/exponent/repos",
+    "receivedEventsUrl": "https://api.github.com/users/exponent/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 27,
+  "subscribersCount": 24,
+  "status": 200,
+  "packageJSON": {
+    "private": true,
+    "scripts": {
+      "start": "cross-env XDE_NPM_START=1 npm run _start",
+      "rebuild": "gulp rebuild:force",
+      "start-hot": "cross-env HOT=1 npm run start",
+      "start-staging": "cross-env XDE_NPM_START=1 EXPONENT_STAGING=1 npm run _start",
+      "start-staging-hot": "cross-env HOT=1 npm run start-staging",
+      "start-local": "cross-env XDE_NPM_START=1 EXPONENT_LOCAL=1 npm run _start",
+      "start-local-hot": "cross-env HOT=1 npm run start-local",
+      "start-proxy": "cross-env HTTP_PROXY=http://localhost.charlesproxy.com:8888 HTTPS_PROXY=http://localhost.charlesproxy.com:8888 npm start",
+      "_start": "concurrently --kill-others --raw \"npm run webpack\" \"npm run app\"",
+      "app": "gulp rebuild && npm run electron",
+      "electron": "electron ./app",
+      "webpack": "node scripts/webpack",
+      "webpack-dev": "webpack -w --env.dev",
+      "webpack-hot": "webpack --env.dev && cross-env BABEL_ENV=hot webpack-dev-server -w --env.hmr --env.dev",
+      "build": "cross-env NODE_ENV=production webpack --env.prod",
+      "postinstall": "node scripts/postinstall.js",
+      "lint": "eslint src",
+      "dist": "gulp clean && npm run build && gulp release",
+      "mac": "gulp clean && npm run build && gulp release:mac",
+      "win": "gulp clean && npm run build && gulp release:windows",
+      "linux": "gulp clean && npm run build && gulp release:linux",
+      "flow-typed": "flow-typed install --flowVersion=\"$(flow version | awk '{ print $9 }')\" && cd app/ && npm run flow-typed"
+    },
+    "build": {
+      "asar": false,
+      "appId": "host.exp.xde",
+      "dmg": {
+        "contents": [
+          {
+            "x": 410,
+            "y": 168,
+            "type": "link",
+            "path": "/Applications"
+          },
+          {
+            "x": 104,
+            "y": 168,
+            "type": "file"
+          }
+        ]
+      },
+      "mac": {
+        "identity": "650 Industries, Inc. (C8D8QTF339)",
+        "category": "public.app-category.developer-tools"
+      },
+      "win": {
+        "remoteReleases": "https://github.com/exponent/xde"
+      },
+      "linux": {
+        "category": "Development",
+        "target": [
+          "AppImage"
+        ]
+      }
+    },
+    "devDependencies": {
+      "@ccheever/crayon": "^5.0.0",
+      "@exponent/json-file": "^5.0.1",
+      "@exponent/spawn-async": "^1.2.5",
+      "babel-core": "^6.18.0",
+      "babel-eslint": "^7.1.0",
+      "babel-loader": "^6.2.5",
+      "babel-plugin-dev-expression": "^0.2.1",
+      "babel-plugin-flow-react-proptypes": "^0.18.2",
+      "babel-plugin-transform-class-properties": "^6.18.0",
+      "babel-plugin-transform-decorators-legacy": "^1.3.4",
+      "babel-plugin-transform-object-rest-spread": "^6.16.0",
+      "babel-plugin-transform-runtime": "^6.9.0",
+      "babel-preset-es2015": "^6.18.0",
+      "babel-preset-es2015-node6": "^0.3.0",
+      "babel-preset-es2017": "^6.16.0",
+      "babel-preset-react": "^6.5.0",
+      "babel-preset-react-optimize": "^1.0.1",
+      "babel-preset-stage-1": "^6.16.0",
+      "concurrently": "^3.1.0",
+      "cross-env": "^3.0.0",
+      "electron": "1.4.11",
+      "electron-builder": "^10.6.1",
+      "electron-devtools-installer": "^2.0.1",
+      "electron-rebuild": "^1.5.5",
+      "eslint": "^3.1.1",
+      "eslint-config-exponent": "^4.0.0",
+      "eslint-plugin-babel": "^3.3.0",
+      "eslint-plugin-react": "^6.3.0",
+      "flow-bin": "^0.36.0",
+      "flow-typed": "^2.0.0",
+      "getenv": "^0.7.0",
+      "gulp": "git+https://github.com/gulpjs/gulp#4.0",
+      "gulp-babel": "^6.1.2",
+      "gulp-changed": "^1.3.0",
+      "gulp-plumber": "^1.1.0",
+      "gulp-rename": "^1.2.2",
+      "gulp-sourcemaps": "^1.6.0",
+      "gulp-watch": "^4.3.6",
+      "gulplog": "^1.0.0",
+      "instapromise": "2.0.7",
+      "json-loader": "^0.5.4",
+      "react": "^15.4.1",
+      "react-dom": "^15.4.1",
+      "react-hot-loader": "3.0.0-beta.6",
+      "rimraf": "^2.5.2",
+      "source-map-support": "^0.4.6",
+      "webpack": "2.1.0-beta.27",
+      "webpack-dev-server": "2.1.0-beta.12",
+      "webpack-node-externals": "^1.5.4"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "jesseruder",
+    "ide",
+    "ccheever",
+    "skevy",
+    "karenliu1",
+    "terribleben",
+    "brentvatne",
+    "expbot",
+    "html5cat",
+    "ben-denzer",
+    "cmcewen",
+    "joefreeman",
+    "coderbyheart",
+    "nikgraf",
+    "nikki93"
+  ],
+  "firstCommit": {
+    "sha": "c045b7b5d464e4af1e2bff233b7997c4b10fa675",
+    "commit": {
+      "author": {
+        "name": "Charlie Cheever",
+        "email": "ccheever@gmail.com",
+        "date": "2015-07-30T16:19:52Z"
+      },
+      "committer": {
+        "name": "Charlie Cheever",
+        "email": "ccheever@gmail.com",
+        "date": "2015-07-30T16:19:52Z"
+      },
+      "message": "Initial commit",
+      "tree": {
+        "sha": "18be9c8825d47ddeb7f6aee533c2897bad18bc12",
+        "url": "https://api.github.com/repos/exponent/xde/git/trees/18be9c8825d47ddeb7f6aee533c2897bad18bc12"
+      },
+      "url": "https://api.github.com/repos/exponent/xde/git/commits/c045b7b5d464e4af1e2bff233b7997c4b10fa675",
+      "commentCount": 0
+    }
+  }
+}

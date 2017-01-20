@@ -1,0 +1,143 @@
+{
+  "filename": "cucumber___cucumber-electron.json",
+  "id": 74269834,
+  "name": "cucumber-electron",
+  "fullName": "cucumber/cucumber-electron",
+  "owner": {
+    "login": "cucumber",
+    "id": 320565,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/320565?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/cucumber",
+    "htmlUrl": "https://github.com/cucumber",
+    "followersUrl": "https://api.github.com/users/cucumber/followers",
+    "subscriptionsUrl": "https://api.github.com/users/cucumber/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/cucumber/orgs",
+    "reposUrl": "https://api.github.com/users/cucumber/repos",
+    "receivedEventsUrl": "https://api.github.com/users/cucumber/received_events",
+    "type": "Organization"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/cucumber/cucumber-electron",
+  "description": "Runs cucumber.js in electron",
+  "fork": false,
+  "url": "https://api.github.com/repos/cucumber/cucumber-electron",
+  "forksUrl": "https://api.github.com/repos/cucumber/cucumber-electron/forks",
+  "teamsUrl": "https://api.github.com/repos/cucumber/cucumber-electron/teams",
+  "hooksUrl": "https://api.github.com/repos/cucumber/cucumber-electron/hooks",
+  "eventsUrl": "https://api.github.com/repos/cucumber/cucumber-electron/events",
+  "tagsUrl": "https://api.github.com/repos/cucumber/cucumber-electron/tags",
+  "languagesUrl": "https://api.github.com/repos/cucumber/cucumber-electron/languages",
+  "stargazersUrl": "https://api.github.com/repos/cucumber/cucumber-electron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/cucumber/cucumber-electron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/cucumber/cucumber-electron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/cucumber/cucumber-electron/subscription",
+  "mergesUrl": "https://api.github.com/repos/cucumber/cucumber-electron/merges",
+  "downloadsUrl": "https://api.github.com/repos/cucumber/cucumber-electron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/cucumber/cucumber-electron/deployments",
+  "createdAt": "2016-11-20T11:34:16.000Z",
+  "updatedAt": "2017-01-17T19:24:04.000Z",
+  "pushedAt": "2017-01-18T11:51:32.000Z",
+  "gitUrl": "git://github.com/cucumber/cucumber-electron.git",
+  "sshUrl": "git@github.com:cucumber/cucumber-electron.git",
+  "cloneUrl": "https://github.com/cucumber/cucumber-electron.git",
+  "svnUrl": "https://github.com/cucumber/cucumber-electron",
+  "homepage": "",
+  "size": 24,
+  "stargazersCount": 6,
+  "watchersCount": 6,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 1,
+  "mirrorUrl": null,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 6,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "organization": {
+    "login": "cucumber",
+    "id": 320565,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/320565?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/cucumber",
+    "htmlUrl": "https://github.com/cucumber",
+    "followersUrl": "https://api.github.com/users/cucumber/followers",
+    "subscriptionsUrl": "https://api.github.com/users/cucumber/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/cucumber/orgs",
+    "reposUrl": "https://api.github.com/users/cucumber/repos",
+    "receivedEventsUrl": "https://api.github.com/users/cucumber/received_events",
+    "type": "Organization"
+  },
+  "networkCount": 1,
+  "subscribersCount": 37,
+  "status": 200,
+  "packageJSON": {
+    "name": "cucumber-electron",
+    "version": "2.0.3",
+    "description": "Runs cucumber.js in electron",
+    "main": "index.js",
+    "bin": {
+      "cucumber-electron": "./bin/cucumber-electron.js"
+    },
+    "scripts": {
+      "test": "cucumber.js && ./bin/cucumber-electron.js && eslint **/*.js",
+      "eslint": "eslint **/*.js"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "ansi-to-html": "0.4.2",
+      "commander": "2.9.0",
+      "cucumber": "^2.0.0-rc.6",
+      "electron": "1.4.14"
+    },
+    "repository": "https://github.com/featurist/cucumber-electron",
+    "devDependencies": {
+      "eslint": "^3.13.1",
+      "fs-promise": "^1.0.0",
+      "mkdirp-promise": "^5.0.0",
+      "rmfr": "^1.0.1"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "joshski"
+  ],
+  "firstCommit": {
+    "sha": "923c19408eb21306de6c43153c35451f7f3ca41e",
+    "commit": {
+      "author": {
+        "name": "Josh Chisholm",
+        "email": "joshuachisholm@gmail.com",
+        "date": "2016-11-20T11:16:00Z"
+      },
+      "committer": {
+        "name": "Josh Chisholm",
+        "email": "joshuachisholm@gmail.com",
+        "date": "2016-11-20T11:33:16Z"
+      },
+      "message": "POC cucumber.js in electron renderer",
+      "tree": {
+        "sha": "3fe9e3ecb786d21030f5417cd1f8e554ef99bf52",
+        "url": "https://api.github.com/repos/cucumber/cucumber-electron/git/trees/3fe9e3ecb786d21030f5417cd1f8e554ef99bf52"
+      },
+      "url": "https://api.github.com/repos/cucumber/cucumber-electron/git/commits/923c19408eb21306de6c43153c35451f7f3ca41e",
+      "commentCount": 0
+    }
+  },
+  "sourceRepo": "featurist/cucumber-electron"
+}

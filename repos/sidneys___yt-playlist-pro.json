@@ -1,0 +1,211 @@
+{
+  "filename": "sidneys___yt-playlist-pro.json",
+  "id": 76984613,
+  "name": "yt-playlist-pro",
+  "fullName": "sidneys/yt-playlist-pro",
+  "owner": {
+    "login": "sidneys",
+    "id": 1630917,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1630917?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/sidneys",
+    "htmlUrl": "https://github.com/sidneys",
+    "followersUrl": "https://api.github.com/users/sidneys/followers",
+    "subscriptionsUrl": "https://api.github.com/users/sidneys/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/sidneys/orgs",
+    "reposUrl": "https://api.github.com/users/sidneys/repos",
+    "receivedEventsUrl": "https://api.github.com/users/sidneys/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/sidneys/yt-playlist-pro",
+  "description": "Watch & edit your YouTube playlist on the desktop.",
+  "fork": false,
+  "url": "https://api.github.com/repos/sidneys/yt-playlist-pro",
+  "forksUrl": "https://api.github.com/repos/sidneys/yt-playlist-pro/forks",
+  "teamsUrl": "https://api.github.com/repos/sidneys/yt-playlist-pro/teams",
+  "hooksUrl": "https://api.github.com/repos/sidneys/yt-playlist-pro/hooks",
+  "eventsUrl": "https://api.github.com/repos/sidneys/yt-playlist-pro/events",
+  "tagsUrl": "https://api.github.com/repos/sidneys/yt-playlist-pro/tags",
+  "languagesUrl": "https://api.github.com/repos/sidneys/yt-playlist-pro/languages",
+  "stargazersUrl": "https://api.github.com/repos/sidneys/yt-playlist-pro/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/sidneys/yt-playlist-pro/contributors",
+  "subscribersUrl": "https://api.github.com/repos/sidneys/yt-playlist-pro/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/sidneys/yt-playlist-pro/subscription",
+  "mergesUrl": "https://api.github.com/repos/sidneys/yt-playlist-pro/merges",
+  "downloadsUrl": "https://api.github.com/repos/sidneys/yt-playlist-pro/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/sidneys/yt-playlist-pro/deployments",
+  "createdAt": "2016-12-20T19:14:07.000Z",
+  "updatedAt": "2017-01-10T16:10:41.000Z",
+  "pushedAt": "2017-01-12T00:41:28.000Z",
+  "gitUrl": "git://github.com/sidneys/yt-playlist-pro.git",
+  "sshUrl": "git@github.com:sidneys/yt-playlist-pro.git",
+  "cloneUrl": "https://github.com/sidneys/yt-playlist-pro.git",
+  "svnUrl": "https://github.com/sidneys/yt-playlist-pro",
+  "homepage": "",
+  "size": 8769,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "CSS",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 1,
+  "defaultBranch": "release",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "yt-playlist-pro",
+    "productName": "YT Playlist Pro",
+    "version": "0.4.0",
+    "description": "Watch and edit your YouTube playlist on the desktop",
+    "license": "MIT",
+    "homepage": "https://sidneys.github.io/yt-playlist-pro",
+    "repository": "https://github.com/sidneys/yt-playlist-pro",
+    "engines": {
+      "node": ">=7.0.0"
+    },
+    "os": [
+      "darwin",
+      "win32",
+      "linux"
+    ],
+    "keywords": [
+      "youtube",
+      "always on top"
+    ],
+    "preferGlobal": true,
+    "dependencies": {
+      "app-root-path": "^2.0.1",
+      "appdirectory": "^0.1.0",
+      "babel-cli": "^6.18.0",
+      "babel-preset-electron": "^0.37.8",
+      "chalk": "^1.1.3",
+      "electron-auto-updater": "^0.10.1",
+      "electron-compile": "^5.1.2",
+      "electron-compilers": "^5.3.2",
+      "electron-connect": "^0.6.1",
+      "electron-editor-context-menu": "^1.1.1",
+      "electron-settings": "^2.2.2",
+      "electron-squirrel-startup": "^1.0.0",
+      "fs-extra": "^1.0.0",
+      "keypath": "0.0.1",
+      "lodash": "^4.17.4",
+      "normalize-url": "^1.9.0",
+      "semver-compare": "^1.0.0",
+      "semver-regex": "^1.0.0"
+    },
+    "devDependencies": {
+      "electron": "^1.4.14",
+      "electron-builder": "^11.2.4",
+      "electron-builder-squirrel-windows": "^11.2.1",
+      "fkill": "^4.1.0",
+      "glob": "^7.1.1",
+      "gulp": "^3.9.1",
+      "gulp-load-plugins": "^1.4.0",
+      "minimist": "^1.2.0",
+      "progress": "^1.1.8",
+      "publish-release": "^1.3.3"
+    },
+    "main": "./app/es6-init.js",
+    "bin": {
+      "yt-playlist-pro": "./bin/cli.js"
+    },
+    "scripts": {
+      "deploy:github": "node ./lib/deploy-github.js -- ",
+      "start": "./node_modules/.bin/electron ./app/es6-init.js",
+      "start:dev": "./node_modules/.bin/electron ./app/es6-init.js",
+      "start:livereload": "./node_modules/.bin/gulp livereload",
+      "build": "node ./lib/build.js -- ",
+      "localsetup": "./node_modules/.bin/babel-node ./lib/localsetup.js -- ",
+      "localsetup:dev": "./node_modules/.bin/babel-node ./lib/localsetup.js -- ",
+      "localsetup:rebuild": "./node_modules/.bin/babel-node ./lib/localsetup.js -- ",
+      "localsetup:rebuild:dev": "./node_modules/.bin/babel-node ./lib/localsetup.js -- "
+    },
+    "build": {
+      "appId": "de.sidneys.yt-playlist-pro",
+      "directories": {
+        "buildResources": "./build/staging",
+        "output": "./build/output"
+      },
+      "files": [
+        "!build",
+        "!gh-pages",
+        "!resources",
+        "!website"
+      ],
+      "mac": {
+        "icon": "./icons/darwin/icon.icns",
+        "target": [
+          "dmg",
+          "zip"
+        ],
+        "category": "public.app-category.utilities"
+      },
+      "win": {
+        "icon": "./icons/win32/icon.ico",
+        "target": [
+          "squirrel"
+        ]
+      },
+      "linux": {
+        "target": [
+          "deb"
+        ],
+        "category": "Utility"
+      },
+      "dmg": {
+        "background": "./icons/darwin/background-setup.png",
+        "icon": "./icons/darwin/icon-setup.icns"
+      },
+      "squirrelWindows": {
+        "iconUrl": "https://raw.githubusercontent.com/sidneys/yt-playlist-pro/release/icons/win32/icon.ico",
+        "loadingGif": "./icons/win32/background-setup.gif"
+      }
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "sidneys"
+  ],
+  "firstCommit": {
+    "sha": "ac6a75a935e28331c5ce4ece5f4ed1c33b591b11",
+    "commit": {
+      "author": {
+        "name": "Sidney Bofah",
+        "email": "sidney.bofah@googlemail.com",
+        "date": "2016-08-24T06:04:23Z"
+      },
+      "committer": {
+        "name": "Sidney Bofah",
+        "email": "sidney.bofah@googlemail.com",
+        "date": "2016-08-24T06:04:23Z"
+      },
+      "message": "Initial commit",
+      "tree": {
+        "sha": "15194503a88b713e268d1a456e7ca760499a247c",
+        "url": "https://api.github.com/repos/sidneys/yt-playlist-pro/git/trees/15194503a88b713e268d1a456e7ca760499a247c"
+      },
+      "url": "https://api.github.com/repos/sidneys/yt-playlist-pro/git/commits/ac6a75a935e28331c5ce4ece5f4ed1c33b591b11",
+      "commentCount": 0
+    }
+  }
+}

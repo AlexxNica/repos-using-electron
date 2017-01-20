@@ -1,0 +1,148 @@
+{
+  "filename": "brianblakely___Aice.json",
+  "id": 76011994,
+  "name": "aice",
+  "fullName": "brianblakely/aice",
+  "owner": {
+    "login": "brianblakely",
+    "id": 401422,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/401422?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/brianblakely",
+    "htmlUrl": "https://github.com/brianblakely",
+    "followersUrl": "https://api.github.com/users/brianblakely/followers",
+    "subscriptionsUrl": "https://api.github.com/users/brianblakely/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/brianblakely/orgs",
+    "reposUrl": "https://api.github.com/users/brianblakely/repos",
+    "receivedEventsUrl": "https://api.github.com/users/brianblakely/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/brianblakely/aice",
+  "description": "A GUI for Ice.",
+  "fork": false,
+  "url": "https://api.github.com/repos/brianblakely/aice",
+  "forksUrl": "https://api.github.com/repos/brianblakely/aice/forks",
+  "teamsUrl": "https://api.github.com/repos/brianblakely/aice/teams",
+  "hooksUrl": "https://api.github.com/repos/brianblakely/aice/hooks",
+  "eventsUrl": "https://api.github.com/repos/brianblakely/aice/events",
+  "tagsUrl": "https://api.github.com/repos/brianblakely/aice/tags",
+  "languagesUrl": "https://api.github.com/repos/brianblakely/aice/languages",
+  "stargazersUrl": "https://api.github.com/repos/brianblakely/aice/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/brianblakely/aice/contributors",
+  "subscribersUrl": "https://api.github.com/repos/brianblakely/aice/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/brianblakely/aice/subscription",
+  "mergesUrl": "https://api.github.com/repos/brianblakely/aice/merges",
+  "downloadsUrl": "https://api.github.com/repos/brianblakely/aice/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/brianblakely/aice/deployments",
+  "createdAt": "2016-12-09T07:23:19.000Z",
+  "updatedAt": "2016-12-09T19:24:25.000Z",
+  "pushedAt": "2016-12-30T18:29:20.000Z",
+  "gitUrl": "git://github.com/brianblakely/aice.git",
+  "sshUrl": "git@github.com:brianblakely/aice.git",
+  "cloneUrl": "https://github.com/brianblakely/aice.git",
+  "svnUrl": "https://github.com/brianblakely/aice",
+  "homepage": "",
+  "size": 501,
+  "stargazersCount": 0,
+  "watchersCount": 0,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 0,
+  "mirrorUrl": null,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 0,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
+  "subscribersCount": 1,
+  "status": 200,
+  "packageJSON": {
+    "name": "aice",
+    "version": "1.0.0",
+    "description": "A GUI for Ice.",
+    "main": "main.js",
+    "scripts": {
+      "serve": "cross-env NODE_ENV=development webpack-dev-server --hot --inline --colors --stdin",
+      "start": "cross-env NODE_ENV=development webpack --devtool=source-map --optimize-occurence-order --optimize-dedupe --progress && cross-env NODE_ENV=development electron .",
+      "build": "cross-env NODE_ENV=production webpack --devtool=source-map --optimize-occurence-order --optimize-dedupe --progress",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": "https://github.com/brianblakely/Aice",
+    "license": "MIT",
+    "homepage": "https://github.com/brianblakely/Aice#readme",
+    "dependencies": {
+      "electron": "^1.4.12",
+      "ini": "^1.3.4",
+      "material-ui": "^0.16.5",
+      "react": "^15.4.1",
+      "react-addons-shallow-compare": "^15.4.1",
+      "react-dom": "^15.4.1",
+      "react-jss": "^5.1.0",
+      "react-redux": "^5.0.1",
+      "react-tap-event-plugin": "^2.0.1",
+      "react-virtualized": "^8.8.1",
+      "redux": "^3.6.0"
+    },
+    "devDependencies": {
+      "babel-core": "^6.20.0",
+      "babel-loader": "^6.2.10",
+      "babel-preset-babili": "0.0.9",
+      "babel-preset-env": "^1.1.1",
+      "babel-preset-react": "^6.16.0",
+      "babel-preset-react-hmre": "^1.1.1",
+      "cross-env": "^3.1.3",
+      "css-loader": "^0.26.1",
+      "electron-packager": "^8.4.0",
+      "eslint": "^3.12.2",
+      "node-sass": "^4.0.0",
+      "react-hot-loader": "^1.3.1",
+      "redux-devtools": "^3.3.1",
+      "sass-loader": "^4.1.0",
+      "style-loader": "^0.13.1",
+      "webpack": "^1.14.0",
+      "webpack-dev-server": "^1.16.2"
+    }
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "brianblakely"
+  ],
+  "firstCommit": {
+    "sha": "69c1a80312880289bd1cd7bd5aee9522565f00d5",
+    "commit": {
+      "author": {
+        "name": "Brian Blakely",
+        "email": "anewpage.media@gmail.com",
+        "date": "2016-12-09T07:23:19Z"
+      },
+      "committer": {
+        "name": "Brian Blakely",
+        "email": "anewpage.media@gmail.com",
+        "date": "2016-12-09T07:23:19Z"
+      },
+      "message": "Initial commit",
+      "tree": {
+        "sha": "9d4f24af46590439fc88356a67e041b1525e7168",
+        "url": "https://api.github.com/repos/brianblakely/aice/git/trees/9d4f24af46590439fc88356a67e041b1525e7168"
+      },
+      "url": "https://api.github.com/repos/brianblakely/aice/git/commits/69c1a80312880289bd1cd7bd5aee9522565f00d5",
+      "commentCount": 0
+    }
+  }
+}
