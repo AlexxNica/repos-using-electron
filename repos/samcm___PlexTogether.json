@@ -1,0 +1,123 @@
+{
+  "filename": "samcm___PlexTogether.json",
+  "id": 75458430,
+  "name": "PlexTogether",
+  "fullName": "samcm/PlexTogether",
+  "owner": {
+    "login": "samcm",
+    "id": 8144395,
+    "avatarUrl": "https://avatars.githubusercontent.com/u/8144395?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/samcm",
+    "htmlUrl": "https://github.com/samcm",
+    "followersUrl": "https://api.github.com/users/samcm/followers",
+    "subscriptionsUrl": "https://api.github.com/users/samcm/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/samcm/orgs",
+    "reposUrl": "https://api.github.com/users/samcm/repos",
+    "receivedEventsUrl": "https://api.github.com/users/samcm/received_events",
+    "type": "User"
+  },
+  "private": false,
+  "htmlUrl": "https://github.com/samcm/PlexTogether",
+  "description": "Enjoy Plex with your friends. In Sync. Together.",
+  "fork": false,
+  "url": "https://api.github.com/repos/samcm/PlexTogether",
+  "forksUrl": "https://api.github.com/repos/samcm/PlexTogether/forks",
+  "teamsUrl": "https://api.github.com/repos/samcm/PlexTogether/teams",
+  "hooksUrl": "https://api.github.com/repos/samcm/PlexTogether/hooks",
+  "eventsUrl": "https://api.github.com/repos/samcm/PlexTogether/events",
+  "tagsUrl": "https://api.github.com/repos/samcm/PlexTogether/tags",
+  "languagesUrl": "https://api.github.com/repos/samcm/PlexTogether/languages",
+  "stargazersUrl": "https://api.github.com/repos/samcm/PlexTogether/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/samcm/PlexTogether/contributors",
+  "subscribersUrl": "https://api.github.com/repos/samcm/PlexTogether/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/samcm/PlexTogether/subscription",
+  "mergesUrl": "https://api.github.com/repos/samcm/PlexTogether/merges",
+  "downloadsUrl": "https://api.github.com/repos/samcm/PlexTogether/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/samcm/PlexTogether/deployments",
+  "createdAt": "2016-12-03T07:11:17.000Z",
+  "updatedAt": "2017-01-12T04:10:50.000Z",
+  "pushedAt": "2016-12-20T00:51:53.000Z",
+  "gitUrl": "git://github.com/samcm/PlexTogether.git",
+  "sshUrl": "git@github.com:samcm/PlexTogether.git",
+  "cloneUrl": "https://github.com/samcm/PlexTogether.git",
+  "svnUrl": "https://github.com/samcm/PlexTogether",
+  "homepage": "http://plextogether.com",
+  "size": 1230,
+  "stargazersCount": 99,
+  "watchersCount": 99,
+  "language": "JavaScript",
+  "hasIssues": true,
+  "hasDownloads": true,
+  "hasWiki": true,
+  "hasPages": false,
+  "forksCount": 3,
+  "mirrorUrl": null,
+  "openIssuesCount": 4,
+  "openIssues": 4,
+  "watchers": 99,
+  "defaultBranch": "master",
+  "permissions": {
+    "admin": false,
+    "push": false,
+    "pull": true
+  },
+  "license": null,
+  "networkCount": 3,
+  "subscribersCount": 23,
+  "status": 200,
+  "packageJSON": {
+    "devDependencies": {
+      "electron-builder": "^7.3.0",
+      "electron-installer-squirrel-windows": "^1.3.0",
+      "electron-packager": "^8.0.0",
+      "electron-prebuilt": "^1.3.5"
+    },
+    "scripts": {
+      "start": "electron app/app",
+      "build": "electron-packager . PlexTogether -all -icon=./app/img/PlexTogether.ico",
+      "postinstall": "install-app-deps",
+      "pack": "build --dir",
+      "dist": "build"
+    },
+    "build": {
+      "appId": "PlexTogether",
+      "app-category-type": "Utilities",
+      "win": {
+        "iconUrl": "",
+        "msi": true,
+        "title": "PlexTogether",
+        "authors": "Plex Together"
+      }
+    },
+    "license": "MIT"
+  },
+  "packageStatus": 200,
+  "contributors": [
+    "samcm",
+    "pureMidi",
+    "TheGrimmChester"
+  ],
+  "firstCommit": {
+    "sha": "7c3b16d7e448c9ac06fb02c5c1f74ede7b1ea508",
+    "commit": {
+      "author": {
+        "name": "samcm",
+        "email": "sam_cm_to@hotmail.com",
+        "date": "2016-12-03T07:09:24Z"
+      },
+      "committer": {
+        "name": "samcm",
+        "email": "sam_cm_to@hotmail.com",
+        "date": "2016-12-03T07:09:24Z"
+      },
+      "message": "0.1.0\n\nInitial Commit",
+      "tree": {
+        "sha": "1ad04c1591461eac7505de8177b5d89d303515a9",
+        "url": "https://api.github.com/repos/samcm/PlexTogether/git/trees/1ad04c1591461eac7505de8177b5d89d303515a9"
+      },
+      "url": "https://api.github.com/repos/samcm/PlexTogether/git/commits/7c3b16d7e448c9ac06fb02c5c1f74ede7b1ea508",
+      "commentCount": 0
+    }
+  }
+}
