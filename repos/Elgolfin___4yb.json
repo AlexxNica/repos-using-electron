@@ -182,5 +182,38 @@
       "commentCount": 0
     }
   },
-  "filename": "Elgolfin___4yb.json"
+  "filename": "Elgolfin___4yb.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/Elgolfin/4yb/releases/3741494",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/Elgolfin/4yb/releases/3741494/assets",
+      "htmlUrl": "https://github.com/Elgolfin/4yb/releases/tag/0.2.0",
+      "id": 3741494,
+      "tagName": "0.2.0",
+      "targetCommitish": "master",
+      "name": "v0.2.0",
+      "draft": false,
+      "author": {
+        "login": "Elgolfin",
+        "id": 6693448,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6693448?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/Elgolfin",
+        "htmlUrl": "https://github.com/Elgolfin",
+        "followersUrl": "https://api.github.com/users/Elgolfin/followers",
+        "subscriptionsUrl": "https://api.github.com/users/Elgolfin/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/Elgolfin/orgs",
+        "reposUrl": "https://api.github.com/users/Elgolfin/repos",
+        "receivedEventsUrl": "https://api.github.com/users/Elgolfin/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-07-21T18:44:13.000Z",
+      "publishedAt": "2016-07-26T14:34:15.000Z",
+      "tarballUrl": "https://api.github.com/repos/Elgolfin/4yb/tarball/0.2.0",
+      "zipballUrl": "https://api.github.com/repos/Elgolfin/4yb/zipball/0.2.0",
+      "body": "# MVP\n- Put the foundation in place (forms, transactions (excel-like table?) editor, sqlite and/or mongodb, standalone web server, rest api, etc.)\n- Add/Edit/Delete an account\n- List accounts\n- Add/Edit/Delete a transaction related to an account\n- auto backup the file every n seconds (n will be configurable, n = 10 seconds by default)\n"
+    }
+  ]
 }

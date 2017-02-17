@@ -77,18 +77,11 @@
     "scripts": {
       "start": "electron ./electron-app.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/Espruino/EspruinoWebIDE.git"
-    },
+    "repository": "https://github.com/Espruino/EspruinoWebIDE",
     "keywords": [
       "espruino"
     ],
-    "author": "Gordon Williams <gw@pur3.co.uk> (http://espruino.com)",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/espruino/EspruinoWebIDE/issues"
-    },
     "homepage": "https://github.com/espruino/EspruinoWebIDE#readme",
     "dependencies": {
       "acorn": ">=0.6.0",
@@ -100,7 +93,13 @@
       "esprima": "",
       "serialport": ">=1.2.5"
     },
-    "devDependencies": {}
+    "devDependencies": {},
+    "other": {
+      "author": "Gordon Williams <gw@pur3.co.uk> (http://espruino.com)",
+      "bugs": {
+        "url": "https://github.com/espruino/EspruinoWebIDE/issues"
+      }
+    }
   },
   "packageStatus": 404,
   "htmlUrl": "https://github.com/espruino/EspruinoWebIDE",
@@ -154,5 +153,7 @@
       "url": "https://api.github.com/repos/espruino/EspruinoWebIDE/git/commits/6f7aac1632c1bb2ffbe01cdb46d3799141a549a0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "espruino___EspruinoWebIDE.json",
+  "releases": []
 }

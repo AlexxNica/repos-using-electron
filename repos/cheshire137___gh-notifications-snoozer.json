@@ -126,13 +126,7 @@
     },
     "repository": "https://github.com/cheshire137/gh-notifications-snoozer",
     "license": "MIT",
-    "homepage": "https://github.com/cheshire137/gh-notifications-snoozer#readme",
-    "other": {
-      "author": "probablycorey, cheshire137, summasmiff",
-      "bugs": {
-        "url": "https://github.com/cheshire137/gh-notifications-snoozer/issues"
-      }
-    }
+    "homepage": "https://github.com/cheshire137/gh-notifications-snoozer#readme"
   },
   "packageStatus": 200,
   "contributors": [
@@ -163,5 +157,184 @@
       "commentCount": 0
     }
   },
-  "filename": "cheshire137___gh-notifications-snoozer.json"
+  "filename": "cheshire137___gh-notifications-snoozer.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/cheshire137/gh-notifications-snoozer/releases/5457946",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/cheshire137/gh-notifications-snoozer/releases/assets/3193303",
+          "id": 3193303,
+          "name": "GHSnooze-darwin-x64.3.zip",
+          "label": null,
+          "uploader": {
+            "login": "cheshire137",
+            "id": 82317,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/82317?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/cheshire137",
+            "htmlUrl": "https://github.com/cheshire137",
+            "followersUrl": "https://api.github.com/users/cheshire137/followers",
+            "subscriptionsUrl": "https://api.github.com/users/cheshire137/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/cheshire137/orgs",
+            "reposUrl": "https://api.github.com/users/cheshire137/repos",
+            "receivedEventsUrl": "https://api.github.com/users/cheshire137/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 179610786,
+          "downloadCount": 0,
+          "createdAt": "2017-02-14T22:01:56.000Z",
+          "updatedAt": "2017-02-14T22:03:58.000Z",
+          "browserDownloadUrl": "https://github.com/cheshire137/gh-notifications-snoozer/releases/download/v0.3/GHSnooze-darwin-x64.3.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/cheshire137/gh-notifications-snoozer/releases/5457946/assets",
+      "htmlUrl": "https://github.com/cheshire137/gh-notifications-snoozer/releases/tag/v0.3",
+      "id": 5457946,
+      "tagName": "v0.3",
+      "targetCommitish": "master",
+      "name": "v0.3",
+      "draft": false,
+      "author": {
+        "login": "cheshire137",
+        "id": 82317,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82317?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/cheshire137",
+        "htmlUrl": "https://github.com/cheshire137",
+        "followersUrl": "https://api.github.com/users/cheshire137/followers",
+        "subscriptionsUrl": "https://api.github.com/users/cheshire137/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/cheshire137/orgs",
+        "reposUrl": "https://api.github.com/users/cheshire137/repos",
+        "receivedEventsUrl": "https://api.github.com/users/cheshire137/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2017-02-10T22:47:49.000Z",
+      "publishedAt": "2017-02-14T22:04:09.000Z",
+      "tarballUrl": "https://api.github.com/repos/cheshire137/gh-notifications-snoozer/tarball/v0.3",
+      "zipballUrl": "https://api.github.com/repos/cheshire137/gh-notifications-snoozer/zipball/v0.3",
+      "body": "- Moves the app from the GitHub REST API to the GraphQL preview, meaning you must visit https://github.com/prerelease/agreement and register for the GitHub Pre-Release Program using the account on which you create your [personal access token](https://github.com/settings/tokens/new) for authenticating in the app.\r\n- The `repo` and `user` scopes are now required when you create your [personal access token](https://github.com/settings/tokens/new) for authenticating in the app. Previously, just the `repo` scope was required.\r\n- Fixes a bug where all edit buttons on the Filters screen led to the same filter.\r\n- Fixes a bug that could cause an \"ENOENT: no such file or directory\" error to occur on startup."
+    },
+    {
+      "url": "https://api.github.com/repos/cheshire137/gh-notifications-snoozer/releases/4846983",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/cheshire137/gh-notifications-snoozer/releases/assets/2776121",
+          "id": 2776121,
+          "name": "GHSnooze-darwin-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "cheshire137",
+            "id": 82317,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/82317?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/cheshire137",
+            "htmlUrl": "https://github.com/cheshire137",
+            "followersUrl": "https://api.github.com/users/cheshire137/followers",
+            "subscriptionsUrl": "https://api.github.com/users/cheshire137/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/cheshire137/orgs",
+            "reposUrl": "https://api.github.com/users/cheshire137/repos",
+            "receivedEventsUrl": "https://api.github.com/users/cheshire137/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 179611228,
+          "downloadCount": 1,
+          "createdAt": "2016-12-06T17:44:12.000Z",
+          "updatedAt": "2016-12-06T17:49:46.000Z",
+          "browserDownloadUrl": "https://github.com/cheshire137/gh-notifications-snoozer/releases/download/v0.2/GHSnooze-darwin-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/cheshire137/gh-notifications-snoozer/releases/4846983/assets",
+      "htmlUrl": "https://github.com/cheshire137/gh-notifications-snoozer/releases/tag/v0.2",
+      "id": 4846983,
+      "tagName": "v0.2",
+      "targetCommitish": "master",
+      "name": "v0.2",
+      "draft": false,
+      "author": {
+        "login": "cheshire137",
+        "id": 82317,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82317?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/cheshire137",
+        "htmlUrl": "https://github.com/cheshire137",
+        "followersUrl": "https://api.github.com/users/cheshire137/followers",
+        "subscriptionsUrl": "https://api.github.com/users/cheshire137/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/cheshire137/orgs",
+        "reposUrl": "https://api.github.com/users/cheshire137/repos",
+        "receivedEventsUrl": "https://api.github.com/users/cheshire137/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-12-06T00:16:09.000Z",
+      "publishedAt": "2016-12-06T17:49:46.000Z",
+      "tarballUrl": "https://api.github.com/repos/cheshire137/gh-notifications-snoozer/tarball/v0.2",
+      "zipballUrl": "https://api.github.com/repos/cheshire137/gh-notifications-snoozer/zipball/v0.2",
+      "body": "This release adds keyboard shortcuts:\n- `a` for archive, `s` for snooze, and `i` for ignore.\n- Enter or `o` to open the focused task on GitHub.com in your browser.\n- Up and down arrows to focus tasks, or `k` and `j` like in vim.\n\nThis release also adds:\n- A simplified UI without checkboxes.\n- Task list auto refreshes every minute.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/cheshire137/gh-notifications-snoozer/releases/4723813",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/cheshire137/gh-notifications-snoozer/releases/assets/2692421",
+          "id": 2692421,
+          "name": "GHSnooze-darwin-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "cheshire137",
+            "id": 82317,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/82317?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/cheshire137",
+            "htmlUrl": "https://github.com/cheshire137",
+            "followersUrl": "https://api.github.com/users/cheshire137/followers",
+            "subscriptionsUrl": "https://api.github.com/users/cheshire137/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/cheshire137/orgs",
+            "reposUrl": "https://api.github.com/users/cheshire137/repos",
+            "receivedEventsUrl": "https://api.github.com/users/cheshire137/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 179612162,
+          "downloadCount": 5,
+          "createdAt": "2016-11-21T23:01:53.000Z",
+          "updatedAt": "2016-11-21T23:04:01.000Z",
+          "browserDownloadUrl": "https://github.com/cheshire137/gh-notifications-snoozer/releases/download/v0.1/GHSnooze-darwin-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/cheshire137/gh-notifications-snoozer/releases/4723813/assets",
+      "htmlUrl": "https://github.com/cheshire137/gh-notifications-snoozer/releases/tag/v0.1",
+      "id": 4723813,
+      "tagName": "v0.1",
+      "targetCommitish": "master",
+      "name": "v0.1",
+      "draft": false,
+      "author": {
+        "login": "cheshire137",
+        "id": 82317,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82317?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/cheshire137",
+        "htmlUrl": "https://github.com/cheshire137",
+        "followersUrl": "https://api.github.com/users/cheshire137/followers",
+        "subscriptionsUrl": "https://api.github.com/users/cheshire137/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/cheshire137/orgs",
+        "reposUrl": "https://api.github.com/users/cheshire137/repos",
+        "receivedEventsUrl": "https://api.github.com/users/cheshire137/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-11-21T22:50:22.000Z",
+      "publishedAt": "2016-11-21T23:48:51.000Z",
+      "tarballUrl": "https://api.github.com/repos/cheshire137/gh-notifications-snoozer/tarball/v0.1",
+      "zipballUrl": "https://api.github.com/repos/cheshire137/gh-notifications-snoozer/zipball/v0.1",
+      "body": "This is an early release. Features include:\n- Authentication with GitHub using manually supplied GitHub personal access token.\n- Basic filter creation via the GitHub Search API, including search term autocompletion.\n- Default filters to get you started.\n- Archive, snooze, and ignore issues and pull requests to manage your inbox.\n\nTo install, unzip and copy GHSnooze.app to your Applications directory in macOS.\n"
+    }
+  ]
 }

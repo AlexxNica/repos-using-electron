@@ -82,18 +82,8 @@
       "i18next-language-detector"
     ],
     "license": "MIT",
-    "author": {
-      "name": "Cyril Neruchev",
-      "email": "k.neruchev@gmail.com"
-    },
     "homepage": "https://github.com/neruchev/i18next-electron-language-detector",
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:neruchev/i18next-electron-language-detector.git"
-    },
-    "bugs": {
-      "url": "https://github.com/neruchev/i18next-electron-language-detector/issues"
-    },
+    "repository": "https://github.com/neruchev/i18next-electron-language-detector",
     "main": "build/index.js",
     "scripts": {
       "build": "babel src -d build"
@@ -107,6 +97,15 @@
       "babel-plugin-add-module-exports": "*",
       "babel-preset-es2015": "*",
       "babel-register": "*"
+    },
+    "other": {
+      "author": {
+        "name": "Cyril Neruchev",
+        "email": "k.neruchev@gmail.com"
+      },
+      "bugs": {
+        "url": "https://github.com/neruchev/i18next-electron-language-detector/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -134,5 +133,7 @@
       "url": "https://api.github.com/repos/neruchev/i18next-electron-language-detector/git/commits/fc23bb9cf4e20ebaf62cad2239c4a54f8ff078df",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "neruchev___i18next-electron-language-detector.json",
+  "releases": []
 }

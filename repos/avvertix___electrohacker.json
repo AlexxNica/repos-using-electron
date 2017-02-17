@@ -50,15 +50,7 @@
     "productName": "ElectroHacker",
     "description": "Hacker News Client for testing GitHub Electron",
     "version": "0.3.0",
-    "author": {
-      "name": "Alessio Vertemati",
-      "email": "alessio@avsoft.it",
-      "url": "https://github.com/avvertix"
-    },
-    "repository": {
-      "type": "git",
-      "url": "avvertix/electrohacker"
-    },
+    "repository": "https://github.com/avvertix/electrohacker",
     "license": "MIT",
     "main": "main.js",
     "dependencies": {
@@ -83,7 +75,14 @@
       "build-windows": "electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --ignore='^/less$' --prune --platform=win32 --arch=x64 --version=$npm_package_electronVersion --version-string.ProductName=$npm_package_productName --version-string.ProductVersion=$npm_package_electronVersion  && cd dist/ElectroHacker-win32-x64/ && zip -ryq9 ../ElectroHacker-windows-v\"$npm_package_version\".zip *",
       "build-win-on-win": "electron-packager . %npm_package_productName% --overwrite --out=dist --ignore='^/dist$' --ignore='^/less$' --prune --platform=win32 --arch=x64 --version=%npm_package_electronVersion% --version-string.ProductName=%npm_package_productName% --version-string.ProductVersion=%npm_package_electronVersion% --app-version=%npm_package_electronVersion%"
     },
-    "electronVersion": "1.0.2"
+    "electronVersion": "1.0.2",
+    "other": {
+      "author": {
+        "name": "Alessio Vertemati",
+        "email": "alessio@avsoft.it",
+        "url": "https://github.com/avvertix"
+      }
+    }
   },
   "packageStatus": 404,
   "htmlUrl": "https://github.com/avvertix/electrohacker",
@@ -130,5 +129,152 @@
       "url": "https://api.github.com/repos/avvertix/electrohacker/git/commits/0864bf5fb28097ad4fc41dbbf924f328856b2302",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "avvertix___electrohacker.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/avvertix/electrohacker/releases/2894784",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/avvertix/electrohacker/releases/assets/1476027",
+          "id": 1476027,
+          "name": "ElectroHacker-linux-v0.2.1.zip",
+          "label": "",
+          "uploader": {
+            "login": "avvertix",
+            "id": 5672748,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/5672748?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/avvertix",
+            "htmlUrl": "https://github.com/avvertix",
+            "followersUrl": "https://api.github.com/users/avvertix/followers",
+            "subscriptionsUrl": "https://api.github.com/users/avvertix/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/avvertix/orgs",
+            "reposUrl": "https://api.github.com/users/avvertix/repos",
+            "receivedEventsUrl": "https://api.github.com/users/avvertix/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 38676400,
+          "downloadCount": 0,
+          "createdAt": "2016-03-27T08:14:16.000Z",
+          "updatedAt": "2016-03-27T08:14:17.000Z",
+          "browserDownloadUrl": "https://github.com/avvertix/electrohacker/releases/download/v0.2.1/ElectroHacker-linux-v0.2.1.zip"
+        },
+        {
+          "url": "https://api.github.com/repos/avvertix/electrohacker/releases/assets/1476026",
+          "id": 1476026,
+          "name": "ElectroHacker-osx-v0.2.1.zip",
+          "label": "",
+          "uploader": {
+            "login": "avvertix",
+            "id": 5672748,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/5672748?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/avvertix",
+            "htmlUrl": "https://github.com/avvertix",
+            "followersUrl": "https://api.github.com/users/avvertix/followers",
+            "subscriptionsUrl": "https://api.github.com/users/avvertix/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/avvertix/orgs",
+            "reposUrl": "https://api.github.com/users/avvertix/repos",
+            "receivedEventsUrl": "https://api.github.com/users/avvertix/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 39516136,
+          "downloadCount": 0,
+          "createdAt": "2016-03-27T08:14:14.000Z",
+          "updatedAt": "2016-03-27T08:14:15.000Z",
+          "browserDownloadUrl": "https://github.com/avvertix/electrohacker/releases/download/v0.2.1/ElectroHacker-osx-v0.2.1.zip"
+        },
+        {
+          "url": "https://api.github.com/repos/avvertix/electrohacker/releases/assets/1476028",
+          "id": 1476028,
+          "name": "ElectroHacker-windows-v0.2.1.zip",
+          "label": "",
+          "uploader": {
+            "login": "avvertix",
+            "id": 5672748,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/5672748?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/avvertix",
+            "htmlUrl": "https://github.com/avvertix",
+            "followersUrl": "https://api.github.com/users/avvertix/followers",
+            "subscriptionsUrl": "https://api.github.com/users/avvertix/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/avvertix/orgs",
+            "reposUrl": "https://api.github.com/users/avvertix/repos",
+            "receivedEventsUrl": "https://api.github.com/users/avvertix/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 50842361,
+          "downloadCount": 0,
+          "createdAt": "2016-03-27T08:14:18.000Z",
+          "updatedAt": "2016-03-27T08:14:21.000Z",
+          "browserDownloadUrl": "https://github.com/avvertix/electrohacker/releases/download/v0.2.1/ElectroHacker-windows-v0.2.1.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/avvertix/electrohacker/releases/2894784/assets",
+      "htmlUrl": "https://github.com/avvertix/electrohacker/releases/tag/v0.2.1",
+      "id": 2894784,
+      "tagName": "v0.2.1",
+      "targetCommitish": "master",
+      "name": "First packaged build",
+      "draft": false,
+      "author": {
+        "login": "avvertix",
+        "id": 5672748,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5672748?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/avvertix",
+        "htmlUrl": "https://github.com/avvertix",
+        "followersUrl": "https://api.github.com/users/avvertix/followers",
+        "subscriptionsUrl": "https://api.github.com/users/avvertix/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/avvertix/orgs",
+        "reposUrl": "https://api.github.com/users/avvertix/repos",
+        "receivedEventsUrl": "https://api.github.com/users/avvertix/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-03-27T08:07:28.000Z",
+      "publishedAt": "2016-03-27T08:10:47.000Z",
+      "tarballUrl": "https://api.github.com/repos/avvertix/electrohacker/tarball/v0.2.1",
+      "zipballUrl": "https://api.github.com/repos/avvertix/electrohacker/zipball/v0.2.1",
+      "body": ""
+    },
+    {
+      "url": "https://api.github.com/repos/avvertix/electrohacker/releases/2894773",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/avvertix/electrohacker/releases/2894773/assets",
+      "htmlUrl": "https://github.com/avvertix/electrohacker/releases/tag/v0.2.0",
+      "id": 2894773,
+      "tagName": "v0.2.0",
+      "targetCommitish": "master",
+      "name": "First release with bundled executables",
+      "draft": false,
+      "author": {
+        "login": "avvertix",
+        "id": 5672748,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5672748?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/avvertix",
+        "htmlUrl": "https://github.com/avvertix",
+        "followersUrl": "https://api.github.com/users/avvertix/followers",
+        "subscriptionsUrl": "https://api.github.com/users/avvertix/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/avvertix/orgs",
+        "reposUrl": "https://api.github.com/users/avvertix/repos",
+        "receivedEventsUrl": "https://api.github.com/users/avvertix/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-03-27T08:01:23.000Z",
+      "publishedAt": "2016-03-27T08:04:43.000Z",
+      "tarballUrl": "https://api.github.com/repos/avvertix/electrohacker/tarball/v0.2.0",
+      "zipballUrl": "https://api.github.com/repos/avvertix/electrohacker/zipball/v0.2.0",
+      "body": ""
+    }
+  ]
 }

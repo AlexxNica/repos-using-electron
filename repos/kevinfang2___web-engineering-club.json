@@ -75,7 +75,6 @@
     "name": "pixi.js",
     "version": "4.0.3",
     "description": "Pixi.js is a fast lightweight 2D library that works across all devices.",
-    "author": "Mat Groves",
     "contributors": [
       "Ivan Popelyshev <ivan.popelyshev@gmail.com>",
       "Matt Karl <matt@mattkarl.com>",
@@ -84,12 +83,8 @@
     ],
     "main": "./bin/pixi.min.js",
     "homepage": "http://goodboydigital.com/",
-    "bugs": "https://github.com/pixijs/pixi.js/issues",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/pixijs/pixi.js.git"
-    },
+    "repository": "https://github.com/pixijs/pixi.js",
     "scripts": {
       "clean": "rimraf bin && mkdirp bin",
       "prestart": "npm run clean",
@@ -144,6 +139,10 @@
         "glslify",
         "browserify-versionify"
       ]
+    },
+    "other": {
+      "author": "Mat Groves",
+      "bugs": "https://github.com/pixijs/pixi.js/issues"
     }
   },
   "packageStatus": 200,
@@ -171,5 +170,7 @@
       "url": "https://api.github.com/repos/kevinfang2/web-engineering-club/git/commits/3727dbfad5185dffbe601acfa1b951a6ed497248",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kevinfang2___web-engineering-club.json",
+  "releases": []
 }

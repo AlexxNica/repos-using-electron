@@ -86,10 +86,7 @@
       "test": "./node_modules/jest-cli/bin/jest.js --verbose && ./node_modules/karma/bin/karma start",
       "test-angularjs": "karma start --auto-watch"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/Stephn-R/Electron-Boilerplate.git"
-    },
+    "repository": "https://github.com/Stephn-R/Electron-Boilerplate",
     "keywords": [
       "electron",
       "angular",
@@ -98,11 +95,7 @@
       "applications",
       "web"
     ],
-    "author": "steprodriguez10@gmail.com",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Stephn-R/Electron-Boilerplate/issues"
-    },
     "homepage": "https://github.com/Stephn-R/Electron-Boilerplate",
     "devDependencies": {
       "babel": "6.5.2",
@@ -152,6 +145,12 @@
         "__tests__/app/",
         "/node_modules/"
       ]
+    },
+    "other": {
+      "author": "steprodriguez10@gmail.com",
+      "bugs": {
+        "url": "https://github.com/Stephn-R/Electron-Boilerplate/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -185,5 +184,7 @@
       "url": "https://api.github.com/repos/herbat/expenses/git/commits/b7f2f7acf6ac34927b70963e0769dcf7621f9381",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "herbat___expenses.json",
+  "releases": []
 }

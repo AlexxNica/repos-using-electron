@@ -170,11 +170,6 @@
     "license": "MIT",
     "main": "main.js",
     "repository": "terkelg/ramme",
-    "author": {
-      "name": "Terkel Gjervig",
-      "email": "hello@terkel.com",
-      "url": "terkel.com"
-    },
     "scripts": {
       "start": "electron .",
       "build": "npm run test && npm run build:macos && npm run build:linux && npm run build:windows",
@@ -201,6 +196,13 @@
       "electron-config": "^0.2.1",
       "electron-debug": "^1.0.1",
       "element-ready": "^0.2.0"
+    },
+    "other": {
+      "author": {
+        "name": "Terkel Gjervig",
+        "email": "hello@terkel.com",
+        "url": "terkel.com"
+      }
     }
   },
   "packageStatus": 404,
@@ -234,5 +236,67 @@
       "url": "https://api.github.com/repos/stephenkingsley/ramme/git/commits/b91bd3cf30262676cfb1118f530486bfce3f1eb8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "stephenkingsley___ramme.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/stephenkingsley/ramme/releases/4006764",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/stephenkingsley/ramme/releases/assets/2228342",
+          "id": 2228342,
+          "name": "stephen.k.Instagram-darwin-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "stephenkingsley",
+            "id": 13380370,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/13380370?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/stephenkingsley",
+            "htmlUrl": "https://github.com/stephenkingsley",
+            "followersUrl": "https://api.github.com/users/stephenkingsley/followers",
+            "subscriptionsUrl": "https://api.github.com/users/stephenkingsley/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/stephenkingsley/orgs",
+            "reposUrl": "https://api.github.com/users/stephenkingsley/repos",
+            "receivedEventsUrl": "https://api.github.com/users/stephenkingsley/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 55328098,
+          "downloadCount": 0,
+          "createdAt": "2016-08-30T10:24:40.000Z",
+          "updatedAt": "2016-08-30T10:26:53.000Z",
+          "browserDownloadUrl": "https://github.com/stephenkingsley/ramme/releases/download/2.0.0/stephen.k.Instagram-darwin-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/stephenkingsley/ramme/releases/4006764/assets",
+      "htmlUrl": "https://github.com/stephenkingsley/ramme/releases/tag/2.0.0",
+      "id": 4006764,
+      "tagName": "2.0.0",
+      "targetCommitish": "master",
+      "name": "mac os instagram",
+      "draft": false,
+      "author": {
+        "login": "stephenkingsley",
+        "id": 13380370,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13380370?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/stephenkingsley",
+        "htmlUrl": "https://github.com/stephenkingsley",
+        "followersUrl": "https://api.github.com/users/stephenkingsley/followers",
+        "subscriptionsUrl": "https://api.github.com/users/stephenkingsley/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/stephenkingsley/orgs",
+        "reposUrl": "https://api.github.com/users/stephenkingsley/repos",
+        "receivedEventsUrl": "https://api.github.com/users/stephenkingsley/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-08-26T18:02:45.000Z",
+      "publishedAt": "2016-08-30T10:17:22.000Z",
+      "tarballUrl": "https://api.github.com/repos/stephenkingsley/ramme/tarball/2.0.0",
+      "zipballUrl": "https://api.github.com/repos/stephenkingsley/ramme/zipball/2.0.0",
+      "body": "this is stephen.kingsley version\n"
+    }
+  ]
 }

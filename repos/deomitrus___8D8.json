@@ -82,12 +82,6 @@
       "electron-packager": "^7.0.3",
       "electron-prebuilt": "^1.2.3",
       "stylus": "^0.54.5"
-    },
-    "other": {
-      "author": "Deomitrus",
-      "bugs": {
-        "url": "https://github.com/deomitrus/8D8/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -116,5 +110,66 @@
       "commentCount": 0
     }
   },
-  "filename": "deomitrus___8D8.json"
+  "filename": "deomitrus___8D8.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/deomitrus/8D8/releases/3485617",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/deomitrus/8D8/releases/assets/1877465",
+          "id": 1877465,
+          "name": "8D8-win32-ia32.zip",
+          "label": null,
+          "uploader": {
+            "login": "deomitrus",
+            "id": 2581815,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/2581815?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/deomitrus",
+            "htmlUrl": "https://github.com/deomitrus",
+            "followersUrl": "https://api.github.com/users/deomitrus/followers",
+            "subscriptionsUrl": "https://api.github.com/users/deomitrus/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/deomitrus/orgs",
+            "reposUrl": "https://api.github.com/users/deomitrus/repos",
+            "receivedEventsUrl": "https://api.github.com/users/deomitrus/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 49114234,
+          "downloadCount": 2,
+          "createdAt": "2016-06-21T00:16:58.000Z",
+          "updatedAt": "2016-06-21T00:18:05.000Z",
+          "browserDownloadUrl": "https://github.com/deomitrus/8D8/releases/download/0.0.1-alpha1/8D8-win32-ia32.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/deomitrus/8D8/releases/3485617/assets",
+      "htmlUrl": "https://github.com/deomitrus/8D8/releases/tag/0.0.1-alpha1",
+      "id": 3485617,
+      "tagName": "0.0.1-alpha1",
+      "targetCommitish": "master",
+      "name": "Alpha Windows Release",
+      "draft": false,
+      "author": {
+        "login": "deomitrus",
+        "id": 2581815,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2581815?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/deomitrus",
+        "htmlUrl": "https://github.com/deomitrus",
+        "followersUrl": "https://api.github.com/users/deomitrus/followers",
+        "subscriptionsUrl": "https://api.github.com/users/deomitrus/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/deomitrus/orgs",
+        "reposUrl": "https://api.github.com/users/deomitrus/repos",
+        "receivedEventsUrl": "https://api.github.com/users/deomitrus/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-06-21T00:06:55.000Z",
+      "publishedAt": "2016-06-21T00:19:11.000Z",
+      "tarballUrl": "https://api.github.com/repos/deomitrus/8D8/tarball/0.0.1-alpha1",
+      "zipballUrl": "https://api.github.com/repos/deomitrus/8D8/zipball/0.0.1-alpha1",
+      "body": "Windows doesn't care so much about privileged ports, so we can release this ahead of schedule.\n"
+    }
+  ]
 }

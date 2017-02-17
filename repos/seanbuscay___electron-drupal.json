@@ -101,12 +101,6 @@
       "devtron": "^1.4.0",
       "debug-menu": "^0.4.0",
       "electron-log": "^1.2.2"
-    },
-    "other": {
-      "author": "Sean Buscay",
-      "bugs": {
-        "url": "https://github.com/seanbuscay/electron-drupal/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -135,5 +129,69 @@
       "commentCount": 0
     }
   },
-  "filename": "seanbuscay___electron-drupal.json"
+  "filename": "seanbuscay___electron-drupal.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/seanbuscay/electron-drupal/releases/4659024",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/seanbuscay/electron-drupal/releases/4659024/assets",
+      "htmlUrl": "https://github.com/seanbuscay/electron-drupal/releases/tag/v0.1.1",
+      "id": 4659024,
+      "tagName": "v0.1.1",
+      "targetCommitish": "master",
+      "name": "New commands to cleanup the previous installs.  New PHP error logging.",
+      "draft": false,
+      "author": {
+        "login": "seanbuscay",
+        "id": 830242,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/830242?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/seanbuscay",
+        "htmlUrl": "https://github.com/seanbuscay",
+        "followersUrl": "https://api.github.com/users/seanbuscay/followers",
+        "subscriptionsUrl": "https://api.github.com/users/seanbuscay/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/seanbuscay/orgs",
+        "reposUrl": "https://api.github.com/users/seanbuscay/repos",
+        "receivedEventsUrl": "https://api.github.com/users/seanbuscay/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-11-15T02:48:21.000Z",
+      "publishedAt": "2016-11-15T02:50:40.000Z",
+      "tarballUrl": "https://api.github.com/repos/seanbuscay/electron-drupal/tarball/v0.1.1",
+      "zipballUrl": "https://api.github.com/repos/seanbuscay/electron-drupal/zipball/v0.1.1",
+      "body": "Add two script commands to cleanup the previous install before running `npm install` again:\n- `npm run wipe`\n  - will backup the current Drupal web directory\n  - will remove everything installed by `npm install`\n  - except any backups of the Drupal web directory\n- `npm run wipe-all`\n  - will remove everything installed by `npm install`\n  - including any backups of the Drupal web directory\n\nPHP now logs errors to `logs/electron-php-errors.log`\n\nTurn back on node integration between the browser window and the app. \n\nComment out the web preference settings to lower the browser security level for testing.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/seanbuscay/electron-drupal/releases/4658972",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/seanbuscay/electron-drupal/releases/4658972/assets",
+      "htmlUrl": "https://github.com/seanbuscay/electron-drupal/releases/tag/v0.1.0",
+      "id": 4658972,
+      "tagName": "v0.1.0",
+      "targetCommitish": "master",
+      "name": "Initial Release.",
+      "draft": false,
+      "author": {
+        "login": "seanbuscay",
+        "id": 830242,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/830242?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/seanbuscay",
+        "htmlUrl": "https://github.com/seanbuscay",
+        "followersUrl": "https://api.github.com/users/seanbuscay/followers",
+        "subscriptionsUrl": "https://api.github.com/users/seanbuscay/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/seanbuscay/orgs",
+        "reposUrl": "https://api.github.com/users/seanbuscay/repos",
+        "receivedEventsUrl": "https://api.github.com/users/seanbuscay/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-11-13T19:42:20.000Z",
+      "publishedAt": "2016-11-15T02:38:30.000Z",
+      "tarballUrl": "https://api.github.com/repos/seanbuscay/electron-drupal/tarball/v0.1.0",
+      "zipballUrl": "https://api.github.com/repos/seanbuscay/electron-drupal/zipball/v0.1.0",
+      "body": ""
+    }
+  ]
 }

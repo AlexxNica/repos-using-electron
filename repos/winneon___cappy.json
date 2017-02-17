@@ -111,9 +111,6 @@
       "sass": "node-sass --include-path sass --output-style compressed sass/base.scss app/dist/bundle.css",
       "start": "npm run dev && concurrently --kill-others --raw \"watch 'npm run sass' sass\" \"NODE_ENV=development electron app\"",
       "webpack": "webpack"
-    },
-    "other": {
-      "author": "Jesse Bryan <winneonsword@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -142,5 +139,6 @@
       "commentCount": 0
     }
   },
-  "filename": "winneon___cappy.json"
+  "filename": "winneon___cappy.json",
+  "releases": []
 }

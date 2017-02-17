@@ -143,13 +143,6 @@
           "never"
         ]
       }
-    },
-    "other": {
-      "author": {
-        "name": "Eric Allen",
-        "url": "https://www.interwebalchemy.com/"
-      },
-      "bugs": "https://github.com/dvdagames/simpledoku/issues"
     }
   },
   "packageStatus": 200,
@@ -198,5 +191,66 @@
       "commentCount": 0
     }
   },
-  "filename": "DVDAGames___simpledoku.json"
+  "filename": "DVDAGames___simpledoku.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/DVDAGames/simpledoku/releases/2952196",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/DVDAGames/simpledoku/releases/assets/1510356",
+          "id": 1510356,
+          "name": "Simpledoku-darwin-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "ericrallen",
+            "id": 1667415,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/1667415?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/ericrallen",
+            "htmlUrl": "https://github.com/ericrallen",
+            "followersUrl": "https://api.github.com/users/ericrallen/followers",
+            "subscriptionsUrl": "https://api.github.com/users/ericrallen/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/ericrallen/orgs",
+            "reposUrl": "https://api.github.com/users/ericrallen/repos",
+            "receivedEventsUrl": "https://api.github.com/users/ericrallen/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 48854530,
+          "downloadCount": 0,
+          "createdAt": "2016-04-05T03:39:21.000Z",
+          "updatedAt": "2016-04-05T03:39:39.000Z",
+          "browserDownloadUrl": "https://github.com/DVDAGames/simpledoku/releases/download/0.2.0/Simpledoku-darwin-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/DVDAGames/simpledoku/releases/2952196/assets",
+      "htmlUrl": "https://github.com/DVDAGames/simpledoku/releases/tag/0.2.0",
+      "id": 2952196,
+      "tagName": "0.2.0",
+      "targetCommitish": "master",
+      "name": "Initial Proof of Concept Release",
+      "draft": false,
+      "author": {
+        "login": "ericrallen",
+        "id": 1667415,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1667415?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/ericrallen",
+        "htmlUrl": "https://github.com/ericrallen",
+        "followersUrl": "https://api.github.com/users/ericrallen/followers",
+        "subscriptionsUrl": "https://api.github.com/users/ericrallen/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/ericrallen/orgs",
+        "reposUrl": "https://api.github.com/users/ericrallen/repos",
+        "receivedEventsUrl": "https://api.github.com/users/ericrallen/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-04-05T03:25:37.000Z",
+      "publishedAt": "2016-04-05T03:49:24.000Z",
+      "tarballUrl": "https://api.github.com/repos/DVDAGames/simpledoku/tarball/0.2.0",
+      "zipballUrl": "https://api.github.com/repos/DVDAGames/simpledoku/zipball/0.2.0",
+      "body": "Basic proof of concept for Simpledoku.\n\nThe game functions, despite some limitations in terms of number and variety of puzzles.\n- Start a game by choosing `Play Game` from the menu.\n- Use `WASD` or the `Arrow Keys` to move around the board.\n- `Tab` will move you to the next editable cell on the current row or the first editable cell on the next row and `Shift + Tab` will move you to the previous editable cell in the current row or the last editable cell in the previous row.\n- `Right Clicking` or using the `Space Bar` will toggle between highlight modes. There are four modes:  row (highlights current row), column (highlights current column), cross (hightlights current row and column), and grid (highlights current 3x3 section).\n- Use the `Hint` button to fill in one square\n- Use the `New` button to generate a new puzzle\n- Use the `Check` button to check your solution for accuracy\n- Use the `Give Up` button to forfeit and see the solution\n- Use the `Reset` button to clear the board to the initial puzzle state\n"
+    }
+  ]
 }

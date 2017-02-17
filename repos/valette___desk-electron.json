@@ -73,9 +73,6 @@
       "start": "electron .",
       "buildLinux": " rm -rf desk-linux-x64* && electron-packager ./ --platform=linux --arch=x64",
       "bundleLinux": "tar jcvf desk-linux-x64.tar.bz2 desk-linux-x64"
-    },
-    "other": {
-      "author": "Sebastien Valette <sebastien.valette@creatis.insa-lyon.fr> (http://www.creatis.insa-lyon.fr/~valette)"
     }
   },
   "packageStatus": 200,
@@ -124,5 +121,6 @@
       "commentCount": 0
     }
   },
-  "filename": "valette___desk-electron.json"
+  "filename": "valette___desk-electron.json",
+  "releases": []
 }

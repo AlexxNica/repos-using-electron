@@ -118,12 +118,6 @@
     "devDependencies": {
       "electron-installer-debian": "^0.3.1",
       "electron-packager": "^8.1.0"
-    },
-    "other": {
-      "author": "mschaaf",
-      "bugs": {
-        "url": "https://github.com/Dica-Developer/ttws/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -152,5 +146,125 @@
       "commentCount": 0
     }
   },
-  "filename": "Dica-Developer___ttws.json"
+  "filename": "Dica-Developer___ttws.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/Dica-Developer/ttws/releases/4583524",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/Dica-Developer/ttws/releases/assets/2596892",
+          "id": 2596892,
+          "name": "ttws_1.0.1_amd64.deb",
+          "label": null,
+          "uploader": {
+            "login": "mschaaf",
+            "id": 703355,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/703355?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/mschaaf",
+            "htmlUrl": "https://github.com/mschaaf",
+            "followersUrl": "https://api.github.com/users/mschaaf/followers",
+            "subscriptionsUrl": "https://api.github.com/users/mschaaf/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/mschaaf/orgs",
+            "reposUrl": "https://api.github.com/users/mschaaf/repos",
+            "receivedEventsUrl": "https://api.github.com/users/mschaaf/received_events",
+            "type": "User"
+          },
+          "contentType": "application/vnd.debian.binary-package",
+          "state": "uploaded",
+          "size": 33825520,
+          "downloadCount": 0,
+          "createdAt": "2016-11-06T12:02:11.000Z",
+          "updatedAt": "2016-11-06T12:02:33.000Z",
+          "browserDownloadUrl": "https://github.com/Dica-Developer/ttws/releases/download/1.0.1/ttws_1.0.1_amd64.deb"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/Dica-Developer/ttws/releases/4583524/assets",
+      "htmlUrl": "https://github.com/Dica-Developer/ttws/releases/tag/1.0.1",
+      "id": 4583524,
+      "tagName": "1.0.1",
+      "targetCommitish": "master",
+      "name": "fix deletion of downloaded activities",
+      "draft": false,
+      "author": {
+        "login": "mschaaf",
+        "id": 703355,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/703355?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/mschaaf",
+        "htmlUrl": "https://github.com/mschaaf",
+        "followersUrl": "https://api.github.com/users/mschaaf/followers",
+        "subscriptionsUrl": "https://api.github.com/users/mschaaf/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/mschaaf/orgs",
+        "reposUrl": "https://api.github.com/users/mschaaf/repos",
+        "receivedEventsUrl": "https://api.github.com/users/mschaaf/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-11-06T11:48:07.000Z",
+      "publishedAt": "2016-11-06T11:55:52.000Z",
+      "tarballUrl": "https://api.github.com/repos/Dica-Developer/ttws/tarball/1.0.1",
+      "zipballUrl": "https://api.github.com/repos/Dica-Developer/ttws/zipball/1.0.1",
+      "body": "- handle error case if error is null but stderr is set\n- this happens, e.g. in case there is no net connection and the server can't be reached\n- fix wrong argument for upload stop values[0].name.replace instead of values[0].replace\n- fix wrong argument for unlink call values instead of value\n- fix wrong argument for unlink activity.name instead of activity.path\n- fix wrong deletion of ttbin files instead of tcx files\n- fix package exclude pattern by specifying not parts of names instead how the names start\n- fix typo in release\n"
+    },
+    {
+      "url": "https://api.github.com/repos/Dica-Developer/ttws/releases/4463440",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/Dica-Developer/ttws/releases/assets/2520572",
+          "id": 2520572,
+          "name": "ttws_1.0.0_amd64.deb",
+          "label": null,
+          "uploader": {
+            "login": "mschaaf",
+            "id": 703355,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/703355?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/mschaaf",
+            "htmlUrl": "https://github.com/mschaaf",
+            "followersUrl": "https://api.github.com/users/mschaaf/followers",
+            "subscriptionsUrl": "https://api.github.com/users/mschaaf/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/mschaaf/orgs",
+            "reposUrl": "https://api.github.com/users/mschaaf/repos",
+            "receivedEventsUrl": "https://api.github.com/users/mschaaf/received_events",
+            "type": "User"
+          },
+          "contentType": "application/vnd.debian.binary-package",
+          "state": "uploaded",
+          "size": 33838272,
+          "downloadCount": 0,
+          "createdAt": "2016-10-24T07:16:26.000Z",
+          "updatedAt": "2016-10-24T07:16:55.000Z",
+          "browserDownloadUrl": "https://github.com/Dica-Developer/ttws/releases/download/1.0.0/ttws_1.0.0_amd64.deb"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/Dica-Developer/ttws/releases/4463440/assets",
+      "htmlUrl": "https://github.com/Dica-Developer/ttws/releases/tag/1.0.0",
+      "id": 4463440,
+      "tagName": "1.0.0",
+      "targetCommitish": "master",
+      "name": "Initial release",
+      "draft": false,
+      "author": {
+        "login": "mschaaf",
+        "id": 703355,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/703355?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/mschaaf",
+        "htmlUrl": "https://github.com/mschaaf",
+        "followersUrl": "https://api.github.com/users/mschaaf/followers",
+        "subscriptionsUrl": "https://api.github.com/users/mschaaf/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/mschaaf/orgs",
+        "reposUrl": "https://api.github.com/users/mschaaf/repos",
+        "receivedEventsUrl": "https://api.github.com/users/mschaaf/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-10-24T06:51:28.000Z",
+      "publishedAt": "2016-10-24T07:03:17.000Z",
+      "tarballUrl": "https://api.github.com/repos/Dica-Developer/ttws/tarball/1.0.0",
+      "zipballUrl": "https://api.github.com/repos/Dica-Developer/ttws/zipball/1.0.0",
+      "body": "- update the firmware, GPS quick fix and the time on the watch\n- upload activities to Strava\n- store activities in `~/.ttws`\n"
+    }
+  ]
 }

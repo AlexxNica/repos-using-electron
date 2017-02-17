@@ -79,15 +79,8 @@
     "bin": {
       "electron-packager": "cli.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/zerocode1337/ysp_electron-packager.git"
-    },
-    "author": "max ogden",
+    "repository": "https://github.com/zerocode1337/ysp_electron-packager",
     "license": "BSD-2-Clause",
-    "bugs": {
-      "url": "https://github.com/zerocode1337/ysp_electron-packager/issues"
-    },
     "homepage": "https://github.com/zerocode1337/ysp_electron-packager",
     "dependencies": {
       "asar": "^0.11.0",
@@ -124,9 +117,6 @@
       "pretest": "rimraf test/work",
       "test": "eslint . && nyc --cache tape test"
     },
-    "directories": {
-      "test": "test"
-    },
     "keywords": [],
     "eslintConfig": {
       "extends": "standard",
@@ -137,6 +127,15 @@
         "strict": [
           "error"
         ]
+      }
+    },
+    "other": {
+      "author": "max ogden",
+      "bugs": {
+        "url": "https://github.com/zerocode1337/ysp_electron-packager/issues"
+      },
+      "directories": {
+        "test": "test"
       }
     }
   },
@@ -163,5 +162,7 @@
       "url": "https://api.github.com/repos/zerocode1337/ysp_electron-packager/git/commits/db982354134ced932a734f42a3b4975af9280d05",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zerocode1337___ysp_electron-packager.json",
+  "releases": []
 }

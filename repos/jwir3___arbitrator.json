@@ -163,5 +163,66 @@
       "commentCount": 0
     }
   },
-  "filename": "jwir3___arbitrator.json"
+  "filename": "jwir3___arbitrator.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/jwir3/arbitrator/releases/5157841",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/jwir3/arbitrator/releases/assets/2985603",
+          "id": 2985603,
+          "name": "Arbitrator-2.2.0.dmg",
+          "label": null,
+          "uploader": {
+            "login": "jwir3",
+            "id": 997106,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/997106?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/jwir3",
+            "htmlUrl": "https://github.com/jwir3",
+            "followersUrl": "https://api.github.com/users/jwir3/followers",
+            "subscriptionsUrl": "https://api.github.com/users/jwir3/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/jwir3/orgs",
+            "reposUrl": "https://api.github.com/users/jwir3/repos",
+            "receivedEventsUrl": "https://api.github.com/users/jwir3/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-diskcopy",
+          "state": "uploaded",
+          "size": 41248699,
+          "downloadCount": 0,
+          "createdAt": "2017-01-14T00:07:35.000Z",
+          "updatedAt": "2017-01-14T00:08:08.000Z",
+          "browserDownloadUrl": "https://github.com/jwir3/arbitrator/releases/download/v2.2.0/Arbitrator-2.2.0.dmg"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/jwir3/arbitrator/releases/5157841/assets",
+      "htmlUrl": "https://github.com/jwir3/arbitrator/releases/tag/v2.2.0",
+      "id": 5157841,
+      "tagName": "v2.2.0",
+      "targetCommitish": "master",
+      "name": "Arbitrator v2.2.0",
+      "draft": false,
+      "author": {
+        "login": "jwir3",
+        "id": 997106,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/997106?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/jwir3",
+        "htmlUrl": "https://github.com/jwir3",
+        "followersUrl": "https://api.github.com/users/jwir3/followers",
+        "subscriptionsUrl": "https://api.github.com/users/jwir3/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/jwir3/orgs",
+        "reposUrl": "https://api.github.com/users/jwir3/repos",
+        "receivedEventsUrl": "https://api.github.com/users/jwir3/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2017-01-13T23:40:24.000Z",
+      "publishedAt": "2017-01-14T00:08:18.000Z",
+      "tarballUrl": "https://api.github.com/repos/jwir3/arbitrator/tarball/v2.2.0",
+      "zipballUrl": "https://api.github.com/repos/jwir3/arbitrator/zipball/v2.2.0",
+      "body": "## Features\n- The main schedule input is now cleared after events are successfully added to a Google calendar. (#94)\n- Sport levels are now configurable by the user, per league/organization, from within the new League Profiles view. (#21)\n- Arbitrator \"hash\" identifiers are now only based off of game id and group id, causing Arbitrator to be able to better identify games that are the same as new ones being submitted. (#84)\n- The last calendar to which events were submitted is now saved as the default calendar in the user's profile. (#18)\n- Documentation was added on how to install Arbitrator from a `dmg` file on MacOS. (#96)\n\n## Bug Fixes\n- Fixed an issue where the `macaddress` package couldn't be found on release builds. (#95)\n- Fixed a situation where calendars would not load after navigating away from the main view and then back. (#93)\n- Sub-location editing now preserves the address of the location if it wasn't also edited. (#78)\n- Fixed an issue where duplicate calendar events were sometimes added with a single press of the submit button. (#101)\n- Incorrect strings are no longer added in place of an `ArbitratorHash` in calendar events. (#121)\n"
+    }
+  ]
 }

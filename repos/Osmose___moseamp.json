@@ -117,5 +117,66 @@
       "commentCount": 0
     }
   },
-  "filename": "Osmose___moseamp.json"
+  "filename": "Osmose___moseamp.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/Osmose/moseamp/releases/1469828",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/Osmose/moseamp/releases/assets/672060",
+          "id": 672060,
+          "name": "Moseamp_OSX.zip",
+          "label": null,
+          "uploader": {
+            "login": "Osmose",
+            "id": 193106,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/193106?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/Osmose",
+            "htmlUrl": "https://github.com/Osmose",
+            "followersUrl": "https://api.github.com/users/Osmose/followers",
+            "subscriptionsUrl": "https://api.github.com/users/Osmose/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/Osmose/orgs",
+            "reposUrl": "https://api.github.com/users/Osmose/repos",
+            "receivedEventsUrl": "https://api.github.com/users/Osmose/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 36520995,
+          "downloadCount": 0,
+          "createdAt": "2015-06-28T09:17:48.000Z",
+          "updatedAt": "2015-06-28T09:18:16.000Z",
+          "browserDownloadUrl": "https://github.com/Osmose/moseamp/releases/download/v0.1.0/Moseamp_OSX.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/Osmose/moseamp/releases/1469828/assets",
+      "htmlUrl": "https://github.com/Osmose/moseamp/releases/tag/v0.1.0",
+      "id": 1469828,
+      "tagName": "v0.1.0",
+      "targetCommitish": "master",
+      "name": "Oh hey it plays the musaks",
+      "draft": false,
+      "author": {
+        "login": "Osmose",
+        "id": 193106,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/193106?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/Osmose",
+        "htmlUrl": "https://github.com/Osmose",
+        "followersUrl": "https://api.github.com/users/Osmose/followers",
+        "subscriptionsUrl": "https://api.github.com/users/Osmose/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/Osmose/orgs",
+        "reposUrl": "https://api.github.com/users/Osmose/repos",
+        "receivedEventsUrl": "https://api.github.com/users/Osmose/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2015-06-28T09:15:32.000Z",
+      "publishedAt": "2015-06-28T09:19:17.000Z",
+      "tarballUrl": "https://api.github.com/repos/Osmose/moseamp/tarball/v0.1.0",
+      "zipballUrl": "https://api.github.com/repos/Osmose/moseamp/zipball/v0.1.0",
+      "body": "Moseamp is a cross-platform<sup>1</sup> audio player. It aims to be simple and easily extensible.\n\n<img src=\"https://osmose.github.io/moseamp/moseamp.png\" width=\"256\">\n\nAs this is the first release, current functionality is pretty basic:\n- Plays common audio formats, such as mp3, ogg, and wav files.\n- Allows for pausing and seeking throughout the song.\n- Displays artist and title metadata.\n- Plays several videogame music files via emulation provided by the [Game Music Emu](https://github.com/nevyn/game-music-emu) library:\n  - AY: ZX Spectrum/Amstrad CPC\n  - GBS: Nintendo Game Boy\n  - GYM: Sega Genesis/Mega Drive\n  - HES: NEC TurboGrafx-16/PC Engine\n  - KSS: MSX Home Computer/other Z80 systems (doesn't support FM sound)\n  - NSF/NSFE: Nintendo NES/Famicom (with VRC 6, Namco 106, and FME-7 sound)\n  - SAP: Atari systems using POKEY sound chip\n  - SPC: Super Nintendo/Super Famicom\n  - VGM/VGZ: Sega Master System/Mark III, Sega Genesis/Mega Drive,BBC Micro\n\n<sup>1</sup>Only an OS X build is available right now since I'm just building this on my laptop. Ideally I'll someday have access to Windows/Linux machines to build on as well.\n"
+    }
+  ]
 }

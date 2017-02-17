@@ -109,13 +109,7 @@
       "Electron.js"
     ],
     "license": "ISC",
-    "homepage": "https://github.com/clowdfish/my-patients#readme",
-    "other": {
-      "author": "Sascha Gros",
-      "bugs": {
-        "url": "https://github.com/clowdfish/my-patients/issues"
-      }
-    }
+    "homepage": "https://github.com/clowdfish/my-patients#readme"
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/clowdfish/my-patients",
@@ -163,5 +157,69 @@
       "commentCount": 0
     }
   },
-  "filename": "clowdfish___my-patients.json"
+  "filename": "clowdfish___my-patients.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/clowdfish/my-patients/releases/2621376",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/clowdfish/my-patients/releases/2621376/assets",
+      "htmlUrl": "https://github.com/clowdfish/my-patients/releases/tag/v1.0.1",
+      "id": 2621376,
+      "tagName": "v1.0.1",
+      "targetCommitish": "master",
+      "name": "Bug fixes and UI improvements",
+      "draft": false,
+      "author": {
+        "login": "swapzone",
+        "id": 5637811,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5637811?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/swapzone",
+        "htmlUrl": "https://github.com/swapzone",
+        "followersUrl": "https://api.github.com/users/swapzone/followers",
+        "subscriptionsUrl": "https://api.github.com/users/swapzone/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/swapzone/orgs",
+        "reposUrl": "https://api.github.com/users/swapzone/repos",
+        "receivedEventsUrl": "https://api.github.com/users/swapzone/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-02-16T06:38:57.000Z",
+      "publishedAt": "2016-02-16T06:43:25.000Z",
+      "tarballUrl": "https://api.github.com/repos/clowdfish/my-patients/tarball/v1.0.1",
+      "zipballUrl": "https://api.github.com/repos/clowdfish/my-patients/zipball/v1.0.1",
+      "body": "Release notes:\n- sorting issues on Windows machines fixed\n- ui-router issue with wrong initial state fixed\n- several UI improvements to improve usability\n- ng-cloak tags added to avoid flickering\n"
+    },
+    {
+      "url": "https://api.github.com/repos/clowdfish/my-patients/releases/2424863",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/clowdfish/my-patients/releases/2424863/assets",
+      "htmlUrl": "https://github.com/clowdfish/my-patients/releases/tag/v1.0.0",
+      "id": 2424863,
+      "tagName": "v1.0.0",
+      "targetCommitish": "master",
+      "name": "First production release",
+      "draft": false,
+      "author": {
+        "login": "swapzone",
+        "id": 5637811,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5637811?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/swapzone",
+        "htmlUrl": "https://github.com/swapzone",
+        "followersUrl": "https://api.github.com/users/swapzone/followers",
+        "subscriptionsUrl": "https://api.github.com/users/swapzone/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/swapzone/orgs",
+        "reposUrl": "https://api.github.com/users/swapzone/repos",
+        "receivedEventsUrl": "https://api.github.com/users/swapzone/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-01-14T05:34:46.000Z",
+      "publishedAt": "2016-01-14T05:40:41.000Z",
+      "tarballUrl": "https://api.github.com/repos/clowdfish/my-patients/tarball/v1.0.0",
+      "zipballUrl": "https://api.github.com/repos/clowdfish/my-patients/zipball/v1.0.0",
+      "body": "The first version offering all basic functionality like adding and editing patients, adding treatments and creating invoices. It also offers a simpel backup mechanism and multi-user support. \n"
+    }
+  ]
 }

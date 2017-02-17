@@ -84,10 +84,7 @@
       "start": "npm run build:js && npm run build:css && electron main.js 2>&1 | silence-chromium",
       "package": "npm run release:js && npm run release:css && electron-packager . Radioit --icon=static/app.ico"
     },
-    "dependencies": {},
-    "other": {
-      "author": "exoticknight"
-    }
+    "dependencies": {}
   },
   "packageStatus": 200,
   "contributors": [
@@ -115,5 +112,6 @@
       "commentCount": 0
     }
   },
-  "filename": "exoticknight___electron-startup.json"
+  "filename": "exoticknight___electron-startup.json",
+  "releases": []
 }

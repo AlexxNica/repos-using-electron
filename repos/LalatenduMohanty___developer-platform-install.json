@@ -169,15 +169,8 @@
     "version": "0.0.2",
     "description": "Installer for Red Hat Developer Platform",
     "main": "main/index.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/redhat-developer-tooling/developer-platform-install.git"
-    },
-    "author": "Red Hat Developer Tooling Group",
+    "repository": "https://github.com/redhat-developer-tooling/developer-platform-install",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/redhat-developer-tooling/developer-platform-install/issues"
-    },
     "homepage": "https://github.com/redhat-developer-tooling/developer-platform-install#readme",
     "scripts": {
       "postinstall": "jspm install --yes && cp browser/config.js test/jspm-config.js",
@@ -255,6 +248,12 @@
         "babel-runtime": "npm:babel-runtime@5.8.38",
         "core-js": "npm:core-js@1.2.6"
       }
+    },
+    "other": {
+      "author": "Red Hat Developer Tooling Group",
+      "bugs": {
+        "url": "https://github.com/redhat-developer-tooling/developer-platform-install/issues"
+      }
     }
   },
   "packageStatus": 404,
@@ -292,5 +291,7 @@
       "url": "https://api.github.com/repos/LalatenduMohanty/developer-platform-install/git/commits/a863fa40437cfd91bacdd72f060cd5407966521f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "LalatenduMohanty___developer-platform-install.json",
+  "releases": []
 }

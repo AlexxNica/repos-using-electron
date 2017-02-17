@@ -70,7 +70,6 @@
     "version": "0.3.0",
     "description": "緊急地震速報のプログラム",
     "homepage": "http://lumios.xyz/shake",
-    "author": "Lumios",
     "license": "UNLICENSED",
     "private": true,
     "main": "./src/index.js",
@@ -86,19 +85,19 @@
       "japan",
       "日本"
     ],
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/lumios/shake.git"
-    },
-    "bugs": {
-      "url": "https://github.com/lumios/shake/issues"
-    },
+    "repository": "https://github.com/lumios/shake",
     "scripts": {
       "start": "./src/node_modules/.bin/electron ./src/index.js"
     },
     "devDependencies": {
       "gulp": "^3.9.1",
       "gulp-electron": "^0.1.1"
+    },
+    "other": {
+      "author": "Lumios",
+      "bugs": {
+        "url": "https://github.com/lumios/shake/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -131,5 +130,7 @@
       "url": "https://api.github.com/repos/lumios/shake/git/commits/7c671d43da0a4413a6f5c50eb81c6192b4a75b5a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "lumios___shake.json",
+  "releases": []
 }

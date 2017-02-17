@@ -90,14 +90,7 @@
     "description": "Create a Flatpak package for your Electron app.",
     "version": "0.4.0",
     "license": "MIT",
-    "author": {
-      "name": "Matt Watson",
-      "email": "mattdangerw@gmail.com"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/endlessm/electron-installer-flatpak.git"
-    },
+    "repository": "https://github.com/endlessm/electron-installer-flatpak",
     "keywords": [
       "electron",
       "flatpak"
@@ -135,6 +128,12 @@
       "mocha": "^3.0.0",
       "retry": "^0.10.0",
       "rimraf": "^2.5.1"
+    },
+    "other": {
+      "author": {
+        "name": "Matt Watson",
+        "email": "mattdangerw@gmail.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -166,5 +165,7 @@
       "url": "https://api.github.com/repos/endlessm/electron-installer-flatpak/git/commits/c1fb5a9e56987bc8194b128e304501eee17bef4f",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mattdangerw___electron-installer-flatpak.json",
+  "releases": []
 }

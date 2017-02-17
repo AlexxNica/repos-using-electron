@@ -112,12 +112,6 @@
       "release": "run-p release:*",
       "release:win32": "cross-conf-env electron-packager app --platform win32 --arch x64 --app-version $npm_package_version --asar --icon src/icon.ico --out dist --overwrite",
       "start": "electron app"
-    },
-    "other": {
-      "author": "egy186",
-      "bugs": {
-        "url": "https://github.com/egy186/feedly-vue-electron/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -146,5 +140,6 @@
       "commentCount": 0
     }
   },
-  "filename": "egy186___feedly-vue-electron.json"
+  "filename": "egy186___feedly-vue-electron.json",
+  "releases": []
 }

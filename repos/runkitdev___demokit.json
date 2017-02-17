@@ -90,17 +90,13 @@
     "scripts": {
       "postinstall": "node install.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/runkitdev/demokit"
-    },
+    "repository": "https://github.com/runkitdev/demokit",
     "keywords": [
       "video",
       "demos",
       "tutorials",
       "authoring"
     ],
-    "author": "RunKit",
     "contributors": [
       {
         "name": "Francisco Tolmasky",
@@ -114,11 +110,14 @@
       }
     ],
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/runkitdev/demokit/issues"
-    },
     "homepage": "https://github.com/runkitdev/demokit#readme",
-    "dependencies": {}
+    "dependencies": {},
+    "other": {
+      "author": "RunKit",
+      "bugs": {
+        "url": "https://github.com/runkitdev/demokit/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -145,5 +144,7 @@
       "url": "https://api.github.com/repos/runkitdev/demokit/git/commits/fb0c1beacb331f6a00eb3c2f02ffb9a948d4a812",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "runkitdev___demokit.json",
+  "releases": []
 }

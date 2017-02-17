@@ -64,9 +64,6 @@
       "atom",
       "sqlite3"
     ],
-    "bugs": {
-      "url": "https://github.com/bytheway/electron-sqlite3/issues"
-    },
     "scripts": {
       "start": "electron .",
       "build": "electron-packager . electron-sqlite3 --out=dist --ignore=dist --prune --asar --all --version=0.36.4",
@@ -74,9 +71,14 @@
       "rebuild-sqlite3": "cd node_modules/sqlite3 && npm run prepublish && node-gyp configure --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-darwin-x64 && node-gyp rebuild --target=0.36.4 --arch=x64 --target_platform=darwin --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-darwin-x64",
       "rebuild-sqlite3-win": "cd node_modules/sqlite3 && npm run prepublish && node-gyp configure --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-win32-x64 && node-gyp node-gyp rebuild --target=0.36.0 --arch=x64 --target_platform=win32 --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-win32-x64"
     },
-    "author": "Ben Bytheway",
     "contributors": [],
-    "license": "MIT"
+    "license": "MIT",
+    "other": {
+      "author": "Ben Bytheway",
+      "bugs": {
+        "url": "https://github.com/bytheway/electron-sqlite3/issues"
+      }
+    }
   },
   "packageStatus": 404,
   "contributors": [
@@ -138,5 +140,7 @@
       "url": "https://api.github.com/repos/alvinantonius/inventoped/git/commits/2ba72e027f73930230395c17eb6b8bbdfb785872",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "alvinantonius___inventoped.json",
+  "releases": []
 }

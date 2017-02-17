@@ -72,10 +72,7 @@
       "build:osx": "npm run pack:osx && electron-builder \"build/simulator/osx/Mazda Infotainment Simulator.app\" --platform=osx --out=\"dist/simulator/osx\" --config=builder.json",
       "build:win": "npm run pack:win && electron-builder \"build/simulator/win/Mazda Infotainment Simulator\" --platform=win --out=\"dist/simulator/win\" --config=builder.json"
     },
-    "license": "GPL-3.0",
-    "other": {
-      "author": "Andy (flyandi) <flyandi@yahoo.com>"
-    }
+    "license": "GPL-3.0"
   },
   "packageStatus": 200,
   "contributors": [
@@ -104,5 +101,6 @@
       "commentCount": 0
     }
   },
-  "filename": "flyandi___mazda-custom-application-sdk-simulator.json"
+  "filename": "flyandi___mazda-custom-application-sdk-simulator.json",
+  "releases": []
 }

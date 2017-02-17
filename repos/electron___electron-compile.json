@@ -115,12 +115,6 @@
       "esdoc-plugin-async-to-sync": "^0.5.0",
       "eslint": "^3.3.0",
       "mocha": "^3.0.2"
-    },
-    "other": {
-      "author": "Paul Betts <paul@paulbetts.org>",
-      "bugs": {
-        "url": "https://github.com/paulcbetts/electron-compile/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -163,5 +157,69 @@
       "commentCount": 0
     }
   },
-  "filename": "electron___electron-compile.json"
+  "filename": "electron___electron-compile.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/electron/electron-compile/releases/2366917",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/electron/electron-compile/releases/2366917/assets",
+      "htmlUrl": "https://github.com/electron/electron-compile/releases/tag/2.0.1",
+      "id": 2366917,
+      "tagName": "2.0.1",
+      "targetCommitish": "master",
+      "name": "electron-compile 2.0",
+      "draft": false,
+      "author": {
+        "login": "paulcbetts",
+        "id": 1396,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1396?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/paulcbetts",
+        "htmlUrl": "https://github.com/paulcbetts",
+        "followersUrl": "https://api.github.com/users/paulcbetts/followers",
+        "subscriptionsUrl": "https://api.github.com/users/paulcbetts/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/paulcbetts/orgs",
+        "reposUrl": "https://api.github.com/users/paulcbetts/repos",
+        "receivedEventsUrl": "https://api.github.com/users/paulcbetts/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-01-04T06:08:59.000Z",
+      "publishedAt": "2016-01-04T06:19:32.000Z",
+      "tarballUrl": "https://api.github.com/repos/electron/electron-compile/tarball/2.0.1",
+      "zipballUrl": "https://api.github.com/repos/electron/electron-compile/zipball/2.0.1",
+      "body": "## [What's New](https://github.com/electronjs/electron-compile/compare/1.0.0...2.0.1)\n\n## electron-prebuilt-compile npm module\n\nelectron-compile is now bundled with a version of electron-prebuilt that sets up electron-compile automatically. Learn more at https://github.com/paulcbetts/electron-prebuilt-compile. \n\n## Performance Performance Performance\n\nelectron-compile now reads much less data from disk than it did in 1.0 - in production mode it now should be slightly faster than precompiled files due to GZip compression. The entire compilation infrastructure has also been rewritten to use async methods, which should drastically improve performance when including complex HTML and CSS content. \n\n## Support for HTML precompilers including Jade (#45)\n\nelectron-compile now has the infrastructure to support HTML precompilers such as HAML and Jade, and ships with Jade enabled in-box.\n\n## Simplified Configuration (#47)\n\nelectron-compile 1.x was frustrating to configure in any non-default configuration - we now support a `.compilerc` file which allows developers to configure compiler-specific settings:\n\n``` js\n{\n  \"application/javascript\": {\n    \"presets\": [\"stage-0\", \"es2015\", \"react\"],\n    \"sourceMaps\": \"inline\"\n  },\n  \"text/less\": {\n    \"dumpLineNumbers\": \"comments\"\n  }\n}\n```\n\n## Debuggability\n\nelectron-compile v2.0 now uses the `debug` module, so discovering what happened when things go wrong is now much easier:\n\n``` sh\n## Debug just electron-compile\nDEBUG=electron-compile:* npm start\n\n## Grab everything except for Babel which is very noisy\nDEBUG=*,-babel npm start\n```\n"
+    },
+    {
+      "url": "https://api.github.com/repos/electron/electron-compile/releases/1481837",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/electron/electron-compile/releases/1481837/assets",
+      "htmlUrl": "https://github.com/electron/electron-compile/releases/tag/0.4.0",
+      "id": 1481837,
+      "tagName": "0.4.0",
+      "targetCommitish": "master",
+      "name": "electron-compile 0.4.0",
+      "draft": false,
+      "author": {
+        "login": "paulcbetts",
+        "id": 1396,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1396?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/paulcbetts",
+        "htmlUrl": "https://github.com/paulcbetts",
+        "followersUrl": "https://api.github.com/users/paulcbetts/followers",
+        "subscriptionsUrl": "https://api.github.com/users/paulcbetts/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/paulcbetts/orgs",
+        "reposUrl": "https://api.github.com/users/paulcbetts/repos",
+        "receivedEventsUrl": "https://api.github.com/users/paulcbetts/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2015-07-01T04:44:08.000Z",
+      "publishedAt": "2015-07-01T05:02:31.000Z",
+      "tarballUrl": "https://api.github.com/repos/electron/electron-compile/tarball/0.4.0",
+      "zipballUrl": "https://api.github.com/repos/electron/electron-compile/zipball/0.4.0",
+      "body": "## [What's New](https://github.com/paulcbetts/electron-compile/compare/0.3.0...0.4.0)\n\n### Precompilation (#7)\n\nThis release allows you to pre-build the cache folder ahead of time for every file in your app, via a new `electron-compile` CLI app:\n\n``` sh\nUsage: electron-compile --target [target-path] paths...\n\nOptions:\n  -t, --target   The target directory to write a cache directory to\n  -v, --verbose  Print verbose information\n  -h, --help     Show help\n```\n\nThis release also adds new methods exported to the main object for compiling via code:\n\n``` js\n// Public: Compiles a single file given its path.\n//\n// filePath: The path on disk to the file\n// compilers: (optional) - An {Array} of objects conforming to {CompileCache}\n//                         that will be tried in-order to compile code. You must\n//                         call init() first if this parameter is null.\n//\n// Returns a {String} with the compiled output, or will throw an {Error} \n// representing the compiler errors encountered.\nexport function compile(filePath, compilers=null)\n\n// Public: Recursively compiles an entire directory of files.\n//\n// rootDirectory: The path on disk to the directory of files to compile.\n// compilers: (optional) - An {Array} of objects conforming to {CompileCache}\n//                         that will be tried in-order to compile code.\n//\n// Returns nothing.\nexport function compileAll(rootDirectory, compilers=null)\n\n// Public: Allows you to create new instances of all compilers that are \n// supported by electron-compile and use them directly. Currently supports\n// Babel, CoffeeScript, TypeScript, LESS, and Sass/SCSS.\n//\n// Returns an {Array} of {CompileCache} objects.\nexport function createAllCompilers()\n```\n\n### Bug Fixes\n- Fix a bug where `require` in the renderer process wouldn't get transpiled files.\n- Fix a bug where imports wouldn't resolve in LESS files\n"
+    }
+  ]
 }

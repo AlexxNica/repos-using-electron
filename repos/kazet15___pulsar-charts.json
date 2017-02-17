@@ -61,7 +61,6 @@
       "release-linux": "electron-packager . --platform=linux --arch=all --out=./dist --ignore='.(git|idea|dist)'",
       "release-windows": "electron-packager . --platform=win32 --arch=all --out=./dist --ignore='.(git|idea|dist)'"
     },
-    "author": "kazet",
     "license": "MIT",
     "dependencies": {
       "babel-preset-es2016-node5": "1.1.2",
@@ -76,6 +75,9 @@
     },
     "devDependencies": {
       "electron-packager": "5.2.1"
+    },
+    "other": {
+      "author": "kazet"
     }
   },
   "packageStatus": 404,
@@ -123,5 +125,39 @@
       "url": "https://api.github.com/repos/kazet15/pulsar-charts/git/commits/7b7314f5db837f8f9e3724d24c1a65753fea8f52",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "kazet15___pulsar-charts.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/kazet15/pulsar-charts/releases/2529685",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/kazet15/pulsar-charts/releases/2529685/assets",
+      "htmlUrl": "https://github.com/kazet15/pulsar-charts/releases/tag/1.0.0",
+      "id": 2529685,
+      "tagName": "1.0.0",
+      "targetCommitish": "master",
+      "name": "1.0.0",
+      "draft": false,
+      "author": {
+        "login": "kazet15",
+        "id": 4218904,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4218904?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/kazet15",
+        "htmlUrl": "https://github.com/kazet15",
+        "followersUrl": "https://api.github.com/users/kazet15/followers",
+        "subscriptionsUrl": "https://api.github.com/users/kazet15/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/kazet15/orgs",
+        "reposUrl": "https://api.github.com/users/kazet15/repos",
+        "receivedEventsUrl": "https://api.github.com/users/kazet15/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-02-01T14:21:51.000Z",
+      "publishedAt": "2016-02-01T14:23:06.000Z",
+      "tarballUrl": "https://api.github.com/repos/kazet15/pulsar-charts/tarball/1.0.0",
+      "zipballUrl": "https://api.github.com/repos/kazet15/pulsar-charts/zipball/1.0.0",
+      "body": ""
+    }
+  ]
 }

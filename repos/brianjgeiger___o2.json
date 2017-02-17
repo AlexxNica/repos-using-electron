@@ -77,9 +77,6 @@
       "build-win": "electron-packager . o2 --platform=win32 --arch=all --version=0.34.1 --out=build/Release/ --overwrite --ignore='./build/Release$' ",
       "start": "electron .",
       "test": "./node_modules/.bin/mocha --reporter spec"
-    },
-    "other": {
-      "author": "Center for Open Science"
     }
   },
   "packageStatus": 200,
@@ -129,5 +126,6 @@
       "commentCount": 0
     }
   },
-  "filename": "brianjgeiger___o2.json"
+  "filename": "brianjgeiger___o2.json",
+  "releases": []
 }

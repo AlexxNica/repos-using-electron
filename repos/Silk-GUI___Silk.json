@@ -127,12 +127,6 @@
       "mocha-eslint": "^2.0.2",
       "mocha-lcov-reporter": "*",
       "rewire": "^2.5.1"
-    },
-    "other": {
-      "author": "zodern",
-      "bugs": {
-        "url": "https://github.com/Silk-GUI/Silk/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -183,5 +177,131 @@
       "commentCount": 0
     }
   },
-  "filename": "Silk-GUI___Silk.json"
+  "filename": "Silk-GUI___Silk.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/Silk-GUI/Silk/releases/2948675",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/Silk-GUI/Silk/releases/2948675/assets",
+      "htmlUrl": "https://github.com/Silk-GUI/Silk/releases/tag/0.5.3",
+      "id": 2948675,
+      "tagName": "0.5.3",
+      "targetCommitish": "master",
+      "name": "0.5.3",
+      "draft": false,
+      "author": {
+        "login": "zodern",
+        "id": 8175744,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8175744?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/zodern",
+        "htmlUrl": "https://github.com/zodern",
+        "followersUrl": "https://api.github.com/users/zodern/followers",
+        "subscriptionsUrl": "https://api.github.com/users/zodern/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/zodern/orgs",
+        "reposUrl": "https://api.github.com/users/zodern/repos",
+        "receivedEventsUrl": "https://api.github.com/users/zodern/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-04-02T20:51:27.000Z",
+      "publishedAt": "2016-04-04T17:05:52.000Z",
+      "tarballUrl": "https://api.github.com/repos/Silk-GUI/Silk/tarball/0.5.3",
+      "zipballUrl": "https://api.github.com/repos/Silk-GUI/Silk/zipball/0.5.3",
+      "body": "Core\n- Add command `add-app` to add current dir as external app\n- Add command `remove-app` to remove current dir as external app\n- Move default command into `run` command\n- When `silk` is run with no command, run the `run` command\n- Update notification\n- App id is saved in database\n- Database stores if the install finished for each app\n- Add eslint\n- Fixed restarting apps\n- Fork framework set's app process to app name\n- Setup code climate to use eslint settings\n- App framework uses default logo\n- App framework will use productName in package.json if available\n- Fixed calling server api's from apps using app framework\n- Fixed prepublish script\n- Stretto is now included with Silk when being published\n- Fixed ids for apps using App Framework conflicting with apps using Fork Framework\n\nFile Explorer\n- Opens to home folder instead of the root folder\n\nTask Manager\n- Only list apps that are running\n- Fix restarting apps\n- Fix memory chart scale\n\nbower_static\n- Pull bower routing out of core into module so apps can easily use it\n\nTerminal\n- Update tty.js\n- Use new app framework\n\nApp Manager\n- Use app framework\n\nsilk-electron\n- Works on linux\n"
+    },
+    {
+      "url": "https://api.github.com/repos/Silk-GUI/Silk/releases/823449",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/Silk-GUI/Silk/releases/823449/assets",
+      "htmlUrl": "https://github.com/Silk-GUI/Silk/releases/tag/v.0.3",
+      "id": 823449,
+      "tagName": "v.0.3",
+      "targetCommitish": "master",
+      "name": "Version 0.3",
+      "draft": false,
+      "author": {
+        "login": "zodern",
+        "id": 8175744,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8175744?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/zodern",
+        "htmlUrl": "https://github.com/zodern",
+        "followersUrl": "https://api.github.com/users/zodern/followers",
+        "subscriptionsUrl": "https://api.github.com/users/zodern/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/zodern/orgs",
+        "reposUrl": "https://api.github.com/users/zodern/repos",
+        "receivedEventsUrl": "https://api.github.com/users/zodern/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2015-01-05T00:32:04.000Z",
+      "publishedAt": "2015-01-05T00:33:07.000Z",
+      "tarballUrl": "https://api.github.com/repos/Silk-GUI/Silk/tarball/v.0.3",
+      "zipballUrl": "https://api.github.com/repos/Silk-GUI/Silk/zipball/v.0.3",
+      "body": "Core\n- bin.js only requires server.js.  Everything it did do is moved to server.js\n- remote is moved to it's own file.  It is inside of a domain since it sometimes had uncaught errors.\n- removed unnecessary console.logs or changed to debug()\n- added method restartSingle to app loader to restart running apps.\n- apps don't need zIndex, running or minimized in their window.json.  It is added for them.\n- added Silk global.  It stores various information on parts of the Core so the server api can use it.\n- added server api.  It is available in apps as Silk.api.  It is used similar to methods on client.  It currently has methods to restart and start apps and get a list of installed apps.\n- moved methods global in apps to Silk.methods.  It is backwards compatible for now.\n- ws is now at localhost:3000/websocket instead of on it's own port\n- Silk url is shown in a box\n\nWindow Manager\n- Moved from core to folder `window-manager`\n- Added app menu\n- Improved style of task bar and windows\n- Apps can have multiple windows.  They need to enable it in their window.json\n- added tooltips for apps on taskbar with their title.\n\nRemote\nremote is partially fixed. It now loads icons and apps, but web sockets don't work yet.\n\nApps\n- app defaults\n  - if the settings file doesn't exist, it creates it.\n- added App Manager\n  - installs and removes apps.  It starts an app after installing it.\n- file explorer\n  - creates folders\n  - changed color of logo\n  - supports multiple windows\n- added task manager\n  - restart running apps\n- added terminal.  Uses tty.js. \n- text editor\n  - cmd + s or control + s saves file\n  - correctly handles tab key.\n  - changed color of logo\n  - supports multiple windows\n"
+    },
+    {
+      "url": "https://api.github.com/repos/Silk-GUI/Silk/releases/762826",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/Silk-GUI/Silk/releases/762826/assets",
+      "htmlUrl": "https://github.com/Silk-GUI/Silk/releases/tag/v.0.2",
+      "id": 762826,
+      "tagName": "v.0.2",
+      "targetCommitish": "b472568bb1441dcc16dcab161388f4f0a91a7185",
+      "name": "Version 0.2",
+      "draft": false,
+      "author": {
+        "login": "zodern",
+        "id": 8175744,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8175744?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/zodern",
+        "htmlUrl": "https://github.com/zodern",
+        "followersUrl": "https://api.github.com/users/zodern/followers",
+        "subscriptionsUrl": "https://api.github.com/users/zodern/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/zodern/orgs",
+        "reposUrl": "https://api.github.com/users/zodern/repos",
+        "receivedEventsUrl": "https://api.github.com/users/zodern/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2014-12-04T18:51:36.000Z",
+      "publishedAt": "2014-12-07T23:08:42.000Z",
+      "tarballUrl": "https://api.github.com/repos/Silk-GUI/Silk/tarball/v.0.2",
+      "zipballUrl": "https://api.github.com/repos/Silk-GUI/Silk/zipball/v.0.2",
+      "body": "- Default programs to open files\n- Apps run in their own process @formula1 \n- Improved UI\n- CLI\n- Clock on task bar\n"
+    },
+    {
+      "url": "https://api.github.com/repos/Silk-GUI/Silk/releases/729849",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/Silk-GUI/Silk/releases/729849/assets",
+      "htmlUrl": "https://github.com/Silk-GUI/Silk/releases/tag/v0.1",
+      "id": 729849,
+      "tagName": "v0.1",
+      "targetCommitish": "master",
+      "name": "Version 0.1",
+      "draft": false,
+      "author": {
+        "login": "zodern",
+        "id": 8175744,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8175744?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/zodern",
+        "htmlUrl": "https://github.com/zodern",
+        "followersUrl": "https://api.github.com/users/zodern/followers",
+        "subscriptionsUrl": "https://api.github.com/users/zodern/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/zodern/orgs",
+        "reposUrl": "https://api.github.com/users/zodern/repos",
+        "receivedEventsUrl": "https://api.github.com/users/zodern/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2014-11-24T18:20:40.000Z",
+      "publishedAt": "2014-11-24T18:23:10.000Z",
+      "tarballUrl": "https://api.github.com/repos/Silk-GUI/Silk/tarball/v0.1",
+      "zipballUrl": "https://api.github.com/repos/Silk-GUI/Silk/zipball/v0.1",
+      "body": "- Edit files using the text editor\n- Navigate your folders and files using the file explorer\n"
+    }
+  ]
 }

@@ -100,5 +100,184 @@
       "commentCount": 0
     }
   },
-  "filename": "bojjenclon___CollisionFrames.json"
+  "filename": "bojjenclon___CollisionFrames.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/bojjenclon/CollisionFrames/releases/3162150",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/bojjenclon/CollisionFrames/releases/assets/1642304",
+          "id": 1642304,
+          "name": "x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "bojjenclon",
+            "id": 1127397,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/1127397?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/bojjenclon",
+            "htmlUrl": "https://github.com/bojjenclon",
+            "followersUrl": "https://api.github.com/users/bojjenclon/followers",
+            "subscriptionsUrl": "https://api.github.com/users/bojjenclon/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/bojjenclon/orgs",
+            "reposUrl": "https://api.github.com/users/bojjenclon/repos",
+            "receivedEventsUrl": "https://api.github.com/users/bojjenclon/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-zip-compressed",
+          "state": "uploaded",
+          "size": 52253491,
+          "downloadCount": 0,
+          "createdAt": "2016-05-05T03:08:18.000Z",
+          "updatedAt": "2016-05-05T03:22:05.000Z",
+          "browserDownloadUrl": "https://github.com/bojjenclon/CollisionFrames/releases/download/v0.3-alpha/x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/bojjenclon/CollisionFrames/releases/3162150/assets",
+      "htmlUrl": "https://github.com/bojjenclon/CollisionFrames/releases/tag/v0.3-alpha",
+      "id": 3162150,
+      "tagName": "v0.3-alpha",
+      "targetCommitish": "master",
+      "name": "Updated Collision Frames to version 0.3",
+      "draft": false,
+      "author": {
+        "login": "bojjenclon",
+        "id": 1127397,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1127397?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/bojjenclon",
+        "htmlUrl": "https://github.com/bojjenclon",
+        "followersUrl": "https://api.github.com/users/bojjenclon/followers",
+        "subscriptionsUrl": "https://api.github.com/users/bojjenclon/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/bojjenclon/orgs",
+        "reposUrl": "https://api.github.com/users/bojjenclon/repos",
+        "receivedEventsUrl": "https://api.github.com/users/bojjenclon/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-05-05T03:05:07.000Z",
+      "publishedAt": "2016-05-05T03:22:10.000Z",
+      "tarballUrl": "https://api.github.com/repos/bojjenclon/CollisionFrames/tarball/v0.3-alpha",
+      "zipballUrl": "https://api.github.com/repos/bojjenclon/CollisionFrames/zipball/v0.3-alpha",
+      "body": "This update brings with it:\n- Added ability to load an existing (JSON) project\n- Minor change to the JSON output file (note: this is technically a breaking change, but the fix is simple)\n- Bug fixes\n\n---\n\nHow to fix old JSON outputs:\n1. Delete the first \"[\" character in the file, i.e:\n   \n   ```\n   [\n   ```\n2. Add the following to the beginning of the file:\n   \n   ```\n   {\n     \"frames: [\n   ```\n3. Add a new line to the end of the file followed by:\n   \n   ```\n   }\n   ```\n4. Optional: Indent the previous contents of the file to match the new format\n"
+    },
+    {
+      "url": "https://api.github.com/repos/bojjenclon/CollisionFrames/releases/3161541",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/bojjenclon/CollisionFrames/releases/assets/1641794",
+          "id": 1641794,
+          "name": "x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "bojjenclon",
+            "id": 1127397,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/1127397?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/bojjenclon",
+            "htmlUrl": "https://github.com/bojjenclon",
+            "followersUrl": "https://api.github.com/users/bojjenclon/followers",
+            "subscriptionsUrl": "https://api.github.com/users/bojjenclon/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/bojjenclon/orgs",
+            "reposUrl": "https://api.github.com/users/bojjenclon/repos",
+            "receivedEventsUrl": "https://api.github.com/users/bojjenclon/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-zip-compressed",
+          "state": "uploaded",
+          "size": 56893356,
+          "downloadCount": 0,
+          "createdAt": "2016-05-05T00:11:08.000Z",
+          "updatedAt": "2016-05-05T00:26:48.000Z",
+          "browserDownloadUrl": "https://github.com/bojjenclon/CollisionFrames/releases/download/v0.2-alpha/x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/bojjenclon/CollisionFrames/releases/3161541/assets",
+      "htmlUrl": "https://github.com/bojjenclon/CollisionFrames/releases/tag/v0.2-alpha",
+      "id": 3161541,
+      "tagName": "v0.2-alpha",
+      "targetCommitish": "master",
+      "name": "Updated Collision Frames to version 0.2",
+      "draft": false,
+      "author": {
+        "login": "bojjenclon",
+        "id": 1127397,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1127397?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/bojjenclon",
+        "htmlUrl": "https://github.com/bojjenclon",
+        "followersUrl": "https://api.github.com/users/bojjenclon/followers",
+        "subscriptionsUrl": "https://api.github.com/users/bojjenclon/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/bojjenclon/orgs",
+        "reposUrl": "https://api.github.com/users/bojjenclon/repos",
+        "receivedEventsUrl": "https://api.github.com/users/bojjenclon/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-05-05T00:04:28.000Z",
+      "publishedAt": "2016-05-05T00:10:40.000Z",
+      "tarballUrl": "https://api.github.com/repos/bojjenclon/CollisionFrames/tarball/v0.2-alpha",
+      "zipballUrl": "https://api.github.com/repos/bojjenclon/CollisionFrames/zipball/v0.2-alpha",
+      "body": "This update brings with it:\n- An outline around the current image (to help keep track of its boundaries in the viewport)\n- A \"Center\" button in the View menu for convenience\n- A change of libraries for color pickers\n- Ability to change the origin point of each frame of an animation\n- Horizontal and vertical lines to show the center of the viewport\n- Improved onion skinning, with support for multiple frames of animation and forward/backward skinning\n- Tweaks/improvements to the overall UI\n"
+    },
+    {
+      "url": "https://api.github.com/repos/bojjenclon/CollisionFrames/releases/3022992",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/bojjenclon/CollisionFrames/releases/assets/1551844",
+          "id": 1551844,
+          "name": "CollisionFrames_x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "bojjenclon",
+            "id": 1127397,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/1127397?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/bojjenclon",
+            "htmlUrl": "https://github.com/bojjenclon",
+            "followersUrl": "https://api.github.com/users/bojjenclon/followers",
+            "subscriptionsUrl": "https://api.github.com/users/bojjenclon/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/bojjenclon/orgs",
+            "reposUrl": "https://api.github.com/users/bojjenclon/repos",
+            "receivedEventsUrl": "https://api.github.com/users/bojjenclon/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-zip-compressed",
+          "state": "uploaded",
+          "size": 50273661,
+          "downloadCount": 0,
+          "createdAt": "2016-04-14T20:11:49.000Z",
+          "updatedAt": "2016-04-14T20:13:53.000Z",
+          "browserDownloadUrl": "https://github.com/bojjenclon/CollisionFrames/releases/download/v0.1-alpha/CollisionFrames_x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/bojjenclon/CollisionFrames/releases/3022992/assets",
+      "htmlUrl": "https://github.com/bojjenclon/CollisionFrames/releases/tag/v0.1-alpha",
+      "id": 3022992,
+      "tagName": "v0.1-alpha",
+      "targetCommitish": "master",
+      "name": "Collision Frames Initial Release",
+      "draft": false,
+      "author": {
+        "login": "bojjenclon",
+        "id": 1127397,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1127397?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/bojjenclon",
+        "htmlUrl": "https://github.com/bojjenclon",
+        "followersUrl": "https://api.github.com/users/bojjenclon/followers",
+        "subscriptionsUrl": "https://api.github.com/users/bojjenclon/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/bojjenclon/orgs",
+        "reposUrl": "https://api.github.com/users/bojjenclon/repos",
+        "receivedEventsUrl": "https://api.github.com/users/bojjenclon/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-04-14T20:06:01.000Z",
+      "publishedAt": "2016-04-14T20:13:53.000Z",
+      "tarballUrl": "https://api.github.com/repos/bojjenclon/CollisionFrames/tarball/v0.1-alpha",
+      "zipballUrl": "https://api.github.com/repos/bojjenclon/CollisionFrames/zipball/v0.1-alpha",
+      "body": "Initial release of Collision Frames. Currently only 64 bit Windows is supported.\n"
+    }
+  ]
 }

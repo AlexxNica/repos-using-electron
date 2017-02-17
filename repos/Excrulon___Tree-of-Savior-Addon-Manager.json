@@ -83,12 +83,6 @@
       "mkdirp": "^0.5.1",
       "request-progress": "^2.0.1",
       "semver": "^5.1.0"
-    },
-    "other": {
-      "author": "Excrulon",
-      "bugs": {
-        "url": "https://github.com/Excrulon/Tree-of-Savior-Addon-Manager/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -137,5 +131,211 @@
       "commentCount": 0
     }
   },
-  "filename": "Excrulon___Tree-of-Savior-Addon-Manager.json"
+  "filename": "Excrulon___Tree-of-Savior-Addon-Manager.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/Excrulon/Tree-of-Savior-Addon-Manager/releases/3361874",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/Excrulon/Tree-of-Savior-Addon-Manager/releases/assets/1784267",
+          "id": 1784267,
+          "name": "Tree.of.Savior.Addon.Manager-win32-ia32.7z",
+          "label": null,
+          "uploader": {
+            "login": "Excrulon",
+            "id": 13492602,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/13492602?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/Excrulon",
+            "htmlUrl": "https://github.com/Excrulon",
+            "followersUrl": "https://api.github.com/users/Excrulon/followers",
+            "subscriptionsUrl": "https://api.github.com/users/Excrulon/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/Excrulon/orgs",
+            "reposUrl": "https://api.github.com/users/Excrulon/repos",
+            "receivedEventsUrl": "https://api.github.com/users/Excrulon/received_events",
+            "type": "User"
+          },
+          "contentType": "application/octet-stream",
+          "state": "uploaded",
+          "size": 37761420,
+          "downloadCount": 123312,
+          "createdAt": "2016-06-02T19:39:12.000Z",
+          "updatedAt": "2016-06-02T19:39:39.000Z",
+          "browserDownloadUrl": "https://github.com/Excrulon/Tree-of-Savior-Addon-Manager/releases/download/v0.2.0/Tree.of.Savior.Addon.Manager-win32-ia32.7z"
+        },
+        {
+          "url": "https://api.github.com/repos/Excrulon/Tree-of-Savior-Addon-Manager/releases/assets/1784263",
+          "id": 1784263,
+          "name": "Tree.of.Savior.Addon.Manager-win32-ia32.zip",
+          "label": null,
+          "uploader": {
+            "login": "Excrulon",
+            "id": 13492602,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/13492602?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/Excrulon",
+            "htmlUrl": "https://github.com/Excrulon",
+            "followersUrl": "https://api.github.com/users/Excrulon/followers",
+            "subscriptionsUrl": "https://api.github.com/users/Excrulon/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/Excrulon/orgs",
+            "reposUrl": "https://api.github.com/users/Excrulon/repos",
+            "receivedEventsUrl": "https://api.github.com/users/Excrulon/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-zip-compressed",
+          "state": "uploaded",
+          "size": 59842687,
+          "downloadCount": 328604,
+          "createdAt": "2016-06-02T19:38:12.000Z",
+          "updatedAt": "2016-06-02T19:38:54.000Z",
+          "browserDownloadUrl": "https://github.com/Excrulon/Tree-of-Savior-Addon-Manager/releases/download/v0.2.0/Tree.of.Savior.Addon.Manager-win32-ia32.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/Excrulon/Tree-of-Savior-Addon-Manager/releases/3361874/assets",
+      "htmlUrl": "https://github.com/Excrulon/Tree-of-Savior-Addon-Manager/releases/tag/v0.2.0",
+      "id": 3361874,
+      "tagName": "v0.2.0",
+      "targetCommitish": "master",
+      "name": "v0.2.0",
+      "draft": false,
+      "author": {
+        "login": "Excrulon",
+        "id": 13492602,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13492602?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/Excrulon",
+        "htmlUrl": "https://github.com/Excrulon",
+        "followersUrl": "https://api.github.com/users/Excrulon/followers",
+        "subscriptionsUrl": "https://api.github.com/users/Excrulon/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/Excrulon/orgs",
+        "reposUrl": "https://api.github.com/users/Excrulon/repos",
+        "receivedEventsUrl": "https://api.github.com/users/Excrulon/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-06-02T19:24:52.000Z",
+      "publishedAt": "2016-06-02T19:41:18.000Z",
+      "tarballUrl": "https://api.github.com/repos/Excrulon/Tree-of-Savior-Addon-Manager/tarball/v0.2.0",
+      "zipballUrl": "https://api.github.com/repos/Excrulon/Tree-of-Savior-Addon-Manager/zipball/v0.2.0",
+      "body": "- Removed input box when defining the Tree of Savior directory to make it more fluid.\n- Created a radio group for `All`, `Installed`, and `Uninstalled` addons to filter better.\n- Made into an x86/win32 app.\n- Added icon to the exe.\n- Properly named the process name so it doesn't show up as `Electron` when running.\n\nThere are two different downloads to choose from -- a `zip` and a `7z`. The `7z` version is just a little smaller due to better compression, but some people don't have `7zip`.\n\nPlease read the `Download / Install` and `FAQ` section found [here](https://github.com/Excrulon/Tree-of-Savior-Addon-Manager/blob/master/README.md) before posting any issues. Thanks.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/Excrulon/Tree-of-Savior-Addon-Manager/releases/3352932",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/Excrulon/Tree-of-Savior-Addon-Manager/releases/assets/1778895",
+          "id": 1778895,
+          "name": "Tree.of.Savior.Addon.Manager-win32-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "Excrulon",
+            "id": 13492602,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/13492602?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/Excrulon",
+            "htmlUrl": "https://github.com/Excrulon",
+            "followersUrl": "https://api.github.com/users/Excrulon/followers",
+            "subscriptionsUrl": "https://api.github.com/users/Excrulon/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/Excrulon/orgs",
+            "reposUrl": "https://api.github.com/users/Excrulon/repos",
+            "receivedEventsUrl": "https://api.github.com/users/Excrulon/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-zip-compressed",
+          "state": "uploaded",
+          "size": 69076279,
+          "downloadCount": 5144,
+          "createdAt": "2016-06-01T20:37:40.000Z",
+          "updatedAt": "2016-06-01T20:38:29.000Z",
+          "browserDownloadUrl": "https://github.com/Excrulon/Tree-of-Savior-Addon-Manager/releases/download/v0.1.0/Tree.of.Savior.Addon.Manager-win32-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/Excrulon/Tree-of-Savior-Addon-Manager/releases/3352932/assets",
+      "htmlUrl": "https://github.com/Excrulon/Tree-of-Savior-Addon-Manager/releases/tag/v0.1.0",
+      "id": 3352932,
+      "tagName": "v0.1.0",
+      "targetCommitish": "master",
+      "name": "v0.1.0",
+      "draft": false,
+      "author": {
+        "login": "Excrulon",
+        "id": 13492602,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13492602?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/Excrulon",
+        "htmlUrl": "https://github.com/Excrulon",
+        "followersUrl": "https://api.github.com/users/Excrulon/followers",
+        "subscriptionsUrl": "https://api.github.com/users/Excrulon/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/Excrulon/orgs",
+        "reposUrl": "https://api.github.com/users/Excrulon/repos",
+        "receivedEventsUrl": "https://api.github.com/users/Excrulon/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-06-01T19:45:23.000Z",
+      "publishedAt": "2016-06-01T20:38:34.000Z",
+      "tarballUrl": "https://api.github.com/repos/Excrulon/Tree-of-Savior-Addon-Manager/tarball/v0.1.0",
+      "zipballUrl": "https://api.github.com/repos/Excrulon/Tree-of-Savior-Addon-Manager/zipball/v0.1.0",
+      "body": "If you have previous addons installed, it's best to delete them all and start from scratch using this app. This includes the `addons` folder and all of the previous ipfs. No more loaders needed.\n- Implemented updating addons\n- Added filters for is installed/has update\n- Automatically downloads dependencies\n- Automatically creates a `tos/addons/addonname/` folder so addons have a place to store settings\n- Cleaned up UI a little bit\n"
+    },
+    {
+      "url": "https://api.github.com/repos/Excrulon/Tree-of-Savior-Addon-Manager/releases/3335817",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/Excrulon/Tree-of-Savior-Addon-Manager/releases/assets/1767683",
+          "id": 1767683,
+          "name": "Tree.of.Savior.Addon.Manager-v0.0.1-win32-ia32.zip",
+          "label": null,
+          "uploader": {
+            "login": "Excrulon",
+            "id": 13492602,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/13492602?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/Excrulon",
+            "htmlUrl": "https://github.com/Excrulon",
+            "followersUrl": "https://api.github.com/users/Excrulon/followers",
+            "subscriptionsUrl": "https://api.github.com/users/Excrulon/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/Excrulon/orgs",
+            "reposUrl": "https://api.github.com/users/Excrulon/repos",
+            "receivedEventsUrl": "https://api.github.com/users/Excrulon/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-zip-compressed",
+          "state": "uploaded",
+          "size": 59836225,
+          "downloadCount": 665,
+          "createdAt": "2016-05-30T21:53:10.000Z",
+          "updatedAt": "2016-05-30T21:53:52.000Z",
+          "browserDownloadUrl": "https://github.com/Excrulon/Tree-of-Savior-Addon-Manager/releases/download/v0.0.1/Tree.of.Savior.Addon.Manager-v0.0.1-win32-ia32.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/Excrulon/Tree-of-Savior-Addon-Manager/releases/3335817/assets",
+      "htmlUrl": "https://github.com/Excrulon/Tree-of-Savior-Addon-Manager/releases/tag/v0.0.1",
+      "id": 3335817,
+      "tagName": "v0.0.1",
+      "targetCommitish": "master",
+      "name": "",
+      "draft": false,
+      "author": {
+        "login": "Excrulon",
+        "id": 13492602,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13492602?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/Excrulon",
+        "htmlUrl": "https://github.com/Excrulon",
+        "followersUrl": "https://api.github.com/users/Excrulon/followers",
+        "subscriptionsUrl": "https://api.github.com/users/Excrulon/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/Excrulon/orgs",
+        "reposUrl": "https://api.github.com/users/Excrulon/repos",
+        "receivedEventsUrl": "https://api.github.com/users/Excrulon/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-05-30T21:28:50.000Z",
+      "publishedAt": "2016-05-30T21:54:52.000Z",
+      "tarballUrl": "https://api.github.com/repos/Excrulon/Tree-of-Savior-Addon-Manager/tarball/v0.0.1",
+      "zipballUrl": "https://api.github.com/repos/Excrulon/Tree-of-Savior-Addon-Manager/zipball/v0.0.1",
+      "body": "This is a very very heavy alpha release not meant for use beyond a few people trying it out and testing. Still several things to do including, but not limited to:\n- ~~Make the update button remove the old file and download the update.~~\n- ~~Automatically pull down dependencies.~~\n- ~~Create folder for settings.~~\n- ~~Fix gap below search box.~~\n- ~~Make update button appear on installed tab.~~\n- ~~Remove addon from list after uninstalling it in the installed tab.~~\n- Add different sorts when viewing addons.\n- Click on a tag to show all addons with that tag.\n- Click on addon name to take you to a page that displays the README.md for that addon.\n- ~~Fix installed version not displaying after install.~~\n"
+    }
+  ]
 }

@@ -69,10 +69,7 @@
       "build/components.js",
       "build/components.css"
     ],
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/dashaudio/dash-components.git"
-    },
+    "repository": "https://github.com/dashaudio/dash-components",
     "devDependencies": {
       "babel-core": "^6.10.4",
       "babel-preset-es2015-rollup": "^1.1.1",
@@ -117,8 +114,10 @@
       "build": "gulp build",
       "test": "gulp test"
     },
-    "author": "Dash Product Team",
-    "license": "ISC"
+    "license": "ISC",
+    "other": {
+      "author": "Dash Product Team"
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -145,5 +144,7 @@
       "url": "https://api.github.com/repos/dashaudio/dash-components/git/commits/1763d98a475601698200603734939dd7fa6c76aa",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "dashaudio___dash-components.json",
+  "releases": []
 }

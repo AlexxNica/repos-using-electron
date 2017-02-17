@@ -69,20 +69,12 @@
     "name": "manifoldjs-linux",
     "version": "0.1.3",
     "description": "Manifoldjs Linux Platform",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/sozercan/manifoldjs-linux"
-    },
+    "repository": "https://github.com/sozercan/manifoldjs-linux",
     "engines": {
       "node": ">=6.3.0",
       "npm": ">=3.10.3"
     },
     "engine-strict": true,
-    "author": {
-      "name": "Sertac Ozercan",
-      "email": "sozercan@gmail.com",
-      "url": "http://sertacozercan.com"
-    },
     "license": "MIT",
     "licenses": [
       {
@@ -126,10 +118,17 @@
       "test": "grunt",
       "debug-tests": "mocha test/**/*.js --debug-brk"
     },
-    "bugs": {
-      "url": "https://github.com/sozercan/manifoldjs-linux/issues"
-    },
-    "homepage": "https://github.com/sozercan/manifoldjs-linux"
+    "homepage": "https://github.com/sozercan/manifoldjs-linux",
+    "other": {
+      "author": {
+        "name": "Sertac Ozercan",
+        "email": "sozercan@gmail.com",
+        "url": "http://sertacozercan.com"
+      },
+      "bugs": {
+        "url": "https://github.com/sozercan/manifoldjs-linux/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -156,5 +155,7 @@
       "url": "https://api.github.com/repos/sozercan/manifoldjs-linux/git/commits/1c31499a182c38c51b50f50cdfb3900696d70aa5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sozercan___manifoldjs-linux.json",
+  "releases": []
 }

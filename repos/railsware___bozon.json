@@ -69,10 +69,7 @@
     "name": "bozon",
     "version": "0.6.1",
     "description": "Framework for building Electron applications",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/railsware/bozon.git"
-    },
+    "repository": "https://github.com/railsware/bozon",
     "main": "lib",
     "scripts": {
       "test": "mocha test/lib/bin/*.* --compilers coffee:coffee-script/register && mocha test/lib/building/*.* --compilers coffee:coffee-script/register && mocha test/lib/packaging/*.* --compilers coffee:coffee-script/register && mocha test/lib/scaffolding/*.* --compilers coffee:coffee-script/register && mocha test/lib/testing/*.* --compilers coffee:coffee-script/register && mocha test/lib/utils/*.* --compilers coffee:coffee-script/register"
@@ -84,7 +81,6 @@
       "framework",
       "bozon"
     ],
-    "author": "Railsware, Alex Chaplinsky",
     "license": "MIT",
     "dependencies": {
       "chalk": "^1.1.3",
@@ -119,6 +115,9 @@
       "mocha": "^3.1.2",
       "spectron": "^3.4.0",
       "webpack-stream": "^3.2.0"
+    },
+    "other": {
+      "author": "Railsware, Alex Chaplinsky"
     }
   },
   "packageStatus": 200,
@@ -151,5 +150,132 @@
       "url": "https://api.github.com/repos/railsware/bozon/git/commits/ee923a5bd4b7cfb5fe0ee5ace8ccbc12a307cbae",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "railsware___bozon.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/railsware/bozon/releases/4405049",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/railsware/bozon/releases/4405049/assets",
+      "htmlUrl": "https://github.com/railsware/bozon/releases/tag/v0.6.1",
+      "id": 4405049,
+      "tagName": "v0.6.1",
+      "targetCommitish": "master",
+      "name": "Update to electron 1.4.3 and add basic error handling",
+      "draft": false,
+      "author": {
+        "login": "alchaplinsky",
+        "id": 695947,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/695947?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/alchaplinsky",
+        "htmlUrl": "https://github.com/alchaplinsky",
+        "followersUrl": "https://api.github.com/users/alchaplinsky/followers",
+        "subscriptionsUrl": "https://api.github.com/users/alchaplinsky/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/alchaplinsky/orgs",
+        "reposUrl": "https://api.github.com/users/alchaplinsky/repos",
+        "receivedEventsUrl": "https://api.github.com/users/alchaplinsky/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-10-17T08:22:43.000Z",
+      "publishedAt": "2016-10-17T08:40:43.000Z",
+      "tarballUrl": "https://api.github.com/repos/railsware/bozon/tarball/v0.6.1",
+      "zipballUrl": "https://api.github.com/repos/railsware/bozon/zipball/v0.6.1",
+      "body": ""
+    },
+    {
+      "url": "https://api.github.com/repos/railsware/bozon/releases/4392665",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/railsware/bozon/releases/4392665/assets",
+      "htmlUrl": "https://github.com/railsware/bozon/releases/tag/v0.6.0",
+      "id": 4392665,
+      "tagName": "v0.6.0",
+      "targetCommitish": "master",
+      "name": "Update to electron 1.4.0",
+      "draft": false,
+      "author": {
+        "login": "alchaplinsky",
+        "id": 695947,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/695947?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/alchaplinsky",
+        "htmlUrl": "https://github.com/alchaplinsky",
+        "followersUrl": "https://api.github.com/users/alchaplinsky/followers",
+        "subscriptionsUrl": "https://api.github.com/users/alchaplinsky/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/alchaplinsky/orgs",
+        "reposUrl": "https://api.github.com/users/alchaplinsky/repos",
+        "receivedEventsUrl": "https://api.github.com/users/alchaplinsky/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-10-14T17:12:46.000Z",
+      "publishedAt": "2016-10-14T17:14:16.000Z",
+      "tarballUrl": "https://api.github.com/repos/railsware/bozon/tarball/v0.6.0",
+      "zipballUrl": "https://api.github.com/repos/railsware/bozon/zipball/v0.6.0",
+      "body": ""
+    },
+    {
+      "url": "https://api.github.com/repos/railsware/bozon/releases/4392039",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/railsware/bozon/releases/4392039/assets",
+      "htmlUrl": "https://github.com/railsware/bozon/releases/tag/0.5.6",
+      "id": 4392039,
+      "tagName": "0.5.6",
+      "targetCommitish": "master",
+      "name": "",
+      "draft": false,
+      "author": {
+        "login": "alchaplinsky",
+        "id": 695947,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/695947?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/alchaplinsky",
+        "htmlUrl": "https://github.com/alchaplinsky",
+        "followersUrl": "https://api.github.com/users/alchaplinsky/followers",
+        "subscriptionsUrl": "https://api.github.com/users/alchaplinsky/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/alchaplinsky/orgs",
+        "reposUrl": "https://api.github.com/users/alchaplinsky/repos",
+        "receivedEventsUrl": "https://api.github.com/users/alchaplinsky/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-10-14T15:56:19.000Z",
+      "publishedAt": "2016-10-14T15:57:39.000Z",
+      "tarballUrl": "https://api.github.com/repos/railsware/bozon/tarball/0.5.6",
+      "zipballUrl": "https://api.github.com/repos/railsware/bozon/zipball/0.5.6",
+      "body": ""
+    },
+    {
+      "url": "https://api.github.com/repos/railsware/bozon/releases/3432690",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/railsware/bozon/releases/3432690/assets",
+      "htmlUrl": "https://github.com/railsware/bozon/releases/tag/v0.4.1",
+      "id": 3432690,
+      "tagName": "v0.4.1",
+      "targetCommitish": "master",
+      "name": "",
+      "draft": false,
+      "author": {
+        "login": "alchaplinsky",
+        "id": 695947,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/695947?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/alchaplinsky",
+        "htmlUrl": "https://github.com/alchaplinsky",
+        "followersUrl": "https://api.github.com/users/alchaplinsky/followers",
+        "subscriptionsUrl": "https://api.github.com/users/alchaplinsky/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/alchaplinsky/orgs",
+        "reposUrl": "https://api.github.com/users/alchaplinsky/repos",
+        "receivedEventsUrl": "https://api.github.com/users/alchaplinsky/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-06-13T15:10:20.000Z",
+      "publishedAt": "2016-06-13T15:10:46.000Z",
+      "tarballUrl": "https://api.github.com/repos/railsware/bozon/tarball/v0.4.1",
+      "zipballUrl": "https://api.github.com/repos/railsware/bozon/zipball/v0.4.1",
+      "body": ""
+    }
+  ]
 }

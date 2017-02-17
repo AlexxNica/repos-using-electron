@@ -76,12 +76,6 @@
       "gulp": "^3.9.1",
       "gulp-mocha": "^3.0.1",
       "spectron": "^3.3.0"
-    },
-    "other": {
-      "author": {
-        "name": "Quramy",
-        "email": "yosuke.kurami@gmail.com"
-      }
     }
   },
   "packageStatus": 200,
@@ -119,5 +113,69 @@
       "commentCount": 0
     }
   },
-  "filename": "Quramy___electron-connect.json"
+  "filename": "Quramy___electron-connect.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/Quramy/electron-connect/releases/4148846",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/Quramy/electron-connect/releases/4148846/assets",
+      "htmlUrl": "https://github.com/Quramy/electron-connect/releases/tag/v0.6.0",
+      "id": 4148846,
+      "tagName": "v0.6.0",
+      "targetCommitish": "master",
+      "name": "electron-connect v0.6.0",
+      "draft": false,
+      "author": {
+        "login": "ssreekanth",
+        "id": 1380334,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1380334?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/ssreekanth",
+        "htmlUrl": "https://github.com/ssreekanth",
+        "followersUrl": "https://api.github.com/users/ssreekanth/followers",
+        "subscriptionsUrl": "https://api.github.com/users/ssreekanth/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/ssreekanth/orgs",
+        "reposUrl": "https://api.github.com/users/ssreekanth/repos",
+        "receivedEventsUrl": "https://api.github.com/users/ssreekanth/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-09-16T02:58:52.000Z",
+      "publishedAt": "2016-09-16T03:09:14.000Z",
+      "tarballUrl": "https://api.github.com/repos/Quramy/electron-connect/tarball/v0.6.0",
+      "zipballUrl": "https://api.github.com/repos/Quramy/electron-connect/zipball/v0.6.0",
+      "body": "## Change log\n- add multi-level verbosity to the logging (#59)\n\n## New in v0.6.0\n- `verbose` option is deprecated. Instead, use `logLevel` option. Refer `README.md` for documentation on `logLevel` option.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/Quramy/electron-connect/releases/4148611",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/Quramy/electron-connect/releases/4148611/assets",
+      "htmlUrl": "https://github.com/Quramy/electron-connect/releases/tag/v0.5.0",
+      "id": 4148611,
+      "tagName": "v0.5.0",
+      "targetCommitish": "master",
+      "name": "electron-connect v0.5.0",
+      "draft": false,
+      "author": {
+        "login": "ssreekanth",
+        "id": 1380334,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1380334?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/ssreekanth",
+        "htmlUrl": "https://github.com/ssreekanth",
+        "followersUrl": "https://api.github.com/users/ssreekanth/followers",
+        "subscriptionsUrl": "https://api.github.com/users/ssreekanth/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/ssreekanth/orgs",
+        "reposUrl": "https://api.github.com/users/ssreekanth/repos",
+        "receivedEventsUrl": "https://api.github.com/users/ssreekanth/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-09-01T07:01:27.000Z",
+      "publishedAt": "2016-09-16T02:15:44.000Z",
+      "tarballUrl": "https://api.github.com/repos/Quramy/electron-connect/tarball/v0.5.0",
+      "zipballUrl": "https://api.github.com/repos/Quramy/electron-connect/zipball/v0.5.0",
+      "body": "## Change log\n- Handle `stopOnClose` option. closes #32.\n\n## New in v0.5.0\n\nWhen `stopOnClose` option is enabled in server's `create()`, ProcessManager's `start()`, `restart()` and `stop()` methods will invoke `callback` with an argument that indicates the `state` of the electron process, which could be one of the following string values -\n- `started`\n- `restarting`\n- `restarted`\n- `stopped`\n\nSee [example/stop-on-close](example/stop-on-close), where you can find sample code that uses `stopOnClose` option and `stopped` state to shutdown gulp process gracefully.\n"
+    }
+  ]
 }

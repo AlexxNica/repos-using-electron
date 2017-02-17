@@ -110,12 +110,6 @@
       "react-dom": "^15.3.1",
       "velocity-react": "^1.1.5",
       "walker": "^1.0.7"
-    },
-    "other": {
-      "author": "Jonathan Coleman",
-      "directories": {
-        "output": "bin"
-      }
     }
   },
   "packageStatus": 200,
@@ -144,5 +138,66 @@
       "commentCount": 0
     }
   },
-  "filename": "jondcoleman___file-search-electron.json"
+  "filename": "jondcoleman___file-search-electron.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/jondcoleman/file-search-electron/releases/3990539",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/jondcoleman/file-search-electron/releases/assets/2216561",
+          "id": 2216561,
+          "name": "file-search-win32-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "jondcoleman",
+            "id": 11843663,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/11843663?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/jondcoleman",
+            "htmlUrl": "https://github.com/jondcoleman",
+            "followersUrl": "https://api.github.com/users/jondcoleman/followers",
+            "subscriptionsUrl": "https://api.github.com/users/jondcoleman/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/jondcoleman/orgs",
+            "reposUrl": "https://api.github.com/users/jondcoleman/repos",
+            "receivedEventsUrl": "https://api.github.com/users/jondcoleman/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-zip-compressed",
+          "state": "uploaded",
+          "size": 61717799,
+          "downloadCount": 0,
+          "createdAt": "2016-08-27T19:35:29.000Z",
+          "updatedAt": "2016-08-27T19:37:23.000Z",
+          "browserDownloadUrl": "https://github.com/jondcoleman/file-search-electron/releases/download/0.1.0/file-search-win32-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/jondcoleman/file-search-electron/releases/3990539/assets",
+      "htmlUrl": "https://github.com/jondcoleman/file-search-electron/releases/tag/0.1.0",
+      "id": 3990539,
+      "tagName": "0.1.0",
+      "targetCommitish": "master",
+      "name": "0.1.0",
+      "draft": false,
+      "author": {
+        "login": "jondcoleman",
+        "id": 11843663,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11843663?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/jondcoleman",
+        "htmlUrl": "https://github.com/jondcoleman",
+        "followersUrl": "https://api.github.com/users/jondcoleman/followers",
+        "subscriptionsUrl": "https://api.github.com/users/jondcoleman/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/jondcoleman/orgs",
+        "reposUrl": "https://api.github.com/users/jondcoleman/repos",
+        "receivedEventsUrl": "https://api.github.com/users/jondcoleman/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-08-27T19:32:47.000Z",
+      "publishedAt": "2016-08-27T19:34:47.000Z",
+      "tarballUrl": "https://api.github.com/repos/jondcoleman/file-search-electron/tarball/0.1.0",
+      "zipballUrl": "https://api.github.com/repos/jondcoleman/file-search-electron/zipball/0.1.0",
+      "body": "Windows x64 version only for now.\n\nTo run - extract the zip file on your system then run `file-search.exe`.\n\n---\n\nThis utility was build to index specific directories and search then search for files by file name in the index.\n\nIt was built primarily to address network shares which are difficult to search, particularly over a VPN connection.\n\nBy indexing the files you have a local, quickly-searchable list of the files in the specified directories.\n\nTo get started:\n1. Add the directories you want indexed to the Index Paths.\n2. Add the directories you want to ignore to the Ignore Paths.\n3. Rebuild the Index (you will need to do this at least once and then again if you make changes to the paths to be indexed or to update the index to include new files).\n"
+    }
+  ]
 }

@@ -154,9 +154,6 @@
       "watch:js-renderer": "watchify -v -t babelify src/js/renderer/app.js -o \"exorcist dist/bundle.js.map > ./dist/bundle.js\" -d",
       "watch:lint": "chokidar src/js -c 'npm run -s lint'",
       "watch:server": "node-inspector"
-    },
-    "other": {
-      "author": "ideyuta <ide.yuta@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -185,5 +182,6 @@
       "commentCount": 0
     }
   },
-  "filename": "ideyuta___kao.json"
+  "filename": "ideyuta___kao.json",
+  "releases": []
 }

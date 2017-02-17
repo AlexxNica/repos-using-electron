@@ -268,5 +268,66 @@
     }
   },
   "filename": "J-Sek___marp.json",
-  "sourceRepo": "angelborroy-ks/mdslide"
+  "sourceRepo": "angelborroy-ks/mdslide",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/J-Sek/marp/releases/3914195",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/J-Sek/marp/releases/assets/2164546",
+          "id": 2164546,
+          "name": "0.0.9pre-Marp-win32-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "J-Sek",
+            "id": 20162853,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/20162853?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/J-Sek",
+            "htmlUrl": "https://github.com/J-Sek",
+            "followersUrl": "https://api.github.com/users/J-Sek/followers",
+            "subscriptionsUrl": "https://api.github.com/users/J-Sek/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/J-Sek/orgs",
+            "reposUrl": "https://api.github.com/users/J-Sek/repos",
+            "receivedEventsUrl": "https://api.github.com/users/J-Sek/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-zip-compressed",
+          "state": "uploaded",
+          "size": 58189612,
+          "downloadCount": 19,
+          "createdAt": "2016-08-18T07:29:25.000Z",
+          "updatedAt": "2016-08-18T07:30:42.000Z",
+          "browserDownloadUrl": "https://github.com/J-Sek/marp/releases/download/v0.0.9/0.0.9pre-Marp-win32-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/J-Sek/marp/releases/3914195/assets",
+      "htmlUrl": "https://github.com/J-Sek/marp/releases/tag/v0.0.9",
+      "id": 3914195,
+      "tagName": "v0.0.9",
+      "targetCommitish": "develop",
+      "name": "Fork with tweaks",
+      "draft": false,
+      "author": {
+        "login": "J-Sek",
+        "id": 20162853,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20162853?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/J-Sek",
+        "htmlUrl": "https://github.com/J-Sek",
+        "followersUrl": "https://api.github.com/users/J-Sek/followers",
+        "subscriptionsUrl": "https://api.github.com/users/J-Sek/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/J-Sek/orgs",
+        "reposUrl": "https://api.github.com/users/J-Sek/repos",
+        "receivedEventsUrl": "https://api.github.com/users/J-Sek/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-08-18T07:09:14.000Z",
+      "publishedAt": "2016-08-18T10:32:51.000Z",
+      "tarballUrl": "https://api.github.com/repos/J-Sek/marp/tarball/v0.0.9",
+      "zipballUrl": "https://api.github.com/repos/J-Sek/marp/zipball/v0.0.9",
+      "body": "**New features**:\n- Shortcut for loading most recent file (`Shift`+`Ctrl`+`R`)\n- Menu shortcuts for Bold/Italic/Highlighted\n- Full-preview mode with `Ctrl`+`PgUp`/`PgDown` navigation\n- Possibility to choose editor theme\n\nImprovements:\n- Styles enhancement for Table of Contents (`<!-- *template: toc -->`)\n\nFixes:\n- Fix fonts for windows / linux\n\nDevelopment enhancements:\n- Add task configuration for Visual Studio Code\n- Ignore changes in .vscode and whole .idea directory\n- Disable sourcemaps generation for CoffeeScript\n"
+    }
+  ]
 }

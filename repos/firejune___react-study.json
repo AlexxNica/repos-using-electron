@@ -100,9 +100,6 @@
       "test": "eslint src && jest",
       "build": "eslint src && jest && webpack --config ./scripts/package.js --release",
       "server": "webpack-dev-server --config ./scripts/package.js --colors --inline --port 3000"
-    },
-    "other": {
-      "author": "Joon Kyoung"
     }
   },
   "packageStatus": 200,
@@ -131,5 +128,6 @@
       "commentCount": 0
     }
   },
-  "filename": "firejune___react-study.json"
+  "filename": "firejune___react-study.json",
+  "releases": []
 }

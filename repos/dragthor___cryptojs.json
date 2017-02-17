@@ -90,12 +90,6 @@
     "homepage": "http://metroize.com/cryptojs/",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
-    },
-    "other": {
-      "author": "GitHub",
-      "bugs": {
-        "url": "https://github.com/dragthor/cryptojs/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -124,5 +118,69 @@
       "commentCount": 0
     }
   },
-  "filename": "dragthor___cryptojs.json"
+  "filename": "dragthor___cryptojs.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/dragthor/cryptojs/releases/4750637",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/dragthor/cryptojs/releases/4750637/assets",
+      "htmlUrl": "https://github.com/dragthor/cryptojs/releases/tag/v1.1.1",
+      "id": 4750637,
+      "tagName": "v1.1.1",
+      "targetCommitish": "master",
+      "name": "v1.1.1 Release",
+      "draft": false,
+      "author": {
+        "login": "dragthor",
+        "id": 156634,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/156634?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/dragthor",
+        "htmlUrl": "https://github.com/dragthor",
+        "followersUrl": "https://api.github.com/users/dragthor/followers",
+        "subscriptionsUrl": "https://api.github.com/users/dragthor/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/dragthor/orgs",
+        "reposUrl": "https://api.github.com/users/dragthor/repos",
+        "receivedEventsUrl": "https://api.github.com/users/dragthor/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-11-24T12:11:37.000Z",
+      "publishedAt": "2016-11-24T12:22:04.000Z",
+      "tarballUrl": "https://api.github.com/repos/dragthor/cryptojs/tarball/v1.1.1",
+      "zipballUrl": "https://api.github.com/repos/dragthor/cryptojs/zipball/v1.1.1",
+      "body": "Added command shortcuts for the Encrypt (ctrl + e) and Decrypt (ctrl + d) buttons.\nAdded initial focus to passphrase textbox.\nMoved from electron-prebuild to electron\n"
+    },
+    {
+      "url": "https://api.github.com/repos/dragthor/cryptojs/releases/3875463",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/dragthor/cryptojs/releases/3875463/assets",
+      "htmlUrl": "https://github.com/dragthor/cryptojs/releases/tag/v1.1",
+      "id": 3875463,
+      "tagName": "v1.1",
+      "targetCommitish": "master",
+      "name": "v1.1 Release",
+      "draft": false,
+      "author": {
+        "login": "dragthor",
+        "id": 156634,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/156634?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/dragthor",
+        "htmlUrl": "https://github.com/dragthor",
+        "followersUrl": "https://api.github.com/users/dragthor/followers",
+        "subscriptionsUrl": "https://api.github.com/users/dragthor/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/dragthor/orgs",
+        "reposUrl": "https://api.github.com/users/dragthor/repos",
+        "receivedEventsUrl": "https://api.github.com/users/dragthor/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-08-12T14:25:04.000Z",
+      "publishedAt": "2016-08-12T14:27:25.000Z",
+      "tarballUrl": "https://api.github.com/repos/dragthor/cryptojs/tarball/v1.1",
+      "zipballUrl": "https://api.github.com/repos/dragthor/cryptojs/zipball/v1.1",
+      "body": "Removed clearing the fields after a certain amount of time.  Did not provide enough value.\n\nFixed file saving bug.\n"
+    }
+  ]
 }

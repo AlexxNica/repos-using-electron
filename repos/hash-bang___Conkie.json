@@ -65,11 +65,7 @@
       "conky",
       "stats"
     ],
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/hash-bang/conkie"
-    },
-    "author": "Matt Carter <m@ttcarter.com>",
+    "repository": "https://github.com/hash-bang/conkie",
     "license": "MIT",
     "scripts": {
       "start": "electron --enable-transparent-visuals --disable-gpu app.js",
@@ -87,6 +83,9 @@
       "lodash": "^4.13.1",
       "require-grep": "0.0.0",
       "temp": "^0.8.3"
+    },
+    "other": {
+      "author": "Matt Carter <m@ttcarter.com>"
     }
   },
   "packageStatus": 404,
@@ -114,5 +113,7 @@
       "url": "https://api.github.com/repos/hash-bang/Conkie/git/commits/3f62a3e9ad2974bb8a614089531d12bf07f914e0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "hash-bang___Conkie.json",
+  "releases": []
 }

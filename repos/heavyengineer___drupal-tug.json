@@ -103,12 +103,6 @@
         "babel-runtime": "npm:babel-runtime@^5.1.13",
         "core-js": "npm:core-js@^0.9.4"
       }
-    },
-    "other": {
-      "author": "heavyengineer",
-      "bugs": {
-        "url": "https://github.com/heavyengineer/drupal-tug/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -137,5 +131,131 @@
       "commentCount": 0
     }
   },
-  "filename": "heavyengineer___drupal-tug.json"
+  "filename": "heavyengineer___drupal-tug.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/heavyengineer/drupal-tug/releases/1327686",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/heavyengineer/drupal-tug/releases/1327686/assets",
+      "htmlUrl": "https://github.com/heavyengineer/drupal-tug/releases/tag/0.2.2",
+      "id": 1327686,
+      "tagName": "0.2.2",
+      "targetCommitish": "master",
+      "name": "Check for correct software",
+      "draft": false,
+      "author": {
+        "login": "heavyengineer",
+        "id": 315675,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/315675?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/heavyengineer",
+        "htmlUrl": "https://github.com/heavyengineer",
+        "followersUrl": "https://api.github.com/users/heavyengineer/followers",
+        "subscriptionsUrl": "https://api.github.com/users/heavyengineer/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/heavyengineer/orgs",
+        "reposUrl": "https://api.github.com/users/heavyengineer/repos",
+        "receivedEventsUrl": "https://api.github.com/users/heavyengineer/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2015-05-22T15:02:09.000Z",
+      "publishedAt": "2015-05-22T15:05:26.000Z",
+      "tarballUrl": "https://api.github.com/repos/heavyengineer/drupal-tug/tarball/0.2.2",
+      "zipballUrl": "https://api.github.com/repos/heavyengineer/drupal-tug/zipball/0.2.2",
+      "body": "When testing on a clean install i noticed that it was possible to install the wrong version of vagrant (so like apt-get install vagrant on latest ubuntu gives you a version that doesn't include docker support) and this message would be lost as the screen scrolls past trying to install drupal into a container that hasn't been created. \nSo this is a tiny point release that checks for some software and bins out with nice error messages so you can at least work out whats going wrong. \n"
+    },
+    {
+      "url": "https://api.github.com/repos/heavyengineer/drupal-tug/releases/1315242",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/heavyengineer/drupal-tug/releases/1315242/assets",
+      "htmlUrl": "https://github.com/heavyengineer/drupal-tug/releases/tag/0.2.1",
+      "id": 1315242,
+      "tagName": "0.2.1",
+      "targetCommitish": "master",
+      "name": "hotfix for 0.2 version",
+      "draft": false,
+      "author": {
+        "login": "heavyengineer",
+        "id": 315675,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/315675?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/heavyengineer",
+        "htmlUrl": "https://github.com/heavyengineer",
+        "followersUrl": "https://api.github.com/users/heavyengineer/followers",
+        "subscriptionsUrl": "https://api.github.com/users/heavyengineer/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/heavyengineer/orgs",
+        "reposUrl": "https://api.github.com/users/heavyengineer/repos",
+        "receivedEventsUrl": "https://api.github.com/users/heavyengineer/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2015-05-19T21:29:54.000Z",
+      "publishedAt": "2015-05-19T23:01:41.000Z",
+      "tarballUrl": "https://api.github.com/repos/heavyengineer/drupal-tug/tarball/0.2.1",
+      "zipballUrl": "https://api.github.com/repos/heavyengineer/drupal-tug/zipball/0.2.1",
+      "body": "Somehow I managed to leave an empty directory (src) in the repo and this was causing the build to fail in imaginative ways.  This has now been fixed. \n"
+    },
+    {
+      "url": "https://api.github.com/repos/heavyengineer/drupal-tug/releases/1302233",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/heavyengineer/drupal-tug/releases/1302233/assets",
+      "htmlUrl": "https://github.com/heavyengineer/drupal-tug/releases/tag/0.2",
+      "id": 1302233,
+      "tagName": "0.2",
+      "targetCommitish": "master",
+      "name": "Beta with zero config and faster build",
+      "draft": false,
+      "author": {
+        "login": "heavyengineer",
+        "id": 315675,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/315675?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/heavyengineer",
+        "htmlUrl": "https://github.com/heavyengineer",
+        "followersUrl": "https://api.github.com/users/heavyengineer/followers",
+        "subscriptionsUrl": "https://api.github.com/users/heavyengineer/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/heavyengineer/orgs",
+        "reposUrl": "https://api.github.com/users/heavyengineer/repos",
+        "receivedEventsUrl": "https://api.github.com/users/heavyengineer/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2015-05-15T19:47:40.000Z",
+      "publishedAt": "2015-05-15T19:59:49.000Z",
+      "tarballUrl": "https://api.github.com/repos/heavyengineer/drupal-tug/tarball/0.2",
+      "zipballUrl": "https://api.github.com/repos/heavyengineer/drupal-tug/zipball/0.2",
+      "body": "This build has taken comments from users - mainly Kevin Moll (@kmoll)\n- Just run ./build_env.sh - a blank drupal site will be created - Developer:ENGAGE!\n- make the src directory completely writeable\n- make it like i'm developing a site locally\n- improve build time by using container images instead of building from source - should build in 8 minutes on a 2013 macbook air (8gb ram)\n- Xdebug working by default - just do it!\n- improved readme (@timmillwood)\n\nNext release\n- Optimise PHP\n- Optimise MySQL\n- Gui for configuration!\n"
+    },
+    {
+      "url": "https://api.github.com/repos/heavyengineer/drupal-tug/releases/1126113",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/heavyengineer/drupal-tug/releases/1126113/assets",
+      "htmlUrl": "https://github.com/heavyengineer/drupal-tug/releases/tag/0.1",
+      "id": 1126113,
+      "tagName": "0.1",
+      "targetCommitish": "master",
+      "name": "Beta for public testing",
+      "draft": false,
+      "author": {
+        "login": "heavyengineer",
+        "id": 315675,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/315675?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/heavyengineer",
+        "htmlUrl": "https://github.com/heavyengineer",
+        "followersUrl": "https://api.github.com/users/heavyengineer/followers",
+        "subscriptionsUrl": "https://api.github.com/users/heavyengineer/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/heavyengineer/orgs",
+        "reposUrl": "https://api.github.com/users/heavyengineer/repos",
+        "receivedEventsUrl": "https://api.github.com/users/heavyengineer/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2015-04-04T14:18:20.000Z",
+      "publishedAt": "2015-04-04T16:12:19.000Z",
+      "tarballUrl": "https://api.github.com/repos/heavyengineer/drupal-tug/tarball/0.1",
+      "zipballUrl": "https://api.github.com/repos/heavyengineer/drupal-tug/zipball/0.1",
+      "body": "Should be fully functional but isn't feature complete. \n"
+    }
+  ]
 }

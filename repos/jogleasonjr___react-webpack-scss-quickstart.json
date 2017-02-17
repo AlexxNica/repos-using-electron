@@ -50,17 +50,13 @@
     "version": "0.0.1",
     "description": "A minimal, cross-platform web application with React and Webpack. ES6/ES2015 support using Babel. SCSS support using PostCss.",
     "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/jogleasonjr/react-webpack-scss-quickstart"
-    },
+    "repository": "https://github.com/jogleasonjr/react-webpack-scss-quickstart",
     "scripts": {
       "start": "./node_modules/.bin/webpack-dev-server --port 8182",
       "build": "./node_modules/.bin/webpack -p",
       "deploy": "webpack && cp dist/* \\\\20.20.20.31\\c$\\tfx",
       "test": "jest"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "autoprefixer": "^6.3.3",
@@ -102,6 +98,9 @@
       "redux-form": "^4.2.2",
       "redux-thunk": "^2.0.1",
       "url-loader": "^0.5.7"
+    },
+    "other": {
+      "author": ""
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,7 @@
       "url": "https://api.github.com/repos/jogleasonjr/react-webpack-scss-quickstart/git/commits/1892adbd5b719144ffa926be41cbc1a1bf36f862",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jogleasonjr___react-webpack-scss-quickstart.json",
+  "releases": []
 }

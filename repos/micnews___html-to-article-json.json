@@ -84,15 +84,8 @@
       "open-coverage": "npm run test:coverage && nyc report --reporter=lcov && open coverage/lcov-report/index.html",
       "test:node": "babel-tape-runner test/*-test.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/micnews/html-to-article-json.git"
-    },
-    "author": "mic.com",
+    "repository": "https://github.com/micnews/html-to-article-json",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/micnews/html-to-article-json/issues"
-    },
     "homepage": "https://github.com/micnews/html-to-article-json#readme",
     "devDependencies": {
       "babel-cli": "^6.4.5",
@@ -131,9 +124,15 @@
     "pre-commit": [
       "test:coverage"
     ],
-    "directories": {
-      "example": "example",
-      "test": "test"
+    "other": {
+      "author": "mic.com",
+      "bugs": {
+        "url": "https://github.com/micnews/html-to-article-json/issues"
+      },
+      "directories": {
+        "example": "example",
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -186,5 +185,7 @@
       "url": "https://api.github.com/repos/micnews/html-to-article-json/git/commits/e6efe829af9ee525e395ae94a0c34f8978e2d06b",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "micnews___html-to-article-json.json",
+  "releases": []
 }

@@ -75,10 +75,6 @@
     "name": "proton",
     "description": "electron + photon",
     "version": "0.0.0",
-    "author": "Nate Goldman <nate@ngoldman.me>",
-    "bugs": {
-      "url": "https://github.com/ngoldman/proton/issues"
-    },
     "devDependencies": {
       "electron-prebuilt": "^0.34.0",
       "standard": "^5.3.1",
@@ -97,13 +93,16 @@
     "license": "ISC",
     "main": "src/index.js",
     "private": true,
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/ngoldman/proton.git"
-    },
+    "repository": "https://github.com/ngoldman/proton",
     "scripts": {
       "start": "electron src",
       "test": "standard && tape test/*.js | tap-spec"
+    },
+    "other": {
+      "author": "Nate Goldman <nate@ngoldman.me>",
+      "bugs": {
+        "url": "https://github.com/ngoldman/proton/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -131,5 +130,7 @@
       "url": "https://api.github.com/repos/ungoldman/proton/git/commits/312478be1b6c342f439deaf4ac0a7d74c260ed00",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "ungoldman___proton.json",
+  "releases": []
 }

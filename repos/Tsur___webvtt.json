@@ -95,10 +95,7 @@
       "build:web": "npm run build-css && npm run build-js",
       "package": "electron-packager ./ $npm_package_productName-$npm_package_version --platform=linux --arch=x64 --version=1.2.7 --ignore='node_modules/(electron-packager|electron-prebuilt|electron-debug|babelify|browserify|browserify-incremental|cssnext|exorcist|beefy|http-server|postcss-cli|postcss-nested|semantic-ui-css|silence-chromium|browser-request|express|body-parser)'"
     },
-    "config": {},
-    "other": {
-      "bugs": "https://github.com/tsur/subcss/issues"
-    }
+    "config": {}
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/Tsur/webvtt",
@@ -146,5 +143,6 @@
       "commentCount": 0
     }
   },
-  "filename": "Tsur___webvtt.json"
+  "filename": "Tsur___webvtt.json",
+  "releases": []
 }

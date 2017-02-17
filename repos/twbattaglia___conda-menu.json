@@ -126,12 +126,6 @@
       "build:windows": "electron-packager . Conda-menu --platform win32 --arch=ia32 --out build --version=1.4.3 --icon=build/Icon.ico --overwrite --app-bundle-id=com.twbattaglia.conda-menu",
       "compress": "bash build/compress.sh",
       "build": "npm run clean && npm run build:macos && npm run build:windows && npm run compress"
-    },
-    "other": {
-      "author": "Thomas W. Battaglia <tombattagl@gmail.com>",
-      "bugs": {
-        "url": "https://github.com/twbattaglia/conda-menu/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -160,5 +154,329 @@
       "commentCount": 0
     }
   },
-  "filename": "twbattaglia___conda-menu.json"
+  "filename": "twbattaglia___conda-menu.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/twbattaglia/conda-menu/releases/4462808",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/twbattaglia/conda-menu/releases/assets/2520054",
+          "id": 2520054,
+          "name": "conda-menu-mac.zip",
+          "label": null,
+          "uploader": {
+            "login": "twbattaglia",
+            "id": 6052690,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/6052690?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/twbattaglia",
+            "htmlUrl": "https://github.com/twbattaglia",
+            "followersUrl": "https://api.github.com/users/twbattaglia/followers",
+            "subscriptionsUrl": "https://api.github.com/users/twbattaglia/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/twbattaglia/orgs",
+            "reposUrl": "https://api.github.com/users/twbattaglia/repos",
+            "receivedEventsUrl": "https://api.github.com/users/twbattaglia/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 42955440,
+          "downloadCount": 3,
+          "createdAt": "2016-10-24T04:23:12.000Z",
+          "updatedAt": "2016-10-24T04:24:11.000Z",
+          "browserDownloadUrl": "https://github.com/twbattaglia/conda-menu/releases/download/v0.2.3/conda-menu-mac.zip"
+        },
+        {
+          "url": "https://api.github.com/repos/twbattaglia/conda-menu/releases/assets/2520057",
+          "id": 2520057,
+          "name": "conda-menu-win32.zip",
+          "label": null,
+          "uploader": {
+            "login": "twbattaglia",
+            "id": 6052690,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/6052690?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/twbattaglia",
+            "htmlUrl": "https://github.com/twbattaglia",
+            "followersUrl": "https://api.github.com/users/twbattaglia/followers",
+            "subscriptionsUrl": "https://api.github.com/users/twbattaglia/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/twbattaglia/orgs",
+            "reposUrl": "https://api.github.com/users/twbattaglia/repos",
+            "receivedEventsUrl": "https://api.github.com/users/twbattaglia/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 45947283,
+          "downloadCount": 1,
+          "createdAt": "2016-10-24T04:24:34.000Z",
+          "updatedAt": "2016-10-24T04:25:37.000Z",
+          "browserDownloadUrl": "https://github.com/twbattaglia/conda-menu/releases/download/v0.2.3/conda-menu-win32.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/twbattaglia/conda-menu/releases/4462808/assets",
+      "htmlUrl": "https://github.com/twbattaglia/conda-menu/releases/tag/v0.2.3",
+      "id": 4462808,
+      "tagName": "v0.2.3",
+      "targetCommitish": "master",
+      "name": " ",
+      "draft": false,
+      "author": {
+        "login": "twbattaglia",
+        "id": 6052690,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6052690?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/twbattaglia",
+        "htmlUrl": "https://github.com/twbattaglia",
+        "followersUrl": "https://api.github.com/users/twbattaglia/followers",
+        "subscriptionsUrl": "https://api.github.com/users/twbattaglia/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/twbattaglia/orgs",
+        "reposUrl": "https://api.github.com/users/twbattaglia/repos",
+        "receivedEventsUrl": "https://api.github.com/users/twbattaglia/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-10-24T04:22:54.000Z",
+      "publishedAt": "2016-10-24T04:25:47.000Z",
+      "tarballUrl": "https://api.github.com/repos/twbattaglia/conda-menu/tarball/v0.2.3",
+      "zipballUrl": "https://api.github.com/repos/twbattaglia/conda-menu/zipball/v0.2.3",
+      "body": "Added Windows support\nUpdate App icon\n\nSee changelog for more information.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/twbattaglia/conda-menu/releases/4457911",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/twbattaglia/conda-menu/releases/assets/2515447",
+          "id": 2515447,
+          "name": "conda-menu-mac.zip",
+          "label": null,
+          "uploader": {
+            "login": "twbattaglia",
+            "id": 6052690,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/6052690?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/twbattaglia",
+            "htmlUrl": "https://github.com/twbattaglia",
+            "followersUrl": "https://api.github.com/users/twbattaglia/followers",
+            "subscriptionsUrl": "https://api.github.com/users/twbattaglia/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/twbattaglia/orgs",
+            "reposUrl": "https://api.github.com/users/twbattaglia/repos",
+            "receivedEventsUrl": "https://api.github.com/users/twbattaglia/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 42596213,
+          "downloadCount": 1,
+          "createdAt": "2016-10-22T17:31:36.000Z",
+          "updatedAt": "2016-10-22T17:37:18.000Z",
+          "browserDownloadUrl": "https://github.com/twbattaglia/conda-menu/releases/download/v0.2.2/conda-menu-mac.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/twbattaglia/conda-menu/releases/4457911/assets",
+      "htmlUrl": "https://github.com/twbattaglia/conda-menu/releases/tag/v0.2.2",
+      "id": 4457911,
+      "tagName": "v0.2.2",
+      "targetCommitish": "master",
+      "name": " ",
+      "draft": false,
+      "author": {
+        "login": "twbattaglia",
+        "id": 6052690,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6052690?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/twbattaglia",
+        "htmlUrl": "https://github.com/twbattaglia",
+        "followersUrl": "https://api.github.com/users/twbattaglia/followers",
+        "subscriptionsUrl": "https://api.github.com/users/twbattaglia/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/twbattaglia/orgs",
+        "reposUrl": "https://api.github.com/users/twbattaglia/repos",
+        "receivedEventsUrl": "https://api.github.com/users/twbattaglia/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-10-22T17:31:15.000Z",
+      "publishedAt": "2016-10-22T17:37:43.000Z",
+      "tarballUrl": "https://api.github.com/repos/twbattaglia/conda-menu/tarball/v0.2.2",
+      "zipballUrl": "https://api.github.com/repos/twbattaglia/conda-menu/zipball/v0.2.2",
+      "body": "See changelog.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/twbattaglia/conda-menu/releases/4425591",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/twbattaglia/conda-menu/releases/assets/2496354",
+          "id": 2496354,
+          "name": "conda-menu-mac.zip",
+          "label": null,
+          "uploader": {
+            "login": "twbattaglia",
+            "id": 6052690,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/6052690?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/twbattaglia",
+            "htmlUrl": "https://github.com/twbattaglia",
+            "followersUrl": "https://api.github.com/users/twbattaglia/followers",
+            "subscriptionsUrl": "https://api.github.com/users/twbattaglia/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/twbattaglia/orgs",
+            "reposUrl": "https://api.github.com/users/twbattaglia/repos",
+            "receivedEventsUrl": "https://api.github.com/users/twbattaglia/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 42541389,
+          "downloadCount": 3,
+          "createdAt": "2016-10-19T03:53:51.000Z",
+          "updatedAt": "2016-10-19T03:54:58.000Z",
+          "browserDownloadUrl": "https://github.com/twbattaglia/conda-menu/releases/download/v0.2.1/conda-menu-mac.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/twbattaglia/conda-menu/releases/4425591/assets",
+      "htmlUrl": "https://github.com/twbattaglia/conda-menu/releases/tag/v0.2.1",
+      "id": 4425591,
+      "tagName": "v0.2.1",
+      "targetCommitish": "master",
+      "name": " ",
+      "draft": false,
+      "author": {
+        "login": "twbattaglia",
+        "id": 6052690,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6052690?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/twbattaglia",
+        "htmlUrl": "https://github.com/twbattaglia",
+        "followersUrl": "https://api.github.com/users/twbattaglia/followers",
+        "subscriptionsUrl": "https://api.github.com/users/twbattaglia/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/twbattaglia/orgs",
+        "reposUrl": "https://api.github.com/users/twbattaglia/repos",
+        "receivedEventsUrl": "https://api.github.com/users/twbattaglia/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-10-19T03:51:25.000Z",
+      "publishedAt": "2016-10-19T03:56:45.000Z",
+      "tarballUrl": "https://api.github.com/repos/twbattaglia/conda-menu/tarball/v0.2.1",
+      "zipballUrl": "https://api.github.com/repos/twbattaglia/conda-menu/zipball/v0.2.1",
+      "body": "See changelog\n"
+    },
+    {
+      "url": "https://api.github.com/repos/twbattaglia/conda-menu/releases/4402465",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/twbattaglia/conda-menu/releases/assets/2484182",
+          "id": 2484182,
+          "name": "conda-menu-mac.zip",
+          "label": null,
+          "uploader": {
+            "login": "twbattaglia",
+            "id": 6052690,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/6052690?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/twbattaglia",
+            "htmlUrl": "https://github.com/twbattaglia",
+            "followersUrl": "https://api.github.com/users/twbattaglia/followers",
+            "subscriptionsUrl": "https://api.github.com/users/twbattaglia/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/twbattaglia/orgs",
+            "reposUrl": "https://api.github.com/users/twbattaglia/repos",
+            "receivedEventsUrl": "https://api.github.com/users/twbattaglia/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 42390876,
+          "downloadCount": 0,
+          "createdAt": "2016-10-16T22:17:54.000Z",
+          "updatedAt": "2016-10-16T22:18:53.000Z",
+          "browserDownloadUrl": "https://github.com/twbattaglia/conda-menu/releases/download/v0.2.0/conda-menu-mac.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/twbattaglia/conda-menu/releases/4402465/assets",
+      "htmlUrl": "https://github.com/twbattaglia/conda-menu/releases/tag/v0.2.0",
+      "id": 4402465,
+      "tagName": "v0.2.0",
+      "targetCommitish": "master",
+      "name": "  ",
+      "draft": false,
+      "author": {
+        "login": "twbattaglia",
+        "id": 6052690,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6052690?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/twbattaglia",
+        "htmlUrl": "https://github.com/twbattaglia",
+        "followersUrl": "https://api.github.com/users/twbattaglia/followers",
+        "subscriptionsUrl": "https://api.github.com/users/twbattaglia/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/twbattaglia/orgs",
+        "reposUrl": "https://api.github.com/users/twbattaglia/repos",
+        "receivedEventsUrl": "https://api.github.com/users/twbattaglia/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-10-16T22:13:36.000Z",
+      "publishedAt": "2016-10-16T22:19:19.000Z",
+      "tarballUrl": "https://api.github.com/repos/twbattaglia/conda-menu/tarball/v0.2.0",
+      "zipballUrl": "https://api.github.com/repos/twbattaglia/conda-menu/zipball/v0.2.0",
+      "body": "See changelog.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/twbattaglia/conda-menu/releases/4361574",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/twbattaglia/conda-menu/releases/assets/2457447",
+          "id": 2457447,
+          "name": "conda-menu-mac.zip",
+          "label": null,
+          "uploader": {
+            "login": "twbattaglia",
+            "id": 6052690,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/6052690?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/twbattaglia",
+            "htmlUrl": "https://github.com/twbattaglia",
+            "followersUrl": "https://api.github.com/users/twbattaglia/followers",
+            "subscriptionsUrl": "https://api.github.com/users/twbattaglia/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/twbattaglia/orgs",
+            "reposUrl": "https://api.github.com/users/twbattaglia/repos",
+            "receivedEventsUrl": "https://api.github.com/users/twbattaglia/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 85827846,
+          "downloadCount": 2,
+          "createdAt": "2016-10-11T17:50:42.000Z",
+          "updatedAt": "2016-10-11T17:50:59.000Z",
+          "browserDownloadUrl": "https://github.com/twbattaglia/conda-menu/releases/download/0.1.0/conda-menu-mac.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/twbattaglia/conda-menu/releases/4361574/assets",
+      "htmlUrl": "https://github.com/twbattaglia/conda-menu/releases/tag/0.1.0",
+      "id": 4361574,
+      "tagName": "0.1.0",
+      "targetCommitish": "master",
+      "name": "Hello World!",
+      "draft": false,
+      "author": {
+        "login": "twbattaglia",
+        "id": 6052690,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6052690?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/twbattaglia",
+        "htmlUrl": "https://github.com/twbattaglia",
+        "followersUrl": "https://api.github.com/users/twbattaglia/followers",
+        "subscriptionsUrl": "https://api.github.com/users/twbattaglia/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/twbattaglia/orgs",
+        "reposUrl": "https://api.github.com/users/twbattaglia/repos",
+        "receivedEventsUrl": "https://api.github.com/users/twbattaglia/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-10-11T17:47:22.000Z",
+      "publishedAt": "2016-10-11T17:51:13.000Z",
+      "tarballUrl": "https://api.github.com/repos/twbattaglia/conda-menu/tarball/0.1.0",
+      "zipballUrl": "https://api.github.com/repos/twbattaglia/conda-menu/zipball/0.1.0",
+      "body": "This is the first working-ish release of Conda-menu.\n"
+    }
+  ]
 }

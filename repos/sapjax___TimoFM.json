@@ -123,5 +123,69 @@
       "commentCount": 0
     }
   },
-  "filename": "sapjax___TimoFM.json"
+  "filename": "sapjax___TimoFM.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/sapjax/TimoFM/releases/2570209",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/sapjax/TimoFM/releases/2570209/assets",
+      "htmlUrl": "https://github.com/sapjax/TimoFM/releases/tag/v1.1.1",
+      "id": 2570209,
+      "tagName": "v1.1.1",
+      "targetCommitish": "master",
+      "name": "v1.1.1",
+      "draft": false,
+      "author": {
+        "login": "sapjax",
+        "id": 990255,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/990255?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/sapjax",
+        "htmlUrl": "https://github.com/sapjax",
+        "followersUrl": "https://api.github.com/users/sapjax/followers",
+        "subscriptionsUrl": "https://api.github.com/users/sapjax/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/sapjax/orgs",
+        "reposUrl": "https://api.github.com/users/sapjax/repos",
+        "receivedEventsUrl": "https://api.github.com/users/sapjax/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-02-08T05:50:32.000Z",
+      "publishedAt": "2016-02-08T05:55:47.000Z",
+      "tarballUrl": "https://api.github.com/repos/sapjax/TimoFM/tarball/v1.1.1",
+      "zipballUrl": "https://api.github.com/repos/sapjax/TimoFM/zipball/v1.1.1",
+      "body": "- 修复`douban` api失效导致的不能获取歌曲的问题 [pr](https://github.com/sapjax/dbfm-app-sdk/pull/1)\n"
+    },
+    {
+      "url": "https://api.github.com/repos/sapjax/TimoFM/releases/1703659",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/sapjax/TimoFM/releases/1703659/assets",
+      "htmlUrl": "https://github.com/sapjax/TimoFM/releases/tag/v1.1.00",
+      "id": 1703659,
+      "tagName": "v1.1.00",
+      "targetCommitish": "master",
+      "name": "node-webkit改为Electron",
+      "draft": false,
+      "author": {
+        "login": "sapjax",
+        "id": 990255,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/990255?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/sapjax",
+        "htmlUrl": "https://github.com/sapjax",
+        "followersUrl": "https://api.github.com/users/sapjax/followers",
+        "subscriptionsUrl": "https://api.github.com/users/sapjax/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/sapjax/orgs",
+        "reposUrl": "https://api.github.com/users/sapjax/repos",
+        "receivedEventsUrl": "https://api.github.com/users/sapjax/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2015-08-21T08:35:11.000Z",
+      "publishedAt": "2015-08-21T08:47:13.000Z",
+      "tarballUrl": "https://api.github.com/repos/sapjax/TimoFM/tarball/v1.1.00",
+      "zipballUrl": "https://api.github.com/repos/sapjax/TimoFM/zipball/v1.1.00",
+      "body": "- node-webkit切换到Electron\n- 修复了之前全局快捷键注册的问题\n- mp3播放不再依赖ffmpeg\n- 简化了执行，打包发布的过程\n- 修改部分界面和动画\n"
+    }
+  ]
 }

@@ -133,12 +133,6 @@
       "compile": "NODE_ENV=production babel-node src/tasks/package.js",
       "test": "electron-mocha --renderer ./src/**/*_test.js -R spec --compilers js:babel-core/register --recursive",
       "test-electron": "npm run compile && electron-mocha ./src/**/_tests_/*_test-M.js -R spec --compilers js:babel-core/register"
-    },
-    "other": {
-      "author": "Kevin Carr",
-      "bugs": {
-        "url": "https://github.com/evolition/evolition-app/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -168,5 +162,6 @@
       "commentCount": 0
     }
   },
-  "filename": "jcache___evolition.json"
+  "filename": "jcache___evolition.json",
+  "releases": []
 }

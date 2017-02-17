@@ -128,9 +128,6 @@
       "test": "./node_modules/mocha/bin/mocha ./test --compilers js:babel-core/register",
       "build": "eslint src && jest && webpack --config ./scripts/package.js --release",
       "server": "webpack-dev-server --config ./scripts/package.js --colors --inline --port 3000"
-    },
-    "other": {
-      "author": "Hyejin Kwon"
     }
   },
   "packageStatus": 200,
@@ -161,5 +158,6 @@
       "commentCount": 0
     }
   },
-  "filename": "jjingK___react-example.json"
+  "filename": "jjingK___react-example.json",
+  "releases": []
 }

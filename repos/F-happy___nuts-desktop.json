@@ -128,9 +128,6 @@
       "node-fetch": "^1.6.3",
       "vue": "^2.0.0",
       "webpack-stream": "^3.2.0"
-    },
-    "other": {
-      "author": "jonnyf"
     }
   },
   "packageStatus": 200,
@@ -159,5 +156,131 @@
       "commentCount": 0
     }
   },
-  "filename": "F-happy___nuts-desktop.json"
+  "filename": "F-happy___nuts-desktop.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/F-happy/nuts-desktop/releases/4645907",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/F-happy/nuts-desktop/releases/4645907/assets",
+      "htmlUrl": "https://github.com/F-happy/nuts-desktop/releases/tag/v1.0.0-beta3",
+      "id": 4645907,
+      "tagName": "v1.0.0-beta3",
+      "targetCommitish": "master",
+      "name": "v1.0.0-beta3",
+      "draft": false,
+      "author": {
+        "login": "F-happy",
+        "id": 8241236,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8241236?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/F-happy",
+        "htmlUrl": "https://github.com/F-happy",
+        "followersUrl": "https://api.github.com/users/F-happy/followers",
+        "subscriptionsUrl": "https://api.github.com/users/F-happy/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/F-happy/orgs",
+        "reposUrl": "https://api.github.com/users/F-happy/repos",
+        "receivedEventsUrl": "https://api.github.com/users/F-happy/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-11-13T14:16:59.000Z",
+      "publishedAt": "2016-11-13T15:06:29.000Z",
+      "tarballUrl": "https://api.github.com/repos/F-happy/nuts-desktop/tarball/v1.0.0-beta3",
+      "zipballUrl": "https://api.github.com/repos/F-happy/nuts-desktop/zipball/v1.0.0-beta3",
+      "body": "## 更新内容\n- 现在在 vue 渲染时期会隐藏 html 模板，这样就不会出现模板了。\n- 移动 vue 库文件到 assets 文件夹下，缩短引用路径，并且通过`<script>` 标签的形式引入到全局中。\n- 新增了打包脚本和素材。\n- 修正了第一次加载时的逻辑错误。\n- 修正了找不到 nuts-scss 库的问题。\n\n# 测试包下载：\n- [百度云高速下载](https://pan.baidu.com/s/1kUPB6ZH)\n"
+    },
+    {
+      "url": "https://api.github.com/repos/F-happy/nuts-desktop/releases/4537219",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/F-happy/nuts-desktop/releases/4537219/assets",
+      "htmlUrl": "https://github.com/F-happy/nuts-desktop/releases/tag/v1.0.0-beta2",
+      "id": 4537219,
+      "tagName": "v1.0.0-beta2",
+      "targetCommitish": "master",
+      "name": "v1.0.0-beta2",
+      "draft": false,
+      "author": {
+        "login": "F-happy",
+        "id": 8241236,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8241236?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/F-happy",
+        "htmlUrl": "https://github.com/F-happy",
+        "followersUrl": "https://api.github.com/users/F-happy/followers",
+        "subscriptionsUrl": "https://api.github.com/users/F-happy/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/F-happy/orgs",
+        "reposUrl": "https://api.github.com/users/F-happy/repos",
+        "receivedEventsUrl": "https://api.github.com/users/F-happy/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-11-01T14:18:33.000Z",
+      "publishedAt": "2016-11-01T14:25:55.000Z",
+      "tarballUrl": "https://api.github.com/repos/F-happy/nuts-desktop/tarball/v1.0.0-beta2",
+      "zipballUrl": "https://api.github.com/repos/F-happy/nuts-desktop/zipball/v1.0.0-beta2",
+      "body": "# 第一版功能全部完成，进入测试打包\n\n第一版本的所有功能都全部完成，相对于beta1新增了如下功能：\n- 新增了支持 css 和 es5的项目开发，并且可以在设置界面控制是否启用。\n- 完成了菜单模块中的所有功能，并提供新版本检查的功能。\n\n### 下一版本:\n\n接下来的版本将对整体的稳定性进行测试并检查所有功能是否都正确执行，然后开始构建安装包。\n"
+    },
+    {
+      "url": "https://api.github.com/repos/F-happy/nuts-desktop/releases/4520315",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/F-happy/nuts-desktop/releases/4520315/assets",
+      "htmlUrl": "https://github.com/F-happy/nuts-desktop/releases/tag/v1.0.0-beta1",
+      "id": 4520315,
+      "tagName": "v1.0.0-beta1",
+      "targetCommitish": "master",
+      "name": "v1.0.0-beta1",
+      "draft": false,
+      "author": {
+        "login": "F-happy",
+        "id": 8241236,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8241236?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/F-happy",
+        "htmlUrl": "https://github.com/F-happy",
+        "followersUrl": "https://api.github.com/users/F-happy/followers",
+        "subscriptionsUrl": "https://api.github.com/users/F-happy/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/F-happy/orgs",
+        "reposUrl": "https://api.github.com/users/F-happy/repos",
+        "receivedEventsUrl": "https://api.github.com/users/F-happy/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-10-29T03:06:31.000Z",
+      "publishedAt": "2016-10-30T13:26:04.000Z",
+      "tarballUrl": "https://api.github.com/repos/F-happy/nuts-desktop/tarball/v1.0.0-beta1",
+      "zipballUrl": "https://api.github.com/repos/F-happy/nuts-desktop/zipball/v1.0.0-beta1",
+      "body": "## 基础功能完成\n\n在新的1.x 版本中我用 vue 重构了整个显示层，使得渲染层和逻辑层相互独立，electron 底层上也使得渲染进程更加纯粹。在这个版本中完成了全部的功能，包括之前不支持的 scss 和 ES6预编译，都在1.x 版本中得到支撑。这个时候在功能上和我的另一个基于命令行的构建功能在功能上保持了一直。[nuts](https://github.com/F-happy/nuts)\n"
+    },
+    {
+      "url": "https://api.github.com/repos/F-happy/nuts-desktop/releases/4006845",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/F-happy/nuts-desktop/releases/4006845/assets",
+      "htmlUrl": "https://github.com/F-happy/nuts-desktop/releases/tag/v0.1.0-beta",
+      "id": 4006845,
+      "tagName": "v0.1.0-beta",
+      "targetCommitish": "master",
+      "name": "初代原始版本",
+      "draft": false,
+      "author": {
+        "login": "F-happy",
+        "id": 8241236,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8241236?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/F-happy",
+        "htmlUrl": "https://github.com/F-happy",
+        "followersUrl": "https://api.github.com/users/F-happy/followers",
+        "subscriptionsUrl": "https://api.github.com/users/F-happy/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/F-happy/orgs",
+        "reposUrl": "https://api.github.com/users/F-happy/repos",
+        "receivedEventsUrl": "https://api.github.com/users/F-happy/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-10-29T03:06:31.000Z",
+      "publishedAt": "2016-08-30T10:22:22.000Z",
+      "tarballUrl": "https://api.github.com/repos/F-happy/nuts-desktop/tarball/v0.1.0-beta",
+      "zipballUrl": "https://api.github.com/repos/F-happy/nuts-desktop/zipball/v0.1.0-beta",
+      "body": "基本完成了功能\n- 测试版仅仅只有 mac 版本\n\n[百度云盘下载链接](http://pan.baidu.com/s/1mhDuywg)\n- 这个版本还不支持 scss 和 ES6代码的预编译功能，完成的仅仅是项目的自动创建和本地静态服务器的搭建，以及编译模式下的代码压缩和混淆，并且由于界面是基于 jQuery 来实现的，所以渲染层和主线程之间的耦合性很大，在后面的1.0版本中我重构了 view 层和逻辑层的大部分功能，所以这个版本将不再维护和使用，算是一个备忘吧。\n"
+    }
+  ]
 }

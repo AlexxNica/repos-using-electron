@@ -70,10 +70,7 @@
     "version": "3.0.0",
     "description": "high level way to create menubar desktop applications with atom-shell",
     "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/maxogden/menubar.git"
-    },
+    "repository": "https://github.com/maxogden/menubar",
     "scripts": {
       "test": "standard"
     },
@@ -86,13 +83,7 @@
       "mac",
       "app"
     ],
-    "author": {
-      "name": "max ogden"
-    },
     "license": "BSD-2-Clause",
-    "bugs": {
-      "url": "https://github.com/maxogden/menubar/issues"
-    },
     "homepage": "https://github.com/maxogden/menubar",
     "dependencies": {
       "electron-positioner": "^2.0.1",
@@ -102,20 +93,12 @@
       "standard": "^3.2.1"
     },
     "gitHead": "5b3556711ff099b9b80298d51bf9a4b22cb081e8",
-    "_id": "menubar@3.0.0",
-    "_shasum": "7bc92949f392f1af6f72aa1dbc4778dde17b6de0",
-    "_from": "menubar@*",
-    "_npmVersion": "2.14.2",
-    "_nodeVersion": "4.0.0",
-    "_npmUser": {
+    "_resolved": "https://registry.npmjs.org/menubar/-/menubar-3.0.0.tgz",
+    "lastPublisher": {
       "name": "maxogden",
       "email": "max@maxogden.com"
     },
-    "dist": {
-      "shasum": "7bc92949f392f1af6f72aa1dbc4778dde17b6de0",
-      "tarball": "http://registry.npmjs.org/menubar/-/menubar-3.0.0.tgz"
-    },
-    "maintainers": [
+    "owners": [
       {
         "name": "maxogden",
         "email": "max@maxogden.com"
@@ -133,8 +116,46 @@
         "email": "jens@jensl.se"
       }
     ],
-    "directories": {},
-    "_resolved": "https://registry.npmjs.org/menubar/-/menubar-3.0.0.tgz"
+    "other": {
+      "_from": "menubar@*",
+      "_id": "menubar@3.0.0",
+      "_nodeVersion": "4.0.0",
+      "_npmUser": {
+        "name": "maxogden",
+        "email": "max@maxogden.com"
+      },
+      "_npmVersion": "2.14.2",
+      "_shasum": "7bc92949f392f1af6f72aa1dbc4778dde17b6de0",
+      "author": {
+        "name": "max ogden"
+      },
+      "bugs": {
+        "url": "https://github.com/maxogden/menubar/issues"
+      },
+      "directories": {},
+      "dist": {
+        "shasum": "7bc92949f392f1af6f72aa1dbc4778dde17b6de0",
+        "tarball": "http://registry.npmjs.org/menubar/-/menubar-3.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "maxogden",
+          "email": "max@maxogden.com"
+        },
+        {
+          "name": "fritzy",
+          "email": "fritzy@netflint.net"
+        },
+        {
+          "name": "fabien-d",
+          "email": "fabien.doiron@gmail.com"
+        },
+        {
+          "name": "jenslind",
+          "email": "jens@jensl.se"
+        }
+      ]
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -161,5 +182,473 @@
       "url": "https://api.github.com/repos/sithika-a/testRepo/git/commits/dd8ddb0df886d50bc9ecb3721d6b1baaa2d5e8e7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "sithika-a___testRepo.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/sithika-a/testRepo/releases/4427809",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/sithika-a/testRepo/releases/4427809/assets",
+      "htmlUrl": "https://github.com/sithika-a/testRepo/releases/tag/1.1.3",
+      "id": 4427809,
+      "tagName": "1.1.3",
+      "targetCommitish": "master",
+      "name": "",
+      "draft": false,
+      "author": {
+        "login": "sithika-a",
+        "id": 10615257,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10615257?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/sithika-a",
+        "htmlUrl": "https://github.com/sithika-a",
+        "followersUrl": "https://api.github.com/users/sithika-a/followers",
+        "subscriptionsUrl": "https://api.github.com/users/sithika-a/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/sithika-a/orgs",
+        "reposUrl": "https://api.github.com/users/sithika-a/repos",
+        "receivedEventsUrl": "https://api.github.com/users/sithika-a/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-03-02T10:44:58.000Z",
+      "publishedAt": "2016-10-19T09:55:18.000Z",
+      "tarballUrl": "https://api.github.com/repos/sithika-a/testRepo/tarball/1.1.3",
+      "zipballUrl": "https://api.github.com/repos/sithika-a/testRepo/zipball/1.1.3",
+      "body": "Hello,\n\nWe've a live release with following changes.\n\nFeatures:\n- AR realtime availability status shown in UI\n- Design changes on top banner.\n- 'BookTime' user status changed to 'Learning'\n- If user ends the conference, they may think they're going to disconnect from 3 legs, so we're going to convey by tooltip saying 'leave conference'\n\nBug Fixes:\n- After leaving the conference line, V2 stuck in Busy rather going Available - fixed\n"
+    },
+    {
+      "url": "https://api.github.com/repos/sithika-a/testRepo/releases/4367678",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/sithika-a/testRepo/releases/4367678/assets",
+      "htmlUrl": "https://github.com/sithika-a/testRepo/releases/tag/engineV0.36.8",
+      "id": 4367678,
+      "tagName": "engineV0.36.8",
+      "targetCommitish": "master",
+      "name": "",
+      "draft": false,
+      "author": {
+        "login": "sithika-a",
+        "id": 10615257,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10615257?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/sithika-a",
+        "htmlUrl": "https://github.com/sithika-a",
+        "followersUrl": "https://api.github.com/users/sithika-a/followers",
+        "subscriptionsUrl": "https://api.github.com/users/sithika-a/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/sithika-a/orgs",
+        "reposUrl": "https://api.github.com/users/sithika-a/repos",
+        "receivedEventsUrl": "https://api.github.com/users/sithika-a/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-03-02T10:44:58.000Z",
+      "publishedAt": "2016-10-12T10:29:49.000Z",
+      "tarballUrl": "https://api.github.com/repos/sithika-a/testRepo/tarball/engineV0.36.8",
+      "zipballUrl": "https://api.github.com/repos/sithika-a/testRepo/zipball/engineV0.36.8",
+      "body": "**_Functionalities**_\n1. Accounts will load faster than before. We are avoiding calls for Normal Forms when there is no Normal Message From configured and avoiding calls for Exportable Form when there is no Exportable Message Form Configured. So it will remove an RPC call to Job System application,\n1. Filter message ( Date Filter ) based on Account Time zone,\n2. Message Save and Send Type ID should be unique ( Save - c3cca2f9-9449-4c1a-80a4-2343f9e147a6 and Send - 523f3110-38e1-4302-86a2-df45f5f8621d ),\n3. Code optimization for Lex and Synclio AnswerPhrase branding,\n4. Enabled CSV mail format for Exportable Message Forms,\n5. Requests has been requeued if message fail to persist in Full History,\n6. Client Feedback UI experience and bug fixes,\n7. Messages will be fetched using combination of Account Number and Unique Pin. So to avoid messages which are not related to new customer who signed up with the existing Account Number from the source pool,\n8. Avoiding Exception Mails in case of IO, Socket Timeout, etc., if the request is handled by requeueing,\n9. Added new Team VC page and\n10. Changed Ajax ready state from 1 to 2. With the confirmation of state 1, connection has been established but some time request failed to reach server. With state 2, it confirms the request has been reached to server, which will avoid message loss and other services.\n\n**_Bug Fix**_\n1. If the Name field left empty and moving the focus to Phone field, if we type numbers in Phone field, it jumps back to Name field,\n2. Current tab index change for Distributed Source and LoopToDo,\n3. Thumbs Up and Thumbs Down LoopToDo change based on application environment ( Live or Staging ),\n4.  API Key's for User Action Tracker and Transfer Board service to persist interactions in FULL History and\n\nAnalytics bug fixes.\n\n—\n You are receiving this because you are subscribed to this thread.\nView it on GitHub or mute the thread.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/sithika-a/testRepo/releases/4330640",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/sithika-a/testRepo/releases/4330640/assets",
+      "htmlUrl": "https://github.com/sithika-a/testRepo/releases/tag/v0.5.62",
+      "id": 4330640,
+      "tagName": "v0.5.62",
+      "targetCommitish": "master",
+      "name": "AppUpdate UI Fix",
+      "draft": false,
+      "author": {
+        "login": "sithika-a",
+        "id": 10615257,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10615257?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/sithika-a",
+        "htmlUrl": "https://github.com/sithika-a",
+        "followersUrl": "https://api.github.com/users/sithika-a/followers",
+        "subscriptionsUrl": "https://api.github.com/users/sithika-a/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/sithika-a/orgs",
+        "reposUrl": "https://api.github.com/users/sithika-a/repos",
+        "receivedEventsUrl": "https://api.github.com/users/sithika-a/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-03-02T10:44:58.000Z",
+      "publishedAt": "2016-10-07T07:53:21.000Z",
+      "tarballUrl": "https://api.github.com/repos/sithika-a/testRepo/tarball/v0.5.62",
+      "zipballUrl": "https://api.github.com/repos/sithika-a/testRepo/zipball/v0.5.62",
+      "body": "Fix \n    - Hide Download UI and Progress Bar on ClearCache\n"
+    },
+    {
+      "url": "https://api.github.com/repos/sithika-a/testRepo/releases/4330569",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/sithika-a/testRepo/releases/4330569/assets",
+      "htmlUrl": "https://github.com/sithika-a/testRepo/releases/tag/engineV0.37.8",
+      "id": 4330569,
+      "tagName": "engineV0.37.8",
+      "targetCommitish": "master",
+      "name": "Test Release",
+      "draft": false,
+      "author": {
+        "login": "sithika-a",
+        "id": 10615257,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10615257?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/sithika-a",
+        "htmlUrl": "https://github.com/sithika-a",
+        "followersUrl": "https://api.github.com/users/sithika-a/followers",
+        "subscriptionsUrl": "https://api.github.com/users/sithika-a/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/sithika-a/orgs",
+        "reposUrl": "https://api.github.com/users/sithika-a/repos",
+        "receivedEventsUrl": "https://api.github.com/users/sithika-a/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-03-02T10:44:58.000Z",
+      "publishedAt": "2016-10-07T07:43:02.000Z",
+      "tarballUrl": "https://api.github.com/repos/sithika-a/testRepo/tarball/engineV0.37.8",
+      "zipballUrl": "https://api.github.com/repos/sithika-a/testRepo/zipball/engineV0.37.8",
+      "body": "IT,\n\nWe have moved a build to live with the following items, can you guys let us know if any report any kinda issue.\n\n<title>Title of the document</title>\n\n# Features\n\n--> Notes ( Scratchpad ) - Changed the design for the notes and made it in a way that it will be available on load of the interactions right on top of the scripts ( Message Forms ),\n\n--> Messages in the message history has been ordered based on the call answered time ( previously it was based on persisted time ),\n\n --> Creating task in Distributed Source if there is any configuration issue in the delivery method and/or contact methods which will reach to account management team based on brand,\n\n--> Client service transfer line for UK accounts has been added in the call transfer option,\n\n--> Account sign up date will be shown in account information if the account is signed up in the last 30 days, the idea is to convey associates give some high priority for those calls,\n\n--> Message status tracker tool to identify if any message failed to Save and/or Send and\n\n--> Accessing static map api service using APIKey. We were using this service to show location of the caller based on the phone number in the mail template.\n\n# Application Information\n\nApp ID : alpha-sb\nVersion : notesdesign\nPrevious version : negativefeedback\n\n# Git Info\n\ntest url : www.google.com\n"
+    },
+    {
+      "url": "https://api.github.com/repos/sithika-a/testRepo/releases/4309398",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/sithika-a/testRepo/releases/4309398/assets",
+      "htmlUrl": "https://github.com/sithika-a/testRepo/releases/tag/1.2.3-alpha-beta",
+      "id": 4309398,
+      "tagName": "1.2.3-alpha-beta",
+      "targetCommitish": "master",
+      "name": "Version for test",
+      "draft": false,
+      "author": {
+        "login": "sithika-a",
+        "id": 10615257,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10615257?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/sithika-a",
+        "htmlUrl": "https://github.com/sithika-a",
+        "followersUrl": "https://api.github.com/users/sithika-a/followers",
+        "subscriptionsUrl": "https://api.github.com/users/sithika-a/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/sithika-a/orgs",
+        "reposUrl": "https://api.github.com/users/sithika-a/repos",
+        "receivedEventsUrl": "https://api.github.com/users/sithika-a/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-03-02T10:44:58.000Z",
+      "publishedAt": "2016-10-05T13:15:57.000Z",
+      "tarballUrl": "https://api.github.com/repos/sithika-a/testRepo/tarball/1.2.3-alpha-beta",
+      "zipballUrl": "https://api.github.com/repos/sithika-a/testRepo/zipball/1.2.3-alpha-beta",
+      "body": "Test\n1. Accounts will load faster than before. We are avoiding calls for Normal Forms when there is no Normal Message From configured and avoiding calls for Exportable Form when there is no Exportable Message Form Configured. So it will remove an RPC call to Job System application,\n2. Filter message ( Date Filter ) based on Account Time zone,\n3. Message Save and Send Type ID should be unique ( Save - c3cca2f9-9449-4c1a-80a4-2343f9e147a6 and Send - 523f3110-38e1-4302-86a2-df45f5f8621d ),\n4. Code optimization for Lex and Synclio AnswerPhrase branding,\n5. Enabled CSV mail format for Exportable Message Forms,\n6. Requests has been requeued if message fail to persist in Full History,\n7. Client Feedback UI experience and bug fixes,\n8. Messages will be fetched using combination of Account Number and Unique Pin. So to avoid messages which are not related to new customer who signed up with the existing Account Number from the source pool,\n9. Avoiding Exception Mails in case of IO, Socket Timeout, etc., if the request is handled by requeueing,\n10. Added new Team VC page and\n11. Changed Ajax ready state from 1 to 2. With the confirmation of state 1, connection has been established but some time request failed to reach server. With state 2, it confirms the request has been reached to server, which will avoid message loss and other services.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/sithika-a/testRepo/releases/4308046",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/sithika-a/testRepo/releases/4308046/assets",
+      "htmlUrl": "https://github.com/sithika-a/testRepo/releases/tag/engineV0.37.7",
+      "id": 4308046,
+      "tagName": "engineV0.37.7",
+      "targetCommitish": "master",
+      "name": "Ashwin's test ",
+      "draft": false,
+      "author": {
+        "login": "sithika-a",
+        "id": 10615257,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10615257?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/sithika-a",
+        "htmlUrl": "https://github.com/sithika-a",
+        "followersUrl": "https://api.github.com/users/sithika-a/followers",
+        "subscriptionsUrl": "https://api.github.com/users/sithika-a/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/sithika-a/orgs",
+        "reposUrl": "https://api.github.com/users/sithika-a/repos",
+        "receivedEventsUrl": "https://api.github.com/users/sithika-a/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-03-02T10:44:58.000Z",
+      "publishedAt": "2016-10-05T10:39:35.000Z",
+      "tarballUrl": "https://api.github.com/repos/sithika-a/testRepo/tarball/engineV0.37.7",
+      "zipballUrl": "https://api.github.com/repos/sithika-a/testRepo/zipball/engineV0.37.7",
+      "body": "1.Accounts will load faster than before. We are avoiding calls for Normal Forms when there is no Normal Message From configured and avoiding calls for Exportable Form when there is no Exportable Message Form Configured. So it will remove an RPC call to Job System application,\n2.sdkjjkdsjksd, http://google.com ,.\n3. xcnxcmcxmncx(a)\n4. kskdsds\n5. Final release.\n7.te\n"
+    },
+    {
+      "url": "https://api.github.com/repos/sithika-a/testRepo/releases/4298780",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/sithika-a/testRepo/releases/4298780/assets",
+      "htmlUrl": "https://github.com/sithika-a/testRepo/releases/tag/v0.5.58",
+      "id": 4298780,
+      "tagName": "v0.5.58",
+      "targetCommitish": "master",
+      "name": "v0.5.58",
+      "draft": false,
+      "author": {
+        "login": "sithika-a",
+        "id": 10615257,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10615257?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/sithika-a",
+        "htmlUrl": "https://github.com/sithika-a",
+        "followersUrl": "https://api.github.com/users/sithika-a/followers",
+        "subscriptionsUrl": "https://api.github.com/users/sithika-a/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/sithika-a/orgs",
+        "reposUrl": "https://api.github.com/users/sithika-a/repos",
+        "receivedEventsUrl": "https://api.github.com/users/sithika-a/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-03-02T10:44:58.000Z",
+      "publishedAt": "2016-10-04T13:05:16.000Z",
+      "tarballUrl": "https://api.github.com/repos/sithika-a/testRepo/tarball/v0.5.58",
+      "zipballUrl": "https://api.github.com/repos/sithika-a/testRepo/zipball/v0.5.58",
+      "body": "TEST adgslf;'l235 t34k2\n3426t 23trgjq3\nt34EWTq\nwrtrq \nregqer \nreqbqerbetqgeqt\n"
+    },
+    {
+      "url": "https://api.github.com/repos/sithika-a/testRepo/releases/4287249",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/sithika-a/testRepo/releases/4287249/assets",
+      "htmlUrl": "https://github.com/sithika-a/testRepo/releases/tag/5.5.5",
+      "id": 4287249,
+      "tagName": "5.5.5",
+      "targetCommitish": "master",
+      "name": "5.5.5",
+      "draft": false,
+      "author": {
+        "login": "sithika-a",
+        "id": 10615257,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10615257?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/sithika-a",
+        "htmlUrl": "https://github.com/sithika-a",
+        "followersUrl": "https://api.github.com/users/sithika-a/followers",
+        "subscriptionsUrl": "https://api.github.com/users/sithika-a/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/sithika-a/orgs",
+        "reposUrl": "https://api.github.com/users/sithika-a/repos",
+        "receivedEventsUrl": "https://api.github.com/users/sithika-a/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-03-02T10:44:58.000Z",
+      "publishedAt": "2016-10-03T10:13:07.000Z",
+      "tarballUrl": "https://api.github.com/repos/sithika-a/testRepo/tarball/5.5.5",
+      "zipballUrl": "https://api.github.com/repos/sithika-a/testRepo/zipball/5.5.5",
+      "body": "**\\* Kamesh Header ***\n\nIt's very easy to make some words **bold** and other words _italic_ with Markdown. You can even [link to Google!](http://google.com)\nhttp://www.gmail.com\nhttp://www.facebook.com\n\nSometimes you want numbered lists:\n1. One\n2. Two\n3. Three\n\nSometimes you want bullet points:\n- Start a line with a star\n- Profit!\n\nAlternatively,\n- Dashes work just as well\n- And if you have sub points, put two spaces before the dash or star:\n  - Like this\n  - And this\n\nIf you want to embed images, this is how you do it:\n\n![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)\n\n# Structured documents\n\nSometimes it's useful to have different levels of headings to structure your documents. Start lines with a `#` to create headings. Multiple `##` in a row denote smaller heading sizes.\n\n### This is a third-tier heading\n\nYou can use one `#` all the way up to `######` six for different heading sizes.\n\nIf you'd like to quote someone, use the > character before the line:\n\n> Coffee. The finest organic suspension ever devised... I beat the Borg with it.\n> - Captain Janeway\n\nThere are many different ways to style code with GitHub's markdown. If you have inline code blocks, wrap them in backticks: `var example = true`.  If you've got a longer block of code, you can indent with four spaces:\n\n```\nif (isAwesome){\n  return true\n}\n```\n\nGitHub also supports something called code fencing, which allows for multiple lines without indentation:\n\n```\nif (isAwesome){\n  return true\n}\n```\n\nAnd if you'd like to use syntax highlighting, include the language:\n\n``` javascript\nif (isAwesome){\n  return true\n}\n```\n"
+    },
+    {
+      "url": "https://api.github.com/repos/sithika-a/testRepo/releases/4286146",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/sithika-a/testRepo/releases/4286146/assets",
+      "htmlUrl": "https://github.com/sithika-a/testRepo/releases/tag/v1.1.3",
+      "id": 4286146,
+      "tagName": "v1.1.3",
+      "targetCommitish": "master",
+      "name": "1.1.3",
+      "draft": false,
+      "author": {
+        "login": "sithika-a",
+        "id": 10615257,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10615257?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/sithika-a",
+        "htmlUrl": "https://github.com/sithika-a",
+        "followersUrl": "https://api.github.com/users/sithika-a/followers",
+        "subscriptionsUrl": "https://api.github.com/users/sithika-a/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/sithika-a/orgs",
+        "reposUrl": "https://api.github.com/users/sithika-a/repos",
+        "receivedEventsUrl": "https://api.github.com/users/sithika-a/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-03-02T10:44:58.000Z",
+      "publishedAt": "2016-10-03T07:57:03.000Z",
+      "tarballUrl": "https://api.github.com/repos/sithika-a/testRepo/tarball/v1.1.3",
+      "zipballUrl": "https://api.github.com/repos/sithika-a/testRepo/zipball/v1.1.3",
+      "body": "# Functionalities\n1.  Accounts will load faster than before. We are avoiding calls for Normal Forms when there is no Normal Message From configured and avoiding calls for Exportable Form when there is no Exportable Message Form Configured. So it will remove an RPC call to Job System application,\n2.  Filter message ( Date Filter ) based on Account Time zone,\n3.  Message Save and Send Type ID should be unique ( Save - c3cca2f9-9449-4c1a-80a4-2343f9e147a6 and Send - 523f3110-38e1-4302-86a2-df45f5f8621d ),\n4.  Code optimization for Lex and Synclio AnswerPhrase branding,\n5.  Enabled CSV mail format for Exportable Message Forms,\n6.  Requests has been requeued if message fail to persist in Full History,\n7.  Client Feedback UI experience and bug fixes,\n8.  Messages will be fetched using combination of Account Number and Unique Pin. So to avoid messages which are not related to new customer who signed up with the existing Account Number from the source pool,\n9.  Avoiding Exception Mails in case of IO, Socket Timeout, etc., if the request is handled by requeueing,\n10. Added new Team VC page and\n11. Changed Ajax ready state from 1 to 2. With the confirmation of state 1, connection has been established but some time request failed to reach server. With state 2, it confirms the request has been reached to server, which will avoid message loss and other services.\n\n# Bug Fix\n1.  If the Name field left empty and moving the focus to Phone field, if we type numbers in Phone field, it jumps back to Name field,\n2.  Current tab index change for Distributed Source and LoopToDo,\n3.  Thumbs Up and Thumbs Down LoopToDo change based on application environment ( Live or Staging ),\n4.  Changed API Key's for User Action Tracker and Transfer Board service to persist interactions in FULL History and\n5.  Analytics bug fixes.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/sithika-a/testRepo/releases/4286047",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/sithika-a/testRepo/releases/4286047/assets",
+      "htmlUrl": "https://github.com/sithika-a/testRepo/releases/tag/1.1.2",
+      "id": 4286047,
+      "tagName": "1.1.2",
+      "targetCommitish": "master",
+      "name": "1.1.2",
+      "draft": false,
+      "author": {
+        "login": "sithika-a",
+        "id": 10615257,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10615257?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/sithika-a",
+        "htmlUrl": "https://github.com/sithika-a",
+        "followersUrl": "https://api.github.com/users/sithika-a/followers",
+        "subscriptionsUrl": "https://api.github.com/users/sithika-a/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/sithika-a/orgs",
+        "reposUrl": "https://api.github.com/users/sithika-a/repos",
+        "receivedEventsUrl": "https://api.github.com/users/sithika-a/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-03-02T10:44:58.000Z",
+      "publishedAt": "2016-10-03T07:34:23.000Z",
+      "tarballUrl": "https://api.github.com/repos/sithika-a/testRepo/tarball/1.1.2",
+      "zipballUrl": "https://api.github.com/repos/sithika-a/testRepo/zipball/1.1.2",
+      "body": "**Implementation**\n- FileDownloader for chat with electron  dialog api.\n- Getting maximum tab loaded by user in SwitchBoard window and sending it analytics. \n\n**Bug Fix**\n- Avoiding multiple download in engine Updation.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/sithika-a/testRepo/releases/4270404",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/sithika-a/testRepo/releases/4270404/assets",
+      "htmlUrl": "https://github.com/sithika-a/testRepo/releases/tag/v0.5.55",
+      "id": 4270404,
+      "tagName": "v0.5.55",
+      "targetCommitish": "master",
+      "name": "v0.5.55",
+      "draft": false,
+      "author": {
+        "login": "sithika-a",
+        "id": 10615257,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10615257?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/sithika-a",
+        "htmlUrl": "https://github.com/sithika-a",
+        "followersUrl": "https://api.github.com/users/sithika-a/followers",
+        "subscriptionsUrl": "https://api.github.com/users/sithika-a/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/sithika-a/orgs",
+        "reposUrl": "https://api.github.com/users/sithika-a/repos",
+        "receivedEventsUrl": "https://api.github.com/users/sithika-a/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-03-02T10:44:58.000Z",
+      "publishedAt": "2016-09-30T05:46:03.000Z",
+      "tarballUrl": "https://api.github.com/repos/sithika-a/testRepo/tarball/v0.5.55",
+      "zipballUrl": "https://api.github.com/repos/sithika-a/testRepo/zipball/v0.5.55",
+      "body": "**_Implementation**_\n- Engine update release notes added\n"
+    },
+    {
+      "url": "https://api.github.com/repos/sithika-a/testRepo/releases/4261868",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/sithika-a/testRepo/releases/4261868/assets",
+      "htmlUrl": "https://github.com/sithika-a/testRepo/releases/tag/v0.5.60",
+      "id": 4261868,
+      "tagName": "v0.5.60",
+      "targetCommitish": "master",
+      "name": "MarkDown Suppress",
+      "draft": false,
+      "author": {
+        "login": "sithika-a",
+        "id": 10615257,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10615257?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/sithika-a",
+        "htmlUrl": "https://github.com/sithika-a",
+        "followersUrl": "https://api.github.com/users/sithika-a/followers",
+        "subscriptionsUrl": "https://api.github.com/users/sithika-a/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/sithika-a/orgs",
+        "reposUrl": "https://api.github.com/users/sithika-a/repos",
+        "receivedEventsUrl": "https://api.github.com/users/sithika-a/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-03-02T10:44:58.000Z",
+      "publishedAt": "2016-09-29T10:11:54.000Z",
+      "tarballUrl": "https://api.github.com/repos/sithika-a/testRepo/tarball/v0.5.60",
+      "zipballUrl": "https://api.github.com/repos/sithika-a/testRepo/zipball/v0.5.60",
+      "body": "# Functionalities\n1.  Accounts will load faster than before. We are avoiding calls for Normal Forms when there is no Normal Message From configured and avoiding calls for Exportable Form when there is no Exportable Message Form Configured. So it will remove an RPC call to Job System application,\n2.  Filter message ( Date Filter ) based on Account Time zone,\n3.  Message Save and Send Type ID should be unique ( Save - c3cca2f9-9449-4c1a-80a4-2343f9e147a6 and Send - 523f3110-38e1-4302-86a2-df45f5f8621d ),\n4.  Code optimization for Lex and Synclio AnswerPhrase branding,\n5.  Enabled CSV mail format for Exportable Message Forms,\n6.  Requests has been requeued if message fail to persist in Full History,\n7.  Client Feedback UI experience and bug fixes,\n8.  Messages will be fetched using combination of Account Number and Unique Pin. So to avoid messages which are not related to new customer who signed up with the existing Account Number from the source pool,\n9.  Avoiding Exception Mails in case of IO, Socket Timeout, etc., if the request is handled by requeueing,\n10. Added new Team VC page and\n11. Changed Ajax ready state from 1 to 2. With the confirmation of state 1, connection has been established but some time request failed to reach server. With state 2, it confirms the request has been reached to server, which will avoid message loss and other services.\n\n# Bug Fix\n1.  If the Name field left empty and moving the focus to Phone field, if we type numbers in Phone field, it jumps back to Name field,\n2.  Current tab index change for Distributed Source and LoopToDo,\n3.  Thumbs Up and Thumbs Down LoopToDo change based on application environment ( Live or Staging ),\n4.  Changed API Key's for User Action Tracker and Transfer Board service to persist interactions in FULL History and\n5.  Analytics bug fixes.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/sithika-a/testRepo/releases/4261426",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/sithika-a/testRepo/releases/4261426/assets",
+      "htmlUrl": "https://github.com/sithika-a/testRepo/releases/tag/v0.5.59",
+      "id": 4261426,
+      "tagName": "v0.5.59",
+      "targetCommitish": "master",
+      "name": "v0.5.59",
+      "draft": false,
+      "author": {
+        "login": "sithika-a",
+        "id": 10615257,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10615257?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/sithika-a",
+        "htmlUrl": "https://github.com/sithika-a",
+        "followersUrl": "https://api.github.com/users/sithika-a/followers",
+        "subscriptionsUrl": "https://api.github.com/users/sithika-a/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/sithika-a/orgs",
+        "reposUrl": "https://api.github.com/users/sithika-a/repos",
+        "receivedEventsUrl": "https://api.github.com/users/sithika-a/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-03-02T10:44:58.000Z",
+      "publishedAt": "2016-09-29T09:21:24.000Z",
+      "tarballUrl": "https://api.github.com/repos/sithika-a/testRepo/tarball/v0.5.59",
+      "zipballUrl": "https://api.github.com/repos/sithika-a/testRepo/zipball/v0.5.59",
+      "body": "**Implementation**\n- FileDownloader for chat with electron  dialog api.\n- Getting maximum tab loaded by user in SwitchBoard window and sending it analytics. \n\n**Bug Fix**\n- Avoiding multiple download in engine Updation.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/sithika-a/testRepo/releases/4251931",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/sithika-a/testRepo/releases/4251931/assets",
+      "htmlUrl": "https://github.com/sithika-a/testRepo/releases/tag/v0.5.57",
+      "id": 4251931,
+      "tagName": "v0.5.57",
+      "targetCommitish": "master",
+      "name": "v0.5.57",
+      "draft": false,
+      "author": {
+        "login": "sithika-a",
+        "id": 10615257,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10615257?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/sithika-a",
+        "htmlUrl": "https://github.com/sithika-a",
+        "followersUrl": "https://api.github.com/users/sithika-a/followers",
+        "subscriptionsUrl": "https://api.github.com/users/sithika-a/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/sithika-a/orgs",
+        "reposUrl": "https://api.github.com/users/sithika-a/repos",
+        "receivedEventsUrl": "https://api.github.com/users/sithika-a/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-03-02T10:44:58.000Z",
+      "publishedAt": "2016-09-30T09:38:43.000Z",
+      "tarballUrl": "https://api.github.com/repos/sithika-a/testRepo/tarball/v0.5.57",
+      "zipballUrl": "https://api.github.com/repos/sithika-a/testRepo/zipball/v0.5.57",
+      "body": "# Functionalities\n1. Integrated Update UI for App Update\n2. Fetch Release Details for Particular App update for Client\n3.  Fetch Release Details for Particular Engine update for Client\n"
+    },
+    {
+      "url": "https://api.github.com/repos/sithika-a/testRepo/releases/4247948",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/sithika-a/testRepo/releases/4247948/assets",
+      "htmlUrl": "https://github.com/sithika-a/testRepo/releases/tag/v0.5.61",
+      "id": 4247948,
+      "tagName": "v0.5.61",
+      "targetCommitish": "master",
+      "name": "v0.5.61",
+      "draft": false,
+      "author": {
+        "login": "sithika-a",
+        "id": 10615257,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10615257?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/sithika-a",
+        "htmlUrl": "https://github.com/sithika-a",
+        "followersUrl": "https://api.github.com/users/sithika-a/followers",
+        "subscriptionsUrl": "https://api.github.com/users/sithika-a/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/sithika-a/orgs",
+        "reposUrl": "https://api.github.com/users/sithika-a/repos",
+        "receivedEventsUrl": "https://api.github.com/users/sithika-a/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-03-02T10:44:58.000Z",
+      "publishedAt": "2016-09-28T06:30:19.000Z",
+      "tarballUrl": "https://api.github.com/repos/sithika-a/testRepo/tarball/v0.5.61",
+      "zipballUrl": "https://api.github.com/repos/sithika-a/testRepo/zipball/v0.5.61",
+      "body": "**\\* Kamesh Header ***\n\nIt's very easy to make some words **bold** and other words _italic_ with Markdown. You can even [link to Google!](http://google.com)\n\nSometimes you want numbered lists:\n1. One\n2. Two\n3. Three\n\nSometimes you want bullet points:\n- Start a line with a star\n- Profit!\n\nAlternatively,\n- Dashes work just as well\n- And if you have sub points, put two spaces before the dash or star:\n  - Like this\n  - And this\n\nIf you want to embed images, this is how you do it:\n\n![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)\n\n# Structured documents\n\nSometimes it's useful to have different levels of headings to structure your documents. Start lines with a `#` to create headings. Multiple `##` in a row denote smaller heading sizes.\n\n### This is a third-tier heading\n\nYou can use one `#` all the way up to `######` six for different heading sizes.\n\nIf you'd like to quote someone, use the > character before the line:\n\n> Coffee. The finest organic suspension ever devised... I beat the Borg with it.\n> - Captain Janeway\n\nThere are many different ways to style code with GitHub's markdown. If you have inline code blocks, wrap them in backticks: `var example = true`.  If you've got a longer block of code, you can indent with four spaces:\n\n```\nif (isAwesome){\n  return true\n}\n```\n\nGitHub also supports something called code fencing, which allows for multiple lines without indentation:\n\n```\nif (isAwesome){\n  return true\n}\n```\n\nAnd if you'd like to use syntax highlighting, include the language:\n\n``` javascript\nif (isAwesome){\n  return true\n}\n```\n"
+    }
+  ]
 }

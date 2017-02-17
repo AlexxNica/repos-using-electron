@@ -80,7 +80,6 @@
       "build:app:linux": "npm run prepare:dist && webpack --progress --colors --config webpack.electron.js && cd electron-app && build --linux",
       "build:app:arm": "npm run prepare:dist && webpack --progress --colors --config webpack.electron.js && cd electron-app && build --armv7l"
     },
-    "author": "https://github.com/jacekk",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.17.0",
@@ -120,6 +119,9 @@
       "redux-localstorage": "^0.4.1",
       "uuid": "^2.0.3",
       "validator": "^6.1.0"
+    },
+    "other": {
+      "author": "https://github.com/jacekk"
     }
   },
   "packageStatus": 200,
@@ -147,5 +149,7 @@
       "url": "https://api.github.com/repos/jacekk/site-switcher/git/commits/24d461b817bc2fcb5bd67cf6834c6bf44fe19e97",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jacekk___site-switcher.json",
+  "releases": []
 }

@@ -153,17 +153,7 @@
       "postinstall": "make postinstall",
       "localInstall": "cp -r ./release/Playa-darwin-x64/Playa.app/ /Applications/Playa.app/"
     },
-    "private": true,
-    "other": {
-      "author": {
-        "name": "Diego Caponera",
-        "email": "diego.caponera@gmail.com",
-        "url": "http://www.diegocaponera.com"
-      },
-      "bugs": {
-        "url": "https://github.com/moonwave99/playa/issues"
-      }
-    }
+    "private": true
   },
   "packageStatus": 200,
   "contributors": [
@@ -191,5 +181,361 @@
       "commentCount": 0
     }
   },
-  "filename": "moonwave99___playa.json"
+  "filename": "moonwave99___playa.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/moonwave99/playa/releases/2601873",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/moonwave99/playa/releases/assets/1304445",
+          "id": 1304445,
+          "name": "Playa-darwin-x64_v0.2.3.zip",
+          "label": null,
+          "uploader": {
+            "login": "moonwave99",
+            "id": 380184,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/380184?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/moonwave99",
+            "htmlUrl": "https://github.com/moonwave99",
+            "followersUrl": "https://api.github.com/users/moonwave99/followers",
+            "subscriptionsUrl": "https://api.github.com/users/moonwave99/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/moonwave99/orgs",
+            "reposUrl": "https://api.github.com/users/moonwave99/repos",
+            "receivedEventsUrl": "https://api.github.com/users/moonwave99/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 85457921,
+          "downloadCount": 96,
+          "createdAt": "2016-02-12T11:50:14.000Z",
+          "updatedAt": "2016-02-12T11:51:02.000Z",
+          "browserDownloadUrl": "https://github.com/moonwave99/playa/releases/download/v0.2.3/Playa-darwin-x64_v0.2.3.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/moonwave99/playa/releases/2601873/assets",
+      "htmlUrl": "https://github.com/moonwave99/playa/releases/tag/v0.2.3",
+      "id": 2601873,
+      "tagName": "v0.2.3",
+      "targetCommitish": "master",
+      "name": "Playa v0.2.3",
+      "draft": false,
+      "author": {
+        "login": "moonwave99",
+        "id": 380184,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/380184?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/moonwave99",
+        "htmlUrl": "https://github.com/moonwave99",
+        "followersUrl": "https://api.github.com/users/moonwave99/followers",
+        "subscriptionsUrl": "https://api.github.com/users/moonwave99/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/moonwave99/orgs",
+        "reposUrl": "https://api.github.com/users/moonwave99/repos",
+        "receivedEventsUrl": "https://api.github.com/users/moonwave99/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-02-12T11:47:05.000Z",
+      "publishedAt": "2016-02-12T11:54:36.000Z",
+      "tarballUrl": "https://api.github.com/repos/moonwave99/playa/tarball/v0.2.3",
+      "zipballUrl": "https://api.github.com/repos/moonwave99/playa/zipball/v0.2.3",
+      "body": "This release contains the following:\n\n**Features:**\n\n#43 Media Keys control support;\n#49 Locate missing folders in playlists;\n#52 About Window.\n\n**Bugfixes:**\n\n#45 Playlist total count when there are disabled elements;\n#50 Crash on File Dialog dismiss.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/moonwave99/playa/releases/2588780",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/moonwave99/playa/releases/assets/1297716",
+          "id": 1297716,
+          "name": "Playa_v0.2.2.zip",
+          "label": null,
+          "uploader": {
+            "login": "moonwave99",
+            "id": 380184,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/380184?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/moonwave99",
+            "htmlUrl": "https://github.com/moonwave99",
+            "followersUrl": "https://api.github.com/users/moonwave99/followers",
+            "subscriptionsUrl": "https://api.github.com/users/moonwave99/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/moonwave99/orgs",
+            "reposUrl": "https://api.github.com/users/moonwave99/repos",
+            "receivedEventsUrl": "https://api.github.com/users/moonwave99/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 84549085,
+          "downloadCount": 6,
+          "createdAt": "2016-02-10T18:23:08.000Z",
+          "updatedAt": "2016-02-10T18:23:37.000Z",
+          "browserDownloadUrl": "https://github.com/moonwave99/playa/releases/download/v0.2.2/Playa_v0.2.2.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/moonwave99/playa/releases/2588780/assets",
+      "htmlUrl": "https://github.com/moonwave99/playa/releases/tag/v0.2.2",
+      "id": 2588780,
+      "tagName": "v0.2.2",
+      "targetCommitish": "master",
+      "name": "Playa v0.2.2",
+      "draft": false,
+      "author": {
+        "login": "moonwave99",
+        "id": 380184,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/380184?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/moonwave99",
+        "htmlUrl": "https://github.com/moonwave99",
+        "followersUrl": "https://api.github.com/users/moonwave99/followers",
+        "subscriptionsUrl": "https://api.github.com/users/moonwave99/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/moonwave99/orgs",
+        "reposUrl": "https://api.github.com/users/moonwave99/repos",
+        "receivedEventsUrl": "https://api.github.com/users/moonwave99/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-02-10T18:20:40.000Z",
+      "publishedAt": "2016-02-10T18:24:45.000Z",
+      "tarballUrl": "https://api.github.com/repos/moonwave99/playa/tarball/v0.2.2",
+      "zipballUrl": "https://api.github.com/repos/moonwave99/playa/zipball/v0.2.2",
+      "body": "This release fixes #38  (playlist scroll problems) and #39 (playback keyboard retrigger).\n"
+    },
+    {
+      "url": "https://api.github.com/repos/moonwave99/playa/releases/1658093",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/moonwave99/playa/releases/assets/782595",
+          "id": 782595,
+          "name": "Playa_v0.2.1.zip",
+          "label": null,
+          "uploader": {
+            "login": "moonwave99",
+            "id": 380184,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/380184?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/moonwave99",
+            "htmlUrl": "https://github.com/moonwave99",
+            "followersUrl": "https://api.github.com/users/moonwave99/followers",
+            "subscriptionsUrl": "https://api.github.com/users/moonwave99/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/moonwave99/orgs",
+            "reposUrl": "https://api.github.com/users/moonwave99/repos",
+            "receivedEventsUrl": "https://api.github.com/users/moonwave99/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 50602220,
+          "downloadCount": 21,
+          "createdAt": "2015-08-11T19:55:55.000Z",
+          "updatedAt": "2015-08-11T20:03:20.000Z",
+          "browserDownloadUrl": "https://github.com/moonwave99/playa/releases/download/v0.2.1/Playa_v0.2.1.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/moonwave99/playa/releases/1658093/assets",
+      "htmlUrl": "https://github.com/moonwave99/playa/releases/tag/v0.2.1",
+      "id": 1658093,
+      "tagName": "v0.2.1",
+      "targetCommitish": "master",
+      "name": "Playa v0.2.1",
+      "draft": false,
+      "author": {
+        "login": "moonwave99",
+        "id": 380184,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/380184?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/moonwave99",
+        "htmlUrl": "https://github.com/moonwave99",
+        "followersUrl": "https://api.github.com/users/moonwave99/followers",
+        "subscriptionsUrl": "https://api.github.com/users/moonwave99/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/moonwave99/orgs",
+        "reposUrl": "https://api.github.com/users/moonwave99/repos",
+        "receivedEventsUrl": "https://api.github.com/users/moonwave99/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2015-08-11T19:52:40.000Z",
+      "publishedAt": "2015-08-11T20:03:24.000Z",
+      "tarballUrl": "https://api.github.com/repos/moonwave99/playa/tarball/v0.2.1",
+      "zipballUrl": "https://api.github.com/repos/moonwave99/playa/zipball/v0.2.1",
+      "body": "This release fixes the annoying playback seek bug that happened when using the playback tray.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/moonwave99/playa/releases/1638913",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/moonwave99/playa/releases/assets/771979",
+          "id": 771979,
+          "name": "Playa_v0.2.0.zip",
+          "label": null,
+          "uploader": {
+            "login": "moonwave99",
+            "id": 380184,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/380184?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/moonwave99",
+            "htmlUrl": "https://github.com/moonwave99",
+            "followersUrl": "https://api.github.com/users/moonwave99/followers",
+            "subscriptionsUrl": "https://api.github.com/users/moonwave99/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/moonwave99/orgs",
+            "reposUrl": "https://api.github.com/users/moonwave99/repos",
+            "receivedEventsUrl": "https://api.github.com/users/moonwave99/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 50601147,
+          "downloadCount": 1,
+          "createdAt": "2015-08-06T19:13:26.000Z",
+          "updatedAt": "2015-08-06T19:21:03.000Z",
+          "browserDownloadUrl": "https://github.com/moonwave99/playa/releases/download/v0.2.0/Playa_v0.2.0.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/moonwave99/playa/releases/1638913/assets",
+      "htmlUrl": "https://github.com/moonwave99/playa/releases/tag/v0.2.0",
+      "id": 1638913,
+      "tagName": "v0.2.0",
+      "targetCommitish": "master",
+      "name": "Playa v0.2.0",
+      "draft": false,
+      "author": {
+        "login": "moonwave99",
+        "id": 380184,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/380184?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/moonwave99",
+        "htmlUrl": "https://github.com/moonwave99",
+        "followersUrl": "https://api.github.com/users/moonwave99/followers",
+        "subscriptionsUrl": "https://api.github.com/users/moonwave99/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/moonwave99/orgs",
+        "reposUrl": "https://api.github.com/users/moonwave99/repos",
+        "receivedEventsUrl": "https://api.github.com/users/moonwave99/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2015-08-06T19:08:24.000Z",
+      "publishedAt": "2015-08-06T19:12:13.000Z",
+      "tarballUrl": "https://api.github.com/repos/moonwave99/playa/tarball/v0.2.0",
+      "zipballUrl": "https://api.github.com/repos/moonwave99/playa/zipball/v0.2.0",
+      "body": "This release fixes most UI bugs.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/moonwave99/playa/releases/1612629",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/moonwave99/playa/releases/assets/758420",
+          "id": 758420,
+          "name": "Playa_v0.1.1.zip",
+          "label": null,
+          "uploader": {
+            "login": "moonwave99",
+            "id": 380184,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/380184?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/moonwave99",
+            "htmlUrl": "https://github.com/moonwave99",
+            "followersUrl": "https://api.github.com/users/moonwave99/followers",
+            "subscriptionsUrl": "https://api.github.com/users/moonwave99/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/moonwave99/orgs",
+            "reposUrl": "https://api.github.com/users/moonwave99/repos",
+            "receivedEventsUrl": "https://api.github.com/users/moonwave99/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 50355199,
+          "downloadCount": 3,
+          "createdAt": "2015-07-31T13:16:35.000Z",
+          "updatedAt": "2015-07-31T13:17:05.000Z",
+          "browserDownloadUrl": "https://github.com/moonwave99/playa/releases/download/v0.1.1/Playa_v0.1.1.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/moonwave99/playa/releases/1612629/assets",
+      "htmlUrl": "https://github.com/moonwave99/playa/releases/tag/v0.1.1",
+      "id": 1612629,
+      "tagName": "v0.1.1",
+      "targetCommitish": "master",
+      "name": "Playa v0.1.1",
+      "draft": false,
+      "author": {
+        "login": "moonwave99",
+        "id": 380184,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/380184?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/moonwave99",
+        "htmlUrl": "https://github.com/moonwave99",
+        "followersUrl": "https://api.github.com/users/moonwave99/followers",
+        "subscriptionsUrl": "https://api.github.com/users/moonwave99/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/moonwave99/orgs",
+        "reposUrl": "https://api.github.com/users/moonwave99/repos",
+        "receivedEventsUrl": "https://api.github.com/users/moonwave99/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2015-07-31T13:15:14.000Z",
+      "publishedAt": "2015-07-31T13:17:20.000Z",
+      "tarballUrl": "https://api.github.com/repos/moonwave99/playa/tarball/v0.1.1",
+      "zipballUrl": "https://api.github.com/repos/moonwave99/playa/zipball/v0.1.1",
+      "body": "Fix minor bug that may cause crashes on the very first app launch.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/moonwave99/playa/releases/1612492",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/moonwave99/playa/releases/assets/758372",
+          "id": 758372,
+          "name": "Playa_v0.1.zip",
+          "label": null,
+          "uploader": {
+            "login": "moonwave99",
+            "id": 380184,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/380184?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/moonwave99",
+            "htmlUrl": "https://github.com/moonwave99",
+            "followersUrl": "https://api.github.com/users/moonwave99/followers",
+            "subscriptionsUrl": "https://api.github.com/users/moonwave99/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/moonwave99/orgs",
+            "reposUrl": "https://api.github.com/users/moonwave99/repos",
+            "receivedEventsUrl": "https://api.github.com/users/moonwave99/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 50391586,
+          "downloadCount": 0,
+          "createdAt": "2015-07-31T12:40:22.000Z",
+          "updatedAt": "2015-07-31T12:40:52.000Z",
+          "browserDownloadUrl": "https://github.com/moonwave99/playa/releases/download/v0.1/Playa_v0.1.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/moonwave99/playa/releases/1612492/assets",
+      "htmlUrl": "https://github.com/moonwave99/playa/releases/tag/v0.1",
+      "id": 1612492,
+      "tagName": "v0.1",
+      "targetCommitish": "master",
+      "name": "Playa v0.1",
+      "draft": false,
+      "author": {
+        "login": "moonwave99",
+        "id": 380184,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/380184?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/moonwave99",
+        "htmlUrl": "https://github.com/moonwave99",
+        "followersUrl": "https://api.github.com/users/moonwave99/followers",
+        "subscriptionsUrl": "https://api.github.com/users/moonwave99/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/moonwave99/orgs",
+        "reposUrl": "https://api.github.com/users/moonwave99/repos",
+        "receivedEventsUrl": "https://api.github.com/users/moonwave99/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2015-07-31T12:35:41.000Z",
+      "publishedAt": "2015-07-31T12:41:51.000Z",
+      "tarballUrl": "https://api.github.com/repos/moonwave99/playa/tarball/v0.1",
+      "zipballUrl": "https://api.github.com/repos/moonwave99/playa/zipball/v0.1",
+      "body": "This is the very first release of Playa, as it contains the bare minimum set of features I wanted to share.\n\nIt features playback, playlist management, track waveform display, Last.fm scrobbling.\n"
+    }
+  ]
 }

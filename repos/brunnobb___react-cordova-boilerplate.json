@@ -69,7 +69,6 @@
     "name": "test-project",
     "description": "Test Project",
     "main": "./main.jsx",
-    "author": "",
     "license": "",
     "dependencies": {
       "isomorphic-fetch": "^2.2.1",
@@ -117,6 +116,9 @@
       "browser": "set NODE_ENV=development&&npm run webpack&&http-server ./www/ -i --cors -c-1 -o",
       "android": "set NODE_ENV=development&&npm run webpack&&cd cordova&&cordova run android",
       "ios": "set NODE_ENV=development&&npm run webpack&&cd cordova&&cordova run ios"
+    },
+    "other": {
+      "author": ""
     }
   },
   "packageStatus": 200,
@@ -144,5 +146,7 @@
       "url": "https://api.github.com/repos/brunnobb/react-cordova-boilerplate/git/commits/2ee7c0415d250ce9ab6cc1f6110d508c469498de",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "brunnobb___react-cordova-boilerplate.json",
+  "releases": []
 }

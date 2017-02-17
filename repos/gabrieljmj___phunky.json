@@ -102,9 +102,6 @@
       "build:win": "npm run clean:win && electron-packager . phunky --out=dist/win --platform=win32 --arch=ia32 --icon=browser/assets/images/phunky-icon.ico --version=0.36.2 --ignore browser/assets/js --ignore=browser/assets/sass --ignore=dist/win --ignore=builder.json --ignore=gulpfile.js --ignore=.editorconfig --ignore=README.md --ignore=.gitignore",
       "build:osx": "npm run clean:osx && electron-packager . phunky --out=dist/osx --platform=darwin --arch=x64 --icon=browser/assets/images/phunky-icon.ico --version=0.36.2 --ignore browser/assets/js --ignore=browser/assets/sass --ignore=dist/win --ignore=builder.json --ignore=gulpfile.js --ignore=.editorconfig --ignore=README.md --ignore=.gitignore",
       "build": "npm run build:win && npm run build:osx"
-    },
-    "other": {
-      "author": "Gabriel Jacinto <gamjj74@hotmail.com>"
     }
   },
   "packageStatus": 200,
@@ -134,5 +131,6 @@
       "commentCount": 0
     }
   },
-  "filename": "gabrieljmj___phunky.json"
+  "filename": "gabrieljmj___phunky.json",
+  "releases": []
 }

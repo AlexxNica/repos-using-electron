@@ -68,9 +68,6 @@
       "electron-prebuilt": "^1.2.1",
       "electron-windows-store": "^0.4.1",
       "gulp": "^3.9.1"
-    },
-    "other": {
-      "author": "Felix Rieseberg <felix@felixrieseberg.com>"
     }
   },
   "packageStatus": 200,
@@ -119,5 +116,66 @@
       "commentCount": 0
     }
   },
-  "filename": "felixrieseberg___electron-uwp-background.json"
+  "filename": "felixrieseberg___electron-uwp-background.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/felixrieseberg/electron-uwp-background/releases/3375010",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/felixrieseberg/electron-uwp-background/releases/assets/1795101",
+          "id": 1795101,
+          "name": "electron-uwp-background.zip",
+          "label": null,
+          "uploader": {
+            "login": "felixrieseberg",
+            "id": 1426799,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/1426799?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/felixrieseberg",
+            "htmlUrl": "https://github.com/felixrieseberg",
+            "followersUrl": "https://api.github.com/users/felixrieseberg/followers",
+            "subscriptionsUrl": "https://api.github.com/users/felixrieseberg/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/felixrieseberg/orgs",
+            "reposUrl": "https://api.github.com/users/felixrieseberg/repos",
+            "receivedEventsUrl": "https://api.github.com/users/felixrieseberg/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-zip-compressed",
+          "state": "uploaded",
+          "size": 50991715,
+          "downloadCount": 68,
+          "createdAt": "2016-06-05T01:50:00.000Z",
+          "updatedAt": "2016-06-05T01:51:44.000Z",
+          "browserDownloadUrl": "https://github.com/felixrieseberg/electron-uwp-background/releases/download/v1.0.0/electron-uwp-background.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/felixrieseberg/electron-uwp-background/releases/3375010/assets",
+      "htmlUrl": "https://github.com/felixrieseberg/electron-uwp-background/releases/tag/v1.0.0",
+      "id": 3375010,
+      "tagName": "v1.0.0",
+      "targetCommitish": "master",
+      "name": "Example with Binaries",
+      "draft": false,
+      "author": {
+        "login": "felixrieseberg",
+        "id": 1426799,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1426799?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/felixrieseberg",
+        "htmlUrl": "https://github.com/felixrieseberg",
+        "followersUrl": "https://api.github.com/users/felixrieseberg/followers",
+        "subscriptionsUrl": "https://api.github.com/users/felixrieseberg/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/felixrieseberg/orgs",
+        "reposUrl": "https://api.github.com/users/felixrieseberg/repos",
+        "receivedEventsUrl": "https://api.github.com/users/felixrieseberg/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-06-05T01:49:13.000Z",
+      "publishedAt": "2016-06-05T01:53:07.000Z",
+      "tarballUrl": "https://api.github.com/repos/felixrieseberg/electron-uwp-background/tarball/v1.0.0",
+      "zipballUrl": "https://api.github.com/repos/felixrieseberg/electron-uwp-background/zipball/v1.0.0",
+      "body": "This zip contains all required binaries - as long as you're running Windows 10 Anniversary Update (build 14342 and up), you can try the whole thing out.\n- Download the ZIP file\n- Open up PowerShell as an administrator and execute `Add-AppxPackage –register ./electron-uwp-background/AppxManifest.xml`\n- In your start menu, search for \"Electron Background\". Make a right click and pin it to your start menu. Run the app.\n- In your settings, change your time zone. A notification should pop up, and the tile of your app should update.\n  \n  > :warning: Do _not_ be shocked if the notification or the new live do not show up immediately. They should be visible within the first two minutes, but dependening on your system and its load, it might take longer.\n"
+    }
+  ]
 }

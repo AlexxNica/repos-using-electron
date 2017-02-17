@@ -221,5 +221,38 @@
       "commentCount": 0
     }
   },
-  "filename": "OpenTrons___opentrons-app.json"
+  "filename": "OpenTrons___opentrons-app.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/OpenTrons/opentrons-app/releases/5280322",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/OpenTrons/opentrons-app/releases/5280322/assets",
+      "htmlUrl": "https://github.com/OpenTrons/opentrons-app/releases/tag/2.2.0",
+      "id": 5280322,
+      "tagName": "2.2.0",
+      "targetCommitish": "master",
+      "name": "2.2.0",
+      "draft": false,
+      "author": {
+        "login": "andySigler",
+        "id": 3085774,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3085774?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/andySigler",
+        "htmlUrl": "https://github.com/andySigler",
+        "followersUrl": "https://api.github.com/users/andySigler/followers",
+        "subscriptionsUrl": "https://api.github.com/users/andySigler/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/andySigler/orgs",
+        "reposUrl": "https://api.github.com/users/andySigler/repos",
+        "receivedEventsUrl": "https://api.github.com/users/andySigler/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2017-01-26T22:29:53.000Z",
+      "publishedAt": "2017-01-26T22:39:43.000Z",
+      "tarballUrl": "https://api.github.com/repos/OpenTrons/opentrons-app/tarball/2.2.0",
+      "zipballUrl": "https://api.github.com/repos/OpenTrons/opentrons-app/zipball/2.2.0",
+      "body": "### New Features\r\n* Enhanced error handling while running protocol\r\n* Dropping support for Python 3.4, requiring Python 3.5 only\r\n* Adds new feature to `touch_tip()` allowing optional numeric height offset. Example: `pipette.touch_tip(-2)`\r\n* Adds new API feature `pipette.air_gap(volume)`\r\n* Adds new API feature `pipette.start_at_tip(tip)`\r\n* Adds new container definitions\r\n\r\n### Bugs Fixed\r\n* Notification delays bug removed\r\n* Bug where UI displays \"Processing\" forever removed\r\n* Removes bug on Windows when deleting old calibration files\r\n* Fixes tip positions of \"tiprack-200ul\" and \"tiprack-10ul\"\r\n* Removes bug in containers with wells of different radiuses"
+    }
+  ]
 }

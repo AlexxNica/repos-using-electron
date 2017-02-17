@@ -96,25 +96,24 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/HelixOne/letojs.git"
-    },
+    "repository": "https://github.com/HelixOne/letojs",
     "keywords": [
       "leto"
     ],
-    "author": {
-      "name": "Zubair Lawrence",
-      "email": "leto@helix.one"
-    },
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/HelixOne/letojs/issues"
-    },
     "homepage": "https://github.com/HelixOne/letojs#readme",
     "dependencies": {
       "commander": "^2.9.0",
       "fs-extra": "^0.26.5"
+    },
+    "other": {
+      "author": {
+        "name": "Zubair Lawrence",
+        "email": "leto@helix.one"
+      },
+      "bugs": {
+        "url": "https://github.com/HelixOne/letojs/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -142,5 +141,39 @@
       "url": "https://api.github.com/repos/HelixOne/letojs/git/commits/cefceec4d3e8513c86b151a7ba5b301078d33df5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "HelixOne___letojs.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/HelixOne/letojs/releases/2674575",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/HelixOne/letojs/releases/2674575/assets",
+      "htmlUrl": "https://github.com/HelixOne/letojs/releases/tag/0.0.2",
+      "id": 2674575,
+      "tagName": "0.0.2",
+      "targetCommitish": "master",
+      "name": "",
+      "draft": false,
+      "author": {
+        "login": "zubair-io",
+        "id": 140374,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/140374?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/zubair-io",
+        "htmlUrl": "https://github.com/zubair-io",
+        "followersUrl": "https://api.github.com/users/zubair-io/followers",
+        "subscriptionsUrl": "https://api.github.com/users/zubair-io/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/zubair-io/orgs",
+        "reposUrl": "https://api.github.com/users/zubair-io/repos",
+        "receivedEventsUrl": "https://api.github.com/users/zubair-io/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-02-23T21:58:12.000Z",
+      "publishedAt": "2016-02-23T22:03:50.000Z",
+      "tarballUrl": "https://api.github.com/repos/HelixOne/letojs/tarball/0.0.2",
+      "zipballUrl": "https://api.github.com/repos/HelixOne/letojs/zipball/0.0.2",
+      "body": ""
+    }
+  ]
 }

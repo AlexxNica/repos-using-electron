@@ -88,9 +88,6 @@
       "build": "electron-packager . PingLogger --platform=darwin --arch=x64 --version=0.30.5 --ignore='node_modules/electron-(packager|prebuild)'",
       "start": "electron .",
       "publish": "publish-release --template notes.md --assets PingLogger.zip"
-    },
-    "other": {
-      "author": "Oren Teich"
     }
   },
   "packageStatus": 200,
@@ -119,5 +116,66 @@
       "commentCount": 0
     }
   },
-  "filename": "teich___pinglog-menubar.json"
+  "filename": "teich___pinglog-menubar.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/teich/pinglog-menubar/releases/1728394",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/teich/pinglog-menubar/releases/assets/820059",
+          "id": 820059,
+          "name": "PingLogger-darwin-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "teich",
+            "id": 47476,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/47476?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/teich",
+            "htmlUrl": "https://github.com/teich",
+            "followersUrl": "https://api.github.com/users/teich/followers",
+            "subscriptionsUrl": "https://api.github.com/users/teich/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/teich/orgs",
+            "reposUrl": "https://api.github.com/users/teich/repos",
+            "receivedEventsUrl": "https://api.github.com/users/teich/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 42936885,
+          "downloadCount": 5,
+          "createdAt": "2015-08-26T23:45:21.000Z",
+          "updatedAt": "2015-08-26T23:45:33.000Z",
+          "browserDownloadUrl": "https://github.com/teich/pinglog-menubar/releases/download/v1.0.0/PingLogger-darwin-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/teich/pinglog-menubar/releases/1728394/assets",
+      "htmlUrl": "https://github.com/teich/pinglog-menubar/releases/tag/v1.0.0",
+      "id": 1728394,
+      "tagName": "v1.0.0",
+      "targetCommitish": "master",
+      "name": "pinglog-menubar v1.0.0",
+      "draft": false,
+      "author": {
+        "login": "teich",
+        "id": 47476,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47476?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/teich",
+        "htmlUrl": "https://github.com/teich",
+        "followersUrl": "https://api.github.com/users/teich/followers",
+        "subscriptionsUrl": "https://api.github.com/users/teich/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/teich/orgs",
+        "reposUrl": "https://api.github.com/users/teich/repos",
+        "receivedEventsUrl": "https://api.github.com/users/teich/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2015-08-26T23:41:05.000Z",
+      "publishedAt": "2015-08-26T23:43:01.000Z",
+      "tarballUrl": "https://api.github.com/repos/teich/pinglog-menubar/tarball/v1.0.0",
+      "zipballUrl": "https://api.github.com/repos/teich/pinglog-menubar/zipball/v1.0.0",
+      "body": "First release of the logger. It seems to work, and you can quit. Beyond that, who knows!\n"
+    }
+  ]
 }

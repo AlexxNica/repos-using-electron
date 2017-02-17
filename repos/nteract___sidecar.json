@@ -103,12 +103,6 @@
     },
     "devDependencies": {
       "electron-packager": "^4.1.3"
-    },
-    "other": {
-      "author": "Kyle Kelley",
-      "bugs": {
-        "url": "https://github.com/rgbkrk/jupyter-sidecar/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -140,5 +134,93 @@
       "commentCount": 0
     }
   },
-  "filename": "nteract___sidecar.json"
+  "filename": "nteract___sidecar.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/nteract/sidecar/releases/1466878",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/nteract/sidecar/releases/assets/670186",
+          "id": 670186,
+          "name": "SideCar-linux-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "rgbkrk",
+            "id": 836375,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/836375?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/rgbkrk",
+            "htmlUrl": "https://github.com/rgbkrk",
+            "followersUrl": "https://api.github.com/users/rgbkrk/followers",
+            "subscriptionsUrl": "https://api.github.com/users/rgbkrk/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/rgbkrk/orgs",
+            "reposUrl": "https://api.github.com/users/rgbkrk/repos",
+            "receivedEventsUrl": "https://api.github.com/users/rgbkrk/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 40139383,
+          "downloadCount": 0,
+          "createdAt": "2015-06-26T19:27:49.000Z",
+          "updatedAt": "2015-06-26T19:28:08.000Z",
+          "browserDownloadUrl": "https://github.com/nteract/sidecar/releases/download/v0.0.2/SideCar-linux-x64.zip"
+        },
+        {
+          "url": "https://api.github.com/repos/nteract/sidecar/releases/assets/670121",
+          "id": 670121,
+          "name": "SideCar-OSX.zip",
+          "label": null,
+          "uploader": {
+            "login": "rgbkrk",
+            "id": 836375,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/836375?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/rgbkrk",
+            "htmlUrl": "https://github.com/rgbkrk",
+            "followersUrl": "https://api.github.com/users/rgbkrk/followers",
+            "subscriptionsUrl": "https://api.github.com/users/rgbkrk/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/rgbkrk/orgs",
+            "reposUrl": "https://api.github.com/users/rgbkrk/repos",
+            "receivedEventsUrl": "https://api.github.com/users/rgbkrk/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 40717316,
+          "downloadCount": 5,
+          "createdAt": "2015-06-26T19:03:06.000Z",
+          "updatedAt": "2015-06-26T19:28:24.000Z",
+          "browserDownloadUrl": "https://github.com/nteract/sidecar/releases/download/v0.0.2/SideCar-OSX.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/nteract/sidecar/releases/1466878/assets",
+      "htmlUrl": "https://github.com/nteract/sidecar/releases/tag/v0.0.2",
+      "id": 1466878,
+      "tagName": "v0.0.2",
+      "targetCommitish": "master",
+      "name": "The SideCar v0.0.2 Alpha",
+      "draft": false,
+      "author": {
+        "login": "rgbkrk",
+        "id": 836375,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/836375?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/rgbkrk",
+        "htmlUrl": "https://github.com/rgbkrk",
+        "followersUrl": "https://api.github.com/users/rgbkrk/followers",
+        "subscriptionsUrl": "https://api.github.com/users/rgbkrk/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/rgbkrk/orgs",
+        "reposUrl": "https://api.github.com/users/rgbkrk/repos",
+        "receivedEventsUrl": "https://api.github.com/users/rgbkrk/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2015-06-26T19:03:02.000Z",
+      "publishedAt": "2015-06-26T19:28:24.000Z",
+      "tarballUrl": "https://api.github.com/repos/nteract/sidecar/tarball/v0.0.2",
+      "zipballUrl": "https://api.github.com/repos/nteract/sidecar/zipball/v0.0.2",
+      "body": "# SideCar! :tada:\n\nYou'll need [`jupyter_console`](https://github.com/jupyter/jupyter_console) which is yet to be released.\n\nI need help packaging these well. Come join me!\n\n## Test it, try it, have a blast.\n\nStart up a console:\n\n```\n$ jupyter console\n```\n\nFire up sidecar in your platform's way. For OS X, this means opening the .App file (after unzipping). However, apparently the binary needs to be signed and I haven't done that so there are more hoops.\n\nSidecar will open as many display areas as there are kernels running, which means if you run\n\n```\njupyter console\n```\n\nin separate terminals, sidecar views will pop up automagically.\n"
+    }
+  ]
 }
