@@ -69,17 +69,13 @@
     "name": "MarkedDown",
     "version": "0.1.0",
     "description": "A Markdown live preview",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/whatisinternet/marked_down.git"
-    },
+    "repository": "https://github.com/whatisinternet/marked_down",
     "main": "index.js",
     "scripts": {
       "deploy": "NODE_ENV=production webpack -p --config config/application/webpack.production.config.js",
       "deploy-viewer": "NODE_ENV=production webpack -p --config config/application/webpack.electron.config.js",
       "app": "node ./config/application.js"
     },
-    "author": "whatisinternet",
     "license": "BSD 2-Clause",
     "dependencies": {
       "bemmer-node": "^0.1.2",
@@ -112,6 +108,9 @@
       "react-hot-loader": "^1.3.0",
       "webpack": "^1.8.10",
       "webpack-dev-server": "~1.12.1"
+    },
+    "other": {
+      "author": "whatisinternet"
     }
   },
   "packageStatus": 200,
@@ -139,5 +138,7 @@
       "url": "https://api.github.com/repos/whatisinternet/marked_down/git/commits/596d17f3d34b7621d77b0f5eae881d8303462a1d",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "whatisinternet___marked_down.json",
+  "releases": []
 }

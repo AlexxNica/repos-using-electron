@@ -58,7 +58,6 @@
       "publish": "gh-pages -d dist",
       "start": "cross-env NODE_ENV=development webpack-dev-server --hot --inline --progress --profile --watch"
     },
-    "author": "Chris Hoffman <christopher.hoffman@emerson.com>",
     "license": "ISC",
     "devDependencies": {
       "@cycle/dom": "^10.0.5",
@@ -98,6 +97,9 @@
       "webpack-dev-server": "^2.1.0-beta.0",
       "webpack-error-notification": "^0.1.6",
       "xstream": "^5.1.3"
+    },
+    "other": {
+      "author": "Chris Hoffman <christopher.hoffman@emerson.com>"
     }
   },
   "packageStatus": 200,
@@ -125,5 +127,7 @@
       "url": "https://api.github.com/repos/cehoffman/dmtf-md2html/git/commits/430d9cc13f3a3b303eeeb241e793d191744d7a82",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cehoffman___dmtf-md2html.json",
+  "releases": []
 }

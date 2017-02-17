@@ -123,16 +123,6 @@
       "build-linux": "npm run build -- linux",
       "build-darwin": "npm run build -- darwin",
       "clean": "node ./scripts/clean.js"
-    },
-    "other": {
-      "author": {
-        "name": "Joon Kyoung",
-        "email": "to@firejune.com",
-        "url": "http://firejune.com"
-      },
-      "bugs": {
-        "url": "https://github.com/firejune/dos-game-box/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -161,5 +151,93 @@
       "commentCount": 0
     }
   },
-  "filename": "firejune___dos-game-box.json"
+  "filename": "firejune___dos-game-box.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/firejune/dos-game-box/releases/3090482",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/firejune/dos-game-box/releases/assets/1595637",
+          "id": 1595637,
+          "name": "dosgamebox-v0.7.1-darwin-x64.dmg",
+          "label": null,
+          "uploader": {
+            "login": "firejune",
+            "id": 68166,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/68166?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/firejune",
+            "htmlUrl": "https://github.com/firejune",
+            "followersUrl": "https://api.github.com/users/firejune/followers",
+            "subscriptionsUrl": "https://api.github.com/users/firejune/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/firejune/orgs",
+            "reposUrl": "https://api.github.com/users/firejune/repos",
+            "receivedEventsUrl": "https://api.github.com/users/firejune/received_events",
+            "type": "User"
+          },
+          "contentType": "application/octet-stream",
+          "state": "uploaded",
+          "size": 85667217,
+          "downloadCount": 0,
+          "createdAt": "2016-04-25T12:22:05.000Z",
+          "updatedAt": "2016-04-25T12:22:44.000Z",
+          "browserDownloadUrl": "https://github.com/firejune/dos-game-box/releases/download/0.7.1/dosgamebox-v0.7.1-darwin-x64.dmg"
+        },
+        {
+          "url": "https://api.github.com/repos/firejune/dos-game-box/releases/assets/1595638",
+          "id": 1595638,
+          "name": "dosgamebox-v0.7.1-darwin-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "firejune",
+            "id": 68166,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/68166?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/firejune",
+            "htmlUrl": "https://github.com/firejune",
+            "followersUrl": "https://api.github.com/users/firejune/followers",
+            "subscriptionsUrl": "https://api.github.com/users/firejune/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/firejune/orgs",
+            "reposUrl": "https://api.github.com/users/firejune/repos",
+            "receivedEventsUrl": "https://api.github.com/users/firejune/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 85925926,
+          "downloadCount": 0,
+          "createdAt": "2016-04-25T12:22:06.000Z",
+          "updatedAt": "2016-04-25T12:23:26.000Z",
+          "browserDownloadUrl": "https://github.com/firejune/dos-game-box/releases/download/0.7.1/dosgamebox-v0.7.1-darwin-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/firejune/dos-game-box/releases/3090482/assets",
+      "htmlUrl": "https://github.com/firejune/dos-game-box/releases/tag/0.7.1",
+      "id": 3090482,
+      "tagName": "0.7.1",
+      "targetCommitish": "master",
+      "name": "DOSGameBox v0.7.1",
+      "draft": false,
+      "author": {
+        "login": "firejune",
+        "id": 68166,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68166?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/firejune",
+        "htmlUrl": "https://github.com/firejune",
+        "followersUrl": "https://api.github.com/users/firejune/followers",
+        "subscriptionsUrl": "https://api.github.com/users/firejune/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/firejune/orgs",
+        "reposUrl": "https://api.github.com/users/firejune/repos",
+        "receivedEventsUrl": "https://api.github.com/users/firejune/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-04-25T11:56:38.000Z",
+      "publishedAt": "2016-04-25T12:23:37.000Z",
+      "tarballUrl": "https://api.github.com/repos/firejune/dos-game-box/tarball/0.7.1",
+      "zipballUrl": "https://api.github.com/repos/firejune/dos-game-box/zipball/0.7.1",
+      "body": "Changelog:\n- Changed package build mechanism.\n- Add darwin x64 build package and dmg installation.\n- Add emscripten loading module.\n- Remove test files in build package\n- Add OS X application signing.\n"
+    }
+  ]
 }

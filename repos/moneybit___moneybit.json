@@ -99,13 +99,7 @@
     },
     "repository": "https://github.com/moneybit/middleend",
     "license": "BSD-3-Clause",
-    "homepage": "https://github.com/moneybit/middleend#readme",
-    "other": {
-      "author": "Athan Clark",
-      "bugs": {
-        "url": "https://github.com/moneybit/middleend/issues"
-      }
-    }
+    "homepage": "https://github.com/moneybit/middleend#readme"
   },
   "packageStatus": 200,
   "contributors": [
@@ -133,5 +127,93 @@
       "commentCount": 0
     }
   },
-  "filename": "moneybit___moneybit.json"
+  "filename": "moneybit___moneybit.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/moneybit/moneybit/releases/4576950",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/moneybit/moneybit/releases/assets/2612260",
+          "id": 2612260,
+          "name": "moneybit-linux-x86_64.tar.gz",
+          "label": null,
+          "uploader": {
+            "login": "athanclark",
+            "id": 1534966,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/1534966?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/athanclark",
+            "htmlUrl": "https://github.com/athanclark",
+            "followersUrl": "https://api.github.com/users/athanclark/followers",
+            "subscriptionsUrl": "https://api.github.com/users/athanclark/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/athanclark/orgs",
+            "reposUrl": "https://api.github.com/users/athanclark/repos",
+            "receivedEventsUrl": "https://api.github.com/users/athanclark/received_events",
+            "type": "User"
+          },
+          "contentType": "application/binary",
+          "state": "uploaded",
+          "size": 8187947,
+          "downloadCount": 1,
+          "createdAt": "2016-11-09T00:47:38.000Z",
+          "updatedAt": "2016-11-09T00:47:46.000Z",
+          "browserDownloadUrl": "https://github.com/moneybit/moneybit/releases/download/v0.0.1-alpha/moneybit-linux-x86_64.tar.gz"
+        },
+        {
+          "url": "https://api.github.com/repos/moneybit/moneybit/releases/assets/2612263",
+          "id": 2612263,
+          "name": "moneybit-windows-x86_64.zip",
+          "label": null,
+          "uploader": {
+            "login": "athanclark",
+            "id": 1534966,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/1534966?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/athanclark",
+            "htmlUrl": "https://github.com/athanclark",
+            "followersUrl": "https://api.github.com/users/athanclark/followers",
+            "subscriptionsUrl": "https://api.github.com/users/athanclark/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/athanclark/orgs",
+            "reposUrl": "https://api.github.com/users/athanclark/repos",
+            "receivedEventsUrl": "https://api.github.com/users/athanclark/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 8429014,
+          "downloadCount": 2,
+          "createdAt": "2016-11-09T00:47:52.000Z",
+          "updatedAt": "2016-11-09T00:48:00.000Z",
+          "browserDownloadUrl": "https://github.com/moneybit/moneybit/releases/download/v0.0.1-alpha/moneybit-windows-x86_64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/moneybit/moneybit/releases/4576950/assets",
+      "htmlUrl": "https://github.com/moneybit/moneybit/releases/tag/v0.0.1-alpha",
+      "id": 4576950,
+      "tagName": "v0.0.1-alpha",
+      "targetCommitish": "master",
+      "name": "Alpha Pre-Release",
+      "draft": false,
+      "author": {
+        "login": "athanclark",
+        "id": 1534966,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1534966?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/athanclark",
+        "htmlUrl": "https://github.com/athanclark",
+        "followersUrl": "https://api.github.com/users/athanclark/followers",
+        "subscriptionsUrl": "https://api.github.com/users/athanclark/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/athanclark/orgs",
+        "reposUrl": "https://api.github.com/users/athanclark/repos",
+        "receivedEventsUrl": "https://api.github.com/users/athanclark/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-11-05T01:21:43.000Z",
+      "publishedAt": "2016-11-05T01:49:01.000Z",
+      "tarballUrl": "https://api.github.com/repos/moneybit/moneybit/tarball/v0.0.1-alpha",
+      "zipballUrl": "https://api.github.com/repos/moneybit/moneybit/zipball/v0.0.1-alpha",
+      "body": "# MoneyBit Alpha\n\nFinally, something _usable_!\n\nFirst thing's first - there are a large number of issues with this current version:\n\n**DO NOT STORE LARGE SUMS OF Monero IN MONEYBIT!!!**\n\n> For usage instructions, please see the [README](https://github.com/moneybit/moneybit#moneybit-monero-wallet).\n- There is no security. If you think your computer may be compromised, **DO NOT USE MONEYBIT with the expectation that it's secure!!!**.\n- Transaction listening isn't working yet - you won't get live updates on incoming transactions.\n- Sometimes the app might break - the internal WebSocket isn't kept alive for very long so the connection dies. If you've had the app open for longer than 5 minutes, you may need to refresh.\n- The standalone electron bundled web app isn't ready yet - there's still some ironing I need to do in that area, but it's still usable as a web app if you point your browser to `localhost:3000` while the app is running.\n- It takes a _long_ time to load a wallet sometimes. This is directly correlated with \"catching up\" to the latest block height, but it should still be kinder to users.\n\nThere are also a number of user interface components that may not work correctly, or just aren't complete (i.e. the Transactions page, and the spendkey section of the Seeds page). However, this app _will_ send money if you want it to.\n\nIf you find any bugs, please do not hesitate to file an issue. And, as always, this software is released with no warranty under the 3-clause BSD license.\n"
+    }
+  ]
 }

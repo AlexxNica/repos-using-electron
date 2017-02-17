@@ -122,5 +122,67 @@
       "url": "https://api.github.com/repos/Microsoft/perfview/git/commits/3368f33f5719d7ce9f1fae839f74ddd46fea3f32",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Microsoft___perfview.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/Microsoft/perfview/releases/4391034",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/Microsoft/perfview/releases/assets/2475143",
+          "id": 2475143,
+          "name": "PerfView.exe",
+          "label": null,
+          "uploader": {
+            "login": "vancem",
+            "id": 8459414,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/8459414?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/vancem",
+            "htmlUrl": "https://github.com/vancem",
+            "followersUrl": "https://api.github.com/users/vancem/followers",
+            "subscriptionsUrl": "https://api.github.com/users/vancem/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/vancem/orgs",
+            "reposUrl": "https://api.github.com/users/vancem/repos",
+            "receivedEventsUrl": "https://api.github.com/users/vancem/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-msdownload",
+          "state": "uploaded",
+          "size": 15943168,
+          "downloadCount": 97,
+          "createdAt": "2016-10-14T14:30:55.000Z",
+          "updatedAt": "2016-10-14T14:31:07.000Z",
+          "browserDownloadUrl": "https://github.com/Microsoft/perfview/releases/download/V1.9.40/PerfView.exe"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/Microsoft/perfview/releases/4391034/assets",
+      "htmlUrl": "https://github.com/Microsoft/perfview/releases/tag/V1.9.40",
+      "id": 4391034,
+      "tagName": "V1.9.40",
+      "targetCommitish": "master",
+      "name": "Beta Test .NET Core Support ",
+      "draft": false,
+      "author": {
+        "login": "vancem",
+        "id": 8459414,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8459414?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/vancem",
+        "htmlUrl": "https://github.com/vancem",
+        "followersUrl": "https://api.github.com/users/vancem/followers",
+        "subscriptionsUrl": "https://api.github.com/users/vancem/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/vancem/orgs",
+        "reposUrl": "https://api.github.com/users/vancem/repos",
+        "receivedEventsUrl": "https://api.github.com/users/vancem/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-10-14T14:24:56.000Z",
+      "publishedAt": "2016-10-14T14:31:10.000Z",
+      "tarballUrl": "https://api.github.com/repos/Microsoft/perfview/tarball/V1.9.40",
+      "zipballUrl": "https://api.github.com/repos/Microsoft/perfview/zipball/V1.9.40",
+      "body": "The major value in this release is the support for .NET Core scenarios.   Previously symbolic names for \nmethods in .NET Core were not being resolved properly. \n\nNote that if you want a non-beta (signed) release you can get it from the [PerfView Download](https://www.microsoft.com/en-us/download/details.aspx?id=28567) site.  \n"
+    }
+  ]
 }

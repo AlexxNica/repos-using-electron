@@ -122,5 +122,69 @@
       "url": "https://api.github.com/repos/mathphreak/electron-prebuilt-path/git/commits/a76b4d2b0690d9c726ce3bf5e5faca486542af43",
       "commentCount": 0
     }
-  }
+  },
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/mathphreak/electron-prebuilt-path/releases/4872571",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/mathphreak/electron-prebuilt-path/releases/4872571/assets",
+      "htmlUrl": "https://github.com/mathphreak/electron-prebuilt-path/releases/tag/v2.0.0",
+      "id": 4872571,
+      "tagName": "v2.0.0",
+      "targetCommitish": "0ea6f7300b99666dd05e0e90a4e9e6880564ba9a",
+      "name": "v2.0.0",
+      "draft": false,
+      "author": {
+        "login": "mathphreak",
+        "id": 360194,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/360194?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/mathphreak",
+        "htmlUrl": "https://github.com/mathphreak",
+        "followersUrl": "https://api.github.com/users/mathphreak/followers",
+        "subscriptionsUrl": "https://api.github.com/users/mathphreak/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/mathphreak/orgs",
+        "reposUrl": "https://api.github.com/users/mathphreak/repos",
+        "receivedEventsUrl": "https://api.github.com/users/mathphreak/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-12-08T22:33:43.000Z",
+      "publishedAt": "2016-12-08T22:35:35.000Z",
+      "tarballUrl": "https://api.github.com/repos/mathphreak/electron-prebuilt-path/tarball/v2.0.0",
+      "zipballUrl": "https://api.github.com/repos/mathphreak/electron-prebuilt-path/zipball/v2.0.0",
+      "body": "<a name\"2.0.0\"></a>\n\n## 2.0.0 (2016-12-08)\n\n#### Bug Fixes\n- add CI fixes ([0ea6f730](https://github.com/mathphreak/electron-prebuilt-path/commit/0ea6f730))\n- actually install test dependencies ([b33449d6](https://github.com/mathphreak/electron-prebuilt-path/commit/b33449d6))\n- tests should run on Mac ([809ea28b](https://github.com/mathphreak/electron-prebuilt-path/commit/809ea28b))\n- don't needlessly delete things when testing ([a6db327e](https://github.com/mathphreak/electron-prebuilt-path/commit/a6db327e))\n- handle being in app.asar ([62fb2fbc](https://github.com/mathphreak/electron-prebuilt-path/commit/62fb2fbc))\n- **test:** make tests run nicely and add AppVeyor ([c4aa9a70](https://github.com/mathphreak/electron-prebuilt-path/commit/c4aa9a70))\n\n#### Breaking Changes\n- now returns different value from within app.asar\n  \n  ([62fb2fbc](https://github.com/mathphreak/electron-prebuilt-path/commit/62fb2fbc))\n"
+    },
+    {
+      "url": "https://api.github.com/repos/mathphreak/electron-prebuilt-path/releases/4851205",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/mathphreak/electron-prebuilt-path/releases/4851205/assets",
+      "htmlUrl": "https://github.com/mathphreak/electron-prebuilt-path/releases/tag/v1.0.0",
+      "id": 4851205,
+      "tagName": "v1.0.0",
+      "targetCommitish": "b6b885a7ae925d181ec0b6970fe07f7e58c2a7ea",
+      "name": "v1.0.0",
+      "draft": false,
+      "author": {
+        "login": "mathphreak",
+        "id": 360194,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/360194?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/mathphreak",
+        "htmlUrl": "https://github.com/mathphreak",
+        "followersUrl": "https://api.github.com/users/mathphreak/followers",
+        "subscriptionsUrl": "https://api.github.com/users/mathphreak/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/mathphreak/orgs",
+        "reposUrl": "https://api.github.com/users/mathphreak/repos",
+        "receivedEventsUrl": "https://api.github.com/users/mathphreak/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-12-07T02:37:46.000Z",
+      "publishedAt": "2016-12-07T02:44:40.000Z",
+      "tarballUrl": "https://api.github.com/repos/mathphreak/electron-prebuilt-path/tarball/v1.0.0",
+      "zipballUrl": "https://api.github.com/repos/mathphreak/electron-prebuilt-path/zipball/v1.0.0",
+      "body": "<a name\"1.0.0\"></a>\n\n## 1.0.0 (2016-12-07)\n\n#### Features\n- add semantic-release ([b6b885a7](https://github.com/mathphreak/electron-prebuilt-path/commit/b6b885a7))\n"
+    }
+  ]
 }

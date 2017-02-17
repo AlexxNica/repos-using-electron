@@ -90,21 +90,14 @@
       "buildrun": "npm run build && npm run run",
       "run": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/boorium/boorium.git"
-    },
+    "repository": "https://github.com/boorium/boorium",
     "keywords": [
       "booru",
       "client",
       "standalone",
       "electron"
     ],
-    "author": "ivan k <ivan@sq10.net>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/boorium/boorium/issues"
-    },
     "homepage": "https://github.com/boorium/boorium#readme",
     "devDependencies": {
       "babel-cli": "^6.6.5",
@@ -129,6 +122,12 @@
           2,
           "always"
         ]
+      }
+    },
+    "other": {
+      "author": "ivan k <ivan@sq10.net>",
+      "bugs": {
+        "url": "https://github.com/boorium/boorium/issues"
       }
     }
   },
@@ -157,5 +156,7 @@
       "url": "https://api.github.com/repos/skewten-incubator/boorium/git/commits/7015b4857d6f62dd9b78a2004fb1fc57ebec77e2",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "skewten-incubator___boorium.json",
+  "releases": []
 }

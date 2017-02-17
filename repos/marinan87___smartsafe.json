@@ -212,5 +212,70 @@
       "url": "https://api.github.com/repos/marinan87/smartsafe/git/commits/74cefb523a0ae45b0cd882384da3805ca67026da",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "marinan87___smartsafe.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/marinan87/smartsafe/releases/4944531",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/marinan87/smartsafe/releases/4944531/assets",
+      "htmlUrl": "https://github.com/marinan87/smartsafe/releases/tag/0.0.2",
+      "id": 4944531,
+      "tagName": "0.0.2",
+      "targetCommitish": "master",
+      "name": "Second iteration",
+      "draft": false,
+      "author": {
+        "login": "peeterkk",
+        "id": 11898033,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11898033?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/peeterkk",
+        "htmlUrl": "https://github.com/peeterkk",
+        "followersUrl": "https://api.github.com/users/peeterkk/followers",
+        "subscriptionsUrl": "https://api.github.com/users/peeterkk/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/peeterkk/orgs",
+        "reposUrl": "https://api.github.com/users/peeterkk/repos",
+        "receivedEventsUrl": "https://api.github.com/users/peeterkk/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-12-15T00:49:42.000Z",
+      "publishedAt": "2016-12-16T19:38:30.000Z",
+      "tarballUrl": "https://api.github.com/repos/marinan87/smartsafe/tarball/0.0.2",
+      "zipballUrl": "https://api.github.com/repos/marinan87/smartsafe/zipball/0.0.2",
+      "body": "## Functionality\n- App is able to authenticate itself with Dropbox.\n- App is able to create a connection to Ethereum network if it has been started before launching app.\n- Application runs on local private chain.\n- It is possible to upload files to Dropbox through GUI.\n- File is automatically encrypted before upload.\n- It is possible to delete files from Dropbox.\n- User registration, logging in and obtaining public key of a user is implemented in REST service.\n\n## Known bugs\n- App doesn't connect to blockchain network if it was started before launching app.\n- When file upload completes, cloud upload button should turn into green checkmark.\n- Dropbox authentication opens in browser window (it would be more user-friendly if it opened inside app as a modal or popup).\n\n## Unimplemented functionality\n- User registration in GUI.\n- Visual indication of file upload progress.\n- Option to choose whether to encrypt a file or not.\n- Sharing between users.\n- Decrypting files through GUI (functionality exists, GUI part is not done yet).\n- Storing link to shared file in REST service.\n- Sending file hash to blockchain after file upload.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/marinan87/smartsafe/releases/4944505",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/marinan87/smartsafe/releases/4944505/assets",
+      "htmlUrl": "https://github.com/marinan87/smartsafe/releases/tag/0.1.0",
+      "id": 4944505,
+      "tagName": "0.1.0",
+      "targetCommitish": "master",
+      "name": "Mark I",
+      "draft": false,
+      "author": {
+        "login": "peeterkk",
+        "id": 11898033,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11898033?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/peeterkk",
+        "htmlUrl": "https://github.com/peeterkk",
+        "followersUrl": "https://api.github.com/users/peeterkk/followers",
+        "subscriptionsUrl": "https://api.github.com/users/peeterkk/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/peeterkk/orgs",
+        "reposUrl": "https://api.github.com/users/peeterkk/repos",
+        "receivedEventsUrl": "https://api.github.com/users/peeterkk/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-12-15T00:49:42.000Z",
+      "publishedAt": "2016-12-16T19:35:24.000Z",
+      "tarballUrl": "https://api.github.com/repos/marinan87/smartsafe/tarball/0.1.0",
+      "zipballUrl": "https://api.github.com/repos/marinan87/smartsafe/zipball/0.1.0",
+      "body": "## Added features\n- Decrypting file on download.\n- Opening downloaded and decrypted file through app.\n- Now user sees messages about what is going on in the app (via status messages on bottom bar)\n- Saving file hash and metadata to blockchain\n- Showing file status in file list (by comparing file hash with the one saved on the chain)\n- When the file is uploaded, the list of files is refreshed\n\n## Bug fixes\n- Showing message to user if he tries to upload a file that is already in his Dropbox.\n- Showing visual indication if file upload is complete.\n- Downloaded file is now written fully to disc before being decrypted.\n- Hash comparison takes into account that file may have been removed from dropbox.\n"
+    }
+  ]
 }

@@ -149,15 +149,6 @@
       "tmp": "0.0.29",
       "xunit-file": "1.0.0",
       "yargs": "6.0.0"
-    },
-    "other": {
-      "author": "Red Hat Developer Tooling Group",
-      "bugs": {
-        "url": "https://issues.jboss.org/projects/JBDS/summary"
-      },
-      "directories": {
-        "app": "transpiled"
-      }
     }
   },
   "packageStatus": 200,
@@ -197,5 +188,128 @@
       "commentCount": 0
     }
   },
-  "filename": "redhat-developer-tooling___developer-platform-install.json"
+  "filename": "redhat-developer-tooling___developer-platform-install.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/redhat-developer-tooling/developer-platform-install/releases/4802755",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/redhat-developer-tooling/developer-platform-install/releases/4802755/assets",
+      "htmlUrl": "https://github.com/redhat-developer-tooling/developer-platform-install/releases/tag/1.2.0.GA",
+      "id": 4802755,
+      "tagName": "1.2.0.GA",
+      "targetCommitish": "107f3340b3ce4375dccfa72309291dece9e3f9e0",
+      "name": "1.2.0.GA Release",
+      "draft": false,
+      "author": {
+        "login": "dgolovin",
+        "id": 620330,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/620330?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/dgolovin",
+        "htmlUrl": "https://github.com/dgolovin",
+        "followersUrl": "https://api.github.com/users/dgolovin/followers",
+        "subscriptionsUrl": "https://api.github.com/users/dgolovin/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/dgolovin/orgs",
+        "reposUrl": "https://api.github.com/users/dgolovin/repos",
+        "receivedEventsUrl": "https://api.github.com/users/dgolovin/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-11-29T18:35:42.000Z",
+      "publishedAt": "2016-12-15T06:41:44.000Z",
+      "tarballUrl": "https://api.github.com/repos/redhat-developer-tooling/developer-platform-install/tarball/1.2.0.GA",
+      "zipballUrl": "https://api.github.com/repos/redhat-developer-tooling/developer-platform-install/zipball/1.2.0.GA",
+      "body": "## New and Noteworthy Features:\n1. Online Installer is GA\n2. Online and Bundle Installers for macOS Alpha quality\n3. Usability Improvements\n   - [JBDS-3628](https://issues.jboss.org/browse/JBDS-3628) Cache downloaded files to reuse them in case of installation failure\n   - [JBDS-4047](https://issues.jboss.org/browse/JBDS-4047) Uninstaller does not clean up Path\n   - [JBDS-4111](https://issues.jboss.org/browse/JBDS-4111) Add Devstudio shortcuts cleanup to uninstaller script\n\nVersion 1.2.0 is available for download from http://developers.redhat.com/products/cdk/download/.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/redhat-developer-tooling/developer-platform-install/releases/4157095",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/redhat-developer-tooling/developer-platform-install/releases/4157095/assets",
+      "htmlUrl": "https://github.com/redhat-developer-tooling/developer-platform-install/releases/tag/1.1.0.GA",
+      "id": 4157095,
+      "tagName": "1.1.0.GA",
+      "targetCommitish": "master",
+      "name": "1.1.0.GA Release",
+      "draft": false,
+      "author": {
+        "login": "dgolovin",
+        "id": 620330,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/620330?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/dgolovin",
+        "htmlUrl": "https://github.com/dgolovin",
+        "followersUrl": "https://api.github.com/users/dgolovin/followers",
+        "subscriptionsUrl": "https://api.github.com/users/dgolovin/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/dgolovin/orgs",
+        "reposUrl": "https://api.github.com/users/dgolovin/repos",
+        "receivedEventsUrl": "https://api.github.com/users/dgolovin/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-09-15T13:37:36.000Z",
+      "publishedAt": "2016-09-21T17:06:17.000Z",
+      "tarballUrl": "https://api.github.com/repos/redhat-developer-tooling/developer-platform-install/tarball/1.1.0.GA",
+      "zipballUrl": "https://api.github.com/repos/redhat-developer-tooling/developer-platform-install/zipball/1.1.0.GA",
+      "body": "New and Noteworthy Features:\n1. Online Installer Technical Preview\n2. Uninstall Powershell script for installed components\n3. Usability Improvements\n- MSI installers run with suppressed UI (it means less additional windows during installation)\n- Cygwin's Openssh and rsync detection\n- Live downloading progress\n\nVersion 1.1.0 is available for download from http://developers.redhat.com/products/cdk/download/.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/redhat-developer-tooling/developer-platform-install/releases/2092966",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/redhat-developer-tooling/developer-platform-install/releases/assets/1018772",
+          "id": 1018772,
+          "name": "developer_platform_setup.exe",
+          "label": null,
+          "uploader": {
+            "login": "sbryzak",
+            "id": 165507,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/165507?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/sbryzak",
+            "htmlUrl": "https://github.com/sbryzak",
+            "followersUrl": "https://api.github.com/users/sbryzak/followers",
+            "subscriptionsUrl": "https://api.github.com/users/sbryzak/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/sbryzak/orgs",
+            "reposUrl": "https://api.github.com/users/sbryzak/repos",
+            "receivedEventsUrl": "https://api.github.com/users/sbryzak/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-msdownload",
+          "state": "uploaded",
+          "size": 538859,
+          "downloadCount": 12,
+          "createdAt": "2015-11-09T06:51:02.000Z",
+          "updatedAt": "2015-11-09T06:51:07.000Z",
+          "browserDownloadUrl": "https://github.com/redhat-developer-tooling/developer-platform-install/releases/download/1.0.Alpha1/developer_platform_setup.exe"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/redhat-developer-tooling/developer-platform-install/releases/2092966/assets",
+      "htmlUrl": "https://github.com/redhat-developer-tooling/developer-platform-install/releases/tag/1.0.Alpha1",
+      "id": 2092966,
+      "tagName": "1.0.Alpha1",
+      "targetCommitish": "master",
+      "name": "1.0.Alpha1 Release",
+      "draft": false,
+      "author": {
+        "login": "sbryzak",
+        "id": 165507,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/165507?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/sbryzak",
+        "htmlUrl": "https://github.com/sbryzak",
+        "followersUrl": "https://api.github.com/users/sbryzak/followers",
+        "subscriptionsUrl": "https://api.github.com/users/sbryzak/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/sbryzak/orgs",
+        "reposUrl": "https://api.github.com/users/sbryzak/repos",
+        "receivedEventsUrl": "https://api.github.com/users/sbryzak/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2015-11-09T06:49:45.000Z",
+      "publishedAt": "2015-11-09T06:51:57.000Z",
+      "tarballUrl": "https://api.github.com/repos/redhat-developer-tooling/developer-platform-install/tarball/1.0.Alpha1",
+      "zipballUrl": "https://api.github.com/repos/redhat-developer-tooling/developer-platform-install/zipball/1.0.Alpha1",
+      "body": "This release will download and install the following components:\n- Zulu JDK \n- JBoss Developer Studio\n- Vagrant\n- VirtualBox\n"
+    }
+  ]
 }

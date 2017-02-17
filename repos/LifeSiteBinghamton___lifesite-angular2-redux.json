@@ -83,9 +83,7 @@
     "name": "angular2-seed-advanced",
     "version": "0.0.0",
     "description": "Advanced seed for Angular 2 apps",
-    "repository": {
-      "url": "https://github.com/NathanWalker/angular2-seed-advanced"
-    },
+    "repository": "https://github.com/NathanWalker/angular2-seed-advanced",
     "scripts": {
       "build.desktop.mac": "rimraf desktop/mac/* && gulp desktop.mac",
       "build.desktop.windows": "rimraf desktop/windows/* && gulp desktop.windows",
@@ -132,7 +130,6 @@
       "webdriver-start": "node_modules/protractor/bin/webdriver-manager start",
       "webdriver-update": "node_modules/protractor/bin/webdriver-manager update"
     },
-    "author": "Minko Gechev <mgechev>",
     "contributors": [
       {
         "name": "Nathan Walker <NathanWalker>"
@@ -252,6 +249,9 @@
       "rxjs": "5.0.0-beta.6",
       "systemjs": "0.19.27",
       "zone.js": "^0.6.12"
+    },
+    "other": {
+      "author": "Minko Gechev <mgechev>"
     }
   },
   "packageStatus": 200,
@@ -279,5 +279,7 @@
       "url": "https://api.github.com/repos/LifeSiteBinghamton/lifesite-angular2-redux/git/commits/1e61f3eeb0f4db3a1cbf883e04f01d9a0dce45e8",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "LifeSiteBinghamton___lifesite-angular2-redux.json",
+  "releases": []
 }

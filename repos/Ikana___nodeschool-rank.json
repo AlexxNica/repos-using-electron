@@ -86,10 +86,7 @@
     "devDependencies": {
       "electron-packager": "^7.3.0"
     },
-    "repository": "https://github.com/Ikana/nodeschool-rank",
-    "other": {
-      "author": "roderik <roderik.ikana@gmail.com> (roderik.io)"
-    }
+    "repository": "https://github.com/Ikana/nodeschool-rank"
   },
   "packageStatus": 200,
   "contributors": [
@@ -117,5 +114,66 @@
       "commentCount": 0
     }
   },
-  "filename": "Ikana___nodeschool-rank.json"
+  "filename": "Ikana___nodeschool-rank.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/Ikana/nodeschool-rank/releases/3736312",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/Ikana/nodeschool-rank/releases/assets/2044610",
+          "id": 2044610,
+          "name": "nodeschool-rank-darwin-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "Ikana",
+            "id": 634704,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/634704?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/Ikana",
+            "htmlUrl": "https://github.com/Ikana",
+            "followersUrl": "https://api.github.com/users/Ikana/followers",
+            "subscriptionsUrl": "https://api.github.com/users/Ikana/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/Ikana/orgs",
+            "reposUrl": "https://api.github.com/users/Ikana/repos",
+            "receivedEventsUrl": "https://api.github.com/users/Ikana/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 129717494,
+          "downloadCount": 0,
+          "createdAt": "2016-07-25T23:26:17.000Z",
+          "updatedAt": "2016-07-25T23:28:27.000Z",
+          "browserDownloadUrl": "https://github.com/Ikana/nodeschool-rank/releases/download/first-release/nodeschool-rank-darwin-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/Ikana/nodeschool-rank/releases/3736312/assets",
+      "htmlUrl": "https://github.com/Ikana/nodeschool-rank/releases/tag/first-release",
+      "id": 3736312,
+      "tagName": "first-release",
+      "targetCommitish": "master",
+      "name": "first release",
+      "draft": false,
+      "author": {
+        "login": "Ikana",
+        "id": 634704,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/634704?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/Ikana",
+        "htmlUrl": "https://github.com/Ikana",
+        "followersUrl": "https://api.github.com/users/Ikana/followers",
+        "subscriptionsUrl": "https://api.github.com/users/Ikana/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/Ikana/orgs",
+        "reposUrl": "https://api.github.com/users/Ikana/repos",
+        "receivedEventsUrl": "https://api.github.com/users/Ikana/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-07-25T23:10:58.000Z",
+      "publishedAt": "2016-07-25T23:29:32.000Z",
+      "tarballUrl": "https://api.github.com/repos/Ikana/nodeschool-rank/tarball/first-release",
+      "zipballUrl": "https://api.github.com/repos/Ikana/nodeschool-rank/zipball/first-release",
+      "body": "# nodeschool-rank v0.2.2\n\nChangelog:\n- Add config folder\n- Add configuration as global package\n- Add test request to validate that the configured node-school-rank is reachable\n"
+    }
+  ]
 }

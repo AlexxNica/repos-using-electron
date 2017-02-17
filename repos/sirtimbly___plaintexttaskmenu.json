@@ -94,9 +94,6 @@
     "scripts": {
       "build": "electron-packager . MenubarTasklist --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
       "start": "electron ."
-    },
-    "other": {
-      "author": "Tim Bendt <sirtimbly@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -125,5 +122,66 @@
       "commentCount": 0
     }
   },
-  "filename": "sirtimbly___plaintexttaskmenu.json"
+  "filename": "sirtimbly___plaintexttaskmenu.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu/releases/2316761",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu/releases/assets/1145027",
+          "id": 1145027,
+          "name": "atDueMenu-darwin-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "sirtimbly",
+            "id": 18685,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/18685?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/sirtimbly",
+            "htmlUrl": "https://github.com/sirtimbly",
+            "followersUrl": "https://api.github.com/users/sirtimbly/followers",
+            "subscriptionsUrl": "https://api.github.com/users/sirtimbly/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/sirtimbly/orgs",
+            "reposUrl": "https://api.github.com/users/sirtimbly/repos",
+            "receivedEventsUrl": "https://api.github.com/users/sirtimbly/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 44394261,
+          "downloadCount": 1,
+          "createdAt": "2015-12-19T22:22:49.000Z",
+          "updatedAt": "2015-12-19T22:23:50.000Z",
+          "browserDownloadUrl": "https://github.com/sirtimbly/plaintexttaskmenu/releases/download/0.0.1/atDueMenu-darwin-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu/releases/2316761/assets",
+      "htmlUrl": "https://github.com/sirtimbly/plaintexttaskmenu/releases/tag/0.0.1",
+      "id": 2316761,
+      "tagName": "0.0.1",
+      "targetCommitish": "master",
+      "name": "0.0.1-alpha",
+      "draft": false,
+      "author": {
+        "login": "sirtimbly",
+        "id": 18685,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18685?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/sirtimbly",
+        "htmlUrl": "https://github.com/sirtimbly",
+        "followersUrl": "https://api.github.com/users/sirtimbly/followers",
+        "subscriptionsUrl": "https://api.github.com/users/sirtimbly/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/sirtimbly/orgs",
+        "reposUrl": "https://api.github.com/users/sirtimbly/repos",
+        "receivedEventsUrl": "https://api.github.com/users/sirtimbly/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2015-12-19T22:14:25.000Z",
+      "publishedAt": "2015-12-19T22:33:06.000Z",
+      "tarballUrl": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu/tarball/0.0.1",
+      "zipballUrl": "https://api.github.com/repos/sirtimbly/plaintexttaskmenu/zipball/0.0.1",
+      "body": "**Alpha release! Beware!**\n\nThis is the first release of atDueMenu! It scans a directory for taskpaper files. Sorts tasks with due dates and highlights ones that are due today or are past due. The icon turns orange when there are any items due. All the files will be rescanned when a change is detected to any one file. \n\n**Currently there is no way to exit the application.** \n"
+    }
+  ]
 }

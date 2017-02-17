@@ -167,14 +167,6 @@
     "name": "webtorrent-app",
     "description": "WebTorrent, the streaming torrent client. For OS X, Windows, and Linux.",
     "version": "0.1.0",
-    "author": {
-      "name": "Feross Aboukhadijeh",
-      "email": "feross@feross.org",
-      "url": "http://feross.org"
-    },
-    "bugs": {
-      "url": "https://github.com/feross/webtorrent-app/issues"
-    },
     "dependencies": {
       "airplay-js": "guerrerocarlos/node-airplay-js",
       "application-config": "^0.2.0",
@@ -217,10 +209,7 @@
     "license": "MIT",
     "main": "index.js",
     "productName": "WebTorrent",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/feross/webtorrent-app.git"
-    },
+    "repository": "https://github.com/feross/webtorrent-app",
     "scripts": {
       "clean": "node ./bin/clean.js",
       "debug": "DEBUG=* electron .",
@@ -229,6 +218,16 @@
       "start": "electron .",
       "test": "standard",
       "update-authors": "./bin/update-authors.sh"
+    },
+    "other": {
+      "author": {
+        "name": "Feross Aboukhadijeh",
+        "email": "feross@feross.org",
+        "url": "http://feross.org"
+      },
+      "bugs": {
+        "url": "https://github.com/feross/webtorrent-app/issues"
+      }
     }
   },
   "packageStatus": 404,
@@ -265,5 +264,7 @@
       "url": "https://api.github.com/repos/Flet/webtorrent-app/git/commits/a1d69dbba7072991dae16964ad61bc70128d982a",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Flet___webtorrent-app.json",
+  "releases": []
 }

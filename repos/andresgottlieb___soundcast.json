@@ -69,10 +69,7 @@
     "scripts": {
       "start": "electron ."
     },
-    "license": "MIT",
-    "other": {
-      "author": "Andres Gottlieb"
-    }
+    "license": "MIT"
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/andresgottlieb/soundcast",
@@ -124,5 +121,100 @@
       "commentCount": 0
     }
   },
-  "filename": "andresgottlieb___soundcast.json"
+  "filename": "andresgottlieb___soundcast.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/andresgottlieb/soundcast/releases/2483197",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/andresgottlieb/soundcast/releases/2483197/assets",
+      "htmlUrl": "https://github.com/andresgottlieb/soundcast/releases/tag/v1.7",
+      "id": 2483197,
+      "tagName": "v1.7",
+      "targetCommitish": "master",
+      "name": "v1.7",
+      "draft": false,
+      "author": {
+        "login": "andresgottlieb",
+        "id": 1126905,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1126905?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/andresgottlieb",
+        "htmlUrl": "https://github.com/andresgottlieb",
+        "followersUrl": "https://api.github.com/users/andresgottlieb/followers",
+        "subscriptionsUrl": "https://api.github.com/users/andresgottlieb/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/andresgottlieb/orgs",
+        "reposUrl": "https://api.github.com/users/andresgottlieb/repos",
+        "receivedEventsUrl": "https://api.github.com/users/andresgottlieb/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-01-24T21:12:29.000Z",
+      "publishedAt": "2016-01-24T21:20:00.000Z",
+      "tarballUrl": "https://api.github.com/repos/andresgottlieb/soundcast/tarball/v1.7",
+      "zipballUrl": "https://api.github.com/repos/andresgottlieb/soundcast/zipball/v1.7",
+      "body": "- Fixed bug that would cast only to a specific chromecast, although you selected another one.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/andresgottlieb/soundcast/releases/2314954",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/andresgottlieb/soundcast/releases/2314954/assets",
+      "htmlUrl": "https://github.com/andresgottlieb/soundcast/releases/tag/v1.6",
+      "id": 2314954,
+      "tagName": "v1.6",
+      "targetCommitish": "master",
+      "name": "v1.6",
+      "draft": false,
+      "author": {
+        "login": "andresgottlieb",
+        "id": 1126905,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1126905?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/andresgottlieb",
+        "htmlUrl": "https://github.com/andresgottlieb",
+        "followersUrl": "https://api.github.com/users/andresgottlieb/followers",
+        "subscriptionsUrl": "https://api.github.com/users/andresgottlieb/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/andresgottlieb/orgs",
+        "reposUrl": "https://api.github.com/users/andresgottlieb/repos",
+        "receivedEventsUrl": "https://api.github.com/users/andresgottlieb/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2015-12-19T00:49:43.000Z",
+      "publishedAt": "2015-12-19T01:00:33.000Z",
+      "tarballUrl": "https://api.github.com/repos/andresgottlieb/soundcast/tarball/v1.6",
+      "zipballUrl": "https://api.github.com/repos/andresgottlieb/soundcast/zipball/v1.6",
+      "body": "- Fixed support for spaces and symbols in chromecast names (accidentally broken on v1.5)\n- Added support for the (') symbol in chromecast names\n"
+    },
+    {
+      "url": "https://api.github.com/repos/andresgottlieb/soundcast/releases/2276148",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/andresgottlieb/soundcast/releases/2276148/assets",
+      "htmlUrl": "https://github.com/andresgottlieb/soundcast/releases/tag/v1.5",
+      "id": 2276148,
+      "tagName": "v1.5",
+      "targetCommitish": "master",
+      "name": "v1.5",
+      "draft": false,
+      "author": {
+        "login": "andresgottlieb",
+        "id": 1126905,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1126905?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/andresgottlieb",
+        "htmlUrl": "https://github.com/andresgottlieb",
+        "followersUrl": "https://api.github.com/users/andresgottlieb/followers",
+        "subscriptionsUrl": "https://api.github.com/users/andresgottlieb/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/andresgottlieb/orgs",
+        "reposUrl": "https://api.github.com/users/andresgottlieb/repos",
+        "receivedEventsUrl": "https://api.github.com/users/andresgottlieb/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2015-12-11T23:26:54.000Z",
+      "publishedAt": "2015-12-11T23:56:53.000Z",
+      "tarballUrl": "https://api.github.com/repos/andresgottlieb/soundcast/tarball/v1.5",
+      "zipballUrl": "https://api.github.com/repos/andresgottlieb/soundcast/zipball/v1.5",
+      "body": "- Resized icons so they don't look too large (@Finetuned)\n- Enhanced menu to show a speaker emoji near Chromecast Audio devices (@danjenkins)\n- Added Soundcast to [Caskroom](http://caskroom.io/) for an easier installation using [Homebrew](http://brew.sh/) (@danjenkins)\n"
+    }
+  ]
 }

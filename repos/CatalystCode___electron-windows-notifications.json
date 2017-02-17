@@ -94,21 +94,14 @@
       "lint": "standard \"./src/*.js\" && standard \"./test/*.js\"",
       "test": "npm run lint && mocha"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/CatalystCode/electron-windows-notifications.git"
-    },
+    "repository": "https://github.com/CatalystCode/electron-windows-notifications",
     "keywords": [
       "Windows",
       "notifications",
       "nodert",
       "winrt"
     ],
-    "author": "",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/CatalystCode/electron-windows-notifications/issues"
-    },
     "homepage": "https://github.com/CatalystCode/electron-windows-notifications#readme",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -127,6 +120,12 @@
       "@nodert-win10/windows.foundation": "^0.2.95",
       "@nodert-win10/windows.ui.notifications": "^0.2.95",
       "@nodert-win10/windows.ui.startscreen": "^0.2.95"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/CatalystCode/electron-windows-notifications/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -158,5 +157,7 @@
       "url": "https://api.github.com/repos/CatalystCode/electron-windows-notifications/git/commits/df9a4e262c75f140052302c9d3144e769dfba967",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "CatalystCode___electron-windows-notifications.json",
+  "releases": []
 }

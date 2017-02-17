@@ -139,13 +139,6 @@
       "webpack": "^1.13.2",
       "webpack-dev-server": "^1.15.1",
       "webpack-merge": "^0.14.1"
-    },
-    "other": {
-      "author": {
-        "name": "Spyros Ioakeimidis",
-        "email": "spyros@usabilla.com",
-        "url": "http://www.spyros.io"
-      }
     }
   },
   "packageStatus": 200,
@@ -174,5 +167,66 @@
       "commentCount": 0
     }
   },
-  "filename": "usabilla___leaderboard.json"
+  "filename": "usabilla___leaderboard.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/usabilla/leaderboard/releases/4094051",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/usabilla/leaderboard/releases/assets/2410126",
+          "id": 2410126,
+          "name": "Leaderboard-darwin-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "spirosikmd",
+            "id": 1057324,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/1057324?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/spirosikmd",
+            "htmlUrl": "https://github.com/spirosikmd",
+            "followersUrl": "https://api.github.com/users/spirosikmd/followers",
+            "subscriptionsUrl": "https://api.github.com/users/spirosikmd/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/spirosikmd/orgs",
+            "reposUrl": "https://api.github.com/users/spirosikmd/repos",
+            "receivedEventsUrl": "https://api.github.com/users/spirosikmd/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 44661604,
+          "downloadCount": 0,
+          "createdAt": "2016-10-02T10:08:30.000Z",
+          "updatedAt": "2016-10-02T10:09:22.000Z",
+          "browserDownloadUrl": "https://github.com/usabilla/leaderboard/releases/download/v1.0.0/Leaderboard-darwin-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/usabilla/leaderboard/releases/4094051/assets",
+      "htmlUrl": "https://github.com/usabilla/leaderboard/releases/tag/v1.0.0",
+      "id": 4094051,
+      "tagName": "v1.0.0",
+      "targetCommitish": "master",
+      "name": "v1.0.0",
+      "draft": false,
+      "author": {
+        "login": "spirosikmd",
+        "id": 1057324,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1057324?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/spirosikmd",
+        "htmlUrl": "https://github.com/spirosikmd",
+        "followersUrl": "https://api.github.com/users/spirosikmd/followers",
+        "subscriptionsUrl": "https://api.github.com/users/spirosikmd/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/spirosikmd/orgs",
+        "reposUrl": "https://api.github.com/users/spirosikmd/repos",
+        "receivedEventsUrl": "https://api.github.com/users/spirosikmd/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-09-11T22:23:23.000Z",
+      "publishedAt": "2016-10-02T10:07:56.000Z",
+      "tarballUrl": "https://api.github.com/repos/usabilla/leaderboard/tarball/v1.0.0",
+      "zipballUrl": "https://api.github.com/repos/usabilla/leaderboard/zipball/v1.0.0",
+      "body": "- [x] Use electron\n- [x] Ability to create games and register players\n- [x] Use PouchDB instead of local storage\n- [x] Ability to add `play` sound on runtime\n- [x] Migration to TypeScript\n"
+    }
+  ]
 }

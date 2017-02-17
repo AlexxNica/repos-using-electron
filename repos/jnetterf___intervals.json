@@ -74,15 +74,8 @@
       "start": "node ./node_modules/rocketship/src/main.js serve",
       "test": "node ./node_modules/rocketship/src/main.js test lint"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jnetterf/interval.git"
-    },
-    "author": "",
+    "repository": "https://github.com/jnetterf/interval",
     "license": "AGPL-3.0",
-    "bugs": {
-      "url": "https://github.com/jnetterf/interval/issues"
-    },
     "homepage": "https://github.com/jnetterf/interval#readme",
     "dependencies": {
       "classnames": "2.1.3",
@@ -126,6 +119,12 @@
     "browser": {
       "source-map-support": false,
       "fs": false
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/jnetterf/interval/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -156,5 +155,7 @@
       "url": "https://api.github.com/repos/jnetterf/intervals/git/commits/339e830efc748f0dd9be9ce723e05085ac164ab5",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "jnetterf___intervals.json",
+  "releases": []
 }

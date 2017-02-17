@@ -139,5 +139,66 @@
     }
   },
   "filename": "GeordieP___TweetdeckElectron.json",
-  "sourceRepo": "gedaiu/Voice"
+  "sourceRepo": "gedaiu/Voice",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/GeordieP/TweetdeckElectron/releases/2965550",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/GeordieP/TweetdeckElectron/releases/assets/1517374",
+          "id": 1517374,
+          "name": "Tweetdeck-win32-x64.7z",
+          "label": null,
+          "uploader": {
+            "login": "GeordieP",
+            "id": 1634853,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/1634853?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/GeordieP",
+            "htmlUrl": "https://github.com/GeordieP",
+            "followersUrl": "https://api.github.com/users/GeordieP/followers",
+            "subscriptionsUrl": "https://api.github.com/users/GeordieP/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/GeordieP/orgs",
+            "reposUrl": "https://api.github.com/users/GeordieP/repos",
+            "receivedEventsUrl": "https://api.github.com/users/GeordieP/received_events",
+            "type": "User"
+          },
+          "contentType": "application/octet-stream",
+          "state": "uploaded",
+          "size": 32888037,
+          "downloadCount": 3,
+          "createdAt": "2016-04-06T17:00:47.000Z",
+          "updatedAt": "2016-04-06T17:01:13.000Z",
+          "browserDownloadUrl": "https://github.com/GeordieP/TweetdeckElectron/releases/download/v1.0.0/Tweetdeck-win32-x64.7z"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/GeordieP/TweetdeckElectron/releases/2965550/assets",
+      "htmlUrl": "https://github.com/GeordieP/TweetdeckElectron/releases/tag/v1.0.0",
+      "id": 2965550,
+      "tagName": "v1.0.0",
+      "targetCommitish": "master",
+      "name": "TweetdeckElectron 1.0.0",
+      "draft": false,
+      "author": {
+        "login": "GeordieP",
+        "id": 1634853,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1634853?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/GeordieP",
+        "htmlUrl": "https://github.com/GeordieP",
+        "followersUrl": "https://api.github.com/users/GeordieP/followers",
+        "subscriptionsUrl": "https://api.github.com/users/GeordieP/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/GeordieP/orgs",
+        "reposUrl": "https://api.github.com/users/GeordieP/repos",
+        "receivedEventsUrl": "https://api.github.com/users/GeordieP/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-04-06T02:15:26.000Z",
+      "publishedAt": "2016-04-06T17:02:37.000Z",
+      "tarballUrl": "https://api.github.com/repos/GeordieP/TweetdeckElectron/tarball/v1.0.0",
+      "zipballUrl": "https://api.github.com/repos/GeordieP/TweetdeckElectron/zipball/v1.0.0",
+      "body": "v1.0.0\n\nMostly works as expected. Notification popups are not supported, and may never be.\n\nOne thing to note:\nWhen you first open the app and enter your info, pressing your enter key or clicking \"log in\" will not do anything. However, as long as you have the \"remember me\" box checked, if you then close and re-open the app, you'll be logged in as normal. Currently don't know why (if you do, feel free to let me know, or submit a pull request with the fix!).\n"
+    }
+  ]
 }

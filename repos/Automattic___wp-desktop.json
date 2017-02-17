@@ -168,5 +168,100 @@
       "commentCount": 0
     }
   },
-  "filename": "Automattic___wp-desktop.json"
+  "filename": "Automattic___wp-desktop.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/Automattic/wp-desktop/releases/2882536",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/Automattic/wp-desktop/releases/2882536/assets",
+      "htmlUrl": "https://github.com/Automattic/wp-desktop/releases/tag/v1.3.1",
+      "id": 2882536,
+      "tagName": "v1.3.1",
+      "targetCommitish": "master",
+      "name": "WordPress.com v1.3.1",
+      "draft": false,
+      "author": {
+        "login": "mkaz",
+        "id": 45363,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45363?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/mkaz",
+        "htmlUrl": "https://github.com/mkaz",
+        "followersUrl": "https://api.github.com/users/mkaz/followers",
+        "subscriptionsUrl": "https://api.github.com/users/mkaz/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/mkaz/orgs",
+        "reposUrl": "https://api.github.com/users/mkaz/repos",
+        "receivedEventsUrl": "https://api.github.com/users/mkaz/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-04-01T15:57:38.000Z",
+      "publishedAt": "2016-03-30T22:32:19.000Z",
+      "tarballUrl": "https://api.github.com/repos/Automattic/wp-desktop/tarball/v1.3.1",
+      "zipballUrl": "https://api.github.com/repos/Automattic/wp-desktop/zipball/v1.3.1",
+      "body": "### Calypso Improvements\n- Fix settings link within individual site\n- Fix excerpt on admin posts page\n\n### Desktop App\n- Improve exception handling on start, should help with network errors #125\n- Add context menus, #116 \n- Fix spellcheck contractions for Mac and Linux #124 #119 \n- Add preference to enable/disable spellcheck #118 #137 \n\nNote: this release disables Spellcheck by default due to performance issues with large posts, can be reenabled within preferences. Also introduces an issue with spellcheck for Windows, which is disabled see #128 \n"
+    },
+    {
+      "url": "https://api.github.com/repos/Automattic/wp-desktop/releases/2624074",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/Automattic/wp-desktop/releases/2624074/assets",
+      "htmlUrl": "https://github.com/Automattic/wp-desktop/releases/tag/v1.3.0",
+      "id": 2624074,
+      "tagName": "v1.3.0",
+      "targetCommitish": "master",
+      "name": "Merry Weather",
+      "draft": false,
+      "author": {
+        "login": "mkaz",
+        "id": 45363,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45363?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/mkaz",
+        "htmlUrl": "https://github.com/mkaz",
+        "followersUrl": "https://api.github.com/users/mkaz/followers",
+        "subscriptionsUrl": "https://api.github.com/users/mkaz/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/mkaz/orgs",
+        "reposUrl": "https://api.github.com/users/mkaz/repos",
+        "receivedEventsUrl": "https://api.github.com/users/mkaz/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-03-03T19:13:59.000Z",
+      "publishedAt": "2016-03-04T14:57:05.000Z",
+      "tarballUrl": "https://api.github.com/repos/Automattic/wp-desktop/tarball/v1.3.0",
+      "zipballUrl": "https://api.github.com/repos/Automattic/wp-desktop/zipball/v1.3.0",
+      "body": "### Desktop App\n- Fix #85 - Linux crash when have unread notification\n- Fix #86 - Clean up after Windows\n- Fix #99 - Overcome corrupt settings file\n\n### Calypso - Core Application\n- WordPress.com Signup from within the app.\n- New \"Help\" section.\n- Improved Site Picker component (recent sites).\n- Use system fonts for UI plus better Merriweather rendering.\n- Faster rendering of Posts.\n- Live preview fixes for private sites.\n- Better All Sites icon.\n- Editor bug fixes and enhancements.\n- Added new edit icon link for sites.\n- More robust featured image handling in Reader and Posts sections.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/Automattic/wp-desktop/releases/2307222",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/Automattic/wp-desktop/releases/2307222/assets",
+      "htmlUrl": "https://github.com/Automattic/wp-desktop/releases/tag/v1.2.1",
+      "id": 2307222,
+      "tagName": "v1.2.1",
+      "targetCommitish": "master",
+      "name": "The Holiday Release",
+      "draft": false,
+      "author": {
+        "login": "mkaz",
+        "id": 45363,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45363?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/mkaz",
+        "htmlUrl": "https://github.com/mkaz",
+        "followersUrl": "https://api.github.com/users/mkaz/followers",
+        "subscriptionsUrl": "https://api.github.com/users/mkaz/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/mkaz/orgs",
+        "reposUrl": "https://api.github.com/users/mkaz/repos",
+        "receivedEventsUrl": "https://api.github.com/users/mkaz/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2015-12-17T19:53:10.000Z",
+      "publishedAt": "2015-12-17T20:52:45.000Z",
+      "tarballUrl": "https://api.github.com/repos/Automattic/wp-desktop/tarball/v1.2.1",
+      "zipballUrl": "https://api.github.com/repos/Automattic/wp-desktop/zipball/v1.2.1",
+      "body": "```\n'Twas the week before Christmas and all through the web\n    Automatticians were hacking and building a .deb\n\nPackaging for Linux distros isn't simple, of course,\n    But we're happy to do it to support Open Source.\n\nThis release turns on spellchecking for Windows and Mac.\n    When you mizspel yur werdz, we've got your back.\n\nTo leave out \"updates and bug fixes\" we would be remiss,\n    However there are too many in Calypso to list.\n\nThis release marks the day we made our source code open,\n    For community pull requests, we are all hopin'.\n\nMany thanks to the developers who helped get this release right,\n    Merry Christmas to all, and to all a good night.\n```\n\nOur open source release, moving the repository to public and our first release across all major platforms, Mac, Windows and Linux. All three platforms in sync and builds on Linux for .tar.gz and .deb - with .rpm to follow.\n\nNew Features:\n- Mac/Windows - spell detection in editor, now undrlinez mizpelld wurds\n- Linux Desktop - new package build scripts, uses FPM for .deb package\n- Bump to Electron 0.36.0\n- Bump Calypso to https://github.com/Automattic/wp-calypso/tree/2536145329d985ba296d04645b4289c3edd6ab3e\n"
+    }
+  ]
 }

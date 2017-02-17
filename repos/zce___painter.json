@@ -73,20 +73,13 @@
     "scripts": {
       "test": "./node_modules/.bin/electron ./app"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Micua/painter.git"
-    },
+    "repository": "https://github.com/Micua/painter",
     "keywords": [
       "painter",
       "electron",
       "draw"
     ],
-    "author": "iceStone <ice@wedn.net> (http://www.wedn.net/)",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/Micua/painter/issues"
-    },
     "homepage": "https://github.com/Micua/painter#readme",
     "devDependencies": {
       "asar": "^0.10.0",
@@ -94,6 +87,12 @@
       "gulp": "^3.9.1",
       "gulp-clean": "^0.3.2",
       "gulp-electron": "0.0.10"
+    },
+    "other": {
+      "author": "iceStone <ice@wedn.net> (http://www.wedn.net/)",
+      "bugs": {
+        "url": "https://github.com/Micua/painter/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -121,5 +120,67 @@
       "url": "https://api.github.com/repos/zce/painter/git/commits/b80405dc3349f429b787c0339a1cfa867693ca65",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "zce___painter.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/zce/painter/releases/2793377",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/zce/painter/releases/assets/1411404",
+          "id": 1411404,
+          "name": "painter-1.0.0-osx-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "zce",
+            "id": 6166576,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/6166576?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/zce",
+            "htmlUrl": "https://github.com/zce",
+            "followersUrl": "https://api.github.com/users/zce/followers",
+            "subscriptionsUrl": "https://api.github.com/users/zce/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/zce/orgs",
+            "reposUrl": "https://api.github.com/users/zce/repos",
+            "receivedEventsUrl": "https://api.github.com/users/zce/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 40942596,
+          "downloadCount": 4,
+          "createdAt": "2016-03-11T14:58:59.000Z",
+          "updatedAt": "2016-04-24T10:07:13.000Z",
+          "browserDownloadUrl": "https://github.com/zce/painter/releases/download/v1.0.0/painter-1.0.0-osx-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/zce/painter/releases/2793377/assets",
+      "htmlUrl": "https://github.com/zce/painter/releases/tag/v1.0.0",
+      "id": 2793377,
+      "tagName": "v1.0.0",
+      "targetCommitish": "master",
+      "name": "v1.0.0",
+      "draft": false,
+      "author": {
+        "login": "zce",
+        "id": 6166576,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6166576?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/zce",
+        "htmlUrl": "https://github.com/zce",
+        "followersUrl": "https://api.github.com/users/zce/followers",
+        "subscriptionsUrl": "https://api.github.com/users/zce/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/zce/orgs",
+        "reposUrl": "https://api.github.com/users/zce/repos",
+        "receivedEventsUrl": "https://api.github.com/users/zce/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-03-11T14:57:47.000Z",
+      "publishedAt": "2016-03-11T15:00:51.000Z",
+      "tarballUrl": "https://api.github.com/repos/zce/painter/tarball/v1.0.0",
+      "zipballUrl": "https://api.github.com/repos/zce/painter/zipball/v1.0.0",
+      "body": ""
+    }
+  ]
 }

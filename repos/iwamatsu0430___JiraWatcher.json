@@ -89,10 +89,7 @@
       "publish:mac": "npm run build:scss && npm run build:riot && ./node_modules/.bin/electron-packager . JiraWatcher --out=dist --icon=./app/resources/icons/app.ico --platform=darwin --arch=x64 --overwrite --forced",
       "publish:win": "npm run build:scss && npm run build:riot && ./node_modules/.bin/electron-packager . JiraWatcher --out=dist --icon=./app/resources/icons/app.ico --platform=win32 --arch=x64 --overwrite --forced"
     },
-    "license": "ISC",
-    "other": {
-      "author": "iwamatsu0430"
-    }
+    "license": "ISC"
   },
   "packageStatus": 200,
   "contributors": [
@@ -120,5 +117,93 @@
       "commentCount": 0
     }
   },
-  "filename": "iwamatsu0430___JiraWatcher.json"
+  "filename": "iwamatsu0430___JiraWatcher.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/iwamatsu0430/JiraWatcher/releases/4235537",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/iwamatsu0430/JiraWatcher/releases/assets/2380506",
+          "id": 2380506,
+          "name": "JiraWatcher-0.0.1-darwin.zip",
+          "label": null,
+          "uploader": {
+            "login": "iwamatsu0430",
+            "id": 3608976,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/3608976?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/iwamatsu0430",
+            "htmlUrl": "https://github.com/iwamatsu0430",
+            "followersUrl": "https://api.github.com/users/iwamatsu0430/followers",
+            "subscriptionsUrl": "https://api.github.com/users/iwamatsu0430/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/iwamatsu0430/orgs",
+            "reposUrl": "https://api.github.com/users/iwamatsu0430/repos",
+            "receivedEventsUrl": "https://api.github.com/users/iwamatsu0430/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 50577255,
+          "downloadCount": 2,
+          "createdAt": "2016-09-27T00:23:54.000Z",
+          "updatedAt": "2016-09-27T00:25:50.000Z",
+          "browserDownloadUrl": "https://github.com/iwamatsu0430/JiraWatcher/releases/download/0.0.1/JiraWatcher-0.0.1-darwin.zip"
+        },
+        {
+          "url": "https://api.github.com/repos/iwamatsu0430/JiraWatcher/releases/assets/2384150",
+          "id": 2384150,
+          "name": "JiraWatcher-0.0.1-win32.zip",
+          "label": null,
+          "uploader": {
+            "login": "iwamatsu0430",
+            "id": 3608976,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/3608976?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/iwamatsu0430",
+            "htmlUrl": "https://github.com/iwamatsu0430",
+            "followersUrl": "https://api.github.com/users/iwamatsu0430/followers",
+            "subscriptionsUrl": "https://api.github.com/users/iwamatsu0430/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/iwamatsu0430/orgs",
+            "reposUrl": "https://api.github.com/users/iwamatsu0430/repos",
+            "receivedEventsUrl": "https://api.github.com/users/iwamatsu0430/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 63717259,
+          "downloadCount": 0,
+          "createdAt": "2016-09-27T16:06:05.000Z",
+          "updatedAt": "2016-09-27T16:06:51.000Z",
+          "browserDownloadUrl": "https://github.com/iwamatsu0430/JiraWatcher/releases/download/0.0.1/JiraWatcher-0.0.1-win32.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/iwamatsu0430/JiraWatcher/releases/4235537/assets",
+      "htmlUrl": "https://github.com/iwamatsu0430/JiraWatcher/releases/tag/0.0.1",
+      "id": 4235537,
+      "tagName": "0.0.1",
+      "targetCommitish": "master",
+      "name": "JiraWatcher v0.0.1",
+      "draft": false,
+      "author": {
+        "login": "iwamatsu0430",
+        "id": 3608976,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3608976?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/iwamatsu0430",
+        "htmlUrl": "https://github.com/iwamatsu0430",
+        "followersUrl": "https://api.github.com/users/iwamatsu0430/followers",
+        "subscriptionsUrl": "https://api.github.com/users/iwamatsu0430/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/iwamatsu0430/orgs",
+        "reposUrl": "https://api.github.com/users/iwamatsu0430/repos",
+        "receivedEventsUrl": "https://api.github.com/users/iwamatsu0430/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-09-27T00:20:08.000Z",
+      "publishedAt": "2016-09-27T00:26:19.000Z",
+      "tarballUrl": "https://api.github.com/repos/iwamatsu0430/JiraWatcher/tarball/0.0.1",
+      "zipballUrl": "https://api.github.com/repos/iwamatsu0430/JiraWatcher/zipball/0.0.1",
+      "body": "# v0.0.1 Feature\n- window\n  - show foreground always\n  - drag anywhere and drop (darwin only)\n- sign in\n  - sign in with your domain\n  - memorize your domain and email, cache\n- show issues\n  - default jql is your issues `assignee = '${this.loginName}' and status in (Open, 'In Progress') order by priority, Sprint`\n  - reload automatically every 10 minutes\n  - click title, open JIRA\n- search JQL\n  - memorize JQL history\n  - click history, edit JQL again\n"
+    }
+  ]
 }

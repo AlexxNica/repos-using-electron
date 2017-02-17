@@ -71,21 +71,14 @@
       "start": "node_modules/.bin/electron .",
       "build": "electron-packager . $npm_package_productName --out=packaged --icon='icon.icns' --overwrite --ignore='^/packaged --prune --platform=darwin --arch=x64 --version=$npm_package_electronVersion"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/VentureEquityExchange/DesktopPlatform.git"
-    },
+    "repository": "https://github.com/VentureEquityExchange/DesktopPlatform",
     "keywords": [
       "Ethereum",
       "Desktop",
       "Electron",
       "React"
     ],
-    "author": "Ryan Michael Tate",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/VentureEquityExchange/DesktopPlatform/issues"
-    },
     "homepage": "https://github.com/VentureEquityExchange/DesktopPlatform#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -104,6 +97,12 @@
         "babel": "npm:babel-core@^5.8.24",
         "babel-runtime": "npm:babel-runtime@^5.8.24",
         "core-js": "npm:core-js@^1.1.4"
+      }
+    },
+    "other": {
+      "author": "Ryan Michael Tate",
+      "bugs": {
+        "url": "https://github.com/VentureEquityExchange/DesktopPlatform/issues"
       }
     }
   },
@@ -132,5 +131,7 @@
       "url": "https://api.github.com/repos/VentureEquityExchange/DesktopPlatform/git/commits/2ecf3d68a65e559edbc607cb46748a568f92e281",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "VentureEquityExchange___DesktopPlatform.json",
+  "releases": []
 }

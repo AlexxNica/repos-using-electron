@@ -117,10 +117,7 @@
       "publish": "lerna publish && node scripts/docs.js",
       "test": "node scripts/test.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/MRN-Code/coinstac.git"
-    },
+    "repository": "https://github.com/MRN-Code/coinstac",
     "keywords": [
       "coins",
       "coinstac",
@@ -130,7 +127,6 @@
       "differential",
       "privacy"
     ],
-    "author": "NI Development - The Mind Research Network <nidev@mrn.org> (http://coins.mrn.org)",
     "contributors": [
       "Chris Dieringer <cdaringe@gmail.org>",
       "Cory Reed <swashcap@gmail.com>",
@@ -139,9 +135,6 @@
       "Sergey Plis <splis@mrn.org>"
     ],
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/MRN-Code/coinstac/issues"
-    },
     "homepage": "https://github.com/MRN-Code/coinstac#readme",
     "pre-commit": {
       "colors": true,
@@ -150,6 +143,12 @@
         "lint",
         "test"
       ]
+    },
+    "other": {
+      "author": "NI Development - The Mind Research Network <nidev@mrn.org> (http://coins.mrn.org)",
+      "bugs": {
+        "url": "https://github.com/MRN-Code/coinstac/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -181,5 +180,180 @@
       "url": "https://api.github.com/repos/MRN-Code/coinstac/git/commits/ca974f93a8a6eb075f5ae8e83379fb5a01c310b7",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "MRN-Code___coinstac.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/MRN-Code/coinstac/releases/5481987",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/MRN-Code/coinstac/releases/assets/3208258",
+          "id": 3208258,
+          "name": "coinstac-darwin-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "rssk",
+            "id": 5331533,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/5331533?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/rssk",
+            "htmlUrl": "https://github.com/rssk",
+            "followersUrl": "https://api.github.com/users/rssk/followers",
+            "subscriptionsUrl": "https://api.github.com/users/rssk/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/rssk/orgs",
+            "reposUrl": "https://api.github.com/users/rssk/repos",
+            "receivedEventsUrl": "https://api.github.com/users/rssk/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 59905904,
+          "downloadCount": 2,
+          "createdAt": "2017-02-16T19:01:24.000Z",
+          "updatedAt": "2017-02-16T19:02:46.000Z",
+          "browserDownloadUrl": "https://github.com/MRN-Code/coinstac/releases/download/v2.3.1/coinstac-darwin-x64.zip"
+        },
+        {
+          "url": "https://api.github.com/repos/MRN-Code/coinstac/releases/assets/3208299",
+          "id": 3208299,
+          "name": "coinstac-win32-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "rssk",
+            "id": 5331533,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/5331533?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/rssk",
+            "htmlUrl": "https://github.com/rssk",
+            "followersUrl": "https://api.github.com/users/rssk/followers",
+            "subscriptionsUrl": "https://api.github.com/users/rssk/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/rssk/orgs",
+            "reposUrl": "https://api.github.com/users/rssk/repos",
+            "receivedEventsUrl": "https://api.github.com/users/rssk/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 95073902,
+          "downloadCount": 2,
+          "createdAt": "2017-02-16T19:09:32.000Z",
+          "updatedAt": "2017-02-16T19:11:43.000Z",
+          "browserDownloadUrl": "https://github.com/MRN-Code/coinstac/releases/download/v2.3.1/coinstac-win32-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/MRN-Code/coinstac/releases/5481987/assets",
+      "htmlUrl": "https://github.com/MRN-Code/coinstac/releases/tag/v2.3.1",
+      "id": 5481987,
+      "tagName": "v2.3.1",
+      "targetCommitish": "master",
+      "name": "v2.3.1-alpha",
+      "draft": false,
+      "author": {
+        "login": "rssk",
+        "id": 5331533,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5331533?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/rssk",
+        "htmlUrl": "https://github.com/rssk",
+        "followersUrl": "https://api.github.com/users/rssk/followers",
+        "subscriptionsUrl": "https://api.github.com/users/rssk/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/rssk/orgs",
+        "reposUrl": "https://api.github.com/users/rssk/repos",
+        "receivedEventsUrl": "https://api.github.com/users/rssk/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2017-02-16T18:45:32.000Z",
+      "publishedAt": "2017-02-16T19:24:52.000Z",
+      "tarballUrl": "https://api.github.com/repos/MRN-Code/coinstac/tarball/v2.3.1",
+      "zipballUrl": "https://api.github.com/repos/MRN-Code/coinstac/zipball/v2.3.1",
+      "body": "Coinstac alpha release for Mac 64-bit and Windows 64-bit systems."
+    },
+    {
+      "url": "https://api.github.com/repos/MRN-Code/coinstac/releases/4594738",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/MRN-Code/coinstac/releases/assets/2604249",
+          "id": 2604249,
+          "name": "coinstac-darwin-x64.tar.gz",
+          "label": null,
+          "uploader": {
+            "login": "rssk",
+            "id": 5331533,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/5331533?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/rssk",
+            "htmlUrl": "https://github.com/rssk",
+            "followersUrl": "https://api.github.com/users/rssk/followers",
+            "subscriptionsUrl": "https://api.github.com/users/rssk/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/rssk/orgs",
+            "reposUrl": "https://api.github.com/users/rssk/repos",
+            "receivedEventsUrl": "https://api.github.com/users/rssk/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-gzip",
+          "state": "uploaded",
+          "size": 138027773,
+          "downloadCount": 0,
+          "createdAt": "2016-11-07T20:01:35.000Z",
+          "updatedAt": "2016-11-07T20:04:45.000Z",
+          "browserDownloadUrl": "https://github.com/MRN-Code/coinstac/releases/download/v2.2.1/coinstac-darwin-x64.tar.gz"
+        },
+        {
+          "url": "https://api.github.com/repos/MRN-Code/coinstac/releases/assets/2604257",
+          "id": 2604257,
+          "name": "coinstac-win32-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "rssk",
+            "id": 5331533,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/5331533?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/rssk",
+            "htmlUrl": "https://github.com/rssk",
+            "followersUrl": "https://api.github.com/users/rssk/followers",
+            "subscriptionsUrl": "https://api.github.com/users/rssk/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/rssk/orgs",
+            "reposUrl": "https://api.github.com/users/rssk/repos",
+            "receivedEventsUrl": "https://api.github.com/users/rssk/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 106857870,
+          "downloadCount": 1,
+          "createdAt": "2016-11-07T20:05:55.000Z",
+          "updatedAt": "2016-11-07T20:08:21.000Z",
+          "browserDownloadUrl": "https://github.com/MRN-Code/coinstac/releases/download/v2.2.1/coinstac-win32-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/MRN-Code/coinstac/releases/4594738/assets",
+      "htmlUrl": "https://github.com/MRN-Code/coinstac/releases/tag/v2.2.1",
+      "id": 4594738,
+      "tagName": "v2.2.1",
+      "targetCommitish": "master",
+      "name": "v2.2.1-alpha",
+      "draft": false,
+      "author": {
+        "login": "rssk",
+        "id": 5331533,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5331533?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/rssk",
+        "htmlUrl": "https://github.com/rssk",
+        "followersUrl": "https://api.github.com/users/rssk/followers",
+        "subscriptionsUrl": "https://api.github.com/users/rssk/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/rssk/orgs",
+        "reposUrl": "https://api.github.com/users/rssk/repos",
+        "receivedEventsUrl": "https://api.github.com/users/rssk/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-11-07T19:45:16.000Z",
+      "publishedAt": "2016-11-07T20:10:19.000Z",
+      "tarballUrl": "https://api.github.com/repos/MRN-Code/coinstac/tarball/v2.2.1",
+      "zipballUrl": "https://api.github.com/repos/MRN-Code/coinstac/zipball/v2.2.1",
+      "body": "Coinstac alpha release for Mac 64-bit and Windows 64-bit systems.\n"
+    }
+  ]
 }

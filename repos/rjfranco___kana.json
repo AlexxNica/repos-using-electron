@@ -50,10 +50,6 @@
     "version": "0.0.0",
     "description": "Small description for kana goes here",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -63,7 +59,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -127,6 +122,13 @@
         "ProductName": null,
         "InternalName": null
       }
+    },
+    "other": {
+      "author": "",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 404,
@@ -175,5 +177,7 @@
       "url": "https://api.github.com/repos/rjfranco/kana/git/commits/79cb729eb7ebc7025f941d0e0b22edd2fe76ee64",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rjfranco___kana.json",
+  "releases": []
 }

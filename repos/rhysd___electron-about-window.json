@@ -86,21 +86,14 @@
       "start": "npm run dep && npm run build && npm run example",
       "preversion": "npm run lint && npm run build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rhysd/electron-about-window.git"
-    },
+    "repository": "https://github.com/rhysd/electron-about-window",
     "keywords": [
       "Electron",
       "electron-component",
       "about",
       "window"
     ],
-    "author": "rhysd <lin90162@yahoo.co.jp>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/rhysd/electron-about-window/issues"
-    },
     "homepage": "https://github.com/rhysd/electron-about-window#readme",
     "devDependencies": {
       "@types/electron": "^1.4.25",
@@ -110,7 +103,13 @@
       "tslint": "^3.15.1",
       "typescript": "^2.0.7"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "other": {
+      "author": "rhysd <lin90162@yahoo.co.jp>",
+      "bugs": {
+        "url": "https://github.com/rhysd/electron-about-window/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -138,5 +137,7 @@
       "url": "https://api.github.com/repos/rhysd/electron-about-window/git/commits/b75ce748dd2360154bdd1caf8c65e2463323832c",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rhysd___electron-about-window.json",
+  "releases": []
 }

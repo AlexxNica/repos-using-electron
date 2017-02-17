@@ -73,17 +73,10 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-authentication-hatena",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/azu/electron-authentication-hatena.git"
-    },
-    "author": "azu",
+    "repository": "https://github.com/azu/electron-authentication-hatena",
     "email": "azuciao@gmail.com",
     "homepage": "https://github.com/azu/electron-authentication-hatena",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/azu/electron-authentication-hatena/issues"
-    },
     "version": "2.0.1",
     "description": "Hatena OAuth Window library.",
     "main": "lib/AuthenticationHatena.js",
@@ -91,9 +84,6 @@
       "lib",
       "src"
     ],
-    "directories": {
-      "test": "test"
-    },
     "scripts": {
       "build": "babel src --out-dir lib --source-maps",
       "watch": "babel src --out-dir lib --watch --source-maps",
@@ -111,6 +101,15 @@
     },
     "dependencies": {
       "oauth": "^0.9.14"
+    },
+    "other": {
+      "author": "azu",
+      "bugs": {
+        "url": "https://github.com/azu/electron-authentication-hatena/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -139,5 +138,39 @@
       "url": "https://api.github.com/repos/azu/electron-authentication-hatena/git/commits/6cc749a2b6fe5b1bf291e811767bb6eacfee1ced",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "azu___electron-authentication-hatena.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/azu/electron-authentication-hatena/releases/2628051",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/azu/electron-authentication-hatena/releases/2628051/assets",
+      "htmlUrl": "https://github.com/azu/electron-authentication-hatena/releases/tag/2.0.1",
+      "id": 2628051,
+      "tagName": "2.0.1",
+      "targetCommitish": "master",
+      "name": null,
+      "draft": false,
+      "author": {
+        "login": "azu",
+        "id": 19714,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19714?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/azu",
+        "htmlUrl": "https://github.com/azu",
+        "followersUrl": "https://api.github.com/users/azu/followers",
+        "subscriptionsUrl": "https://api.github.com/users/azu/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/azu/orgs",
+        "reposUrl": "https://api.github.com/users/azu/repos",
+        "receivedEventsUrl": "https://api.github.com/users/azu/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-02-16T23:35:34.000Z",
+      "publishedAt": "2016-02-16T23:35:57.000Z",
+      "tarballUrl": "https://api.github.com/repos/azu/electron-authentication-hatena/tarball/2.0.1",
+      "zipballUrl": "https://api.github.com/repos/azu/electron-authentication-hatena/zipball/2.0.1",
+      "body": "### Bug Fixes\n- **example:** update example code ([956d0a0](https://github.com/azu/electron-authentication-hatena/commit/956d0a0))\n"
+    }
+  ]
 }

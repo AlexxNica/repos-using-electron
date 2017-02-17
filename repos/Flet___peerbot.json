@@ -219,12 +219,6 @@
       "rebuild-leveldb": "cd node_modules/leveldown && HOME=~/.electron-gyp node-gyp rebuild --target=0.25.1 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
       "start": "electron-spawn . --channel=friends",
       "test": "standard"
-    },
-    "other": {
-      "author": "MOOSE Team",
-      "bugs": {
-        "url": "https://github.com/ngoldman/peerbot/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -253,5 +247,6 @@
       "commentCount": 0
     }
   },
-  "filename": "Flet___peerbot.json"
+  "filename": "Flet___peerbot.json",
+  "releases": []
 }

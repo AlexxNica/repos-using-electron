@@ -140,9 +140,6 @@
       "commitizen": {
         "path": "./node_modules/cz-conventional-changelog"
       }
-    },
-    "other": {
-      "author": "luin <i@zihua.li> (http://zihua.li)"
     }
   },
   "packageStatus": 200,
@@ -173,5 +170,243 @@
       "commentCount": 0
     }
   },
-  "filename": "luin___medis.json"
+  "filename": "luin___medis.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/luin/medis/releases/4826053",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/luin/medis/releases/assets/2761695",
+          "id": 2761695,
+          "name": "medis-v0.5.0-mac-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "luin",
+            "id": 635902,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/635902?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/luin",
+            "htmlUrl": "https://github.com/luin",
+            "followersUrl": "https://api.github.com/users/luin/followers",
+            "subscriptionsUrl": "https://api.github.com/users/luin/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/luin/orgs",
+            "reposUrl": "https://api.github.com/users/luin/repos",
+            "receivedEventsUrl": "https://api.github.com/users/luin/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 42114115,
+          "downloadCount": 3324,
+          "createdAt": "2016-12-04T04:41:00.000Z",
+          "updatedAt": "2016-12-04T04:42:33.000Z",
+          "browserDownloadUrl": "https://github.com/luin/medis/releases/download/v0.5.0/medis-v0.5.0-mac-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/luin/medis/releases/4826053/assets",
+      "htmlUrl": "https://github.com/luin/medis/releases/tag/v0.5.0",
+      "id": 4826053,
+      "tagName": "v0.5.0",
+      "targetCommitish": "mas",
+      "name": "",
+      "draft": false,
+      "author": {
+        "login": "luin",
+        "id": 635902,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/635902?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/luin",
+        "htmlUrl": "https://github.com/luin",
+        "followersUrl": "https://api.github.com/users/luin/followers",
+        "subscriptionsUrl": "https://api.github.com/users/luin/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/luin/orgs",
+        "reposUrl": "https://api.github.com/users/luin/repos",
+        "receivedEventsUrl": "https://api.github.com/users/luin/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-12-04T04:39:56.000Z",
+      "publishedAt": "2016-12-04T04:40:04.000Z",
+      "tarballUrl": "https://api.github.com/repos/luin/medis/tarball/v0.5.0",
+      "zipballUrl": "https://api.github.com/repos/luin/medis/zipball/v0.5.0",
+      "body": "### Bug Fixes\n- check err first before update the database status ([dd46cc3](https://github.com/luin/medis/commit/dd46cc3))\n- clear the state before leaving the favorite page ([498a077](https://github.com/luin/medis/commit/498a077))\n- don't show error multiple times when lost connection to SSH tunnel ([2b732bd](https://github.com/luin/medis/commit/2b732bd))\n- fix psubscribe not working. Close #32 ([586a943](https://github.com/luin/medis/commit/586a943)), closes [#32](https://github.com/luin/medis/issues/32)\n- provide details error when connection is failed ([99d2757](https://github.com/luin/medis/commit/99d2757))\n- tweak config panel style ([d92faf2](https://github.com/luin/medis/commit/d92faf2))\n- ui issues when switching between tabs ([330f52f](https://github.com/luin/medis/commit/330f52f)), closes [#1](https://github.com/luin/medis/issues/1)\n\n### Features\n- add support for SSL connection. ([ca29384](https://github.com/luin/medis/commit/ca29384)), closes [#41](https://github.com/luin/medis/issues/41)\n- allow quick connecting by double clicking ([53a284e](https://github.com/luin/medis/commit/53a284e))\n- support Elastic Cache Redis & RedisLabs for selecting database ([18e5629](https://github.com/luin/medis/commit/18e5629))\n- support to duplicate favorites ([c2bc438](https://github.com/luin/medis/commit/c2bc438)), closes [#30](https://github.com/luin/medis/issues/30)\n- use Consolas font instead ([bd9d1c9](https://github.com/luin/medis/commit/bd9d1c9)), closes [#2](https://github.com/luin/medis/issues/2) [#39](https://github.com/luin/medis/issues/39)\n"
+    },
+    {
+      "url": "https://api.github.com/repos/luin/medis/releases/2889240",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/luin/medis/releases/assets/1471820",
+          "id": 1471820,
+          "name": "medis-v0.3.0-mac-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "luin",
+            "id": 635902,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/635902?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/luin",
+            "htmlUrl": "https://github.com/luin",
+            "followersUrl": "https://api.github.com/users/luin/followers",
+            "subscriptionsUrl": "https://api.github.com/users/luin/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/luin/orgs",
+            "reposUrl": "https://api.github.com/users/luin/repos",
+            "receivedEventsUrl": "https://api.github.com/users/luin/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 37697145,
+          "downloadCount": 6340,
+          "createdAt": "2016-03-25T16:18:52.000Z",
+          "updatedAt": "2016-03-25T16:20:10.000Z",
+          "browserDownloadUrl": "https://github.com/luin/medis/releases/download/v0.3.0/medis-v0.3.0-mac-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/luin/medis/releases/2889240/assets",
+      "htmlUrl": "https://github.com/luin/medis/releases/tag/v0.3.0",
+      "id": 2889240,
+      "tagName": "v0.3.0",
+      "targetCommitish": "mas",
+      "name": "",
+      "draft": false,
+      "author": {
+        "login": "luin",
+        "id": 635902,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/635902?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/luin",
+        "htmlUrl": "https://github.com/luin",
+        "followersUrl": "https://api.github.com/users/luin/followers",
+        "subscriptionsUrl": "https://api.github.com/users/luin/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/luin/orgs",
+        "reposUrl": "https://api.github.com/users/luin/repos",
+        "receivedEventsUrl": "https://api.github.com/users/luin/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-03-25T16:17:31.000Z",
+      "publishedAt": "2016-03-25T16:17:46.000Z",
+      "tarballUrl": "https://api.github.com/repos/luin/medis/tarball/v0.3.0",
+      "zipballUrl": "https://api.github.com/repos/luin/medis/zipball/v0.3.0",
+      "body": "### Bug Fixes\n- **windows:** hide app menu in Windows version ([d31bd6c](https://github.com/luin/medis/commit/d31bd6c))\n\n### Features\n- support inputing spaces in terminal ([04e7bcf](https://github.com/luin/medis/commit/04e7bcf)), closes [#24](https://github.com/luin/medis/issues/24)\n"
+    },
+    {
+      "url": "https://api.github.com/repos/luin/medis/releases/2527659",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/luin/medis/releases/assets/1264562",
+          "id": 1264562,
+          "name": "medis-v0.2.1-mac-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "luin",
+            "id": 635902,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/635902?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/luin",
+            "htmlUrl": "https://github.com/luin",
+            "followersUrl": "https://api.github.com/users/luin/followers",
+            "subscriptionsUrl": "https://api.github.com/users/luin/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/luin/orgs",
+            "reposUrl": "https://api.github.com/users/luin/repos",
+            "receivedEventsUrl": "https://api.github.com/users/luin/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 37566836,
+          "downloadCount": 872,
+          "createdAt": "2016-02-01T08:50:54.000Z",
+          "updatedAt": "2016-02-01T08:52:08.000Z",
+          "browserDownloadUrl": "https://github.com/luin/medis/releases/download/v0.2.1/medis-v0.2.1-mac-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/luin/medis/releases/2527659/assets",
+      "htmlUrl": "https://github.com/luin/medis/releases/tag/v0.2.1",
+      "id": 2527659,
+      "tagName": "v0.2.1",
+      "targetCommitish": "mas",
+      "name": "",
+      "draft": false,
+      "author": {
+        "login": "luin",
+        "id": 635902,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/635902?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/luin",
+        "htmlUrl": "https://github.com/luin",
+        "followersUrl": "https://api.github.com/users/luin/followers",
+        "subscriptionsUrl": "https://api.github.com/users/luin/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/luin/orgs",
+        "reposUrl": "https://api.github.com/users/luin/repos",
+        "receivedEventsUrl": "https://api.github.com/users/luin/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-02-01T08:49:35.000Z",
+      "publishedAt": "2016-02-01T08:49:43.000Z",
+      "tarballUrl": "https://api.github.com/repos/luin/medis/tarball/v0.2.1",
+      "zipballUrl": "https://api.github.com/repos/luin/medis/zipball/v0.2.1",
+      "body": "### Bug Fixes\n- **ssh:** fix ssh password being ignored ([4dfdbcd](https://github.com/luin/medis/commit/4dfdbcd)), closes [#13](https://github.com/luin/medis/issues/13)\n"
+    },
+    {
+      "url": "https://api.github.com/repos/luin/medis/releases/2401320",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/luin/medis/releases/assets/1197453",
+          "id": 1197453,
+          "name": "Medis.for.OS.X.zip",
+          "label": null,
+          "uploader": {
+            "login": "luin",
+            "id": 635902,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/635902?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/luin",
+            "htmlUrl": "https://github.com/luin",
+            "followersUrl": "https://api.github.com/users/luin/followers",
+            "subscriptionsUrl": "https://api.github.com/users/luin/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/luin/orgs",
+            "reposUrl": "https://api.github.com/users/luin/repos",
+            "receivedEventsUrl": "https://api.github.com/users/luin/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 37873818,
+          "downloadCount": 2024,
+          "createdAt": "2016-01-10T16:02:45.000Z",
+          "updatedAt": "2016-01-10T16:05:22.000Z",
+          "browserDownloadUrl": "https://github.com/luin/medis/releases/download/v0.2.0/Medis.for.OS.X.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/luin/medis/releases/2401320/assets",
+      "htmlUrl": "https://github.com/luin/medis/releases/tag/v0.2.0",
+      "id": 2401320,
+      "tagName": "v0.2.0",
+      "targetCommitish": "master",
+      "name": "v0.2.0",
+      "draft": false,
+      "author": {
+        "login": "luin",
+        "id": 635902,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/635902?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/luin",
+        "htmlUrl": "https://github.com/luin",
+        "followersUrl": "https://api.github.com/users/luin/followers",
+        "subscriptionsUrl": "https://api.github.com/users/luin/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/luin/orgs",
+        "reposUrl": "https://api.github.com/users/luin/repos",
+        "receivedEventsUrl": "https://api.github.com/users/luin/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-01-10T16:01:00.000Z",
+      "publishedAt": "2016-01-10T16:05:22.000Z",
+      "tarballUrl": "https://api.github.com/repos/luin/medis/tarball/v0.2.0",
+      "zipballUrl": "https://api.github.com/repos/luin/medis/zipball/v0.2.0",
+      "body": "- Support duplicating a key\n- Improve the interface\n- Improve the performance of finding keys\n"
+    }
+  ]
 }

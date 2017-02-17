@@ -125,5 +125,93 @@
     }
   },
   "sourceRepo": "synthetos/TinyG-Updater",
-  "filename": "timotius02___electron-file-explorer.json"
+  "filename": "timotius02___electron-file-explorer.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/timotius02/electron-file-explorer/releases/1362525",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/timotius02/electron-file-explorer/releases/assets/613519",
+          "id": 613519,
+          "name": "electron-file-explorer_0.1.0.dmg",
+          "label": null,
+          "uploader": {
+            "login": "timotius02",
+            "id": 5110237,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/5110237?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/timotius02",
+            "htmlUrl": "https://github.com/timotius02",
+            "followersUrl": "https://api.github.com/users/timotius02/followers",
+            "subscriptionsUrl": "https://api.github.com/users/timotius02/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/timotius02/orgs",
+            "reposUrl": "https://api.github.com/users/timotius02/repos",
+            "receivedEventsUrl": "https://api.github.com/users/timotius02/received_events",
+            "type": "User"
+          },
+          "contentType": "application/octet-stream",
+          "state": "uploaded",
+          "size": 38832368,
+          "downloadCount": 121,
+          "createdAt": "2015-06-01T18:29:23.000Z",
+          "updatedAt": "2015-06-01T18:37:47.000Z",
+          "browserDownloadUrl": "https://github.com/timotius02/electron-file-explorer/releases/download/v1.0.0/electron-file-explorer_0.1.0.dmg"
+        },
+        {
+          "url": "https://api.github.com/repos/timotius02/electron-file-explorer/releases/assets/614399",
+          "id": 614399,
+          "name": "electron-file-explorer_0.1.0.exe",
+          "label": null,
+          "uploader": {
+            "login": "timotius02",
+            "id": 5110237,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/5110237?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/timotius02",
+            "htmlUrl": "https://github.com/timotius02",
+            "followersUrl": "https://api.github.com/users/timotius02/followers",
+            "subscriptionsUrl": "https://api.github.com/users/timotius02/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/timotius02/orgs",
+            "reposUrl": "https://api.github.com/users/timotius02/repos",
+            "receivedEventsUrl": "https://api.github.com/users/timotius02/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-msdownload",
+          "state": "uploaded",
+          "size": 34450189,
+          "downloadCount": 41,
+          "createdAt": "2015-06-02T01:34:42.000Z",
+          "updatedAt": "2015-06-02T01:45:34.000Z",
+          "browserDownloadUrl": "https://github.com/timotius02/electron-file-explorer/releases/download/v1.0.0/electron-file-explorer_0.1.0.exe"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/timotius02/electron-file-explorer/releases/1362525/assets",
+      "htmlUrl": "https://github.com/timotius02/electron-file-explorer/releases/tag/v1.0.0",
+      "id": 1362525,
+      "tagName": "v1.0.0",
+      "targetCommitish": "master",
+      "name": "v1.0.0",
+      "draft": false,
+      "author": {
+        "login": "timotius02",
+        "id": 5110237,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5110237?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/timotius02",
+        "htmlUrl": "https://github.com/timotius02",
+        "followersUrl": "https://api.github.com/users/timotius02/followers",
+        "subscriptionsUrl": "https://api.github.com/users/timotius02/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/timotius02/orgs",
+        "reposUrl": "https://api.github.com/users/timotius02/repos",
+        "receivedEventsUrl": "https://api.github.com/users/timotius02/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2015-06-02T02:19:46.000Z",
+      "publishedAt": "2015-06-01T18:39:22.000Z",
+      "tarballUrl": "https://api.github.com/repos/timotius02/electron-file-explorer/tarball/v1.0.0",
+      "zipballUrl": "https://api.github.com/repos/timotius02/electron-file-explorer/zipball/v1.0.0",
+      "body": "# v1.0.0 release\n\n## To build a release from project\n\n**Note:** There are various icon and bitmap files in `resources` directory. Those are used in installers and are intended to be replaced by your own graphics.\n\nTo make ready for distribution installer use command:\n\n```\nnpm run release\n```\n\nIt will start the packaging process for operating system you are running this command on. Ready for distribution file will be outputted to `releases` directory.\n\nYou can create Windows installer only when running on Windows, the same is true for Linux and OSX. So to generate all three installers you need all three operating systems.\n\n## Special precautions for Windows\n\nAs installer [NSIS](http://nsis.sourceforge.net/Main_Page) is used. You have to install it (version 3.0), and add NSIS folder to PATH in Environment Variables, so it is reachable to scripts in this project (path should look something like `C:/Program Files (x86)/NSIS`).\n"
+    }
+  ]
 }

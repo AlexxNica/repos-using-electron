@@ -129,13 +129,6 @@
       "typescript": "^1.8.10",
       "webpack-dev-middleware": "^1.6.1",
       "webpack-hot-middleware": "^2.12.1"
-    },
-    "other": {
-      "author": {
-        "name": "Zak Golding",
-        "email": "zak@0x7cf.com",
-        "url": "https://github.com/zakarhino"
-      }
     }
   },
   "packageStatus": 200,
@@ -164,5 +157,125 @@
       "commentCount": 0
     }
   },
-  "filename": "zakarhino___noam.json"
+  "filename": "zakarhino___noam.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/zakarhino/noam/releases/3555433",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/zakarhino/noam/releases/assets/1920977",
+          "id": 1920977,
+          "name": "noam.app.zip",
+          "label": null,
+          "uploader": {
+            "login": "zakarhino",
+            "id": 9221134,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/9221134?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/zakarhino",
+            "htmlUrl": "https://github.com/zakarhino",
+            "followersUrl": "https://api.github.com/users/zakarhino/followers",
+            "subscriptionsUrl": "https://api.github.com/users/zakarhino/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/zakarhino/orgs",
+            "reposUrl": "https://api.github.com/users/zakarhino/repos",
+            "receivedEventsUrl": "https://api.github.com/users/zakarhino/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 43010638,
+          "downloadCount": 1,
+          "createdAt": "2016-06-30T01:40:44.000Z",
+          "updatedAt": "2016-06-30T01:41:22.000Z",
+          "browserDownloadUrl": "https://github.com/zakarhino/noam/releases/download/V0.2.0/noam.app.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/zakarhino/noam/releases/3555433/assets",
+      "htmlUrl": "https://github.com/zakarhino/noam/releases/tag/V0.2.0",
+      "id": 3555433,
+      "tagName": "V0.2.0",
+      "targetCommitish": "develop",
+      "name": "Alpha 2",
+      "draft": false,
+      "author": {
+        "login": "zakarhino",
+        "id": 9221134,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9221134?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/zakarhino",
+        "htmlUrl": "https://github.com/zakarhino",
+        "followersUrl": "https://api.github.com/users/zakarhino/followers",
+        "subscriptionsUrl": "https://api.github.com/users/zakarhino/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/zakarhino/orgs",
+        "reposUrl": "https://api.github.com/users/zakarhino/repos",
+        "receivedEventsUrl": "https://api.github.com/users/zakarhino/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-06-30T01:38:14.000Z",
+      "publishedAt": "2016-06-30T01:44:07.000Z",
+      "tarballUrl": "https://api.github.com/repos/zakarhino/noam/tarball/V0.2.0",
+      "zipballUrl": "https://api.github.com/repos/zakarhino/noam/zipball/V0.2.0",
+      "body": "This update includes automatic saving and search functionality. Also I've added buttons for text styling (you can still style using the Cmd+B shortcuts and what not). I've also included the .app file for this alpha release. I suggest you use that.\n\nTo run from source for production, just type:\n`npm run build`\nthen:\n`npm run start`\n\nNote that chrome dev tools are displayed by default. Hide them with Cmd+Alt+I\n\nTo run with Redux Dev Tools and HMR, use:\n`npm run start:hot:devtools`\n\nChangelog:\n- Added search functionality\n- Added style buttons\n- Added auto saving\n- Removed save button\n- Added start with redux dev tools script\n"
+    },
+    {
+      "url": "https://api.github.com/repos/zakarhino/noam/releases/3502820",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/zakarhino/noam/releases/assets/1887555",
+          "id": 1887555,
+          "name": "noam.app.zip",
+          "label": null,
+          "uploader": {
+            "login": "zakarhino",
+            "id": 9221134,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/9221134?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/zakarhino",
+            "htmlUrl": "https://github.com/zakarhino",
+            "followersUrl": "https://api.github.com/users/zakarhino/followers",
+            "subscriptionsUrl": "https://api.github.com/users/zakarhino/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/zakarhino/orgs",
+            "reposUrl": "https://api.github.com/users/zakarhino/repos",
+            "receivedEventsUrl": "https://api.github.com/users/zakarhino/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 43010623,
+          "downloadCount": 0,
+          "createdAt": "2016-06-22T20:59:26.000Z",
+          "updatedAt": "2016-06-22T21:00:25.000Z",
+          "browserDownloadUrl": "https://github.com/zakarhino/noam/releases/download/v0.1.0-alpha/noam.app.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/zakarhino/noam/releases/3502820/assets",
+      "htmlUrl": "https://github.com/zakarhino/noam/releases/tag/v0.1.0-alpha",
+      "id": 3502820,
+      "tagName": "v0.1.0-alpha",
+      "targetCommitish": "develop",
+      "name": "Alpha release!",
+      "draft": false,
+      "author": {
+        "login": "zakarhino",
+        "id": 9221134,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9221134?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/zakarhino",
+        "htmlUrl": "https://github.com/zakarhino",
+        "followersUrl": "https://api.github.com/users/zakarhino/followers",
+        "subscriptionsUrl": "https://api.github.com/users/zakarhino/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/zakarhino/orgs",
+        "reposUrl": "https://api.github.com/users/zakarhino/repos",
+        "receivedEventsUrl": "https://api.github.com/users/zakarhino/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-06-22T20:57:14.000Z",
+      "publishedAt": "2016-06-22T21:00:48.000Z",
+      "tarballUrl": "https://api.github.com/repos/zakarhino/noam/tarball/v0.1.0-alpha",
+      "zipballUrl": "https://api.github.com/repos/zakarhino/noam/zipball/v0.1.0-alpha",
+      "body": "This is a test release of the application. Just run it with:\n\n`npm install`\n`typings install`\n`npm run build`\n`npm run start`\n\nAlternatively I've included a Mac .app packaged application in this release.\n\nDev tools open by default to allow debugging. You can close them with the regular `Cmd + Option + I` keys you use on Chrome to toggle dev tools.\n"
+    }
+  ]
 }

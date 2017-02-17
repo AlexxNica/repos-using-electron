@@ -90,11 +90,6 @@
     "version": "0.0.0",
     "description": "Web Client to access the Mega Cloud Infrastructure",
     "main": "index.js",
-    "directories": {
-      "src": "js",
-      "test": "test",
-      "doc": "doc"
-    },
     "scripts": {
       "test": "make test",
       "jscpd": "jscpd --verbose -g javascript,jsx -e **/vendor/** -p ./js --skip-comments -o jscpd-report.xml",
@@ -102,23 +97,15 @@
       "api-doc": "make api-doc"
     },
     "homepage": "https://mega.nz/",
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:meganz/webclient.git"
-    },
-    "bugs": {
-      "url": "https://issues.developers.mega.co.nz/projects/webclient"
-    },
+    "repository": "https://github.com/meganz/webclient",
     "keywords": [
       "Mega",
       "storage",
       "chat",
       "encryption"
     ],
-    "author": "Mega Limited",
     "license": "proprietary",
     "private": true,
-    "readmeFilename": "README.md",
     "dependencies": {
       "babel-core": "^6.3.15",
       "babel-loader": "^6.2.0",
@@ -170,6 +157,18 @@
       "plato": "^1.5.0",
       "sinon": "~1.13.0",
       "webpack-dev-server": "^1.14.0"
+    },
+    "other": {
+      "author": "Mega Limited",
+      "bugs": {
+        "url": "https://issues.developers.mega.co.nz/projects/webclient"
+      },
+      "directories": {
+        "src": "js",
+        "test": "test",
+        "doc": "doc"
+      },
+      "readmeFilename": "README.md"
     }
   },
   "packageStatus": 200,
@@ -212,5 +211,7 @@
       "url": "https://api.github.com/repos/meganz/webclient/git/commits/d7e7df96e891f74914864c4832698ffd7e39a7a0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "meganz___webclient.json",
+  "releases": []
 }

@@ -179,21 +179,14 @@
       "watch": "npm-watch",
       "package": "./node_modules/.bin/electron-packager . Cataloging\\ Rocks --platform=darwin --arch=x64 --version=1.0.1 --app-category-type=public.app-category.education --icon=icon.icns --overwrite"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/cameronwp/cataloging-rocks.git"
-    },
+    "repository": "https://github.com/cameronwp/cataloging-rocks",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/cameronwp/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/cameronwp/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -211,6 +204,12 @@
     },
     "dependencies": {
       "csv": "^1.1.0"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/cameronwp/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 404,
@@ -275,5 +274,7 @@
       "url": "https://api.github.com/repos/cameronwp/cataloging-rocks/git/commits/1d7b194779561c673fbccf18f114826687fd83f3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "cameronwp___cataloging-rocks.json",
+  "releases": []
 }

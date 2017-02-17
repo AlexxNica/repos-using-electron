@@ -81,13 +81,6 @@
     "devDependencies": {
       "electron-packager": "^5.0.0",
       "electron-prebuilt": "^0.30.0"
-    },
-    "other": {
-      "author": {
-        "name": "Daniel Pope",
-        "email": "danielthepope@users.noreply.github.com",
-        "url": "github.com/danielthepope"
-      }
     }
   },
   "packageStatus": 200,
@@ -116,5 +109,93 @@
       "commentCount": 0
     }
   },
-  "filename": "danielthepope___lifening.json"
+  "filename": "danielthepope___lifening.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/danielthepope/lifening/releases/1760010",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/danielthepope/lifening/releases/assets/845328",
+          "id": 845328,
+          "name": "Lifening-darwin-x64.tar.gz",
+          "label": null,
+          "uploader": {
+            "login": "danielthepope",
+            "id": 5173183,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/5173183?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/danielthepope",
+            "htmlUrl": "https://github.com/danielthepope",
+            "followersUrl": "https://api.github.com/users/danielthepope/followers",
+            "subscriptionsUrl": "https://api.github.com/users/danielthepope/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/danielthepope/orgs",
+            "reposUrl": "https://api.github.com/users/danielthepope/repos",
+            "receivedEventsUrl": "https://api.github.com/users/danielthepope/received_events",
+            "type": "User"
+          },
+          "contentType": "application/gzip",
+          "state": "uploaded",
+          "size": 36008886,
+          "downloadCount": 2,
+          "createdAt": "2015-09-06T12:34:44.000Z",
+          "updatedAt": "2015-09-06T12:36:03.000Z",
+          "browserDownloadUrl": "https://github.com/danielthepope/lifening/releases/download/v0.1/Lifening-darwin-x64.tar.gz"
+        },
+        {
+          "url": "https://api.github.com/repos/danielthepope/lifening/releases/assets/837662",
+          "id": 837662,
+          "name": "Lifening-win32-ia32.zip",
+          "label": null,
+          "uploader": {
+            "login": "danielthepope",
+            "id": 5173183,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/5173183?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/danielthepope",
+            "htmlUrl": "https://github.com/danielthepope",
+            "followersUrl": "https://api.github.com/users/danielthepope/followers",
+            "subscriptionsUrl": "https://api.github.com/users/danielthepope/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/danielthepope/orgs",
+            "reposUrl": "https://api.github.com/users/danielthepope/repos",
+            "receivedEventsUrl": "https://api.github.com/users/danielthepope/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-zip-compressed",
+          "state": "uploaded",
+          "size": 37975709,
+          "downloadCount": 2,
+          "createdAt": "2015-09-02T23:38:27.000Z",
+          "updatedAt": "2015-09-02T23:39:04.000Z",
+          "browserDownloadUrl": "https://github.com/danielthepope/lifening/releases/download/v0.1/Lifening-win32-ia32.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/danielthepope/lifening/releases/1760010/assets",
+      "htmlUrl": "https://github.com/danielthepope/lifening/releases/tag/v0.1",
+      "id": 1760010,
+      "tagName": "v0.1",
+      "targetCommitish": "master",
+      "name": "First release",
+      "draft": false,
+      "author": {
+        "login": "danielthepope",
+        "id": 5173183,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5173183?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/danielthepope",
+        "htmlUrl": "https://github.com/danielthepope",
+        "followersUrl": "https://api.github.com/users/danielthepope/followers",
+        "subscriptionsUrl": "https://api.github.com/users/danielthepope/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/danielthepope/orgs",
+        "reposUrl": "https://api.github.com/users/danielthepope/repos",
+        "receivedEventsUrl": "https://api.github.com/users/danielthepope/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2015-09-02T23:33:52.000Z",
+      "publishedAt": "2015-09-02T23:47:25.000Z",
+      "tarballUrl": "https://api.github.com/repos/danielthepope/lifening/tarball/v0.1",
+      "zipballUrl": "https://api.github.com/repos/danielthepope/lifening/zipball/v0.1",
+      "body": "## Windows\n1. Download `Lifening-win32-ia32.zip`\n2. Extract somewhere useful, like C:\\Users\\You\\Applications or whatever\n3. Download config file. [Here's a sample one](https://dl.dropboxusercontent.com/u/13316703/stuff/lifening-config.json). (Right-click, save as)\n4. Run Lifening.exe\n5. When prompted, select the config file. It is copied to your app data folder.\n\n## Mac\n1. Download `Lifening-darwin-x64.tar.gz`\n2. No idea after that.\n"
+    }
+  ]
 }

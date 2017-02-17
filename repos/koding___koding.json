@@ -86,16 +86,12 @@
   "subscribersCount": 28,
   "status": 200,
   "packageJSON": {
-    "author": "Koding Team <team@koding.com>",
     "name": "Koding",
     "description": "Koding codebase",
     "version": "0.9.2",
     "homepage": "koding.com",
     "private": true,
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:koding/koding.git"
-    },
+    "repository": "https://github.com/koding/koding",
     "main": "server/index.js",
     "scripts": {
       "preinstall": "./.npm-preinstall.sh",
@@ -210,6 +206,9 @@
     "optionalDependencies": {},
     "engines": {
       "node": "0.10.20"
+    },
+    "other": {
+      "author": "Koding Team <team@koding.com>"
     }
   },
   "packageStatus": 200,
@@ -306,5 +305,7 @@
       "url": "https://api.github.com/repos/koding/koding/git/commits/781748cfa681821d3213d1193519d31f8063a367",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "koding___koding.json",
+  "releases": []
 }

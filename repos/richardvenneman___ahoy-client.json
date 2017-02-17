@@ -100,18 +100,11 @@
       "postpublish": "git push origin master --follow-tags",
       "toc": "doctoc --github --title \"# Changelog\" CHANGELOG.md"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/richardvenneman/ahoy-client.git"
-    },
+    "repository": "https://github.com/richardvenneman/ahoy-client",
     "keywords": [
       "ahoy analytics rails"
     ],
-    "author": "Richard Venneman <richardvenneman@me.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/richardvenneman/ahoy-client/issues"
-    },
     "homepage": "https://github.com/richardvenneman/ahoy-client#readme",
     "devDependencies": {
       "babel-cli": "^6.18.0",
@@ -139,6 +132,12 @@
     "dependencies": {
       "js-cookie": "^2.1.3",
       "superagent": "^3.0.0"
+    },
+    "other": {
+      "author": "Richard Venneman <richardvenneman@me.com>",
+      "bugs": {
+        "url": "https://github.com/richardvenneman/ahoy-client/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -166,5 +165,7 @@
       "url": "https://api.github.com/repos/richardvenneman/ahoy-client/git/commits/04bb9d4840f401dbaeaae6c3e205f0325fe270ec",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "richardvenneman___ahoy-client.json",
+  "releases": []
 }

@@ -205,16 +205,15 @@
       "win-bundle": "electron-packager . Playback --platform=win32 --arch=ia32 --version=0.35.4 --icon=icon.ico --ignore='node_modules/(electron-packager|electron-prebuilt)'",
       "linux-64-bundle": "electron-packager . Playback --platform=linux --arch=x64 --version=0.35.4 ignore='node_modules/(electron-packager|electron-prebuilt)'"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/mafintosh/playback.git"
-    },
-    "author": "Mathias Buus (@mafintosh)",
+    "repository": "https://github.com/mafintosh/playback",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/mafintosh/playback/issues"
-    },
-    "homepage": "https://github.com/mafintosh/playback"
+    "homepage": "https://github.com/mafintosh/playback",
+    "other": {
+      "author": "Mathias Buus (@mafintosh)",
+      "bugs": {
+        "url": "https://github.com/mafintosh/playback/issues"
+      }
+    }
   },
   "packageStatus": 404,
   "htmlUrl": "https://github.com/seungjulee/playback",
@@ -274,5 +273,67 @@
       "url": "https://api.github.com/repos/seungjulee/playback/git/commits/d1dfb46f5279665d82b0e3afafff834f5d6d148e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "seungjulee___playback.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/seungjulee/playback/releases/2637429",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/seungjulee/playback/releases/assets/1323238",
+          "id": 1323238,
+          "name": "Playback-win32-ia32.zip",
+          "label": null,
+          "uploader": {
+            "login": "seungjulee",
+            "id": 4685781,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/4685781?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/seungjulee",
+            "htmlUrl": "https://github.com/seungjulee",
+            "followersUrl": "https://api.github.com/users/seungjulee/followers",
+            "subscriptionsUrl": "https://api.github.com/users/seungjulee/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/seungjulee/orgs",
+            "reposUrl": "https://api.github.com/users/seungjulee/repos",
+            "receivedEventsUrl": "https://api.github.com/users/seungjulee/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 66813964,
+          "downloadCount": 62,
+          "createdAt": "2016-02-18T03:51:46.000Z",
+          "updatedAt": "2016-02-18T03:52:02.000Z",
+          "browserDownloadUrl": "https://github.com/seungjulee/playback/releases/download/1.6.0/Playback-win32-ia32.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/seungjulee/playback/releases/2637429/assets",
+      "htmlUrl": "https://github.com/seungjulee/playback/releases/tag/1.6.0",
+      "id": 2637429,
+      "tagName": "1.6.0",
+      "targetCommitish": "master",
+      "name": "Windows Build",
+      "draft": false,
+      "author": {
+        "login": "seungjulee",
+        "id": 4685781,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4685781?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/seungjulee",
+        "htmlUrl": "https://github.com/seungjulee",
+        "followersUrl": "https://api.github.com/users/seungjulee/followers",
+        "subscriptionsUrl": "https://api.github.com/users/seungjulee/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/seungjulee/orgs",
+        "reposUrl": "https://api.github.com/users/seungjulee/repos",
+        "receivedEventsUrl": "https://api.github.com/users/seungjulee/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-02-18T03:50:53.000Z",
+      "publishedAt": "2016-02-18T03:54:23.000Z",
+      "tarballUrl": "https://api.github.com/repos/seungjulee/playback/tarball/1.6.0",
+      "zipballUrl": "https://api.github.com/repos/seungjulee/playback/zipball/1.6.0",
+      "body": "- Built with win-bundle script from package.json using electron-packager\n- Requires Codec for some video formats\n- Some features might not work \n"
+    }
+  ]
 }

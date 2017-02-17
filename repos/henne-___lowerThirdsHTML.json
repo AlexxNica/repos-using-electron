@@ -97,10 +97,7 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron index.js"
     },
-    "license": "GPLv3",
-    "other": {
-      "author": "Hendrik Fellerhoff"
-    }
+    "license": "GPLv3"
   },
   "packageStatus": 200,
   "contributors": [],
@@ -126,5 +123,66 @@
       "commentCount": 0
     }
   },
-  "filename": "henne-___lowerThirdsHTML.json"
+  "filename": "henne-___lowerThirdsHTML.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/henne-/lowerThirdsHTML/releases/3237017",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/henne-/lowerThirdsHTML/releases/assets/1692468",
+          "id": 1692468,
+          "name": "lowerThirds.app.zip",
+          "label": null,
+          "uploader": {
+            "login": "henne-",
+            "id": 2435091,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/2435091?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/henne-",
+            "htmlUrl": "https://github.com/henne-",
+            "followersUrl": "https://api.github.com/users/henne-/followers",
+            "subscriptionsUrl": "https://api.github.com/users/henne-/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/henne-/orgs",
+            "reposUrl": "https://api.github.com/users/henne-/repos",
+            "receivedEventsUrl": "https://api.github.com/users/henne-/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 54122359,
+          "downloadCount": 1,
+          "createdAt": "2016-05-16T21:30:31.000Z",
+          "updatedAt": "2016-05-16T21:33:00.000Z",
+          "browserDownloadUrl": "https://github.com/henne-/lowerThirdsHTML/releases/download/v0.1.0-alpha/lowerThirds.app.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/henne-/lowerThirdsHTML/releases/3237017/assets",
+      "htmlUrl": "https://github.com/henne-/lowerThirdsHTML/releases/tag/v0.1.0-alpha",
+      "id": 3237017,
+      "tagName": "v0.1.0-alpha",
+      "targetCommitish": "master",
+      "name": "v0.1.0-alpha",
+      "draft": false,
+      "author": {
+        "login": "henne-",
+        "id": 2435091,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2435091?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/henne-",
+        "htmlUrl": "https://github.com/henne-",
+        "followersUrl": "https://api.github.com/users/henne-/followers",
+        "subscriptionsUrl": "https://api.github.com/users/henne-/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/henne-/orgs",
+        "reposUrl": "https://api.github.com/users/henne-/repos",
+        "receivedEventsUrl": "https://api.github.com/users/henne-/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-05-16T21:19:21.000Z",
+      "publishedAt": "2016-05-16T21:33:27.000Z",
+      "tarballUrl": "https://api.github.com/repos/henne-/lowerThirdsHTML/tarball/v0.1.0-alpha",
+      "zipballUrl": "https://api.github.com/repos/henne-/lowerThirdsHTML/zipball/v0.1.0-alpha",
+      "body": "# v0.1.0-alpha\n\nFirst public version of the Project, still need some tweeking, but it is usable.\n\nStill in Beta!\n\nOpen the app and add a BrowserSource to your OBS Scene on top of the rest. Url for the BrowserSource is \"http://localhost:3000\" as the app binds itself to port 3000.\nIf you want to control your lower thirds with multiple Windows, you can open your Browser and Type \"http://localhost:3000/control\" swap localhost with your ip and you can work together in a networked environment.\n\nCurrently only OSX x64 prebuild, but should be Platform independent so you are free to Build your own Platform\n"
+    }
+  ]
 }

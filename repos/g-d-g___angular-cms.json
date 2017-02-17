@@ -182,14 +182,9 @@
     "productName": "angular-cms-app",
     "version": "0.0.2",
     "description": "This is a lightweight CMS built with Angular.js, Twitter Bootstrap and Node.js.",
-    "author": "Jonnie Spratley",
     "license": "MIT",
-    "readmeFilename": "README.md",
     "main": "index.js",
     "homepage": "https://github.com/jonniespratley/angular-cms",
-    "bugs": {
-      "url": "https://github.com/jonniespratley/angular-cms/issues"
-    },
     "engines": {
       "node": "0.10.x",
       "npm": "1.3.x"
@@ -199,14 +194,7 @@
       "start": "electron .",
       "build": "electron-packager . $npm_package_productName --prune --asar --all --version=0.29.1"
     },
-    "directories": {
-      "doc": "docs",
-      "test": "test"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/jonniespratley/angular-cms.git"
-    },
+    "repository": "https://github.com/jonniespratley/angular-cms",
     "keywords": [
       "angular",
       "angular-cms",
@@ -323,6 +311,17 @@
     "peerDependencies": {
       "grunt": "0.4.x",
       "karma": "~0.12.0"
+    },
+    "other": {
+      "author": "Jonnie Spratley",
+      "bugs": {
+        "url": "https://github.com/jonniespratley/angular-cms/issues"
+      },
+      "directories": {
+        "doc": "docs",
+        "test": "test"
+      },
+      "readmeFilename": "README.md"
     }
   },
   "packageStatus": 404,
@@ -371,5 +370,7 @@
       "url": "https://api.github.com/repos/g-d-g/angular-cms/git/commits/8e9ce865188c093122bdb3f32d73d8fb5d63c373",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "g-d-g___angular-cms.json",
+  "releases": []
 }

@@ -166,7 +166,6 @@
   "packageJSON": {
     "name": "Powder-Player",
     "version": "1.0.0",
-    "author": "Branza Victor-Alexandru <branza.alex@gmail.com>",
     "contributors": [
       {
         "name": "Luigi Poole",
@@ -181,11 +180,7 @@
     "relese-name": "Nightingale",
     "homepage": "http://powder.media/",
     "main": "js/browser.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/jaruba/PowderPlayer.git"
-    },
-    "bugs": "https://github.com/jaruba/PowderPlayer/issues",
+    "repository": "https://github.com/jaruba/PowderPlayer",
     "scripts": {
       "start": "grunt",
       "release": "grunt release"
@@ -259,6 +254,10 @@
     },
     "optionalDependencies": {
       "electron-prebuilt": "0.37.6"
+    },
+    "other": {
+      "author": "Branza Victor-Alexandru <branza.alex@gmail.com>",
+      "bugs": "https://github.com/jaruba/PowderPlayer/issues"
     }
   },
   "packageStatus": 200,
@@ -309,5 +308,7 @@
       "url": "https://api.github.com/repos/Irrelon/PowderPlayer/git/commits/e89a7bda449017e38b0bdbd145a5e35725d8742e",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Irrelon___PowderPlayer.json",
+  "releases": []
 }

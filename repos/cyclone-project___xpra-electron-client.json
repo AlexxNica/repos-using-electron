@@ -123,12 +123,6 @@
           "nsis"
         ]
       }
-    },
-    "other": {
-      "author": "GitHub",
-      "bugs": {
-        "url": "https://github.com/electron/electron-quick-start/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -157,5 +151,66 @@
       "commentCount": 0
     }
   },
-  "filename": "cyclone-project___xpra-electron-client.json"
+  "filename": "cyclone-project___xpra-electron-client.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/cyclone-project/xpra-electron-client/releases/4231878",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/cyclone-project/xpra-electron-client/releases/assets/2378441",
+          "id": 2378441,
+          "name": "xpra-electron-client.Setup.1.0.0.exe",
+          "label": null,
+          "uploader": {
+            "login": "Sturgelose",
+            "id": 244191,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/244191?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/Sturgelose",
+            "htmlUrl": "https://github.com/Sturgelose",
+            "followersUrl": "https://api.github.com/users/Sturgelose/followers",
+            "subscriptionsUrl": "https://api.github.com/users/Sturgelose/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/Sturgelose/orgs",
+            "reposUrl": "https://api.github.com/users/Sturgelose/repos",
+            "receivedEventsUrl": "https://api.github.com/users/Sturgelose/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-msdownload",
+          "state": "uploaded",
+          "size": 39009303,
+          "downloadCount": 4,
+          "createdAt": "2016-09-26T16:39:45.000Z",
+          "updatedAt": "2016-09-26T16:40:06.000Z",
+          "browserDownloadUrl": "https://github.com/cyclone-project/xpra-electron-client/releases/download/v0.1-alpha/xpra-electron-client.Setup.1.0.0.exe"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/cyclone-project/xpra-electron-client/releases/4231878/assets",
+      "htmlUrl": "https://github.com/cyclone-project/xpra-electron-client/releases/tag/v0.1-alpha",
+      "id": 4231878,
+      "tagName": "v0.1-alpha",
+      "targetCommitish": "master",
+      "name": "0.1-alpha",
+      "draft": false,
+      "author": {
+        "login": "Sturgelose",
+        "id": 244191,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/244191?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/Sturgelose",
+        "htmlUrl": "https://github.com/Sturgelose",
+        "followersUrl": "https://api.github.com/users/Sturgelose/followers",
+        "subscriptionsUrl": "https://api.github.com/users/Sturgelose/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/Sturgelose/orgs",
+        "reposUrl": "https://api.github.com/users/Sturgelose/repos",
+        "receivedEventsUrl": "https://api.github.com/users/Sturgelose/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-09-26T16:37:26.000Z",
+      "publishedAt": "2016-09-26T16:40:07.000Z",
+      "tarballUrl": "https://api.github.com/repos/cyclone-project/xpra-electron-client/tarball/v0.1-alpha",
+      "zipballUrl": "https://api.github.com/repos/cyclone-project/xpra-electron-client/zipball/v0.1-alpha",
+      "body": "First release of Cyclone Client.\n\nKnown issues:\n- The program may get stuck if has problems connecting to the server. In that case, close the service and restart (will be handled in the future)\n\nOnly works in Windows x64 at the moment!\n"
+    }
+  ]
 }

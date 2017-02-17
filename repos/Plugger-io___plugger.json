@@ -74,10 +74,7 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "go": "./node_modules/.bin/electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/piqus/windows-tweak-tool.git"
-    },
+    "repository": "https://github.com/piqus/windows-tweak-tool",
     "keywords": [
       "windows",
       "tweak",
@@ -87,11 +84,7 @@
       "customize",
       "tool"
     ],
-    "author": "piqus",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/piqus/windows-tweak-tool/issues"
-    },
     "homepage": "https://github.com/piqus/windows-tweak-tool#readme",
     "devDependencies": {
       "coffee-script": "^1.9.3",
@@ -118,6 +111,12 @@
       "react-router": "^0.13.3",
       "react-tap-event-plugin": "^0.1.7",
       "ws": "^0.8.0"
+    },
+    "other": {
+      "author": "piqus",
+      "bugs": {
+        "url": "https://github.com/piqus/windows-tweak-tool/issues"
+      }
     }
   },
   "packageStatus": 404,
@@ -146,5 +145,7 @@
       "url": "https://api.github.com/repos/Plugger-io/plugger/git/commits/4d3cf084b1928b273af98ea342357d2fb092aecc",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "Plugger-io___plugger.json",
+  "releases": []
 }

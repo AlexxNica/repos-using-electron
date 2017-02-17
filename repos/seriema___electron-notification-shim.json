@@ -103,16 +103,6 @@
         "node",
         "browser"
       ]
-    },
-    "other": {
-      "author": {
-        "name": "John-Philip Johansson",
-        "email": "seriema@gmail.com",
-        "url": "http://johansson.jp"
-      },
-      "bugs": {
-        "url": "https://github.com/seriema/electron-notification-shim/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -162,5 +152,69 @@
       "commentCount": 0
     }
   },
-  "filename": "seriema___electron-notification-shim.json"
+  "filename": "seriema___electron-notification-shim.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/seriema/electron-notification-shim/releases/3133069",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/seriema/electron-notification-shim/releases/3133069/assets",
+      "htmlUrl": "https://github.com/seriema/electron-notification-shim/releases/tag/v1.1.0",
+      "id": 3133069,
+      "tagName": "v1.1.0",
+      "targetCommitish": "master",
+      "name": "v1.1.0",
+      "draft": false,
+      "author": {
+        "login": "seriema",
+        "id": 693684,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/693684?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/seriema",
+        "htmlUrl": "https://github.com/seriema",
+        "followersUrl": "https://api.github.com/users/seriema/followers",
+        "subscriptionsUrl": "https://api.github.com/users/seriema/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/seriema/orgs",
+        "reposUrl": "https://api.github.com/users/seriema/repos",
+        "receivedEventsUrl": "https://api.github.com/users/seriema/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-04-30T10:24:10.000Z",
+      "publishedAt": "2016-04-30T10:34:09.000Z",
+      "tarballUrl": "https://api.github.com/repos/seriema/electron-notification-shim/tarball/v1.1.0",
+      "zipballUrl": "https://api.github.com/repos/seriema/electron-notification-shim/zipball/v1.1.0",
+      "body": "`ipc` was deprecated in [electron `0.35`](https://github.com/electron/electron/releases/tag/v0.35.0) and is now called `ipcRenderer` and `ipcMain` depending on where it's used. `electron-notification-shim` now uses them, if they're available.\n\nThe fallback to `ipc` might be removed in a future release some time after `electron` has removed it.\n\nThanks to:\n- @beshur (PR #1)\n"
+    },
+    {
+      "url": "https://api.github.com/repos/seriema/electron-notification-shim/releases/2089940",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/seriema/electron-notification-shim/releases/2089940/assets",
+      "htmlUrl": "https://github.com/seriema/electron-notification-shim/releases/tag/v1.0.0",
+      "id": 2089940,
+      "tagName": "v1.0.0",
+      "targetCommitish": "master",
+      "name": "v1.0.0 public-notification",
+      "draft": false,
+      "author": {
+        "login": "seriema",
+        "id": 693684,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/693684?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/seriema",
+        "htmlUrl": "https://github.com/seriema",
+        "followersUrl": "https://api.github.com/users/seriema/followers",
+        "subscriptionsUrl": "https://api.github.com/users/seriema/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/seriema/orgs",
+        "reposUrl": "https://api.github.com/users/seriema/repos",
+        "receivedEventsUrl": "https://api.github.com/users/seriema/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2015-11-07T23:33:12.000Z",
+      "publishedAt": "2015-11-07T23:40:14.000Z",
+      "tarballUrl": "https://api.github.com/repos/seriema/electron-notification-shim/tarball/v1.0.0",
+      "zipballUrl": "https://api.github.com/repos/seriema/electron-notification-shim/zipball/v1.0.0",
+      "body": "First release! :tada: \n\nThanks to @pracucci on [atom.slack.com](https://atomio.slack.com/archives/electron/p1446800849000063) and @hleumas on [electron issue 262](https://github.com/atom/electron/issues/262#issuecomment-116466249) for the inspiration.\n"
+    }
+  ]
 }

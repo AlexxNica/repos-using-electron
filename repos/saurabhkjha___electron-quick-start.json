@@ -172,21 +172,14 @@
       "start": "electron main.js",
       "build": "electron-packager . --platform=win32 --arch=all --overwrite"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "dependencies": {
       "electron-gh-releases": "^1.0.1"
@@ -194,6 +187,12 @@
     "devDependencies": {
       "electron-prebuilt": "^0.37.0",
       "electron-packager": "5.0.1"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 404,
@@ -253,5 +252,67 @@
       "url": "https://api.github.com/repos/saurabhkjha/electron-quick-start/git/commits/1d7b194779561c673fbccf18f114826687fd83f3",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "saurabhkjha___electron-quick-start.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/saurabhkjha/electron-quick-start/releases/3036892",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/saurabhkjha/electron-quick-start/releases/assets/1561162",
+          "id": 1561162,
+          "name": "electron-quick-start-win32-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "saurabhkjha",
+            "id": 71373,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/71373?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/saurabhkjha",
+            "htmlUrl": "https://github.com/saurabhkjha",
+            "followersUrl": "https://api.github.com/users/saurabhkjha/followers",
+            "subscriptionsUrl": "https://api.github.com/users/saurabhkjha/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/saurabhkjha/orgs",
+            "reposUrl": "https://api.github.com/users/saurabhkjha/repos",
+            "receivedEventsUrl": "https://api.github.com/users/saurabhkjha/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-zip-compressed",
+          "state": "uploaded",
+          "size": 51694703,
+          "downloadCount": 3,
+          "createdAt": "2016-04-17T14:38:44.000Z",
+          "updatedAt": "2016-04-17T14:41:36.000Z",
+          "browserDownloadUrl": "https://github.com/saurabhkjha/electron-quick-start/releases/download/0.0.1/electron-quick-start-win32-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/saurabhkjha/electron-quick-start/releases/3036892/assets",
+      "htmlUrl": "https://github.com/saurabhkjha/electron-quick-start/releases/tag/0.0.1",
+      "id": 3036892,
+      "tagName": "0.0.1",
+      "targetCommitish": "master",
+      "name": "",
+      "draft": false,
+      "author": {
+        "login": "saurabhkjha",
+        "id": 71373,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71373?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/saurabhkjha",
+        "htmlUrl": "https://github.com/saurabhkjha",
+        "followersUrl": "https://api.github.com/users/saurabhkjha/followers",
+        "subscriptionsUrl": "https://api.github.com/users/saurabhkjha/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/saurabhkjha/orgs",
+        "reposUrl": "https://api.github.com/users/saurabhkjha/repos",
+        "receivedEventsUrl": "https://api.github.com/users/saurabhkjha/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-04-17T14:42:59.000Z",
+      "publishedAt": "2016-04-17T13:50:12.000Z",
+      "tarballUrl": "https://api.github.com/repos/saurabhkjha/electron-quick-start/tarball/0.0.1",
+      "zipballUrl": "https://api.github.com/repos/saurabhkjha/electron-quick-start/zipball/0.0.1",
+      "body": ""
+    }
+  ]
 }

@@ -129,15 +129,6 @@
       "start": "node .bin/server.js",
       "build": "rm -rf dist/src && tsc",
       "prepublish": "typings install && npm run build"
-    },
-    "other": {
-      "author": "will.streeter@gmail.com",
-      "bugs": {
-        "url": "https://github.com/WillStreeter/electron-process-ipc/issues"
-      },
-      "directories": {
-        "test": "test"
-      }
     }
   },
   "packageStatus": 200,
@@ -166,5 +157,6 @@
       "commentCount": 0
     }
   },
-  "filename": "WillStreeter___electron-process-ipc.json"
+  "filename": "WillStreeter___electron-process-ipc.json",
+  "releases": []
 }

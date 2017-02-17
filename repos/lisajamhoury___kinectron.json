@@ -257,5 +257,66 @@
     }
   },
   "filename": "lisajamhoury___kinectron.json",
-  "sourceRepo": "vanevery/kinectron"
+  "sourceRepo": "vanevery/kinectron",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/lisajamhoury/kinectron/releases/4390258",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/lisajamhoury/kinectron/releases/assets/2999521",
+          "id": 2999521,
+          "name": "kinectron-0.0.4.6-win32-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "lisajamhoury",
+            "id": 7552772,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/7552772?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/lisajamhoury",
+            "htmlUrl": "https://github.com/lisajamhoury",
+            "followersUrl": "https://api.github.com/users/lisajamhoury/followers",
+            "subscriptionsUrl": "https://api.github.com/users/lisajamhoury/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/lisajamhoury/orgs",
+            "reposUrl": "https://api.github.com/users/lisajamhoury/repos",
+            "receivedEventsUrl": "https://api.github.com/users/lisajamhoury/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-zip-compressed",
+          "state": "uploaded",
+          "size": 61944535,
+          "downloadCount": 18,
+          "createdAt": "2017-01-16T17:48:16.000Z",
+          "updatedAt": "2017-01-16T17:50:04.000Z",
+          "browserDownloadUrl": "https://github.com/lisajamhoury/kinectron/releases/download/0.0.4.6/kinectron-0.0.4.6-win32-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/lisajamhoury/kinectron/releases/4390258/assets",
+      "htmlUrl": "https://github.com/lisajamhoury/kinectron/releases/tag/0.0.4.6",
+      "id": 4390258,
+      "tagName": "0.0.4.6",
+      "targetCommitish": "master",
+      "name": "Kinectron Application and API Preview",
+      "draft": false,
+      "author": {
+        "login": "lisajamhoury",
+        "id": 7552772,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7552772?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/lisajamhoury",
+        "htmlUrl": "https://github.com/lisajamhoury",
+        "followersUrl": "https://api.github.com/users/lisajamhoury/followers",
+        "subscriptionsUrl": "https://api.github.com/users/lisajamhoury/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/lisajamhoury/orgs",
+        "reposUrl": "https://api.github.com/users/lisajamhoury/repos",
+        "receivedEventsUrl": "https://api.github.com/users/lisajamhoury/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2017-01-16T17:28:55.000Z",
+      "publishedAt": "2016-10-14T13:49:36.000Z",
+      "tarballUrl": "https://api.github.com/repos/lisajamhoury/kinectron/tarball/0.0.4.6",
+      "zipballUrl": "https://api.github.com/repos/lisajamhoury/kinectron/zipball/0.0.4.6",
+      "body": "Kinectron is a node-based library that broadcasts Kinect2 data over a peer connection. It uses the Node Kinect2 and PeerJS libraries. \n\nKinectron has two components--an electron application to broadcast Kinect2 data over a peer connection, and a client-side API to request and receive Kinect2 data over a peer connection.\n\nRelease 0.0.4 Includes support for RGB, Depth, Infrared, Long Exposure Infrared, Green Key, All Bodies, and Tracked Bodies. It allows for use over local peer server by default, or personal peer server. It includes examples for use with p5.js. 0.0.4.2 adds easier access to individual joints. 0.0.4.3 includes license. 0.0.4.4 adds quickstart. 0.0.4.5 adds support for multiframe. 0.0.4.6 adds support for raw depth.\n\nThe application runs on Windows only. The client-side API works on Windows and OS X. Tested in Chrome only. \n"
+    }
+  ]
 }

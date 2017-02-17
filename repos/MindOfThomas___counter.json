@@ -87,9 +87,6 @@
       "electron-prebuilt": "^1.3.5",
       "grunt": "^1.0.1",
       "grunt-contrib-clean": "^1.0.0"
-    },
-    "other": {
-      "author": "Thomas Mays"
     }
   },
   "packageStatus": 200,
@@ -118,5 +115,66 @@
       "commentCount": 0
     }
   },
-  "filename": "MindOfThomas___counter.json"
+  "filename": "MindOfThomas___counter.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/MindOfThomas/counter/releases/4159192",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/MindOfThomas/counter/releases/assets/2329154",
+          "id": 2329154,
+          "name": "counter-app-setup-0.1.0.exe",
+          "label": null,
+          "uploader": {
+            "login": "MindOfThomas",
+            "id": 1779937,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/1779937?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/MindOfThomas",
+            "htmlUrl": "https://github.com/MindOfThomas",
+            "followersUrl": "https://api.github.com/users/MindOfThomas/followers",
+            "subscriptionsUrl": "https://api.github.com/users/MindOfThomas/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/MindOfThomas/orgs",
+            "reposUrl": "https://api.github.com/users/MindOfThomas/repos",
+            "receivedEventsUrl": "https://api.github.com/users/MindOfThomas/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-msdownload",
+          "state": "uploaded",
+          "size": 33421357,
+          "downloadCount": 0,
+          "createdAt": "2016-09-17T14:15:49.000Z",
+          "updatedAt": "2016-09-17T14:17:41.000Z",
+          "browserDownloadUrl": "https://github.com/MindOfThomas/counter/releases/download/0.1.0/counter-app-setup-0.1.0.exe"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/MindOfThomas/counter/releases/4159192/assets",
+      "htmlUrl": "https://github.com/MindOfThomas/counter/releases/tag/0.1.0",
+      "id": 4159192,
+      "tagName": "0.1.0",
+      "targetCommitish": "master",
+      "name": "Initial release",
+      "draft": false,
+      "author": {
+        "login": "MindOfThomas",
+        "id": 1779937,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1779937?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/MindOfThomas",
+        "htmlUrl": "https://github.com/MindOfThomas",
+        "followersUrl": "https://api.github.com/users/MindOfThomas/followers",
+        "subscriptionsUrl": "https://api.github.com/users/MindOfThomas/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/MindOfThomas/orgs",
+        "reposUrl": "https://api.github.com/users/MindOfThomas/repos",
+        "receivedEventsUrl": "https://api.github.com/users/MindOfThomas/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-09-14T14:06:40.000Z",
+      "publishedAt": "2016-09-17T14:17:58.000Z",
+      "tarballUrl": "https://api.github.com/repos/MindOfThomas/counter/tarball/0.1.0",
+      "zipballUrl": "https://api.github.com/repos/MindOfThomas/counter/zipball/0.1.0",
+      "body": "So far, the following features are implemented and should work:\n- +1 button increments the counter and clicking on the first number (the \"count\" number) in the counter decrements\n- \"Reset\" button sets the count to zero\n- Clicking the second number (the \"target\" number) allows you to change the target\n- Clicking the title above the counter allows you to set a custom title\n- The progress bar gives a more visual representation of the count's progress (placing the cursor over the progress bar will show the count (out of target) as a percentage)\n- The count, title, and window position/dimensions should be saved between sessions\n"
+    }
+  ]
 }

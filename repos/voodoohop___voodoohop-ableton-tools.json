@@ -362,5 +362,66 @@
     }
   },
   "filename": "voodoohop___voodoohop-ableton-tools.json",
-  "sourceRepo": "chentsulin/electron-react-boilerplate"
+  "sourceRepo": "chentsulin/electron-react-boilerplate",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/voodoohop/voodoohop-ableton-tools/releases/4159614",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/voodoohop/voodoohop-ableton-tools/releases/assets/2329568",
+          "id": 2329568,
+          "name": "VoodoohopLiveTools.zip",
+          "label": null,
+          "uploader": {
+            "login": "voodoohop",
+            "id": 5099901,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/5099901?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/voodoohop",
+            "htmlUrl": "https://github.com/voodoohop",
+            "followersUrl": "https://api.github.com/users/voodoohop/followers",
+            "subscriptionsUrl": "https://api.github.com/users/voodoohop/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/voodoohop/orgs",
+            "reposUrl": "https://api.github.com/users/voodoohop/repos",
+            "receivedEventsUrl": "https://api.github.com/users/voodoohop/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 69584925,
+          "downloadCount": 1,
+          "createdAt": "2016-09-17T17:03:31.000Z",
+          "updatedAt": "2016-09-17T17:05:55.000Z",
+          "browserDownloadUrl": "https://github.com/voodoohop/voodoohop-ableton-tools/releases/download/v0.5/VoodoohopLiveTools.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/voodoohop/voodoohop-ableton-tools/releases/4159614/assets",
+      "htmlUrl": "https://github.com/voodoohop/voodoohop-ableton-tools/releases/tag/v0.5",
+      "id": 4159614,
+      "tagName": "v0.5",
+      "targetCommitish": "master",
+      "name": "Voodoohop Multiwaveform and Harmonic Mixing Utils 0.5",
+      "draft": false,
+      "author": {
+        "login": "voodoohop",
+        "id": 5099901,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5099901?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/voodoohop",
+        "htmlUrl": "https://github.com/voodoohop",
+        "followersUrl": "https://api.github.com/users/voodoohop/followers",
+        "subscriptionsUrl": "https://api.github.com/users/voodoohop/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/voodoohop/orgs",
+        "reposUrl": "https://api.github.com/users/voodoohop/repos",
+        "receivedEventsUrl": "https://api.github.com/users/voodoohop/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-09-17T16:14:43.000Z",
+      "publishedAt": "2016-09-17T17:18:01.000Z",
+      "tarballUrl": "https://api.github.com/repos/voodoohop/voodoohop-ableton-tools/tarball/v0.5",
+      "zipballUrl": "https://api.github.com/repos/voodoohop/voodoohop-ableton-tools/zipball/v0.5",
+      "body": "thanks to the feedback from a bunch of you and some spare time i managed to improve the Voodoohop Live Tools.\n\na number of bugs have been fixed\nit now should reliably read the mostly used audio formats (.wav, .flac, .aiff, .mp3, .ogg).\nit interprets the key information of all three major formats (openkey, camelot, beatport and regular chord notation)\ndoesn't freeze anymore when encountering an audio format it cannot process\nif it can't find the key tag inside the audio file it will try and parse it from the filename\nexperimental feature: it shows an inner waveform that represents the amplitude of the bass part of the sound\n"
+    }
+  ]
 }

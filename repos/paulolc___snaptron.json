@@ -97,5 +97,66 @@
       "commentCount": 0
     }
   },
-  "filename": "paulolc___snaptron.json"
+  "filename": "paulolc___snaptron.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/paulolc/snaptron/releases/3266256",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/paulolc/snaptron/releases/assets/1715057",
+          "id": 1715057,
+          "name": "Snaptron-setup-x64-0.1.0.exe",
+          "label": null,
+          "uploader": {
+            "login": "paulolc",
+            "id": 673004,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/673004?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/paulolc",
+            "htmlUrl": "https://github.com/paulolc",
+            "followersUrl": "https://api.github.com/users/paulolc/followers",
+            "subscriptionsUrl": "https://api.github.com/users/paulolc/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/paulolc/orgs",
+            "reposUrl": "https://api.github.com/users/paulolc/repos",
+            "receivedEventsUrl": "https://api.github.com/users/paulolc/received_events",
+            "type": "User"
+          },
+          "contentType": "application/x-msdownload",
+          "state": "uploaded",
+          "size": 76410368,
+          "downloadCount": 2,
+          "createdAt": "2016-05-19T23:31:35.000Z",
+          "updatedAt": "2016-05-19T23:35:05.000Z",
+          "browserDownloadUrl": "https://github.com/paulolc/snaptron/releases/download/v0.1.0-alpha/Snaptron-setup-x64-0.1.0.exe"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/paulolc/snaptron/releases/3266256/assets",
+      "htmlUrl": "https://github.com/paulolc/snaptron/releases/tag/v0.1.0-alpha",
+      "id": 3266256,
+      "tagName": "v0.1.0-alpha",
+      "targetCommitish": "master",
+      "name": "Snaptron v0.1.0 - Ada Lovelace (alpha)",
+      "draft": false,
+      "author": {
+        "login": "paulolc",
+        "id": 673004,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/673004?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/paulolc",
+        "htmlUrl": "https://github.com/paulolc",
+        "followersUrl": "https://api.github.com/users/paulolc/followers",
+        "subscriptionsUrl": "https://api.github.com/users/paulolc/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/paulolc/orgs",
+        "reposUrl": "https://api.github.com/users/paulolc/repos",
+        "receivedEventsUrl": "https://api.github.com/users/paulolc/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-05-19T23:12:48.000Z",
+      "publishedAt": "2016-05-19T23:57:29.000Z",
+      "tarballUrl": "https://api.github.com/repos/paulolc/snaptron/tarball/v0.1.0-alpha",
+      "zipballUrl": "https://api.github.com/repos/paulolc/snaptron/zipball/v0.1.0-alpha",
+      "body": "This is the first release. mBot partial support only. \n\nWhat's new: (Well... everything!)\n- Support for multiple connected robots. A Snap! sprite is assigned to each mBot so you can control it independently.\n- No need to know on which serial port the mBot is. Snaptron scans all serial ports for signs of a connected robot\n- Provides visual feedback of the mBot connection status (connected, reconnecting, disconnected, offline)\n- Automatically detects robots disconnection and makes a predetermined number of attempts to reconnect\n- Automatically saves the project on exit\n- Automatically loads the last opened project when application starts\n"
+    }
+  ]
 }

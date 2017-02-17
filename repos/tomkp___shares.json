@@ -105,9 +105,6 @@
       "deploy": "npm run prod && surge dist statae.com",
       "start": "node server.js",
       "prod": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js"
-    },
-    "other": {
-      "author": "tom@tomkp.com"
     }
   },
   "packageStatus": 200,
@@ -136,5 +133,6 @@
       "commentCount": 0
     }
   },
-  "filename": "tomkp___shares.json"
+  "filename": "tomkp___shares.json",
+  "releases": []
 }

@@ -94,13 +94,7 @@
       "buildElectron": "npm run release && rm -rf standalone/app/ && cp -R app/ standalone/ && cp package.json standalone",
       "standalone": "npm run buildElectron && cd standalone && node buildStandalone.js"
     },
-    "repository": "https://github.com/stephomi/sculptgl",
-    "other": {
-      "author": "Stéphane GINIER",
-      "bugs": {
-        "url": "https://github.com/stephomi/sculptgl/issues"
-      }
-    }
+    "repository": "https://github.com/stephomi/sculptgl"
   },
   "packageStatus": 200,
   "contributors": [
@@ -133,5 +127,6 @@
       "commentCount": 0
     }
   },
-  "filename": "stephomi___sculptgl.json"
+  "filename": "stephomi___sculptgl.json",
+  "releases": []
 }

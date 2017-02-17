@@ -90,9 +90,6 @@
       "build": "electron-packager . BankDataGenerator --app-version=0.1.0 --out=builds --ignore='^/builds$' --platform=win32 --arch=ia32 --version-string.CompanyName=LinkIt --version-string.LegalCopyright=\"Copyright (C) 2016 My Company Ltd\" --version-string.FileDescription=BankDataGenerator --version-string.OriginalFilename=\"BankDataGenerator.exe\" --version-string.InternalName=BankDataGenerator --version-string.ProductName=BankDataGenerator --version-string.ProductVersion=0.1.0 --asar=true --overwrite",
       "installer": "electron-installer-squirrel-windows ./builds/BankDataGenerator-win32-ia32 --out=./dist --overwrite --authors=LinkIt --debug=true",
       "********************* comment *****************************": "electron-installer-squirrel-windows ./builds/BankDataGenerator-win32-ia32 --out=./dist --overwrite --authors=LinkIt --debug=true --icon_url=./resources/favicon.ico  --setup_icon=./resources/favicon.ico 아이콘 url은 url로만 사용"
-    },
-    "other": {
-      "author": "LinkIt"
     }
   },
   "packageStatus": 200,
@@ -122,5 +119,6 @@
       "commentCount": 0
     }
   },
-  "filename": "linkitapps___bank-data-generator.json"
+  "filename": "linkitapps___bank-data-generator.json",
+  "releases": []
 }

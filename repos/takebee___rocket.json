@@ -76,14 +76,8 @@
       "build": "webpack && webpack-dev-server",
       "electron-rebuild": "electron-rebuild"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/takebee/rocket.git"
-    },
+    "repository": "https://github.com/takebee/rocket",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/takebee/rocket/issues"
-    },
     "homepage": "https://github.com/takebee/rocket#readme",
     "dependencies": {
       "electron-prebuilt": "^0.37.6",
@@ -104,6 +98,11 @@
       "style-loader": "^0.13.1",
       "webpack": "^1.13.0",
       "webpack-dev-server": "^1.14.1"
+    },
+    "other": {
+      "bugs": {
+        "url": "https://github.com/takebee/rocket/issues"
+      }
     }
   },
   "packageStatus": 404,
@@ -131,5 +130,7 @@
       "url": "https://api.github.com/repos/takebee/rocket/git/commits/7f4fa2cd14d093ff61f6addf255bf9f0d7192000",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "takebee___rocket.json",
+  "releases": []
 }

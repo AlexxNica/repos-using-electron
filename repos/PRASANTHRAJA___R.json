@@ -76,11 +76,7 @@
     "version": "0.7.0-alpha.7",
     "license": "MIT",
     "description": "RFX Stack - Universal App featuring: React + Feathers + MobX",
-    "author": "Claudio Savino <claudio.savino@me.com> (https://twitter.com/foxhound87)",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/foxhound87/rfx-stack.git"
-    },
+    "repository": "https://github.com/foxhound87/rfx-stack",
     "scripts": {
       "lint": "eslint . --ext .jsx,.js --ignore-path .gitignore",
       "clean:build": "rm -rf ./public/build && rm -rf ./run/build",
@@ -229,6 +225,9 @@
       "webpack-hot-middleware": "2.12.2",
       "webpack-merge": "0.14.1",
       "webpack-node-externals": "1.4.3"
+    },
+    "other": {
+      "author": "Claudio Savino <claudio.savino@me.com> (https://twitter.com/foxhound87)"
     }
   },
   "packageStatus": 200,
@@ -258,5 +257,7 @@
       "url": "https://api.github.com/repos/PRASANTHRAJA/R/git/commits/3a0d8ff3aa2b5097fb856478b8f4ea7cdcaf4813",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "PRASANTHRAJA___R.json",
+  "releases": []
 }

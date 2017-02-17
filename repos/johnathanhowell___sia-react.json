@@ -110,9 +110,6 @@
       "start": "babel src/main -d ./ && webpack && electron .",
       "test": "babel src/main -d ./ && webpack && mocha ./test --recursive --compilers js:babel-register",
       "lint": "eslint ./test ./src && sass-lint -c ./.sass-lint.yml -v"
-    },
-    "other": {
-      "author": "Johnathan Howell"
     }
   },
   "packageStatus": 200,
@@ -141,5 +138,6 @@
       "commentCount": 0
     }
   },
-  "filename": "johnathanhowell___sia-react.json"
+  "filename": "johnathanhowell___sia-react.json",
+  "releases": []
 }

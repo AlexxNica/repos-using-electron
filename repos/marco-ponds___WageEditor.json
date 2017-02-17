@@ -54,10 +54,7 @@
       "build": "./scripts/haml.sh",
       "start": "npm run build && electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/marco-ponds/WageEditor"
-    },
+    "repository": "https://github.com/marco-ponds/WageEditor",
     "keywords": [
       "Mage",
       "Editor",
@@ -69,11 +66,7 @@
       "Canvas",
       "HTML5"
     ],
-    "author": "Marco Stagni <marcostagni.com>",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/marco-ponds/WageEditor/issues"
-    },
     "homepage": "https://github.com/marco-pondst/WageEditor#readme",
     "devDependencies": {
       "bower": "*",
@@ -83,6 +76,12 @@
       "ncp": "*",
       "remote": "*",
       "serve-static": "*"
+    },
+    "other": {
+      "author": "Marco Stagni <marcostagni.com>",
+      "bugs": {
+        "url": "https://github.com/marco-ponds/WageEditor/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -130,5 +129,7 @@
       "url": "https://api.github.com/repos/marco-ponds/Mage-Studio/git/commits/f38ac47de41507d424f3291978e3777fab68b038",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "marco-ponds___WageEditor.json",
+  "releases": []
 }

@@ -93,24 +93,23 @@
       "build": "node-gyp build --debug --target=0.36.7 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
       "conf": "node-gyp configure --debug --arch=x64"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/arkenthera/chiika-node.git"
-    },
+    "repository": "https://github.com/arkenthera/chiika-node",
     "keywords": [
       "chiika"
     ],
-    "author": "arkenthera",
     "license": "ISC",
     "gypfile": true,
-    "bugs": {
-      "url": "https://github.com/arkenthera/chiika-node/issues"
-    },
     "homepage": "https://github.com/arkenthera/chiika-node#readme",
     "binary": {
       "module_name": "ChiikaNative",
       "module_path": "./lib/binding/",
       "host": "https://your_module.s3-us-west-1.amazonaws.com"
+    },
+    "other": {
+      "author": "arkenthera",
+      "bugs": {
+        "url": "https://github.com/arkenthera/chiika-node/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -138,5 +137,7 @@
       "url": "https://api.github.com/repos/arkenthera/chiika-node/git/commits/ce929ce15d2492c2f1e26308d28ac4642f521b52",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "arkenthera___chiika-node.json",
+  "releases": []
 }

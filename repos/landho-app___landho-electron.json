@@ -85,10 +85,7 @@
       "package:win": "electron-packager ./ LandHo --platform=win32 --arch=all --out ./build --ignore='^/build$' --version 0.35.2 --overwrite --version-string.CompanyName='Thomas Brüggemann' --version-string.LegalCopyright='Copyright (C) 2016 Thomas Brüggemann' --version-string.FileDescription=$npm_package_productName --version-string.OriginalFilename='LandHo.exe' --version-string.InternalName=$npm_package_productName --version-string.ProductName=$npm_package_productName --version-string.ProductVersion=$npm_package_version --icon=./icon.ico"
     },
     "license": "MIT",
-    "homepage": "https://landho-app.com",
-    "other": {
-      "author": "Thomas Brüggemann"
-    }
+    "homepage": "https://landho-app.com"
   },
   "packageStatus": 200,
   "contributors": [
@@ -116,5 +113,179 @@
       "commentCount": 0
     }
   },
-  "filename": "landho-app___landho-electron.json"
+  "filename": "landho-app___landho-electron.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/landho-app/landho-electron/releases/4446319",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/landho-app/landho-electron/releases/assets/2577430",
+          "id": 2577430,
+          "name": "LandHo-mac-1.0.2.zip",
+          "label": null,
+          "uploader": {
+            "login": "thomasbrueggemann",
+            "id": 2313087,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/2313087?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/thomasbrueggemann",
+            "htmlUrl": "https://github.com/thomasbrueggemann",
+            "followersUrl": "https://api.github.com/users/thomasbrueggemann/followers",
+            "subscriptionsUrl": "https://api.github.com/users/thomasbrueggemann/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/thomasbrueggemann/orgs",
+            "reposUrl": "https://api.github.com/users/thomasbrueggemann/repos",
+            "receivedEventsUrl": "https://api.github.com/users/thomasbrueggemann/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 87225177,
+          "downloadCount": 0,
+          "createdAt": "2016-11-02T22:08:01.000Z",
+          "updatedAt": "2016-11-02T22:10:40.000Z",
+          "browserDownloadUrl": "https://github.com/landho-app/landho-electron/releases/download/1.0.2/LandHo-mac-1.0.2.zip"
+        },
+        {
+          "url": "https://api.github.com/repos/landho-app/landho-electron/releases/assets/2578832",
+          "id": 2578832,
+          "name": "LandHo-win32-1.0.2.zip",
+          "label": null,
+          "uploader": {
+            "login": "thomasbrueggemann",
+            "id": 2313087,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/2313087?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/thomasbrueggemann",
+            "htmlUrl": "https://github.com/thomasbrueggemann",
+            "followersUrl": "https://api.github.com/users/thomasbrueggemann/followers",
+            "subscriptionsUrl": "https://api.github.com/users/thomasbrueggemann/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/thomasbrueggemann/orgs",
+            "reposUrl": "https://api.github.com/users/thomasbrueggemann/repos",
+            "receivedEventsUrl": "https://api.github.com/users/thomasbrueggemann/received_events",
+            "type": "User"
+          },
+          "contentType": "application/octet-stream",
+          "state": "uploaded",
+          "size": 74153738,
+          "downloadCount": 3,
+          "createdAt": "2016-11-03T03:24:46.000Z",
+          "updatedAt": "2016-11-03T03:26:50.000Z",
+          "browserDownloadUrl": "https://github.com/landho-app/landho-electron/releases/download/1.0.2/LandHo-win32-1.0.2.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/landho-app/landho-electron/releases/4446319/assets",
+      "htmlUrl": "https://github.com/landho-app/landho-electron/releases/tag/1.0.2",
+      "id": 4446319,
+      "tagName": "1.0.2",
+      "targetCommitish": "master",
+      "name": "1.0.2",
+      "draft": false,
+      "author": {
+        "login": "thomasbrueggemann",
+        "id": 2313087,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2313087?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/thomasbrueggemann",
+        "htmlUrl": "https://github.com/thomasbrueggemann",
+        "followersUrl": "https://api.github.com/users/thomasbrueggemann/followers",
+        "subscriptionsUrl": "https://api.github.com/users/thomasbrueggemann/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/thomasbrueggemann/orgs",
+        "reposUrl": "https://api.github.com/users/thomasbrueggemann/repos",
+        "receivedEventsUrl": "https://api.github.com/users/thomasbrueggemann/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-11-02T22:48:03.000Z",
+      "publishedAt": "2016-11-03T03:28:42.000Z",
+      "tarballUrl": "https://api.github.com/repos/landho-app/landho-electron/tarball/1.0.2",
+      "zipballUrl": "https://api.github.com/repos/landho-app/landho-electron/zipball/1.0.2",
+      "body": "<img width=\"1399\" alt=\"screenshot 2016-10-17 20 06 58\" src=\"https://cloud.githubusercontent.com/assets/2313087/19581271/ae8e31a8-9723-11e6-8b08-28029ef2c5f3.png\">\n\nUpdated the noonsite.com data and implemented an additional update screen that notifies the user about future updates of the app.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/landho-app/landho-electron/releases/4003017",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/landho-app/landho-electron/releases/assets/2225775",
+          "id": 2225775,
+          "name": "LandHo-win32-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "thomasbrueggemann",
+            "id": 2313087,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/2313087?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/thomasbrueggemann",
+            "htmlUrl": "https://github.com/thomasbrueggemann",
+            "followersUrl": "https://api.github.com/users/thomasbrueggemann/followers",
+            "subscriptionsUrl": "https://api.github.com/users/thomasbrueggemann/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/thomasbrueggemann/orgs",
+            "reposUrl": "https://api.github.com/users/thomasbrueggemann/repos",
+            "receivedEventsUrl": "https://api.github.com/users/thomasbrueggemann/received_events",
+            "type": "User"
+          },
+          "contentType": "application/octet-stream",
+          "state": "uploaded",
+          "size": 66742009,
+          "downloadCount": 67,
+          "createdAt": "2016-08-29T23:39:35.000Z",
+          "updatedAt": "2016-08-29T23:44:34.000Z",
+          "browserDownloadUrl": "https://github.com/landho-app/landho-electron/releases/download/1.0/LandHo-win32-x64.zip"
+        },
+        {
+          "url": "https://api.github.com/repos/landho-app/landho-electron/releases/assets/2225556",
+          "id": 2225556,
+          "name": "LandHo.app.zip",
+          "label": null,
+          "uploader": {
+            "login": "thomasbrueggemann",
+            "id": 2313087,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/2313087?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/thomasbrueggemann",
+            "htmlUrl": "https://github.com/thomasbrueggemann",
+            "followersUrl": "https://api.github.com/users/thomasbrueggemann/followers",
+            "subscriptionsUrl": "https://api.github.com/users/thomasbrueggemann/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/thomasbrueggemann/orgs",
+            "reposUrl": "https://api.github.com/users/thomasbrueggemann/repos",
+            "receivedEventsUrl": "https://api.github.com/users/thomasbrueggemann/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 141211450,
+          "downloadCount": 70,
+          "createdAt": "2016-08-29T22:52:14.000Z",
+          "updatedAt": "2016-08-29T23:01:51.000Z",
+          "browserDownloadUrl": "https://github.com/landho-app/landho-electron/releases/download/1.0/LandHo.app.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/landho-app/landho-electron/releases/4003017/assets",
+      "htmlUrl": "https://github.com/landho-app/landho-electron/releases/tag/1.0",
+      "id": 4003017,
+      "tagName": "1.0",
+      "targetCommitish": "master",
+      "name": "1.0.0",
+      "draft": false,
+      "author": {
+        "login": "thomasbrueggemann",
+        "id": 2313087,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2313087?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/thomasbrueggemann",
+        "htmlUrl": "https://github.com/thomasbrueggemann",
+        "followersUrl": "https://api.github.com/users/thomasbrueggemann/followers",
+        "subscriptionsUrl": "https://api.github.com/users/thomasbrueggemann/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/thomasbrueggemann/orgs",
+        "reposUrl": "https://api.github.com/users/thomasbrueggemann/repos",
+        "receivedEventsUrl": "https://api.github.com/users/thomasbrueggemann/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-08-29T23:03:04.000Z",
+      "publishedAt": "2016-08-29T23:05:12.000Z",
+      "tarballUrl": "https://api.github.com/repos/landho-app/landho-electron/tarball/1.0",
+      "zipballUrl": "https://api.github.com/repos/landho-app/landho-electron/zipball/1.0",
+      "body": "<img width=\"1399\" alt=\"screenshot 2016-10-17 20 06 58\" src=\"https://cloud.githubusercontent.com/assets/2313087/19451457/3cd3c99a-94a5-11e6-9faa-7bb4554a68ee.png\">\n\nFirst release of the LandHo! app. It displays the information of noonsite.com for offline usage. \nThis is especially important for offshore cruising, when you don't have an internet connection, but want to get some information on a country you are sailing into.\n"
+    }
+  ]
 }

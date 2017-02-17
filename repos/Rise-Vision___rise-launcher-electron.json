@@ -100,9 +100,6 @@
       "integration": "export ELECTRON_PATH=$PWD/node_modules/electron-prebuilt/dist/electron && node_modules/.bin/electron-mocha -r ./init.js -t 10000 --recursive test/integration",
       "ui-integration": "node_modules/.bin/electron-mocha -r init.js test/integration/ui/main-it.js",
       "start": "./node_modules/.bin/electron main.js"
-    },
-    "other": {
-      "author": "Tyler Johnson <mail@tyler-johnson.ca> (http://github.com/tejohnso)"
     }
   },
   "packageStatus": 200,
@@ -134,5 +131,69 @@
       "commentCount": 0
     }
   },
-  "filename": "Rise-Vision___rise-launcher-electron.json"
+  "filename": "Rise-Vision___rise-launcher-electron.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/releases/2359805",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/releases/2359805/assets",
+      "htmlUrl": "https://github.com/Rise-Vision/rise-launcher-electron/releases/tag/v1.0.2",
+      "id": 2359805,
+      "tagName": "v1.0.2",
+      "targetCommitish": "master",
+      "name": "Reorganize project structure",
+      "draft": false,
+      "author": {
+        "login": "fjvallarino",
+        "id": 6565497,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6565497?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/fjvallarino",
+        "htmlUrl": "https://github.com/fjvallarino",
+        "followersUrl": "https://api.github.com/users/fjvallarino/followers",
+        "subscriptionsUrl": "https://api.github.com/users/fjvallarino/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/fjvallarino/orgs",
+        "reposUrl": "https://api.github.com/users/fjvallarino/repos",
+        "receivedEventsUrl": "https://api.github.com/users/fjvallarino/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2015-12-31T19:51:01.000Z",
+      "publishedAt": "2015-12-31T19:51:25.000Z",
+      "tarballUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/tarball/v1.0.2",
+      "zipballUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/zipball/v1.0.2",
+      "body": ""
+    },
+    {
+      "url": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/releases/2359801",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/releases/2359801/assets",
+      "htmlUrl": "https://github.com/Rise-Vision/rise-launcher-electron/releases/tag/v1.0.1",
+      "id": 2359801,
+      "tagName": "v1.0.1",
+      "targetCommitish": "master",
+      "name": "Improve build process",
+      "draft": false,
+      "author": {
+        "login": "fjvallarino",
+        "id": 6565497,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6565497?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/fjvallarino",
+        "htmlUrl": "https://github.com/fjvallarino",
+        "followersUrl": "https://api.github.com/users/fjvallarino/followers",
+        "subscriptionsUrl": "https://api.github.com/users/fjvallarino/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/fjvallarino/orgs",
+        "reposUrl": "https://api.github.com/users/fjvallarino/repos",
+        "receivedEventsUrl": "https://api.github.com/users/fjvallarino/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2015-12-31T00:39:08.000Z",
+      "publishedAt": "2015-12-31T19:50:45.000Z",
+      "tarballUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/tarball/v1.0.1",
+      "zipballUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/zipball/v1.0.1",
+      "body": ""
+    }
+  ]
 }

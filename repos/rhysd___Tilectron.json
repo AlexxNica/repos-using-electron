@@ -62,21 +62,14 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rhysd/Tilectron.git"
-    },
+    "repository": "https://github.com/rhysd/Tilectron",
     "keywords": [
       "browser",
       "electron",
       "tile",
       "window"
     ],
-    "author": "rhysd <lin90162@yahoo.co.jp>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/rhysd/Tilectron/issues"
-    },
     "homepage": "https://github.com/rhysd/Tilectron#readme",
     "dependencies": {
       "dexie": "^1.2.0",
@@ -99,6 +92,12 @@
       "eslint-plugin-mocha": "^1.0.0",
       "react-addons-test-utils": "^0.14.2",
       "typescript": "^1.6.2"
+    },
+    "other": {
+      "author": "rhysd <lin90162@yahoo.co.jp>",
+      "bugs": {
+        "url": "https://github.com/rhysd/Tilectron/issues"
+      }
     }
   },
   "packageStatus": 404,
@@ -146,5 +145,67 @@
       "url": "https://api.github.com/repos/rhysd/Tilectron/git/commits/6fc9b2fbc0fc85f2b99052427f55217da03f8d10",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "rhysd___Tilectron.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/rhysd/Tilectron/releases/2001279",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/rhysd/Tilectron/releases/assets/965574",
+          "id": 965574,
+          "name": "app.asar",
+          "label": null,
+          "uploader": {
+            "login": "rhysd",
+            "id": 823277,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/823277?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/rhysd",
+            "htmlUrl": "https://github.com/rhysd",
+            "followersUrl": "https://api.github.com/users/rhysd/followers",
+            "subscriptionsUrl": "https://api.github.com/users/rhysd/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/rhysd/orgs",
+            "reposUrl": "https://api.github.com/users/rhysd/repos",
+            "receivedEventsUrl": "https://api.github.com/users/rhysd/received_events",
+            "type": "User"
+          },
+          "contentType": "application/octet-stream",
+          "state": "uploaded",
+          "size": 11513798,
+          "downloadCount": 1,
+          "createdAt": "2015-10-22T09:58:58.000Z",
+          "updatedAt": "2015-10-22T09:59:30.000Z",
+          "browserDownloadUrl": "https://github.com/rhysd/Tilectron/releases/download/v0.0.4/app.asar"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/rhysd/Tilectron/releases/2001279/assets",
+      "htmlUrl": "https://github.com/rhysd/Tilectron/releases/tag/v0.0.4",
+      "id": 2001279,
+      "tagName": "v0.0.4",
+      "targetCommitish": "master",
+      "name": "v0.0.4",
+      "draft": false,
+      "author": {
+        "login": "rhysd",
+        "id": 823277,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/823277?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/rhysd",
+        "htmlUrl": "https://github.com/rhysd",
+        "followersUrl": "https://api.github.com/users/rhysd/followers",
+        "subscriptionsUrl": "https://api.github.com/users/rhysd/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/rhysd/orgs",
+        "reposUrl": "https://api.github.com/users/rhysd/repos",
+        "receivedEventsUrl": "https://api.github.com/users/rhysd/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2015-10-22T09:50:15.000Z",
+      "publishedAt": "2015-10-22T10:02:25.000Z",
+      "tarballUrl": "https://api.github.com/repos/rhysd/Tilectron/tarball/v0.0.4",
+      "zipballUrl": "https://api.github.com/repos/rhysd/Tilectron/zipball/v0.0.4",
+      "body": "Download `app.asar` and [Electron release](https://github.com/atom/electron/releases). Then put `app.asar` into below directory.\n- **Windows:** `electron/resources/`\n- **Linux:** `electron/resources/`\n- **OS X:** `Electron.app/Contents/Resources/`\n"
+    }
+  ]
 }

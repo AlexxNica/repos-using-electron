@@ -99,12 +99,6 @@
       "start-app": "electron app 2>&1 | silence-chromium",
       "test": "standard",
       "watch": "watchify client -o static/bundle.js -dv & DEBUG=whiteboard* nodemon server.js"
-    },
-    "other": {
-      "author": "Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)",
-      "bugs": {
-        "url": "https://github.com/feross/whiteboard/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -134,5 +128,6 @@
       "commentCount": 0
     }
   },
-  "filename": "feross___whiteboard.json"
+  "filename": "feross___whiteboard.json",
+  "releases": []
 }

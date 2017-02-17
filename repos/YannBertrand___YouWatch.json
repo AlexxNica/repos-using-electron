@@ -113,13 +113,6 @@
         "node",
         "browser"
       ]
-    },
-    "other": {
-      "author": {
-        "name": "Yann Bertrand",
-        "email": "yann@bertrand.com",
-        "url": "yann-bertrand.fr"
-      }
     }
   },
   "packageStatus": 200,
@@ -148,5 +141,69 @@
       "commentCount": 0
     }
   },
-  "filename": "YannBertrand___YouWatch.json"
+  "filename": "YannBertrand___YouWatch.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/yannbertrand/youwatch/releases/4824163",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/yannbertrand/youwatch/releases/4824163/assets",
+      "htmlUrl": "https://github.com/yannbertrand/youwatch/releases/tag/0.4.2",
+      "id": 4824163,
+      "tagName": "0.4.2",
+      "targetCommitish": "master",
+      "name": "0.4.2",
+      "draft": false,
+      "author": {
+        "login": "yannbertrand",
+        "id": 5855339,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5855339?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/yannbertrand",
+        "htmlUrl": "https://github.com/yannbertrand",
+        "followersUrl": "https://api.github.com/users/yannbertrand/followers",
+        "subscriptionsUrl": "https://api.github.com/users/yannbertrand/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/yannbertrand/orgs",
+        "reposUrl": "https://api.github.com/users/yannbertrand/repos",
+        "receivedEventsUrl": "https://api.github.com/users/yannbertrand/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-12-03T09:11:04.000Z",
+      "publishedAt": "2016-12-03T15:15:53.000Z",
+      "tarballUrl": "https://api.github.com/repos/yannbertrand/youwatch/tarball/0.4.2",
+      "zipballUrl": "https://api.github.com/repos/yannbertrand/youwatch/zipball/0.4.2",
+      "body": "Finally do not save bounds depending on displays plugged in as it was really buggy (see https://github.com/electron/electron/issues/7870 for more info). Save preferred mode depending on displays plugged in anyway.\n"
+    },
+    {
+      "url": "https://api.github.com/repos/yannbertrand/youwatch/releases/4692025",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/yannbertrand/youwatch/releases/4692025/assets",
+      "htmlUrl": "https://github.com/yannbertrand/youwatch/releases/tag/0.4.0",
+      "id": 4692025,
+      "tagName": "0.4.0",
+      "targetCommitish": "master",
+      "name": "Redesign",
+      "draft": false,
+      "author": {
+        "login": "yannbertrand",
+        "id": 5855339,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5855339?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/yannbertrand",
+        "htmlUrl": "https://github.com/yannbertrand",
+        "followersUrl": "https://api.github.com/users/yannbertrand/followers",
+        "subscriptionsUrl": "https://api.github.com/users/yannbertrand/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/yannbertrand/orgs",
+        "reposUrl": "https://api.github.com/users/yannbertrand/repos",
+        "receivedEventsUrl": "https://api.github.com/users/yannbertrand/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-11-17T21:02:14.000Z",
+      "publishedAt": "2016-11-17T21:09:57.000Z",
+      "tarballUrl": "https://api.github.com/repos/yannbertrand/youwatch/tarball/0.4.0",
+      "zipballUrl": "https://api.github.com/repos/yannbertrand/youwatch/zipball/0.4.0",
+      "body": "- new custom titlebar\n- add a switch to choose between fullscreen and play-on-top mode\n- the google authentication popup no longer exist, it will now open in your browser instance\n- add custom controls rather than the youtube playlist player (previous video, next video, repeat current video)\n- try to save the window bounds (may be buggy) depending on the plugged in displays\n"
+    }
+  ]
 }

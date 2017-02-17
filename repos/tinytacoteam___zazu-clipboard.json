@@ -72,10 +72,7 @@
     "scripts": {
       "test": "mocha ./test"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/tinytacoteam/zazu-clipboard.git"
-    },
+    "repository": "https://github.com/tinytacoteam/zazu-clipboard",
     "keywords": [
       "clipboard",
       "clip",
@@ -83,15 +80,17 @@
       "manager",
       "zazu"
     ],
-    "author": "Blaine Schmeisser",
     "license": "Unlicense",
-    "bugs": {
-      "url": "https://github.com/tinytacoteam/zazu-clipboard/issues"
-    },
     "homepage": "https://github.com/tinytacoteam/zazu-clipboard#readme",
     "devDependencies": {
       "chai": "^3.5.0",
       "mocha": "^2.5.3"
+    },
+    "other": {
+      "author": "Blaine Schmeisser",
+      "bugs": {
+        "url": "https://github.com/tinytacoteam/zazu-clipboard/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -119,5 +118,7 @@
       "url": "https://api.github.com/repos/tinytacoteam/zazu-clipboard/git/commits/9edd701472048d8642a24197a4ffba7dbb4ec552",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "tinytacoteam___zazu-clipboard.json",
+  "releases": []
 }

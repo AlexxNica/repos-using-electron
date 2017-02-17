@@ -88,7 +88,6 @@
       "build:dist-js": "npm run build:transpile & npm run build:copy-libs",
       "build": "npm run build:dist-html & npm run build:dist-js"
     },
-    "author": "Flaki (https://twitter.com/slsoftworks)",
     "license": "MIT",
     "dependencies": {
       "body-parser": "^1.14.2",
@@ -107,6 +106,9 @@
       "babel-preset-es2015": "^6.5.0",
       "shelljs": "^0.6.0",
       "whatwg-fetch": "^0.11.0"
+    },
+    "other": {
+      "author": "Flaki (https://twitter.com/slsoftworks)"
     }
   },
   "packageStatus": 200,
@@ -135,5 +137,7 @@
       "url": "https://api.github.com/repos/flaki/clouduboy/git/commits/87cbebd5d2f6947a293fe17e0d8a79ea192cd5d0",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "flaki___clouduboy.json",
+  "releases": []
 }

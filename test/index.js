@@ -56,6 +56,13 @@ describe('repos', function () {
     expect(repos.every(repo => Array.isArray(repo.contributors))).to.equal(true)
   })
 
+  they('always have a releases array', function () {
+    this.skip() // a few repos are missing. why?
+    repos.forEach(repo => {
+      expect(repo.releases).to.be.an('array', `${repo.name} should have a releases array`)
+    })
+  })
+
   they('always have a packageJSON object', function () {
     repos.forEach(repo => {
       expect(repo.packageJSON).to.be.an('object', `${repo.name} should have a packageJSON object`)

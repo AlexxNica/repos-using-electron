@@ -122,5 +122,93 @@
       "commentCount": 0
     }
   },
-  "filename": "Becklyn___Sipgate-Besetzlampenfeld-App.json"
+  "filename": "Becklyn___Sipgate-Besetzlampenfeld-App.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/Becklyn/Sipgate-Besetzlampenfeld-App/releases/3416131",
+      "assets": [
+        {
+          "url": "https://api.github.com/repos/Becklyn/Sipgate-Besetzlampenfeld-App/releases/assets/1826365",
+          "id": 1826365,
+          "name": "Sipgate-Besetztlampenfeld-App-osx.zip",
+          "label": null,
+          "uploader": {
+            "login": "apfelbox",
+            "id": 1032411,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/1032411?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/apfelbox",
+            "htmlUrl": "https://github.com/apfelbox",
+            "followersUrl": "https://api.github.com/users/apfelbox/followers",
+            "subscriptionsUrl": "https://api.github.com/users/apfelbox/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/apfelbox/orgs",
+            "reposUrl": "https://api.github.com/users/apfelbox/repos",
+            "receivedEventsUrl": "https://api.github.com/users/apfelbox/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 43445738,
+          "downloadCount": 3,
+          "createdAt": "2016-06-10T09:23:55.000Z",
+          "updatedAt": "2016-06-10T09:25:41.000Z",
+          "browserDownloadUrl": "https://github.com/Becklyn/Sipgate-Besetzlampenfeld-App/releases/download/1.0/Sipgate-Besetztlampenfeld-App-osx.zip"
+        },
+        {
+          "url": "https://api.github.com/repos/Becklyn/Sipgate-Besetzlampenfeld-App/releases/assets/1826367",
+          "id": 1826367,
+          "name": "Sipgate-Besetztlampenfeld-App-win32-x64.zip",
+          "label": null,
+          "uploader": {
+            "login": "apfelbox",
+            "id": 1032411,
+            "avatarUrl": "https://avatars.githubusercontent.com/u/1032411?v=3",
+            "gravatarId": "",
+            "url": "https://api.github.com/users/apfelbox",
+            "htmlUrl": "https://github.com/apfelbox",
+            "followersUrl": "https://api.github.com/users/apfelbox/followers",
+            "subscriptionsUrl": "https://api.github.com/users/apfelbox/subscriptions",
+            "organizationsUrl": "https://api.github.com/users/apfelbox/orgs",
+            "reposUrl": "https://api.github.com/users/apfelbox/repos",
+            "receivedEventsUrl": "https://api.github.com/users/apfelbox/received_events",
+            "type": "User"
+          },
+          "contentType": "application/zip",
+          "state": "uploaded",
+          "size": 53058636,
+          "downloadCount": 2,
+          "createdAt": "2016-06-10T09:24:25.000Z",
+          "updatedAt": "2016-06-10T09:25:41.000Z",
+          "browserDownloadUrl": "https://github.com/Becklyn/Sipgate-Besetzlampenfeld-App/releases/download/1.0/Sipgate-Besetztlampenfeld-App-win32-x64.zip"
+        }
+      ],
+      "assetsUrl": "https://api.github.com/repos/Becklyn/Sipgate-Besetzlampenfeld-App/releases/3416131/assets",
+      "htmlUrl": "https://github.com/Becklyn/Sipgate-Besetzlampenfeld-App/releases/tag/1.0",
+      "id": 3416131,
+      "tagName": "1.0",
+      "targetCommitish": "master",
+      "name": "First release",
+      "draft": false,
+      "author": {
+        "login": "apfelbox",
+        "id": 1032411,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1032411?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/apfelbox",
+        "htmlUrl": "https://github.com/apfelbox",
+        "followersUrl": "https://api.github.com/users/apfelbox/followers",
+        "subscriptionsUrl": "https://api.github.com/users/apfelbox/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/apfelbox/orgs",
+        "reposUrl": "https://api.github.com/users/apfelbox/repos",
+        "receivedEventsUrl": "https://api.github.com/users/apfelbox/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2016-06-10T09:18:32.000Z",
+      "publishedAt": "2016-06-10T09:22:17.000Z",
+      "tarballUrl": "https://api.github.com/repos/Becklyn/Sipgate-Besetzlampenfeld-App/tarball/1.0",
+      "zipballUrl": "https://api.github.com/repos/Becklyn/Sipgate-Besetzlampenfeld-App/zipball/1.0",
+      "body": "# The first build.\n\nIt includes displaying the experiment website by sipgate (https://secure.live.sipgate.de/experiment/blf), and injecting a script to hide unnecessary overlays.\n\nIt also watches for changes in the DOM to send a notification as soon as the status of a participant changed (from idle to ringing).\nIf on phone is ringing, a notification is sent in which the phone code is described, to pickup the phone from your own place.\n\n## Performance\n\nThe app is currently not highly performant, as it continuously needs to check the DOM for changes.\nIf somebody has documentation to reuse the (probably) existing DOM events of the website, please create an issue, that we can improve the app.\n"
+    }
+  ]
 }

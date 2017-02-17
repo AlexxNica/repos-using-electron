@@ -90,12 +90,6 @@
     "homepage": "https://github.com/storm-factory/tulip",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
-    },
-    "other": {
-      "author": "Drew Mitchell",
-      "bugs": {
-        "url": "https://github.com/storm-factory/tulip/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -124,5 +118,100 @@
       "commentCount": 0
     }
   },
-  "filename": "storm-factory___tulip.json"
+  "filename": "storm-factory___tulip.json",
+  "releases": [
+    {
+      "url": "https://api.github.com/repos/storm-factory/tulip/releases/5129969",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/storm-factory/tulip/releases/5129969/assets",
+      "htmlUrl": "https://github.com/storm-factory/tulip/releases/tag/v1.6.0",
+      "id": 5129969,
+      "tagName": "v1.6.0",
+      "targetCommitish": "master",
+      "name": "beta release version 1.6",
+      "draft": false,
+      "author": {
+        "login": "storm-factory",
+        "id": 6035246,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6035246?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/storm-factory",
+        "htmlUrl": "https://github.com/storm-factory",
+        "followersUrl": "https://api.github.com/users/storm-factory/followers",
+        "subscriptionsUrl": "https://api.github.com/users/storm-factory/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/storm-factory/orgs",
+        "reposUrl": "https://api.github.com/users/storm-factory/repos",
+        "receivedEventsUrl": "https://api.github.com/users/storm-factory/received_events",
+        "type": "User"
+      },
+      "prerelease": false,
+      "createdAt": "2017-01-11T04:33:11.000Z",
+      "publishedAt": "2017-01-11T15:06:11.000Z",
+      "tarballUrl": "https://api.github.com/repos/storm-factory/tulip/tarball/v1.6.0",
+      "zipballUrl": "https://api.github.com/repos/storm-factory/tulip/zipball/v1.6.0",
+      "body": "### Features Added\n1. Rotation and scaling from dragging track ends\n2. Ability to modify multiple track types in one workflow\n\n### Bugs Fixed\n1. Fixed GPX export\n2. Editing entry/exit track causing phantom track edit UI to fire up\n3. Holding shift caused new tulip instance when clicking track types\n4. Map did not resize itself with window\n5. Track sizes were too similar to be easily visually distinguished \n\n### Chores\n\nNo chores this sprint\n"
+    },
+    {
+      "url": "https://api.github.com/repos/storm-factory/tulip/releases/4991885",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/storm-factory/tulip/releases/4991885/assets",
+      "htmlUrl": "https://github.com/storm-factory/tulip/releases/tag/v1.5",
+      "id": 4991885,
+      "tagName": "v1.5",
+      "targetCommitish": "master",
+      "name": "beta release version 1.5",
+      "draft": false,
+      "author": {
+        "login": "storm-factory",
+        "id": 6035246,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6035246?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/storm-factory",
+        "htmlUrl": "https://github.com/storm-factory",
+        "followersUrl": "https://api.github.com/users/storm-factory/followers",
+        "subscriptionsUrl": "https://api.github.com/users/storm-factory/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/storm-factory/orgs",
+        "reposUrl": "https://api.github.com/users/storm-factory/repos",
+        "receivedEventsUrl": "https://api.github.com/users/storm-factory/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-12-22T15:20:32.000Z",
+      "publishedAt": "2016-12-22T15:25:27.000Z",
+      "tarballUrl": "https://api.github.com/repos/storm-factory/tulip/tarball/v1.5",
+      "zipballUrl": "https://api.github.com/repos/storm-factory/tulip/zipball/v1.5",
+      "body": "### Features Added\n1. GPX Waypoints\n2. Road and DCW roadtypes now supported\n3. All glyphs are resizable and UI for note section was enhanced\n\n### Bugs Fixed\n1. Printing had extra pages for Letter size\n2. Opening a saved roadbook respects the layering of the glyphs\n3. Lat long wasn't being updated when a waypoint was moved\n\n### Chores\n1. No Chores this release\n"
+    },
+    {
+      "url": "https://api.github.com/repos/storm-factory/tulip/releases/3963633",
+      "assets": [],
+      "assetsUrl": "https://api.github.com/repos/storm-factory/tulip/releases/3963633/assets",
+      "htmlUrl": "https://github.com/storm-factory/tulip/releases/tag/v1.4b",
+      "id": 3963633,
+      "tagName": "v1.4b",
+      "targetCommitish": "master",
+      "name": "beta release version 1.4",
+      "draft": false,
+      "author": {
+        "login": "storm-factory",
+        "id": 6035246,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6035246?v=3",
+        "gravatarId": "",
+        "url": "https://api.github.com/users/storm-factory",
+        "htmlUrl": "https://github.com/storm-factory",
+        "followersUrl": "https://api.github.com/users/storm-factory/followers",
+        "subscriptionsUrl": "https://api.github.com/users/storm-factory/subscriptions",
+        "organizationsUrl": "https://api.github.com/users/storm-factory/orgs",
+        "reposUrl": "https://api.github.com/users/storm-factory/repos",
+        "receivedEventsUrl": "https://api.github.com/users/storm-factory/received_events",
+        "type": "User"
+      },
+      "prerelease": true,
+      "createdAt": "2016-08-24T15:27:03.000Z",
+      "publishedAt": "2016-08-24T15:36:33.000Z",
+      "tarballUrl": "https://api.github.com/repos/storm-factory/tulip/tarball/v1.4b",
+      "zipballUrl": "https://api.github.com/repos/storm-factory/tulip/zipball/v1.4b",
+      "body": "### Features Added\n1. Roadbook scrolling when clicking on waypoint in map\n2. Track and glyph targeted/muti delete\n3. Ability to add multiple glyphs at one time\n4. Ability to choose map layers\n5. Route multi delete\n\n### Bugs Fixed\n1. Save button state wasn't changing when tulip was edited\n2. Tulips with glyphs would have a broken exit track\n3. Altering the route around a waypoint would overwrite the exit track in the tulip\n4. When in edit mode clicking on the tulip would zoom/pan the map\n5. PDF widths were not roadbook width friendly\n\n### Chores\n1. various usability tweaks\n2. refactored mapping module\n3. wrote unit test for mapping module\n"
+    }
+  ]
 }
